@@ -1,0 +1,5330 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 788862b7-255f-4127-93b4-499a663e5844
+Status: Done
+Stage: Done
+Title: Spotify and Disney have everything-app dreams
+Audio URL: https://jfe93e.s3.amazonaws.com/7469321725058638394/-6420724559694566182/s93290-US-4809s-1700046898.mp3
+Description: Today on the flagship podcast of machine learning-based recommendation systems:
+03:31 - The Verge’s David Pierce chats with Spotify’s co-president and chief product officer Gustav Söderström about recommendations, audiobooks, app design, what Spotify wants to be, and whether it’s possible to do it all well. 
+Spotify - The Verge
+
+44:08 - Alex Cranz joins the show to discuss a bunch of recent streaming news, including the plan to combine Disney Plus and Hulu. 
+Streaming - The Verge
+
+1:10:28 - Chris Welch joins the show to help answer this week’s Vergecast Hotline question about mp3 players. 
+
+The Mighty — an iPod shuffle for Spotify — finally arrives for $85
+
+bemighty.com
+
+
+Email us at vergecast@theverge.com or call us at 866-VERGE11, we love hearing from you.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Enabled (6 ads detected)
+
+2
+00:00:02,515 --> 00:00:06,005
+Speaker 2:  Welcome To The Vergecast, the flagship podcast of machine learning based
+
+3
+00:00:06,005 --> 00:00:09,765
+Speaker 2:  recommendation systems. I'm your friend David Pierce and I am on a
+
+4
+00:00:09,765 --> 00:00:13,445
+Speaker 2:  walk. So I've been trying this thing where instead of sitting in front of
+
+5
+00:00:13,445 --> 00:00:16,885
+Speaker 2:  screens all day, which I do, way too much of my back hurts, my eyes hurt.
+
+6
+00:00:16,885 --> 00:00:20,745
+Speaker 2:  It's just bad times. I try to get out in the world once a day
+
+7
+00:00:20,745 --> 00:00:24,605
+Speaker 2:  and just kind of wander around. A lot of smart people say that if you want
+
+8
+00:00:24,605 --> 00:00:28,525
+Speaker 2:  to think something through or be creative or process something, there's
+
+9
+00:00:28,525 --> 00:00:32,365
+Speaker 2:  really nothing better for you than to just go for a walk, leave all your
+
+10
+00:00:32,365 --> 00:00:36,325
+Speaker 2:  technology at home and just walk until you've figured it out. It's a
+
+11
+00:00:36,325 --> 00:00:40,125
+Speaker 2:  kind of romantic idea. I really love it. But so far in my experience,
+
+12
+00:00:40,125 --> 00:00:43,645
+Speaker 2:  I've found that I spend a lot of time just like walking, singing
+
+13
+00:00:43,718 --> 00:00:47,285
+Speaker 2:  1 21 Pilots song to myself over and over
+
+14
+00:00:47,285 --> 00:00:51,165
+Speaker 2:  again, and then I get home and I'm like, did I actually just accomplish
+
+15
+00:00:51,165 --> 00:00:53,645
+Speaker 2:  anything? I don't know. Maybe it's like meditation where you have to do it
+
+16
+00:00:53,645 --> 00:00:57,005
+Speaker 2:  a lot and you get better at it. But I feel like when I go on a walk and I'm
+
+17
+00:00:57,005 --> 00:01:00,165
+Speaker 2:  like, I'm gonna think deep thoughts, it's not going super great so far, but
+
+18
+00:01:00,165 --> 00:01:03,385
+Speaker 2:  at least the walking is nice and it's definitely good to not look at screens
+
+19
+00:01:03,385 --> 00:01:06,885
+Speaker 2:  for at least a little while every now and then. Anyway, we have an awesome
+
+20
+00:01:06,885 --> 00:01:09,935
+Speaker 2:  show coming up for you today. The first person I'm gonna talk to is Gustav
+
+21
+00:01:09,935 --> 00:01:13,605
+Speaker 2:  Soderstrom, who's the co-president of Spotify. He also ran product for
+
+22
+00:01:13,605 --> 00:01:17,485
+Speaker 2:  Spotify for a long time and he is the person I most wanted to talk
+
+23
+00:01:17,485 --> 00:01:21,125
+Speaker 2:  to about what Spotify is trying to be. It's trying to be
+
+24
+00:01:21,125 --> 00:01:24,925
+Speaker 2:  this incredible AI recommendation system that knows exactly
+
+25
+00:01:24,925 --> 00:01:28,245
+Speaker 2:  what you wanna listen to and exactly what you're doing at exactly the right
+
+26
+00:01:28,245 --> 00:01:32,005
+Speaker 2:  time. It's also kind of trying to be TikTok and it's doing audiobooks and
+
+27
+00:01:32,005 --> 00:01:35,985
+Speaker 2:  it's doing podcasts, and I'm trying to figure out how you do
+
+28
+00:01:35,985 --> 00:01:39,785
+Speaker 2:  all of that all in one place without making a total mess
+
+29
+00:01:39,785 --> 00:01:43,285
+Speaker 2:  out of Spotify. So that is what Gustave and I talked about. He's very open
+
+30
+00:01:43,285 --> 00:01:46,525
+Speaker 2:  and very smart about all of it, and it was a really fun conversation after
+
+31
+00:01:46,525 --> 00:01:50,005
+Speaker 2:  that. I'm gonna talk to Alex Cranz, who is my favorite person to talk to
+
+32
+00:01:50,005 --> 00:01:53,435
+Speaker 2:  about all things streaming. We're gonna talk about Disney and
+
+33
+00:01:53,435 --> 00:01:57,325
+Speaker 2:  Hulu And, what Verizon is doing with Netflix and Max and what's going on
+
+34
+00:01:57,325 --> 00:02:01,165
+Speaker 2:  with Marvel movies and just what to make of all of this
+
+35
+00:02:01,165 --> 00:02:05,005
+Speaker 2:  upheaval. We both have strong theories about ads and bundling and we had
+
+36
+00:02:05,005 --> 00:02:07,725
+Speaker 2:  a lot of fun hanging out. And of course we're gonna get to the virtual cast
+
+37
+00:02:07,725 --> 00:02:10,525
+Speaker 2:  Hotline, we have a really fun one this week. All that is coming up in just
+
+38
+00:02:10,525 --> 00:02:14,465
+Speaker 2:  a second, but first I have like three more blocks on this walk
+
+39
+00:02:14,465 --> 00:02:18,045
+Speaker 2:  and I'm gonna go try and think some deep thoughts on my way back. This is
+
+40
+00:02:18,045 --> 00:02:21,995
+Speaker 2:  The Vergecast. See you in a sec.
+
+41
+00:03:33,795 --> 00:03:37,405
+Speaker 2:  Welcome back, So, I. Didn't think any deep thoughts, but that
+
+42
+00:03:37,512 --> 00:03:41,445
+Speaker 2:  1 21 pilot song is now deeply lodged in my
+
+43
+00:03:41,445 --> 00:03:45,095
+Speaker 2:  head, probably forever. And also I'm cold All, right?
+
+44
+00:03:45,095 --> 00:03:48,985
+Speaker 2:  Let's get into it. I think Spotify is one of the most interesting companies
+
+45
+00:03:48,985 --> 00:03:52,965
+Speaker 2:  and apps on the planet right now. It's a huge winner as a music
+
+46
+00:03:52,965 --> 00:03:56,845
+Speaker 2:  streaming app, but it turns out there's really no money in being a
+
+47
+00:03:56,845 --> 00:04:00,255
+Speaker 2:  music streaming app. So it's trying to figure out podcasts and
+
+48
+00:04:00,255 --> 00:04:03,865
+Speaker 2:  audiobooks and in general being whatever the
+
+49
+00:04:03,865 --> 00:04:07,445
+Speaker 2:  TikTok for audio is. That's what CEO Daniel Eck has called it
+
+50
+00:04:07,445 --> 00:04:11,025
+Speaker 2:  before and it sort of makes sense. But then as a user of Spotify
+
+51
+00:04:11,025 --> 00:04:14,925
+Speaker 2:  mostly I worry that all of that stuff is just gonna clutter up
+
+52
+00:04:14,925 --> 00:04:18,295
+Speaker 2:  the app and confuse my playlists and make everything about it
+
+53
+00:04:18,295 --> 00:04:22,175
+Speaker 2:  worse. I think a lot that maybe Spotify should just be a really good
+
+54
+00:04:22,175 --> 00:04:26,165
+Speaker 2:  music app instead of trying to take over the world and shove
+
+55
+00:04:26,165 --> 00:04:29,795
+Speaker 2:  a lot of audio into one place. I don't know. Gustav Soderstrom,
+
+56
+00:04:29,795 --> 00:04:33,155
+Speaker 2:  Spotify's co-president and chief product Officer is the person
+
+57
+00:04:33,155 --> 00:04:37,125
+Speaker 2:  responsible for making all of this stuff make sense together. So I brought
+
+58
+00:04:37,125 --> 00:04:40,785
+Speaker 2:  him onto the show to talk about everything from recommendations to audiobooks,
+
+59
+00:04:40,785 --> 00:04:44,685
+Speaker 2:  to app design, all to try and figure out what Spotify wants to
+
+60
+00:04:44,685 --> 00:04:48,525
+Speaker 2:  be and whether it's possible to do it all really well. We
+
+61
+00:04:48,525 --> 00:04:52,245
+Speaker 2:  started by going back a few months to this spring when Spotify
+
+62
+00:04:52,245 --> 00:04:55,925
+Speaker 2:  announced a more visual, more TikTok style
+
+63
+00:04:55,925 --> 00:04:59,885
+Speaker 2:  redesign for the app. Here's Gusav at Spotify's Stream on event explaining
+
+64
+00:04:59,885 --> 00:05:01,825
+Speaker 2:  kind of the big idea behind it.
+
+65
+00:05:01,825 --> 00:05:05,665
+Speaker 5:  The Spotify we're revealing today is built to feel alive.
+
+66
+00:05:05,665 --> 00:05:09,145
+Speaker 5:  The interface is dynamic. It's easier than ever to
+
+67
+00:05:09,145 --> 00:05:12,805
+Speaker 5:  scroll and swipe and load it with all new ways for
+
+68
+00:05:12,805 --> 00:05:16,485
+Speaker 5:  listeners to enjoy your work. The Reimagine Home Feed will show better
+
+69
+00:05:16,485 --> 00:05:20,145
+Speaker 5:  recommendations from your favorites, the fresh content with
+
+70
+00:05:20,145 --> 00:05:23,045
+Speaker 5:  richly animated images and videos.
+
+71
+00:05:23,045 --> 00:05:26,825
+Speaker 2:  I asked Gustav to dig a little deeper on that and to explain what Spotify
+
+72
+00:05:26,825 --> 00:05:30,285
+Speaker 2:  was trying to do with this redesign because I think the
+
+73
+00:05:30,285 --> 00:05:34,265
+Speaker 2:  redesign actually says a lot about what that app wants to be.
+
+74
+00:05:34,265 --> 00:05:37,355
+Speaker 2:  So what was Spotify trying to do here?
+
+75
+00:05:37,355 --> 00:05:40,885
+Speaker 6:  Yeah, so if we go all the way back to to what we were trying to achieve
+
+76
+00:05:40,885 --> 00:05:44,805
+Speaker 6:  something like a year ago plus a bit more actually. So we kind
+
+77
+00:05:44,805 --> 00:05:48,725
+Speaker 6:  of pride ourselves on being good at discovery. Sometimes we say we think
+
+78
+00:05:48,725 --> 00:05:52,325
+Speaker 6:  that we're the best at discovery if we ask our users, but it's a certain
+
+79
+00:05:52,325 --> 00:05:55,005
+Speaker 6:  type of discovery. It's kind of the type of discovery we call background
+
+80
+00:05:55,005 --> 00:05:58,765
+Speaker 6:  discovery. When you're listening to a playlist, we're very good at
+
+81
+00:05:58,765 --> 00:06:02,365
+Speaker 6:  finding tracks that fit that playlist that you might like so forth. We also
+
+82
+00:06:02,365 --> 00:06:06,245
+Speaker 6:  have a lot of specific playlists for Discovery, You know, discover
+
+83
+00:06:06,245 --> 00:06:10,205
+Speaker 6:  Weekly and Daily Mix and so forth. But there's a different type of discovery
+
+84
+00:06:10,205 --> 00:06:13,925
+Speaker 6:  which we sort of called foreground Discovery. When you're finding, for example,
+
+85
+00:06:13,925 --> 00:06:17,835
+Speaker 6:  a new act and a genre that you didn't even know you liked,
+
+86
+00:06:17,835 --> 00:06:21,005
+Speaker 6:  it's not actually similar to anything you're listening to right now. And
+
+87
+00:06:21,005 --> 00:06:24,455
+Speaker 6:  the truth is that most of that type of discovery doesn't happen on Spotify.
+
+88
+00:06:24,455 --> 00:06:28,385
+Speaker 6:  We're really good at inserting more of what you're already listening to.
+
+89
+00:06:28,385 --> 00:06:31,405
+Speaker 6:  You know if you're, if you're into certain genre, we're really good at finding
+
+90
+00:06:31,405 --> 00:06:35,045
+Speaker 6:  other things that isn't that genre that we think you'll like. But if you
+
+91
+00:06:35,045 --> 00:06:38,445
+Speaker 6:  want to explore a completely new genre, those things actually often happen
+
+92
+00:06:38,445 --> 00:06:41,445
+Speaker 6:  off platform. They happen on YouTube, they happen on TikTok, they happen
+
+93
+00:06:41,445 --> 00:06:45,415
+Speaker 6:  in other places And and two things are important there. When you are
+
+94
+00:06:45,415 --> 00:06:49,345
+Speaker 6:  evaluating a lot of sort of new music that you don't even know if you like,
+
+95
+00:06:49,345 --> 00:06:52,765
+Speaker 6:  you usually don't listen to the full songs so you and spend
+
+96
+00:06:52,765 --> 00:06:56,625
+Speaker 6:  hours, you're kind of evaluating much more quickly.
+
+97
+00:06:56,625 --> 00:07:00,085
+Speaker 6:  And secondly, you're also quite interested when you discover band in, in
+
+98
+00:07:00,085 --> 00:07:03,185
+Speaker 6:  sort of seeing what they look like and so forth, right? And and that's mostly
+
+99
+00:07:03,185 --> 00:07:05,925
+Speaker 6:  the first time we're interested in that. Not the 10th time that you listen
+
+100
+00:07:05,925 --> 00:07:08,245
+Speaker 6:  to the song, but the first time it kinda matters, right? So we've been in
+
+101
+00:07:08,245 --> 00:07:12,085
+Speaker 6:  this symbiotic relationship with these other services where You know there's
+
+102
+00:07:12,085 --> 00:07:15,045
+Speaker 6:  a lot of foreground discovery that happens all over the place, but then you
+
+103
+00:07:15,045 --> 00:07:18,005
+Speaker 6:  usually save that track to Spotify and that's where you spend most of your
+
+104
+00:07:18,005 --> 00:07:21,465
+Speaker 6:  consumption. And that's, that's fine by us. It's worked for us really well.
+
+105
+00:07:21,465 --> 00:07:24,565
+Speaker 6:  It means that we could focus our investment on the sort of background moment,
+
+106
+00:07:24,565 --> 00:07:27,485
+Speaker 6:  background discovery being a really good background application. But we decided
+
+107
+00:07:27,485 --> 00:07:31,205
+Speaker 6:  about a year plus ago that we want to become a really good place for when
+
+108
+00:07:31,205 --> 00:07:33,845
+Speaker 6:  you wanna explore something completely new as well. And when you want to
+
+109
+00:07:33,845 --> 00:07:37,085
+Speaker 6:  break out of your show. That's, that's the feedback that we got like Spotify's
+
+110
+00:07:37,085 --> 00:07:40,965
+Speaker 6:  really good for already already like, but it's not that easy to break out
+
+111
+00:07:40,965 --> 00:07:43,925
+Speaker 6:  of your sort of taste bubble. And this is what brought brought about the
+
+112
+00:07:43,925 --> 00:07:47,835
+Speaker 6:  whole redesign and it, it was across music but also across
+
+113
+00:07:47,835 --> 00:07:51,765
+Speaker 6:  podcast and now recently across audiobooks as well. How do you
+
+114
+00:07:51,765 --> 00:07:55,085
+Speaker 6:  evaluate a lot of items in more of AGTD get things
+
+115
+00:07:55,085 --> 00:07:59,075
+Speaker 6:  done way where the hit ratio may be low, maybe
+
+116
+00:07:59,075 --> 00:08:02,925
+Speaker 6:  it's one great candidate in 10, well then you
+
+117
+00:08:02,925 --> 00:08:06,125
+Speaker 6:  better need to be able to quickly get through those 10 versus in the
+
+118
+00:08:06,125 --> 00:08:09,845
+Speaker 6:  background, if we had a one in 10 hit ratio, you would hate Spotify. It has
+
+119
+00:08:09,845 --> 00:08:12,805
+Speaker 6:  to be like nine in 10, right? So you have to be much more careful and so
+
+120
+00:08:12,805 --> 00:08:15,685
+Speaker 6:  forth. So we saw that's, that was the impetus like why we did it because
+
+121
+00:08:15,685 --> 00:08:19,265
+Speaker 6:  we also wanted to, in addition to staying very good at background discovery,
+
+122
+00:08:19,265 --> 00:08:22,405
+Speaker 6:  we wanted to bring foreground discovery or or being able giving you tools
+
+123
+00:08:22,405 --> 00:08:25,905
+Speaker 6:  to quickly break out your taste bubble and find something completely
+
+124
+00:08:25,905 --> 00:08:26,505
+Speaker 6:  new.
+
+125
+00:08:26,505 --> 00:08:29,085
+Speaker 2:  What's really interesting about that is that that strategy makes absolute
+
+126
+00:08:29,085 --> 00:08:32,525
+Speaker 2:  perfect sense. I think especially the idea of trying to make it easier for
+
+127
+00:08:32,525 --> 00:08:36,485
+Speaker 2:  people to find stuff they don't like. Which sounds weird. Like the the sort
+
+128
+00:08:36,485 --> 00:08:39,965
+Speaker 2:  of lowering the penalty of guessing wrong. Exactly. Makes total sense to
+
+129
+00:08:39,965 --> 00:08:40,365
+Speaker 2:  me. Yeah.
+
+130
+00:08:40,365 --> 00:08:43,495
+Speaker 6:  What is often called like fault tolerant in like product speak,
+
+131
+00:08:43,495 --> 00:08:47,305
+Speaker 2:  Right? And I think like if TikTok did one incredible thing for the world,
+
+132
+00:08:47,305 --> 00:08:51,115
+Speaker 2:  it was that like it it is the most fault tolerant app that has ever existed.
+
+133
+00:08:51,115 --> 00:08:51,915
+Speaker 2:  Exactly
+
+134
+00:08:51,915 --> 00:08:52,205
+Speaker 6:  What
+
+135
+00:08:52,205 --> 00:08:54,725
+Speaker 2:  I think is really interesting and and the way you describe that makes me
+
+136
+00:08:54,725 --> 00:08:58,605
+Speaker 2:  think that if Spotify had always done that
+
+137
+00:08:58,605 --> 00:09:01,285
+Speaker 2:  kind of thing, it would make perfect sense to everybody. But there's something
+
+138
+00:09:01,285 --> 00:09:05,165
+Speaker 2:  about coming back around to the foreground piece where it's like we
+
+139
+00:09:05,165 --> 00:09:08,445
+Speaker 2:  want you to be more in the app. We're gonna make the app more enticing and
+
+140
+00:09:08,445 --> 00:09:11,225
+Speaker 2:  more inviting. We want you to scroll more, we want you to do more stuff.
+
+141
+00:09:11,225 --> 00:09:15,085
+Speaker 2:  And I'm just like thinking about all of the like mad people on Reddit
+
+142
+00:09:15,085 --> 00:09:18,525
+Speaker 2:  when the redesign started coming out and that sort of instinctive reaction
+
+143
+00:09:18,525 --> 00:09:22,245
+Speaker 2:  some people had to seeing the way the new app looked and even as what you
+
+144
+00:09:22,245 --> 00:09:24,925
+Speaker 2:  described as very much sort of the other side of the coin of a thing that
+
+145
+00:09:24,925 --> 00:09:28,765
+Speaker 2:  already exists, it's just so different. Did you expect the kind of
+
+146
+00:09:28,765 --> 00:09:32,485
+Speaker 2:  visceral reaction of like we're doing a very different thing even in
+
+147
+00:09:32,485 --> 00:09:35,305
+Speaker 2:  service of the same activity.
+
+148
+00:09:35,305 --> 00:09:39,125
+Speaker 6:  So let's dig into it because it was a combination of a few things. I sort
+
+149
+00:09:39,125 --> 00:09:43,005
+Speaker 6:  of did expect it any like I've redesigned like the entire thing
+
+150
+00:09:43,005 --> 00:09:46,905
+Speaker 6:  a few times in my career and people are always very upset. Sure.
+
+151
+00:09:46,905 --> 00:09:50,365
+Speaker 6:  The problem with that is that they can be upset but it's
+
+152
+00:09:50,365 --> 00:09:54,075
+Speaker 6:  right. They just don't understand it yet. You know the Steve Jobs view.
+
+153
+00:09:54,075 --> 00:09:57,725
+Speaker 6:  Sure. Or they can be upset because it's actually bad and wrong. And the question
+
+154
+00:09:57,725 --> 00:10:01,245
+Speaker 6:  is how do you tell those two apart? And so it was a little bit of both in
+
+155
+00:10:01,245 --> 00:10:04,885
+Speaker 6:  this case. So this was impetus. It was to give users tools for much better
+
+156
+00:10:04,885 --> 00:10:08,525
+Speaker 6:  foreground discovery and be able to effectively try a completely new
+
+157
+00:10:08,525 --> 00:10:11,885
+Speaker 6:  genres and so forth. Now what happened when we launched this even before
+
+158
+00:10:11,885 --> 00:10:15,485
+Speaker 6:  people got to try it, to your point like even when we showed it, I think
+
+159
+00:10:15,485 --> 00:10:19,085
+Speaker 6:  the big challenge is that we were trying to do something very different with
+
+160
+00:10:19,085 --> 00:10:22,865
+Speaker 6:  these feeds. We were trying to get you to go through
+
+161
+00:10:22,865 --> 00:10:26,515
+Speaker 6:  as much music as possible in order to find stuff to save to your
+
+162
+00:10:26,515 --> 00:10:30,245
+Speaker 6:  library to listen to later. So it's actually discovery but not
+
+163
+00:10:30,245 --> 00:10:33,585
+Speaker 6:  consumption. Our point was to get you through this thing as fast as possible
+
+164
+00:10:33,585 --> 00:10:36,885
+Speaker 6:  and the thing we measure is sort of saves per minute. Whereas if you look
+
+165
+00:10:36,885 --> 00:10:40,845
+Speaker 6:  at TikTok or or YouTube shorts or reels, the feed is
+
+166
+00:10:40,845 --> 00:10:43,805
+Speaker 6:  the consumption. It's not discovery. The feed is consumption. The point is
+
+167
+00:10:43,805 --> 00:10:47,025
+Speaker 6:  to keep you there as long as possible. So I, think what happened when people
+
+168
+00:10:47,025 --> 00:10:50,125
+Speaker 6:  saw this. They were like, oh my god, I don't want another TikTok feed. Like
+
+169
+00:10:50,125 --> 00:10:53,685
+Speaker 6:  I have three now You know I have shorts and I have reels and I have TikTok
+
+170
+00:10:53,685 --> 00:10:57,325
+Speaker 6:  like why aren't they sticking to the music thing that I like them for? Why
+
+171
+00:10:57,325 --> 00:11:00,325
+Speaker 6:  they wanna become TikTok? Because that's honestly what it looks like when
+
+172
+00:11:00,325 --> 00:11:03,805
+Speaker 6:  you see a feed of moving images. And so there was that like
+
+173
+00:11:03,805 --> 00:11:07,565
+Speaker 6:  visceral reaction to it, which is just like a problem of communication. And
+
+174
+00:11:07,565 --> 00:11:10,965
+Speaker 6:  the idea is, well when you start using it you'll understand that that's we're
+
+175
+00:11:10,965 --> 00:11:13,685
+Speaker 6:  actually trying to get you out of the feed as pos as much as possible and
+
+176
+00:11:13,685 --> 00:11:16,805
+Speaker 6:  get you to save as much and actually listen to it later. 'cause that's when,
+
+177
+00:11:16,805 --> 00:11:20,605
+Speaker 6:  I mean we don't gain anything unless you listen to it later. This is a
+
+178
+00:11:20,605 --> 00:11:24,245
+Speaker 6:  tool for for creating more sessions down the line. But then we also made
+
+179
+00:11:24,245 --> 00:11:28,025
+Speaker 6:  a few mistakes in the first iteration of it, which was that we were
+
+180
+00:11:28,025 --> 00:11:31,885
+Speaker 6:  so keen on adding foreground discovery that when we redesigned
+
+181
+00:11:31,885 --> 00:11:35,785
+Speaker 6:  the experience, we changed the balance of what the homepage specifically
+
+182
+00:11:35,785 --> 00:11:39,165
+Speaker 6:  did quite drastically. If you think about it from like the product team's
+
+183
+00:11:39,165 --> 00:11:42,525
+Speaker 6:  point of view, you look around and you see like there is, there's YouTube
+
+184
+00:11:42,525 --> 00:11:46,285
+Speaker 6:  over there. It's kind of similar long form experience music. It's just a,
+
+185
+00:11:46,285 --> 00:11:50,065
+Speaker 6:  it's just a feed You know everything is just a feed as the as the start page.
+
+186
+00:11:50,065 --> 00:11:53,925
+Speaker 6:  So you could guess that that's what users want. They wanna feed us a start
+
+187
+00:11:53,925 --> 00:11:57,365
+Speaker 6:  pitch and So I think we got a little bit too jealous of the
+
+188
+00:11:57,365 --> 00:12:01,045
+Speaker 6:  competition. And so You know we had these shortcuts on top of our home, but
+
+189
+00:12:01,045 --> 00:12:04,765
+Speaker 6:  then pretty quickly we went into like fullscreen carbs 'cause that's kinda
+
+190
+00:12:04,765 --> 00:12:08,245
+Speaker 6:  what word looks like and people were quite upset. And so we looked at this
+
+191
+00:12:08,245 --> 00:12:11,955
+Speaker 6:  and we realized that to our benefit we were doing something quite well
+
+192
+00:12:11,955 --> 00:12:15,765
+Speaker 6:  that we didn't understand that we broke. So our homepage was
+
+193
+00:12:15,765 --> 00:12:19,735
+Speaker 6:  quite different from from these competitors, which was just like full card
+
+194
+00:12:19,735 --> 00:12:23,405
+Speaker 6:  feeds. We had these shortcuts and then we had these shelves. And, what they
+
+195
+00:12:23,405 --> 00:12:27,085
+Speaker 6:  did, which I think we saw much better than competition, is that they
+
+196
+00:12:27,085 --> 00:12:30,965
+Speaker 6:  managed to keep you in a lot of sessions at the same time. You might be
+
+197
+00:12:30,965 --> 00:12:34,945
+Speaker 6:  in the middle of two podcasts now, one audiobook and a playlist
+
+198
+00:12:34,945 --> 00:12:38,265
+Speaker 6:  and you might be into a set of playlists right now. And our homepage managed
+
+199
+00:12:38,265 --> 00:12:42,005
+Speaker 6:  to solve what we call recall really well. It made it really easy without
+
+200
+00:12:42,005 --> 00:12:45,045
+Speaker 6:  having to go into your library and search to get back to those sessions.
+
+201
+00:12:45,045 --> 00:12:48,765
+Speaker 6:  The one the store really relevant to you, we had this balance between
+
+202
+00:12:48,765 --> 00:12:52,005
+Speaker 6:  recall and discovery where when we looked at the metrics, You know how much
+
+203
+00:12:52,005 --> 00:12:55,445
+Speaker 6:  of the consumption from the homepage is sort of recall. You go back into
+
+204
+00:12:55,445 --> 00:12:59,105
+Speaker 6:  sessions that you had previously visited or were in the middle of versus
+
+205
+00:12:59,105 --> 00:13:02,945
+Speaker 6:  how much is you truly listen to new one. It was almost like 90% recall
+
+206
+00:13:02,945 --> 00:13:06,805
+Speaker 6:  and 10% discovery. And when we flipped it around, we sort of
+
+207
+00:13:06,805 --> 00:13:10,525
+Speaker 6:  turned it into 10% recall, like the top shortcuts and 90%
+
+208
+00:13:10,525 --> 00:13:14,505
+Speaker 6:  discovery. And you could see this in the metric and on Twitter. So on Twitter,
+
+209
+00:13:14,505 --> 00:13:18,445
+Speaker 6:  if you squinted through all the swearing and cursing and this guy should
+
+210
+00:13:18,445 --> 00:13:22,245
+Speaker 6:  get fired and I was be put in a lion cage and all these things, you could
+
+211
+00:13:22,245 --> 00:13:25,205
+Speaker 6:  see the actual feedback being like, where the hell am I playlist? Where am
+
+212
+00:13:25,205 --> 00:13:28,925
+Speaker 6:  my podcast? Right? And then you look at the consumption data and you see
+
+213
+00:13:28,925 --> 00:13:32,805
+Speaker 6:  the same thing. You see traffic going to search and to library people were
+
+214
+00:13:32,805 --> 00:13:36,405
+Speaker 6:  trying to find their playlist. So we realized the error that we have flipped
+
+215
+00:13:36,405 --> 00:13:40,385
+Speaker 6:  the ratio too much into almost like forced discovery.
+
+216
+00:13:40,385 --> 00:13:44,365
+Speaker 6:  And then we, we said, okay, let's look at this and let's embrace what people
+
+217
+00:13:44,365 --> 00:13:48,215
+Speaker 6:  loved. If we were really good at recall, instead of even just going back,
+
+218
+00:13:48,215 --> 00:13:51,405
+Speaker 6:  let's make sure that the redesign, we leverage that and we become even better
+
+219
+00:13:51,405 --> 00:13:54,565
+Speaker 6:  at recall. The weird thing for us then was we looked at competition and like
+
+220
+00:13:54,565 --> 00:13:57,805
+Speaker 6:  they're actually not doing this at all and people don't seem to complain
+
+221
+00:13:57,805 --> 00:14:00,435
+Speaker 6:  and be angry like what's the problem? And we realized that we're probably
+
+222
+00:14:00,435 --> 00:14:04,345
+Speaker 6:  very good at recall keeping in many sessions at the same time.
+
+223
+00:14:04,345 --> 00:14:07,905
+Speaker 6:  And our competition is probably not. But the, the thing is they were never,
+
+224
+00:14:07,905 --> 00:14:11,765
+Speaker 6:  if you only ever had like a single feed, you think about something like a
+
+225
+00:14:11,765 --> 00:14:14,225
+Speaker 6:  YouTube or something, it's very hard to actually get back into the session.
+
+226
+00:14:14,225 --> 00:14:17,245
+Speaker 6:  You have to click at the bottom right and scroll back in history. So maybe
+
+227
+00:14:17,245 --> 00:14:20,025
+Speaker 6:  it was just a case that they don't complain because it was never good there.
+
+228
+00:14:20,025 --> 00:14:23,885
+Speaker 6:  As we try to then reverse and lean into let's be really good at recall. So
+
+229
+00:14:23,885 --> 00:14:27,725
+Speaker 6:  we actually made it even better and we got the recall metrics measured as
+
+230
+00:14:27,725 --> 00:14:31,325
+Speaker 6:  like how many people find a relevant session on home without having to go
+
+231
+00:14:31,325 --> 00:14:34,325
+Speaker 6:  to search or library? Got that even better. And then the problem was obviously,
+
+232
+00:14:34,325 --> 00:14:37,245
+Speaker 6:  well we wanted to achieve foregone discovery, so how do we solve this? And
+
+233
+00:14:37,245 --> 00:14:41,165
+Speaker 6:  we switched our tactic to instead being voluntary entry
+
+234
+00:14:41,165 --> 00:14:45,145
+Speaker 6:  points into, instead of these cards that ought to play in a very high
+
+235
+00:14:45,145 --> 00:14:49,045
+Speaker 6:  up. We have two mechanisms now. One is we have these, what we call
+
+236
+00:14:49,045 --> 00:14:52,100
+Speaker 6:  watch feeds or discovery feeds, which are these small cards that you can
+
+237
+00:14:52,100 --> 00:14:55,075
+Speaker 6:  click and then you go into feed only optimize for this, but it's, it's voluntary.
+
+238
+00:14:55,075 --> 00:14:58,205
+Speaker 6:  Like you click through and it's just like, Hey, we found a bunch of new songs
+
+239
+00:14:58,205 --> 00:15:01,765
+Speaker 6:  for you. We have a bunch of podcasts for you. The idea now is as soon as
+
+240
+00:15:01,765 --> 00:15:04,805
+Speaker 6:  you feel a little bored and trapped in a taste bubble, it should be one click
+
+241
+00:15:04,805 --> 00:15:08,645
+Speaker 6:  away to just get into very effective discovery. And then when you scroll
+
+242
+00:15:08,645 --> 00:15:11,965
+Speaker 6:  down the homepage, you actually get to these cards and we, we, we think of
+
+243
+00:15:11,965 --> 00:15:15,225
+Speaker 6:  that as like, if you keep scrolling, well then you probably didn't find anything.
+
+244
+00:15:15,225 --> 00:15:18,645
+Speaker 6:  So now you are interested in discovery. And to cut a long story slightly
+
+245
+00:15:18,645 --> 00:15:22,625
+Speaker 6:  shorter, where we are now finally is now the new homepage is,
+
+246
+00:15:22,625 --> 00:15:25,725
+Speaker 6:  is out to a hundred percent of existing users. So we're back to like one
+
+247
+00:15:25,725 --> 00:15:29,565
+Speaker 6:  homepage, which You know being on two stacks, it's very, very expensive
+
+248
+00:15:29,565 --> 00:15:32,825
+Speaker 6:  and very frustrating. And we see what we wanna see. So in this watch feed
+
+249
+00:15:32,825 --> 00:15:36,485
+Speaker 6:  for example, we actually see 50 times the saves per minute
+
+250
+00:15:36,485 --> 00:15:40,205
+Speaker 6:  versus any other session. Wow. Versus like You know a Discover Weekly or
+
+251
+00:15:40,205 --> 00:15:44,035
+Speaker 6:  something. Not, they're not saving 50 tracks per minute, but 50 times
+
+252
+00:15:44,035 --> 00:15:48,005
+Speaker 6:  more saves per minute. So we're seeing what we want to see finally and
+
+253
+00:15:48,005 --> 00:15:51,885
+Speaker 6:  and users now seem happy. So that's a long version of what actually
+
+254
+00:15:51,885 --> 00:15:52,225
+Speaker 6:  happened.
+
+255
+00:15:52,225 --> 00:15:55,405
+Speaker 2:  No, it's super interesting and you, you actually brought up kind of the the
+
+256
+00:15:55,405 --> 00:15:59,325
+Speaker 2:  like two central questions of what Spotify is that have
+
+257
+00:15:59,325 --> 00:16:03,165
+Speaker 2:  always fascinated me. I think part of the reason people flipped
+
+258
+00:16:03,165 --> 00:16:06,525
+Speaker 2:  out at having all of this discovery added was that Spotify is the app that
+
+259
+00:16:06,525 --> 00:16:09,725
+Speaker 2:  you use all the time, but hardly ever touch. Yeah. Right. And that's, that's
+
+260
+00:16:09,725 --> 00:16:12,445
+Speaker 2:  a really valuable thing and it's, it's a thing that I know Spotify in the
+
+261
+00:16:12,445 --> 00:16:16,225
+Speaker 2:  past has been very proud of, right? You can use Spotify for hours and hours
+
+262
+00:16:16,225 --> 00:16:19,805
+Speaker 2:  and hours without ever looking at it. And in a time when every app is
+
+263
+00:16:19,805 --> 00:16:22,905
+Speaker 2:  demanding my full face attention at all times,
+
+264
+00:16:22,905 --> 00:16:26,835
+Speaker 2:  that's good thing. Very true. But then how to marry that with this
+
+265
+00:16:26,835 --> 00:16:30,525
+Speaker 2:  idea of obviously You know you, you we, we wanna build a video ads business
+
+266
+00:16:30,525 --> 00:16:34,365
+Speaker 2:  and we also want to en engender this foreground discovery and like I can
+
+267
+00:16:34,365 --> 00:16:38,245
+Speaker 2:  see why there are lots of perfectly valid polls back into the app, but
+
+268
+00:16:38,245 --> 00:16:42,205
+Speaker 2:  it just breaks that sort of core behavior that is so good
+
+269
+00:16:42,205 --> 00:16:45,445
+Speaker 2:  about Spotify. Like I don't go to TikTok to listen to songs because it's
+
+270
+00:16:45,445 --> 00:16:48,905
+Speaker 2:  a pain in the ass to find songs on TikTok, right? I go to Spotify because,
+
+271
+00:16:48,905 --> 00:16:51,605
+Speaker 2:  and that's like the purpose it has served. And I feel like trying to pull
+
+272
+00:16:51,605 --> 00:16:55,185
+Speaker 2:  that thing back into it, even if it's the right call, is just a challenge
+
+273
+00:16:55,185 --> 00:16:58,085
+Speaker 2:  to do. Right? But then the other flip side of that is, and this is I feel
+
+274
+00:16:58,085 --> 00:17:01,965
+Speaker 2:  like the, the sort of great product journey of Spotify is how to do
+
+275
+00:17:01,965 --> 00:17:05,805
+Speaker 2:  a lot of things in one app in a way that makes sense, right? And and this
+
+276
+00:17:05,805 --> 00:17:07,925
+Speaker 2:  is like, this goes back to the question you and I have talked about before
+
+277
+00:17:07,925 --> 00:17:11,215
+Speaker 2:  about like how do you do podcasts and audiobooks and
+
+278
+00:17:11,215 --> 00:17:15,105
+Speaker 2:  music in a single interface in a way that makes sense? And
+
+279
+00:17:15,105 --> 00:17:17,725
+Speaker 2:  I'm still not convinced you're all the way there. I I, I'd be curious to
+
+280
+00:17:17,725 --> 00:17:21,205
+Speaker 2:  hear how you think you're doing. I got chapter three of an audiobook in my
+
+281
+00:17:21,205 --> 00:17:24,745
+Speaker 2:  release radar, which like you just cannot convince me is a good user experience.
+
+282
+00:17:24,745 --> 00:17:25,725
+Speaker 2:  But that's
+
+283
+00:17:25,725 --> 00:17:27,985
+Speaker 6:  A great chapter, I promise you.
+
+284
+00:17:27,985 --> 00:17:31,885
+Speaker 2:  I'm sure it was. But I think that question continues
+
+285
+00:17:31,885 --> 00:17:35,435
+Speaker 2:  to be kind of the big one, right? Like if you want to be the TikTok for audio
+
+286
+00:17:35,435 --> 00:17:39,005
+Speaker 2:  that Daniel has talked about in the past, like you have to figure out how
+
+287
+00:17:39,005 --> 00:17:41,925
+Speaker 2:  to put all these things in one place, but doing it in a way that feels like
+
+288
+00:17:41,925 --> 00:17:45,665
+Speaker 2:  it doesn't compromise each one of them along the way just gets harder every
+
+289
+00:17:45,665 --> 00:17:46,755
+Speaker 2:  new thing you add.
+
+290
+00:17:46,755 --> 00:17:50,400
+Speaker 6:  Yeah. So you're, you're completely right that, that there are two dimensions
+
+291
+00:17:50,400 --> 00:17:53,925
+Speaker 6:  here. One is the who we have to call foreground versus background. So we're
+
+292
+00:17:53,925 --> 00:17:57,765
+Speaker 6:  still a vast majority background service. Sure. Meaning what percentage of
+
+293
+00:17:57,765 --> 00:18:01,685
+Speaker 6:  the time is the phone in your pocket? Most of the services, to your point,
+
+294
+00:18:01,685 --> 00:18:04,575
+Speaker 6:  they're like You know 90% in the foreground and we're sort of the opposite,
+
+295
+00:18:04,575 --> 00:18:08,205
+Speaker 6:  right? So that's one dimension and that's what we try to find is
+
+296
+00:18:08,205 --> 00:18:11,765
+Speaker 6:  so when the, that phone is in the foreground and you're bored, that's when
+
+297
+00:18:11,765 --> 00:18:15,445
+Speaker 6:  we have to have these tools for you to find a lot of music for that sort
+
+298
+00:18:15,445 --> 00:18:18,885
+Speaker 6:  of 80, 90% background listening. And that's a, that's a tricky balance and
+
+299
+00:18:18,885 --> 00:18:22,785
+Speaker 6:  we, and we rebalance the homepage to reflect too much of the,
+
+300
+00:18:22,785 --> 00:18:25,645
+Speaker 6:  the time that you're in the foreground, which is the minority. Sure. And
+
+301
+00:18:25,645 --> 00:18:28,845
+Speaker 6:  sort of focusing on, it still needs to be insanely simple to get to your
+
+302
+00:18:28,845 --> 00:18:29,725
+Speaker 6:  favorite sessions. But
+
+303
+00:18:29,725 --> 00:18:33,145
+Speaker 2:  That thing, and by the way, that user flow you've landed on in which you
+
+304
+00:18:33,145 --> 00:18:36,725
+Speaker 2:  say basically like I'm in discovery mode, you just like bang bang, bang through
+
+305
+00:18:36,725 --> 00:18:39,125
+Speaker 2:  a bunch of stuff, pick a bunch of stuff you wanna listen to click play and
+
+306
+00:18:39,125 --> 00:18:42,525
+Speaker 2:  put your phone away. Like that's a very Spotify version of the thing you
+
+307
+00:18:42,525 --> 00:18:45,125
+Speaker 2:  described, right? Like that's much closer to the way that the app has always
+
+308
+00:18:45,125 --> 00:18:45,765
+Speaker 2:  been. Exactly.
+
+309
+00:18:45,765 --> 00:18:48,845
+Speaker 6:  That's that's a plan. And that's where I feel we've landed now. But there
+
+310
+00:18:48,845 --> 00:18:51,525
+Speaker 6:  was a bit of wilderness wandering to get there.
+
+311
+00:18:51,525 --> 00:18:53,265
+Speaker 2:  There always is. Yeah.
+
+312
+00:18:53,265 --> 00:18:57,005
+Speaker 6:  And then the other thing you mentioned is, well a cross content right now
+
+313
+00:18:57,005 --> 00:19:00,715
+Speaker 6:  there certainly shouldn't be audiobooks chapters in your daily mix or something
+
+314
+00:19:00,715 --> 00:19:04,645
+Speaker 6:  that, that that's just a bug that we need to fix. But there is
+
+315
+00:19:04,645 --> 00:19:08,525
+Speaker 6:  that question of how is You know? Is that the best product
+
+316
+00:19:08,525 --> 00:19:12,045
+Speaker 6:  experience? How much is that a strategy that we need to adopt because it's
+
+317
+00:19:12,045 --> 00:19:15,765
+Speaker 6:  a distribution strategy versus what is best for the, for the consumer. I
+
+318
+00:19:15,765 --> 00:19:19,605
+Speaker 6:  choose to see it as a very interesting challenge and it puts a lot
+
+319
+00:19:19,605 --> 00:19:23,465
+Speaker 6:  of requirements on our experience team, right? Because the challenge
+
+320
+00:19:23,465 --> 00:19:27,445
+Speaker 6:  is in order to keep sort of the complexity as we call it internally to
+
+321
+00:19:27,445 --> 00:19:31,365
+Speaker 6:  keep the entropy down, you need to make things look as similar as
+
+322
+00:19:31,365 --> 00:19:34,805
+Speaker 6:  possible so that it doesn't get very confusing. Right. And and the notion
+
+323
+00:19:34,805 --> 00:19:38,325
+Speaker 6:  is that well it's all audio, right? Music is audio, podcast is audio, audiobooks
+
+324
+00:19:38,325 --> 00:19:41,175
+Speaker 6:  is audio, but then it's also very different. Music is like three minutes,
+
+325
+00:19:41,175 --> 00:19:44,685
+Speaker 6:  audiobooks, maybe podcast, maybe an hour an audiobook, 20 hours or something,
+
+326
+00:19:44,685 --> 00:19:48,395
+Speaker 6:  right? Yeah. So it's also very different. So the the real big challenge
+
+327
+00:19:48,395 --> 00:19:52,245
+Speaker 6:  that we just have chosen to accept given our strategy is to make it sort
+
+328
+00:19:52,245 --> 00:19:56,025
+Speaker 6:  of to consciously misquote Einstein as similar as possible,
+
+329
+00:19:56,025 --> 00:19:59,915
+Speaker 6:  but not more similar than possible. Right. Okay. And so
+
+330
+00:19:59,915 --> 00:20:03,405
+Speaker 6:  what what's an example of that? You know, you can say that it's all cards.
+
+331
+00:20:03,405 --> 00:20:07,085
+Speaker 6:  Like there's an, there's a track card and there's a playlist card and there's
+
+332
+00:20:07,085 --> 00:20:10,925
+Speaker 6:  a, an episode card and an audio book card, which is kind of true. But
+
+333
+00:20:10,925 --> 00:20:14,165
+Speaker 6:  on the other hand we also have to realize where they're different. So, so
+
+334
+00:20:14,165 --> 00:20:18,065
+Speaker 6:  for an example, one thing that we're working with right now is the feedback
+
+335
+00:20:18,065 --> 00:20:20,805
+Speaker 6:  to the algorithm. We, we actually, we've been playing around with giving
+
+336
+00:20:20,805 --> 00:20:24,155
+Speaker 6:  people tools of feedback on the algorithm and it turns out people love that
+
+337
+00:20:24,155 --> 00:20:27,965
+Speaker 6:  even when we had like on the three dots a hidden option, I was amazed at
+
+338
+00:20:27,965 --> 00:20:31,005
+Speaker 6:  how many people found that and said like, I didn't want this recommendation,
+
+339
+00:20:31,005 --> 00:20:34,685
+Speaker 6:  I wanted this. So we're making that easier. But you run into these problems
+
+340
+00:20:34,685 --> 00:20:38,405
+Speaker 6:  where, where it's different. So for example, we're experimenting with these
+
+341
+00:20:38,405 --> 00:20:41,765
+Speaker 6:  things where you can say like, this is a bad recommendation or, or more like
+
+342
+00:20:41,765 --> 00:20:45,315
+Speaker 6:  I don't want this recommendation You know, which gives the user a way to
+
+343
+00:20:45,315 --> 00:20:48,645
+Speaker 6:  back the fault tolerance to solve when we were wrong quickly. But it also
+
+344
+00:20:48,645 --> 00:20:51,905
+Speaker 6:  gives us a lot of super valuable signal to improve for the user. But then
+
+345
+00:20:51,905 --> 00:20:54,845
+Speaker 6:  for a podcast episode, it's pretty straightforward. You just say like, this
+
+346
+00:20:54,845 --> 00:20:57,765
+Speaker 6:  was bad recommendation, don't show it again. And we can interpret it as like
+
+347
+00:20:57,765 --> 00:21:01,665
+Speaker 6:  bad recommendation for a playlist. It's tricky because if you say that maybe
+
+348
+00:21:01,665 --> 00:21:05,245
+Speaker 6:  it was that you didn't like the song, but did you not really like the playlist?
+
+349
+00:21:05,245 --> 00:21:08,065
+Speaker 6:  Should we actually show the playlist again, but not with the same songs.
+
+350
+00:21:08,065 --> 00:21:10,925
+Speaker 6:  And then for audiobook, you have a different problem which we realized, which
+
+351
+00:21:10,925 --> 00:21:14,435
+Speaker 6:  is when you say like, sort of thumbs down, it could be
+
+352
+00:21:14,435 --> 00:21:18,085
+Speaker 6:  because you hated this recommendation or it could be because you love this
+
+353
+00:21:18,085 --> 00:21:20,325
+Speaker 6:  recommendation, but you already listened to the book or read the book years
+
+354
+00:21:20,325 --> 00:21:23,565
+Speaker 6:  ago. Oh, interesting. So we are trying to find the exact balance. We will
+
+355
+00:21:23,565 --> 00:21:26,925
+Speaker 6:  have different controls on all the books and on episodes and on tracks, but
+
+356
+00:21:26,925 --> 00:21:30,725
+Speaker 6:  we also need, need to still make the system similar enough that it makes
+
+357
+00:21:30,725 --> 00:21:34,205
+Speaker 6:  sense as as one app. So this is where we're putting most of our effort and
+
+358
+00:21:34,205 --> 00:21:37,595
+Speaker 6:  and we think we're, we think we're doing a good job if you just look at the
+
+359
+00:21:37,595 --> 00:21:41,565
+Speaker 6:  metrics and and user engagement. But it is kind of the, the strategy
+
+360
+00:21:41,565 --> 00:21:45,405
+Speaker 6:  and path we have now. I always tell the team that the challenge
+
+361
+00:21:45,405 --> 00:21:48,405
+Speaker 6:  is like how do you choose between these things? You know, should we show
+
+362
+00:21:48,405 --> 00:21:52,285
+Speaker 6:  a podcast or an audiobook or music? I choose to say that we're just
+
+363
+00:21:52,285 --> 00:21:55,045
+Speaker 6:  being more honest with ourselves than other companies. So if you think about
+
+364
+00:21:55,045 --> 00:21:57,965
+Speaker 6:  something like Apple, they also have a music app, podcast app, an audiobooks
+
+365
+00:21:57,965 --> 00:22:01,765
+Speaker 6:  app. It is the same user in front of the iPhone. Sure. The three
+
+366
+00:22:01,765 --> 00:22:05,205
+Speaker 6:  teams treat it as different users, right? And they all try to compete for
+
+367
+00:22:05,205 --> 00:22:08,755
+Speaker 6:  the user, right? But it is the same user, the same 24 hours.
+
+368
+00:22:08,755 --> 00:22:12,005
+Speaker 6:  They're just fooling themselves. There's three different users. We're just
+
+369
+00:22:12,005 --> 00:22:15,805
+Speaker 6:  being honest to ourselves. No, it's the same user. Yeah. So it's, it's it's
+
+370
+00:22:15,805 --> 00:22:19,265
+Speaker 6:  in a way a harder challenge but it's in a way true for everyone. It's just
+
+371
+00:22:19,265 --> 00:22:23,165
+Speaker 6:  one user and we just have to be more explicit about how
+
+372
+00:22:23,165 --> 00:22:25,925
+Speaker 6:  we solve that problem. But the user can't listen to all three at the same
+
+373
+00:22:25,925 --> 00:22:28,045
+Speaker 6:  time anyway. Right. And and I think when people say like if you just had
+
+374
+00:22:28,045 --> 00:22:31,045
+Speaker 6:  three apps, you don't have to worry about it. I'd say like no, it's the same
+
+375
+00:22:31,045 --> 00:22:34,125
+Speaker 6:  David, it's still gonna have to choose between the three apps. So why not
+
+376
+00:22:34,125 --> 00:22:37,445
+Speaker 6:  solve it in one app if we can. It's just less clicks. That's kind of how
+
+377
+00:22:37,445 --> 00:22:38,485
+Speaker 6:  I think about it.
+
+378
+00:22:38,485 --> 00:22:41,685
+Speaker 2:  I agree. I think this has become a somewhat controversial stance over time,
+
+379
+00:22:41,685 --> 00:22:45,445
+Speaker 2:  but I actually think doing all of these things in one app is the right path.
+
+380
+00:22:45,445 --> 00:22:49,045
+Speaker 2:  I think these sort of wilderness stuff for Spotify so to
+
+381
+00:22:49,045 --> 00:22:52,505
+Speaker 2:  speak, would be the thing where it's like, okay, what what we actually need.
+
+382
+00:22:52,505 --> 00:22:55,605
+Speaker 2:  And I think people accuse Spotify of this more than at least I've actually
+
+383
+00:22:55,605 --> 00:22:58,865
+Speaker 2:  seen it in the wild. But it does seem like one possible endpoint of this
+
+384
+00:22:58,865 --> 00:23:02,805
+Speaker 2:  is like, how do we mix your favorite songs with
+
+385
+00:23:02,805 --> 00:23:05,845
+Speaker 2:  a bunch of podcasts you might wanna listen to and then we'll throw an audio
+
+386
+00:23:05,845 --> 00:23:09,795
+Speaker 2:  book in there. And to me that's just not even remotely what I want.
+
+387
+00:23:09,795 --> 00:23:12,365
+Speaker 2:  Like sometimes I wanna listen to a book and sometimes I wanna listen to a
+
+388
+00:23:12,365 --> 00:23:15,895
+Speaker 2:  podcast and sometimes I wanna listen to music. I always know
+
+389
+00:23:15,895 --> 00:23:19,765
+Speaker 2:  which one I want. And for Spotify to guess or try to
+
+390
+00:23:19,765 --> 00:23:23,605
+Speaker 2:  intermingle them all that strikes me as like borderline impossible to
+
+391
+00:23:23,605 --> 00:23:24,265
+Speaker 2:  do. Well
+
+392
+00:23:24,265 --> 00:23:27,485
+Speaker 6:  So when, when you do that on, if we had three different apps, you would just
+
+393
+00:23:27,485 --> 00:23:30,345
+Speaker 6:  go into three different apps. Right? Exactly. Because you would know, right?
+
+394
+00:23:30,345 --> 00:23:34,325
+Speaker 6:  So the way we solve this is we land you own a homepage where
+
+395
+00:23:34,325 --> 00:23:37,405
+Speaker 6:  we have a pretty good guest, we're trying to, we have these shortcuts, but
+
+396
+00:23:37,405 --> 00:23:40,165
+Speaker 6:  you are in multiple sessions at the same time. So you can actually continue
+
+397
+00:23:40,165 --> 00:23:42,925
+Speaker 6:  in that playlist, you can continue in that audiobook and there's like in
+
+398
+00:23:42,925 --> 00:23:45,765
+Speaker 6:  the middle of that episode or those two episodes you were in. So hopefully
+
+399
+00:23:45,765 --> 00:23:49,645
+Speaker 6:  it's like super easy to, to solve it. But then back to fault tolerant UIs.
+
+400
+00:23:49,645 --> 00:23:53,165
+Speaker 6:  This is also why you see these tabs where you can say like, you click the
+
+401
+00:23:53,165 --> 00:23:56,405
+Speaker 6:  music tab totally. And then it's music only or the podcast tab or the order
+
+402
+00:23:56,405 --> 00:24:00,025
+Speaker 6:  books tab. So which which is almost the same as opening the separate
+
+403
+00:24:00,025 --> 00:24:03,725
+Speaker 6:  app. So this is how we're trying to solve it with trying to program for
+
+404
+00:24:03,725 --> 00:24:07,445
+Speaker 6:  you and then have a fault tolerance solution if we're wrong or if your
+
+405
+00:24:07,445 --> 00:24:11,205
+Speaker 6:  intent was super high. But we do statistically see that It
+
+406
+00:24:11,205 --> 00:24:14,985
+Speaker 6:  works that we actually managed to get people to listen to podcasts
+
+407
+00:24:14,985 --> 00:24:18,445
+Speaker 6:  who didn't. And and hopefully the same for audiobooks. So, so it seems to
+
+408
+00:24:18,445 --> 00:24:21,785
+Speaker 6:  work, but I think you, I think it's a statistical question. I think you're,
+
+409
+00:24:21,785 --> 00:24:25,765
+Speaker 6:  you're, you're right, but my h is, it's like 80% of the time or 90 people
+
+410
+00:24:25,765 --> 00:24:29,325
+Speaker 6:  know what they want, but the other, the other 10% of the time are incredibly
+
+411
+00:24:29,325 --> 00:24:31,965
+Speaker 6:  valuable. 'cause that's when you find this new podcast or book and it's back
+
+412
+00:24:31,965 --> 00:24:35,725
+Speaker 6:  to this like why we need to be 90% recall and 10% discovery and we went wrong
+
+413
+00:24:35,725 --> 00:24:37,345
+Speaker 6:  with 90% discovery.
+
+414
+00:24:37,345 --> 00:24:41,325
+Speaker 2:  The upside of doing all those things together is you, you can do a
+
+415
+00:24:41,325 --> 00:24:44,605
+Speaker 2:  sort of one-on-one makes three thing where it's like the podcast I listen
+
+416
+00:24:44,605 --> 00:24:48,525
+Speaker 2:  to probably do inform the kinds of books I might like and the kinds
+
+417
+00:24:48,525 --> 00:24:51,765
+Speaker 2:  of music that I listen to probably informs the kind of podcast I like. So
+
+418
+00:24:51,765 --> 00:24:55,645
+Speaker 2:  if you can actually having all of those things together in one place lets
+
+419
+00:24:55,645 --> 00:24:59,485
+Speaker 2:  you do stuff. But that stuff is not
+
+420
+00:24:59,485 --> 00:25:01,805
+Speaker 2:  shove stuff in front of me that I don't wanna listen to, I think. But I,
+
+421
+00:25:01,805 --> 00:25:03,845
+Speaker 2:  I think you're, you're increasingly getting away from that, which I think
+
+422
+00:25:03,845 --> 00:25:04,465
+Speaker 2:  is very good.
+
+423
+00:25:04,465 --> 00:25:06,545
+Speaker 6:  I'm glad to hear that we're trying hard,
+
+424
+00:25:06,545 --> 00:25:10,445
+Speaker 2:  But that also brings me to ai, which I think you're using kind
+
+425
+00:25:10,445 --> 00:25:13,865
+Speaker 2:  of in, in both directions of that, right? Like it seems like the
+
+426
+00:25:13,865 --> 00:25:17,845
+Speaker 2:  AI stuff I'm seeing floating around both what's been released And, what
+
+427
+00:25:17,845 --> 00:25:21,745
+Speaker 2:  random people are finding in code on Spotify is that both,
+
+428
+00:25:21,745 --> 00:25:25,565
+Speaker 2:  you want to use AI to be smarter and more proactive about what people
+
+429
+00:25:25,565 --> 00:25:29,165
+Speaker 2:  might want. Like the day list thing I think is really fascinating and the
+
+430
+00:25:29,165 --> 00:25:32,645
+Speaker 2:  names are all deeply weird, put in really interesting ways. Yeah. And then
+
+431
+00:25:32,645 --> 00:25:34,845
+Speaker 2:  on the other side there's this idea of like, what if you could just make
+
+432
+00:25:34,845 --> 00:25:38,555
+Speaker 2:  a playlist with a prompt? What if you could just sort of declare to Spotify
+
+433
+00:25:38,555 --> 00:25:42,245
+Speaker 2:  what you wanna listen to and it can do that. And that's the kind of thing
+
+434
+00:25:42,245 --> 00:25:45,545
+Speaker 2:  that as far as I can tell, these large language models are relatively capable
+
+435
+00:25:45,545 --> 00:25:49,525
+Speaker 2:  of. That's data that you have. Like that becomes a
+
+436
+00:25:49,525 --> 00:25:53,365
+Speaker 2:  whole new sort of tool for finding stuff to listen to. Again, if,
+
+437
+00:25:53,365 --> 00:25:56,845
+Speaker 2:  if your idea is like get back into the pocket as quickly as you can, that's
+
+438
+00:25:56,845 --> 00:25:57,955
+Speaker 2:  a pretty powerful one.
+
+439
+00:25:57,955 --> 00:26:00,885
+Speaker 6:  Yeah, for sure. I I think you're completely right. I'm, I'm very fascinated
+
+440
+00:26:00,885 --> 00:26:04,405
+Speaker 6:  about both of those directions. So, so one way to sort of retell what you
+
+441
+00:26:04,405 --> 00:26:07,865
+Speaker 6:  said is you could think one way is to You know everyone tries to reduce friction
+
+442
+00:26:07,865 --> 00:26:10,925
+Speaker 6:  and get even better at predicting what you wanted to do. And, and certainly
+
+443
+00:26:10,925 --> 00:26:14,695
+Speaker 6:  these LMSs help with that in many ways you get larger
+
+444
+00:26:14,695 --> 00:26:18,325
+Speaker 6:  embeddings that makes the content understanding better. So just the recommendations
+
+445
+00:26:18,325 --> 00:26:22,045
+Speaker 6:  of songs get better. In podcast you obviously have the whole
+
+446
+00:26:22,045 --> 00:26:25,995
+Speaker 6:  safety thing. You can now have machines pre-list to the podcast,
+
+447
+00:26:25,995 --> 00:26:29,865
+Speaker 6:  make sure that we can do safe fix or exploit, which can surface podcast
+
+448
+00:26:29,865 --> 00:26:33,395
+Speaker 6:  to you that we couldn't have done before because we didn't feel
+
+449
+00:26:33,395 --> 00:26:36,365
+Speaker 6:  literally safe e exploring content that we didn't understand
+
+450
+00:26:36,365 --> 00:26:40,165
+Speaker 6:  ourselves. So, so there's just making the recommendations better and hopefully
+
+451
+00:26:40,165 --> 00:26:43,885
+Speaker 6:  even better at this homepage predicting the right thing, the thing that you
+
+452
+00:26:43,885 --> 00:26:47,325
+Speaker 6:  had in your head. So we reduce friction and we're doing that and we're seeing
+
+453
+00:26:47,325 --> 00:26:49,805
+Speaker 6:  benefits of that. But to your point, I think the other direction is really
+
+454
+00:26:49,805 --> 00:26:53,005
+Speaker 6:  interesting as well. Sometimes you want more control, like you don't want
+
+455
+00:26:53,005 --> 00:26:56,805
+Speaker 6:  to be sold to everything and so can we build even more powerful tools for
+
+456
+00:26:56,805 --> 00:27:00,315
+Speaker 6:  you where you can have a lot of fun with the podcast catalog and the music
+
+457
+00:27:00,315 --> 00:27:04,055
+Speaker 6:  catalog. That is something I'm very fascinated about.
+
+458
+00:27:04,055 --> 00:27:07,485
+Speaker 6:  Can't comment too much about things that aren't live, but you're certainly
+
+459
+00:27:07,485 --> 00:27:11,005
+Speaker 6:  right. That's an area that I think is super interesting and having,
+
+460
+00:27:11,005 --> 00:27:14,965
+Speaker 6:  having a conversation around music with an entity that is
+
+461
+00:27:14,965 --> 00:27:18,865
+Speaker 6:  very knowledgeable about the global music culture. Everything has been written
+
+462
+00:27:18,865 --> 00:27:22,405
+Speaker 6:  on Wikipedia, every concert ever happened, but that also super knowledgeable
+
+463
+00:27:22,405 --> 00:27:26,275
+Speaker 6:  about you because it has your music taste, I think can be a really cool experience.
+
+464
+00:27:26,275 --> 00:27:30,165
+Speaker 2:  That is cool. And how has that changed the way that
+
+465
+00:27:30,165 --> 00:27:34,005
+Speaker 2:  you think about the kind of human machine interaction that
+
+466
+00:27:34,005 --> 00:27:36,805
+Speaker 2:  you've always talked about at Spotify, right? I think like the, the sort
+
+467
+00:27:36,805 --> 00:27:40,765
+Speaker 2:  of human curated playlists with machine help is like a core tenet
+
+468
+00:27:40,765 --> 00:27:44,405
+Speaker 2:  of what Spotify has always been. But if we're headed into this place of sort
+
+469
+00:27:44,405 --> 00:27:48,285
+Speaker 2:  of mass personalization, both that you're bringing to me and that I
+
+470
+00:27:48,285 --> 00:27:51,805
+Speaker 2:  can ask for myself, does that change that dynamic?
+
+471
+00:27:51,805 --> 00:27:55,765
+Speaker 6:  I think over time it probably will if you think
+
+472
+00:27:55,765 --> 00:27:58,805
+Speaker 6:  that the the, the systems are getting more and more
+
+473
+00:27:58,805 --> 00:28:02,765
+Speaker 6:  intelligent, they can do more and more of that. But what we are
+
+474
+00:28:02,765 --> 00:28:06,685
+Speaker 6:  right now, I think it's still the same world where
+
+475
+00:28:06,685 --> 00:28:10,645
+Speaker 6:  you, you look at Twitter and you see these 100% automatic things. There
+
+476
+00:28:10,645 --> 00:28:14,525
+Speaker 6:  are very cool demos. You don't see a lot of applications of them. And then
+
+477
+00:28:14,525 --> 00:28:17,925
+Speaker 6:  when you do some, when you apply something, it's actually almost
+
+478
+00:28:17,925 --> 00:28:21,685
+Speaker 6:  always including humans in the loop. It's just that they're m they get
+
+479
+00:28:21,685 --> 00:28:24,845
+Speaker 6:  much more leverage. That's fair. Yeah. So, so for example, if we look at
+
+480
+00:28:24,845 --> 00:28:28,285
+Speaker 6:  something we did recently with the dubbing for example, it's
+
+481
+00:28:28,285 --> 00:28:30,765
+Speaker 6:  quite straightforward. I wouldn't say straightforward, but it's getting quite
+
+482
+00:28:30,765 --> 00:28:34,675
+Speaker 6:  easy to, to use a service to get like a, a pretty good
+
+483
+00:28:34,675 --> 00:28:38,325
+Speaker 6:  translation and a generation of a voice in another
+
+484
+00:28:38,325 --> 00:28:41,645
+Speaker 6:  language. But if you put that to a native speaker, that language, they're
+
+485
+00:28:41,645 --> 00:28:44,745
+Speaker 6:  gonna drop off because the translation is not gonna sound like a podcast
+
+486
+00:28:44,745 --> 00:28:48,585
+Speaker 6:  or it's gonna be like correct grammatically, but very formal. The intonations
+
+487
+00:28:48,585 --> 00:28:52,385
+Speaker 6:  are off. And so what we find is that
+
+488
+00:28:52,385 --> 00:28:55,785
+Speaker 6:  you need to use these technologies and they're amazing, but you still need
+
+489
+00:28:55,785 --> 00:28:59,685
+Speaker 6:  people in the loop to make it truly great. So we keep
+
+490
+00:28:59,685 --> 00:29:03,565
+Speaker 6:  applying that recipe and we think of it more as getting more
+
+491
+00:29:03,565 --> 00:29:07,035
+Speaker 6:  and more leverage of those people on those people rather than
+
+492
+00:29:07,035 --> 00:29:09,565
+Speaker 6:  replacing more and more of those people, if that makes sense. You know the
+
+493
+00:29:09,565 --> 00:29:12,565
+Speaker 6:  same amount of people, but they can do more and more and more. If you think
+
+494
+00:29:12,565 --> 00:29:16,005
+Speaker 6:  about Steve Jobs old notion of You know the computer is a bicycle for the
+
+495
+00:29:16,005 --> 00:29:19,685
+Speaker 6:  mine. I think the LLM is like, it's like, I don't know, like a
+
+496
+00:29:19,685 --> 00:29:23,645
+Speaker 6:  motorcycle for the mine or a mountain bike or something. It's just that on
+
+497
+00:29:23,645 --> 00:29:26,325
+Speaker 6:  steroids. Yeah. So that's how I, I tend to think about it like that for any
+
+498
+00:29:26,325 --> 00:29:30,045
+Speaker 6:  type of creation. If you're an artist, if You know, I think the big
+
+499
+00:29:30,045 --> 00:29:34,005
+Speaker 6:  benefit of this will be it's an incredibly powerful bicycle for
+
+500
+00:29:34,005 --> 00:29:37,125
+Speaker 6:  the mine. And, and sure you can automate some things, you can
+
+501
+00:29:37,125 --> 00:29:40,805
+Speaker 6:  do elevator music and so forth. And that's not the interesting part. I think
+
+502
+00:29:40,805 --> 00:29:43,585
+Speaker 6:  the inter, inter interesting part is as augmentation to people.
+
+503
+00:29:43,585 --> 00:29:46,045
+Speaker 2:  No, I I think that's right. And actually the, I'm glad you brought up the,
+
+504
+00:29:46,045 --> 00:29:50,015
+Speaker 2:  the dubbing because that, and kind of on the flip side, the automated transcription
+
+505
+00:29:50,015 --> 00:29:53,525
+Speaker 2:  stuff I think is really interesting because like you said, it, it opens up
+
+506
+00:29:53,525 --> 00:29:57,305
+Speaker 2:  sort of new avenues both for people to reach people and for like
+
+507
+00:29:57,305 --> 00:30:00,965
+Speaker 2:  new ways of consuming this kind of stuff. To me, like automated
+
+508
+00:30:00,965 --> 00:30:04,785
+Speaker 2:  transcription and making podcasts searchable is like incredible. Yeah.
+
+509
+00:30:04,785 --> 00:30:08,005
+Speaker 2:  And we're finally getting to the point where the LLMs are good enough at
+
+510
+00:30:08,005 --> 00:30:10,805
+Speaker 2:  speech to text that it's actually pretty plausible, which I think is very
+
+511
+00:30:10,805 --> 00:30:14,685
+Speaker 2:  exciting. But I am curious from a, from a creator standpoint, like I, I make
+
+512
+00:30:14,685 --> 00:30:18,605
+Speaker 2:  a podcast and I've been trying to figure out how I feel at
+
+513
+00:30:18,605 --> 00:30:22,535
+Speaker 2:  just like a very personal level about the idea of my
+
+514
+00:30:22,535 --> 00:30:25,925
+Speaker 2:  voice being translated into tons of different languages all over the
+
+515
+00:30:25,925 --> 00:30:29,885
+Speaker 2:  world. And most of me thinks it's very cool. Part of me is sort of horrified
+
+516
+00:30:29,885 --> 00:30:33,645
+Speaker 2:  by it in a way. I can't even totally describe, it just feels odd. It's like
+
+517
+00:30:33,645 --> 00:30:37,405
+Speaker 2:  it's me but it's not me in some way that I can't
+
+518
+00:30:37,405 --> 00:30:40,685
+Speaker 2:  totally wrap my head around. And it feels like in so many ways with ai we're
+
+519
+00:30:40,685 --> 00:30:44,305
+Speaker 2:  headed down that road of, of feelings in a lot of ways.
+
+520
+00:30:44,305 --> 00:30:48,175
+Speaker 2:  But what are you hearing from creators and people who are, are
+
+521
+00:30:48,175 --> 00:30:51,805
+Speaker 2:  using this tech already? Like what do they make of all this new leverage
+
+522
+00:30:51,805 --> 00:30:52,595
+Speaker 2:  you're giving them?
+
+523
+00:30:52,595 --> 00:30:55,605
+Speaker 6:  Yeah. So as you say, our focus is really on, on helping
+
+524
+00:30:55,605 --> 00:30:59,185
+Speaker 6:  creators, giving them tools rather than trying to replace them. Other people
+
+525
+00:30:59,185 --> 00:31:02,485
+Speaker 6:  may have that as a strategy, but our, our, our tool is really to try to empower
+
+526
+00:31:02,485 --> 00:31:05,825
+Speaker 6:  creators, giving them more and more tools and, and dubbing is one of those
+
+527
+00:31:05,825 --> 00:31:08,885
+Speaker 6:  and, and we're working on other tools as well that we think are very interesting
+
+528
+00:31:08,885 --> 00:31:12,655
+Speaker 6:  for creators. But if, if we look at dubbing your notion like it's
+
+529
+00:31:12,655 --> 00:31:15,765
+Speaker 6:  weird in a way, there's a lot of these things I think we're gonna get into
+
+530
+00:31:15,765 --> 00:31:19,565
+Speaker 6:  that feels weird the next few years. Sure. But from another point of
+
+531
+00:31:19,565 --> 00:31:23,345
+Speaker 6:  view, if you look at non podcasters, You know book authors and
+
+532
+00:31:23,345 --> 00:31:27,085
+Speaker 6:  TV movies, they've been dubbed for tens of years. That's true. And with
+
+533
+00:31:27,085 --> 00:31:31,075
+Speaker 6:  completely different voices and, and sometimes You know in certain markets
+
+534
+00:31:31,075 --> 00:31:34,625
+Speaker 6:  with just ducking the original audio, it's like really crappy in a sense.
+
+535
+00:31:34,625 --> 00:31:37,635
+Speaker 6:  So, so from that point of view, this is just the same but's much more authentic.
+
+536
+00:31:37,635 --> 00:31:41,045
+Speaker 6:  It's really you instead of someone else trying to pretend to be you. So I,
+
+537
+00:31:41,045 --> 00:31:44,965
+Speaker 6:  I, my hunch is podcasters are gonna, are sort of gonna get over
+
+538
+00:31:44,965 --> 00:31:48,245
+Speaker 6:  that feeling, certainly will be heard from the podcasters we worked
+
+539
+00:31:48,245 --> 00:31:52,235
+Speaker 6:  with is that their fear was the opposite. That
+
+540
+00:31:52,235 --> 00:31:55,645
+Speaker 6:  when we contacted them, they're like, I don't think it's gonna really sound
+
+541
+00:31:55,645 --> 00:31:59,485
+Speaker 6:  like me. Will I have like a, an accent where I sound like a, instead
+
+542
+00:31:59,485 --> 00:32:03,125
+Speaker 6:  of a good Spanish speaker, I sound like a slow American You know
+
+543
+00:32:03,125 --> 00:32:06,795
+Speaker 6:  heavy American accent, right? I just sound dumb. Somehow they're really very
+
+544
+00:32:06,795 --> 00:32:10,345
+Speaker 6:  predictably very concerned about what they appear like in that language.
+
+545
+00:32:10,345 --> 00:32:14,245
+Speaker 6:  So that's what we put a ton of effort on details. Like it's a
+
+546
+00:32:14,245 --> 00:32:17,455
+Speaker 6:  translation not just grammatically correct, but is this what a, this person
+
+547
+00:32:17,455 --> 00:32:20,485
+Speaker 6:  would sound like? What a, is this a relaxed podcast conversation or a formal
+
+548
+00:32:20,485 --> 00:32:24,445
+Speaker 6:  lecture in that other language? Does You know Lex Friedman or Steven Bartlett?
+
+549
+00:32:24,565 --> 00:32:28,485
+Speaker 6:  Do they sound like they should probably sound in Spanish or do
+
+550
+00:32:28,485 --> 00:32:31,865
+Speaker 6:  they sound like someone who doesn't speak Spanish that well? But if it's
+
+551
+00:32:31,865 --> 00:32:35,365
+Speaker 6:  to Spanish it doesn't sound like them anymore. That's the balance we spent
+
+552
+00:32:35,365 --> 00:32:38,565
+Speaker 6:  a lot of time on and I think we found a good balance, at least they are very
+
+553
+00:32:38,565 --> 00:32:42,135
+Speaker 6:  happy. And and maybe even more importantly, when you look at the Twitter
+
+554
+00:32:42,135 --> 00:32:46,005
+Speaker 6:  feeds, what I take a lot of joy from is almost without a
+
+555
+00:32:46,005 --> 00:32:49,845
+Speaker 6:  fault. The feedback are like, I'm a native speaker and this
+
+556
+00:32:49,845 --> 00:32:53,725
+Speaker 6:  is amazing, which you don't see that much. I see people saying this is
+
+557
+00:32:53,725 --> 00:32:56,665
+Speaker 6:  amazing. And then you see native speaker saying, actually it's not that good
+
+558
+00:32:56,665 --> 00:33:00,445
+Speaker 6:  as a native speaker because it's wrong. And, and we really try to put effort
+
+559
+00:33:00,445 --> 00:33:04,405
+Speaker 6:  in was like sort of just quality of production and So I look
+
+560
+00:33:04,405 --> 00:33:07,565
+Speaker 6:  a lot at it's a creator happy, do they feel like what they should sound like.
+
+561
+00:33:07,565 --> 00:33:10,965
+Speaker 6:  But then I also look at the feedback from the native speakers and then obviously
+
+562
+00:33:10,965 --> 00:33:14,165
+Speaker 6:  I look at the episode and when do people drop off if it's not good enough,
+
+563
+00:33:14,165 --> 00:33:17,925
+Speaker 6:  if it's cool but not interesting, people are gonna drop off after to five
+
+564
+00:33:17,925 --> 00:33:21,405
+Speaker 6:  minutes. So that's kind of how we evaluate quality and so far we're
+
+565
+00:33:21,405 --> 00:33:23,925
+Speaker 6:  very encouraged by by what we're seeing. Yeah.
+
+566
+00:33:23,925 --> 00:33:27,645
+Speaker 2:  What are you telling the, the creators who are trying to figure out how to
+
+567
+00:33:27,645 --> 00:33:29,805
+Speaker 2:  navigate this stuff? I mean I just think about, we, we've talked a ton about
+
+568
+00:33:29,805 --> 00:33:32,765
+Speaker 2:  like the writer's strike on the Hollywood side and one of the things they're
+
+569
+00:33:32,765 --> 00:33:36,585
+Speaker 2:  worried about is like if you're an actor they can just take your voice
+
+570
+00:33:36,585 --> 00:33:39,525
+Speaker 2:  and never need you anymore. And then I, I listened to like, I was listening
+
+571
+00:33:39,525 --> 00:33:42,845
+Speaker 2:  to Bill Simmons and he's like, oh great, my voice can read our ads and I
+
+572
+00:33:42,845 --> 00:33:45,215
+Speaker 2:  don't ever have to. And so I'm like, well there's the two sides of the coin
+
+573
+00:33:45,215 --> 00:33:48,645
+Speaker 2:  right there. What are you telling folks who are, are trying to figure out
+
+574
+00:33:48,645 --> 00:33:51,645
+Speaker 2:  kind of how to navigate that? Like what, what does it mean that my voice
+
+575
+00:33:51,645 --> 00:33:54,075
+Speaker 2:  is now part of kind of an AI machine?
+
+576
+00:33:54,075 --> 00:33:57,595
+Speaker 6:  Yeah, I I think it's very much about creator control. I think what you hear
+
+577
+00:33:57,595 --> 00:34:01,265
+Speaker 6:  Bill Simmons say this is because he feels like he's in control. Sure.
+
+578
+00:34:01,265 --> 00:34:05,165
+Speaker 6:  That's obviously when we do these dubbing things, we
+
+579
+00:34:05,165 --> 00:34:08,915
+Speaker 6:  we get no rights to that creator's voice for any other purpose. Right.
+
+580
+00:34:08,915 --> 00:34:12,045
+Speaker 6:  It's only for that purpose. Exactly. For that translation. So it's their
+
+581
+00:34:12,045 --> 00:34:15,685
+Speaker 6:  voice. I think that's the key. I think people will be fair, would feel very
+
+582
+00:34:15,685 --> 00:34:19,085
+Speaker 6:  uncomfortable, but giving away rights to their
+
+583
+00:34:19,085 --> 00:34:22,795
+Speaker 6:  likeness for like unknown purposes. So for, for us
+
+584
+00:34:22,795 --> 00:34:25,785
+Speaker 6:  back to like You know, we, we try to structure it as narrowly as possible
+
+585
+00:34:25,785 --> 00:34:29,625
+Speaker 6:  around like your voice for exactly this purpose and, and
+
+586
+00:34:29,625 --> 00:34:33,365
+Speaker 6:  You know it's your episode. So that's how we've solved it and I think
+
+587
+00:34:33,365 --> 00:34:36,965
+Speaker 6:  that's the, that's the fear that creates, I I would feel equally
+
+588
+00:34:36,965 --> 00:34:40,865
+Speaker 6:  concerned if, if someone had the rights to say whatever they wanted with
+
+589
+00:34:40,865 --> 00:34:41,755
+Speaker 6:  my voice.
+
+590
+00:34:41,755 --> 00:34:42,745
+Speaker 2:  Sure. Yeah.
+
+591
+00:34:42,745 --> 00:34:46,665
+Speaker 6:  And that's also why we've been quite careful. I think that's why OpenAI who
+
+592
+00:34:46,665 --> 00:34:50,435
+Speaker 6:  we, we have worked with has been quite careful 'cause there is that
+
+593
+00:34:50,435 --> 00:34:53,845
+Speaker 6:  potential for abuse and I think that's why this was a good use case to start
+
+594
+00:34:53,845 --> 00:34:57,085
+Speaker 6:  with, where it's very clear that this is something those creators want and
+
+595
+00:34:57,085 --> 00:35:00,885
+Speaker 6:  it's voluntary and it's, it's, I think un unambiguously
+
+596
+00:35:00,885 --> 00:35:01,485
+Speaker 6:  good.
+
+597
+00:35:01,485 --> 00:35:04,565
+Speaker 2:  Yeah, no, I I that's, that's fair. And I think I, I definitely agree that
+
+598
+00:35:04,565 --> 00:35:07,645
+Speaker 2:  the right way to think about it is like these are, these are tools you can
+
+599
+00:35:07,645 --> 00:35:11,565
+Speaker 2:  give people to use. Not sort of things you're foisting on top of what
+
+600
+00:35:11,565 --> 00:35:15,365
+Speaker 2:  they're already doing. I think that that feels right to me. Yeah. So come
+
+601
+00:35:15,365 --> 00:35:18,525
+Speaker 2:  back to the ai AI playlist thing for a second because I, I've been thinking
+
+602
+00:35:18,525 --> 00:35:21,685
+Speaker 2:  a lot about DJ and I've been thinking a lot about day lists recently and
+
+603
+00:35:21,685 --> 00:35:25,085
+Speaker 2:  I think dj, which is seems to have done really well. Everybody I talked to
+
+604
+00:35:25,085 --> 00:35:28,775
+Speaker 2:  about DJ thinks it's the coolest thing ever, but it's this very
+
+605
+00:35:28,775 --> 00:35:32,495
+Speaker 2:  human thing, right? Like it's an AI generated thing that is
+
+606
+00:35:32,495 --> 00:35:36,385
+Speaker 2:  still meant to be sort of a character in my life. Yeah. But then
+
+607
+00:35:36,385 --> 00:35:40,085
+Speaker 2:  on the flip side, day list is just like a super curated list of
+
+608
+00:35:40,085 --> 00:35:42,845
+Speaker 2:  songs, right? Yeah. There are two sort of very different ways of thinking
+
+609
+00:35:42,845 --> 00:35:46,365
+Speaker 2:  about it should both be in there. Do you have a thesis about one or the other
+
+610
+00:35:46,365 --> 00:35:48,555
+Speaker 2:  that we land on over time? What do you think?
+
+611
+00:35:48,555 --> 00:35:52,165
+Speaker 6:  It's a great question and the truth is we, we don't know yet. Okay. Which
+
+612
+00:35:52,165 --> 00:35:55,485
+Speaker 6:  going to be the future play mode and I think people have different listening
+
+613
+00:35:55,485 --> 00:35:59,045
+Speaker 6:  modes. I still think there's always gonna be a mode where you want exactly
+
+614
+00:35:59,045 --> 00:36:02,645
+Speaker 6:  your playlist that you are you curated You know without our recommendations
+
+615
+00:36:02,645 --> 00:36:05,565
+Speaker 6:  in it or anyone commenting or anything like that. And then I think you're
+
+616
+00:36:05,565 --> 00:36:09,185
+Speaker 6:  gonna want these music sessions sort of like a daily mix or something where
+
+617
+00:36:09,185 --> 00:36:12,925
+Speaker 6:  you're asking for like a specific genre. You kind of know exactly what you're
+
+618
+00:36:12,925 --> 00:36:16,705
+Speaker 6:  gonna get on the genre and style, but not exactly which track.
+
+619
+00:36:16,705 --> 00:36:19,445
+Speaker 6:  But you don't want anyone talking in between the songs, the whole thing.
+
+620
+00:36:19,445 --> 00:36:22,675
+Speaker 6:  It's like a lean back session where it's what we call it like mind busy versus
+
+621
+00:36:22,675 --> 00:36:26,115
+Speaker 6:  mind free. Mm. I like that. And You know when when the mind is busy, music
+
+622
+00:36:26,115 --> 00:36:28,885
+Speaker 6:  fits mind busy 'cause you can think about something else, but then when someone
+
+623
+00:36:28,885 --> 00:36:32,285
+Speaker 6:  starts talking you have to stop thinking about someone else and pay attention
+
+624
+00:36:32,285 --> 00:36:35,045
+Speaker 6:  something else. Pay attention again. And, and this was one of the tricky
+
+625
+00:36:35,045 --> 00:36:39,005
+Speaker 6:  things with the dj. We, we've done some other experiments where we've had
+
+626
+00:36:39,005 --> 00:36:42,565
+Speaker 6:  like these sessions we can talk for a while and then play some music and
+
+627
+00:36:42,565 --> 00:36:46,275
+Speaker 6:  in theory people love it. In practice the problem is like
+
+628
+00:36:46,275 --> 00:36:49,645
+Speaker 6:  it's partially a podcast and you have to pay attention. Then the music comes
+
+629
+00:36:49,645 --> 00:36:52,805
+Speaker 6:  in you so not start thinking about something else and then it's like, oh
+
+630
+00:36:52,805 --> 00:36:55,565
+Speaker 6:  back now I have to pay attention again. You're switching between like mind
+
+631
+00:36:55,565 --> 00:36:59,485
+Speaker 6:  free and mind busy. And so what we saw in that data was people kind of
+
+632
+00:36:59,485 --> 00:37:03,005
+Speaker 6:  chose, either they listened to the podcast and skipped past the music or
+
+633
+00:37:03,005 --> 00:37:06,525
+Speaker 6:  they kind of did the opposite. So I definitely think we're gonna have these
+
+634
+00:37:06,525 --> 00:37:10,445
+Speaker 6:  music only sessions. And the notion for the DJ was actually taking that
+
+635
+00:37:10,445 --> 00:37:14,045
+Speaker 6:  learning and saying like that this is a music session first
+
+636
+00:37:14,045 --> 00:37:17,925
+Speaker 6:  and foremost the DJ needs to be quick, brief and get out of
+
+637
+00:37:17,925 --> 00:37:21,795
+Speaker 6:  the way. So it's not a podcast about music, it's a playlist
+
+638
+00:37:21,795 --> 00:37:25,765
+Speaker 6:  with some introduction to it. We may at some point do the opposite and have
+
+639
+00:37:25,765 --> 00:37:29,585
+Speaker 6:  a generated podcast about a track where it's like 90% talk and
+
+640
+00:37:29,585 --> 00:37:33,445
+Speaker 6:  10% music. But then it's a different hypothesis, right? But this
+
+641
+00:37:33,445 --> 00:37:37,325
+Speaker 6:  is the the dj, what's the point of this dj? Like why does it even
+
+642
+00:37:37,325 --> 00:37:41,045
+Speaker 6:  need to to talk? Well what we found was that even for the exact
+
+643
+00:37:41,045 --> 00:37:44,805
+Speaker 6:  same playlist, if you say like, Hey David, here's a playlist, these
+
+644
+00:37:44,805 --> 00:37:47,845
+Speaker 6:  five tracks are gonna come up. And when you look at that playlist, you're
+
+645
+00:37:47,845 --> 00:37:51,165
+Speaker 6:  sitting there thinking like, maybe I do, maybe I don't like that. Maybe it's
+
+646
+00:37:51,165 --> 00:37:54,545
+Speaker 6:  gonna feel like this and so forth. And there was a lot of like choice paralysis
+
+647
+00:37:54,545 --> 00:37:58,385
+Speaker 6:  and the, the kinda weird thing is when when we had the DJ say like, Hey David,
+
+648
+00:37:58,385 --> 00:38:01,845
+Speaker 6:  I'm gonna take you back to when you were like teenager, I'm gonna play this
+
+649
+00:38:01,845 --> 00:38:05,825
+Speaker 6:  track. And it's the exact same track that you would've seen in the playlist.
+
+650
+00:38:05,825 --> 00:38:08,845
+Speaker 6:  You stick around and listen. So there's something about, there's something
+
+651
+00:38:08,845 --> 00:38:12,675
+Speaker 6:  about removing choice and paralysis saying like, okay, just
+
+652
+00:38:12,675 --> 00:38:16,555
+Speaker 6:  take me somewhere where you seem to get inspired and enjoy it.
+
+653
+00:38:16,555 --> 00:38:19,665
+Speaker 6:  Sort of the exact same tracks you might have skipped if we showed you a list
+
+654
+00:38:19,665 --> 00:38:23,115
+Speaker 6:  or what's gonna happen in the future. And we're still not exactly
+
+655
+00:38:23,115 --> 00:38:26,985
+Speaker 6:  sure what that is, but it's very clear it's happening.
+
+656
+00:38:26,985 --> 00:38:30,765
+Speaker 6:  So, I think of this now as the, we have lots of choices. If You
+
+657
+00:38:30,765 --> 00:38:34,205
+Speaker 6:  know what you want or you sort of know what you want, we have genres and
+
+658
+00:38:34,205 --> 00:38:37,745
+Speaker 6:  hundreds of playlist for every type of genre and you have your own playlist.
+
+659
+00:38:37,745 --> 00:38:40,765
+Speaker 6:  We didn't have a good solution for like, hey Spotify, I have no
+
+660
+00:38:40,765 --> 00:38:44,285
+Speaker 6:  idea. So this is the solution for like, I know idea, but I want
+
+661
+00:38:44,285 --> 00:38:47,525
+Speaker 6:  music and then this is a, this is a really good tool and So I don't think
+
+662
+00:38:47,525 --> 00:38:51,005
+Speaker 6:  it's gonna switch to a hundred percent. I have no idea. I think you're gonna
+
+663
+00:38:51,005 --> 00:38:52,355
+Speaker 6:  have different moments.
+
+664
+00:38:52,355 --> 00:38:55,625
+Speaker 2:  Yeah, no, that makes sense. And that actually brings me to, I'm gonna just,
+
+665
+00:38:55,625 --> 00:38:58,525
+Speaker 2:  I'm gonna throw thesis at you and I want you to, to agree or disagree and,
+
+666
+00:38:58,525 --> 00:39:01,765
+Speaker 2:  and tell me why I'm right or wrong, go for it. It seems to me that we've
+
+667
+00:39:01,765 --> 00:39:05,565
+Speaker 2:  gone through this phase in this space where there were a lot of
+
+668
+00:39:05,565 --> 00:39:07,595
+Speaker 2:  betts in a lot of different directions, right? Everybody, everybody went
+
+669
+00:39:07,595 --> 00:39:11,445
+Speaker 2:  towards trying to figure out how to do exclusive content in
+
+670
+00:39:11,445 --> 00:39:15,215
+Speaker 2:  really cool ways. Everybody tried to build radically different
+
+671
+00:39:15,215 --> 00:39:19,145
+Speaker 2:  kinds of listening experiences. People tried to do live audio
+
+672
+00:39:19,145 --> 00:39:22,845
+Speaker 2:  and it, it seems like we're coming back to the idea that
+
+673
+00:39:22,845 --> 00:39:26,605
+Speaker 2:  actually there is this incredibly cool, interesting
+
+674
+00:39:26,605 --> 00:39:30,445
+Speaker 2:  library of content out there and the job of an app
+
+675
+00:39:30,445 --> 00:39:34,235
+Speaker 2:  like Spotify or any of your competitors is to find
+
+676
+00:39:34,235 --> 00:39:37,925
+Speaker 2:  ways for me to find that content and that content to find me just sort
+
+677
+00:39:37,925 --> 00:39:41,905
+Speaker 2:  of watching Spotify over the last, I don't know, 24 months. It feels like
+
+678
+00:39:41,905 --> 00:39:44,805
+Speaker 2:  to some extent you, you've kind of wound all the way back to like the core
+
+679
+00:39:44,805 --> 00:39:47,645
+Speaker 2:  competency, which is like, we're very good at telling you what to listen
+
+680
+00:39:47,645 --> 00:39:51,485
+Speaker 2:  to and it just feels like you, you've pushed back into
+
+681
+00:39:51,485 --> 00:39:55,385
+Speaker 2:  that in new ways over the last year or so. Is that fair?
+
+682
+00:39:55,385 --> 00:39:57,325
+Speaker 2:  Am I totally wrong? What do you think?
+
+683
+00:39:57,325 --> 00:40:00,805
+Speaker 6:  I think it is fair. I would say that we, we try to get more distinct about
+
+684
+00:40:00,805 --> 00:40:04,775
+Speaker 6:  separating the modes. So the DJ is still in this class. So like it's mostly
+
+685
+00:40:04,775 --> 00:40:08,715
+Speaker 6:  going to play things that we are quite certain
+
+686
+00:40:08,715 --> 00:40:12,625
+Speaker 6:  that you like back to like it's probably gonna be right nine out of 10
+
+687
+00:40:12,625 --> 00:40:16,395
+Speaker 6:  things. And then we need a different solution for when you wanna be exploratory
+
+688
+00:40:16,395 --> 00:40:19,485
+Speaker 6:  when we're only right one out of 10 instead of nine out 10, which is the
+
+689
+00:40:19,485 --> 00:40:22,585
+Speaker 6:  feeds, right? So we try to separate the two instead of having a bad average
+
+690
+00:40:22,585 --> 00:40:26,425
+Speaker 6:  of both. If the DJ was right one out of 10,
+
+691
+00:40:26,425 --> 00:40:27,785
+Speaker 6:  you would churn out, right?
+
+692
+00:40:27,785 --> 00:40:30,315
+Speaker 2:  Or if they're both five outta 10, I'm gonna churn out.
+
+693
+00:40:30,315 --> 00:40:33,045
+Speaker 6:  Exactly. That's a better point. If they're both five outta 10, both are bad,
+
+694
+00:40:33,045 --> 00:40:36,525
+Speaker 6:  right? So that is true. I think we got more confident that like let's build
+
+695
+00:40:36,525 --> 00:40:40,085
+Speaker 6:  this product for this purpose and this other product for that other purpose.
+
+696
+00:40:40,085 --> 00:40:43,785
+Speaker 6:  I also do think that, back to your questions on ai, in generative
+
+697
+00:40:43,785 --> 00:40:47,285
+Speaker 6:  ai, I have this obsession with as artificial
+
+698
+00:40:47,285 --> 00:40:50,605
+Speaker 6:  intelligence or machine intelligence or whatever you call it is getting more
+
+699
+00:40:50,605 --> 00:40:53,885
+Speaker 6:  and more capable. I've always had this obsession about everyone should be
+
+700
+00:40:53,885 --> 00:40:57,805
+Speaker 6:  able to really have a dj that sounds very natural, but that gets
+
+701
+00:40:57,805 --> 00:41:01,085
+Speaker 6:  more and more intelligent over time so it understands. So the DJ we have
+
+702
+00:41:01,085 --> 00:41:04,445
+Speaker 6:  now, it understands quite a lot about your music taste, but with a lamps
+
+703
+00:41:04,445 --> 00:41:07,185
+Speaker 6:  it will also start to understand a lot about music culture and the world
+
+704
+00:41:07,185 --> 00:41:10,985
+Speaker 6:  And, what happens. It can get more skilled at things like
+
+705
+00:41:10,985 --> 00:41:14,695
+Speaker 6:  mixing and like, I, I really want to build this perfect session
+
+706
+00:41:14,695 --> 00:41:17,765
+Speaker 6:  where you feel like a, a larger percentage of the
+
+707
+00:41:17,765 --> 00:41:21,685
+Speaker 6:  time you feel like Spotify is almost like a,
+
+708
+00:41:21,685 --> 00:41:25,445
+Speaker 6:  a friend, a person, a, a dj. I'm just gonna trust them. Then maybe
+
+709
+00:41:25,445 --> 00:41:28,725
+Speaker 6:  instead of 80% of the time you go and choose your playlist, maybe we get
+
+710
+00:41:28,725 --> 00:41:32,475
+Speaker 6:  down to like 2010, 20% of the time you're gonna have your playlist because
+
+711
+00:41:32,475 --> 00:41:35,365
+Speaker 6:  it's party or something. But most of the time you're gonna say like, Hey
+
+712
+00:41:35,365 --> 00:41:39,045
+Speaker 6:  Spotify my friend, just play something and I'll
+
+713
+00:41:39,045 --> 00:41:42,945
+Speaker 6:  feedback. I think that is entirely possible given
+
+714
+00:41:42,945 --> 00:41:46,885
+Speaker 6:  the insane development of, of intelligence. So
+
+715
+00:41:46,885 --> 00:41:50,025
+Speaker 6:  that's something I'm very passionate about. So I think we're gonna keep investing
+
+716
+00:41:50,025 --> 00:41:53,925
+Speaker 6:  in that. So in that sense, I think your thesis is right. We're getting
+
+717
+00:41:53,925 --> 00:41:57,485
+Speaker 6:  more confident in the ability to recommend and try to program to
+
+718
+00:41:57,485 --> 00:42:01,365
+Speaker 6:  you, but we still need to find this balance of being fault tolerant and
+
+719
+00:42:01,365 --> 00:42:05,285
+Speaker 6:  give you super easy ways to like say, now you're wrong. Gimme
+
+720
+00:42:05,285 --> 00:42:06,275
+Speaker 6:  control back.
+
+721
+00:42:06,275 --> 00:42:09,355
+Speaker 2:  Yeah, that's, that's totally fair. What playlist do you listen to
+
+722
+00:42:09,355 --> 00:42:10,285
+Speaker 2:  most?
+
+723
+00:42:10,285 --> 00:42:13,965
+Speaker 6:  I actually listen to with you statistically it's, it's the DJ by far that
+
+724
+00:42:13,965 --> 00:42:17,635
+Speaker 6:  I listen to the most and then I have a set of my, my own
+
+725
+00:42:17,635 --> 00:42:19,525
+Speaker 6:  curated holders and goalies. I
+
+726
+00:42:19,525 --> 00:42:20,525
+Speaker 4:  Like it.
+
+727
+00:42:20,525 --> 00:42:23,265
+Speaker 2:  I really appreciate you doing this. It's really fun to do this. I ho I I
+
+728
+00:42:23,265 --> 00:42:25,925
+Speaker 2:  I'm glad we got to make it happen even though we couldn't do it in person.
+
+729
+00:42:25,925 --> 00:42:28,245
+Speaker 6:  Likewise, always fun, happy to do
+
+730
+00:42:28,245 --> 00:42:29,955
+Speaker 6:  again.
+
+731
+00:42:29,955 --> 00:42:32,765
+Speaker 2:  Alright, we gotta take a break and then we're gonna talk about Streaming
+
+732
+00:42:32,765 --> 00:42:36,685
+Speaker 2:  because there is always something happening in Streaming. We'll be right
+
+733
+00:42:36,685 --> 00:42:41,815
+Speaker 2:  back.
+
+734
+00:45:16,995 --> 00:45:20,855
+Speaker 2:  All right We're back. We have kind of a grab bag of streaming news this
+
+735
+00:45:20,855 --> 00:45:24,635
+Speaker 2:  week from Disney to Verizon to Max to Marvel to Netflix. It's a
+
+736
+00:45:24,635 --> 00:45:28,455
+Speaker 2:  lot and it feels like there's a bigger story tying all of
+
+737
+00:45:28,455 --> 00:45:32,295
+Speaker 2:  it together. Or maybe a couple of them. So I grabbed Alex Cranz to talk
+
+738
+00:45:32,295 --> 00:45:36,005
+Speaker 2:  it through. Hi Alex. Hello. Whenever we have
+
+739
+00:45:36,005 --> 00:45:39,215
+Speaker 2:  streaming things to yell about, it feels important that you and I do it on
+
+740
+00:45:39,215 --> 00:45:42,935
+Speaker 2:  The Vergecast together. So I'm very happy to do this. The first thing we
+
+741
+00:45:42,935 --> 00:45:46,255
+Speaker 2:  need to do is we need to, we need to explain the truth to some people about
+
+742
+00:45:46,255 --> 00:45:49,695
+Speaker 2:  what is going on with Disney. The shortest bit of the history that I need
+
+743
+00:45:49,695 --> 00:45:53,675
+Speaker 2:  to give in order to get into this is what, a week ago now, two weeks ago
+
+744
+00:45:53,675 --> 00:45:57,595
+Speaker 2:  now, Disney and Comcast enacted their agreement
+
+745
+00:45:57,595 --> 00:46:00,495
+Speaker 2:  for Disney to buy the rest of Hulu from Comcast, which we've kind of always
+
+746
+00:46:00,495 --> 00:46:04,455
+Speaker 2:  known is gonna happen. That's the history. Explain to me these weird
+
+747
+00:46:04,455 --> 00:46:07,975
+Speaker 2:  things that have been happening around the Disney internet in the last few
+
+748
+00:46:07,975 --> 00:46:08,715
+Speaker 2:  days.
+
+749
+00:46:08,715 --> 00:46:12,325
+Speaker 7:  So Disney was doing its earnings call the other day and Bob
+
+750
+00:46:12,325 --> 00:46:15,875
+Speaker 7:  Iger said that they're gonna experiment with a beta
+
+751
+00:46:15,875 --> 00:46:19,565
+Speaker 7:  in December combining the content of Hulu and Disney
+
+752
+00:46:19,565 --> 00:46:23,375
+Speaker 7:  Plus. And that's, I think something we've talked about on The.
+
+753
+00:46:23,375 --> 00:46:26,415
+Speaker 7:  Vergecast was probably gonna be the outcome of all of this. So that was not
+
+754
+00:46:26,415 --> 00:46:27,565
+Speaker 7:  a surprise to us.
+
+755
+00:46:27,565 --> 00:46:31,355
+Speaker 2:  Yeah. Disney has not hid that fact that ultimately what it was going to do
+
+756
+00:46:31,355 --> 00:46:34,205
+Speaker 2:  was probably combine them all into one streaming service.
+
+757
+00:46:34,205 --> 00:46:37,055
+Speaker 7:  He's been talking about this I think since May very openly that that was
+
+758
+00:46:37,055 --> 00:46:40,815
+Speaker 7:  his plan. But a lot of outlets, a lot of people have
+
+759
+00:46:40,815 --> 00:46:44,455
+Speaker 7:  gotten confused by that and assume that one or both of those
+
+760
+00:46:44,455 --> 00:46:48,055
+Speaker 7:  streaming services is gonna go away. And I think like a, A name is probably
+
+761
+00:46:48,055 --> 00:46:51,955
+Speaker 7:  gonna go away. I think Hulu or Disney Plus is probably gonna get retired,
+
+762
+00:46:51,955 --> 00:46:55,225
+Speaker 7:  but all the content is still gonna be there. It's just gonna be one app,
+
+763
+00:46:55,225 --> 00:46:59,095
+Speaker 7:  which in the United States is kind of tricky because the Disney
+
+764
+00:46:59,095 --> 00:47:02,655
+Speaker 7:  Plus app in the United States is for babies and the Hulu app is for
+
+765
+00:47:02,655 --> 00:47:06,605
+Speaker 7:  adults. I say that subscribing to both. Yeah, I am baby
+
+766
+00:47:06,605 --> 00:47:10,595
+Speaker 7:  here. But You know that that one is very much for kids. Your kids
+
+767
+00:47:10,595 --> 00:47:14,475
+Speaker 7:  are less likely to go find two people going at it
+
+768
+00:47:14,475 --> 00:47:16,045
+Speaker 7:  on Disney Plus
+
+769
+00:47:16,045 --> 00:47:18,415
+Speaker 2:  Hulu the one for sex. Like that's the The one
+
+770
+00:47:18,415 --> 00:47:21,455
+Speaker 7:  For sex. Yeah, that's the, I mean honestly in the United States, that's the
+
+771
+00:47:21,455 --> 00:47:25,445
+Speaker 7:  big differentiation. Sure. One is Bone Town, the other population,
+
+772
+00:47:25,445 --> 00:47:28,815
+Speaker 7:  none. It, one of the things that Bob Iger said was he was like, we're gonna
+
+773
+00:47:28,815 --> 00:47:31,965
+Speaker 7:  wait and take a minute because people are gonna need to like prepare and
+
+774
+00:47:31,965 --> 00:47:35,465
+Speaker 7:  think about child protection and stuff so their kids don't go to Bone Town.
+
+775
+00:47:35,465 --> 00:47:36,725
+Speaker 7:  He didn't say Bone Town, but
+
+776
+00:47:36,725 --> 00:47:38,905
+Speaker 2:  That's essentially what it means. Yeah. Yeah.
+
+777
+00:47:38,905 --> 00:47:42,245
+Speaker 7:  And I think that got people kind of scared thinking that Disney Plus is going
+
+778
+00:47:42,245 --> 00:47:46,195
+Speaker 7:  away and it's like, no, it's, it's gonna be there so much.
+
+779
+00:47:46,195 --> 00:47:49,085
+Speaker 7:  Yeah. You're just gonna have to think a little harder about the accounts
+
+780
+00:47:49,085 --> 00:47:52,425
+Speaker 7:  you set up and make sure that one of 'em, if you don't want your kids
+
+781
+00:47:52,425 --> 00:47:56,375
+Speaker 7:  seeing Handmaid's Tale, that you block that
+
+782
+00:47:56,375 --> 00:48:00,235
+Speaker 2:  Everything you just said is true and correct. Except, except for one thing.
+
+783
+00:48:00,235 --> 00:48:03,875
+Speaker 2:  Okay. There is no question about which brand is going to go
+
+784
+00:48:03,875 --> 00:48:07,845
+Speaker 2:  away. It's going to be Hulu. Like I, I don't know how to be
+
+785
+00:48:07,845 --> 00:48:11,365
+Speaker 2:  clearer about this. Like Disney Plus is going to be the name of the
+
+786
+00:48:11,365 --> 00:48:15,285
+Speaker 2:  service. Hulu is going to be a section of the service that has some
+
+787
+00:48:15,285 --> 00:48:18,165
+Speaker 2:  of that more adult stuff. Maybe it'll be everything on Hulu. Maybe it'll
+
+788
+00:48:18,165 --> 00:48:21,445
+Speaker 2:  just be that more like adult subset of it. Right now there's like FX on Hulu
+
+789
+00:48:21,445 --> 00:48:24,145
+Speaker 2:  which is like yeah, kind of the way that that works. This is going to be
+
+790
+00:48:24,145 --> 00:48:28,045
+Speaker 2:  FX on Hulu, on Disney Plus. Like it's gonna be insane. But that's what it's
+
+791
+00:48:28,045 --> 00:48:31,645
+Speaker 2:  gonna be like. Let's not pretend that there is a possibility that Hulu is
+
+792
+00:48:31,645 --> 00:48:34,595
+Speaker 2:  like the main Disney brand forever. That's ridiculous.
+
+793
+00:48:34,595 --> 00:48:35,865
+Speaker 7:  I've got a cling to it.
+
+794
+00:48:35,865 --> 00:48:39,525
+Speaker 2:  Not only is this just like an objectively moral truth of the
+
+795
+00:48:39,525 --> 00:48:43,235
+Speaker 2:  universe, I just wanna read you the thing that Bob Iger said,
+
+796
+00:48:43,235 --> 00:48:46,965
+Speaker 2:  okay, from the earnings call, we expect that Hulu on Disney Plus
+
+797
+00:48:46,965 --> 00:48:49,895
+Speaker 2:  will result in increasing engagement, greater advertising opportunities,
+
+798
+00:48:49,895 --> 00:48:53,525
+Speaker 2:  lower return and reduce customer acquisition costs, thereby increasing our
+
+799
+00:48:53,525 --> 00:48:57,485
+Speaker 2:  overall margins. The beginning of that sentence is we expect that Hulu
+
+800
+00:48:57,485 --> 00:49:01,435
+Speaker 2:  on Disney Plus, I don't know how to be clear. Like he said it,
+
+801
+00:49:01,435 --> 00:49:04,925
+Speaker 2:  it's right there. Alex. It's right there. I know. I'm so tired of all of
+
+802
+00:49:04,925 --> 00:49:08,465
+Speaker 2:  these people being like, what if the Disney Plus brand dies? It's not gonna
+
+803
+00:49:08,465 --> 00:49:09,155
+Speaker 2:  die.
+
+804
+00:49:09,155 --> 00:49:11,825
+Speaker 7:  It's not gonna die. It's fun to think it will.
+
+805
+00:49:11,825 --> 00:49:14,885
+Speaker 2:  The way I see it and I, I went through, I wound up reading and listening
+
+806
+00:49:14,885 --> 00:49:18,475
+Speaker 2:  to this entire earnings call, which I like super don't recommend as a
+
+807
+00:49:18,475 --> 00:49:20,405
+Speaker 2:  lifestyle choice. Don't do
+
+808
+00:49:20,405 --> 00:49:20,945
+Speaker 7:  That folks.
+
+809
+00:49:20,945 --> 00:49:24,675
+Speaker 2:  But what's super interesting to me is Bob Iger at least feels very strongly
+
+810
+00:49:24,675 --> 00:49:28,285
+Speaker 2:  that Disney has two really good brands and it's Disney and it's
+
+811
+00:49:28,285 --> 00:49:31,965
+Speaker 2:  ESPN. Those are the flagships, those are the monoliths. Those are like the
+
+812
+00:49:31,965 --> 00:49:35,845
+Speaker 2:  things he believes in as brands. Everything else is like
+
+813
+00:49:35,845 --> 00:49:39,485
+Speaker 2:  subservient to those two things. And in an interesting way, he even kind
+
+814
+00:49:39,485 --> 00:49:43,385
+Speaker 2:  of intimated that ESPN might roll into Disney Plus, like Disney Plus
+
+815
+00:49:43,385 --> 00:49:47,215
+Speaker 2:  is the thing. It just is good idea, bad idea. It is the answer,
+
+816
+00:49:47,215 --> 00:49:47,565
+Speaker 2:  which
+
+817
+00:49:47,565 --> 00:49:50,855
+Speaker 7:  Is a better name. Disney Plus or Max for your
+
+818
+00:49:50,855 --> 00:49:53,685
+Speaker 7:  Giant, your Giant Everything App You
+
+819
+00:49:53,685 --> 00:49:56,015
+Speaker 2:  Know what Sucks is, I think Hulu is a better name
+
+820
+00:49:56,015 --> 00:49:59,885
+Speaker 7:  There. We gonna see Hulu Hulu
+
+821
+00:49:59,885 --> 00:50:03,555
+Speaker 7:  more captures the what the hell of all of it all. And I
+
+822
+00:50:03,555 --> 00:50:07,365
+Speaker 7:  like, I think that's one of the things that I'm a little questioning
+
+823
+00:50:07,365 --> 00:50:10,975
+Speaker 7:  myself is Disney Plus has a very firm brand in the United States of
+
+824
+00:50:10,975 --> 00:50:14,965
+Speaker 7:  population zero for Bone Down and, and that's not the case in
+
+825
+00:50:14,965 --> 00:50:18,072
+Speaker 7:  the rest of the world, but it is very much the case in the United States.
+
+826
+00:50:18,105 --> 00:50:21,865
+Speaker 7:  And I think like that's gonna be a real challenge for them branding wise.
+
+827
+00:50:21,865 --> 00:50:25,805
+Speaker 7:  But they probably will call it all Disney Plus and be like, now you can get
+
+828
+00:50:25,805 --> 00:50:29,475
+Speaker 7:  ESPN and Hulu there and then in a year everybody's gonna be like, why
+
+829
+00:50:29,475 --> 00:50:30,195
+Speaker 7:  Hulu?
+
+830
+00:50:30,195 --> 00:50:34,005
+Speaker 2:  Yeah. Hulu for me has like Google Energy in that.
+
+831
+00:50:34,005 --> 00:50:37,835
+Speaker 2:  It's like, not a word, but it's kind of a word and it's like fun to say and
+
+832
+00:50:37,835 --> 00:50:41,115
+Speaker 2:  it's a very good brand. I've always just really liked it as a, as a word.
+
+833
+00:50:41,115 --> 00:50:44,445
+Speaker 2:  Like even it's not knowing what it means. It's just a good word. It's
+
+834
+00:50:44,445 --> 00:50:48,265
+Speaker 7:  A good word. You're like hula, hooping, hula. What? You just dunno.
+
+835
+00:50:48,265 --> 00:50:51,925
+Speaker 7:  But You know that's where you could get your TV legally for a long
+
+836
+00:50:51,925 --> 00:50:52,605
+Speaker 7:  time.
+
+837
+00:50:52,605 --> 00:50:55,605
+Speaker 2:  I, I've come to think this strategy sort of makes sense for Disney because
+
+838
+00:50:55,605 --> 00:50:59,395
+Speaker 2:  like e even if what you're talking about like Hulu equals Bone Town, right?
+
+839
+00:50:59,395 --> 00:51:03,285
+Speaker 2:  It's gonna be like a checkbox in the Disney app that it's like
+
+840
+00:51:03,285 --> 00:51:06,725
+Speaker 2:  when you set it up for your family, you're like, my app has Bone
+
+841
+00:51:06,725 --> 00:51:10,715
+Speaker 2:  Town, the kids' apps No Bone Town. Yeah. And it, it's gonna be a pretty
+
+842
+00:51:10,715 --> 00:51:14,675
+Speaker 2:  easy toggle. Like I think where content goes
+
+843
+00:51:14,675 --> 00:51:18,205
+Speaker 2:  over time is gonna be kind of tricky and we've already seen some kind of
+
+844
+00:51:18,205 --> 00:51:21,525
+Speaker 2:  bleeding between the two over time, right? Where like some things are on
+
+845
+00:51:21,525 --> 00:51:25,245
+Speaker 2:  both services, sometimes they move between like it's already kind of complicated,
+
+846
+00:51:25,245 --> 00:51:26,045
+Speaker 2:  right? There's
+
+847
+00:51:26,045 --> 00:51:29,745
+Speaker 7:  Like a whole bunch of Fox films that really shouldn't be on
+
+848
+00:51:29,745 --> 00:51:32,925
+Speaker 7:  Disney Plus as we think of it today that are currently on Disney Plus and
+
+849
+00:51:32,925 --> 00:51:36,765
+Speaker 7:  you're like, oh no. Like kids are gonna see something. They might see like
+
+850
+00:51:36,765 --> 00:51:40,405
+Speaker 7:  the top of a boob. Oh no. And like this travesty
+
+851
+00:51:40,405 --> 00:51:43,885
+Speaker 7:  travesty for the children. So yeah. Yeah. They've already been
+
+852
+00:51:43,885 --> 00:51:47,725
+Speaker 7:  dealing with this problem and that was why he wanted to Burge the two,
+
+853
+00:51:47,725 --> 00:51:51,045
+Speaker 7:  right? Like he, he doesn't wanna have to think about that and I suspect it's
+
+854
+00:51:51,045 --> 00:51:54,925
+Speaker 7:  gonna be less Bone Town versus No Bone Town and more do you
+
+855
+00:51:54,925 --> 00:51:57,405
+Speaker 7:  want your kids to be able to watch mature rating stuff, right? And do you
+
+856
+00:51:57,405 --> 00:52:00,925
+Speaker 7:  want your kids to be able to watch like TV 14 and So I think they're gonna
+
+857
+00:52:00,925 --> 00:52:04,755
+Speaker 7:  really clinging to those TV ratings that they've kind of informally adopted
+
+858
+00:52:04,755 --> 00:52:08,245
+Speaker 7:  that they don't actually have to have at this point. Like
+
+859
+00:52:08,245 --> 00:52:11,045
+Speaker 7:  nobody's telling them these aren't broadcast on television. That's true.
+
+860
+00:52:11,045 --> 00:52:13,805
+Speaker 7:  They can do whatever ratings they want and they're still out there being
+
+861
+00:52:13,805 --> 00:52:17,565
+Speaker 7:  like, we thought of a good rating for this one at Disney. Which is
+
+862
+00:52:17,565 --> 00:52:18,345
+Speaker 7:  hysterical.
+
+863
+00:52:18,345 --> 00:52:22,025
+Speaker 2:  But I do think like even in that case having Hulu as the kind of shorthand
+
+864
+00:52:22,025 --> 00:52:25,955
+Speaker 2:  for like here's all of our sort of adult originals is probably pretty useful.
+
+865
+00:52:25,955 --> 00:52:29,125
+Speaker 2:  It's like I know what Disney gets me and I know what Hulu gets me and even
+
+866
+00:52:29,125 --> 00:52:32,125
+Speaker 2:  though they're in the same app, being able to kind of split them as I want
+
+867
+00:52:32,125 --> 00:52:34,165
+Speaker 2:  to makes some sense. I think
+
+868
+00:52:34,165 --> 00:52:37,695
+Speaker 7:  What we're really gonna start seeing as we get these more super apps, right,
+
+869
+00:52:37,695 --> 00:52:41,485
+Speaker 7:  which is Max Disney plus whatever Paramount and
+
+870
+00:52:41,485 --> 00:52:44,965
+Speaker 7:  Peacock end up joining together to make in order to
+
+871
+00:52:44,965 --> 00:52:48,005
+Speaker 7:  compete a, as we start to get these super apps, I think we're gonna start
+
+872
+00:52:48,005 --> 00:52:51,905
+Speaker 7:  seeing kind of the replica of TV that we had before where like
+
+873
+00:52:51,905 --> 00:52:54,525
+Speaker 7:  you knew you had your different channels and stuff. That's something ZZ love's
+
+874
+00:52:54,525 --> 00:52:57,125
+Speaker 7:  talked about. That's something that like Iger kind of hints at. I think that
+
+875
+00:52:57,125 --> 00:53:00,845
+Speaker 7:  that that idea, that concept of channels is gonna come
+
+876
+00:53:00,845 --> 00:53:04,805
+Speaker 7:  roaring back and some brand execs
+
+877
+00:53:04,805 --> 00:53:07,805
+Speaker 7:  somewhere are gonna be working their butt off, coming up with a whole bunch
+
+878
+00:53:07,805 --> 00:53:10,165
+Speaker 7:  of new channels or trying to resurrect old ones. Oh
+
+879
+00:53:10,165 --> 00:53:14,115
+Speaker 2:  That's interesting. So in the like Disney cable bundle universe,
+
+880
+00:53:14,115 --> 00:53:18,045
+Speaker 2:  Hulu becomes like the HBO right? Prestige adult
+
+881
+00:53:18,045 --> 00:53:19,625
+Speaker 2:  television channel, right?
+
+882
+00:53:19,625 --> 00:53:23,245
+Speaker 7:  You've got FX over still hanging out over there or
+
+883
+00:53:23,245 --> 00:53:27,205
+Speaker 7:  whatever and then like Disney XD for the kids. I think that's what
+
+884
+00:53:27,205 --> 00:53:30,825
+Speaker 7:  it was called. Oh that's interesting. I'm an old So I think it's Disney XD
+
+885
+00:53:30,825 --> 00:53:33,755
+Speaker 7:  and and So I think we're gonna see that sort of thing. You know freeform.
+
+886
+00:53:33,755 --> 00:53:37,605
+Speaker 7:  Well Freeform's Toast Freeform is not gonna survive the next couple
+
+887
+00:53:37,605 --> 00:53:41,265
+Speaker 7:  of years. Correct. But they might still keep that for like that
+
+888
+00:53:41,265 --> 00:53:45,045
+Speaker 7:  ya audience keep that young adult audience there with
+
+889
+00:53:45,045 --> 00:53:45,505
+Speaker 7:  Freeform.
+
+890
+00:53:45,505 --> 00:53:49,005
+Speaker 2:  You're making me realize now that if you, if you take what Disney is already
+
+891
+00:53:49,005 --> 00:53:52,685
+Speaker 2:  planning on doing like the way you describe and then you add ESPN's on demand
+
+892
+00:53:52,685 --> 00:53:55,485
+Speaker 2:  stuff and even the linear channel which Disney has talked about adding to
+
+893
+00:53:55,485 --> 00:53:59,255
+Speaker 2:  streaming and then you do the same with ABC news, you've just basically recreated
+
+894
+00:53:59,255 --> 00:54:02,965
+Speaker 2:  60% of the cable bundle. Yes. Like you're one Yes. NBC and
+
+895
+00:54:02,965 --> 00:54:06,165
+Speaker 2:  CBS broadcast channel away from just the full cable bundle, which
+
+896
+00:54:06,165 --> 00:54:07,645
+Speaker 7:  Is really, really compelling. Wait
+
+897
+00:54:07,645 --> 00:54:11,605
+Speaker 2:  And Hulu has Hulu with live tv. Yeah, we're just back, this is just, I'm
+
+898
+00:54:11,605 --> 00:54:15,285
+Speaker 2:  just paying Disney for my cable bundle now instead of Comcast. Oh I guess
+
+899
+00:54:15,285 --> 00:54:19,085
+Speaker 2:  this is where we should disclose Comcast is a
+
+900
+00:54:19,085 --> 00:54:22,735
+Speaker 2:  investor in Vox Media through its subsidiary NBC Universal.
+
+901
+00:54:22,735 --> 00:54:25,645
+Speaker 2:  Eli's not here. So I don't have to tell you about the Netflix show that he
+
+902
+00:54:25,645 --> 00:54:29,485
+Speaker 2:  humble brags about all the time. Alex has Paramount Plus, I don't know
+
+903
+00:54:29,485 --> 00:54:33,405
+Speaker 2:  like this is we, we have a bunch of complicated disclosures to do here
+
+904
+00:54:33,405 --> 00:54:34,885
+Speaker 2:  but that's, that about covers it. We both
+
+905
+00:54:34,885 --> 00:54:38,725
+Speaker 7:  Spend a lot of money on Streaming already. We do. We watch a
+
+906
+00:54:38,725 --> 00:54:39,595
+Speaker 7:  lot of streaming.
+
+907
+00:54:39,595 --> 00:54:42,965
+Speaker 2:  Yeah. Which actually is a good segue to the next thing, which is the other
+
+908
+00:54:42,965 --> 00:54:46,715
+Speaker 2:  thing that Bob Iger talked about in the earnings call a bunch
+
+909
+00:54:46,715 --> 00:54:50,525
+Speaker 2:  that also there was some Verizon Netflix Max news on
+
+910
+00:54:50,525 --> 00:54:54,005
+Speaker 2:  this is that the advertising tier of
+
+911
+00:54:54,005 --> 00:54:57,885
+Speaker 2:  streaming continues to boom. Yes. In a way
+
+912
+00:54:57,885 --> 00:55:01,555
+Speaker 2:  that like kind of surprises me. Like I think Bob Iger said over
+
+913
+00:55:01,555 --> 00:55:05,515
+Speaker 2:  half of new Disney plus subscribers in this last quarter
+
+914
+00:55:05,515 --> 00:55:08,245
+Speaker 2:  were ad supported, which is huge.
+
+915
+00:55:08,245 --> 00:55:11,825
+Speaker 7:  I don't think that's like, that's not surprising to, to me at all.
+
+916
+00:55:11,825 --> 00:55:15,225
+Speaker 7:  People want things and they want things cheap
+
+917
+00:55:15,225 --> 00:55:18,965
+Speaker 7:  and TikTok and YouTube and everything else has totally prepared people to
+
+918
+00:55:18,965 --> 00:55:22,165
+Speaker 7:  be able to sit through it and broadcast TV has prepared people to sit through
+
+919
+00:55:22,165 --> 00:55:25,685
+Speaker 7:  an ad in order to get the content they want. So that's not
+
+920
+00:55:25,685 --> 00:55:28,965
+Speaker 7:  surprising to me. And I think the most surprising part of it is that advertisers
+
+921
+00:55:28,965 --> 00:55:32,685
+Speaker 7:  are so eager for it when they do have the ability to micro target on platforms
+
+922
+00:55:32,685 --> 00:55:36,605
+Speaker 7:  like TikTok and stuff. So that's the part that's
+
+923
+00:55:36,605 --> 00:55:40,485
+Speaker 7:  surprising. But I guess it's easy, you've got good partners with
+
+924
+00:55:40,485 --> 00:55:43,925
+Speaker 7:  Disney You know there's gonna be brand safety. You're not gonna have to worry
+
+925
+00:55:43,925 --> 00:55:45,545
+Speaker 7:  about some weird thing
+
+926
+00:55:45,545 --> 00:55:48,145
+Speaker 2:  Unlike TikTok and some of the other platforms you're talking about. Yeah.
+
+927
+00:55:48,145 --> 00:55:48,485
+Speaker 2:  You have
+
+928
+00:55:48,485 --> 00:55:51,705
+Speaker 7:  A lot more safety on something like Disney or Netflix or
+
+929
+00:55:51,705 --> 00:55:55,605
+Speaker 7:  Max than than you do on social media platforms. So,
+
+930
+00:55:55,605 --> 00:55:57,035
+Speaker 7:  I get it. Makes sense.
+
+931
+00:55:57,035 --> 00:56:00,885
+Speaker 2:  Yeah. It's also very funny. Like part of me wonders if part of the appeal
+
+932
+00:56:00,885 --> 00:56:04,425
+Speaker 2:  of that is just all of these ad agencies have been
+
+933
+00:56:04,425 --> 00:56:08,265
+Speaker 2:  making one specific kind of ad to go next to one specific kind of thing
+
+934
+00:56:08,265 --> 00:56:11,845
+Speaker 2:  for decades. And for a long time it was like, well where do we put that
+
+935
+00:56:11,845 --> 00:56:15,525
+Speaker 2:  thing now? Yeah. And now Netflix is just like, well instead of putting it
+
+936
+00:56:15,525 --> 00:56:19,145
+Speaker 2:  next to I, I don't know, like Chicago Fire
+
+937
+00:56:19,145 --> 00:56:22,965
+Speaker 2:  on television, put it next to Chicago fire on streaming and the
+
+938
+00:56:22,965 --> 00:56:26,285
+Speaker 2:  ad agencies are like, oh I know how to do that. That works for me.
+
+939
+00:56:26,285 --> 00:56:29,205
+Speaker 7:  I, I think that's a big part of it. I think it's just like this is a thing
+
+940
+00:56:29,205 --> 00:56:31,685
+Speaker 7:  they already, all the advertisers already know how to do. They know how to
+
+941
+00:56:31,685 --> 00:56:35,485
+Speaker 7:  sell it Disney, all of these companies know how to how to buy this
+
+942
+00:56:35,485 --> 00:56:39,025
+Speaker 7:  stuff and and and how to sell it. So everybody's just like, okay, we figured
+
+943
+00:56:39,025 --> 00:56:43,005
+Speaker 7:  it out. And now also instead of broadcast and and
+
+944
+00:56:43,005 --> 00:56:46,805
+Speaker 7:  cable and dealing with that, we can have it all internal. We can control
+
+945
+00:56:46,805 --> 00:56:50,525
+Speaker 7:  everything and that makes everything a lot easier and
+
+946
+00:56:50,525 --> 00:56:54,025
+Speaker 7:  cheaper. But also now Disney is gonna
+
+947
+00:56:54,025 --> 00:56:56,875
+Speaker 7:  own all the entertainment you wanna watch.
+
+948
+00:56:56,875 --> 00:56:59,355
+Speaker 2:  Yeah. Like in a really real way.
+
+949
+00:56:59,355 --> 00:57:03,285
+Speaker 7:  Like Bob Iger is gonna be deciding what scripted TV you watch and that's
+
+950
+00:57:03,285 --> 00:57:06,935
+Speaker 7:  a little Ooh that has me a little concerned. I'm not crazy
+
+951
+00:57:06,935 --> 00:57:10,595
+Speaker 7:  about one company having that much power over what I watch. But
+
+952
+00:57:10,595 --> 00:57:13,635
+Speaker 7:  yeah, I do like how convenient it'll be.
+
+953
+00:57:13,635 --> 00:57:17,395
+Speaker 2:  Yeah. Well one of the things I was reading was basically theorizing
+
+954
+00:57:17,395 --> 00:57:21,365
+Speaker 2:  that Disney is going to win because it did all of
+
+955
+00:57:21,365 --> 00:57:25,325
+Speaker 2:  its acquisitions before it became hard to do acquisitions. Both I guess for
+
+956
+00:57:25,325 --> 00:57:29,085
+Speaker 2:  like interest rate reasons, just the way the economy has gone and also
+
+957
+00:57:29,085 --> 00:57:32,885
+Speaker 2:  like there's more scrutiny over these mergers and acquisitions than there
+
+958
+00:57:32,885 --> 00:57:33,765
+Speaker 2:  used to be. If
+
+959
+00:57:33,765 --> 00:57:37,355
+Speaker 7:  You think about it, the, the fact that they were able to acquire Marvel,
+
+960
+00:57:37,355 --> 00:57:41,005
+Speaker 7:  they were able to acquire E-S-P-N-E-S-P-N led to the
+
+961
+00:57:41,005 --> 00:57:42,195
+Speaker 7:  acquisition of Marvel, right?
+
+962
+00:57:42,195 --> 00:57:45,915
+Speaker 2:  Yeah. And then Lucasfilm and Pixar, like the list is crazy.
+
+963
+00:57:45,915 --> 00:57:49,625
+Speaker 7:  It's insane and it really shouldn't have happened. But it was also, it is
+
+964
+00:57:49,625 --> 00:57:53,045
+Speaker 7:  Bob ER's legacy. It was the thing. Yeah. He did really, really well. He's
+
+965
+00:57:53,045 --> 00:57:57,005
+Speaker 7:  very proud of, I think every, when he was retired for that year and a
+
+966
+00:57:57,005 --> 00:57:59,885
+Speaker 7:  half or whatever, he spent all of his time going around being like, I did
+
+967
+00:57:59,885 --> 00:58:03,725
+Speaker 7:  this, I built this, this whole stable of, of assets for
+
+968
+00:58:03,725 --> 00:58:07,545
+Speaker 7:  us and now we can just go mint money and Disney
+
+969
+00:58:07,545 --> 00:58:08,035
+Speaker 7:  has,
+
+970
+00:58:08,035 --> 00:58:10,765
+Speaker 2:  Yeah, it was, it worked out super well for a minute. He saw
+
+971
+00:58:10,765 --> 00:58:13,085
+Speaker 7:  The writing on the wall and was really, really smart about it. Whether or
+
+972
+00:58:13,085 --> 00:58:16,765
+Speaker 7:  not he should be able to do that, the whole copyright situation, the fact
+
+973
+00:58:16,765 --> 00:58:20,005
+Speaker 7:  that he's gonna own all of these copyrights and, and
+
+974
+00:58:20,005 --> 00:58:23,885
+Speaker 7:  aggressively goes and has laws to stop this stuff from
+
+975
+00:58:23,885 --> 00:58:26,565
+Speaker 7:  like entering the public domain, that's less cool. But, but
+
+976
+00:58:26,565 --> 00:58:29,625
+Speaker 2:  The thing about that that's weird then is the flip side of that is like Disney
+
+977
+00:58:29,625 --> 00:58:33,285
+Speaker 2:  has lost just an essentially infinite amount of money on
+
+978
+00:58:33,285 --> 00:58:37,125
+Speaker 2:  streaming now it's betting on this future of like all of this is gonna come
+
+979
+00:58:37,125 --> 00:58:40,955
+Speaker 2:  together. And like I think with the Hulu thing, I see it more than ever
+
+980
+00:58:40,955 --> 00:58:44,545
+Speaker 2:  like the bundle, the way you describe it is like, oh, that that might work
+
+981
+00:58:44,545 --> 00:58:48,425
+Speaker 2:  and it might make Disney an awful lot of money pretty quickly.
+
+982
+00:58:48,425 --> 00:58:51,995
+Speaker 2:  But also it makes me wonder, can anyone come after Disney?
+
+983
+00:58:51,995 --> 00:58:55,535
+Speaker 2:  Like one of the things in the news this week was that Verizon is going to
+
+984
+00:58:55,535 --> 00:58:59,185
+Speaker 2:  start selling a combination of Netflix
+
+985
+00:58:59,185 --> 00:59:03,165
+Speaker 2:  and Max both ad supported for $10 instead of I think what would
+
+986
+00:59:03,165 --> 00:59:06,895
+Speaker 2:  be $17. And one of the, the theories I saw about that is basically like
+
+987
+00:59:06,895 --> 00:59:10,265
+Speaker 2:  ordinarily what would happen is these
+
+988
+00:59:10,265 --> 00:59:14,245
+Speaker 2:  two companies would merge, or two companies like them would merge
+
+989
+00:59:14,245 --> 00:59:18,125
+Speaker 2:  or they'd find some way to kind of be one and compete in a
+
+990
+00:59:18,125 --> 00:59:21,995
+Speaker 2:  real way head on. But they can't because
+
+991
+00:59:21,995 --> 00:59:25,455
+Speaker 2:  You know gestures broadly the world is what it is. And so they're having
+
+992
+00:59:25,455 --> 00:59:29,095
+Speaker 2:  to find all these ways to kind of put their pieces together in order to be
+
+993
+00:59:29,095 --> 00:59:32,575
+Speaker 2:  harder to turn away from. Do you buy that logic? Like is everybody else gonna
+
+994
+00:59:32,575 --> 00:59:35,815
+Speaker 2:  sort of sneaky bundle because they can't do what Disney is doing? Yeah, I
+
+995
+00:59:35,815 --> 00:59:39,595
+Speaker 7:  Think they have to. Right. Peacock and Paramount have to bundle
+
+996
+00:59:39,595 --> 00:59:43,245
+Speaker 7:  or they're gonna be toast. 'cause you've got the three or four big players.
+
+997
+00:59:43,245 --> 00:59:47,202
+Speaker 7:  There's Disney Plus with now 168, 200
+
+998
+00:59:47,202 --> 00:59:50,855
+Speaker 7:  million subscribers at this point. Just astronomical number. Amazon
+
+999
+00:59:50,855 --> 00:59:54,615
+Speaker 7:  with a similarly astronomical number. But that one's gonna be really curious
+
+1000
+00:59:54,615 --> 00:59:57,855
+Speaker 7:  'cause how much of that is just people who bought Amazon Prime and how much
+
+1001
+00:59:57,855 --> 00:59:59,025
+Speaker 7:  of it's actually users,
+
+1002
+00:59:59,025 --> 01:00:01,525
+Speaker 2:  Which Amazon has never really talked about.
+
+1003
+01:00:01,525 --> 01:00:05,055
+Speaker 7:  They've never disclosed. So there's always like a little asterisk when you
+
+1004
+01:00:05,055 --> 01:00:07,915
+Speaker 7:  see them at the top of the list. Then you've got Max and you've got Netflix.
+
+1005
+01:00:07,915 --> 01:00:11,855
+Speaker 7:  So there's those, those are the big four. Those are effectively your A,
+
+1006
+01:00:11,855 --> 01:00:15,715
+Speaker 7:  B-C-C-B-S-N-B-C and Fox of 2023.
+
+1007
+01:00:15,715 --> 01:00:18,975
+Speaker 7:  And I think everybody's gonna probably need to subscribe to most of those
+
+1008
+01:00:18,975 --> 01:00:22,775
+Speaker 7:  if they wanna be able to have like intelligent conversations with their friends
+
+1009
+01:00:22,775 --> 01:00:26,525
+Speaker 7:  about cultural moments. Yeah. And then there's everybody else
+
+1010
+01:00:26,525 --> 01:00:30,415
+Speaker 7:  Paramount and, and Peacock and, and all these other ones are all
+
+1011
+01:00:30,415 --> 01:00:33,495
+Speaker 7:  sitting at the bottom underneath them. They're the the WB and the
+
+1012
+01:00:33,495 --> 01:00:36,575
+Speaker 7:  UPN of of this analogy.
+
+1013
+01:00:36,575 --> 01:00:38,685
+Speaker 2:  I mean you're not wrong but brutal.
+
+1014
+01:00:38,685 --> 01:00:42,015
+Speaker 7:  What a move for these guys. And I think the only way they're gonna be able
+
+1015
+01:00:42,015 --> 01:00:45,655
+Speaker 7:  to compete is, is to start bundling and start offering that. Because right
+
+1016
+01:00:45,655 --> 01:00:49,595
+Speaker 7:  now they're, they're really hedging their betts on being like better at programming.
+
+1017
+01:00:49,595 --> 01:00:52,965
+Speaker 7:  And to their credit, they are much better at programming than
+
+1018
+01:00:52,965 --> 01:00:56,575
+Speaker 7:  Netflix. Much, much better at it. But I don't
+
+1019
+01:00:56,575 --> 01:01:00,415
+Speaker 7:  think just being really talented at one thing is going to pull
+
+1020
+01:01:00,415 --> 01:01:01,975
+Speaker 7:  their butts outta the fire on
+
+1021
+01:01:01,975 --> 01:01:04,935
+Speaker 2:  This. Yeah. And also the thing we seem to have learned over the last year
+
+1022
+01:01:04,935 --> 01:01:08,775
+Speaker 2:  or so is that Netflix can just spend its way out of any problem that
+
+1023
+01:01:08,775 --> 01:01:12,695
+Speaker 2:  it has. It just has so much more money that it's like, oh we can't make a
+
+1024
+01:01:12,695 --> 01:01:16,535
+Speaker 2:  good original. We'll go get suits and make it a gigantic hit. Like it
+
+1025
+01:01:16,535 --> 01:01:17,285
+Speaker 2:  just works.
+
+1026
+01:01:17,285 --> 01:01:21,155
+Speaker 7:  Peacock's out there furious. I think Peacock was the owner of that. Well
+
+1027
+01:01:21,155 --> 01:01:24,235
+Speaker 7:  that's the other thing we're seeing is we're seeing a lot of these companies,
+
+1028
+01:01:24,235 --> 01:01:27,335
+Speaker 7:  You know, AVV said this last year, he said, we're open for business, we're
+
+1029
+01:01:27,335 --> 01:01:30,285
+Speaker 7:  gonna start selling a lot of our properties. Yeah. We don't wanna hold everything.
+
+1030
+01:01:30,285 --> 01:01:33,695
+Speaker 7:  It's not just for us. Like Disney is very much in the business of this is
+
+1031
+01:01:33,695 --> 01:01:36,735
+Speaker 7:  our ip, this is our brand and you come to us for this IP and this
+
+1032
+01:01:36,735 --> 01:01:40,535
+Speaker 7:  brand Max and Net and, and Peacock and Paramount, not
+
+1033
+01:01:40,535 --> 01:01:43,915
+Speaker 7:  Netflix, but Max and Peacock and Paramount and those kind of competitors
+
+1034
+01:01:43,915 --> 01:01:47,435
+Speaker 7:  are like, no, we want our brand to go everywhere. And the hopes that eventually
+
+1035
+01:01:47,435 --> 01:01:51,315
+Speaker 7:  you say, I like this brand enough, I'm gonna come back and pay you. Right.
+
+1036
+01:01:51,315 --> 01:01:54,915
+Speaker 7:  And we'll see how that works. I don't know if it's gonna work,
+
+1037
+01:01:54,915 --> 01:01:58,545
+Speaker 7:  but it definitely means there's more stuff being purchased and moved around,
+
+1038
+01:01:58,545 --> 01:02:01,775
+Speaker 7:  which is really, really, which is actually crucial to like a
+
+1039
+01:02:01,775 --> 01:02:05,695
+Speaker 7:  good interesting set slate of content coming out. Because if all the
+
+1040
+01:02:05,695 --> 01:02:09,295
+Speaker 7:  content is being made by four companies who are run by four white
+
+1041
+01:02:09,295 --> 01:02:13,175
+Speaker 7:  guys who all have very similar tastes and stuff, you're not
+
+1042
+01:02:13,175 --> 01:02:15,815
+Speaker 7:  gonna get a lot of diversity of content. You're not gonna get a lot of different
+
+1043
+01:02:15,815 --> 01:02:19,330
+Speaker 7:  fun and exciting things happening. And so needing to sell to these smaller
+
+1044
+01:02:19,330 --> 01:02:22,905
+Speaker 7:  ones, needing to keep their breast of that industry moving is gonna be important
+
+1045
+01:02:22,905 --> 01:02:26,765
+Speaker 7:  for that diversity. 'cause otherwise it's just gonna be suits. Grey's
+
+1046
+01:02:26,765 --> 01:02:30,705
+Speaker 7:  Anatomy, Riverdale, I don't know what are the like the most
+
+1047
+01:02:30,705 --> 01:02:31,595
+Speaker 7:  Bo like
+
+1048
+01:02:31,595 --> 01:02:34,565
+Speaker 2:  Fast talking dramatic white people is like essentially what I would call
+
+1049
+01:02:34,565 --> 01:02:35,605
+Speaker 2:  all of their shit was just
+
+1050
+01:02:35,605 --> 01:02:38,955
+Speaker 7:  A little Huh. Moments in there. Just a few huh?
+
+1051
+01:02:38,955 --> 01:02:39,915
+Speaker 7:  Moments.
+
+1052
+01:02:39,915 --> 01:02:43,485
+Speaker 2:  Yeah. Swelling violins at the end of every episode. That's the, that's how
+
+1053
+01:02:43,485 --> 01:02:44,205
+Speaker 2:  You know or
+
+1054
+01:02:44,205 --> 01:02:44,865
+Speaker 7:  Chasing cars.
+
+1055
+01:02:44,865 --> 01:02:47,365
+Speaker 2:  That's actually a, a good segue to the last thing we should talk about, which
+
+1056
+01:02:47,365 --> 01:02:51,245
+Speaker 2:  is two things happen sort of simultaneously. One was Bob Iger
+
+1057
+01:02:51,245 --> 01:02:55,145
+Speaker 2:  also said on the Disney earnings call that one of his big focuses
+
+1058
+01:02:55,145 --> 01:02:58,985
+Speaker 2:  is to go back to the film studio. Like the core Disney thing
+
+1059
+01:02:58,985 --> 01:03:02,755
+Speaker 2:  has always been, they develop, like you were saying, characters and movies
+
+1060
+01:03:02,755 --> 01:03:06,325
+Speaker 2:  that people love. Right? And that that feeds movies, that feeds the theme
+
+1061
+01:03:06,325 --> 01:03:10,315
+Speaker 2:  parks, it feeds the merchandising stuff they do, it feeds everything. And
+
+1062
+01:03:10,315 --> 01:03:14,005
+Speaker 2:  that in recent years, especially with Pixar and especially with
+
+1063
+01:03:14,005 --> 01:03:17,685
+Speaker 2:  Marvel, has started to wane. And so what he said
+
+1064
+01:03:17,685 --> 01:03:21,455
+Speaker 2:  is, I'm gonna go back and really dig into that
+
+1065
+01:03:21,455 --> 01:03:24,865
+Speaker 2:  space. And on the one hand it's like, okay, you're like an old rich white
+
+1066
+01:03:24,865 --> 01:03:28,115
+Speaker 2:  guy. Like we've, we kind of know how that goes. But on the other hand, the
+
+1067
+01:03:28,115 --> 01:03:31,665
+Speaker 2:  Marvels opened this past weekend horrible opening
+
+1068
+01:03:31,665 --> 01:03:31,945
+Speaker 7:  To
+
+1069
+01:03:31,945 --> 01:03:35,925
+Speaker 2:  The lowest in Marvel history. Right? It was the worst performing box
+
+1070
+01:03:35,925 --> 01:03:38,685
+Speaker 2:  office for a Marvel movie ever.
+
+1071
+01:03:38,685 --> 01:03:41,475
+Speaker 7:  Ton of asterisks next to it by the way. Yeah.
+
+1072
+01:03:41,475 --> 01:03:43,095
+Speaker 2:  List them for me. Tell me the asterisks.
+
+1073
+01:03:43,095 --> 01:03:46,915
+Speaker 7:  There was the sag strike. So they couldn't, they couldn't have Oscar winning
+
+1074
+01:03:46,915 --> 01:03:50,725
+Speaker 7:  Brie Larsson out there having fun with Samuel Jackson getting
+
+1075
+01:03:50,725 --> 01:03:54,685
+Speaker 7:  you excited for it, which they totally were gonna do. Yep. And so you had
+
+1076
+01:03:54,685 --> 01:03:58,515
+Speaker 7:  the SAG strike. There was a, there's a, a large group of, of people in the,
+
+1077
+01:03:58,515 --> 01:04:02,285
+Speaker 7:  that are fans of the MCU that are very upset with the direction of like the
+
+1078
+01:04:02,285 --> 01:04:04,925
+Speaker 7:  more diverse direction that the, the franchise has taken over over the last
+
+1079
+01:04:04,925 --> 01:04:08,625
+Speaker 7:  few years. And so they're all upset that this is starring ladies and
+
+1080
+01:04:08,625 --> 01:04:12,365
+Speaker 7:  not, not dudes. There are some dudes in it, they're great. And
+
+1081
+01:04:12,365 --> 01:04:16,215
+Speaker 7:  then you have, you have the real challenge of just Marvel fatigue.
+
+1082
+01:04:16,215 --> 01:04:19,665
+Speaker 7:  There are so many Marvel movies that came out before and Man in Quantum Mania
+
+1083
+01:04:19,665 --> 01:04:23,475
+Speaker 7:  is another one that got short shrifted because it came out four,
+
+1084
+01:04:23,475 --> 01:04:26,995
+Speaker 7:  they had four months to like finish a whole bunch of
+
+1085
+01:04:26,995 --> 01:04:30,165
+Speaker 7:  effects that they were supposed to have like a year to finish. So they had
+
+1086
+01:04:30,165 --> 01:04:33,925
+Speaker 7:  to like rush their finish and that's why it looks like hot
+
+1087
+01:04:33,925 --> 01:04:37,245
+Speaker 7:  garbage and you're like, oh this is an ugly movie. 'cause nobody has spent
+
+1088
+01:04:37,245 --> 01:04:40,965
+Speaker 7:  the time so they, they've poisoned their brand. Which is a shame because
+
+1089
+01:04:40,965 --> 01:04:43,685
+Speaker 7:  I think everybody who's going to see it really likes it. I wouldn't be surprised
+
+1090
+01:04:43,685 --> 01:04:47,635
+Speaker 7:  if the, the scores coming outta the film are pretty high for it.
+
+1091
+01:04:47,635 --> 01:04:51,285
+Speaker 7:  Like not astronomically high, but Disney historically has been really
+
+1092
+01:04:51,285 --> 01:04:54,685
+Speaker 7:  good at making a movie that even if critics don't like
+
+1093
+01:04:54,685 --> 01:04:58,645
+Speaker 7:  it, audiences really like it. And the last few, they really didn't
+
+1094
+01:04:58,645 --> 01:05:02,245
+Speaker 7:  have that success. Particularly with Antman and Dr. Strange, they really,
+
+1095
+01:05:02,245 --> 01:05:06,085
+Speaker 7:  really struggled with those cinema scores and So I think Marvel's probably
+
+1096
+01:05:06,085 --> 01:05:09,755
+Speaker 7:  got much better cinema scores, but it's gotta carry so
+
+1097
+01:05:09,755 --> 01:05:13,245
+Speaker 7:  much water that I think it's, it's gonna have that horrible
+
+1098
+01:05:13,245 --> 01:05:15,465
+Speaker 7:  asterisk next to it forever.
+
+1099
+01:05:15,465 --> 01:05:19,225
+Speaker 2:  Do you think it has a chance, like is the, it feels increasingly with every
+
+1100
+01:05:19,225 --> 01:05:23,205
+Speaker 2:  one of these, like the Marvel fatigue is just irreversible. Even
+
+1101
+01:05:23,205 --> 01:05:26,445
+Speaker 2:  the stuff that people mostly seem to agree is good, like low key season two
+
+1102
+01:05:26,445 --> 01:05:30,325
+Speaker 2:  people seem to mostly like doesn't have that like cultural
+
+1103
+01:05:30,325 --> 01:05:32,725
+Speaker 2:  force that it once did. Do you think we're just done with that phase and
+
+1104
+01:05:32,725 --> 01:05:35,445
+Speaker 2:  it's time to figure out what's next for Disney and everybody? I
+
+1105
+01:05:35,445 --> 01:05:38,205
+Speaker 7:  Don't think so. 'cause I think what people would need to remember is that
+
+1106
+01:05:38,205 --> 01:05:42,195
+Speaker 7:  the original MCU with the exception of maybe the first Ironman movie was
+
+1107
+01:05:42,195 --> 01:05:46,035
+Speaker 7:  just as calculated, was just as well planned out.
+
+1108
+01:05:46,035 --> 01:05:49,925
+Speaker 7:  Like the reason Captain Marvel as a character exists today was
+
+1109
+01:05:49,925 --> 01:05:53,905
+Speaker 7:  because they rewrote her in back in like 2011
+
+1110
+01:05:53,905 --> 01:05:57,445
+Speaker 7:  to make her a better character to spit make it produce in
+
+1111
+01:05:57,445 --> 01:06:01,285
+Speaker 7:  movies Miss Marvel herself. That was one of the reasons Miss Marvel that
+
+1112
+01:06:01,285 --> 01:06:04,715
+Speaker 7:  character was created was for that same reason, like these characters were,
+
+1113
+01:06:04,715 --> 01:06:08,445
+Speaker 7:  have always been manufactured to sell tickets. Guardians of the Galaxy was
+
+1114
+01:06:08,445 --> 01:06:11,885
+Speaker 7:  their big, was that first big surprise where they made that film and it did
+
+1115
+01:06:11,885 --> 01:06:14,645
+Speaker 7:  really, really well. And they're like, oh shit, we could make people care
+
+1116
+01:06:14,645 --> 01:06:18,485
+Speaker 7:  about a sentient raccoon. We can do anything. And that's
+
+1117
+01:06:18,485 --> 01:06:21,885
+Speaker 7:  still true. But, but if you don't have the marketing behind it and if you're
+
+1118
+01:06:21,885 --> 01:06:25,485
+Speaker 7:  not making films that are entertaining, 'cause there was a lot of struggles,
+
+1119
+01:06:25,485 --> 01:06:29,225
+Speaker 7:  like early on Marvel struggled with incredible Hulk and the first Thor movie
+
+1120
+01:06:29,225 --> 01:06:32,405
+Speaker 7:  did not have the strongest cinema scores. And even at the time it was like,
+
+1121
+01:06:32,405 --> 01:06:35,565
+Speaker 7:  oh, are we gonna get it? And then like they, they knocked it outta the park
+
+1122
+01:06:35,565 --> 01:06:38,605
+Speaker 7:  with the Avengers and everybody's like, okay, nevermind. And so they were
+
+1123
+01:06:38,605 --> 01:06:41,985
+Speaker 7:  able to kinda weather those bad times before, but they've just had a string
+
+1124
+01:06:41,985 --> 01:06:45,885
+Speaker 7:  of horrible films that nobody cares about and they're so
+
+1125
+01:06:45,885 --> 01:06:49,635
+Speaker 7:  focused on that crossover concept and that who are you gonna see
+
+1126
+01:06:49,635 --> 01:06:52,765
+Speaker 7:  next that it's, it's just exhausting when it's like, no, just do what you
+
+1127
+01:06:52,765 --> 01:06:55,915
+Speaker 7:  did at the beginning, tell really goods stories and then it's have Samuel
+
+1128
+01:06:56,020 --> 01:06:59,875
+Speaker 7:  L. Jackson show up in the last five minutes to be like also
+
+1129
+01:06:59,875 --> 01:07:02,445
+Speaker 7:  this guy showing up next week. Well
+
+1130
+01:07:02,445 --> 01:07:04,805
+Speaker 2:  And that's one of the, that's one of the things that I, I haven't seen the
+
+1131
+01:07:04,805 --> 01:07:08,405
+Speaker 2:  Marvels yet, but Byla Hunt did very well is like it's just a good
+
+1132
+01:07:08,405 --> 01:07:12,295
+Speaker 2:  movie. But also if you're a super fan who has seen everything, it has
+
+1133
+01:07:12,295 --> 01:07:15,685
+Speaker 2:  extra rewards for you. And that was the thing for me that like the
+
+1134
+01:07:15,685 --> 01:07:19,445
+Speaker 2:  original movies did so well was like
+
+1135
+01:07:19,445 --> 01:07:23,365
+Speaker 2:  I, I've probably seen 60% of the Marvel movies and it felt like the
+
+1136
+01:07:23,365 --> 01:07:27,125
+Speaker 2:  longer I went, the more I was being penalized for not having seen them.
+
+1137
+01:07:27,125 --> 01:07:30,325
+Speaker 2:  Whereas at the beginning it was like, if I had seen them, I got 10 more references
+
+1138
+01:07:30,325 --> 01:07:34,165
+Speaker 2:  that I didn't get before, but it wasn't a huge problem
+
+1139
+01:07:34,165 --> 01:07:37,945
+Speaker 2:  that I missed a bunch of them. Now it's like if I start watching
+
+1140
+01:07:37,945 --> 01:07:41,605
+Speaker 2:  one of these movies and I haven't seen 65 other things, none of it is gonna
+
+1141
+01:07:41,605 --> 01:07:44,645
+Speaker 2:  make any sense to me. And that is, that's too much. We've like, we've lost
+
+1142
+01:07:44,645 --> 01:07:47,525
+Speaker 2:  the plot when we've gotten to there. Like literally lost the plot.
+
+1143
+01:07:47,525 --> 01:07:51,165
+Speaker 7:  I think Ant-Man and the wasp in Qua into Quantum Mania or whatever the hell
+
+1144
+01:07:51,165 --> 01:07:55,085
+Speaker 7:  it's called is probably like, that's the turning point because the
+
+1145
+01:07:55,085 --> 01:07:58,205
+Speaker 7:  original Ant-Man franchise exemplified this better than anything. It was
+
+1146
+01:07:58,205 --> 01:08:01,245
+Speaker 7:  just like, Hey look, we're doing a really cool thing. And oh, also like it's
+
+1147
+01:08:01,245 --> 01:08:02,725
+Speaker 2:  Paul Rudd, he's so small.
+
+1148
+01:08:02,725 --> 01:08:06,205
+Speaker 7:  Yeah and it's, it's loosely attached to this larger franchise, but you didn't
+
+1149
+01:08:06,205 --> 01:08:08,685
+Speaker 7:  have to care about it. And then this third one, they were like, you must
+
+1150
+01:08:08,685 --> 01:08:12,365
+Speaker 7:  care about this entire franchise and also this little man
+
+1151
+01:08:12,365 --> 01:08:15,925
+Speaker 7:  named King. And you're like, what? I don't why stop
+
+1152
+01:08:15,925 --> 01:08:18,545
+Speaker 7:  it and it looks like shit. So,
+
+1153
+01:08:18,545 --> 01:08:22,205
+Speaker 2:  But you think we're forever like one or two good Marvel movies from it
+
+1154
+01:08:22,205 --> 01:08:24,005
+Speaker 2:  being back on top of the world?
+
+1155
+01:08:24,005 --> 01:08:27,965
+Speaker 7:  I, I think so. Disney is very good at making hits. Disney is better than
+
+1156
+01:08:27,965 --> 01:08:31,785
+Speaker 7:  just about anybody on the planet at making you care about something and selling
+
+1157
+01:08:31,785 --> 01:08:35,485
+Speaker 7:  it. So as long as Marvel's invested it's they're gonna, they're gonna do
+
+1158
+01:08:35,485 --> 01:08:39,325
+Speaker 7:  well. I think what's gonna be curious to see is what lessons they take from
+
+1159
+01:08:39,325 --> 01:08:43,125
+Speaker 7:  their recent failures. It's, it's not lost on me that the last
+
+1160
+01:08:43,125 --> 01:08:46,715
+Speaker 7:  two re like the two biggest recent failures were also led by women
+
+1161
+01:08:46,715 --> 01:08:50,325
+Speaker 7:  that big primary parts of the cast and I I live in ta, constant
+
+1162
+01:08:50,325 --> 01:08:53,465
+Speaker 7:  terror that they're gonna do what they were always doing in like the, the
+
+1163
+01:08:53,465 --> 01:08:57,325
+Speaker 7:  two thousands of being like, ugh, the woman led show bombed. So we gotta
+
+1164
+01:08:57,325 --> 01:09:01,065
+Speaker 7:  kill all things where women lead that kind of group think is really popular
+
+1165
+01:09:01,065 --> 01:09:04,745
+Speaker 7:  in, in Hollywood and I'm terrified of that happening again.
+
+1166
+01:09:04,745 --> 01:09:08,085
+Speaker 7:  But Disney knows how to make hits. Marvel is not going away
+
+1167
+01:09:08,085 --> 01:09:11,965
+Speaker 7:  until Bob Iger who or whoever decides it needs
+
+1168
+01:09:11,965 --> 01:09:12,795
+Speaker 7:  to.
+
+1169
+01:09:12,795 --> 01:09:16,325
+Speaker 2:  Fair enough. Thank you. All. right, we gotta take a break. Go see the Marvels.
+
+1170
+01:09:16,325 --> 01:09:18,805
+Speaker 2:  Apparently it's great. Charles really liked it. Everybody who sees it seems
+
+1171
+01:09:18,805 --> 01:09:21,365
+Speaker 2:  really like it. We gotta take a break. We'll kind of come back and do The
+
+1172
+01:09:21,365 --> 01:09:26,885
+Speaker 2:  Hotline
+
+1173
+01:11:34,755 --> 01:11:38,495
+Speaker 2:  All right Welcome back. Let's get to The. Vergecast Hotline. We take questions
+
+1174
+01:11:38,495 --> 01:11:42,335
+Speaker 2:  every week and we try to answer them as sometimes helpfully as we
+
+1175
+01:11:42,335 --> 01:11:45,765
+Speaker 2:  can. This week Chris Welch is here to help me. Hi Chris. Hello.
+
+1176
+01:11:45,765 --> 01:11:46,755
+Speaker 9:  Good to be back.
+
+1177
+01:11:46,755 --> 01:11:50,215
+Speaker 2:  We got a question about something that I honestly thought we would never
+
+1178
+01:11:50,215 --> 01:11:53,895
+Speaker 2:  ever in our lives get a question about again on The Vergecast Hotline,
+
+1179
+01:11:53,895 --> 01:11:57,695
+Speaker 2:  which is MP three players. But first let me just play the question. It
+
+1180
+01:11:57,695 --> 01:12:00,035
+Speaker 2:  comes from Patrick.
+
+1181
+01:12:00,035 --> 01:12:03,735
+Speaker 10:  Hi Verge team. This is Patrick from Tucson, Arizona. I'm trying to reduce
+
+1182
+01:12:03,735 --> 01:12:07,295
+Speaker 10:  my reliance on my phone so that when I go to replace it I can get a dump
+
+1183
+01:12:07,295 --> 01:12:11,185
+Speaker 10:  phone and replace all of its functions with standalone dumb or
+
+1184
+01:12:11,185 --> 01:12:14,815
+Speaker 10:  semis smartt products. The one feature that's giving me the most
+
+1185
+01:12:14,815 --> 01:12:18,135
+Speaker 10:  difficulty replacing is the ability to listen to my music from
+
+1186
+01:12:18,135 --> 01:12:21,855
+Speaker 10:  Spotify, my podcasts and my audiobooks in my car in an
+
+1187
+01:12:21,855 --> 01:12:25,735
+Speaker 10:  easy and automatically updating fashion. It seems that all of
+
+1188
+01:12:25,735 --> 01:12:29,075
+Speaker 10:  the MP three players that remain on the market are either over
+
+1189
+01:12:29,075 --> 01:12:32,855
+Speaker 10:  $600, at least like the Sony Walkman or under a hundred dollars and
+
+1190
+01:12:32,855 --> 01:12:36,765
+Speaker 10:  limited to playing manually populated offline files. Is it true
+
+1191
+01:12:36,765 --> 01:12:40,315
+Speaker 10:  that there's just no more mid-market for MP three players?
+
+1192
+01:12:40,315 --> 01:12:43,285
+Speaker 10:  Thanks. I look forward to your insight as always.
+
+1193
+01:12:43,285 --> 01:12:47,215
+Speaker 2:  Okay. Hmm. I have like an immediate visceral reaction to this
+
+1194
+01:12:47,215 --> 01:12:50,935
+Speaker 2:  question but I'm curious what your instant thoughts are.
+
+1195
+01:12:50,935 --> 01:12:54,855
+Speaker 9:  I think the main hangup and problem challenge here is that
+
+1196
+01:12:54,855 --> 01:12:58,175
+Speaker 9:  podcasts part, like finding an MP three player that'll like automatically
+
+1197
+01:12:58,175 --> 01:13:02,135
+Speaker 9:  update podcasts is not really what the ones that are out there these
+
+1198
+01:13:02,135 --> 01:13:05,815
+Speaker 9:  days are for. Like he mentioned you can buy like a Sony Walkman for
+
+1199
+01:13:05,815 --> 01:13:09,575
+Speaker 9:  300 $400 but that's like all Hi-Fi listening gear. It's not
+
+1200
+01:13:09,575 --> 01:13:12,495
+Speaker 9:  really intended for like casual podcast listening. I don't know. What are
+
+1201
+01:13:12,495 --> 01:13:14,815
+Speaker 9:  your vibes on the question? What are your feels?
+
+1202
+01:13:14,815 --> 01:13:18,415
+Speaker 2:  I kind of have come to the point where I think the only reason to buy a
+
+1203
+01:13:18,415 --> 01:13:22,385
+Speaker 2:  dedicated MP three player is if you really care about
+
+1204
+01:13:22,385 --> 01:13:26,315
+Speaker 2:  Hi-Fi lossless and I think that's a perfectly valid thing
+
+1205
+01:13:26,315 --> 01:13:30,235
+Speaker 2:  and reason to buy an MP three player if you're worrying about Spotify
+
+1206
+01:13:30,235 --> 01:13:34,155
+Speaker 2:  and podcasts that is not you and So I kind of think
+
+1207
+01:13:34,155 --> 01:13:38,075
+Speaker 2:  the market for those people for an MP three player is dead
+
+1208
+01:13:38,075 --> 01:13:41,785
+Speaker 2:  To me the answer here is buy a cheap second
+
+1209
+01:13:41,785 --> 01:13:45,565
+Speaker 2:  phone only download the two apps that you need.
+
+1210
+01:13:45,565 --> 01:13:48,455
+Speaker 2:  Like I don't know, have somebody change your Google Play password so you
+
+1211
+01:13:48,455 --> 01:13:52,175
+Speaker 2:  can't do anything else or whatever. And then just treat that like your device
+
+1212
+01:13:52,175 --> 01:13:56,095
+Speaker 2:  basically try to like iPod touch if I a phone that you have. That's the only
+
+1213
+01:13:56,095 --> 01:13:58,065
+Speaker 2:  answer I can think of that makes sense to me.
+
+1214
+01:13:58,065 --> 01:14:01,695
+Speaker 9:  Steve, you still can buy like a used iPod touch. That's an option but it's
+
+1215
+01:14:01,695 --> 01:14:05,015
+Speaker 9:  stuck on iOS 15 I think. So there will come a day where like Spotify no longer
+
+1216
+01:14:05,015 --> 01:14:08,935
+Speaker 9:  supports iOS 15 and like same for Apple Music, which is very strange to
+
+1217
+01:14:08,935 --> 01:14:12,325
+Speaker 9:  think about. So at some point the iPod touch will be be left behind. I've
+
+1218
+01:14:12,325 --> 01:14:15,125
+Speaker 9:  got one, it feels so small these days that it like no longer feels like a
+
+1219
+01:14:15,125 --> 01:14:15,685
+Speaker 9:  phone. I know
+
+1220
+01:14:15,685 --> 01:14:15,965
+Speaker 2:  It's
+
+1221
+01:14:15,965 --> 01:14:19,905
+Speaker 9:  Really true. It's like so tiny so You know it's got some charm
+
+1222
+01:14:19,905 --> 01:14:23,645
+Speaker 9:  but yeah, software days are probably numbered. There's also, I don't know
+
+1223
+01:14:23,645 --> 01:14:26,885
+Speaker 9:  if you remember The Mighty player, it's like that iPod shuffle device. Oh
+
+1224
+01:14:26,885 --> 01:14:30,725
+Speaker 9:  yeah that can sink. That can sink Spotify and like Traps and
+
+1225
+01:14:30,725 --> 01:14:34,045
+Speaker 9:  podcasts. So that's an option. But you would need a smartphone to sync it
+
+1226
+01:14:34,045 --> 01:14:37,445
+Speaker 9:  to, so if you want a dumb phone therein lies the problem. But yeah, that's
+
+1227
+01:14:37,445 --> 01:14:40,725
+Speaker 9:  still out there. I think they cost like 130 bucks so nowhere near the cost
+
+1228
+01:14:40,725 --> 01:14:43,805
+Speaker 9:  of like a Sony Wman which right again is silly And for nerds like me who
+
+1229
+01:14:43,805 --> 01:14:47,165
+Speaker 9:  like have like lossless audio libraries of fully
+
+1230
+01:14:47,165 --> 01:14:50,855
+Speaker 9:  legally You know downloaded music. No question about that. That
+
+1231
+01:14:50,855 --> 01:14:52,065
+Speaker 2:  Don't worry about it. Yeah.
+
+1232
+01:14:52,065 --> 01:14:55,045
+Speaker 9:  But yeah for this question I would either like pursue an old iPod touch for
+
+1233
+01:14:55,045 --> 01:14:58,485
+Speaker 9:  a few years at least it should be good for 1, 2, 3 more years. Or like you
+
+1234
+01:14:58,485 --> 01:15:02,285
+Speaker 9:  said, buy a secondary phone that's You know does the job. The
+
+1235
+01:15:02,285 --> 01:15:05,045
+Speaker 2:  Only other thing I could think of, and I did some research on this, like
+
+1236
+01:15:05,045 --> 01:15:08,175
+Speaker 2:  I, I kind of wish we lived in the world
+
+1237
+01:15:08,175 --> 01:15:11,365
+Speaker 2:  where Spotify's like car thing had been super
+
+1238
+01:15:11,365 --> 01:15:15,165
+Speaker 2:  successful and it went down this road of building sort
+
+1239
+01:15:15,165 --> 01:15:19,005
+Speaker 2:  of nichey music gadgets. 'cause I agree we should have more music gadgets.
+
+1240
+01:15:19,005 --> 01:15:22,725
+Speaker 2:  Like I, I think the idea that my phone is my source of music makes some
+
+1241
+01:15:22,725 --> 01:15:25,565
+Speaker 2:  sense because it's the device I have with me, whatever. But I kind of wish
+
+1242
+01:15:25,565 --> 01:15:29,275
+Speaker 2:  there were more. And the thing I wish most of all is that
+
+1243
+01:15:29,275 --> 01:15:33,085
+Speaker 2:  some kind of wearable was the answer and there's little bits of
+
+1244
+01:15:33,085 --> 01:15:36,835
+Speaker 2:  stuff. Fitbit makes some stuff that has some pretty good integrations
+
+1245
+01:15:36,835 --> 01:15:40,245
+Speaker 2:  with Spotify and geezer and some of these things. A lot obviously depends
+
+1246
+01:15:40,245 --> 01:15:44,005
+Speaker 2:  on which apps you use. Like if, if you use Apple Podcasts, all of this is
+
+1247
+01:15:44,005 --> 01:15:47,765
+Speaker 2:  moot by an iPod touch. But for some of these things there are like bits and
+
+1248
+01:15:47,765 --> 01:15:50,365
+Speaker 2:  pieces of it you can get. But like you said, all of these are just phone
+
+1249
+01:15:50,365 --> 01:15:54,245
+Speaker 2:  accessories. They, they require so much else to do on
+
+1250
+01:15:54,245 --> 01:15:57,815
+Speaker 2:  your smartphone before you can get it onto your actual dedicated device.
+
+1251
+01:15:57,815 --> 01:15:58,165
+Speaker 2:  Right?
+
+1252
+01:15:58,165 --> 01:16:00,965
+Speaker 9:  Like it feels like the Apple Watch should be able to sync with a Mac at this
+
+1253
+01:16:00,965 --> 01:16:04,805
+Speaker 9:  point in time and You know it's, god knows it's almost 2024
+
+1254
+01:16:04,805 --> 01:16:07,685
+Speaker 9:  but you still need an iPhone there. So that would solve the problem immediately.
+
+1255
+01:16:07,685 --> 01:16:10,445
+Speaker 9:  Like like You know buy an Apple watch that could talk to a Mac, you'd be
+
+1256
+01:16:10,445 --> 01:16:13,325
+Speaker 9:  all good but that does not exist. But I would look at The Mighty honestly
+
+1257
+01:16:13,325 --> 01:16:16,325
+Speaker 9:  You know it looks like an IPO shuffle, it's got some charm, you can wear
+
+1258
+01:16:16,325 --> 01:16:18,965
+Speaker 9:  it if you want a dumb phone. It kind of fits that, that vibe. But you just
+
+1259
+01:16:18,965 --> 01:16:22,795
+Speaker 9:  gotta figure out like what device will it sync with And I think, I'm sure
+
+1260
+01:16:22,795 --> 01:16:26,035
+Speaker 9:  he's got some kind of phone lying around that can still You know run Spotify.
+
+1261
+01:16:26,035 --> 01:16:28,885
+Speaker 2:  Yeah and the good news is, I would think on the phone front, if all you really
+
+1262
+01:16:28,885 --> 01:16:32,725
+Speaker 2:  want is like Spotify and Pocket Casts or whatever,
+
+1263
+01:16:32,725 --> 01:16:35,525
+Speaker 2:  I'll plug pocket cast 'cause it's my favorite podcast app. Same, you
+
+1264
+01:16:35,525 --> 01:16:35,725
+Speaker 9:  Don't
+
+1265
+01:16:35,725 --> 01:16:39,335
+Speaker 2:  Need much phone to do that, right? Like you can buy a pretty
+
+1266
+01:16:39,335 --> 01:16:43,235
+Speaker 2:  small, pretty low end, pretty low powered phone I would say as long as
+
+1267
+01:16:43,235 --> 01:16:46,245
+Speaker 2:  it's relatively modern in its software
+
+1268
+01:16:46,245 --> 01:16:50,025
+Speaker 2:  capabilities. So it'll last a long time. Yeah. Like to
+
+1269
+01:16:50,025 --> 01:16:53,885
+Speaker 2:  almost no one what I recommend most of the like one to $200
+
+1270
+01:16:53,885 --> 01:16:56,525
+Speaker 2:  smartphones out there, but in that range you can get something that's gonna
+
+1271
+01:16:56,525 --> 01:17:00,445
+Speaker 2:  serve you perfectly fine for these particular cases. If all you want
+
+1272
+01:17:00,445 --> 01:17:04,355
+Speaker 2:  is like a thing to plug headphones into to listen to music, right?
+
+1273
+01:17:04,355 --> 01:17:08,265
+Speaker 9:  Yeah. That or like check out like a Pixel seven A during the holiday sales
+
+1274
+01:17:08,265 --> 01:17:10,445
+Speaker 9:  and see if you can get a good good discount on that. Yeah.
+
+1275
+01:17:10,445 --> 01:17:13,285
+Speaker 2:  Google gives those things away like six times a year. Yeah. You can probably
+
+1276
+01:17:13,285 --> 01:17:17,125
+Speaker 2:  find one. Any other, are there any other interesting music gadgets
+
+1277
+01:17:17,125 --> 01:17:19,885
+Speaker 2:  out there in the world right now? I feel like there's like is Neil Young
+
+1278
+01:17:19,885 --> 01:17:21,995
+Speaker 2:  still doing the the Pono thing? Is that
+
+1279
+01:17:21,995 --> 01:17:25,765
+Speaker 9:  Pono? God, what a time that was to be alive. That's not around
+
+1280
+01:17:25,765 --> 01:17:28,925
+Speaker 9:  anymore. I mean I'm sure some of my readers are gonna have some very super
+
+1281
+01:17:28,925 --> 01:17:32,845
+Speaker 9:  niche solutions that are out there, but yeah, off the top of my head I can
+
+1282
+01:17:32,845 --> 01:17:36,045
+Speaker 9:  think of like Sony makes Cheap Walkmans that aren't that pricey, but those
+
+1283
+01:17:36,045 --> 01:17:39,405
+Speaker 9:  are the manual loading on music and stuff and so those don't run Android
+
+1284
+01:17:39,405 --> 01:17:42,645
+Speaker 9:  at all. And so that would not be a good solution. But yeah, I would buy an
+
+1285
+01:17:42,645 --> 01:17:46,485
+Speaker 9:  old iPod touch secondary phone check out The Mighty for
+
+1286
+01:17:46,485 --> 01:17:50,105
+Speaker 9:  like a hundred, 130 bucks and see if that'll solve your dilemma.
+
+1287
+01:17:50,105 --> 01:17:53,885
+Speaker 9:  But yeah, that's a, that's a big challenge to find a device that can sync
+
+1288
+01:17:53,885 --> 01:17:56,155
+Speaker 9:  your podcasts with a dumb phone.
+
+1289
+01:17:56,155 --> 01:17:59,925
+Speaker 2:  It's a strange one and I really, I do support the overall theory of
+
+1290
+01:17:59,925 --> 01:18:02,445
+Speaker 2:  trying to take all the things that your phone does instead. Absolutely. Instead
+
+1291
+01:18:02,445 --> 01:18:05,805
+Speaker 2:  of split them out so that it's like instead of having everything with me
+
+1292
+01:18:05,805 --> 01:18:09,285
+Speaker 2:  all at once in this one device, I can just have the tools that I need and
+
+1293
+01:18:09,285 --> 01:18:10,725
+Speaker 2:  not worry about the rest. Like single
+
+1294
+01:18:10,725 --> 01:18:12,835
+Speaker 9:  Purpose devices, You know the iPod.
+
+1295
+01:18:12,835 --> 01:18:16,755
+Speaker 2:  Yeah. Honestly, like I wish the answer was the new
+
+1296
+01:18:16,755 --> 01:18:20,455
+Speaker 2:  iPod Classic, right? Like integrates with Apple Music and
+
+1297
+01:18:20,455 --> 01:18:23,925
+Speaker 2:  Apple Podcasts and you can just live your life and that like that's the device
+
+1298
+01:18:23,925 --> 01:18:24,525
+Speaker 2:  I want to exist
+
+1299
+01:18:24,525 --> 01:18:27,885
+Speaker 9:  Seriously. Part of me will always miss the heyday of the iPod I think to
+
+1300
+01:18:27,885 --> 01:18:31,565
+Speaker 9:  some degree, but, but this is the world we're in now so you gotta gotta work
+
+1301
+01:18:31,565 --> 01:18:32,605
+Speaker 9:  with what we got.
+
+1302
+01:18:32,605 --> 01:18:35,365
+Speaker 2:  I hope that helps. Chris, thank you as always.
+
+1303
+01:18:35,365 --> 01:18:38,195
+Speaker 9:  Absolutely. Always a pleasure.
+
+1304
+01:18:38,195 --> 01:18:38,685
+Speaker 1:  Alright,
+
+1305
+01:18:38,685 --> 01:18:41,885
+Speaker 2:  That's it for The Vergecast today. Thanks to everyone on the show and thank
+
+1306
+01:18:41,885 --> 01:18:45,485
+Speaker 2:  you for listening. There's lots more on everything we talked about from our
+
+1307
+01:18:45,485 --> 01:18:48,925
+Speaker 2:  Spotify coverage to all the stuff going on in streaming at The Verge dot
+
+1308
+01:18:48,925 --> 01:18:52,435
+Speaker 2:  com. We'll put some links in the show notes, but also You know read The Verge.
+
+1309
+01:18:52,435 --> 01:18:56,175
+Speaker 2:  It's a great website. As always. If you have thoughts, feelings, questions,
+
+1310
+01:18:56,175 --> 01:18:59,465
+Speaker 2:  weird Spotify playlists you wanna tell me about, you can always email us
+
+1311
+01:18:59,465 --> 01:19:03,215
+Speaker 2:  at Vergecast at The Verge dot com or keep calling the Hotline 8
+
+1312
+01:19:03,265 --> 01:19:06,565
+Speaker 2:  6 6 Verge one one. we love hearing from you. It's my favorite thing to do
+
+1313
+01:19:06,565 --> 01:19:10,245
+Speaker 2:  on this show. This show is produced by Andrew Moreno and Liam James The.
+
+1314
+01:19:10,245 --> 01:19:13,315
+Speaker 2:  Vergecast is The Verge production and part of the Vox Media podcast network.
+
+1315
+01:19:13,315 --> 01:19:16,555
+Speaker 2:  Neli Alex and I will be back on Friday to talk about the PlayStation portal
+
+1316
+01:19:16,555 --> 01:19:20,365
+Speaker 2:  more from Epic v, Google, and all the other news of the week. We'll see you
+
+1317
+01:19:20,365 --> 01:19:21,045
+Speaker 2:  then. Rock and
+
+1318
+01:19:21,045 --> 01:19:32,645
+Speaker 2:  roll.
+
+1319
+01:19:32,645 --> 01:19:36,095
+Speaker 3:  This podcast is brought to you by Meta Quest three, the new mixed reality
+
+1320
+01:19:36,095 --> 01:19:39,935
+Speaker 3:  headset from Meta Expand Your World in ways you never thought Possible
+
+1321
+01:19:39,935 --> 01:19:43,835
+Speaker 3:  with the new Meta Quest. Three, put on the most powerful quest yet
+
+1322
+01:19:43,835 --> 01:19:47,715
+Speaker 3:  and jump into fully immersive games like Assassin's Creed Nexus
+
+1323
+01:19:47,715 --> 01:19:51,275
+Speaker 3:  or blend virtual elements into your surroundings in games like Stranger Things
+
+1324
+01:19:51,275 --> 01:19:55,155
+Speaker 3:  vr. With over 500 titles, it's easy to dive into whatever
+
+1325
+01:19:55,155 --> 01:19:59,135
+Speaker 3:  you're into. Expand your world with Meta Quest three. See child
+
+1326
+01:19:59,135 --> 01:20:01,775
+Speaker 3:  safety guidance online accounts for 10 and up. Certain apps, games and experiences
+
+1327
+01:20:01,775 --> 01:20:04,815
+Speaker 3:  may be suitable for a more mature audience. Learn more@meta.com.
+

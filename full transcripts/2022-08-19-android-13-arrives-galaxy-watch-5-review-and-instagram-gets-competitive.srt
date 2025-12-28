@@ -1,0 +1,5802 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 49563890-2060-11ed-94b6-ede5d753a4d6
+Status: Done
+Stage: Done
+Title: Android 13 arrives, Galaxy Watch 5 review, and Instagram gets competitive
+Audio URL: https://jfe93e.s3.amazonaws.com/3311101117800270223/-7682134080633405478/s93290-US-5039s-1660983263.mp3
+Description: The Verge's Nilay Patel, Alex Cranz, and David Pierce discuss the Android 13 update, the battle between the vertical video apps, and a bunch of gadget news.
+
+2
+00:01:25,420 --> 00:01:29,170
+Speaker 5:  Hello, and welcome to the vercast flagship podcast of
+
+3
+00:01:29,170 --> 00:01:32,490
+Speaker 5:  incremental innovation and electron rappers for web apps.
+
+4
+00:01:33,700 --> 00:01:37,210
+Speaker 5:  Today. We're talking about JavaScript. We're not, we're not gonna do that.
+
+5
+00:01:37,730 --> 00:01:40,650
+Speaker 5:  I mean, most days we do in a roundabout way, discuss
+
+6
+00:01:41,300 --> 00:01:45,290
+Speaker 5:  JavaScript, I think, but this is not the show for you. If you're
+
+7
+00:01:45,290 --> 00:01:48,730
+Speaker 5:  a JavaScript enthusiast, I will tell you that right now, I make no bones
+
+8
+00:01:48,730 --> 00:01:52,290
+Speaker 5:  about it. Anyway, I'm your friend. Eli. Alex Kranz is here. I'm your friend
+
+9
+00:01:52,290 --> 00:01:56,250
+Speaker 5:  who just loves Pearl. Very good. It's my favorite. Yeah. You're it's great.
+
+10
+00:01:56,250 --> 00:01:58,530
+Speaker 5:  You're just doing, you're just doing the command line. You're in there. Yeah.
+
+11
+00:01:58,530 --> 00:01:59,010
+Speaker 5:  David Pierce
+
+12
+00:01:59,010 --> 00:02:01,930
+Speaker 6:  Is here. Yeah. I'm definitely your friend who is gonna like give you a long
+
+13
+00:02:01,930 --> 00:02:05,810
+Speaker 6:  speech about low code and no code. And then try
+
+14
+00:02:05,810 --> 00:02:09,690
+Speaker 6:  to convince you to optimize all of the apps in your life, to
+
+15
+00:02:09,690 --> 00:02:12,010
+Speaker 6:  the point where everything immediately breaks. That's my job.
+
+16
+00:02:12,270 --> 00:02:16,130
+Speaker 5:  My first email client was in a, was in a terminal, like a Unix terminal
+
+17
+00:02:16,230 --> 00:02:19,650
+Speaker 5:  was pretty good. I missed those days. So it's called pine. I dunno if you
+
+18
+00:02:19,730 --> 00:02:22,090
+Speaker 5:  remember this, I might be the one old and every now and
+
+19
+00:02:22,270 --> 00:02:24,010
+Speaker 6:  See like a hacker. Every time you checked your email.
+
+20
+00:02:24,520 --> 00:02:28,290
+Speaker 5:  Well, no, because it was, it was at school, like in college
+
+21
+00:02:28,670 --> 00:02:32,650
+Speaker 5:  and they, they just had a bunch of Matt classics at the entryway of the
+
+22
+00:02:32,650 --> 00:02:36,370
+Speaker 5:  dorm. And everyone stood in a line to log into their, their
+
+23
+00:02:36,370 --> 00:02:40,130
+Speaker 5:  like shell account to check their email in pine, just cuz we didn't have
+
+24
+00:02:40,410 --> 00:02:44,170
+Speaker 5:  computers yet typing the I. Then I wrote my steam engine up both
+
+25
+00:02:44,200 --> 00:02:45,410
+Speaker 5:  ways to college.
+
+26
+00:02:45,920 --> 00:02:49,490
+Speaker 6:  When you describe that, it sounds like like in, in movies when they show
+
+27
+00:02:49,490 --> 00:02:52,650
+Speaker 6:  like the line of people in prison waiting to make phone calls, like that's,
+
+28
+00:02:52,650 --> 00:02:54,170
+Speaker 6:  that's basically what you just described.
+
+29
+00:02:54,640 --> 00:02:58,530
+Speaker 5:  Yeah, it was, it was a different time. And at no point did we think that
+
+30
+00:02:58,530 --> 00:03:02,240
+Speaker 5:  democracy would be imperiled by our command line, email
+
+31
+00:03:02,240 --> 00:03:05,800
+Speaker 5:  clients and things have changed. It's fine. Simpler times
+
+32
+00:03:06,110 --> 00:03:09,960
+Speaker 5:  here we are now coming to you live over the internet. See it's a thing everything's
+
+33
+00:03:09,960 --> 00:03:13,400
+Speaker 5:  are improved democracy in peril. The verge cast, you gotta take the good
+
+34
+00:03:13,400 --> 00:03:16,200
+Speaker 5:  with the bad. You know what I'm saying? Yeah. Lost talking this week,
+
+35
+00:03:17,350 --> 00:03:21,320
+Speaker 5:  Android 13 came out for pixel phones. A lot of people refreshing eagerly
+
+36
+00:03:22,120 --> 00:03:25,760
+Speaker 5:  the brewing war between the vertical scrolling video apps
+
+37
+00:03:26,460 --> 00:03:30,280
+Speaker 5:  is here. A bunch of EV news got a little bit of lightning around. Let's
+
+38
+00:03:30,280 --> 00:03:34,240
+Speaker 5:  start with Android. We had Samsung reviews this week too. The, the Z fold
+
+39
+00:03:34,270 --> 00:03:38,160
+Speaker 5:  four, the watch five shout out to the, for an
+
+40
+00:03:38,280 --> 00:03:41,560
+Speaker 5:  incredible fake out on the watch. Five video review. If you haven't seen,
+
+41
+00:03:41,560 --> 00:03:42,920
+Speaker 5:  I'm not gonna ruin it for you. But
+
+42
+00:03:43,480 --> 00:03:47,280
+Speaker 7:  I was like preparing to like, I was writing a DM to her being like, this
+
+43
+00:03:47,280 --> 00:03:50,880
+Speaker 7:  head is wrong. Why are you saying all of this with this head? You can't do
+
+44
+00:03:50,880 --> 00:03:51,040
+Speaker 7:  this.
+
+45
+00:03:52,150 --> 00:03:52,440
+Speaker 5:  Yeah.
+
+46
+00:03:52,440 --> 00:03:54,760
+Speaker 7:  And then I kept watching. I was like, oh, that's why, that's why they got
+
+47
+00:03:54,760 --> 00:03:54,880
+Speaker 7:  it.
+
+48
+00:03:55,230 --> 00:03:57,880
+Speaker 5:  It's fine. Yeah. It's good. Go watch it. It's good. But let's start with
+
+49
+00:03:57,880 --> 00:04:01,640
+Speaker 5:  it. David, Android 13. It feels like it's like a, like an Android,
+
+50
+00:04:01,710 --> 00:04:04,040
+Speaker 5:  snow leopard. Like they're just getting a lot of stuff, right?
+
+51
+00:04:04,910 --> 00:04:08,160
+Speaker 6:  Yeah. I think that's basically right. I mean a, the funny thing about Android
+
+52
+00:04:08,160 --> 00:04:12,120
+Speaker 6:  updates is always that it, Android updates come out and Google's like
+
+53
+00:04:12,120 --> 00:04:15,760
+Speaker 6:  Android 13 is here. 12 of you can download it. Yeah.
+
+54
+00:04:16,100 --> 00:04:20,080
+Speaker 6:  Cuz it hardly like nobody owns pixels. Mo
+
+55
+00:04:20,190 --> 00:04:23,840
+Speaker 6:  most people own Android phones that are on somewhere between like last
+
+56
+00:04:24,140 --> 00:04:28,040
+Speaker 6:  and six versions of Android to go. But Android 13
+
+57
+00:04:28,040 --> 00:04:31,640
+Speaker 6:  is out for people who want it. It's like it is, it's a snow leopard thing.
+
+58
+00:04:31,640 --> 00:04:33,840
+Speaker 6:  They're like, they're doing a bunch of little things. This is kind of where
+
+59
+00:04:33,840 --> 00:04:37,200
+Speaker 6:  we are with smartphones. Right? It's like it's to give you some more control
+
+60
+00:04:37,510 --> 00:04:41,200
+Speaker 6:  over like how it looks and what kind of access
+
+61
+00:04:41,310 --> 00:04:44,520
+Speaker 6:  apps can have. And Android, I will say to its credit is doing a really good
+
+62
+00:04:44,520 --> 00:04:47,520
+Speaker 6:  job of starting to like piece things together. And they're like, you can
+
+63
+00:04:47,520 --> 00:04:51,080
+Speaker 6:  tell your app what language you want it to run in which photos it should
+
+64
+00:04:51,080 --> 00:04:54,040
+Speaker 6:  have access to how it should operate all these. Like they're just giving
+
+65
+00:04:54,040 --> 00:04:57,160
+Speaker 6:  people a lot of knobs to fiddle with, which I actually think like at this
+
+66
+00:04:57,160 --> 00:04:59,400
+Speaker 6:  moment in smartphones is a really good idea.
+
+67
+00:04:59,870 --> 00:05:03,160
+Speaker 5:  Yeah. We should describe what snow leopard means. Again, I'm an old head
+
+68
+00:05:03,250 --> 00:05:05,680
+Speaker 5:  steam engine uphill, both ways. All of us
+
+69
+00:05:05,680 --> 00:05:06,600
+Speaker 7:  Were, was the best snow.
+
+70
+00:05:07,120 --> 00:05:11,040
+Speaker 5:  Snowbird was the best version of what at the time was called Macs 10.
+
+71
+00:05:11,940 --> 00:05:15,920
+Speaker 5:  And they just decided to not do new features for a year and just make
+
+72
+00:05:15,920 --> 00:05:19,040
+Speaker 5:  it good. And then they immediately were like, and now we're back to weird
+
+73
+00:05:19,040 --> 00:05:23,000
+Speaker 5:  features and that, but it was per I didn't leave snowbird for
+
+74
+00:05:23,000 --> 00:05:25,760
+Speaker 5:  three years. I was like, I don't care what you're adding to this operating
+
+75
+00:05:25,760 --> 00:05:29,600
+Speaker 5:  system. This one's perfect. And every day that I use
+
+76
+00:05:29,600 --> 00:05:33,040
+Speaker 5:  this computer, I was like, I missed snow leopard. So that's like we're in
+
+77
+00:05:33,040 --> 00:05:36,720
+Speaker 5:  that moment for a lot of software hilariously, the developers of Madden
+
+78
+00:05:36,950 --> 00:05:39,920
+Speaker 5:  described it this years as a snow leopard release.
+
+79
+00:05:41,620 --> 00:05:44,240
+Speaker 5:  And it just feels like Android is in that same place where they're adding
+
+80
+00:05:44,240 --> 00:05:47,960
+Speaker 5:  things like spatial audio because they need to compete with apple. They're
+
+81
+00:05:47,960 --> 00:05:51,840
+Speaker 5:  adding things like more personalization maybe cuz they
+
+82
+00:05:51,840 --> 00:05:54,880
+Speaker 5:  need to compete with apple. But maybe because there's nothing left to do.
+
+83
+00:05:55,590 --> 00:05:59,240
+Speaker 6:  Yeah, I will say the one thing I find very exciting about Android 13 is
+
+84
+00:05:59,390 --> 00:06:03,320
+Speaker 6:  like Google's big theme for the world right now is
+
+85
+00:06:03,320 --> 00:06:05,800
+Speaker 6:  like putting all of its many pieces together, which we talked about a bunch
+
+86
+00:06:05,800 --> 00:06:08,720
+Speaker 6:  in the show and like they're trying to make all their apps and services make
+
+87
+00:06:08,720 --> 00:06:11,840
+Speaker 6:  more sense together. And so there's this thing now where you can basically
+
+88
+00:06:11,840 --> 00:06:15,160
+Speaker 6:  stream your messaging apps from your phone to your Chromebook,
+
+89
+00:06:15,960 --> 00:06:19,880
+Speaker 6:  which I think a is an extremely good idea because like sitting here at my
+
+90
+00:06:20,040 --> 00:06:23,320
+Speaker 6:  computer and typing on my phone all day to message people is a gigantic pain
+
+91
+00:06:23,320 --> 00:06:26,400
+Speaker 6:  in the ass that I really am excited for it to go away. But also because it's
+
+92
+00:06:26,400 --> 00:06:29,200
+Speaker 6:  like, it's just a good idea and that kind of thing where it's like, I should
+
+93
+00:06:29,200 --> 00:06:32,440
+Speaker 6:  be able to type on my phone from my computer. And that is like how all of
+
+94
+00:06:32,440 --> 00:06:35,400
+Speaker 6:  this should work. And I like it very much and it feels like that's like the
+
+95
+00:06:35,400 --> 00:06:38,600
+Speaker 6:  start of something. Very cool. But otherwise all this stuff is like, yeah,
+
+96
+00:06:38,600 --> 00:06:41,640
+Speaker 6:  these are good things that are not gonna like blow your mind to pieces.
+
+97
+00:06:42,300 --> 00:06:45,440
+Speaker 7:  Do you think it's like, they just really wanted to hunker down and, and
+
+98
+00:06:45,910 --> 00:06:49,680
+Speaker 7:  improve on like the stuff they have or was it the
+
+99
+00:06:49,960 --> 00:06:53,880
+Speaker 7:  pandemic and the development cycles usually take a while and
+
+100
+00:06:53,880 --> 00:06:57,580
+Speaker 7:  the pandemic kind of screwed up those development cycles or both.
+
+101
+00:06:58,500 --> 00:07:02,420
+Speaker 5:  I think it's both in like in a serious way. I just, I remember C saying
+
+102
+00:07:02,420 --> 00:07:06,340
+Speaker 5:  to us on the show, it's kind of the beginning of pandemic. He was like,
+
+103
+00:07:06,670 --> 00:07:10,580
+Speaker 5:  we're well set up to all work from home and complete our roadmaps. What I'm
+
+104
+00:07:10,580 --> 00:07:14,180
+Speaker 5:  worried about is the next set of ideas. Yeah. Which think a lot of companies
+
+105
+00:07:14,180 --> 00:07:17,900
+Speaker 5:  have run into in one way or the other. But I think they were obviously
+
+106
+00:07:17,900 --> 00:07:21,620
+Speaker 5:  disrupted and no company is really being loud about how, how much its plans
+
+107
+00:07:21,620 --> 00:07:25,500
+Speaker 5:  were disrupted. But I just also think contextually, if you just look at the
+
+108
+00:07:25,500 --> 00:07:29,220
+Speaker 5:  state of Android right now at the same time the Android 13 is arriving.
+
+109
+00:07:29,640 --> 00:07:33,020
+Speaker 5:  We, we have the galaxy Z fold four running Android 12, right? Like
+
+110
+00:07:33,520 --> 00:07:37,460
+Speaker 5:  the, the new, most complicated fanciest Android smartphone
+
+111
+00:07:37,760 --> 00:07:40,580
+Speaker 5:  is being released at the same time, running the old version, cuz that's just
+
+112
+00:07:40,580 --> 00:07:44,100
+Speaker 5:  where Android is. And then they're running this
+
+113
+00:07:44,100 --> 00:07:47,740
+Speaker 5:  gigantic campaign about RCS because they know
+
+114
+00:07:47,970 --> 00:07:51,500
+Speaker 5:  that at least in the United States getting people to Levi message and switch
+
+115
+00:07:51,500 --> 00:07:55,340
+Speaker 5:  to Android is like too hard. So like what is the value of firing dozens
+
+116
+00:07:55,340 --> 00:07:59,140
+Speaker 5:  of new features into Android at this moment when switching is really
+
+117
+00:07:59,280 --> 00:08:02,980
+Speaker 5:  hard and your flagship phone provider is just gonna
+
+118
+00:08:03,360 --> 00:08:06,500
+Speaker 5:  run big speed all day long. Like I think they're in just a tough spot.
+
+119
+00:08:07,170 --> 00:08:11,100
+Speaker 6:  Well, and I think that comparison is like, it just strikes me
+
+120
+00:08:11,100 --> 00:08:14,500
+Speaker 6:  as it's behind all of this stuff right now. Right? Like on, on the one hand,
+
+121
+00:08:14,760 --> 00:08:18,060
+Speaker 6:  the idea that like you can customize the app icons and stuff is like a thing
+
+122
+00:08:18,060 --> 00:08:21,100
+Speaker 6:  people love on their iPhones that I think Google is very smart to pick up
+
+123
+00:08:21,100 --> 00:08:24,100
+Speaker 6:  on and sort of keep moving forward. And they're like, we'll automatically
+
+124
+00:08:24,100 --> 00:08:27,260
+Speaker 6:  change the color scheme of all your icons so that it'll work. But there's
+
+125
+00:08:27,260 --> 00:08:31,100
+Speaker 6:  also like the, when you ask somebody now like the difference between iOS
+
+126
+00:08:31,100 --> 00:08:34,300
+Speaker 6:  and Android, they're functionally the same Android actually like has more
+
+127
+00:08:34,300 --> 00:08:38,220
+Speaker 6:  features most of the time, but iOS just feels better. Like it, it
+
+128
+00:08:38,220 --> 00:08:42,060
+Speaker 6:  just does. And I think now like Google is
+
+129
+00:08:42,210 --> 00:08:46,180
+Speaker 6:  pushing really hard on this idea of like, what if we make Android feel better?
+
+130
+00:08:46,840 --> 00:08:50,060
+Speaker 6:  And, and there's all this little stuff that, that entails. Like I think we
+
+131
+00:08:50,060 --> 00:08:53,300
+Speaker 6:  were talking on this show about the, the magical thing where you can copy
+
+132
+00:08:53,370 --> 00:08:57,080
+Speaker 6:  text from one device and paste it onto another with apple. And like now Android
+
+133
+00:08:57,080 --> 00:09:00,880
+Speaker 6:  does that. Or I guess soon it will do that. If you have two devices
+
+134
+00:09:00,880 --> 00:09:04,840
+Speaker 6:  that are updated, which you won't, but like you get the idea. But
+
+135
+00:09:04,840 --> 00:09:07,680
+Speaker 6:  I think like that kind of stuff is like, I think Google is absolutely right
+
+136
+00:09:07,740 --> 00:09:11,240
+Speaker 6:  to say let's not build insane new stuff that almost no one is going to use.
+
+137
+00:09:11,250 --> 00:09:15,080
+Speaker 6:  Let's like make Android feel better. Yeah. And I think that is like, that's
+
+138
+00:09:15,080 --> 00:09:18,880
+Speaker 6:  how you get to where apple is. And then if you can solve RCS, then you might
+
+139
+00:09:19,000 --> 00:09:20,480
+Speaker 6:  actually be able to convince people to switch. Do
+
+140
+00:09:20,480 --> 00:09:24,400
+Speaker 5:  You feel like we've had this conversation every year for the past five years?
+
+141
+00:09:24,400 --> 00:09:28,040
+Speaker 5:  Because I, I feel like we could just do a clip show about that
+
+142
+00:09:28,660 --> 00:09:32,480
+Speaker 5:  and just rerun ourselves saying Google is focused. True. Do you remember
+
+143
+00:09:32,480 --> 00:09:36,440
+Speaker 5:  project butter? This is a company that once announced an entire
+
+144
+00:09:36,440 --> 00:09:40,040
+Speaker 5:  initiative called project butter that was designed to make
+
+145
+00:09:40,040 --> 00:09:41,120
+Speaker 5:  Android smoother.
+
+146
+00:09:41,740 --> 00:09:41,960
+Speaker 7:  Oh,
+
+147
+00:09:43,030 --> 00:09:43,440
+Speaker 6:  Kind of
+
+148
+00:09:43,440 --> 00:09:47,160
+Speaker 5:  Worked. It worked for a number of reasons. One, I remembered that it was
+
+149
+00:09:47,160 --> 00:09:50,440
+Speaker 5:  called project butter. Branding achieved two,
+
+150
+00:09:51,060 --> 00:09:54,240
+Speaker 5:  two, like yes. Android improve. But like, it just feels like that's the gap.
+
+151
+00:09:54,940 --> 00:09:58,520
+Speaker 5:  And I don't know that Google has meaningfully closed
+
+152
+00:09:58,820 --> 00:10:02,120
+Speaker 5:  it on these phones and it, then you've just got, well, what is the reality
+
+153
+00:10:02,180 --> 00:10:05,720
+Speaker 5:  of Android in this country? At least it's all of the Android phones are sold
+
+154
+00:10:05,720 --> 00:10:09,600
+Speaker 5:  by Samsung. Yes. So then someone else comes in and like does
+
+155
+00:10:09,760 --> 00:10:13,320
+Speaker 5:  whatever they want with Android. Samsung phones are smooth in their way.
+
+156
+00:10:13,350 --> 00:10:16,480
+Speaker 5:  It's not that they're not, they're just smooth in like
+
+157
+00:10:16,750 --> 00:10:20,360
+Speaker 5:  Samsung's way, which is a lot of trying to redirect you into a Samsung
+
+158
+00:10:20,670 --> 00:10:21,280
+Speaker 5:  lifestyle.
+
+159
+00:10:21,700 --> 00:10:22,520
+Speaker 7:  Get that big speed.
+
+160
+00:10:22,770 --> 00:10:26,720
+Speaker 5:  Maybe you are not interested in any way, shape or form or it's like,
+
+161
+00:10:27,030 --> 00:10:30,840
+Speaker 5:  sure carriers can put apps on this phone. Like there's, there's a different
+
+162
+00:10:31,050 --> 00:10:35,040
+Speaker 5:  experience to that. That is just more, the business is
+
+163
+00:10:35,040 --> 00:10:38,800
+Speaker 5:  in your face more with a Samsung Android phone, especially you buy it from
+
+164
+00:10:38,800 --> 00:10:42,240
+Speaker 5:  one of the major carriers, whereas apple to its credit. It's just like their
+
+165
+00:10:42,440 --> 00:10:46,280
+Speaker 5:  business is in your face all the time. But like they managed to hide it
+
+166
+00:10:46,280 --> 00:10:46,480
+Speaker 5:  better.
+
+167
+00:10:47,120 --> 00:10:50,800
+Speaker 6:  I don't know. Apple is like, and there was some news about this this week
+
+168
+00:10:50,800 --> 00:10:54,720
+Speaker 6:  that apple is now preparing to put more ads in more of
+
+169
+00:10:54,740 --> 00:10:57,760
+Speaker 6:  its apps and search results and stuff like that. And it's like, they're kind
+
+170
+00:10:57,760 --> 00:11:01,040
+Speaker 6:  of creeping towards each other. Right? Like Google is getting a little cleaner
+
+171
+00:11:01,040 --> 00:11:04,960
+Speaker 6:  and a little simple, simpler. Samsung even has really
+
+172
+00:11:04,960 --> 00:11:08,440
+Speaker 6:  pulled back over the last couple of years to the point where like, like I
+
+173
+00:11:08,440 --> 00:11:12,240
+Speaker 6:  used to hate Samsung's UI choices. And my recommendation was always like
+
+174
+00:11:12,620 --> 00:11:16,160
+Speaker 6:  run away from Samsung software as fast as you can by it's hardware and
+
+175
+00:11:16,580 --> 00:11:19,520
+Speaker 6:  do some weird stuff and install launchers. And now like Samsung software
+
+176
+00:11:19,520 --> 00:11:23,440
+Speaker 6:  is good. And it's like, yeah, you're starting to see the business of
+
+177
+00:11:23,440 --> 00:11:27,320
+Speaker 6:  apple a little more as Android is starting to move, they're just moving towards
+
+178
+00:11:27,320 --> 00:11:30,920
+Speaker 6:  each other in this really interesting, not necessarily great way all the
+
+179
+00:11:30,920 --> 00:11:31,000
+Speaker 6:  time.
+
+180
+00:11:31,000 --> 00:11:34,760
+Speaker 7:  Well, it's also interesting that Apple's like hardware lineup
+
+181
+00:11:34,820 --> 00:11:38,600
+Speaker 7:  is getting more fragmented. Whereas like Google's been
+
+182
+00:11:38,600 --> 00:11:42,280
+Speaker 7:  dealing with fragmentation for a decade now they, they know how to deal with
+
+183
+00:11:42,280 --> 00:11:45,000
+Speaker 7:  it. And Apple's like, I gotta figure this out. I guess we gotta like slow
+
+184
+00:11:45,000 --> 00:11:45,520
+Speaker 7:  down something.
+
+185
+00:11:46,260 --> 00:11:48,200
+Speaker 6:  You want old software. We got old software.
+
+186
+00:11:49,540 --> 00:11:52,760
+Speaker 5:  That's pretty generous on Google having figured out. I mean they have in
+
+187
+00:11:52,760 --> 00:11:53,240
+Speaker 5:  essentially.
+
+188
+00:11:53,280 --> 00:11:53,880
+Speaker 7:  Yeah. Like they
+
+189
+00:11:53,880 --> 00:11:57,440
+Speaker 5:  Definitely have these aggregated like place services from Android and they
+
+190
+00:11:57,820 --> 00:12:01,000
+Speaker 5:  are better at updates and they've signed more aggressive deals to force the
+
+191
+00:12:01,000 --> 00:12:04,520
+Speaker 5:  updates to, to happen. But really the solution to Android
+
+192
+00:12:04,760 --> 00:12:08,680
+Speaker 5:  fragmentation is that Samsung won the market. Yeah. And so like,
+
+193
+00:12:08,750 --> 00:12:10,520
+Speaker 5:  it's not that fragmented.
+
+194
+00:12:10,970 --> 00:12:14,560
+Speaker 7:  Right. But like they've, they've had to deal with the challenge and like,
+
+195
+00:12:14,570 --> 00:12:18,520
+Speaker 7:  think about that challenge in a way that apple really hasn't had to like
+
+196
+00:12:18,520 --> 00:12:22,440
+Speaker 7:  ever in its phone market. Right. Like Apple's never had to think about fragmentation
+
+197
+00:12:22,440 --> 00:12:25,640
+Speaker 7:  and now it's got what, six different screens or something that it's got.
+
+198
+00:12:25,710 --> 00:12:29,240
+Speaker 5:  Yeah. And then they're, they're gonna delay iPad OS or so we have heard
+
+199
+00:12:30,740 --> 00:12:34,560
+Speaker 5:  by the way, rumors that I iPhone event or some event,
+
+200
+00:12:35,400 --> 00:12:39,240
+Speaker 5:  we're assuming iPhone's usually in September or first part of
+
+201
+00:12:39,360 --> 00:12:40,000
+Speaker 5:  September, it's
+
+202
+00:12:40,000 --> 00:12:40,920
+Speaker 7:  Gonna be a home pod event.
+
+203
+00:12:41,150 --> 00:12:44,520
+Speaker 6:  Yeah. September 7th, I think is the date. Mark Garman reported all
+
+204
+00:12:44,520 --> 00:12:46,360
+Speaker 7:  Home pods and apple TVs get excited.
+
+205
+00:12:46,780 --> 00:12:49,880
+Speaker 5:  If it's, I mean, I would go to that event with Bellson. I would literally
+
+206
+00:12:49,880 --> 00:12:53,840
+Speaker 5:  like I'm here. I'm the most plugged in person
+
+207
+00:12:53,860 --> 00:12:57,240
+Speaker 5:  in this event. Let's talk apple TV the whole time. No one else three hit
+
+208
+00:12:57,240 --> 00:13:00,920
+Speaker 5:  me, Craig. And it would just be me like alone in the field,
+
+209
+00:13:00,920 --> 00:13:04,760
+Speaker 5:  looking at the giant screen, being like, come on, did you make a TV?
+
+210
+00:13:07,260 --> 00:13:09,880
+Speaker 5:  I'd be like, and then it's just Tim cook, come on stage and be like, no,
+
+211
+00:13:10,260 --> 00:13:14,040
+Speaker 5:  no. And he leaves hi. I would go to that event. Like it's time to
+
+212
+00:13:14,040 --> 00:13:18,000
+Speaker 5:  change events. What if instead of holding product launches, they just get
+
+213
+00:13:18,180 --> 00:13:21,720
+Speaker 5:  one person who wants something really badly. And then the CEO of the company
+
+214
+00:13:22,110 --> 00:13:25,880
+Speaker 5:  just denies that person. What they want. It's really close to the mic. We
+
+215
+00:13:25,880 --> 00:13:26,360
+Speaker 5:  get more coverage.
+
+216
+00:13:28,750 --> 00:13:32,640
+Speaker 5:  Yeah. Tech company's disappointing one person at a time. That's our new event
+
+217
+00:13:32,920 --> 00:13:36,800
+Speaker 5:  strategy. I think it'll go really well. Speaking of Samsung
+
+218
+00:13:36,820 --> 00:13:40,760
+Speaker 5:  phones reviews are hitting. So Allison reviewed
+
+219
+00:13:40,760 --> 00:13:44,480
+Speaker 5:  the Z fold four V reviewed the galaxy watch five, let's start with the Z
+
+220
+00:13:44,480 --> 00:13:48,280
+Speaker 5:  fold four. Allison's like pretty into this phone. It's very expensive.
+
+221
+00:13:48,780 --> 00:13:52,720
+Speaker 5:  But she's like, this is the most gadgety gadget you can get. And you
+
+222
+00:13:52,720 --> 00:13:56,040
+Speaker 5:  won't be disappointed with it. The camera is improved. The Android
+
+223
+00:13:56,340 --> 00:14:00,000
+Speaker 5:  tablet ecosystem is still whatever it is. But I think we were saying this
+
+224
+00:14:00,000 --> 00:14:03,720
+Speaker 5:  last week, like they've just arrived at a they've iterated their way to a
+
+225
+00:14:03,720 --> 00:14:04,680
+Speaker 5:  workable folding phone.
+
+226
+00:14:05,360 --> 00:14:08,600
+Speaker 6:  I think the camera thing is super exciting here, actually, cuz that has been,
+
+227
+00:14:09,100 --> 00:14:11,520
+Speaker 6:  cuz you like, if you're gonna buy a fold, you kind of get into the fold,
+
+228
+00:14:11,520 --> 00:14:14,120
+Speaker 6:  knowing what you're getting into, right? Like it's gonna be a little more
+
+229
+00:14:14,200 --> 00:14:17,160
+Speaker 6:  fragile. It's gonna be a little bigger. So you're like, it's very hard to
+
+230
+00:14:17,160 --> 00:14:20,160
+Speaker 6:  buy that phone and not sort of understand those trade offs, but the idea
+
+231
+00:14:20,160 --> 00:14:23,800
+Speaker 6:  that you're spending all this money and getting a worse phone than Samsung's
+
+232
+00:14:23,800 --> 00:14:27,400
+Speaker 6:  other or, or worse cameras rather than Samsung's other high end phones
+
+233
+00:14:28,130 --> 00:14:31,800
+Speaker 6:  sucks. But now like you kind of get the feeling that like Samsung
+
+234
+00:14:32,060 --> 00:14:36,040
+Speaker 6:  now has sort of done all that it can. Right? And it's, it's still
+
+235
+00:14:36,120 --> 00:14:39,400
+Speaker 6:  a little big, it's still a little fragile, but like that just is
+
+236
+00:14:39,930 --> 00:14:43,640
+Speaker 6:  where we are in like science and materials.
+
+237
+00:14:43,640 --> 00:14:47,560
+Speaker 6:  Chemistry, Android app are still bad for
+
+238
+00:14:47,560 --> 00:14:51,400
+Speaker 6:  big screens. You just can't get good tablet apps for most Android apps.
+
+239
+00:14:51,430 --> 00:14:55,160
+Speaker 6:  Yeah. But otherwise Samsung's kind of put in its best feet forward
+
+240
+00:14:55,160 --> 00:14:58,360
+Speaker 6:  here, which I find super exciting. It's still $1,800, but it's like, it's
+
+241
+00:14:58,360 --> 00:15:01,440
+Speaker 6:  a very good phone that also turns into a tablet. And that's like about all
+
+242
+00:15:01,440 --> 00:15:02,280
+Speaker 6:  you can ask for right now.
+
+243
+00:15:02,520 --> 00:15:06,040
+Speaker 7:  I like how thorough Allison was in this review. Like she tested the flex
+
+244
+00:15:06,040 --> 00:15:09,200
+Speaker 7:  mode. She did it. She put it in this stupid. She did it.
+
+245
+00:15:09,300 --> 00:15:12,000
+Speaker 5:  She put, she heard us talking about tent mode on the show. She's like, all
+
+246
+00:15:12,000 --> 00:15:13,560
+Speaker 5:  right. The people demand 10 mode. The
+
+247
+00:15:13,560 --> 00:15:17,290
+Speaker 7:  People, my bosses demand. Then I test it in
+
+248
+00:15:17,530 --> 00:15:19,450
+Speaker 7:  flexible. I don't think that's what happened. That's not what happened. Listens
+
+249
+00:15:19,450 --> 00:15:19,570
+Speaker 7:  the
+
+250
+00:15:19,570 --> 00:15:19,690
+Speaker 5:  Show.
+
+251
+00:15:21,830 --> 00:15:25,490
+Speaker 5:  No she's in it. I mean like the Samsung has done a number of things with
+
+252
+00:15:25,490 --> 00:15:29,090
+Speaker 5:  this phone that are legitimately the future of phones, right? Yeah.
+
+253
+00:15:29,360 --> 00:15:32,970
+Speaker 5:  Folding or not. Right? Yep. The huge pixel bend sensor
+
+254
+00:15:33,670 --> 00:15:37,090
+Speaker 5:  has been the future for a minute, but they've refined it to a place where
+
+255
+00:15:37,190 --> 00:15:41,050
+Speaker 5:  it works really well. The under display camera is still a little weird,
+
+256
+00:15:41,550 --> 00:15:43,770
+Speaker 5:  but it works really well. Like I don't,
+
+257
+00:15:43,770 --> 00:15:47,090
+Speaker 6:  It works pretty well. Allison's description of it was very funny to me. She
+
+258
+00:15:47,090 --> 00:15:50,170
+Speaker 6:  described it as the, the visual aura that you get right before you get a
+
+259
+00:15:50,370 --> 00:15:53,810
+Speaker 6:  migraine headache, which is like not what you wanna hear from your selfie
+
+260
+00:15:53,810 --> 00:15:57,770
+Speaker 6:  camera. But as an under screen camera is like, it, she kinda landed on
+
+261
+00:15:57,770 --> 00:16:01,410
+Speaker 6:  like, it does the job, right? Like it's fine. And there are also 40,000 other
+
+262
+00:16:01,410 --> 00:16:04,970
+Speaker 6:  cameras on this thing that you can turn towards you in various ways. So it'll
+
+263
+00:16:04,970 --> 00:16:07,530
+Speaker 6:  be fine. But yeah, I agree. That's the kind of thing that like give it a
+
+264
+00:16:07,530 --> 00:16:10,010
+Speaker 6:  couple years and that's what all front facing cameras are gonna look like.
+
+265
+00:16:10,520 --> 00:16:13,930
+Speaker 5:  Yeah. And Samsung thing is just historically good at
+
+266
+00:16:14,050 --> 00:16:17,770
+Speaker 5:  throwing things at the wall and then slowly iterating them into
+
+267
+00:16:17,860 --> 00:16:20,970
+Speaker 5:  until apple steals them and pretends they invented them and like,
+
+268
+00:16:22,430 --> 00:16:26,130
+Speaker 5:  you know, it's true. And like, I just think this, this
+
+269
+00:16:26,130 --> 00:16:29,930
+Speaker 5:  phone four versions in is I
+
+270
+00:16:29,930 --> 00:16:32,290
+Speaker 5:  keep saying this, I don't know. I don't even know if it's true anymore because
+
+271
+00:16:32,290 --> 00:16:35,690
+Speaker 5:  the software and ecosystem lock-ins are so hard. But if you just want like
+
+272
+00:16:35,730 --> 00:16:39,530
+Speaker 5:  a new gadget, I can't think of a better gadget at this point in
+
+273
+00:16:39,530 --> 00:16:43,410
+Speaker 5:  time. And I I've been saying things like phones are the worst gadgets
+
+274
+00:16:43,410 --> 00:16:47,290
+Speaker 5:  for like five years, like go buy a new TV or upgrade your
+
+275
+00:16:47,290 --> 00:16:50,370
+Speaker 5:  sound bar. Like that'll make you happy. And then we're looking at all of
+
+276
+00:16:50,370 --> 00:16:53,090
+Speaker 5:  the sales from all those companies. And it's like, oh, everyone did that
+
+277
+00:16:53,090 --> 00:16:56,410
+Speaker 5:  already. All it's time to find a new category gadgets. It's like, it's folding
+
+278
+00:16:56,410 --> 00:16:58,690
+Speaker 5:  phones. Like they're here at the right time. You think
+
+279
+00:16:58,690 --> 00:17:01,370
+Speaker 7:  It's you think it's folding phones and not like the steam deck and those
+
+280
+00:17:01,370 --> 00:17:04,210
+Speaker 7:  kind of like little game consoles.
+
+281
+00:17:04,810 --> 00:17:06,010
+Speaker 5:  I mean, I know how you and Sean feel
+
+282
+00:17:06,370 --> 00:17:08,410
+Speaker 7:  ING. Yeah. We're Sean, get 'em on, get 'em on the line. Liam.
+
+283
+00:17:09,910 --> 00:17:13,850
+Speaker 6:  Can you pair Nintendo's Joycons to the fold four cuz
+
+284
+00:17:13,850 --> 00:17:15,890
+Speaker 6:  there, there it is. There's your magical gadget
+
+285
+00:17:15,950 --> 00:17:19,850
+Speaker 7:  And then like just get a 3d print, a little case for it, slot
+
+286
+00:17:19,850 --> 00:17:21,170
+Speaker 7:  it in, make your own switch.
+
+287
+00:17:21,920 --> 00:17:23,370
+Speaker 5:  Yeah. I think the steam deck is a great
+
+288
+00:17:23,370 --> 00:17:26,050
+Speaker 7:  GA. I actually have something I need to go do. Sorry. Gotta go do this.
+
+289
+00:17:27,890 --> 00:17:28,850
+Speaker 7:  Somebody get me a 3d printer.
+
+290
+00:17:29,880 --> 00:17:33,650
+Speaker 5:  Well, I, I think the steam deck is like a great category of GA. I, I,
+
+291
+00:17:33,790 --> 00:17:36,730
+Speaker 5:  I'm not disagreeing with you. Yeah. I just think it's one of those gadgets
+
+292
+00:17:36,730 --> 00:17:40,570
+Speaker 5:  where you can screw with it. But at some point you, the gadget playing with
+
+293
+00:17:40,570 --> 00:17:43,090
+Speaker 5:  the gadget element of it recedes because you just end up playing a video
+
+294
+00:17:43,090 --> 00:17:43,330
+Speaker 5:  game.
+
+295
+00:17:43,330 --> 00:17:44,090
+Speaker 6:  Right. Yep.
+
+296
+00:17:44,260 --> 00:17:48,170
+Speaker 5:  Which is great and fine and fair. But if you're in gadgets for the
+
+297
+00:17:48,240 --> 00:17:52,000
+Speaker 5:  messing, with the gadget element of it, I think the fold is a superior
+
+298
+00:17:52,060 --> 00:17:53,960
+Speaker 5:  gadget. Does that make any sense? Yes.
+
+299
+00:17:54,150 --> 00:17:55,280
+Speaker 6:  Yeah. I think that's probably right.
+
+300
+00:17:55,400 --> 00:17:56,080
+Speaker 7:  I mean, I disagree.
+
+301
+00:17:56,100 --> 00:17:57,640
+Speaker 6:  It also just gives you more to do like,
+
+302
+00:17:58,900 --> 00:18:02,360
+Speaker 5:  But, but like at the end of the day with any, any game console yeah. The
+
+303
+00:18:02,360 --> 00:18:04,120
+Speaker 5:  point is to play video games. Right.
+
+304
+00:18:04,540 --> 00:18:05,160
+Speaker 7:  That's true,
+
+305
+00:18:06,230 --> 00:18:09,800
+Speaker 5:  Sean. And the point is to like buy steam deck accessories and then augment
+
+306
+00:18:09,800 --> 00:18:12,360
+Speaker 5:  the steam deck into a full laptop and then run the version
+
+307
+00:18:12,490 --> 00:18:16,480
+Speaker 7:  Steam deck. I want my steam deck to like run pie hole, like turn it into
+
+308
+00:18:16,480 --> 00:18:20,280
+Speaker 7:  a little server, just have it, do all the things like
+
+309
+00:18:20,280 --> 00:18:23,800
+Speaker 7:  everything. Like there's just so many weird things I can do with it and just
+
+310
+00:18:23,870 --> 00:18:26,960
+Speaker 7:  mess around with it. And I think it's probably the Linux of it that makes
+
+311
+00:18:26,960 --> 00:18:30,840
+Speaker 7:  it like Supreme gadget for me. Cause I'm like, it's got Linux. I can
+
+312
+00:18:30,840 --> 00:18:34,360
+Speaker 7:  just get into Linux. I can just get into the command line. And I can't do
+
+313
+00:18:34,360 --> 00:18:38,280
+Speaker 7:  that with, with this phone, but also I appreciate that. I can take this
+
+314
+00:18:38,280 --> 00:18:42,160
+Speaker 7:  phone on a plane and like mess with it as a gadget. And I could
+
+315
+00:18:42,160 --> 00:18:45,240
+Speaker 7:  not do that with the steam deck. I would just play video games with the steam
+
+316
+00:18:45,240 --> 00:18:48,320
+Speaker 7:  deck or I would accidentally break it. Those are my, those are my two.
+
+317
+00:18:48,760 --> 00:18:51,640
+Speaker 6:  I would also point out that I think you could buy all three
+
+318
+00:18:52,410 --> 00:18:55,280
+Speaker 6:  skews of the steam deck for less than
+
+319
+00:18:56,110 --> 00:18:57,680
+Speaker 5:  Four costs. Fair enough.
+
+320
+00:18:59,920 --> 00:19:00,600
+Speaker 5:  I mean, what is the,
+
+321
+00:19:01,320 --> 00:19:04,520
+Speaker 6:  I agree like I think, and I wrote about this when they announced the, the
+
+322
+00:19:04,880 --> 00:19:08,480
+Speaker 6:  Z fold for like, I think the thing no one has done is make like
+
+323
+00:19:09,020 --> 00:19:12,760
+Speaker 6:  the case for why this thing needs to exist. And to some extent, this is like
+
+324
+00:19:12,980 --> 00:19:16,840
+Speaker 6:  the, the like ongoing question about the iPad is like, why do you need an
+
+325
+00:19:16,870 --> 00:19:19,480
+Speaker 6:  iPad? And it's like, once you have one, you like kind of get why it's useful,
+
+326
+00:19:19,700 --> 00:19:23,200
+Speaker 6:  but there's no, if you were like, I have a laptop and a phone, why should
+
+327
+00:19:23,200 --> 00:19:25,840
+Speaker 6:  I buy an iPad? Like, it's kind of a hard question to answer. And I think
+
+328
+00:19:25,860 --> 00:19:29,720
+Speaker 6:  the same is true for this. It's like, it's cool to have
+
+329
+00:19:29,720 --> 00:19:33,480
+Speaker 6:  this big screens are good. You can watch videos dancing for
+
+330
+00:19:33,480 --> 00:19:37,240
+Speaker 6:  won't shut up about watching all of the halo TV show in bed, on his fold.
+
+331
+00:19:37,470 --> 00:19:40,960
+Speaker 6:  Like that's all great, but there's no,
+
+332
+00:19:41,110 --> 00:19:44,800
+Speaker 6:  there's no reason I would like tell you to go out of your way
+
+333
+00:19:44,980 --> 00:19:48,840
+Speaker 6:  and spend, you know, seven or 800 extra dollars to buy this phone. But if
+
+334
+00:19:48,840 --> 00:19:52,720
+Speaker 6:  you do, and it's a thing you want, it does feel like infinitely fun
+
+335
+00:19:52,780 --> 00:19:56,680
+Speaker 6:  to play with in a way that most phones are not fun to play with right now.
+
+336
+00:19:56,680 --> 00:19:59,120
+Speaker 6:  And this goes back to the Android thing, right? They're just like they're
+
+337
+00:19:59,120 --> 00:20:01,960
+Speaker 6:  tuning and tweaking and touching. And Samsung is out here just being like,
+
+338
+00:20:02,220 --> 00:20:05,800
+Speaker 6:  we have some new ideas. We don't really know what they are, but let's see
+
+339
+00:20:05,800 --> 00:20:06,760
+Speaker 6:  what happens. I'm
+
+340
+00:20:06,760 --> 00:20:10,280
+Speaker 5:  Like kudos. I will say that after we talked to the Z flip last week,
+
+341
+00:20:10,740 --> 00:20:13,720
+Speaker 5:  the number of people who hit us up to say that they see flips in the wild,
+
+342
+00:20:13,900 --> 00:20:16,160
+Speaker 5:  oh, my is very high. Our thesis is correct.
+
+343
+00:20:16,560 --> 00:20:20,400
+Speaker 6:  I got on a train like three hours after we recorded. And the two
+
+344
+00:20:20,400 --> 00:20:24,120
+Speaker 6:  people sitting closest to me, both had Z
+
+345
+00:20:24,130 --> 00:20:27,760
+Speaker 6:  flips. It blew my, it was like a sign from the universe that was like, David
+
+346
+00:20:27,980 --> 00:20:29,160
+Speaker 6:  people use these phones.
+
+347
+00:20:30,160 --> 00:20:30,280
+Speaker 5:  I
+
+348
+00:20:30,280 --> 00:20:30,560
+Speaker 6:  Hear you
+
+349
+00:20:30,560 --> 00:20:33,360
+Speaker 5:  Understand were like, I've heard about this move called the scroll and flip.
+
+350
+00:20:33,660 --> 00:20:36,440
+Speaker 5:  And I want you to take it very seriously. I thought everyone, can I see your
+
+351
+00:20:36,440 --> 00:20:40,240
+Speaker 5:  phone? Yeah, we got a Z flip review yet to come. I think
+
+352
+00:20:40,240 --> 00:20:44,000
+Speaker 5:  that is an important one, but it's start the watch for a quick second.
+
+353
+00:20:44,020 --> 00:20:47,560
+Speaker 5:  So watch five is out. Like I said, you gotta just watch the video cuz it's
+
+354
+00:20:47,560 --> 00:20:51,320
+Speaker 5:  an incredible fake out from V but it seems like the
+
+355
+00:20:51,410 --> 00:20:54,600
+Speaker 5:  grand Samsung, Google wears
+
+356
+00:20:54,970 --> 00:20:58,960
+Speaker 5:  experiment is off to an extremely medium start.
+
+357
+00:20:59,700 --> 00:21:03,240
+Speaker 7:  Yes. That seems accurate. Yeah. Like medium. Yeah.
+
+358
+00:21:03,940 --> 00:21:07,520
+Speaker 7:  She, she didn't hate this watch. Like she didn't outright hate it,
+
+359
+00:21:07,740 --> 00:21:11,320
+Speaker 7:  but it's still all the promise is not there. They have not delivered
+
+360
+00:21:11,780 --> 00:21:15,560
+Speaker 7:  on the big whizbang promises of this collaboration instead.
+
+361
+00:21:15,560 --> 00:21:18,160
+Speaker 7:  They've done like, well and there's nice things. There's
+
+362
+00:21:18,160 --> 00:21:21,920
+Speaker 6:  Just a bunch of like really basic stuff that it's like, like I, I, I have
+
+363
+00:21:21,920 --> 00:21:25,640
+Speaker 6:  made the case for years and continue to believe strongly that truly the
+
+364
+00:21:25,750 --> 00:21:29,640
+Speaker 6:  only thing that matters is battery life. Yes. Like you, you can, you can
+
+365
+00:21:29,640 --> 00:21:33,520
+Speaker 6:  add all the stuff you want after you give me a battery that is going to last
+
+366
+00:21:33,670 --> 00:21:37,560
+Speaker 6:  ideally days, but at least the whole day without ever
+
+367
+00:21:37,560 --> 00:21:41,400
+Speaker 6:  having to worry about it. And like the fact that Samsung is still
+
+368
+00:21:41,420 --> 00:21:44,800
+Speaker 6:  not, there is a, is a real bummer and a big problem, I think.
+
+369
+00:21:45,190 --> 00:21:48,320
+Speaker 5:  Yeah. And also, I mean, the fact that they haven't really changed the design
+
+370
+00:21:49,100 --> 00:21:52,920
+Speaker 5:  at all, like I think she said the only, only way you can tell the difference
+
+371
+00:21:52,920 --> 00:21:54,680
+Speaker 5:  between these two is the strap colors.
+
+372
+00:21:54,940 --> 00:21:56,160
+Speaker 7:  That's not great. Sure.
+
+373
+00:21:57,340 --> 00:21:57,960
+Speaker 5:  The purple's
+
+374
+00:21:57,960 --> 00:21:58,520
+Speaker 6:  Nice. I like
+
+375
+00:21:58,520 --> 00:22:00,840
+Speaker 5:  The purple. The purple's nice. It looks pretty. I saw it in the office the
+
+376
+00:22:00,840 --> 00:22:04,520
+Speaker 5:  other day when we were there, it looks very pretty. I miss the physical
+
+377
+00:22:04,700 --> 00:22:08,120
+Speaker 5:  bezzle. What are you gonna do? But I there's just this
+
+378
+00:22:08,300 --> 00:22:12,280
+Speaker 5:  moment for the Android ecosystem where like everything is
+
+379
+00:22:12,360 --> 00:22:16,120
+Speaker 5:  a two-thirds approach to where apple is and is going, like
+
+380
+00:22:16,340 --> 00:22:20,200
+Speaker 5:  we are expecting in September or October or whenever these apple events
+
+381
+00:22:20,200 --> 00:22:24,120
+Speaker 5:  are like a huge next generation of, of smart watches from apple. Right? The
+
+382
+00:22:24,120 --> 00:22:27,440
+Speaker 5:  big outdoor watch the competitor to garment. Yeah. The big update
+
+383
+00:22:27,790 --> 00:22:31,600
+Speaker 5:  Apple's chip lead is enabling better battery life. Now this
+
+384
+00:22:31,600 --> 00:22:34,640
+Speaker 5:  size, if they put out a bigger watch, they can shove a bigger battery in
+
+385
+00:22:34,640 --> 00:22:38,440
+Speaker 5:  there that lead just seems like it's getting bigger, not smaller.
+
+386
+00:22:38,840 --> 00:22:41,360
+Speaker 7:  I think you're a hundred percent. Right. I think that's right. And but I
+
+387
+00:22:41,360 --> 00:22:44,400
+Speaker 7:  do wonder like how much Google actually cares
+
+388
+00:22:45,310 --> 00:22:46,160
+Speaker 7:  because they, they,
+
+389
+00:22:46,480 --> 00:22:47,480
+Speaker 5:  I mean, I think they care a lot
+
+390
+00:22:48,110 --> 00:22:49,440
+Speaker 7:  Then why do they suck so much?
+
+391
+00:22:51,150 --> 00:22:55,000
+Speaker 7:  Like, yeah. I struggle to think if they really care,
+
+392
+00:22:55,030 --> 00:22:55,880
+Speaker 7:  they put, put a
+
+393
+00:22:55,960 --> 00:22:57,480
+Speaker 6:  Resource. That's such a good question to ask Google
+
+394
+00:22:57,480 --> 00:22:58,560
+Speaker 5:  About, about so many things.
+
+395
+00:22:59,740 --> 00:23:01,080
+Speaker 7:  Oh, you care. Why do you suck?
+
+396
+00:23:03,190 --> 00:23:07,160
+Speaker 5:  This is seriously when max like throws a tantrum or like max and you
+
+397
+00:23:07,160 --> 00:23:11,040
+Speaker 5:  come down and she's like, I'm trying. And it's very adorable. And I
+
+398
+00:23:11,040 --> 00:23:13,560
+Speaker 5:  appreciate it, but it's like, but you actually have to do.
+
+399
+00:23:13,630 --> 00:23:15,520
+Speaker 7:  Yeah, you gotta do it. That's a point.
+
+400
+00:23:17,290 --> 00:23:20,160
+Speaker 7:  Feels like a child, but you
+
+401
+00:23:20,160 --> 00:23:23,120
+Speaker 5:  Know, no, that's the big Google wait. No, that's the big Google trick. Yeah.
+
+402
+00:23:23,120 --> 00:23:26,760
+Speaker 5:  Google named itself Google. And it put a bunch of colors in its logo. And
+
+403
+00:23:26,760 --> 00:23:29,840
+Speaker 5:  we think that it's a kindergarten and it's actually like the most ruthless
+
+404
+00:23:29,840 --> 00:23:33,440
+Speaker 5:  company that you can think of. But because it's called Google, everyone's
+
+405
+00:23:33,440 --> 00:23:36,880
+Speaker 5:  like, ah, Google. And it's like in the background, like, and we're knifing
+
+406
+00:23:36,880 --> 00:23:40,520
+Speaker 5:  you like, yeah. But like, like I, they know what they're doing. They know
+
+407
+00:23:40,520 --> 00:23:44,360
+Speaker 5:  how they make their money. They write like searches a huge business for them.
+
+408
+00:23:44,360 --> 00:23:48,040
+Speaker 5:  YouTube is a huge business for them. They are very good at running those
+
+409
+00:23:48,240 --> 00:23:51,760
+Speaker 5:  businesses. It's here where they're not in control of their
+
+410
+00:23:51,950 --> 00:23:55,520
+Speaker 5:  ecosystem, that they struggle to find a compelling narrative
+
+411
+00:23:56,060 --> 00:23:59,880
+Speaker 5:  or they struggle to do things like buy HTC and turn the
+
+412
+00:23:59,880 --> 00:24:03,840
+Speaker 5:  pixel into a competitor's Samsung. And I think, I know, I know they care.
+
+413
+00:24:03,840 --> 00:24:06,800
+Speaker 5:  We know lots and lots of Google people. Right. We know one very well in particular.
+
+414
+00:24:07,480 --> 00:24:11,360
+Speaker 5:  I know they care a lot, but it's, I don't think they have the
+
+415
+00:24:11,410 --> 00:24:15,240
+Speaker 5:  moves. Like I don't think they can directly produce the
+
+416
+00:24:15,240 --> 00:24:18,960
+Speaker 5:  products like we, maybe they, you know, they've got the pixel, they've announced
+
+417
+00:24:18,960 --> 00:24:22,520
+Speaker 5:  that there's a pixel watch coming. Maybe those things when they actually
+
+418
+00:24:22,670 --> 00:24:26,440
+Speaker 5:  take control of their ecosystem will become these competitors. But
+
+419
+00:24:26,440 --> 00:24:30,360
+Speaker 5:  here where they sign this big deal with Samsung to do wear OS on this watch,
+
+420
+00:24:30,910 --> 00:24:34,640
+Speaker 5:  like their, their ability to execute like ends. And then Samsung has to take
+
+421
+00:24:34,640 --> 00:24:37,520
+Speaker 5:  the ball and keep running. And Samsung is not a bad hardware company. We
+
+422
+00:24:37,520 --> 00:24:40,360
+Speaker 5:  just talked about this phone, like the Z the fold is don't
+
+423
+00:24:40,460 --> 00:24:43,040
+Speaker 7:  Do this stuff. I mean, I think Samsung is part of the problem.
+
+424
+00:24:43,150 --> 00:24:45,640
+Speaker 5:  It's like, for some reason in this category, no one
+
+425
+00:24:45,640 --> 00:24:48,920
+Speaker 7:  Can go. Yeah. I think, I think Samsung is part of the problem because they
+
+426
+00:24:49,000 --> 00:24:52,440
+Speaker 7:  historically spent years thinking like very much
+
+427
+00:24:52,440 --> 00:24:55,960
+Speaker 7:  gendering their wearables and being like fitness bands are for ladies
+
+428
+00:24:56,700 --> 00:25:00,120
+Speaker 7:  and smartwatches are for boys and isn't it qua and cute.
+
+429
+00:25:00,540 --> 00:25:03,520
+Speaker 7:  And so there's a lot of catch up there that they have to figure out. And
+
+430
+00:25:03,520 --> 00:25:07,480
+Speaker 7:  there's a lot of like just their design philosophy has to catch
+
+431
+00:25:07,500 --> 00:25:11,280
+Speaker 7:  up and actually consider apple and not just chase
+
+432
+00:25:11,510 --> 00:25:14,160
+Speaker 7:  like the ghost Fitbit from six years ago.
+
+433
+00:25:14,820 --> 00:25:18,800
+Speaker 6:  But it's also the thing I would add to that is Google keeps making the mistake
+
+434
+00:25:18,800 --> 00:25:22,160
+Speaker 6:  of having an unbelievably short attention span on all of this stuff.
+
+435
+00:25:23,340 --> 00:25:26,800
+Speaker 6:  And like the thing, like to your point about apple, Silicon ne like that
+
+436
+00:25:26,800 --> 00:25:30,760
+Speaker 6:  is a long term project that is like really only coming
+
+437
+00:25:30,760 --> 00:25:33,520
+Speaker 6:  to fruition for apple now. And they've been investing in that forever.
+
+438
+00:25:35,220 --> 00:25:38,960
+Speaker 6:  And the idea that Google is just gonna decide
+
+439
+00:25:39,090 --> 00:25:43,000
+Speaker 6:  every six months, whether or not to care about making its own chips
+
+440
+00:25:43,060 --> 00:25:46,920
+Speaker 6:  or smartwatches or to CA like, it just can't make up its mind
+
+441
+00:25:46,990 --> 00:25:50,920
+Speaker 6:  long enough to get good at this stuff. And so we're basically back at
+
+442
+00:25:50,920 --> 00:25:53,880
+Speaker 6:  like the first and second versions of these things, even though it feels
+
+443
+00:25:53,880 --> 00:25:57,160
+Speaker 6:  like they've tried them a million times before. So like my expectations for
+
+444
+00:25:57,160 --> 00:26:00,320
+Speaker 6:  the pixel watch are super low because this is functionally like the first
+
+445
+00:26:00,390 --> 00:26:04,320
+Speaker 6:  ever Google smart watch, even though it isn't, but it's like, you, you
+
+446
+00:26:04,320 --> 00:26:07,320
+Speaker 6:  don't, at least from what I've seen in a lot of this product development,
+
+447
+00:26:07,320 --> 00:26:10,920
+Speaker 6:  like you, you can't start stop and then pick up where you left off. Like
+
+448
+00:26:10,920 --> 00:26:13,520
+Speaker 6:  it actually doesn't work like that. You end up effectively starting over
+
+449
+00:26:13,520 --> 00:26:16,240
+Speaker 6:  every time. And so Google just keeps shooting itself in the foot here.
+
+450
+00:26:16,240 --> 00:26:20,120
+Speaker 5:  Yeah. I mean, that's true. I think most, most clearly in
+
+451
+00:26:20,150 --> 00:26:23,840
+Speaker 5:  tablets, right? Where yes, apple spent however
+
+452
+00:26:24,110 --> 00:26:27,720
+Speaker 5:  long just insisting that the iPad was the future of all
+
+453
+00:26:27,720 --> 00:26:31,560
+Speaker 5:  computing. And then to slowly realize that
+
+454
+00:26:31,560 --> 00:26:35,280
+Speaker 5:  people like their laptops and turn the iPad into an
+
+455
+00:26:35,280 --> 00:26:39,200
+Speaker 5:  expensive laptop. Sure. But they kept at it. Right. They were like, this
+
+456
+00:26:39,200 --> 00:26:42,160
+Speaker 5:  is what we're doing. We've made this bet. We're gonna keep going with it.
+
+457
+00:26:42,160 --> 00:26:45,840
+Speaker 5:  It helps some people bought a lot of iPads along the way, but Google made
+
+458
+00:26:45,840 --> 00:26:49,480
+Speaker 5:  the same bet made the same noise. I was there at CES when they announced
+
+459
+00:26:49,480 --> 00:26:53,120
+Speaker 5:  Android honeycomb on the Motorola ZY board or whatever
+
+460
+00:26:53,260 --> 00:26:57,040
+Speaker 5:  it was called. Like I've, we lived through it all together
+
+461
+00:26:57,060 --> 00:27:00,800
+Speaker 5:  as a family. And then they dropped it. They're like, no one's buying these.
+
+462
+00:27:00,800 --> 00:27:04,640
+Speaker 5:  No one cares like goodbye. And they let Motorola and Lenovo and Samsung keep
+
+463
+00:27:04,670 --> 00:27:08,600
+Speaker 5:  putting out $200 Android tablets, mostly for people
+
+464
+00:27:08,600 --> 00:27:11,720
+Speaker 5:  to use as other content consumption devices or for people to give to their
+
+465
+00:27:11,720 --> 00:27:15,280
+Speaker 5:  kids. Right. Like that became that market. Like here's a thing you can break.
+
+466
+00:27:15,460 --> 00:27:18,760
+Speaker 5:  And then they realized that foldables were gonna be big literally.
+
+467
+00:27:19,260 --> 00:27:21,280
+Speaker 5:  And they're like, we gotta be good at tablets together. They've announced
+
+468
+00:27:21,280 --> 00:27:24,480
+Speaker 5:  a new tablet project. And it said, well, if you just kept your eye on the
+
+469
+00:27:24,480 --> 00:27:28,200
+Speaker 5:  ball and made some incremental improvements, you'd be way farther ahead
+
+470
+00:27:28,670 --> 00:27:32,520
+Speaker 5:  than where you are right now. And like, I don't know if that's quite as true
+
+471
+00:27:32,590 --> 00:27:36,080
+Speaker 5:  with watches, but I do know that they keep they've now bought
+
+472
+00:27:36,500 --> 00:27:39,400
+Speaker 5:  big companies that are theoretically good at these products. They bought
+
+473
+00:27:39,780 --> 00:27:43,440
+Speaker 5:  HTC to make pixel phones. They bought Fitbit to make wearables. And we just
+
+474
+00:27:43,440 --> 00:27:46,920
+Speaker 5:  haven't seen the results. And maybe that's because HTC was not
+
+475
+00:27:46,920 --> 00:27:49,080
+Speaker 5:  competitive. That that was not competitive. And
+
+476
+00:27:49,200 --> 00:27:53,000
+Speaker 7:  I mean, because they don't care, like it's a huge company, this
+
+477
+00:27:53,010 --> 00:27:57,000
+Speaker 7:  isn't their primary space. Like, as we said, it's YouTube, it's
+
+478
+00:27:57,150 --> 00:27:59,320
+Speaker 7:  it's ads. This is a
+
+479
+00:27:59,470 --> 00:28:00,320
+Speaker 5:  It's YouTube and search.
+
+480
+00:28:00,430 --> 00:28:04,200
+Speaker 7:  Yeah. This is like, this is very much like a side project for them. And
+
+481
+00:28:04,200 --> 00:28:07,640
+Speaker 7:  until it really shows, returns and shows a reason for investment, it's never
+
+482
+00:28:07,640 --> 00:28:10,360
+Speaker 7:  gonna be an investment, but it ends up being that chicken and egg scenario,
+
+483
+00:28:10,460 --> 00:28:14,080
+Speaker 7:  cuz it's like, well, you never invested it. So it can never be really successful.
+
+484
+00:28:14,310 --> 00:28:16,960
+Speaker 7:  Well, yeah. But if it was successful, we'd invested it and it's like, oh,
+
+485
+00:28:17,300 --> 00:28:20,560
+Speaker 7:  all right. So we're just gonna argue with each other and, and fart out another,
+
+486
+00:28:20,560 --> 00:28:20,840
+Speaker 7:  like
+
+487
+00:28:21,030 --> 00:28:24,840
+Speaker 5:  Sometimes they get a real window into your previous career
+
+488
+00:28:25,020 --> 00:28:28,280
+Speaker 5:  at a different media company. I'm not gonna say which one
+
+489
+00:28:29,850 --> 00:28:32,000
+Speaker 6:  Who's to say who's to say, but no, I think that's right. And I think the
+
+490
+00:28:32,000 --> 00:28:34,680
+Speaker 6:  other thing is, and we should stop talking about this here in a minute, but
+
+491
+00:28:34,680 --> 00:28:38,280
+Speaker 6:  I think Google has also been a terrible steward
+
+492
+00:28:38,540 --> 00:28:42,480
+Speaker 6:  of its ecosystem in this sense, right? Like Google has never, for one
+
+493
+00:28:42,480 --> 00:28:46,360
+Speaker 6:  minute, given any Android developer a reason to think, oh, I
+
+494
+00:28:46,360 --> 00:28:49,960
+Speaker 6:  should really invest in my where OS app, because where OS
+
+495
+00:28:49,990 --> 00:28:53,440
+Speaker 6:  basically like ceases to exist once every two years and then
+
+496
+00:28:53,650 --> 00:28:57,520
+Speaker 6:  comes back as if by magic three years later. And it's the same with large
+
+497
+00:28:57,520 --> 00:29:01,440
+Speaker 6:  screens. And like apple just relentlessly told developers for like a
+
+498
+00:29:01,440 --> 00:29:05,200
+Speaker 6:  decade tablet, apps, matter, tablet, apps matter, tablet, apps matter. And
+
+499
+00:29:05,200 --> 00:29:08,080
+Speaker 6:  then they eventually got all got on board and now apple has this amazing
+
+500
+00:29:08,190 --> 00:29:12,120
+Speaker 6:  ecosystem of tablet apps that Google has just never given people
+
+501
+00:29:12,320 --> 00:29:15,880
+Speaker 6:  a reason to care about. And so when it decides to care, it has to like scramble
+
+502
+00:29:15,900 --> 00:29:19,120
+Speaker 6:  for six months to try and get everybody on board. And then a year later decides
+
+503
+00:29:19,120 --> 00:29:21,600
+Speaker 6:  it doesn't care again. I don't know.
+
+504
+00:29:22,030 --> 00:29:25,840
+Speaker 5:  Yeah. I, I mean, I would say that I'm not sure that apple made the,
+
+505
+00:29:26,020 --> 00:29:30,000
+Speaker 5:  I'm not sure that apple finished the turn with the watch and apps,
+
+506
+00:29:30,610 --> 00:29:30,960
+Speaker 5:  right?
+
+507
+00:29:30,960 --> 00:29:31,720
+Speaker 6:  Like that's fair.
+
+508
+00:29:31,790 --> 00:29:34,440
+Speaker 5:  Yeah. In many ways, apps on the watch are still,
+
+509
+00:29:35,500 --> 00:29:39,190
+Speaker 5:  it's better. Now this is too reductive. I understand that I'm making an
+
+510
+00:29:39,290 --> 00:29:43,120
+Speaker 5:  UN sort of unfair reductive comment here, but
+
+511
+00:29:43,380 --> 00:29:47,360
+Speaker 5:  in many ways, apps on the watch are still just remote controls of your
+
+512
+00:29:47,360 --> 00:29:50,720
+Speaker 5:  phone. Yes, yes. Or extensions of your phone in some other important way.
+
+513
+00:29:50,720 --> 00:29:54,400
+Speaker 5:  There's, there's, there's a few that are great standalone watch experiences,
+
+514
+00:29:54,580 --> 00:29:58,320
+Speaker 5:  but like very few and they're very targeted and on the iPad, it's,
+
+515
+00:29:58,460 --> 00:30:01,920
+Speaker 5:  you know, some of them are great. Some of the really, really great iPad apps,
+
+516
+00:30:02,220 --> 00:30:05,040
+Speaker 5:  but then you look at the disparity in the iPad line
+
+517
+00:30:05,830 --> 00:30:09,760
+Speaker 5:  between the, you know, $329 iPad and the pro. And it's
+
+518
+00:30:09,760 --> 00:30:12,920
+Speaker 5:  like, yep. Some of those apps are designed for this market and a lot. And
+
+519
+00:30:12,920 --> 00:30:16,120
+Speaker 5:  the iPad is a lot of content in some bottom. And it just, the fact that I
+
+520
+00:30:16,120 --> 00:30:19,360
+Speaker 5:  can describe that. And a lot of people listen to this, understand what I'm
+
+521
+00:30:19,360 --> 00:30:22,840
+Speaker 5:  talking about is a victory for apple, right? Even if what I'm describing
+
+522
+00:30:22,860 --> 00:30:26,840
+Speaker 5:  is not a victory in the context of its own application ecosystem or
+
+523
+00:30:26,840 --> 00:30:29,880
+Speaker 5:  where it got to with developers or replacing the Mac or all this other stuff,
+
+524
+00:30:30,150 --> 00:30:34,040
+Speaker 5:  it's a victory that there's enough stuff that I can describe how that breaks
+
+525
+00:30:34,040 --> 00:30:37,480
+Speaker 5:  down. Whereas I don't know that I can describe to you a single wear a Wes
+
+526
+00:30:37,500 --> 00:30:41,120
+Speaker 5:  app. That is anything but I remote control of the phone, or even describe
+
+527
+00:30:41,160 --> 00:30:44,840
+Speaker 5:  a single where app. And I think that's like the problem with
+
+528
+00:30:44,840 --> 00:30:48,000
+Speaker 5:  Google's like ecosystem. It's a problem, honestly, with the watch five beyond
+
+529
+00:30:48,110 --> 00:30:51,760
+Speaker 5:  it's like battery life. It's that it's more of an,
+
+530
+00:30:52,030 --> 00:30:56,000
+Speaker 5:  it's like a feature phone, a feature watch more than it is like
+
+531
+00:30:56,000 --> 00:30:59,400
+Speaker 5:  a smart watch. That's an old debate, right? Like, is this a true
+
+532
+00:30:59,400 --> 00:31:03,360
+Speaker 5:  computing? What is a computer? Is this watch a computer? Or is it just a
+
+533
+00:31:03,360 --> 00:31:07,280
+Speaker 5:  really, really fancy calculator? Watch, it's a feature phone on
+
+534
+00:31:07,280 --> 00:31:09,640
+Speaker 5:  your wrist. There's someone out there right now, freaking out me that the
+
+535
+00:31:09,640 --> 00:31:11,920
+Speaker 5:  first generation iPhone was just the feature phone. Cuz it couldn't run an
+
+536
+00:31:11,920 --> 00:31:14,600
+Speaker 5:  open application, the ecosystem. And I want you to know that I love you.
+
+537
+00:31:14,780 --> 00:31:16,000
+Speaker 5:  Aw. You're my people.
+
+538
+00:31:17,670 --> 00:31:18,920
+Speaker 6:  Yeah. We, we all agree with that.
+
+539
+00:31:19,810 --> 00:31:23,800
+Speaker 5:  Sweet. Alright. We should take a break. We gotta come back. We gotta
+
+540
+00:31:23,800 --> 00:31:27,560
+Speaker 5:  talk about the war brewing between vertical video editors. It's a real one
+
+541
+00:31:27,980 --> 00:31:29,000
+Speaker 5:  top. We'll be right back.
+
+542
+00:32:57,680 --> 00:33:01,620
+Speaker 5:  All right, we're back. We've labeled this segment. Toto
+
+543
+00:33:01,620 --> 00:33:02,380
+Speaker 5:  Graham. It's
+
+544
+00:33:02,380 --> 00:33:02,740
+Speaker 7:  Beautiful.
+
+545
+00:33:03,390 --> 00:33:05,260
+Speaker 5:  David, what does that mean in your mind?
+
+546
+00:33:05,840 --> 00:33:09,700
+Speaker 6:  So we've come to this beautiful place where all the apps are the
+
+547
+00:33:09,700 --> 00:33:13,540
+Speaker 6:  same. There is just only, there is one app and it is, it is a,
+
+548
+00:33:13,540 --> 00:33:16,900
+Speaker 6:  it is a full screen, vertical video on your phone and where it comes from
+
+549
+00:33:17,280 --> 00:33:21,140
+Speaker 6:  and what you do there. And what it is, is not important. It
+
+550
+00:33:21,140 --> 00:33:24,900
+Speaker 6:  is it's your phone is just called app now and you open it and it plays video
+
+551
+00:33:25,000 --> 00:33:27,540
+Speaker 6:  for you and you swipe vertically and that's all that happens. This is the
+
+552
+00:33:27,540 --> 00:33:28,820
+Speaker 6:  world that we have somehow come to
+
+553
+00:33:30,720 --> 00:33:32,140
+Speaker 5:  App. I love app. It's
+
+554
+00:33:32,140 --> 00:33:32,620
+Speaker 6:  Just called app
+
+555
+00:33:32,640 --> 00:33:33,740
+Speaker 7:  App apps. Hugely.
+
+556
+00:33:33,760 --> 00:33:36,380
+Speaker 6:  You like to look at app for five hours and I'm like, yes, I would. Thank
+
+557
+00:33:36,380 --> 00:33:36,540
+Speaker 6:  you.
+
+558
+00:33:36,930 --> 00:33:40,820
+Speaker 5:  Yeah. And the, and the app is like, where, where does, where do the videos
+
+559
+00:33:40,820 --> 00:33:42,340
+Speaker 5:  come from? I don't know. It's just anywhere.
+
+560
+00:33:42,660 --> 00:33:44,500
+Speaker 6:  Anything, what do you like dances? And I'm like, yeah, sure.
+
+561
+00:33:44,700 --> 00:33:48,220
+Speaker 7:  I likes app is I feel like all the subapp really want you to know where the
+
+562
+00:33:48,220 --> 00:33:49,620
+Speaker 7:  apps videos come from.
+
+563
+00:33:49,760 --> 00:33:51,140
+Speaker 6:  Oh, it's so important to them. It's
+
+564
+00:33:51,140 --> 00:33:54,740
+Speaker 5:  Very important. So we should point out just a plug land of the
+
+565
+00:33:54,800 --> 00:33:58,780
+Speaker 5:  giants this week is Alex talking about the future of Facebook
+
+566
+00:33:58,780 --> 00:34:02,740
+Speaker 5:  and the discovery engine and the future of the news feed, which is basically
+
+567
+00:34:03,060 --> 00:34:04,500
+Speaker 5:  Facebook turning Facebook into app,
+
+568
+00:34:06,320 --> 00:34:07,900
+Speaker 5:  but they're calling the discovery engine.
+
+569
+00:34:09,770 --> 00:34:13,340
+Speaker 5:  It's a good plug. It's a good episode. You should listen to it. So here's
+
+570
+00:34:13,340 --> 00:34:14,860
+Speaker 5:  the thing about app
+
+571
+00:34:17,180 --> 00:34:20,840
+Speaker 5:  TikTok specifically, TikTok, if you just zoom back what
+
+572
+00:34:20,880 --> 00:34:23,480
+Speaker 5:  TikTok is, is not so much the experience of viewing TikTok. So that's great.
+
+573
+00:34:23,480 --> 00:34:26,800
+Speaker 5:  That's very important. It obviously is winning and everyone's scared of it
+
+574
+00:34:26,820 --> 00:34:30,600
+Speaker 5:  and throwing their hands up and rebooting their apps as TikTok. Sure.
+
+575
+00:34:31,020 --> 00:34:35,000
+Speaker 5:  That's the consumer side, right? That's the watching TikTok side. The part
+
+576
+00:34:35,000 --> 00:34:38,600
+Speaker 5:  of TikTok that I think is undercover, under discussed under
+
+577
+00:34:38,600 --> 00:34:42,400
+Speaker 5:  reported on is that it is a video editor that
+
+578
+00:34:42,400 --> 00:34:46,040
+Speaker 5:  like large groups of college students have all learned to use
+
+579
+00:34:46,110 --> 00:34:50,000
+Speaker 5:  like expert, video editors. It like guides you into making
+
+580
+00:34:50,290 --> 00:34:54,240
+Speaker 5:  kinds of content that very few video editors have ever
+
+581
+00:34:54,240 --> 00:34:57,680
+Speaker 5:  guided anyone into making. Yeah. And like that piece of
+
+582
+00:34:57,900 --> 00:35:01,200
+Speaker 5:  TikTok success is fascinating to me
+
+583
+00:35:02,630 --> 00:35:06,520
+Speaker 5:  like the duets and responses. What
+
+584
+00:35:06,520 --> 00:35:10,240
+Speaker 5:  are they called? The stitch screen one, the stitches. So duets and
+
+585
+00:35:10,240 --> 00:35:14,080
+Speaker 5:  stitches, like they have developed a language of video communication on
+
+586
+00:35:14,080 --> 00:35:17,920
+Speaker 5:  TikTok. And then there are TikTok editing challenges. Like you see
+
+587
+00:35:17,920 --> 00:35:21,440
+Speaker 5:  that TikTok is expressed to its users is as much about
+
+588
+00:35:21,960 --> 00:35:25,200
+Speaker 5:  creation as it is about consumption. Right. I think that is super cool.
+
+589
+00:35:25,720 --> 00:35:29,600
+Speaker 6:  I totally agree. I just don't think TikTok invented that. Like I think I
+
+590
+00:35:29,600 --> 00:35:32,720
+Speaker 6:  would say if you wanna go back and find like a, a house style of vertical
+
+591
+00:35:32,720 --> 00:35:35,760
+Speaker 6:  video, like Snapchat is the answer. Ooh, not that it was like
+
+592
+00:35:36,640 --> 00:35:37,680
+Speaker 7:  I had to, I had to bring
+
+593
+00:35:37,680 --> 00:35:41,520
+Speaker 6:  It up. Don't talk to me about fine. All my favorite TikTok accounts are
+
+594
+00:35:41,550 --> 00:35:45,440
+Speaker 6:  just old vines and I love it very, but that's a whole separate story, but
+
+595
+00:35:45,440 --> 00:35:48,120
+Speaker 6:  I think like, and this is part of what, and we should get into some of the
+
+596
+00:35:48,120 --> 00:35:51,200
+Speaker 6:  news from this week, but I think the, the thing that you're getting at that's
+
+597
+00:35:51,200 --> 00:35:54,200
+Speaker 6:  super interesting to me is that like we are now in this place where it is
+
+598
+00:35:54,200 --> 00:35:57,080
+Speaker 6:  just vertical video and everybody's fighting about where it comes from and
+
+599
+00:35:57,080 --> 00:36:00,720
+Speaker 6:  who sees it and all that stuff. But like the thing they're I think starting
+
+600
+00:36:00,720 --> 00:36:04,320
+Speaker 6:  to realize is that like, if we can build the best creation tools,
+
+601
+00:36:05,100 --> 00:36:09,000
+Speaker 6:  that's actually one big, huge way to win. And like Snapchat had the
+
+602
+00:36:09,000 --> 00:36:12,240
+Speaker 6:  filters and Instagram is starting to build really advanced stuff and TikTok,
+
+603
+00:36:12,240 --> 00:36:14,640
+Speaker 6:  like I think you're right. That TikTok has like developed this
+
+604
+00:36:15,020 --> 00:36:15,800
+Speaker 5:  TikTok did its
+
+605
+00:36:16,520 --> 00:36:17,960
+Speaker 6:  Language of cinema in a really cool
+
+606
+00:36:17,980 --> 00:36:18,520
+Speaker 5:  Way. Yeah.
+
+607
+00:36:18,660 --> 00:36:21,080
+Speaker 6:  I'm not. And yeah. And did it in a huge way for sure.
+
+608
+00:36:21,580 --> 00:36:25,480
+Speaker 5:  But like if you just step back, like apple had iMovie,
+
+609
+00:36:25,550 --> 00:36:29,360
+Speaker 5:  they had clips, dear sweet clips, which only Deone ever loved.
+
+610
+00:36:29,920 --> 00:36:30,040
+Speaker 5:  I
+
+611
+00:36:30,040 --> 00:36:30,640
+Speaker 6:  Forgot about that.
+
+612
+00:36:31,010 --> 00:36:34,880
+Speaker 5:  Right. They, what apple had was a creation tool that a lot of people liked.
+
+613
+00:36:35,040 --> 00:36:38,320
+Speaker 5:  I mean, I was an kid again, steam engine uphill, both ways.
+
+614
+00:36:40,510 --> 00:36:44,200
+Speaker 5:  That was me just like adjusting millimeter footage off of Sony camera
+
+615
+00:36:44,540 --> 00:36:47,880
+Speaker 5:  on iLink. Remember when sunny tried to rebrand fire wires, iLink, let's do
+
+616
+00:36:47,880 --> 00:36:48,440
+Speaker 5:  an hour on that.
+
+617
+00:36:48,720 --> 00:36:52,600
+Speaker 7:  I will do a whole hour with you ne on that it very up upsetting
+
+618
+00:36:52,920 --> 00:36:56,160
+Speaker 5:  FireWire 800. What happened one hour of the verge cast?
+
+619
+00:36:57,940 --> 00:37:01,520
+Speaker 5:  Can I just tell you my it and gadget years ago when apple finally
+
+620
+00:37:01,660 --> 00:37:05,320
+Speaker 5:  killed FireWire I made an entire video montage of fire wire
+
+621
+00:37:05,410 --> 00:37:09,160
+Speaker 5:  ports set to boys to men. And then this was
+
+622
+00:37:09,160 --> 00:37:12,760
+Speaker 5:  before TikTok existed, cuz this would've been like a perfect TikTok. So I
+
+623
+00:37:12,760 --> 00:37:16,680
+Speaker 5:  had to go get AOL's custom video player and be like, I need to
+
+624
+00:37:16,680 --> 00:37:19,160
+Speaker 5:  upload a video. And they're like, what's the content I was like, I don't
+
+625
+00:37:19,160 --> 00:37:19,640
+Speaker 5:  want to tell you,
+
+626
+00:37:21,860 --> 00:37:22,800
+Speaker 7:  Did you edit it in
+
+627
+00:37:22,800 --> 00:37:26,280
+Speaker 5:  IMovie? I don't want you to watch this. I did. It was great on your anyway.
+
+628
+00:37:26,670 --> 00:37:28,440
+Speaker 6:  That was the day AOL went out of business.
+
+629
+00:37:29,110 --> 00:37:32,520
+Speaker 5:  They were like, you should leave and start your own website neon
+
+630
+00:37:33,700 --> 00:37:37,400
+Speaker 5:  anyhow. But apple had all these creation tools. It never had a distribution
+
+631
+00:37:37,600 --> 00:37:40,600
+Speaker 5:  platform. Yeah. Right, right. There was not, it was just not their thought
+
+632
+00:37:40,600 --> 00:37:44,000
+Speaker 5:  that connecting creation and distribution would be important. YouTube famously
+
+633
+00:37:44,060 --> 00:37:48,040
+Speaker 5:  is still the best, most lucrative preferred video distribution
+
+634
+00:37:48,280 --> 00:37:51,520
+Speaker 5:  platform for almost every internet creator. It's got the best revenue it's
+
+635
+00:37:51,520 --> 00:37:55,040
+Speaker 5:  got the biggest community shorts. Is that performing the main thing, shorts
+
+636
+00:37:55,040 --> 00:37:57,480
+Speaker 5:  again is app as expressed by YouTube.
+
+637
+00:37:59,140 --> 00:38:03,040
+Speaker 5:  But it, it, it dropped the ball on the creation side.
+
+638
+00:38:03,040 --> 00:38:07,000
+Speaker 5:  Almost completely like to be a high end YouTuber. You have to give
+
+639
+00:38:07,300 --> 00:38:11,200
+Speaker 5:  to Adobe premier or final cut or right. Make videos
+
+640
+00:38:11,200 --> 00:38:13,920
+Speaker 5:  about why final cut is actually good. And then you get a million vs. Like
+
+641
+00:38:14,030 --> 00:38:17,200
+Speaker 5:  it's you just end up in a place where YouTube doesn't help you create anything.
+
+642
+00:38:17,350 --> 00:38:21,160
+Speaker 5:  They're starting to do that in shorts because app, but it's weird that the
+
+643
+00:38:21,160 --> 00:38:24,560
+Speaker 5:  biggest distribution platform never really cared about the creation element.
+
+644
+00:38:24,840 --> 00:38:27,640
+Speaker 5:  I think what I, when I say TikTok is the winner, is they married those two
+
+645
+00:38:27,640 --> 00:38:29,800
+Speaker 5:  things in a gigantic way. Yeah.
+
+646
+00:38:29,830 --> 00:38:30,320
+Speaker 6:  Totally
+
+647
+00:38:31,030 --> 00:38:33,920
+Speaker 5:  Snap in stories with filters did that sort of, but there was no virality
+
+648
+00:38:33,920 --> 00:38:37,560
+Speaker 5:  associated with snap. TikTok is like virality for days,
+
+649
+00:38:38,070 --> 00:38:40,400
+Speaker 5:  plus this huge creation tool. But now you're seeing
+
+650
+00:38:40,540 --> 00:38:43,880
+Speaker 7:  On like the right device too. Right? Like they, they put it on the right
+
+651
+00:38:43,880 --> 00:38:46,880
+Speaker 7:  device. They didn't put it on your, your computer. They put it on your phone,
+
+652
+00:38:47,050 --> 00:38:49,800
+Speaker 7:  which is what most younger people are using as a computer.
+
+653
+00:38:50,430 --> 00:38:53,840
+Speaker 5:  Yeah. No, I think that's all right. It just funny to me that there's been,
+
+654
+00:38:54,230 --> 00:38:57,800
+Speaker 5:  there's been this historic split TikTok collapses a split. Yeah. But now
+
+655
+00:38:57,800 --> 00:39:01,520
+Speaker 5:  you've got Instagram, you've got YouTube shorts. You've got
+
+656
+00:39:01,820 --> 00:39:05,720
+Speaker 5:  TikTok. They've all got these powerful creation tools in them. And they are
+
+657
+00:39:05,720 --> 00:39:09,560
+Speaker 5:  trying to gate keep the creation tools and lock them to their own
+
+658
+00:39:09,960 --> 00:39:12,960
+Speaker 5:  distribution cuz that's where their money is. And historically
+
+659
+00:39:13,960 --> 00:39:17,880
+Speaker 5:  creation tools have not been wedded to or tied or
+
+660
+00:39:17,880 --> 00:39:20,520
+Speaker 5:  limited to one distribution platform.
+
+661
+00:39:21,070 --> 00:39:24,360
+Speaker 6:  Does it ever blow your mind to think about the fact that this is like the
+
+662
+00:39:24,600 --> 00:39:28,040
+Speaker 6:  wireless carriers not wanting to be dumb pipes and this is why all the streaming
+
+663
+00:39:28,040 --> 00:39:31,200
+Speaker 6:  services don't wanna play with universal search because they all want you
+
+664
+00:39:31,200 --> 00:39:34,440
+Speaker 6:  to hang out inside of their apps. Like every industry is the same,
+
+665
+00:39:35,270 --> 00:39:38,560
+Speaker 6:  some of the nouns change, but everybody is like, everybody makes the same
+
+666
+00:39:38,560 --> 00:39:41,720
+Speaker 6:  stuff and then goes, oh no, we're the same stuff. How do we make sure people
+
+667
+00:39:41,720 --> 00:39:44,920
+Speaker 6:  don't think of us as the same as everybody else? And then does this and this
+
+668
+00:39:44,920 --> 00:39:45,360
+Speaker 6:  is where we
+
+669
+00:39:45,360 --> 00:39:47,640
+Speaker 5:  Are. And the answer is software restrictions and it's like
+
+670
+00:39:47,810 --> 00:39:48,480
+Speaker 6:  Watermarks.
+
+671
+00:39:49,140 --> 00:39:52,000
+Speaker 5:  So in watermark. So just this week,
+
+672
+00:39:52,760 --> 00:39:56,560
+Speaker 5:  YouTube shorts, the editor will now put a watermark. If you export out of
+
+673
+00:39:56,560 --> 00:40:00,480
+Speaker 5:  YouTube shorts and repost and want to take it somewhere else, how could you
+
+674
+00:40:00,640 --> 00:40:03,520
+Speaker 5:  Instagram? This is our own social team discovered this, this week,
+
+675
+00:40:04,360 --> 00:40:07,560
+Speaker 5:  Instagram has a really powerful green screen tool for real. So they were
+
+676
+00:40:07,560 --> 00:40:11,520
+Speaker 5:  just using it and they would export the video and use it for other
+
+677
+00:40:11,520 --> 00:40:15,360
+Speaker 5:  stuff. And now Instagram just mutes that video
+
+678
+00:40:16,190 --> 00:40:17,960
+Speaker 5:  when you export it, it has no audio,
+
+679
+00:40:18,580 --> 00:40:22,560
+Speaker 6:  Unless this is my favorite part is unless you share it first on reels.
+
+680
+00:40:22,990 --> 00:40:23,280
+Speaker 5:  Yeah.
+
+681
+00:40:23,770 --> 00:40:26,560
+Speaker 6:  Which is fantastic. They're like, do whatever you want. Just put it on reels
+
+682
+00:40:26,560 --> 00:40:26,720
+Speaker 6:  first.
+
+683
+00:40:28,030 --> 00:40:32,000
+Speaker 5:  It's perfect. I mean, I just think that there's something
+
+684
+00:40:32,070 --> 00:40:35,120
+Speaker 5:  here where the idea of creation tools being
+
+685
+00:40:35,980 --> 00:40:39,640
+Speaker 5:  locked or tied or limited to distribution
+
+686
+00:40:40,020 --> 00:40:43,420
+Speaker 5:  is new in the culture. Right? It that's it's
+
+687
+00:40:43,420 --> 00:40:47,260
+Speaker 5:  meaningfully new because historically again,
+
+688
+00:40:47,260 --> 00:40:50,620
+Speaker 5:  the creation tools have never had distribution connected to them. And the
+
+689
+00:40:50,860 --> 00:40:53,140
+Speaker 5:  distribution platforms have never had creation tools connected to them. And
+
+690
+00:40:53,140 --> 00:40:56,820
+Speaker 5:  now it's like, what if we software lock you into this garden? When
+
+691
+00:40:56,900 --> 00:40:58,060
+Speaker 7:  Do you think they start charging?
+
+692
+00:40:58,320 --> 00:41:01,980
+Speaker 5:  My suspicion is that people are gonna react to this extremely negatively.
+
+693
+00:41:02,610 --> 00:41:04,910
+Speaker 7:  You don't think they're gonna just charge people, be like, oh, you wanna
+
+694
+00:41:04,910 --> 00:41:08,470
+Speaker 7:  unlock it. You wanna export it wherever for $2 a month
+
+695
+00:41:08,730 --> 00:41:12,390
+Speaker 7:  to Instagram, you can do whatever you want with the video you make for us.
+
+696
+00:41:13,330 --> 00:41:17,210
+Speaker 5:  I don't, I think it would have to be like $400 a month. Like the, the lifetime
+
+697
+00:41:17,290 --> 00:41:21,210
+Speaker 5:  value of the Instagram library getting bigger is bigger than any
+
+698
+00:41:21,210 --> 00:41:24,290
+Speaker 5:  dollars that you could pay them as a consumer. Like you just gotta do the
+
+699
+00:41:24,290 --> 00:41:28,170
+Speaker 5:  math, right? Like Instagram is staring down the barrel of a 10
+
+700
+00:41:28,710 --> 00:41:31,770
+Speaker 5:  billion TikTok shaped gun. Yeah. How are you gonna, how you gonna make that
+
+701
+00:41:32,030 --> 00:41:33,240
+Speaker 5:  up? You can't, it's not $2.
+
+702
+00:41:33,340 --> 00:41:37,040
+Speaker 6:  And they all see each other as super zero sum, which I think is really
+
+703
+00:41:37,240 --> 00:41:41,000
+Speaker 6:  interesting. Like the idea that these apps are not in a position of being
+
+704
+00:41:41,000 --> 00:41:44,960
+Speaker 6:  able to like just sort of let a thousand flowers bloom and
+
+705
+00:41:44,960 --> 00:41:47,360
+Speaker 6:  be like, you know, there's enough attention for everybody. People are on
+
+706
+00:41:47,360 --> 00:41:51,200
+Speaker 6:  our app. They are like directly threatened by each
+
+707
+00:41:51,440 --> 00:41:55,240
+Speaker 6:  other now, which I think really interesting. And it is like the only
+
+708
+00:41:55,240 --> 00:41:58,360
+Speaker 6:  conclusion I can draw from that is that they have all begun to understand
+
+709
+00:41:58,360 --> 00:42:02,040
+Speaker 6:  that these serve the same purpose for the same set of people. And that ultimately
+
+710
+00:42:02,990 --> 00:42:06,120
+Speaker 6:  only one of them is probably going to win and everybody kind of thinks it's
+
+711
+00:42:06,120 --> 00:42:08,880
+Speaker 6:  gonna be TikTok. So they are like desperately fighting against
+
+712
+00:42:09,830 --> 00:42:13,440
+Speaker 6:  that pull away. Cause like if I'm YouTube, I don't know that I would
+
+713
+00:42:13,440 --> 00:42:13,920
+Speaker 6:  necessarily
+
+714
+00:42:15,430 --> 00:42:19,320
+Speaker 6:  feel like I'm existentially threatened by TikTok. If I wanted to go do
+
+715
+00:42:19,360 --> 00:42:22,120
+Speaker 6:  a different thing. But now YouTube is like, no, we have to fight with TikTok
+
+716
+00:42:22,700 --> 00:42:26,120
+Speaker 6:  and they have to take every advantage they can away from TikTok, which I
+
+717
+00:42:26,120 --> 00:42:27,000
+Speaker 6:  think is fascinating.
+
+718
+00:42:27,100 --> 00:42:30,720
+Speaker 5:  So YouTube has the big advantage, which is it
+
+719
+00:42:30,940 --> 00:42:34,920
+Speaker 5:  has the best revenue share program for all those
+
+720
+00:42:35,160 --> 00:42:38,400
+Speaker 5:  platforms for actual creators to make money on platforms. Yeah. No one makes
+
+721
+00:42:38,400 --> 00:42:42,160
+Speaker 5:  money in TikTok. As far as I can tell. I won't say the dreaded
+
+722
+00:42:42,160 --> 00:42:44,720
+Speaker 5:  DWORD here, but there's another very good podcast where I
+
+723
+00:42:44,720 --> 00:42:47,760
+Speaker 6:  Was about to bring it up. Hank green was so good on decoder. There you go.
+
+724
+00:42:47,940 --> 00:42:48,160
+Speaker 5:  And
+
+725
+00:42:48,160 --> 00:42:49,280
+Speaker 6:  You said a lot of stuff I thought was interesting.
+
+726
+00:42:50,230 --> 00:42:52,320
+Speaker 5:  Yeah. Hank Green's like, no one makes money in TikTok, but that's where the
+
+727
+00:42:52,480 --> 00:42:55,520
+Speaker 5:  audience is. It's also easier and cheaper for me to get there. And you know,
+
+728
+00:42:55,520 --> 00:42:59,160
+Speaker 5:  his feeling is like all of that adds up to his YouTube audience growing and
+
+729
+00:42:59,160 --> 00:43:02,240
+Speaker 5:  his business doing well. But he also said YouTube shorts is growing faster.
+
+730
+00:43:02,620 --> 00:43:06,520
+Speaker 5:  And once YouTube flips on the money, which they already can do,
+
+731
+00:43:06,520 --> 00:43:10,480
+Speaker 5:  they've already built the model. So they don't have to like go and explain
+
+732
+00:43:10,480 --> 00:43:13,960
+Speaker 5:  it to the board of directors or model. Like they already have it. I think
+
+733
+00:43:14,110 --> 00:43:17,120
+Speaker 5:  they might win because people will obviously go where the money is.
+
+734
+00:43:17,980 --> 00:43:21,520
+Speaker 5:  And that's great, but it's not gonna solve the like long tail problem of
+
+735
+00:43:21,520 --> 00:43:24,280
+Speaker 5:  TikTok, which is, there are lots of people on TikTok who are not there to
+
+736
+00:43:24,280 --> 00:43:26,960
+Speaker 5:  make money. Yeah. Right. And they're just having a good time with a cool
+
+737
+00:43:26,960 --> 00:43:29,720
+Speaker 5:  video editor that happens to be connected to a distribution platform that
+
+738
+00:43:29,720 --> 00:43:32,880
+Speaker 5:  might make you go viral at any time and deliver you a hundred dollars from
+
+739
+00:43:32,880 --> 00:43:36,440
+Speaker 5:  the creator's fund. And that's like a good enough incentive program compared
+
+740
+00:43:36,440 --> 00:43:40,320
+Speaker 5:  to, to YouTube where everyone wants a career as a YouTuber. And that
+
+741
+00:43:40,380 --> 00:43:41,840
+Speaker 5:  is a different game to play.
+
+742
+00:43:42,040 --> 00:43:45,400
+Speaker 7:  I just kind of, I was gonna say, I wonder why people there is this big
+
+743
+00:43:45,430 --> 00:43:49,280
+Speaker 7:  existential like crisis for a lot of these app makers, because
+
+744
+00:43:50,850 --> 00:43:54,730
+Speaker 7:  Facebook meta at Google, they have like the ad game unlock.
+
+745
+00:43:55,240 --> 00:43:58,490
+Speaker 7:  They know how to monetize this stuff and make money. And TikTok
+
+746
+00:43:59,200 --> 00:44:03,130
+Speaker 7:  does TikTok is TikTok making money, handover fist like
+
+747
+00:44:03,390 --> 00:44:04,970
+Speaker 7:  to bring up mine again, is it gonna be,
+
+748
+00:44:05,200 --> 00:44:06,690
+Speaker 5:  They're not sharing it back to creators.
+
+749
+00:44:06,690 --> 00:44:07,770
+Speaker 7:  Right? And so like,
+
+750
+00:44:07,950 --> 00:44:11,450
+Speaker 5:  No. So TikTok is a black box is owned by, by dance. We don't know how by
+
+751
+00:44:11,450 --> 00:44:14,850
+Speaker 5:  dance is doing as a company, but all the reporting suggests
+
+752
+00:44:15,400 --> 00:44:18,410
+Speaker 5:  that TikTok advertising is effective. They're collecting those ad dollars.
+
+753
+00:44:19,150 --> 00:44:22,690
+Speaker 5:  And like the music industry loves
+
+754
+00:44:22,870 --> 00:44:26,810
+Speaker 5:  TikTok. Yes. And TikTok loves the music industry because if you
+
+755
+00:44:26,810 --> 00:44:30,250
+Speaker 5:  have, if you are Beyonce's record label and publicist,
+
+756
+00:44:30,550 --> 00:44:34,440
+Speaker 5:  you're like these songs are gonna go viral this week and TikTok will all,
+
+757
+00:44:34,440 --> 00:44:38,360
+Speaker 5:  but certainly make that happen for you. Yes. And like that's a, that's
+
+758
+00:44:38,360 --> 00:44:39,560
+Speaker 5:  a revenue generation program
+
+759
+00:44:39,560 --> 00:44:41,400
+Speaker 7:  Program. So that's so like, that's why they're
+
+760
+00:44:41,400 --> 00:44:44,800
+Speaker 5:  Scared. Right? Cuz they, they TikTok is the culture like for better or worse,
+
+761
+00:44:44,800 --> 00:44:48,480
+Speaker 5:  if you're listening to this, you're like, oh TikTok, like TikTok drives a
+
+762
+00:44:48,480 --> 00:44:52,080
+Speaker 5:  massive amount of the culture now. Yes. Because it's
+
+763
+00:44:52,080 --> 00:44:55,680
+Speaker 5:  ability to generate virality, it's ability to generate trends and the trends
+
+764
+00:44:55,750 --> 00:44:58,360
+Speaker 5:  come and go in the blink of an eye.
+
+765
+00:44:59,200 --> 00:45:02,920
+Speaker 5:  Rebecca Jennings at Vox has written about this very compellingly. Like you
+
+766
+00:45:03,190 --> 00:45:06,680
+Speaker 5:  don't, it's impossible to be a trends reporter anymore because all the trends
+
+767
+00:45:06,680 --> 00:45:09,200
+Speaker 5:  are happening all the time. And then they go away like, see shanties, do
+
+768
+00:45:09,200 --> 00:45:12,600
+Speaker 5:  not say anything about the state of America. Right. But like for one
+
+769
+00:45:13,240 --> 00:45:16,560
+Speaker 5:  week C shanties were very important to everyone cuz it just happened. And
+
+770
+00:45:16,560 --> 00:45:17,040
+Speaker 5:  then it went
+
+771
+00:45:18,600 --> 00:45:22,240
+Speaker 5:  away. I was a Rebecca piece. You should go read it. It's pretty good. But
+
+772
+00:45:22,550 --> 00:45:26,040
+Speaker 5:  Instagram isn't that thing anymore. And it used to be, and I think they feel
+
+773
+00:45:26,040 --> 00:45:29,640
+Speaker 5:  it going away YouTube. I don't know if it was ever that thing
+
+774
+00:45:29,670 --> 00:45:33,640
+Speaker 5:  because it was always everything. Yeah. Right. Like when we were
+
+775
+00:45:33,640 --> 00:45:36,880
+Speaker 5:  covering YouTube stars and that, that period of YouTube, when
+
+776
+00:45:37,460 --> 00:45:40,320
+Speaker 5:  we could cover YouTube stars, like they were aliens and we were explaining
+
+777
+00:45:40,320 --> 00:45:43,480
+Speaker 5:  them to the world. Like that felt like a thing we were actually doing. Like
+
+778
+00:45:43,480 --> 00:45:46,440
+Speaker 5:  here's a whole culture. You don't see over here on YouTube. Have you heard
+
+779
+00:45:46,440 --> 00:45:49,360
+Speaker 5:  a Logan? But now they're just like everywhere. You know? Like they they've,
+
+780
+00:45:49,360 --> 00:45:52,160
+Speaker 5:  they've transitioned into the culture at large and YouTube is still
+
+781
+00:45:52,590 --> 00:45:56,400
+Speaker 5:  manufacturing some of those moments, but not nearly at the rate of TikTok.
+
+782
+00:45:57,020 --> 00:46:00,960
+Speaker 5:  And I just think fundamentally yes, it is a zero sunscreen. You only
+
+783
+00:46:00,960 --> 00:46:04,920
+Speaker 5:  have so many minutes in the day. And if you want app TikTok right now is
+
+784
+00:46:04,920 --> 00:46:06,720
+Speaker 5:  best app, you know?
+
+785
+00:46:07,350 --> 00:46:09,880
+Speaker 6:  Yeah. I think that's well and I think what's, what's gonna be interesting
+
+786
+00:46:09,880 --> 00:46:13,520
+Speaker 6:  for me to watch is like the, the upside of
+
+787
+00:46:13,520 --> 00:46:17,160
+Speaker 6:  shorts for YouTube is that it can then, like, I think the, the company
+
+788
+00:46:17,230 --> 00:46:21,040
+Speaker 6:  closest to sort of being able to wrap all of this together is probably
+
+789
+00:46:21,040 --> 00:46:24,640
+Speaker 6:  YouTube. Right? It has the giant audience shorts seems to be taking off.
+
+790
+00:46:24,900 --> 00:46:28,880
+Speaker 6:  It has the monetization strategy. It's like YouTube is, is sort of the
+
+791
+00:46:28,880 --> 00:46:32,760
+Speaker 6:  end point. Like even people on TikTok make their TikTok money on
+
+792
+00:46:32,760 --> 00:46:35,800
+Speaker 6:  YouTube. Like that's, that's where you go to make your money. So tick like
+
+793
+00:46:35,800 --> 00:46:39,680
+Speaker 6:  YouTube has already solved the hard part of this. What TikTok has not figured
+
+794
+00:46:39,680 --> 00:46:43,360
+Speaker 6:  out is how to like build home bases for people who do this for a living
+
+795
+00:46:43,940 --> 00:46:47,520
+Speaker 6:  and really no one other than YouTube has ever figured this out.
+
+796
+00:46:47,860 --> 00:46:51,200
+Speaker 6:  And so I think, I mean, Twitch has like, we see all these rumors about TikTok
+
+797
+00:46:51,740 --> 00:46:52,160
+Speaker 6:  Twitch
+
+798
+00:46:52,560 --> 00:46:53,240
+Speaker 7:  Figured it out,
+
+799
+00:46:53,380 --> 00:46:57,360
+Speaker 6:  Twitch figured it out. That's fair. Twitch is like a, a specific niche
+
+800
+00:46:57,360 --> 00:46:59,600
+Speaker 6:  of the world, but has definitely figured it out. That's totally fair. Yeah.
+
+801
+00:47:00,000 --> 00:47:03,760
+Speaker 6:  But I think other than those two, like Facebook never really figured it out
+
+802
+00:47:04,160 --> 00:47:07,120
+Speaker 6:  Snapchat hasn't figured it out TikTok hasn't figured it out. And I think
+
+803
+00:47:07,270 --> 00:47:10,800
+Speaker 6:  like you look at like TikTok music, which I think is, is gonna be a thing
+
+804
+00:47:10,800 --> 00:47:14,440
+Speaker 6:  that exists and has been rumored forever, but is them trying to build
+
+805
+00:47:15,020 --> 00:47:18,880
+Speaker 6:  an end point, right? Like you come to TikTok, you go to Lincoln bio and you
+
+806
+00:47:18,880 --> 00:47:22,600
+Speaker 6:  leave eventually to go make some money for somebody. And TikTok would like
+
+807
+00:47:22,600 --> 00:47:26,520
+Speaker 6:  to pull more of that back in. And my sense is that's hard, but whether
+
+808
+00:47:26,590 --> 00:47:30,120
+Speaker 6:  it's harder than getting people to spend three hours just scrolling through
+
+809
+00:47:30,120 --> 00:47:32,960
+Speaker 6:  videos on your app is gonna be like the big question for you too.
+
+810
+00:47:33,080 --> 00:47:36,240
+Speaker 7:  I mean, I think it is hard because you're seeing like a lot of these, these
+
+811
+00:47:36,310 --> 00:47:40,120
+Speaker 7:  fandoms for these, these followers and or these creators and just fandoms
+
+812
+00:47:40,120 --> 00:47:43,760
+Speaker 7:  in general, you're seeing that, that huge decentralization, like they, they
+
+813
+00:47:43,760 --> 00:47:47,200
+Speaker 7:  are there aren't hubs for these people anymore. It is all just word of mouth
+
+814
+00:47:47,620 --> 00:47:51,280
+Speaker 7:  and, and sharing and, and all these back channels. So I think that's really,
+
+815
+00:47:51,280 --> 00:47:54,440
+Speaker 7:  really difficult for TikTok, which is why I keep coming back to like, is
+
+816
+00:47:54,460 --> 00:47:57,840
+Speaker 7:  TikTok built to last like yes, anybody can be really good at like creating
+
+817
+00:47:57,860 --> 00:48:01,000
+Speaker 7:  the culture for a couple of years. We've seen that again and again and again,
+
+818
+00:48:01,000 --> 00:48:04,920
+Speaker 7:  anybody can do glee was the culture. Glee
+
+819
+00:48:05,060 --> 00:48:07,320
+Speaker 7:  did not last, sorry.
+
+820
+00:48:07,620 --> 00:48:10,640
+Speaker 5:  I'm sorry. I, I do not agree with you G it was the culture.
+
+821
+00:48:10,820 --> 00:48:12,920
+Speaker 7:  It was unfortu very much the culture true.
+
+822
+00:48:13,580 --> 00:48:17,560
+Speaker 5:  I'm 1000% on a podcast with two like musical theater kids. And I
+
+823
+00:48:17,560 --> 00:48:19,800
+Speaker 5:  just need to tell you that you're wrong about this situation,
+
+824
+00:48:20,340 --> 00:48:23,160
+Speaker 7:  But, but there are these things that like, it's not true, regardless of,
+
+825
+00:48:23,160 --> 00:48:26,480
+Speaker 7:  if you agree with glee, there are these various things that are like, this
+
+826
+00:48:26,480 --> 00:48:29,960
+Speaker 7:  is the center of culture. This is what we all care about. Yeah. And, and
+
+827
+00:48:29,960 --> 00:48:33,800
+Speaker 7:  especially for younger people, which is what most of talk's audience is.
+
+828
+00:48:34,220 --> 00:48:37,760
+Speaker 7:  My dad excluded. He like watches it every night. He calls it like his show,
+
+829
+00:48:37,780 --> 00:48:40,880
+Speaker 7:  his tos. And he is like, I get in bed and I watch my tos.
+
+830
+00:48:41,390 --> 00:48:42,680
+Speaker 6:  It's like his stories. Oh, I
+
+831
+00:48:42,680 --> 00:48:45,280
+Speaker 7:  Love that. It is his stories. It's great. Oh no. But like, for the most part,
+
+832
+00:48:45,300 --> 00:48:49,200
+Speaker 7:  it is younger people and, and they, they do move
+
+833
+00:48:49,200 --> 00:48:53,000
+Speaker 7:  around very quickly. And this is like, it is hard
+
+834
+00:48:53,060 --> 00:48:56,600
+Speaker 7:  to lock people in right now, lock people to like
+
+835
+00:48:56,960 --> 00:49:00,560
+Speaker 7:  a specific hub. And so I like, I,
+
+836
+00:49:00,820 --> 00:49:04,240
+Speaker 7:  I'm still not sold that TikTok is gonna be this huge behemoth. I think it's
+
+837
+00:49:04,240 --> 00:49:07,520
+Speaker 7:  doing very, very successful, very, very right now. But like, I don't see
+
+838
+00:49:07,520 --> 00:49:11,320
+Speaker 7:  where that long term game is beyond music partnerships.
+
+839
+00:49:11,340 --> 00:49:15,040
+Speaker 7:  And even then we've heard like Lizzo doing great traction on
+
+840
+00:49:15,040 --> 00:49:18,840
+Speaker 7:  TikTok. Isn't necessarily translating to sales for
+
+841
+00:49:18,930 --> 00:49:20,240
+Speaker 7:  Lizzo. So like,
+
+842
+00:49:20,950 --> 00:49:22,720
+Speaker 5:  Well, nothing translates to sales anymore. Yeah.
+
+843
+00:49:22,720 --> 00:49:26,400
+Speaker 7:  It's yeah. Then that's the other part it's like where, yeah, I just don't
+
+844
+00:49:26,400 --> 00:49:30,080
+Speaker 7:  know how, how long this lasts for them before people get fed up with
+
+845
+00:49:30,080 --> 00:49:33,920
+Speaker 7:  TikTok TikTok, it's canceled by the teens and then they all
+
+846
+00:49:33,920 --> 00:49:37,680
+Speaker 7:  move on to what discord, YouTube, YouTube,
+
+847
+00:49:37,750 --> 00:49:40,000
+Speaker 7:  they all just, they just come back to YouTube and they're like, have you
+
+848
+00:49:40,000 --> 00:49:40,200
+Speaker 7:  heard
+
+849
+00:49:40,200 --> 00:49:43,960
+Speaker 5:  Of this place? I disagree. I think TikTok TikTok and its current rate
+
+850
+00:49:44,180 --> 00:49:48,120
+Speaker 5:  is bound to succeed because it is one supported by
+
+851
+00:49:48,120 --> 00:49:51,920
+Speaker 5:  the Chinese government, which really wants it to succeed. And actually its
+
+852
+00:49:51,920 --> 00:49:55,520
+Speaker 5:  biggest ex existential threat is that the United States government
+
+853
+00:49:55,570 --> 00:49:59,400
+Speaker 5:  is aware that the Chinese government supports TikTok and might one day just
+
+854
+00:49:59,400 --> 00:50:03,320
+Speaker 5:  turn it off, which I will remind you that a previous president decided
+
+855
+00:50:03,320 --> 00:50:07,200
+Speaker 5:  he was just going to do without a plan and almost sold to
+
+856
+00:50:07,320 --> 00:50:10,800
+Speaker 7:  Microsoft. Oracle, go buy this. Hey, you, you got some money. Yes.
+
+857
+00:50:11,660 --> 00:50:12,040
+Speaker 7:  Do it.
+
+858
+00:50:12,180 --> 00:50:15,960
+Speaker 5:  Oracle is taking over the TikTok data centers. Like it's a weird deal
+
+859
+00:50:16,070 --> 00:50:17,120
+Speaker 5:  over at TikTok land.
+
+860
+00:50:17,290 --> 00:50:21,080
+Speaker 6:  There really is a wild like sliding doors moment. Like just to totally
+
+861
+00:50:21,220 --> 00:50:25,200
+Speaker 6:  derail this just for one quick second, like imagining what this
+
+862
+00:50:25,230 --> 00:50:28,960
+Speaker 6:  like August of 20, 22 would be like if Oracle or
+
+863
+00:50:29,010 --> 00:50:32,960
+Speaker 6:  Microsoft owned TikTok. And like the culture had changed around
+
+864
+00:50:33,180 --> 00:50:37,160
+Speaker 6:  that for the last two years is like, like we're gonna do a 10th
+
+865
+00:50:37,160 --> 00:50:40,800
+Speaker 6:  anniversary, like science fiction and reverse. Like what if Microsoft
+
+866
+00:50:40,800 --> 00:50:43,360
+Speaker 6:  owned TikTok thing and I'm, I'm already excited about it.
+
+867
+00:50:44,320 --> 00:50:47,440
+Speaker 5:  I will remind you that such and Adella. I think it was at the code conference
+
+868
+00:50:47,440 --> 00:50:50,320
+Speaker 5:  was like, that was some of the weirdest conversations I've ever had
+
+869
+00:50:52,220 --> 00:50:55,240
+Speaker 5:  was like we had to be in it cuz like how could we not try to buy TikTok?
+
+870
+00:50:55,350 --> 00:50:58,880
+Speaker 5:  Because like it was weird and then it went away for the best
+
+871
+00:50:59,330 --> 00:51:02,640
+Speaker 5:  weird. Yeah. I, I don't know. Like, I don't know if it was for the best,
+
+872
+00:51:02,710 --> 00:51:06,680
+Speaker 5:  like I'm not saying that the operation of that version of our
+
+873
+00:51:06,680 --> 00:51:10,440
+Speaker 5:  government was ever stable or smooth, but sometimes like they,
+
+874
+00:51:10,460 --> 00:51:14,080
+Speaker 5:  you know, broken clock twice a day, like they're like TikTok is owned by
+
+875
+00:51:14,080 --> 00:51:18,040
+Speaker 5:  the Chinese. We should take a harder line about it. Yeah. That might
+
+876
+00:51:18,040 --> 00:51:20,680
+Speaker 5:  have, that might have been the correct. I think that is coming for TikTok
+
+877
+00:51:20,710 --> 00:51:24,600
+Speaker 5:  much more than gen Z deciding that
+
+878
+00:51:24,600 --> 00:51:28,200
+Speaker 5:  what they like is reading long blog posts on Tumblr again,
+
+879
+00:51:28,570 --> 00:51:31,880
+Speaker 5:  which would be amazing. I would love that if that is the next move
+
+880
+00:51:32,470 --> 00:51:34,760
+Speaker 5:  it's but I don't, I don't think that's likely.
+
+881
+00:51:35,660 --> 00:51:39,320
+Speaker 6:  So here's what I wonder about this is like, does this mean that the next
+
+882
+00:51:39,410 --> 00:51:43,320
+Speaker 6:  thing we're gonna get is like a really powerful
+
+883
+00:51:44,220 --> 00:51:48,040
+Speaker 6:  cross-platform vertical video creation tool that does all these things
+
+884
+00:51:48,040 --> 00:51:51,880
+Speaker 6:  like part of me thinks somewhere Evan Spiegel and the snap
+
+885
+00:51:51,990 --> 00:51:55,640
+Speaker 6:  executive team are just like leaning back in their chairs, being like, come
+
+886
+00:51:55,640 --> 00:51:58,520
+Speaker 6:  make stuff with us. We don't watermark let's let's hang out.
+
+887
+00:51:59,580 --> 00:52:03,320
+Speaker 6:  But then I also wonder like is, is the next phase of this? Just
+
+888
+00:52:03,470 --> 00:52:06,840
+Speaker 6:  that everything silos really aggressively is it that we all get
+
+889
+00:52:07,470 --> 00:52:10,600
+Speaker 6:  less confused seeing YouTube watermarks in
+
+890
+00:52:11,260 --> 00:52:14,440
+Speaker 6:  TikTok and TikTok watermarks in YouTube and nobody actually cares. And this
+
+891
+00:52:14,440 --> 00:52:16,560
+Speaker 6:  isn't really a thing or is there a new thing that comes up?
+
+892
+00:52:16,560 --> 00:52:20,280
+Speaker 5:  Well, no, the platforms are detecting the watermarks. Oh, that's true. That's
+
+893
+00:52:20,280 --> 00:52:24,120
+Speaker 5:  the thing. Yeah. So YouTube will detect the TikTok watermark and then downright
+
+894
+00:52:24,120 --> 00:52:24,560
+Speaker 5:  that video.
+
+895
+00:52:24,790 --> 00:52:25,080
+Speaker 6:  Yeah,
+
+896
+00:52:25,240 --> 00:52:28,880
+Speaker 5:  I love it. So there's just a, again, my thesis here
+
+897
+00:52:29,020 --> 00:52:32,400
+Speaker 5:  is that creation and distribution have never been so tightly tied together
+
+898
+00:52:33,220 --> 00:52:37,120
+Speaker 5:  and that imposing the business limits of the distribution platform on the
+
+899
+00:52:37,320 --> 00:52:41,240
+Speaker 5:  creation tool is bad. And that eventually the
+
+900
+00:52:41,240 --> 00:52:45,080
+Speaker 5:  people who use the creation tools will be frustrated enough to enact
+
+901
+00:52:45,110 --> 00:52:48,680
+Speaker 5:  some sort of penalty on those platforms. We'll see. But I
+
+902
+00:52:48,920 --> 00:52:52,560
+Speaker 5:  don't think that the answer is snapping. Like for four bucks a month, you
+
+903
+00:52:52,560 --> 00:52:56,480
+Speaker 5:  can use the snap video editor cuz they have to keep pace with the
+
+904
+00:52:56,480 --> 00:53:00,200
+Speaker 5:  coolest tools in TikTok. And talk's greatest success is
+
+905
+00:53:00,200 --> 00:53:03,440
+Speaker 5:  adding tools that people then use in like
+
+906
+00:53:03,970 --> 00:53:07,920
+Speaker 5:  viral recursive, conversant ways with one another. And that
+
+907
+00:53:07,980 --> 00:53:11,840
+Speaker 5:  is I, they have been better at creating that loop than any of these
+
+908
+00:53:11,840 --> 00:53:12,520
+Speaker 5:  other platforms.
+
+909
+00:53:12,980 --> 00:53:16,480
+Speaker 6:  So really the company that should be like licking its chops at this is like
+
+910
+00:53:16,770 --> 00:53:20,720
+Speaker 6:  Vimeo and the other like active creation. I'm serious. Like
+
+911
+00:53:20,940 --> 00:53:22,360
+Speaker 6:  if, if we, if this
+
+912
+00:53:22,620 --> 00:53:26,120
+Speaker 5:  Vis like a B to B video, white label hosting service, now I
+
+913
+00:53:26,120 --> 00:53:29,040
+Speaker 6:  Don't. Yeah, it is now that's fair. But so, okay. So that's the thing like
+
+914
+00:53:29,040 --> 00:53:32,400
+Speaker 6:  who is it then? Then the thing that's gonna happen is somebody is going to
+
+915
+00:53:32,400 --> 00:53:35,920
+Speaker 6:  like sit above this and it's like, you remember the thing when they, everybody
+
+916
+00:53:35,920 --> 00:53:38,920
+Speaker 6:  built like the hoot suites of the world, where it's like, you can publish
+
+917
+00:53:38,980 --> 00:53:42,160
+Speaker 6:  to all your social channels in an automated way. And it's not such a disaster
+
+918
+00:53:42,180 --> 00:53:45,320
+Speaker 6:  to manage a hundred different things. Like that's gotta be coming for vertical
+
+919
+00:53:45,320 --> 00:53:45,880
+Speaker 6:  video. Now
+
+920
+00:53:46,170 --> 00:53:49,840
+Speaker 5:  Maybe I, well maybe hoo suite for app.
+
+921
+00:53:50,420 --> 00:53:53,320
+Speaker 5:  If the, who suite people are listening, you can just take that idea, please,
+
+922
+00:53:53,320 --> 00:53:57,240
+Speaker 5:  please name it. Who tweet for app? We'll we'll know what
+
+923
+00:53:57,400 --> 00:54:01,360
+Speaker 5:  happened and we won't be mad. I don't know. It's not like there's
+
+924
+00:54:01,360 --> 00:54:05,040
+Speaker 5:  great upload APIs for these. Like these are
+
+925
+00:54:05,190 --> 00:54:08,960
+Speaker 5:  very restricted platforms in a way that, you know, Twitter
+
+926
+00:54:09,380 --> 00:54:13,160
+Speaker 5:  for all of its problems has, has an API that other people like
+
+927
+00:54:13,350 --> 00:54:16,760
+Speaker 5:  when we post stories from our CMS, they just get tweeted
+
+928
+00:54:16,760 --> 00:54:20,560
+Speaker 5:  automatically because Twitter is built. That kind of integration. I
+
+929
+00:54:20,560 --> 00:54:20,840
+Speaker 5:  don't know.
+
+930
+00:54:20,900 --> 00:54:24,320
+Speaker 6:  So this next phase, this next phase just sucks for cross platform
+
+931
+00:54:24,400 --> 00:54:25,440
+Speaker 6:  creators then yes.
+
+932
+00:54:25,710 --> 00:54:27,520
+Speaker 5:  Yeah. I think, I think it's gonna get harder. Cause
+
+933
+00:54:27,520 --> 00:54:27,960
+Speaker 7:  Everything silo.
+
+934
+00:54:27,960 --> 00:54:28,640
+Speaker 5:  That's what I'm saying.
+
+935
+00:54:28,640 --> 00:54:29,320
+Speaker 7:  Everybody's
+
+936
+00:54:29,320 --> 00:54:32,320
+Speaker 5:  Got their, I think eventually creators are going to say this is stupid.
+
+937
+00:54:33,220 --> 00:54:36,600
+Speaker 5:  We don't wanna live in your walls because Adobe premier
+
+938
+00:54:37,460 --> 00:54:41,280
+Speaker 5:  is never been gated. Like this iMovie has not gated like this creation except
+
+939
+00:54:41,280 --> 00:54:42,520
+Speaker 5:  that they be gated to.
+
+940
+00:54:42,800 --> 00:54:46,680
+Speaker 7:  I figured it out guys. I figured it out Sonology is gonna create a
+
+941
+00:54:46,680 --> 00:54:50,600
+Speaker 7:  really good widget and everybody's just gonna buy a
+
+942
+00:54:50,720 --> 00:54:54,400
+Speaker 7:  Sonology and upload their videos. And you're gonna like type in the
+
+943
+00:54:54,620 --> 00:54:58,080
+Speaker 7:  IP address for the person's house and get your vertical videos.
+
+944
+00:54:58,700 --> 00:54:59,200
+Speaker 5:  Oh, direct,
+
+945
+00:54:59,200 --> 00:55:03,040
+Speaker 7:  Direct just, oh, instead of going fully into the cloud,
+
+946
+00:55:03,040 --> 00:55:06,400
+Speaker 7:  totally siloed. Everybody's gonna get fed up and be like, we all have our
+
+947
+00:55:06,400 --> 00:55:07,720
+Speaker 7:  little Sonology tos.
+
+948
+00:55:08,890 --> 00:55:10,060
+Speaker 5:  It's Plex. It's push video.
+
+949
+00:55:11,010 --> 00:55:11,700
+Speaker 7:  It's gonna be great.
+
+950
+00:55:12,560 --> 00:55:14,660
+Speaker 6:  All right. Do you think Plex can fix this, Alex? What
+
+951
+00:55:14,660 --> 00:55:15,860
+Speaker 7:  Are your thoughts? They got this.
+
+952
+00:55:16,370 --> 00:55:16,660
+Speaker 6:  Okay,
+
+953
+00:55:16,660 --> 00:55:17,660
+Speaker 5:  Cool. Have you have you install
+
+954
+00:55:18,180 --> 00:55:21,420
+Speaker 7:  Plex in? No, I need to. I thought,
+
+955
+00:55:21,690 --> 00:55:24,940
+Speaker 5:  Alright, well we're gonna take a break. Alex is gonna install Plex on her
+
+956
+00:55:24,940 --> 00:55:28,580
+Speaker 5:  steam deck. We got some car stuff. We got a lightning around coming up. We'll
+
+957
+00:55:28,580 --> 00:55:28,940
+Speaker 5:  be right back.
+
+958
+00:56:36,600 --> 00:56:40,010
+Speaker 5:  Okay. We're back bunch of car news, but I'm not gonna start with
+
+959
+00:56:40,170 --> 00:56:43,770
+Speaker 5:  deadhead car news. I'm gonna start with extremely wonky FCC news because
+
+960
+00:56:43,770 --> 00:56:45,970
+Speaker 5:  you know how I love some extremely wonky FCC news.
+
+961
+00:56:48,680 --> 00:56:52,650
+Speaker 5:  Okay. The car industry lost a court case this week. That
+
+962
+00:56:52,650 --> 00:56:55,730
+Speaker 5:  is like one of my favorite, just dumb conflicts
+
+963
+00:56:55,730 --> 00:56:58,370
+Speaker 6:  In the world. Wait, like the whole car industry. Does the car industry have
+
+964
+00:56:58,370 --> 00:56:59,090
+Speaker 6:  like a lawyer?
+
+965
+00:56:59,890 --> 00:57:01,730
+Speaker 5:  Well, they have an industry group. Oh,
+
+966
+00:57:01,830 --> 00:57:03,210
+Speaker 7:  So they got wrecked.
+
+967
+00:57:03,390 --> 00:57:07,170
+Speaker 5:  So yes, they got wrecked. So in like the late
+
+968
+00:57:07,170 --> 00:57:10,890
+Speaker 5:  nineties, like in 1999, the FCC set aside all the
+
+969
+00:57:11,090 --> 00:57:14,690
+Speaker 5:  spectrum in a 5.9 gigahertz band for something
+
+970
+00:57:14,750 --> 00:57:18,610
+Speaker 5:  called V2 V vehicle to vehicle communications. And then they added
+
+971
+00:57:18,730 --> 00:57:21,490
+Speaker 5:  V to I vehicle to infrastructure communications, and then they make it all
+
+972
+00:57:21,490 --> 00:57:25,370
+Speaker 5:  sound cool. They started calling it VTX. Yes. Which is very funny.
+
+973
+00:57:25,840 --> 00:57:29,770
+Speaker 5:  Sure. So the FCC is like car industry make the cars safer, make
+
+974
+00:57:29,770 --> 00:57:33,490
+Speaker 5:  them all talk to each other, make them talk to stop lights, right?
+
+975
+00:57:33,500 --> 00:57:37,370
+Speaker 5:  Solve traffic jams. You won't hit each other. Here's a big
+
+976
+00:57:37,380 --> 00:57:41,210
+Speaker 5:  chunk of spectrum. Like good spectrum for you to figure this
+
+977
+00:57:41,210 --> 00:57:45,110
+Speaker 5:  out. I have been to like 5,000
+
+978
+00:57:45,610 --> 00:57:48,750
+Speaker 5:  CES demos of V to V and Vida I stuff.
+
+979
+00:57:49,320 --> 00:57:53,310
+Speaker 5:  Right. And like car makers would be like with this new technology, the cars
+
+980
+00:57:53,450 --> 00:57:57,350
+Speaker 5:  can see through each other. We can predict traffic. We can slow you down.
+
+981
+00:57:57,370 --> 00:58:00,950
+Speaker 5:  We can see what's happening up on the road. We can make sure you hit all
+
+982
+00:58:00,970 --> 00:58:04,950
+Speaker 5:  the stoplights perfectly on time. It's here. And then none of it ever
+
+983
+00:58:05,110 --> 00:58:05,190
+Speaker 5:  ships,
+
+984
+00:58:05,810 --> 00:58:09,750
+Speaker 6:  But it's a, just, this is like the right idea, right? Yes. Like, is, is this
+
+985
+00:58:09,750 --> 00:58:12,910
+Speaker 6:  just like, okay. Cuz it always, I I've, I've spent less time with car people
+
+986
+00:58:12,910 --> 00:58:15,830
+Speaker 6:  at CES than you have. But even in the, like I spent a bunch of time with
+
+987
+00:58:15,830 --> 00:58:19,630
+Speaker 6:  Qualcomm, like four or five years ago and all they talked about was V to
+
+988
+00:58:19,630 --> 00:58:22,750
+Speaker 6:  V stuff. And it's like, okay, the idea that I don't just have to rely on
+
+989
+00:58:22,750 --> 00:58:26,510
+Speaker 6:  my phone's CA or on my car's cameras to see everything that's going on, I
+
+990
+00:58:26,510 --> 00:58:30,150
+Speaker 6:  can actually let my car talk to the other car and to the
+
+991
+00:58:30,150 --> 00:58:32,870
+Speaker 6:  stoplight and they can all understand what's going on that way. It seems
+
+992
+00:58:32,870 --> 00:58:35,310
+Speaker 6:  like the right, like in a perfect world, that's how they should work. Right.
+
+993
+00:58:35,310 --> 00:58:38,670
+Speaker 7:  Yeah. But David, have you considered that these are the same people that
+
+994
+00:58:38,900 --> 00:58:42,870
+Speaker 7:  make like in car HUDs and, and in
+
+995
+00:58:42,930 --> 00:58:46,470
+Speaker 7:  car comp, like it's the same people that are like, we need a S Schor
+
+996
+00:58:46,700 --> 00:58:50,670
+Speaker 7:  version of the car, so you can turn your lights off and on
+
+997
+00:58:51,460 --> 00:58:52,110
+Speaker 7:  like of course,
+
+998
+00:58:52,540 --> 00:58:56,030
+Speaker 6:  Yeah. You have to tap on the truck to, to, to change the climate in
+
+999
+00:58:56,030 --> 00:58:59,430
+Speaker 5:  Your truck. Okay. So to be fair, like a tiny handful of
+
+1000
+00:58:59,580 --> 00:59:02,670
+Speaker 5:  extremely expensive luxury cars shipped with like VTV radios,
+
+1001
+00:59:04,050 --> 00:59:07,790
+Speaker 5:  the 2017 Mercedes-Benz E-Class and S class
+
+1002
+00:59:09,470 --> 00:59:12,790
+Speaker 5:  Cadillac CTS in 2017. Okay. Three
+
+1003
+00:59:13,020 --> 00:59:13,910
+Speaker 6:  Talking to nothing.
+
+1004
+00:59:14,500 --> 00:59:16,390
+Speaker 5:  Yeah. Just, just rolling around talking to nothing.
+
+1005
+00:59:19,050 --> 00:59:22,720
+Speaker 5:  And then they started, I mean, all these names are great and then, you know,
+
+1006
+00:59:22,980 --> 00:59:26,400
+Speaker 5:  5g happened. Everyone's like 5g will do it. And they started calling it cellular
+
+1007
+00:59:26,720 --> 00:59:28,240
+Speaker 5:  V two X or CV two X.
+
+1008
+00:59:28,340 --> 00:59:29,240
+Speaker 6:  Yes. Oh my God.
+
+1009
+00:59:29,870 --> 00:59:32,280
+Speaker 5:  Nothing resonates with the consumers like CV two X.
+
+1010
+00:59:33,750 --> 00:59:36,720
+Speaker 5:  Okay. So then 2017 Trump
+
+1011
+00:59:37,700 --> 00:59:40,640
+Speaker 5:  FCC, which was just a wrecking ball of ideas,
+
+1012
+00:59:41,780 --> 00:59:45,720
+Speaker 5:  got rid of a regulation that Obama's FCC had put in
+
+1013
+00:59:45,720 --> 00:59:49,160
+Speaker 5:  saying, all the cars needed VTV stuff, right? How do you get over the hump
+
+1014
+00:59:49,160 --> 00:59:51,440
+Speaker 5:  of no cars having it? You just write the law, saying all the cars need to
+
+1015
+00:59:51,440 --> 00:59:53,800
+Speaker 5:  have it. We all need to do it. Cars are gonna stop crashing into each other,
+
+1016
+00:59:54,660 --> 00:59:58,520
+Speaker 5:  not the Trump FCC, which didn't do it to be fair. It had been
+
+1017
+00:59:58,880 --> 01:00:02,520
+Speaker 5:  17 years, right? Like they, they set us on the spectrum in
+
+1018
+01:00:02,640 --> 01:00:06,600
+Speaker 5:  1999 in 2017, nothing is shipping. So
+
+1019
+01:00:06,700 --> 01:00:10,360
+Speaker 5:  our boy, a Jeep pie is like, screw it.
+
+1020
+01:00:10,940 --> 01:00:14,520
+Speaker 5:  I'm giving a bunch of the spectrum back to unlicensed
+
+1021
+01:00:14,610 --> 01:00:18,600
+Speaker 5:  usage, which is a big trend lately. So maybe we'll have 5.9 gig
+
+1022
+01:00:18,600 --> 01:00:22,240
+Speaker 5:  Hertz wifi now. And you can still keep a little chunk of this
+
+1023
+01:00:22,700 --> 01:00:25,400
+Speaker 5:  for cellular B two X CB two X.
+
+1024
+01:00:26,510 --> 01:00:29,970
+Speaker 5:  So the automakers industry groups are like, don't do this. We need it.
+
+1025
+01:00:30,430 --> 01:00:34,410
+Speaker 5:  If we, if wifi will interfere with our radios, that don't exist.
+
+1026
+01:00:35,390 --> 01:00:37,570
+Speaker 5:  The Alliance for automotive innovation
+
+1027
+01:00:39,530 --> 01:00:43,490
+Speaker 5:  promised 5 million cars would have VV over the next five
+
+1028
+01:00:43,510 --> 01:00:46,490
+Speaker 5:  years, but they wouldn't do it if the FCC gave the spectrum
+
+1029
+01:00:47,320 --> 01:00:51,260
+Speaker 5:  away. Okay. So they file the lawsuit. The lawsuit comes out
+
+1030
+01:00:51,260 --> 01:00:54,740
+Speaker 5:  and the judge is like, what are you talking about? No intelligent
+
+1031
+01:00:54,740 --> 01:00:58,660
+Speaker 5:  transportation systems have been developed as of 2020, no,
+
+1032
+01:00:58,660 --> 01:01:02,620
+Speaker 5:  commercially marketed vehicles used 5.9 gig. It hurts to
+
+1033
+01:01:02,620 --> 01:01:06,020
+Speaker 5:  provide vehicle safety features. And then he's like your argument
+
+1034
+01:01:06,450 --> 01:01:10,100
+Speaker 5:  that you need all this spectrum for new technologies
+
+1035
+01:01:10,280 --> 01:01:14,140
+Speaker 5:  is not great. Noting the petitioners have directed us to no significant
+
+1036
+01:01:14,140 --> 01:01:16,780
+Speaker 5:  developments in the field of yet to arrive technologies.
+
+1037
+01:01:17,440 --> 01:01:17,940
+Speaker 6:  So good.
+
+1038
+01:01:18,410 --> 01:01:22,380
+Speaker 5:  This isn't judge saying your shit's of vaporware. Yes. It makes
+
+1039
+01:01:22,460 --> 01:01:23,220
+Speaker 5:  me so happy.
+
+1040
+01:01:25,130 --> 01:01:25,420
+Speaker 5:  Yeah.
+
+1041
+01:01:25,520 --> 01:01:29,340
+Speaker 6:  The field of yet to arrive technologies yeah. Is like the, the,
+
+1042
+01:01:29,440 --> 01:01:32,540
+Speaker 6:  the beginning of a book title about vaporware that I would very much
+
+1043
+01:01:32,540 --> 01:01:36,100
+Speaker 5:  Read. It's so good. And it's like, this is such a good idea. You guys never
+
+1044
+01:01:36,100 --> 01:01:39,620
+Speaker 5:  shipped it. It was vapor for so long that eventually the United States government
+
+1045
+01:01:39,620 --> 01:01:41,740
+Speaker 5:  was like, we're gonna dunk on you a little bit for a while.
+
+1046
+01:01:42,880 --> 01:01:43,100
+Speaker 6:  The
+
+1047
+01:01:43,700 --> 01:01:47,660
+Speaker 5:  Very good, well, hopefully our wifi riders get better and hopefully
+
+1048
+01:01:47,840 --> 01:01:51,060
+Speaker 5:  5g actually does. It's like they drive robot surgeons to your house and self-driving
+
+1049
+01:01:51,060 --> 01:01:54,020
+Speaker 5:  cars. That, that's what Verizon's ad said. Sure. 5g.
+
+1050
+01:01:54,160 --> 01:01:56,820
+Speaker 6:  So is V2 V like dead now? Like what, what
+
+1051
+01:01:56,820 --> 01:01:59,500
+Speaker 5:  Happens? No, cuz they're, they're they're supposed to put 5g radios in the
+
+1052
+01:01:59,500 --> 01:01:59,660
+Speaker 5:  cars.
+
+1053
+01:02:00,240 --> 01:02:01,460
+Speaker 6:  Oh. So 5g will fix it.
+
+1054
+01:02:03,370 --> 01:02:07,180
+Speaker 5:  They still have a tiny little chunk of this spectrum reserve for that use,
+
+1055
+01:02:07,520 --> 01:02:11,180
+Speaker 5:  but they wanted it all and they, they just didn't use it for 20 years. Yeah.
+
+1056
+01:02:11,180 --> 01:02:14,940
+Speaker 5:  So now it's coming back to unlicensed usage for wifi, which I think is probably
+
+1057
+01:02:14,940 --> 01:02:18,300
+Speaker 5:  the right decision. Yes. But it's like use it or lose it pro like
+
+1058
+01:02:19,150 --> 01:02:22,480
+Speaker 6:  Yeah. 20 years seems like long enough to try to do something
+
+1059
+01:02:23,000 --> 01:02:23,480
+Speaker 6:  functional. Here.
+
+1060
+01:02:23,820 --> 01:02:24,520
+Speaker 5:  It is very good.
+
+1061
+01:02:26,050 --> 01:02:29,960
+Speaker 5:  Other car news, big study, EV owners don't like the
+
+1062
+01:02:29,960 --> 01:02:33,520
+Speaker 5:  broken chargers and bad charging software surprise. More
+
+1063
+01:02:33,520 --> 01:02:37,440
+Speaker 5:  importantly, the inflation reduction act was signed big
+
+1064
+01:02:37,560 --> 01:02:41,440
+Speaker 5:  climate bill, lots of EV text credit news. And that bill on
+
+1065
+01:02:41,440 --> 01:02:45,360
+Speaker 5:  the plus side, Tesla gets the credit again. They'd run out there only 200,000.
+
+1066
+01:02:45,380 --> 01:02:49,320
+Speaker 5:  So Tesla had run out ages ago. GM had run out. I
+
+1067
+01:02:49,320 --> 01:02:52,880
+Speaker 5:  think Ford was about to run out. They get it again. If the cars are made
+
+1068
+01:02:52,880 --> 01:02:55,560
+Speaker 5:  in north America, if the batteries are made in north America after I think
+
+1069
+01:02:55,560 --> 01:02:59,280
+Speaker 5:  20, 24. So that means like the Hyundai
+
+1070
+01:02:59,390 --> 01:03:02,640
+Speaker 5:  ionic five does not get the credit anymore. It's hard. It's confusing. Lots
+
+1071
+01:03:02,640 --> 01:03:05,960
+Speaker 5:  of freak outs in like various car forms about when you assign your contract.
+
+1072
+01:03:05,990 --> 01:03:08,920
+Speaker 5:  Because if you sign your contract, you, if you have a written contract before
+
+1073
+01:03:08,920 --> 01:03:11,080
+Speaker 5:  the date of the thing, you still get the credit. If you don't, you don't,
+
+1074
+01:03:11,430 --> 01:03:14,280
+Speaker 5:  Andy Hawkins is a great explainer about it, which walking through it,
+
+1075
+01:03:15,540 --> 01:03:18,760
+Speaker 5:  the really important piece of the puzzle though, is it's gonna push battery
+
+1076
+01:03:18,760 --> 01:03:21,880
+Speaker 5:  manufacturing to the United States because car makers need the batteries
+
+1077
+01:03:21,880 --> 01:03:25,680
+Speaker 5:  made here to get the credits, which I think is important. And the other
+
+1078
+01:03:25,680 --> 01:03:28,920
+Speaker 5:  important piece of the puzzle, because of this written contract requirement,
+
+1079
+01:03:28,920 --> 01:03:31,880
+Speaker 5:  all these like vaporware car pre-orders yes. Might go away.
+
+1080
+01:03:32,420 --> 01:03:32,640
+Speaker 7:  Yes.
+
+1081
+01:03:33,130 --> 01:03:37,040
+Speaker 5:  Which I think is super fascinating. Like knock on. I don't think anybody
+
+1082
+01:03:37,060 --> 01:03:40,680
+Speaker 5:  was anticipating that this would be the knock on effect, but if you need
+
+1083
+01:03:40,680 --> 01:03:43,800
+Speaker 5:  the contract before, like lucid is shifting from
+
+1084
+01:03:44,240 --> 01:03:48,200
+Speaker 5:  preorder reservations to written contracts now, because they gotta lock
+
+1085
+01:03:48,200 --> 01:03:50,600
+Speaker 5:  in the order to get people the credit before the,
+
+1086
+01:03:50,820 --> 01:03:51,600
+Speaker 7:  Oh man, they're gonna get,
+
+1087
+01:03:52,340 --> 01:03:53,120
+Speaker 5:  Or before the law goes
+
+1088
+01:03:53,180 --> 01:03:56,680
+Speaker 7:  Effect, it's pass. So if these companies that are like shifting so that they
+
+1089
+01:03:56,680 --> 01:04:00,560
+Speaker 7:  can make sure they get the money, don't ship the cars at a timely
+
+1090
+01:04:00,560 --> 01:04:03,520
+Speaker 7:  fashion. Can they get the hell suit out of 'em by the customers?
+
+1091
+01:04:04,200 --> 01:04:07,120
+Speaker 5:  I know it depends on what these, these written contracts.
+
+1092
+01:04:07,260 --> 01:04:11,200
+Speaker 7:  Oh my God, that's fine. Right? So the, I mean, not for the car makers, but
+
+1093
+01:04:11,630 --> 01:04:15,360
+Speaker 7:  like for me personally, I'm opposed to vaporware. Well,
+
+1094
+01:04:15,360 --> 01:04:18,560
+Speaker 5:  See the, the game around the credits is like,
+
+1095
+01:04:19,110 --> 01:04:22,960
+Speaker 5:  it's in a real limbo space right now. Like the law has
+
+1096
+01:04:22,980 --> 01:04:26,080
+Speaker 5:  passed. No one really knows what it means. There's lots of attempts to figure
+
+1097
+01:04:26,080 --> 01:04:29,400
+Speaker 5:  out what it means, how to get the credits at the same time. Ford right.
+
+1098
+01:04:29,400 --> 01:04:33,240
+Speaker 5:  7,500 credit comes back for them, cuz they're not gonna hit the cap
+
+1099
+01:04:33,240 --> 01:04:35,760
+Speaker 5:  anymore. They just raised the price of the truck by $8,000.
+
+1100
+01:04:36,230 --> 01:04:39,120
+Speaker 7:  Cool, cool. Nevermind. I hate this. This is terrible.
+
+1101
+01:04:39,870 --> 01:04:43,680
+Speaker 5:  Yeah. So go read that explainer. If you are in the market for a car like
+
+1102
+01:04:43,680 --> 01:04:47,600
+Speaker 5:  me and you can't find a car to buy like me, it's good. It's very helpful.
+
+1103
+01:04:47,700 --> 01:04:50,000
+Speaker 5:  He, Andy definitely wrote the explainer cuz I was like, I don't what to do.
+
+1104
+01:04:50,500 --> 01:04:54,400
+Speaker 5:  So thank you, Andy. And then last we have to call this one out
+
+1105
+01:04:55,490 --> 01:04:58,840
+Speaker 5:  Dodge, dear suite Dodge, part of the FCA Solanis
+
+1106
+01:04:59,470 --> 01:05:01,960
+Speaker 5:  worldwide conglomerate of car manufacturers.
+
+1107
+01:05:03,270 --> 01:05:07,240
+Speaker 5:  They put out their first EV concept. So charger EV sick.
+
+1108
+01:05:07,240 --> 01:05:10,720
+Speaker 5:  It has a fake exhaust sound. Like they were like muscle car buyers,
+
+1109
+01:05:10,990 --> 01:05:14,720
+Speaker 5:  want loud cars. So we just put speakers in this
+
+1110
+01:05:14,820 --> 01:05:17,480
+Speaker 5:  car that make it make loud sounds. And
+
+1111
+01:05:17,480 --> 01:05:19,320
+Speaker 6:  It's the best. It's the best loud sound.
+
+1112
+01:05:23,110 --> 01:05:25,880
+Speaker 5:  Andy Hawkins. When he wrote about it said it sounds like a line getting neutered.
+
+1113
+01:05:25,880 --> 01:05:27,160
+Speaker 5:  And I think that is exactly right.
+
+1114
+01:05:28,150 --> 01:05:28,920
+Speaker 6:  It's pretty good.
+
+1115
+01:05:30,230 --> 01:05:30,520
+Speaker 5:  It's
+
+1116
+01:05:30,520 --> 01:05:30,680
+Speaker 7:  Very
+
+1117
+01:05:31,000 --> 01:05:31,800
+Speaker 5:  Accurate. Something else.
+
+1118
+01:05:33,360 --> 01:05:36,200
+Speaker 5:  They're calling it a battery electric vehicle exhaust noise.
+
+1119
+01:05:36,460 --> 01:05:37,320
+Speaker 7:  Can you turn it off?
+
+1120
+01:05:37,790 --> 01:05:39,360
+Speaker 5:  It's I don't know.
+
+1121
+01:05:39,600 --> 01:05:43,280
+Speaker 7:  I think somebody like is testing it at 2:00 AM outside my window
+
+1122
+01:05:43,720 --> 01:05:44,760
+Speaker 7:  lately. I think I'm hearing it a lot.
+
+1123
+01:05:45,660 --> 01:05:49,640
+Speaker 5:  The name is called the frat Sonic chambered
+
+1124
+01:05:49,640 --> 01:05:53,560
+Speaker 5:  exhaust. No. What? Which can reach 126 decibels
+
+1125
+01:05:53,560 --> 01:05:56,360
+Speaker 5:  making it as loud as a hell. Cat powered Dutch.
+
+1126
+01:05:57,460 --> 01:06:01,400
+Speaker 6:  And am I, am I wrong for thinking that an exhaust is not
+
+1127
+01:06:01,440 --> 01:06:04,920
+Speaker 6:  a thing that needs to exist on an electric vehicle? Am I crazy?
+
+1128
+01:06:05,390 --> 01:06:08,440
+Speaker 5:  It's just speakers. Okay. I don't know what to tell you.
+
+1129
+01:06:09,180 --> 01:06:12,320
+Speaker 5:  It is not an exhaust. It is just a button marked mega.
+
+1130
+01:06:12,540 --> 01:06:16,520
+Speaker 7:  It is legit. Just somebody going as they drive down the road. Yep.
+
+1131
+01:06:16,660 --> 01:06:18,080
+Speaker 7:  But with a really good speaker.
+
+1132
+01:06:18,220 --> 01:06:21,360
+Speaker 6:  So instead of flipping up and hitting NAS, you hit the speakers.
+
+1133
+01:06:22,180 --> 01:06:26,160
+Speaker 5:  And then also if you've ever driven, EV you know, they don't
+
+1134
+01:06:26,160 --> 01:06:30,010
+Speaker 5:  have transmissions cuz they they're just electric motors.
+
+1135
+01:06:30,970 --> 01:06:34,790
+Speaker 5:  The cool part of driving EV is like the instant torque at
+
+1136
+01:06:34,790 --> 01:06:38,470
+Speaker 5:  every part of whatever Dodge decided muscle car buyers
+
+1137
+01:06:38,580 --> 01:06:42,510
+Speaker 5:  need a transmission. So they've added a transmission. I'm not
+
+1138
+01:06:42,510 --> 01:06:46,310
+Speaker 5:  sure how it works, cuz it it's like a confusing idea in an electric
+
+1139
+01:06:46,330 --> 01:06:50,150
+Speaker 5:  car. So we'll see how it works. But they've given it a
+
+1140
+01:06:50,150 --> 01:06:53,350
+Speaker 5:  name and the name is lowercase E yes.
+
+1141
+01:06:54,030 --> 01:06:57,470
+Speaker 5:  R lowercase E I love it. And the name is lowercase E
+
+1142
+01:06:57,780 --> 01:07:01,310
+Speaker 5:  capital letter, R U P T or erupt?
+
+1143
+01:07:02,730 --> 01:07:03,990
+Speaker 6:  No, it's it's erupt.
+
+1144
+01:07:08,780 --> 01:07:09,070
+Speaker 6:  What
+
+1145
+01:07:09,070 --> 01:07:09,870
+Speaker 7:  If it's just like a game?
+
+1146
+01:07:09,980 --> 01:07:12,510
+Speaker 6:  What do you think? VIN diesel thinks that's all I find myself wondering right
+
+1147
+01:07:12,510 --> 01:07:15,630
+Speaker 6:  now is like, did, did van diesel get in the driver's seat to one of those
+
+1148
+01:07:15,630 --> 01:07:19,390
+Speaker 6:  and go, this feels right? Like, is that, is that I just wanna know.
+
+1149
+01:07:19,750 --> 01:07:23,070
+Speaker 7:  I hope it's in the next fast and furious movie and he is like, it could be
+
+1150
+01:07:23,190 --> 01:07:26,430
+Speaker 7:  louder. And like part of the movie is them just trying to make it as loud
+
+1151
+01:07:26,490 --> 01:07:29,990
+Speaker 7:  as possible. Well, he gets really good at the, the gear shifting game.
+
+1152
+01:07:30,450 --> 01:07:34,310
+Speaker 5:  I'm just gonna read you this last paragraph from the CNBC piece KCU
+
+1153
+01:07:34,380 --> 01:07:38,350
+Speaker 5:  he's the CEO of Dodge said some of the design elements and technologies are
+
+1154
+01:07:38,510 --> 01:07:42,350
+Speaker 5:  expected to impact the range of the vehicle, but it's not something
+
+1155
+01:07:42,350 --> 01:07:46,150
+Speaker 5:  Dodge is worried about. And then quote, I don't care. It's
+
+1156
+01:07:46,250 --> 01:07:48,030
+Speaker 5:  badass. It's a muscle car.
+
+1157
+01:07:50,000 --> 01:07:52,700
+Speaker 7:  That's right. That's that's what muscle car owners feel.
+
+1158
+01:07:53,250 --> 01:07:57,180
+Speaker 5:  Yeah, you gotta, you gotta hit the mega base button to go five
+
+1159
+01:07:57,180 --> 01:07:58,700
+Speaker 5:  miles on charge. It's
+
+1160
+01:07:58,700 --> 01:08:02,220
+Speaker 6:  Good. I've been thinking that it's, it's a real bummer that with electric
+
+1161
+01:08:02,220 --> 01:08:05,820
+Speaker 6:  vehicles, the world is gonna get quieter. So I'm really glad Dodge is out
+
+1162
+01:08:05,820 --> 01:08:07,260
+Speaker 6:  here trying to solve that problem for us.
+
+1163
+01:08:07,970 --> 01:08:10,660
+Speaker 5:  It's just a concept. No idea when it will ship.
+
+1164
+01:08:10,940 --> 01:08:14,580
+Speaker 7:  I do like the gear shifting thing. That's fun. Like I was just reading
+
+1165
+01:08:15,440 --> 01:08:18,600
+Speaker 7:  a story the other day from somebody about like how gear shifting is going
+
+1166
+01:08:18,670 --> 01:08:21,960
+Speaker 7:  away and it's not gonna, like, it's gonna be a lost art
+
+1167
+01:08:22,500 --> 01:08:25,880
+Speaker 7:  and these, these EV owners you'll be able to hear them coming and you'll
+
+1168
+01:08:25,880 --> 01:08:26,880
+Speaker 7:  be like a heck guy, Alex,
+
+1169
+01:08:26,900 --> 01:08:30,520
+Speaker 5:  Let me ask you straight up. Do you know how to ride a horse? Yes. You're
+
+1170
+01:08:30,520 --> 01:08:33,480
+Speaker 5:  from Texas. Are you, are you an equestrian of anything?
+
+1171
+01:08:33,600 --> 01:08:37,520
+Speaker 7:  I mean, I've ridden a horse one time. I rode it a gal. Yeah.
+
+1172
+01:08:37,520 --> 01:08:40,400
+Speaker 5:  I've ridden a horse too. Would you say you knew how to ride a horse?
+
+1173
+01:08:40,720 --> 01:08:43,760
+Speaker 7:  I feel like it's not hard. You just like get up there, but it's different.
+
+1174
+01:08:43,940 --> 01:08:44,760
+Speaker 6:  That's a no, from
+
+1175
+01:08:44,760 --> 01:08:47,960
+Speaker 5:  That once upon a time, someone was like riding a horse is a lost art.
+
+1176
+01:08:49,020 --> 01:08:52,960
+Speaker 5:  That's just where we are. Like the, the American
+
+1177
+01:08:53,040 --> 01:08:56,320
+Speaker 5:  unicycle Alliance was like, these cars gonna replace uni
+
+1178
+01:08:56,540 --> 01:08:57,360
+Speaker 7:  The part unicycle.
+
+1179
+01:08:57,990 --> 01:09:00,800
+Speaker 6:  This also sounds like they're gonna just put a joystick in the middle of
+
+1180
+01:09:00,800 --> 01:09:02,160
+Speaker 6:  the car that does nothing. Yes.
+
+1181
+01:09:02,220 --> 01:09:03,280
+Speaker 7:  But that's the best part.
+
+1182
+01:09:03,350 --> 01:09:05,440
+Speaker 6:  Make some rumbling noises every time you move.
+
+1183
+01:09:05,600 --> 01:09:06,280
+Speaker 7:  I hope it changes
+
+1184
+01:09:06,280 --> 01:09:08,120
+Speaker 6:  The audio. It's gonna make a bunch of people really happy.
+
+1185
+01:09:09,350 --> 01:09:09,880
+Speaker 7:  They're gonna
+
+1186
+01:09:12,260 --> 01:09:15,400
+Speaker 5:  All, let's try this up. The lighting round and runs erupted.
+
+1187
+01:09:17,750 --> 01:09:20,760
+Speaker 5:  It's horrible. Lots of stuff in line around David, what you got,
+
+1188
+01:09:21,330 --> 01:09:23,480
+Speaker 6:  We're definitely getting an explicit tag on this podcast.
+
+1189
+01:09:25,160 --> 01:09:29,040
+Speaker 6:  I, the thing that jumped out to me the most was snap giving up on the
+
+1190
+01:09:29,040 --> 01:09:32,960
+Speaker 6:  pixie drone. Aw. After, after just four months, this thing feels
+
+1191
+01:09:32,960 --> 01:09:36,680
+Speaker 6:  like it just shipped 15 minutes ago because it basically just did.
+
+1192
+01:09:37,140 --> 01:09:40,800
+Speaker 6:  And the it's kind of a sign of the times,
+
+1193
+01:09:40,950 --> 01:09:44,320
+Speaker 6:  like it's, it's a tough economy. Everybody is sort of pulling back and finding
+
+1194
+01:09:44,320 --> 01:09:47,640
+Speaker 6:  ways to cut down on spending. And like, I don't think anyone thought the,
+
+1195
+01:09:47,940 --> 01:09:51,760
+Speaker 6:  the pixie drone was gonna be a huge revenue driver for snap anytime soon.
+
+1196
+01:09:52,180 --> 01:09:56,040
+Speaker 6:  But if it's indicative of what this next phase is gonna look like,
+
+1197
+01:09:56,040 --> 01:09:58,520
+Speaker 6:  where I think a lot of companies are gonna pull back on anything that feels
+
+1198
+01:09:58,520 --> 01:10:02,400
+Speaker 6:  sort of extraneous as a person who likes gadgets and
+
+1199
+01:10:02,400 --> 01:10:05,400
+Speaker 6:  technology and new things, it just kind of makes me sad. And I think we're,
+
+1200
+01:10:05,400 --> 01:10:08,000
+Speaker 6:  we're gonna get a lot of companies investing in like a very small number
+
+1201
+01:10:08,180 --> 01:10:11,960
+Speaker 6:  of relatively uninteresting things and trying to figure out how to
+
+1202
+01:10:12,160 --> 01:10:16,000
+Speaker 6:  monetize all the stuff you already use and spending less time
+
+1203
+01:10:16,020 --> 01:10:19,960
+Speaker 6:  in the very near future, trying to invent new stuff. And I kind of think
+
+1204
+01:10:19,960 --> 01:10:23,080
+Speaker 6:  that's a bummer. I was never gonna buy a pixie drone, but it's the kind of
+
+1205
+01:10:23,080 --> 01:10:25,960
+Speaker 6:  thing that like, I like that it exists. And I like that snap is the kind
+
+1206
+01:10:25,960 --> 01:10:29,480
+Speaker 6:  of company that makes this stuff. So it's just a bummer to see it give up
+
+1207
+01:10:29,480 --> 01:10:29,840
+Speaker 6:  so fast.
+
+1208
+01:10:30,190 --> 01:10:33,400
+Speaker 5:  Yeah. I, I think the flip side of that is one of the big companies
+
+1209
+01:10:34,270 --> 01:10:37,720
+Speaker 5:  look inward in that way. It just creates a lot of
+
+1210
+01:10:37,720 --> 01:10:41,400
+Speaker 5:  opportunity for other companies to make interesting things and not worry
+
+1211
+01:10:41,470 --> 01:10:45,040
+Speaker 5:  that, you know, we are gonna make a camera drone and then like
+
+1212
+01:10:45,400 --> 01:10:48,800
+Speaker 5:  Facebook will make one and kills. Yeah. And so I'm hopeful that there's a
+
+1213
+01:10:48,800 --> 01:10:51,720
+Speaker 5:  little bit of that dynamic in the future where you see the smaller companies
+
+1214
+01:10:51,720 --> 01:10:55,040
+Speaker 5:  do interesting things, cuz it's easier to differentiate when you know, the
+
+1215
+01:10:55,040 --> 01:10:57,960
+Speaker 5:  big companies are focused on monetizing app.
+
+1216
+01:10:59,100 --> 01:11:01,480
+Speaker 6:  That's fair. I think that's, I think that's right. And I hope that is true,
+
+1217
+01:11:01,880 --> 01:11:05,680
+Speaker 6:  but I do think there is a decent chance we're headed into a weird
+
+1218
+01:11:06,350 --> 01:11:09,840
+Speaker 6:  time for hardware. Like supply chain stuff continues to be wonky.
+
+1219
+01:11:10,680 --> 01:11:13,760
+Speaker 6:  Hardware is hard and expensive. There's like people are buying less and less
+
+1220
+01:11:13,760 --> 01:11:17,600
+Speaker 6:  of that stuff. So I, I'm gonna be curious to see what the next like
+
+1221
+01:11:17,700 --> 01:11:21,200
+Speaker 6:  12 to 24 months looks like in terms of interesting new hardware.
+
+1222
+01:11:21,980 --> 01:11:25,510
+Speaker 5:  Yeah. Okay. Here's my line around one. It's very good. This is a
+
+1223
+01:11:25,510 --> 01:11:29,390
+Speaker 5:  journalism story in its core, like a perfect journalism story.
+
+1224
+01:11:29,930 --> 01:11:33,750
+Speaker 5:  So there's this platform called trier, which you probably
+
+1225
+01:11:33,960 --> 01:11:37,750
+Speaker 5:  don't know about. It's a TikTok clone run America. They're doing okay.
+
+1226
+01:11:37,750 --> 01:11:41,510
+Speaker 5:  They like raised a bunch of money. They caught some audience. The Dios are
+
+1227
+01:11:41,670 --> 01:11:42,310
+Speaker 5:  involved in some way.
+
+1228
+01:11:42,930 --> 01:11:46,830
+Speaker 6:  Do you guys remember when all the TikTok Trump stuff was happening? And there
+
+1229
+01:11:46,830 --> 01:11:46,950
+Speaker 6:  was,
+
+1230
+01:11:47,370 --> 01:11:47,630
+Speaker 5:  Was like,
+
+1231
+01:11:48,740 --> 01:11:52,350
+Speaker 6:  Come to us, like's gonna die. Were the new TikTok let's go.
+
+1232
+01:11:52,860 --> 01:11:55,990
+Speaker 5:  Yeah. And so they raised a bunch of money that time. They spent some of that
+
+1233
+01:11:55,990 --> 01:11:59,710
+Speaker 5:  money on versa, which was a pandemic sensation
+
+1234
+01:11:59,850 --> 01:12:03,310
+Speaker 5:  run by Timbaland and Swiss beats who are megastar hiphop. It's still good.
+
+1235
+01:12:03,750 --> 01:12:07,230
+Speaker 5:  I can't, if you don't, I can't believe I explained don't you don't need to,
+
+1236
+01:12:07,610 --> 01:12:10,950
+Speaker 5:  if you're listening to this, then you don't know Tim like go educate yourselves.
+
+1237
+01:12:13,510 --> 01:12:16,430
+Speaker 5:  I mean, they like created the sound of like at least a decade and a half.
+
+1238
+01:12:16,900 --> 01:12:20,830
+Speaker 5:  Yeah. So they paid and they had sold versa. They had licensed
+
+1239
+01:12:20,830 --> 01:12:24,790
+Speaker 5:  it like apple music was streaming versa. It was just them calling their famous
+
+1240
+01:12:25,190 --> 01:12:28,750
+Speaker 5:  musician friends together. And like they would play their songs at each other
+
+1241
+01:12:28,750 --> 01:12:31,590
+Speaker 5:  and talk shit. Yes. And it was great. It was like, it was great. Incredible.
+
+1242
+01:12:31,810 --> 01:12:35,270
+Speaker 5:  It was like, it's really fun to watch. So they sold it to versa.
+
+1243
+01:12:35,940 --> 01:12:39,870
+Speaker 5:  They sold it trier or they sold, they sold. Yeah. They sold versa
+
+1244
+01:12:40,050 --> 01:12:43,990
+Speaker 5:  to trier. And now they're suing trier cuz they say trier owes them
+
+1245
+01:12:43,990 --> 01:12:47,910
+Speaker 5:  28 million and never paid to, to date. Defendants
+
+1246
+01:12:47,910 --> 01:12:50,830
+Speaker 5:  trier have failed and refused to any payment to Timberland and Swiss beats
+
+1247
+01:12:50,830 --> 01:12:53,710
+Speaker 5:  for the past two sums blah blah, blah. Right.
+
+1248
+01:12:55,080 --> 01:12:58,550
+Speaker 5:  Great trier. This is the journalism story part. So that's very funny cuz
+
+1249
+01:12:58,550 --> 01:13:02,510
+Speaker 5:  you know, upstart social platform with no real money, forgot to pay the
+
+1250
+01:13:02,510 --> 01:13:05,950
+Speaker 5:  superstar about producers, funny as face. So we report on this, we get the
+
+1251
+01:13:06,050 --> 01:13:09,790
+Speaker 5:  lawsuit rather complete. We asked trier for a statement.
+
+1252
+01:13:10,010 --> 01:13:13,910
+Speaker 5:  So Mr. Off, who's on asked trier for statement. They reply
+
+1253
+01:13:13,910 --> 01:13:16,070
+Speaker 5:  from an account. That's just like press@triller.com.
+
+1254
+01:13:17,770 --> 01:13:21,390
+Speaker 5:  And it's like, the statement is just on its face. Like not like hilarious.
+
+1255
+01:13:21,850 --> 01:13:25,230
+Speaker 5:  We do not wish to air our dirty laundry in the press, but we have paid SW
+
+1256
+01:13:25,370 --> 01:13:28,470
+Speaker 5:  to millions in cash in stock. No one has benefited mushroom Triller to date
+
+1257
+01:13:28,470 --> 01:13:32,150
+Speaker 5:  Triller helped fuel versus to new Heights, which is just not true. It was
+
+1258
+01:13:32,150 --> 01:13:35,550
+Speaker 5:  already at the Heights like apple music is streaming. The thing it's already,
+
+1259
+01:13:36,450 --> 01:13:39,590
+Speaker 5:  it was already a global cultural phenomenon before sch showed up and they
+
+1260
+01:13:39,590 --> 01:13:43,470
+Speaker 5:  said we made it whatever we hope it's just a misunderstanding. So
+
+1261
+01:13:43,470 --> 01:13:46,630
+Speaker 5:  then we have this background policy where we don't now allow unnamed PR people.
+
+1262
+01:13:46,850 --> 01:13:49,890
+Speaker 5:  So email back, this has to be on the record.
+
+1263
+01:13:50,700 --> 01:13:54,160
+Speaker 5:  She gets even longer statement, which is like,
+
+1264
+01:13:55,380 --> 01:13:58,320
+Speaker 5:  you can just read it. It's very long for it's like randomly capitalized.
+
+1265
+01:13:58,540 --> 01:13:59,240
+Speaker 5:  The whole thing.
+
+1266
+01:14:00,860 --> 01:14:04,840
+Speaker 5:  We think it's a legal shakedown. They have not delivered
+
+1267
+01:14:05,140 --> 01:14:08,120
+Speaker 5:  any episodes of versa. We think their lawyers are over zealous,
+
+1268
+01:14:09,480 --> 01:14:13,400
+Speaker 5:  whatever. It's just like, ah, it's the random capitals are really good. No,
+
+1269
+01:14:13,420 --> 01:14:16,520
+Speaker 5:  no sign though. They still haven't signed it. It came from a different email
+
+1270
+01:14:16,520 --> 01:14:20,370
+Speaker 5:  address from outlook.com and at the bottom it
+
+1271
+01:14:20,400 --> 01:14:21,250
+Speaker 5:  just says, Ryan
+
+1272
+01:14:23,140 --> 01:14:27,130
+Speaker 5:  trier co-founder is stamped Ryan Kavanaugh. So he just like reply
+
+1273
+01:14:27,130 --> 01:14:30,490
+Speaker 5:  like, is this is this you? And they just stopped
+
+1274
+01:14:30,490 --> 01:14:33,650
+Speaker 5:  responding. So we put up this story, we're like, here's what happened? Like
+
+1275
+01:14:33,650 --> 01:14:37,210
+Speaker 5:  here's the sourcing tribute to what you will, we're try to transferring about
+
+1276
+01:14:37,210 --> 01:14:41,170
+Speaker 5:  this. So then they responded yesterday with
+
+1277
+01:14:41,170 --> 01:14:44,850
+Speaker 5:  another version of the second statement, elevating the amount paid to
+
+1278
+01:14:44,850 --> 01:14:46,530
+Speaker 5:  55. Now they're claiming 55
+
+1279
+01:14:48,070 --> 01:14:51,930
+Speaker 5:  billion. Now they're saying this statement can be attributed to our CEO
+
+1280
+01:14:52,090 --> 01:14:55,370
+Speaker 5:  and chairman mahi DeSilva, which they
+
+1281
+01:14:59,060 --> 01:15:00,370
+Speaker 5:  misspelled, which is just perfect.
+
+1282
+01:15:01,830 --> 01:15:05,730
+Speaker 7:  You know, which like when you're out having a good time and you
+
+1283
+01:15:05,730 --> 01:15:08,970
+Speaker 7:  see, you need to respond to the email and you grab your phone and you have
+
+1284
+01:15:08,970 --> 01:15:12,690
+Speaker 7:  to push your drink aside and get it all spelled out. You'll have time
+
+1285
+01:15:13,150 --> 01:15:14,650
+Speaker 7:  to double check the day of your boss.
+
+1286
+01:15:15,570 --> 01:15:19,530
+Speaker 5:  I mean, it's just, it's like the whole time was like, oh, this is why I had
+
+1287
+01:15:19,530 --> 01:15:20,130
+Speaker 5:  this policy.
+
+1288
+01:15:22,840 --> 01:15:25,730
+Speaker 5:  Like we made all this noise about like having you on the record. It's like,
+
+1289
+01:15:25,840 --> 01:15:29,770
+Speaker 5:  because at the end of the day, it's, it's just someone foiling and
+
+1290
+01:15:29,810 --> 01:15:33,290
+Speaker 5:  I dunno, it's good. Hopefully Tim and SOS get paid. They're more important
+
+1291
+01:15:33,290 --> 01:15:37,090
+Speaker 5:  to our culture than thriller. That's that's my position. It's not a position
+
+1292
+01:15:37,090 --> 01:15:40,010
+Speaker 5:  of the verge.com, but I'm confident that if you pulled the staff of the verge.com
+
+1293
+01:15:40,010 --> 01:15:43,130
+Speaker 5:  and asked them who is more important to the culture, Timbaland and Swizz
+
+1294
+01:15:43,130 --> 01:15:46,050
+Speaker 5:  beats or thriller, they will agree with me. Yeah. It's pretty stressful.
+
+1295
+01:15:46,050 --> 01:15:46,650
+Speaker 5:  Encourage someone to
+
+1296
+01:15:46,650 --> 01:15:48,650
+Speaker 7:  What if they misunderstand it as thriller?
+
+1297
+01:15:48,930 --> 01:15:51,730
+Speaker 5:  I think thrill thriller is more important to the culture than thriller
+
+1298
+01:15:53,320 --> 01:15:56,890
+Speaker 5:  name a Michael Jackson song that is less important to the culture than,
+
+1299
+01:15:56,890 --> 01:15:57,770
+Speaker 5:  than thriller. And you
+
+1300
+01:15:57,770 --> 01:15:59,130
+Speaker 7:  Cannot do it. No, it's impossible.
+
+1301
+01:16:00,150 --> 01:16:01,930
+Speaker 5:  All right, Alex, what you got?
+
+1302
+01:16:03,550 --> 01:16:06,610
+Speaker 7:  So Jess weathered, who's one of our new news writers. She's based out in
+
+1303
+01:16:06,610 --> 01:16:10,370
+Speaker 7:  the UK. She wrote about the absolute goofiest
+
+1304
+01:16:11,190 --> 01:16:15,130
+Speaker 7:  set of monitors that are just like two monitors stacked on top
+
+1305
+01:16:15,130 --> 01:16:18,610
+Speaker 7:  of each other and they just, just close up and, and
+
+1306
+01:16:18,850 --> 01:16:22,410
+Speaker 7:  somebody's just like, yep. This, these two very cheap
+
+1307
+01:16:22,950 --> 01:16:25,850
+Speaker 7:  crummy monitors cuz they're, they're both like 1440 P
+
+1308
+01:16:26,160 --> 01:16:30,090
+Speaker 7:  75 Hertz refresh 300 knits brightness. These are not
+
+1309
+01:16:30,220 --> 01:16:34,170
+Speaker 7:  super, super fancy, nice monitors. But I think like the
+
+1310
+01:16:34,170 --> 01:16:38,010
+Speaker 7:  gimmick is that they're on a cool stand so you can close them at the end
+
+1311
+01:16:38,010 --> 01:16:41,930
+Speaker 7:  of the day and then slowly open them up and they
+
+1312
+01:16:41,930 --> 01:16:45,850
+Speaker 7:  just crack me up. I just keep looking at like, there's a GIF in, in this
+
+1313
+01:16:45,850 --> 01:16:49,650
+Speaker 7:  story she wrote and it just keeps the guys just so happy to like just
+
+1314
+01:16:49,840 --> 01:16:53,650
+Speaker 7:  quietly open those monitors and appreciate his monitors. But
+
+1315
+01:16:53,850 --> 01:16:57,730
+Speaker 7:  it's called gems. There's two versions. There's gems. And there's the
+
+1316
+01:16:57,920 --> 01:16:58,570
+Speaker 7:  gems X.
+
+1317
+01:16:59,350 --> 01:16:59,570
+Speaker 5:  Yes.
+
+1318
+01:16:59,960 --> 01:17:03,930
+Speaker 7:  That gives you 1440 P the gems is just 10 80 P at 60 Hertz,
+
+1319
+01:17:03,930 --> 01:17:07,850
+Speaker 7:  250 net brightness. These are like the hundred dollars
+
+1320
+01:17:08,010 --> 01:17:11,960
+Speaker 7:  monitors that you get when you buy like a Dell desktop
+
+1321
+01:17:12,150 --> 01:17:16,000
+Speaker 7:  from 1998. It's those monitors. And they've just
+
+1322
+01:17:16,000 --> 01:17:19,920
+Speaker 7:  like, I mean, I don't know if it's actually those monitors caveat. It may
+
+1323
+01:17:19,920 --> 01:17:23,840
+Speaker 7:  not be those specific monitors, but it's basically those monitors just
+
+1324
+01:17:23,840 --> 01:17:27,800
+Speaker 7:  like, and you just open it up and I just really appreciate Jess is out there
+
+1325
+01:17:27,800 --> 01:17:28,400
+Speaker 7:  writing about it,
+
+1326
+01:17:29,100 --> 01:17:32,320
+Speaker 6:  But like they didn't even do anything to them. Yep. They just added hinge
+
+1327
+01:17:32,380 --> 01:17:36,040
+Speaker 6:  the back. Like they just put two of them together, like super door hinge
+
+1328
+01:17:36,040 --> 01:17:36,520
+Speaker 6:  and that's it.
+
+1329
+01:17:36,700 --> 01:17:40,600
+Speaker 5:  You gotta look, read the story and look at the gift of this dude, opening
+
+1330
+01:17:40,910 --> 01:17:44,880
+Speaker 5:  this monitor. It is incredible. I dunno how to describe this to you.
+
+1331
+01:17:46,110 --> 01:17:46,680
+Speaker 6:  It's fantastic.
+
+1332
+01:17:46,830 --> 01:17:50,240
+Speaker 7:  It's stacked as, as the, the video says,
+
+1333
+01:17:50,480 --> 01:17:54,200
+Speaker 5:  I mean just the, he's got a, he's got a big, you know, top gun mustache.
+
+1334
+01:17:54,230 --> 01:17:57,800
+Speaker 5:  He's got long hair and he's just grinning at unfolding this honor.
+
+1335
+01:17:57,950 --> 01:17:58,640
+Speaker 5:  It's very good.
+
+1336
+01:17:58,870 --> 01:17:59,520
+Speaker 7:  It's very good.
+
+1337
+01:18:00,230 --> 01:18:03,640
+Speaker 6:  Yeah. Nothing says it's time to go to work. Like unfoldings
+
+1338
+01:18:03,640 --> 01:18:04,720
+Speaker 7:  Well, it's it's crowdfunded.
+
+1339
+01:18:04,960 --> 01:18:06,480
+Speaker 5:  I don't care what she said. It's crowdfunded.
+
+1340
+01:18:06,580 --> 01:18:08,360
+Speaker 7:  So you might be better off. Just go buying too.
+
+1341
+01:18:08,420 --> 01:18:11,520
+Speaker 5:  I'm I'm crowdfunding the whole thing. What's the goal. Is it $10? I'll give
+
+1342
+01:18:11,520 --> 01:18:11,880
+Speaker 5:  it to him,
+
+1343
+01:18:14,100 --> 01:18:15,520
+Speaker 7:  But it's incredible. I love it.
+
+1344
+01:18:15,740 --> 01:18:19,080
+Speaker 5:  That's great. All right, David, last one. I need you to explain to me what's
+
+1345
+01:18:19,080 --> 01:18:21,560
+Speaker 5:  going on in sports streaming. Cause it sounds like we have to care about
+
+1346
+01:18:21,560 --> 01:18:22,520
+Speaker 5:  peacock now. Disclosure,
+
+1347
+01:18:24,620 --> 01:18:27,880
+Speaker 5:  NBC universals investor in Fox media. But I feel like I just said, we have
+
+1348
+01:18:27,880 --> 01:18:31,000
+Speaker 5:  to pay attention to peacock. Now you should understand the tenor of that
+
+1349
+01:18:31,000 --> 01:18:31,720
+Speaker 5:  relationship. Go ahead,
+
+1350
+01:18:31,720 --> 01:18:34,560
+Speaker 6:  David. We also made a show for Netflix, but that's not important to this
+
+1351
+01:18:34,560 --> 01:18:35,400
+Speaker 6:  particular discussion.
+
+1352
+01:18:36,260 --> 01:18:39,200
+Speaker 5:  Yes, my good friend and co-founder works at Google. What more do you want
+
+1353
+01:18:39,200 --> 01:18:39,520
+Speaker 5:  for me?
+
+1354
+01:18:42,920 --> 01:18:45,800
+Speaker 6:  Most of you should stop listening now because this explanation takes four
+
+1355
+01:18:45,800 --> 01:18:49,480
+Speaker 6:  and a half hours. Basically the big 10, which is a big
+
+1356
+01:18:49,480 --> 01:18:49,840
+Speaker 6:  sports
+
+1357
+01:18:49,950 --> 01:18:50,440
+Speaker 7:  College,
+
+1358
+01:18:50,630 --> 01:18:51,880
+Speaker 5:  Many more than 10 property
+
+1359
+01:18:52,250 --> 01:18:52,600
+Speaker 6:  Teams.
+
+1360
+01:18:54,430 --> 01:18:58,200
+Speaker 6:  Yeah. There's like 35 teams in the bid. Like half of college teams
+
+1361
+01:18:58,220 --> 01:19:02,160
+Speaker 6:  in America are somehow in the big 10 now, but basically they signed this
+
+1362
+01:19:02,160 --> 01:19:05,840
+Speaker 6:  big new deal for their streaming rights is $8 billion of the next seven
+
+1363
+01:19:06,260 --> 01:19:10,120
+Speaker 6:  years. And these are the moments where basically
+
+1364
+01:19:10,120 --> 01:19:13,680
+Speaker 6:  all of these leagues and conferences and whoever get to decide
+
+1365
+01:19:14,270 --> 01:19:17,720
+Speaker 6:  like what we want the future to look like. So like I personally care a lot
+
+1366
+01:19:17,720 --> 01:19:20,920
+Speaker 6:  about these because they decide a lot about what the near future of television
+
+1367
+01:19:20,920 --> 01:19:24,440
+Speaker 6:  is gonna look like. And the big 10 picked like a
+
+1368
+01:19:25,090 --> 01:19:28,920
+Speaker 6:  real sucky way to do it. As far as I'm concerned for the future, they basically,
+
+1369
+01:19:28,950 --> 01:19:32,760
+Speaker 6:  they, they divvied games up between NBC, CBS, and Fox. Some of them
+
+1370
+01:19:32,760 --> 01:19:36,440
+Speaker 6:  will stream some of them won't it's total chaos. What's gonna be where there's
+
+1371
+01:19:36,440 --> 01:19:39,520
+Speaker 6:  also the big 10 network, which will have some games. Peacock just randomly
+
+1372
+01:19:39,520 --> 01:19:42,680
+Speaker 6:  gets eight games that aren't gonna be anywhere else. Like this is just not,
+
+1373
+01:19:43,100 --> 01:19:44,000
+Speaker 7:  Are they gonna make an app?
+
+1374
+01:19:44,000 --> 01:19:46,720
+Speaker 6:  This is just not a good system. And it's like, like
+
+1375
+01:19:46,720 --> 01:19:50,200
+Speaker 7:  An app to just, no, the big 10, the big 10, this is
+
+1376
+01:19:50,810 --> 01:19:52,200
+Speaker 6:  Who's gonna make an app. There's
+
+1377
+01:19:52,200 --> 01:19:52,840
+Speaker 5:  There's you see one
+
+1378
+01:19:52,840 --> 01:19:56,800
+Speaker 6:  App for the big 12 apps, the big 10. So the big 10 has the big 10 network
+
+1379
+01:19:56,940 --> 01:20:00,640
+Speaker 6:  and that will have some games. You would think that if you got the big 10
+
+1380
+01:20:00,640 --> 01:20:04,360
+Speaker 6:  network and paid what it costs, no, that you would be able to watch all the
+
+1381
+01:20:04,360 --> 01:20:06,880
+Speaker 6:  big 10 games on the big 10 network. You'd be wrong
+
+1382
+01:20:08,120 --> 01:20:11,240
+Speaker 6:  because this is the world that we live in. And then it's like, we're just,
+
+1383
+01:20:11,240 --> 01:20:14,360
+Speaker 6:  we're just in this place where sports dictate how all of this stuff works
+
+1384
+01:20:14,360 --> 01:20:17,600
+Speaker 6:  because that's where all the money is. And the big 10 at least is still making
+
+1385
+01:20:17,600 --> 01:20:21,160
+Speaker 6:  this gigantic bet that cable TV is gonna keep mattering for a long time.
+
+1386
+01:20:21,170 --> 01:20:23,960
+Speaker 6:  Which was very funny because the other thing that also happened today was
+
+1387
+01:20:23,960 --> 01:20:27,640
+Speaker 6:  there was a study released that said streaming more people
+
+1388
+01:20:27,640 --> 01:20:31,560
+Speaker 6:  watched streaming TV than watched linear TV for the first time ever.
+
+1389
+01:20:32,020 --> 01:20:35,640
+Speaker 6:  So like, this is, this is a, a thing running
+
+1390
+01:20:35,640 --> 01:20:38,720
+Speaker 6:  against the actual trend of where the world is going, but there's still a
+
+1391
+01:20:38,720 --> 01:20:40,320
+Speaker 6:  lot of money in selling your stuff to, well,
+
+1392
+01:20:40,320 --> 01:20:40,840
+Speaker 7:  Don't worry. NBC
+
+1393
+01:20:40,840 --> 01:20:41,280
+Speaker 6:  Broadcast
+
+1394
+01:20:41,280 --> 01:20:43,880
+Speaker 7:  Channel it's coming. It's gonna change everything.
+
+1395
+01:20:44,830 --> 01:20:48,560
+Speaker 7:  Streaming is streaming. You're looking down a barrel. It's almost
+
+1396
+01:20:48,560 --> 01:20:48,840
+Speaker 7:  over.
+
+1397
+01:20:51,680 --> 01:20:55,120
+Speaker 5:  I feel like the phrase you're looking down a barrel is less threatening than
+
+1398
+01:20:55,120 --> 01:20:55,880
+Speaker 5:  the actual cliche. What
+
+1399
+01:20:55,880 --> 01:20:58,000
+Speaker 7:  Cliche? What is the actual cliche? No, it's not. What
+
+1400
+01:20:58,060 --> 01:21:01,800
+Speaker 5:  Is it? It's the barrel of a gun. Yeah, you're looking like just a like,
+
+1401
+01:21:01,860 --> 01:21:04,800
+Speaker 5:  oh yeah. Someone looking at a barrel is not inherently
+
+1402
+01:21:05,080 --> 01:21:07,920
+Speaker 7:  Threatening. I was thinking, I was thinking of the gun when I said it. I
+
+1403
+01:21:07,920 --> 01:21:10,040
+Speaker 7:  just didn't wanna, you know, a economy of words.
+
+1404
+01:21:11,340 --> 01:21:14,320
+Speaker 5:  Oh look a barrel. You're looking at a barrel.
+
+1405
+01:21:16,950 --> 01:21:20,680
+Speaker 7:  Well, they're not, they're not, they're not winning at broadcast television.
+
+1406
+01:21:20,680 --> 01:21:23,840
+Speaker 7:  If they're looking at a barrel, they're too busy. That's true. They're very
+
+1407
+01:21:23,840 --> 01:21:24,080
+Speaker 7:  busy.
+
+1408
+01:21:25,780 --> 01:21:28,080
+Speaker 5:  If you don't get your shit together, you'll be looking at a barrel.
+
+1409
+01:21:29,600 --> 01:21:31,520
+Speaker 5:  I mean, in a way it works.
+
+1410
+01:21:31,980 --> 01:21:33,560
+Speaker 7:  That's how I start all my threats. Now
+
+1411
+01:21:33,580 --> 01:21:34,200
+Speaker 6:  That's intense.
+
+1412
+01:21:34,980 --> 01:21:35,600
+Speaker 7:  I'm hide.
+
+1413
+01:21:38,980 --> 01:21:42,680
+Speaker 5:  All right, we'll come back next week. We'll do a full hour on FireWire
+
+1414
+01:21:42,680 --> 01:21:44,680
+Speaker 5:  800. What happens next?
+
+1415
+01:21:45,260 --> 01:21:46,240
+Speaker 7:  It also looked at a barrel
+
+1416
+01:21:46,340 --> 01:21:49,640
+Speaker 5:  In ATSC 3.0 it did look at a barrel.
+
+1417
+01:21:50,620 --> 01:21:52,040
+Speaker 5:  He got all the way in the barrel.
+
+1418
+01:21:53,980 --> 01:21:56,680
+Speaker 5:  All right, that's it. That's the, Vergecast the Wednesday show this week.
+
+1419
+01:21:57,740 --> 01:22:01,640
+Speaker 5:  Really fun earbuds test. I will say we got an email about the earbuds test.
+
+1420
+01:22:01,640 --> 01:22:04,200
+Speaker 5:  David. The email was titled Jaybird's erasure,
+
+1421
+01:22:05,650 --> 01:22:09,600
+Speaker 5:  which was not an email about the band erasure on
+
+1422
+01:22:09,600 --> 01:22:12,720
+Speaker 5:  Jaybird headphones. So you gotta take care of that.
+
+1423
+01:22:13,580 --> 01:22:16,480
+Speaker 6:  Ne can I tell you there's a reason for that? It's because I forgot that J
+
+1424
+01:22:16,480 --> 01:22:20,400
+Speaker 6:  bird exists as a company. JBU has not made a pair
+
+1425
+01:22:20,400 --> 01:22:24,080
+Speaker 6:  of headphones in like three years, but I used to love my
+
+1426
+01:22:24,080 --> 01:22:27,320
+Speaker 6:  Jaybirds and we will, we will bring Jor back right
+
+1427
+01:22:27,320 --> 01:22:31,280
+Speaker 5:  With Highwire I'm and broadcast television. Very good. That was really fun.
+
+1428
+01:22:31,890 --> 01:22:35,000
+Speaker 5:  David and I talked about the F150 lightning. What was the third thing? I
+
+1429
+01:22:35,000 --> 01:22:36,040
+Speaker 5:  should probably just scroll up and read it.
+
+1430
+01:22:37,280 --> 01:22:40,520
+Speaker 6:  We answered a bunch of people's questions about in green Oxys. It's good
+
+1431
+01:22:40,520 --> 01:22:40,720
+Speaker 6:  stuff.
+
+1432
+01:22:41,480 --> 01:22:43,240
+Speaker 5:  I love taking the calls. What's the number to call in
+
+1433
+01:22:43,240 --> 01:22:47,120
+Speaker 6:  Green bubbles. Eight sixty six verge. One, one. It is absolutely my favorite
+
+1434
+01:22:47,120 --> 01:22:50,560
+Speaker 6:  thing about the Vergecast like, I love both of you, but it's way more fun.
+
+1435
+01:22:50,620 --> 01:22:53,680
+Speaker 6:  Talking to the people who call the hotline. So eight sixty six version one,
+
+1436
+01:22:53,820 --> 01:22:54,120
+Speaker 6:  one, call us, ask all your
+
+1437
+01:22:54,200 --> 01:22:57,960
+Speaker 5:  Questions. Bunch of stories on site. James Vincent has
+
+1438
+01:22:58,380 --> 01:23:01,840
+Speaker 5:  a big scoop about crypto.com laying off people, and then quietly laying off
+
+1439
+01:23:01,840 --> 01:23:04,960
+Speaker 5:  hundreds of more people. Justine, actually bunch of cryp itself. Justine
+
+1440
+01:23:05,080 --> 01:23:08,840
+Speaker 5:  has a story about carbon offsets for crypto. Then we got a
+
+1441
+01:23:08,840 --> 01:23:12,560
+Speaker 5:  big feature. We didn't talk about much about how archive of our
+
+1442
+01:23:12,560 --> 01:23:16,480
+Speaker 5:  own turned in this like fan fiction mega site. It's great. I
+
+1443
+01:23:16,480 --> 01:23:19,560
+Speaker 5:  love it. Outta site. You can tweet at us. I'm at reckless Davids at
+
+1444
+01:23:20,100 --> 01:23:23,520
+Speaker 5:  Pierce Alex's Alex, H Crans that's it. That's for chess.
+
+1445
+01:23:30,420 --> 01:23:33,800
+Speaker 1:  And that's a wrap for Vergecast this week. We'd love to hear from you. Shoot
+
+1446
+01:23:33,800 --> 01:23:37,640
+Speaker 1:  us an email@vergecastattheverge.com. The Vergecast is a
+
+1447
+01:23:37,640 --> 01:23:41,240
+Speaker 1:  production of the verge and the box media podcast network. The show is produced
+
+1448
+01:23:41,240 --> 01:23:44,880
+Speaker 1:  by me, Liam, James, and our senior audio director, Andrew marina,
+
+1449
+01:23:45,140 --> 01:23:48,960
+Speaker 1:  our editorial director is Brooke mentors. That's it. We'll see you next week.
+

@@ -1,0 +1,6033 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 6e312c61-131b-446d-a99a-5c7f12661f5a
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/8433771296264450064/889759917069483368/s93290-US-5621s-1730193828.mp3
+Description: Kylie Robison joins the show to talk about the recent dueling AI blog posts from OpenAI's Sam Altman and Anthropic's Dario Amodei. What do these CEOs think the future of AI looks like? Then, Will Poor tells us the story of ShakeAlert, an earthquake alert system that has huge potential and some surprising challenges. On The Vergecast Hotline, Allison Johnson joins Will to figure out whether the iPhone's new Camera Control is really as fast as advertised.
+
+2
+00:00:03,145 --> 00:00:06,995
+Speaker 2:  Welcome To The Vergecast, the flagship podcast of decreasing the cost
+
+3
+00:00:07,015 --> 00:00:10,355
+Speaker 2:  of AI infrastructure. I'm your friend David Pierce and I am sitting here
+
+4
+00:00:10,915 --> 00:00:14,795
+Speaker 2:  updating all of my AI gadgets. So like six months ago, give or take
+
+5
+00:00:14,795 --> 00:00:18,435
+Speaker 2:  a couple of weeks, I reviewed both the Humane AI pin and the rabbit
+
+6
+00:00:18,675 --> 00:00:22,515
+Speaker 2:  R one, kind of back to back. Didn't like either one, neither one was any
+
+7
+00:00:22,515 --> 00:00:26,355
+Speaker 2:  good. And to be totally honest, I basically turned them off, stash them
+
+8
+00:00:26,355 --> 00:00:29,595
+Speaker 2:  in a drawer and forgot about them. But six months later, these companies
+
+9
+00:00:29,595 --> 00:00:33,475
+Speaker 2:  are still here. They're still making stuff. Humane has slashed its
+
+10
+00:00:33,475 --> 00:00:36,995
+Speaker 2:  price in a way that suggests not a lot of people are buying that stuff. Rabbit
+
+11
+00:00:37,915 --> 00:00:41,315
+Speaker 2:  I think, has confused people more than enticed them over six months,
+
+12
+00:00:41,735 --> 00:00:45,315
+Speaker 2:  but they've made a lot of changes. Rabid is saying it's getting close to
+
+13
+00:00:45,475 --> 00:00:48,715
+Speaker 2:  shipping the large action model that it's been promising for Forever. Humane
+
+14
+00:00:48,715 --> 00:00:52,075
+Speaker 2:  does. Timers now So. I figured after six months might be time to pull these
+
+15
+00:00:52,075 --> 00:00:55,395
+Speaker 2:  things out and see for any closer to AI gadgets getting anywhere.
+
+16
+00:00:55,695 --> 00:00:59,115
+Speaker 2:  That's for a future Vergecast. I literally, I have spent like hours just
+
+17
+00:00:59,115 --> 00:01:02,955
+Speaker 2:  sitting here charging and updating software on these things and I had to
+
+18
+00:01:02,955 --> 00:01:06,515
+Speaker 2:  find a sim card for the rabbit and I had to redo service
+
+19
+00:01:06,735 --> 00:01:10,275
+Speaker 2:  for the AI pin. It's been chaos. That's for a future Vergecast.
+
+20
+00:01:10,485 --> 00:01:14,195
+Speaker 2:  Today we are gonna do two things. First, we're gonna talk about the sort
+
+21
+00:01:14,195 --> 00:01:18,035
+Speaker 2:  of dueling blog posts from Dario Amay at Anthropic
+
+22
+00:01:18,095 --> 00:01:21,795
+Speaker 2:  and Sam Altman at OpenAI about the future of ai.
+
+23
+00:01:22,035 --> 00:01:25,795
+Speaker 2:  I think normally I find these blog posts sort of ridiculous, but the fact
+
+24
+00:01:25,795 --> 00:01:28,715
+Speaker 2:  that there were two of them and they're from these two people at this moment
+
+25
+00:01:28,735 --> 00:01:31,715
+Speaker 2:  in time, I think matters. So we're gonna talk about what's in those letters,
+
+26
+00:01:31,985 --> 00:01:35,035
+Speaker 2:  what they agree on, what they disagree on, and what we might be able to learn
+
+27
+00:01:35,125 --> 00:01:38,595
+Speaker 2:  about the future of ai. We're also gonna talk about earthquake detection
+
+28
+00:01:38,775 --> 00:01:42,515
+Speaker 2:  and this huge sprawling project underway,
+
+29
+00:01:42,515 --> 00:01:46,395
+Speaker 2:  especially on the West Coast, to alert people more quickly
+
+30
+00:01:46,575 --> 00:01:50,275
+Speaker 2:  to earthquakes. Super important problems. Turns out to be more complicated
+
+31
+00:01:50,275 --> 00:01:53,955
+Speaker 2:  and challenging than you might think. For lots of super interesting reasons.
+
+32
+00:01:53,985 --> 00:01:57,115
+Speaker 2:  Will Pour has been reporting this story out for a while and he has come to
+
+33
+00:01:57,115 --> 00:02:00,835
+Speaker 2:  talk about it and I'm very excited. We also have a hotline. Lots of fun stuff
+
+34
+00:02:00,835 --> 00:02:04,035
+Speaker 2:  to do this week. Very excited about this episode. All that is coming up in
+
+35
+00:02:04,035 --> 00:02:07,435
+Speaker 2:  just a second, but literally as we've been sitting here, both of these things
+
+36
+00:02:07,465 --> 00:02:11,395
+Speaker 2:  just finish an update and now both have another update. So I'm gonna go
+
+37
+00:02:11,415 --> 00:02:14,515
+Speaker 2:  do more software updates and we will be right back. This is The Vergecast
+
+38
+00:02:14,815 --> 00:02:15,315
+Speaker 2:  in a sec.
+
+39
+00:03:04,245 --> 00:03:07,645
+Speaker 2:  CEO of OpenAI and probably the single most prominent person
+
+40
+00:03:08,265 --> 00:03:12,045
+Speaker 2:  in the AI world right now, wrote this blog post called The
+
+41
+00:03:12,045 --> 00:03:15,685
+Speaker 2:  Intelligence Age. All about basically his vision for the future
+
+42
+00:03:15,825 --> 00:03:19,685
+Speaker 2:  of ai, why it's going to be huge, why it's so exciting,
+
+43
+00:03:19,705 --> 00:03:23,565
+Speaker 2:  why we should all be so excited when it's gonna happen. Sort of
+
+44
+00:03:23,565 --> 00:03:27,485
+Speaker 2:  big flowery stuff about the future of ai. Ordinarily those blog
+
+45
+00:03:27,485 --> 00:03:30,725
+Speaker 2:  posts are like whatever. I think people paid more attention to this one because
+
+46
+00:03:30,755 --> 00:03:33,645
+Speaker 2:  it's Sam and Sam is like right at the center of the tech industry right now,
+
+47
+00:03:34,665 --> 00:03:38,325
+Speaker 2:  but still, we wouldn't have spent a ton of time on it otherwise. But then
+
+48
+00:03:38,485 --> 00:03:42,445
+Speaker 2:  a couple of weeks later, Dario Amede, who is the CEO of Anthropic, which
+
+49
+00:03:42,615 --> 00:03:46,005
+Speaker 2:  might be open AI's most interesting
+
+50
+00:03:46,095 --> 00:03:50,085
+Speaker 2:  competitor, wrote his own blog post called Machines of Loving. Grace
+
+51
+00:03:50,355 --> 00:03:54,285
+Speaker 2:  that is sort of spiritually the same, but structurally
+
+52
+00:03:54,315 --> 00:03:58,045
+Speaker 2:  very different. He wrote this 10,000 word plus
+
+53
+00:03:58,485 --> 00:04:02,365
+Speaker 2:  opus full of details and full of thoughts about specific
+
+54
+00:04:02,395 --> 00:04:06,205
+Speaker 2:  ways that AI might be implemented to make the world a better place. And
+
+55
+00:04:06,665 --> 00:04:08,805
+Speaker 2:  he lands in sort of the same place, which is everything that's gonna be amazing.
+
+56
+00:04:09,025 --> 00:04:13,005
+Speaker 2:  But I think the structure of the way he talks about it is really different
+
+57
+00:04:13,085 --> 00:04:16,245
+Speaker 2:  and really interesting. We talked about both of these, I think briefly on
+
+58
+00:04:16,245 --> 00:04:19,325
+Speaker 2:  the show before, but what they say together
+
+59
+00:04:20,025 --> 00:04:23,725
+Speaker 2:  is really interesting. These are two of probably the three most important
+
+60
+00:04:23,725 --> 00:04:27,605
+Speaker 2:  people in ai. I think the third would be De Sabas who runs
+
+61
+00:04:27,605 --> 00:04:31,525
+Speaker 2:  DeepMind at Google and is increasingly more powerful in all of the
+
+62
+00:04:31,525 --> 00:04:35,165
+Speaker 2:  stuff that Google is doing in ai. He, as far as I know, has not written
+
+63
+00:04:35,405 --> 00:04:39,365
+Speaker 2:  a many thousand word blog post about how terrific AI is. But these
+
+64
+00:04:39,365 --> 00:04:43,085
+Speaker 2:  two have and So I think. What I wanted to do was really dig
+
+65
+00:04:43,085 --> 00:04:46,845
+Speaker 2:  into these and see what we can learn about where AI is going
+
+66
+00:04:46,875 --> 00:04:49,925
+Speaker 2:  from these two blog posts, where they're the same, where they're different,
+
+67
+00:04:50,255 --> 00:04:53,485
+Speaker 2:  where there might be conflict between these two companies and these two ideas.
+
+68
+00:04:53,865 --> 00:04:57,685
+Speaker 2:  But also If, you believe the vision of Silicon Valley, and I think somewhere
+
+69
+00:04:57,685 --> 00:05:01,165
+Speaker 2:  in these two blog posts is the vision in Silicon Valley for ai.
+
+70
+00:05:01,795 --> 00:05:04,965
+Speaker 2:  What does it look like? The rgs, Kylie Robinson has been covering all of
+
+71
+00:05:04,965 --> 00:05:07,365
+Speaker 2:  this. She has read these blog posts, she's talked to people about the blog
+
+72
+00:05:07,375 --> 00:05:11,205
+Speaker 2:  posts. She, I think could probably recite some of these blog posts from memory
+
+73
+00:05:11,305 --> 00:05:14,885
+Speaker 2:  at this point. And I figured who better to come on and see if we can make
+
+74
+00:05:14,885 --> 00:05:18,045
+Speaker 2:  sense of all of this than Kylie. Kylie, welcome to the show.
+
+75
+00:05:18,335 --> 00:05:19,325
+Speaker 4:  Thank you for having me.
+
+76
+00:05:19,715 --> 00:05:23,405
+Speaker 2:  Just unrelenting AI chaos in in your life. Yeah, yeah.
+
+77
+00:05:23,825 --> 00:05:25,245
+Speaker 4:  It never, it never stops.
+
+78
+00:05:25,705 --> 00:05:28,685
+Speaker 2:  We do have a little bit of tiny news that we're gonna get to at the very
+
+79
+00:05:28,685 --> 00:05:32,045
+Speaker 2:  end. Some, some next model stuff,
+
+80
+00:05:33,015 --> 00:05:36,045
+Speaker 2:  which we should just talk through really fast. But the, the thing I have
+
+81
+00:05:36,045 --> 00:05:39,005
+Speaker 2:  brought you here to do is talk about these two blog posts. Yes. And first
+
+82
+00:05:39,125 --> 00:05:42,085
+Speaker 2:  I wanna know, If, you agree with my assessment that most
+
+83
+00:05:42,795 --> 00:05:45,845
+Speaker 2:  corporate CEO blogs are nonsense?
+
+84
+00:05:46,515 --> 00:05:49,565
+Speaker 2:  Well, that's the first one. That's Do you agree that most? Yes. Okay, good.
+
+85
+00:05:49,625 --> 00:05:53,525
+Speaker 2:  Yes. But also I, I'm, I don't know. Something about the fact that both
+
+86
+00:05:53,525 --> 00:05:57,085
+Speaker 2:  of these happened from these two people in particular,
+
+87
+00:05:57,875 --> 00:06:01,765
+Speaker 2:  like within a couple of weeks just felt like more of a moment to me
+
+88
+00:06:01,765 --> 00:06:05,325
+Speaker 2:  than your average, like CEO pontificates about the future thing.
+
+89
+00:06:05,585 --> 00:06:06,605
+Speaker 2:  Has that been your read too?
+
+90
+00:06:07,225 --> 00:06:11,005
+Speaker 4:  Yes. And at the time when I wrote about it, I had real like
+
+91
+00:06:11,305 --> 00:06:15,245
+Speaker 4:  ai A GI believers yelling at me. 'cause like, how could I
+
+92
+00:06:15,245 --> 00:06:19,165
+Speaker 4:  ever consider, I, I keep saying this, your Messiahs are businessmen.
+
+93
+00:06:19,645 --> 00:06:23,445
+Speaker 4:  Yes. I'm sorry. It's calculated. So yeah, I I drew the same
+
+94
+00:06:23,445 --> 00:06:23,965
+Speaker 4:  conclusions.
+
+95
+00:06:24,355 --> 00:06:27,965
+Speaker 2:  Okay. So the, the homework I gave you ahead of this was to
+
+96
+00:06:28,195 --> 00:06:32,045
+Speaker 2:  come up with three ways in which these two men agree and
+
+97
+00:06:32,045 --> 00:06:35,965
+Speaker 2:  three ways in which they disagree. Let's start with what
+
+98
+00:06:35,965 --> 00:06:38,725
+Speaker 2:  they agree on. What's the, what's the first thing you feel like these two
+
+99
+00:06:38,725 --> 00:06:39,085
+Speaker 2:  agree on?
+
+100
+00:06:39,465 --> 00:06:43,325
+Speaker 4:  So, I think that they do agree on that the world is gonna be such
+
+101
+00:06:43,365 --> 00:06:47,205
+Speaker 4:  a beautiful place with a GI, of course, I would
+
+102
+00:06:47,265 --> 00:06:50,885
+Speaker 4:  say to flip on disagree, I think that
+
+103
+00:06:51,055 --> 00:06:54,445
+Speaker 4:  Dario was a lot more measured where Altman was a lot more,
+
+104
+00:06:55,825 --> 00:06:57,565
+Speaker 4:  you know, grateful Dead about it.
+
+105
+00:06:58,675 --> 00:07:01,925
+Speaker 2:  Wait, I, I would actually put that slightly differently. Really. My, my read
+
+106
+00:07:01,925 --> 00:07:05,725
+Speaker 2:  on this has been, I think Sam Altman
+
+107
+00:07:05,725 --> 00:07:09,485
+Speaker 2:  feels like it's inevitable. Yeah. That like the, his whole blog
+
+108
+00:07:09,485 --> 00:07:12,845
+Speaker 2:  post is basically like, we've done it, it is done.
+
+109
+00:07:13,265 --> 00:07:16,725
+Speaker 2:  And there's even a line in it that I pulled out that was something like Deep
+
+110
+00:07:16,925 --> 00:07:20,125
+Speaker 2:  learning works and, and the rest will solve itself. Like that's not what
+
+111
+00:07:20,125 --> 00:07:23,285
+Speaker 2:  it says, but that's essentially what it says. Yeah. That
+
+112
+00:07:24,005 --> 00:07:27,885
+Speaker 2:  compared to Dario who goes over and over and over, like to the point
+
+113
+00:07:27,885 --> 00:07:31,565
+Speaker 2:  where it makes the blog posts too long of being like, none of this is inevitable.
+
+114
+00:07:31,905 --> 00:07:34,405
+Speaker 2:  It doesn't have to be like this. We all have to do it on purpose. Yeah. A
+
+115
+00:07:34,405 --> 00:07:38,285
+Speaker 2:  lot of things have to go right. Like you just get the sense from
+
+116
+00:07:38,495 --> 00:07:41,285
+Speaker 2:  Sam's that he is like, problem solved. We just have to sit back and wait
+
+117
+00:07:41,285 --> 00:07:43,845
+Speaker 2:  for this. Like you're talking about beautiful, incredible future where everything
+
+118
+00:07:43,845 --> 00:07:47,575
+Speaker 2:  is wonderful and Dario is like, maybe like
+
+119
+00:07:48,095 --> 00:07:52,015
+Speaker 2:  that future exists, but it is not certain that we're going to get there.
+
+120
+00:07:52,035 --> 00:07:55,255
+Speaker 2:  And that to me was like tonally the, the most striking difference between
+
+121
+00:07:55,255 --> 00:07:57,335
+Speaker 2:  the two. And it sounds like you, you caught that too. That
+
+122
+00:07:57,335 --> 00:08:00,335
+Speaker 4:  Is a hundred percent a great take. That is exactly right.
+
+123
+00:08:01,235 --> 00:08:03,855
+Speaker 4:  No, because it's been a long week and I haven't thought about these blogs,
+
+124
+00:08:03,915 --> 00:08:06,695
+Speaker 4:  but yeah. That, that is exactly correct.
+
+125
+00:08:07,395 --> 00:08:10,455
+Speaker 2:  Who do you believe, do you think Sam's right? I really want you to just be
+
+126
+00:08:10,455 --> 00:08:13,735
+Speaker 2:  like, I think Sam's right, we did it. It's all done. Futures can be beautiful.
+
+127
+00:08:14,255 --> 00:08:18,095
+Speaker 4:  I just keep thinking one of these two men has been fired from their
+
+128
+00:08:18,095 --> 00:08:18,735
+Speaker 4:  job for lying.
+
+129
+00:08:21,685 --> 00:08:21,975
+Speaker 4:  Yeah.
+
+130
+00:08:22,165 --> 00:08:25,375
+Speaker 2:  Well said. All right. What's the second thing? What, what else did they agree
+
+131
+00:08:25,495 --> 00:08:28,375
+Speaker 2:  on? Wait, actually, let me, let me drill down into the first one before we
+
+132
+00:08:28,375 --> 00:08:31,935
+Speaker 2:  get to the second one. Yeah. Do you think like biggest
+
+133
+00:08:31,935 --> 00:08:35,895
+Speaker 2:  picture, most beautiful future, they roughly agree
+
+134
+00:08:35,895 --> 00:08:39,575
+Speaker 2:  on where that might go. Like in the, in the absolute best case scenario,
+
+135
+00:08:40,115 --> 00:08:43,895
+Speaker 2:  do you think these two CEOs and by extension Anthropic
+
+136
+00:08:44,075 --> 00:08:47,895
+Speaker 2:  and Open AI think it might be as good in the same
+
+137
+00:08:47,895 --> 00:08:48,695
+Speaker 2:  way as each other?
+
+138
+00:08:49,575 --> 00:08:53,335
+Speaker 4:  I think you can see this in the actions of
+
+139
+00:08:53,485 --> 00:08:57,165
+Speaker 4:  both companies. One is absolutely gutting
+
+140
+00:08:57,165 --> 00:09:00,725
+Speaker 4:  safety and the other is doubling down
+
+141
+00:09:00,985 --> 00:09:04,365
+Speaker 4:  on, on safety. So I would say that they
+
+142
+00:09:05,165 --> 00:09:08,685
+Speaker 4:  disagree or like what the future looks like. I think Altman is a lot more
+
+143
+00:09:08,695 --> 00:09:12,005
+Speaker 4:  optimistic than Dario. And Dario says at the top like,
+
+144
+00:09:12,545 --> 00:09:16,445
+Speaker 4:  you know, there's a, there's potentially a lot of bad things. I don't wanna
+
+145
+00:09:16,445 --> 00:09:19,605
+Speaker 4:  talk about that here. 'cause we talk about it a lot. So, I think that's,
+
+146
+00:09:19,605 --> 00:09:22,485
+Speaker 4:  that's the difference between the two of them. I think Dario sees a lot of
+
+147
+00:09:22,485 --> 00:09:26,445
+Speaker 4:  the what could go horribly wrong and Altman's like, dude, it's
+
+148
+00:09:26,445 --> 00:09:26,925
+Speaker 4:  gonna be beautiful.
+
+149
+00:09:27,755 --> 00:09:30,885
+Speaker 2:  Yeah. Yeah. I think that's right. And I think that was the thing I kept having
+
+150
+00:09:30,905 --> 00:09:34,845
+Speaker 2:  to remind myself reading Dario's blog post and like to his credit,
+
+151
+00:09:34,845 --> 00:09:38,005
+Speaker 2:  he says right up front, I think there are a lot of problems. I'm not going
+
+152
+00:09:38,005 --> 00:09:41,725
+Speaker 2:  to talk about them here. Yeah. And like every paragraph of his thing, I kept
+
+153
+00:09:41,725 --> 00:09:44,685
+Speaker 2:  wanting to like raise my hand and be like, well, I have 1000 questions about
+
+154
+00:09:44,745 --> 00:09:48,485
+Speaker 2:  all the things that might go wrong in service of doing this cool thing that
+
+155
+00:09:48,485 --> 00:09:52,045
+Speaker 2:  you're imagining. And I'm like, okay, that's not, that's not what we're doing
+
+156
+00:09:52,045 --> 00:09:55,525
+Speaker 2:  here. I have to, I have to take him at his word that he thinks there are
+
+157
+00:09:55,525 --> 00:09:58,405
+Speaker 2:  problems. We're just not talking about them right now. So fine. We're talking
+
+158
+00:09:58,405 --> 00:10:01,565
+Speaker 2:  about the big beautiful future. What else do they agree on? What else did
+
+159
+00:10:01,565 --> 00:10:01,925
+Speaker 2:  you write down
+
+160
+00:10:02,345 --> 00:10:06,085
+Speaker 4:  How this is going to transform labor, the economy work?
+
+161
+00:10:06,355 --> 00:10:07,765
+Speaker 4:  They both seem to agree that
+
+162
+00:10:09,445 --> 00:10:13,405
+Speaker 4:  a lot of rote tasks and monotonous jobs are going to get replaced
+
+163
+00:10:13,465 --> 00:10:17,445
+Speaker 4:  by ai. And that perhaps we should have some plan for that. I
+
+164
+00:10:17,445 --> 00:10:21,125
+Speaker 4:  think, I think that's something they both agree on. For Altman, he has explored
+
+165
+00:10:21,365 --> 00:10:24,765
+Speaker 4:  UBI universal basic income. He ran a test
+
+166
+00:10:25,285 --> 00:10:28,885
+Speaker 4:  giving people certain amounts of money for an extended period of time to
+
+167
+00:10:28,885 --> 00:10:32,725
+Speaker 4:  see how it changed their life. Anthropic has not done that same,
+
+168
+00:10:32,795 --> 00:10:36,285
+Speaker 4:  same kind of research, but I sense that they both agreed that this is going
+
+169
+00:10:36,285 --> 00:10:40,005
+Speaker 4:  to change the way humans work and that's important to
+
+170
+00:10:40,005 --> 00:10:40,485
+Speaker 4:  explore.
+
+171
+00:10:41,195 --> 00:10:45,085
+Speaker 2:  Were you satisfied by either of their answers as to what
+
+172
+00:10:45,145 --> 00:10:48,805
+Speaker 2:  we do about it? And, and again, to, to dario's credit in particular,
+
+173
+00:10:49,635 --> 00:10:52,725
+Speaker 2:  he's pretty upfront about, I don't have all the answers. This is going to
+
+174
+00:10:52,725 --> 00:10:56,525
+Speaker 2:  be complicated, but yeah, they do both treat it as inevitable that at some
+
+175
+00:10:56,525 --> 00:11:00,285
+Speaker 2:  point this thing will essentially blow up our
+
+176
+00:11:00,285 --> 00:11:04,165
+Speaker 2:  day-to-day lives and the overall economy as we know it. And they
+
+177
+00:11:04,165 --> 00:11:05,965
+Speaker 2:  kind of are just like, yeah, we'll figure it out.
+
+178
+00:11:06,825 --> 00:11:10,285
+Speaker 4:  No, I'm not sat no, of course I'm not satisfied. And I was just on
+
+179
+00:11:10,465 --> 00:11:14,405
+Speaker 4:  Dakota talking about this with Neli about, you know, there's so many
+
+180
+00:11:14,405 --> 00:11:18,285
+Speaker 4:  unanswered questions. This is no so nascent. It's not a fun answer to hear,
+
+181
+00:11:18,545 --> 00:11:20,965
+Speaker 4:  you know, you expect the AI reporter to be like, we have all the answers.
+
+182
+00:11:20,985 --> 00:11:24,085
+Speaker 4:  And I think that's what people expect from these executives too. Like, but
+
+183
+00:11:24,085 --> 00:11:27,405
+Speaker 4:  we don't, we just don't have all the answers. And it is unsatisfying. Like,
+
+184
+00:11:27,635 --> 00:11:31,445
+Speaker 4:  okay, if a GI was real, which like, I don't even see that
+
+185
+00:11:31,445 --> 00:11:35,365
+Speaker 4:  as a possibility necessarily, but if that were to happen then we
+
+186
+00:11:35,365 --> 00:11:38,565
+Speaker 4:  could all be outta jobs. But we'll figure it out. Like Right. It's like,
+
+187
+00:11:38,625 --> 00:11:39,045
+Speaker 4:  period.
+
+188
+00:11:39,055 --> 00:11:42,845
+Speaker 2:  It'll be fine. Somewhere between three years and a million years from
+
+189
+00:11:42,865 --> 00:11:45,245
+Speaker 2:  now, everybody's screwed, but we'll figure it out. Exactly.
+
+190
+00:11:45,335 --> 00:11:48,285
+Speaker 4:  Right. Exactly. Hopefully the sun explodes before then. I don't know.
+
+191
+00:11:48,975 --> 00:11:52,125
+Speaker 2:  We'll all live on Mars and then it won't even be a problem. Perfect. What's
+
+192
+00:11:52,125 --> 00:11:52,605
+Speaker 2:  the third thing?
+
+193
+00:11:53,155 --> 00:11:56,765
+Speaker 4:  They both in, in practice, in not even in practice
+
+194
+00:11:56,985 --> 00:12:00,805
+Speaker 4:  in writing, agree on the alignment of these systems. And
+
+195
+00:12:01,345 --> 00:12:05,125
+Speaker 4:  I'm going to talk to researchers I think tomorrow about what alignment really
+
+196
+00:12:05,125 --> 00:12:08,845
+Speaker 4:  is and how it's such a fuzzy term, but I think that they both
+
+197
+00:12:08,895 --> 00:12:12,805
+Speaker 4:  agree that broadly these should be safe systems that are aligned
+
+198
+00:12:12,805 --> 00:12:16,405
+Speaker 4:  with what we value as humans. They shouldn't be running amuck
+
+199
+00:12:17,025 --> 00:12:20,845
+Speaker 4:  in writing. However, as I said earlier, one has gutted
+
+200
+00:12:20,845 --> 00:12:23,925
+Speaker 4:  safety and the other has not. But I think they brought, they broadly agree
+
+201
+00:12:23,925 --> 00:12:27,365
+Speaker 4:  that it would not be good to create world destroying ai.
+
+202
+00:12:28,195 --> 00:12:32,005
+Speaker 2:  Yeah. I mean, it's a hot take, but you know, it's, it's, it's a, it's a theory.
+
+203
+00:12:32,245 --> 00:12:36,125
+Speaker 2:  I like that. Right. I, yeah, I that I caught that too. And I think
+
+204
+00:12:36,145 --> 00:12:39,645
+Speaker 2:  the idea that that is a thing we have to do on purpose
+
+205
+00:12:40,505 --> 00:12:43,525
+Speaker 2:  is sort of encouraging, right? Like again, you, you can read what you want
+
+206
+00:12:43,525 --> 00:12:45,965
+Speaker 2:  into the actions of these two companies. And I, I have a lot of thoughts
+
+207
+00:12:45,965 --> 00:12:48,845
+Speaker 2:  that are a lot less optimistic than these two blog posts based on what they
+
+208
+00:12:48,845 --> 00:12:52,525
+Speaker 2:  do. But the sense that like the way we
+
+209
+00:12:52,525 --> 00:12:56,455
+Speaker 2:  build these tools and the way that they get used and the
+
+210
+00:12:56,455 --> 00:13:00,255
+Speaker 2:  way that we manage them together, like one of
+
+211
+00:13:00,285 --> 00:13:03,895
+Speaker 2:  Dario's big ideas was that we should have, I don't think he called it this,
+
+212
+00:13:03,895 --> 00:13:07,255
+Speaker 2:  but essentially like a United Nations of AI where like a bunch of countries,
+
+213
+00:13:07,985 --> 00:13:11,495
+Speaker 2:  bands together to build and manage AI in a way that promotes liberal democracy
+
+214
+00:13:11,495 --> 00:13:14,815
+Speaker 2:  around the world. Yes. Like, I don't know if that makes any feasible sense
+
+215
+00:13:14,815 --> 00:13:17,295
+Speaker 2:  technologically, but that's the kind of thing we should be thinking about,
+
+216
+00:13:17,295 --> 00:13:20,655
+Speaker 2:  right? That it's like, okay, we are, if this thing is going to be anywhere
+
+217
+00:13:20,655 --> 00:13:24,615
+Speaker 2:  near as powerful as we think, that's the kind of stuff you have
+
+218
+00:13:24,615 --> 00:13:27,375
+Speaker 2:  to start doing and you have to start building the tools at the beginning
+
+219
+00:13:27,955 --> 00:13:31,895
+Speaker 2:  to be like that. And I think, I think they both agree on that. Whether
+
+220
+00:13:33,285 --> 00:13:36,695
+Speaker 2:  both companies are interested in taking the time to do that
+
+221
+00:13:37,115 --> 00:13:41,055
+Speaker 2:  in a crazy gold rush of ai. The answer seems
+
+222
+00:13:41,055 --> 00:13:44,855
+Speaker 2:  to be no, mostly so far. But I like in the, in the
+
+223
+00:13:44,855 --> 00:13:47,775
+Speaker 2:  long run, that at least strikes me as slightly encouraging.
+
+224
+00:13:47,965 --> 00:13:50,775
+Speaker 4:  Totally. This is something I've been digging into recently
+
+225
+00:13:51,725 --> 00:13:55,575
+Speaker 4:  just about if for the listener researchers
+
+226
+00:13:55,575 --> 00:13:59,335
+Speaker 4:  who want to do safety research at these big companies
+
+227
+00:13:59,335 --> 00:14:03,295
+Speaker 4:  require a certain amount of compute to do these studies to figure it
+
+228
+00:14:03,295 --> 00:14:07,055
+Speaker 4:  out. And kind of a, a block of important safety
+
+229
+00:14:07,335 --> 00:14:11,215
+Speaker 4:  researchers at OpenAI left because Altman promised them about 20%
+
+230
+00:14:11,635 --> 00:14:15,175
+Speaker 4:  of the company's compute to do safety research, and they did not get that.
+
+231
+00:14:15,195 --> 00:14:19,055
+Speaker 4:  And it really pissed them off. So I think, as Dario said, it is,
+
+232
+00:14:19,715 --> 00:14:23,695
+Speaker 4:  you have to continue making this choice to align to, to do that work.
+
+233
+00:14:24,035 --> 00:14:27,695
+Speaker 4:  And I think that's important, important to watch to see how, how seriously
+
+234
+00:14:27,695 --> 00:14:31,015
+Speaker 4:  they're taking it because their researchers will tell you they won't yell
+
+235
+00:14:31,225 --> 00:14:31,695
+Speaker 4:  about it.
+
+236
+00:14:32,045 --> 00:14:35,975
+Speaker 2:  Yeah. They're not shy. No. All right. So any, any other agreements before
+
+237
+00:14:35,975 --> 00:14:37,855
+Speaker 2:  we move to the stuff they they don't agree on? No,
+
+238
+00:14:37,855 --> 00:14:38,415
+Speaker 4:  I think that's it.
+
+239
+00:14:38,795 --> 00:14:41,655
+Speaker 2:  All right. So that's all the stuff they agree on. What do they disagree on?
+
+240
+00:14:41,655 --> 00:14:42,415
+Speaker 2:  What's first on your list?
+
+241
+00:14:43,095 --> 00:14:46,695
+Speaker 4:  I would say that Dario is a little bit more scared of hyping up AI
+
+242
+00:14:46,805 --> 00:14:49,935
+Speaker 4:  than Altman is. And I think that's kind of what we discussed already is that
+
+243
+00:14:49,965 --> 00:14:53,805
+Speaker 4:  he's like, I, you know, I don't know if I should be doing this. Like, I don't
+
+244
+00:14:53,805 --> 00:14:57,325
+Speaker 4:  know, this is not inevitable and Altman's like in a thousand days, like hits
+
+245
+00:14:57,325 --> 00:15:01,285
+Speaker 4:  the joint in a thousand days. This is all gonna be so different, you
+
+246
+00:15:01,285 --> 00:15:01,365
+Speaker 4:  know?
+
+247
+00:15:02,145 --> 00:15:05,685
+Speaker 2:  So this is actually a good, I think I was gonna ask you about, which is
+
+248
+00:15:06,025 --> 00:15:09,805
+Speaker 2:  why these two people wrote these two blog posts at this
+
+249
+00:15:09,805 --> 00:15:12,645
+Speaker 2:  particular time. And you have a strong theory about why, and I wanna know
+
+250
+00:15:12,645 --> 00:15:13,005
+Speaker 2:  what that theory
+
+251
+00:15:13,005 --> 00:15:16,645
+Speaker 4:  Is. I have a strong theory and people like to talk about this topic and they're
+
+252
+00:15:16,645 --> 00:15:20,005
+Speaker 4:  like, you know, motivations aside, I'm like, well, aren't motivations like
+
+253
+00:15:20,225 --> 00:15:23,205
+Speaker 4:  the biggest piece here of why they're writing this at the time that they're
+
+254
+00:15:23,205 --> 00:15:27,085
+Speaker 4:  writing this? So Altman wrote his, just around the time
+
+255
+00:15:27,105 --> 00:15:31,045
+Speaker 4:  he was closing $6.6 billion in funding for OpenAI,
+
+256
+00:15:31,425 --> 00:15:34,925
+Speaker 4:  the largest round for a private company in history that we know of.
+
+257
+00:15:35,465 --> 00:15:39,285
+Speaker 4:  And then when I read this blog, the first thing I was thinking, I was like,
+
+258
+00:15:39,285 --> 00:15:42,485
+Speaker 4:  Anthropic is also trying to raise money. We don't know how much yet, but
+
+259
+00:15:42,485 --> 00:15:46,325
+Speaker 4:  philanthropic is also trying to raise butt loads of money. And that's,
+
+260
+00:15:46,565 --> 00:15:49,895
+Speaker 4:  I think that's the timing of this is, you know, investors
+
+261
+00:15:51,035 --> 00:15:54,615
+Speaker 4:  are kind of trepidatious because there's this problem
+
+262
+00:15:54,835 --> 00:15:58,655
+Speaker 4:  of you need to sink so much money into
+
+263
+00:15:58,655 --> 00:16:02,535
+Speaker 4:  these models and there's a lot of promise and hype involved
+
+264
+00:16:02,535 --> 00:16:05,935
+Speaker 4:  that this will change the future, but
+
+265
+00:16:06,515 --> 00:16:10,015
+Speaker 4:  at the moment it cannot even count the number of Rs in strawberry.
+
+266
+00:16:10,595 --> 00:16:14,375
+Speaker 4:  So Right. So I think 14,000 words is a good way
+
+267
+00:16:14,875 --> 00:16:18,775
+Speaker 4:  to say, look, I promise, I mean, like, I guess he doesn't promise he says
+
+268
+00:16:18,775 --> 00:16:20,895
+Speaker 4:  it could or could not happen. We have to make those choices. We have to do
+
+269
+00:16:20,895 --> 00:16:24,735
+Speaker 4:  the work, however, it is such a beautiful future If, you give us billions
+
+270
+00:16:24,735 --> 00:16:25,015
+Speaker 4:  of dollars.
+
+271
+00:16:25,445 --> 00:16:29,295
+Speaker 2:  Yeah. Do you feel like spiritually this is not that different from
+
+272
+00:16:29,295 --> 00:16:33,175
+Speaker 2:  like Travis Kanick back in the day who was just like, once I,
+
+273
+00:16:33,315 --> 00:16:36,735
+Speaker 2:  I'm, I have, you know, cars on the road with an app, but eventually
+
+274
+00:16:37,785 --> 00:16:41,455
+Speaker 2:  robot cars are going to transform the way that every, and it's like, I feel
+
+275
+00:16:41,455 --> 00:16:45,175
+Speaker 2:  like that is to some extent just the classic Silicon Valley story.
+
+276
+00:16:45,175 --> 00:16:48,935
+Speaker 2:  Like you have to tell a story that is 10 times bigger than your actual
+
+277
+00:16:48,935 --> 00:16:52,495
+Speaker 2:  story in order to get people to give you all this money because of like,
+
+278
+00:16:52,495 --> 00:16:56,415
+Speaker 2:  the structure of venture capital demands that you maybe be worth that much
+
+279
+00:16:56,415 --> 00:17:00,175
+Speaker 2:  money. It's like, it's just all this weird stuff that eventually you sort
+
+280
+00:17:00,175 --> 00:17:04,015
+Speaker 2:  of have to lie about the possibility for the thing
+
+281
+00:17:04,015 --> 00:17:07,535
+Speaker 2:  that you're building in order to get the money to even try and maybe get
+
+282
+00:17:07,555 --> 00:17:09,375
+Speaker 2:  to half of that over
+
+283
+00:17:09,375 --> 00:17:11,575
+Speaker 4:  Time. Yes, I a hundred percent agree.
+
+284
+00:17:11,675 --> 00:17:15,655
+Speaker 2:  So you can imagine both of these blog posts as like hostage negotiations,
+
+285
+00:17:15,785 --> 00:17:18,815
+Speaker 2:  right? Where they're like, it's like, they're like, I know, I hear you. I'm
+
+286
+00:17:18,815 --> 00:17:21,335
+Speaker 2:  so sorry. I'm so sorry. Let me just, I'll put this out and then you can gimme
+
+287
+00:17:21,335 --> 00:17:22,255
+Speaker 2:  money and everything will be fine.
+
+288
+00:17:22,365 --> 00:17:25,935
+Speaker 4:  Exactly. No, I, I think that it is, it is exactly the same.
+
+289
+00:17:26,395 --> 00:17:29,375
+Speaker 4:  And luckily I work at The Verge with a bunch of great people who have lived
+
+290
+00:17:29,375 --> 00:17:33,215
+Speaker 4:  through a lot of bubbles and they're like, Hey, I remember the CEO saying
+
+291
+00:17:33,215 --> 00:17:36,775
+Speaker 4:  almost exactly the same thing. Like Sergei Bryn once said that
+
+292
+00:17:37,295 --> 00:17:39,815
+Speaker 4:  their new health division at Google was gonna cure death.
+
+293
+00:17:41,215 --> 00:17:44,895
+Speaker 4:  I forgot about that. Yeah, that's in the article. That's a good one.
+
+294
+00:17:45,075 --> 00:17:49,015
+Speaker 4:  Oh, and I put this, this is even a bit in Silicon Valley, the TV show where
+
+295
+00:17:49,345 --> 00:17:53,125
+Speaker 4:  one of their, their caricature for a tech executive, he says,
+
+296
+00:17:53,245 --> 00:17:56,325
+Speaker 4:  I don't know about you guys, but I don't wanna live in a world where someone
+
+297
+00:17:56,325 --> 00:18:00,285
+Speaker 4:  makes it a better place than we do. Yeah. And that is that, I mean, it
+
+298
+00:18:00,285 --> 00:18:04,245
+Speaker 4:  is just a tale as old as time. And unfortunately the people
+
+299
+00:18:04,305 --> 00:18:08,285
+Speaker 4:  who really believe in AI are like, this is different. I'm like, I
+
+300
+00:18:08,645 --> 00:18:11,885
+Speaker 4:  I get it. I I don't wanna slam ai. I do think that it could
+
+301
+00:18:12,295 --> 00:18:16,165
+Speaker 4:  prove to be really useful and it is useful in limited use cases
+
+302
+00:18:16,335 --> 00:18:20,175
+Speaker 4:  today. However, it is not, we were talking about the
+
+303
+00:18:20,175 --> 00:18:22,695
+Speaker 4:  spreading democracy thing. That's something I read in Dario's blog. I was
+
+304
+00:18:22,695 --> 00:18:26,295
+Speaker 4:  like, okay, come on man. Yeah. You know, they do have to make these grand
+
+305
+00:18:26,295 --> 00:18:28,775
+Speaker 4:  proclamations. It's the same as decades before them.
+
+306
+00:18:29,005 --> 00:18:32,615
+Speaker 2:  Well, there's a certain amount of like, you know how in TV shows when they
+
+307
+00:18:32,615 --> 00:18:36,295
+Speaker 2:  get to like season five or six, they've made the
+
+308
+00:18:36,295 --> 00:18:40,015
+Speaker 2:  stakes so high because you have to keep inventing new things to do to keep
+
+309
+00:18:40,015 --> 00:18:42,655
+Speaker 2:  people interested. And you're like, well, we've already exhausted all of
+
+310
+00:18:42,655 --> 00:18:46,455
+Speaker 2:  the interesting stuff. So like, fast and Furious nine is literally like in
+
+311
+00:18:46,465 --> 00:18:50,295
+Speaker 2:  space. Like, it's just the, the stakes creep is so real. And I feel like
+
+312
+00:18:50,475 --> 00:18:54,135
+Speaker 2:  AI in general is such an incredible case of steaks creep where
+
+313
+00:18:54,205 --> 00:18:57,735
+Speaker 2:  it's so good. We have hit this point now where like everything has to be
+
+314
+00:18:57,735 --> 00:19:00,695
+Speaker 2:  the biggest thing. It's soon arbitrage said it's fire it like you can't,
+
+315
+00:19:00,695 --> 00:19:04,375
+Speaker 2:  you can't come back from fire. And so like this,
+
+316
+00:19:04,475 --> 00:19:07,015
+Speaker 2:  all I read now is I just see these things and I'm like, this is fast and
+
+317
+00:19:07,015 --> 00:19:10,855
+Speaker 2:  furious in space. Like this is, this is like die hard where
+
+318
+00:19:10,855 --> 00:19:14,095
+Speaker 2:  he jumps a car into a helicopter. Like we've just, we've just lost our minds
+
+319
+00:19:14,095 --> 00:19:16,975
+Speaker 2:  on how big all this stuff has to be because we're so desensitized to the
+
+320
+00:19:16,975 --> 00:19:17,295
+Speaker 2:  rest of it.
+
+321
+00:19:17,725 --> 00:19:20,855
+Speaker 4:  That is so good. I'm mad, so funny.
+
+322
+00:19:21,835 --> 00:19:23,615
+Speaker 4:  Yes. This fast furious in space. Yeah,
+
+323
+00:19:23,685 --> 00:19:26,455
+Speaker 2:  This is, I've spent a lot of time the last couple of days lying on the couch
+
+324
+00:19:26,695 --> 00:19:29,815
+Speaker 2:  watching tv. So this is, this is, it's for work. Now I get to perfect expense
+
+325
+00:19:29,815 --> 00:19:32,975
+Speaker 2:  all that time that I spent on the couch watching tv. What else? What else
+
+326
+00:19:32,975 --> 00:19:33,975
+Speaker 2:  did they disagree on? What's next?
+
+327
+00:19:34,565 --> 00:19:35,855
+Speaker 4:  Weren't you supposed to tell me one?
+
+328
+00:19:36,035 --> 00:19:40,015
+Speaker 2:  All right, fine. I'll give you mine. The timing they disagree on in
+
+329
+00:19:40,015 --> 00:19:43,735
+Speaker 2:  a way that I found actually very surprising. And I think this is one way
+
+330
+00:19:43,735 --> 00:19:47,095
+Speaker 2:  in which, and again, this is just, it's two blog posts. Yeah. What, what
+
+331
+00:19:47,095 --> 00:19:50,415
+Speaker 2:  these men actually like are saying in meetings and what they believe in,
+
+332
+00:19:50,415 --> 00:19:54,175
+Speaker 2:  even what they've said publicly sometimes differs from this. Sam Altman
+
+333
+00:19:54,235 --> 00:19:58,055
+Speaker 2:  is less convinced that this is all going to happen tomorrow than
+
+334
+00:19:58,705 --> 00:20:02,575
+Speaker 2:  Dario was. Which I was very surprised by. Like, his, his thing is basically
+
+335
+00:20:02,905 --> 00:20:06,895
+Speaker 2:  we're a few years, this is Dario a few years away from what he
+
+336
+00:20:06,895 --> 00:20:10,015
+Speaker 2:  calls powerful AI because he doesn't like a GI, which fine. Yeah.
+
+337
+00:20:10,835 --> 00:20:13,495
+Speaker 2:  And then after that, all this stuff he's describing all the stuff we've been
+
+338
+00:20:13,495 --> 00:20:16,055
+Speaker 2:  talking about, all these changes to democracy and we're gonna cure all diseases.
+
+339
+00:20:16,075 --> 00:20:19,615
+Speaker 2:  He puts that on a five to 10 year timeframe like that,
+
+340
+00:20:19,675 --> 00:20:22,815
+Speaker 2:  that's like, we're, we're looking at like, I don't know, 2040
+
+341
+00:20:23,675 --> 00:20:26,735
+Speaker 2:  at, at a, at a conservative guess for Dario as like,
+
+342
+00:20:27,105 --> 00:20:29,935
+Speaker 2:  everything about the world has completely changed forever because of ai.
+
+343
+00:20:30,555 --> 00:20:34,495
+Speaker 2:  Sam is comparatively more restrained, like he says,
+
+344
+00:20:34,555 --> 00:20:38,335
+Speaker 2:  he says the next couple of decades, which again is like, it's
+
+345
+00:20:38,805 --> 00:20:42,335
+Speaker 2:  soon, but it's not the same sort of immediate, like we're a couple years
+
+346
+00:20:42,335 --> 00:20:45,575
+Speaker 2:  away from the thing and then five more years away from it changing everything.
+
+347
+00:20:46,355 --> 00:20:49,885
+Speaker 2:  And then, yeah. What is it? He says a few thousand days, which is such a
+
+348
+00:20:49,885 --> 00:20:52,245
+Speaker 2:  like delightfully meaningless thing to say, I
+
+349
+00:20:52,245 --> 00:20:54,765
+Speaker 4:  Should check, but I feel like, yeah, maybe it does say a few thousand days
+
+350
+00:20:54,765 --> 00:20:58,285
+Speaker 4:  because I thought he said 8,000 days. But yes, I told an opening AI source
+
+351
+00:20:58,285 --> 00:21:01,685
+Speaker 4:  of mine recently because they hadn't read that blog post. And I was like,
+
+352
+00:21:01,835 --> 00:21:05,565
+Speaker 4:  well, Sam says in about a thousand days that we'll get this
+
+353
+00:21:05,725 --> 00:21:09,685
+Speaker 4:  a GI. And he was like, really? I think it's gonna be, well he thought he
+
+354
+00:21:09,685 --> 00:21:13,445
+Speaker 4:  was like, it's gonna be a lot sooner than that. He's like, oh, I know. Oh
+
+355
+00:21:13,445 --> 00:21:17,005
+Speaker 4:  boy. Which is, which is just really interesting and
+
+356
+00:21:17,925 --> 00:21:21,085
+Speaker 4:  I really wanna know what the listener thinks, but like, I think most people
+
+357
+00:21:21,455 --> 00:21:25,405
+Speaker 4:  think that this is bullshit. And then there's these people, I live
+
+358
+00:21:25,405 --> 00:21:28,125
+Speaker 4:  in San Francisco, I'm talking to these people all the time. I'm, you know,
+
+359
+00:21:28,125 --> 00:21:30,725
+Speaker 4:  having drinks with them going to dinners and they're like, yeah, it's inevitable,
+
+360
+00:21:30,865 --> 00:21:33,645
+Speaker 4:  you know, next year. And I'm like, what the, where am I?
+
+361
+00:21:34,785 --> 00:21:37,445
+Speaker 4:  So I, don't know who to believe because I think that these people are really
+
+362
+00:21:37,445 --> 00:21:40,205
+Speaker 4:  smart and they're building really smart systems. Like I believe that, but
+
+363
+00:21:40,205 --> 00:21:42,565
+Speaker 4:  also we're gonna cure death, you know?
+
+364
+00:21:43,235 --> 00:21:46,285
+Speaker 2:  Yeah. and we are all gonna be in robo taxis, but like, again, this is, this
+
+365
+00:21:46,285 --> 00:21:50,005
+Speaker 2:  is the game that we play and I think like the, what's the Bill Gates thing?
+
+366
+00:21:50,005 --> 00:21:52,845
+Speaker 2:  Everybody underestimates what they can do in a year or no overestimates what
+
+367
+00:21:52,845 --> 00:21:55,445
+Speaker 2:  they can do in a year and underestimates what they can do in 10 years. There
+
+368
+00:21:55,445 --> 00:21:57,445
+Speaker 2:  you go. I think there's probably a lot of that coming. Yeah. In
+
+369
+00:21:57,445 --> 00:21:57,885
+Speaker 4:  Definitely
+
+370
+00:21:57,945 --> 00:22:01,725
+Speaker 2:  In ai. Like I I I would put a lot of money on or the over
+
+371
+00:22:01,905 --> 00:22:03,245
+Speaker 2:  of one year from now.
+
+372
+00:22:03,565 --> 00:22:04,125
+Speaker 4:  Certainly.
+
+373
+00:22:04,475 --> 00:22:08,285
+Speaker 2:  Yeah. So what, what is the next one on your list of,
+
+374
+00:22:08,345 --> 00:22:09,085
+Speaker 2:  of how they differ?
+
+375
+00:22:09,865 --> 00:22:13,685
+Speaker 4:  So I think that just generally these are completely different
+
+376
+00:22:13,685 --> 00:22:17,445
+Speaker 4:  people. For instance, If, you guys don't know Dariel
+
+377
+00:22:17,475 --> 00:22:21,005
+Speaker 4:  left OpenAI because he is like, this is not safe and
+
+378
+00:22:21,005 --> 00:22:24,925
+Speaker 4:  calculated and we need to make a more safe public benefit corporation that
+
+379
+00:22:24,925 --> 00:22:28,725
+Speaker 4:  became Anthropic So I think the difference
+
+380
+00:22:28,745 --> 00:22:32,565
+Speaker 4:  is just these two people. Dario is safety
+
+381
+00:22:33,165 --> 00:22:35,885
+Speaker 4:  slowness, which is why I thought this blog was so outta place. And that's
+
+382
+00:22:35,885 --> 00:22:39,605
+Speaker 4:  what made me think about funding and Sam is more like
+
+383
+00:22:39,795 --> 00:22:42,925
+Speaker 4:  hitting a joint in space Fast and the Furious,
+
+384
+00:22:43,635 --> 00:22:47,445
+Speaker 4:  this is going to happen, it's happening soon. I think that these are categorically
+
+385
+00:22:47,475 --> 00:22:51,325
+Speaker 4:  different people attacking the same problem. They both wanna build a
+
+386
+00:22:51,325 --> 00:22:55,165
+Speaker 4:  GI, they're both building it in basically the same way. They both have
+
+387
+00:22:55,225 --> 00:22:58,885
+Speaker 4:  big cloud partners, but they're just completely different people
+
+388
+00:22:59,125 --> 00:23:00,445
+Speaker 4:  approaching it much differently.
+
+389
+00:23:00,755 --> 00:23:04,605
+Speaker 2:  Totally. I mean, I think the funniest thing about looking at these two
+
+390
+00:23:04,605 --> 00:23:08,125
+Speaker 2:  blog posts side by side is how sort of embarrassingly
+
+391
+00:23:08,355 --> 00:23:12,245
+Speaker 2:  unthought Sam's seems right in comparison. I agree. Like, it,
+
+392
+00:23:12,245 --> 00:23:15,605
+Speaker 2:  it really is like, this is like a long tweet from somebody who got like a
+
+393
+00:23:15,605 --> 00:23:19,125
+Speaker 2:  little high and had some thoughts about ai and Dario is like, my man just
+
+394
+00:23:19,125 --> 00:23:22,525
+Speaker 2:  like wrote an academic thesis about ai. Yes. And and they might both be totally
+
+395
+00:23:22,535 --> 00:23:25,605
+Speaker 2:  wrong, they might be wrong about different things, but like the,
+
+396
+00:23:26,475 --> 00:23:29,645
+Speaker 2:  just the sheer like difference in
+
+397
+00:23:30,375 --> 00:23:34,165
+Speaker 2:  level of thought here is just crazy. Like, I just went back and found this,
+
+398
+00:23:34,165 --> 00:23:37,965
+Speaker 2:  there's such a funny moment in Sam's blog post where he says, there are a
+
+399
+00:23:37,965 --> 00:23:40,765
+Speaker 2:  lot of details we still have to figure out, but it's a mistake to get distracted
+
+400
+00:23:40,765 --> 00:23:44,205
+Speaker 2:  by any particular challenge. Deep learning works and we will solve the remaining
+
+401
+00:23:44,205 --> 00:23:48,125
+Speaker 2:  problems. That's like Dario says like 11,000 words
+
+402
+00:23:48,125 --> 00:23:49,725
+Speaker 2:  about those two sentences. Yes,
+
+403
+00:23:49,725 --> 00:23:50,045
+Speaker 4:  He does.
+
+404
+00:23:50,315 --> 00:23:53,645
+Speaker 2:  It's just, it's just, it's just crazy to me. And I do think, again, to some
+
+405
+00:23:53,645 --> 00:23:56,925
+Speaker 2:  extent they're like trying to do different things, it's fine. But reading
+
+406
+00:23:57,135 --> 00:24:00,805
+Speaker 2:  Sam's after reading Dario's was like, this is like a kindergarten
+
+407
+00:24:00,815 --> 00:24:04,725
+Speaker 2:  level of thinking compared to that, which was striking
+
+408
+00:24:04,745 --> 00:24:05,045
+Speaker 2:  to me.
+
+409
+00:24:05,065 --> 00:24:08,525
+Speaker 4:  That's funny. The the order that you read them because
+
+410
+00:24:08,995 --> 00:24:11,965
+Speaker 4:  Yeah, of course. And that I think that's why it's hard for me to compare
+
+411
+00:24:11,965 --> 00:24:15,925
+Speaker 4:  because this isn't like the only piece that Altman has wrote about a GI,
+
+412
+00:24:15,925 --> 00:24:19,845
+Speaker 4:  but it is like timing wise, easy to compare them. And I agree
+
+413
+00:24:19,845 --> 00:24:23,805
+Speaker 4:  it is a, a thesis about, you know, I think he wants to
+
+414
+00:24:24,195 --> 00:24:28,125
+Speaker 4:  genuinely inform, Dario wants to genuinely inform the public of his
+
+415
+00:24:28,125 --> 00:24:31,325
+Speaker 4:  thinking. And he talked about how he's been writing this since August. He's
+
+416
+00:24:31,325 --> 00:24:33,565
+Speaker 4:  gone through a bunch of different versions and yeah, it definitely seems
+
+417
+00:24:33,565 --> 00:24:36,325
+Speaker 4:  like Sam just fired this off and here we are. Yeah.
+
+418
+00:24:36,325 --> 00:24:39,605
+Speaker 2:  And that's fine. Who among us hasn't just fired off a blog post that too
+
+419
+00:24:39,605 --> 00:24:42,885
+Speaker 2:  many people read. Right? Like it's, it's a, it's a occupational hazard. Right.
+
+420
+00:24:43,565 --> 00:24:46,685
+Speaker 2:  I will say one thought that I had in this was that
+
+421
+00:24:47,385 --> 00:24:50,485
+Speaker 2:  it makes a lot of sense to me why Anthropic is building better products than
+
+422
+00:24:50,485 --> 00:24:54,365
+Speaker 2:  open AI right now. Damn girl. Like, like consumer products. I mean, you
+
+423
+00:24:54,365 --> 00:24:58,325
+Speaker 2:  go through and like Dario's is just full of ideas about things a person might
+
+424
+00:24:58,325 --> 00:25:02,205
+Speaker 2:  do with AI and ways that they might be used. The only one Sam mentions
+
+425
+00:25:02,825 --> 00:25:05,725
+Speaker 2:  is like, it's gonna be a personal assistant that will help you accomplish
+
+426
+00:25:05,725 --> 00:25:09,285
+Speaker 2:  tasks and like, fine, everybody has that idea. We've had that idea for decades.
+
+427
+00:25:10,705 --> 00:25:14,605
+Speaker 2:  But like, it's, it's a bit of a Galaxy Brain take to just read that
+
+428
+00:25:14,605 --> 00:25:18,525
+Speaker 2:  out of two blog posts. But like, I think philanthropic is just destroying
+
+429
+00:25:18,525 --> 00:25:21,405
+Speaker 2:  open AI when it comes to actually building good products for people to use.
+
+430
+00:25:21,905 --> 00:25:25,885
+Speaker 2:  And you can sort of see that from these two. I don't even think that's that
+
+431
+00:25:25,885 --> 00:25:29,405
+Speaker 2:  hot Take Claude is better than Chad GBT right now. It just is. I
+
+432
+00:25:29,565 --> 00:25:33,525
+Speaker 4:  I agree. I agree. Keep, I keep name dropping podcasts I've been on
+
+433
+00:25:33,645 --> 00:25:35,765
+Speaker 4:  recently, but I said this on Pivot, they were asking me what's my favorite,
+
+434
+00:25:35,765 --> 00:25:39,565
+Speaker 4:  what's my favorite? And I was, Claude obviously Claude is so much better
+
+435
+00:25:39,565 --> 00:25:41,165
+Speaker 4:  than the competition. It's crazy. Yeah.
+
+436
+00:25:41,555 --> 00:25:44,485
+Speaker 2:  Yeah. And I think the, the question of what is the underlying technology
+
+437
+00:25:44,745 --> 00:25:47,805
+Speaker 2:  is, is going to be like a forever game of Leapfrog between totally a bunch
+
+438
+00:25:47,805 --> 00:25:51,405
+Speaker 2:  of companies, principally these two. But right now, like
+
+439
+00:25:51,515 --> 00:25:55,285
+Speaker 2:  philanthropic is just a mile ahead in terms of actually building
+
+440
+00:25:55,285 --> 00:25:58,525
+Speaker 2:  good consumer products. And you can see it in Daria's stuff. Like he has
+
+441
+00:25:58,525 --> 00:26:02,005
+Speaker 2:  ideas about how people might use it in a way that yeah, I'm not sure. There's
+
+442
+00:26:02,005 --> 00:26:03,805
+Speaker 2:  not a lot of evidence that OpenAI does.
+
+443
+00:26:04,055 --> 00:26:05,765
+Speaker 4:  Right? So you're counting Gemini out.
+
+444
+00:26:06,585 --> 00:26:09,645
+Speaker 2:  Gemini is just so its own thing Sure. That it's, they're just like, Google's
+
+445
+00:26:09,645 --> 00:26:13,405
+Speaker 2:  just like over here kind of like winning Nobel prizes.
+
+446
+00:26:13,535 --> 00:26:17,485
+Speaker 2:  Right. And, and I still, like my true galaxy brain take is, I think
+
+447
+00:26:17,485 --> 00:26:19,845
+Speaker 2:  Google is just gonna win all of this and it's not gonna matter. And we're
+
+448
+00:26:19,845 --> 00:26:22,485
+Speaker 2:  gonna have to reckon with that sometime very soon. But
+
+449
+00:26:23,705 --> 00:26:27,445
+Speaker 2:  that's for another day. Sure. I have, I have a lot of, I I'm also like,
+
+450
+00:26:27,715 --> 00:26:31,125
+Speaker 2:  I've been fighting that fight for too long now. So I have to die on the Google
+
+451
+00:26:31,185 --> 00:26:34,845
+Speaker 2:  is further ahead than anybody realizes Hill. Yeah. And I think I'm okay dying
+
+452
+00:26:34,845 --> 00:26:38,565
+Speaker 2:  on that hill, but we'll, we'll see. All right. Lit real quick. Yeah. Some,
+
+453
+00:26:38,565 --> 00:26:42,485
+Speaker 2:  some news. And then I'm gonna let you go here. Yes. We, we had two
+
+454
+00:26:42,505 --> 00:26:46,365
+Speaker 2:  scoops last week about upcoming new big stuff
+
+455
+00:26:46,435 --> 00:26:48,925
+Speaker 2:  from both OpenAI and Google. Tell me what's going on.
+
+456
+00:26:49,475 --> 00:26:52,805
+Speaker 4:  Yeah, so my scoop with Tom Warren, our Microsoft reporter,
+
+457
+00:26:53,265 --> 00:26:57,205
+Speaker 4:  was about how by the end of the year, OpenAI is planning to
+
+458
+00:26:57,205 --> 00:27:01,005
+Speaker 4:  release Orion, which you can think of as GBT five. It would be the successor
+
+459
+00:27:01,065 --> 00:27:04,445
+Speaker 4:  to GPT-4. So they're
+
+460
+00:27:04,835 --> 00:27:08,245
+Speaker 4:  just in September. We wrote in the article that they threw,
+
+461
+00:27:08,625 --> 00:27:12,085
+Speaker 4:  the researchers threw a party for finishing training the model at
+
+462
+00:27:12,405 --> 00:27:16,085
+Speaker 4:  Microsoft, they're preparing the compute to, to host Orion. Microsoft gets
+
+463
+00:27:16,085 --> 00:27:19,725
+Speaker 4:  it first and then they're going to release it to limited partners
+
+464
+00:27:19,985 --> 00:27:23,885
+Speaker 4:  so they can, you know, find their own, use, use cases, find the
+
+465
+00:27:24,085 --> 00:27:27,965
+Speaker 4:  features that they wanna build with Orion, which is the code name of the
+
+466
+00:27:27,965 --> 00:27:31,245
+Speaker 4:  project Orion. So that's supposed to happen by the end of the year.
+
+467
+00:27:32,605 --> 00:27:36,485
+Speaker 4:  Altman, I had my first real run in with tech executive
+
+468
+00:27:36,485 --> 00:27:37,805
+Speaker 4:  hits joint and takes to Twitter.
+
+469
+00:27:41,145 --> 00:27:44,925
+Speaker 4:  He called it fake news, which it's not. And
+
+470
+00:27:45,205 --> 00:27:48,645
+Speaker 4:  I, I said this at the top of the episode and I'll say it again. One of these
+
+471
+00:27:48,645 --> 00:27:49,725
+Speaker 4:  people was fired for lying.
+
+472
+00:27:52,585 --> 00:27:56,525
+Speaker 4:  So yeah, that's, that's what's coming out by the end of the year. It's
+
+473
+00:27:56,545 --> 00:28:00,085
+Speaker 4:  of course subject to change. And then more
+
+474
+00:28:00,325 --> 00:28:04,165
+Speaker 4:  interestingly, in December, Google, Alex Heath, my colleague Alex Heath wrote
+
+475
+00:28:04,165 --> 00:28:08,045
+Speaker 4:  this in command line. He wrote that Google is planning to release its
+
+476
+00:28:08,045 --> 00:28:11,765
+Speaker 4:  next, next Big Gemini model in December. So OpenAI
+
+477
+00:28:11,815 --> 00:28:15,445
+Speaker 4:  loves to front run Google. So that's something, that's something to watch
+
+478
+00:28:15,695 --> 00:28:19,245
+Speaker 4:  every time. If Google's gonna have a big announcement, you can almost certainly
+
+479
+00:28:19,245 --> 00:28:23,085
+Speaker 4:  expect open AI is going to fire somebody or
+
+480
+00:28:23,235 --> 00:28:26,525
+Speaker 4:  release a big new feature or something. Yeah.
+
+481
+00:28:26,645 --> 00:28:29,285
+Speaker 2:  I do think, I mean, to your point about like who's really gonna win here,
+
+482
+00:28:30,425 --> 00:28:34,125
+Speaker 2:  OpenAI certainly thinks Google is its main competition. Yes. And, and Anthropic
+
+483
+00:28:34,185 --> 00:28:38,165
+Speaker 2:  is just kind of over on the side doing a different thing. And that might
+
+484
+00:28:38,395 --> 00:28:41,485
+Speaker 2:  turn out to be true. It's certainly true right now in terms of like shine
+
+485
+00:28:41,485 --> 00:28:45,245
+Speaker 2:  and resources, but I think Anthropic is closer
+
+486
+00:28:45,265 --> 00:28:47,605
+Speaker 2:  behind than it gets credit for in a lot of ways.
+
+487
+00:28:47,875 --> 00:28:51,245
+Speaker 4:  Totally. I, I agree. And, okay, have you ever watched Mad Men?
+
+488
+00:28:51,955 --> 00:28:54,965
+Speaker 4:  Yeah. Do you know the elevator scene where he is like, I feel bad for you.
+
+489
+00:28:54,965 --> 00:28:57,885
+Speaker 4:  And he is like, I don't think about you at all. Yes. That's very much Google
+
+490
+00:28:57,905 --> 00:28:59,405
+Speaker 4:  and open AI's relationship, I think.
+
+491
+00:28:59,425 --> 00:29:03,085
+Speaker 2:  Oh, a hundred percent. Yeah, a hundred percent. Google is, yeah, Google
+
+492
+00:29:03,465 --> 00:29:06,005
+Speaker 2:  is not super worried about it. Like they're just, as you're winning Nobel
+
+493
+00:29:06,005 --> 00:29:09,245
+Speaker 2:  prizes, like it's Google's gonna be fine. Right. Demis AB will
+
+494
+00:29:09,335 --> 00:29:13,245
+Speaker 2:  eventually write an even longer blog posts and, and we'll be back
+
+495
+00:29:13,245 --> 00:29:14,005
+Speaker 2:  doing this again. I'm
+
+496
+00:29:14,005 --> 00:29:16,925
+Speaker 4:  Sure. Oh my gosh. I can't wait. And, and part of that, I forgot to mention
+
+497
+00:29:17,115 --> 00:29:20,885
+Speaker 4:  that Alex wrote that Demis is not super thrilled about the capabilities
+
+498
+00:29:20,985 --> 00:29:24,245
+Speaker 4:  of its Gemini model right now. The next one that it's supposed to be releasing.
+
+499
+00:29:24,245 --> 00:29:27,285
+Speaker 4:  So that'll be interesting. I think I would love a way that's
+
+500
+00:29:28,155 --> 00:29:31,885
+Speaker 4:  more clear than benchmarks of how to weigh these against each other.
+
+501
+00:29:32,045 --> 00:29:35,645
+Speaker 4:  I don't think we're there yet. And I just don't trust self evaluated
+
+502
+00:29:35,645 --> 00:29:39,205
+Speaker 4:  benchmarks in a lot of cases. Yeah. But yeah, I'm excited to see how these
+
+503
+00:29:39,265 --> 00:29:40,445
+Speaker 4:  all stack up in December.
+
+504
+00:29:41,015 --> 00:29:44,925
+Speaker 2:  It'll be fascinating 'cause we've been at this now for, I
+
+505
+00:29:44,925 --> 00:29:48,605
+Speaker 2:  don't know, a year and change where Google, OpenAI,
+
+506
+00:29:48,605 --> 00:29:52,565
+Speaker 2:  Anthropic and Meta have all just continued to release better and
+
+507
+00:29:52,565 --> 00:29:55,285
+Speaker 2:  better models. And we're at the point where like every two weeks somebody
+
+508
+00:29:55,285 --> 00:29:58,925
+Speaker 2:  is releasing a slightly better model. And I've been asking people
+
+509
+00:29:59,085 --> 00:30:02,725
+Speaker 2:  forever when it's going to stop being so easy to
+
+510
+00:30:02,725 --> 00:30:06,365
+Speaker 2:  improve the state of the art. And everybody I've talked to at least is kind
+
+511
+00:30:06,365 --> 00:30:09,085
+Speaker 2:  of like, I don't know, it would be fascinating if it started to be these,
+
+512
+00:30:09,145 --> 00:30:11,805
+Speaker 2:  if if somebody comes out already behind
+
+513
+00:30:12,915 --> 00:30:14,085
+Speaker 2:  that might change things.
+
+514
+00:30:14,585 --> 00:30:17,245
+Speaker 4:  You know? That's funny because the AI people I've talked to just last week
+
+515
+00:30:17,245 --> 00:30:20,485
+Speaker 4:  were like, I think that we're hitting that point. We are finally hitting
+
+516
+00:30:20,485 --> 00:30:24,365
+Speaker 4:  that point where it is getting harder to scale these or to,
+
+517
+00:30:24,385 --> 00:30:27,125
+Speaker 4:  to make them better than before. Because for a minute it was really easy
+
+518
+00:30:27,145 --> 00:30:30,485
+Speaker 4:  to just like leapfrog, leapfrog, leapfrog. But we're starting to slow down
+
+519
+00:30:30,505 --> 00:30:32,685
+Speaker 4:  in that sense. But like, I guess we'll see in December. Yeah,
+
+520
+00:30:32,685 --> 00:30:36,365
+Speaker 2:  It might be a messy holiday season in the, in the AO world, there might be
+
+521
+00:30:36,485 --> 00:30:38,525
+Speaker 2:  a lot of Googlers working over Christmas.
+
+522
+00:30:38,715 --> 00:30:39,205
+Speaker 4:  Typical.
+
+523
+00:30:40,265 --> 00:30:41,685
+Speaker 2:  All right, Kylie, thank you as always.
+
+524
+00:30:41,815 --> 00:30:42,765
+Speaker 4:  Thank you for having me.
+
+525
+00:30:43,635 --> 00:30:47,045
+Speaker 2:  Alright, we gotta take a break and then we are gonna come back and we're
+
+526
+00:30:47,045 --> 00:30:48,925
+Speaker 2:  gonna talk about earthquakes. We'll be right back.
+
+527
+00:32:09,995 --> 00:32:13,685
+Speaker 2:  Welcome back. Will Pour is here. Will Hello? Hello.
+
+528
+00:32:14,275 --> 00:32:17,605
+Speaker 2:  What are we doing here? Will you've I know Earthquakes, that's all I've got.
+
+529
+00:32:17,605 --> 00:32:18,285
+Speaker 2:  What are we doing here?
+
+530
+00:32:18,585 --> 00:32:22,485
+Speaker 5:  Yes. So to, to start us off, I have a terrible,
+
+531
+00:32:22,765 --> 00:32:26,525
+Speaker 5:  terrible sound that I wanna play. Arc. The best way to start a
+
+532
+00:32:26,525 --> 00:32:30,245
+Speaker 5:  podcast I, I'm told is to make people take off their
+
+533
+00:32:30,245 --> 00:32:33,165
+Speaker 5:  headphones as quickly as possible. So with that in mind,
+
+534
+00:32:36,475 --> 00:32:36,765
+Speaker 2:  Cool.
+
+535
+00:32:39,825 --> 00:32:40,485
+Speaker 2:  Oh, that's awful.
+
+536
+00:32:46,555 --> 00:32:50,445
+Speaker 2:  Okay. That's enough. Okay. Can I tell you where my brain immediately
+
+537
+00:32:50,445 --> 00:32:54,325
+Speaker 2:  just went? Yes, please. A mix of jackhammer on the streets
+
+538
+00:32:54,325 --> 00:32:58,205
+Speaker 2:  of New York City. Yeah. And like the, the star lack pit
+
+539
+00:32:58,225 --> 00:33:02,165
+Speaker 2:  in Star Wars opening up like the really creaky
+
+540
+00:33:02,175 --> 00:33:06,085
+Speaker 2:  metal door opening up plus jackhammer. That's not
+
+541
+00:33:06,085 --> 00:33:08,765
+Speaker 2:  fun. I didn't like that. I mean, it's spook it's
+
+542
+00:33:08,765 --> 00:33:11,965
+Speaker 5:  Spooky season as we record this so that all kinda works. Yeah.
+
+543
+00:33:12,785 --> 00:33:14,725
+Speaker 2:  So what, what is this? What am I listening to?
+
+544
+00:33:15,115 --> 00:33:19,085
+Speaker 5:  That is the sound of my house getting seismically retrofit, which is basically
+
+545
+00:33:19,235 --> 00:33:23,205
+Speaker 5:  like earthquake proofing. I wanted to get my
+
+546
+00:33:23,205 --> 00:33:26,885
+Speaker 5:  house earthquake proof. I, because I live in Seattle, which is
+
+547
+00:33:26,885 --> 00:33:30,765
+Speaker 5:  earthquake country, I am also very terrified of earthquakes.
+
+548
+00:33:31,105 --> 00:33:34,845
+Speaker 5:  And So I was told by a lot of experts that this is a thing that I should
+
+549
+00:33:34,845 --> 00:33:38,805
+Speaker 5:  do. And so a few weeks ago, a bunch of people came
+
+550
+00:33:38,845 --> 00:33:41,885
+Speaker 5:  to my house and crawled under my crawlspace and
+
+551
+00:33:42,475 --> 00:33:46,125
+Speaker 5:  drilled a whole bunch of bolts into concrete right
+
+552
+00:33:46,125 --> 00:33:49,965
+Speaker 5:  beneath my feet. And I thought it was a good idea to try to work from
+
+553
+00:33:49,965 --> 00:33:51,525
+Speaker 5:  home while this was happening. Oh
+
+554
+00:33:51,525 --> 00:33:51,805
+Speaker 2:  Sure.
+
+555
+00:33:52,425 --> 00:33:56,365
+Speaker 5:  So, which lasted about five minutes. But this, this is
+
+556
+00:33:56,365 --> 00:33:57,605
+Speaker 5:  me trying to work from home.
+
+557
+00:33:58,435 --> 00:34:01,925
+Speaker 7:  They are crawling around in the crawl space and
+
+558
+00:34:02,565 --> 00:34:06,205
+Speaker 7:  drilling very large bolts into the concrete foundation of the house,
+
+559
+00:34:06,775 --> 00:34:07,125
+Speaker 7:  which
+
+560
+00:34:09,325 --> 00:34:12,965
+Speaker 7:  I can, the whole house is vibrating. Like I, I can feel this work in my
+
+561
+00:34:12,975 --> 00:34:14,565
+Speaker 7:  teeth and
+
+562
+00:34:16,125 --> 00:34:17,405
+Speaker 7:  I need to get out of here.
+
+563
+00:34:18,295 --> 00:34:20,275
+Speaker 5:  It was a bad day. I had a bad day, first
+
+564
+00:34:20,275 --> 00:34:24,075
+Speaker 2:  Of all, incredible podcaster instincts to say this
+
+565
+00:34:24,315 --> 00:34:26,635
+Speaker 2:  horrible noise is happening. I must record it.
+
+566
+00:34:26,975 --> 00:34:28,355
+Speaker 5:  The people must know. I,
+
+567
+00:34:28,675 --> 00:34:32,515
+Speaker 2:  I applaud you for this also. Why, why are you doing this?
+
+568
+00:34:32,655 --> 00:34:34,395
+Speaker 2:  Why did you do this to your house? So
+
+569
+00:34:34,585 --> 00:34:38,275
+Speaker 5:  This is sort of the culmination of just like a, a long journey
+
+570
+00:34:38,385 --> 00:34:42,275
+Speaker 5:  between me and earthquakes. I lived in San Francisco, the Bay Area for
+
+571
+00:34:42,275 --> 00:34:45,675
+Speaker 5:  like 10 years and that's where I developed my,
+
+572
+00:34:46,415 --> 00:34:50,275
+Speaker 5:  my fear of earthquakes. I had reason to, I felt them a bunch and I was
+
+573
+00:34:50,275 --> 00:34:54,195
+Speaker 5:  told constantly to prepare for the Bay Area
+
+574
+00:34:54,375 --> 00:34:58,075
+Speaker 5:  Big one. Which in the case of San Francisco would be a repeat of that
+
+575
+00:34:58,075 --> 00:35:01,635
+Speaker 5:  famous 1906 quake along the San Andreas fault. That
+
+576
+00:35:02,055 --> 00:35:05,995
+Speaker 5:  burned down a lot of the city among other things. So I spent a
+
+577
+00:35:05,995 --> 00:35:08,435
+Speaker 5:  lot of time thinking about that in San Francisco and then moved to Seattle,
+
+578
+00:35:08,725 --> 00:35:12,635
+Speaker 5:  which seismically is more quiet day to day. Like I've lived here
+
+579
+00:35:12,635 --> 00:35:16,355
+Speaker 5:  for four and a half years. I haven't felt anything. Hmm. But
+
+580
+00:35:16,945 --> 00:35:20,915
+Speaker 5:  it's also very much earthquake country and not
+
+581
+00:35:20,915 --> 00:35:24,835
+Speaker 5:  feeling anything is a real false sense of security. Did you ever read,
+
+582
+00:35:24,835 --> 00:35:28,555
+Speaker 5:  there was a New Yorker article that came out about 10 years ago and the title
+
+583
+00:35:28,555 --> 00:35:29,035
+Speaker 5:  was God The
+
+584
+00:35:29,035 --> 00:35:29,835
+Speaker 2:  Really big one. The
+
+585
+00:35:29,835 --> 00:35:32,195
+Speaker 5:  Really big one. Yes. Yes.
+
+586
+00:35:32,545 --> 00:35:35,835
+Speaker 2:  This piece scared me more than maybe any
+
+587
+00:35:36,675 --> 00:35:37,605
+Speaker 2:  magazine story I've
+
+588
+00:35:37,605 --> 00:35:39,965
+Speaker 5:  Ever read. It was very good and terrifying. What do you remember from that
+
+589
+00:35:39,965 --> 00:35:40,205
+Speaker 5:  story?
+
+590
+00:35:40,315 --> 00:35:43,845
+Speaker 2:  Wait, okay. Can I go find a line for you? In this story that I read that
+
+591
+00:35:44,045 --> 00:35:47,685
+Speaker 2:  I still occasionally think about, to see the full scale of the
+
+592
+00:35:47,845 --> 00:35:50,925
+Speaker 2:  devastation when that tsunami recedes, you would need to be in the International
+
+593
+00:35:50,925 --> 00:35:54,325
+Speaker 2:  Space Station. That's just a sentence I think about a lot. And this isn't
+
+594
+00:35:54,325 --> 00:35:58,125
+Speaker 2:  the New Yorker. This is not a thing that is like prone to hyperbole
+
+595
+00:35:58,225 --> 00:36:00,405
+Speaker 2:  and intensity. Can I read you another sentence? Yeah. Now I'm looking at
+
+596
+00:36:00,405 --> 00:36:01,885
+Speaker 2:  piece and it's scar me all over again. This,
+
+597
+00:36:04,275 --> 00:36:07,925
+Speaker 2:  this is fun for me. I'm, I'm having a great time here in Virginia. Here.
+
+598
+00:36:08,035 --> 00:36:11,005
+Speaker 5:  Yeah. Here in geologically ancient Virginia. It says
+
+599
+00:36:11,115 --> 00:36:14,605
+Speaker 2:  OPAC estimates that in the I five corridor, it will take between one and
+
+600
+00:36:14,605 --> 00:36:17,405
+Speaker 2:  three months after the earthquake to restore electricity a month to a year
+
+601
+00:36:17,405 --> 00:36:20,445
+Speaker 2:  to restore drinking water and sewer service. Six months to a year to restore
+
+602
+00:36:20,445 --> 00:36:23,645
+Speaker 2:  major highways and 18 months to restore healthcare facilities on the coast.
+
+603
+00:36:23,695 --> 00:36:26,395
+Speaker 2:  Those numbers go up. What?
+
+604
+00:36:26,505 --> 00:36:29,315
+Speaker 5:  Yeah, there's a quote, there's a quote somewhere in there that someone said,
+
+605
+00:36:29,465 --> 00:36:33,435
+Speaker 5:  effectively everything of everything west of I five is going to
+
+606
+00:36:33,435 --> 00:36:36,835
+Speaker 5:  be toast. That I think those were the words. I live west of I five.
+
+607
+00:36:38,825 --> 00:36:39,115
+Speaker 5:  Yeah.
+
+608
+00:36:39,535 --> 00:36:43,075
+Speaker 2:  And again, this is a like sober magazine article. Absolutely. That is essentially
+
+609
+00:36:43,075 --> 00:36:46,755
+Speaker 2:  like we're on borrowed time. So I can understand how you would become somewhere
+
+610
+00:36:46,755 --> 00:36:50,635
+Speaker 2:  between rationally and irrationally terrified of what's happening here. Yes.
+
+611
+00:36:50,775 --> 00:36:54,555
+Speaker 5:  So lemme give you all the other ra like the, the full rational cause to be
+
+612
+00:36:54,555 --> 00:36:58,155
+Speaker 5:  concerned. Okay. So at some point, probably
+
+613
+00:36:58,155 --> 00:37:02,115
+Speaker 5:  roughly maybe in the next 500 years, but also maybe tomorrow. 'cause
+
+614
+00:37:02,115 --> 00:37:05,595
+Speaker 5:  that's how earthquakes work. There's, there will be this mega thrust quake
+
+615
+00:37:05,735 --> 00:37:09,635
+Speaker 5:  in the Pacific Northwest. It's gonna be felt from northern California all
+
+616
+00:37:09,635 --> 00:37:13,035
+Speaker 5:  the way up to British Columbia. It's on a fault that's called the
+
+617
+00:37:13,155 --> 00:37:16,915
+Speaker 5:  Cascadia subduction zone that runs north south, all up the west
+
+618
+00:37:16,915 --> 00:37:20,755
+Speaker 5:  coast. Just off the coast. It could hit category
+
+619
+00:37:20,825 --> 00:37:24,755
+Speaker 5:  nine on the Richter scale. It'll produce maybe five minutes of
+
+620
+00:37:24,755 --> 00:37:28,675
+Speaker 5:  shaking in Seattle, which is bananas. It's gonna do a
+
+621
+00:37:28,955 --> 00:37:32,555
+Speaker 5:  ton of damage all on its own. And like you remember, it's going to produce
+
+622
+00:37:32,555 --> 00:37:36,115
+Speaker 5:  this even more devastating tsunami across the Pacific Northwest.
+
+623
+00:37:36,445 --> 00:37:39,475
+Speaker 2:  Right. The earthquake is the first thing, but then it's what it does to the
+
+624
+00:37:39,475 --> 00:37:41,955
+Speaker 2:  water that causes the worst of it all.
+
+625
+00:37:42,395 --> 00:37:45,475
+Speaker 5:  Absolutely. Okay. So really, really very bad news.
+
+626
+00:37:46,015 --> 00:37:47,315
+Speaker 2:  And you live there on purpose.
+
+627
+00:37:47,575 --> 00:37:51,515
+Speaker 5:  And I is, I moved there intentionally after I read this article and so
+
+628
+00:37:51,515 --> 00:37:55,235
+Speaker 5:  that, I don't know what that says. So that's the very, very bad news.
+
+629
+00:37:55,415 --> 00:37:59,275
+Speaker 5:  The good news is I, not long after I moved here,
+
+630
+00:37:59,515 --> 00:38:03,275
+Speaker 5:  I heard about this earthquake early warning system called ShakeAlert
+
+631
+00:38:03,585 --> 00:38:07,355
+Speaker 5:  that had just gone fully live all up and down the west coast. So
+
+632
+00:38:07,355 --> 00:38:10,595
+Speaker 5:  there's no way to predict earthquakes. That's not a thing, that's not a science
+
+633
+00:38:10,595 --> 00:38:14,315
+Speaker 5:  right now. But scientists can detect them right
+
+634
+00:38:14,375 --> 00:38:18,275
+Speaker 5:  as they're beginning and the internet moves a whole lot faster than
+
+635
+00:38:18,345 --> 00:38:21,955
+Speaker 5:  shaking from an earthquake. So if there is a big quake today,
+
+636
+00:38:22,655 --> 00:38:26,635
+Speaker 5:  and I happen to be far enough away from the epicenter, like if it's
+
+637
+00:38:26,635 --> 00:38:30,315
+Speaker 5:  off the coast, I'll get an alert on my phone that says there's an
+
+638
+00:38:30,315 --> 00:38:34,155
+Speaker 5:  earthquake coming and it might be a few seconds or it might be a minute or
+
+639
+00:38:34,155 --> 00:38:38,045
+Speaker 5:  two before the shaking reaches me. Which is awesome for me and my
+
+640
+00:38:38,045 --> 00:38:41,365
+Speaker 5:  fear of earthquakes. But the more I've looked into this, the more I realize
+
+641
+00:38:41,435 --> 00:38:45,125
+Speaker 5:  that making a detection and warning system that's both
+
+642
+00:38:45,565 --> 00:38:49,245
+Speaker 5:  reliable and fast enough to be effective turns into this
+
+643
+00:38:49,245 --> 00:38:52,925
+Speaker 5:  massive, massive challenge. And in a lot of ways detecting the
+
+644
+00:38:53,045 --> 00:38:56,285
+Speaker 5:  earthquake is the easy part. The hard part is
+
+645
+00:38:56,695 --> 00:39:00,645
+Speaker 5:  using existing technology to notify a ton of people
+
+646
+00:39:01,225 --> 00:39:04,925
+Speaker 5:  all at once about this disaster that might only be seconds
+
+647
+00:39:05,035 --> 00:39:05,325
+Speaker 5:  away.
+
+648
+00:39:10,545 --> 00:39:14,365
+Speaker 5:  So I figured the best way to understand all this earthquake early
+
+649
+00:39:14,365 --> 00:39:18,285
+Speaker 5:  warning stuff is just to follow the chain of technology from point to
+
+650
+00:39:18,285 --> 00:39:22,125
+Speaker 5:  point. Basically how an earthquake is detected, how an alert
+
+651
+00:39:22,125 --> 00:39:26,005
+Speaker 5:  message gets generated from that and how it gets all the way to my phone,
+
+652
+00:39:26,495 --> 00:39:30,325
+Speaker 5:  which turned into this fun goose chase all around Seattle. And it
+
+653
+00:39:30,485 --> 00:39:34,125
+Speaker 5:  started with this small kind of creepy shed next to a
+
+654
+00:39:34,125 --> 00:39:36,925
+Speaker 5:  wastewater treatment plan right here in town.
+
+655
+00:39:37,105 --> 00:39:39,445
+Speaker 8:  So let's pop out. I'll show you everything and then we can do it. Yeah. Chat.
+
+656
+00:39:46,465 --> 00:39:48,715
+Speaker 8:  Okay. Find the light switch.
+
+657
+00:39:50,185 --> 00:39:54,155
+Speaker 8:  This gonna wanna stay open? Oh that's right. Well that flickering is
+
+658
+00:39:54,155 --> 00:39:54,475
+Speaker 8:  not fun
+
+659
+00:39:54,875 --> 00:39:56,115
+Speaker 5:  Deluxe. Good thing it's not a video.
+
+660
+00:39:57,105 --> 00:39:57,675
+Speaker 8:  Yeah, right.
+
+661
+00:39:58,175 --> 00:40:01,915
+Speaker 5:  You're hearing Doug Gibbons, he's a field technician at the University of
+
+662
+00:40:01,915 --> 00:40:05,795
+Speaker 5:  Washington or the UDub as we locals like to call it. He offered
+
+663
+00:40:05,795 --> 00:40:09,315
+Speaker 5:  to meet me here at this shed and show me some earthquake
+
+664
+00:40:09,515 --> 00:40:10,195
+Speaker 5:  surveillance hardware.
+
+665
+00:40:10,785 --> 00:40:13,875
+Speaker 8:  Yeah, so what we have here, this is a Titan strong motion
+
+666
+00:40:14,065 --> 00:40:17,555
+Speaker 8:  accelerometer that is bolted to the foundation of the building here.
+
+667
+00:40:18,335 --> 00:40:22,235
+Speaker 5:  The device is this plain green box like the size of a loaf of bread.
+
+668
+00:40:22,815 --> 00:40:26,515
+Speaker 5:  So if the ground starts to shake electronics inside, this thing
+
+669
+00:40:26,705 --> 00:40:29,635
+Speaker 5:  will capture a three dimensional snapshot of the movement.
+
+670
+00:40:30,225 --> 00:40:33,955
+Speaker 8:  It's oriented north to south and inside of there, there are actually three
+
+671
+00:40:33,955 --> 00:40:37,515
+Speaker 8:  different seismometers. There's one placed in the north and south
+
+672
+00:40:37,515 --> 00:40:41,275
+Speaker 8:  direction measuring, checking on that axis. One placed on the east and west
+
+673
+00:40:41,305 --> 00:40:43,995
+Speaker 8:  direction and one placed in the vertical direction.
+
+674
+00:40:44,505 --> 00:40:48,235
+Speaker 5:  Doug plugged a laptop in and he showed me the raw output of the
+
+675
+00:40:48,235 --> 00:40:51,835
+Speaker 5:  seismometers. It's basically three different graphs that show the
+
+676
+00:40:52,035 --> 00:40:55,915
+Speaker 5:  amplitude of motion at this one spot. It's, it's basically like a digital
+
+677
+00:40:55,915 --> 00:40:59,835
+Speaker 5:  version of those old earthquake readouts you see in movies. The needle that
+
+678
+00:40:59,835 --> 00:41:02,555
+Speaker 5:  scribbles back and forth on that rolling piece of paper.
+
+679
+00:41:03,295 --> 00:41:06,315
+Speaker 2:  Oh yeah. The one that kinda looks like a lie detector test. Yeah, yeah. It's
+
+680
+00:41:06,315 --> 00:41:08,675
+Speaker 2:  like it, it's, it's small and then it's huge and then it's small again. Yes.
+
+681
+00:41:08,675 --> 00:41:08,915
+Speaker 2:  Yeah.
+
+682
+00:41:08,915 --> 00:41:12,835
+Speaker 5:  Okay. Bigger scribbles, bigger earthquake. Three of them for three axes of
+
+683
+00:41:12,835 --> 00:41:13,715
+Speaker 5:  motion. Got it.
+
+684
+00:41:13,905 --> 00:41:16,955
+Speaker 8:  Then it's so sensitive it can even just detect me just bending my knees up
+
+685
+00:41:16,955 --> 00:41:17,195
+Speaker 8:  and down.
+
+686
+00:41:17,505 --> 00:41:20,675
+Speaker 5:  Literally one little shift in weight and two of the graft went.
+
+687
+00:41:21,375 --> 00:41:23,635
+Speaker 5:  So that is, wow. That is incredibly sensitive.
+
+688
+00:41:24,215 --> 00:41:24,875
+Speaker 2:  That's wild.
+
+689
+00:41:25,425 --> 00:41:26,515
+Speaker 5:  Yeah, it's fun. So
+
+690
+00:41:26,515 --> 00:41:27,875
+Speaker 2:  It must just be doing things all the time.
+
+691
+00:41:28,535 --> 00:41:32,395
+Speaker 5:  It is and it's constantly feeding that to places that we'll get to
+
+692
+00:41:32,395 --> 00:41:36,125
+Speaker 5:  soon. But it's, it's, it's taking samples many times a second constantly.
+
+693
+00:41:36,265 --> 00:41:40,165
+Speaker 5:  Wow. So over the past 10 years or so, field
+
+694
+00:41:40,215 --> 00:41:44,205
+Speaker 5:  techs like Doug have installed maybe 1500 sensors
+
+695
+00:41:44,205 --> 00:41:47,685
+Speaker 5:  like this all up and down the west coast. It's part of this huge effort
+
+696
+00:41:48,025 --> 00:41:51,725
+Speaker 5:  led by the US Geological Survey to keep tabs on all the
+
+697
+00:41:51,725 --> 00:41:55,525
+Speaker 5:  seismic activity in this part of the country. And it's sensors like
+
+698
+00:41:55,525 --> 00:41:59,405
+Speaker 5:  this one that power ShakeAlert the early warning system for people like
+
+699
+00:41:59,405 --> 00:41:59,605
+Speaker 5:  me.
+
+700
+00:42:00,025 --> 00:42:03,285
+Speaker 8:  And we now, you know, are confident that, that we've got enough instruments
+
+701
+00:42:03,285 --> 00:42:05,485
+Speaker 8:  to issue good warnings to people.
+
+702
+00:42:06,475 --> 00:42:09,735
+Speaker 5:  So here I feel like we should stop and just do a little earthquakes
+
+703
+00:42:09,795 --> 00:42:13,575
+Speaker 5:  1 0 1 'cause it'll help a lot with everything we're about to talk about.
+
+704
+00:42:14,235 --> 00:42:17,895
+Speaker 5:  So when an earthquake happens, when, when two parts of the earth's
+
+705
+00:42:18,095 --> 00:42:21,975
+Speaker 5:  crust suddenly slip past each other, there are two kinds of
+
+706
+00:42:22,105 --> 00:42:25,575
+Speaker 5:  waves that ripple out from the epicenter. They're called the primary and
+
+707
+00:42:25,575 --> 00:42:29,535
+Speaker 5:  secondary waves or P waves and S waves. The primary
+
+708
+00:42:29,745 --> 00:42:33,375
+Speaker 5:  waves move really fast, like a little more than three and a half miles
+
+709
+00:42:33,595 --> 00:42:37,535
+Speaker 5:  per second. But they're too weak to do any damage. You
+
+710
+00:42:37,775 --> 00:42:41,735
+Speaker 5:  probably wouldn't even notice them. The secondary waves are the ones
+
+711
+00:42:41,735 --> 00:42:45,615
+Speaker 5:  that can really cause harm, but those move about half
+
+712
+00:42:45,675 --> 00:42:49,575
+Speaker 5:  as fast as the P waves and that's the
+
+713
+00:42:49,575 --> 00:42:53,535
+Speaker 5:  big opportunity for early warning. All those really sensitive seismometers
+
+714
+00:42:53,535 --> 00:42:57,415
+Speaker 5:  like the one I just saw, they can pick up those P waves when
+
+715
+00:42:57,415 --> 00:42:59,855
+Speaker 5:  the real shaking is still miles away.
+
+716
+00:43:03,515 --> 00:43:06,975
+Speaker 5:  Let me put this all in real world terms 'cause I think that'll help it make
+
+717
+00:43:06,975 --> 00:43:10,855
+Speaker 5:  more sense. So let's take this really big one, that 9.0
+
+718
+00:43:10,855 --> 00:43:14,535
+Speaker 5:  earthquake that I am completely petrified of that could start
+
+719
+00:43:14,775 --> 00:43:18,295
+Speaker 5:  anywhere up and down the west coast. Say it starts due west of Seattle, this
+
+720
+00:43:18,295 --> 00:43:21,495
+Speaker 5:  is like worst case scenario for me, better to just face your fears head on.
+
+721
+00:43:21,795 --> 00:43:25,255
+Speaker 5:  That's about 135 miles west of Seattle off the coast.
+
+722
+00:43:26,035 --> 00:43:29,895
+Speaker 5:  The Cascadia fault is about 40 miles offshore. So that
+
+723
+00:43:29,895 --> 00:43:33,775
+Speaker 5:  means that those first P waves have a good 40 miles to get
+
+724
+00:43:33,775 --> 00:43:37,415
+Speaker 5:  ahead of the actual shaking. So when the P waves
+
+725
+00:43:37,485 --> 00:43:41,255
+Speaker 5:  ping those coastal sensors, the real earthquake is still
+
+726
+00:43:41,255 --> 00:43:45,055
+Speaker 5:  about 10 seconds away from the shore, which means it's 40
+
+727
+00:43:45,155 --> 00:43:48,895
+Speaker 5:  or 50 seconds away from downtown Seattle. So that
+
+728
+00:43:48,895 --> 00:43:51,975
+Speaker 5:  chunk of time, let's call it 45 seconds or so,
+
+729
+00:43:52,675 --> 00:43:56,575
+Speaker 5:  that's the window of time that ShakeAlert has to warn this
+
+730
+00:43:56,575 --> 00:44:00,255
+Speaker 5:  major metropolitan city that this huge natural disaster just
+
+731
+00:44:00,575 --> 00:44:01,375
+Speaker 5:  appeared out of nowhere.
+
+732
+00:44:04,795 --> 00:44:08,535
+Speaker 5:  So step-by-step, here's how they actually do that. When the
+
+733
+00:44:08,725 --> 00:44:12,495
+Speaker 5:  PWAs hit those first sensors, those little seismometer graph spike
+
+734
+00:44:12,955 --> 00:44:16,455
+Speaker 5:  and that data gets forwarded straight onto UB over
+
+735
+00:44:16,625 --> 00:44:20,495
+Speaker 5:  radio or hardwire internet or satellite, really whatever
+
+736
+00:44:20,715 --> 00:44:24,615
+Speaker 5:  is available right where the sensors are located. And that part happens
+
+737
+00:44:24,755 --> 00:44:25,615
+Speaker 5:  really fast
+
+738
+00:44:26,235 --> 00:44:29,535
+Speaker 8:  Within a fraction of a second. Yeah. Within a, you know, a second or less
+
+739
+00:44:29,555 --> 00:44:33,485
+Speaker 8:  we want this data to, to head back to UDub and that's from shaking
+
+740
+00:44:33,545 --> 00:44:37,205
+Speaker 8:  in the ground to the sensor, recording it, creating a packet,
+
+741
+00:44:37,595 --> 00:44:40,965
+Speaker 8:  sending it to a communications device. That communications device
+
+742
+00:44:41,265 --> 00:44:45,245
+Speaker 8:  either sending it through a radio wave or through the internet back to
+
+743
+00:44:45,445 --> 00:44:45,605
+Speaker 8:  UDub.
+
+744
+00:44:46,185 --> 00:44:49,965
+Speaker 5:  It lands at a server on site at the university. This one.
+
+745
+00:44:50,545 --> 00:44:54,525
+Speaker 10:  So we just walked into kind of a smallish room that has a
+
+746
+00:44:54,525 --> 00:44:58,125
+Speaker 10:  bunch of computer racks in it including and a whole bunch of computers that
+
+747
+00:44:58,125 --> 00:45:02,045
+Speaker 10:  yeah, just have green blinky lights, all
+
+748
+00:45:02,045 --> 00:45:05,245
+Speaker 10:  the data from the field comes in here continuously and then gets
+
+749
+00:45:05,995 --> 00:45:06,605
+Speaker 10:  processed.
+
+750
+00:45:07,725 --> 00:45:11,395
+Speaker 5:  We're now in the basement of an earth and space sciences building at UDub
+
+751
+00:45:11,395 --> 00:45:15,115
+Speaker 5:  in Seattle. My tour guide is Renata Hartog. She helped
+
+752
+00:45:15,115 --> 00:45:19,075
+Speaker 5:  build shake alerts, algorithms, the servers in here along with
+
+753
+00:45:19,075 --> 00:45:22,595
+Speaker 5:  others in northern and southern California, they run a pair of
+
+754
+00:45:22,605 --> 00:45:25,515
+Speaker 5:  algorithms that analyze any incoming quake.
+
+755
+00:45:26,135 --> 00:45:29,155
+Speaker 10:  So one algorithm just looks for
+
+756
+00:45:29,865 --> 00:45:33,515
+Speaker 10:  it's, it just looks at the very beginning of the signal and
+
+757
+00:45:34,065 --> 00:45:37,675
+Speaker 10:  then it correct tries to, based on the amplitudes. So it
+
+758
+00:45:37,675 --> 00:45:41,195
+Speaker 10:  associates it into, oh this is an earthquake just
+
+759
+00:45:41,535 --> 00:45:45,235
+Speaker 10:  has a point on the map and an estimate of what the magnitude of the earthquake
+
+760
+00:45:45,255 --> 00:45:45,475
+Speaker 10:  was.
+
+761
+00:45:45,985 --> 00:45:49,955
+Speaker 5:  Basically it's like a snap judgment of the epicenter and the magnitude
+
+762
+00:45:49,955 --> 00:45:53,275
+Speaker 5:  of the quake. They have the second algorithm that's slower,
+
+763
+00:45:53,735 --> 00:45:57,635
+Speaker 5:  but it can model the whole quake beyond just that first point on the map,
+
+764
+00:45:57,805 --> 00:46:01,115
+Speaker 5:  which is a thing I never knew about earthquakes. Incidentally, the epicenter
+
+765
+00:46:01,175 --> 00:46:05,155
+Speaker 5:  is really just the starting point. As an earthquake grows,
+
+766
+00:46:05,255 --> 00:46:09,035
+Speaker 5:  it can get bigger and bigger as more miles of the fault line
+
+767
+00:46:09,185 --> 00:46:12,915
+Speaker 5:  slip. And that means longer shaking and more people
+
+768
+00:46:13,275 --> 00:46:13,395
+Speaker 5:  affected.
+
+769
+00:46:13,935 --> 00:46:17,635
+Speaker 10:  So for example, a large earthquake off the Pacific
+
+770
+00:46:17,645 --> 00:46:21,235
+Speaker 10:  coast here on the Cascadia seduction zone, if it starts
+
+771
+00:46:21,235 --> 00:46:25,075
+Speaker 10:  somewhere in the southern end, it will take minutes probably
+
+772
+00:46:25,075 --> 00:46:28,435
+Speaker 10:  before that whole fault plane has ruptured all the way from
+
+773
+00:46:28,895 --> 00:46:30,595
+Speaker 10:  the southern end to the northern end.
+
+774
+00:46:31,495 --> 00:46:35,235
+Speaker 5:  And finally, based on all of that ShakeAlert estimates, the
+
+775
+00:46:35,235 --> 00:46:38,875
+Speaker 5:  geographic area that will get hit the hardest and it creates an alert to
+
+776
+00:46:38,875 --> 00:46:42,795
+Speaker 5:  be delivered to phones. And that part happens super fast too,
+
+777
+00:46:42,815 --> 00:46:46,635
+Speaker 5:  by the way. The first alert leaves the server after just a second
+
+778
+00:46:46,655 --> 00:46:50,355
+Speaker 5:  or two of processing. And if the quake keeps growing like they do,
+
+779
+00:46:50,815 --> 00:46:54,075
+Speaker 5:  it can send out additional waves of alerts a couple times a second.
+
+780
+00:46:54,545 --> 00:46:58,515
+Speaker 2:  Okay, wait, so hold on. Do the, do the math for me right now. Where are
+
+781
+00:46:58,515 --> 00:47:02,395
+Speaker 2:  we in terms of like lag and I'm imagining the
+
+782
+00:47:02,435 --> 00:47:06,355
+Speaker 2:  P waves are going, the S waves are going where, where are the waves and
+
+783
+00:47:06,355 --> 00:47:08,115
+Speaker 2:  where are the alerts at this moment in time?
+
+784
+00:47:08,335 --> 00:47:11,995
+Speaker 5:  So this is what I kept trying to do as I was having these conversations.
+
+785
+00:47:12,115 --> 00:47:15,675
+Speaker 5:  I was trying to add up all of the lag from the beginning to now
+
+786
+00:47:16,015 --> 00:47:19,875
+Speaker 5:  and So I kept asking all of these people about all these steps. How
+
+787
+00:47:19,875 --> 00:47:23,435
+Speaker 5:  long does this take? How long does this take? And everyone was like, I don't
+
+788
+00:47:23,435 --> 00:47:27,235
+Speaker 5:  know, a second, less than a second. Everything that we've talked about so
+
+789
+00:47:27,235 --> 00:47:30,725
+Speaker 5:  far is, is just super fast. The sensor's picking up the P waves,
+
+790
+00:47:31,075 --> 00:47:34,725
+Speaker 5:  sending that information over the internet to UDub the algorithm
+
+791
+00:47:34,725 --> 00:47:38,605
+Speaker 5:  running and making decisions, all of that added up is like
+
+792
+00:47:39,315 --> 00:47:42,965
+Speaker 5:  two-ish seconds. So in our scenario, the
+
+793
+00:47:42,965 --> 00:47:46,845
+Speaker 5:  earthquake is still like 40 or 45 seconds away from me
+
+794
+00:47:47,005 --> 00:47:47,405
+Speaker 5:  in Seattle.
+
+795
+00:47:48,155 --> 00:47:51,405
+Speaker 2:  Okay. That's pretty good. So it's like I'm imagining sort of jaws music as
+
+796
+00:47:51,405 --> 00:47:55,005
+Speaker 2:  it's like slowly creeping towards us as we get here. But we still,
+
+797
+00:47:55,295 --> 00:47:58,725
+Speaker 2:  we're still ahead of the game here. We still have a solid chunk of time to,
+
+798
+00:47:58,885 --> 00:48:01,405
+Speaker 2:  I mean 45 seconds isn't forever, but it's something,
+
+799
+00:48:01,625 --> 00:48:05,485
+Speaker 5:  It is something if it actually gives me 45
+
+800
+00:48:05,485 --> 00:48:09,205
+Speaker 5:  seconds. 'cause there's this, there's one other link in this chain that we
+
+801
+00:48:09,205 --> 00:48:13,125
+Speaker 5:  have not talked about yet and that's the alerts getting from
+
+802
+00:48:13,475 --> 00:48:17,445
+Speaker 5:  this server to my cell phone. And that's where things
+
+803
+00:48:17,475 --> 00:48:18,205
+Speaker 5:  kind of get messy.
+
+804
+00:48:21,145 --> 00:48:25,085
+Speaker 5:  So the deal is we already do have this really good
+
+805
+00:48:25,085 --> 00:48:28,725
+Speaker 5:  system in a lot of ways for getting alerts out to a
+
+806
+00:48:28,725 --> 00:48:32,685
+Speaker 5:  gazillion cell phones all at once. It's called the wireless emergency
+
+807
+00:48:32,775 --> 00:48:36,685
+Speaker 5:  alert system or wea. So if you've ever gotten an Amber
+
+808
+00:48:36,735 --> 00:48:40,125
+Speaker 5:  alert on your phone or a tornado warning or some other kind of
+
+809
+00:48:40,275 --> 00:48:44,045
+Speaker 5:  emergency ping that's probably wea. I'm sure you've seen these things
+
+810
+00:48:44,045 --> 00:48:46,645
+Speaker 5:  before. The presidential alerts or versions of this,
+
+811
+00:48:47,305 --> 00:48:51,165
+Speaker 2:  Is this the one that also failed spectacularly in Hawaii and scared a bunch
+
+812
+00:48:51,165 --> 00:48:54,205
+Speaker 2:  of people that that something like a bomb was incoming. Oh,
+
+813
+00:48:54,265 --> 00:48:57,565
+Speaker 5:  The ballistic missile? Yeah, the incoming ballistic missile. The alert that
+
+814
+00:48:57,565 --> 00:49:00,765
+Speaker 5:  was just like hug your loved ones. Yeah, basically. And then they were like,
+
+815
+00:49:01,455 --> 00:49:02,605
+Speaker 5:  sorry, nevermind.
+
+816
+00:49:03,395 --> 00:49:04,165
+Speaker 2:  That was wea.
+
+817
+00:49:04,235 --> 00:49:05,485
+Speaker 5:  Yeah, yeah that was wea.
+
+818
+00:49:05,795 --> 00:49:07,565
+Speaker 2:  Okay, so we, we do know how to do this
+
+819
+00:49:07,675 --> 00:49:11,405
+Speaker 5:  Exactly. Okay. That was developed back in 2012 by the federal
+
+820
+00:49:11,405 --> 00:49:14,645
+Speaker 5:  government. So this has been around for a while and it uses this kind of
+
+821
+00:49:14,645 --> 00:49:18,485
+Speaker 5:  funny technology called cell broadcast and basically it
+
+822
+00:49:18,715 --> 00:49:22,685
+Speaker 5:  uses cell towers like giant bullhorns. They just
+
+823
+00:49:23,125 --> 00:49:26,725
+Speaker 5:  blare out the simple digital message to any device that's
+
+824
+00:49:26,725 --> 00:49:30,405
+Speaker 5:  programmed to pick it up. So this is great for earthquake
+
+825
+00:49:30,465 --> 00:49:33,965
+Speaker 5:  alerts because there's no need to opt in or download anything
+
+826
+00:49:34,465 --> 00:49:38,085
+Speaker 5:  if your cell phone is in the danger zone. When an earthquake hits,
+
+827
+00:49:38,585 --> 00:49:42,325
+Speaker 5:  you'll get an alert on your phone as long as your phone and your carrier
+
+828
+00:49:42,355 --> 00:49:45,885
+Speaker 5:  support wia, which somewhere between most and all of them do,
+
+829
+00:49:46,775 --> 00:49:50,355
+Speaker 11:  Our WIA messages that are get delivered to cell phones are,
+
+830
+00:49:50,615 --> 00:49:54,075
+Speaker 11:  are built for 90 characters because we know that they,
+
+831
+00:49:54,995 --> 00:49:58,715
+Speaker 11:  majority of phones, even non-smart phones will be able to get those
+
+832
+00:49:58,815 --> 00:50:02,555
+Speaker 11:  alerts that If you go above those 90 characters. People might not be able
+
+833
+00:50:02,555 --> 00:50:06,435
+Speaker 11:  to get them. So we we're in the position of crafting messages so that
+
+834
+00:50:06,435 --> 00:50:10,385
+Speaker 11:  we can make even people who still use flip phones to be able
+
+835
+00:50:10,385 --> 00:50:11,705
+Speaker 11:  to access earthquake early warning.
+
+836
+00:50:12,475 --> 00:50:16,255
+Speaker 5:  That's Bob DeGroot. He leads the ShakeAlert operations team
+
+837
+00:50:16,255 --> 00:50:20,135
+Speaker 5:  outta Pasadena, California. He says that WIA is the
+
+838
+00:50:20,135 --> 00:50:23,815
+Speaker 5:  single biggest, best channel for reaching the 50 million
+
+839
+00:50:23,915 --> 00:50:27,865
+Speaker 5:  or so people on the west coast. But at the same time he's also
+
+840
+00:50:27,865 --> 00:50:29,985
+Speaker 5:  really aware of its Achilles heel.
+
+841
+00:50:30,455 --> 00:50:33,665
+Speaker 11:  When the wireless emergency alert system was developed
+
+842
+00:50:34,525 --> 00:50:38,225
+Speaker 11:  didn't have shaker speeds in mind,
+
+843
+00:50:38,575 --> 00:50:42,425
+Speaker 11:  operating at the the, the horizon of minutes was sort of, wow, that's
+
+844
+00:50:42,425 --> 00:50:45,545
+Speaker 11:  fast. But now we're asking a system
+
+845
+00:50:46,845 --> 00:50:50,065
+Speaker 11:  to operate in matters of seconds and fractions of a second
+
+846
+00:50:51,125 --> 00:50:55,105
+Speaker 5:  WIA is just not as quick as the rest of the ShakeAlert system
+
+847
+00:50:55,105 --> 00:50:58,625
+Speaker 5:  that we stepped through. In fact, when ShakeAlert was in development,
+
+848
+00:50:59,125 --> 00:51:03,025
+Speaker 5:  no one even knew what we as lag was. Bob's team
+
+849
+00:51:03,385 --> 00:51:07,185
+Speaker 5:  actually set up these two tests in California where they pushed out an
+
+850
+00:51:07,185 --> 00:51:11,145
+Speaker 5:  alert to a specific area and then measured how long it took to reach their
+
+851
+00:51:11,145 --> 00:51:11,345
+Speaker 5:  phones.
+
+852
+00:51:11,965 --> 00:51:15,265
+Speaker 11:  We took a bunch of cell phones, including mine and including my colleagues.
+
+853
+00:51:15,725 --> 00:51:19,025
+Speaker 11:  We put numbers on them and then laid them on the table and then
+
+854
+00:51:19,775 --> 00:51:23,335
+Speaker 11:  took a GoPro basically and filmed all those phones.
+
+855
+00:51:24,155 --> 00:51:27,215
+Speaker 5:  He sent me the, the video of this test, and it's really funny. It's this
+
+856
+00:51:27,525 --> 00:51:31,055
+Speaker 5:  long table with a whole row of different kinds of phones
+
+857
+00:51:31,235 --> 00:51:35,215
+Speaker 5:  spread out, and a lot of people are all gathered around these phones
+
+858
+00:51:35,285 --> 00:51:36,655
+Speaker 5:  waiting for the test to start.
+
+859
+00:51:37,075 --> 00:51:40,255
+Speaker 11:  So we waited for the alerts to come through and the phones lit up when the
+
+860
+00:51:40,255 --> 00:51:41,015
+Speaker 11:  alerts came through.
+
+861
+00:51:47,555 --> 00:51:51,375
+Speaker 5:  The very fastest turnaround that they recorded was around four seconds.
+
+862
+00:51:51,795 --> 00:51:55,055
+Speaker 5:  The median was in the six to 12 second range.
+
+863
+00:51:55,695 --> 00:51:59,375
+Speaker 5:  A bunch of phones just never got the alert. And then there were residents
+
+864
+00:51:59,375 --> 00:52:03,215
+Speaker 5:  within the test area who reported an even wider range of
+
+865
+00:52:03,215 --> 00:52:07,095
+Speaker 5:  latencies. So the point is, even with that controlled
+
+866
+00:52:07,095 --> 00:52:10,975
+Speaker 5:  test, WIA is still this really frustrating black box.
+
+867
+00:52:11,795 --> 00:52:15,655
+Speaker 2:  How do we not know better? I mean, this seems like a, solve
+
+868
+00:52:15,655 --> 00:52:19,535
+Speaker 2:  technology B very important and, and see
+
+869
+00:52:19,975 --> 00:52:23,375
+Speaker 2:  a thing we've been doing and using for a long time. It seems like
+
+870
+00:52:23,725 --> 00:52:26,655
+Speaker 2:  this should be a totally known quantity at this point.
+
+871
+00:52:27,165 --> 00:52:30,615
+Speaker 5:  It's, I, I had that same feeling and it took me
+
+872
+00:52:30,615 --> 00:52:34,335
+Speaker 5:  attempting to map out all of the people involved in WIA to
+
+873
+00:52:34,335 --> 00:52:38,215
+Speaker 5:  understand that it's just not one thing. It's not
+
+874
+00:52:38,215 --> 00:52:42,015
+Speaker 5:  this technology that is implemented by one organization that can be
+
+875
+00:52:42,165 --> 00:52:46,015
+Speaker 5:  optimized throughout this whole chain. There are, there's the federal
+
+876
+00:52:46,015 --> 00:52:49,495
+Speaker 5:  government, there are telecom companies, there are handset manufacturers,
+
+877
+00:52:50,115 --> 00:52:54,095
+Speaker 5:  and every carrier might handle implementation of this standard differently.
+
+878
+00:52:54,645 --> 00:52:58,055
+Speaker 5:  They might prioritize it differently on their networks.
+
+879
+00:52:58,515 --> 00:53:02,295
+Speaker 5:  All of this is voluntary for them, so it's kinda whatever systems they've
+
+880
+00:53:02,295 --> 00:53:05,775
+Speaker 5:  set up. And so there seem to be all these differences in delivery.
+
+881
+00:53:06,445 --> 00:53:10,415
+Speaker 5:  There's different kinds of lag across the two G and 3G and 4G and
+
+882
+00:53:10,415 --> 00:53:13,415
+Speaker 5:  5G network networks across different styles of phones.
+
+883
+00:53:14,235 --> 00:53:17,975
+Speaker 5:  Bob said that like a burner phone that he got at the seven 11 turned out
+
+884
+00:53:17,975 --> 00:53:21,735
+Speaker 5:  to be the fastest delivery mechanism. So If, you like
+
+885
+00:53:21,735 --> 00:53:25,405
+Speaker 5:  really wanna be on point with wia, just go get yourself a burner phone. No
+
+886
+00:53:25,405 --> 00:53:26,245
+Speaker 5:  babe, it's not a burner.
+
+887
+00:53:26,245 --> 00:53:26,485
+Speaker 13:  This
+
+888
+00:53:26,485 --> 00:53:28,485
+Speaker 5:  Is my earthquake phone if this is my earthquake detector.
+
+889
+00:53:31,705 --> 00:53:35,125
+Speaker 5:  So it's, it's just a little bit of a mess. There's no built-in way to measure
+
+890
+00:53:35,125 --> 00:53:39,045
+Speaker 5:  end-to-end latency. And again, this wasn't built
+
+891
+00:53:39,425 --> 00:53:43,045
+Speaker 5:  for earthquake early warning. So no one in any part of
+
+892
+00:53:43,285 --> 00:53:46,965
+Speaker 5:  this process was ever told. You have to find ways to shave off
+
+893
+00:53:46,965 --> 00:53:50,725
+Speaker 5:  every second possible from this system. And again,
+
+894
+00:53:51,055 --> 00:53:54,765
+Speaker 5:  we've been tossing this 45 second number around in our scenario.
+
+895
+00:53:55,625 --> 00:53:59,605
+Speaker 5:  And so given that a second here or there might not seem like a big
+
+896
+00:53:59,605 --> 00:54:03,085
+Speaker 5:  deal. But the thing you gotta keep in mind is that
+
+897
+00:54:03,425 --> 00:54:07,285
+Speaker 5:  that's the amount of time that ShakeAlert has to notify me in
+
+898
+00:54:07,285 --> 00:54:11,205
+Speaker 5:  Seattle about a Cascadia earthquake. First of all, even
+
+899
+00:54:11,205 --> 00:54:13,885
+Speaker 5:  in that scenario, there are a lot of people that live closer to the coast,
+
+900
+00:54:14,185 --> 00:54:18,085
+Speaker 5:  so they're not gonna have 45 seconds to play with. And even for me
+
+901
+00:54:18,385 --> 00:54:22,005
+Speaker 5:  in Seattle, there are other faults to worry about.
+
+902
+00:54:22,905 --> 00:54:26,365
+Speaker 13:  And good evening, a rather typical late morning in the state of Washington
+
+903
+00:54:26,505 --> 00:54:30,485
+Speaker 13:  was turned suddenly into a rumbling and rolling panic. An
+
+904
+00:54:30,485 --> 00:54:34,445
+Speaker 13:  earthquake measuring 6.8 has left millions shaken, the
+
+905
+00:54:34,445 --> 00:54:37,685
+Speaker 13:  damage is widespread, the injured list continues to change and at least
+
+906
+00:54:37,825 --> 00:54:40,125
+Speaker 13:  one person has lost their life.
+
+907
+00:54:42,035 --> 00:54:45,885
+Speaker 5:  That was the 2001 qu quake. It hit right
+
+908
+00:54:45,885 --> 00:54:49,685
+Speaker 5:  underneath the Seattle area and it shook the whole region for about
+
+909
+00:54:49,685 --> 00:54:53,605
+Speaker 5:  45 seconds. It ultimately did maybe $2 billion worth of
+
+910
+00:54:53,605 --> 00:54:56,485
+Speaker 5:  damage. It's one of the costliest quakes in US history.
+
+911
+00:54:57,425 --> 00:55:00,845
+Speaker 5:  And the fault that produced it is really busy
+
+912
+00:55:01,345 --> 00:55:04,485
+Speaker 5:  before 2001. It produced similar quakes in
+
+913
+00:55:04,725 --> 00:55:08,045
+Speaker 5:  19 65, 19 49 and 1927.
+
+914
+00:55:09,225 --> 00:55:11,485
+Speaker 5:  That's basically every 20 to 40 years.
+
+915
+00:55:11,935 --> 00:55:15,565
+Speaker 14:  Those are, are most typical
+
+916
+00:55:15,835 --> 00:55:19,805
+Speaker 14:  significant earthquakes. I guess you would say that's a once in a generation
+
+917
+00:55:19,805 --> 00:55:23,565
+Speaker 14:  event as opposed to the Cascadia earthquake,
+
+918
+00:55:23,565 --> 00:55:27,205
+Speaker 14:  which is once in the life of a nation
+
+919
+00:55:27,355 --> 00:55:28,285
+Speaker 14:  kind of event. Right.
+
+920
+00:55:28,675 --> 00:55:32,285
+Speaker 5:  Gabriel Lotto works on engagement with the ShakeAlert team here at UDub,
+
+921
+00:55:33,145 --> 00:55:36,645
+Speaker 5:  and he explained to me that the fault responsible for the Nisqually quake
+
+922
+00:55:37,235 --> 00:55:40,085
+Speaker 5:  sits a good 40 miles below the Seattle area.
+
+923
+00:55:40,785 --> 00:55:44,165
+Speaker 14:  So let's say you have a repeat of the Nisqually earthquake today.
+
+924
+00:55:44,795 --> 00:55:48,685
+Speaker 14:  That earthquake starts deeper down, but it's right below our feet,
+
+925
+00:55:49,165 --> 00:55:51,405
+Speaker 14:  specifically right below the city of Olympia.
+
+926
+00:55:52,295 --> 00:55:56,245
+Speaker 5:  Since the waves are coming directly up from below us, it
+
+927
+00:55:56,245 --> 00:56:00,045
+Speaker 5:  means more of the region gets hit all at once. And for this
+
+928
+00:56:00,065 --> 00:56:02,325
+Speaker 5:  one, we just get a lot less warning time
+
+929
+00:56:02,905 --> 00:56:05,885
+Speaker 14:  As the area of shaking spreads out. You could get
+
+930
+00:56:06,235 --> 00:56:09,285
+Speaker 14:  5, 10, 15 seconds depending on where you are. Exactly.
+
+931
+00:56:09,995 --> 00:56:13,765
+Speaker 5:  Just to bring that all home, five or 10 or 15 seconds
+
+932
+00:56:14,585 --> 00:56:18,285
+Speaker 5:  is roughly the amount of lag time that's in the WEA system.
+
+933
+00:56:18,825 --> 00:56:22,645
+Speaker 5:  So for this quake, the one that I will very likely experience
+
+934
+00:56:22,665 --> 00:56:26,245
+Speaker 5:  myself in the coming decades that squishiness in
+
+935
+00:56:26,465 --> 00:56:30,445
+Speaker 5:  WIA could determine whether or not a lot of people get warnings in
+
+936
+00:56:30,445 --> 00:56:30,645
+Speaker 5:  time.
+
+937
+00:56:31,355 --> 00:56:35,245
+Speaker 2:  There's definitely a, a deeply bleak world in which you can
+
+938
+00:56:35,245 --> 00:56:39,085
+Speaker 2:  imagine getting this notification like two or three minutes after
+
+939
+00:56:39,145 --> 00:56:42,925
+Speaker 2:  the earthquake has hit. Yeah. Which sounds both very plausible and
+
+940
+00:56:42,945 --> 00:56:44,245
+Speaker 2:  really, truly awful.
+
+941
+00:56:44,585 --> 00:56:47,205
+Speaker 5:  And just, yeah, the, just the biggest knife twist. Yeah.
+
+942
+00:56:47,585 --> 00:56:51,565
+Speaker 2:  So it sounds like if, if WIA is not the answer, or at least
+
+943
+00:56:51,585 --> 00:56:55,485
+Speaker 2:  not the perfectly tunable answer, are
+
+944
+00:56:55,485 --> 00:56:57,965
+Speaker 2:  we just on our own? Is this, is there just not a better system here?
+
+945
+00:56:58,865 --> 00:57:02,765
+Speaker 5:  WIA is not the whole answer clearly, but the people
+
+946
+00:57:03,045 --> 00:57:06,685
+Speaker 5:  building ShakeAlert are thinking way past WEA to
+
+947
+00:57:06,985 --> 00:57:10,325
+Speaker 5:  all of the possible platforms for delivering a message like this.
+
+948
+00:57:10,785 --> 00:57:14,605
+Speaker 5:  So for example, a team at uc, Berkeley built a smartphone app
+
+949
+00:57:14,605 --> 00:57:18,165
+Speaker 5:  called My Shake. I have it on my phone and it works like
+
+950
+00:57:18,485 --> 00:57:22,365
+Speaker 5:  a normal smartphone app. I share my location with it and if I'm
+
+951
+00:57:22,365 --> 00:57:26,085
+Speaker 5:  within the alert radius of an earthquake, it sends me a push notification
+
+952
+00:57:26,785 --> 00:57:30,725
+Speaker 5:  and push notifications generally arrive in one to two seconds,
+
+953
+00:57:31,515 --> 00:57:32,845
+Speaker 5:  much better than five to 15.
+
+954
+00:57:33,635 --> 00:57:37,445
+Speaker 2:  Okay. So this makes a lot of sense to me and is one of the things I was gonna
+
+955
+00:57:37,465 --> 00:57:40,885
+Speaker 2:  ask is I feel like for you as a, as a Seattleite,
+
+956
+00:57:41,425 --> 00:57:45,005
+Speaker 2:  if somebody was like, Hey, download this app
+
+957
+00:57:45,665 --> 00:57:49,605
+Speaker 2:  and give it your location and we will tell you
+
+958
+00:57:49,605 --> 00:57:53,125
+Speaker 2:  if there's an earthquake coming, that is the single best case I've ever heard
+
+959
+00:57:53,545 --> 00:57:56,605
+Speaker 2:  in history for why you should download an app. So
+
+960
+00:57:57,285 --> 00:57:57,525
+Speaker 5:  Absolutely.
+
+961
+00:57:57,765 --> 00:58:01,285
+Speaker 2:  I, but I guess, I guess there are challenges there too, but it, it does make
+
+962
+00:58:01,285 --> 00:58:05,165
+Speaker 2:  sense to me that that you would say just do this one thing
+
+963
+00:58:05,165 --> 00:58:06,885
+Speaker 2:  and then we can do something much better.
+
+964
+00:58:07,625 --> 00:58:11,525
+Speaker 5:  Yes, absolutely. And the ShakeAlert people are shouting that from the
+
+965
+00:58:11,645 --> 00:58:15,605
+Speaker 5:  rooftops. The fact that it's opt in versus opt out
+
+966
+00:58:15,625 --> 00:58:18,645
+Speaker 5:  for something like this means that outta the gates you are capturing
+
+967
+00:58:19,435 --> 00:58:23,205
+Speaker 5:  such a smaller chunk of the population Yeah. That you are otherwise
+
+968
+00:58:23,235 --> 00:58:26,965
+Speaker 5:  there's just no getting around that. The ShakeAlert team has been at this
+
+969
+00:58:27,065 --> 00:58:30,925
+Speaker 5:  for a while and there are now three and a half million or so
+
+970
+00:58:31,365 --> 00:58:35,245
+Speaker 5:  registered users of this app, which is awesome and huge progress. But again,
+
+971
+00:58:35,245 --> 00:58:38,965
+Speaker 5:  there are 50 million people on the west coast, so
+
+972
+00:58:39,275 --> 00:58:43,165
+Speaker 5:  it's getting people signed on to this before
+
+973
+00:58:43,365 --> 00:58:47,325
+Speaker 5:  a big earthquake becomes this consumer tech problem. It becomes an app
+
+974
+00:58:47,325 --> 00:58:51,125
+Speaker 5:  development problem, it becomes a social problem, it just, it's messier
+
+975
+00:58:51,865 --> 00:58:55,725
+Speaker 5:  now. Google has been thinking about this for a while and
+
+976
+00:58:55,915 --> 00:58:59,845
+Speaker 5:  they have done one better. They baked ShakeAlert into
+
+977
+00:58:59,845 --> 00:59:03,405
+Speaker 5:  Android at the OS level, which gives them the power to
+
+978
+00:59:03,535 --> 00:59:07,045
+Speaker 5:  issue a couple of different kinds of alerts that you can't do just with an
+
+979
+00:59:07,045 --> 00:59:07,245
+Speaker 5:  app
+
+980
+00:59:07,625 --> 00:59:11,045
+Speaker 14:  If it's a smaller earthquake. It's just, it just looks like a push
+
+981
+00:59:11,045 --> 00:59:15,005
+Speaker 14:  notification. If it's a larger earthquake, it's a full
+
+982
+00:59:15,005 --> 00:59:18,605
+Speaker 14:  screen takeover, it'll break through silent mode
+
+983
+00:59:18,905 --> 00:59:22,485
+Speaker 14:  or anything like that. You have no choice but to look at this thing. It
+
+984
+00:59:22,485 --> 00:59:25,685
+Speaker 14:  makes a sound, it takes over your screen, it buzzes
+
+985
+00:59:26,465 --> 00:59:30,365
+Speaker 14:  and it's possible to turn off these alerts, but they're on by default,
+
+986
+00:59:30,365 --> 00:59:34,165
+Speaker 14:  which I think is a really good thing when life safety is on the
+
+987
+00:59:34,165 --> 00:59:37,205
+Speaker 14:  line. Yeah. You don't want to mess around with
+
+988
+00:59:37,755 --> 00:59:41,565
+Speaker 14:  whether or not a user will pay attention
+
+989
+00:59:42,265 --> 00:59:43,005
+Speaker 14:  to an alert.
+
+990
+00:59:43,875 --> 00:59:47,565
+Speaker 5:  Apple's so far has not built anything like that into iOS.
+
+991
+00:59:48,055 --> 00:59:52,045
+Speaker 5:  There is a way to speed up WEA alerts, but it's this toggle that's buried
+
+992
+00:59:52,045 --> 00:59:55,645
+Speaker 5:  in the iOS system settings. I will put a link in the show notes about that.
+
+993
+00:59:56,685 --> 01:00:00,565
+Speaker 5:  I did ask Apple about all of this, but they didn't get me any more information.
+
+994
+01:00:01,265 --> 01:00:05,205
+Speaker 5:  Anyway, the point is, there are these other ways that you can get an
+
+995
+01:00:05,205 --> 01:00:08,965
+Speaker 5:  alert, but it depends on where you are and what phone you have and
+
+996
+01:00:08,965 --> 01:00:12,565
+Speaker 5:  what you're proactively signed up for. So this is where everything
+
+997
+01:00:12,565 --> 01:00:14,845
+Speaker 5:  outside of WIA just gets really piecemeal.
+
+998
+01:00:15,455 --> 01:00:19,245
+Speaker 2:  Right? Yeah, it's, it's an interesting adoption problem
+
+999
+01:00:19,565 --> 01:00:21,685
+Speaker 2:  'cause you get to a point where you're like, okay, even if we solve this
+
+1000
+01:00:21,685 --> 01:00:25,525
+Speaker 2:  problem, you know, the only way to get people reliably
+
+1001
+01:00:25,525 --> 01:00:29,325
+Speaker 2:  to download an app is to promise them like free cheap
+
+1002
+01:00:29,605 --> 01:00:31,405
+Speaker 2:  clothing from China. So like
+
+1003
+01:00:31,845 --> 01:00:33,565
+Speaker 5:  I will pass that along to them. Yeah.
+
+1004
+01:00:35,265 --> 01:00:38,285
+Speaker 2:  But you mentioned three and a half million people have downloaded this thing
+
+1005
+01:00:38,285 --> 01:00:42,245
+Speaker 2:  that the system seems to be sort of fully realized. Has it
+
+1006
+01:00:42,245 --> 01:00:45,485
+Speaker 2:  been tested? Have we been through a ShakeAlert earthquake before?
+
+1007
+01:00:45,865 --> 01:00:49,765
+Speaker 5:  Yes. In California there have actually been a lot of them that have
+
+1008
+01:00:49,785 --> 01:00:53,685
+Speaker 5:  put all of these different platforms to the test. Actually, just back
+
+1009
+01:00:53,685 --> 01:00:57,605
+Speaker 5:  in September, there was a pretty decent quake in Malibu and it
+
+1010
+01:00:57,605 --> 01:01:01,405
+Speaker 5:  all worked and some people got like 20 seconds of warning, which is enough
+
+1011
+01:01:01,405 --> 01:01:05,365
+Speaker 5:  time to take cover. It's enough time to get away from Windows that like you
+
+1012
+01:01:05,365 --> 01:01:09,325
+Speaker 5:  can do a lot in 20 seconds. Overall, the rollout has not
+
+1013
+01:01:09,325 --> 01:01:13,245
+Speaker 5:  been perfect. Back in 2021, there was another quake in Southern
+
+1014
+01:01:13,245 --> 01:01:16,845
+Speaker 5:  California that ShakeAlert ended up misinterpreting
+
+1015
+01:01:17,025 --> 01:01:20,845
+Speaker 5:  as multiple smaller quakes. So a lot of people just never
+
+1016
+01:01:20,905 --> 01:01:24,765
+Speaker 5:  got that warning. In some ways though, the mistake that experts
+
+1017
+01:01:24,775 --> 01:01:28,765
+Speaker 5:  worry about even more is a false positive in erroneous alert.
+
+1018
+01:01:29,225 --> 01:01:30,325
+Speaker 5:  Here's Gabriel again.
+
+1019
+01:01:30,745 --> 01:01:34,605
+Speaker 14:  If we tell people there is an earthquake and there isn't,
+
+1020
+01:01:34,905 --> 01:01:38,805
+Speaker 14:  we lose credibility and that reduces
+
+1021
+01:01:38,805 --> 01:01:42,605
+Speaker 14:  public safety because then you have the boy who cried Wolf syndrome.
+
+1022
+01:01:42,615 --> 01:01:42,965
+Speaker 14:  Right.
+
+1023
+01:01:43,755 --> 01:01:46,285
+Speaker 5:  That did happen once in California back in 2020
+
+1024
+01:01:47,165 --> 01:01:51,045
+Speaker 5:  USGS had to send a follow-up message, which I kinda love
+
+1025
+01:01:51,045 --> 01:01:54,165
+Speaker 5:  because it read and I quote ShakeAlert message canceled,
+
+1026
+01:01:55,045 --> 01:01:57,765
+Speaker 5:  investigating If, you protected yourself. Well done.
+
+1027
+01:01:59,235 --> 01:02:01,405
+Speaker 2:  It's almost like passive aggressive. Yeah,
+
+1028
+01:02:01,715 --> 01:02:05,605
+Speaker 5:  It's, it was a little bit like this was kind of a test in a way. Gotcha.
+
+1029
+01:02:06,155 --> 01:02:09,965
+Speaker 5:  Yeah. Which is great, but also really
+
+1030
+01:02:10,065 --> 01:02:13,965
+Speaker 5:  not great because as we all well know, we have
+
+1031
+01:02:13,965 --> 01:02:17,245
+Speaker 5:  spent years and years and years getting really good at
+
+1032
+01:02:17,765 --> 01:02:21,325
+Speaker 5:  ignoring annoying app notifications. And if
+
+1033
+01:02:21,325 --> 01:02:25,125
+Speaker 5:  earthquake alerts get that reputation, then the whole
+
+1034
+01:02:25,125 --> 01:02:26,165
+Speaker 5:  system collapses.
+
+1035
+01:02:26,635 --> 01:02:29,725
+Speaker 14:  Then people will turn off their notifications, they will go into their phone
+
+1036
+01:02:29,725 --> 01:02:32,485
+Speaker 14:  settings, dig around and find out how to turn these off. Right.
+
+1037
+01:02:32,485 --> 01:02:32,805
+Speaker 11:  Right.
+
+1038
+01:02:33,755 --> 01:02:37,655
+Speaker 5:  But even without any mistakes, alerting becomes
+
+1039
+01:02:37,845 --> 01:02:41,655
+Speaker 5:  this kind of funny mix of art and science. With
+
+1040
+01:02:41,655 --> 01:02:45,415
+Speaker 5:  any automated system like this, there is always gonna be some alerting
+
+1041
+01:02:45,775 --> 01:02:49,655
+Speaker 5:  threshold, a preset that says above this amount of shaking will warn
+
+1042
+01:02:49,655 --> 01:02:53,295
+Speaker 5:  people, and beneath it we won't. But finding that threshold
+
+1043
+01:02:53,515 --> 01:02:57,455
+Speaker 5:  is a social problem more than anything else. I actually happened to
+
+1044
+01:02:57,455 --> 01:03:01,295
+Speaker 5:  be in Los Angeles for a couple of back-to-back earthquakes back in the
+
+1045
+01:03:01,295 --> 01:03:04,975
+Speaker 5:  summer of 2019. And back then ShakeAlert was this
+
+1046
+01:03:04,975 --> 01:03:08,615
+Speaker 5:  experimental app. It was just for people in la So, I didn't have it,
+
+1047
+01:03:09,315 --> 01:03:13,255
+Speaker 5:  but for those earthquakes, actually no one got an alert because the shaking
+
+1048
+01:03:13,325 --> 01:03:17,055
+Speaker 5:  just wasn't heavy enough. But the response from the public
+
+1049
+01:03:17,315 --> 01:03:21,295
+Speaker 5:  was, we just made this earthquake alarm, why didn't
+
+1050
+01:03:21,295 --> 01:03:24,655
+Speaker 5:  we use it? They felt shaking, they didn't get an alert. They've been told
+
+1051
+01:03:24,655 --> 01:03:27,935
+Speaker 5:  that there was this awesome earthquake early warning system that that was
+
+1052
+01:03:27,935 --> 01:03:31,615
+Speaker 5:  going online. So that turned into a whole thing and the
+
+1053
+01:03:31,855 --> 01:03:35,735
+Speaker 5:  feedback from the public ended up helping USGS decide to lower some
+
+1054
+01:03:35,735 --> 01:03:39,655
+Speaker 5:  of the alerting thresholds. So that's just one example of
+
+1055
+01:03:39,715 --> 01:03:43,695
+Speaker 5:  one quake, but the point is there's always gonna be these edge
+
+1056
+01:03:43,695 --> 01:03:47,175
+Speaker 5:  cases and they're gonna have to keep dialing in these
+
+1057
+01:03:47,495 --> 01:03:51,135
+Speaker 5:  thresholds. And poor Bob DeGroot from USGS
+
+1058
+01:03:51,625 --> 01:03:53,975
+Speaker 5:  hears about it every time there's an earthquake.
+
+1059
+01:03:54,575 --> 01:03:58,335
+Speaker 11:  I manage our, our ShakeAlert X social media account
+
+1060
+01:03:58,435 --> 01:04:02,015
+Speaker 11:  at, at USGS ShakeAlert, and we,
+
+1061
+01:04:02,855 --> 01:04:06,175
+Speaker 11:  I I, I always entertain these questions of people saying, I got the alert.
+
+1062
+01:04:06,415 --> 01:04:09,015
+Speaker 11:  I didn't get the alert. Why did I not get the alert? I didn't feel very
+
+1063
+01:04:09,015 --> 01:04:12,655
+Speaker 11:  much at all. Why the heck did I get an alert? And of course, you know,
+
+1064
+01:04:13,155 --> 01:04:16,975
+Speaker 11:  insert your favorite word, the response.
+
+1065
+01:04:17,085 --> 01:04:19,775
+Speaker 11:  Generally most people are good natured and I love interacting with people
+
+1066
+01:04:19,795 --> 01:04:23,415
+Speaker 11:  on X because they have really good, genuine questions or, and are very,
+
+1067
+01:04:23,685 --> 01:04:26,695
+Speaker 11:  very thoughtful. But sometimes people get a little, little excited
+
+1068
+01:04:28,575 --> 01:04:32,515
+Speaker 2:  As somebody who lived in San Francisco for a bunch of years and thus experienced
+
+1069
+01:04:33,215 --> 01:04:37,195
+Speaker 2:  San Francisco earthquake Twitter. Yeah. I feel Bob's pain. That's a, it's
+
+1070
+01:04:37,195 --> 01:04:40,035
+Speaker 2:  a, it's truly both a good time on the internet and as somebody whose job
+
+1071
+01:04:40,055 --> 01:04:41,955
+Speaker 2:  is the earthquakes, I, I feel for Bob.
+
+1072
+01:04:42,405 --> 01:04:45,195
+Speaker 5:  Right. Yeah. If you're the one, all those tweets are going to, that's a different
+
+1073
+01:04:45,195 --> 01:04:45,875
+Speaker 5:  story. Yeah,
+
+1074
+01:04:45,875 --> 01:04:49,795
+Speaker 2:  Exactly. But I feel like if I'm thinking about this big picture
+
+1075
+01:04:50,025 --> 01:04:53,875
+Speaker 2:  Yeah. You've sort of described a bunch of pieces that we need
+
+1076
+01:04:54,185 --> 01:04:57,795
+Speaker 2:  that all exist, right? Everybody has a device
+
+1077
+01:04:57,975 --> 01:05:01,835
+Speaker 2:  in their pocket that can in theory be alerted. We have the apps, the
+
+1078
+01:05:01,835 --> 01:05:04,275
+Speaker 2:  systems are getting better. You were saying the sensors are all over the
+
+1079
+01:05:04,275 --> 01:05:07,885
+Speaker 2:  place, but there are a lot of different parties
+
+1080
+01:05:08,445 --> 01:05:11,965
+Speaker 2:  required to get this together. Right. You, you mentioned the, the
+
+1081
+01:05:11,965 --> 01:05:15,525
+Speaker 2:  carriers and the operating system companies and the government and so on
+
+1082
+01:05:15,525 --> 01:05:18,125
+Speaker 2:  and so forth. Do we just have
+
+1083
+01:05:19,485 --> 01:05:22,725
+Speaker 2:  a stalemate here where we're, we're gonna have a bunch of possibilities,
+
+1084
+01:05:23,185 --> 01:05:27,045
+Speaker 2:  but it would require somebody to just put them all together and that is harder
+
+1085
+01:05:27,045 --> 01:05:30,685
+Speaker 2:  than it seems like it ought to be. We have this like weird bureaucracy collective
+
+1086
+01:05:30,685 --> 01:05:33,805
+Speaker 2:  action problem with earthquake alerts. Well,
+
+1087
+01:05:34,625 --> 01:05:38,405
+Speaker 5:  So all of this energy has been put into cell phones because that is
+
+1088
+01:05:38,405 --> 01:05:42,165
+Speaker 5:  like the obvious massive delivery mechanism, right.
+
+1089
+01:05:42,225 --> 01:05:46,045
+Speaker 5:  And so like getting into the weeds around cell phones has
+
+1090
+01:05:46,045 --> 01:05:49,525
+Speaker 5:  taken up a lot of time and energy and there, there are places,
+
+1091
+01:05:49,895 --> 01:05:53,445
+Speaker 5:  especially around WEA, where it does feel like, okay, it is what it is.
+
+1092
+01:05:53,945 --> 01:05:56,125
+Speaker 2:  You know what this makes me think of, by the way, this is a total random
+
+1093
+01:05:56,125 --> 01:06:00,045
+Speaker 2:  aside. Yeah. But do you remember early in the pandemic when
+
+1094
+01:06:00,295 --> 01:06:03,685
+Speaker 2:  Apple and Google started to work together on some of the
+
+1095
+01:06:03,685 --> 01:06:07,525
+Speaker 2:  notification systems for people who had been exposed? Yes. And just the
+
+1096
+01:06:07,535 --> 01:06:11,285
+Speaker 2:  sheer amount of work and wrangling it took to get
+
+1097
+01:06:11,315 --> 01:06:14,685
+Speaker 2:  that stuff to work and talk to each other and make sense. And that was
+
+1098
+01:06:14,995 --> 01:06:18,885
+Speaker 2:  obviously earthquakes are a big deal. Like that took a literal global pandemic
+
+1099
+01:06:19,145 --> 01:06:21,685
+Speaker 2:  Yes. For these two companies to actually like sit down in a room together
+
+1100
+01:06:21,685 --> 01:06:25,365
+Speaker 2:  and be like, okay, how do we make this stuff work? Yes. And I think
+
+1101
+01:06:25,645 --> 01:06:29,125
+Speaker 2:  clearing that bar with anything short of a global pandemic, even for something
+
+1102
+01:06:29,125 --> 01:06:32,645
+Speaker 2:  as important as a natural disaster, just strikes me as
+
+1103
+01:06:32,915 --> 01:06:33,685
+Speaker 2:  very complicated.
+
+1104
+01:06:33,695 --> 01:06:37,445
+Speaker 5:  Completely. And they were under the gun during the pandemic totally. In,
+
+1105
+01:06:37,445 --> 01:06:41,085
+Speaker 5:  in a way that everyone involved in earthquakes talks about
+
+1106
+01:06:41,425 --> 01:06:45,285
+Speaker 5:  the, the fact that until there's a big earthquake that resets the
+
+1107
+01:06:45,285 --> 01:06:48,805
+Speaker 5:  idea of earthquakes and everyone's mind and pushes earthquakes to the forefront
+
+1108
+01:06:48,805 --> 01:06:52,525
+Speaker 5:  of everyone's minds. It's just hard to get people to pay attention sometimes
+
+1109
+01:06:52,625 --> 01:06:56,485
+Speaker 5:  and to identify it as a potentially really important thing
+
+1110
+01:06:56,485 --> 01:06:57,405
+Speaker 5:  to do. Right.
+
+1111
+01:06:57,465 --> 01:07:00,485
+Speaker 2:  And like you said, with phones, you just, it's without those two platforms
+
+1112
+01:07:00,555 --> 01:07:02,685
+Speaker 2:  playing along, you can only get so far.
+
+1113
+01:07:02,775 --> 01:07:06,525
+Speaker 5:  Right. Exactly. So that's been all of the, the, the
+
+1114
+01:07:06,555 --> 01:07:10,085
+Speaker 5:  cell phone development. But there's a lot of other things that you can do
+
+1115
+01:07:10,235 --> 01:07:14,165
+Speaker 5:  with these alerts that go way beyond smartphones, and people are
+
+1116
+01:07:14,165 --> 01:07:17,405
+Speaker 5:  working on that too. So you think about smart speakers,
+
+1117
+01:07:18,085 --> 01:07:21,925
+Speaker 5:  you think about home assistance, you think about smart TVs. The people I
+
+1118
+01:07:21,925 --> 01:07:25,485
+Speaker 5:  interviewed for this story were basically like anything with a speaker or
+
+1119
+01:07:25,605 --> 01:07:29,485
+Speaker 5:  a screen should be a delivery mechanism for earthquake.
+
+1120
+01:07:29,485 --> 01:07:33,325
+Speaker 5:  Early warnings, like there, all of those companies, all of
+
+1121
+01:07:33,325 --> 01:07:37,205
+Speaker 5:  those platforms, those could all be distribution channels. Then you
+
+1122
+01:07:37,205 --> 01:07:40,965
+Speaker 5:  think about big public channels, like highway signs or
+
+1123
+01:07:41,025 --> 01:07:44,605
+Speaker 5:  PA systems in schools and hospitals. Then you think about all the other
+
+1124
+01:07:44,795 --> 01:07:48,645
+Speaker 5:  automated things that don't have anything to do with just warning you as
+
+1125
+01:07:48,685 --> 01:07:52,525
+Speaker 5:  a person. You can open fire station doors so that they don't get
+
+1126
+01:07:52,615 --> 01:07:56,565
+Speaker 5:  stuck down if they're damaged by an earthquake. Water utilities can
+
+1127
+01:07:56,565 --> 01:08:00,245
+Speaker 5:  shut off valves or pumps. You can slow down trains or you can recall
+
+1128
+01:08:00,645 --> 01:08:03,485
+Speaker 5:  elevators. There's all this other stuff
+
+1129
+01:08:04,395 --> 01:08:08,365
+Speaker 5:  that you could do with this information. And in a lot of
+
+1130
+01:08:08,365 --> 01:08:11,845
+Speaker 5:  ways it's just early days in figuring out how to plug
+
+1131
+01:08:12,235 --> 01:08:14,405
+Speaker 5:  this information into all of these different systems
+
+1132
+01:08:14,795 --> 01:08:18,685
+Speaker 2:  Also seems like it makes that threshold of when you do and
+
+1133
+01:08:18,685 --> 01:08:21,765
+Speaker 2:  don't trigger an alert become very important,
+
+1134
+01:08:22,515 --> 01:08:25,805
+Speaker 5:  Very important and potentially different for all of those different systems.
+
+1135
+01:08:26,075 --> 01:08:27,325
+Speaker 2:  Totally fair. Yeah.
+
+1136
+01:08:27,475 --> 01:08:30,285
+Speaker 5:  It's, yeah, it's, it's just a mess. So some of that is already happening,
+
+1137
+01:08:30,545 --> 01:08:34,525
+Speaker 5:  but it means working with one organization or
+
+1138
+01:08:34,665 --> 01:08:38,525
+Speaker 5:  agency at a time. It's really slow going, but ShakeAlert
+
+1139
+01:08:38,545 --> 01:08:42,485
+Speaker 5:  has only fully been online for a little more than three years
+
+1140
+01:08:42,665 --> 01:08:46,605
+Speaker 5:  now. So this is still really early days of actually plugging
+
+1141
+01:08:46,605 --> 01:08:47,165
+Speaker 5:  it into stuff.
+
+1142
+01:08:47,785 --> 01:08:51,725
+Speaker 2:  Is the sense that ShakeAlert is kind of a thing,
+
+1143
+01:08:51,725 --> 01:08:55,205
+Speaker 2:  sort of a, a project out of a university that is like interesting research
+
+1144
+01:08:55,205 --> 01:08:56,805
+Speaker 2:  for how to do it? Or is it the thing
+
+1145
+01:08:57,525 --> 01:09:01,465
+Speaker 5:  Oh, it's on the west coast of the United States. It's the thing. Okay. There
+
+1146
+01:09:01,465 --> 01:09:05,185
+Speaker 5:  are other similar systems elsewhere, but there's, thank God there isn't like
+
+1147
+01:09:05,425 --> 01:09:09,225
+Speaker 5:  a competing earthquake early warning. Like standard.
+
+1148
+01:09:09,705 --> 01:09:12,905
+Speaker 5:  Yeah. Like we have to do a whole other story about like, you have to have
+
+1149
+01:09:12,905 --> 01:09:13,025
+Speaker 5:  a
+
+1150
+01:09:13,025 --> 01:09:13,465
+Speaker 2:  Folder full
+
+1151
+01:09:13,465 --> 01:09:16,985
+Speaker 5:  Of apps. Yeah. All of the rival engineers and scientists trying to make a
+
+1152
+01:09:16,985 --> 01:09:20,825
+Speaker 5:  different one. No, it's, it's the, the system is in
+
+1153
+01:09:20,825 --> 01:09:24,745
+Speaker 5:  place. All of the state and local governments are aware of it. All of
+
+1154
+01:09:24,745 --> 01:09:28,105
+Speaker 5:  the big technology providers are aware of it. It's just a matter of
+
+1155
+01:09:28,805 --> 01:09:30,865
+Speaker 5:  making it as useful as it can possibly be.
+
+1156
+01:09:31,295 --> 01:09:33,385
+Speaker 2:  Okay. So do you have the My Shake app?
+
+1157
+01:09:33,905 --> 01:09:35,025
+Speaker 5:  I do. I absolutely do.
+
+1158
+01:09:35,205 --> 01:09:38,665
+Speaker 2:  How many, how many notifications have you gotten from it recently? What do
+
+1159
+01:09:38,665 --> 01:09:39,265
+Speaker 2:  they zero you feel?
+
+1160
+01:09:39,665 --> 01:09:42,865
+Speaker 5:  I, this is the thing. I, this is the thing about living in Washington. It's
+
+1161
+01:09:42,865 --> 01:09:45,665
+Speaker 5:  just, it's, it's like, it's quiet. It's too quiet, it's
+
+1162
+01:09:45,665 --> 01:09:46,145
+Speaker 2:  Too quiet.
+
+1163
+01:09:46,965 --> 01:09:50,465
+Speaker 5:  And that I, I swear to God, I, a lot of these folks that I
+
+1164
+01:09:50,465 --> 01:09:54,145
+Speaker 5:  interviewed for this story all told me some version of,
+
+1165
+01:09:55,025 --> 01:09:58,785
+Speaker 5:  I just want there to be like a good medium earthquake in
+
+1166
+01:09:58,785 --> 01:10:02,745
+Speaker 5:  Washington or thereabouts that just reminds everyone about earthquakes. It
+
+1167
+01:10:02,745 --> 01:10:06,425
+Speaker 5:  doesn't do any damage per se. It doesn't kill anyone. It
+
+1168
+01:10:06,455 --> 01:10:10,225
+Speaker 5:  just puts it back in people's minds. They just want like a,
+
+1169
+01:10:10,425 --> 01:10:13,465
+Speaker 5:  a nice fun reminder quake
+
+1170
+01:10:13,805 --> 01:10:17,185
+Speaker 2:  The earthquake that just knocks like one plate out of a cabinet. Yeah.
+
+1171
+01:10:17,465 --> 01:10:20,105
+Speaker 5:  Everyone loses a plate and it's like maybe everyone's favorite plate. And
+
+1172
+01:10:20,105 --> 01:10:23,785
+Speaker 5:  so they're like, where's that plate? Oh, the earthquake. Got it. Yeah. Good
+
+1173
+01:10:23,785 --> 01:10:24,865
+Speaker 5:  100%. That's good.
+
+1174
+01:10:24,985 --> 01:10:28,625
+Speaker 2:  I, yeah, that, that makes sense. Yeah. Has all of this made you more or less
+
+1175
+01:10:28,625 --> 01:10:30,225
+Speaker 2:  terrified of earthquakes?
+
+1176
+01:10:31,145 --> 01:10:34,905
+Speaker 5:  I apt like strong Both. Okay. I, the
+
+1177
+01:10:35,095 --> 01:10:39,025
+Speaker 5:  talking to the science people about all of this taught me about all the
+
+1178
+01:10:39,025 --> 01:10:42,905
+Speaker 5:  other faults that are around me besides
+
+1179
+01:10:43,015 --> 01:10:46,825
+Speaker 5:  just the Cascadia abduction zone. There's a fault that runs basically under
+
+1180
+01:10:46,845 --> 01:10:50,225
+Speaker 5:  my house. Oh. Like very shallow and it's
+
+1181
+01:10:50,695 --> 01:10:54,465
+Speaker 5:  much less well known and well understood than the others. So
+
+1182
+01:10:54,465 --> 01:10:57,905
+Speaker 5:  that's just like a new abstract fear for me. So that's cool.
+
+1183
+01:10:59,325 --> 01:11:02,625
+Speaker 5:  On the other hand, it's, it's genuinely very heartening
+
+1184
+01:11:03,245 --> 01:11:07,105
+Speaker 5:  to see this really messy constellation of
+
+1185
+01:11:07,135 --> 01:11:11,025
+Speaker 5:  organizations try to figure out early warning government agencies,
+
+1186
+01:11:11,045 --> 01:11:15,005
+Speaker 5:  states, local governments, universities, telecom companies, cell
+
+1187
+01:11:15,005 --> 01:11:18,805
+Speaker 5:  phone makers, like they're all doing their best. And
+
+1188
+01:11:19,385 --> 01:11:23,325
+Speaker 5:  the result is something that I can almost certainly say
+
+1189
+01:11:23,325 --> 01:11:26,445
+Speaker 5:  I will benefit from at some point in the future. I just have to wait and
+
+1190
+01:11:26,445 --> 01:11:26,765
+Speaker 5:  see when
+
+1191
+01:11:28,555 --> 01:11:30,285
+Speaker 5:  also I really want an Android phone. Now
+
+1192
+01:11:30,535 --> 01:11:33,845
+Speaker 2:  We're all buying Android burners. That's my takeaway from this is everybody
+
+1193
+01:11:33,955 --> 01:11:36,325
+Speaker 2:  gets an Android burner and it's gonna save the world
+
+1194
+01:11:36,545 --> 01:11:37,245
+Speaker 5:  100%.
+
+1195
+01:11:38,265 --> 01:11:41,565
+Speaker 2:  So yeah. Back to the house. We're done with the noises. How was, how was
+
+1196
+01:11:41,565 --> 01:11:45,245
+Speaker 2:  the process? Was this, are you glad you went through this crazy earthquake
+
+1197
+01:11:45,245 --> 01:11:46,925
+Speaker 2:  fitting process at your house?
+
+1198
+01:11:47,285 --> 01:11:51,005
+Speaker 5:  I am. It was only a couple of days and now it, is it
+
+1199
+01:11:51,195 --> 01:11:54,725
+Speaker 5:  like everything else about earthquakes? It's completely abstract until it's
+
+1200
+01:11:54,725 --> 01:11:58,685
+Speaker 5:  not So I, just like, I'm just standing here in my house knowing
+
+1201
+01:11:59,155 --> 01:12:03,045
+Speaker 5:  that the house is now bolted to the foundation and I just have this
+
+1202
+01:12:03,045 --> 01:12:06,685
+Speaker 5:  like, magical thing that I don't see protecting me in theory.
+
+1203
+01:12:07,465 --> 01:12:11,245
+Speaker 5:  And so now I just have to go about my business. But I will say
+
+1204
+01:12:11,245 --> 01:12:14,845
+Speaker 5:  just like, it's like having an amulet. It's like much more real than that
+
+1205
+01:12:14,875 --> 01:12:18,765
+Speaker 5:  obviously, but just knowing that that happened, I can kind of just
+
+1206
+01:12:18,765 --> 01:12:20,325
+Speaker 5:  like put that part of my mind to bed.
+
+1207
+01:12:20,755 --> 01:12:23,085
+Speaker 2:  Totally. All right. We gotta take a break, but real quick,
+
+1208
+01:12:24,795 --> 01:12:27,965
+Speaker 2:  give people the call to action. What if you're on the West Coast and you're
+
+1209
+01:12:27,965 --> 01:12:30,845
+Speaker 2:  worried about this? What, what should you do about it right now?
+
+1210
+01:12:31,305 --> 01:12:35,245
+Speaker 5:  Yes. So if you're on the West Coast If, you have an iPhone, we'll
+
+1211
+01:12:35,245 --> 01:12:38,645
+Speaker 5:  put in the show notes how to turn on a feature called Local Awareness. And
+
+1212
+01:12:38,645 --> 01:12:42,325
+Speaker 5:  that's the thing that speeds up. We messages Android
+
+1213
+01:12:42,425 --> 01:12:43,605
+Speaker 5:  and iOS. You can
+
+1214
+01:14:47,115 --> 01:14:49,455
+Speaker 2:  All right, we're back. Will pour is still here. Hi Will.
+
+1215
+01:14:49,915 --> 01:14:50,975
+Speaker 5:  Hi. I haven't left.
+
+1216
+01:14:51,725 --> 01:14:55,455
+Speaker 2:  Will will just lurks in the background of every Vergecast. Whether you hear
+
+1217
+01:14:55,455 --> 01:14:56,335
+Speaker 2:  him or not, he's always there.
+
+1218
+01:14:56,335 --> 01:14:59,695
+Speaker 5:  I know I could appear at any moment. Just know that that's always a possibility.
+
+1219
+01:14:59,765 --> 01:15:00,055
+Speaker 5:  Yeah.
+
+1220
+01:15:00,755 --> 01:15:04,735
+Speaker 2:  So we've been thinking over the months about all the stuff we can do
+
+1221
+01:15:04,765 --> 01:15:08,735
+Speaker 2:  with The Vergecast hotline. We get tons of good questions. Lots of
+
+1222
+01:15:08,735 --> 01:15:12,335
+Speaker 2:  them are weird and are basically just like, is my
+
+1223
+01:15:12,335 --> 01:15:16,175
+Speaker 2:  iPhone bad? and we say like, no, it's fine. But
+
+1224
+01:15:16,375 --> 01:15:20,335
+Speaker 2:  occasionally we get questions that like, make us really like
+
+1225
+01:15:20,335 --> 01:15:23,615
+Speaker 2:  go deep down rabbit holes to try and figure out what's going on. And so we've
+
+1226
+01:15:23,615 --> 01:15:26,775
+Speaker 2:  been trying to figure out ways to go down more of those rabbit holes. There
+
+1227
+01:15:26,775 --> 01:15:30,335
+Speaker 2:  are also like an alarming number of people in the slack room now who see
+
+1228
+01:15:30,355 --> 01:15:32,735
+Speaker 2:  all the hotline questions because everybody loves getting these questions.
+
+1229
+01:15:32,765 --> 01:15:36,295
+Speaker 5:  It's really fun. It's really fun. I I, it became part of my job somewhat
+
+1230
+01:15:36,495 --> 01:15:40,055
+Speaker 5:  recently, but I would've been doing it anyway 'cause it's just a fun way
+
+1231
+01:15:40,055 --> 01:15:41,575
+Speaker 5:  to spend a minute at a time.
+
+1232
+01:15:42,115 --> 01:15:45,335
+Speaker 2:  It is super fun. Except when people are mean to us. Please don't use the
+
+1233
+01:15:45,335 --> 01:15:49,015
+Speaker 2:  email to be mean to us. Yes. But when you call be,
+
+1234
+01:15:49,115 --> 01:15:52,735
+Speaker 2:  be nice. That's really all we ask. Yeah. But you,
+
+1235
+01:15:53,695 --> 01:15:56,975
+Speaker 2:  I have no idea what you're about to do, but you found a rabbit hole that
+
+1236
+01:15:56,975 --> 01:16:00,255
+Speaker 2:  you went down Yes. On the hotline. So set this up for us. Well,
+
+1237
+01:16:00,255 --> 01:16:04,175
+Speaker 5:  I I, there's not much set up other than I found a question
+
+1238
+01:16:04,175 --> 01:16:08,015
+Speaker 5:  that I personally wanted the answer to. So I was like, okay, I will
+
+1239
+01:16:08,015 --> 01:16:11,455
+Speaker 5:  go try and find this answer and that will be a hotline. So that's what we're
+
+1240
+01:16:11,455 --> 01:16:11,735
+Speaker 5:  doing here.
+
+1241
+01:16:11,915 --> 01:16:13,535
+Speaker 2:  All right. Set up the question. Who's the question from?
+
+1242
+01:16:13,845 --> 01:16:17,255
+Speaker 5:  This question comes from a listener who has a kid who is running around all
+
+1243
+01:16:17,255 --> 01:16:21,215
+Speaker 5:  the time and he wants to take pictures of that kid and he has a question
+
+1244
+01:16:21,215 --> 01:16:21,535
+Speaker 5:  about that.
+
+1245
+01:16:22,635 --> 01:16:26,415
+Speaker 15:  Hey, it's Peter from Brooklyn. I had an idea of how to show the new features
+
+1246
+01:16:26,435 --> 01:16:30,135
+Speaker 15:  on the iPhone 16. It'd be really cool to do a
+
+1247
+01:16:30,565 --> 01:16:34,335
+Speaker 15:  race to take different types of pictures in different
+
+1248
+01:16:34,335 --> 01:16:37,535
+Speaker 15:  situations with the new phones versus the old phone. I wanna know,
+
+1249
+01:16:38,235 --> 01:16:42,215
+Speaker 15:  can you really take the camera out, open it up and
+
+1250
+01:16:42,215 --> 01:16:46,055
+Speaker 15:  get a shot of that moving kid faster? Can you really change the aperture
+
+1251
+01:16:46,055 --> 01:16:49,935
+Speaker 15:  faster? All those different settings, is it really faster with the new
+
+1252
+01:16:49,935 --> 01:16:53,815
+Speaker 15:  controls versus the old ones? That's it. Thanks. Have a good one.
+
+1253
+01:16:53,925 --> 01:16:54,495
+Speaker 15:  Rock and roll.
+
+1254
+01:16:54,925 --> 01:16:58,495
+Speaker 5:  Okay. So. I went straight to Allison Johnson for this because
+
+1255
+01:16:58,815 --> 01:17:02,575
+Speaker 5:  A, she did our iPhone 16 review and BI know
+
+1256
+01:17:02,575 --> 01:17:06,215
+Speaker 5:  from listening to this show that she has lots of experience chasing
+
+1257
+01:17:06,425 --> 01:17:09,925
+Speaker 5:  small kids around with a camera. So, hello Alison. Hello.
+
+1258
+01:17:10,545 --> 01:17:14,445
+Speaker 5:  So. I was curious about this question 'cause I,
+
+1259
+01:17:14,665 --> 01:17:18,325
+Speaker 5:  I'm one of those people that watches every Apple keynote every year
+
+1260
+01:17:19,275 --> 01:17:23,245
+Speaker 5:  just to see what the camera does now. And I feel like
+
+1261
+01:17:23,835 --> 01:17:27,685
+Speaker 5:  even for me, this, this year was a very like
+
+1262
+01:17:27,685 --> 01:17:30,245
+Speaker 5:  camera E event. Do you feel that way also?
+
+1263
+01:17:30,835 --> 01:17:34,245
+Speaker 16:  Yeah. It wasn't so much that like anything drastic had happened,
+
+1264
+01:17:34,665 --> 01:17:38,045
+Speaker 16:  you know, with the camera pipeline or whatever, but, you know, the camera
+
+1265
+01:17:38,075 --> 01:17:41,685
+Speaker 16:  control was the big thing on both of the iPhone sixteens.
+
+1266
+01:17:42,065 --> 01:17:45,725
+Speaker 16:  All the iPhone 16 models and kind of the the
+
+1267
+01:17:45,925 --> 01:17:49,605
+Speaker 16:  new filter options
+
+1268
+01:17:49,745 --> 01:17:53,325
+Speaker 16:  you have. Yeah. So yeah, it's, it's like a camera forward
+
+1269
+01:17:53,745 --> 01:17:54,805
+Speaker 16:  update. I would say,
+
+1270
+01:17:55,475 --> 01:17:58,685
+Speaker 5:  Well I watched, I saw all of that and
+
+1271
+01:18:00,025 --> 01:18:03,005
+Speaker 5:  my question was kind of the same as Peter's, which is,
+
+1272
+01:18:04,285 --> 01:18:08,105
+Speaker 5:  you know, how much does that button make it
+
+1273
+01:18:08,175 --> 01:18:12,145
+Speaker 5:  feel like you have a point and shoot camera in your pocket? Which to
+
+1274
+01:18:12,145 --> 01:18:15,265
+Speaker 5:  me is, is just like a muscle memory question. It's not a question that you
+
+1275
+01:18:15,265 --> 01:18:19,225
+Speaker 5:  can answer from watching the keynote or watching demos or anything.
+
+1276
+01:18:19,305 --> 01:18:23,065
+Speaker 5:  'cause it's all about the like routines of how you just like pull out and
+
+1277
+01:18:23,325 --> 01:18:26,945
+Speaker 5:  use your camera without thinking about it when there's a toddler running
+
+1278
+01:18:26,945 --> 01:18:30,825
+Speaker 5:  by doing something cute, for example. So I'm curious to
+
+1279
+01:18:30,825 --> 01:18:34,465
+Speaker 5:  get your take on what routines you have around
+
+1280
+01:18:35,215 --> 01:18:39,025
+Speaker 5:  your phone and what routines you've had over the years and then whether the
+
+1281
+01:18:39,365 --> 01:18:42,945
+Speaker 5:  the 16 and that button meaningfully changes any of that.
+
+1282
+01:18:43,885 --> 01:18:47,865
+Speaker 5:  So, you know, historically before the 16, walk me through your
+
+1283
+01:18:48,385 --> 01:18:51,345
+Speaker 5:  reflexes for taking a photo really quickly. You've got your phone in your
+
+1284
+01:18:51,345 --> 01:18:54,505
+Speaker 5:  pocket, your kid is doing something cute, like what are the steps?
+
+1285
+01:18:55,335 --> 01:18:59,225
+Speaker 16:  Yeah, So, I, I switch between Android and iPhone like quite a bit
+
+1286
+01:18:59,225 --> 01:19:02,945
+Speaker 16:  throughout the year. So that changes things up. But
+
+1287
+01:19:03,045 --> 01:19:06,985
+Speaker 16:  on Android it's actually super easy because I can double
+
+1288
+01:19:06,985 --> 01:19:10,945
+Speaker 16:  click the, the power button and oh, that like,
+
+1289
+01:19:11,465 --> 01:19:15,025
+Speaker 16:  I think on basically every Android phone, we'll just open the camera app
+
+1290
+01:19:15,295 --> 01:19:18,785
+Speaker 16:  from wherever you are. So, I can do that without looking
+
+1291
+01:19:19,645 --> 01:19:23,385
+Speaker 16:  on an iPhone. Typically I've will take
+
+1292
+01:19:23,445 --> 01:19:27,265
+Speaker 16:  the thing outta my pocket and I could be clever and
+
+1293
+01:19:27,645 --> 01:19:31,425
+Speaker 16:  map the camera to a triple press of the home
+
+1294
+01:19:31,425 --> 01:19:34,145
+Speaker 16:  button or something. I just am not that I
+
+1295
+01:19:35,155 --> 01:19:38,945
+Speaker 16:  smart, I guess. And I always just end up
+
+1296
+01:19:38,945 --> 01:19:42,905
+Speaker 16:  like swiping from the home screen. Like you can, you can tap the camera
+
+1297
+01:19:43,135 --> 01:19:45,105
+Speaker 16:  icon and like hold it and that.
+
+1298
+01:19:45,395 --> 01:19:46,425
+Speaker 5:  Right. That's what I do.
+
+1299
+01:19:46,655 --> 01:19:50,625
+Speaker 16:  Yeah. That's I think what a, a sensible person does. I don't
+
+1300
+01:19:50,625 --> 01:19:53,985
+Speaker 16:  know why I have trouble with that. I swipe,
+
+1301
+01:19:54,665 --> 01:19:58,465
+Speaker 16:  I, I slide my finger across and, and that's how I open it up. So
+
+1302
+01:19:58,465 --> 01:20:02,265
+Speaker 16:  it's like one extra beat where I have to
+
+1303
+01:20:02,265 --> 01:20:06,145
+Speaker 16:  kind of like have the phone in front of me and the screen, you
+
+1304
+01:20:06,145 --> 01:20:09,865
+Speaker 16:  know, wakes up and I swipe and then I'm ready to go.
+
+1305
+01:20:10,165 --> 01:20:13,265
+Speaker 5:  Gotcha. So there is some like home screen friction?
+
+1306
+01:20:13,935 --> 01:20:17,185
+Speaker 16:  Yeah. Yeah. A little bit. Maybe it's of my own making,
+
+1307
+01:20:18,185 --> 01:20:18,705
+Speaker 16:  I don't know.
+
+1308
+01:20:19,375 --> 01:20:22,945
+Speaker 5:  Yeah. I know the feeling of, of just like
+
+1309
+01:20:24,465 --> 01:20:27,065
+Speaker 5:  reaching in my phone to, to quickly take a picture of something and then
+
+1310
+01:20:27,105 --> 01:20:30,905
+Speaker 5:  I like the, the screen doesn't quite wanna wake up or
+
+1311
+01:20:31,045 --> 01:20:34,865
+Speaker 5:  the, like, it doesn't register. The, the little camera icon tap
+
+1312
+01:20:34,865 --> 01:20:38,705
+Speaker 5:  there is a little, I've like, I've lost pictures because something in
+
+1313
+01:20:38,705 --> 01:20:42,665
+Speaker 5:  there just doesn't like quite happen the first tryer, the first
+
+1314
+01:20:42,685 --> 01:20:45,265
+Speaker 5:  two tries. Yeah. And that's super frustrating.
+
+1315
+01:20:45,605 --> 01:20:49,425
+Speaker 16:  And then I'm distracted like trying to swipe on the screen and then
+
+1316
+01:20:49,425 --> 01:20:52,185
+Speaker 16:  my kid has run off. Yeah. And he is doing something else. Yeah.
+
+1317
+01:20:52,725 --> 01:20:52,945
+Speaker 5:  So
+
+1318
+01:20:53,425 --> 01:20:54,505
+Speaker 16:  Disaster. Yeah.
+
+1319
+01:20:55,165 --> 01:20:58,705
+Speaker 5:  So the, there's an in-between that
+
+1320
+01:20:58,705 --> 01:21:02,465
+Speaker 5:  experience potentially and this new fancy camera button and
+
+1321
+01:21:02,745 --> 01:21:06,265
+Speaker 5:  it's the, the action button on the iPhone fifteens.
+
+1322
+01:21:07,005 --> 01:21:10,065
+Speaker 5:  Did, have you played around with that over the course of the past year and
+
+1323
+01:21:10,065 --> 01:21:13,985
+Speaker 5:  is that meaningfully different because I know a lot of people just mapped
+
+1324
+01:21:13,985 --> 01:21:15,145
+Speaker 5:  their camera to that button.
+
+1325
+01:21:15,655 --> 01:21:19,425
+Speaker 16:  Yeah. Yeah. Okay. Yeah, it's totally reasonable to
+
+1326
+01:21:19,885 --> 01:21:23,705
+Speaker 16:  use action button as that like camera shortcut button. I find
+
+1327
+01:21:23,885 --> 01:21:27,065
+Speaker 16:  the placement of it a little funny for that. It's kind of like
+
+1328
+01:21:27,725 --> 01:21:31,465
+Speaker 16:  on the other side of the phone that I feel like I'm reaching for and it's
+
+1329
+01:21:31,655 --> 01:21:35,345
+Speaker 16:  kind of up high above the, the volume buttons. So
+
+1330
+01:21:35,605 --> 01:21:39,505
+Speaker 16:  for me, I feel like I have to kind of do a, do a little maneuver
+
+1331
+01:21:39,805 --> 01:21:43,505
+Speaker 16:  to get there. But it seems to work for a lot of people
+
+1332
+01:21:43,785 --> 01:21:44,065
+Speaker 16:  I guess.
+
+1333
+01:21:44,775 --> 01:21:47,905
+Speaker 5:  Yeah. But it's not, it's not the, like it doesn't
+
+1334
+01:21:48,495 --> 01:21:51,305
+Speaker 5:  form the muscle memory for you the way that you want it to.
+
+1335
+01:21:52,135 --> 01:21:52,425
+Speaker 16:  Yeah.
+
+1336
+01:21:52,725 --> 01:21:56,185
+Speaker 5:  Gotcha. Okay. So what about the literal camera button
+
+1337
+01:21:56,455 --> 01:21:59,825
+Speaker 5:  that is now on these phones? How is that,
+
+1338
+01:22:00,405 --> 01:22:04,025
+Speaker 5:  has that changed this like quick draw routine to go back to the beginning,
+
+1339
+01:22:04,095 --> 01:22:06,985
+Speaker 5:  like, kid is doing something cute, your phone is in your pocket, what do
+
+1340
+01:22:06,985 --> 01:22:07,185
+Speaker 5:  you do?
+
+1341
+01:22:07,615 --> 01:22:11,425
+Speaker 16:  Yeah, So I just had a roller coaster of emotions
+
+1342
+01:22:11,425 --> 01:22:15,345
+Speaker 16:  with the camera button because it's like coded like
+
+1343
+01:22:15,345 --> 01:22:19,185
+Speaker 16:  everything I would like, you know, it's like a real button.
+
+1344
+01:22:20,055 --> 01:22:23,745
+Speaker 16:  It's controls the camera. You can do a bunch of cool like change
+
+1345
+01:22:24,065 --> 01:22:25,185
+Speaker 16:  exposure and stuff with it.
+
+1346
+01:22:26,705 --> 01:22:30,465
+Speaker 16:  I don't actually like it as much as I thought I would. Oh no, I,
+
+1347
+01:22:30,605 --> 01:22:33,665
+Speaker 16:  so my kid is doing something cute in front of me. I will definitely
+
+1348
+01:22:34,835 --> 01:22:38,585
+Speaker 16:  press it to launch the camera. The screen has to be
+
+1349
+01:22:38,635 --> 01:22:42,625
+Speaker 16:  awake already before it will do that. Like pushing
+
+1350
+01:22:42,685 --> 01:22:46,345
+Speaker 16:  it, the, just the one time will wake up the screen
+
+1351
+01:22:46,565 --> 01:22:49,065
+Speaker 16:  so you have to kind of do it again. Oh,
+
+1352
+01:22:49,625 --> 01:22:50,385
+Speaker 5:  Interesting. Yeah.
+
+1353
+01:22:50,675 --> 01:22:54,625
+Speaker 16:  Which it will So, I'll like start that process when the phone is
+
+1354
+01:22:54,625 --> 01:22:55,145
+Speaker 16:  in my pocket.
+
+1355
+01:22:55,645 --> 01:22:58,745
+Speaker 5:  So it's hitting the button once to turn the screen on and then again to launch
+
+1356
+01:22:58,805 --> 01:23:01,865
+Speaker 5:  the camera app and then again to take a picture.
+
+1357
+01:23:02,565 --> 01:23:06,365
+Speaker 16:  Yes. And oh, for the third thing for the taking
+
+1358
+01:23:06,565 --> 01:23:10,525
+Speaker 16:  a picture, I don't like it very much because, oh no, I
+
+1359
+01:23:10,525 --> 01:23:14,445
+Speaker 16:  know it is, it's kind of stiff, like it's a little
+
+1360
+01:23:14,445 --> 01:23:18,085
+Speaker 16:  bit recessed. Yeah. With the, from the edge of the phone,
+
+1361
+01:23:18,095 --> 01:23:21,925
+Speaker 16:  which makes sense. 'cause you don't wanna accidentally take a bunch of pictures,
+
+1362
+01:23:23,025 --> 01:23:26,925
+Speaker 16:  but it just feels like that little bit, it's too stiff and
+
+1363
+01:23:26,925 --> 01:23:30,725
+Speaker 16:  like I have to push a little bit too hard on it that I feel like
+
+1364
+01:23:30,745 --> 01:23:34,645
+Speaker 16:  I'm shaking the whole phone and I'm still, you know, maybe the
+
+1365
+01:23:34,645 --> 01:23:38,245
+Speaker 16:  iPhone can cope with that, but I'm so like, no, I
+
+1366
+01:23:38,375 --> 01:23:40,885
+Speaker 16:  don't want any shake. You know, in this photo
+
+1367
+01:23:40,945 --> 01:23:42,325
+Speaker 5:  You, it might be messing with your framing.
+
+1368
+01:23:42,795 --> 01:23:45,725
+Speaker 16:  Yeah. Okay. It has gonna be a little crooked or something.
+
+1369
+01:23:47,405 --> 01:23:48,085
+Speaker 16:  I don't like that.
+
+1370
+01:23:48,465 --> 01:23:52,165
+Speaker 5:  So you, I'm, I'm just really stuck on this like one,
+
+1371
+01:23:52,355 --> 01:23:56,285
+Speaker 5:  this like scenario and the like individual beats of this kid does a cute
+
+1372
+01:23:56,285 --> 01:24:00,125
+Speaker 5:  thing. One click to turn the, the thing on, one click to get into
+
+1373
+01:24:00,285 --> 01:24:03,525
+Speaker 5:  the camera and then you're hitting the software button on the screen.
+
+1374
+01:24:03,915 --> 01:24:07,605
+Speaker 16:  Yeah. Gotcha. Yeah, that's, that's been my process and maybe the screen
+
+1375
+01:24:07,605 --> 01:24:10,885
+Speaker 16:  will wake up when I take it outta my pocket. You know, there's variations
+
+1376
+01:24:11,065 --> 01:24:11,285
+Speaker 5:  In
+
+1377
+01:24:11,285 --> 01:24:13,565
+Speaker 16:  There, but that's basically it. Yeah.
+
+1378
+01:24:13,705 --> 01:24:16,805
+Speaker 5:  But it's still a little fiddly. Is it faster
+
+1379
+01:24:16,965 --> 01:24:20,885
+Speaker 5:  meaningfully? Is there anything about this that does speed up
+
+1380
+01:24:20,885 --> 01:24:22,325
+Speaker 5:  the process even if it's fiddly?
+
+1381
+01:24:22,885 --> 01:24:26,725
+Speaker 16:  I feel like I do like having the, just a button to press down and that
+
+1382
+01:24:26,725 --> 01:24:30,005
+Speaker 16:  like, feels to me like I am starting the process.
+
+1383
+01:24:30,875 --> 01:24:34,565
+Speaker 16:  Even if it's not like, you know, bam, I'm gonna get a shot just like that.
+
+1384
+01:24:34,755 --> 01:24:38,685
+Speaker 16:  Yeah. One thing it is really useful for, and
+
+1385
+01:24:38,685 --> 01:24:42,445
+Speaker 16:  this is something I've kind of like used more in long-term
+
+1386
+01:24:42,445 --> 01:24:45,405
+Speaker 16:  testing and not exactly in those like quick draw moments
+
+1387
+01:24:46,865 --> 01:24:50,765
+Speaker 16:  is changing the exposure compensation 'cause okay.
+
+1388
+01:24:50,765 --> 01:24:54,405
+Speaker 16:  When you do that like little half press or the light press on it,
+
+1389
+01:24:55,185 --> 01:24:58,845
+Speaker 16:  that's how you access, you can set it to a bunch of different things.
+
+1390
+01:24:59,865 --> 01:25:03,485
+Speaker 16:  But the one I like is the exposure compensation because
+
+1391
+01:25:04,045 --> 01:25:07,765
+Speaker 16:  I don't know If you've ever tried changing the brightness on a,
+
+1392
+01:25:07,905 --> 01:25:11,605
+Speaker 16:  on a photo that you're taking, but it's such a pain on an
+
+1393
+01:25:11,605 --> 01:25:12,605
+Speaker 16:  iPhone is
+
+1394
+01:25:12,605 --> 01:25:16,445
+Speaker 5:  That that's where you have to like tap the screen until the little sun icon
+
+1395
+01:25:16,885 --> 01:25:20,125
+Speaker 5:  shows up and then you have to drag the sun up and down. Yeah. And yeah, I
+
+1396
+01:25:20,125 --> 01:25:22,045
+Speaker 5:  can never, I no can never do that. Right.
+
+1397
+01:25:22,265 --> 01:25:25,285
+Speaker 16:  It never feels like I'm dragging it enough and then all of a sudden the
+
+1398
+01:25:25,285 --> 01:25:29,205
+Speaker 16:  image is like way too bright and I'm like, yes. Spending so much time fiddling
+
+1399
+01:25:29,205 --> 01:25:33,005
+Speaker 16:  with that, that like whatever I was taking a picture of is long
+
+1400
+01:25:33,155 --> 01:25:36,165
+Speaker 16:  gone. Yeah. This is just like a little
+
+1401
+01:25:37,145 --> 01:25:41,045
+Speaker 16:  little bonus exposure compensation dial, which I
+
+1402
+01:25:41,075 --> 01:25:44,725
+Speaker 16:  love. So that's been my favorite part of the camera control,
+
+1403
+01:25:45,125 --> 01:25:45,325
+Speaker 16:  honestly.
+
+1404
+01:25:46,035 --> 01:25:49,645
+Speaker 5:  Okay. Do you feel like it, do you, can you get to other
+
+1405
+01:25:49,645 --> 01:25:53,445
+Speaker 5:  settings really quickly? I just, the the, like the vision
+
+1406
+01:25:53,605 --> 01:25:57,005
+Speaker 5:  I have of what Apple wants out of that button is for people to
+
+1407
+01:25:57,315 --> 01:26:01,285
+Speaker 5:  very intuitively just like wiggle their finger back and forth by a
+
+1408
+01:26:01,285 --> 01:26:04,765
+Speaker 5:  few millimeters and like do 17 things and take a picture. Yeah.
+
+1409
+01:26:05,225 --> 01:26:08,805
+Speaker 5:  Do you feel like you are like psychically connected to this button the way
+
+1410
+01:26:08,805 --> 01:26:10,125
+Speaker 5:  that they want you to be?
+
+1411
+01:26:10,885 --> 01:26:14,285
+Speaker 16:  I do not. And it's a little funny. It's like
+
+1412
+01:26:14,355 --> 01:26:17,965
+Speaker 16:  something you have to kind of get used to. 'cause you're, you're like half
+
+1413
+01:26:18,325 --> 01:26:22,285
+Speaker 16:  pressing this button. It's not, there's not actually a half press.
+
+1414
+01:26:22,475 --> 01:26:26,085
+Speaker 16:  It's, that's the like capacitive, you know, it gives you a little
+
+1415
+01:26:26,145 --> 01:26:29,925
+Speaker 16:  haptic buzz like you did it and then you're supposed to
+
+1416
+01:26:29,925 --> 01:26:33,725
+Speaker 16:  keep your finger on there and slide it back and forth and
+
+1417
+01:26:34,405 --> 01:26:38,365
+Speaker 16:  I end up like taking my finger off or like I'm, I slide it and
+
+1418
+01:26:38,405 --> 01:26:42,285
+Speaker 16:  I need to reposition my finger to like, you know, do the adjustment
+
+1419
+01:26:42,285 --> 01:26:46,165
+Speaker 16:  some more, which feels a little like choppy and
+
+1420
+01:26:46,465 --> 01:26:50,445
+Speaker 16:  not quite right. Yeah. And then there's like no good way to like
+
+1421
+01:26:50,875 --> 01:26:54,565
+Speaker 16:  exit the control, which is a weird thing that Neela and I both noticed in
+
+1422
+01:26:54,565 --> 01:26:58,485
+Speaker 16:  the review is like, you kind of wanna just like tap to get
+
+1423
+01:26:58,545 --> 01:27:02,045
+Speaker 16:  out of there and it, it's just weird how it works. Huh.
+
+1424
+01:27:02,305 --> 01:27:06,165
+Speaker 5:  How do you get out of there? Do you even know have figured
+
+1425
+01:27:06,165 --> 01:27:09,245
+Speaker 5:  it out yet close up or, or has that setting been up since you got the phone?
+
+1426
+01:27:09,535 --> 01:27:13,525
+Speaker 16:  Let's see. No, no, no. You take, you tap the live
+
+1427
+01:27:13,555 --> 01:27:17,405
+Speaker 16:  view. Oh God, the little sun icon is back. I don't want that
+
+1428
+01:27:17,645 --> 01:27:21,635
+Speaker 16:  at all. Oh no. Yeah, no, it feels like you should
+
+1429
+01:27:22,055 --> 01:27:24,355
+Speaker 16:  do a light tap again and that would exit
+
+1430
+01:27:24,855 --> 01:27:26,075
+Speaker 5:  And that's not what happens. That
+
+1431
+01:27:26,075 --> 01:27:28,955
+Speaker 16:  Does not work. Yeah. Gotcha. That's the, the weird behavior,
+
+1432
+01:27:29,695 --> 01:27:33,355
+Speaker 5:  Huh. Okay. Well I can't say
+
+1433
+01:27:33,535 --> 01:27:35,555
+Speaker 5:  it feels like you're selling this button.
+
+1434
+01:27:36,675 --> 01:27:39,875
+Speaker 16:  I know. I'm really not trying to, I guess,
+
+1435
+01:27:40,345 --> 01:27:43,795
+Speaker 5:  Yeah, I clearly, I that's, that is fair and understandable.
+
+1436
+01:27:44,315 --> 01:27:47,875
+Speaker 5:  I guess the like, I guess Peter's question was, is this any faster?
+
+1437
+01:27:48,175 --> 01:27:51,995
+Speaker 5:  And my sort of tack on question is, is this meaningfully
+
+1438
+01:27:51,995 --> 01:27:54,875
+Speaker 5:  better? And I guess all of that rolls up to,
+
+1439
+01:27:55,815 --> 01:27:59,435
+Speaker 5:  is this a meaningful factor in deciding to
+
+1440
+01:27:59,615 --> 01:28:03,555
+Speaker 5:  buy a phone? If, you really care about taking pictures quickly?
+
+1441
+01:28:04,185 --> 01:28:07,955
+Speaker 16:  Yeah, the, the thing I've kind of come around to is like, it
+
+1442
+01:28:07,955 --> 01:28:11,715
+Speaker 16:  doesn't hurt like literally nothing was taken away. You can
+
+1443
+01:28:11,735 --> 01:28:15,235
+Speaker 16:  use the camera in any other way that you prefer
+
+1444
+01:28:15,895 --> 01:28:19,795
+Speaker 16:  and this is like an extra thing that, you know, for
+
+1445
+01:28:19,795 --> 01:28:23,555
+Speaker 16:  opening the camera itself kind of helps. I don't
+
+1446
+01:28:23,555 --> 01:28:27,315
+Speaker 16:  prefer it for taking a photo, but it's not like
+
+1447
+01:28:27,315 --> 01:28:31,075
+Speaker 16:  Apple took away all the other ways to take a photo. Right. And then you
+
+1448
+01:28:31,075 --> 01:28:34,915
+Speaker 16:  get that little extra control that like sometimes does
+
+1449
+01:28:34,945 --> 01:28:38,235
+Speaker 16:  come in handy. So it's, it's like
+
+1450
+01:28:39,275 --> 01:28:43,235
+Speaker 16:  I, I don't know if it's a net positive but it doesn't hurt. And
+
+1451
+01:28:43,655 --> 01:28:44,075
+Speaker 16:  that's
+
+1452
+01:28:44,075 --> 01:28:47,635
+Speaker 5:  What you want out of any flagship feature of a new fund. Yeah, it does. It's
+
+1453
+01:28:47,635 --> 01:28:51,395
+Speaker 5:  not damaging my experience in any big way. Yeah.
+
+1454
+01:28:51,395 --> 01:28:55,355
+Speaker 16:  First do no harm, something like that. And
+
+1455
+01:28:55,515 --> 01:28:59,275
+Speaker 16:  I think it's just like a lot of other things with phones
+
+1456
+01:28:59,495 --> 01:29:03,445
+Speaker 16:  is like, I don't see a lot of new, you know, on
+
+1457
+01:29:03,745 --> 01:29:07,405
+Speaker 16:  iOS or on Android, a feature that I'm like, wow, you should
+
+1458
+01:29:07,765 --> 01:29:11,245
+Speaker 16:  absolutely throw away your old phone and get a new phone this year for this
+
+1459
+01:29:11,245 --> 01:29:15,125
+Speaker 16:  thing. Right. It's sort of like, are you in the right, you know, time
+
+1460
+01:29:15,125 --> 01:29:19,085
+Speaker 16:  in that like cycle of, you know, for some people it's maybe
+
+1461
+01:29:19,085 --> 01:29:22,965
+Speaker 16:  like two to three years or for other people that they
+
+1462
+01:29:22,965 --> 01:29:25,965
+Speaker 16:  just wanna not shop for a phone as long as they can. Yep.
+
+1463
+01:29:26,715 --> 01:29:29,925
+Speaker 16:  It's sort of like, where are you in the discomfort with your current phone
+
+1464
+01:29:30,545 --> 01:29:33,845
+Speaker 16:  and how appealing are the things on the new phone?
+
+1465
+01:29:34,445 --> 01:29:38,085
+Speaker 16:  I think the 16, like the regular 16 in particular
+
+1466
+01:29:38,275 --> 01:29:41,765
+Speaker 16:  this year is a pretty good value proposition of like,
+
+1467
+01:29:42,345 --> 01:29:45,725
+Speaker 16:  you get these new buttons and like maybe Apple intelligence will turn out
+
+1468
+01:29:45,725 --> 01:29:49,485
+Speaker 16:  to be something and it's, but besides that it's just like
+
+1469
+01:29:49,985 --> 01:29:52,325
+Speaker 16:  the new iPhone and it's pretty good. So
+
+1470
+01:29:52,795 --> 01:29:53,085
+Speaker 5:  Yeah.
+
+1471
+01:29:54,715 --> 01:29:58,405
+Speaker 5:  That is fair. I guess my, my last question is
+
+1472
+01:29:58,595 --> 01:30:01,925
+Speaker 5:  that we talk a lot about whether
+
+1473
+01:30:02,705 --> 01:30:06,565
+Speaker 5:  in the future we're all gonna keep using our phone for everything
+
+1474
+01:30:06,565 --> 01:30:09,805
+Speaker 5:  or whether the phone is gonna get splintered into a bunch of other gadgets
+
+1475
+01:30:09,855 --> 01:30:13,765
+Speaker 5:  point and shoot cameras are having a moment If you care about, you
+
+1476
+01:30:13,765 --> 01:30:17,365
+Speaker 5:  know, whipping out a device and taking a picture really quickly. Is there
+
+1477
+01:30:17,405 --> 01:30:20,445
+Speaker 5:  a world where you should just get a point and shoot camera and not worry
+
+1478
+01:30:20,445 --> 01:30:24,165
+Speaker 5:  about all of these fiddly buttons and software updates? What do you think?
+
+1479
+01:30:25,045 --> 01:30:29,005
+Speaker 16:  I, I was really hoping I could shortcut to this could
+
+1480
+01:30:29,005 --> 01:30:32,525
+Speaker 16:  be a cool point and shoot camera with the camera button and with the
+
+1481
+01:30:32,525 --> 01:30:36,445
+Speaker 16:  photographic styles. Yeah. Because you get some kind of neat kind of
+
+1482
+01:30:36,725 --> 01:30:40,205
+Speaker 16:  Fuji film esque, you know, totally. Film
+
+1483
+01:30:40,345 --> 01:30:44,285
+Speaker 16:  stocks or whatever you wanna call them and it d it does not feel that
+
+1484
+01:30:44,285 --> 01:30:48,005
+Speaker 16:  way to me. Like of course that doesn't, it's a phone, like it's still gonna
+
+1485
+01:30:48,005 --> 01:30:51,365
+Speaker 16:  be a phone. Yeah. It's still gonna be like pinging you with Slack messages
+
+1486
+01:30:51,365 --> 01:30:55,205
+Speaker 16:  when you're out trying to take some pictures. So I think that is
+
+1487
+01:30:55,205 --> 01:30:59,085
+Speaker 16:  true. Like a button is not going to turn this
+
+1488
+01:30:59,195 --> 01:31:03,165
+Speaker 16:  into like, you know, a super great camera in a way that
+
+1489
+01:31:03,185 --> 01:31:07,045
+Speaker 16:  it wasn't before it, it's still
+
+1490
+01:31:07,045 --> 01:31:09,045
+Speaker 16:  the camera I use most of the time,
+
+1491
+01:31:10,625 --> 01:31:14,445
+Speaker 16:  but yeah, it's, I don't think gonna gonna sway
+
+1492
+01:31:14,445 --> 01:31:18,085
+Speaker 16:  anyone from, from a nice Fuji film camera or,
+
+1493
+01:31:18,765 --> 01:31:21,245
+Speaker 16:  I don't know, it's a meta ray. Bands like that.
+
+1494
+01:31:21,315 --> 01:31:22,125
+Speaker 5:  Yeah. That
+
+1495
+01:31:22,125 --> 01:31:26,005
+Speaker 16:  Will take a photo faster than taking a phone outta your pocket. So, I don't
+
+1496
+01:31:26,005 --> 01:31:26,485
+Speaker 16:  know. Right.
+
+1497
+01:31:27,255 --> 01:31:30,725
+Speaker 5:  There are other ways. Yeah. Okay. Well
+
+1498
+01:31:31,365 --> 01:31:34,045
+Speaker 5:  I, I don't know where Peter goes from here, but
+
+1499
+01:31:34,425 --> 01:31:35,045
+Speaker 16:  I'm sorry Peter,
+
+1500
+01:31:35,645 --> 01:31:39,365
+Speaker 5:  I wanna, I, I just wanna like hit this button a bunch of times now, now I'm,
+
+1501
+01:31:39,365 --> 01:31:43,245
+Speaker 5:  now I'm curious to see. Yeah. But thank you Alison, this is awesome. Yeah,
+
+1502
+01:31:43,245 --> 01:31:43,645
+Speaker 16:  Thanks.
+
+1503
+01:31:44,755 --> 01:31:48,045
+Speaker 2:  Alright, that is it for the Vergecast today. Thank you to everybody who came
+
+1504
+01:31:48,125 --> 01:31:51,925
+Speaker 2:  on the show and thank you as always for listening. There's lots more on everything
+
+1505
+01:31:51,925 --> 01:31:54,765
+Speaker 2:  we talked about at The Verge dot com, all of our coverage of what's going
+
+1506
+01:31:54,765 --> 01:31:58,725
+Speaker 2:  on with OpenAI, all of our coverage of the iPhone stuff. We'll
+
+1507
+01:31:58,725 --> 01:31:59,925
+Speaker 2:  link to both blog posts in
+

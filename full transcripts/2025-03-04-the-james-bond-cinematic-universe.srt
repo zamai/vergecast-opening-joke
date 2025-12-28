@@ -1,0 +1,5613 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: f22d6a64-1c60-4ef1-8724-87f440b65a84
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/7025615715513798433/4183694409932674262/s93290-US-5716s-1741571010.mp3
+Description: On this episode, we're diving deep into new ideas about old things. First, Framework CEO Nirav Patel joins David and The Verge's Sean Hollister to talk about Framework's new Laptop 12 and Desktop, plus the company's plan to bring its upgradeable, repairable ethos to other gadgets. After that, Daring Fireball's John Gruber joins the show to talk about the future of James Bond, now that Amazon has complete creative control over the 007 franchise. Do we want to live in the James Bond Cinematic Universe? Finally, we answer a question on the Vergecast Hotline about using smart glasses to replace your computer monitor.
+
+2
+00:00:03,225 --> 00:00:06,955
+Speaker 2:  Welcome to The Vergecast, the flagship podcast of Modular Devices.
+
+3
+00:00:07,495 --> 00:00:09,995
+Speaker 2:  I'm your friend David Pierce and I have like
+
+4
+00:00:10,515 --> 00:00:14,475
+Speaker 2:  1,740 miles to walk. So I downloaded this
+
+5
+00:00:14,475 --> 00:00:18,315
+Speaker 2:  app called Fantasy Hike, which V Song recommended on the podcast a few
+
+6
+00:00:18,315 --> 00:00:21,915
+Speaker 2:  weeks ago. It's basically an app that takes all of your
+
+7
+00:00:21,915 --> 00:00:25,435
+Speaker 2:  motion activity, the steps you take and stuff like that and converts it to
+
+8
+00:00:25,435 --> 00:00:29,395
+Speaker 2:  like this long Lord of the Ring Z journey to take
+
+9
+00:00:29,475 --> 00:00:33,195
+Speaker 2:  a ring back to, they don't call it Mordor for copyright reasons, but that's
+
+10
+00:00:33,195 --> 00:00:37,075
+Speaker 2:  the idea. The journey is 1,780 miles and it turns out I am
+
+11
+00:00:37,115 --> 00:00:40,435
+Speaker 2:  surprisingly easily gamified by systems like this.
+
+12
+00:00:41,015 --> 00:00:44,675
+Speaker 2:  So I have found this very compelling and I'm now walking way more than I
+
+13
+00:00:44,675 --> 00:00:47,995
+Speaker 2:  ever have before just so that I can get the little like way to go
+
+14
+00:00:47,995 --> 00:00:51,955
+Speaker 2:  notifications and see my progress and get somewhere. So at some point I
+
+15
+00:00:51,955 --> 00:00:55,915
+Speaker 2:  think I'm going to end up walking almost 1800 miles all because of this
+
+16
+00:00:56,005 --> 00:00:59,235
+Speaker 2:  silly fake Lord of the Rings app. It's great stuff. Anyway,
+
+17
+00:01:00,065 --> 00:01:03,355
+Speaker 2:  this is a super fun episode we have coming up. We're gonna do two things.
+
+18
+00:01:03,845 --> 00:01:07,675
+Speaker 2:  First, Sean Hollister and I are gonna talk to Nav Patel, the CEO of
+
+19
+00:01:07,675 --> 00:01:11,395
+Speaker 2:  framework about the new desktop and laptop, the company last week
+
+20
+00:01:11,795 --> 00:01:15,715
+Speaker 2:  launched, plus all of this stuff that framework might
+
+21
+00:01:15,735 --> 00:01:19,035
+Speaker 2:  do in the future. They have some pretty interesting ideas and we have a lot
+
+22
+00:01:19,035 --> 00:01:22,755
+Speaker 2:  of questions about those ideas. Then John Gruber from Daring
+
+23
+00:01:22,755 --> 00:01:26,555
+Speaker 2:  Fireball is gonna come on and talk about the thing he knows best. James
+
+24
+00:01:26,585 --> 00:01:29,715
+Speaker 2:  Bond. Super fun episode. We also have a really fun hotline question about
+
+25
+00:01:29,715 --> 00:01:33,515
+Speaker 2:  glasses on your face for computers. All of that is coming up in just
+
+26
+00:01:33,675 --> 00:01:36,635
+Speaker 2:  a second, but first I'm gonna be honest with you, I'm gonna go get a couple
+
+27
+00:01:36,635 --> 00:01:40,315
+Speaker 2:  more miles in. I'm on my way to Mount Fire, I think it's called, which is
+
+28
+00:01:40,315 --> 00:01:44,155
+Speaker 2:  not Mordor because of Lord of the Rinks. This is the verse
+
+29
+00:01:44,155 --> 00:01:45,275
+Speaker 2:  cast. We'll be right back.
+
+30
+00:03:22,155 --> 00:03:25,885
+Speaker 2:  Welcome back. I don't know If you know the company framework, but
+
+31
+00:03:26,185 --> 00:03:29,725
+Speaker 2:  for the last several years, I have thought they are one of the most interesting
+
+32
+00:03:30,045 --> 00:03:33,925
+Speaker 2:  companies in tech. Basically framework's big idea is that all computers,
+
+33
+00:03:33,985 --> 00:03:37,965
+Speaker 2:  all gadgets, all electronics really should be upgradeable and
+
+34
+00:03:38,015 --> 00:03:41,845
+Speaker 2:  repairable that when your AirPods stop working because the battery
+
+35
+00:03:41,895 --> 00:03:45,765
+Speaker 2:  stops working, they shouldn't die and go into a landfill. You should be able
+
+36
+00:03:45,765 --> 00:03:49,685
+Speaker 2:  to just stick in a new battery and keep moving on with your life frameworks.
+
+37
+00:03:49,685 --> 00:03:53,325
+Speaker 2:  Products until now have all been laptops. There was a 13 inch laptop and
+
+38
+00:03:53,365 --> 00:03:57,325
+Speaker 2:  a 16 inch laptop, both of them super repairable. Like you can
+
+39
+00:03:57,395 --> 00:04:01,325
+Speaker 2:  unscrew something, pull out a module, stick in a new one, screw it back in,
+
+40
+00:04:01,325 --> 00:04:05,245
+Speaker 2:  and you've just upgraded your computer. It's a big powerful idea
+
+41
+00:04:05,545 --> 00:04:09,325
+Speaker 2:  and framework has actually done a better job of pulling it off really than
+
+42
+00:04:09,345 --> 00:04:13,205
+Speaker 2:  any other company I've certainly ever seen. And so last week
+
+43
+00:04:13,325 --> 00:04:17,205
+Speaker 2:  when framework announced a new laptop, the framework laptop 12 and
+
+44
+00:04:17,345 --> 00:04:21,285
+Speaker 2:  its first desktop ever, the framework desktop, it felt like a big moment,
+
+45
+00:04:21,285 --> 00:04:25,045
+Speaker 2:  right? Like this is the time when a company like Framework is really
+
+46
+00:04:25,245 --> 00:04:28,685
+Speaker 2:  starting to make the case that it matters, that it can keep doing this thing
+
+47
+00:04:28,685 --> 00:04:32,325
+Speaker 2:  and that it can take its big idea and extend it out into other
+
+48
+00:04:32,325 --> 00:04:36,165
+Speaker 2:  products. So I called up both Sean Hollister on our team
+
+49
+00:04:36,165 --> 00:04:39,645
+Speaker 2:  and Nav Patel, the CEO of framework, just to dig into all of this,
+
+50
+00:04:39,865 --> 00:04:42,885
+Speaker 2:  what's going on at framework, how it's been able to pull off this
+
+51
+00:04:43,645 --> 00:04:47,285
+Speaker 2:  miraculous thing that no one else has in actually sticking to the
+
+52
+00:04:47,515 --> 00:04:51,445
+Speaker 2:  plan of having upgradable gadgets, although it hasn't been perfect and we're
+
+53
+00:04:51,445 --> 00:04:55,165
+Speaker 2:  gonna talk about that, but also what you can do with this idea
+
+54
+00:04:55,165 --> 00:04:59,085
+Speaker 2:  about how gadgets should work and how far it really goes. So lots
+
+55
+00:04:59,085 --> 00:05:02,885
+Speaker 2:  to talk about. Let's just get into it. I kind of just wanna start with framework
+
+56
+00:05:02,905 --> 00:05:06,605
+Speaker 2:  as a company because again, it's, it's been a while since you and I have
+
+57
+00:05:06,605 --> 00:05:09,845
+Speaker 2:  talked, it's been a while since we've talked about framework stuff on The
+
+58
+00:05:09,925 --> 00:05:13,885
+Speaker 2:  Vergecast, catch us up on framework, the company a little bit. You're,
+
+59
+00:05:13,885 --> 00:05:17,245
+Speaker 2:  you're, yeah, kind of a hardware startup, but you're not as startup a startup
+
+60
+00:05:17,385 --> 00:05:20,765
+Speaker 2:  as you were. Like where, where do you feel like you are at that the moment?
+
+61
+00:05:21,285 --> 00:05:24,525
+Speaker 2:  I think we're not as startupy a startup. I'm gonna take that as a compliment.
+
+62
+00:05:24,525 --> 00:05:27,845
+Speaker 2:  Meaning I think we're, we're executing relatively smoothly and without a,
+
+63
+00:05:27,885 --> 00:05:30,565
+Speaker 2:  a lot of, I think it is a compliment. Yeah, yeah. Without a lot of drama
+
+64
+00:05:30,805 --> 00:05:33,925
+Speaker 2:  I think is the key, which makes it feel maybe less like a startup than than
+
+65
+00:05:33,925 --> 00:05:37,605
+Speaker 2:  many other startups do. But yeah, we're five years
+
+66
+00:05:37,705 --> 00:05:41,485
+Speaker 2:  in, we're 60 people and whenever I say both of those numbers, people are
+
+67
+00:05:42,035 --> 00:05:45,365
+Speaker 2:  eyes like go wide. A bit like, wait a second, really you can do that with
+
+68
+00:05:45,365 --> 00:05:49,325
+Speaker 2:  60 people. There really is just a testament to the team that we've
+
+69
+00:05:49,325 --> 00:05:52,925
+Speaker 2:  been able to put together. We've got just an awesome set of individuals and
+
+70
+00:05:52,935 --> 00:05:56,645
+Speaker 2:  we're also just carrying in a ton of collective experience,
+
+71
+00:05:56,675 --> 00:06:00,645
+Speaker 2:  both from like bigger mature consumer electronics companies of like how
+
+72
+00:06:00,645 --> 00:06:04,085
+Speaker 2:  to do hardware smoothly, but then also the
+
+73
+00:06:04,085 --> 00:06:07,885
+Speaker 2:  startups that were very startupy where we got to learn from the
+
+74
+00:06:08,085 --> 00:06:11,525
+Speaker 2:  mistakes very quickly and not at least make those same mistakes again.
+
+75
+00:06:12,285 --> 00:06:15,685
+Speaker 2:  I also feel like from the beginning you've been kind of
+
+76
+00:06:16,005 --> 00:06:19,885
+Speaker 2:  resolutely, less chaotic than a lot of hardware startups. Like Sean and I
+
+77
+00:06:19,885 --> 00:06:23,165
+Speaker 2:  spent a lot of time with people who have huge ideas about revolutionizing
+
+78
+00:06:23,165 --> 00:06:26,845
+Speaker 2:  everything and quickly discovered that, you know,
+
+79
+00:06:26,845 --> 00:06:30,725
+Speaker 2:  making one of something is very different from making thousands or millions
+
+80
+00:06:30,725 --> 00:06:34,005
+Speaker 2:  of those things. And I feel like you were, you were pretty clear-eyed about
+
+81
+00:06:34,005 --> 00:06:37,565
+Speaker 2:  that stuff from pretty early on and I think it's still like even just hearing
+
+82
+00:06:37,585 --> 00:06:40,885
+Speaker 2:  you talk at the event this week about the way that you're thinking about
+
+83
+00:06:40,885 --> 00:06:44,765
+Speaker 2:  products, like there's still a sort of cautious approach to all of this that
+
+84
+00:06:44,765 --> 00:06:48,325
+Speaker 2:  it's like we're going to be slow and careful and not try to
+
+85
+00:06:48,755 --> 00:06:50,525
+Speaker 2:  move fast and break things. You
+
+86
+00:06:50,525 --> 00:06:54,405
+Speaker 6:  Even published in, in a manifesto, I want to say you, you earliest
+
+87
+00:06:54,725 --> 00:06:58,605
+Speaker 6:  manifesto, it seems like you, you had this, this, this notion that you
+
+88
+00:06:58,605 --> 00:07:00,125
+Speaker 6:  needed to be very selective.
+
+89
+00:07:00,675 --> 00:07:04,325
+Speaker 2:  Yeah, it's a, it's a move slow and fix things approach to, to
+
+90
+00:07:04,325 --> 00:07:08,245
+Speaker 2:  startups I think. Which, which is, I mean it's fundamentally
+
+91
+00:07:08,245 --> 00:07:11,325
+Speaker 2:  we're about longevity. So if we're not building the company around longevity,
+
+92
+00:07:11,425 --> 00:07:15,005
+Speaker 2:  the team around longevity, the infrastructure, how can we build the products
+
+93
+00:07:15,005 --> 00:07:17,565
+Speaker 2:  themselves to be long lived? Like how can we reasonably go out there and
+
+94
+00:07:17,565 --> 00:07:21,205
+Speaker 2:  say we're building a laptop that's gonna last longer if we're operating as
+
+95
+00:07:21,205 --> 00:07:24,965
+Speaker 2:  a company in a chaotic matter. So that's like really what
+
+96
+00:07:24,965 --> 00:07:28,685
+Speaker 2:  drives very deliberately us making decisions
+
+97
+00:07:28,835 --> 00:07:31,645
+Speaker 2:  that optimize for what's going to
+
+98
+00:07:32,355 --> 00:07:36,285
+Speaker 2:  guarantee that 10 years from now we're still able to deliver on the same
+
+99
+00:07:36,305 --> 00:07:40,205
+Speaker 2:  set of promises, not what's gonna mean that we can capture the
+
+100
+00:07:40,205 --> 00:07:44,185
+Speaker 2:  most hype or the most interest in the next week. So with that way of
+
+101
+00:07:44,185 --> 00:07:47,785
+Speaker 2:  thinking about it, why, why the two things you launched this week, the,
+
+102
+00:07:48,045 --> 00:07:51,105
+Speaker 2:  as you're, you know, you, you've had two laptops,
+
+103
+00:07:51,755 --> 00:07:55,545
+Speaker 2:  those two make sense together. I would say these
+
+104
+00:07:55,565 --> 00:07:59,505
+Speaker 2:  two things feel slightly further afield than the stuff that you've done before.
+
+105
+00:07:59,525 --> 00:08:02,945
+Speaker 2:  And I think in particular, I'm curious why do a desktop at all, but why,
+
+106
+00:08:02,965 --> 00:08:05,745
+Speaker 2:  why these two as the next two? Yeah, sure. I mean I think If you look at
+
+107
+00:08:05,745 --> 00:08:09,625
+Speaker 2:  the framework laptop 12, that's like pretty core and pretty
+
+108
+00:08:09,805 --> 00:08:13,705
+Speaker 2:  in line with the path that we've been on since day one as a company. I mean
+
+109
+00:08:13,805 --> 00:08:17,585
+Speaker 2:  in some ways, like I actually have even said in the past that like if we
+
+110
+00:08:17,585 --> 00:08:21,145
+Speaker 2:  had the technical capability to have done framework laptop 16
+
+111
+00:08:21,165 --> 00:08:25,105
+Speaker 2:  before framework, laptop 13, we might have done that in, in the sense
+
+112
+00:08:25,105 --> 00:08:28,945
+Speaker 2:  that like as we think about who the customer base, who the end user is for
+
+113
+00:08:28,945 --> 00:08:32,905
+Speaker 2:  those products, it is actually like the more enthusiastic
+
+114
+00:08:32,905 --> 00:08:36,665
+Speaker 2:  earlier adopter persona that's gravitating to the 16
+
+115
+00:08:36,665 --> 00:08:40,265
+Speaker 2:  than the 13. And so like as we look at the 12, like as we think about
+
+116
+00:08:40,605 --> 00:08:44,425
+Speaker 2:  our mission and our product philosophy, it's almost like the ultimate expression
+
+117
+00:08:44,425 --> 00:08:48,305
+Speaker 2:  of that. Like we, we took, we took the category that is the most
+
+118
+00:08:48,515 --> 00:08:52,505
+Speaker 2:  disposable and we wanna make it the least disposable. But
+
+119
+00:08:52,505 --> 00:08:55,965
+Speaker 2:  from a brand perspective and from being able to build up the
+
+120
+00:08:55,965 --> 00:08:59,845
+Speaker 2:  infrastructure and the trust to be able to go after a less
+
+121
+00:08:59,915 --> 00:09:03,805
+Speaker 2:  extreme enthusiast user, which is really what the target user is
+
+122
+00:09:03,805 --> 00:09:07,765
+Speaker 2:  for framework Laptop 12, like that less core enthusiast more,
+
+123
+00:09:08,165 --> 00:09:11,405
+Speaker 2:  I want a computer that works and that's gonna last me a while. That's where
+
+124
+00:09:11,405 --> 00:09:15,245
+Speaker 2:  the sequencing comes in of starting with the 13, which
+
+125
+00:09:15,245 --> 00:09:18,205
+Speaker 2:  we knew we could achieve. We knew we could make like a dent in the market
+
+126
+00:09:18,235 --> 00:09:22,045
+Speaker 2:  with that thing with a very small team very quickly. Then
+
+127
+00:09:22,325 --> 00:09:25,925
+Speaker 2:  building the vastly more technically complex framework, laptop 16,
+
+128
+00:09:26,345 --> 00:09:29,885
+Speaker 2:  and then taking all that brand and infrastructure and team investment and
+
+129
+00:09:30,045 --> 00:09:33,885
+Speaker 2:  building the product that in many ways, like technically is
+
+130
+00:09:34,125 --> 00:09:37,485
+Speaker 2:  actually a bit simpler by what we're doing with Framework Laptop 12.
+
+131
+00:09:38,025 --> 00:09:41,125
+Speaker 2:  But from a brand and a go to market perspective
+
+132
+00:09:41,985 --> 00:09:45,525
+Speaker 2:  is a lot higher of a reach than the 13 of 16 were.
+
+133
+00:09:45,985 --> 00:09:49,645
+Speaker 6:  But you're not just keeping it simple, right? I mean I I, I see a lot of
+
+134
+00:09:49,645 --> 00:09:52,965
+Speaker 6:  budget laptops out there that don't necessarily have
+
+135
+00:09:53,235 --> 00:09:57,125
+Speaker 6:  touchscreen and stylus and back flipping and core I
+
+136
+00:09:57,125 --> 00:10:00,725
+Speaker 6:  three and I five chips. You're adding those things into the mix too, which
+
+137
+00:10:00,745 --> 00:10:03,605
+Speaker 6:  I'm, I'm guessing impact the price a little bit, right? So it's not going
+
+138
+00:10:03,605 --> 00:10:07,245
+Speaker 6:  to necessarily replace the most budget laptops
+
+139
+00:10:07,465 --> 00:10:10,245
+Speaker 6:  out there for people. Why were those things important to get in there?
+
+140
+00:10:10,555 --> 00:10:13,685
+Speaker 2:  Yeah, I guess like when I say simple, I think one, one key thing to call
+
+141
+00:10:13,685 --> 00:10:17,165
+Speaker 2:  out on that is, I mean from an invention risk standpoint, like as we look
+
+142
+00:10:17,165 --> 00:10:21,085
+Speaker 2:  at 16, like we invented a lot to make 16 work for 12,
+
+143
+00:10:21,185 --> 00:10:24,165
+Speaker 2:  it was actually in many ways we took like little pieces of things that we
+
+144
+00:10:24,445 --> 00:10:28,245
+Speaker 2:  invented from 13 and 16 and then brought them into 12.
+
+145
+00:10:28,625 --> 00:10:31,205
+Speaker 2:  But like as we went through the development process, I shared like little
+
+146
+00:10:31,205 --> 00:10:33,965
+Speaker 2:  bits and pieces of this, but I actually don't think I've shared much publicly
+
+147
+00:10:33,985 --> 00:10:37,805
+Speaker 2:  yet that as we started the development process for Framework Laptop
+
+148
+00:10:37,805 --> 00:10:41,765
+Speaker 2:  12, like about two years ago, we actually had some like extreme and
+
+149
+00:10:41,765 --> 00:10:45,405
+Speaker 2:  novel designs and architectures that we were bouncing around, like things
+
+150
+00:10:45,805 --> 00:10:49,005
+Speaker 2:  like reconfiguring by taking apart
+
+151
+00:10:49,315 --> 00:10:53,285
+Speaker 2:  modules between like clamshell and tablet and like detachable modes
+
+152
+00:10:53,285 --> 00:10:56,845
+Speaker 2:  and things like that, that ended up being like very inventive, ended up being
+
+153
+00:10:56,845 --> 00:10:59,605
+Speaker 2:  very complex and it was like we took a step back and we looked at, we, we
+
+154
+00:10:59,605 --> 00:11:02,965
+Speaker 2:  thought like, yes, we can technically do this, but is this actually the right
+
+155
+00:11:02,965 --> 00:11:06,405
+Speaker 2:  thing for the type of audience we're going after? Like this is not the framework
+
+156
+00:11:06,405 --> 00:11:10,325
+Speaker 2:  laptop 16 audience, like we want this thing to be simple to
+
+157
+00:11:10,325 --> 00:11:14,165
+Speaker 2:  understand and simple to use. And in doing so actually
+
+158
+00:11:14,165 --> 00:11:17,965
+Speaker 2:  we can then actually make it more robust and solve for, you know, some
+
+159
+00:11:17,965 --> 00:11:20,845
+Speaker 2:  things like making it just generally more accessible as a product.
+
+160
+00:11:21,765 --> 00:11:25,725
+Speaker 2:  And so like, like all this really take kind of taking a step back to what
+
+161
+00:11:25,725 --> 00:11:28,845
+Speaker 2:  makes framework a bit less startupy than many startups is that
+
+162
+00:11:29,585 --> 00:11:32,405
+Speaker 2:  we make those trends, we choose those things very clearly. Like with with
+
+163
+00:11:32,425 --> 00:11:36,285
+Speaker 2:  you know, eyes wide open, who is this product actually for and what
+
+164
+00:11:36,285 --> 00:11:39,845
+Speaker 2:  is actually sensible for that end user as opposed to what can we
+
+165
+00:11:39,845 --> 00:11:43,685
+Speaker 2:  technically do as a company that builds innovative and interesting products?
+
+166
+00:11:44,185 --> 00:11:44,725
+Speaker 6:  So let,
+
+167
+00:11:44,725 --> 00:11:47,125
+Speaker 2:  Let's talk through that with the 12 a little more actually. 'cause I think,
+
+168
+00:11:47,545 --> 00:11:51,165
+Speaker 2:  you know, you talk about the branding and marketing of it and to me it sort
+
+169
+00:11:51,165 --> 00:11:54,645
+Speaker 2:  of seems like the average sort of mid-range
+
+170
+00:11:54,655 --> 00:11:58,085
+Speaker 2:  mainstream consumer laptop like sucks and
+
+171
+00:11:58,725 --> 00:12:01,845
+Speaker 2:  I I it has become a real problem, right? Sure. That you have If you want
+
+172
+00:12:02,005 --> 00:12:05,885
+Speaker 2:  a pretty good Windows computer that has gotten more and more expensive over
+
+173
+00:12:05,885 --> 00:12:09,645
+Speaker 2:  time. And so to some extent it seems like
+
+174
+00:12:09,645 --> 00:12:13,045
+Speaker 2:  you're actually perfectly positioned to come in and be like, no, actually
+
+175
+00:12:13,045 --> 00:12:16,845
+Speaker 2:  what we've done is we've built a good Windows laptop and that to some
+
+176
+00:12:16,845 --> 00:12:20,685
+Speaker 2:  extent, right, that should kind of sell itself in a certain way
+
+177
+00:12:20,685 --> 00:12:23,925
+Speaker 2:  and like that, that makes the case for itself. So I'm curious why you feel
+
+178
+00:12:23,925 --> 00:12:27,085
+Speaker 2:  like it's been, what is harder about that market than going into
+
+179
+00:12:27,755 --> 00:12:31,485
+Speaker 2:  like the framework 13, which is like a market full of very good computers
+
+180
+00:12:31,485 --> 00:12:34,885
+Speaker 2:  Sure. And trying to make your case. Yeah, that's a good question. I mean,
+
+181
+00:12:35,065 --> 00:12:38,045
+Speaker 2:  in fact, like If you look at a lot of what we do, there's a certain obviousness
+
+182
+00:12:38,045 --> 00:12:41,365
+Speaker 2:  about like, Hey, why don't you just make a computer that's like kind of a
+
+183
+00:12:41,365 --> 00:12:44,925
+Speaker 2:  mid-age computer that isn't terrible And you could like look at every mature
+
+184
+00:12:45,205 --> 00:12:48,085
+Speaker 2:  consumer electronics brand, every mature Prese brand and ask the same question
+
+185
+00:12:48,705 --> 00:12:50,485
+Speaker 2:  and the answers would be very, yeah, you think somebody would've done it
+
+186
+00:12:50,485 --> 00:12:54,085
+Speaker 2:  by now, it would be very unsatisfying answers you're gonna get back.
+
+187
+00:12:55,185 --> 00:12:58,605
+Speaker 2:  And like as we've observed the market very closely like the PC industry very
+
+188
+00:12:58,605 --> 00:13:01,445
+Speaker 2:  closely, at least the thing that that I observe, I'm not gonna speak for
+
+189
+00:13:01,445 --> 00:13:03,925
+Speaker 2:  the entire team necessarily on this specifically, is that
+
+190
+00:13:05,345 --> 00:13:09,325
+Speaker 2:  the way that PC companies operate typically is that as you look across that
+
+191
+00:13:09,325 --> 00:13:13,005
+Speaker 2:  entire organization for the A
+
+192
+00:13:13,035 --> 00:13:16,965
+Speaker 2:  team, the best possible designers, engineers, supply chain people go to
+
+193
+00:13:16,965 --> 00:13:20,765
+Speaker 2:  market people, they're all assigned to the premium top
+
+194
+00:13:20,765 --> 00:13:24,405
+Speaker 2:  tier commercial notebook. So like the best and the best suppliers,
+
+195
+00:13:24,475 --> 00:13:28,125
+Speaker 2:  your top tier suppliers, the best teams of the suppliers, all that goes into
+
+196
+00:13:28,435 --> 00:13:32,165
+Speaker 2:  premium commercial. And then you take like the next best people
+
+197
+00:13:32,705 --> 00:13:36,445
+Speaker 2:  and they get assigned to the premium consumer, so the highest on
+
+198
+00:13:36,645 --> 00:13:39,365
+Speaker 2:  consumer and the next team gets assigned to like mid-tier commercial and
+
+199
+00:13:39,365 --> 00:13:43,045
+Speaker 2:  then like, or like, you know, sub premium commercial sub premium consumer.
+
+200
+00:13:43,585 --> 00:13:47,265
+Speaker 2:  And then by the time you get down to like those like core
+
+201
+00:13:47,275 --> 00:13:51,065
+Speaker 2:  mainstream, mid-tier consumer laptops especially,
+
+202
+00:13:51,775 --> 00:13:55,385
+Speaker 2:  it's like some guy in a basement somewhere writing a spreadsheet and throwing
+
+203
+00:13:55,385 --> 00:13:58,545
+Speaker 2:  it over to a supplier and hoping to get a computer back in in a few months.
+
+204
+00:13:59,085 --> 00:14:02,225
+Speaker 2:  And obviously that's like, you know, an extreme exaggeration. But that, like,
+
+205
+00:14:02,225 --> 00:14:05,745
+Speaker 2:  that's what I mean by the opportunity. Like I, I think I said during our
+
+206
+00:14:05,905 --> 00:14:08,505
+Speaker 2:  announcement, like the opportunity that we spotted on framework laptop 12,
+
+207
+00:14:08,505 --> 00:14:11,905
+Speaker 2:  like the people who need long lasting computers the most are getting like
+
+208
+00:14:11,905 --> 00:14:15,745
+Speaker 2:  the most thoughtless computers and that that's like the industry dynamic
+
+209
+00:14:15,895 --> 00:14:19,105
+Speaker 2:  that results in them being the thoughtless computers because obviously they're
+
+210
+00:14:19,105 --> 00:14:21,905
+Speaker 2:  lower margin products. So like they're gonna, obviously these companies are
+
+211
+00:14:21,905 --> 00:14:25,225
+Speaker 2:  gonna focus on premium commercial where the highest margins are
+
+212
+00:14:25,765 --> 00:14:29,625
+Speaker 2:  and put the least thought and care into their lowest
+
+213
+00:14:29,695 --> 00:14:32,345
+Speaker 2:  cost products. For us it's that, you know, we're a small company, we've only
+
+214
+00:14:32,345 --> 00:14:35,025
+Speaker 2:  got four product lines. We're gonna put thought and care into every one of
+
+215
+00:14:35,105 --> 00:14:35,825
+Speaker 2:  'em. There's,
+
+216
+00:14:35,825 --> 00:14:39,705
+Speaker 6:  There's so much margin in the, in the premium commercial maybe, but where
+
+217
+00:14:39,705 --> 00:14:43,585
+Speaker 6:  is the volume in the market and is this an opportunity for you
+
+218
+00:14:43,965 --> 00:14:47,625
+Speaker 6:  to get some volume? Do you have, do you anticipate you're gonna sell, you
+
+219
+00:14:47,625 --> 00:14:50,865
+Speaker 6:  know, a lot of these, do you have the capacity to make a lot of these? Is
+
+220
+00:14:50,865 --> 00:14:54,725
+Speaker 6:  that the thought that there will be a lot of these twelves in the
+
+221
+00:14:54,725 --> 00:14:54,925
+Speaker 6:  market?
+
+222
+00:14:55,595 --> 00:14:58,565
+Speaker 2:  Yeah, definitely. This is, yeah, it's a very, that's a great question. It's
+
+223
+00:14:58,565 --> 00:15:02,125
+Speaker 2:  very much, it's a volume play, but when we say it's a volume play, it's really
+
+224
+00:15:02,165 --> 00:15:05,525
+Speaker 2:  a mission play that like if we're gonna fix consumer electronics, let's go
+
+225
+00:15:05,525 --> 00:15:09,125
+Speaker 2:  to the places where we can really fix consumer electronics and
+
+226
+00:15:09,425 --> 00:15:09,645
+Speaker 2:  we
+
+227
+00:15:11,195 --> 00:15:14,975
+Speaker 2:  can live with good problems to have, like having more
+
+228
+00:15:14,975 --> 00:15:18,095
+Speaker 2:  demand than we have capacity. Like we can go figure out with our suppliers
+
+229
+00:15:18,395 --> 00:15:21,055
+Speaker 2:  how to scale capacity. And that's where it goes back to like, we built a
+
+230
+00:15:21,055 --> 00:15:24,335
+Speaker 2:  team that knows how to do this. So yeah, we've, we're very much
+
+231
+00:15:25,305 --> 00:15:29,255
+Speaker 2:  going for scale with framework laptop 12, maybe even in a
+
+232
+00:15:29,255 --> 00:15:33,135
+Speaker 2:  way beyond what we're doing with our other products. Interesting. So,
+
+233
+00:15:33,135 --> 00:15:36,815
+Speaker 2:  and then make the, make the same case for the desktop, which I feel like
+
+234
+00:15:36,815 --> 00:15:40,415
+Speaker 2:  is a very different Sure, yeah. Yeah, it's, it's a very different group of
+
+235
+00:15:40,415 --> 00:15:44,175
+Speaker 2:  people. I would say it's been very funny to watch the reaction, like
+
+236
+00:15:44,175 --> 00:15:48,015
+Speaker 2:  even on just like the framework subreddit to the 12 and the
+
+237
+00:15:48,015 --> 00:15:50,815
+Speaker 2:  desktop, the 12, everybody's like, oh yeah, cool, makes sense, fine, whatever.
+
+238
+00:15:50,815 --> 00:15:53,895
+Speaker 2:  Good idea. And then the desktop they're like, I have thoughts about the soldering.
+
+239
+00:15:54,565 --> 00:15:54,855
+Speaker 2:  Sure.
+
+240
+00:15:56,475 --> 00:15:59,295
+Speaker 2:  We also had many thoughts around the soldering. I believe that, and we're
+
+241
+00:15:59,295 --> 00:16:01,735
+Speaker 2:  gonna get into those thoughts, but, but I'm curious like with that, that
+
+242
+00:16:01,735 --> 00:16:04,015
+Speaker 2:  frame of reference for the 12 makes sense. What was the thinking for the
+
+243
+00:16:04,015 --> 00:16:07,815
+Speaker 2:  desktop? Yeah, this is an interesting, one of the realizations we had from
+
+244
+00:16:07,845 --> 00:16:10,935
+Speaker 2:  like basically a brand perspective around like what is framework, what are
+
+245
+00:16:10,935 --> 00:16:13,655
+Speaker 2:  we trying to do with framework, how do we bring framework to more people?
+
+246
+00:16:14,395 --> 00:16:18,015
+Speaker 2:  Was this idea that, do we need to take what we're doing and
+
+247
+00:16:18,725 --> 00:16:22,535
+Speaker 2:  kind of make it more accessible by diluting it, like making it
+
+248
+00:16:22,565 --> 00:16:26,415
+Speaker 2:  look less DIY, making it look less repairability
+
+249
+00:16:26,415 --> 00:16:30,255
+Speaker 2:  upgradeability more about like, is it just like, oh these are environmentally
+
+250
+00:16:30,415 --> 00:16:33,095
+Speaker 2:  friendly products. That's like kind of a mainstream statement. It's not like
+
+251
+00:16:33,095 --> 00:16:36,615
+Speaker 2:  getting people into the technical details. And the conclusion we came to
+
+252
+00:16:36,635 --> 00:16:40,135
+Speaker 2:  is actually that's not the right approach to get people into this world.
+
+253
+00:16:40,165 --> 00:16:43,295
+Speaker 2:  Into this world of like owning your products, using your products for longer.
+
+254
+00:16:43,915 --> 00:16:46,895
+Speaker 2:  The thing that we should do instead, or we could do instead is
+
+255
+00:16:47,685 --> 00:16:51,415
+Speaker 2:  make repair cool, make upgradeability cool,
+
+256
+00:16:51,765 --> 00:16:55,575
+Speaker 2:  make modularization and customization and personalization. Cool. Which like
+
+257
+00:16:55,575 --> 00:16:57,855
+Speaker 2:  in, in many ways, like as you look at like what you're actually doing with
+
+258
+00:16:57,855 --> 00:17:01,375
+Speaker 2:  these, they are interesting like engaging things to do. And especially as
+
+259
+00:17:01,375 --> 00:17:04,975
+Speaker 2:  we look at younger audiences, people are like eager to jump into these spaces.
+
+260
+00:17:05,115 --> 00:17:08,935
+Speaker 2:  And so the thing we need to do is not dumb it down and make
+
+261
+00:17:08,935 --> 00:17:12,795
+Speaker 2:  it, make it look and feel like it's simpler and hide away the
+
+262
+00:17:12,795 --> 00:17:16,275
+Speaker 2:  complexity. The thing we wanna do is make it fun and interesting,
+
+263
+00:17:16,615 --> 00:17:20,195
+Speaker 2:  but also make it accessible. Make it accessible in a way that may be
+
+264
+00:17:20,195 --> 00:17:23,435
+Speaker 2:  traditionally some of these categories or some of these behaviors haven't
+
+265
+00:17:23,435 --> 00:17:27,315
+Speaker 2:  been accessible. And so the framework desktop, like a
+
+266
+00:17:27,315 --> 00:17:31,115
+Speaker 2:  big part of that of course did just come straight from wow Rise and AI
+
+267
+00:17:31,135 --> 00:17:34,755
+Speaker 2:  Max is super impressive. How can we use this thing? And a big part of it
+
+268
+00:17:34,755 --> 00:17:37,795
+Speaker 2:  came from we like PCs, PCs are awesome,
+
+269
+00:17:38,425 --> 00:17:42,355
+Speaker 2:  desktop PCs are awesome, DIYing gaming rigs is awesome. Like all
+
+270
+00:17:42,355 --> 00:17:44,875
+Speaker 2:  this is great. It's like a bunch of folks, including myself and the team,
+
+271
+00:17:44,875 --> 00:17:48,835
+Speaker 2:  have been doing it for many years. It's not the most accessible space. I
+
+272
+00:17:48,835 --> 00:17:51,565
+Speaker 2:  mean, I'm not saying it's like, you know, totally esoteric knowledge that
+
+273
+00:17:51,565 --> 00:17:55,405
+Speaker 2:  you can't get into. Obviously there are millions of us doing it, but we saw
+
+274
+00:17:55,405 --> 00:17:58,885
+Speaker 2:  an opportunity for us as framework to like take that culture and take that
+
+275
+00:17:58,975 --> 00:18:02,725
+Speaker 2:  ethos and open the door a bit wider by building a
+
+276
+00:18:02,885 --> 00:18:05,605
+Speaker 2:  computer that is just simpler to bring into your life. Like there's less
+
+277
+00:18:05,625 --> 00:18:09,405
+Speaker 2:  mental overhead required and just simply this less physical space
+
+278
+00:18:09,725 --> 00:18:12,965
+Speaker 2:  required to have it enter your life. But you know, we did as much as we can
+
+279
+00:18:13,345 --> 00:18:17,245
+Speaker 2:  to still bring in as many aspects of that same ethos and culture around
+
+280
+00:18:17,405 --> 00:18:20,605
+Speaker 2:  DIY and and PC building into it.
+
+281
+00:18:21,225 --> 00:18:24,925
+Speaker 6:  How, how is this one simpler to bring into your life
+
+282
+00:18:25,275 --> 00:18:29,085
+Speaker 6:  than any prebuilt desktop that comes with
+
+283
+00:18:29,085 --> 00:18:32,325
+Speaker 6:  modular components in it? There, there are many of them on the market. I
+
+284
+00:18:32,325 --> 00:18:35,805
+Speaker 6:  wouldn't necessarily recommend any particular company for that, but many
+
+285
+00:18:35,895 --> 00:18:36,245
+Speaker 6:  exist.
+
+286
+00:18:36,755 --> 00:18:39,925
+Speaker 2:  Yeah, sure. I mean one, one thing that we like to do is
+
+287
+00:18:40,665 --> 00:18:44,645
+Speaker 2:  go to the websites of our competitors and attempt to find
+
+288
+00:18:44,965 --> 00:18:48,525
+Speaker 2:  computers, an attempt to see how are people describing their computers, what's
+
+289
+00:18:48,525 --> 00:18:52,365
+Speaker 2:  the purchasing experience look like? And it is shockingly
+
+290
+00:18:52,425 --> 00:18:55,965
+Speaker 2:  bad with the exception I'll say of actually Apple and maybe Microsoft.
+
+291
+00:18:56,345 --> 00:18:59,805
+Speaker 2:  And obviously neither of those are in the gaming PC world.
+
+292
+00:19:01,505 --> 00:19:04,205
+Speaker 2:  But as you look at the, the website, or actually I'll say there are a few
+
+293
+00:19:04,205 --> 00:19:07,525
+Speaker 2:  others, like NZ XT is doing great work too, but for the most part, as you
+
+294
+00:19:07,525 --> 00:19:11,005
+Speaker 2:  go to like PC brand websites, especially from the big mature incumbent
+
+295
+00:19:11,445 --> 00:19:14,165
+Speaker 2:  companies, it's a nightmare even figuring out what they're trying to sell,
+
+296
+00:19:14,165 --> 00:19:17,485
+Speaker 2:  what the product lines are available, what's new, what's old, what you should
+
+297
+00:19:17,505 --> 00:19:21,365
+Speaker 2:  buy at any point in time. And so part of this is even the like figuring out
+
+298
+00:19:21,675 --> 00:19:24,765
+Speaker 2:  what computer to get. And actually I think Frank did a great job, Frank Azo
+
+299
+00:19:24,765 --> 00:19:27,925
+Speaker 2:  when he was up on stage earlier this week kind of talking through, you don't
+
+300
+00:19:27,925 --> 00:19:31,125
+Speaker 2:  really have to think about it. If you, If you want to take any game that's
+
+301
+00:19:31,125 --> 00:19:35,085
+Speaker 2:  out there, run it at 1440 p run at reasonable settings or the default
+
+302
+00:19:35,085 --> 00:19:37,325
+Speaker 2:  settings outta the box, it's just gonna run. You don't have to think about
+
+303
+00:19:37,325 --> 00:19:41,285
+Speaker 2:  like, do I have to pick out a specific configuration, make it work. And then
+
+304
+00:19:41,285 --> 00:19:44,605
+Speaker 2:  for us from just like a browsing and like learning about the product and
+
+305
+00:19:44,605 --> 00:19:48,445
+Speaker 2:  purchasing experience aspect of it, like our marketplace team has done great
+
+306
+00:19:48,445 --> 00:19:51,965
+Speaker 2:  work to actually just make it straightforward. It's not like one of the,
+
+307
+00:19:52,465 --> 00:19:56,125
+Speaker 2:  you know, a hundred different weird pages of, of computers
+
+308
+00:19:56,265 --> 00:19:59,725
+Speaker 2:  is the one that I'm supposed to be getting in these confusing specs that
+
+309
+00:19:59,725 --> 00:20:03,245
+Speaker 2:  are there. So like we try to make it simple,
+
+310
+00:20:04,275 --> 00:20:07,765
+Speaker 2:  make it transparent, like we, we lay out the very detailed specs all the
+
+311
+00:20:07,765 --> 00:20:10,965
+Speaker 2:  way out to sharing like mechanical CAD of the components If you wanna get
+
+312
+00:20:10,985 --> 00:20:14,205
+Speaker 2:  all the way into like the deepest complexity. But you don't have to, you
+
+313
+00:20:14,205 --> 00:20:17,965
+Speaker 2:  can start from the simple page of here's the computer, here's your,
+
+314
+00:20:18,345 --> 00:20:21,805
+Speaker 2:  the few most recent games you've probably heard of. Here's how fast they'll
+
+315
+00:20:21,805 --> 00:20:25,605
+Speaker 2:  run. Great. That sounds good. I wanna play those games. I'll get this computer.
+
+316
+00:20:25,635 --> 00:20:26,525
+Speaker 2:  It's pretty straightforward.
+
+317
+00:20:27,125 --> 00:20:29,885
+Speaker 6:  I know David has more questions about the desktop than I do too, but, but,
+
+318
+00:20:29,905 --> 00:20:33,605
+Speaker 6:  but the customizability to the one thing,
+
+319
+00:20:33,915 --> 00:20:36,805
+Speaker 6:  when when, when you said you're bringing the learnings from the 16 and the
+
+320
+00:20:36,965 --> 00:20:40,765
+Speaker 6:  13 into this desktop and this laptop, I thought maybe that meant
+
+321
+00:20:40,825 --> 00:20:44,765
+Speaker 6:  we would see more of the input modules and the expansion
+
+322
+00:20:44,765 --> 00:20:48,525
+Speaker 6:  base, the two new input mechanism, the two new modules types that you
+
+323
+00:20:48,525 --> 00:20:52,405
+Speaker 6:  introduced on the framework 16. And why don't we have some
+
+324
+00:20:52,725 --> 00:20:56,365
+Speaker 6:  LED panels or, or or customization or secondary screen kind of
+
+325
+00:20:56,535 --> 00:21:00,325
+Speaker 6:  electronic stuff going on on the front of the desktop. Replaceable
+
+326
+00:21:00,605 --> 00:21:04,085
+Speaker 6:  keyboards maybe on the 12. Tell tell us about
+
+327
+00:21:05,085 --> 00:21:08,375
+Speaker 6:  what, what about those made them not a good fit for this and if we're gonna
+
+328
+00:21:08,375 --> 00:21:09,855
+Speaker 6:  see any more of those in the future. Yeah,
+
+329
+00:21:09,855 --> 00:21:12,695
+Speaker 2:  This is interesting. Like, you know, you can see on the desktop for ex, well
+
+330
+00:21:12,895 --> 00:21:16,615
+Speaker 2:  actually I'll say specifically on my comment on bringing learnings from 1316,
+
+331
+00:21:16,725 --> 00:21:20,055
+Speaker 2:  that was repairability learnings for 12. There was maybe less direct knowledge
+
+332
+00:21:20,335 --> 00:21:23,575
+Speaker 2:  transfer into the desktop just 'cause the category so different architecturally.
+
+333
+00:21:24,215 --> 00:21:27,175
+Speaker 2:  But we did bring in the expansion card system and it's really, as we look
+
+334
+00:21:27,175 --> 00:21:30,415
+Speaker 2:  at any product we build, especially looking at framework lab 12, looking
+
+335
+00:21:30,415 --> 00:21:33,815
+Speaker 2:  at the desktop, we think both through
+
+336
+00:21:34,525 --> 00:21:38,455
+Speaker 2:  what makes sense in our ecosystem to try to drive ecosystem expansion or
+
+337
+00:21:38,455 --> 00:21:42,015
+Speaker 2:  commonality between products or being able to share modules or share share
+
+338
+00:21:42,175 --> 00:21:45,695
+Speaker 2:  supply chain infrastructure. But then also if we were building this product
+
+339
+00:21:45,725 --> 00:21:49,295
+Speaker 2:  from a totally blank slate, what does the product experience actually need
+
+340
+00:21:49,295 --> 00:21:53,045
+Speaker 2:  to be? And we end up like making sure that the end result
+
+341
+00:21:53,365 --> 00:21:56,885
+Speaker 2:  actually like logically makes sense in a way that like we don't wanna force
+
+342
+00:21:56,885 --> 00:22:00,485
+Speaker 2:  something that isn't gonna be natural just to get
+
+343
+00:22:00,735 --> 00:22:04,005
+Speaker 2:  cross compatibility or like cross module sharing between products.
+
+344
+00:22:05,105 --> 00:22:08,685
+Speaker 2:  But we also wanna leverage ecosystems where we built them out. And so basically
+
+345
+00:22:08,685 --> 00:22:12,485
+Speaker 2:  as we look at the expansion card system, for example, in a world where we
+
+346
+00:22:12,485 --> 00:22:16,285
+Speaker 2:  built the framework desktop first, we didn't have laptops. It's ex, it's
+
+347
+00:22:16,285 --> 00:22:20,045
+Speaker 2:  very unlikely that we would've been invented an expansion card system
+
+348
+00:22:20,235 --> 00:22:23,885
+Speaker 2:  just to make the front IO of the desktop modularized.
+
+349
+00:22:23,955 --> 00:22:27,925
+Speaker 2:  Like that's probably not something that would make sense. But we built the
+
+350
+00:22:27,925 --> 00:22:31,165
+Speaker 2:  expansion card system, we already have that available. We have like, you
+
+351
+00:22:31,165 --> 00:22:34,565
+Speaker 2:  know, a dozen different expansion cards out there including things like additional
+
+352
+00:22:34,565 --> 00:22:38,485
+Speaker 2:  storage, additional ethernet cards, things like that. So since we had
+
+353
+00:22:38,485 --> 00:22:42,405
+Speaker 2:  that in our library, we have all of that available. It made total sense
+
+354
+00:22:42,425 --> 00:22:45,965
+Speaker 2:  to plug that right into the front and bring some of that, some of that customization
+
+355
+00:22:45,965 --> 00:22:49,725
+Speaker 2:  that's helpful in laptops to a place where it's also helpful in a
+
+356
+00:22:49,725 --> 00:22:50,125
+Speaker 2:  desktop.
+
+357
+00:22:50,705 --> 00:22:54,045
+Speaker 6:  You, you've told me before in a prior interview that you actually plan your
+
+358
+00:22:54,045 --> 00:22:57,365
+Speaker 6:  funding around this. That's right. When you get a new chunk of funding,
+
+359
+00:22:57,835 --> 00:23:01,805
+Speaker 6:  that chunk of funding allows you to build out a new product, which for you,
+
+360
+00:23:01,985 --> 00:23:05,485
+Speaker 6:  unlike most companies, means a new product category, it means a new
+
+361
+00:23:06,035 --> 00:23:09,725
+Speaker 6:  size of some kind of device. And that
+
+362
+00:23:10,145 --> 00:23:14,045
+Speaker 6:  allows there to be a repairable and modular 12 inch laptop
+
+363
+00:23:14,045 --> 00:23:17,845
+Speaker 6:  instead of a 13 or 16. It allows there to be a modular repairable
+
+364
+00:23:18,155 --> 00:23:21,925
+Speaker 6:  desktop all of a sudden. But doesn't mean that each of those new product
+
+365
+00:23:22,215 --> 00:23:26,205
+Speaker 6:  lines is going to be upgradable. We don't know that. I don't
+
+366
+00:23:26,205 --> 00:23:29,605
+Speaker 6:  think you've said that and I would love for you to say it here on this podcast
+
+367
+00:23:30,155 --> 00:23:33,925
+Speaker 6:  with the 13. Sure. Yeah. A 2021 machine with an
+
+368
+00:23:34,005 --> 00:23:37,725
+Speaker 6:  old Intel chip can now be upgraded to a 2025 standards
+
+369
+00:23:38,075 --> 00:23:42,045
+Speaker 6:  with a modern A MD chip. I don't know about any company that's ever
+
+370
+00:23:42,045 --> 00:23:45,125
+Speaker 6:  done that before. It's amazing that you've done that. I don't know If, If
+
+371
+00:23:45,125 --> 00:23:48,005
+Speaker 6:  you said out loud that when you do this for other categories, that you are
+
+372
+00:23:48,005 --> 00:23:51,045
+Speaker 6:  going to do that, that you are going to make them so that you can put new
+
+373
+00:23:51,045 --> 00:23:54,775
+Speaker 6:  boards in them in the future and upgrade them. Is that the idea?
+
+374
+00:23:55,205 --> 00:23:58,895
+Speaker 2:  Yeah, I don't know if I ever haven't said that. Not to double
+
+375
+00:23:59,175 --> 00:24:03,095
+Speaker 2:  negative it, but yeah, yeah I can, I can definitely say that I can,
+
+376
+00:24:03,375 --> 00:24:06,855
+Speaker 2:  I can commit to, we start product lines where we have
+
+377
+00:24:07,545 --> 00:24:11,255
+Speaker 2:  conviction that we'll be able to deliver on the upgradeability of it, not
+
+378
+00:24:11,255 --> 00:24:15,175
+Speaker 2:  just on the longevity of it. And the challenge here of
+
+379
+00:24:15,175 --> 00:24:19,015
+Speaker 2:  course is that the definition of upgradeability is really broad. And in many
+
+380
+00:24:19,015 --> 00:24:22,895
+Speaker 2:  cases, because we can't be in full
+
+381
+00:24:22,895 --> 00:24:26,295
+Speaker 2:  control of the entire world's PC world's
+
+382
+00:24:26,635 --> 00:24:30,375
+Speaker 2:  supply chains and and roadmaps, we don't want to overs specify
+
+383
+00:24:30,605 --> 00:24:34,175
+Speaker 2:  what upgradeability means because that is something that's outside of our
+
+384
+00:24:34,175 --> 00:24:37,215
+Speaker 2:  control. I think you'd be shocked at how often and how rapidly
+
+385
+00:24:38,295 --> 00:24:41,775
+Speaker 2:  roadmaps have very large silicon companies change.
+
+386
+00:24:42,155 --> 00:24:45,695
+Speaker 2:  And so we don't want to even see something that like we see on a roadmap
+
+387
+00:24:45,715 --> 00:24:49,415
+Speaker 2:  and we see based on our knowledge of that item, like, oh yes,
+
+388
+00:24:49,445 --> 00:24:52,455
+Speaker 2:  that could make a good upgrade for this because we don't know if a year from
+
+389
+00:24:52,455 --> 00:24:56,375
+Speaker 2:  now that item will still exist. So when we state what that
+
+390
+00:24:56,375 --> 00:25:00,215
+Speaker 2:  upgrade is, it's that that thing is something
+
+391
+00:25:00,215 --> 00:25:03,575
+Speaker 2:  we'll be able to ship. Like we're deep enough in development, it's close
+
+392
+00:25:03,575 --> 00:25:07,415
+Speaker 2:  enough to hitting well for, in our case, not a shelf, but hitting our
+
+393
+00:25:07,445 --> 00:25:11,275
+Speaker 2:  website that no matter what those silicon vendors
+
+394
+00:25:11,275 --> 00:25:14,155
+Speaker 2:  decide on the roadmap that thing's not gonna disappear. And we'll be able
+
+395
+00:25:14,155 --> 00:25:17,675
+Speaker 2:  to get it out into the world. Going back to to the fundraising questions
+
+396
+00:25:17,745 --> 00:25:21,635
+Speaker 2:  idea that we do fundraising to unlock new categories, like very
+
+397
+00:25:22,075 --> 00:25:25,955
+Speaker 2:  tactically what that means is that when we raise funding like we did early
+
+398
+00:25:26,065 --> 00:25:29,555
+Speaker 2:  last year, we actually go and hire and build
+
+399
+00:25:29,555 --> 00:25:33,195
+Speaker 2:  additional teams within framework and we go out into our supply base and
+
+400
+00:25:33,195 --> 00:25:36,875
+Speaker 2:  we make sure that they're hiring and building additional teams that are dedicated
+
+401
+00:25:36,875 --> 00:25:40,755
+Speaker 2:  to working with us. So every time we add another category to our
+
+402
+00:25:40,755 --> 00:25:44,475
+Speaker 2:  roadmap, another long lip category to our roadmap, that's us building
+
+403
+00:25:45,035 --> 00:25:48,555
+Speaker 2:  a team inside a framework that owns that product category.
+
+404
+00:25:48,975 --> 00:25:52,115
+Speaker 2:  Is that in a certain way, like a really inefficient way to do business?
+
+405
+00:25:53,255 --> 00:25:56,595
+Speaker 2:  One of the reasons, one of the things that makes it really efficient is that
+
+406
+00:25:57,015 --> 00:26:00,595
+Speaker 2:  the same dynamic exists across other companies, other consumer
+
+407
+00:26:00,595 --> 00:26:03,515
+Speaker 2:  electronics companies, but in a way that
+
+408
+00:26:04,425 --> 00:26:07,995
+Speaker 2:  that product is reset either every year or every two years
+
+409
+00:26:08,185 --> 00:26:11,155
+Speaker 2:  from scratch. Meaning total new set of tooling, new mechanical design, new
+
+410
+00:26:11,435 --> 00:26:15,075
+Speaker 2:  electrical design, new set of modules that's like incredibly wasteful and
+
+411
+00:26:15,075 --> 00:26:18,555
+Speaker 2:  inefficient and obviously results in short-lived products too. 'cause how
+
+412
+00:26:18,555 --> 00:26:21,715
+Speaker 2:  can you have parts longevity or upgradability if you're resetting it every
+
+413
+00:26:21,715 --> 00:26:25,475
+Speaker 2:  two years? So for us, when we invest in that category that first
+
+414
+00:26:25,505 --> 00:26:29,035
+Speaker 2:  year, we're paying a lot more like a, the team at our suppliers a lot bigger.
+
+415
+00:26:29,405 --> 00:26:33,275
+Speaker 2:  We're paying for a lot more tooling, we're paying for new modules that
+
+416
+00:26:33,275 --> 00:26:36,955
+Speaker 2:  we're tooling up and and creating. And then each time we
+
+417
+00:26:36,955 --> 00:26:40,915
+Speaker 2:  refresh that product, it's more efficient for us, for our team internally,
+
+418
+00:26:41,495 --> 00:26:44,365
+Speaker 2:  the teams that the suppliers are, we're working with are a bit smaller and
+
+419
+00:26:44,365 --> 00:26:47,805
+Speaker 2:  more efficient and we're not doing a whole new set of tooling each time.
+
+420
+00:26:47,985 --> 00:26:51,325
+Speaker 2:  So basically it costs us, let's say something on the order of
+
+421
+00:26:52,035 --> 00:26:55,805
+Speaker 2:  five times more to do the first iteration of a new product
+
+422
+00:26:56,165 --> 00:27:00,085
+Speaker 2:  category than it does for each subsequent refresh. Those, that's just
+
+423
+00:27:00,085 --> 00:27:04,045
+Speaker 2:  like a rough approximation. That's interesting. That also feels like it
+
+424
+00:27:04,065 --> 00:27:07,925
+Speaker 2:  in part answers the question of of the caution and launching new things because
+
+425
+00:27:07,985 --> 00:27:11,845
+Speaker 2:  that's right. That means If you get it wrong the first time, you're just
+
+426
+00:27:11,845 --> 00:27:15,165
+Speaker 2:  host. Yeah, yeah. There's no way that we can recoup that, right? You spend
+
+427
+00:27:15,165 --> 00:27:17,285
+Speaker 2:  a lot of money and it's just gone because you're gonna have to start over
+
+428
+00:27:17,285 --> 00:27:21,045
+Speaker 2:  somewhere else. That's exactly right. So let, let's talk about where you
+
+429
+00:27:21,045 --> 00:27:24,885
+Speaker 2:  go from here because I think, I think you told Sean at
+
+430
+00:27:24,885 --> 00:27:28,805
+Speaker 2:  one point that you weren't just a laptop company. We're not, we've got
+
+431
+00:27:28,805 --> 00:27:31,485
+Speaker 2:  a desktop now, right? I know. Does that, does that count? Like, have you
+
+432
+00:27:31,725 --> 00:27:34,445
+Speaker 2:  satisfied the brief now? No, not, not really. Is
+
+433
+00:27:34,465 --> 00:27:37,365
+Speaker 6:  Is that what she meant? Or, or you're going beyond PCs eventually?
+
+434
+00:27:37,545 --> 00:27:41,205
+Speaker 2:  No, no. Yeah, what I meant as we're going beyond PCs and part of this, it
+
+435
+00:27:41,205 --> 00:27:44,045
+Speaker 2:  goes back to the efficiency thing. It goes in some ways, even back to the
+
+436
+00:27:44,245 --> 00:27:47,845
+Speaker 2:  fundraising thing of like, part of what made the framework desktop really
+
+437
+00:27:47,875 --> 00:27:51,325
+Speaker 2:  obvious for us was that we could identify that
+
+438
+00:27:51,675 --> 00:27:55,165
+Speaker 2:  mission and product philosophy and market
+
+439
+00:27:55,235 --> 00:27:59,085
+Speaker 2:  opportunity for us, but we could also identify that, oh, we can leverage
+
+440
+00:27:59,395 --> 00:28:03,245
+Speaker 2:  essentially all of our existing supply base and partnerships, including
+
+441
+00:28:03,245 --> 00:28:07,045
+Speaker 2:  the really strong partnership we have with a MD to do this really quickly
+
+442
+00:28:07,385 --> 00:28:10,405
+Speaker 2:  and do this really efficiently. Whereas if we think about like a total leap
+
+443
+00:28:10,405 --> 00:28:14,125
+Speaker 2:  into an entire different space, that's us building an entire new
+
+444
+00:28:14,125 --> 00:28:18,005
+Speaker 2:  supply base, which then demands a lot of confidence
+
+445
+00:28:18,005 --> 00:28:21,925
+Speaker 2:  and a lot of investment to basically make that confidence make
+
+446
+00:28:21,925 --> 00:28:25,725
+Speaker 2:  sense as you think through something like a phone, which I know
+
+447
+00:28:25,965 --> 00:28:29,085
+Speaker 2:  everyone has asked you about. Sure. A phone strikes me as a particularly
+
+448
+00:28:29,245 --> 00:28:33,005
+Speaker 2:  interesting one because as you talk about, you know, repairability and
+
+449
+00:28:33,155 --> 00:28:34,845
+Speaker 2:  e-waste and upgradeability,
+
+450
+00:28:36,395 --> 00:28:40,165
+Speaker 2:  there's no place to be more effective than with a smartphone
+
+451
+00:28:40,365 --> 00:28:41,045
+Speaker 2:  I think right now.
+
+452
+00:28:42,865 --> 00:28:46,445
+Speaker 2:  But that's also like an incredibly mature, incredibly hard market to break.
+
+453
+00:28:46,585 --> 00:28:50,175
+Speaker 2:  So like I'm not asking you to say If you're building a phone because I know
+
+454
+00:28:50,175 --> 00:28:50,455
+Speaker 2:  that you are
+
+455
+00:28:52,265 --> 00:28:55,775
+Speaker 2:  great, but like how, how do you think through
+
+456
+00:28:56,575 --> 00:29:00,495
+Speaker 2:  a market like that one and Whether it makes sense for framework to be part
+
+457
+00:29:00,495 --> 00:29:03,295
+Speaker 2:  of it? Yeah, definitely. That's a great question. I mean, one of the things
+
+458
+00:29:03,315 --> 00:29:07,015
+Speaker 2:  for, for really any category that we pick goes back to this idea that that
+
+459
+00:29:07,015 --> 00:29:10,975
+Speaker 2:  first iteration is such a massive investment that
+
+460
+00:29:10,995 --> 00:29:14,855
+Speaker 2:  we have to be fairly sure that we're going to be able to
+
+461
+00:29:14,855 --> 00:29:18,255
+Speaker 2:  succeed and win in that category. And one of the things about phones
+
+462
+00:29:18,575 --> 00:29:22,095
+Speaker 2:  specifically is that that initial investment is orders of
+
+463
+00:29:22,455 --> 00:29:25,855
+Speaker 2:  magnitude larger than it is for any category that we've been in to date.
+
+464
+00:29:26,275 --> 00:29:30,135
+Speaker 2:  And so for us to build a phone, we have to be in a financial
+
+465
+00:29:30,295 --> 00:29:34,015
+Speaker 2:  position or a fundraising position where if we're not
+
+466
+00:29:34,085 --> 00:29:37,415
+Speaker 2:  able to win, obviously we wanna win, we wanna be able to to make sure that,
+
+467
+00:29:37,415 --> 00:29:40,615
+Speaker 2:  that we're able to win in that category. But if the, if it winning takes
+
+468
+00:29:40,615 --> 00:29:44,245
+Speaker 2:  longer than we anticipated or takes more iterations than we anticipated,
+
+469
+00:29:44,665 --> 00:29:48,485
+Speaker 2:  we don't wanna put the entire company at risk around that. And so
+
+470
+00:29:48,485 --> 00:29:52,445
+Speaker 2:  like, you know, obviously phones are hard from design and
+
+471
+00:29:52,685 --> 00:29:56,045
+Speaker 2:  engineering perspective, especially as we think about Modularization, repairability
+
+472
+00:29:56,045 --> 00:29:59,845
+Speaker 2:  and Upgradeability. But they're also extremely difficult from a market
+
+473
+00:29:59,845 --> 00:30:03,365
+Speaker 2:  standpoint. And so like as we look at both ends of that, we wanna make sure
+
+474
+00:30:03,365 --> 00:30:07,285
+Speaker 2:  that we as a company are in a position where no matter what happens
+
+475
+00:30:07,385 --> 00:30:11,085
+Speaker 2:  on phone, we're gonna continue to be able to drive and succeed on our mission
+
+476
+00:30:11,945 --> 00:30:14,325
+Speaker 2:  across framework. That's when we're doing a phone
+
+477
+00:30:15,255 --> 00:30:19,195
+Speaker 6:  If framework were to theoretically do a phone, what we get
+
+478
+00:30:19,495 --> 00:30:22,315
+Speaker 6:  in the comments, which it's, which it is according to David Pierce. You've
+
+479
+00:30:22,315 --> 00:30:25,595
+Speaker 6:  heard it here on The Verge. David Pierce, who is not part of framework believes
+
+480
+00:30:25,595 --> 00:30:26,835
+Speaker 6:  frameworks. Correct.
+
+481
+00:30:29,055 --> 00:30:32,355
+Speaker 6:  If, if framework were to do phone, we, we get this comment all the time on
+
+482
+00:30:32,375 --> 00:30:36,355
+Speaker 6:  any story where we compliment the battery of a phone or we hate
+
+483
+00:30:36,355 --> 00:30:40,155
+Speaker 6:  on the battery of a phone. People say, I missed those days
+
+484
+00:30:40,425 --> 00:30:44,155
+Speaker 6:  when you could open a compartment on the back of your phone and
+
+485
+00:30:44,155 --> 00:30:47,675
+Speaker 6:  remove the battery and put a different battery in there. Should framework
+
+486
+00:30:47,675 --> 00:30:50,675
+Speaker 6:  ever do a phone? Is that something that you think would be a feature of a
+
+487
+00:30:50,675 --> 00:30:50,795
+Speaker 6:  phone?
+
+488
+00:30:51,135 --> 00:30:54,675
+Speaker 2:  We do have some very interesting ideas that we, we, we have ideas around
+
+489
+00:30:54,675 --> 00:30:58,155
+Speaker 2:  a lot of different categories. I do have some ideas specifically around batteries
+
+490
+00:30:58,175 --> 00:31:01,395
+Speaker 2:  and phones and that I'm not gonna pre-commit anything around
+
+491
+00:31:02,485 --> 00:31:06,395
+Speaker 2:  given, given the unknown time in the future, at which point
+
+492
+00:31:06,395 --> 00:31:10,075
+Speaker 2:  there may or may not be a framework phone. Fair enough. So, and let, let's
+
+493
+00:31:10,075 --> 00:31:13,235
+Speaker 2:  go to like a talk through like a very different category. 'cause I think,
+
+494
+00:31:13,395 --> 00:31:17,355
+Speaker 2:  I think about like, I don't know, headsets is is probably a
+
+495
+00:31:17,355 --> 00:31:20,835
+Speaker 2:  good one right now where I think we're at a point now where there's a lot
+
+496
+00:31:20,835 --> 00:31:24,635
+Speaker 2:  of energy behind it. There are a lot of people who think this is going to
+
+497
+00:31:24,635 --> 00:31:28,435
+Speaker 2:  be the next big thing, but nobody has yet agreed on anything, what they're
+
+498
+00:31:28,475 --> 00:31:31,275
+Speaker 2:  supposed to do, what they're gonna look like, how they're gonna work. Like
+
+499
+00:31:31,975 --> 00:31:35,195
+Speaker 2:  we don't know any of that yet. And so I think based on
+
+500
+00:31:35,865 --> 00:31:39,355
+Speaker 2:  what you've said, that strikes me as this is a moment that is just objectively
+
+501
+00:31:39,375 --> 00:31:43,195
+Speaker 2:  too early for you to want to be in it. Because If you
+
+502
+00:31:43,195 --> 00:31:46,275
+Speaker 2:  That's right, you just can't, you, you literally and figuratively can't afford
+
+503
+00:31:46,275 --> 00:31:49,515
+Speaker 2:  to be wrong four times until we all figure this out. Is that, am I thinking
+
+504
+00:31:49,515 --> 00:31:51,955
+Speaker 2:  about that the right way? That's right. Yeah. And so like as we look at like
+
+505
+00:31:52,035 --> 00:31:55,835
+Speaker 2:  VRAR headsets against something like laptops, the reason we did laptops to
+
+506
+00:31:55,835 --> 00:31:59,475
+Speaker 2:  start our first product was a laptop, is that we saw that for,
+
+507
+00:31:59,695 --> 00:32:03,315
+Speaker 2:  you know, 10 years running the use cases and the core user
+
+508
+00:32:03,315 --> 00:32:07,075
+Speaker 2:  experience of laptops, it stabilized in a way that we could take
+
+509
+00:32:07,705 --> 00:32:11,675
+Speaker 2:  what we had there, look at things like silicon roadmaps and module roadmaps
+
+510
+00:32:11,675 --> 00:32:15,275
+Speaker 2:  from different technology providers and have fairly high confidence we could
+
+511
+00:32:15,275 --> 00:32:19,195
+Speaker 2:  build a long lived upgradable product within a form factor that
+
+512
+00:32:19,195 --> 00:32:22,475
+Speaker 2:  we hold constant. As we look at ar vr,
+
+513
+00:32:23,015 --> 00:32:26,515
+Speaker 2:  not only are the form factors like wildly and flux, like the core
+
+514
+00:32:26,935 --> 00:32:30,795
+Speaker 2:  use case and value proposition is still wide open. And those
+
+515
+00:32:30,795 --> 00:32:34,115
+Speaker 2:  things, of course go very, very tightly together, especially in something
+
+516
+00:32:34,115 --> 00:32:38,035
+Speaker 2:  that has such ergonomic constraints, like a, like a headset. And
+
+517
+00:32:38,035 --> 00:32:41,165
+Speaker 2:  so for us to look at a VR headset and say, you know, with reasonable confidence
+
+518
+00:32:41,165 --> 00:32:44,645
+Speaker 2:  that not even 10 years and five years from now that thing's still gonna make
+
+519
+00:32:44,645 --> 00:32:48,565
+Speaker 2:  sense, we, we just can't do that. So it wouldn't make sense for us as
+
+520
+00:32:48,605 --> 00:32:52,565
+Speaker 2:  a company with our product philosophy to go and build a VR headset and ar
+
+521
+00:32:52,565 --> 00:32:55,725
+Speaker 2:  headset until that industry matures and stabilize
+
+522
+00:32:56,885 --> 00:33:00,045
+Speaker 2:  stabilizes. And the interesting thing is like the way our business model
+
+523
+00:33:00,055 --> 00:33:03,565
+Speaker 2:  works, we, we want that to happen and that like,
+
+524
+00:33:04,025 --> 00:33:07,845
+Speaker 2:  as these product categories, mature replacement cycles
+
+525
+00:33:07,855 --> 00:33:11,045
+Speaker 2:  inherently lengthen, which we're even seeing in smartphones already over
+
+526
+00:33:11,045 --> 00:33:14,885
+Speaker 2:  the last five years, and the companies that
+
+527
+00:33:14,885 --> 00:33:18,845
+Speaker 2:  are in the space invest less in innovation
+
+528
+00:33:18,875 --> 00:33:22,285
+Speaker 2:  necessarily in a form factor perspective, a use case perspective because
+
+529
+00:33:22,285 --> 00:33:24,925
+Speaker 2:  there's nothing, there's, you know, there's no juice left to squeeze outta
+
+530
+00:33:24,925 --> 00:33:28,805
+Speaker 2:  that, outta that lemon. And instead you
+
+531
+00:33:28,905 --> 00:33:31,765
+Speaker 2:  end up with this world like we're seeing maybe with iPhones today and the
+
+532
+00:33:31,765 --> 00:33:35,205
+Speaker 2:  reviews that folks like you at the, at The Verge are doing on, on iPhones
+
+533
+00:33:35,205 --> 00:33:38,445
+Speaker 2:  reviews of like, oh actually you can skip this year, wait for next year 'cause
+
+534
+00:33:38,445 --> 00:33:42,005
+Speaker 2:  there isn't a lot worth, worth picking up this year. That's like our signal
+
+535
+00:33:42,065 --> 00:33:44,725
+Speaker 2:  for like, oh, okay, we see those reviews, that means it's time for us to
+
+536
+00:33:44,725 --> 00:33:48,405
+Speaker 2:  enter that product ri. So all right, we, we need to let you go here in a
+
+537
+00:33:48,405 --> 00:33:51,685
+Speaker 2:  minute, but before we do, I believe Sean has a, a lightning round of things
+
+538
+00:33:51,905 --> 00:33:55,685
+Speaker 2:  he wants to throw at you. So I do, I am sure I I am sure I can anticipate
+
+539
+00:33:55,725 --> 00:33:56,285
+Speaker 2:  a few of them.
+
+540
+00:33:57,745 --> 00:34:00,485
+Speaker 6:  It, it won't have the question that I asked you the other day though. Oh,
+
+541
+00:34:00,485 --> 00:34:04,085
+Speaker 6:  okay. So I've already asked it. 240 watt charger.
+
+542
+00:34:05,615 --> 00:34:09,165
+Speaker 2:  We're starting to see some out in the market, which is great. It, it actually
+
+543
+00:34:09,165 --> 00:34:13,045
+Speaker 2:  took much, much longer than we thought it would. We expect actually we were
+
+544
+00:34:13,045 --> 00:34:16,725
+Speaker 2:  surprised that we ended up being the first 180 watt out there. We expected
+
+545
+00:34:16,865 --> 00:34:20,605
+Speaker 2:  two forties to be out before we even shipped our first 180. So it's great
+
+546
+00:34:20,605 --> 00:34:23,845
+Speaker 2:  to see that the market is finally like moving and catching up and
+
+547
+00:34:24,185 --> 00:34:27,445
+Speaker 2:  that's nice. It's nice for everyone and obviously you can, you know, any
+
+548
+00:34:27,445 --> 00:34:31,005
+Speaker 2:  of our laptops, you don't have to purchase with a power doctor, you can purchase
+
+549
+00:34:31,005 --> 00:34:33,365
+Speaker 2:  it without and then pick up any anyone that you'd like
+
+550
+00:34:34,305 --> 00:34:37,765
+Speaker 6:  Cam memory. We know it's not going to be in the desktop because it reduced
+
+551
+00:34:37,985 --> 00:34:41,925
+Speaker 6:  the bandwidth significantly to have it not be soldered on the board for that,
+
+552
+00:34:41,945 --> 00:34:45,125
+Speaker 6:  for that strict halo chip. But in general we're gonna get some of that flat
+
+553
+00:34:45,125 --> 00:34:46,845
+Speaker 6:  memory in the future maybe. Yeah.
+
+554
+00:34:46,845 --> 00:34:50,045
+Speaker 2:  One of the things to consider to like understand about this I think maybe
+
+555
+00:34:50,345 --> 00:34:53,365
+Speaker 2:  is lost in that we have maybe haven't communicated as clearly as we needed
+
+556
+00:34:53,365 --> 00:34:57,005
+Speaker 2:  to around the framework desktop, but also really around like
+
+557
+00:34:57,145 --> 00:35:00,145
+Speaker 2:  any product at all, is that for
+
+558
+00:35:00,385 --> 00:35:04,025
+Speaker 2:  technologies like that that go deep into signal
+
+559
+00:35:04,025 --> 00:35:07,865
+Speaker 2:  integrity that go deep into IO that go deep into like even how
+
+560
+00:35:08,485 --> 00:35:12,145
+Speaker 2:  the processor is packaged and the ballout works of
+
+561
+00:35:12,215 --> 00:35:16,035
+Speaker 2:  signals, these are things that the silicon
+
+562
+00:35:16,135 --> 00:35:20,115
+Speaker 2:  vendor has to have planned out and designed for from the start. Like us
+
+563
+00:35:20,215 --> 00:35:23,715
+Speaker 2:  as a, as the end device maker, we can't like
+
+564
+00:35:23,945 --> 00:35:27,275
+Speaker 2:  hack around it and like create a thing that
+
+565
+00:35:27,775 --> 00:35:31,675
+Speaker 2:  wasn't designed for from the silicon to begin with. Like, so for
+
+566
+00:35:31,885 --> 00:35:35,795
+Speaker 2:  let's say TAM on something like Rise in AI max, that's something that
+
+567
+00:35:35,915 --> 00:35:39,685
+Speaker 2:  a MD would've needed to have designed for all the way
+
+568
+00:35:39,685 --> 00:35:42,605
+Speaker 2:  from, you know, maybe, I don't even know how many years ago they started
+
+569
+00:35:42,635 --> 00:35:46,445
+Speaker 2:  that, the development of the architecture and design of that thing as
+
+570
+00:35:46,525 --> 00:35:49,765
+Speaker 2:  a design goal from the beginning, which actually based on our understanding
+
+571
+00:35:49,765 --> 00:35:52,965
+Speaker 2:  of it may not have even been possible given how wide the memory bus on that
+
+572
+00:35:52,965 --> 00:35:55,845
+Speaker 2:  thing, even if they had thought that that was the goal from the beginning.
+
+573
+00:35:56,745 --> 00:35:59,965
+Speaker 2:  But there are technologies like this that just can't work. So for us it's,
+
+574
+00:36:00,685 --> 00:36:04,375
+Speaker 2:  it's not can we add CAM to something that wasn't designed for cam?
+
+575
+00:36:04,565 --> 00:36:08,255
+Speaker 2:  It's when is there a platform that was designed from the beginning for CAM
+
+576
+00:36:08,285 --> 00:36:10,455
+Speaker 2:  that we're then gonna intercept one of our products?
+
+577
+00:36:11,305 --> 00:36:12,765
+Speaker 6:  Gaming handheld,
+
+578
+00:36:14,555 --> 00:36:17,325
+Speaker 2:  This isn't a an, I would put this in the category of
+
+579
+00:36:18,355 --> 00:36:19,605
+Speaker 2:  similarly but differently
+
+580
+00:36:21,915 --> 00:36:25,535
+Speaker 2:  mature ish, maturing ish category with good
+
+581
+00:36:25,615 --> 00:36:28,895
+Speaker 2:  products that we also can't identify a clear path to
+
+582
+00:36:29,555 --> 00:36:33,335
+Speaker 2:  making business sense. And part of the challenge there is just
+
+583
+00:36:33,345 --> 00:36:37,255
+Speaker 2:  valve is so dominant with Steam Deck, we can't afford to play the kinds of
+
+584
+00:36:37,255 --> 00:36:41,215
+Speaker 2:  games that maybe a Lenovo and ASUS can likely
+
+585
+00:36:41,435 --> 00:36:45,015
+Speaker 2:  not making money for an extended period of time entering a new
+
+586
+00:36:45,295 --> 00:36:48,415
+Speaker 2:  category for us. Like we have to be able to recoup our investment
+
+587
+00:36:48,825 --> 00:36:52,735
+Speaker 2:  relatively quickly within the first or second generation of entering
+
+588
+00:36:52,815 --> 00:36:56,375
+Speaker 2:  a category. And so that's something where similar like even though like we
+
+589
+00:36:56,375 --> 00:36:59,735
+Speaker 2:  know we could build a great gaming handheld, we see the demand from customers
+
+590
+00:36:59,735 --> 00:37:03,575
+Speaker 2:  for to have an upgradable, repairable gaming handheld, it's hard for us to
+
+591
+00:37:03,575 --> 00:37:07,535
+Speaker 2:  see a path, at least right now where we can compete with valve
+
+592
+00:37:07,535 --> 00:37:09,615
+Speaker 2:  in that space and not get destroyed financially
+
+593
+00:37:10,405 --> 00:37:11,935
+Speaker 6:  Framework battery bank
+
+594
+00:37:12,755 --> 00:37:16,325
+Speaker 2:  Framework, battery bank meaning for framework laptop 16 or for,
+
+595
+00:37:16,585 --> 00:37:18,045
+Speaker 2:  for just generally as a product.
+
+596
+00:37:18,395 --> 00:37:21,845
+Speaker 6:  Yeah, this is the one that would take one of your existing battery
+
+597
+00:37:21,985 --> 00:37:25,725
+Speaker 6:  laptop batteries would stick it in a case. I think you showed off like a,
+
+598
+00:37:26,085 --> 00:37:28,245
+Speaker 6:  A prototype of a prototype or something.
+
+599
+00:37:28,555 --> 00:37:32,125
+Speaker 2:  Yeah, we, we showed a proof of concept actually two years ago at the framework
+
+600
+00:37:32,125 --> 00:37:35,125
+Speaker 2:  next level event. And we, we showed like there are actually a number of proof
+
+601
+00:37:35,125 --> 00:37:38,965
+Speaker 2:  of concepts that we showed that including an EGPU concept and part of this
+
+602
+00:37:39,025 --> 00:37:42,805
+Speaker 2:  was showing and flagging to electronics
+
+603
+00:37:42,805 --> 00:37:46,565
+Speaker 2:  makers, like peripheral makers especially that these things were technically
+
+604
+00:37:47,045 --> 00:37:50,845
+Speaker 2:  possible with the goal of then starting to seed some third
+
+605
+00:37:50,845 --> 00:37:54,485
+Speaker 2:  party development. We haven't seen a lot actually we haven't seen those specific
+
+606
+00:37:54,485 --> 00:37:58,005
+Speaker 2:  things pan out instead actually we ended up seeing as a third party risk
+
+607
+00:37:58,005 --> 00:38:01,605
+Speaker 2:  five main board, we actually didn't anticipate that at all instead. So instead
+
+608
+00:38:02,025 --> 00:38:05,245
+Speaker 2:  we instead ended up getting that. But basically when whenever we do these
+
+609
+00:38:05,245 --> 00:38:08,765
+Speaker 2:  types of proofs of concept, it's oftentimes to
+
+610
+00:38:08,995 --> 00:38:12,965
+Speaker 2:  show technical feasibility to enable third parties to go and run with
+
+611
+00:38:12,965 --> 00:38:16,885
+Speaker 2:  it or even enable the community go and run with it. And so for battery pack
+
+612
+00:38:16,885 --> 00:38:19,885
+Speaker 2:  that is still one that we would love to see a third party or even a community
+
+613
+00:38:19,885 --> 00:38:23,125
+Speaker 2:  member start to design on their own. And it's also something that like for
+
+614
+00:38:23,125 --> 00:38:27,045
+Speaker 2:  us in framework as we have a larger team over time as we
+
+615
+00:38:27,045 --> 00:38:30,925
+Speaker 2:  have more resources over time is the sort of thing that potentially we would
+
+616
+00:38:30,925 --> 00:38:34,725
+Speaker 2:  also go and start to address. But the reason we showed it so early was more
+
+617
+00:38:35,025 --> 00:38:36,965
+Speaker 2:  the technical proof of of feasibility
+
+618
+00:38:38,265 --> 00:38:39,205
+Speaker 6:  EPaper screens.
+
+619
+00:38:40,325 --> 00:38:43,055
+Speaker 2:  Yeah, this is a, this is also an interesting one. It kind of goes back to
+
+620
+00:38:43,055 --> 00:38:46,895
+Speaker 2:  this idea of like us being able to invest and be in control of our own
+
+621
+00:38:46,895 --> 00:38:50,735
+Speaker 2:  destiny. Display development, aside from you know, is the second most
+
+622
+00:38:50,765 --> 00:38:54,575
+Speaker 2:  expensive part of consumer electronics beyond silicon investment
+
+623
+00:38:54,585 --> 00:38:58,255
+Speaker 2:  doing custom silicon. And so for us being very
+
+624
+00:38:58,655 --> 00:39:02,535
+Speaker 2:  selective about where we do semi customization or
+
+625
+00:39:02,535 --> 00:39:06,055
+Speaker 2:  custom development displays because of the upfront cost required there.
+
+626
+00:39:06,435 --> 00:39:09,935
+Speaker 2:  And so to do something like an E ink display in the proper form factor for
+
+627
+00:39:10,075 --> 00:39:14,055
+Speaker 2:  any of our laptops would be an enormous sum of money we'd have to
+
+628
+00:39:14,055 --> 00:39:17,815
+Speaker 2:  pay. So if the a display vendor creates something that happens
+
+629
+00:39:17,915 --> 00:39:21,575
+Speaker 2:  to be close and we can semi customize, if that becomes more feasible, the
+
+630
+00:39:21,575 --> 00:39:25,455
+Speaker 2:  investment to do a fully custom display is just, at least for us today,
+
+631
+00:39:25,455 --> 00:39:28,975
+Speaker 2:  still pretty far out of reach the framework. Kindle is a thing I want to
+
+632
+00:39:28,975 --> 00:39:32,495
+Speaker 2:  exist just said. Just, I just want you to know that. Okay, there we go. That's
+
+633
+00:39:32,495 --> 00:39:35,175
+Speaker 2:  another, we can put that on the, on the quadrant somewhere.
+
+634
+00:39:36,035 --> 00:39:37,495
+Speaker 6:  And lastly Nvidia
+
+635
+00:39:38,565 --> 00:39:39,655
+Speaker 2:  Sure that's a company
+
+636
+00:39:40,475 --> 00:39:42,935
+Speaker 6:  It sure is. Sure is. That's a vergecast.
+
+637
+00:43:43,785 --> 00:43:47,475
+Speaker 2:  Welcome back a couple of weeks ago. The big news in the entertainment world
+
+638
+00:43:47,535 --> 00:43:51,435
+Speaker 2:  was that Amazon had struck a deal to give it full creative control over James
+
+639
+00:43:51,465 --> 00:43:55,315
+Speaker 2:  Bond basically for decades. The way that James Bond
+
+640
+00:43:55,415 --> 00:43:59,355
+Speaker 2:  has worked, that whole franchise has been controlled by one
+
+641
+00:43:59,355 --> 00:44:02,835
+Speaker 2:  family, the broccoli. You may have heard of these people before.
+
+642
+00:44:03,395 --> 00:44:07,355
+Speaker 2:  Barbara Broccoli for many, many years has been the person overseeing the
+
+643
+00:44:07,355 --> 00:44:10,635
+Speaker 2:  James Bond franchise. Other people distribute the movies, other people do
+
+644
+00:44:10,635 --> 00:44:13,835
+Speaker 2:  a lot of the work to make the movies obviously, but no one does anything
+
+645
+00:44:13,835 --> 00:44:17,475
+Speaker 2:  with James Bond without the broccoli say so. And they've been, to their credit,
+
+646
+00:44:17,585 --> 00:44:21,035
+Speaker 2:  very precious about that. But then Amazon bought
+
+647
+00:44:21,275 --> 00:44:25,035
+Speaker 2:  MGM for eight and a half billion dollars a couple of years ago. And
+
+648
+00:44:25,435 --> 00:44:29,075
+Speaker 2:  a big part of what MGM had to offer was James Bond. Since then,
+
+649
+00:44:29,565 --> 00:44:33,285
+Speaker 2:  there has been no James Bond. So Amazon, by all accounts,
+
+650
+00:44:33,285 --> 00:44:37,165
+Speaker 2:  made a deal to have the broccoli relinquish creative control so that
+
+651
+00:44:37,165 --> 00:44:40,365
+Speaker 2:  what happens to James Bond now is fully up to Amazon.
+
+652
+00:44:40,945 --> 00:44:44,765
+Speaker 2:  And that made a lot of people, including really anyone who likes
+
+653
+00:44:44,765 --> 00:44:48,005
+Speaker 2:  and cares about James Bond stuff and wants James Bond stuff to be good,
+
+654
+00:44:48,755 --> 00:44:52,605
+Speaker 2:  feel a lot of feelings. I would not say the overall reaction
+
+655
+00:44:52,625 --> 00:44:56,525
+Speaker 2:  to this was like great enthusiasm for the future of James Bond. It
+
+656
+00:44:56,525 --> 00:45:00,485
+Speaker 2:  was people worrying about what will happen when Amazon does
+
+657
+00:45:00,485 --> 00:45:03,925
+Speaker 2:  what Disney did to Marvel or to Star Wars and just
+
+658
+00:45:04,665 --> 00:45:08,405
+Speaker 2:  floods the zone with stuff because that's what the business demands
+
+659
+00:45:08,815 --> 00:45:12,805
+Speaker 2:  until it kind of ruins the vibe. I have been trying to figure out how
+
+660
+00:45:12,805 --> 00:45:16,725
+Speaker 2:  to sort through all of this myself and figured that the best person
+
+661
+00:45:17,185 --> 00:45:20,805
+Speaker 2:  to talk to about this is the person I know who knows the most about James
+
+662
+00:45:20,835 --> 00:45:24,725
+Speaker 2:  Bond. And that is John Gruber from Daring Fireball. So he is gonna come
+
+663
+00:45:24,725 --> 00:45:28,445
+Speaker 2:  on and he's gonna explain how he feels why James Bond is special
+
+664
+00:45:28,865 --> 00:45:32,765
+Speaker 2:  and where it goes from here under the control of Amazon. Let's get into it.
+
+665
+00:45:33,465 --> 00:45:35,035
+Speaker 2:  John Gruber, welcome to The Vergecast.
+
+666
+00:45:35,625 --> 00:45:36,555
+Speaker 10:  Nice to be here, David.
+
+667
+00:45:36,825 --> 00:45:39,715
+Speaker 2:  Okay, so the, the news I think at this point is a couple of weeks old, but
+
+668
+00:45:39,715 --> 00:45:43,675
+Speaker 2:  basically where we are, and you I think have more context
+
+669
+00:45:43,815 --> 00:45:47,635
+Speaker 2:  on this than I do, but basically the way I understand it is that
+
+670
+00:45:48,245 --> 00:45:51,795
+Speaker 2:  after a bunch of interpersonal shenanigans,
+
+671
+00:45:52,215 --> 00:45:55,995
+Speaker 2:  Amazon wrote a very large check the number that, which at least I
+
+672
+00:45:56,055 --> 00:45:59,355
+Speaker 2:  do not know yet Yeah. To the broccoli and now have
+
+673
+00:46:00,275 --> 00:46:04,235
+Speaker 2:  creative control over the James Bond franchise for the first time. Is that
+
+674
+00:46:04,275 --> 00:46:05,235
+Speaker 2:  a reasonable summary of where
+
+675
+00:46:05,235 --> 00:46:09,155
+Speaker 10:  We are? I think so, yes. I I guess the part that I'm still confused on,
+
+676
+00:46:09,175 --> 00:46:12,235
+Speaker 10:  and maybe everybody is, other than the broccolis and
+
+677
+00:46:12,635 --> 00:46:16,435
+Speaker 10:  Amazon's top executives is exactly where they
+
+678
+00:46:16,435 --> 00:46:20,115
+Speaker 10:  were before last week's news that okay, we're gonna write a check and just
+
+679
+00:46:20,115 --> 00:46:23,835
+Speaker 10:  take control. It was like, you know, like what amount
+
+680
+00:46:24,215 --> 00:46:27,435
+Speaker 10:  of control did MGM have that gave
+
+681
+00:46:28,335 --> 00:46:32,315
+Speaker 10:  Amazon power to, you know, that that that left them at a logger
+
+682
+00:46:32,315 --> 00:46:35,355
+Speaker 10:  jam. You know, it seemed like basically MGM
+
+683
+00:46:36,135 --> 00:46:39,955
+Speaker 10:  has the rights to some aspect of the franchise,
+
+684
+00:46:40,175 --> 00:46:43,835
+Speaker 10:  you know what I mean? Like the broccolis couldn't make movies without MGM,
+
+685
+00:46:44,015 --> 00:46:47,995
+Speaker 10:  but MGM couldn't make the movies without the broccolis
+
+686
+00:46:47,995 --> 00:46:50,875
+Speaker 10:  having complete control over the creative element. Something like that.
+
+687
+00:46:51,345 --> 00:46:54,755
+Speaker 2:  Yeah, it's a, it's a very odd setup and I think I, I was going back and reading
+
+688
+00:46:54,755 --> 00:46:58,515
+Speaker 2:  some of the coverage of the MGM acquisition in the first place.
+
+689
+00:46:58,615 --> 00:47:02,275
+Speaker 2:  So Amazon bought MGM for eight and a half billion dollars. That deal closed,
+
+690
+00:47:02,915 --> 00:47:06,755
+Speaker 2:  I think early 2022. And even back
+
+691
+00:47:06,755 --> 00:47:10,475
+Speaker 2:  then, the, the read was that like the, the crown jewel of the empire
+
+692
+00:47:10,585 --> 00:47:13,915
+Speaker 2:  here Yeah. Is James Bond, right? Like there's a lot of content. Amazon wants
+
+693
+00:47:13,915 --> 00:47:17,075
+Speaker 2:  a lot of stuff. They want the studio, they want the, the library, but like
+
+694
+00:47:17,295 --> 00:47:20,475
+Speaker 2:  the, the thing that you're buying the IP at the top of all of this
+
+695
+00:47:21,175 --> 00:47:24,595
+Speaker 2:  is James Bond. And since then precisely nothing has happened,
+
+696
+00:47:25,205 --> 00:47:28,955
+Speaker 2:  which is so strange and, and I think just speaks to the
+
+697
+00:47:29,045 --> 00:47:29,965
+Speaker 2:  weirdness of all of this
+
+698
+00:47:30,195 --> 00:47:34,085
+Speaker 10:  Yeah. Other than stories coming out that nothing was happening, right.
+
+699
+00:47:34,385 --> 00:47:37,645
+Speaker 10:  And that it was sort of conspicuous that nothing was happening. It wasn't
+
+700
+00:47:37,645 --> 00:47:41,605
+Speaker 10:  just secrecy behind the scenes, it was, hey, something's broken behind
+
+701
+00:47:41,605 --> 00:47:42,525
+Speaker 10:  the scenes, you know?
+
+702
+00:47:42,995 --> 00:47:46,205
+Speaker 2:  Yeah. Yeah. So what, what was your feeling when this news dropped? Like how
+
+703
+00:47:46,205 --> 00:47:50,165
+Speaker 2:  do your, what's your immediate reaction to the change that came out
+
+704
+00:47:50,165 --> 00:47:50,845
+Speaker 2:  a couple of weeks ago?
+
+705
+00:47:52,605 --> 00:47:56,445
+Speaker 10:  I, my heart sunk, I guess because I think, I don't think
+
+706
+00:47:56,445 --> 00:48:00,005
+Speaker 10:  it's impossible that, that, that, that in
+
+707
+00:48:00,005 --> 00:48:03,805
+Speaker 10:  hindsight we can look back and say, you know what? This wasn't so bad,
+
+708
+00:48:03,945 --> 00:48:07,885
+Speaker 10:  or something good came out of it and I'll, I'll put a pin in that and we
+
+709
+00:48:07,885 --> 00:48:11,445
+Speaker 10:  can come back to what I think might be the best case scenario. But I think
+
+710
+00:48:11,445 --> 00:48:14,685
+Speaker 10:  the most likely scenario is that
+
+711
+00:48:15,715 --> 00:48:19,085
+Speaker 10:  this is just not gonna be good. And,
+
+712
+00:48:19,865 --> 00:48:23,405
+Speaker 10:  and I'll compare it directly to Disney buying
+
+713
+00:48:23,765 --> 00:48:26,245
+Speaker 10:  Lucasfilm from George Lucas,
+
+714
+00:48:27,195 --> 00:48:29,925
+Speaker 2:  Another franchise you care very much about. If I'm not mistaken,
+
+715
+00:48:30,045 --> 00:48:32,845
+Speaker 10:  I I do care. Well it's certainly Star Wars. Yes. Yeah. Definitely.
+
+716
+00:48:33,755 --> 00:48:37,365
+Speaker 10:  Very, very meaningful, important to me. And I,
+
+717
+00:48:37,745 --> 00:48:41,485
+Speaker 10:  and similarly, I, you know, Lucas film, there was a lot more than just
+
+718
+00:48:41,515 --> 00:48:44,765
+Speaker 10:  Star Wars, you know, there was the Indiana Jones franchise, there's the
+
+719
+00:48:44,765 --> 00:48:48,605
+Speaker 10:  whole industrial light and magic, everything else Lucas Film
+
+720
+00:48:48,605 --> 00:48:52,405
+Speaker 10:  does, ILM in particular, you know, is, is just a,
+
+721
+00:48:52,465 --> 00:48:56,445
+Speaker 10:  you know, VERGE listeners don't need to be told what they do or their
+
+722
+00:48:56,445 --> 00:49:00,365
+Speaker 10:  role in the industry. But overall, I
+
+723
+00:49:00,365 --> 00:49:04,285
+Speaker 10:  just feel like what we've seen Disney do with the Star Wars franchise is
+
+724
+00:49:04,285 --> 00:49:07,965
+Speaker 10:  what we'll see Amazon do with the James Bond franchise, which is
+
+725
+00:49:09,305 --> 00:49:12,885
+Speaker 10:  dilute it, you know, with spinoffs and shows and cartoons
+
+726
+00:49:13,105 --> 00:49:16,845
+Speaker 10:  and, and you know, for some fans, you know, there are,
+
+727
+00:49:17,105 --> 00:49:20,605
+Speaker 10:  I'm sure you can dig up some fans who think Disney's done nothing but a
+
+728
+00:49:20,605 --> 00:49:24,525
+Speaker 10:  bang up job with Star Wars or more positive than negative.
+
+729
+00:49:25,865 --> 00:49:28,805
+Speaker 10:  But it's definitely a change. It's a definite,
+
+730
+00:49:30,105 --> 00:49:33,325
+Speaker 10:  you know, and this whole idea of calling it content, you know, or whatever
+
+731
+00:49:33,325 --> 00:49:36,805
+Speaker 10:  else you want to call it, which is what the major big tech
+
+732
+00:49:37,365 --> 00:49:41,325
+Speaker 10:  streamer, corporations who are making these deals and writing these checks
+
+733
+00:49:42,065 --> 00:49:45,525
+Speaker 10:  the way they tend to look at it as opposed to an artistic endeavor. And
+
+734
+00:49:45,525 --> 00:49:49,485
+Speaker 10:  I will compare it, one difference with James Bond and Star Wars is
+
+735
+00:49:49,485 --> 00:49:53,325
+Speaker 10:  that when Disney bought Star Wars, there had only been six movies
+
+736
+00:49:53,395 --> 00:49:56,525
+Speaker 10:  made. And yes, there were like comic books and there was somewhat of an
+
+737
+00:49:57,045 --> 00:50:00,605
+Speaker 10:  expanded empire, but nothing like what we've seen
+
+738
+00:50:01,015 --> 00:50:04,765
+Speaker 10:  since. And the James Bond franchise is different because it goes
+
+739
+00:50:04,765 --> 00:50:08,645
+Speaker 10:  back so much further to the sixties and you know, at this point there've
+
+740
+00:50:08,645 --> 00:50:11,885
+Speaker 10:  been, I guess 25 movies, you'd think I know that before I came in the show,
+
+741
+00:50:13,065 --> 00:50:17,005
+Speaker 10:  but it's just a longer stretch of time. And there was
+
+742
+00:50:17,085 --> 00:50:20,365
+Speaker 10:  a similarity where the franchises were defined by
+
+743
+00:50:20,455 --> 00:50:24,245
+Speaker 10:  theatrical major motion pictures that were events.
+
+744
+00:50:24,655 --> 00:50:28,525
+Speaker 10:  Right. Like, holy crap, George Lucas is finally gonna make those
+
+745
+00:50:28,525 --> 00:50:32,445
+Speaker 10:  prequels that he was, you know, rumored to be working on even when he was
+
+746
+00:50:32,445 --> 00:50:36,405
+Speaker 10:  working on the original trilogy back in the seventies and eighties. Wow.
+
+747
+00:50:38,065 --> 00:50:41,885
+Speaker 10:  Or wow, they've announced a new James Bond. It's a guy named Daniel Craig,
+
+748
+00:50:41,905 --> 00:50:45,845
+Speaker 10:  and he's got blonde hair, not dark hair, and people are upset about
+
+749
+00:50:45,845 --> 00:50:46,445
+Speaker 10:  that. And
+
+750
+00:50:48,155 --> 00:50:52,085
+Speaker 10:  it's a new, you know, or, or here. Ja Daniel Craig's coming back for a fifth
+
+751
+00:50:52,085 --> 00:50:55,805
+Speaker 10:  movie, and it's definitely gonna be the last one. You know, it, it's an
+
+752
+00:50:55,805 --> 00:50:59,725
+Speaker 10:  event and, you know, oh, here's a series about Young
+
+753
+00:50:59,725 --> 00:51:02,325
+Speaker 10:  Money Penny. Here's 10 episode series about
+
+754
+00:51:03,695 --> 00:51:07,525
+Speaker 10:  Felix Lighter in the CIA, here's the Young James Bond cartoon,
+
+755
+00:51:07,615 --> 00:51:11,205
+Speaker 10:  which I know sort of exists, you know, but it's just gonna be more of it.
+
+756
+00:51:12,865 --> 00:51:15,605
+Speaker 2:  So this is the thing I'm, I'm sort of torn on. And I think
+
+757
+00:51:17,185 --> 00:51:20,565
+Speaker 2:  one of the, the challenge I have in thinking through all of this is, on the
+
+758
+00:51:20,565 --> 00:51:24,385
+Speaker 2:  one hand, it's not like every James Bond movie ever has
+
+759
+00:51:24,385 --> 00:51:28,275
+Speaker 2:  been Perfect and fabulous, and this is like a, a beautiful,
+
+760
+00:51:28,275 --> 00:51:31,515
+Speaker 2:  pristine thing, right. That cannot be touched. Right? Like, there have been
+
+761
+00:51:31,535 --> 00:51:35,275
+Speaker 2:  bad bond movies there. I love them all, if I'm honest, but some of them are
+
+762
+00:51:35,275 --> 00:51:39,235
+Speaker 2:  very bad. Right. And, and even there, there have
+
+763
+00:51:39,235 --> 00:51:43,155
+Speaker 2:  been sort of spinoff things over the years, like goldeneye
+
+764
+00:51:43,155 --> 00:51:47,115
+Speaker 2:  on the N 64, obviously a like classic iconic video games, but there
+
+765
+00:51:47,115 --> 00:51:49,795
+Speaker 2:  have been other James Bond video games that I don't remember the name of.
+
+766
+00:51:49,815 --> 00:51:53,715
+Speaker 2:  Yes. Because they're not any good. And so they've, they've experimented
+
+767
+00:51:53,715 --> 00:51:57,675
+Speaker 2:  with this over time. And I think there is definitely an extent to which
+
+768
+00:51:58,115 --> 00:52:01,835
+Speaker 2:  I think the, the broccoli in this sort of unusual setup
+
+769
+00:52:01,835 --> 00:52:04,955
+Speaker 2:  where basically a couple of people had creative control over whether things
+
+770
+00:52:05,115 --> 00:52:08,875
+Speaker 2:  happened or didn't, has probably avoided bad things, but it
+
+771
+00:52:08,875 --> 00:52:12,675
+Speaker 2:  hasn't avoided all of the bad things. Right. And so maybe it's like,
+
+772
+00:52:13,255 --> 00:52:16,955
+Speaker 2:  the part of me that is optimistic is like, okay, maybe nobody's perfect and
+
+773
+00:52:18,705 --> 00:52:22,055
+Speaker 2:  maybe, maybe there will be good stuff and maybe I can just watch the good
+
+774
+00:52:22,055 --> 00:52:24,855
+Speaker 2:  stuff and ignore the bad stuff. But that's also the Star Wars play. Yeah.
+
+775
+00:52:24,855 --> 00:52:28,015
+Speaker 2:  And I have basically been run out of the Star Wars franchise. Yeah. By the
+
+776
+00:52:28,015 --> 00:52:31,015
+Speaker 2:  way, it has run over the last decade. So I don't know, I'm, I'm torn between
+
+777
+00:52:31,015 --> 00:52:32,055
+Speaker 2:  these two feelings.
+
+778
+00:52:32,925 --> 00:52:36,775
+Speaker 10:  Yeah. And I, you know, I I, I say that as a real big fan of,
+
+779
+00:52:36,935 --> 00:52:40,655
+Speaker 10:  I mean, that's why you're, I'm here and a long time ago, in the first run
+
+780
+00:52:40,755 --> 00:52:44,295
+Speaker 10:  of my podcast, the talk show, when I was co-hosting it with Dan
+
+781
+00:52:44,535 --> 00:52:48,375
+Speaker 10:  Benjamin, this is like, oh man, like 2008, 2009, early, I mean,
+
+782
+00:52:48,375 --> 00:52:51,975
+Speaker 10:  literally like early days of podcasting, we had the idea
+
+783
+00:52:52,355 --> 00:52:52,575
+Speaker 10:  to,
+
+784
+00:52:54,315 --> 00:52:58,175
+Speaker 10:  at the tail, you know, the, the topic was typically Apple and the usual
+
+785
+00:52:58,175 --> 00:53:01,895
+Speaker 10:  stuff I talk about on the talk show. And we had the
+
+786
+00:53:01,895 --> 00:53:05,535
+Speaker 10:  idea for, I forget how many movies had been out at that point, but let's
+
+787
+00:53:05,535 --> 00:53:09,295
+Speaker 10:  say it was like 19 bond movies had been made to date.
+
+788
+00:53:09,465 --> 00:53:12,775
+Speaker 10:  Let's take the next 19 episodes and in chronological order
+
+789
+00:53:13,305 --> 00:53:16,815
+Speaker 10:  we'll talk about each one at the end of the show, like the last 20 minutes
+
+790
+00:53:16,915 --> 00:53:20,495
+Speaker 10:  of each show, we'll talk about each of the Bond movies in order and we will,
+
+791
+00:53:20,555 --> 00:53:24,455
+Speaker 10:  you know, we will watch 'em in order again. And you
+
+792
+00:53:24,485 --> 00:53:27,845
+Speaker 10:  listeners following along, you'll know 'cause we're going in chronological
+
+793
+00:53:27,845 --> 00:53:30,605
+Speaker 10:  order. Your homework If you don't want this spoiled will be to do it. And
+
+794
+00:53:30,605 --> 00:53:31,485
+Speaker 10:  it was a lot of fun.
+
+795
+00:53:33,025 --> 00:53:36,925
+Speaker 10:  But rewatching them all in order, you, you know, and we
+
+796
+00:53:36,925 --> 00:53:40,885
+Speaker 10:  talked about it week to week, you know, it, they're uneven. Right? They're,
+
+797
+00:53:40,885 --> 00:53:44,765
+Speaker 10:  some of them are not great. Some of them don't hold up and
+
+798
+00:53:44,765 --> 00:53:48,685
+Speaker 10:  it's kind of interesting watching them again. But
+
+799
+00:53:48,765 --> 00:53:52,685
+Speaker 10:  I don't think it's for lack of effort. Right. It's the, and I think
+
+800
+00:53:52,685 --> 00:53:56,405
+Speaker 10:  that's the difference is that when, like with Disney's
+
+801
+00:53:56,405 --> 00:54:00,245
+Speaker 10:  current stewardship of Star Wars or the Avens too, the
+
+802
+00:54:00,245 --> 00:54:04,005
+Speaker 10:  Marvel universe, right? With the amount that
+
+803
+00:54:04,005 --> 00:54:07,805
+Speaker 10:  they're putting out, there's no intention to, to try to make
+
+804
+00:54:07,805 --> 00:54:11,525
+Speaker 10:  everything great. Hmm. Right. That's, it's like,
+
+805
+00:54:11,585 --> 00:54:14,845
+Speaker 10:  that's, that's the difference is that when you know you're putting out
+
+806
+00:54:15,625 --> 00:54:19,205
+Speaker 10:  all of these hours of content and they call it content
+
+807
+00:54:19,675 --> 00:54:23,325
+Speaker 10:  each year, you know, that the overall quality
+
+808
+00:54:23,585 --> 00:54:27,285
+Speaker 10:  is trying f to be like, I don't know, good
+
+809
+00:54:27,585 --> 00:54:31,085
+Speaker 10:  at best. Yeah. It's not trying to make everything great and,
+
+810
+00:54:31,505 --> 00:54:34,405
+Speaker 10:  you know, and we can talk about the, that, that a lot of people, especially
+
+811
+00:54:34,405 --> 00:54:38,165
+Speaker 10:  people of our generation, have very, a lot of people have very
+
+812
+00:54:38,405 --> 00:54:42,045
+Speaker 10:  negative feelings about George Lucas's own second trilogy in the Star Wars
+
+813
+00:54:42,045 --> 00:54:45,445
+Speaker 10:  movie. Yeah. I personally, I don't love it like I do the first ones, but
+
+814
+00:54:45,485 --> 00:54:49,205
+Speaker 10:  I actually don't hate it like most people of my generation do. I actually
+
+815
+00:54:49,205 --> 00:54:53,085
+Speaker 10:  like the movies overall, and I, I like their weirdness and I
+
+816
+00:54:53,085 --> 00:54:57,005
+Speaker 10:  like that they're not just trying to redo what the first trilogy felt like.
+
+817
+00:54:57,465 --> 00:55:01,445
+Speaker 10:  And I really noticed with my son's generation, my son's
+
+818
+00:55:01,445 --> 00:55:05,125
+Speaker 10:  21 now, but he was a little kid when those movies were like new. His
+
+819
+00:55:05,135 --> 00:55:08,925
+Speaker 10:  generation didn't really see a difference between the old trilogy and the
+
+820
+00:55:08,925 --> 00:55:11,885
+Speaker 10:  new trilogy. They just loved Star Wars, you know? Yeah.
+
+821
+00:55:12,155 --> 00:55:15,925
+Speaker 2:  Yeah. So much of that stuff is, is tied to sort of time
+
+822
+00:55:15,985 --> 00:55:19,285
+Speaker 2:  and moments in your life in a way that's always really hard to peel apart
+
+823
+00:55:19,285 --> 00:55:23,085
+Speaker 2:  that like Right. Whichever part of it you saw when you were 12 is
+
+824
+00:55:23,285 --> 00:55:25,965
+Speaker 2:  probably your favorite. Yeah, definitely. It's just a hard thing to undo.
+
+825
+00:55:25,965 --> 00:55:26,245
+Speaker 2:  Well,
+
+826
+00:55:26,245 --> 00:55:28,725
+Speaker 10:  And that's, and you know, and they, that that just came up recently with
+
+827
+00:55:29,055 --> 00:55:32,845
+Speaker 10:  SNL's 50 right. 50th anniversary where so many people, and there's so many
+
+828
+00:55:33,035 --> 00:55:36,485
+Speaker 10:  cool documentaries that came out about that, but over and over again, and
+
+829
+00:55:36,525 --> 00:55:39,565
+Speaker 10:  I think it's, this is one of those things that we can debate what the best
+
+830
+00:55:39,955 --> 00:55:43,685
+Speaker 10:  eras of SNL were. But one thing that's almost un debatable is that
+
+831
+00:55:43,755 --> 00:55:47,445
+Speaker 10:  most people feel that the quote unquote Best
+
+832
+00:55:47,445 --> 00:55:50,965
+Speaker 10:  Years and the best cast were the ones when they were like a teenager and
+
+833
+00:55:50,965 --> 00:55:54,245
+Speaker 10:  they first started getting late night adult
+
+834
+00:55:54,635 --> 00:55:58,605
+Speaker 10:  sarcasm and humor. And so it didn't matter how old you are, you kind of
+
+835
+00:55:58,605 --> 00:56:01,805
+Speaker 10:  have this sweet spot in your head. And I think the James Bond movies are
+
+836
+00:56:01,805 --> 00:56:05,285
+Speaker 10:  like that, right? Everybody has a sweet spot for the sweet place in their
+
+837
+00:56:05,285 --> 00:56:08,885
+Speaker 10:  heart for the James Bond of their youth, of the new movie, you know, whatever
+
+838
+00:56:08,885 --> 00:56:12,125
+Speaker 10:  were the new Bond movies when they were young and they first fell in love
+
+839
+00:56:12,125 --> 00:56:15,605
+Speaker 10:  at the franchise, you know, and then you get older and you get more of an
+
+840
+00:56:15,605 --> 00:56:18,805
+Speaker 10:  appreciation for going back in time and sort of putting things in perspective.
+
+841
+00:56:18,945 --> 00:56:22,525
+Speaker 10:  But that, that, that's to me, the difference is that the Broccolis
+
+842
+00:56:22,785 --> 00:56:26,325
+Speaker 10:  for 20 some movies were always trying to make each one
+
+843
+00:56:26,965 --> 00:56:30,685
+Speaker 10:  a great bond movie, and they fell short. Sometimes I think you make 25
+
+844
+00:56:30,685 --> 00:56:34,565
+Speaker 10:  movies, you know, and you try to take risks and you're trying not to repeat
+
+845
+00:56:34,765 --> 00:56:38,645
+Speaker 10:  yourself and you're trying to keep Bond. And
+
+846
+00:56:38,645 --> 00:56:42,325
+Speaker 10:  I think they did this remarkably so like keep Bond
+
+847
+00:56:42,515 --> 00:56:46,365
+Speaker 10:  current through the sixties, the seventies, the eighties.
+
+848
+00:56:46,765 --> 00:56:49,845
+Speaker 10:  I mean, it's a long time to keep a character current through
+
+849
+00:56:50,645 --> 00:56:54,485
+Speaker 10:  dramatic changes in culture, history, world, geopolitics,
+
+850
+00:56:54,825 --> 00:56:58,805
+Speaker 10:  things that affect a, a spy movie. You know, they,
+
+851
+00:56:59,075 --> 00:57:02,805
+Speaker 10:  some were great, some not so great, but they were always trying.
+
+852
+00:57:03,075 --> 00:57:03,365
+Speaker 10:  Yeah.
+
+853
+00:57:03,625 --> 00:57:07,545
+Speaker 2:  To that end actually, why do you think this character
+
+854
+00:57:07,545 --> 00:57:10,625
+Speaker 2:  and this franchise has been this enduring because it's,
+
+855
+00:57:11,415 --> 00:57:14,625
+Speaker 2:  it's kind of unparalleled right? In that sense that, like
+
+856
+00:57:15,325 --> 00:57:18,785
+Speaker 2:  Ja James Bond is, is I think very
+
+857
+00:57:18,785 --> 00:57:22,665
+Speaker 2:  different as a, a character from first movie
+
+858
+00:57:22,765 --> 00:57:26,625
+Speaker 2:  to, you know, no Time to Die. Yeah. But it's also pretty recognizably the
+
+859
+00:57:26,625 --> 00:57:29,945
+Speaker 2:  same the whole way through. And for that to happen
+
+860
+00:57:30,765 --> 00:57:34,665
+Speaker 2:  and still be, even have the possibility of being any good is
+
+861
+00:57:34,875 --> 00:57:38,815
+Speaker 2:  pretty unusual with, with any kind of franchise like
+
+862
+00:57:38,815 --> 00:57:42,175
+Speaker 2:  that. The, just the fact that it hasn't run out of steam yet
+
+863
+00:57:42,945 --> 00:57:44,845
+Speaker 2:  is kind of wild. What is your sense of why that is?
+
+864
+00:57:45,465 --> 00:57:48,925
+Speaker 10:  How much time do we have? Right? I mean, that's sort of what makes me obsessed
+
+865
+00:57:48,925 --> 00:57:52,885
+Speaker 10:  with the franchise is trying to answer that question and sort of the
+
+866
+00:57:52,885 --> 00:57:56,725
+Speaker 10:  impossibility of really buttonholing it very neatly
+
+867
+00:57:56,755 --> 00:58:00,645
+Speaker 10:  into a very succinct ah, yes, that's exactly how they've done it. Argument
+
+868
+00:58:00,645 --> 00:58:04,485
+Speaker 10:  like, you're not gonna get there. And that's what makes it endlessly fascinating
+
+869
+00:58:04,665 --> 00:58:08,405
+Speaker 10:  and fun to discuss. If I had to try to
+
+870
+00:58:08,965 --> 00:58:11,965
+Speaker 10:  encapsulate it though, I think the things that they did that really made
+
+871
+00:58:11,965 --> 00:58:15,645
+Speaker 10:  this built, built to last, and it sounds
+
+872
+00:58:17,965 --> 00:58:21,565
+Speaker 10:  cynical, but I mean this in an endearing way that they, they
+
+873
+00:58:21,835 --> 00:58:25,325
+Speaker 10:  established a brand for James Bond, right?
+
+874
+00:58:25,825 --> 00:58:29,325
+Speaker 10:  And right out of the gate, they had this, the theme song in the first one,
+
+875
+00:58:29,425 --> 00:58:33,245
+Speaker 10:  Dr. No, the theme song was cool when it
+
+876
+00:58:33,365 --> 00:58:37,205
+Speaker 10:  was new in 1962. And it's sort of timeless now, right? Yeah. Star
+
+877
+00:58:37,205 --> 00:58:40,605
+Speaker 10:  Wars got that right too, right. With the great John Williams score, right?
+
+878
+00:58:40,635 --> 00:58:44,565
+Speaker 10:  Like, and and the logo for Star Wars, the logo for
+
+879
+00:58:44,565 --> 00:58:48,325
+Speaker 10:  James Bond with the O oh and the seven that shaped like a Luger or
+
+880
+00:58:48,325 --> 00:58:52,165
+Speaker 10:  something, which isn't even a gun James Bond used. Right. And he, you know,
+
+881
+00:58:52,165 --> 00:58:56,125
+Speaker 10:  and that ties into other aspects of the brand, like
+
+882
+00:58:56,125 --> 00:58:59,885
+Speaker 10:  the fact that James Bond is persnickety and very
+
+883
+00:59:00,015 --> 00:59:03,605
+Speaker 10:  picky about certain things. He wants to use a certain gun
+
+884
+00:59:03,835 --> 00:59:07,205
+Speaker 10:  like that's his favorite gun, you know, the Walter
+
+885
+00:59:07,445 --> 00:59:08,965
+Speaker 10:  PPK for most of the run, and
+
+886
+00:59:10,905 --> 00:59:14,765
+Speaker 10:  he wants his martini famously prepared just right.
+
+887
+00:59:15,025 --> 00:59:19,005
+Speaker 10:  You know, and, and that sort of pickiness of the character becomes part
+
+888
+00:59:19,005 --> 00:59:22,735
+Speaker 10:  of the brand. And I think that they
+
+889
+00:59:22,735 --> 00:59:26,415
+Speaker 10:  managed it over the years to sort of keep that fundamental
+
+890
+00:59:26,905 --> 00:59:30,775
+Speaker 10:  brand timeless. And then they could decorate around
+
+891
+00:59:30,775 --> 00:59:34,655
+Speaker 10:  it with each decade and with each actor as they, as they move it forward.
+
+892
+00:59:35,075 --> 00:59:38,095
+Speaker 10:  But that, that core brand resonates with people.
+
+893
+00:59:39,015 --> 00:59:42,175
+Speaker 2:  I I totally agree with that. And I think part of the reason I'm thinking
+
+894
+00:59:42,175 --> 00:59:45,655
+Speaker 2:  about this is 'cause I have to assume that if you're Amazon,
+
+895
+00:59:46,325 --> 00:59:49,855
+Speaker 2:  that is the big question to try and figure out, right? Is like, what,
+
+896
+00:59:50,525 --> 00:59:54,215
+Speaker 2:  what about this can we not change? Because I think
+
+897
+00:59:54,805 --> 00:59:58,655
+Speaker 2:  what I assume to be true, and I I I'm curious if, If you feel differently,
+
+898
+00:59:58,715 --> 01:00:02,575
+Speaker 2:  but what I assume is true is that every imaginable branch
+
+899
+01:00:03,155 --> 01:00:07,135
+Speaker 2:  of the, The James Bond Cinematic Universe is about to come true. We're gonna
+
+900
+01:00:07,135 --> 01:00:11,095
+Speaker 2:  get more Bond movies, we're gonna get a a Q spinoff that's gonna
+
+901
+01:00:11,095 --> 01:00:15,015
+Speaker 2:  be like a tech show. We're gonna get the, we're gonna get a Money Penny thing.
+
+902
+01:00:15,015 --> 01:00:18,615
+Speaker 2:  They're gonna do a whole thing about, you know, minor characters. We're gonna,
+
+903
+01:00:18,615 --> 01:00:20,935
+Speaker 2:  we're gonna spin this thing in every single direction. And I feel like if
+
+904
+01:00:20,935 --> 01:00:24,375
+Speaker 2:  I'm the person in charge of James Bond at Amazon, the question now is,
+
+905
+01:00:25,805 --> 01:00:29,455
+Speaker 2:  what, what do you have to have inside of one of these to make it
+
+906
+01:00:30,305 --> 01:00:34,045
+Speaker 2:  work, to make it James Bond? And in a weird way,
+
+907
+01:00:34,185 --> 01:00:38,045
+Speaker 2:  the the answer to that question seems to both be like, scarcity, you
+
+908
+01:00:38,205 --> 01:00:41,045
+Speaker 2:  actually can't do too much. That's like a part of the whole James Bond thing
+
+909
+01:00:41,045 --> 01:00:44,645
+Speaker 2:  that I think if we had done 50 movies by now instead of 25, it might actually
+
+910
+01:00:44,645 --> 01:00:48,085
+Speaker 2:  be really different. But that also, even that thing you're describing is
+
+911
+01:00:48,085 --> 01:00:51,925
+Speaker 2:  hard to, you can't just have him say shaken, not stirred once an episode
+
+912
+01:00:51,985 --> 01:00:54,925
+Speaker 2:  and get away with it being a bond show. You know what I mean? Right. I feel
+
+913
+01:00:54,925 --> 01:00:58,205
+Speaker 2:  like that's a hard thing to define with Bond in a way that even Star Wars,
+
+914
+01:00:58,465 --> 01:01:01,965
+Speaker 2:  you just start with like Galaxy far, far away permission to kind of do whatever
+
+915
+01:01:01,965 --> 01:01:04,845
+Speaker 2:  we want. And I think that was the wrong approach, but you can at least see
+
+916
+01:01:04,845 --> 01:01:07,205
+Speaker 2:  how you start from that. James Bond is harder to define that way.
+
+917
+01:01:07,555 --> 01:01:11,345
+Speaker 10:  Yeah. And it's it because there is
+
+918
+01:01:11,445 --> 01:01:15,225
+Speaker 10:  no one central character of Star Wars, right. That's different. Right.
+
+919
+01:01:15,295 --> 01:01:18,385
+Speaker 10:  It's not the Luke Skywalker cinematic universe, or
+
+920
+01:01:18,625 --> 01:01:21,345
+Speaker 2:  I think they decided it was the force, right? Right. That was like, they
+
+921
+01:01:21,345 --> 01:01:23,745
+Speaker 2:  were like, that is the unifying theme and it just didn't work.
+
+922
+01:01:24,495 --> 01:01:25,265
+Speaker 10:  Yeah. And
+
+923
+01:01:27,615 --> 01:01:31,545
+Speaker 10:  like, what is the greater James Bond cinematic universe?
+
+924
+01:01:31,735 --> 01:01:35,545
+Speaker 10:  It's just the world, right? It's the modern world, right. Where that's,
+
+925
+01:01:35,605 --> 01:01:39,425
+Speaker 10:  and that's where it just seems more worrisome to me even than Star Wars,
+
+926
+01:01:39,425 --> 01:01:43,265
+Speaker 10:  right? Like where, like the, to
+
+927
+01:01:43,285 --> 01:01:47,145
+Speaker 10:  me clearly better parts of the Disney era,
+
+928
+01:01:47,255 --> 01:01:51,185
+Speaker 10:  star Wars and or which itself is sort of
+
+929
+01:01:51,185 --> 01:01:54,905
+Speaker 10:  a spinoff from my favorite movie they've made since then. The
+
+930
+01:01:55,395 --> 01:01:56,105
+Speaker 10:  Rogue One,
+
+931
+01:01:57,765 --> 01:02:01,625
+Speaker 10:  you know, which isn't about the main characters, you know, it parlays into
+
+932
+01:02:01,625 --> 01:02:05,465
+Speaker 10:  the story of them and it takes place in their era, but it's like,
+
+933
+01:02:05,765 --> 01:02:08,745
+Speaker 10:  ah, but here's the thing that's happening over on the side side, but what,
+
+934
+01:02:08,765 --> 01:02:12,745
+Speaker 10:  what's happening in the James Bond universe when we're not paying
+
+935
+01:02:12,745 --> 01:02:16,585
+Speaker 10:  attention to that? Him himself, the agent oh
+
+936
+01:02:16,585 --> 01:02:20,205
+Speaker 10:  oh seven for MI six, it's just the world,
+
+937
+01:02:20,335 --> 01:02:21,205
+Speaker 10:  right? So
+
+938
+01:02:21,785 --> 01:02:25,045
+Speaker 2:  That's so true. Yeah. They're gonna end up having to make a movie about the
+
+939
+01:02:25,045 --> 01:02:28,725
+Speaker 2:  financial crisis, right? That is like just James Bond appears one time and
+
+940
+01:02:28,725 --> 01:02:30,205
+Speaker 2:  they're like, I guess this is a James Bond movie.
+
+941
+01:02:30,465 --> 01:02:34,085
+Speaker 10:  And, and, and so what are the odds when they do a Felix lighter spinoff
+
+942
+01:02:34,815 --> 01:02:38,645
+Speaker 10:  about the American CIA agents in the world
+
+943
+01:02:39,125 --> 01:02:42,725
+Speaker 10:  fighting, you know, the same agents of evil of
+
+944
+01:02:42,795 --> 01:02:45,565
+Speaker 10:  Specter or whatever they do when they reboot it.
+
+945
+01:02:47,765 --> 01:02:51,705
+Speaker 10:  You know, how is that gonna be any different than just any random CIA show
+
+946
+01:02:51,705 --> 01:02:55,545
+Speaker 10:  that Amazon puts on Prime? Right? And, and that this is the other
+
+947
+01:02:55,545 --> 01:02:58,585
+Speaker 10:  part, to go back to your question from 10 minutes ago about why my heart
+
+948
+01:02:58,745 --> 01:03:02,545
+Speaker 10:  sunk, the other thing that really, really has me bummed about this
+
+949
+01:03:03,045 --> 01:03:06,945
+Speaker 10:  is, I, I think of the major streamers, Amazon Prime's original
+
+950
+01:03:06,945 --> 01:03:08,025
+Speaker 10:  content is the worst.
+
+951
+01:03:08,545 --> 01:03:10,985
+Speaker 2:  I was gonna ask you about this, If you were more upset that it was Amazon
+
+952
+01:03:10,985 --> 01:03:14,785
+Speaker 2:  in particular than anybody else. Why I, I like
+
+953
+01:03:14,825 --> 01:03:18,105
+Speaker 2:  Mr. And Mrs. Smith is my only quibble with that statement. But otherwise,
+
+954
+01:03:18,105 --> 01:03:19,145
+Speaker 2:  I think I largely agree with you.
+
+955
+01:03:19,945 --> 01:03:23,825
+Speaker 10:  I haven't watched the Mr. And Mrs. Smith yet, you know,
+
+956
+01:03:24,285 --> 01:03:27,865
+Speaker 10:  and, and the one show that when I mentioned this on Daring, and also I'll
+
+957
+01:03:27,865 --> 01:03:31,625
+Speaker 10:  add that to my list and I, you know, I like, I like spy stuff. I
+
+958
+01:03:31,625 --> 01:03:35,265
+Speaker 10:  like spy shows. I just, it's spy shows, heist shows,
+
+959
+01:03:36,345 --> 01:03:40,105
+Speaker 10:  spy movies that are, you know, more heisty
+
+960
+01:03:40,165 --> 01:03:43,545
+Speaker 10:  is sort of the sweet spot. You know, I I like that sort of
+
+961
+01:03:44,295 --> 01:03:47,985
+Speaker 10:  plot. You know, it's a very middle aged white guy thing to like,
+
+962
+01:03:48,265 --> 01:03:48,945
+Speaker 10:  but that's what I like.
+
+963
+01:03:53,245 --> 01:03:57,145
+Speaker 10:  But I, I don't know, I I was it when I mentioned that I just don't think
+
+964
+01:03:57,145 --> 01:04:00,945
+Speaker 10:  prime's original content is, is good. People pointed
+
+965
+01:04:01,005 --> 01:04:04,345
+Speaker 10:  to a show called Patriot that was on it as like a sort of
+
+966
+01:04:05,385 --> 01:04:09,185
+Speaker 10:  somewhat comedy, and I, I'd never even heard of it. It was on like 2015.
+
+967
+01:04:09,325 --> 01:04:12,705
+Speaker 10:  It was on for two seasons and then they canceled it. So
+
+968
+01:04:12,815 --> 01:04:13,785
+Speaker 2:  That sounds like Amazon.
+
+969
+01:04:14,055 --> 01:04:17,945
+Speaker 10:  Yeah. And I did my, my favorite show on Amazon, but I can't
+
+970
+01:04:18,145 --> 01:04:21,305
+Speaker 10:  recommend it. It was a show called The Peripheral from a few years ago
+
+971
+01:04:22,035 --> 01:04:26,025
+Speaker 10:  based on a William Gibson novel and with a, it was really well
+
+972
+01:04:26,025 --> 01:04:29,705
+Speaker 10:  done, but they canceled it after one season. And it's one of those shows
+
+973
+01:04:29,755 --> 01:04:33,305
+Speaker 10:  where that's why I can't recommend it. It was a very good season, but it
+
+974
+01:04:33,305 --> 01:04:36,665
+Speaker 10:  clearly stopped at a point that it, you know, they were really,
+
+975
+01:04:37,685 --> 01:04:41,225
+Speaker 10:  it wasn't a, a satisfying conclusion. It was meant to keep going for at
+
+976
+01:04:41,225 --> 01:04:45,025
+Speaker 10:  least another season or two, and it didn't, so it's like,
+
+977
+01:04:45,215 --> 01:04:48,825
+Speaker 10:  blah. So it's the best show that they made good production values, good
+
+978
+01:04:48,895 --> 01:04:52,225
+Speaker 10:  cast. I thought it was pretty smart because, you know, I don't, I hadn't
+
+979
+01:04:52,225 --> 01:04:56,185
+Speaker 10:  read Gibson's original book, but it seemed smart enough that they surely
+
+980
+01:04:56,185 --> 01:05:00,145
+Speaker 10:  seemed to use the source material well to make an
+
+981
+01:05:00,145 --> 01:05:04,105
+Speaker 10:  intelligent show. So much else that I've seen on prime's just sort of like,
+
+982
+01:05:04,245 --> 01:05:06,625
+Speaker 10:  it looks bad and it's sort of dumb.
+
+983
+01:05:07,495 --> 01:05:10,585
+Speaker 2:  Yeah. Well, and I think I'm now thinking about
+
+984
+01:05:11,445 --> 01:05:15,305
+Speaker 2:  how many of these sort of generic kind of anonymous
+
+985
+01:05:15,735 --> 01:05:19,685
+Speaker 2:  seeming spy shows there are out there, and a lot of them were
+
+986
+01:05:19,685 --> 01:05:23,325
+Speaker 2:  big hits. Like the, the Night Agent on Netflix is the most forgettable show
+
+987
+01:05:23,325 --> 01:05:27,165
+Speaker 2:  of all time, but is a giant hit. Yeah. And then there's the recruit,
+
+988
+01:05:27,375 --> 01:05:30,605
+Speaker 2:  which I thought was the night agent, but it's actually a different thing.
+
+989
+01:05:31,025 --> 01:05:34,205
+Speaker 2:  And, and there's just a million of these, right? And I think,
+
+990
+01:05:34,835 --> 01:05:38,725
+Speaker 2:  like, I, I probably watch more of them than most, but it, I just keep
+
+991
+01:05:38,725 --> 01:05:42,405
+Speaker 2:  thinking like, you take all of that stuff and you rename it James Bond. Yeah.
+
+992
+01:05:42,405 --> 01:05:45,285
+Speaker 2:  And maybe that's where we're headed is we're just gonna have a million generic
+
+993
+01:05:45,285 --> 01:05:49,045
+Speaker 2:  things with this name that isn't generic and that's how Amazon
+
+994
+01:05:49,045 --> 01:05:52,205
+Speaker 2:  feels like it can win, which is a real bummer way to go. And
+
+995
+01:05:52,205 --> 01:05:55,685
+Speaker 10:  You've got to go back to the word branding. You've got this
+
+996
+01:05:56,095 --> 01:06:00,045
+Speaker 10:  brand that you, you know, like a way to style the logos
+
+997
+01:06:00,265 --> 01:06:04,245
+Speaker 10:  of whatever you call the show. You know, a way to style the, I don't know
+
+998
+01:06:04,245 --> 01:06:08,205
+Speaker 10:  what it would be, I'm not a a logo designer, but a way to style Young
+
+999
+01:06:08,205 --> 01:06:11,805
+Speaker 10:  Money Penny in a way that looks James Bond branded, you know,
+
+1000
+01:06:12,315 --> 01:06:15,605
+Speaker 10:  musical scores, you know, and Disney does,
+
+1001
+01:06:16,705 --> 01:06:19,765
+Speaker 10:  If you like, the proliferation of
+
+1002
+01:06:21,435 --> 01:06:25,405
+Speaker 10:  Cinematic universe content. I mean, Disney does a good job with stuff like
+
+1003
+01:06:25,405 --> 01:06:29,325
+Speaker 10:  the music for, to various Star Wars shows, you know,
+
+1004
+01:06:29,325 --> 01:06:33,165
+Speaker 10:  and it, you know, you tell from, if, If you didn't know
+
+1005
+01:06:33,165 --> 01:06:36,085
+Speaker 10:  what was playing, you could just listen and say, oh, this seems like it
+
+1006
+01:06:36,085 --> 01:06:40,045
+Speaker 10:  must be a Star Wars show. Right. And I guess they'll do that with the Bond,
+
+1007
+01:06:40,045 --> 01:06:42,965
+Speaker 10:  greater Bond. And they, you know, they haven't said they're going to do
+
+1008
+01:06:43,005 --> 01:06:46,885
+Speaker 10:  a greater bond cinematic universe, you know, like I said before, maybe
+
+1009
+01:06:46,885 --> 01:06:50,725
+Speaker 10:  they'll do the right thing and sort of keep it rare
+
+1010
+01:06:51,145 --> 01:06:52,645
+Speaker 10:  or special, but I doubt it.
+
+1011
+01:06:52,835 --> 01:06:55,685
+Speaker 2:  What is the right thing in your mind? What, what feels like the best case
+
+1012
+01:06:56,275 --> 01:06:57,685
+Speaker 2:  plausible scenario here?
+
+1013
+01:06:58,485 --> 01:07:02,445
+Speaker 10:  I would say I would like to see them acknowledge.
+
+1014
+01:07:02,685 --> 01:07:03,085
+Speaker 10:  'cause I think,
+
+1015
+01:07:04,985 --> 01:07:08,725
+Speaker 10:  and again, it sounds so simple, but obviously all of these
+
+1016
+01:07:09,045 --> 01:07:12,045
+Speaker 10:  companies with all this money, they get caught up in it. Like, who thinks
+
+1017
+01:07:12,225 --> 01:07:15,285
+Speaker 10:  it sounds like a good idea to run a creative artistic
+
+1018
+01:07:15,675 --> 01:07:17,125
+Speaker 10:  franchise by committee
+
+1019
+01:07:18,665 --> 01:07:19,285
+Speaker 10:  who thinks
+
+1020
+01:07:20,845 --> 01:07:24,285
+Speaker 10:  a committee of executives in the
+
+1021
+01:07:24,285 --> 01:07:28,125
+Speaker 10:  streaming company should be the ones making the artistic decisions
+
+1022
+01:07:28,505 --> 01:07:32,365
+Speaker 10:  of casting and writing and plotting and pacing and, and stuff
+
+1023
+01:07:32,365 --> 01:07:36,285
+Speaker 10:  like that. Nobody, right. You want filmmakers and
+
+1024
+01:07:36,525 --> 01:07:39,045
+Speaker 10:  creative people making those decisions so
+
+1025
+01:07:40,675 --> 01:07:44,405
+Speaker 10:  they could nip this in the bud and sort of acknowledge all of our
+
+1026
+01:07:44,415 --> 01:07:48,365
+Speaker 10:  fears by, by writing a big check. And the name that comes to mind is
+
+1027
+01:07:48,365 --> 01:07:49,605
+Speaker 10:  Christopher Nolan. Right?
+
+1028
+01:07:50,265 --> 01:07:52,565
+Speaker 2:  Who famously at one point wanted to do a Bond movie,
+
+1029
+01:07:52,735 --> 01:07:56,485
+Speaker 10:  Right? And, and the problem that they ran into was
+
+1030
+01:07:56,515 --> 01:08:00,165
+Speaker 10:  that the Barbara Broccoli ultimately always had
+
+1031
+01:08:00,215 --> 01:08:03,725
+Speaker 10:  final cut of the bond movies. And Nolan,
+
+1032
+01:08:04,145 --> 01:08:08,085
+Speaker 10:  you know, sort of irresistible force meets an immovable object, right?
+
+1033
+01:08:08,235 --> 01:08:11,845
+Speaker 10:  That Nolan doesn't do anything anymore unless he gets
+
+1034
+01:08:12,285 --> 01:08:15,685
+Speaker 10:  contractual, you know, not just a handshake, but in the contract Final cut.
+
+1035
+01:08:17,385 --> 01:08:21,085
+Speaker 10:  But if they just said, you know, call him up and say, you know,
+
+1036
+01:08:21,535 --> 01:08:25,045
+Speaker 10:  let's make a deal for a three, let's do three movies. You're in control.
+
+1037
+01:08:25,265 --> 01:08:27,565
+Speaker 10:  You cast it, you you're in charge of the writing,
+
+1038
+01:08:29,015 --> 01:08:32,725
+Speaker 10:  we'll give you the money. We trust you to do a great job. Just do
+
+1039
+01:08:32,735 --> 01:08:36,245
+Speaker 10:  three great new, you know, reboot the franchise with a new,
+
+1040
+01:08:36,745 --> 01:08:40,645
+Speaker 10:  new actor. You're in control, Christopher Nolan, that
+
+1041
+01:08:40,655 --> 01:08:44,485
+Speaker 10:  would be perfect for me. Or, you know, there
+
+1042
+01:08:44,485 --> 01:08:47,685
+Speaker 10:  are other people other than Christopher Nolan who, who could get that role,
+
+1043
+01:08:47,685 --> 01:08:51,165
+Speaker 10:  but it has to be a filmmaker slash creative person. Someone
+
+1044
+01:08:51,585 --> 01:08:55,565
+Speaker 10:  who, like, if Christopher Nolan passes or they
+
+1045
+01:08:55,565 --> 01:08:59,165
+Speaker 10:  choose somebody else, but Christopher Nolan hears who's in charge, he'd
+
+1046
+01:08:59,165 --> 01:09:02,405
+Speaker 10:  be like, oh, well I kind of wish it was me, but that sounds good to me that
+
+1047
+01:09:02,405 --> 01:09:02,885
+Speaker 10:  they're in charge.
+
+1048
+01:09:03,055 --> 01:09:06,645
+Speaker 2:  Right? Real like Dark Night Trilogy, but with James Bond, right. Kinda
+
+1049
+01:09:06,965 --> 01:09:10,005
+Speaker 2:  situation. And that went, I would say very well for everyone involved, but
+
+1050
+01:09:10,005 --> 01:09:13,105
+Speaker 2:  it does seem like that that dynamic
+
+1051
+01:09:13,975 --> 01:09:17,345
+Speaker 2:  just doesn't seem to exist anywhere anymore. I think there was a while where
+
+1052
+01:09:18,235 --> 01:09:21,865
+Speaker 2:  there were folks out there writing big checks and giving creative control.
+
+1053
+01:09:21,865 --> 01:09:24,865
+Speaker 2:  Like that's, that was the House of Cards story at the very beginning, a million
+
+1054
+01:09:24,865 --> 01:09:27,745
+Speaker 2:  years ago. I think Apple was doing that for a while at the beginning. But
+
+1055
+01:09:27,745 --> 01:09:31,505
+Speaker 2:  we've, we've seen this real retrenchment back
+
+1056
+01:09:31,615 --> 01:09:35,025
+Speaker 2:  from, we're gonna write big checks to great people to make great things.
+
+1057
+01:09:35,085 --> 01:09:38,825
+Speaker 2:  And that's gonna make it all work because the theater business has died because
+
+1058
+01:09:38,825 --> 01:09:41,425
+Speaker 2:  the streaming business has gotten more complicated because its ads. Like,
+
+1059
+01:09:41,645 --> 01:09:44,905
+Speaker 2:  the thing that worries me the most is it feels like every business incentive
+
+1060
+01:09:45,285 --> 01:09:48,745
+Speaker 2:  is going to be, we wanna make Infinity
+
+1061
+01:09:49,805 --> 01:09:53,505
+Speaker 2:  10 episode long miniseries about James Bond
+
+1062
+01:09:53,645 --> 01:09:56,785
+Speaker 2:  and not a great movie every three years. And that's just the business now
+
+1063
+01:09:56,785 --> 01:09:57,825
+Speaker 2:  for these companies. Right?
+
+1064
+01:09:57,925 --> 01:10:01,665
+Speaker 10:  And, and, and I'm sure, you know, I'm sure
+
+1065
+01:10:01,685 --> 01:10:05,105
+Speaker 10:  inside Amazon in particular, that having numbers and
+
+1066
+01:10:05,185 --> 01:10:08,945
+Speaker 10:  spreadsheets and, you know, two page memos or whatever their
+
+1067
+01:10:09,005 --> 01:10:12,505
+Speaker 10:  famous memo length is to back it up with facts
+
+1068
+01:10:13,185 --> 01:10:13,665
+Speaker 10:  actually works,
+
+1069
+01:10:15,525 --> 01:10:19,225
+Speaker 10:  or at least works politically inside the company. Right?
+
+1070
+01:10:19,545 --> 01:10:21,225
+Speaker 10:  I don't know that it works to produce, it
+
+1071
+01:10:21,225 --> 01:10:24,065
+Speaker 2:  Works when you're selling cloud computing, right? Certainly. Yeah.
+
+1072
+01:10:26,365 --> 01:10:30,225
+Speaker 10:  And I, I, I think, I think it's about short-term thinking
+
+1073
+01:10:30,225 --> 01:10:34,145
+Speaker 10:  versus long-term thinking, right? They're not people who are invested
+
+1074
+01:10:34,855 --> 01:10:38,665
+Speaker 10:  like the broccolis were in thinking, Hey, we're, we're
+
+1075
+01:10:38,945 --> 01:10:42,745
+Speaker 10:  spending all this money. We have a $400 million budget to make a
+
+1076
+01:10:42,745 --> 01:10:46,225
+Speaker 10:  fifth movie with Daniel Craig is James Bond, whatever the budget is.
+
+1077
+01:10:46,685 --> 01:10:50,305
+Speaker 10:  And they're of course, interested in the box office of that movie
+
+1078
+01:10:50,575 --> 01:10:54,225
+Speaker 10:  when it drops and when it comes out, and what the critical response will
+
+1079
+01:10:54,225 --> 01:10:57,945
+Speaker 10:  be, and the fact that it's concluding a run
+
+1080
+01:10:58,285 --> 01:11:02,145
+Speaker 10:  in a, in the role for Craig that they want it to feel like a
+
+1081
+01:11:02,145 --> 01:11:05,745
+Speaker 10:  capstone to a great reboot of the franchise.
+
+1082
+01:11:06,045 --> 01:11:09,825
+Speaker 10:  But they're also thinking about the fact that Bond movies get watched
+
+1083
+01:11:10,165 --> 01:11:14,125
+Speaker 10:  10, 20, 30 years from now, right? Like after Barbara
+
+1084
+01:11:14,255 --> 01:11:18,205
+Speaker 10:  Broccoli's gone, you know, like just the way that her, her dad is
+
+1085
+01:11:18,205 --> 01:11:22,165
+Speaker 10:  dead, but the movies he made still stand up and are beloved. And
+
+1086
+01:11:22,165 --> 01:11:26,085
+Speaker 10:  to have somebody who, who has both those goals in mind, you
+
+1087
+01:11:26,085 --> 01:11:29,645
+Speaker 10:  know, I'm sure there is a short term financial logic to it, you know, and
+
+1088
+01:11:29,645 --> 01:11:32,965
+Speaker 10:  I'm sure there was with Disney with Star Wars, right? That they're selling
+
+1089
+01:11:33,035 --> 01:11:36,885
+Speaker 10:  more toys continuously by keeping it in the air con
+
+1090
+01:11:36,885 --> 01:11:40,445
+Speaker 10:  there, there's always new Star Wars stuff. There's always new Marvel syn
+
+1091
+01:11:40,445 --> 01:11:43,925
+Speaker 10:  cinematic stuff. Like, and there, it, and it
+
+1092
+01:11:44,465 --> 01:11:48,365
+Speaker 10:  in some ways, you know, there is an upside to it. It's not all downside,
+
+1093
+01:11:48,425 --> 01:11:52,205
+Speaker 10:  but it's just different and it's so much more like everything
+
+1094
+01:11:52,205 --> 01:11:56,045
+Speaker 10:  else as opposed to being something special, right. That Star
+
+1095
+01:11:56,075 --> 01:11:59,965
+Speaker 10:  Wars is no longer special. Yeah. James Bond movies are still special.
+
+1096
+01:12:00,195 --> 01:12:00,885
+Speaker 10:  They really are.
+
+1097
+01:12:01,235 --> 01:12:04,365
+Speaker 2:  Yeah, it's true. And I, I think it's, it's been, it's an interesting moment
+
+1098
+01:12:04,545 --> 01:12:08,005
+Speaker 2:  in the Bond franchise because I think part of the reason this happened is
+
+1099
+01:12:08,005 --> 01:12:11,845
+Speaker 2:  because by all accounts and reporting the franchise
+
+1100
+01:12:11,865 --> 01:12:15,765
+Speaker 2:  was in total like disarray, they don't have a next bond, right? There's
+
+1101
+01:12:15,845 --> 01:12:19,045
+Speaker 2:  apparently not a script for a movie. Nobody had agreed on anything. The last
+
+1102
+01:12:19,045 --> 01:12:22,965
+Speaker 2:  one came out in what, 2021, like three and a half years ago.
+
+1103
+01:12:23,275 --> 01:12:23,565
+Speaker 2:  Yeah.
+
+1104
+01:12:23,565 --> 01:12:27,205
+Speaker 10:  Because, and I remember the timing because it was sort of like the,
+
+1105
+01:12:28,225 --> 01:12:32,085
+Speaker 10:  one of the big blockbusters to sort of reopen
+
+1106
+01:12:32,325 --> 01:12:34,245
+Speaker 10:  theaters after Covid. That's
+
+1107
+01:12:34,245 --> 01:12:37,975
+Speaker 2:  Right. I I remember that. That was like, that was the post Covid
+
+1108
+01:12:38,065 --> 01:12:41,975
+Speaker 2:  movie. It's like Tenant was the, the mid Covid movie. Yeah.
+
+1109
+01:12:42,675 --> 01:12:46,415
+Speaker 2:  And no time did I, was the post Covid movie Right. Quote unquote post covid.
+
+1110
+01:12:48,195 --> 01:12:52,175
+Speaker 2:  So, and, and yeah, I think the, the part that gives me hope,
+
+1111
+01:12:52,455 --> 01:12:56,375
+Speaker 2:  I guess, is that maybe now we can be out of impasse, right? I would
+
+1112
+01:12:56,375 --> 01:12:59,015
+Speaker 2:  rather have something than nothing. I guess if, if those are the two choices
+
+1113
+01:12:59,015 --> 01:13:02,775
+Speaker 2:  you're gonna give me, I would rather have meh James Bond
+
+1114
+01:13:02,775 --> 01:13:06,735
+Speaker 2:  than nothing, I suppose. But then I wonder if that's, that's
+
+1115
+01:13:06,735 --> 01:13:09,855
+Speaker 2:  the thinking that leads us down this road of problems.
+
+1116
+01:13:10,015 --> 01:13:13,055
+Speaker 10:  I, I, I guess the way I would put it, and I often come back to this in my
+
+1117
+01:13:13,055 --> 01:13:16,455
+Speaker 10:  writing, that it really matters what, it doesn't just matter what your top
+
+1118
+01:13:16,465 --> 01:13:20,255
+Speaker 10:  priorities are as an unordered list. It matters what order
+
+1119
+01:13:20,255 --> 01:13:24,215
+Speaker 10:  they're in. And If you want to, there's a Walt Disney quote that they
+
+1120
+01:13:24,215 --> 01:13:27,255
+Speaker 10:  put up at Disney World when you're walking around, and they always cover,
+
+1121
+01:13:27,395 --> 01:13:31,335
+Speaker 10:  you know, if there's a ride that's under construction and they cover
+
+1122
+01:13:31,335 --> 01:13:34,895
+Speaker 10:  it up so you don't see the construction, and they put inspirational quotes
+
+1123
+01:13:34,895 --> 01:13:38,495
+Speaker 10:  from Walt Disney. And my favorite one is, I guess I'm
+
+1124
+01:13:38,495 --> 01:13:40,575
+Speaker 10:  paraphrasing here, but I think I can get it really close.
+
+1125
+01:13:42,555 --> 01:13:46,415
+Speaker 10:  We don't make movies to make money. We make money
+
+1126
+01:13:46,635 --> 01:13:50,375
+Speaker 10:  to make more movies. And yes, you want to make,
+
+1127
+01:13:50,435 --> 01:13:54,215
+Speaker 10:  you want your movies to be profitable and you want your IP to be
+
+1128
+01:13:54,215 --> 01:13:58,175
+Speaker 10:  profitable, and you want the investment you've made in it to
+
+1129
+01:13:58,175 --> 01:14:02,095
+Speaker 10:  pay off over time. But the most important thing is to keep the
+
+1130
+01:14:02,195 --> 01:14:06,055
+Speaker 10:  art as high as possible and make it popular enough
+
+1131
+01:14:06,075 --> 01:14:10,055
+Speaker 10:  to make money, not to maximize your money. And
+
+1132
+01:14:10,055 --> 01:14:13,725
+Speaker 10:  secondarily, make the content as good as we possibly can. 'cause of course
+
+1133
+01:14:13,725 --> 01:14:16,845
+Speaker 10:  that'll keep it going. But if the most important thing is how do we make
+
+1134
+01:14:16,905 --> 01:14:20,725
+Speaker 10:  the most money from this in the next few years, it's
+
+1135
+01:14:20,725 --> 01:14:24,365
+Speaker 10:  going to hurt the artistic quality of the output. It's inevitable.
+
+1136
+01:14:25,055 --> 01:14:28,905
+Speaker 2:  Yeah. Yeah. And it's, and that is the way that most
+
+1137
+01:14:28,905 --> 01:14:30,945
+Speaker 2:  people seem to be thinking in, in this
+
+1138
+01:14:30,945 --> 01:14:32,945
+Speaker 10:  Particular long time, right? And there's this whole misnomer, we see it
+
+1139
+01:14:32,945 --> 01:14:36,505
+Speaker 10:  in tech all the time. I mean, and people, but it, it really isn't true.
+
+1140
+01:14:36,695 --> 01:14:40,505
+Speaker 10:  It's a philosophy that some people have, but there's no bearing
+
+1141
+01:14:40,685 --> 01:14:43,945
+Speaker 10:  in law. I wish Neli were here. He could probably, maybe he'd tell me to
+
+1142
+01:14:43,945 --> 01:14:46,465
+Speaker 10:  go bugger off, and it isn't law, but I'm pretty sure it's not, I've looked
+
+1143
+01:14:46,465 --> 01:14:50,345
+Speaker 10:  into this, but this notion that publicly
+
+1144
+01:14:50,345 --> 01:14:54,105
+Speaker 10:  held corporations are under a legal obligation to quote
+
+1145
+01:14:54,685 --> 01:14:58,385
+Speaker 10:  max maximize profits for shareholders, right?
+
+1146
+01:14:58,525 --> 01:15:01,665
+Speaker 10:  And that, oh, well, if they make this decision that's sort of bad for the
+
+1147
+01:15:01,665 --> 01:15:05,305
+Speaker 10:  product, but clearly you can see how it's gonna make the money that people
+
+1148
+01:15:05,305 --> 01:15:08,785
+Speaker 10:  who want to excuse them say, well, they had to because they're under a legal
+
+1149
+01:15:08,875 --> 01:15:12,625
+Speaker 10:  obligation to maximize profit for the sh shareholders that there,
+
+1150
+01:15:12,625 --> 01:15:13,625
+Speaker 10:  there, that's not true.
+
+1151
+01:15:14,245 --> 01:15:17,825
+Speaker 2:  And well, and Amazon famously for right, for like 15 years,
+
+1152
+01:15:17,975 --> 01:15:21,825
+Speaker 2:  Jeff Bezos was like, I am going to actively make less money than possible
+
+1153
+01:15:22,285 --> 01:15:26,265
+Speaker 2:  in order to continue to make this company a success and more valuable.
+
+1154
+01:15:26,265 --> 01:15:26,465
+Speaker 2:  Right.
+
+1155
+01:15:28,245 --> 01:15:31,705
+Speaker 2:  Amazon is definitely not that company anymore. But it it is certainly true
+
+1156
+01:15:31,705 --> 01:15:34,505
+Speaker 2:  that that is a thing you can do If you choose to. Yeah. You can do the right
+
+1157
+01:15:34,505 --> 01:15:35,985
+Speaker 2:  thing If you want to.
+
+1158
+01:15:36,285 --> 01:15:39,265
+Speaker 10:  You know, and Tim Cook has talked about that at Apple. There was a thing
+
+1159
+01:15:39,265 --> 01:15:43,105
+Speaker 10:  like 10 years ago, or in the early years of his CEO's ship
+
+1160
+01:15:43,235 --> 01:15:47,105
+Speaker 10:  after Steve Jobs had passed, where somebody had asked some,
+
+1161
+01:15:47,105 --> 01:15:50,105
+Speaker 10:  everybody at their shareholders meeting had questioned the amount of money
+
+1162
+01:15:50,125 --> 01:15:53,905
+Speaker 10:  the company was spending on accessibility. Hmm. And he was like, I don't
+
+1163
+01:15:53,905 --> 01:15:57,865
+Speaker 10:  care about the bloody ROI and you can just say like, why Tim Cook used the
+
+1164
+01:15:57,865 --> 01:16:01,505
+Speaker 10:  word bloody is because I think actual American
+
+1165
+01:16:01,515 --> 01:16:05,305
+Speaker 10:  curse word was on the tip of his tongue. And he caught
+
+1166
+01:16:05,305 --> 01:16:09,105
+Speaker 10:  himself and somehow shifted to the very
+
+1167
+01:16:09,105 --> 01:16:12,625
+Speaker 10:  unusual for an alabaman bloody Yeah. I
+
+1168
+01:16:12,625 --> 01:16:14,305
+Speaker 2:  Don't think he's running around saying that in his day to day.
+
+1169
+01:16:14,305 --> 01:16:17,105
+Speaker 10:  Yeah. But it, you know, by all accounts of that shareholders meeting was
+
+1170
+01:16:17,105 --> 01:16:20,385
+Speaker 10:  very angry, and that it, not every decision they make is going to be about
+
+1171
+01:16:20,585 --> 01:16:24,465
+Speaker 10:  the return on investment. That there's a long-term view that will
+
+1172
+01:16:24,865 --> 01:16:28,585
+Speaker 10:  ultimate and that long-term view will maximize long-term
+
+1173
+01:16:28,775 --> 01:16:31,265
+Speaker 10:  profits. Right. And I think, you know, people looking back
+
+1174
+01:16:58,245 --> 01:17:00,145
+Speaker 2:  get at us. We have thoughts for you
+
+1175
+01:17:00,445 --> 01:17:00,665
+Speaker 10:  Or,
+
+1176
+01:17:15,165 --> 01:17:16,085
+Speaker 10:  a great movie and
+
+1177
+01:20:19,325 --> 01:20:21,825
+Speaker 2:  All right, we're back. Let's get to a question from The Vergecast hotline.
+
+1178
+01:20:21,825 --> 01:20:25,345
+Speaker 2:  As always. You can email vergecast at The Verge dot com. You can call 8 6 6
+
+1179
+01:20:25,665 --> 01:20:29,465
+Speaker 2:  VERGE one one. You can like, I don't know, blue sky. We're not that hard
+
+1180
+01:20:29,465 --> 01:20:32,145
+Speaker 2:  to get ahold of. If you have questions, wanna hear all of your questions.
+
+1181
+01:20:32,275 --> 01:20:35,785
+Speaker 2:  Thank you as always. Everybody who reaches out this week, we have a question
+
+1182
+01:20:36,075 --> 01:20:37,185
+Speaker 2:  about face computers.
+
+1183
+01:20:39,055 --> 01:20:42,745
+Speaker 13:  Hey, it's Mark. I got, I don't know, I'm using a laptop
+
+1184
+01:20:42,925 --> 01:20:46,305
+Speaker 13:  on a computer table on a desk and I am just
+
+1185
+01:20:46,575 --> 01:20:50,265
+Speaker 13:  unhappy. The laptop screen is so low, I feel like I'm just
+
+1186
+01:20:50,265 --> 01:20:54,145
+Speaker 13:  cranking my neck down and I'm sick of it. And while external
+
+1187
+01:20:54,145 --> 01:20:57,985
+Speaker 13:  monitors exist and they're great for desks, I want to be able to move
+
+1188
+01:20:57,985 --> 01:21:01,185
+Speaker 13:  around, travel, go different places, be in the living room wherever I need
+
+1189
+01:21:01,185 --> 01:21:05,065
+Speaker 13:  to be office. I don't care what I look like. Can
+
+1190
+01:21:05,065 --> 01:21:09,025
+Speaker 13:  you help me find something I could put on my face, some type of
+
+1191
+01:21:09,025 --> 01:21:12,305
+Speaker 13:  glasses that I can connect my MacBook Pro to
+
+1192
+01:21:12,845 --> 01:21:16,705
+Speaker 13:  and use as a monitor. And obviously the, the Apple Vision
+
+1193
+01:21:16,725 --> 01:21:20,665
+Speaker 13:  Pro exists, but it seems that the value cur it is just not there. The
+
+1194
+01:21:20,665 --> 01:21:23,865
+Speaker 13:  value's not there. I'm not paying that much for all of those features that
+
+1195
+01:21:23,865 --> 01:21:27,345
+Speaker 13:  I don't need when all I need is a really good screen that plugs
+
+1196
+01:21:27,935 --> 01:21:30,785
+Speaker 13:  into my face. So please help me. Please.
+
+1197
+01:21:32,005 --> 01:21:33,585
+Speaker 2:  All right. V song is here. Hi Vee.
+
+1198
+01:21:34,045 --> 01:21:34,265
+Speaker 14:  Hi.
+
+1199
+01:21:34,745 --> 01:21:37,585
+Speaker 2:  I have never wanted to help anyone as much as I want to help Mark. Oh my
+
+1200
+01:21:37,725 --> 01:21:39,305
+Speaker 14:  God, mark,
+
+1201
+01:21:41,465 --> 01:21:42,625
+Speaker 14:  I feel for you so
+
+1202
+01:21:42,625 --> 01:21:46,025
+Speaker 2:  Much. Yeah, Mark's going through it man. So what do you, what do you think,
+
+1203
+01:21:46,025 --> 01:21:49,545
+Speaker 2:  where does your head immediate? I have an immediate reaction to this. Where
+
+1204
+01:21:49,545 --> 01:21:49,905
+Speaker 2:  do you go?
+
+1205
+01:21:50,225 --> 01:21:53,545
+Speaker 14:  I have one answer for Mark. Okay. And it is the Xreal one glasses.
+
+1206
+01:21:54,025 --> 01:21:55,785
+Speaker 2:  This is where I went to. Okay, good. This
+
+1207
+01:21:55,785 --> 01:21:59,465
+Speaker 14:  Is, this is the answer for you Mark. This is actually, I think the only
+
+1208
+01:21:59,465 --> 01:22:03,385
+Speaker 14:  answer for you, mark because, so what the Xreal one look
+
+1209
+01:22:03,385 --> 01:22:07,065
+Speaker 14:  like is they just look like a normal pair of glasses from a FAR sunglasses
+
+1210
+01:22:07,765 --> 01:22:11,225
+Speaker 14:  and then it has USBC, you plug it into anything
+
+1211
+01:22:11,615 --> 01:22:15,145
+Speaker 14:  that can output video by USBC. So it can be your phone,
+
+1212
+01:22:15,605 --> 01:22:19,345
+Speaker 14:  it can be your laptop, and then vitamin bing bada boom, we've got an extra
+
+1213
+01:22:19,345 --> 01:22:22,625
+Speaker 14:  screen in front of you and people will just think you are a giron
+
+1214
+01:22:22,935 --> 01:22:26,825
+Speaker 14:  indoors wearing sunglasses. But in front of you, you get to see
+
+1215
+01:22:26,825 --> 01:22:30,705
+Speaker 14:  an ultra wide screen If you so choose to enable the ultra wide or you
+
+1216
+01:22:30,705 --> 01:22:34,025
+Speaker 14:  get to see a very large screen in front of you that
+
+1217
+01:22:34,615 --> 01:22:38,025
+Speaker 14:  it's actually surprisingly really good quality. So
+
+1218
+01:22:38,375 --> 01:22:42,145
+Speaker 14:  yeah, I've been testing the Xreal one, which is
+
+1219
+01:22:42,145 --> 01:22:45,745
+Speaker 14:  their newest series of glasses. They also unveiled the
+
+1220
+01:22:45,835 --> 01:22:49,465
+Speaker 14:  Xreal one Pro. What makes it pro off the top of my head,
+
+1221
+01:22:49,885 --> 01:22:53,695
+Speaker 14:  you get some, you know, you know when like someone smacks pro
+
+1222
+01:22:53,795 --> 01:22:56,375
+Speaker 14:  at the end of something. Yeah. And you get just a little bit extra. It's
+
+1223
+01:22:56,375 --> 01:22:59,775
+Speaker 14:  that I'm using the regular Xreal ones and
+
+1224
+01:23:00,375 --> 01:23:03,495
+Speaker 14:  I think they're great as is. I think they're about $500.
+
+1225
+01:23:04,315 --> 01:23:07,725
+Speaker 14:  So you know, a seventh of the price of a vision fro.
+
+1226
+01:23:08,035 --> 01:23:11,725
+Speaker 14:  Yeah. And it basically is going to extend your screen for you.
+
+1227
+01:23:12,595 --> 01:23:15,885
+Speaker 14:  It's not going to like hide your screen, your laptop screen is still gonna
+
+1228
+01:23:15,885 --> 01:23:19,685
+Speaker 14:  be on, but you can just look up and not have to crank your neck down. You
+
+1229
+01:23:19,685 --> 01:23:23,485
+Speaker 14:  can look up and type. So yeah, just crank
+
+1230
+01:23:23,565 --> 01:23:27,525
+Speaker 14:  your font up. My eyes are like really bad ing so
+
+1231
+01:23:27,605 --> 01:23:31,485
+Speaker 14:  whenever I'm typing in it, like I, I was, I was slacking a message
+
+1232
+01:23:31,505 --> 01:23:34,925
+Speaker 14:  to you David earlier in the Xreal ones and I was like, oh Jesus, I can't
+
+1233
+01:23:34,925 --> 01:23:38,645
+Speaker 14:  read this thing to, because my eyes are notoriously bad. So I had to just
+
+1234
+01:23:38,645 --> 01:23:42,205
+Speaker 14:  like be a really old lady and crank up the font to like
+
+1235
+01:23:42,365 --> 01:23:45,805
+Speaker 14:  150 and I was like, oh, now I can read this comfortably. And you can like
+
+1236
+01:23:45,805 --> 01:23:49,005
+Speaker 14:  adjust the, the distance of like the virtual monitor so you can put it further
+
+1237
+01:23:49,035 --> 01:23:53,005
+Speaker 14:  back If you have better vision or put it real up close like
+
+1238
+01:23:53,005 --> 01:23:56,925
+Speaker 14:  me, right? 'cause I'm blind, so Yeah. Extra one.
+
+1239
+01:23:57,075 --> 01:23:57,565
+Speaker 14:  Okay. So
+
+1240
+01:23:58,045 --> 01:24:01,685
+Speaker 2:  I, I think you're right, but I just wanna talk this out a little bit. Okay.
+
+1241
+01:24:01,805 --> 01:24:04,645
+Speaker 2:  I went to exactly the same place that that you did, which I think suggests
+
+1242
+01:24:04,645 --> 01:24:08,405
+Speaker 2:  that this, this is probably the right answer. I think we, we can
+
+1243
+01:24:08,405 --> 01:24:11,805
+Speaker 2:  dispense with the Vision Pro immediately because it's $3,500 and it's really
+
+1244
+01:24:11,805 --> 01:24:15,685
+Speaker 2:  heavy and it's just like for this, this thing that you want it
+
+1245
+01:24:15,685 --> 01:24:19,165
+Speaker 2:  is wildly overkill and also like not
+
+1246
+01:24:19,415 --> 01:24:21,965
+Speaker 2:  ideal because it's really heavy on your face and it's 3,500
+
+1247
+01:24:22,225 --> 01:24:25,645
+Speaker 14:  And just not portable because Mark says he wants it to be portable. So I'm
+
+1248
+01:24:25,765 --> 01:24:29,725
+Speaker 14:  assuming that he occasionally wants to go to a coffee shop. And If you wanna
+
+1249
+01:24:29,725 --> 01:24:33,565
+Speaker 14:  go to a coffee shop, please don't bring your fish in Pro. I just
+
+1250
+01:24:33,835 --> 01:24:37,765
+Speaker 14:  Fair. Yeah, it's, it, the travel case is not that portable.
+
+1251
+01:24:38,225 --> 01:24:41,965
+Speaker 2:  Is it possible though that a meta quest could be the answer?
+
+1252
+01:24:43,235 --> 01:24:47,205
+Speaker 14:  It's possible. I have tried doing work in a meta quest before and
+
+1253
+01:24:47,205 --> 01:24:51,045
+Speaker 14:  come across similar issues. Not in the sense that it's more
+
+1254
+01:24:51,045 --> 01:24:54,605
+Speaker 14:  comfortable, but I just find it just disorienting
+
+1255
+01:24:54,915 --> 01:24:58,565
+Speaker 14:  because I don't know, you don't really have peripheral
+
+1256
+01:24:58,565 --> 01:25:02,325
+Speaker 14:  vision in a, in a quest. So If you are out in public,
+
+1257
+01:25:03,345 --> 01:25:07,085
+Speaker 14:  you Mark says he doesn't care what he looks like. And I love that for Mark,
+
+1258
+01:25:07,225 --> 01:25:10,325
+Speaker 14:  but I think you will care even less if people
+
+1259
+01:25:10,825 --> 01:25:14,245
+Speaker 14:  aren't staring at you. 'cause I feel the stares when people stare at me.
+
+1260
+01:25:14,355 --> 01:25:18,045
+Speaker 14:  Yeah. I just feel like you'll be more comfortable and honestly a little
+
+1261
+01:25:18,045 --> 01:25:21,165
+Speaker 14:  safer because you never know who's a whack job out there just
+
+1262
+01:25:21,985 --> 01:25:23,965
+Speaker 14:  taking pictures of you like that's
+
+1263
+01:25:24,345 --> 01:25:26,685
+Speaker 2:  Fun or stealing your laptop while you're not looking at it or
+
+1264
+01:25:26,765 --> 01:25:29,845
+Speaker 14:  Stealing your laptop while you're not looking at it because you are in a
+
+1265
+01:25:29,845 --> 01:25:33,795
+Speaker 14:  headset. I just, I don't think really we're at a place
+
+1266
+01:25:33,795 --> 01:25:37,715
+Speaker 14:  where the headsets make sense for productivity no matter what the big tech
+
+1267
+01:25:37,715 --> 01:25:41,395
+Speaker 14:  people say like gaming. Sure. Like
+
+1268
+01:25:42,215 --> 01:25:45,975
+Speaker 14:  I think the meta quest is great in terms of like how lightweight it is.
+
+1269
+01:25:46,125 --> 01:25:47,815
+Speaker 14:  It's much more comfortable than the Vision Pro.
+
+1270
+01:25:49,575 --> 01:25:53,215
+Speaker 14:  I find it looks really grainy in there anyway though. So that's not my favorite
+
+1271
+01:25:53,305 --> 01:25:57,255
+Speaker 14:  thing. So I think in terms of screen resolution, listen,
+
+1272
+01:25:57,575 --> 01:26:01,535
+Speaker 14:  I watched Stray Kids videos in, in the X reel to test and I
+
+1273
+01:26:01,535 --> 01:26:05,245
+Speaker 14:  was like, oh, my boys, my sons, my K-pop sons,
+
+1274
+01:26:05,245 --> 01:26:08,405
+Speaker 14:  they're in such high resolution, I love this. So,
+
+1275
+01:26:09,195 --> 01:26:12,885
+Speaker 2:  Okay. Yeah. So, and then the other thing I'm trying to figure out is there
+
+1276
+01:26:12,885 --> 01:26:16,205
+Speaker 2:  are basically two ways to do a screen in front of your face, right? One is
+
+1277
+01:26:16,345 --> 01:26:20,245
+Speaker 2:  the like standard Xreal thing where it's just, it's
+
+1278
+01:26:20,245 --> 01:26:23,805
+Speaker 2:  just a display in front of your eyes and when your eyes move, the display
+
+1279
+01:26:23,805 --> 01:26:27,165
+Speaker 2:  moves with your eyes, right? Like that's very straightforwardly. This is
+
+1280
+01:26:27,165 --> 01:26:29,725
+Speaker 2:  the thing that Xreal and a couple of others have been doing for a while.
+
+1281
+01:26:30,705 --> 01:26:33,805
+Speaker 2:  The other one, and I think this is the difference when you get into like
+
+1282
+01:26:33,805 --> 01:26:36,805
+Speaker 2:  the pro universe is you get the sort of three degrees of freedom where I
+
+1283
+01:26:36,805 --> 01:26:40,685
+Speaker 2:  can like leave the screen over there. Yeah. Or, or kind
+
+1284
+01:26:40,685 --> 01:26:44,485
+Speaker 2:  of have it exist in like anchored in physical space around
+
+1285
+01:26:44,485 --> 01:26:47,845
+Speaker 2:  me, even though it's a virtual screen. And I'm trying to think if I'm just
+
+1286
+01:26:47,925 --> 01:26:51,435
+Speaker 2:  a person trying to use my computer, which of those is
+
+1287
+01:26:51,655 --> 01:26:55,615
+Speaker 2:  better? Because on the one hand, like my screen exists in
+
+1288
+01:26:55,655 --> 01:26:59,015
+Speaker 2:  a, in a space and if I move my head, my screen stays over here.
+
+1289
+01:26:59,435 --> 01:27:03,055
+Speaker 2:  So that sort of tracks with real world. But also if, if I'm wearing these
+
+1290
+01:27:03,055 --> 01:27:06,375
+Speaker 2:  glasses so that I can look at my screen, actually being able to turn my head
+
+1291
+01:27:06,375 --> 01:27:08,975
+Speaker 2:  and still be looking at my screen might be a good thing.
+
+1292
+01:27:09,485 --> 01:27:11,775
+Speaker 14:  Yeah. I think, do you know what I mean? I think that is a good thing. I,
+
+1293
+01:27:11,895 --> 01:27:15,655
+Speaker 14:  I do appreciate that about the Xreal and there's a button you can
+
+1294
+01:27:15,785 --> 01:27:18,655
+Speaker 14:  press that we'll just turn them into normal glasses in case you have to
+
+1295
+01:27:18,755 --> 01:27:22,175
+Speaker 14:  see what actually is going on around you. So that's not so bad.
+
+1296
+01:27:23,515 --> 01:27:27,335
+Speaker 14:  My thing is, is if you're actually working, typing in the headsets is
+
+1297
+01:27:27,935 --> 01:27:31,495
+Speaker 14:  a bitch, there's no way around it. Yeah. Unless you have your peripherals
+
+1298
+01:27:31,495 --> 01:27:34,775
+Speaker 14:  with you and I mean If you're connecting to a laptop, you can just use a
+
+1299
+01:27:34,775 --> 01:27:38,575
+Speaker 14:  laptop's keyboard, that's totally fine. But it's just not
+
+1300
+01:27:38,655 --> 01:27:41,815
+Speaker 14:  a comfortable experience is what I would say. So if you're doing long-term
+
+1301
+01:27:41,845 --> 01:27:45,575
+Speaker 14:  work, I find a pair of glasses easier to wear for
+
+1302
+01:27:45,815 --> 01:27:49,695
+Speaker 14:  a longer period of time. If you're trying to do deep work. The one thing
+
+1303
+01:27:49,855 --> 01:27:53,735
+Speaker 14:  I do find that the pro headsets have an advantage over is you could make
+
+1304
+01:27:54,055 --> 01:27:57,775
+Speaker 14:  that screen so big. True. If you ever really wanna feel
+
+1305
+01:27:57,845 --> 01:28:01,775
+Speaker 14:  existential dread in a draft, just make it, make the screen the size of
+
+1306
+01:28:01,775 --> 01:28:05,215
+Speaker 14:  your wall stare at it and just go like, why won't the words come?
+
+1307
+01:28:05,675 --> 01:28:05,895
+Speaker 14:  Ah,
+
+1308
+01:28:06,045 --> 01:28:08,975
+Speaker 2:  Have you ever done that? That is like sadistic I've done. I'm gonna look
+
+1309
+01:28:08,975 --> 01:28:12,615
+Speaker 2:  at every word that I have written for this story six feet across.
+
+1310
+01:28:12,765 --> 01:28:13,215
+Speaker 2:  That sounds
+
+1311
+01:28:13,215 --> 01:28:17,015
+Speaker 14:  Awful. I have done that. It is awful. I will tell you I've done that.
+
+1312
+01:28:17,125 --> 01:28:20,615
+Speaker 14:  I've just like full screened, a full screened
+
+1313
+01:28:20,855 --> 01:28:24,815
+Speaker 14:  CMS stared at it and just gone like, wow, I've made a life choice
+
+1314
+01:28:25,235 --> 01:28:29,055
+Speaker 14:  and wow, I really don't like the structure
+
+1315
+01:28:29,195 --> 01:28:33,055
+Speaker 14:  of this graph. What if we just delete it? So I
+
+1316
+01:28:33,055 --> 01:28:36,975
+Speaker 14:  have done that not frequently. Mostly when I was testing just to like
+
+1317
+01:28:36,975 --> 01:28:40,545
+Speaker 14:  torture myself. Because why not? Why not?
+
+1318
+01:28:41,745 --> 01:28:44,625
+Speaker 14:  I will say that if you're doing a lot of writing though, you really gotta
+
+1319
+01:28:44,625 --> 01:28:48,305
+Speaker 14:  crank up the font in the X reels. Hmm. And it's not my favorite
+
+1320
+01:28:48,485 --> 01:28:52,145
+Speaker 14:  to write in. It is a lot better if you're doing
+
+1321
+01:28:52,815 --> 01:28:56,425
+Speaker 14:  just casual media viewing, but you can do it
+
+1322
+01:28:57,245 --> 01:29:00,145
+Speaker 14:  and as long as you're not looking at 40,000 Excel cells,
+
+1323
+01:29:01,125 --> 01:29:04,725
+Speaker 14:  I think you should be fine. Like if you're just making a deck, blow the
+
+1324
+01:29:04,725 --> 01:29:08,205
+Speaker 14:  deck up, you'll be fine. It's great if you're doing like
+
+1325
+01:29:08,765 --> 01:29:12,525
+Speaker 14:  a draft where there's hundreds of tiny little words, just
+
+1326
+01:29:12,615 --> 01:29:16,565
+Speaker 14:  crank it up to 180 and then you can read comfortably instead
+
+1327
+01:29:16,565 --> 01:29:20,325
+Speaker 14:  of squinting in your glasses and going like, ugh. Yeah. That's, that's the
+
+1328
+01:29:20,325 --> 01:29:21,445
+Speaker 14:  only thing I'll say. You do
+
+1329
+01:29:21,445 --> 01:29:23,965
+Speaker 2:  Make an interesting point about the resolution though. 'cause there is, there
+
+1330
+01:29:23,965 --> 01:29:27,565
+Speaker 2:  is a certain kind of like number
+
+1331
+01:29:27,595 --> 01:29:31,325
+Speaker 2:  crunching spreadsheeting work that I would say no one
+
+1332
+01:29:31,325 --> 01:29:34,685
+Speaker 2:  should do in a headset of any resolution. Correct. Because it'll, it'll,
+
+1333
+01:29:34,685 --> 01:29:38,645
+Speaker 2:  it'll just destroy your eyes and brain trying to make sense of
+
+1334
+01:29:38,645 --> 01:29:38,965
+Speaker 2:  all of it.
+
+1335
+01:29:39,315 --> 01:29:40,845
+Speaker 14:  Also your soul also your
+
+1336
+01:29:40,845 --> 01:29:42,085
+Speaker 2:  Soul also also your soul. Yeah. Nothing
+
+1337
+01:29:42,465 --> 01:29:42,885
+Speaker 14:  You'll
+
+1338
+01:29:42,885 --> 01:29:45,365
+Speaker 2:  Just be like, like If you wanna see the Excel numbers bigger, you're in real
+
+1339
+01:29:45,365 --> 01:29:48,965
+Speaker 2:  trouble. But I think Yeah, yeah. There's like part of me
+
+1340
+01:29:49,415 --> 01:29:52,485
+Speaker 2:  hears Mark and is like, mark, what you need is not glasses. What you need
+
+1341
+01:29:52,485 --> 01:29:56,125
+Speaker 2:  is one of those cool foldy stands that just moves your laptop
+
+1342
+01:29:56,305 --> 01:29:56,925
+Speaker 2:  up higher. I
+
+1343
+01:29:56,925 --> 01:30:00,645
+Speaker 14:  Was also gonna suggest that I was like, mark, mark, what if we, what if
+
+1344
+01:30:00,645 --> 01:30:04,485
+Speaker 14:  we, I think Welch took a picture of a guy one time in a coffee shop
+
+1345
+01:30:04,505 --> 01:30:08,285
+Speaker 14:  who just had like seven books stacked on top of each other and the laptop
+
+1346
+01:30:08,305 --> 01:30:11,085
+Speaker 14:  on top of it and was just happy as a clam working.
+
+1347
+01:30:12,805 --> 01:30:16,685
+Speaker 14:  I, we will say you probably have seven books in your bookcase Mark If
+
+1348
+01:30:16,685 --> 01:30:20,645
+Speaker 14:  you wanna try that then before you shell out $500
+
+1349
+01:30:20,825 --> 01:30:24,725
+Speaker 14:  for a pair of smart glasses face computers. But If you
+
+1350
+01:30:24,725 --> 01:30:28,365
+Speaker 14:  are gonna go the face computer out, I really do think the Xreal one is probably
+
+1351
+01:30:29,075 --> 01:30:32,995
+Speaker 14:  your only option. There might be a, there
+
+1352
+01:30:32,995 --> 01:30:36,195
+Speaker 14:  might be like other competitors that I just haven't tried yet, but as far
+
+1353
+01:30:36,195 --> 01:30:40,115
+Speaker 14:  as one that I have gotten my hands on, put on my face and
+
+1354
+01:30:40,115 --> 01:30:44,035
+Speaker 14:  feel comfortable recommending, I would say the Xreal, they have
+
+1355
+01:30:44,475 --> 01:30:47,795
+Speaker 14:  multiple options in multiple price ranges. But the ones that I have used
+
+1356
+01:30:48,255 --> 01:30:51,755
+Speaker 14:  and can say has a pretty good screen resolution is the Xreal one.
+
+1357
+01:30:52,225 --> 01:30:56,115
+Speaker 2:  Yeah. And I think in a case like this, if you're se like I, I was
+
+1358
+01:30:56,115 --> 01:30:58,635
+Speaker 2:  just looking at extra's website 'cause I, I've tried a few of these and it's
+
+1359
+01:30:58,635 --> 01:31:02,115
+Speaker 2:  like you can get the thing that you're describing, which is screen in front
+
+1360
+01:31:02,115 --> 01:31:05,875
+Speaker 2:  of your face for less than the price of the one. But I
+
+1361
+01:31:05,875 --> 01:31:09,835
+Speaker 2:  also think if you're gonna use this thing as hard as it sounds like our,
+
+1362
+01:31:09,835 --> 01:31:12,875
+Speaker 2:  our buddy Mark is gonna use it. Yeah. You should pay for the extra resolution.
+
+1363
+01:31:12,875 --> 01:31:16,635
+Speaker 2:  Like it's your, your eyes will thank you If you just
+
+1364
+01:31:16,725 --> 01:31:20,155
+Speaker 2:  spend a little bit more to get the one that looks the best you possibly can
+
+1365
+01:31:20,585 --> 01:31:24,275
+Speaker 14:  That, and especially If you like, wanna watch a video privately
+
+1366
+01:31:24,375 --> 01:31:25,075
+Speaker 14:  on the way back.
+
+1367
+01:31:25,345 --> 01:31:25,635
+Speaker 2:  True
+
+1368
+01:31:25,745 --> 01:31:29,555
+Speaker 14:  Commuting. Like that's, I'm telling you the stray kids,
+
+1369
+01:31:29,655 --> 01:31:33,275
+Speaker 14:  the the makeup resolution was really great and I was just like, they're
+
+1370
+01:31:33,275 --> 01:31:36,755
+Speaker 14:  so beautiful. I love this. I love watching my
+
+1371
+01:31:37,035 --> 01:31:40,835
+Speaker 14:  effeminate sons from a different country dance, complicated
+
+1372
+01:31:40,875 --> 01:31:42,955
+Speaker 14:  choreography and technicolor. It's great.
+
+1373
+01:31:43,055 --> 01:31:45,115
+Speaker 2:  And they're doing it just for you because that's the glasses,
+
+1374
+01:31:45,115 --> 01:31:47,475
+Speaker 14:  They're doing it just for me because they're on the glasses. No one can,
+
+1375
+01:31:47,895 --> 01:31:51,395
+Speaker 14:  no one can see me watch a million tiktoks of the Justin
+
+1376
+01:31:51,505 --> 01:31:54,595
+Speaker 14:  Baldoni Blake Lively case. It's just for me. So,
+
+1377
+01:31:54,815 --> 01:31:55,995
+Speaker 2:  And now for all of us, that's,
+
+1378
+01:31:55,995 --> 01:31:57,595
+Speaker 14:  That's on top of that. And now for all of
+
+1379
+01:31:57,595 --> 01:32:00,475
+Speaker 2:  Us. But that's, it's just, we won't tell anybody. Don't worry. Just
+
+1380
+01:32:00,715 --> 01:32:03,475
+Speaker 14:  I am, I've watched way too many tiktoks about that case,
+
+1381
+01:32:04,815 --> 01:32:06,315
+Speaker 14:  so I'm glad that it's private.
+
+1382
+01:32:07,665 --> 01:32:08,555
+Speaker 2:  It's, it's for the best.
+
+1383
+01:32:09,065 --> 01:32:09,795
+Speaker 14:  It's for the best
+
+1384
+01:32:10,435 --> 01:32:12,195
+Speaker 2:  V Thank you Mark. I hope that helps.
+
+1385
+01:32:15,215 --> 01:32:17,875
+Speaker 2:  All right, that's it for The Vergecast today. Thank you to everybody who
+
+1386
+01:32:17,875 --> 01:32:21,635
+Speaker 2:  came on and thank you as always for listening. There's lots more on everything
+
+1387
+01:32:21,635 --> 01:32:25,115
+Speaker 2:  we talked about. Lots of great Sean coverage of all of the framework stuff.
+
+1388
+01:32:25,425 --> 01:32:29,315
+Speaker 2:  I'll link to John's stuff on James Bond and Amazon and all
+
+1389
+01:32:29,315 --> 01:32:32,315
+Speaker 2:  that stuff. We'll put some stuff on the Xreal glasses in the show notes,
+
+1390
+01:32:32,535 --> 01:32:35,755
+Speaker 2:  all of that in the show notes. Keep an eye on everything but also keep it
+
+1391
+01:32:35,755 --> 01:32:39,435
+Speaker 2:  locked on The Verge As far as I can tell this surprisingly early
+
+1392
+01:32:39,495 --> 01:32:43,475
+Speaker 2:  gadget season is not going to stop anytime soon. So keep an eye
+
+1393
+01:32:43,475 --> 01:32:46,955
+Speaker 2:  out anyway. As always, If you have questions,
+
+1394
+01:32:46,995 --> 01:32:50,755
+Speaker 2:  thoughts, feelings, James Bond pitches you want to get out to somebody, you
+
+1395
+01:32:50,755 --> 01:32:54,635
+Speaker 2:  can always email us at vergecast at The Verge dot com or call the hotline
+
+1396
+01:32:54,635 --> 01:32:58,315
+Speaker 2:  eight six six VERGE one one. We honestly love hearing from you. It remains
+
+1397
+01:32:58,695 --> 01:33:01,555
+Speaker 2:  my very favorite thing about doing this show is hearing from all of you.
+
+1398
+01:33:02,175 --> 01:33:05,235
+Speaker 2:  The Vergecast is The Verge production and part of the Vox Media podcast network.
+
+1399
+01:33:05,385 --> 01:33:08,875
+Speaker 2:  This show is produced by Eric Gomez, Brandon Keefer and Will Poor
+
+1400
+01:33:09,505 --> 01:33:12,595
+Speaker 2:  Neli. And I'll be back on Friday to talk about all of the news,
+
+1401
+01:33:13,295 --> 01:33:17,275
+Speaker 2:  all of the politics, all of the gadgets, all of the, everything that
+
+1402
+01:33:17,275 --> 01:33:19,715
+Speaker 2:  just keeps happening. We'll see you then. Rock and roll.
+

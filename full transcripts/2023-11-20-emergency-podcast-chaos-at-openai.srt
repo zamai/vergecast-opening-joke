@@ -1,0 +1,4806 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 0e30667a-89ec-432f-bd7a-17abacd3be09
+Status: Done
+Stage: Done
+Title: Emergency podcast: chaos at OpenAI
+Audio URL: https://jfe93e.s3.amazonaws.com/6449502415614577915/-4703972831952406030/s93290-US-4289s-1700520094.mp3
+Description: The Verge's Nilay Patel and Alex Heath join David Pierce after a long, winding weekend reporting on the dramatic shakeup at OpenAI, still in progress.
+
+2
+00:00:01,685 --> 00:00:05,255
+Speaker 2:  This podcast is brought to you by Meta Quest. Three, the new mixed reality
+
+3
+00:00:05,255 --> 00:00:09,175
+Speaker 2:  headset from Meta. Expand your world in ways you never thought possible with
+
+4
+00:00:09,175 --> 00:00:13,015
+Speaker 2:  the new Meta Quest. Three. Put on the most powerful quest yet and
+
+5
+00:00:13,015 --> 00:00:16,975
+Speaker 2:  jump into fully immersive games like Assassin's Creed Nexus or blend
+
+6
+00:00:16,975 --> 00:00:20,535
+Speaker 2:  virtual elements into your surroundings in games like Stranger Things vr.
+
+7
+00:00:20,965 --> 00:00:24,695
+Speaker 2:  With over 500 titles, it's easy to dive into whatever you're
+
+8
+00:00:24,695 --> 00:00:28,575
+Speaker 2:  into. Expand your world with Meta Quest three. See child safety guidance
+
+9
+00:00:28,575 --> 00:00:31,015
+Speaker 2:  online accounts for 10 and up. Certain apps, games and experiences may be
+
+10
+00:00:31,175 --> 00:00:33,575
+Speaker 2:  suitable for a more mature audience. Learn more at Meta dot com.
+
+11
+00:00:38,075 --> 00:00:41,965
+Speaker 3:  Support for this show comes from Kraken. Crypto is like the financial
+
+12
+00:00:41,965 --> 00:00:45,805
+Speaker 3:  system, but different. It doesn't care where you come from, what you
+
+13
+00:00:45,805 --> 00:00:49,645
+Speaker 3:  look like, your credit score or your outrageous food delivery habits. Crypto
+
+14
+00:00:49,785 --> 00:00:52,845
+Speaker 3:  is financed for everyone everywhere all the time.
+
+15
+00:00:53,385 --> 00:00:56,925
+Speaker 3:  Kraken. See what crypto can be. Not investment advice.
+
+16
+00:00:56,985 --> 00:01:00,525
+Speaker 3:  Crypto trading involves risk of loss. Cryptocurrency services are provided
+
+17
+00:01:00,525 --> 00:01:04,085
+Speaker 3:  to us and US territory customers by pay Word Ventures incorporated. View
+
+18
+00:01:04,315 --> 00:01:07,645
+Speaker 3:  PBIS disclosures at kraken.com/legal/disclosures.
+
+19
+00:01:18,815 --> 00:01:22,765
+Speaker 4:  Hello and Welcome To, an emergency crossover episode of The Vergecast
+
+20
+00:01:22,825 --> 00:01:26,685
+Speaker 4:  and Decoder. I'm Eli Patel. I host both shows. I've got David Pierce
+
+21
+00:01:26,685 --> 00:01:30,525
+Speaker 4:  with me. Hello Alex. Heath is here. Hello. We are supposed to be
+
+22
+00:01:30,525 --> 00:01:34,165
+Speaker 4:  off on both shows this week, but given what happened with
+
+23
+00:01:34,345 --> 00:01:38,205
+Speaker 4:  OpenAI over the weekend, which is a story about org charts, in
+
+24
+00:01:38,205 --> 00:01:41,885
+Speaker 4:  many ways we had no choice but to do an emergency episode of our podcast,
+
+25
+00:01:41,885 --> 00:01:45,605
+Speaker 4:  especially because Alex and I spent our weekends on the phone
+
+26
+00:01:46,405 --> 00:01:50,245
+Speaker 4:  breaking a bunch of news about the discussions that led to what
+
+27
+00:01:50,305 --> 00:01:53,925
+Speaker 4:  at this moment is Sam Altman Microsoft
+
+28
+00:01:54,245 --> 00:01:58,125
+Speaker 4:  employee, which I can confidently say is an outcome no one thought would
+
+29
+00:01:58,125 --> 00:02:01,285
+Speaker 4:  happen in this entire saga. This is so bananas.
+
+30
+00:02:02,105 --> 00:02:05,885
+Speaker 4:  It is. The whole thing is in insane. I'm very much in the weeds on this whole
+
+31
+00:02:05,885 --> 00:02:09,805
+Speaker 4:  thing. So David, can you help us get through what happened
+
+32
+00:02:09,805 --> 00:02:11,565
+Speaker 4:  this weekend because it is crazy.
+
+33
+00:02:12,225 --> 00:02:15,965
+Speaker 5:  Yes. Okay, so we're, we're gonna do the following in
+
+34
+00:02:15,975 --> 00:02:19,085
+Speaker 5:  three parts because I think this is the only way to do it in a way that makes
+
+35
+00:02:19,105 --> 00:02:22,845
+Speaker 5:  any sense. The first thing we're gonna do is just basically
+
+36
+00:02:22,875 --> 00:02:26,325
+Speaker 5:  tell the story of the last 96 hours, starting from
+
+37
+00:02:26,875 --> 00:02:30,605
+Speaker 5:  sort of midday Friday until where we are right now.
+
+38
+00:02:30,605 --> 00:02:34,245
+Speaker 5:  Things are still changing. There's a non-zero chance that Real News will
+
+39
+00:02:34,245 --> 00:02:37,765
+Speaker 5:  break while we're recording this, but we're gonna get as close to the moment
+
+40
+00:02:38,065 --> 00:02:40,925
+Speaker 5:  as we can as we do this and So I, just wanna tell the story all the way through.
+
+41
+00:02:41,195 --> 00:02:44,005
+Speaker 5:  Then I wanna talk about the, the org charts piece that you're talking about.
+
+42
+00:02:44,005 --> 00:02:47,725
+Speaker 5:  We're gonna talk about OpenAI as a company and how this happened and I know
+
+43
+00:02:47,725 --> 00:02:51,285
+Speaker 5:  that's a thing you two have spent a lot of time trying to sort through and
+
+44
+00:02:51,285 --> 00:02:53,605
+Speaker 5:  others have done really good reporting on over the course of this weekend.
+
+45
+00:02:53,605 --> 00:02:56,845
+Speaker 5:  So we're gonna talk about that and then at the very end, I wrote this down
+
+46
+00:02:56,865 --> 00:03:00,845
+Speaker 5:  as just winners and losers. Totally. But I think it's useful to talk about
+
+47
+00:03:00,875 --> 00:03:04,805
+Speaker 5:  kind of what this landscape looks like going
+
+48
+00:03:04,805 --> 00:03:08,685
+Speaker 5:  forward. So all of that said, let's, let's just start at the beginning
+
+49
+00:03:08,825 --> 00:03:12,805
+Speaker 5:  and, and the beginning is Friday afternoon, at least as far as I can
+
+50
+00:03:12,805 --> 00:03:16,285
+Speaker 5:  tell out of absolutely nowhere. OpenAI publishes a blog post
+
+51
+00:03:16,385 --> 00:03:20,165
+Speaker 5:  saying in basically as many words, we have fired
+
+52
+00:03:20,265 --> 00:03:24,125
+Speaker 5:  Sam Altman as our CEO. That's where all of this begins. So the
+
+53
+00:03:24,125 --> 00:03:27,805
+Speaker 5:  board fires him, they kick Greg Brockman
+
+54
+00:03:27,905 --> 00:03:31,365
+Speaker 5:  off of the board. He then a few hours later, immediately quits.
+
+55
+00:03:31,745 --> 00:03:34,885
+Speaker 5:  And as far as we understand, and you, you two should correct me if I'm wrong,
+
+56
+00:03:34,885 --> 00:03:38,565
+Speaker 5:  because I think the like minutes leading up to this are very important. No
+
+57
+00:03:38,565 --> 00:03:42,405
+Speaker 5:  one, including most people at OpenAI had any idea
+
+58
+00:03:42,405 --> 00:03:43,565
+Speaker 5:  this was coming. Correct.
+
+59
+00:03:44,195 --> 00:03:47,205
+Speaker 6:  It's not only that they didn't know it was coming. They were actually on
+
+60
+00:03:47,285 --> 00:03:51,205
+Speaker 6:  a company holiday, so they were taking a like day of rest because of
+
+61
+00:03:51,205 --> 00:03:54,485
+Speaker 6:  all the craziest of the previous week where they were announcing all these
+
+62
+00:03:54,645 --> 00:03:58,525
+Speaker 6:  products that Sam was the face of. So not only were they weren't prepared,
+
+63
+00:03:58,525 --> 00:04:02,405
+Speaker 6:  but it was actually when they were all actively not looking at what
+
+64
+00:04:02,405 --> 00:04:03,285
+Speaker 6:  was going on at the company.
+
+65
+00:04:03,745 --> 00:04:07,205
+Speaker 4:  And then externally, the company was totally business as usual, right. Sam
+
+66
+00:04:07,265 --> 00:04:10,325
+Speaker 4:  had just been on the Hard Fork podcast.
+
+67
+00:04:11,105 --> 00:04:14,525
+Speaker 4:  He had taped an interview with Casey Newton and Kevin Rus an interview, which
+
+68
+00:04:14,525 --> 00:04:18,365
+Speaker 4:  they had to can because he got fired two days later. He had been doing other
+
+69
+00:04:18,365 --> 00:04:21,525
+Speaker 4:  appearances like from all external appearances. This was totally
+
+70
+00:04:22,405 --> 00:04:26,205
+Speaker 4:  business as usual for this company. And Sam was completely shocked when the
+
+71
+00:04:26,205 --> 00:04:29,605
+Speaker 4:  board called him into a Google meet, which is also very funny
+
+72
+00:04:30,345 --> 00:04:34,165
+Speaker 4:  and fired him. And for everything we understand about that Google Meet
+
+73
+00:04:34,185 --> 00:04:38,005
+Speaker 4:  is they basically read him the statement which is, you have not been consistently
+
+74
+00:04:38,005 --> 00:04:41,485
+Speaker 4:  candid with your communications to the board and we don't think that we can
+
+75
+00:04:41,485 --> 00:04:44,165
+Speaker 4:  trust you around the company. And that's all he got. That's all anyone has
+
+76
+00:04:44,165 --> 00:04:44,365
+Speaker 4:  gotten.
+
+77
+00:04:44,825 --> 00:04:48,565
+Speaker 5:  So Alex, one of the things we all immediately started
+
+78
+00:04:48,565 --> 00:04:52,205
+Speaker 5:  talking about was the like ruthlessness of this
+
+79
+00:04:52,205 --> 00:04:55,645
+Speaker 5:  statement. Yeah. Normally when, when you're getting rid of your CEO, even
+
+80
+00:04:55,645 --> 00:04:59,125
+Speaker 5:  if you're essentially firing your CEO, you find a way to do this sort of
+
+81
+00:04:59,125 --> 00:05:02,765
+Speaker 5:  slowly and nicely so that they get to like step away to spend more time with
+
+82
+00:05:02,765 --> 00:05:06,245
+Speaker 5:  their family or You know take some time off or whatever and everybody
+
+83
+00:05:06,525 --> 00:05:10,205
+Speaker 5:  pretends this is nice even when it's not. This was the
+
+84
+00:05:10,445 --> 00:05:13,285
+Speaker 5:  opposite of that. Like I don't, don don't know that I can remember a thing
+
+85
+00:05:13,285 --> 00:05:16,965
+Speaker 5:  that felt as much just like a knife of a blog post as this one.
+
+86
+00:05:17,185 --> 00:05:17,405
+Speaker 5:  Oh
+
+87
+00:05:17,405 --> 00:05:20,965
+Speaker 6:  Yeah, this is ice cold. I mean, this is saying that you are
+
+88
+00:05:20,985 --> 00:05:24,885
+Speaker 6:  firing someone in a fairly direct way for a situation like this.
+
+89
+00:05:24,915 --> 00:05:28,765
+Speaker 6:  Usually when it is a co-founder and it is someone as high
+
+90
+00:05:28,765 --> 00:05:32,645
+Speaker 6:  profile as Sam Altman, like Neli was saying, this will be very managed.
+
+91
+00:05:33,185 --> 00:05:37,005
+Speaker 6:  It will phase out. You know he'll phase out of the company.
+
+92
+00:05:37,865 --> 00:05:41,645
+Speaker 6:  It looks like You know he's wanting to pursue his passions, those kinds of
+
+93
+00:05:41,645 --> 00:05:45,605
+Speaker 6:  words. And this was like, no, we, we have knifed, Sam Altman
+
+94
+00:05:45,605 --> 00:05:49,525
+Speaker 6:  in the back in the night. And I mean, just like what Neli
+
+95
+00:05:49,525 --> 00:05:53,445
+Speaker 6:  was saying about this being business as usual, he was literally at
+
+96
+00:05:53,645 --> 00:05:57,365
+Speaker 6:  a conference the day before and the night before even.
+
+97
+00:05:57,785 --> 00:06:01,605
+Speaker 6:  And I'm told was like, I've gotta go. I've got a meeting. And I think
+
+98
+00:06:01,605 --> 00:06:05,205
+Speaker 6:  it was right when all this was starting. So he was literally on stage
+
+99
+00:06:06,005 --> 00:06:09,885
+Speaker 6:  representing OpenAI with a bunch of artists in Oakland right
+
+100
+00:06:09,885 --> 00:06:10,685
+Speaker 6:  before all this happened.
+
+101
+00:06:11,075 --> 00:06:14,765
+Speaker 5:  Okay. So all this happens. Mira Meti, the cce, the CTO
+
+102
+00:06:15,185 --> 00:06:19,165
+Speaker 5:  of OpenAI is promoted to interim CEO and this is where we are. So then
+
+103
+00:06:19,165 --> 00:06:22,685
+Speaker 5:  immediately everybody starts scrambling to figure out what the hell is going
+
+104
+00:06:22,685 --> 00:06:26,485
+Speaker 5:  on here basically was the vibe at the time you guys started talking to people
+
+105
+00:06:27,145 --> 00:06:31,005
+Speaker 5:  and this one answer about what
+
+106
+00:06:31,065 --> 00:06:35,045
+Speaker 5:  was going on starts to trickle out again, this all feels
+
+107
+00:06:35,045 --> 00:06:37,965
+Speaker 5:  like thousands of years ago now. Yeah. But my, my memory of this is like
+
+108
+00:06:38,385 --> 00:06:42,245
+Speaker 5:  the, the leading reason became a split
+
+109
+00:06:42,245 --> 00:06:45,645
+Speaker 5:  between sort of two factions at OpenAI. One that said
+
+110
+00:06:46,275 --> 00:06:49,685
+Speaker 5:  basically we are a research project designed to make sure that we can make
+
+111
+00:06:49,865 --> 00:06:53,685
+Speaker 5:  AI good for the world. And another side that said, this is a
+
+112
+00:06:53,845 --> 00:06:56,365
+Speaker 5:  gigantic business that we're gonna continue to run like a gigantic business.
+
+113
+00:06:56,585 --> 00:07:00,325
+Speaker 5:  And that starts to percolate up as like first sort of a, a
+
+114
+00:07:00,555 --> 00:07:04,045
+Speaker 5:  leading like educated guess. And then we got some reporting that said that
+
+115
+00:07:04,045 --> 00:07:07,565
+Speaker 5:  was part of the split. But how would you frame kind of what we learned in,
+
+116
+00:07:07,585 --> 00:07:11,205
+Speaker 5:  in the early hours of like what the actual
+
+117
+00:07:11,535 --> 00:07:15,045
+Speaker 5:  fight was that led to Sam being fired? Neli? What was your sense You
+
+118
+00:07:15,045 --> 00:07:18,845
+Speaker 4:  Know, I still think we don't know, especially because today Ilyas
+
+119
+00:07:19,265 --> 00:07:23,085
+Speaker 4:  Sr is saying that he regrets his actions. But the theory
+
+120
+00:07:23,305 --> 00:07:27,205
+Speaker 4:  on Friday night, on Friday night, the theory that started
+
+121
+00:07:27,325 --> 00:07:31,005
+Speaker 4:  bubbling out and the thing everyone started talking about was that the
+
+122
+00:07:31,395 --> 00:07:35,005
+Speaker 4:  nonprofit of OpenAI, which owns OpenAI, the commercial
+
+123
+00:07:35,025 --> 00:07:38,845
+Speaker 4:  entity of which Sam is the CEO and micro, The
+
+124
+00:07:38,845 --> 00:07:42,725
+Speaker 4:  theory on Friday night that started bubbling out is that OpenAI is
+
+125
+00:07:42,765 --> 00:07:46,245
+Speaker 4:  a nonprofit that's the board of directors. That nonprofit
+
+126
+00:07:46,325 --> 00:07:49,925
+Speaker 4:  controls a commercial entity of which Sam was the
+
+127
+00:07:50,005 --> 00:07:53,725
+Speaker 4:  CEO and of which Microsoft as an investor, that board
+
+128
+00:07:53,725 --> 00:07:57,645
+Speaker 4:  thought the commercial entity was moving too fast to commercialize
+
+129
+00:07:58,625 --> 00:08:02,405
+Speaker 4:  oms, right? But that they thought that the danger
+
+130
+00:08:02,465 --> 00:08:05,885
+Speaker 4:  of the products was too high for how fast Sam was moving.
+
+131
+00:08:06,425 --> 00:08:10,245
+Speaker 4:  And there was some religious split ideological
+
+132
+00:08:10,335 --> 00:08:13,965
+Speaker 4:  split, like that was all very hazy between the people who believed
+
+133
+00:08:14,265 --> 00:08:18,125
+Speaker 4:  we were on a course to destroy humanity and Sam Altman saying, we're gonna
+
+134
+00:08:18,125 --> 00:08:21,925
+Speaker 4:  do a store for GPTs and you can make laundry buddy that was out there. Like
+
+135
+00:08:21,925 --> 00:08:25,765
+Speaker 4:  that was the conversation that was happening was, is Sam moving too fast
+
+136
+00:08:25,765 --> 00:08:29,605
+Speaker 4:  with a dangerous technology? Did the board cannon for that? Is Ilya
+
+137
+00:08:30,565 --> 00:08:34,285
+Speaker 4:  a religious believer in the idea that we need to be safer? Which is what
+
+138
+00:08:34,345 --> 00:08:37,685
+Speaker 4:  You know OpenAI was founded to, to do this safely and make AGI
+
+139
+00:08:38,065 --> 00:08:41,645
+Speaker 5:  And the existence of that tension is not new by the way. Like that whether
+
+140
+00:08:41,665 --> 00:08:45,365
+Speaker 5:  or not that led to what has happened in the last four days. Yeah, I think
+
+141
+00:08:45,365 --> 00:08:48,245
+Speaker 5:  you're right. We still don't know, but the existence of that tension between
+
+142
+00:08:48,245 --> 00:08:51,605
+Speaker 5:  those two sides is pretty real and well established at this point.
+
+143
+00:08:51,755 --> 00:08:55,605
+Speaker 6:  That tension is why we have Anthropic and why Elon is
+
+144
+00:08:55,605 --> 00:08:59,525
+Speaker 6:  doing another AI company right now. So OpenAI has been consistently
+
+145
+00:08:59,715 --> 00:09:03,485
+Speaker 6:  chaotic and consistently splitting itself apart really since the beginning.
+
+146
+00:09:03,555 --> 00:09:07,405
+Speaker 6:  Yeah. I I just don't think anyone expected it to split from the top
+
+147
+00:09:07,625 --> 00:09:11,485
+Speaker 6:  in such a dramatic way. And Neli, I think maybe now is where it's
+
+148
+00:09:11,765 --> 00:09:15,085
+Speaker 6:  probably good to explain who actually made this decision. 'cause really this
+
+149
+00:09:15,085 --> 00:09:18,925
+Speaker 6:  comes down to six people, right? And so we should, we should go through exactly
+
+150
+00:09:19,505 --> 00:09:23,445
+Speaker 6:  who the people were that made this decision because increasingly it's becoming
+
+151
+00:09:23,445 --> 00:09:27,125
+Speaker 6:  clear that now it's three people against the rest of OpenAI,
+
+152
+00:09:27,415 --> 00:09:30,325
+Speaker 6:  which is just an insane position, which
+
+153
+00:09:30,325 --> 00:09:33,485
+Speaker 4:  Is insane. Also, this is not a public company, so we don't have a record
+
+154
+00:09:33,585 --> 00:09:37,165
+Speaker 4:  of these votes. The board has not said anything.
+
+155
+00:09:37,785 --> 00:09:41,045
+Speaker 4:  We don't know if this was a unanimous vote. We don't know if a majority like
+
+156
+00:09:41,585 --> 00:09:44,605
+Speaker 4:  the reporting is that it's a majority vote. But because of what Ilia is saying
+
+157
+00:09:44,605 --> 00:09:47,925
+Speaker 4:  today, it is actually really unclear what happened here.
+
+158
+00:09:47,995 --> 00:09:51,845
+Speaker 6:  Well here's what we know. So Sam and Greg posted on X that
+
+159
+00:09:52,515 --> 00:09:56,405
+Speaker 6:  Ilya, who is a co-founder, the chief scientist really described
+
+160
+00:09:56,405 --> 00:09:59,845
+Speaker 6:  to me by many as like the brains of the operation, one of the most
+
+161
+00:09:59,845 --> 00:10:03,805
+Speaker 6:  influential AI researchers in the world worked at DeepMind before kind of
+
+162
+00:10:03,805 --> 00:10:07,485
+Speaker 6:  the AGI Doom person, I would say the most prominent one
+
+163
+00:10:07,485 --> 00:10:11,125
+Speaker 6:  inside the company. He was the one who told Sam and Greg that they were being
+
+164
+00:10:11,125 --> 00:10:14,925
+Speaker 6:  fired by the board. At that time the board was six people including
+
+165
+00:10:15,105 --> 00:10:18,725
+Speaker 6:  Sam and Greg. So Greg is the board chair. So the board chair
+
+166
+00:10:18,775 --> 00:10:22,245
+Speaker 6:  found out he got fired from his own board, which is, I don't know how that
+
+167
+00:10:22,245 --> 00:10:22,365
+Speaker 6:  works.
+
+168
+00:10:22,845 --> 00:10:23,565
+Speaker 4:  Yeah, no clue
+
+169
+00:10:23,965 --> 00:10:27,765
+Speaker 6:  What what's clear because we know Ilya was the one who communicated
+
+170
+00:10:27,785 --> 00:10:31,565
+Speaker 6:  the message is that the board needed a majority. So
+
+171
+00:10:31,565 --> 00:10:34,765
+Speaker 6:  they needed four people. The other three members of the board
+
+172
+00:10:35,075 --> 00:10:38,805
+Speaker 6:  besides Ilya, are not open eye employees. Right.
+
+173
+00:10:39,265 --> 00:10:43,045
+Speaker 6:  So they got Ilya to side with them, kick Sam and Greg out
+
+174
+00:10:43,155 --> 00:10:46,925
+Speaker 6:  without any notice. And now Ilia is saying after all of this and
+
+175
+00:10:46,925 --> 00:10:50,685
+Speaker 6:  after pretty much all of the company is set to resign and go to Microsoft
+
+176
+00:10:50,685 --> 00:10:54,605
+Speaker 6:  with Sam, I actually regret this. And I also will go to Microsoft
+
+177
+00:10:54,605 --> 00:10:56,965
+Speaker 6:  with Sam if we don't bring them back. Okay.
+
+178
+00:10:56,965 --> 00:11:00,845
+Speaker 5:  We're gonna get to that like a Heath unbelievable spoiler alert on this
+
+179
+00:11:00,845 --> 00:11:01,645
+Speaker 5:  story. Like, come
+
+180
+00:11:01,645 --> 00:11:05,405
+Speaker 4:  On. Sorry. Anybody listening to this is well and spoiled. Like if you're
+
+181
+00:11:05,405 --> 00:11:08,925
+Speaker 4:  listening to an emergency episode of this, it's like you're in it. That's
+
+182
+00:11:08,925 --> 00:11:11,965
+Speaker 5:  Fair. Yeah, no, I think where all this goes is very interesting and I think
+
+183
+00:11:11,965 --> 00:11:14,845
+Speaker 5:  the, the Ilia piece of this is actually super interesting, but just to, just
+
+184
+00:11:14,845 --> 00:11:17,405
+Speaker 5:  to get back to Friday night. 'cause I think like the, the timeline here actually
+
+185
+00:11:17,405 --> 00:11:20,805
+Speaker 5:  matters a lot. So Friday night we start learning the reasons it happened.
+
+186
+00:11:21,125 --> 00:11:24,845
+Speaker 5:  I believe three high level OpenAI employees
+
+187
+00:11:25,105 --> 00:11:29,045
+Speaker 5:  all resign right after this all goes down with Sam and Greg Sam and Greg
+
+188
+00:11:29,105 --> 00:11:31,285
+Speaker 5:  as far as we can tell. And I'm curious, If, you guys have heard anything
+
+189
+00:11:31,285 --> 00:11:34,485
+Speaker 5:  about this immediately go to work spinning up a new
+
+190
+00:11:35,065 --> 00:11:38,885
+Speaker 5:  AI company? I think it, it was very obvious to everybody immediately that
+
+191
+00:11:38,885 --> 00:11:42,685
+Speaker 5:  they could just like have a company with an LLC
+
+192
+00:11:42,685 --> 00:11:45,445
+Speaker 5:  and a name and people would throw billions of dollars of investment at it.
+
+193
+00:11:45,445 --> 00:11:49,325
+Speaker 5:  Yeah. And so they started the, the things that have been reported are
+
+194
+00:11:49,325 --> 00:11:52,885
+Speaker 5:  that they were building or they were thinking about building an
+
+195
+00:11:53,185 --> 00:11:57,165
+Speaker 5:  AI chip company to rival Nvidia. There's been the thing with Sam and
+
+196
+00:11:57,165 --> 00:12:00,885
+Speaker 5:  Johnny, ive and Masa son working on AI hardware, Sam's
+
+197
+00:12:01,065 --> 00:12:04,685
+Speaker 5:  ESS investor in Humane, which is forever hilarious. Did you guys learn anything
+
+198
+00:12:04,685 --> 00:12:08,525
+Speaker 5:  about what the like counter idea might have been if
+
+199
+00:12:08,985 --> 00:12:12,485
+Speaker 5:  we landed in the world of Friday night where they just went off and started
+
+200
+00:12:12,485 --> 00:12:13,005
+Speaker 5:  their own company?
+
+201
+00:12:13,465 --> 00:12:17,365
+Speaker 4:  No. And I, I think it's actually important to, to fill that in a little
+
+202
+00:12:17,365 --> 00:12:21,285
+Speaker 4:  bit. I dunno if you've ever been fired You know the first thing you
+
+203
+00:12:21,285 --> 00:12:24,965
+Speaker 4:  do is you plot your revenge, like very emotionally plot your
+
+204
+00:12:24,965 --> 00:12:28,445
+Speaker 4:  revenge, right? And that is what was happening. That is what that
+
+205
+00:12:28,765 --> 00:12:32,085
+Speaker 4:  communication was. We'll just start a new company like it just a, like it.
+
+206
+00:12:32,085 --> 00:12:35,885
+Speaker 4:  These are still people. They are very human people as we
+
+207
+00:12:36,165 --> 00:12:40,125
+Speaker 4:  discovered throughout their actions of the weekend. They might think they're
+
+208
+00:12:40,125 --> 00:12:43,365
+Speaker 4:  the masters of the universe. They might be playing with $80 billion worth
+
+209
+00:12:43,365 --> 00:12:46,365
+Speaker 4:  of shareholder value, but they are people like
+
+210
+00:12:47,355 --> 00:12:51,285
+Speaker 4:  just deeply emotional, flawed people just like everybody else.
+
+211
+00:12:51,625 --> 00:12:55,325
+Speaker 4:  And so that first wave was very much a
+
+212
+00:12:55,325 --> 00:12:58,645
+Speaker 4:  revenge wave. Like they had no notice. So they had necessarily no plan.
+
+213
+00:12:59,305 --> 00:13:02,765
+Speaker 4:  So we'll start a new company, I can get the money, everyone will come over.
+
+214
+00:13:03,275 --> 00:13:07,165
+Speaker 4:  That was a burst of communication that I
+
+215
+00:13:07,325 --> 00:13:11,005
+Speaker 4:  think was rooted in just the emotion of the moment. Then
+
+216
+00:13:11,605 --> 00:13:15,205
+Speaker 4:  I think everyone got some sleep. And then we, we entered into
+
+217
+00:13:15,485 --> 00:13:18,885
+Speaker 4:  Saturday where Alex and I broke the news
+
+218
+00:13:19,315 --> 00:13:23,125
+Speaker 4:  that the investors were pressuring the OpenAI board to bring these folks
+
+219
+00:13:23,195 --> 00:13:27,125
+Speaker 4:  back, which bled into today. And
+
+220
+00:13:27,135 --> 00:13:30,565
+Speaker 4:  again, the, the the absolutely unpredictable outcome of today. But
+
+221
+00:13:31,525 --> 00:13:35,485
+Speaker 4:  I think the Friday night, we're just gonna go start a new company was just
+
+222
+00:13:35,505 --> 00:13:39,365
+Speaker 4:  the first heated emotion of that moment. And all the people around
+
+223
+00:13:39,365 --> 00:13:43,045
+Speaker 4:  them were very much saying, hold up. Like can we
+
+224
+00:13:43,075 --> 00:13:46,445
+Speaker 4:  just control z this thing and fix it? Like
+
+225
+00:13:47,125 --> 00:13:50,925
+Speaker 4:  I heard like my interest is just fixing it. You know like very directly from
+
+226
+00:13:50,925 --> 00:13:53,525
+Speaker 4:  some people. Like, I'm just trying to fix it. This is ridiculous. This should
+
+227
+00:13:53,525 --> 00:13:54,125
+Speaker 4:  have never happened.
+
+228
+00:13:54,705 --> 00:13:58,645
+Speaker 5:  So, I, I believe that, but also Alex tell me If, you agree with me
+
+229
+00:13:58,665 --> 00:14:02,605
+Speaker 5:  on this or not, I would assume that every venture capitalist on earth
+
+230
+00:14:02,835 --> 00:14:05,805
+Speaker 5:  with Sam Altman's phone number called him on Friday night and said, tell
+
+231
+00:14:05,805 --> 00:14:07,205
+Speaker 5:  me how to give you money for your next thing.
+
+232
+00:14:07,825 --> 00:14:11,565
+Speaker 6:  For sure. So I mean is, is your point that like they should have just
+
+233
+00:14:11,565 --> 00:14:12,885
+Speaker 6:  left and not tried to?
+
+234
+00:14:13,065 --> 00:14:13,285
+Speaker 4:  No,
+
+235
+00:14:13,365 --> 00:14:17,245
+Speaker 5:  I just, I think Neli I think you're right, but I also think the,
+
+236
+00:14:17,305 --> 00:14:20,725
+Speaker 5:  the sort of parallel universe in which they went to start that company is
+
+237
+00:14:20,725 --> 00:14:21,925
+Speaker 5:  not that far off. Right?
+
+238
+00:14:21,985 --> 00:14:25,085
+Speaker 4:  I'm not saying, I'm not saying it was impossible. Right? It was, it was a
+
+239
+00:14:25,115 --> 00:14:28,325
+Speaker 4:  very easily accomplished thing. I think you're correct. The the money was
+
+240
+00:14:28,325 --> 00:14:31,925
+Speaker 4:  flowing, the the support was public, right? You saw
+
+241
+00:14:32,205 --> 00:14:35,725
+Speaker 4:  Vinod ksa who runs KSA Ventures just publicly tweeting how much he supported
+
+242
+00:14:35,725 --> 00:14:39,405
+Speaker 4:  San like the money was available from all of his existing investors, probably
+
+243
+00:14:39,405 --> 00:14:42,965
+Speaker 4:  from Microsoft, right? But the thing that I, I'm just trying to
+
+244
+00:14:42,965 --> 00:14:46,925
+Speaker 4:  underline here is that first wave on Friday night of, we'll start our own
+
+245
+00:14:46,925 --> 00:14:50,885
+Speaker 4:  thing was reflexive. It was not considered and
+
+246
+00:14:50,885 --> 00:14:54,685
+Speaker 4:  I, there there's a big gap between we'll support you in
+
+247
+00:14:54,805 --> 00:14:57,605
+Speaker 4:  whatever your next thing is and writing a check against a business plan.
+
+248
+00:14:58,105 --> 00:15:01,765
+Speaker 4:  And that gap was as far as we can tell that no one ever thought about
+
+249
+00:15:02,085 --> 00:15:02,845
+Speaker 4:  crossing that chasm.
+
+250
+00:15:03,035 --> 00:15:06,405
+Speaker 5:  Okay, that's fair. All. right? And so let's get to Saturday because that's
+
+251
+00:15:06,405 --> 00:15:10,365
+Speaker 5:  when stuff gets even weirder somehow. But first we're gonna take a quick
+
+252
+00:15:10,365 --> 00:15:11,085
+Speaker 5:  break. We'll be right back.
+
+253
+00:15:16,735 --> 00:15:20,185
+Speaker 2:  This podcast is brought to you by Meta Quest three, the new mixed reality
+
+254
+00:15:20,185 --> 00:15:23,985
+Speaker 2:  headset from Meta. Now you can expand your world in ways you never thought
+
+255
+00:15:24,305 --> 00:15:27,665
+Speaker 2:  possible with the new Meta Quest three, put on the sleek most
+
+256
+00:15:28,145 --> 00:15:31,985
+Speaker 2:  powerful quest yet and jump into fully immersive games or blend virtual
+
+257
+00:15:31,985 --> 00:15:35,745
+Speaker 2:  elements into your physical surroundings with mixed reality instantly
+
+258
+00:15:35,805 --> 00:15:38,545
+Speaker 2:  Go from watching to playing the part in your favorite show with Stranger
+
+259
+00:15:38,545 --> 00:15:42,425
+Speaker 2:  Things vr, live the action and really feel what it's like to step into the
+
+260
+00:15:42,425 --> 00:15:46,305
+Speaker 2:  shoes of an assassin in Assassin's Creed Nexus. Even turn
+
+261
+00:15:46,305 --> 00:15:50,265
+Speaker 2:  your couch into courtside seats with X Stadium and watch your favorite
+
+262
+00:15:50,425 --> 00:15:54,305
+Speaker 2:  NBA team. With over 500 titles, it's easy to dive into
+
+263
+00:15:54,625 --> 00:15:58,545
+Speaker 2:  whatever you're into, expand your world with Meta Quest three. See
+
+264
+00:15:58,545 --> 00:16:00,945
+Speaker 2:  child safety guidance online accounts for 10 and up certain apps, games and
+
+265
+00:16:00,945 --> 00:16:03,745
+Speaker 2:  experiences may be suitable for a more mature audience. Learn more at Meta
+
+266
+00:16:03,925 --> 00:16:04,265
+Speaker 2:  dot com.
+
+267
+00:16:09,185 --> 00:16:13,075
+Speaker 3:  Support for this show comes from Kraken. Crypto is like the financial
+
+268
+00:16:13,075 --> 00:16:16,675
+Speaker 3:  system but different. It doesn't care where you come from,
+
+269
+00:16:16,865 --> 00:16:20,715
+Speaker 3:  what you look like, your credit score or your outrageous food delivery
+
+270
+00:16:20,715 --> 00:16:24,595
+Speaker 3:  habits. Crypto is finance for everyone everywhere
+
+271
+00:16:25,015 --> 00:16:28,915
+Speaker 3:  all the time. Kraken gives you the tools to access this new world of
+
+272
+00:16:28,915 --> 00:16:32,755
+Speaker 3:  finance. Whether you're a pro or just starting out. Kraken
+
+273
+00:16:32,755 --> 00:16:36,075
+Speaker 3:  is the simple powerful way to buy, sell and learn about crypto.
+
+274
+00:16:36,565 --> 00:16:40,115
+Speaker 3:  Their intuitive trading tools grow with you, empowering you to make your
+
+275
+00:16:40,125 --> 00:16:43,835
+Speaker 3:  first or your 100th trade. In just a few
+
+276
+00:16:43,855 --> 00:16:47,835
+Speaker 3:  clicks and If you get stuck. Their award-winning client support team
+
+277
+00:16:47,835 --> 00:16:51,275
+Speaker 3:  is available 24 7 along with a bunch of educational
+
+278
+00:16:51,555 --> 00:16:55,395
+Speaker 3:  resources to help you on your way. Kraken, see what crypto can be,
+
+279
+00:16:55,855 --> 00:16:59,435
+Speaker 3:  not investment advice. Crypto trading involves risk of loss. Cryptocurrency
+
+280
+00:16:59,675 --> 00:17:03,075
+Speaker 3:  services are provided to us and US territory customers by pay Word Ventures
+
+281
+00:17:03,075 --> 00:17:05,195
+Speaker 3:  incorporated view PVI disclosures at
+
+282
+00:17:05,195 --> 00:17:07,595
+Speaker 3:  kraken.com/legal/disclosures.
+
+283
+00:17:13,025 --> 00:17:16,125
+Speaker 5:  All right? We're back. So we've had the breakup, we've had the feelings,
+
+284
+00:17:16,405 --> 00:17:20,205
+Speaker 5:  everybody's putting up angsty away messages and, and then Saturday morning
+
+285
+00:17:21,305 --> 00:17:24,805
+Speaker 5:  in the Bay area somewhere I don Reconciliation
+
+286
+00:17:25,025 --> 00:17:28,445
+Speaker 5:  begins. Neil, take me through like the beginning of the story on Saturday.
+
+287
+00:17:29,065 --> 00:17:33,045
+Speaker 4:  So what we had heard is the investors and opening
+
+288
+00:17:33,245 --> 00:17:36,605
+Speaker 4:  I, which is mostly the commercial entity, they're putting a lot of pressure
+
+289
+00:17:36,625 --> 00:17:39,965
+Speaker 4:  on, Hey, we need to at least know what happened. We need to know your reasoning
+
+290
+00:17:39,965 --> 00:17:43,885
+Speaker 4:  and we need to see if we can resolve this. This situation that led
+
+291
+00:17:43,985 --> 00:17:47,965
+Speaker 4:  to what I am guessing is yet more Google Meet calls. And I just wanna keep
+
+292
+00:17:47,965 --> 00:17:51,645
+Speaker 4:  highlighting this because I think we are all imagining some like
+
+293
+00:17:51,755 --> 00:17:55,645
+Speaker 4:  very tense in-person meetings and really everyone
+
+294
+00:17:55,665 --> 00:17:57,245
+Speaker 4:  was kind of just on the phone.
+
+295
+00:17:57,845 --> 00:18:00,925
+Speaker 5:  I mean, we're all imagining the board room from succession, right? Yeah.
+
+296
+00:18:00,925 --> 00:18:03,045
+Speaker 5:  Like that's what's in everybody's mind as we go through this. Like a bunch
+
+297
+00:18:03,045 --> 00:18:06,685
+Speaker 5:  of people sitting around a table raising their hands, like with great intentions.
+
+298
+00:18:06,805 --> 00:18:06,925
+Speaker 5:  I
+
+299
+00:18:07,145 --> 00:18:10,765
+Speaker 4:  I'm saying I don't even know if their cameras were on. Like, this is a lot
+
+300
+00:18:10,765 --> 00:18:14,405
+Speaker 4:  of people who are like alone or like in small groups of, of, of people
+
+301
+00:18:14,585 --> 00:18:15,325
+Speaker 4:  in various places
+
+302
+00:18:15,915 --> 00:18:19,525
+Speaker 6:  Also. Well just very important note, $10 billion from
+
+303
+00:18:19,765 --> 00:18:21,965
+Speaker 6:  Microsoft's can still not make you use teams.
+
+304
+00:18:26,595 --> 00:18:30,405
+Speaker 4:  It's the most important. So we start hearing, there's all this pressure
+
+305
+00:18:30,905 --> 00:18:34,725
+Speaker 4:  and Alex actually hears, hey, they might bring him back. So
+
+306
+00:18:34,755 --> 00:18:38,325
+Speaker 4:  Alex and I just start calling everyone and we broke this, we beat, I don't
+
+307
+00:18:38,405 --> 00:18:41,205
+Speaker 4:  remember who we beat, but we beat someone by six minutes to this story that
+
+308
+00:18:41,205 --> 00:18:44,645
+Speaker 4:  open as board is in negotiations to bring Altman back.
+
+309
+00:18:45,065 --> 00:18:49,045
+Speaker 4:  And the most important piece of that story is he was
+
+310
+00:18:49,135 --> 00:18:52,885
+Speaker 4:  ambivalent about it. That was reporting that we had. And his
+
+311
+00:18:52,955 --> 00:18:56,725
+Speaker 4:  condition was, I'm not gonna go work for these people again. They just fired
+
+312
+00:18:56,725 --> 00:18:58,965
+Speaker 4:  me for no reason. They all have to go.
+
+313
+00:18:59,095 --> 00:18:59,925
+Speaker 6:  Which is understandable.
+
+314
+00:19:00,835 --> 00:19:04,525
+Speaker 4:  Yeah. Like just an incredible condition to impose, right?
+
+315
+00:19:04,825 --> 00:19:08,005
+Speaker 4:  So e even from that moment, like we get this reporting, we break the story,
+
+316
+00:19:08,055 --> 00:19:11,925
+Speaker 4:  we're like high fiving, I'm thinking, and Alex is thinking, okay,
+
+317
+00:19:11,925 --> 00:19:15,725
+Speaker 4:  to make this happen, four people have to
+
+318
+00:19:16,005 --> 00:19:19,965
+Speaker 4:  publicly admit they made a mistake and resign in disgrace. Yeah. This is
+
+319
+00:19:20,005 --> 00:19:23,765
+Speaker 4:  a, a high mountain, who knows what will happen next. And then
+
+320
+00:19:23,785 --> 00:19:25,005
+Speaker 4:  we spent the rest of the weekend on the phone.
+
+321
+00:19:25,155 --> 00:19:28,725
+Speaker 5:  Yeah. Alex, what was your sense of whether that those were
+
+322
+00:19:29,235 --> 00:19:32,805
+Speaker 5:  kind of real requests, whether that was, again, Sam saying,
+
+323
+00:19:33,065 --> 00:19:36,965
+Speaker 5:  I'd like to come back, here's my rational list of what it will take. Or Sam
+
+324
+00:19:36,965 --> 00:19:39,245
+Speaker 5:  being like, fuck me, fuck you.
+
+325
+00:19:40,365 --> 00:19:44,085
+Speaker 6:  I think it was pretty clear that Sam had the upper hand as of like
+
+326
+00:19:45,005 --> 00:19:48,965
+Speaker 6:  Saturday midday and then You know we had reported that they had a
+
+327
+00:19:48,965 --> 00:19:52,525
+Speaker 6:  5:00 PM deadline to reach a deal with the board.
+
+328
+00:19:52,785 --> 00:19:56,525
+Speaker 6:  And the thing that was going to happen at that point was if it wasn't
+
+329
+00:19:56,525 --> 00:20:00,085
+Speaker 6:  reached, Sam's camp was telling the board, there's gonna be mass
+
+330
+00:20:00,085 --> 00:20:02,605
+Speaker 6:  resignations, You know the entire company is behind us.
+
+331
+00:20:02,905 --> 00:20:06,005
+Speaker 5:  Is that why you think he had the upper hand? Like just because it was so
+
+332
+00:20:06,005 --> 00:20:09,045
+Speaker 5:  clear so quickly that OpenAI as a company was behind him. I,
+
+333
+00:20:09,125 --> 00:20:13,005
+Speaker 6:  I think what everyone underestimated is the resolve of what ultimately
+
+334
+00:20:13,305 --> 00:20:17,285
+Speaker 6:  was three people to not have him come back. But at the, and
+
+335
+00:20:17,285 --> 00:20:20,645
+Speaker 6:  the thing is like the board has been radio silent, You know, aside from that
+
+336
+00:20:20,715 --> 00:20:24,605
+Speaker 6:  initial statement and an internal email that reiterated the statement to
+
+337
+00:20:24,805 --> 00:20:28,325
+Speaker 6:  employees Sunday night, no one from the board has said anything publicly.
+
+338
+00:20:28,465 --> 00:20:32,165
+Speaker 6:  Not, they haven't elaborated on anything. So that's important. But it seemed
+
+339
+00:20:32,165 --> 00:20:35,965
+Speaker 6:  like Sam was getting the upper hand, the 5:00 PM deadline passes
+
+340
+00:20:36,545 --> 00:20:40,245
+Speaker 6:  on Saturday. I'm at a party and Neli is like, we're,
+
+341
+00:20:40,385 --> 00:20:43,445
+Speaker 6:  I'm like stepping aside and Eli's calling me and we're like, what is happening?
+
+342
+00:20:43,445 --> 00:20:47,405
+Speaker 6:  Does this mean mass resignations? And then we look on x and I I
+
+343
+00:20:47,405 --> 00:20:51,125
+Speaker 6:  want to note it is deeply ironic that all of this has been playing out on
+
+344
+00:20:51,285 --> 00:20:54,325
+Speaker 6:  X because it's all training data for grok.
+
+345
+00:20:54,995 --> 00:20:58,525
+Speaker 6:  It's all training data for Elon's OpenAI competitor. And
+
+346
+00:20:58,595 --> 00:21:01,725
+Speaker 4:  This is all just a plan to poison grok. You're like Right grok, how do I
+
+347
+00:21:01,725 --> 00:21:04,205
+Speaker 4:  replace the ceo? And it's like, here's some ideas, right?
+
+348
+00:21:04,425 --> 00:21:08,405
+Speaker 6:  And, and it's also, there's a lot of deeper irony there with Elon we can
+
+349
+00:21:08,405 --> 00:21:11,485
+Speaker 6:  get into at some point. But we saw this very public
+
+350
+00:21:11,955 --> 00:21:15,805
+Speaker 6:  display of support for Sam Saturday night with
+
+351
+00:21:15,825 --> 00:21:19,645
+Speaker 6:  pretty much everyone at OpenAI You know quote tweeting him with the heart
+
+352
+00:21:19,645 --> 00:21:20,245
+Speaker 6:  emoji, right?
+
+353
+00:21:20,515 --> 00:21:24,125
+Speaker 5:  Yeah. So Sam tweets something like, I love the OpenAI team
+
+354
+00:21:24,825 --> 00:21:28,805
+Speaker 5:  and as if they had You know coordinated this in like a high
+
+355
+00:21:28,805 --> 00:21:31,485
+Speaker 5:  school cafeteria, they all quote tweeted it with
+
+356
+00:21:31,485 --> 00:21:35,085
+Speaker 6:  Hearts. They all quote exactly major high school calf vibes.
+
+357
+00:21:35,505 --> 00:21:39,405
+Speaker 6:  And then we're all thinking like, okay, this maybe
+
+358
+00:21:39,405 --> 00:21:43,365
+Speaker 6:  means he won. Like we're all, we're like Neli and I are scratching
+
+359
+00:21:43,365 --> 00:21:46,685
+Speaker 6:  our heads. And then You know you wake up the next day and you realize that
+
+360
+00:21:46,685 --> 00:21:50,325
+Speaker 6:  was a pressure campaign to show that Sam actually did have the backing of
+
+361
+00:21:50,325 --> 00:21:50,845
+Speaker 6:  the whole company.
+
+362
+00:21:51,195 --> 00:21:54,725
+Speaker 4:  Yeah. And so we had heard, we, we had reported this
+
+363
+00:21:54,725 --> 00:21:58,645
+Speaker 4:  5:00 PM deadline, 5:00 PM Pacific. So
+
+364
+00:21:58,675 --> 00:22:02,485
+Speaker 4:  that deadline just comes and goes and we are scrambling texting
+
+365
+00:22:02,845 --> 00:22:06,125
+Speaker 4:  everyone in the universe like, what is happening? This was a deadline, right?
+
+366
+00:22:06,365 --> 00:22:09,525
+Speaker 4:  Everyone's supposed to quit. So they start tweeting the hearts and
+
+367
+00:22:10,145 --> 00:22:13,965
+Speaker 4:  it was actually very unclear whether this was, we're all quitting
+
+368
+00:22:14,055 --> 00:22:17,525
+Speaker 4:  right now, or Sam has won. And the
+
+369
+00:22:17,665 --> 00:22:21,605
+Speaker 4:  online reaction was like instantly polarized, right?
+
+370
+00:22:21,845 --> 00:22:25,565
+Speaker 4:  Binary action. Like people are like Sam's one, it's done. And our instinct
+
+371
+00:22:25,665 --> 00:22:29,605
+Speaker 4:  was we would know, right? Like this is cryptic, we're
+
+372
+00:22:29,605 --> 00:22:32,245
+Speaker 4:  doing high school away messages on X,
+
+373
+00:22:33,315 --> 00:22:37,245
+Speaker 4:  it's, it's absolutely not done. But we still don't know. And there was
+
+374
+00:22:37,245 --> 00:22:40,445
+Speaker 4:  no further conversation after that. Like
+
+375
+00:22:41,205 --> 00:22:44,565
+Speaker 4:  I was basically told go to bed by a source, like you're done for the day.
+
+376
+00:22:44,565 --> 00:22:48,365
+Speaker 4:  Like we did this thing, we, it's the show of force. Like everyone has to
+
+377
+00:22:48,365 --> 00:22:52,045
+Speaker 4:  go to sleep now. We'll try again tomorrow. So that was the end of that day.
+
+378
+00:22:53,125 --> 00:22:57,045
+Speaker 4:  I will say that my favorite conspiracy theory about this is that a misaligned
+
+379
+00:22:57,345 --> 00:23:01,125
+Speaker 4:  AI was instructed to get people to watch the Las Vegas F one Grand
+
+380
+00:23:01,125 --> 00:23:04,485
+Speaker 4:  Prix, which started at 1:00 AM Eastern. And I was like, this almost worked,
+
+381
+00:23:04,515 --> 00:23:08,005
+Speaker 4:  like I almost watched this but I went to bed anyway. But then we woke up
+
+382
+00:23:08,005 --> 00:23:11,725
+Speaker 4:  the next morning and we were, it was basically the status quo, like this
+
+383
+00:23:11,925 --> 00:23:15,805
+Speaker 4:  pressure campaign had not moved anything. And we were told Kara Swisher
+
+384
+00:23:15,805 --> 00:23:19,525
+Speaker 4:  has reported this, we were told that there was a noon Pacific deadline, which
+
+385
+00:23:19,525 --> 00:23:22,885
+Speaker 4:  they blew right by. And then we reported again there was another
+
+386
+00:23:22,955 --> 00:23:26,565
+Speaker 4:  5:00 PM deadline. So my response to that was, is this real? Like you can
+
+387
+00:23:26,565 --> 00:23:30,245
+Speaker 4:  only issue so many 5:00 PM ultimatums in your life, especially in
+
+388
+00:23:30,255 --> 00:23:34,125
+Speaker 4:  sequential days. And I was told, yes, this is a hard deadline. It's real
+
+389
+00:23:34,135 --> 00:23:37,805
+Speaker 4:  today. Like either this happens at 5:00 PM today or we go in another path.
+
+390
+00:23:37,825 --> 00:23:41,525
+Speaker 4:  And I thought, oh man, how do I report this? And that is when Sam
+
+391
+00:23:41,635 --> 00:23:45,605
+Speaker 4:  tweeted a picture of himself in the OpenAI offices holding
+
+392
+00:23:45,805 --> 00:23:49,685
+Speaker 4:  a guest badge with the caption first and last time I ever wear
+
+393
+00:23:49,685 --> 00:23:53,365
+Speaker 4:  this badge, which is right, that's the ultimatum. Like either this is getting
+
+394
+00:23:53,415 --> 00:23:57,325
+Speaker 4:  fixed or I'm never coming back here again. And so that was when I felt
+
+395
+00:23:57,325 --> 00:23:59,805
+Speaker 4:  comfortable saying, okay, it's like we're doing the 5:00 PM thing again,
+
+396
+00:23:59,865 --> 00:24:03,845
+Speaker 4:  but we've, I've got the guy like issuing the ultimatum,
+
+397
+00:24:03,915 --> 00:24:05,045
+Speaker 4:  like this makes sense to me.
+
+398
+00:24:05,555 --> 00:24:09,485
+Speaker 5:  Yeah. So then they then spent the whole day at OpenAI headquarters
+
+399
+00:24:10,075 --> 00:24:13,485
+Speaker 5:  hashing this out, basically having what I would assume is just the same fight
+
+400
+00:24:13,875 --> 00:24:17,685
+Speaker 5:  over and over and over again. Sam trying to get the board to resign in disgrace
+
+401
+00:24:17,685 --> 00:24:19,765
+Speaker 5:  and the board not wanting to resign in disgrace.
+
+402
+00:24:19,935 --> 00:24:23,725
+Speaker 4:  There were some internal discussion there about picking
+
+403
+00:24:23,785 --> 00:24:27,525
+Speaker 4:  the successors for the board and the, the feeling, and
+
+404
+00:24:27,585 --> 00:24:30,405
+Speaker 4:  we, we don't have this on the site, but, so this is a little shakier, but
+
+405
+00:24:30,585 --> 00:24:34,525
+Speaker 4:  the feeling was they, people were suggesting candidates. We heard
+
+406
+00:24:34,605 --> 00:24:37,965
+Speaker 4:  a lot of what I would call like Web 1.0 names
+
+407
+00:24:38,865 --> 00:24:42,765
+Speaker 4:  Cheryl Sandberg was in the mix. Like, okay, right. Marissa Meyers
+
+408
+00:24:42,765 --> 00:24:46,645
+Speaker 4:  in the mix, like all these like old heads who are from that era, You know
+
+409
+00:24:46,645 --> 00:24:50,525
+Speaker 4:  the adults, like, we're gonna hire adult supervision for Google. Like
+
+410
+00:24:50,565 --> 00:24:53,445
+Speaker 4:  I was like, when is Eric Schmidt gonna show up? Right? Like this is, these
+
+411
+00:24:53,445 --> 00:24:54,805
+Speaker 4:  are the kinds of people we're talking about.
+
+412
+00:24:54,915 --> 00:24:58,565
+Speaker 6:  Yeah. I mean If, you saw a very public web 1.0 tech
+
+413
+00:24:58,565 --> 00:25:02,525
+Speaker 6:  executive like tweeting support of Sam over the weekend. They were most likely
+
+414
+00:25:02,525 --> 00:25:03,605
+Speaker 6:  trying to get on the board.
+
+415
+00:25:04,835 --> 00:25:06,765
+Speaker 5:  Dick Costolo just appears out of nowhere
+
+416
+00:25:07,145 --> 00:25:09,765
+Speaker 4:  At one point. Alex is like, these people are just like in the firmament.
+
+417
+00:25:09,765 --> 00:25:12,365
+Speaker 4:  They're available to show up and like run your company for a couple years.
+
+418
+00:25:12,765 --> 00:25:15,725
+Speaker 6:  Like Brett Taylor, we should know. I mean Brett Taylor would like the guy
+
+419
+00:25:15,725 --> 00:25:19,525
+Speaker 6:  who literally just negotiated the sale of Twitter to Elon in the
+
+420
+00:25:19,525 --> 00:25:23,245
+Speaker 6:  second most dramatic boardroom tech situation of the last decade.
+
+421
+00:25:23,595 --> 00:25:24,405
+Speaker 6:  Yeah. Nuts.
+
+422
+00:25:24,405 --> 00:25:28,285
+Speaker 4:  Yeah. Like it is just like, I keep calling 'em capital a adults, although
+
+423
+00:25:28,345 --> 00:25:31,765
+Speaker 4:  no one here was acting like an adult, but like they You know they have that
+
+424
+00:25:31,825 --> 00:25:35,525
+Speaker 4:  rep, like here's the cast of characters. And we had heard that such an
+
+425
+00:25:35,605 --> 00:25:39,125
+Speaker 4:  nadela was mediating this conversation. Right. And his
+
+426
+00:25:39,615 --> 00:25:43,005
+Speaker 4:  point of view was he's pretty neutral. He just wants this over with, he needs,
+
+427
+00:25:43,585 --> 00:25:47,285
+Speaker 4:  he needs a story to tell Microsoft shareholders on Monday morning. And that
+
+428
+00:25:47,285 --> 00:25:50,845
+Speaker 4:  is Microsoft's interest is stability for shareholders. 'cause they have this
+
+429
+00:25:50,845 --> 00:25:52,485
+Speaker 4:  massive dependency in OpenAI. And
+
+430
+00:25:52,485 --> 00:25:55,645
+Speaker 5:  That was one of the other things we should have said on Friday is that this
+
+431
+00:25:55,665 --> 00:25:59,605
+Speaker 5:  all happened while the markets were still open on Friday and Microsoft's
+
+432
+00:25:59,735 --> 00:26:03,725
+Speaker 5:  stock like tanked. Yeah. As a result of this happening. Like this was the,
+
+433
+00:26:03,825 --> 00:26:07,805
+Speaker 5:  the biggest public blowback on this was gonna come back to Microsoft in
+
+434
+00:26:07,805 --> 00:26:11,045
+Speaker 5:  a pretty real way. So it makes sense that Nadella was going to be directly
+
+435
+00:26:11,325 --> 00:26:11,925
+Speaker 5:  involved in doing this.
+
+436
+00:26:12,065 --> 00:26:15,685
+Speaker 4:  And th and this ticking clock for Microsoft, I think it is
+
+437
+00:26:15,825 --> 00:26:19,445
+Speaker 4:  underappreciated, but it was very real that Microsoft
+
+438
+00:26:19,465 --> 00:26:23,205
+Speaker 4:  needed a crisp thing to say on Monday morning. One way or another.
+
+439
+00:26:23,865 --> 00:26:27,765
+Speaker 4:  So I always had it in the back of my head. Like at some point this has
+
+440
+00:26:27,765 --> 00:26:31,605
+Speaker 4:  to hit some kind of resolution because
+
+441
+00:26:32,365 --> 00:26:36,085
+Speaker 4:  Microsoft will not demand it, but will just create a
+
+442
+00:26:36,285 --> 00:26:39,685
+Speaker 4:  resolution to say to its shareholders so that there's all this like vetting
+
+443
+00:26:39,685 --> 00:26:43,045
+Speaker 4:  of these like old heads, the the OGs come to town, right?
+
+444
+00:26:43,545 --> 00:26:47,085
+Speaker 4:  So the vibe I'm getting, and again, we don't actually know if everyone was
+
+445
+00:26:47,085 --> 00:26:49,605
+Speaker 4:  all together. We know there was a lot of opening high people at that headquarters.
+
+446
+00:26:49,665 --> 00:26:53,405
+Speaker 4:  We don't if the board was there actually. But the vibe we're getting
+
+447
+00:26:53,505 --> 00:26:57,445
+Speaker 4:  is people are firing names at this board and the
+
+448
+00:26:57,445 --> 00:27:00,805
+Speaker 4:  board is not taking it seriously. And in the meantime they are running their
+
+449
+00:27:01,145 --> 00:27:04,885
+Speaker 4:  own search for a new CEO because their interim
+
+450
+00:27:05,045 --> 00:27:08,845
+Speaker 4:  CEO Mira Mirati has sided with Sam in the meantime, like
+
+451
+00:27:09,125 --> 00:27:12,445
+Speaker 4:  publicly during the hearts campaign on Twitter, she's posting the heart,
+
+452
+00:27:12,445 --> 00:27:13,245
+Speaker 4:  right? So she's
+
+453
+00:27:13,355 --> 00:27:14,445
+Speaker 5:  What a sentence she's
+
+454
+00:27:14,445 --> 00:27:18,005
+Speaker 4:  Gone over. I mean it is just absolutely childish when I say these are very
+
+455
+00:27:18,005 --> 00:27:21,285
+Speaker 4:  flawed human people. Like we're gonna win this fight by posting hearts on
+
+456
+00:27:21,285 --> 00:27:24,845
+Speaker 4:  Twitter is I don Dunno what to say about it one day I will like
+
+457
+00:27:25,555 --> 00:27:29,485
+Speaker 4:  have had enough time to process that situation. But Mira has gone over to
+
+458
+00:27:29,485 --> 00:27:32,965
+Speaker 4:  Team Sam like very publicly. So the board needs a new CEO so that
+
+459
+00:27:33,155 --> 00:27:36,925
+Speaker 4:  they're getting tossed these names and everyone is hoping that they will
+
+460
+00:27:36,925 --> 00:27:40,645
+Speaker 4:  accept some names and resign and the new names will take over. And in the
+
+461
+00:27:40,885 --> 00:27:44,765
+Speaker 4:  meantime they are looking for a new CEO and that is more or less what is
+
+462
+00:27:44,765 --> 00:27:48,685
+Speaker 4:  happening all day Sunday as the 5:00 PM deadline draws
+
+463
+00:27:48,685 --> 00:27:49,045
+Speaker 4:  ever near.
+
+464
+00:27:49,385 --> 00:27:53,365
+Speaker 5:  So we hit that deadline. And again, nothing Alex, what would you have,
+
+465
+00:27:53,575 --> 00:27:57,245
+Speaker 5:  where was your head at sort of the end of Sunday? Like obviously things
+
+466
+00:27:57,465 --> 00:28:01,405
+Speaker 5:  get crazy several hours after that deadline, but like where were we at the
+
+467
+00:28:01,405 --> 00:28:03,445
+Speaker 5:  end of that day on Sunday, do you think?
+
+468
+00:28:03,845 --> 00:28:07,525
+Speaker 6:  I was feeling like if we didn't have an announcement by
+
+469
+00:28:07,555 --> 00:28:11,445
+Speaker 6:  five, it wasn't gonna work out. And we were kind of getting back channel
+
+470
+00:28:11,515 --> 00:28:15,205
+Speaker 6:  that by midday Sunday things were taking a
+
+471
+00:28:15,325 --> 00:28:19,245
+Speaker 6:  turn and I, I didn't, obviously no one could
+
+472
+00:28:19,245 --> 00:28:23,005
+Speaker 6:  have expected what actually happened. This is the most, like I was saying
+
+473
+00:28:23,005 --> 00:28:26,725
+Speaker 6:  at the top bananas thing. But yeah, I think people were
+
+474
+00:28:26,915 --> 00:28:30,845
+Speaker 6:  generally, people who were close to the story were thinking like, okay, he
+
+475
+00:28:30,845 --> 00:28:34,045
+Speaker 6:  made it very clear publicly, this is the last time he's setting foot in the
+
+476
+00:28:34,165 --> 00:28:38,005
+Speaker 6:  building. The deadline has passed and it's not looking good.
+
+477
+00:28:38,265 --> 00:28:41,765
+Speaker 5:  And and there's a version of that that would've been a very dramatic weekend
+
+478
+00:28:41,765 --> 00:28:45,565
+Speaker 5:  that ended in a relatively okay thing, right? Sam and Greg
+
+479
+00:28:45,565 --> 00:28:49,085
+Speaker 5:  go off to do something. They bring some OpenAI people with them. OpenAI hires
+
+480
+00:28:49,085 --> 00:28:52,925
+Speaker 5:  a new CEO, everybody moves on with their lives like that. There's a
+
+481
+00:28:53,125 --> 00:28:55,765
+Speaker 5:  version of this where like a lot of people had a lot of feelings, but it
+
+482
+00:28:55,765 --> 00:28:59,365
+Speaker 5:  turns into a relatively normal corporate change.
+
+483
+00:28:59,775 --> 00:29:02,485
+Speaker 5:  Right? But that is obviously not what happened,
+
+484
+00:29:02,695 --> 00:29:06,405
+Speaker 4:  Right? The negotiation to bring Sam Altman back has failed. Mira Mirati continues
+
+485
+00:29:06,545 --> 00:29:10,485
+Speaker 4:  is interim CEO Microsoft wishes Sam the best and says they'll support
+
+486
+00:29:10,485 --> 00:29:14,445
+Speaker 4:  him in the new venture. Right? Again, the the thing that needed
+
+487
+00:29:14,465 --> 00:29:18,445
+Speaker 4:  to happen by Monday morning was a Microsoft statement to the market and
+
+488
+00:29:18,445 --> 00:29:22,285
+Speaker 4:  you really just cannot underestimate how much pressure that was
+
+489
+00:29:22,485 --> 00:29:25,965
+Speaker 4:  applying to the situation. Like yeah. So I'm expecting that
+
+490
+00:29:25,995 --> 00:29:29,965
+Speaker 4:  statement, right? Like here's the forcing function. We just have to be
+
+491
+00:29:29,965 --> 00:29:33,805
+Speaker 4:  ready for this deal is gonna fall apart. Microsoft is
+
+492
+00:29:33,805 --> 00:29:37,685
+Speaker 4:  gonna issue some holding statement and say, You know we have a
+
+493
+00:29:37,685 --> 00:29:41,485
+Speaker 4:  deal with OpenAI, everything's fine, our contracts are rock solid.
+
+494
+00:29:42,035 --> 00:29:45,485
+Speaker 4:  Brad Smith or Chief Legal Officers, a great lawyer, like whatever Microsoft
+
+495
+00:29:45,505 --> 00:29:48,845
+Speaker 4:  is gonna say to, to calm everybody down. But instead,
+
+496
+00:29:49,625 --> 00:29:53,445
+Speaker 4:  and all credits to Bloomberg. Bloomberg has a report I don know 10
+
+497
+00:29:53,445 --> 00:29:57,125
+Speaker 4:  minutes before the thing actually happens that Mira
+
+498
+00:29:57,295 --> 00:30:00,605
+Speaker 4:  Murti has hashed a plan as interim CEO to just
+
+499
+00:30:01,085 --> 00:30:04,805
+Speaker 4:  rehire Sam and Greg as employees while
+
+500
+00:30:05,065 --> 00:30:08,965
+Speaker 4:  the board is out calling people to interview them
+
+501
+00:30:08,985 --> 00:30:12,925
+Speaker 4:  to be the CEO to replace Mira. And so what comes out in
+
+502
+00:30:12,925 --> 00:30:16,485
+Speaker 4:  the end, I'll just like fast forward a little bit, is Mira's plan was to
+
+503
+00:30:16,485 --> 00:30:19,685
+Speaker 4:  quickly hire Sam and Greg as employees, again
+
+504
+00:30:20,355 --> 00:30:24,285
+Speaker 4:  forcing the board to fire all three of them, which would've
+
+505
+00:30:24,285 --> 00:30:27,965
+Speaker 4:  led to presumably lawsuit. Like who knows what was gonna happen in that moment.
+
+506
+00:30:28,425 --> 00:30:31,765
+Speaker 4:  But that was the last swing of chaos when it was,
+
+507
+00:30:32,365 --> 00:30:36,205
+Speaker 4:  I think obvious, oh this just fell apart. Like it, we're not
+
+508
+00:30:36,485 --> 00:30:40,445
+Speaker 4:  in a place where we're negotiating four people resigning. We're in a place
+
+509
+00:30:40,445 --> 00:30:44,365
+Speaker 4:  where we're actively trying to create legal
+
+510
+00:30:45,045 --> 00:30:48,765
+Speaker 4:  leverage for a lawsuit to come. And the board is actively trying to
+
+511
+00:30:48,765 --> 00:30:52,045
+Speaker 4:  replace the person that they just hired to replace the CEO. They fired.
+
+512
+00:30:53,415 --> 00:30:57,325
+Speaker 6:  Sorry. It's just, it's I know it's just like this whole thing
+
+513
+00:30:57,325 --> 00:31:00,285
+Speaker 6:  has been such a blur for Neli and I like when you say all this out loud,
+
+514
+00:31:00,475 --> 00:31:02,565
+Speaker 6:  it's just truly, it's insane.
+
+515
+00:31:02,705 --> 00:31:05,445
+Speaker 5:  And it does seem like, I think your, your instinct there is right Neli that
+
+516
+00:31:05,445 --> 00:31:09,285
+Speaker 5:  it's at that point what you're saying is, I'm not gonna quit. You have to
+
+517
+00:31:09,285 --> 00:31:12,845
+Speaker 5:  fire me. Yep. Like I'm, I'm going to cause so much trouble for you that you're
+
+518
+00:31:12,845 --> 00:31:16,085
+Speaker 5:  gonna have to get rid of me and then I'm gonna have ammo kind of in whatever
+
+519
+00:31:16,085 --> 00:31:17,205
+Speaker 5:  direction I want to use it. Yeah,
+
+520
+00:31:17,205 --> 00:31:20,845
+Speaker 4:  Exactly. Right. And the rehiring of Sam and Greg is like a deeply
+
+521
+00:31:21,095 --> 00:31:23,645
+Speaker 4:  funny idea. Like you have to fire them again.
+
+522
+00:31:24,995 --> 00:31:25,325
+Speaker 4:  It's just
+
+523
+00:31:25,325 --> 00:31:28,765
+Speaker 5:  Like a, just like hire them as interns and watch them get fired. Yeah. And
+
+524
+00:31:28,765 --> 00:31:28,965
+Speaker 5:  all
+
+525
+00:31:28,965 --> 00:31:32,525
+Speaker 4:  Three of them will then sue the board. And this is when
+
+526
+00:31:32,835 --> 00:31:36,405
+Speaker 4:  Alex and I just started sending out hundreds of text messages. This is about
+
+527
+00:31:36,405 --> 00:31:40,005
+Speaker 4:  to fall apart, like this is absolutely about to fall apart. And
+
+528
+00:31:40,505 --> 00:31:44,285
+Speaker 4:  it, it fell apart and it fell apart in the weirdest way possible. Which is
+
+529
+00:31:44,285 --> 00:31:46,525
+Speaker 4:  the board just, I didn't even announce
+
+530
+00:31:47,475 --> 00:31:47,765
+Speaker 6:  Like
+
+531
+00:31:48,265 --> 00:31:49,685
+Speaker 4:  The information broke. Yeah.
+
+532
+00:31:49,685 --> 00:31:53,605
+Speaker 6:  This is just like coming from sources. Like the board has been in a bunker
+
+533
+00:31:53,605 --> 00:31:56,965
+Speaker 6:  somewhere. They don't have a crisis comms team, they don't have like people
+
+534
+00:31:57,205 --> 00:32:00,445
+Speaker 6:  speaking to the media. They, they've just been radio silent. But it starts
+
+535
+00:32:00,445 --> 00:32:03,845
+Speaker 6:  to trickle out that they've actually named a new CEO
+
+536
+00:32:04,545 --> 00:32:06,205
+Speaker 6:  and it's Emmett Shear
+
+537
+00:32:06,625 --> 00:32:09,925
+Speaker 5:  Not on my bingo card for who was gonna be the next CEO of OpenAI.
+
+538
+00:32:10,225 --> 00:32:14,125
+Speaker 6:  Not on anyone's bingo card. I think it's very safe to call this one
+
+539
+00:32:14,185 --> 00:32:18,125
+Speaker 6:  out of left field. Emmett was the co-founder of Twitch, which is a
+
+540
+00:32:18,875 --> 00:32:22,565
+Speaker 6:  live streaming video site, not an AI company. He's not
+
+541
+00:32:22,715 --> 00:32:26,205
+Speaker 6:  seen as a AI leader. He posted
+
+542
+00:32:26,805 --> 00:32:30,205
+Speaker 6:  shortly after it leaks that he was being named CEO, that
+
+543
+00:32:30,705 --> 00:32:34,565
+Speaker 6:  he got the call for the job that day and took a few hours
+
+544
+00:32:34,825 --> 00:32:38,445
+Speaker 6:  to decide. And You know he's a free agent. He left Twitch
+
+545
+00:32:38,555 --> 00:32:42,445
+Speaker 6:  earlier this year before mass layoffs. They've had two rounds of layoffs
+
+546
+00:32:42,445 --> 00:32:46,365
+Speaker 6:  since I can confidently say that the vibe within Amazon
+
+547
+00:32:46,385 --> 00:32:50,285
+Speaker 6:  is that Twitch has been a, hmm, how
+
+548
+00:32:50,285 --> 00:32:54,165
+Speaker 6:  should I put this shit show since Amazon bought it? And
+
+549
+00:32:54,165 --> 00:32:58,125
+Speaker 6:  so no one really thought of Emmett except the board.
+
+550
+00:32:58,365 --> 00:33:01,885
+Speaker 6:  Apparently he is now the CEO and he sent this note internally to
+
+551
+00:33:02,085 --> 00:33:05,885
+Speaker 6:  employees saying that he was going to conduct an independent review
+
+552
+00:33:05,905 --> 00:33:09,845
+Speaker 6:  of the board's actions, which is hilarious because he was hired
+
+553
+00:33:09,985 --> 00:33:13,885
+Speaker 6:  by the board. I don't think that's possible to have
+
+554
+00:33:13,885 --> 00:33:17,685
+Speaker 6:  an independent review when you are the person you're
+
+555
+00:33:17,965 --> 00:33:20,205
+Speaker 6:  represented by the people that you're reviewing. I mean, it just doesn't
+
+556
+00:33:20,205 --> 00:33:20,925
+Speaker 6:  make sense. And
+
+557
+00:33:20,925 --> 00:33:24,285
+Speaker 4:  Also those people can callously fire you whenever they want. Yes. Which they've
+
+558
+00:33:24,285 --> 00:33:27,245
+Speaker 4:  proven twice in 48 hours that they can do.
+
+559
+00:33:27,675 --> 00:33:30,405
+Speaker 6:  Okay. And we've been dancing around this this whole time. I really think
+
+560
+00:33:30,405 --> 00:33:33,125
+Speaker 6:  at this point we should just say who these people are because at the end
+
+561
+00:33:33,125 --> 00:33:37,005
+Speaker 6:  of the day, three people set all this in motion. Three people have caused
+
+562
+00:33:37,265 --> 00:33:40,685
+Speaker 6:  OpenAI to explode from within. So should we just get into that? Yeah, do
+
+563
+00:33:40,685 --> 00:33:44,485
+Speaker 6:  it. Yeah. Okay. So OpenAI is very strange in
+
+564
+00:33:44,485 --> 00:33:47,245
+Speaker 6:  how it's structured. And this is something that people haven't really been
+
+565
+00:33:47,245 --> 00:33:50,525
+Speaker 6:  paying attention to because we've been so focused on just the, the success
+
+566
+00:33:50,525 --> 00:33:54,125
+Speaker 6:  of their products with ChatGPT. But OpenAI
+
+567
+00:33:54,125 --> 00:33:58,045
+Speaker 6:  started as a nonprofit and so it has this weird structure where there's a
+
+568
+00:33:58,045 --> 00:34:01,085
+Speaker 6:  nonprofit there, there's a flow chart which is like perfect for decoder.
+
+569
+00:34:01,085 --> 00:34:04,925
+Speaker 6:  There's a flow chart on open AI's website and it, i I
+
+570
+00:34:04,925 --> 00:34:08,445
+Speaker 6:  challenge you to look at this flow chart and try to make sense of it. It
+
+571
+00:34:08,445 --> 00:34:10,205
+Speaker 6:  is one of the most confusing, I just
+
+572
+00:34:10,205 --> 00:34:12,805
+Speaker 4:  Want to be very clear. You can definitely make sense of it and they've drawn
+
+573
+00:34:12,805 --> 00:34:14,445
+Speaker 4:  it to be more confusing than it actually is.
+
+574
+00:34:14,755 --> 00:34:15,965
+Speaker 6:  Okay, well we're we're
+
+575
+00:34:15,965 --> 00:34:16,325
+Speaker 4:  A hundred percent
+
+576
+00:34:16,325 --> 00:34:19,045
+Speaker 6:  True. We're gonna redraw the flow chart now. Yeah. 'cause it's all different.
+
+577
+00:34:19,145 --> 00:34:22,725
+Speaker 6:  But, so there's this nonprofit with this board that
+
+578
+00:34:22,725 --> 00:34:26,605
+Speaker 6:  controls it and importantly the board of OpenAI does not
+
+579
+00:34:26,605 --> 00:34:30,565
+Speaker 6:  have equity in OpenAI, which is a really wild thing.
+
+580
+00:34:30,945 --> 00:34:34,685
+Speaker 6:  And so that's the context of the board. There's three of them really that
+
+581
+00:34:34,685 --> 00:34:38,525
+Speaker 6:  aren't OpenAI people. So one of them is Adam DeAngelo, who is the
+
+582
+00:34:38,725 --> 00:34:42,205
+Speaker 6:  CEO of Cora. He operates, I should note a competing AI
+
+583
+00:34:42,235 --> 00:34:45,925
+Speaker 6:  chatbot platform called Poe. He was the original CTO of Facebook.
+
+584
+00:34:45,955 --> 00:34:49,645
+Speaker 6:  He's a, he's a known quantity in Silicon Valley. He's, he's a really well
+
+585
+00:34:49,645 --> 00:34:53,405
+Speaker 6:  connected guy. There's a woman named Helen Toner who has ties
+
+586
+00:34:53,465 --> 00:34:56,845
+Speaker 6:  to the effective altruism movement. She used to work at Open Philanthropy,
+
+587
+00:34:57,175 --> 00:35:01,125
+Speaker 6:  she's now at Georgetown. She funds AI safety stuff. She was actually
+
+588
+00:35:01,145 --> 00:35:04,805
+Speaker 6:  on our stage at code in September with Casey Newton talking about
+
+589
+00:35:04,985 --> 00:35:08,765
+Speaker 6:  AI safety. And then the other one is a woman named Tasha
+
+590
+00:35:08,805 --> 00:35:12,605
+Speaker 6:  McCauley, who is the former CEO of Geo sim systems. And as far as I can tell,
+
+591
+00:35:13,035 --> 00:35:16,965
+Speaker 6:  basically no one in tech that I know knows who she is. Okay. So that's
+
+592
+00:35:17,025 --> 00:35:20,645
+Speaker 6:  the three people. And they are the ones who basically
+
+593
+00:35:20,705 --> 00:35:24,445
+Speaker 6:  decide to bring Emmett in because as we find out in the next
+
+594
+00:35:24,445 --> 00:35:28,325
+Speaker 6:  turn of the story, the guy that we thought was the, the
+
+595
+00:35:28,355 --> 00:35:31,925
+Speaker 6:  architect, the, this mastermind of all of this flipped,
+
+596
+00:35:32,295 --> 00:35:34,245
+Speaker 6:  which we can get into. Yeah.
+
+597
+00:35:34,385 --> 00:35:37,765
+Speaker 4:  So Emmett's a weird choice. Emmett's a weird choice and also
+
+598
+00:35:38,345 --> 00:35:42,245
+Speaker 4:  openly a deceleration is, which is a, a phrase that the
+
+599
+00:35:42,345 --> 00:35:45,685
+Speaker 4:  AI community loves to use. Like there's videos of him being like, this is
+
+600
+00:35:45,815 --> 00:35:49,685
+Speaker 4:  terrifying. We should slow it down. This will extinguish all
+
+601
+00:35:49,685 --> 00:35:53,525
+Speaker 4:  value in the cone of light, which is a real thing. He says, wow, it's amazing.
+
+602
+00:35:53,555 --> 00:35:57,125
+Speaker 4:  Like, and his his point of view is we should slow
+
+603
+00:35:57,505 --> 00:36:01,165
+Speaker 4:  AI innovation way down before so he can get a handle on how dangerous it's
+
+604
+00:36:01,675 --> 00:36:04,605
+Speaker 4:  Yeah. So you can see where the board is, right? This is a split that we've
+
+605
+00:36:04,605 --> 00:36:07,845
+Speaker 4:  been hearing about the entire time. OpenAI is playing with dangerous toys
+
+606
+00:36:08,425 --> 00:36:12,285
+Speaker 4:  and Sam is running too fast. So we've brought an Emmett Shear
+
+607
+00:36:12,625 --> 00:36:14,405
+Speaker 4:  to slow this whole thing way down.
+
+608
+00:36:14,635 --> 00:36:18,445
+Speaker 5:  Yeah, I think that's right. And then on the flip side, very early this
+
+609
+00:36:18,445 --> 00:36:21,765
+Speaker 5:  morning, Neli, I think to your point correctly to
+
+610
+00:36:22,345 --> 00:36:26,085
+Speaker 5:  get something out before the stock markets opened, Microsoft announces
+
+611
+00:36:26,345 --> 00:36:30,165
+Speaker 5:  it has hired Sam Altman and Craig Brockman to run, I
+
+612
+00:36:30,165 --> 00:36:32,165
+Speaker 5:  believe the phrase is an AI research
+
+613
+00:36:32,825 --> 00:36:36,525
+Speaker 4:  Lab, an advanced AI research team is their statement. And can I just read
+
+614
+00:36:36,525 --> 00:36:38,245
+Speaker 4:  this statement from Saachi Nadella?
+
+615
+00:36:38,465 --> 00:36:39,045
+Speaker 5:  Please do.
+
+616
+00:36:39,215 --> 00:36:43,125
+Speaker 4:  Which just contains magnitudes. We remain committed
+
+617
+00:36:43,125 --> 00:36:45,805
+Speaker 4:  to our partnership with OpenAI, have confidence in our product roadmap, our
+
+618
+00:36:45,805 --> 00:36:47,885
+Speaker 4:  ability to continue to innovate with everything we've announced at Microsoft
+
+619
+00:36:48,125 --> 00:36:51,645
+Speaker 4:  Ignite and in continuous support our customers and partners. We look forward
+
+620
+00:36:51,785 --> 00:36:55,525
+Speaker 4:  to getting to know Emmett Sheer and o's new
+
+621
+00:36:55,525 --> 00:36:59,205
+Speaker 4:  leadership team and working with them. And we are extremely
+
+622
+00:36:59,205 --> 00:37:02,805
+Speaker 4:  excited to share the news at Sam Altman and Greg Rockman. Together with
+
+623
+00:37:02,805 --> 00:37:06,245
+Speaker 4:  colleagues, we'll be joining Microsoft to lead a new advanced AI research
+
+624
+00:37:06,245 --> 00:37:09,765
+Speaker 4:  team. We look forward to moving quickly to provide them with the resources
+
+625
+00:37:09,765 --> 00:37:13,085
+Speaker 4:  needed for their success in the journalism business. We call that bearing
+
+626
+00:37:13,085 --> 00:37:13,525
+Speaker 4:  the lead.
+
+627
+00:37:15,225 --> 00:37:18,805
+Speaker 4:  And importantly Sam Altman is being given the title of CEO at
+
+628
+00:37:19,045 --> 00:37:22,805
+Speaker 4:  Microsoft, which is inside Microsoft's corporate
+
+629
+00:37:22,805 --> 00:37:26,485
+Speaker 4:  politics like a big deal. Right? There are not a lot of CEOs at Microsoft.
+
+630
+00:37:26,595 --> 00:37:30,525
+Speaker 4:  Usually when they acquire a big company, they give those people the
+
+631
+00:37:30,565 --> 00:37:34,485
+Speaker 4:  CEO title. So the person who leads LinkedIn as ACEO title, the
+
+632
+00:37:34,485 --> 00:37:38,365
+Speaker 4:  person who leads GitHub has ACEO title. Phil Spencer is now the
+
+633
+00:37:38,405 --> 00:37:42,245
+Speaker 4:  CEO of Microsoft gaming. And that's a big deal. You can go listen to that
+
+634
+00:37:42,245 --> 00:37:45,605
+Speaker 4:  decoder episode where I ask him what that that title shift means. And it
+
+635
+00:37:45,605 --> 00:37:49,165
+Speaker 4:  basically means he has his own resources, right? He's split off from
+
+636
+00:37:49,525 --> 00:37:53,405
+Speaker 4:  Microsoft, your own p and l. Well you can go listen to that
+
+637
+00:37:53,405 --> 00:37:57,325
+Speaker 4:  episode. It basically means you have your own resources and you are more
+
+638
+00:37:57,325 --> 00:38:00,925
+Speaker 4:  of a free agent to run your little division like
+
+639
+00:38:01,035 --> 00:38:04,645
+Speaker 4:  it's own little company. So this is the arrangement Sam is getting. What
+
+640
+00:38:04,645 --> 00:38:08,005
+Speaker 4:  I will tell you is I read this statement especially that we look forward
+
+641
+00:38:08,005 --> 00:38:11,005
+Speaker 4:  to getting to know Emmett here. They don't know, they don't know these people.
+
+642
+00:38:11,005 --> 00:38:13,605
+Speaker 4:  They don't know what's gonna happen with OpenAI. They don't know if Emmett's
+
+643
+00:38:13,605 --> 00:38:17,405
+Speaker 4:  gonna turn the pace of innovation way down. But they are able to tell the
+
+644
+00:38:17,405 --> 00:38:21,205
+Speaker 4:  market, hey the, the face of the AI winning that
+
+645
+00:38:21,205 --> 00:38:25,085
+Speaker 4:  we've been doing as Microsoft now works at Microsoft. Does Sam Altman
+
+646
+00:38:25,085 --> 00:38:27,565
+Speaker 4:  have a contract to work in Microsoft yet? Like, I don't know the answer to
+
+647
+00:38:27,565 --> 00:38:31,045
+Speaker 4:  that question. Does Sam Altman, the guy who used to run Y
+
+648
+00:38:31,045 --> 00:38:34,525
+Speaker 4:  Combinator, who has his hands and every startup in the universe has
+
+649
+00:38:35,045 --> 00:38:38,605
+Speaker 4:  multiple investment funds, is thinks of himself as the guy who was running
+
+650
+00:38:38,625 --> 00:38:42,525
+Speaker 4:  the hottest AI startup in the world on its way to making AGI
+
+651
+00:38:43,115 --> 00:38:47,085
+Speaker 4:  Does he want to be a Microsoft employee? I like, I truly do
+
+652
+00:38:47,085 --> 00:38:50,565
+Speaker 4:  not know the answer to that question. I do know that this statement utterly
+
+653
+00:38:50,565 --> 00:38:54,485
+Speaker 4:  worked to not only calm the market but to send Microsoft
+
+654
+00:38:54,545 --> 00:38:58,405
+Speaker 4:  stocks skyrocketing. And we are now sitting here saying, do
+
+655
+00:38:58,405 --> 00:39:01,485
+Speaker 4:  we need to pre-write Microsoft is now a $3 trillion company.
+
+656
+00:39:02,325 --> 00:39:05,325
+Speaker 4:  'cause the, the stock as we are speaking is like to the moon.
+
+657
+00:39:06,105 --> 00:39:10,085
+Speaker 4:  So this statement worked. I'm just cautioning everyone. This
+
+658
+00:39:10,465 --> 00:39:13,845
+Speaker 4:  in my view is a holding state. It's still a holding statement.
+
+659
+00:39:14,115 --> 00:39:17,805
+Speaker 6:  Well I think knowing what we know about Sunday, knowing that Microsoft
+
+660
+00:39:17,805 --> 00:39:21,405
+Speaker 6:  really wanted to have this buttoned up by markets open, this was
+
+661
+00:39:21,405 --> 00:39:24,965
+Speaker 6:  decided like, it was like almost like 1:00 AM Pacific. Yeah.
+
+662
+00:39:25,005 --> 00:39:27,925
+Speaker 4:  I was asleep like straight up. I was like, I'm done now I'm
+
+663
+00:39:27,925 --> 00:39:31,525
+Speaker 6:  Thinking that like okay the surely nothing more is to come and then at like
+
+664
+00:39:31,525 --> 00:39:35,205
+Speaker 6:  around one Nadella t us and luckily Tom Warren is waking up in London and
+
+665
+00:39:35,205 --> 00:39:38,965
+Speaker 6:  and gets it on the site. It's nuts. But, but I think there's an important
+
+666
+00:39:38,965 --> 00:39:42,205
+Speaker 6:  thing here, which is we know that Microsoft wanted to get this done.
+
+667
+00:39:43,125 --> 00:39:47,085
+Speaker 6:  I have to imagine that whatever got Sam and Greg to agree to go to
+
+668
+00:39:47,445 --> 00:39:51,325
+Speaker 6:  Microsoft was a lot. I imagine they had all the leverage in that
+
+669
+00:39:51,685 --> 00:39:54,165
+Speaker 6:  situation because they'll, they'll just go do their own thing, right? Like
+
+670
+00:39:54,165 --> 00:39:58,045
+Speaker 6:  we've all been saying Microsoft cannot make it look like the,
+
+671
+00:39:58,305 --> 00:40:01,925
+Speaker 6:  the company that they have literally bet their AI Azure future
+
+672
+00:40:02,105 --> 00:40:05,485
+Speaker 6:  on is imploding before their very eyes. Yeah. And So
+
+673
+00:40:06,325 --> 00:40:09,565
+Speaker 6:  I have to imagine this is gonna go down as one of the best packages
+
+674
+00:40:10,035 --> 00:40:13,605
+Speaker 6:  ever from a big tech company to, to a team to come there because
+
+675
+00:40:14,035 --> 00:40:15,845
+Speaker 6:  they had all the leverage that night.
+
+676
+00:40:16,205 --> 00:40:19,765
+Speaker 5:  I agree. So this just real quick, this brings us to winners and losers.
+
+677
+00:40:19,835 --> 00:40:21,285
+Speaker 4:  Wait, we're not done with the story yet.
+
+678
+00:40:21,285 --> 00:40:24,285
+Speaker 5:  We're not, there's one more turn, but we're gonna get to that. But first
+
+679
+00:40:24,285 --> 00:40:25,965
+Speaker 5:  we're gonna take a break. We'll be right back.
+
+680
+00:40:31,975 --> 00:40:35,945
+Speaker 8:  This episode is brought to you by Shopify. That's the sound of
+
+681
+00:40:35,945 --> 00:40:39,345
+Speaker 8:  switching your business to Shopify. The global commerce platform that
+
+682
+00:40:39,345 --> 00:40:42,865
+Speaker 8:  supercharges your selling harness. The best converting checkout and same
+
+683
+00:40:42,865 --> 00:40:46,705
+Speaker 8:  intuitive features, trusted apps and powerful analytics used
+
+684
+00:40:46,705 --> 00:40:50,265
+Speaker 8:  by the world's leading brands. Stop leaving sales on the table.
+
+685
+00:40:50,825 --> 00:40:54,545
+Speaker 8:  Discover why millions trust Shopify to build, grow and run their
+
+686
+00:40:54,785 --> 00:40:57,945
+Speaker 8:  business. Sign up today for your $1 per month trial period at
+
+687
+00:40:57,945 --> 00:40:59,985
+Speaker 8:  shopify.com/tech 23.
+
+688
+00:41:00,765 --> 00:41:04,745
+Speaker 7:  The Pitch season 10 is here. Who's ready to tee it high
+
+689
+00:41:04,745 --> 00:41:05,705
+Speaker 7:  and let it fly? Oh,
+
+690
+00:41:07,295 --> 00:41:11,065
+Speaker 7:  I've heard a lot of pitches over the years. The founders on this
+
+691
+00:41:11,065 --> 00:41:13,625
+Speaker 7:  season take it to a whole nother level.
+
+692
+00:41:13,925 --> 00:41:17,785
+Speaker 9:  If someone like me, an engineer having managed a division at Apple with 37
+
+693
+00:41:17,815 --> 00:41:20,265
+Speaker 9:  patents, if I don't even have smart home tech
+
+694
+00:41:20,965 --> 00:41:23,705
+Speaker 7:  Who does and a whole new continent,
+
+695
+00:41:24,065 --> 00:41:27,825
+Speaker 10:  I wanna introduce you to an industry that's currently experiencing two
+
+696
+00:41:27,945 --> 00:41:30,905
+Speaker 10:  x yearly growth that you are not invested in in Africa.
+
+697
+00:41:31,485 --> 00:41:35,245
+Speaker 7:  But this is a tech podcast. Of course we have your college
+
+698
+00:41:35,395 --> 00:41:35,885
+Speaker 7:  dropout.
+
+699
+00:41:35,955 --> 00:41:38,805
+Speaker 11:  When I was a freshman at USC, I actually sold my first software business
+
+700
+00:41:38,805 --> 00:41:42,125
+Speaker 11:  for 300 k. I also just love capitalism and
+
+701
+00:41:43,105 --> 00:41:46,965
+Speaker 7:  Listen now to season 10 of the Pitch to hear world-class founders
+
+702
+00:41:47,215 --> 00:41:51,085
+Speaker 7:  Pitch investors for money on the spot. Start your binge
+
+703
+00:41:51,275 --> 00:41:55,205
+Speaker 7:  with episode one 15, the crown jewel of venture. The Pitch
+
+704
+00:41:55,205 --> 00:41:57,565
+Speaker 7:  is available wherever you listen to podcasts.
+
+705
+00:42:04,805 --> 00:42:08,225
+Speaker 5:  All, right? We're back and we are back with the last and current turn
+
+706
+00:42:08,645 --> 00:42:12,545
+Speaker 5:  of the story, which is a letter. So much of this all is just happening.
+
+707
+00:42:13,005 --> 00:42:16,785
+Speaker 5:  People writing texts to each other. It makes me very happy. Neli,
+
+708
+00:42:16,785 --> 00:42:19,145
+Speaker 5:  since you're our quote reader for the day, do you want, do you wanna read
+
+709
+00:42:19,145 --> 00:42:22,905
+Speaker 5:  part of this letter? Yeah. It's truly spectacular from a bunch of
+
+710
+00:42:23,045 --> 00:42:26,265
+Speaker 5:  OpenAI employees. They, they, they wrote an open letter to the board.
+
+711
+00:42:26,695 --> 00:42:30,665
+Speaker 4:  Keep in mind this all starts with You know a 5:00 PM
+
+712
+00:42:31,025 --> 00:42:34,945
+Speaker 4:  deadline, which is there's gonna be mass resignations unless Sam comes back,
+
+713
+00:42:34,945 --> 00:42:38,465
+Speaker 4:  right? They've blown the deadline twice and Sam has now announced to go to
+
+714
+00:42:38,705 --> 00:42:42,545
+Speaker 4:  Microsoft. The markets think Microsoft has conducted
+
+715
+00:42:42,665 --> 00:42:46,225
+Speaker 4:  a, the greatest act will hire in tech history with no
+
+716
+00:42:46,505 --> 00:42:50,425
+Speaker 4:  regulatory oversight. Like I have a version of that idea from
+
+717
+00:42:50,425 --> 00:42:53,425
+Speaker 4:  like 5,000 people in my text message in Box. Yeah. Like
+
+718
+00:42:54,185 --> 00:42:57,545
+Speaker 4:  Satchel is a genius. Okay. What no one is counting on is like, oh people
+
+719
+00:42:57,545 --> 00:43:01,225
+Speaker 4:  still wanna do the plan, right? Like If you say you either
+
+720
+00:43:01,255 --> 00:43:05,145
+Speaker 4:  hire Sam or we all resign. A lot of people are gonna try
+
+721
+00:43:05,145 --> 00:43:08,825
+Speaker 4:  to resign when you don't hire Sam back. So 500
+
+722
+00:43:08,935 --> 00:43:12,865
+Speaker 4:  plus employees out of it's what it 700 employees? Yeah,
+
+723
+00:43:13,015 --> 00:43:15,585
+Speaker 4:  it's, I mean by the time this episode comes out it will, it will have been
+
+724
+00:43:15,585 --> 00:43:19,025
+Speaker 4:  the whole company. The letter says we, the undersigned may choose to resign
+
+725
+00:43:19,025 --> 00:43:21,905
+Speaker 4:  from OpenAI and join the newly announced Microsoft subsidiary run by Sam
+
+726
+00:43:22,025 --> 00:43:25,705
+Speaker 4:  Altman and Greg Brockman. Microsoft has assured us that there are positions
+
+727
+00:43:25,705 --> 00:43:28,465
+Speaker 4:  for all open eye employees at this new subsidiary. Should we choose to join,
+
+728
+00:43:29,005 --> 00:43:32,945
+Speaker 4:  we will take this step imminently unless all current board
+
+729
+00:43:32,945 --> 00:43:36,825
+Speaker 4:  members resign and the board appoints two new lead independent
+
+730
+00:43:37,105 --> 00:43:40,945
+Speaker 4:  directors such as Brett Taylor and Will heard and reinstate Sam Altman and
+
+731
+00:43:40,945 --> 00:43:44,665
+Speaker 4:  Greg Brockman. Importantly Ilya has signed
+
+732
+00:43:44,775 --> 00:43:48,705
+Speaker 4:  this letter and he has tweeted, I deeply regret my participation in the
+
+733
+00:43:48,705 --> 00:43:52,065
+Speaker 4:  board's actions. I never intended to harm OpenAI. I love everything we've
+
+734
+00:43:52,065 --> 00:43:54,985
+Speaker 4:  built together and I'll do everything I can to reunite the company. Mira
+
+735
+00:43:54,985 --> 00:43:58,625
+Speaker 4:  has signed this letter and Sam has now quote tweeted Ilya with three heart
+
+736
+00:43:58,965 --> 00:44:02,745
+Speaker 4:  emojis. Which I just saying this I want to point out we are
+
+737
+00:44:02,745 --> 00:44:06,345
+Speaker 4:  talking about 10 to $80 billion in
+
+738
+00:44:06,345 --> 00:44:10,145
+Speaker 4:  shareholder value is happening with heart emojis on Twitter. It's,
+
+739
+00:44:10,175 --> 00:44:13,585
+Speaker 4:  it's the most emo thing. I've listened to letter to Elise like 10 times this
+
+740
+00:44:13,585 --> 00:44:16,345
+Speaker 4:  weekend because, because when I was in college, I would just use the lyrics
+
+741
+00:44:16,345 --> 00:44:20,305
+Speaker 4:  to letter to Elise by the cures my aim away message. That's
+
+742
+00:44:20,305 --> 00:44:23,505
+Speaker 4:  where we are emotionally with this situation. This means
+
+743
+00:44:24,165 --> 00:44:28,025
+Speaker 4:  the board might succumb to this pressure campaign because they're gonna lose
+
+744
+00:44:28,025 --> 00:44:30,945
+Speaker 4:  their entire company. All these employees are tweeting, opening eyes, nothing
+
+745
+00:44:31,020 --> 00:44:34,725
+Speaker 4:  without its people. The board might succumb, they might reinstate Sam. This
+
+746
+00:44:34,735 --> 00:44:38,645
+Speaker 4:  whole Sam is now the CEO of a Microsoft research team might not come to
+
+747
+00:44:38,645 --> 00:44:42,165
+Speaker 4:  pass. I truly do not know what happens next. And that's what I mean by
+
+748
+00:44:42,965 --> 00:44:46,885
+Speaker 4:  Microsoft needed some clarity and they got it today in
+
+749
+00:44:46,965 --> 00:44:50,325
+Speaker 4:  a move which maybe seems like Nadella is a genius
+
+750
+00:44:50,745 --> 00:44:54,525
+Speaker 4:  but also may have just created enough stability for the next chapter
+
+751
+00:44:54,585 --> 00:44:54,965
+Speaker 4:  to play
+
+752
+00:44:54,965 --> 00:44:58,725
+Speaker 5:  Out. So Alex, there are two things in here that jump out to me that I'm really
+
+753
+00:44:58,725 --> 00:45:02,445
+Speaker 5:  curious about. One this means Microsoft has made very clear, very loudly
+
+754
+00:45:02,445 --> 00:45:05,445
+Speaker 5:  that anyone who wants to leave OpenAI can go work for Microsoft. Which is
+
+755
+00:45:05,885 --> 00:45:09,645
+Speaker 5:  a pretty ruthless thing to do to a company that you've been saying we You
+
+756
+00:45:09,645 --> 00:45:12,325
+Speaker 5:  know are committed to our partnership and look forward to getting to know
+
+757
+00:45:12,325 --> 00:45:15,645
+Speaker 5:  the leader new leadership team. And the other thing is, this is the final
+
+758
+00:45:15,795 --> 00:45:19,605
+Speaker 5:  form of the kind of the board against the world thing. This is not
+
+759
+00:45:20,055 --> 00:45:23,925
+Speaker 5:  quote tweets and heart emojis. This is literally the vast majority of the
+
+760
+00:45:23,925 --> 00:45:27,845
+Speaker 5:  company saying in no uncertain terms, we will leave unless you do this.
+
+761
+00:45:28,505 --> 00:45:32,165
+Speaker 5:  I'm always of the mind that it's one thing to make big noises about quitting
+
+762
+00:45:32,165 --> 00:45:35,925
+Speaker 5:  your job. It's another thing entirely to quit your job. This does
+
+763
+00:45:35,955 --> 00:45:39,485
+Speaker 5:  feel like the board is going to have to call a lot of
+
+764
+00:45:39,685 --> 00:45:42,445
+Speaker 5:  bluffs and in a way that it's probably gonna lose at this moment in time.
+
+765
+00:45:42,445 --> 00:45:42,765
+Speaker 5:  Right?
+
+766
+00:45:42,875 --> 00:45:46,725
+Speaker 6:  Yeah. I mean what I was hearing over the weekend is that Ilya is really
+
+767
+00:45:46,745 --> 00:45:50,485
+Speaker 6:  the wild card here. He has a lot of respect internally. He's a co-founder.
+
+768
+00:45:50,785 --> 00:45:54,605
+Speaker 6:  He runs the research teams. The fact that he flipped and
+
+769
+00:45:54,605 --> 00:45:58,565
+Speaker 6:  is now saying, I'm also gonna go to Microsoft means there really is
+
+770
+00:45:58,565 --> 00:46:02,485
+Speaker 6:  no OpenAI anymore because that was always the key
+
+771
+00:46:02,585 --> 00:46:06,565
+Speaker 6:  man is like if Ilya's still there, there's still a chance that You
+
+772
+00:46:06,565 --> 00:46:10,045
+Speaker 6:  know they're not gonna be this like breakneck commercial entity that they
+
+773
+00:46:10,045 --> 00:46:13,125
+Speaker 6:  have been under Altman, but they at least will do leading research because
+
+774
+00:46:13,305 --> 00:46:17,245
+Speaker 6:  the research community respects him. If he is go, it is literally Adam
+
+775
+00:46:17,245 --> 00:46:20,965
+Speaker 6:  DeAngelo, Tasha McCauley and Helen Toner. Those people are gonna be
+
+776
+00:46:21,025 --> 00:46:22,725
+Speaker 6:  all that's left of OpenAI.
+
+777
+00:46:23,035 --> 00:46:26,445
+Speaker 5:  Yeah, he was kind of the truest believer, right? Like If, you wanted to pick
+
+778
+00:46:26,725 --> 00:46:30,565
+Speaker 5:  somebody who was like the most held onto the original vision of
+
+779
+00:46:30,785 --> 00:46:32,725
+Speaker 5:  OpenAI. You'd probably pick Ilia, right?
+
+780
+00:46:32,865 --> 00:46:36,245
+Speaker 6:  So The Atlantic has this incredible in-depth story about
+
+781
+00:46:36,545 --> 00:46:40,045
+Speaker 6:  OpenAI that everyone who's listening to this should go read. And there is
+
+782
+00:46:40,085 --> 00:46:43,965
+Speaker 6:  a scene where they had a leadership offsite, I
+
+783
+00:46:43,965 --> 00:46:47,885
+Speaker 6:  think it was last year. And Ilya has a wooden effigy that
+
+784
+00:46:47,885 --> 00:46:51,845
+Speaker 6:  he literally sets on fire at the meeting to represent non-aligned
+
+785
+00:46:52,045 --> 00:46:55,885
+Speaker 6:  AGI, which is You know. This is like the idea that You know they're
+
+786
+00:46:56,125 --> 00:46:59,965
+Speaker 6:  creating AGI in an unsafe way. I mean it's kind of a
+
+787
+00:47:00,125 --> 00:47:03,885
+Speaker 6:  religious thing in more ways than I think people get in the AI community.
+
+788
+00:47:03,985 --> 00:47:07,925
+Speaker 6:  But yeah, that's, that's I think for you If, you wanna understand kind of
+
+789
+00:47:07,925 --> 00:47:11,565
+Speaker 6:  the cultural divide, which is maybe where we go next here. But like the culture
+
+790
+00:47:11,585 --> 00:47:15,365
+Speaker 6:  divide within OpenAI has become somewhat religious in the last year or so
+
+791
+00:47:15,805 --> 00:47:17,965
+Speaker 6:  as the company's become commercialized.
+
+792
+00:47:18,405 --> 00:47:21,765
+Speaker 4:  I told Alex that a real headline we should write after this is, the rich
+
+793
+00:47:21,765 --> 00:47:22,325
+Speaker 4:  people are crazy
+
+794
+00:47:23,235 --> 00:47:23,725
+Speaker 6:  Because
+
+795
+00:47:23,915 --> 00:47:27,685
+Speaker 4:  This is religious fervor. Now these are people who believe that
+
+796
+00:47:27,795 --> 00:47:31,685
+Speaker 4:  they are going to create the power to destroy the universe. And that is
+
+797
+00:47:31,685 --> 00:47:35,125
+Speaker 4:  how they talk about it. It's not like a imposition of
+
+798
+00:47:35,695 --> 00:47:39,485
+Speaker 4:  class warfare on billionaires. It's no, you should listen to the billionaires
+
+799
+00:47:39,485 --> 00:47:43,285
+Speaker 4:  talk and you should listen to what they call effective acceleration
+
+800
+00:47:44,105 --> 00:47:47,965
+Speaker 4:  and deceleration. And there's a schism there that is
+
+801
+00:47:47,985 --> 00:47:51,645
+Speaker 4:  beyond cultural, right? It is reached a level of
+
+802
+00:47:51,885 --> 00:47:55,645
+Speaker 4:  religious fervor that is making them act irrationally. And that
+
+803
+00:47:55,655 --> 00:47:59,645
+Speaker 4:  might be appropriate. Like If, you thought that the
+
+804
+00:47:59,645 --> 00:48:03,165
+Speaker 4:  thing you were building could destroy the world. You should
+
+805
+00:48:03,685 --> 00:48:07,565
+Speaker 4:  probably reach into some like principles that
+
+806
+00:48:07,565 --> 00:48:11,445
+Speaker 4:  are not just made up, which is like how you find religion it.
+
+807
+00:48:11,505 --> 00:48:14,685
+Speaker 4:  But that's like, there's no moderating force on that,
+
+808
+00:48:15,175 --> 00:48:18,365
+Speaker 4:  right? There's no like centuries of church
+
+809
+00:48:18,895 --> 00:48:22,405
+Speaker 4:  dogma or liturgy like whatever. There's some forum posts about
+
+810
+00:48:22,435 --> 00:48:25,885
+Speaker 4:  effective accelerationism that they're all reading that they've just made
+
+811
+00:48:25,885 --> 00:48:29,725
+Speaker 4:  up. And like that's weird. And it's, it's worth some scrutiny
+
+812
+00:48:29,835 --> 00:48:33,605
+Speaker 4:  outside of the sort of boardroom org chart battles that You know.
+
+813
+00:48:33,605 --> 00:48:37,325
+Speaker 4:  That's where I like to focus my attention. But there's something here that
+
+814
+00:48:37,325 --> 00:48:41,245
+Speaker 4:  is making these people act irrationally and with not just
+
+815
+00:48:41,635 --> 00:48:45,325
+Speaker 4:  like religious fervor, but with like martyrdom fervor.
+
+816
+00:48:45,355 --> 00:48:48,885
+Speaker 4:  Like they will kill the company because they believe this is so right.
+
+817
+00:48:49,055 --> 00:48:52,765
+Speaker 6:  Right. And what's great about this story is that this tension is actually
+
+818
+00:48:52,765 --> 00:48:56,725
+Speaker 6:  personified in the org chart. So going back to how ridiculous it
+
+819
+00:48:56,725 --> 00:49:00,205
+Speaker 6:  is that o the way that OpenAI is structured, they have this nonprofit board
+
+820
+00:49:00,555 --> 00:49:04,205
+Speaker 6:  that controls the company effectively. They can fire people, et cetera.
+
+821
+00:49:04,515 --> 00:49:08,445
+Speaker 6:  They get to decide when the company has reached AGI, which is a very
+
+822
+00:49:08,445 --> 00:49:12,285
+Speaker 6:  important power to place in a company that's whole
+
+823
+00:49:12,285 --> 00:49:16,245
+Speaker 6:  mission is around creating AGI. And so you have that one side of the
+
+824
+00:49:16,525 --> 00:49:20,445
+Speaker 6:  equation and on the other side you have the for-profit entity
+
+825
+00:49:20,555 --> 00:49:24,525
+Speaker 6:  that OpenAI created under Sam Altman to raise all of the money from
+
+826
+00:49:24,805 --> 00:49:28,725
+Speaker 6:  Microsoft, hire all of the top talent from all of the big tech companies
+
+827
+00:49:28,725 --> 00:49:32,445
+Speaker 6:  that they have in the last year to build wildly successful commercial
+
+828
+00:49:32,445 --> 00:49:36,325
+Speaker 6:  products. And Sam, Altman is on stage at dev day. I was there a
+
+829
+00:49:36,325 --> 00:49:40,045
+Speaker 6:  couple weeks ago saying, we are gonna be the app store for ai. We are gonna
+
+830
+00:49:40,045 --> 00:49:43,845
+Speaker 6:  start sharing our revenue with you. We are gonna give more of our
+
+831
+00:49:43,845 --> 00:49:47,605
+Speaker 6:  technology to our developers. We are gonna be a platform. So
+
+832
+00:49:48,245 --> 00:49:51,645
+Speaker 6:  inherent in the structure is this tension where the
+
+833
+00:49:51,695 --> 00:49:55,525
+Speaker 6:  commercial entity is charging ahead with something that the board is
+
+834
+00:49:55,665 --> 00:49:58,725
+Speaker 6:  tasked with protecting and act ultimately deciding
+
+835
+00:49:59,465 --> 00:50:03,325
+Speaker 6:  and incentives drive behavior here. And so it's just really interesting
+
+836
+00:50:03,325 --> 00:50:07,165
+Speaker 6:  to look at like maybe this was always going to happen. You know the,
+
+837
+00:50:07,305 --> 00:50:10,565
+Speaker 6:  the favorite theory I've heard over the weekend was like, this is actually
+
+838
+00:50:10,675 --> 00:50:14,485
+Speaker 6:  Elon Musk's poison chalice because he named OpenAI.
+
+839
+00:50:14,625 --> 00:50:17,805
+Speaker 6:  He really set it up, gave it its first donation,
+
+840
+00:50:18,465 --> 00:50:22,325
+Speaker 6:  set up the nonprofit structure and maybe this was
+
+841
+00:50:22,325 --> 00:50:23,565
+Speaker 6:  always gonna happen. Well,
+
+842
+00:50:23,565 --> 00:50:27,525
+Speaker 5:  And then importantly stopped giving that money when he stopped
+
+843
+00:50:27,535 --> 00:50:30,805
+Speaker 5:  being part of the company was a big part of like phos reporting from a while
+
+844
+00:50:30,805 --> 00:50:34,085
+Speaker 5:  ago, right? That was part of when OpenAI realized we need a lot more money
+
+845
+00:50:34,085 --> 00:50:36,485
+Speaker 5:  to do the kinds of things we're doing. They went to Microsoft to get both
+
+846
+00:50:36,485 --> 00:50:40,205
+Speaker 5:  the capital and the compute to do it. And all of a sudden you're just kind
+
+847
+00:50:40,205 --> 00:50:44,005
+Speaker 5:  of off to the races and as soon as you decide you want the money,
+
+848
+00:50:44,185 --> 00:50:47,645
+Speaker 5:  it becomes very hard to not want the money anymore. That's one of the things
+
+849
+00:50:47,645 --> 00:50:50,565
+Speaker 5:  we've seen over and over And like this idea that you can have a nonprofit
+
+850
+00:50:51,335 --> 00:50:55,325
+Speaker 5:  overseeing a for-profit company is not unheard of in tech. It's fairly
+
+851
+00:50:55,325 --> 00:50:59,165
+Speaker 5:  unusual, but like Mozilla is a version of this kind of org
+
+852
+00:50:59,165 --> 00:51:01,965
+Speaker 5:  chart. Signal is a version of this kind of org chart like it's possible to
+
+853
+00:51:02,065 --> 00:51:05,925
+Speaker 5:  do, but it comes with a really complicated set
+
+854
+00:51:05,925 --> 00:51:09,685
+Speaker 5:  of trade-offs in every case. Like Mozilla's thing and, and Neli. I know you
+
+855
+00:51:09,685 --> 00:51:11,725
+Speaker 5:  and I have both talked to Mitchell Baker, the CEO, EO of Mozilla about this.
+
+856
+00:51:12,285 --> 00:51:15,485
+Speaker 5:  Mozilla's for-profit company gets most of its money from Google. Yep. Which
+
+857
+00:51:15,485 --> 00:51:18,805
+Speaker 5:  to Mozilla the nonprofit that wants to make the internet better feels really
+
+858
+00:51:18,945 --> 00:51:22,765
+Speaker 5:  bad. But without that money you can't do the work anymore.
+
+859
+00:51:23,065 --> 00:51:27,005
+Speaker 5:  And so this, this tension is never going to stop going away or
+
+860
+00:51:27,005 --> 00:51:30,525
+Speaker 5:  this tension is never going to go away. And so you
+
+861
+00:51:30,525 --> 00:51:34,445
+Speaker 5:  eventually need somebody in charge who is either so Mission-driven that
+
+862
+00:51:34,445 --> 00:51:38,365
+Speaker 5:  they stay that way no matter what. Or you get into the Sam Altman thing
+
+863
+00:51:38,365 --> 00:51:41,085
+Speaker 5:  where you eventually start chasing the money and then the money gets big
+
+864
+00:51:41,085 --> 00:51:42,525
+Speaker 5:  and then that's what you become.
+
+865
+00:51:42,785 --> 00:51:46,725
+Speaker 4:  So I, I, I said this earlier and I'm not gonna try to describe an
+
+866
+00:51:46,725 --> 00:51:50,685
+Speaker 4:  org chart on a radio show, but it is very true that
+
+867
+00:51:50,705 --> 00:51:54,245
+Speaker 4:  the flow chart that OpenAI has published about its ownership structure
+
+868
+00:51:54,945 --> 00:51:58,365
+Speaker 4:  is like consciously more complicated than it needs to be.
+
+869
+00:51:58,955 --> 00:52:02,605
+Speaker 4:  There's only three boxes on this structure. Most of the extra boxes
+
+870
+00:52:03,305 --> 00:52:07,085
+Speaker 4:  are just labeling who owns what. So there's OpenAI,
+
+871
+00:52:07,505 --> 00:52:11,445
+Speaker 4:  the public charity, a 5 0 1 C three that owns a holding company,
+
+872
+00:52:12,015 --> 00:52:15,845
+Speaker 4:  which co-owns OpenAI, the commercial entity with Microsoft.
+
+873
+00:52:15,905 --> 00:52:19,685
+Speaker 4:  That's it. That's a whole structure of this thing. There's a, there's a charity
+
+874
+00:52:19,835 --> 00:52:23,325
+Speaker 4:  that owns a holding company so that employees can have some equity in the,
+
+875
+00:52:23,345 --> 00:52:27,325
+Speaker 4:  on the holding company. And then there's the commercial thing that goes off
+
+876
+00:52:27,325 --> 00:52:31,245
+Speaker 4:  and does all the work. That structure exists all over the place. It does
+
+877
+00:52:31,245 --> 00:52:34,485
+Speaker 4:  not exist in Silicon Valley. So outside of Mozilla and these other things
+
+878
+00:52:34,485 --> 00:52:38,325
+Speaker 4:  that are run is You know, there's sort of like not capitalistic in their
+
+879
+00:52:38,325 --> 00:52:42,005
+Speaker 4:  way, right? In Silicon Valley, everything is like a Delaware organized C
+
+880
+00:52:42,085 --> 00:52:45,765
+Speaker 4:  corp with VCs on the board and now all over the place
+
+881
+00:52:45,775 --> 00:52:49,485
+Speaker 4:  super voting shares for founders. Like there's a way to do it. And they do
+
+882
+00:52:49,485 --> 00:52:52,005
+Speaker 4:  that because this stuff happens when you don't
+
+883
+00:52:53,235 --> 00:52:57,045
+Speaker 4:  like, like that's why they do it, right? Like founder drama with their
+
+884
+00:52:57,345 --> 00:53:01,245
+Speaker 4:  VCs. Like the story of Uber exists, right? The story of Apple
+
+885
+00:53:01,305 --> 00:53:04,885
+Speaker 4:  exists, like do You know every single year Meta shareholders vote to remove
+
+886
+00:53:04,915 --> 00:53:08,725
+Speaker 4:  Mark Zuckerberg? Yeah. Yeah. And he just out votes them because he has super
+
+887
+00:53:08,725 --> 00:53:11,685
+Speaker 4:  voting shares. Like it just doesn't matter that the shareholders of Meta
+
+888
+00:53:11,705 --> 00:53:15,365
+Speaker 4:  are like, get this guy outta here year after year because he has super voting
+
+889
+00:53:15,365 --> 00:53:19,085
+Speaker 4:  shares, right? So you get a structure like this and these shenanigans become
+
+890
+00:53:19,365 --> 00:53:23,285
+Speaker 4:  possible. But then you look around the world and you see functional
+
+891
+00:53:23,485 --> 00:53:27,085
+Speaker 4:  structures like this at very big companies, at very important
+
+892
+00:53:27,405 --> 00:53:31,365
+Speaker 4:  companies. Someone pointed out to me that Bosch, which is a huge
+
+893
+00:53:31,365 --> 00:53:34,925
+Speaker 4:  German engineering firm, very successful in the car world, in the engineering
+
+894
+00:53:34,925 --> 00:53:38,725
+Speaker 4:  world, is organized basically like this. There are companies that are owned
+
+895
+00:53:38,725 --> 00:53:41,685
+Speaker 4:  by the towns they're in in Europe, like all these other structures exist
+
+896
+00:53:42,305 --> 00:53:46,045
+Speaker 4:  and this org chart, people look at it and you look at it and you're like,
+
+897
+00:53:46,045 --> 00:53:49,925
+Speaker 4:  this is crazy If. you just spend a few seconds looking at what
+
+898
+00:53:49,925 --> 00:53:53,825
+Speaker 4:  these boxes mean. And I don't know why some
+
+899
+00:53:53,825 --> 00:53:56,985
+Speaker 4:  of them are ovals and some of them are squares, like it's just three boxes.
+
+900
+00:53:57,495 --> 00:54:00,105
+Speaker 4:  Yeah, right. At the end of the day, there's OpenAI, the charity that owns
+
+901
+00:54:00,105 --> 00:54:03,785
+Speaker 4:  a holding company that owns OpenAI Global, which is the commercial entity,
+
+902
+00:54:03,785 --> 00:54:07,265
+Speaker 4:  and Microsoft is a big investor in that entity. And that means Microsoft
+
+903
+00:54:07,265 --> 00:54:10,305
+Speaker 4:  does not have a lot of control over this board, which I think has become
+
+904
+00:54:10,345 --> 00:54:14,025
+Speaker 4:  a real problem for Microsoft at this point in time. Yep. It means that Sam
+
+905
+00:54:14,225 --> 00:54:17,865
+Speaker 4:  Altman did not have super voting shares to stop it, but it also very
+
+906
+00:54:17,865 --> 00:54:21,745
+Speaker 4:  importantly means that the board was too small
+
+907
+00:54:21,925 --> 00:54:25,825
+Speaker 4:  and too inexperienced, made a hasty decision and there was no
+
+908
+00:54:25,825 --> 00:54:29,665
+Speaker 4:  governance check on their behavior. And I think that is like
+
+909
+00:54:29,725 --> 00:54:33,185
+Speaker 4:  the fundamental mistake of the structure, not the structure itself.
+
+910
+00:54:33,485 --> 00:54:36,745
+Speaker 6:  Or we find out that I, I and don don't think this is the case, but I just
+
+911
+00:54:36,745 --> 00:54:40,625
+Speaker 6:  wanna play devil's advocate or we find out that like OpenAI invented
+
+912
+00:54:40,765 --> 00:54:44,505
+Speaker 6:  God in the last two weeks. There's this, there's this clip of Sam Altman
+
+913
+00:54:44,925 --> 00:54:47,945
+Speaker 6:  at a conference in San Francisco the day before he was fired, saying that
+
+914
+00:54:47,945 --> 00:54:51,825
+Speaker 6:  like there's been a few moments in his career where they've gotten to push
+
+915
+00:54:51,855 --> 00:54:55,385
+Speaker 6:  back the veil of ignorance and like he was talking as if like
+
+916
+00:54:55,685 --> 00:54:59,385
+Speaker 6:  You know they had made fire and he said one of these moments happened in
+
+917
+00:54:59,385 --> 00:55:02,905
+Speaker 6:  the last couple of weeks. So everyone is reposting that clip saying,
+
+918
+00:55:03,465 --> 00:55:07,425
+Speaker 6:  w what if they realized they had AGI or what if they realized the
+
+919
+00:55:07,425 --> 00:55:10,905
+Speaker 6:  model was about to just accelerate in a way that no one could have predicted?
+
+920
+00:55:11,185 --> 00:55:14,465
+Speaker 6:  I will say that Ilya has been doing a press tour and
+
+921
+00:55:14,875 --> 00:55:18,625
+Speaker 6:  being pretty open that the model capability is going to
+
+922
+00:55:18,785 --> 00:55:22,505
+Speaker 6:  progress a lot faster than everyone thinks. So there
+
+923
+00:55:22,645 --> 00:55:26,065
+Speaker 6:  has been You know a lot of theory to that, but
+
+924
+00:55:26,415 --> 00:55:29,905
+Speaker 6:  what it looks like right now is, is inexperience and the board not realizing
+
+925
+00:55:29,935 --> 00:55:31,945
+Speaker 6:  what was gonna happen when they made such a rash decision.
+
+926
+00:55:32,445 --> 00:55:35,665
+Speaker 4:  And I just wanna put this out there. The other thing I've heard is
+
+927
+00:55:36,415 --> 00:55:40,305
+Speaker 4:  it's not that Microsoft and the commercial entity of OpenAI and Sam
+
+928
+00:55:40,925 --> 00:55:44,665
+Speaker 4:  didn't think safety was a problem, right? Like Kevin Scott, the head of AI
+
+929
+00:55:44,665 --> 00:55:48,505
+Speaker 4:  at Microsoft was on stage with me at code and we talked about AI safety
+
+930
+00:55:48,965 --> 00:55:51,985
+Speaker 4:  and the limits and like how careful they should be. This is a thing that
+
+931
+00:55:52,225 --> 00:55:55,865
+Speaker 4:  Microsoft is publicly talking about. So if Open AI's board
+
+932
+00:55:56,365 --> 00:56:00,305
+Speaker 4:  is saying, okay, we're we're going too far ahead, their entire
+
+933
+00:56:00,605 --> 00:56:04,585
+Speaker 4:  job is communicating that there's a misalignment, their
+
+934
+00:56:04,585 --> 00:56:07,705
+Speaker 4:  entire job is saying to Sam, Hey, you're over the line,
+
+935
+00:56:08,375 --> 00:56:12,145
+Speaker 4:  like, pull it back or we're gonna fire you. Instead they just fired
+
+936
+00:56:12,165 --> 00:56:16,025
+Speaker 4:  him. Instead they just went ahead. They gave Microsoft one minute
+
+937
+00:56:16,025 --> 00:56:19,945
+Speaker 4:  notice that they're gonna fire Sam. And so like the fundamental job of
+
+938
+00:56:19,945 --> 00:56:23,725
+Speaker 4:  this board is to communicate and set limits and they just
+
+939
+00:56:23,725 --> 00:56:24,165
+Speaker 4:  didn't do
+
+940
+00:56:24,165 --> 00:56:28,005
+Speaker 5:  It. Yeah. Well, so, and, and this is another good moment to put a button
+
+941
+00:56:28,005 --> 00:56:31,045
+Speaker 5:  on what you said earlier, Neli, which is that we actually don't know the
+
+942
+00:56:31,045 --> 00:56:34,965
+Speaker 5:  whole story behind why he was fired in the first place. And Emmett Shearer
+
+943
+00:56:34,965 --> 00:56:38,765
+Speaker 5:  in his weird long tweet announcing that he's CEO at the
+
+944
+00:56:38,765 --> 00:56:42,205
+Speaker 5:  very end says PPS, before I took the job, I checked on the reasoning behind
+
+945
+00:56:42,205 --> 00:56:46,125
+Speaker 5:  the change. The board did not remove Sam over any specific disagreement
+
+946
+00:56:46,125 --> 00:56:49,085
+Speaker 5:  on safety. Their reasoning was completely different from that. I'm not crazy
+
+947
+00:56:49,085 --> 00:56:51,885
+Speaker 5:  enough to take this job without board support for commercializing our awesome
+
+948
+00:56:51,885 --> 00:56:55,725
+Speaker 5:  models. So before that I'm like, okay, OpenAI wants to go back to being essentially
+
+949
+00:56:55,725 --> 00:56:59,365
+Speaker 5:  a research organization. Fine. Like whatever you wanna say about that
+
+950
+00:56:59,605 --> 00:57:02,845
+Speaker 5:  decision, that is at least a decision now. It's like, okay, well then what
+
+951
+00:57:02,845 --> 00:57:06,565
+Speaker 5:  are we, what are we doing here? Like what, what fight are we having here?
+
+952
+00:57:06,665 --> 00:57:09,725
+Speaker 5:  It, it's, I'm sure there are people who know, but that part does not seem
+
+953
+00:57:09,725 --> 00:57:13,565
+Speaker 5:  to have come out in any way that I find at all sort of satisfying.
+
+954
+00:57:13,715 --> 00:57:16,525
+Speaker 6:  What I think we will find out is that this is a classic
+
+955
+00:57:17,725 --> 00:57:21,165
+Speaker 6:  business dispute. I mean, yes, there are obvious concerns
+
+956
+00:57:21,585 --> 00:57:25,405
+Speaker 6:  on different sides of the debate here about AI safety,
+
+957
+00:57:25,465 --> 00:57:29,125
+Speaker 6:  and I do think that played a role, but what we just saw was
+
+958
+00:57:29,525 --> 00:57:33,045
+Speaker 6:  a couple of weeks ago, OpenAI hastily, and I can say this confidently because
+
+959
+00:57:33,125 --> 00:57:36,725
+Speaker 6:  I was part of the, the press scrum and getting pre briefed and all this about
+
+960
+00:57:36,965 --> 00:57:40,725
+Speaker 6:  the, the app store stuff. Like very hastily OpenAI
+
+961
+00:57:40,725 --> 00:57:44,565
+Speaker 6:  announced a major business expansion that Sam Altman led,
+
+962
+00:57:44,575 --> 00:57:48,365
+Speaker 6:  right? They had this huge conference and were like, we are pushing ahead.
+
+963
+00:57:48,365 --> 00:57:52,125
+Speaker 6:  We're gonna be a new platform. And if I had to guess,
+
+964
+00:57:52,555 --> 00:57:56,485
+Speaker 6:  that probably led to a lot of this because Sam was
+
+965
+00:57:56,485 --> 00:58:00,325
+Speaker 6:  clearly caught by surprise. There was nothing You know it. Normally
+
+966
+00:58:00,325 --> 00:58:03,525
+Speaker 6:  if this had been like a long gesticulating thing over months, it would've
+
+967
+00:58:03,525 --> 00:58:07,365
+Speaker 6:  leaked in dribs and drabs and it really just came like a thief
+
+968
+00:58:07,365 --> 00:58:11,085
+Speaker 6:  in the night. And so there was a breaking point here very recently, and the
+
+969
+00:58:11,085 --> 00:58:14,805
+Speaker 6:  thing I can point to is Sam getting on stage
+
+970
+00:58:15,385 --> 00:58:18,765
+Speaker 6:  and saying, guess what? We've been going a hundred miles an hour. We're gonna
+
+971
+00:58:18,765 --> 00:58:21,685
+Speaker 6:  go 200 miles an hour and we're gonna become an even bigger business.
+
+972
+00:58:22,145 --> 00:58:24,845
+Speaker 5:  And what seems clear now is that a bunch of people at Microsoft, including
+
+973
+00:58:24,895 --> 00:58:28,725
+Speaker 5:  Satya Nadella, saw that and said, hell yeah. And at least one
+
+974
+00:58:28,725 --> 00:58:32,565
+Speaker 5:  person inside of OpenAI said, hell no. Yeah. I
+
+975
+00:58:32,565 --> 00:58:36,125
+Speaker 6:  Mean this is like essentially this is ca capitalism versus
+
+976
+00:58:36,235 --> 00:58:38,245
+Speaker 6:  hippies. I mean that's what the story is.
+
+977
+00:58:38,555 --> 00:58:40,325
+Speaker 5:  It's the story of Silicon Valley, man. Yeah,
+
+978
+00:58:40,445 --> 00:58:43,565
+Speaker 4:  I think that's too reductive. I I, again, I, the religious aspect of this
+
+979
+00:58:44,105 --> 00:58:47,725
+Speaker 4:  is just not to be underestimated. Microsoft sees this and says, yeah, go
+
+980
+00:58:47,725 --> 00:58:51,525
+Speaker 4:  even faster because every one of these queries runs on an Azure server.
+
+981
+00:58:51,755 --> 00:58:52,245
+Speaker 6:  Yeah. Right,
+
+982
+00:58:52,655 --> 00:58:55,805
+Speaker 4:  Right. Like that that's great for them. They're, they're, they're ready to
+
+983
+00:58:55,805 --> 00:58:59,365
+Speaker 4:  go. The OpenAI board sees this and says, okay, you're gonna give
+
+984
+00:59:00,265 --> 00:59:04,045
+Speaker 4:  people the ability to make computers go take actions in the real
+
+985
+00:59:04,045 --> 00:59:07,685
+Speaker 4:  world without any oversight and let them build whatever
+
+986
+00:59:08,225 --> 00:59:11,805
+Speaker 4:  AI tools on our model that they want and resell them
+
+987
+00:59:12,185 --> 00:59:16,165
+Speaker 4:  and create a commercial incentive to do that without any safety checks whatsoever.
+
+988
+00:59:16,545 --> 00:59:20,205
+Speaker 4:  And that is opposed to our mission. That is like real, that is a moral dilemma.
+
+989
+00:59:20,625 --> 00:59:23,445
+Speaker 6:  Do you remember, I mean we were just talking about this on The Vergecast,
+
+990
+00:59:23,505 --> 00:59:27,405
+Speaker 6:  we were talking about how this store and these a this agent, API
+
+991
+00:59:27,405 --> 00:59:30,365
+Speaker 6:  thing is gonna open them up to a world of hurt. I mean they literally had
+
+992
+00:59:30,365 --> 00:59:34,245
+Speaker 6:  to say on stage, we will indemnify you for any copyright violation
+
+993
+00:59:34,245 --> 00:59:38,005
+Speaker 6:  that may occur from creating bots on our platform. It was very,
+
+994
+00:59:38,185 --> 00:59:41,445
+Speaker 6:  and like I went to AQ and a with Sam after they announced this at dev day
+
+995
+00:59:41,445 --> 00:59:44,325
+Speaker 6:  and it was clear that they had not thought through the details, right? Like
+
+996
+00:59:44,325 --> 00:59:47,285
+Speaker 6:  they, they hadn't decided on how much revenue they were gonna share with
+
+997
+00:59:47,525 --> 00:59:50,725
+Speaker 6:  creators, how the store incentives were gonna be aligned.
+
+998
+00:59:51,425 --> 00:59:54,125
+Speaker 6:  It was all just being done kind of on the fly and we were all going like,
+
+999
+00:59:54,715 --> 00:59:58,605
+Speaker 6:  this sounds like a disaster. Like it's a smart business play. If,
+
+1000
+00:59:58,605 --> 01:00:02,365
+Speaker 6:  you are Sam Altman the venture capitalist, right? It's like, yes, this is
+
+1001
+01:00:02,365 --> 01:00:05,685
+Speaker 6:  what you want to go do You wanna build a moat around You know the fastest
+
+1002
+01:00:05,685 --> 01:00:09,605
+Speaker 6:  growing consumer product of all time, you wanna be a platform, but it was
+
+1003
+01:00:09,605 --> 01:00:12,165
+Speaker 6:  clear that they were moving a million miles a minute. Yeah. And
+
+1004
+01:00:12,355 --> 01:00:15,285
+Speaker 4:  Also the problems are not hard to imagine.
+
+1005
+01:00:16,195 --> 01:00:19,925
+Speaker 4:  Okay, you creator sets up AGPT bot that just
+
+1006
+01:00:20,815 --> 01:00:24,565
+Speaker 4:  spams people in their email with marketing messages. Does
+
+1007
+01:00:24,665 --> 01:00:27,525
+Speaker 4:  OpenAI want to be sharing revenue with that creator? Is that a thing you
+
+1008
+01:00:27,525 --> 01:00:30,845
+Speaker 4:  want to incentivize? You can make it even worse. It it's connected to Dolly,
+
+1009
+01:00:30,845 --> 01:00:34,085
+Speaker 4:  right? Okay. You want to make deep fake nudes of people
+
+1010
+01:00:34,865 --> 01:00:38,765
+Speaker 4:  and that's an app you wanna sell in the GPT store. Does OpenAI
+
+1011
+01:00:38,765 --> 01:00:42,205
+Speaker 4:  have the content moderation ability to stop it at scale
+
+1012
+01:00:42,475 --> 01:00:45,125
+Speaker 4:  when millions of people realize this is a thing they should try to sell?
+
+1013
+01:00:45,155 --> 01:00:48,645
+Speaker 6:  Like the most wild thing I heard at Dev day was that OpenAI uses
+
+1014
+01:00:48,885 --> 01:00:52,605
+Speaker 6:  GPT to moderate GPT. Yeah. It uses the
+
+1015
+01:00:52,745 --> 01:00:55,605
+Speaker 6:  AI to moderate the ai and that's how they were, that sounds about it. And
+
+1016
+01:00:55,605 --> 01:00:58,485
+Speaker 6:  that's how, and that's how they were gonna approach the store. Yeah. I mean
+
+1017
+01:00:58,595 --> 01:00:59,885
+Speaker 6:  it's it's truly bananas.
+
+1018
+01:01:00,075 --> 01:01:04,005
+Speaker 5:  Yeah. So I. Think there, there's a lot still to sort out here, right? I
+
+1019
+01:01:04,005 --> 01:01:07,805
+Speaker 5:  think including the question of like, does Sam Altman actually ever
+
+1020
+01:01:07,805 --> 01:01:11,285
+Speaker 5:  work for Microsoft? And I think we're gonna talk about this a lot for a long
+
+1021
+01:01:11,285 --> 01:01:14,805
+Speaker 5:  time, I suspect. But just to, let's just put a button on this
+
+1022
+01:01:15,105 --> 01:01:18,165
+Speaker 5:  moment for now because if we stay on here too long, more news will break
+
+1023
+01:01:18,185 --> 01:01:20,285
+Speaker 5:  and this will all be outta date. So we need to like put this thing on the
+
+1024
+01:01:20,405 --> 01:01:24,245
+Speaker 5:  internet. Just five minutes. I wanna do real quick who won and who lost
+
+1025
+01:01:24,395 --> 01:01:27,165
+Speaker 5:  over the last four days? And then we're gonna get outta here. I'm just gonna
+
+1026
+01:01:27,165 --> 01:01:29,725
+Speaker 5:  throw some names at you and you guys are gonna tell me winners and losers
+
+1027
+01:01:29,735 --> 01:01:30,245
+Speaker 5:  sound good.
+
+1028
+01:01:30,525 --> 01:01:32,245
+Speaker 4:  I mean it sounds like an impossible exercise that
+
+1029
+01:01:32,245 --> 01:01:34,765
+Speaker 5:  It's gonna be great. I'm excited about it. Here we go. Person number one,
+
+1030
+01:01:34,775 --> 01:01:37,245
+Speaker 5:  Satya Nadella. I feel like big winner of the weekend, right?
+
+1031
+01:01:37,585 --> 01:01:38,725
+Speaker 6:  He might be the only winner.
+
+1032
+01:01:39,515 --> 01:01:42,885
+Speaker 4:  Okay, everyone thinks he looks very clever today. I do not know
+
+1033
+01:01:42,955 --> 01:01:46,725
+Speaker 4:  long-term, if having your stock price swing
+
+1034
+01:01:46,755 --> 01:01:50,685
+Speaker 4:  this much on the actions of one or two people is a good thing
+
+1035
+01:01:50,685 --> 01:01:51,485
+Speaker 4:  for Sasha Nadella
+
+1036
+01:01:51,835 --> 01:01:55,765
+Speaker 5:  Fair. Okay. Person number two, Sam Altman. I genuinely can't decide.
+
+1037
+01:01:55,935 --> 01:01:58,805
+Speaker 4:  Loser. Huge, huge loser. Really? Yeah, without question.
+
+1038
+01:01:58,835 --> 01:01:59,525
+Speaker 5:  Huge loser.
+
+1039
+01:01:59,825 --> 01:02:03,685
+Speaker 4:  He was the guy and now he, he might still be, he might start
+
+1040
+01:02:03,885 --> 01:02:07,125
+Speaker 4:  a new company, he might go work for Microsoft, he might take everyone with
+
+1041
+01:02:07,405 --> 01:02:11,245
+Speaker 4:  him, but losing the thing you founded is
+
+1042
+01:02:11,265 --> 01:02:14,905
+Speaker 4:  the worst. And it might be that he returns to
+
+1043
+01:02:14,965 --> 01:02:18,745
+Speaker 4:  OpenAI in 12 years like Steve Jobs, but in the meantime, right, the most
+
+1044
+01:02:18,745 --> 01:02:20,365
+Speaker 4:  likely outcome is he owns next.
+
+1045
+01:02:20,985 --> 01:02:24,765
+Speaker 5:  Is this his Elon Musk style joker origin story? Like is that
+
+1046
+01:02:25,075 --> 01:02:28,605
+Speaker 4:  Yeah, I, I don't, I there's no, I, I come back to the very beginning.
+
+1047
+01:02:28,795 --> 01:02:32,125
+Speaker 4:  It's great to think that all these people are, are cogs in a machine and
+
+1048
+01:02:32,195 --> 01:02:35,645
+Speaker 4:  it's a narrative that's playing out and it's a like You know people write
+
+1049
+01:02:35,645 --> 01:02:39,365
+Speaker 4:  about it that way. Sometimes we write about that way. These are people You
+
+1050
+01:02:39,365 --> 01:02:42,925
+Speaker 4:  know and like whatever he does next is gonna be deeply colored by just the
+
+1051
+01:02:42,995 --> 01:02:46,965
+Speaker 4:  emotional damage of this weekend in the sense that he can't
+
+1052
+01:02:46,965 --> 01:02:50,295
+Speaker 4:  trust the people he thought he could trust. And maybe that's just the reality
+
+1053
+01:02:50,295 --> 01:02:52,655
+Speaker 4:  of being the guy who ran Y Combinator for a long time. Maybe he was already
+
+1054
+01:02:52,655 --> 01:02:55,935
+Speaker 4:  like that You know he's been in the scene for a long time. He knows a lot
+
+1055
+01:02:55,935 --> 01:02:59,575
+Speaker 4:  of people. But to go from the top of the world to Microsoft employee
+
+1056
+01:02:59,875 --> 01:03:03,815
+Speaker 4:  in 48 hours, no matter what happens next, he's not the
+
+1057
+01:03:03,815 --> 01:03:04,335
+Speaker 4:  winner today.
+
+1058
+01:03:05,095 --> 01:03:09,055
+Speaker 6:  I think he is more a winner than Eli, but I don't think he's a full
+
+1059
+01:03:09,055 --> 01:03:12,935
+Speaker 6:  winner. I mean I think like Sam, like I was saying, looks like he
+
+1060
+01:03:12,935 --> 01:03:16,735
+Speaker 6:  had all the leverage with Microsoft. Microsoft needed a way to
+
+1061
+01:03:16,965 --> 01:03:20,815
+Speaker 6:  message that this was under control. I imagine he extracted
+
+1062
+01:03:20,815 --> 01:03:24,375
+Speaker 6:  some insane deal terms out of Nadella late last Sunday night.
+
+1063
+01:03:24,955 --> 01:03:28,895
+Speaker 6:  And if he does get the entire OpenAI team to come to Microsoft and he gets
+
+1064
+01:03:28,895 --> 01:03:32,495
+Speaker 6:  to run it like his own little fiefdom, like LinkedIn has its own email, right?
+
+1065
+01:03:32,695 --> 01:03:34,775
+Speaker 6:  Like it's its own building it's own. Do
+
+1066
+01:03:34,775 --> 01:03:35,975
+Speaker 4:  You think he gets to use Google Meet
+
+1067
+01:03:36,955 --> 01:03:40,295
+Speaker 6:  That's, well maybe the You know that may have been the biggest concession
+
+1068
+01:03:40,295 --> 01:03:43,935
+Speaker 6:  of all was that Nadella agreed that they don't have to use teams internally.
+
+1069
+01:03:44,025 --> 01:03:46,935
+Speaker 6:  We'll find that out. I'm sure Tom is on that. But I mean, I'm thinking to
+
+1070
+01:03:46,935 --> 01:03:49,695
+Speaker 6:  why they created the commercial entity. It was because they needed funding
+
+1071
+01:03:49,995 --> 01:03:53,815
+Speaker 6:  for compute to train their models and Microsoft showed up with a
+
+1072
+01:03:53,815 --> 01:03:57,695
+Speaker 6:  bag mostly of cloud credits. Interestingly saying we will
+
+1073
+01:03:57,695 --> 01:04:01,055
+Speaker 6:  give you all the compute you need. Microsoft has gone on, what I've seen
+
+1074
+01:04:01,085 --> 01:04:04,575
+Speaker 6:  some analysts saying is the most expensive
+
+1075
+01:04:04,825 --> 01:04:08,495
+Speaker 6:  infra private company infra build out of all time with its
+
+1076
+01:04:08,635 --> 01:04:12,415
+Speaker 6:  AI data centers something like 50 plus billion dollars in the last
+
+1077
+01:04:12,875 --> 01:04:16,695
+Speaker 6:  few years. So if Sam Sam gets the insulation
+
+1078
+01:04:16,955 --> 01:04:20,655
+Speaker 6:  of being an independent company within a mega
+
+1079
+01:04:20,795 --> 01:04:24,615
+Speaker 6:  cap company and all of the resources that he was desperately trying to raise
+
+1080
+01:04:24,615 --> 01:04:28,455
+Speaker 6:  money for for the last few years anyway and all the people from
+
+1081
+01:04:28,575 --> 01:04:32,255
+Speaker 6:  the company, I mean it seems like he wins. I mean You know,
+
+1082
+01:04:32,535 --> 01:04:36,215
+Speaker 6:  like I don't, like he seems like a winner to me. Certainly this is
+
+1083
+01:04:36,245 --> 01:04:40,055
+Speaker 6:  like for his like yeah, trusting people, not great, but
+
+1084
+01:04:40,255 --> 01:04:41,695
+Speaker 6:  I think he's more a winner than Eli
+
+1085
+01:04:42,075 --> 01:04:44,455
+Speaker 5:  All, right? I, I have a bunch more, but I actually think, I think you're
+
+1086
+01:04:44,455 --> 01:04:48,375
+Speaker 5:  right. Most of 'em are pretty easy. OpenAI obvious loser, Google Win
+
+1087
+01:04:48,375 --> 01:04:48,895
+Speaker 5:  or Loser,
+
+1088
+01:04:49,035 --> 01:04:52,815
+Speaker 4:  Google is the most vindicated of any company right now, right? They, they
+
+1089
+01:04:52,815 --> 01:04:56,495
+Speaker 4:  got so much heat for being slow and not rushing the stuff to market
+
+1090
+01:04:57,315 --> 01:05:01,255
+Speaker 4:  and now they're vindicated because OpenAI
+
+1091
+01:05:01,255 --> 01:05:04,975
+Speaker 4:  itself just tore itself apart over the idea of going a little bit slower.
+
+1092
+01:05:05,675 --> 01:05:09,575
+Speaker 4:  And Microsoft, which is recall Nadella on decoder,
+
+1093
+01:05:09,975 --> 01:05:12,495
+Speaker 4:  I wanna make Google dance, I want them to know that it was me who made them
+
+1094
+01:05:12,495 --> 01:05:16,375
+Speaker 4:  dance. Incredible quote is now having to
+
+1095
+01:05:16,825 --> 01:05:20,805
+Speaker 4:  start a new division, set it up given research funding while
+
+1096
+01:05:21,055 --> 01:05:24,925
+Speaker 4:  navigating meeting Emmett Shear, which is literally in the
+
+1097
+01:05:24,925 --> 01:05:28,685
+Speaker 4:  statement they have to meet this guy. Like I, if you're Google, you're like,
+
+1098
+01:05:28,865 --> 01:05:32,765
+Speaker 4:  wow, we were right to go slowly and carefully and our moment
+
+1099
+01:05:32,765 --> 01:05:36,525
+Speaker 4:  will come to us. Also, we have better distribution for our AI search
+
+1100
+01:05:36,525 --> 01:05:39,885
+Speaker 4:  product than anybody in history. Like maybe we'll just continue to steamroll
+
+1101
+01:05:39,885 --> 01:05:42,405
+Speaker 4:  the industry. I dunno if that's gonna happen. I dunno if Google can actually
+
+1102
+01:05:42,405 --> 01:05:46,325
+Speaker 4:  execute all the many, many questions, but If, you are Sundar Phai today.
+
+1103
+01:05:46,325 --> 01:05:49,805
+Speaker 4:  You're like, phew, missed that one. You know, like you're just fine.
+
+1104
+01:05:50,205 --> 01:05:53,525
+Speaker 5:  I think that's right. I think that it, this is the most like
+
+1105
+01:05:53,535 --> 01:05:57,445
+Speaker 5:  aggressive wrench of instability into its biggest competitor that
+
+1106
+01:05:57,445 --> 01:06:01,005
+Speaker 5:  Google could have possibly hoped for. Bard still sucks though. So there's
+
+1107
+01:06:01,005 --> 01:06:04,925
+Speaker 5:  that Anthropic Alex, you brought this up earlier. I is the team at
+
+1108
+01:06:04,925 --> 01:06:08,325
+Speaker 5:  Anthropic just like giggling and high fiving right now? I
+
+1109
+01:06:08,325 --> 01:06:12,205
+Speaker 6:  Mean, yeah, anthropic was created for a similar reason.
+
+1110
+01:06:12,225 --> 01:06:15,165
+Speaker 6:  don don't know if there was a coup that was failed and that's why philanthropic
+
+1111
+01:06:15,265 --> 01:06:19,165
+Speaker 6:  got formed. But they all worked at OpenAI. They had, they were the kind of
+
+1112
+01:06:19,165 --> 01:06:23,045
+Speaker 6:  more deceleration is effective altruism, You know movement. They
+
+1113
+01:06:23,045 --> 01:06:26,685
+Speaker 6:  broke off as a separate faction, created another AI lab and You know they
+
+1114
+01:06:26,685 --> 01:06:30,045
+Speaker 6:  haven't had the commercial success of OpenAI. I think it's worth noting that
+
+1115
+01:06:30,045 --> 01:06:33,685
+Speaker 6:  the only AI startup that has been You know
+
+1116
+01:06:33,935 --> 01:06:37,925
+Speaker 6:  successful commercially is OpenAI. Like there's Claw, there's
+
+1117
+01:06:37,925 --> 01:06:41,365
+Speaker 6:  all these chatbots, like their usage pales in comparison. So
+
+1118
+01:06:41,875 --> 01:06:44,805
+Speaker 6:  yeah, I think they are winning because of the instability. Like maybe they'll
+
+1119
+01:06:44,805 --> 01:06:48,365
+Speaker 6:  be able to hire some of these people. But I really think everyone lost here
+
+1120
+01:06:48,625 --> 01:06:52,485
+Speaker 6:  except in the short term Nadella and Sam. Altman. I really
+
+1121
+01:06:52,485 --> 01:06:52,645
+Speaker 6:  do.
+
+1122
+01:06:52,865 --> 01:06:55,605
+Speaker 4:  In the short term, every Microsoft employee is thinking about selling their
+
+1123
+01:06:55,605 --> 01:06:56,685
+Speaker 4:  stock to buy a house. Yeah,
+
+1124
+01:06:56,965 --> 01:07:00,725
+Speaker 5:  I've seen multiple tweets of just the screenshot of the stock
+
+1125
+01:07:00,725 --> 01:07:02,965
+Speaker 5:  price saying thank you Satya Nadella. Like yeah,
+
+1126
+01:07:03,505 --> 01:07:07,365
+Speaker 4:  All those people won. Yep. Did anybody else win? I remains to be
+
+1127
+01:07:07,365 --> 01:07:07,565
+Speaker 4:  seen.
+
+1128
+01:07:07,915 --> 01:07:11,165
+Speaker 5:  Fair enough. Okay, last one and then we should get outta here. Chat. GPT.
+
+1129
+01:07:11,165 --> 01:07:12,885
+Speaker 5:  Is this the end of the chat GPT era?
+
+1130
+01:07:13,305 --> 01:07:15,645
+Speaker 4:  Is it? Is it even the end of the story? I don't know.
+
+1131
+01:07:16,325 --> 01:07:19,845
+Speaker 5:  I Okay, fair. If we play this out in what seems like the most likely scenario
+
+1132
+01:07:19,845 --> 01:07:23,605
+Speaker 5:  right now, which is that OpenAI becomes significantly knee capped in some
+
+1133
+01:07:23,605 --> 01:07:27,445
+Speaker 5:  meaningful way. It seems unlikely to me that all of the stuff that
+
+1134
+01:07:27,445 --> 01:07:31,365
+Speaker 5:  we saw two weeks ago at dev day comes out the way that we thought it
+
+1135
+01:07:31,365 --> 01:07:34,045
+Speaker 5:  was going to, it seems possible that this organization goes back to being
+
+1136
+01:07:34,045 --> 01:07:37,405
+Speaker 5:  more of a research organization and chat GPT, the fastest growing consumer
+
+1137
+01:07:37,685 --> 01:07:41,405
+Speaker 5:  internet product in history becomes a sideshow for this company. Again.
+
+1138
+01:07:41,925 --> 01:07:44,685
+Speaker 6:  I mean, if there's no one there to operate it. Well
+
+1139
+01:07:44,685 --> 01:07:45,445
+Speaker 5:  Yeah, there's certainly that.
+
+1140
+01:07:45,755 --> 01:07:48,645
+Speaker 6:  Like, I mean that's, that's the re that's where we are right now is like
+
+1141
+01:07:48,645 --> 01:07:52,325
+Speaker 6:  there may not be an OpenAI by the end of the week, right? Yeah. Like
+
+1142
+01:07:52,325 --> 01:07:56,285
+Speaker 6:  ChatGPT PT probably over, which is wild. But like they'll just recreate
+
+1143
+01:07:56,285 --> 01:08:00,005
+Speaker 6:  it inside Microsoft and, and it won't be as cool and it won't be as like
+
+1144
+01:08:00,265 --> 01:08:03,645
+Speaker 6:  You know breakneck and You know move fast break things.
+
+1145
+01:08:04,065 --> 01:08:07,845
+Speaker 6:  You know Microsoft is like a You know regulated monopoly.
+
+1146
+01:08:07,845 --> 01:08:11,405
+Speaker 6:  They're gonna move very slow and thoughtfully on unlike how this is rolled
+
+1147
+01:08:11,425 --> 01:08:15,085
+Speaker 6:  out because they have to, right? So yeah, I do think this marks,
+
+1148
+01:08:15,165 --> 01:08:18,965
+Speaker 6:  this decidedly marks the move fast break things era of
+
+1149
+01:08:18,965 --> 01:08:21,405
+Speaker 6:  generative ai. I think that's pretty safe to
+
+1150
+01:08:21,405 --> 01:08:21,565
+Speaker 4:  Say.
+
+1151
+01:08:21,805 --> 01:08:22,165
+Speaker 5:  I think so
+
+1152
+01:08:22,165 --> 01:08:23,285
+Speaker 4:  Too. Without question
+
+1153
+01:08:23,825 --> 01:08:27,565
+Speaker 5:  The like craziest rise and fall of a app I can think of,
+
+1154
+01:08:27,905 --> 01:08:31,245
+Speaker 4:  Unless Microsoft just takes it like I do not know what happens next. Like
+
+1155
+01:08:31,245 --> 01:08:35,045
+Speaker 4:  we're gonna, we're gonna end this podcast and I'm gonna go think about the
+
+1156
+01:08:35,045 --> 01:08:37,845
+Speaker 4:  org chart a little bit more and by the time I'm done looking at the boxes,
+
+1157
+01:08:38,535 --> 01:08:41,725
+Speaker 4:  everything might be different. And I think that is again,
+
+1158
+01:08:42,385 --> 01:08:46,085
+Speaker 4:  the weirdest outcome of all of this is we still don't know it's been,
+
+1159
+01:08:46,625 --> 01:08:50,365
+Speaker 4:  we might be onto six CEOs of OpenAI by the end of this week at the rate we're
+
+1160
+01:08:50,365 --> 01:08:50,445
+Speaker 4:  going,
+
+1161
+01:08:51,275 --> 01:08:54,765
+Speaker 6:  Each one of the board members is gonna become the CO until there's only one
+
+1162
+01:08:54,765 --> 01:08:55,245
+Speaker 6:  of them left.
+
+1163
+01:08:57,025 --> 01:09:00,645
+Speaker 4:  It is nuts. And it is I think one of the most riveting
+
+1164
+01:09:00,645 --> 01:09:03,885
+Speaker 4:  corporate dramas of our time. It is also just frankly one of the saddest
+
+1165
+01:09:03,995 --> 01:09:04,285
+Speaker 4:  Yeah,
+
+1166
+01:09:04,425 --> 01:09:07,005
+Speaker 5:  Agreed. All. right? I think we're done here. Neela, you wanna do you wanna
+
+1167
+01:09:07,005 --> 01:09:07,405
+Speaker 5:  take us out?
+
+1168
+01:09:07,665 --> 01:09:11,325
+Speaker 4:  That's it. That's The Vergecast. That was also decoder. We love hearing what
+
+1169
+01:09:11,325 --> 01:09:14,445
+Speaker 4:  you think of our shows. You can send us emails at Vergecast at Verge dot
+
+1170
+01:09:14,445 --> 01:09:17,205
+Speaker 4:  com or decoder at The Verge dot com. We read them all. You can follow us
+
+1171
+01:09:17,205 --> 01:09:20,845
+Speaker 4:  all in threads where we broke a lot of news this weekend, sign of the time
+
+1172
+01:09:20,865 --> 01:09:23,805
+Speaker 4:  for Threads. I will say, although most of the action was still happening
+
+1173
+01:09:23,805 --> 01:09:27,245
+Speaker 4:  on X, a lot of it happened on threads. And very importantly, you can
+
+1174
+01:09:27,605 --> 01:09:31,005
+Speaker 4:  subscribe to Alex's newsletter Command Line, which I am
+
+1175
+01:09:31,385 --> 01:09:35,165
+Speaker 4:  100% confident without having asked. Alex First is gonna be full of
+
+1176
+01:09:35,165 --> 01:09:38,765
+Speaker 4:  scoops about what's happening at OpenAI for the next 500 weeks to come.
+
+1177
+01:09:39,245 --> 01:09:40,845
+Speaker 6:  I hope So I. I sure do.
+
+1178
+01:09:41,105 --> 01:09:42,325
+Speaker 4:  That's it. Rock and roll.
+
+1179
+01:09:48,025 --> 01:09:51,285
+Speaker 12:  And that's it for The Vergecast this week. Hey, we'd love to hear from you.
+
+1180
+01:09:51,315 --> 01:09:55,045
+Speaker 12:  Give us a call at eight six six Verge one. One The Vergecast is a
+
+1181
+01:09:55,045 --> 01:09:58,685
+Speaker 12:  production of The Verge and Vox Media Podcast Network. Our show is produced
+
+1182
+01:09:58,685 --> 01:10:02,005
+Speaker 12:  by Andrew Marino and Liam James. That's it. We'll see you next week.
+
+1183
+01:10:20,965 --> 01:10:24,455
+Speaker 2:  This podcast is brought to you by Meta Quest three, the new mixed reality
+
+1184
+01:10:24,455 --> 01:10:28,295
+Speaker 2:  headset from Meta. Expand your world in ways you never thought possible
+
+1185
+01:10:28,295 --> 01:10:31,975
+Speaker 2:  with the new Meta Quest. Three, put on the most powerful quest yet
+
+1186
+01:10:32,155 --> 01:10:35,615
+Speaker 2:  and jump into fully immersive games like Assassin's Creed Nexus
+
+1187
+01:10:36,035 --> 01:10:39,455
+Speaker 2:  or blend virtual elements into your surroundings in games like Stranger Things
+
+1188
+01:10:39,515 --> 01:10:43,415
+Speaker 2:  vr. With over 500 titles, it's easy to dive into whatever
+
+1189
+01:10:43,735 --> 01:10:47,695
+Speaker 2:  you're into. Expand your world with Meta Quest three. See child safety
+
+1190
+01:10:47,855 --> 01:10:50,095
+Speaker 2:  guidance online counts for 10 and up. Certain apps, games and experiences
+
+1191
+01:10:50,095 --> 01:10:53,175
+Speaker 2:  may be suitable for a more mature audience. Learn more at Meta dot com.
+
+1192
+01:10:57,185 --> 01:11:00,435
+Speaker 3:  Support for this show comes from Kraken. Crypto is like finance
+
+1193
+01:11:00,975 --> 01:11:04,795
+Speaker 3:  but different. It doesn't care when you invest, trade
+
+1194
+01:11:04,855 --> 01:11:08,795
+Speaker 3:  or save. Do it on weekends or at 5:00 AM or on
+
+1195
+01:11:09,035 --> 01:11:12,315
+Speaker 3:  vacation at 5:00 AM Crypto is financed for everyone
+
+1196
+01:11:12,445 --> 01:11:16,085
+Speaker 3:  everywhere all the time. Kraken. See what crypto
+
+1197
+01:11:16,225 --> 01:11:19,805
+Speaker 3:  can be. Not investment advice. Crypto trading involves risk of loss.
+
+1198
+01:11:19,805 --> 01:11:23,445
+Speaker 3:  Cryptocurrency services are provided to us and US territory customers by
+
+1199
+01:11:23,445 --> 01:11:26,205
+Speaker 3:  pay. Word Ventures Incorporated. View p bs disclosures at
+
+1200
+01:11:26,205 --> 01:11:28,405
+Speaker 3:  kraken.com/legal/disclosures.
+

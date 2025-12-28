@@ -1,0 +1,5381 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 66d56b16-5d66-4ab3-b42e-6325a02e5f7c
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/7009124679606371689/3470904767424790036/s93290-US-5168s-1727778774.mp3
+Description: The Verge's Jennifer Pattison Tuohy joins the show to discuss a bunch of updates in the smart home world, including what's new from Google Home and in iOS 18, plus some big news in the world of smart locks and video doorbells. Then, The Verge's Chris Welch comes on to test some new earbuds, and see which pair has the best sound – and the best mic. After that, a new take on the Vergecast's chaotic wearables theory.
+
+2
+00:00:03,185 --> 00:00:06,995
+Speaker 2:  Welcome To The Vergecast, the flagship podcast of Powered Front
+
+3
+00:00:06,995 --> 00:00:10,755
+Speaker 2:  Doors, which is a thing that I just learned exists. Thanks to this
+
+4
+00:00:10,755 --> 00:00:14,515
+Speaker 2:  episode, I'm your friend David Pierce and I am cooped up
+
+5
+00:00:14,515 --> 00:00:18,355
+Speaker 2:  inside and have been for several days. Obviously a lot of people in the
+
+6
+00:00:18,355 --> 00:00:22,235
+Speaker 2:  US have been really horribly affected by Hurricane Helene.
+
+7
+00:00:22,955 --> 00:00:26,875
+Speaker 2:  I hope you're all doing okay. Our thoughts are obviously with everyone dealing
+
+8
+00:00:26,905 --> 00:00:30,555
+Speaker 2:  with all of that where I am. It's been fine. It's just
+
+9
+00:00:30,555 --> 00:00:34,315
+Speaker 2:  basically been raining for four days and my kid has been outta daycare and
+
+10
+00:00:34,315 --> 00:00:38,075
+Speaker 2:  he's been sick and so it's just been a lot of inside
+
+11
+00:00:38,145 --> 00:00:41,355
+Speaker 2:  time. It's been a lot of running around in the basement. It's been a lot
+
+12
+00:00:41,355 --> 00:00:45,195
+Speaker 2:  of watching the same old McDonald had a farm YouTube video over and
+
+13
+00:00:45,195 --> 00:00:48,875
+Speaker 2:  over. It's just been a lot like you, you, you just grow to
+
+14
+00:00:48,875 --> 00:00:52,395
+Speaker 2:  appreciate outside more and more. I'm in a real like touch grass moment
+
+15
+00:00:52,615 --> 00:00:56,515
+Speaker 2:  except it's still raining so there will be no grass touching for a little
+
+16
+00:00:56,515 --> 00:01:00,475
+Speaker 2:  while. Even the dog over there is starting to lose it a little bit I
+
+17
+00:01:00,475 --> 00:01:04,075
+Speaker 2:  think. But anyway, luckily we have The Vergecast to keep us on track
+
+18
+00:01:04,735 --> 00:01:08,595
+Speaker 2:  and doing stuff. Today we have two things we're gonna do. First
+
+19
+00:01:08,605 --> 00:01:11,995
+Speaker 2:  we're gonna catch up with Jen Tuy about all things Smart Home. There's been
+
+20
+00:01:11,995 --> 00:01:15,875
+Speaker 2:  a lot this summer she was at EFA looking at sworn home gadgets. We have some
+
+21
+00:01:16,195 --> 00:01:19,755
+Speaker 2:  protocol news with Matter and Thread. We have a bunch of stuff going on with
+
+22
+00:01:19,755 --> 00:01:23,395
+Speaker 2:  Google and Apple and software updates everywhere and all kinds of fun stuff
+
+23
+00:01:23,395 --> 00:01:26,075
+Speaker 2:  to talk about. So we're just gonna kind of play round Robin and catch up
+
+24
+00:01:26,075 --> 00:01:29,755
+Speaker 2:  with her. Then we're gonna talk to Chris Welch about this new run of
+
+25
+00:01:29,785 --> 00:01:33,035
+Speaker 2:  earbuds that we have this year. Apple just released some new ones. Google
+
+26
+00:01:33,315 --> 00:01:35,915
+Speaker 2:  released some new ones. Samsung released some new ones. Bose released some
+
+27
+00:01:35,915 --> 00:01:39,035
+Speaker 2:  new ones. I'm missing some. Oh nothing. Just released some new ones that
+
+28
+00:01:39,035 --> 00:01:42,795
+Speaker 2:  I'm really interested in. So we're gonna talk to him about this new slate
+
+29
+00:01:42,795 --> 00:01:46,755
+Speaker 2:  of earbuds. But also we're gonna do a mic test because as
+
+30
+00:01:46,875 --> 00:01:50,275
+Speaker 2:  I continue to say and really strongly believe microphones matter,
+
+31
+00:01:50,655 --> 00:01:54,115
+Speaker 2:  the way we talk to ai, the way we talk to the assistants on our devices,
+
+32
+00:01:54,335 --> 00:01:57,955
+Speaker 2:  the way we talk to each other, microphones in these earbuds matter
+
+33
+00:01:58,235 --> 00:02:01,995
+Speaker 2:  a lot and they don't get talked about enough. So we're gonna do what we occasionally
+
+34
+00:02:01,995 --> 00:02:05,875
+Speaker 2:  do on this show, which is put some really, really bad audio into the podcast
+
+35
+00:02:06,455 --> 00:02:09,875
+Speaker 2:  and I'm sorry in advance, but you know, we do it for the greater good.
+
+36
+00:02:10,335 --> 00:02:13,435
+Speaker 2:  We also have a really fun hotline question lots to get to today. Super fun
+
+37
+00:02:13,435 --> 00:02:17,235
+Speaker 2:  episode. But first I have to, I have to go outside. I'm just gonna
+
+38
+00:02:17,255 --> 00:02:21,155
+Speaker 2:  go like stand in the rain like a 1990s rom-com
+
+39
+00:02:21,265 --> 00:02:24,635
+Speaker 2:  star and just like stare upwards for five minutes and then we're gonna get
+
+40
+00:02:24,635 --> 00:02:26,555
+Speaker 2:  to it. This is The Vergecast. We'll be right back.
+
+41
+00:03:43,565 --> 00:03:46,975
+Speaker 2:  Very happy to be back indoors looking at screens. Anyway, let's get to it.
+
+42
+00:03:47,185 --> 00:03:50,675
+Speaker 2:  First up, we're gonna talk about smart home stuff because it's been a minute
+
+43
+00:03:50,675 --> 00:03:54,515
+Speaker 2:  since we talked about smart home stuff. And normally I like to have the verges
+
+44
+00:03:54,575 --> 00:03:58,555
+Speaker 2:  Jen Tui on every once in a while just to basically, sadly
+
+45
+00:03:58,655 --> 00:04:02,595
+Speaker 2:  ask her why matter isn't better and why the smart home isn't fixed. And
+
+46
+00:04:02,595 --> 00:04:05,595
+Speaker 2:  we're gonna do a little bit of that today. But there's also been a surprising
+
+47
+00:04:05,595 --> 00:04:09,315
+Speaker 2:  amount of interesting smart home news that kind of points to something
+
+48
+00:04:09,575 --> 00:04:13,155
+Speaker 2:  bigger going on. There have been a lot of new gadgets for your front door,
+
+49
+00:04:13,155 --> 00:04:16,515
+Speaker 2:  which I find fascinating. Smart locks and video doorbells and that kind of
+
+50
+00:04:16,515 --> 00:04:19,315
+Speaker 2:  stuff. So, I. Think that whole space is really interesting. I wanna talk
+
+51
+00:04:19,315 --> 00:04:22,955
+Speaker 2:  about that. We've seen some new software from Google and Apple that makes
+
+52
+00:04:22,955 --> 00:04:26,635
+Speaker 2:  it easier to administer your smart home, which I think is a really big deal.
+
+53
+00:04:27,295 --> 00:04:30,835
+Speaker 2:  and we have some protocol news because matter
+
+54
+00:04:31,675 --> 00:04:35,515
+Speaker 2:  continues to be chaos. We have to talk about the chaos that is matter.
+
+55
+00:04:35,965 --> 00:04:38,635
+Speaker 2:  Let's get to all of that with Jen. We're just gonna bounce through a whole
+
+56
+00:04:38,635 --> 00:04:42,155
+Speaker 2:  bunch of news. I'm very excited about it. Let's get into it. Jen. Hello.
+
+57
+00:04:42,975 --> 00:04:45,435
+Speaker 5:  Hi David. Pleasure to be back. It's been too long.
+
+58
+00:04:46,015 --> 00:04:48,715
+Speaker 2:  It has been too long. You're you're going through a hurricane right now.
+
+59
+00:04:48,815 --> 00:04:51,635
+Speaker 2:  We should just tell the people that If you suddenly disappear. And this segment
+
+60
+00:04:51,695 --> 00:04:55,355
+Speaker 2:  is four minutes long. It's because you're like deep in hurricane times. Yes.
+
+61
+00:04:55,355 --> 00:04:56,115
+Speaker 2:  Are you holding up? Okay.
+
+62
+00:04:56,335 --> 00:05:00,195
+Speaker 5:  Helene has been paying us a visit this morning. Thankfully we are not as
+
+63
+00:05:00,255 --> 00:05:03,995
+Speaker 5:  bad off as the poor people in Florida, but it's, it's been a bumpy ride so
+
+64
+00:05:03,995 --> 00:05:06,675
+Speaker 5:  far, so fingers crossed. We'll make it through
+
+65
+00:05:07,615 --> 00:05:11,395
+Speaker 2:  For sure. I find myself very curious in the middle of all this, what happens
+
+66
+00:05:11,655 --> 00:05:15,475
+Speaker 2:  to your smart home situation when your power goes off and then comes back
+
+67
+00:05:15,475 --> 00:05:19,115
+Speaker 2:  on? Like, does, is it just full insane chaos
+
+68
+00:05:19,205 --> 00:05:21,355
+Speaker 2:  every time the power blips in your house right now?
+
+69
+00:05:21,545 --> 00:05:25,275
+Speaker 5:  Yeah, because everything talks to me. It's kind of
+
+70
+00:05:25,325 --> 00:05:28,555
+Speaker 5:  scary actually, especially when it happens in the middle of the night. 'cause
+
+71
+00:05:28,555 --> 00:05:32,115
+Speaker 5:  so many things will be like, you know, connection restored or
+
+72
+00:05:32,425 --> 00:05:36,355
+Speaker 5:  offline and, and like voices from every corner of the house.
+
+73
+00:05:36,615 --> 00:05:40,035
+Speaker 5:  Robots in particular, robot vacuums, you know, cameras,
+
+74
+00:05:40,515 --> 00:05:44,235
+Speaker 5:  security systems and lots. Yeah, it it, it gets a little chaotic and then
+
+75
+00:05:44,235 --> 00:05:47,075
+Speaker 5:  obviously the notifications on my phone are like, ding, ding, ding, ding,
+
+76
+00:05:47,075 --> 00:05:49,915
+Speaker 5:  ding, ding. You know, offline, offline, offline. You can turn those off.
+
+77
+00:05:49,935 --> 00:05:53,435
+Speaker 5:  But because I, obviously I'm testing these things, I always turn on all the
+
+78
+00:05:53,435 --> 00:05:57,325
+Speaker 5:  notifications and then I have, you know, it was, it gets
+
+79
+00:05:57,405 --> 00:06:01,285
+Speaker 5:  a little crazy, especially cameras. 'cause when they go offline they send
+
+80
+00:06:01,285 --> 00:06:04,085
+Speaker 5:  you alerts and then when they come back online, right. So this morning I
+
+81
+00:06:04,085 --> 00:06:06,725
+Speaker 5:  was woken up numerous times throughout the night when the power went out.
+
+82
+00:06:07,095 --> 00:06:10,245
+Speaker 5:  Thankfully though, smart lights have managed to fix the problem where they
+
+83
+00:06:10,245 --> 00:06:14,205
+Speaker 5:  all turn on automatically when the power comes back. And
+
+84
+00:06:14,205 --> 00:06:18,045
+Speaker 5:  that used to be a terrible issue where, you know, they would reset
+
+85
+00:06:18,065 --> 00:06:21,245
+Speaker 5:  to default and like all the lights in your bedroom would turn on at 2:00 AM
+
+86
+00:06:21,245 --> 00:06:25,045
+Speaker 5:  when the power came back on. That's no longer a problem. Thankfully.
+
+87
+00:06:25,235 --> 00:06:29,125
+Speaker 2:  That is really like the first act of a horror movie is, is all of that stuff
+
+88
+00:06:29,125 --> 00:06:30,125
+Speaker 2:  happening, all
+
+89
+00:06:30,125 --> 00:06:30,605
+Speaker 5:  Going crazy?
+
+90
+00:06:32,725 --> 00:06:36,085
+Speaker 2:  Well I'm glad it's, it seems to be settling so I'm, I'm glad, I'm glad everything's
+
+91
+00:06:36,085 --> 00:06:36,565
+Speaker 2:  okay. Yes,
+
+92
+00:06:36,745 --> 00:06:37,405
+Speaker 5:  I'm doing good.
+
+93
+00:06:37,785 --> 00:06:41,045
+Speaker 2:  We have some stuff to catch up on. We do. We have not done our
+
+94
+00:06:41,705 --> 00:06:44,965
+Speaker 2:  Jen, why isn't matter solving all of my problems check in in a while. So
+
+95
+00:06:44,965 --> 00:06:48,005
+Speaker 2:  we're gonna do that. But you mentioned right before we started recording
+
+96
+00:06:48,005 --> 00:06:51,565
+Speaker 2:  that you're working on a, a smart lock thing and
+
+97
+00:06:52,245 --> 00:06:55,365
+Speaker 2:  I just wanna start, I, I wanna run a theory by you and then I, I want you
+
+98
+00:06:55,365 --> 00:06:57,245
+Speaker 2:  to tell me what you think and then we're gonna talk about some new stuff
+
+99
+00:06:57,245 --> 00:07:00,845
+Speaker 2:  around it. Okay. I think you could make a pretty compelling case that
+
+100
+00:07:00,955 --> 00:07:04,845
+Speaker 2:  your front door is the most interesting space in the smart home
+
+101
+00:07:04,895 --> 00:07:08,605
+Speaker 2:  right now between what's going on with video doorbells, what's going on with
+
+102
+00:07:08,605 --> 00:07:12,445
+Speaker 2:  smart locks, what stuff is like mainstream and very
+
+103
+00:07:12,445 --> 00:07:16,125
+Speaker 2:  good and suddenly like super interesting in a way that I feel like
+
+104
+00:07:16,575 --> 00:07:20,245
+Speaker 2:  everything else in the smart home is like kind of cool kind of a mess. And
+
+105
+00:07:20,245 --> 00:07:23,325
+Speaker 2:  it's like your front door is like where cool, interesting, good smart stuff
+
+106
+00:07:23,425 --> 00:07:26,045
+Speaker 2:  is happening right now. What do you think? Good theory, bad theory?
+
+107
+00:07:26,465 --> 00:07:30,005
+Speaker 5:  No, I agree. I think the front door always sort of actually always has been
+
+108
+00:07:30,285 --> 00:07:34,005
+Speaker 5:  a really key part because it's something that appeals to
+
+109
+00:07:34,205 --> 00:07:37,925
+Speaker 5:  everyone. I mean smart lights are really fun. Robot vacuums have
+
+110
+00:07:38,135 --> 00:07:42,085
+Speaker 5:  large appeal but you know, they are still niche. But the
+
+111
+00:07:42,275 --> 00:07:46,245
+Speaker 5:  concept of just of easy access to your home, not worrying about losing
+
+112
+00:07:46,355 --> 00:07:49,805
+Speaker 5:  keys, being able to let people in lock, unlock your door remotely,
+
+113
+00:07:50,195 --> 00:07:53,405
+Speaker 5:  know who's at your front door, you know, the front door is the gateway to
+
+114
+00:07:53,405 --> 00:07:57,325
+Speaker 5:  your house. And having the capability to sort
+
+115
+00:07:57,325 --> 00:08:00,645
+Speaker 5:  of remotely monitor it, always know what's going on. Having control over
+
+116
+00:08:00,645 --> 00:08:03,445
+Speaker 5:  the entrance to your home is something that everyone is interested in. Even
+
+117
+00:08:03,445 --> 00:08:07,285
+Speaker 5:  people that live in apartments, you know, the smart entryways,
+
+118
+00:08:07,545 --> 00:08:11,085
+Speaker 5:  you know, 'cause smart home quite often apartment dwellers sort of get left
+
+119
+00:08:11,105 --> 00:08:14,445
+Speaker 5:  out a little bit, but not when it comes to smart locks and smart doorbells
+
+120
+00:08:14,445 --> 00:08:18,125
+Speaker 5:  there. There's lots of devices tailored to those types of
+
+121
+00:08:18,185 --> 00:08:22,165
+Speaker 5:  living scenarios. And it is an area that there's a lot going
+
+122
+00:08:22,165 --> 00:08:26,125
+Speaker 5:  on right now. There's a lot of change happening, but there's also, it's also
+
+123
+00:08:26,125 --> 00:08:29,205
+Speaker 5:  an area that's always had quite a lot of challenges
+
+124
+00:08:29,875 --> 00:08:33,805
+Speaker 5:  primarily because of power. And that's an area
+
+125
+00:08:33,975 --> 00:08:37,605
+Speaker 5:  we've seen more sort of innovation in. I think it will take a while. There
+
+126
+00:08:37,605 --> 00:08:41,045
+Speaker 5:  was the smart door that came out a couple years ago that was like wired for
+
+127
+00:08:41,045 --> 00:08:43,965
+Speaker 5:  power, which everyone kind of Oh yeah. Laughed about
+
+128
+00:08:45,125 --> 00:08:48,885
+Speaker 5:  a little bit but you know. Yeah. I think ultimately most homes, new homes
+
+129
+00:08:48,945 --> 00:08:52,725
+Speaker 5:  as they're built or homes as they're remodeled, wiring your door for power
+
+130
+00:08:52,785 --> 00:08:56,645
+Speaker 5:  is gonna make more and more sense. Both for lighting, for
+
+131
+00:08:56,645 --> 00:09:00,285
+Speaker 5:  powering video doorbells, for powering your door locks. 'cause
+
+132
+00:09:00,285 --> 00:09:03,365
+Speaker 5:  battery power in the door lock is probably one of the biggest
+
+133
+00:09:04,115 --> 00:09:07,965
+Speaker 5:  pain points with smart door locks. You know, most sort of
+
+134
+00:09:08,165 --> 00:09:11,525
+Speaker 5:  ordinary people who decide to get a smart door lock, you know when they realize
+
+135
+00:09:11,525 --> 00:09:14,765
+Speaker 5:  they have to start changing the batteries every three to six months. It's
+
+136
+00:09:14,765 --> 00:09:18,685
+Speaker 5:  like this is, this is not smart. This is a pain. Yeah.
+
+137
+00:09:18,685 --> 00:09:21,525
+Speaker 5:  Especially if it locks you out because you know you've ignored the warnings
+
+138
+00:09:21,525 --> 00:09:24,325
+Speaker 5:  after the seventh or eighth time that they've sent them to you.
+
+139
+00:09:25,585 --> 00:09:28,965
+Speaker 5:  So we, it's interesting to find, you know, to see the solutions that are
+
+140
+00:09:28,965 --> 00:09:32,685
+Speaker 5:  coming around there. And then we've also got, UWB is a new,
+
+141
+00:09:33,445 --> 00:09:37,325
+Speaker 5:  a new technology we're seen in door locks. Apple quite recently
+
+142
+00:09:37,325 --> 00:09:41,045
+Speaker 5:  announced that they were adding capability for unlocking smart door
+
+143
+00:09:41,045 --> 00:09:44,805
+Speaker 5:  locks using UWB chip in the iPhone.
+
+144
+00:09:45,425 --> 00:09:48,965
+Speaker 5:  So we're starting to see sort of a real shift there that in, what's interesting
+
+145
+00:09:48,965 --> 00:09:52,885
+Speaker 5:  about that is the sort of the hands free notion of you know, being
+
+146
+00:09:52,885 --> 00:09:56,805
+Speaker 5:  able to access your home without even having to even tap your watch to
+
+147
+00:09:56,805 --> 00:10:00,765
+Speaker 5:  the door, let alone pull your key out because UWB
+
+148
+00:10:00,765 --> 00:10:04,125
+Speaker 5:  radio will automatically sense that you are there, connect to your door and
+
+149
+00:10:04,125 --> 00:10:07,405
+Speaker 5:  unlock it for you. So there's so much interesting going on. But you, you
+
+150
+00:10:07,405 --> 00:10:10,725
+Speaker 5:  need the power. And actually something I've been testing recently,
+
+151
+00:10:11,175 --> 00:10:14,805
+Speaker 5:  which sort of ties into all of this is wireless power. I'm testing
+
+152
+00:10:14,805 --> 00:10:18,205
+Speaker 5:  something called We Charge, which is a wireless power
+
+153
+00:10:18,605 --> 00:10:21,885
+Speaker 5:  transmitter and it can wirelessly power a door lock that I've been testing,
+
+154
+00:10:21,885 --> 00:10:23,485
+Speaker 5:  which is by a company called Alfred.
+
+155
+00:10:23,675 --> 00:10:26,085
+Speaker 2:  Wait, this has been around forever, right? Yes. I feel like I've been hearing
+
+156
+00:10:26,315 --> 00:10:30,005
+Speaker 2:  like science project things about wireless power for like
+
+157
+00:10:30,385 --> 00:10:34,245
+Speaker 2:  the entire time I have been covering technology. Is this for
+
+158
+00:10:34,245 --> 00:10:37,725
+Speaker 2:  real now? Like is somebody actually gonna ship this thing to me at some point?
+
+159
+00:10:37,915 --> 00:10:38,205
+Speaker 2:  Yeah,
+
+160
+00:10:38,205 --> 00:10:41,685
+Speaker 5:  Well you can buy this right now with this door lock. Okay. It is,
+
+161
+00:10:42,075 --> 00:10:45,165
+Speaker 5:  it's not sort of off the shelf. You kind of have to get in touch with the
+
+162
+00:10:45,165 --> 00:10:48,925
+Speaker 5:  company and they can arrange for installation. So it's a little laborious.
+
+163
+00:10:48,985 --> 00:10:52,445
+Speaker 5:  But I was talking to the founder and he said they've actually developed a
+
+164
+00:10:53,005 --> 00:10:56,405
+Speaker 5:  retrofit design so that you can just plug a little
+
+165
+00:10:56,845 --> 00:11:00,805
+Speaker 5:  transmitter into power, put it on a shelf and then plug a
+
+166
+00:11:00,965 --> 00:11:04,885
+Speaker 5:  receiver into your power port of say your door locks, a lot of door locks
+
+167
+00:11:04,885 --> 00:11:08,245
+Speaker 5:  have power ports and then that can actually end up allowing you to
+
+168
+00:11:09,285 --> 00:11:13,165
+Speaker 5:  wirelessly power your door. Now wireless power I
+
+169
+00:11:13,165 --> 00:11:16,965
+Speaker 5:  think is maybe not the solution ultimately to all of these
+
+170
+00:11:16,965 --> 00:11:20,845
+Speaker 5:  issues. I think Wired is always generally
+
+171
+00:11:20,845 --> 00:11:24,645
+Speaker 5:  gonna be more reliable, but it requires so much more effort
+
+172
+00:11:24,665 --> 00:11:28,645
+Speaker 5:  for installation. So, I feel like there is, you know, there's
+
+173
+00:11:28,645 --> 00:11:32,245
+Speaker 5:  always maybe gonna be a middle ground, you know, especially for retrofit.
+
+174
+00:11:32,685 --> 00:11:36,165
+Speaker 5:  You're gonna, you know, having the options to do something other than
+
+175
+00:11:36,505 --> 00:11:39,125
+Speaker 5:  use, I mean, have you used, do you have a smart door lock?
+
+176
+00:11:39,845 --> 00:11:43,445
+Speaker 2:  I don't. It's actually the, the one and only smart home
+
+177
+00:11:43,445 --> 00:11:47,005
+Speaker 2:  device that I think my wife would allow me to install. But
+
+178
+00:11:47,005 --> 00:11:47,365
+Speaker 5:  You haven't
+
+179
+00:11:47,425 --> 00:11:51,005
+Speaker 2:  So I'm, I'm gonna do it. It's just like we're we're, I'm at the point where
+
+180
+00:11:51,025 --> 00:11:54,365
+Speaker 2:  I'm procrastinating painting the thing So, I'm not sure I'm a good like
+
+181
+00:11:54,795 --> 00:11:58,085
+Speaker 2:  version of, you know, being ahead of things on home projects. But it's on
+
+182
+00:11:58,085 --> 00:11:59,405
+Speaker 2:  the list. It's on the list.
+
+183
+00:11:59,715 --> 00:12:03,485
+Speaker 5:  Well and the, the battery is an issue. I mean the August
+
+184
+00:12:03,785 --> 00:12:06,885
+Speaker 5:  is a great smart lock for example, but when you know you have to change the
+
+185
+00:12:07,045 --> 00:12:09,605
+Speaker 5:  batteries every two to three months, that's too often some smart locks will
+
+186
+00:12:09,605 --> 00:12:13,365
+Speaker 5:  go at least a year and a year. Sounds great. But actually that's still, that's
+
+187
+00:12:13,365 --> 00:12:15,765
+Speaker 5:  still a lot. Yeah. I mean it's like, do you remember to change your smoke
+
+188
+00:12:15,765 --> 00:12:16,685
+Speaker 5:  alarm batteries every year?
+
+189
+00:12:17,325 --> 00:12:20,125
+Speaker 2:  I remember when it beeps at me right at two o'clock in the morning. That's,
+
+190
+00:12:20,125 --> 00:12:21,645
+Speaker 2:  that's when I remember to change the smoke alarm.
+
+191
+00:12:21,715 --> 00:12:25,605
+Speaker 5:  Yeah. So I mean And that if we could have wireless power
+
+192
+00:12:25,705 --> 00:12:29,525
+Speaker 5:  or wired for power built into our homes so that you can have, you
+
+193
+00:12:29,765 --> 00:12:33,005
+Speaker 5:  can power your video doorbell, you can power your door lock, you can power
+
+194
+00:12:33,005 --> 00:12:36,885
+Speaker 5:  some lighting around your door, maybe even your security panel. You
+
+195
+00:12:36,885 --> 00:12:40,765
+Speaker 5:  know, it just, I can see sort of a much easier transition
+
+196
+00:12:41,345 --> 00:12:44,565
+Speaker 5:  to these types of devices rather than having to constantly mess with them
+
+197
+00:12:44,565 --> 00:12:48,045
+Speaker 5:  and recharge or put new batteries in and
+
+198
+00:12:48,545 --> 00:12:51,245
+Speaker 5:  So, I go through so many batteries and I hate it. I'm like, ah,
+
+199
+00:12:51,835 --> 00:12:52,125
+Speaker 2:  This
+
+200
+00:12:52,155 --> 00:12:55,005
+Speaker 5:  E-waste. Yeah. So it's, it's an interesting space for sure.
+
+201
+00:12:55,545 --> 00:12:59,405
+Speaker 2:  Too many of these devices also make that part really complicated
+
+202
+00:12:59,405 --> 00:13:01,885
+Speaker 2:  because I, I think the, the battery life thing is really interesting to me.
+
+203
+00:13:01,965 --> 00:13:05,885
+Speaker 2:  'cause I think like I I, one of the, I've owned a home for three years
+
+204
+00:13:05,985 --> 00:13:09,325
+Speaker 2:  now and I'm still discovering all the things you're supposed to do on like
+
+205
+00:13:09,325 --> 00:13:13,285
+Speaker 2:  a routine basis and I just like, I have, I have furnace
+
+206
+00:13:13,545 --> 00:13:16,405
+Speaker 2:  air filters right? That I just am supposed to change every three months and
+
+207
+00:13:16,405 --> 00:13:19,965
+Speaker 2:  I more or less remember every three months. That's fine. It's every three
+
+208
+00:13:19,965 --> 00:13:23,125
+Speaker 2:  months. It takes 30 seconds, it's fine. But I feel like the problem with
+
+209
+00:13:23,305 --> 00:13:27,245
+Speaker 2:  way too many of these smart home gadgets is not just that you
+
+210
+00:13:27,245 --> 00:13:30,965
+Speaker 2:  have to charge it or reinstall
+
+211
+00:13:31,245 --> 00:13:34,685
+Speaker 2:  batteries or whatever, it's that that process is annoying and I, this has
+
+212
+00:13:34,805 --> 00:13:37,245
+Speaker 2:  probably gotten a lot better with these gadgets over time. But it feels like
+
+213
+00:13:37,245 --> 00:13:40,405
+Speaker 2:  you basically have to like unmount the thing, charge the thing,
+
+214
+00:13:41,765 --> 00:13:45,045
+Speaker 2:  reinstall the thing, reconnect the thing, which probably won't work the first.
+
+215
+00:13:45,105 --> 00:13:47,485
+Speaker 2:  So there's just, yes, there's all these little pieces that it's like if I
+
+216
+00:13:47,485 --> 00:13:50,165
+Speaker 2:  could just walk up to it with a double a battery, like pull a thing down,
+
+217
+00:13:50,165 --> 00:13:53,125
+Speaker 2:  stick the battery and put it back on, I'm good. Yeah, I'll do that three
+
+218
+00:13:53,125 --> 00:13:55,205
+Speaker 2:  times a year. Yeah. But that is not what the process is.
+
+219
+00:13:55,205 --> 00:13:56,805
+Speaker 5:  That's generally not what the process is. No and
+
+220
+00:13:56,805 --> 00:13:59,245
+Speaker 2:  It feels like that to me is the solve problem. Yeah, that is true. Like wireless
+
+221
+00:13:59,245 --> 00:14:03,005
+Speaker 2:  power is like a miracle of of chemistry that I hope we
+
+222
+00:14:03,005 --> 00:14:05,805
+Speaker 2:  accomplish sometime day but just like make it easier to change the batteries.
+
+223
+00:14:05,805 --> 00:14:06,045
+Speaker 2:  Yeah,
+
+224
+00:14:06,705 --> 00:14:07,125
+Speaker 5:  That's
+
+225
+00:14:07,125 --> 00:14:07,525
+Speaker 2:  True. That
+
+226
+00:14:07,525 --> 00:14:10,525
+Speaker 5:  Seems easier. That is true. There are some where you have to get like a special
+
+227
+00:14:10,675 --> 00:14:12,245
+Speaker 5:  tool and it's like no.
+
+228
+00:14:12,755 --> 00:14:15,125
+Speaker 2:  Yeah, that's just silliness as far as I'm concerned.
+
+229
+00:14:15,125 --> 00:14:18,245
+Speaker 5:  Yeah. Although, but speaking of wireless power, I was just at EFA in Berlin
+
+230
+00:14:18,585 --> 00:14:22,485
+Speaker 5:  and they, the wireless power consortium have launched the
+
+231
+00:14:22,485 --> 00:14:26,325
+Speaker 5:  first spec for key wireless power. That's
+
+232
+00:14:26,525 --> 00:14:30,485
+Speaker 5:  wireless power for kitchen appliances now. Not necessarily ovens
+
+233
+00:14:30,485 --> 00:14:34,325
+Speaker 5:  and fridges 'cause you don't really need that but for your countertop
+
+234
+00:14:34,355 --> 00:14:38,085
+Speaker 5:  gadgets. So air fryers, microwaves, blenders,
+
+235
+00:14:38,675 --> 00:14:42,325
+Speaker 5:  kettles so that you know, you, it's basically
+
+236
+00:14:42,325 --> 00:14:46,125
+Speaker 5:  induction power. You have induction coils underneath your counter,
+
+237
+00:14:46,125 --> 00:14:49,845
+Speaker 5:  which can be retrofit also can work with retrofitted
+
+238
+00:14:50,075 --> 00:14:53,945
+Speaker 5:  induction cooktops. There are some new ones coming out that
+
+239
+00:14:54,095 --> 00:14:57,105
+Speaker 5:  have this capability built in and your
+
+240
+00:14:57,795 --> 00:15:01,625
+Speaker 5:  countertop or induction cooktop can power your blender
+
+241
+00:15:01,805 --> 00:15:05,785
+Speaker 5:  or air fryer and you, they were showed me a demo at EFA
+
+242
+00:15:05,785 --> 00:15:09,505
+Speaker 5:  where you just basically put the appliance on the countertop and it
+
+243
+00:15:09,575 --> 00:15:13,465
+Speaker 5:  turn it on and it will blend or cook or whatever it is you need it
+
+244
+00:15:13,465 --> 00:15:17,185
+Speaker 5:  to do. And what's been, you know, power in the kitchen
+
+245
+00:15:17,485 --> 00:15:21,305
+Speaker 5:  is a challenge. There's, you know, never enough outlets, the
+
+246
+00:15:21,305 --> 00:15:24,185
+Speaker 5:  cord never goes far enough where you are trying to reach. Yeah,
+
+247
+00:15:24,305 --> 00:15:28,185
+Speaker 2:  I really do think the thing where everyone has three gadgets and two
+
+248
+00:15:28,265 --> 00:15:32,105
+Speaker 2:  outlets is like a completely universal experience Yes. Of being a person
+
+249
+00:15:32,165 --> 00:15:36,065
+Speaker 2:  in the world in a kitchen. Like I can, I can tell, I can picture in
+
+250
+00:15:36,065 --> 00:15:39,865
+Speaker 2:  my head the Tetris I have to do every time I make coffee just
+
+251
+00:15:39,865 --> 00:15:43,585
+Speaker 2:  in order to have the, the grinder and the kettle
+
+252
+00:15:43,805 --> 00:15:47,505
+Speaker 2:  and the milk frother, which is my favorite fancy gadget of all time.
+
+253
+00:15:48,345 --> 00:15:51,785
+Speaker 2:  I have to just the, I know which one is which by feel. I could do all that
+
+254
+00:15:51,785 --> 00:15:55,705
+Speaker 2:  like in the dark now and like it's ridiculous and bad because it's three
+
+255
+00:15:55,705 --> 00:15:58,465
+Speaker 2:  things and two outlets and If you can solve that problem for me. I'm, I'm
+
+256
+00:15:58,465 --> 00:15:59,305
+Speaker 2:  in I love this idea.
+
+257
+00:15:59,525 --> 00:16:03,065
+Speaker 5:  You a happy person. I know, me too. I have the same issue. And
+
+258
+00:16:03,825 --> 00:16:07,705
+Speaker 5:  I also got recently redid my kitchen and just still, even though
+
+259
+00:16:07,745 --> 00:16:11,465
+Speaker 5:  I asked the electrician to put in as many outlets as you could, I still
+
+260
+00:16:11,465 --> 00:16:15,145
+Speaker 5:  don't have enough outlets. And this, you know,
+
+261
+00:16:15,155 --> 00:16:18,905
+Speaker 5:  again, a lot of this feels very much in the future, but the,
+
+262
+00:16:18,905 --> 00:16:22,745
+Speaker 5:  there are, I can see a lot of benefit here, especially in
+
+263
+00:16:22,745 --> 00:16:26,665
+Speaker 5:  the way that your new, the the, obviously it does require all new
+
+264
+00:16:26,675 --> 00:16:30,585
+Speaker 5:  appliances, but the way that they are manufactured because they don't
+
+265
+00:16:30,655 --> 00:16:33,825
+Speaker 5:  need cords, which means they don't need any open
+
+266
+00:16:34,765 --> 00:16:38,745
+Speaker 5:  access to them. They don't have batteries in, it's not a battery charging,
+
+267
+00:16:38,745 --> 00:16:41,785
+Speaker 5:  it's not like g charging which powers the battery.
+
+268
+00:16:42,695 --> 00:16:46,385
+Speaker 5:  This is just direct power transfer. So the device
+
+269
+00:16:46,385 --> 00:16:49,225
+Speaker 5:  itself still kind of weighs the same, there's not a giant battery in there,
+
+270
+00:16:49,225 --> 00:16:52,425
+Speaker 5:  but it's completely sealed. So the gentleman I was talking to Iffa was like,
+
+271
+00:16:52,605 --> 00:16:55,745
+Speaker 5:  you know, manufacturers can design say your blender so that you could just
+
+272
+00:16:55,745 --> 00:16:59,185
+Speaker 5:  put the entire thing in the dishwasher because there's no open
+
+273
+00:16:59,955 --> 00:17:03,225
+Speaker 5:  ports. And that also could reduce things like wear and tear. 'cause quite
+
+274
+00:17:03,225 --> 00:17:07,185
+Speaker 5:  often it's the power supply that goes first on a, on a lot of these
+
+275
+00:17:07,185 --> 00:17:11,105
+Speaker 5:  devices and these gadgets in your kitchen. So, and it's, they also
+
+276
+00:17:11,105 --> 00:17:14,745
+Speaker 5:  said it's only 10% less efficient than wired power.
+
+277
+00:17:15,205 --> 00:17:16,665
+Speaker 5:  So it's pretty good.
+
+278
+00:17:16,735 --> 00:17:17,025
+Speaker 2:  Yeah,
+
+279
+00:17:17,385 --> 00:17:21,185
+Speaker 5:  I think the future of no wires anywhere in our house is kind of an
+
+280
+00:17:21,345 --> 00:17:21,905
+Speaker 5:  interesting one.
+
+281
+00:17:22,445 --> 00:17:26,425
+Speaker 2:  Oh, I agree. I also think I, I like, I I admire your optimism
+
+282
+00:17:26,445 --> 00:17:29,065
+Speaker 2:  and also I feel like I've been burned by wireless power at this point too
+
+283
+00:17:29,065 --> 00:17:32,545
+Speaker 2:  many times that I'll believe it when I see it. But I do think the,
+
+284
+00:17:32,965 --> 00:17:36,705
+Speaker 2:  the kitchen as a thing with like mostly stationary things
+
+285
+00:17:37,795 --> 00:17:41,745
+Speaker 2:  feels like a good use for that as opposed to like you can charge your
+
+286
+00:17:41,745 --> 00:17:44,425
+Speaker 2:  phone wirelessly and it's like, that's a lot harder than you think it is.
+
+287
+00:17:44,425 --> 00:17:48,145
+Speaker 2:  But I can just like, I can set this down and it will power, it feels more
+
+288
+00:17:48,405 --> 00:17:50,405
+Speaker 2:  doable. Yeah, I'm excited about that. It
+
+289
+00:17:50,405 --> 00:17:51,485
+Speaker 5:  Feels, it feels pretty smart.
+
+290
+00:17:52,045 --> 00:17:55,125
+Speaker 2:  Yeah. That's, that's very cool. I will say we should, we should switch gears,
+
+291
+00:17:55,305 --> 00:17:59,205
+Speaker 2:  but the fact that we now have key qi and we char
+
+292
+00:17:59,345 --> 00:18:03,085
+Speaker 2:  no this is bad everybody, you have done this wrong.
+
+293
+00:18:03,975 --> 00:18:07,725
+Speaker 2:  Let's, let's, let's all come together and figure out one rhyme
+
+294
+00:18:07,915 --> 00:18:11,725
+Speaker 2:  that we can do together for wireless power. Yes, I agree.
+
+295
+00:18:12,225 --> 00:18:15,965
+Speaker 2:  So you're, you're doing a big update to the the smart lock buying guide,
+
+296
+00:18:15,965 --> 00:18:18,005
+Speaker 2:  right? Give us a preview. What's your favorite one right now?
+
+297
+00:18:18,815 --> 00:18:22,245
+Speaker 5:  Still a big fan of Yale, the Yale Assure two
+
+298
+00:18:22,925 --> 00:18:26,565
+Speaker 5:  because it comes in so many different flavors, it kind of fits everyone's
+
+299
+00:18:27,215 --> 00:18:31,205
+Speaker 5:  needs. So Yale if, if you're not familiar, has these swappable
+
+300
+00:18:31,235 --> 00:18:35,005
+Speaker 5:  modules. So depend If you decide to change your smart home setup.
+
+301
+00:18:35,345 --> 00:18:39,325
+Speaker 5:  You know you've gone from Z-Wave to Apple Home or Google Home.
+
+302
+00:18:39,545 --> 00:18:42,805
+Speaker 5:  You can easily pop in a different module and be able to have
+
+303
+00:18:42,915 --> 00:18:46,565
+Speaker 5:  compatibility, which is nice. Although a lot of the locks I tested
+
+304
+00:18:46,745 --> 00:18:49,765
+Speaker 5:  do work sort of universally with different platforms.
+
+305
+00:18:50,545 --> 00:18:54,485
+Speaker 5:  But they also matter is sort of is slowly
+
+306
+00:18:54,485 --> 00:18:58,045
+Speaker 5:  coming into the smart lock space, which will help with compatibility.
+
+307
+00:18:58,605 --> 00:19:02,245
+Speaker 5:  Although I mean a lot of people who buy smart
+
+308
+00:19:02,415 --> 00:19:06,325
+Speaker 5:  locks, it's really just for that it's easier for me to get into my house.
+
+309
+00:19:06,565 --> 00:19:10,085
+Speaker 5:  I don't have to have my key. So you don't necessarily need to set it up with
+
+310
+00:19:10,085 --> 00:19:13,765
+Speaker 5:  your smart home platform. But that's again what I like about Yale is it gives
+
+311
+00:19:13,825 --> 00:19:17,405
+Speaker 5:  you multiple options. You've got fingerprint access,
+
+312
+00:19:17,465 --> 00:19:21,245
+Speaker 5:  you've got keypad access, you've got lock key
+
+313
+00:19:21,265 --> 00:19:25,165
+Speaker 5:  If, you really insist on using the key. And then also it
+
+314
+00:19:25,165 --> 00:19:29,125
+Speaker 5:  has the auto unlock feature. So if, which is again
+
+315
+00:19:29,125 --> 00:19:32,445
+Speaker 5:  this hands free concept, which I've never found work
+
+316
+00:19:32,995 --> 00:19:36,365
+Speaker 5:  that well for me, but that's also because I have poor cell service and poor
+
+317
+00:19:36,645 --> 00:19:40,605
+Speaker 5:  GPS in my neighborhood. Fair enough. And it relies on that. But it is nice
+
+318
+00:19:40,705 --> 00:19:44,045
+Speaker 5:  the concept of having your door automatically unlock as you walk up to it.
+
+319
+00:19:44,155 --> 00:19:47,685
+Speaker 5:  Yeah. And so Yale has that feature which actually got from August,
+
+320
+00:19:48,455 --> 00:19:52,365
+Speaker 5:  which Yale is the sister company of August now. and we
+
+321
+00:19:52,365 --> 00:19:56,045
+Speaker 5:  haven't had a new lock from August for a while. So I think Yale is kind of
+
+322
+00:19:57,025 --> 00:20:00,925
+Speaker 5:  now the the main sort of smart lock space that
+
+323
+00:20:00,925 --> 00:20:04,845
+Speaker 5:  we're gonna see from what was Asa Aloy now owned by
+
+324
+00:20:04,845 --> 00:20:05,085
+Speaker 5:  Fortune.
+
+325
+00:20:05,675 --> 00:20:05,965
+Speaker 2:  Yeah,
+
+326
+00:20:05,985 --> 00:20:09,525
+Speaker 5:  The whole smart lock space has got quite complicated. Yes. But Yale,
+
+327
+00:20:10,005 --> 00:20:13,285
+Speaker 5:  yeah, Yale has some really good stuff. They actually just released a new
+
+328
+00:20:13,605 --> 00:20:17,405
+Speaker 5:  retrofit locks which kind of replaces the original iconic
+
+329
+00:20:17,545 --> 00:20:21,365
+Speaker 5:  August retrofit lock, which has been my long been my number one pick for
+
+330
+00:20:21,635 --> 00:20:25,605
+Speaker 5:  your best retrofit lock. And just to clarify what retrofit means, there are
+
+331
+00:20:25,605 --> 00:20:28,965
+Speaker 5:  two types of smart locks. There's a full deadbolt replacement, which is what
+
+332
+00:20:28,965 --> 00:20:32,805
+Speaker 5:  most of the Yale Assure two locks are. So that replaces your entire
+
+333
+00:20:33,035 --> 00:20:36,405
+Speaker 5:  lock. So you're gonna have a different lock on the front and on the back
+
+334
+00:20:36,885 --> 00:20:40,685
+Speaker 5:  a retrofit lock just replaces the back so that you still
+
+335
+00:20:40,705 --> 00:20:43,605
+Speaker 5:  can use your regular key and Yale's come out with a new
+
+336
+00:20:44,205 --> 00:20:47,925
+Speaker 5:  retrofit lock called the Yale approach and you just replace the back portion
+
+337
+00:20:48,425 --> 00:20:52,165
+Speaker 5:  to add smarts to your lock. And that's really helpful for people who are
+
+338
+00:20:52,165 --> 00:20:55,925
+Speaker 5:  renting and can't swap out their lock. And also If, you have a nice
+
+339
+00:20:56,155 --> 00:21:00,125
+Speaker 5:  lock set and you don't want a kind of ugly looking smart lock
+
+340
+00:21:00,125 --> 00:21:03,605
+Speaker 5:  on the front of your door and fair. They've come out with a good solution.
+
+341
+00:21:03,605 --> 00:21:06,805
+Speaker 5:  And we're seeing this a lot now and I've tested a lot of these for the the
+
+342
+00:21:06,805 --> 00:21:10,285
+Speaker 5:  new update to the buying guide keypads that go with
+
+343
+00:21:10,325 --> 00:21:14,165
+Speaker 5:  retrofit locks so that you can still use a key
+
+344
+00:21:14,165 --> 00:21:17,765
+Speaker 5:  code or a fingerprint to unlock the lock
+
+345
+00:21:18,155 --> 00:21:22,005
+Speaker 5:  without, because that was always an issue with retrofit locks. You couldn't
+
+346
+00:21:22,325 --> 00:21:25,925
+Speaker 5:  actually control it from the outside other than using a key or an app.
+
+347
+00:21:26,185 --> 00:21:29,125
+Speaker 5:  And when you get to your front door, you don't wanna have to pull out your
+
+348
+00:21:29,125 --> 00:21:30,565
+Speaker 5:  phone to unlock your door
+
+349
+00:21:30,705 --> 00:21:33,645
+Speaker 2:  No. By then just pull out your key. It's actually simpler to have keys at
+
+350
+00:21:33,645 --> 00:21:34,085
+Speaker 2:  that point. Yeah,
+
+351
+00:21:34,115 --> 00:21:38,005
+Speaker 5:  It's easier to pull out your key, right? Yeah. So now, so the Yale approach
+
+352
+00:21:38,005 --> 00:21:41,845
+Speaker 5:  comes with a keypad that has a fingerprint reader and a keypad built
+
+353
+00:21:41,845 --> 00:21:44,885
+Speaker 5:  in. So you can use either of those options. And the nice thing about these
+
+354
+00:21:44,995 --> 00:21:48,965
+Speaker 5:  keypads is you don't have to put them like on your door or next to your door.
+
+355
+00:21:48,965 --> 00:21:52,725
+Speaker 5:  They have quite long range so you can kind of have it tucked away and still
+
+356
+00:21:52,725 --> 00:21:56,165
+Speaker 5:  have your front door look. Oh that's cool. Like a normal front door. So,
+
+357
+00:21:56,185 --> 00:21:59,525
+Speaker 5:  and I've seen, there's a couple other companies, a Cara has a new retrofit
+
+358
+00:21:59,525 --> 00:22:03,405
+Speaker 5:  lock that I've been trying and the Switch bot also has another one that all
+
+359
+00:22:03,405 --> 00:22:07,365
+Speaker 5:  come with these Bluetooth keypads, which I think is really kind of
+
+360
+00:22:07,445 --> 00:22:11,205
+Speaker 5:  a nice upgrade. And a lot of those also work with Apple
+
+361
+00:22:11,475 --> 00:22:15,405
+Speaker 5:  Home Key, which is new again in the retrofit space, being able to
+
+362
+00:22:15,465 --> 00:22:19,005
+Speaker 5:  use Home Key, which people that use it swear by, they say it's the absolute
+
+363
+00:22:19,165 --> 00:22:23,005
+Speaker 5:  favorite way of getting into a smart lock. 'cause you can put your home key
+
+364
+00:22:23,265 --> 00:22:26,285
+Speaker 5:  on your watch up to the lock. Right. Or you can use your phone,
+
+365
+00:22:26,955 --> 00:22:30,885
+Speaker 5:  obviously phone again, not necessarily easier than key, but
+
+366
+00:22:30,885 --> 00:22:34,765
+Speaker 5:  watch quite easy. So yeah, lots of great options in the lock
+
+367
+00:22:34,815 --> 00:22:37,845
+Speaker 5:  space right now we're seeing new smart locks come out
+
+368
+00:22:38,555 --> 00:22:40,855
+Speaker 5:  almost daily. It's kind of a bit overwhelming.
+
+369
+00:22:41,135 --> 00:22:45,055
+Speaker 2:  It really does seem like that. Well and I think part of me thinks it's, it's
+
+370
+00:22:45,055 --> 00:22:48,095
+Speaker 2:  because of the thing you just mentioned a minute ago is that these are not
+
+371
+00:22:48,765 --> 00:22:52,695
+Speaker 2:  devices that have to like have a grand vision of how do they fit into
+
+372
+00:22:52,695 --> 00:22:56,575
+Speaker 2:  an ecosystem and like tell you a big story about routines in your smart
+
+373
+00:22:56,735 --> 00:22:59,695
+Speaker 2:  life and like you can build that stuff if If you want. But this thing is
+
+374
+00:22:59,695 --> 00:23:02,655
+Speaker 2:  just like, it's, it makes it easier to get inside of your house, which is
+
+375
+00:23:02,655 --> 00:23:06,535
+Speaker 2:  just like the single most mainstream home use
+
+376
+00:23:06,535 --> 00:23:10,215
+Speaker 2:  case that anyone has. Everyone needs to get into their house. Yes. That is
+
+377
+00:23:10,255 --> 00:23:13,175
+Speaker 2:  a thing that happens when you have a house. Any kind and So I think that
+
+378
+00:23:13,175 --> 00:23:16,655
+Speaker 2:  stuff is, is very cool. 'cause it's like in a, in a sort of
+
+379
+00:23:16,655 --> 00:23:20,495
+Speaker 2:  increasingly messy idea of how everything works together. That's one thing
+
+380
+00:23:20,495 --> 00:23:23,735
+Speaker 2:  that just doesn't have to it it can, it can completely do its job
+
+381
+00:23:23,865 --> 00:23:27,615
+Speaker 2:  completely on its own. And I think as we get through this
+
+382
+00:23:27,625 --> 00:23:31,175
+Speaker 2:  messy matter phase, I can see why that would be very enticing to any company
+
+383
+00:23:31,175 --> 00:23:34,575
+Speaker 2:  that wants to build this stuff. But let's talk about Matter. You, you mentioned
+
+384
+00:23:35,145 --> 00:23:38,055
+Speaker 2:  where we are with some of the, the protocol stuff and I think
+
+385
+00:23:38,875 --> 00:23:42,815
+Speaker 2:  Google has made some big changes. Apple has made some big changes were it
+
+386
+00:23:42,815 --> 00:23:46,645
+Speaker 2:  feels like we've had some good momentum on the how you control
+
+387
+00:23:46,665 --> 00:23:49,205
+Speaker 2:  all of this stuff and how it all works together. But let's start with the
+
+388
+00:23:49,325 --> 00:23:51,685
+Speaker 2:  protocol stuff. There was a big threads update this summer
+
+389
+00:23:51,985 --> 00:23:54,885
+Speaker 5:  Thread. Don't put the S on the end. You're right. 'cause that just confuses
+
+390
+00:23:55,085 --> 00:23:56,725
+Speaker 5:  everyone. And everyone thinks I'm writing about Meta.
+
+391
+00:23:56,875 --> 00:23:59,965
+Speaker 2:  Just the one thread there, there was a big thread
+
+392
+00:24:00,595 --> 00:24:04,525
+Speaker 2:  with a D at the end update this summer. There's been
+
+393
+00:24:04,525 --> 00:24:08,085
+Speaker 2:  some ongoing matter news. Catch us up. Where are we in the, the protocol
+
+394
+00:24:08,085 --> 00:24:08,285
+Speaker 2:  world.
+
+395
+00:24:08,555 --> 00:24:12,485
+Speaker 5:  Yeah. Well okay, just before we jump into those protocols,
+
+396
+00:24:12,485 --> 00:24:15,845
+Speaker 5:  there is one protocol I should mention before we move on from Smart locks.
+
+397
+00:24:15,845 --> 00:24:15,965
+Speaker 5:  Oh
+
+398
+00:24:15,965 --> 00:24:19,445
+Speaker 2:  God, is it another wireless charging protocol? How much? Where's the wireless
+
+399
+00:24:19,445 --> 00:24:20,445
+Speaker 2:  power coming from this time?
+
+400
+00:24:21,425 --> 00:24:25,365
+Speaker 5:  No, no, no. This is a LiRo. So this is tied to matter, but this is the
+
+401
+00:24:25,385 --> 00:24:27,045
+Speaker 5:  new smart lock protocol.
+
+402
+00:24:29,795 --> 00:24:31,245
+Speaker 5:  David's just put his head down
+
+403
+00:24:31,765 --> 00:24:34,325
+Speaker 2:  Someday you're gonna come on the show and just make all of this stuff up
+
+404
+00:24:34,425 --> 00:24:36,845
+Speaker 2:  and I'm not gonna know and I'm gonna feel very stupid at the end.
+
+405
+00:24:37,485 --> 00:24:40,285
+Speaker 5:  But no, this ties into what we were just talking about and what we're about
+
+406
+00:24:40,365 --> 00:24:43,885
+Speaker 5:  to talk about. Okay. So a good segue, but Allero is the new
+
+407
+00:24:45,065 --> 00:24:48,965
+Speaker 5:  access control standard from the CSA, which is an organization behind
+
+408
+00:24:48,965 --> 00:24:52,645
+Speaker 5:  Matter, the Connectivity Standards Alliance. And this is why we're seeing
+
+409
+00:24:52,645 --> 00:24:56,325
+Speaker 5:  so much movement in the lock space because it's actually going to help
+
+410
+00:24:57,005 --> 00:25:00,805
+Speaker 5:  standardize the way we access Smart locks, not just in our homes,
+
+411
+00:25:00,865 --> 00:25:04,525
+Speaker 5:  but maybe even in like our businesses and apartments and
+
+412
+00:25:04,525 --> 00:25:08,205
+Speaker 5:  everywhere. So we're waiting for the standard to actually be
+
+413
+00:25:08,605 --> 00:25:12,205
+Speaker 5:  released. It's likely to involve UWB, which we've discussed
+
+414
+00:25:12,905 --> 00:25:16,805
+Speaker 5:  as well as an fc, which is the tap, which is what Home Key uses.
+
+415
+00:25:17,305 --> 00:25:21,125
+Speaker 5:  And we actually just saw our very first UWB
+
+416
+00:25:21,455 --> 00:25:25,405
+Speaker 5:  supporting Locke get released this last month, although, oh cool.
+
+417
+00:25:25,625 --> 00:25:29,565
+Speaker 5:  It won't work with a LiRo. So it's
+
+418
+00:25:29,565 --> 00:25:30,845
+Speaker 5:  like we're seeing a lot of cut before, so we're
+
+419
+00:25:30,845 --> 00:25:32,125
+Speaker 2:  Just doing this again. Yeah, we've
+
+420
+00:25:32,125 --> 00:25:35,165
+Speaker 5:  Seen a lot of cut before horses at the moment, but it, it's the excitement
+
+421
+00:25:35,165 --> 00:25:37,725
+Speaker 5:  in this space. And Apple is a huge
+
+422
+00:25:39,115 --> 00:25:42,685
+Speaker 5:  part of developing the Allero standard as are the big
+
+423
+00:25:42,685 --> 00:25:46,005
+Speaker 5:  smartphone companies. Because basically the idea here is that you'll be able
+
+424
+00:25:46,005 --> 00:25:49,685
+Speaker 5:  to use your phone or watch to unlock any door and no matter which
+
+425
+00:25:49,685 --> 00:25:53,605
+Speaker 5:  operating system you're using or which platform you're using, it's the universal
+
+426
+00:25:53,665 --> 00:25:57,325
+Speaker 5:  access. Just like matter is the universal standard for the smart home. This
+
+427
+00:25:57,325 --> 00:26:00,765
+Speaker 5:  is like a universal standard for the smart lock, which is kind of
+
+428
+00:26:00,765 --> 00:26:04,605
+Speaker 5:  connecting you into the smart home. So it's separate from but connected
+
+429
+00:26:04,605 --> 00:26:08,525
+Speaker 5:  to. So this is a space we should be watching quite closely. I
+
+430
+00:26:08,525 --> 00:26:12,405
+Speaker 5:  think we'll get a lot of movement around CES, especially since Apple announced
+
+431
+00:26:12,405 --> 00:26:16,125
+Speaker 5:  that it's supporting u WB unlocking in Apple Home. So
+
+432
+00:26:16,265 --> 00:26:20,125
+Speaker 5:  anyway, that was just to wrap up Smart Locks and now into Smart
+
+433
+00:26:20,125 --> 00:26:20,365
+Speaker 5:  Home.
+
+434
+00:26:20,665 --> 00:26:23,885
+Speaker 2:  No, it's good. The answer I I've always said is let's invent more protocols,
+
+435
+00:26:23,885 --> 00:26:26,965
+Speaker 2:  more pressure. That's that's what I, I'm glad that we're continuing on the
+
+436
+00:26:26,965 --> 00:26:28,165
+Speaker 2:  trend of more protocols.
+
+437
+00:26:29,285 --> 00:26:33,165
+Speaker 5:  I know, I know it, but what, it gives me something,
+
+438
+00:26:33,165 --> 00:26:34,485
+Speaker 5:  it gives me stuff to write about So.
+
+439
+00:26:34,685 --> 00:26:37,285
+Speaker 2:  I know it's true. If if everybody figures this out, we'll be out of jobs.
+
+440
+00:26:37,285 --> 00:26:41,005
+Speaker 2:  Exactly. So like it's, this is for the best. So, but yeah, the,
+
+441
+00:26:41,145 --> 00:26:44,405
+Speaker 2:  the talk to me about threat. Threat with a D and no s The. Thread. Just the
+
+442
+00:26:44,405 --> 00:26:45,805
+Speaker 2:  one one single thread.
+
+443
+00:26:46,715 --> 00:26:49,925
+Speaker 5:  Okay, so Thread is, as I've written about in the past,
+
+444
+00:26:50,985 --> 00:26:54,405
+Speaker 5:  is one of the two main wireless protocols of format.
+
+445
+00:26:55,985 --> 00:26:59,885
+Speaker 5:  So wifi and Thread Thread's been around for a decade or so prior to
+
+446
+00:26:59,885 --> 00:27:03,725
+Speaker 5:  matter, but it is, and it was originally developed Inside Nest
+
+447
+00:27:04,295 --> 00:27:08,045
+Speaker 5:  along with a few other companies and it is a low bandwidth, low
+
+448
+00:27:08,045 --> 00:27:12,005
+Speaker 5:  power protocol developed specifically for IOT devices, which
+
+449
+00:27:12,285 --> 00:27:15,445
+Speaker 5:  actually is a sort of a first, whilst we've got things like Z-Wave and ZigBee,
+
+450
+00:27:15,445 --> 00:27:18,685
+Speaker 5:  they weren't necessarily designed for the Smart Home and Thread is designed
+
+451
+00:27:19,005 --> 00:27:22,805
+Speaker 5:  specifically for the smart home. And so it was sort of re relaunched with
+
+452
+00:27:22,805 --> 00:27:26,245
+Speaker 5:  big fanfare when Matter launched a couple years ago. I was like, this is
+
+453
+00:27:26,245 --> 00:27:29,485
+Speaker 5:  gonna solve all our problems because
+
+454
+00:27:29,915 --> 00:27:33,885
+Speaker 5:  talking about battery life, this is something we've seen throughout the Smart
+
+455
+00:27:33,885 --> 00:27:37,085
+Speaker 5:  Home. Smart Home device is constantly running outta battery, needing to be
+
+456
+00:27:37,085 --> 00:27:41,005
+Speaker 5:  charged Thread is low power. So supposedly should, especially
+
+457
+00:27:41,005 --> 00:27:44,005
+Speaker 5:  things like smart door locks should not need to
+
+458
+00:27:45,045 --> 00:27:48,345
+Speaker 5:  be recharged or have their batteries replaced frequently if they use Thread.
+
+459
+00:27:48,845 --> 00:27:52,465
+Speaker 5:  But we've been having a lot of issues with threads since it kind of
+
+460
+00:27:53,185 --> 00:27:57,065
+Speaker 5:  launched into the, the broadest smart home space in the last year or
+
+461
+00:27:57,065 --> 00:28:00,825
+Speaker 5:  two. And just last, no, two weeks ago just around
+
+462
+00:28:01,045 --> 00:28:04,585
+Speaker 5:  EFA when I was at the tech show in Berlin and The Thread group
+
+463
+00:28:05,265 --> 00:28:09,025
+Speaker 5:  launched Thread 1.4, which is basically
+
+464
+00:28:09,025 --> 00:28:12,905
+Speaker 5:  their pania to all the problems that we've seen so far with
+
+465
+00:28:12,905 --> 00:28:16,505
+Speaker 5:  thread specifically around
+
+466
+00:28:16,685 --> 00:28:20,425
+Speaker 5:  interoperability, which is one of the main points of
+
+467
+00:28:20,425 --> 00:28:24,385
+Speaker 5:  matters that we're supposed to be solving here. The idea that anything
+
+468
+00:28:24,385 --> 00:28:27,825
+Speaker 5:  you buy for your smart home, your smart lock, your smart lights should all
+
+469
+00:28:27,825 --> 00:28:31,585
+Speaker 5:  work together no matter which phone you use or which platform you use. And
+
+470
+00:28:31,605 --> 00:28:35,265
+Speaker 5:  so Thread uses something called thread border routers to help
+
+471
+00:28:35,905 --> 00:28:39,345
+Speaker 5:  communicate from your thread device to the internet and to whichever platform
+
+472
+00:28:39,605 --> 00:28:43,115
+Speaker 5:  you want to use. And this wasn't necessarily
+
+473
+00:28:43,735 --> 00:28:47,555
+Speaker 5:  The Thread Group or The Thread protocols problem. I'm trying to
+
+474
+00:28:47,555 --> 00:28:48,675
+Speaker 5:  avoid saying Threads problem.
+
+475
+00:28:50,365 --> 00:28:50,715
+Speaker 5:  Sorry,
+
+476
+00:28:50,855 --> 00:28:52,675
+Speaker 2:  Thread apostrophe s Yes. Yeah,
+
+477
+00:28:53,795 --> 00:28:57,715
+Speaker 5:  Because every border router is made by a different manufacturer. So
+
+478
+00:28:57,715 --> 00:29:01,435
+Speaker 5:  you have border routers from Apple, so like your Apple Home pod, your Apple
+
+479
+00:29:01,575 --> 00:29:05,395
+Speaker 5:  TV is a thread border router from a Amazon, your
+
+480
+00:29:05,665 --> 00:29:09,515
+Speaker 5:  Echo, your Echo show, 10 number of
+
+481
+00:29:09,515 --> 00:29:13,475
+Speaker 5:  devices from Amazon. The arrows are thread border routers. Same for
+
+482
+00:29:13,475 --> 00:29:17,195
+Speaker 5:  Google. But unfortunately these thread border routers didn't talk to each
+
+483
+00:29:17,195 --> 00:29:20,915
+Speaker 5:  other and this was causing all sorts of problems because your
+
+484
+00:29:20,915 --> 00:29:23,995
+Speaker 5:  devices, you'd think you'd connected your device to your smart home, but
+
+485
+00:29:23,995 --> 00:29:27,675
+Speaker 5:  it was on a different network from, say your smart lights might be on a different
+
+486
+00:29:27,675 --> 00:29:31,115
+Speaker 5:  network from your door lock. So it was, it was causing headaches and and
+
+487
+00:29:31,115 --> 00:29:34,875
+Speaker 5:  problems. And so this 1.4 should
+
+488
+00:29:34,945 --> 00:29:38,475
+Speaker 5:  they say fix that specific issue, but we have to wait,
+
+489
+00:29:38,705 --> 00:29:42,565
+Speaker 5:  this is the, this is the thing with these protocols, they come along promising
+
+490
+00:29:42,665 --> 00:29:46,445
+Speaker 5:  all these great solutions and then it's all down to the manufacturers and
+
+491
+00:29:46,445 --> 00:29:50,085
+Speaker 5:  the platforms to then implement them. So we're gonna have to wait for that
+
+492
+00:29:50,145 --> 00:29:54,055
+Speaker 5:  So I mean, I think with, you know, being optimistic, which
+
+493
+00:29:54,055 --> 00:29:57,975
+Speaker 5:  is definitely my preferred method Absolutely. Of approaching, we
+
+494
+00:29:57,975 --> 00:30:01,735
+Speaker 5:  should see some movement by around CESI think
+
+495
+00:30:01,735 --> 00:30:04,935
+Speaker 5:  we'll see a lot of products that are coming out with thread 1.4, but still
+
+496
+00:30:04,935 --> 00:30:05,815
+Speaker 5:  that's a long way away.
+
+497
+00:30:06,355 --> 00:30:09,375
+Speaker 2:  It is. But I will tell you here is the thing that gives me optimism is I
+
+498
+00:30:09,375 --> 00:30:13,335
+Speaker 2:  think the last time you and I talked, my worry was starting
+
+499
+00:30:13,355 --> 00:30:15,855
+Speaker 2:  to become that this was moving so slowly,
+
+500
+00:30:17,155 --> 00:30:20,375
+Speaker 2:  all that everyone was essentially just gonna give up on all things matter
+
+501
+00:30:20,395 --> 00:30:24,215
+Speaker 2:  and it would be kind of a, a thing that existed but nobody really cared about
+
+502
+00:30:24,875 --> 00:30:28,295
+Speaker 2:  and thus kind of languished. Yeah. And it actually doesn't seem like that's
+
+503
+00:30:28,555 --> 00:30:32,255
+Speaker 2:  the case. I I there, maybe I'm wrong, maybe I'm missing it, but it doesn't
+
+504
+00:30:32,255 --> 00:30:35,935
+Speaker 2:  seem like there has been sort of reverse momentum where everybody has just
+
+505
+00:30:35,935 --> 00:30:39,135
+Speaker 2:  decided to go back to doing their own things. It's just that it's moving
+
+506
+00:30:39,135 --> 00:30:42,575
+Speaker 2:  slower than we hoped, but it still seems to be actually moving in the right
+
+507
+00:30:42,575 --> 00:30:46,535
+Speaker 2:  direction, which gives me optimism about the fact that we will
+
+508
+00:30:46,535 --> 00:30:49,695
+Speaker 2:  get where we wanna be. It's just gonna take a lot longer than anybody hoped.
+
+509
+00:30:50,205 --> 00:30:53,975
+Speaker 5:  Yeah, I think, I think that's, that's spot on. But the problem has been
+
+510
+00:30:54,495 --> 00:30:57,655
+Speaker 5:  I think around expectation
+
+511
+00:30:58,395 --> 00:31:02,015
+Speaker 5:  and a lot of companies kind of jumped on the bandwagon with Thread and matter
+
+512
+00:31:02,075 --> 00:31:05,895
+Speaker 5:  and we were like, this is our solution. We're going to, you know, make
+
+513
+00:31:05,895 --> 00:31:09,815
+Speaker 5:  everything work with thread and matter and ship it to our customers and it's
+
+514
+00:31:09,815 --> 00:31:13,455
+Speaker 5:  gonna be a great experience. And specifically companies like Nano Leaf and
+
+515
+00:31:13,835 --> 00:31:17,695
+Speaker 5:  Eve who are quite well known in the smart home space, but not
+
+516
+00:31:17,695 --> 00:31:20,935
+Speaker 5:  broadly, very well known. And they were sort of seen this as their opportunity
+
+517
+00:31:20,995 --> 00:31:24,895
+Speaker 5:  to become more sort of household names because their products can
+
+518
+00:31:24,895 --> 00:31:28,775
+Speaker 5:  be so much easier to use and they've really been burned by these
+
+519
+00:31:28,775 --> 00:31:32,695
+Speaker 5:  things, these protocols not working in the way that it was predicted or
+
+520
+00:31:33,335 --> 00:31:36,615
+Speaker 5:  promised. And so we have seen a lot of companies kind of walk back
+
+521
+00:31:37,205 --> 00:31:40,855
+Speaker 5:  from these protocols at least Nana Leaf specifically created
+
+522
+00:31:41,035 --> 00:31:42,495
+Speaker 5:  its own protocol, another
+
+523
+00:31:42,495 --> 00:31:44,015
+Speaker 2:  One. Oh no, it did. Oh no,
+
+524
+00:31:44,845 --> 00:31:48,655
+Speaker 5:  Because it's like we can't rely on thread. It's not that we can't rely on
+
+525
+00:31:48,655 --> 00:31:52,455
+Speaker 5:  the protocol itself. It's a great protocol is what that CEO Jimmy
+
+526
+00:31:52,655 --> 00:31:56,575
+Speaker 5:  Chu told me. But it's the way it's implemented by the platforms. And
+
+527
+00:31:56,575 --> 00:31:59,895
+Speaker 5:  this all comes back down to this interoperability issue. And there's something
+
+528
+00:31:59,895 --> 00:32:03,735
+Speaker 5:  you and I have talked about a lot, the different manufacturers, the different
+
+529
+00:32:03,935 --> 00:32:07,415
+Speaker 5:  platforms playing nicely together. Apple playing nicely with Amazon, Google
+
+530
+00:32:07,415 --> 00:32:11,375
+Speaker 5:  playing nicely with Samsung, you know, we all worried that
+
+531
+00:32:11,375 --> 00:32:15,335
+Speaker 5:  that could be the issue eventually that they, you know, they all got together
+
+532
+00:32:15,395 --> 00:32:18,495
+Speaker 5:  to start with, but when, when they all gonna start going there separate ways
+
+533
+00:32:18,595 --> 00:32:21,855
+Speaker 5:  and causing issues and that's where The Thread water router issue came from.
+
+534
+00:32:21,875 --> 00:32:25,095
+Speaker 5:  But they've come back, they said they're gonna work on it, they should hopefully
+
+535
+00:32:25,195 --> 00:32:29,175
+Speaker 5:  be fixed. But yes, right now, If you went all in on
+
+536
+00:32:29,175 --> 00:32:32,935
+Speaker 5:  thread or If, you went all in on matter. It's not the sort of
+
+537
+00:32:33,035 --> 00:32:37,015
+Speaker 5:  panaya that we were hoping for, but we're getting there and people aren't
+
+538
+00:32:37,015 --> 00:32:40,805
+Speaker 5:  giving up. You are right. There is momentum. It's just not ready for the
+
+539
+00:32:41,025 --> 00:32:44,365
+Speaker 5:  the real world yet. It's not ready for the people that want a good door lock
+
+540
+00:32:44,545 --> 00:32:45,605
+Speaker 5:  and a good video doorbell.
+
+541
+00:32:46,225 --> 00:32:49,965
+Speaker 2:  And we are definitely past the point where a lot of these
+
+542
+00:32:50,285 --> 00:32:54,125
+Speaker 2:  companies promised us it would work by now and it doesn't. Right. But it
+
+543
+00:32:54,125 --> 00:32:58,085
+Speaker 2:  will. I still, I I still believe that someday it will. And speaking
+
+544
+00:32:58,085 --> 00:33:01,645
+Speaker 2:  of last thing we should talk about before I let you go is there's been some
+
+545
+00:33:01,785 --> 00:33:05,565
+Speaker 2:  big software changes on that front, right? Like you mentioned Home Key with
+
+546
+00:33:05,565 --> 00:33:09,405
+Speaker 2:  Apple. There's some stuff in iOS 18 that I think has been really
+
+547
+00:33:09,405 --> 00:33:13,285
+Speaker 2:  important to the smart home things. Google is doing a bunch of smart home
+
+548
+00:33:13,285 --> 00:33:16,965
+Speaker 2:  stuff right now with the, with its TV products. I have a TV
+
+549
+00:33:16,965 --> 00:33:20,765
+Speaker 2:  streamer right over there that you and I both really like. Yes. That feels
+
+550
+00:33:20,765 --> 00:33:23,845
+Speaker 2:  like it's moving in a really good direction, right? Like the, the stuff is
+
+551
+00:33:23,845 --> 00:33:26,365
+Speaker 2:  getting built into the devices it needs to get built into.
+
+552
+00:33:26,545 --> 00:33:30,485
+Speaker 5:  So yes, so the iOS 18 has an update that's specifically designed to
+
+553
+00:33:30,485 --> 00:33:33,645
+Speaker 5:  address this problem, this problem of, of thread and border routers
+
+554
+00:33:34,205 --> 00:33:37,725
+Speaker 5:  because people were buying a thread device bringing it home and it wasn't
+
+555
+00:33:37,725 --> 00:33:40,245
+Speaker 5:  working because they didn't have a border router. They didn't know they needed
+
+556
+00:33:40,285 --> 00:33:41,445
+Speaker 5:  a border router because
+
+557
+00:33:41,465 --> 00:33:43,845
+Speaker 2:  You shouldn't have to know that. You shouldn't, no one should have to know
+
+558
+00:33:44,175 --> 00:33:45,245
+Speaker 2:  about border routers.
+
+559
+00:33:45,485 --> 00:33:48,925
+Speaker 5:  Right. And so as you may recall, all
+
+560
+00:33:49,305 --> 00:33:52,765
+Speaker 5:  iPhone 15 pros and newer have
+
+561
+00:33:52,905 --> 00:33:56,405
+Speaker 5:  thread radios in. Right. And with iOS 18, apple
+
+562
+00:33:56,765 --> 00:34:00,125
+Speaker 5:  released an update that allows you to add matter devices
+
+563
+00:34:00,685 --> 00:34:04,405
+Speaker 5:  directly to your Apple Home app without requiring any hub,
+
+564
+00:34:04,585 --> 00:34:08,365
+Speaker 5:  either a home hub or an a thread border router. So wifi devices and
+
+565
+00:34:08,365 --> 00:34:12,325
+Speaker 5:  thread devices can connect using your phone directly. I
+
+566
+00:34:12,325 --> 00:34:16,005
+Speaker 5:  mean this isn't an a solution for the long term because If, you want a smart
+
+567
+00:34:16,005 --> 00:34:19,965
+Speaker 5:  home, you do need a hub for orchestration, but it does
+
+568
+00:34:19,965 --> 00:34:23,845
+Speaker 5:  solve the problem of I just bought this cool new smart light and I wanna
+
+569
+00:34:23,865 --> 00:34:27,285
+Speaker 5:  set it up and I don't wanna have to go buy a thread border router. And that's
+
+570
+00:34:27,285 --> 00:34:30,765
+Speaker 5:  also an answer to sort of why Apple decided to put thread chips
+
+571
+00:34:31,145 --> 00:34:32,765
+Speaker 5:  in their iPhones. They are also,
+
+572
+00:34:32,765 --> 00:34:35,885
+Speaker 2:  Which you kind of called you, you should take just a mini victory lab on
+
+573
+00:34:35,885 --> 00:34:38,845
+Speaker 2:  that one because you were, you were way out in front of that whole story.
+
+574
+00:34:39,235 --> 00:34:42,965
+Speaker 5:  Well it, it did make sense. It's, it's, it's confusing a bit though because
+
+575
+00:34:42,965 --> 00:34:45,405
+Speaker 5:  people are like, oh, well doesn't that make your phone a hub and a thread
+
+576
+00:34:45,405 --> 00:34:49,365
+Speaker 5:  border rack? It's like, well no it's not. But it's
+
+577
+00:34:49,365 --> 00:34:52,925
+Speaker 5:  like a temporary connection that you can use
+
+578
+00:34:53,305 --> 00:34:57,205
+Speaker 5:  If, you don't have anything else. It's like a fallback and then,
+
+579
+00:34:57,385 --> 00:35:00,485
+Speaker 5:  but If, you do want a thread border router that's getting easier.
+
+580
+00:35:01,085 --> 00:35:04,925
+Speaker 5:  There are more and more devices like you mentioned, there's the Google streamer
+
+581
+00:35:04,925 --> 00:35:08,645
+Speaker 5:  that just came out. This is Google's new answer to the Apple TV
+
+582
+00:35:09,585 --> 00:35:13,085
+Speaker 5:  and that is a smart home hub as well as a streamer.
+
+583
+00:35:13,525 --> 00:35:17,445
+Speaker 5:  It has thread border router and matter capabilities and
+
+584
+00:35:17,835 --> 00:35:21,165
+Speaker 5:  also great smart home controls, which I was my favorite thing about this
+
+585
+00:35:21,165 --> 00:35:25,005
+Speaker 5:  device. We said we both would tested out and reviewed it and we try
+
+586
+00:35:25,005 --> 00:35:28,525
+Speaker 5:  all the streamers in our house and most of my family just ends up using
+
+587
+00:35:28,985 --> 00:35:32,725
+Speaker 5:  the regular Samsung remote and going to the built-in os like no.
+
+588
+00:35:33,155 --> 00:35:36,805
+Speaker 5:  Yeah. But they all love the streamer and they've all set up their own
+
+589
+00:35:37,045 --> 00:35:40,045
+Speaker 5:  profiles and it's like, it's been a huge success in my house. So there you
+
+590
+00:35:40,045 --> 00:35:44,005
+Speaker 5:  go. So, but it's great to see more devices like this that
+
+591
+00:35:44,035 --> 00:35:47,965
+Speaker 5:  kind of have a good use case in your home, but for, for every day. Like you
+
+592
+00:35:47,965 --> 00:35:51,045
+Speaker 5:  would go buy this because you want a good TV streamer, but it's also gonna
+
+593
+00:35:51,045 --> 00:35:54,405
+Speaker 5:  help If. you do want to use a smart home to give you a bit more
+
+594
+00:35:55,285 --> 00:35:58,365
+Speaker 5:  infrastructure built into your home so that when you come home with that
+
+595
+00:35:58,375 --> 00:36:01,485
+Speaker 5:  shiny new thread light bulb, it will work and you didn't have to worry about
+
+596
+00:36:01,485 --> 00:36:04,725
+Speaker 5:  it. But what what I'm most excited about right now
+
+597
+00:36:06,075 --> 00:36:10,005
+Speaker 5:  overall with the smart home is where we're going with generative AI
+
+598
+00:36:10,875 --> 00:36:13,805
+Speaker 5:  because, and this is something that Google talked about a lot
+
+599
+00:36:14,785 --> 00:36:18,765
+Speaker 5:  at its event at what was the last big event they had made by Google? Made
+
+600
+00:36:18,765 --> 00:36:19,725
+Speaker 2:  By Google I think is what they call it.
+
+601
+00:36:19,725 --> 00:36:23,675
+Speaker 5:  Yeah. Basically both Apple and Amazon we
+
+602
+00:36:23,675 --> 00:36:27,635
+Speaker 5:  know have kind of struggled in this space. Google says it's about to
+
+603
+00:36:27,635 --> 00:36:31,315
+Speaker 5:  release some really interesting updates. I'm interested to see who,
+
+604
+00:36:31,415 --> 00:36:35,395
+Speaker 5:  who gets their first. But where I see the most
+
+605
+00:36:35,675 --> 00:36:39,195
+Speaker 5:  interesting use case of generative AI in the smart home is making the smart
+
+606
+00:36:39,195 --> 00:36:42,875
+Speaker 5:  home easier. It's that natural language that we're being promised, being
+
+607
+00:36:42,875 --> 00:36:46,635
+Speaker 5:  able to just say, oh I'm, I'm a little cold and it's too dark.
+
+608
+00:36:46,815 --> 00:36:50,675
+Speaker 5:  And your smart home voice assistant knows that it should raise the
+
+609
+00:36:50,675 --> 00:36:54,635
+Speaker 5:  thermostat and turn the lights up for you. And Google has promised
+
+610
+00:36:54,825 --> 00:36:58,755
+Speaker 5:  with some new enhancements through
+
+611
+00:36:58,935 --> 00:37:02,875
+Speaker 5:  Gemini for Google Home and the Google Assistant that it's
+
+612
+00:37:02,875 --> 00:37:06,475
+Speaker 5:  gonna be bringing these kind of features to the smart home along with
+
+613
+00:37:07,035 --> 00:37:10,895
+Speaker 5:  interpretive notifications. Which is another thing I'm interested
+
+614
+00:37:10,895 --> 00:37:14,535
+Speaker 5:  in, like I mentioned at the beginning of this chat that my smart home,
+
+615
+00:37:14,685 --> 00:37:18,495
+Speaker 5:  when my smart home cameras send me notifications nonstop and
+
+616
+00:37:18,495 --> 00:37:21,935
+Speaker 5:  it's really annoying. So what's happening with Google Home is they're using
+
+617
+00:37:22,235 --> 00:37:25,935
+Speaker 5:  Gemini to sort of filter through your video
+
+618
+00:37:25,935 --> 00:37:29,575
+Speaker 5:  footage and only send you relevant notifications.
+
+619
+00:37:29,645 --> 00:37:33,015
+Speaker 5:  Like you can say, I only want to know if this person shows up at my front
+
+620
+00:37:33,015 --> 00:37:36,575
+Speaker 5:  door or this car shows up at my front door. Those kind of, you know,
+
+621
+00:37:36,935 --> 00:37:40,695
+Speaker 5:  specific notifications rather than just, oh, there was a breeze and plastic
+
+622
+00:37:40,835 --> 00:37:41,655
+Speaker 5:  bag flew past your
+
+623
+00:37:41,895 --> 00:37:44,175
+Speaker 2:  Right and then back the other way and then back the other way. Yeah.
+
+624
+00:37:44,365 --> 00:37:47,655
+Speaker 5:  Wake you up at one o'clock in the morning. So
+
+625
+00:37:48,465 --> 00:37:52,415
+Speaker 5:  these kind of sort of quality of life make the smart home so much easier
+
+626
+00:37:52,595 --> 00:37:56,495
+Speaker 5:  to use. Less annoying and more
+
+627
+00:37:56,565 --> 00:38:00,295
+Speaker 5:  intuitive I think will really sort of push smart home
+
+628
+00:38:00,535 --> 00:38:04,375
+Speaker 5:  adoption because there are so many benefits. But like you said at the beginning,
+
+629
+00:38:04,725 --> 00:38:08,695
+Speaker 5:  just trying to unlock or figure out how to replace a battery. There are
+
+630
+00:38:08,695 --> 00:38:12,575
+Speaker 5:  too many parts of smart home and home automation that require
+
+631
+00:38:13,415 --> 00:38:16,895
+Speaker 5:  a lot of time and attention and reading and Googling and watching YouTube
+
+632
+00:38:16,895 --> 00:38:20,695
+Speaker 5:  videos and reading my articles, which is a good thing. But I
+
+633
+00:38:20,695 --> 00:38:24,255
+Speaker 5:  think we've, we're seeing both Google, Amazon and Apple and Samsung
+
+634
+00:38:24,755 --> 00:38:28,575
+Speaker 5:  all trying, you know, using generative AI to make
+
+635
+00:38:29,365 --> 00:38:33,295
+Speaker 5:  this experience a lot smoother and therefore hopefully
+
+636
+00:38:33,445 --> 00:38:37,365
+Speaker 5:  encourage more people to kind kind of reap the benefits of, of what
+
+637
+00:38:37,445 --> 00:38:40,565
+Speaker 5:  I think is is a great experience in your home when, when it all works.
+
+638
+00:38:41,485 --> 00:38:45,445
+Speaker 2:  I agree. I mean, and it seems like we're presumably only weeks
+
+639
+00:38:45,595 --> 00:38:49,245
+Speaker 2:  away from Amazon launching the, the generative
+
+640
+00:38:49,545 --> 00:38:52,605
+Speaker 2:  AI underpinnings of Alexa, which we've been hearing about for a long time
+
+641
+00:38:52,845 --> 00:38:56,725
+Speaker 2:  ago. We were at the event, was that a year ago at this point?
+
+642
+00:38:56,795 --> 00:38:58,485
+Speaker 2:  They were the first ones they a to promise this.
+
+643
+00:38:58,665 --> 00:38:59,165
+Speaker 5:  Yes. Yeah.
+
+644
+00:38:59,505 --> 00:39:03,125
+Speaker 2:  And So I. And is that the same kind of stuff that you think we're gonna see?
+
+645
+00:39:03,125 --> 00:39:07,005
+Speaker 2:  Like I think honestly if, if Google Assistant and Alexa both
+
+646
+00:39:07,145 --> 00:39:11,005
+Speaker 2:  get even kind of a pretty good version of what you just described, that
+
+647
+00:39:11,005 --> 00:39:14,765
+Speaker 2:  instantly upgrades like many, many millions of people's
+
+648
+00:39:14,765 --> 00:39:16,205
+Speaker 2:  smart home lives, which I think is very
+
+649
+00:39:16,325 --> 00:39:19,325
+Speaker 5:  Exciting. Very much so. Yeah. I mean Amazon promised, you know, they launched
+
+650
+00:39:19,345 --> 00:39:22,885
+Speaker 5:  all of this a year ago and it's taken a long time. It's not here yet.
+
+651
+00:39:23,665 --> 00:39:26,485
+Speaker 5:  So this is why I'm interested to see when Google's actually gonna implement
+
+652
+00:39:26,485 --> 00:39:29,445
+Speaker 5:  what they've promised. And Apple hasn't even mentioned the smart home,
+
+653
+00:39:30,425 --> 00:39:34,325
+Speaker 5:  you know, none of its Apple intelligence or Siri improvements are specifically
+
+654
+00:39:34,325 --> 00:39:38,125
+Speaker 5:  for the smart home. It is a difficult space you get,
+
+655
+00:39:38,345 --> 00:39:41,765
+Speaker 5:  you know, you get hallucinations in the smart home and it can go really,
+
+656
+00:39:41,765 --> 00:39:45,685
+Speaker 5:  really wrong. Yeah. And this is what, speaking to all of the companies
+
+657
+00:39:45,925 --> 00:39:49,885
+Speaker 5:  involved here, I hear a lot. It's like, it's complicated
+
+658
+00:39:50,025 --> 00:39:54,005
+Speaker 5:  and hard. So I think we're gonna see baby steps. We're
+
+659
+00:39:54,005 --> 00:39:57,445
+Speaker 5:  gonna see, I'm hoping we'll see something from Amazon here. I mean, it's
+
+660
+00:39:57,475 --> 00:40:01,045
+Speaker 5:  fall, we normally have a fall event, it's kind of later than
+
+661
+00:40:01,545 --> 00:40:05,485
+Speaker 5:  normal last year, I think it was this week. So, but we know
+
+662
+00:40:05,485 --> 00:40:08,845
+Speaker 5:  we've, there's been a lot of reporting on the struggles the company's had
+
+663
+00:40:08,985 --> 00:40:12,925
+Speaker 5:  to really nail this down. And every time I've spoken with an executive
+
+664
+00:40:12,925 --> 00:40:16,565
+Speaker 5:  at Amazon about the new Alexa, they said, well,
+
+665
+00:40:17,065 --> 00:40:20,045
+Speaker 5:  we are working on it. But it's very complicated.
+
+666
+00:40:21,585 --> 00:40:25,485
+Speaker 5:  So yeah, I think it's, it's a struggle. But when, but if and when we can
+
+667
+00:40:26,265 --> 00:40:30,085
+Speaker 5:  see these solutions, I, I really do think it's gonna be a game changer for
+
+668
+00:40:30,085 --> 00:40:33,485
+Speaker 5:  the smart home. It's gonna just make, it takes it from being something you
+
+669
+00:40:33,485 --> 00:40:37,045
+Speaker 5:  have to program and fiddle with to something that just
+
+670
+00:40:37,215 --> 00:40:40,005
+Speaker 5:  works if, if they get it right.
+
+671
+00:40:40,715 --> 00:40:44,485
+Speaker 2:  Yeah. It's remains the biggest question. Yes. All right, well we're, we'll,
+
+672
+00:40:44,485 --> 00:40:47,605
+Speaker 2:  we'll have you back on after all this Amazon stuff happens, because I think
+
+673
+00:40:48,065 --> 00:40:51,485
+Speaker 2:  in a very real way with all of this stuff, the, the proof is in the pudding.
+
+674
+00:40:51,515 --> 00:40:55,285
+Speaker 2:  Yeah. And by the pudding, I mean your house. So we, we'll come back
+
+675
+00:40:55,505 --> 00:40:57,805
+Speaker 2:  and we'll do this Jen. Thank you as always. Thank
+
+676
+00:40:57,805 --> 00:40:57,885
+Speaker 5:  You.
+
+677
+00:40:59,035 --> 00:41:01,725
+Speaker 2:  Alright, we gotta take a break and then we are gonna come back and we're
+
+678
+00:41:01,725 --> 00:41:03,525
+Speaker 2:  gonna do a mic test. We'll be right back.
+
+679
+00:44:28,675 --> 00:44:31,300
+Speaker 2:  All right, we're back. So if you've been listening to The Vergecast for a
+
+680
+00:44:31,300 --> 00:44:34,805
+Speaker 2:  long time, you know that a thing we like to do occasionally is test the
+
+681
+00:44:34,805 --> 00:44:38,725
+Speaker 2:  microphones on a bunch of different kinds of headphones. The last one
+
+682
+00:44:38,725 --> 00:44:42,645
+Speaker 2:  of these I think we did was the face gadgets, the meta
+
+683
+00:44:42,745 --> 00:44:45,765
+Speaker 2:  ray bands and the Vision Pro and that kind of stuff. And that I thought was
+
+684
+00:44:45,885 --> 00:44:48,365
+Speaker 2:  actually really interesting. The Ray Band Meta Smartt glasses might be the
+
+685
+00:44:48,395 --> 00:44:52,285
+Speaker 2:  best like body worn mic we've tested yet, which is
+
+686
+00:44:52,285 --> 00:44:56,205
+Speaker 2:  pretty cool. But this time I want to go through
+
+687
+00:44:56,505 --> 00:44:59,965
+Speaker 2:  all of the new headphones that have come out from kind of the major
+
+688
+00:44:59,965 --> 00:45:03,285
+Speaker 2:  headphone companies in the last few months. Because for people who just want
+
+689
+00:45:03,285 --> 00:45:06,645
+Speaker 2:  like a normal set of wireless earbuds, you're suddenly spoiled for choice,
+
+690
+00:45:06,645 --> 00:45:09,685
+Speaker 2:  right? There's the new Pixel Buds Pro two from Google. There's the AirPods
+
+691
+00:45:09,685 --> 00:45:12,485
+Speaker 2:  four from Apple Samsung has some new Galaxy Buds Pro,
+
+692
+00:45:13,435 --> 00:45:17,325
+Speaker 2:  nothing has the new ear open. Bose has some stuff.
+
+693
+00:45:17,325 --> 00:45:21,045
+Speaker 2:  There's just a lot of new options on the market. Chris Welch
+
+694
+00:45:21,265 --> 00:45:24,925
+Speaker 2:  has them all as he has want to do. And so we sent him to a coffee shop
+
+695
+00:45:25,145 --> 00:45:28,405
+Speaker 2:  and we're gonna talk a little bit about the audio quality and his feelings
+
+696
+00:45:28,405 --> 00:45:31,805
+Speaker 2:  about them overall. But mostly I want to test the microphones because my
+
+697
+00:45:31,805 --> 00:45:35,165
+Speaker 2:  running theory is that microphones really matter. I mentioned this a bit
+
+698
+00:45:35,165 --> 00:45:39,005
+Speaker 2:  in the intro, but right now so much of using your headphones is
+
+699
+00:45:39,005 --> 00:45:42,965
+Speaker 2:  using them to talk to people or to make videos or to talk to
+
+700
+00:45:43,475 --> 00:45:47,165
+Speaker 2:  Siri or to do this increasingly multimodal AI stuff that these
+
+701
+00:45:47,365 --> 00:45:50,485
+Speaker 2:  companies are talking about. Microphones matter and we don't talk about them
+
+702
+00:45:50,485 --> 00:45:53,885
+Speaker 2:  enough. And I think to some extent that lets these companies off the hook
+
+703
+00:45:54,395 --> 00:45:58,365
+Speaker 2:  from building better microphones. Like it's not impossible to be able a very
+
+704
+00:45:58,365 --> 00:46:01,045
+Speaker 2:  good microphone. It's just hard. And a lot of these companies care a lot
+
+705
+00:46:01,045 --> 00:46:04,005
+Speaker 2:  about noise cancellation. They care a lot about sound quality and I think
+
+706
+00:46:04,005 --> 00:46:06,645
+Speaker 2:  they should care more about Mike's. So we're gonna talk about Mike's and
+
+707
+00:46:06,645 --> 00:46:10,605
+Speaker 2:  we're gonna see who is doing the best job right now. Chris Welch is sitting
+
+708
+00:46:10,605 --> 00:46:14,485
+Speaker 2:  in a coffee shop, I assume with lots and lots of headphones
+
+709
+00:46:14,485 --> 00:46:18,125
+Speaker 2:  around, confusing everyone else in the coffee shop. So let's, let's do some
+
+710
+00:46:18,125 --> 00:46:19,565
+Speaker 2:  testing. Chris Welch. Hello.
+
+711
+00:46:20,375 --> 00:46:21,085
+Speaker 6:  Hello again.
+
+712
+00:46:21,975 --> 00:46:25,765
+Speaker 2:  Where are you right now? I feel like I'm, I'm growing to like learn the
+
+713
+00:46:25,765 --> 00:46:28,885
+Speaker 2:  different spots that you are when we test your buds. Where are we?
+
+714
+00:46:29,485 --> 00:46:33,165
+Speaker 6:  This is my Go-to coffee shop in my neighborhood that I come to
+
+715
+00:46:34,065 --> 00:46:37,765
+Speaker 6:  fairly often and work from. And yeah, it tends to be, you know,
+
+716
+00:46:37,825 --> 00:46:40,965
+Speaker 6:  pretty loud as most Brooklyn Coffee Shop are. But
+
+717
+00:46:41,865 --> 00:46:44,725
+Speaker 2:  Do they know you there by now? You're like the guy who shows up with a pile
+
+718
+00:46:44,725 --> 00:46:47,245
+Speaker 2:  of gadgets and takes a bunch of pictures. Like is that they just, they just
+
+719
+00:46:47,245 --> 00:46:49,565
+Speaker 2:  understand Absolutely. When you walk through the door. Yes. Okay. Yeah. Yeah.
+
+720
+00:46:49,705 --> 00:46:50,725
+Speaker 2:  That's good. I'm glad.
+
+721
+00:46:52,265 --> 00:46:56,205
+Speaker 2:  So we're here 'cause we're kind of at the end of this year's cycle of
+
+722
+00:46:56,705 --> 00:47:00,685
+Speaker 2:  new earbuds. You just published the, the Pixel Buds
+
+723
+00:47:00,785 --> 00:47:04,285
+Speaker 2:  Pro two review. You have a bunch of them, so we figured this is a good moment
+
+724
+00:47:04,425 --> 00:47:08,405
+Speaker 2:  to test them. Before we dive in, just give us the list. What are
+
+725
+00:47:08,405 --> 00:47:09,885
+Speaker 2:  we gonna, what are we gonna try here? What do we have?
+
+726
+00:47:10,645 --> 00:47:14,605
+Speaker 6:  We've got the Air Pods four, which I have right now in
+
+727
+00:47:14,605 --> 00:47:17,725
+Speaker 6:  my ears. That's what you're doing. Okay. To start, we've got the Samsung
+
+728
+00:47:17,945 --> 00:47:21,645
+Speaker 6:  Galaxy Buds three Pro, the Pixel Buds Pro two,
+
+729
+00:47:22,285 --> 00:47:25,965
+Speaker 6:  the new Bose Quiet comes with earbuds that just came out as well. And
+
+730
+00:47:26,165 --> 00:47:29,925
+Speaker 6:  the nothing opens very is funky open style
+
+731
+00:47:29,925 --> 00:47:31,685
+Speaker 6:  earbuds that were just announced as well. So
+
+732
+00:47:31,905 --> 00:47:35,885
+Speaker 2:  I'm very excited about those here. Yeah, I, I have developed an like
+
+733
+00:47:36,075 --> 00:47:39,645
+Speaker 2:  unnecessary attachment to an obsession with these open earbuds.
+
+734
+00:47:40,165 --> 00:47:43,205
+Speaker 2:  So I'm, I'm very excited to see if those are any good. And I'm glad you started
+
+735
+00:47:43,205 --> 00:47:45,805
+Speaker 2:  with AirPods. So this is actually good. This is a good first test because
+
+736
+00:47:45,845 --> 00:47:49,805
+Speaker 2:  I feel like AirPods are a useful control in a lot of
+
+737
+00:47:49,805 --> 00:47:53,365
+Speaker 2:  this because they're just like the one that everybody has. Yeah, they sound
+
+738
+00:47:53,395 --> 00:47:56,925
+Speaker 2:  fine. I described them to somebody the other day as like, the nice thing
+
+739
+00:47:56,925 --> 00:48:00,765
+Speaker 2:  about AirPods is that you can get them to sound like a c plus in almost
+
+740
+00:48:00,785 --> 00:48:03,885
+Speaker 2:  any situation. Yeah. The downside of the AirPods is you cannot get them to
+
+741
+00:48:03,885 --> 00:48:07,445
+Speaker 2:  sound better than a c plus in any situation. Like perfect
+
+742
+00:48:07,845 --> 00:48:09,245
+Speaker 2:  scenario, they're gonna sound just like this,
+
+743
+00:48:10,265 --> 00:48:14,165
+Speaker 6:  But that's, that's fine. I guess so, yeah. Yeah. So like, here's their
+
+744
+00:48:14,165 --> 00:48:17,525
+Speaker 6:  like normal mode, but on phone calls you can do like the voice isolation
+
+745
+00:48:17,525 --> 00:48:20,925
+Speaker 6:  feature, which usually like machine learning to make you sound even clearer.
+
+746
+00:48:21,165 --> 00:48:24,405
+Speaker 6:  We're not getting that unfortunately, but it does get a little bit better
+
+747
+00:48:24,405 --> 00:48:26,845
+Speaker 6:  on phone calls. Yeah. Because day to day
+
+748
+00:48:27,225 --> 00:48:30,765
+Speaker 2:  The voice isolation, you can only do, it's like phone calls and FaceTime,
+
+749
+00:48:30,765 --> 00:48:31,405
+Speaker 2:  right? Yeah,
+
+750
+00:48:31,635 --> 00:48:35,605
+Speaker 6:  Exactly. Not here, but you know, they sound fine, which is all you
+
+751
+00:48:35,605 --> 00:48:39,085
+Speaker 6:  really need. Like 90% of the time If, you just send, if they chat somebody,
+
+752
+00:48:39,755 --> 00:48:43,205
+Speaker 2:  Yeah, they, they they do the job. Alright, well let's, let's, we've got enough
+
+753
+00:48:43,365 --> 00:48:46,965
+Speaker 2:  of this. Let's switch to the next one. Let's do, let's do Google next.
+
+754
+00:48:47,305 --> 00:48:48,285
+Speaker 6:  Google. That's the most
+
+755
+00:48:48,425 --> 00:48:52,365
+Speaker 2:  Go too. I think that's, that's a good, if I remember correctly, Google has
+
+756
+00:48:52,925 --> 00:48:56,885
+Speaker 2:  outperformed my expectations several times on these tests over the last
+
+757
+00:48:56,885 --> 00:48:58,845
+Speaker 2:  couple of years. So, I'm, I'm curious about this one. Let's just do it first.
+
+758
+00:48:58,855 --> 00:48:59,805
+Speaker 2:  We'll see. Yeah.
+
+759
+00:48:59,805 --> 00:49:00,445
+Speaker 6:  Alright. I'll do it.
+
+760
+00:49:00,705 --> 00:49:01,445
+Speaker 2:  All right. Let's see it.
+
+761
+00:49:05,305 --> 00:49:06,085
+Speaker 2:  All right. Hit me.
+
+762
+00:49:06,735 --> 00:49:10,525
+Speaker 8:  We're back again. You said some buds Pro two,
+
+763
+00:49:11,155 --> 00:49:12,445
+Speaker 8:  they're smaller and lighter
+
+764
+00:49:14,665 --> 00:49:18,165
+Speaker 8:  and the mics have gotten mixed feedback so far.
+
+765
+00:49:20,665 --> 00:49:24,245
+Speaker 2:  I'm don't see, I'm gonna go decidedly lower than mixed on this one.
+
+766
+00:49:25,425 --> 00:49:26,925
+Speaker 8:  Really that much of a difference from the
+
+767
+00:49:26,925 --> 00:49:30,565
+Speaker 2:  AirPods even. Do you remember when we did a test on the ferry
+
+768
+00:49:30,785 --> 00:49:34,525
+Speaker 2:  in New York and it was just blindingly obvious how
+
+769
+00:49:34,595 --> 00:49:37,965
+Speaker 2:  hard some of them were working? Yeah. Like even, even though they were kind
+
+770
+00:49:37,965 --> 00:49:41,725
+Speaker 2:  of working and I could kind of hear you, you could, you could hear how hard
+
+771
+00:49:41,725 --> 00:49:45,485
+Speaker 2:  it was for them to get to that point. That's what I'm getting here too. It's
+
+772
+00:49:45,485 --> 00:49:49,205
+Speaker 2:  like the, one of the things interesting that just happened was between
+
+773
+00:49:49,575 --> 00:49:53,565
+Speaker 2:  recordings here, we just to let everybody in on how this works, we
+
+774
+00:49:53,565 --> 00:49:56,605
+Speaker 2:  use a app called Riverside and you have to stop and start recording every
+
+775
+00:49:56,605 --> 00:49:59,525
+Speaker 2:  time you wanna change devices. So we have to stop each time. So, I get to
+
+776
+00:49:59,525 --> 00:50:03,405
+Speaker 2:  hear like the natural audio coming out of your Mac. And there was
+
+777
+00:50:03,405 --> 00:50:06,325
+Speaker 2:  music playing that I didn't really hear on the AirPods. There was more noise
+
+778
+00:50:06,325 --> 00:50:08,845
+Speaker 2:  than I expected that I wasn't really hearing on the AirPods. I'm hearing
+
+779
+00:50:08,945 --> 00:50:09,765
+Speaker 2:  all of that now.
+
+780
+00:50:10,445 --> 00:50:12,845
+Speaker 8:  Interesting. There's like no cancellation whatsoever, huh?
+
+781
+00:50:13,225 --> 00:50:17,165
+Speaker 2:  Almost. I, I mean there's some and it's like it's coming and
+
+782
+00:50:17,165 --> 00:50:20,245
+Speaker 2:  going it's kind of like they're raising and lowering the volume as time goes
+
+783
+00:50:20,245 --> 00:50:21,205
+Speaker 2:  on. And
+
+784
+00:50:22,995 --> 00:50:26,565
+Speaker 2:  your voice sounds fine. It's like it's picking up more of everything.
+
+785
+00:50:26,915 --> 00:50:29,965
+Speaker 2:  Okay. So I'm actually like, your voice is a little richer than I was hearing
+
+786
+00:50:29,965 --> 00:50:33,885
+Speaker 2:  through the iPod or through the AirPods, but so is
+
+787
+00:50:33,945 --> 00:50:34,925
+Speaker 2:  the background noise
+
+788
+00:50:36,025 --> 00:50:39,885
+Speaker 8:  Not great? Yeah, but I guess that's a trade off. I'm getting smaller and
+
+789
+00:50:39,885 --> 00:50:42,965
+Speaker 8:  lighter. They're even further away from my mouth when I'm talking obviously.
+
+790
+00:50:42,985 --> 00:50:46,845
+Speaker 8:  So it's harder to kind of separate voice from
+
+791
+00:50:46,845 --> 00:50:50,165
+Speaker 8:  background noise. But these also have like clear calling on phone calls,
+
+792
+00:50:50,165 --> 00:50:53,165
+Speaker 8:  which again, you can't do on like video chats unfortunately. So like,
+
+793
+00:50:54,065 --> 00:50:56,165
+Speaker 8:  it should be a little bit better when you're actually talking to someone
+
+794
+00:50:56,165 --> 00:50:59,445
+Speaker 8:  on the phone. But if you're in a coffee shop, this is what you're trying
+
+795
+00:50:59,445 --> 00:50:59,765
+Speaker 8:  think you have,
+
+796
+00:51:00,905 --> 00:51:03,805
+Speaker 2:  You know, this makes me think of, do you ever, do you ever do the thing where
+
+797
+00:51:03,805 --> 00:51:06,085
+Speaker 2:  you're wearing noise canceling headphones, like over the ear noise canceling
+
+798
+00:51:06,085 --> 00:51:09,605
+Speaker 2:  headphones and you just kind of take 'em on and off your ears and, and you
+
+799
+00:51:09,605 --> 00:51:13,485
+Speaker 2:  can sort of hear it pulse the noise in and outside. It feels a little like
+
+800
+00:51:13,485 --> 00:51:16,565
+Speaker 2:  that as you're talking. It's like a, it, it, it's sort of constantly
+
+801
+00:51:16,995 --> 00:51:20,245
+Speaker 2:  picking up and letting go of the background noise in a way that is like,
+
+802
+00:51:20,945 --> 00:51:24,485
+Speaker 2:  it, it's, it works, but it's also like a little unnerving as I'm listening
+
+803
+00:51:24,485 --> 00:51:27,605
+Speaker 2:  to it. I think if I was just holding up my phone to my head, it wouldn't
+
+804
+00:51:27,605 --> 00:51:30,645
+Speaker 2:  really bother me. But I'm on like, pretty good headphones in a pretty good
+
+805
+00:51:30,925 --> 00:51:34,525
+Speaker 2:  situation here. And it is like I'm hearing stuff that I was not hearing the
+
+806
+00:51:34,525 --> 00:51:38,365
+Speaker 2:  AirPods. Yeah, it's really interesting. Okay, so yeah, this is,
+
+807
+00:51:38,365 --> 00:51:42,085
+Speaker 2:  we're we're gonna Google like a, like a gently passing grade.
+
+808
+00:51:42,365 --> 00:51:44,805
+Speaker 2:  I would say, this is not like a disaster. I can hear you,
+
+809
+00:51:46,185 --> 00:51:49,845
+Speaker 2:  but I can, I can safely already say Google is not going to win
+
+810
+00:51:50,035 --> 00:51:53,965
+Speaker 2:  this evaluation. They do look good though. They're, they do look very
+
+811
+00:51:53,965 --> 00:51:57,565
+Speaker 2:  nice. They're super small in your ears. That's, it's really nice. And they're,
+
+812
+00:51:57,675 --> 00:52:00,805
+Speaker 2:  they seem very comfortable from, from what I saw in your review. Very, very
+
+813
+00:52:00,805 --> 00:52:01,085
+Speaker 2:  comfortable. Very
+
+814
+00:52:01,085 --> 00:52:04,445
+Speaker 8:  Comfortable. I've still got that Mentos look, which you know, is what it
+
+815
+00:52:04,445 --> 00:52:06,845
+Speaker 8:  is. But yeah, you can barely see in your ears anymore, which
+
+816
+00:52:06,845 --> 00:52:09,645
+Speaker 2:  Is nice. Yeah, when you're head on, I can, I can basically not see them at
+
+817
+00:52:09,645 --> 00:52:12,805
+Speaker 2:  all. That's really cool. Alright, let's switch to the next one. Let's do,
+
+818
+00:52:13,925 --> 00:52:15,485
+Speaker 2:  I don't know, you pick surprise me. What are we doing?
+
+819
+00:52:16,615 --> 00:52:19,685
+Speaker 8:  Let's do Samsung. Get the big three out of the way. Yeah,
+
+820
+00:52:19,965 --> 00:52:21,405
+Speaker 2:  I love it. All right, let's switch.
+
+821
+00:52:26,065 --> 00:52:27,605
+Speaker 2:  All right. Samsung buzz. How we doing?
+
+822
+00:52:27,935 --> 00:52:31,605
+Speaker 6:  These are the Buds three pro. They have stems now just like the AirPods
+
+823
+00:52:32,065 --> 00:52:35,725
+Speaker 6:  Pro do. So hopefully that makes them a little bit crisper. Clearer.
+
+824
+00:52:36,585 --> 00:52:38,445
+Speaker 6:  Oh my, that was loud. So
+
+825
+00:52:38,565 --> 00:52:42,325
+Speaker 2:  I didn't hear that at all. This is okay. This is the opposite of what we
+
+826
+00:52:42,325 --> 00:52:45,045
+Speaker 2:  just heard from Google. This is, this is actually super fun. I'm glad we
+
+827
+00:52:45,045 --> 00:52:49,005
+Speaker 2:  did this in this order because basically the AirPods are the
+
+828
+00:52:49,005 --> 00:52:51,925
+Speaker 2:  middle. Google is all the way at the end of the spectrum of like, let's make
+
+829
+00:52:51,925 --> 00:52:55,485
+Speaker 2:  this sound kind of as natural as possible, even if it means getting noise
+
+830
+00:52:55,605 --> 00:52:59,565
+Speaker 2:  in and you are just compressed to within an inch of your
+
+831
+00:52:59,565 --> 00:53:03,125
+Speaker 2:  life. But there is no background noise. Like it, it is interesting. It sounds
+
+832
+00:53:03,125 --> 00:53:04,685
+Speaker 2:  like you are in a silent room.
+
+833
+00:53:05,035 --> 00:53:07,765
+Speaker 6:  Yeah, it's super loud there. Someone's like suning dishes and stuff over
+
+834
+00:53:07,765 --> 00:53:11,165
+Speaker 6:  there. So If, you can't hear that. That's impressive. Do I sound like intelligible
+
+835
+00:53:11,165 --> 00:53:11,405
+Speaker 6:  though?
+
+836
+00:53:12,045 --> 00:53:15,565
+Speaker 2:  Intelligible? Yes. Okay. You almost don't sound like
+
+837
+00:53:15,805 --> 00:53:16,165
+Speaker 2:  yourself.
+
+838
+00:53:17,715 --> 00:53:21,605
+Speaker 2:  Like it, it sort of sounds like If you, If you like held up
+
+839
+00:53:21,605 --> 00:53:24,725
+Speaker 2:  a pillow to your mouth and then had a phone call. Like that's kind of what
+
+840
+00:53:24,725 --> 00:53:27,565
+Speaker 2:  you sound like right now. Okay. I can hear everything you're saying. Yeah,
+
+841
+00:53:28,065 --> 00:53:31,925
+Speaker 2:  but I mean, it is it, you are processed to death,
+
+842
+00:53:32,225 --> 00:53:36,165
+Speaker 2:  but again, I, I cannot overstate the extent to which I'm not hearing anything
+
+843
+00:53:36,165 --> 00:53:38,605
+Speaker 2:  but your voice right now. That's kind of wild actually. Yeah.
+
+844
+00:53:39,345 --> 00:53:43,285
+Speaker 6:  Huh. That's fun. Yeah, and these have been pretty good so far from
+
+845
+00:53:43,285 --> 00:53:46,205
+Speaker 6:  my voice calls and talking to people I've heard like similar feedback to
+
+846
+00:53:46,205 --> 00:53:48,885
+Speaker 6:  that, that I sound processed but clear. So,
+
+847
+00:53:49,115 --> 00:53:52,205
+Speaker 2:  Yeah. And this is, this is a, this is a fun test case because
+
+848
+00:53:53,605 --> 00:53:57,045
+Speaker 2:  normally with these headphones, at least my experience has been that they
+
+849
+00:53:57,045 --> 00:54:00,525
+Speaker 2:  process your voice less when they're having to process less background noise.
+
+850
+00:54:00,925 --> 00:54:04,765
+Speaker 2:  So in theory, when you're in like a perfectly quiet space Right,
+
+851
+00:54:04,795 --> 00:54:06,125
+Speaker 2:  they should all sound better,
+
+852
+00:54:06,575 --> 00:54:06,925
+Speaker 6:  Right?
+
+853
+00:54:06,925 --> 00:54:10,845
+Speaker 2:  Yeah. But they'll sound worse in, so we tried to pick, this is a
+
+854
+00:54:10,845 --> 00:54:14,805
+Speaker 2:  pretty good, like normal-ish use case to like test them, but not
+
+855
+00:54:15,065 --> 00:54:19,005
+Speaker 2:  overly so. But yeah, this is, this is solid. I
+
+856
+00:54:19,005 --> 00:54:22,885
+Speaker 2:  take this over Google. Okay. 10 times outta 10. Like, it's just more
+
+857
+00:54:23,805 --> 00:54:26,445
+Speaker 2:  pleasant to listen to you, even though you don't sound amazing, just because
+
+858
+00:54:26,445 --> 00:54:29,965
+Speaker 2:  there's not that kind of roller coaster volume of
+
+859
+00:54:30,415 --> 00:54:31,365
+Speaker 2:  background noise.
+
+860
+00:54:32,005 --> 00:54:33,965
+Speaker 6:  Interesting. And there's a lot of noise in So If you can't hear any of that.
+
+861
+00:54:33,965 --> 00:54:37,405
+Speaker 6:  That's, that's nice. But yeah, these are these, they're great. They sound
+
+862
+00:54:37,405 --> 00:54:41,285
+Speaker 6:  really nice. They have lights on the stems so you can have 'em
+
+863
+00:54:41,285 --> 00:54:42,725
+Speaker 6:  light up when you're talking to people. You know,
+
+864
+00:54:42,735 --> 00:54:45,605
+Speaker 2:  These are the ones that Samsung just went full AirPods, right? Yes. Like
+
+865
+00:54:45,605 --> 00:54:48,845
+Speaker 2:  they just, they just did AirPods. Absolute. But like the Samsung way. Yeah.
+
+866
+00:54:49,435 --> 00:54:50,175
+Speaker 6:  Silver. I
+
+867
+00:54:50,175 --> 00:54:52,215
+Speaker 2:  Don't even mean that as an insult. Like it just is what it is. That's just
+
+868
+00:54:52,215 --> 00:54:55,095
+Speaker 2:  what Samsung does. Yeah. Yeah. In terms of like
+
+869
+00:54:56,465 --> 00:55:00,025
+Speaker 2:  pleasant to listen to and wear all day, which has been your favorite of the
+
+870
+00:55:00,025 --> 00:55:03,465
+Speaker 2:  bunch. If you're gonna just like do your life wearing headphones, do you
+
+871
+00:55:03,465 --> 00:55:03,825
+Speaker 2:  have a favorite?
+
+872
+00:55:05,485 --> 00:55:08,665
+Speaker 6:  I'd probably say a tie between these
+
+873
+00:55:10,165 --> 00:55:13,705
+Speaker 6:  and the pixel boats. Honestly, those are newer. So I'm So I just kinda used
+
+874
+00:55:13,705 --> 00:55:17,585
+Speaker 6:  to those. These I've used a ton and yeah, they feel like AirPods Pro
+
+875
+00:55:17,885 --> 00:55:21,785
+Speaker 6:  and you know, they're stable, they fit well, they sound really nice. They
+
+876
+00:55:21,785 --> 00:55:25,705
+Speaker 6:  do all the Samsung ecosystem tricks, so, you know,
+
+877
+00:55:25,705 --> 00:55:28,545
+Speaker 6:  they're not super original, but at this point
+
+878
+00:55:29,335 --> 00:55:31,905
+Speaker 6:  they're all the same. So yeah. But yeah.
+
+879
+00:55:32,785 --> 00:55:33,835
+Speaker 2:  Okay. Yeah, I'm
+
+880
+00:55:33,835 --> 00:55:35,555
+Speaker 6:  Good to hear that. You can hear me very clearly. That's
+
+881
+00:55:35,695 --> 00:55:38,755
+Speaker 2:  I'm impressed. Yeah, like you sound very clear, but you don't sound very
+
+882
+00:55:38,755 --> 00:55:40,995
+Speaker 2:  good. And if I have to make that trade, I'll make that trade, you know what
+
+883
+00:55:40,995 --> 00:55:43,715
+Speaker 2:  I mean? Like, I'd love to have it both ways, but I will, I will pick this
+
+884
+00:55:43,985 --> 00:55:47,355
+Speaker 2:  over the alternative. Fair. All right, let's, let's switch, let's do,
+
+885
+00:55:48,235 --> 00:55:49,835
+Speaker 2:  let's do pose next. You tell
+
+886
+00:55:50,015 --> 00:55:51,275
+Speaker 6:  Mes next? Yeah, let's do it. All right,
+
+887
+00:55:51,605 --> 00:55:52,075
+Speaker 2:  Let's switch.
+
+888
+00:55:56,215 --> 00:55:58,115
+Speaker 2:  All right. Bose time. How we doing?
+
+889
+00:55:58,665 --> 00:55:58,955
+Speaker 6:  Just
+
+890
+00:55:58,955 --> 00:56:00,155
+Speaker 8:  Have a brand new quiet comfort
+
+891
+00:56:00,345 --> 00:56:03,875
+Speaker 6:  Here for those second generation. You're already laughing. That's not a good
+
+892
+00:56:03,875 --> 00:56:07,595
+Speaker 2:  Time. Was I just very loud in your ears? Just then you like startled as I
+
+893
+00:56:07,595 --> 00:56:09,155
+Speaker 2:  said something. Oh, okay. No, that was good.
+
+894
+00:56:09,385 --> 00:56:10,555
+Speaker 6:  Okay. Just making sure,
+
+895
+00:56:10,705 --> 00:56:14,435
+Speaker 8:  Make sure I can hear you too. Just came out this past wheat
+
+896
+00:56:15,375 --> 00:56:19,235
+Speaker 8:  and they have really good, super good noise cancellation. Multiple from
+
+897
+00:56:19,235 --> 00:56:22,715
+Speaker 8:  those through smaller than faster, but cheaper.
+
+898
+00:56:22,945 --> 00:56:26,805
+Speaker 8:  1 7 9. Same as the AirPod four. You have tips obviously,
+
+899
+00:56:26,805 --> 00:56:28,125
+Speaker 8:  whereas the AirPod four do not,
+
+900
+00:56:30,145 --> 00:56:32,165
+Speaker 8:  but so far I like to apply the best.
+
+901
+00:56:32,895 --> 00:56:34,145
+Speaker 6:  Okay. Sound.
+
+902
+00:56:35,345 --> 00:56:38,185
+Speaker 2:  I don't, I don't wanna be hyperbolic here. This is awful.
+
+903
+00:56:39,895 --> 00:56:40,185
+Speaker 6:  It's
+
+904
+00:56:40,365 --> 00:56:44,065
+Speaker 2:  So bad. This is the first time I can't
+
+905
+00:56:44,065 --> 00:56:47,905
+Speaker 2:  understand some of the words that you're saying. And, and again,
+
+906
+00:56:47,945 --> 00:56:51,745
+Speaker 2:  I wonder if an experience, I've had So I have a pair of Bs like over
+
+907
+00:56:51,765 --> 00:56:55,665
+Speaker 2:  ear quiet comforts and the, the impression that I get every
+
+908
+00:56:55,665 --> 00:56:58,945
+Speaker 2:  time I use them is kind of what I was saying before, that the mic is, it's
+
+909
+00:56:58,945 --> 00:57:02,705
+Speaker 2:  never good, but it's fine when there's not a lot of
+
+910
+00:57:02,705 --> 00:57:06,425
+Speaker 2:  noise. But Bose seems to so aggressively prioritize
+
+911
+00:57:06,425 --> 00:57:10,265
+Speaker 2:  noise cancellation over audio quality that when you get
+
+912
+00:57:10,265 --> 00:57:13,945
+Speaker 2:  into bad sound, it will just destroy everything else in the name of noise
+
+913
+00:57:13,945 --> 00:57:16,785
+Speaker 2:  cancellation. So I'm guessing you're sitting there and it's like not very
+
+914
+00:57:16,785 --> 00:57:17,705
+Speaker 2:  loud to you and it all sounds
+
+915
+00:57:19,075 --> 00:57:19,615
+Speaker 6:  Not so much
+
+916
+00:57:20,085 --> 00:57:22,895
+Speaker 2:  It's, it's just ruining it pretty high. Yeah.
+
+917
+00:57:24,645 --> 00:57:28,575
+Speaker 2:  It's doing a decent job of suppressing the background noise. It's actually
+
+918
+00:57:28,685 --> 00:57:31,695
+Speaker 2:  like, it's better now than it was when we started, which is interesting.
+
+919
+00:57:31,695 --> 00:57:34,055
+Speaker 2:  It's like, it, it's, it took the processing a minute to like figure it out,
+
+920
+00:57:34,055 --> 00:57:37,455
+Speaker 2:  but it seems to have cut a bunch of the background noise. Okay. But you sound
+
+921
+00:57:37,455 --> 00:57:37,855
+Speaker 2:  like trash
+
+922
+00:57:38,435 --> 00:57:42,055
+Speaker 6:  Sounds absolute trash. It's really these important
+
+923
+00:57:42,055 --> 00:57:43,495
+Speaker 6:  meetings. That's good to know.
+
+924
+00:57:43,725 --> 00:57:47,335
+Speaker 2:  Yeah. This is, this is not the one to take a zoom call in a coffee shop with
+
+925
+00:57:47,365 --> 00:57:50,855
+Speaker 2:  that is like, basically the, the two reasons we do this test are like,
+
+926
+00:57:51,765 --> 00:57:55,465
+Speaker 2:  are you the worst? If you're on a video call with these and, you know,
+
+927
+00:57:55,675 --> 00:57:58,625
+Speaker 2:  grand theories about how we talk to AI and all that stuff, like, I really
+
+928
+00:57:58,625 --> 00:58:01,785
+Speaker 2:  do believe microphones matter. This one will fail at both of those tests.
+
+929
+00:58:01,845 --> 00:58:03,105
+Speaker 2:  And I feel very confident about that.
+
+930
+00:58:03,235 --> 00:58:06,105
+Speaker 6:  Yikes. Big yikes. Okay. Well they're good at everything else
+
+931
+00:58:07,125 --> 00:58:07,505
+Speaker 6:  so far.
+
+932
+00:58:08,215 --> 00:58:11,585
+Speaker 2:  Yeah, these are good listening headphones. Like Bose Bose makes very good
+
+933
+00:58:11,585 --> 00:58:15,145
+Speaker 2:  headphones to listen to. Please don't call me from these
+
+934
+00:58:15,655 --> 00:58:17,585
+Speaker 6:  Ever again. Okay.
+
+935
+00:58:19,385 --> 00:58:22,145
+Speaker 2:  All right. Let's, let's get off this one as quickly as we can. Yeah. Let's,
+
+936
+00:58:22,145 --> 00:58:23,465
+Speaker 2:  let's go to the next one. What gonna do next?
+
+937
+00:58:23,905 --> 00:58:26,425
+Speaker 6:  Let's do the nothings the funky open ones. Sweet.
+
+938
+00:58:26,425 --> 00:58:26,785
+Speaker 2:  Love it.
+
+939
+00:58:26,965 --> 00:58:27,345
+Speaker 6:  Do that
+
+940
+00:58:27,345 --> 00:58:27,625
+Speaker 8:  Right now.
+
+941
+00:58:33,445 --> 00:58:37,345
+Speaker 2:  All right. Nothing. The, nothing ear open. That's what they're called,
+
+942
+00:58:37,345 --> 00:58:38,025
+Speaker 2:  right? How we do it.
+
+943
+00:58:38,055 --> 00:58:41,785
+Speaker 6:  It's, yeah. These are the first call I actually had on these period.
+
+944
+00:58:42,085 --> 00:58:42,305
+Speaker 6:  So
+
+945
+00:58:43,215 --> 00:58:43,705
+Speaker 2:  It's an honor.
+
+946
+00:58:43,705 --> 00:58:45,105
+Speaker 6:  It's one experience for us both.
+
+947
+00:58:45,945 --> 00:58:49,905
+Speaker 2:  I kind of like how those look in your ears. I have to say it's a little,
+
+948
+00:58:49,975 --> 00:58:53,745
+Speaker 2:  it's they're, they're a little more like deliberately space agey
+
+949
+00:58:53,745 --> 00:58:56,985
+Speaker 2:  than anything else you've tried. They've got the, the sort of ear hook
+
+950
+00:58:58,645 --> 00:59:02,425
+Speaker 2:  and slight Yeah. They just, they just look like you're wearing some kind
+
+951
+00:59:02,425 --> 00:59:06,345
+Speaker 2:  of futuristic star trekky headset. Okay. Which is not the worst
+
+952
+00:59:06,345 --> 00:59:06,705
+Speaker 2:  thing in the world.
+
+953
+00:59:09,415 --> 00:59:12,425
+Speaker 6:  Some people love this for like bike riding and that kind of, those kind of
+
+954
+00:59:12,425 --> 00:59:16,105
+Speaker 6:  activities. I'm not an open earbud guy, but I can see the appeal. Like I,
+
+955
+00:59:16,225 --> 00:59:18,745
+Speaker 6:  I can hear everything in this room right now. That's just kind of absurd.
+
+956
+00:59:18,805 --> 00:59:22,765
+Speaker 6:  So like, you sound pretty quiet compared to like all this right racket from
+
+957
+00:59:22,765 --> 00:59:26,565
+Speaker 6:  the moon, but how does the voice quality compare to Pretty
+
+958
+00:59:26,655 --> 00:59:30,405
+Speaker 2:  Solid? Actually, I would put this kind of right in the
+
+959
+00:59:30,595 --> 00:59:34,365
+Speaker 2:  AirPods range. I'm getting a little bit of the background noise. Like I can
+
+960
+00:59:34,365 --> 00:59:37,845
+Speaker 2:  tell you're in a coffee shop, unlike the Samsungs
+
+961
+00:59:38,015 --> 00:59:41,885
+Speaker 2:  where it was like truly just deathly quiet. I can,
+
+962
+00:59:42,075 --> 00:59:45,765
+Speaker 2:  it's clear you're somewhere, but I'm only catching kind of
+
+963
+00:59:45,835 --> 00:59:49,245
+Speaker 2:  bits and pieces of the background noise. Like I can tell there's a, there's
+
+964
+00:59:49,285 --> 00:59:52,845
+Speaker 2:  a woman talking somewhere near you. Yeah, but I'm only catching like,
+
+965
+00:59:53,245 --> 00:59:56,005
+Speaker 2:  snippets, like syllables of it instead of like the whole conversation.
+
+966
+00:59:57,185 --> 01:00:01,005
+Speaker 2:  And I can hear you pretty clearly actually this, I'm, I'm, I'm sort of impressed
+
+967
+01:00:01,025 --> 01:00:01,445
+Speaker 2:  by these.
+
+968
+01:00:02,105 --> 01:00:04,725
+Speaker 6:  See, I'm not sure where the mics are in this particular, like, there's like
+
+969
+01:00:04,725 --> 01:00:08,685
+Speaker 6:  a stem that runs down here, so who knows? But they're pretty funky. They're
+
+970
+01:00:08,685 --> 01:00:12,605
+Speaker 6:  fun, they're interesting. But it's good to know If, you're gonna make
+
+971
+01:00:12,605 --> 01:00:16,005
+Speaker 6:  phone calls on your bike or wherever you might be, or in these
+
+972
+01:00:16,905 --> 01:00:20,045
+Speaker 6:  people will be able to understand you. I'm getting so many looks at this
+
+973
+01:00:20,045 --> 01:00:23,725
+Speaker 6:  coffee shop, doing this call being that guy who I see
+
+974
+01:00:23,725 --> 01:00:24,245
+Speaker 6:  every day.
+
+975
+01:00:25,795 --> 01:00:28,205
+Speaker 2:  Yeah. We'll, we'll, we'll only keep you a couple more minutes, I promise.
+
+976
+01:00:28,205 --> 01:00:31,005
+Speaker 2:  Yeah. But I think the part of the reason I'm, I'm interested in these is
+
+977
+01:00:31,005 --> 01:00:34,885
+Speaker 2:  like, you, you, I hear from people all the time who are like, yeah, I'm trying
+
+978
+01:00:35,005 --> 01:00:38,765
+Speaker 2:  to do more phone calls while I'm walking. Right? It's just the like,
+
+979
+01:00:38,765 --> 01:00:41,245
+Speaker 2:  like I work from home now. I sit in my basement all day and I'm trying to
+
+980
+01:00:41,245 --> 01:00:43,805
+Speaker 2:  do more of that too. Just get out and it's like, oh, we're gonna talk for
+
+981
+01:00:43,805 --> 01:00:46,285
+Speaker 2:  a half hour. I'm gonna just wander around the neighborhood for a half hour.
+
+982
+01:00:46,285 --> 01:00:50,205
+Speaker 2:  Yeah. And that's one reason that a open ear is useful. Like,
+
+983
+01:00:50,205 --> 01:00:53,405
+Speaker 2:  I think for this particular case in a coffee shop, open ear headphones are
+
+984
+01:00:53,605 --> 01:00:57,165
+Speaker 2:  actually the wrong answer. So like, for this purpose, you probably wouldn't
+
+985
+01:00:57,185 --> 01:01:00,605
+Speaker 2:  use these. Yeah. Even though they sound okay, but for like
+
+986
+01:01:01,075 --> 01:01:04,845
+Speaker 2:  general sort of day-to-Day life, like it's the same reason I like the, the
+
+987
+01:01:04,945 --> 01:01:08,325
+Speaker 2:  RayBan meta smart glasses, right? Like I can just sort of have a conversation
+
+988
+01:01:08,355 --> 01:01:12,285
+Speaker 2:  into my sunglasses in a way that sort of works. And I feel like
+
+989
+01:01:12,285 --> 01:01:15,365
+Speaker 2:  this is appealing to me for the same reason. And they sound pretty good.
+
+990
+01:01:15,475 --> 01:01:19,205
+Speaker 2:  Cool. It's not, it's not the best one, but it is, it's kind of right in that
+
+991
+01:01:19,775 --> 01:01:23,245
+Speaker 2:  sweet spot middle with the, the AirPods that I, I'm, I'm sort of impressed
+
+992
+01:01:23,245 --> 01:01:23,405
+Speaker 2:  with.
+
+993
+01:01:23,885 --> 01:01:26,725
+Speaker 6:  Interesting. Okay. Good to know. Should I switch back to the AirPods for
+
+994
+01:01:26,725 --> 01:01:28,605
+Speaker 6:  the conclusion or? Yeah, let's,
+
+995
+01:01:28,605 --> 01:01:31,085
+Speaker 2:  Let's switch back. Now that I've heard all of them, let's go back to the
+
+996
+01:01:31,085 --> 01:01:33,125
+Speaker 2:  AirPods and we can, we can, we can pick a favorite here.
+
+997
+01:01:33,125 --> 01:01:34,445
+Speaker 6:  Alright, let's do it. All right.
+
+998
+01:01:39,785 --> 01:01:41,565
+Speaker 2:  All right. So we're back on the AirPods four.
+
+999
+01:01:43,465 --> 01:01:46,165
+Speaker 6:  We are, and these still sounds pretty serviceable.
+
+1000
+01:01:46,915 --> 01:01:50,685
+Speaker 2:  Yeah. This, it's such a boring answer, but I think of this
+
+1001
+01:01:50,685 --> 01:01:53,605
+Speaker 2:  round, this is actually probably my favorite. I think
+
+1002
+01:01:54,625 --> 01:01:58,485
+Speaker 2:  the, there's a little more background noise here than there was on
+
+1003
+01:01:58,485 --> 01:02:02,285
+Speaker 2:  the nothings, but it's also a little less, I'm
+
+1004
+01:02:02,285 --> 01:02:05,445
+Speaker 2:  realizing like a, a little bit of consistent background noise
+
+1005
+01:02:06,185 --> 01:02:08,805
+Speaker 2:  is actually less annoying than, than
+
+1006
+01:02:09,535 --> 01:02:12,805
+Speaker 2:  background noise. Yeah. It's like this, you just kind of have that low
+
+1007
+01:02:13,635 --> 01:02:16,565
+Speaker 2:  tone behind you all the time. And so it's actually easier for me to pick
+
+1008
+01:02:16,565 --> 01:02:19,525
+Speaker 2:  out your voice, whereas like the pixel buds which kept coming in and out
+
+1009
+01:02:19,525 --> 01:02:22,365
+Speaker 2:  were like giving me a headache trying to figure out what was going on.
+
+1010
+01:02:23,625 --> 01:02:27,045
+Speaker 2:  But I'm curious. Eric Gomez our producer. Hi, Eric is here.
+
+1011
+01:02:27,415 --> 01:02:31,325
+Speaker 2:  Hello. You have been listening to and making all of this work. What do you
+
+1012
+01:02:31,325 --> 01:02:33,085
+Speaker 2:  make of all of this? You're the, you're the audio expert here.
+
+1013
+01:02:34,215 --> 01:02:38,085
+Speaker 9:  Definitely impressed by the Samsung,
+
+1014
+01:02:38,625 --> 01:02:42,205
+Speaker 9:  but the quality is, yes, it's being squished
+
+1015
+01:02:42,505 --> 01:02:45,805
+Speaker 9:  and compressed to death, but at least you're not picking up anything
+
+1016
+01:02:46,935 --> 01:02:50,845
+Speaker 9:  going on in the background at all. And it's pretty, you know,
+
+1017
+01:02:50,845 --> 01:02:53,965
+Speaker 9:  it's, it's clear enough and it's coherent enough to be able to have a good
+
+1018
+01:02:53,965 --> 01:02:57,725
+Speaker 9:  conversation. And I'm really surprised by the pixel buts.
+
+1019
+01:02:57,725 --> 01:02:58,605
+Speaker 9:  They're just not,
+
+1020
+01:03:00,235 --> 01:03:01,445
+Speaker 2:  Just not impressive. Yeah.
+
+1021
+01:03:01,955 --> 01:03:05,405
+Speaker 9:  Yeah. I'm really disappointed in that. You know,
+
+1022
+01:03:06,125 --> 01:03:09,965
+Speaker 9:  I, I think Google did a good job in terms of hardware this, this round, but
+
+1023
+01:03:11,225 --> 01:03:13,845
+Speaker 9:  I'm just a little disappointed by the quality of the mic on that, on, on
+
+1024
+01:03:13,845 --> 01:03:15,125
+Speaker 9:  these pixel buts, So,
+
+1025
+01:03:15,285 --> 01:03:18,965
+Speaker 2:  I do wonder, I mean, Welch, you mentioned that they're smaller
+
+1026
+01:03:19,345 --> 01:03:22,925
+Speaker 2:  and thus just further away from your mouth. And I wonder at some point if
+
+1027
+01:03:22,925 --> 01:03:26,885
+Speaker 2:  that just be, is like an insurmountable physics problem? Like the, the things
+
+1028
+01:03:26,885 --> 01:03:30,845
+Speaker 2:  with stems tend to be better because they have stems. Like it just is
+
+1029
+01:03:30,885 --> 01:03:31,805
+Speaker 2:  a, seems to be a fact.
+
+1030
+01:03:32,965 --> 01:03:35,445
+Speaker 6:  I think So I mean, I don't wanna see everybody do stems. So that would be
+
+1031
+01:03:35,445 --> 01:03:38,165
+Speaker 6:  boring. So I, hope they can find a way to like, you know, like use machine
+
+1032
+01:03:38,325 --> 01:03:42,005
+Speaker 6:  learning or AI or whatnot to like find some way to fix this problems.
+
+1033
+01:03:42,815 --> 01:03:45,205
+Speaker 6:  Maybe the pixel bullets will sound better on like phone calls with clear
+
+1034
+01:03:45,205 --> 01:03:47,685
+Speaker 6:  call line. Like so far I haven't gotten so many complaints there, so that
+
+1035
+01:03:47,685 --> 01:03:51,365
+Speaker 6:  might, that might make a difference versus just like, just overall audio
+
+1036
+01:03:51,485 --> 01:03:55,325
+Speaker 6:  mode. But yeah, it's clearly that all
+
+1037
+01:03:55,325 --> 01:03:59,005
+Speaker 6:  that Samsung and Apple are kind of the head honchos here and
+
+1038
+01:03:59,905 --> 01:04:01,765
+Speaker 6:  the rest are kind of okay at best.
+
+1039
+01:04:02,275 --> 01:04:06,165
+Speaker 2:  Yeah. Yeah. The wi the winner for most improved is Samsung for sure. I think
+
+1040
+01:04:06,305 --> 01:04:09,805
+Speaker 2:  the, the last time we did this, I think Samsung came in last and it was,
+
+1041
+01:04:09,865 --> 01:04:13,405
+Speaker 2:  it was the one that was like borderline unintelligible.
+
+1042
+01:04:13,985 --> 01:04:17,565
+Speaker 2:  And, and I think Samsung here is either in first or second place
+
+1043
+01:04:17,565 --> 01:04:21,445
+Speaker 2:  depending on just kind of what you like, like the, the thing for
+
+1044
+01:04:21,445 --> 01:04:25,325
+Speaker 2:  me of that sort of eerie quiet, super compressed just doesn't
+
+1045
+01:04:25,325 --> 01:04:28,365
+Speaker 2:  sound as good as what I'm hearing now from the AirPods, which just feels
+
+1046
+01:04:28,445 --> 01:04:31,925
+Speaker 2:  a little more natural. It's like if I were sitting across from you at a coffee
+
+1047
+01:04:31,925 --> 01:04:34,805
+Speaker 2:  shop, that's what it would sound like. Okay. But I can also understand that
+
+1048
+01:04:34,865 --> 01:04:38,845
+Speaker 2:  if what's clear is also, if there is one that you are gonna trust in awful
+
+1049
+01:04:38,855 --> 01:04:42,485
+Speaker 2:  situations to keep you intelligible, it's probably the Galaxy Buds, right?
+
+1050
+01:04:42,485 --> 01:04:44,405
+Speaker 2:  Eric? Is that, is that your takeaway here?
+
+1051
+01:04:44,595 --> 01:04:46,845
+Speaker 9:  Yeah, I I I would have to agree with
+
+1052
+01:04:46,845 --> 01:04:49,165
+Speaker 2:  That. They're like the worst case scenario buds.
+
+1053
+01:04:49,275 --> 01:04:51,445
+Speaker 9:  Yeah. Don't, don't use 'em. Good
+
+1054
+01:04:51,445 --> 01:04:54,405
+Speaker 6:  To know for the future, whenever I'm stranded somewhere and I carry around
+
+1055
+01:04:54,405 --> 01:04:57,965
+Speaker 6:  like several pairs of beer buds at all times, so it's nice to know that those
+
+1056
+01:04:57,965 --> 01:04:58,565
+Speaker 6:  are the ones.
+
+1057
+01:04:58,655 --> 01:05:01,085
+Speaker 9:  Don't don't call 9 1 1 with those buds. Yeah.
+
+1058
+01:05:02,475 --> 01:05:06,045
+Speaker 2:  Yeah. They'll be like, this is fine. You can't hear anything. Yeah. All right,
+
+1059
+01:05:06,045 --> 01:05:09,845
+Speaker 2:  good. Well we, we've, we've done it. I just, I would love for somebody
+
+1060
+01:05:09,845 --> 01:05:13,085
+Speaker 2:  to just like blow my mind here. That's, that's everyone's charge for next
+
+1061
+01:05:13,085 --> 01:05:16,085
+Speaker 2:  time. It's just like, do slightly better. We're still at a point where the,
+
+1062
+01:05:16,085 --> 01:05:19,725
+Speaker 2:  the RayBan Meadow ones are the like, best sounding ones we've tested
+
+1063
+01:05:20,615 --> 01:05:20,965
+Speaker 6:  Maybe
+
+1064
+01:05:21,345 --> 01:05:24,685
+Speaker 2:  In the history of this segment on The Vergecast. Still
+
+1065
+01:05:24,685 --> 01:05:27,325
+Speaker 6:  Haven't ever tried those myself, but I want one of those nuclear colors.
+
+1066
+01:05:27,955 --> 01:05:28,365
+Speaker 2:  They look
+
+1067
+01:05:28,365 --> 01:05:29,725
+Speaker 6:  Awesome. Awesome. Glasses look awesome.
+
+1068
+01:05:29,915 --> 01:05:33,845
+Speaker 2:  Yeah. I have two pairs now and I don't want one of them. So you
+
+1069
+01:05:33,845 --> 01:05:34,405
+Speaker 2:  can have one of
+
+1070
+01:09:34,815 --> 01:09:37,715
+Speaker 2:  All right, we're back. Let's get to the hotline as always. The number is
+
+1071
+01:09:37,715 --> 01:09:41,435
+Speaker 2:  8 6 6 VERGE one one. The email is vergecast at The Verge dot com.
+
+1072
+01:09:41,655 --> 01:09:45,475
+Speaker 2:  You can hit me up personally on threads or on signal. We try to answer at
+
+1073
+01:09:45,475 --> 01:09:49,035
+Speaker 2:  least one hotline question on the show every week. And actually I think we're
+
+1074
+01:09:49,035 --> 01:09:52,875
+Speaker 2:  due for like a full hotline episode. We've gotten a lot of fun stuff. We're
+
+1075
+01:09:52,875 --> 01:09:56,275
+Speaker 2:  in deep gadget season right now, so we've gotten a lot of gadget questions.
+
+1076
+01:09:57,095 --> 01:09:59,915
+Speaker 2:  We will probably get to all of those at some point in the very near future,
+
+1077
+01:10:00,215 --> 01:10:03,875
+Speaker 2:  but for now we have a question that feels so, so very birge Casty.
+
+1078
+01:10:04,045 --> 01:10:04,595
+Speaker 2:  Let's hear it.
+
+1079
+01:10:05,735 --> 01:10:09,515
+Speaker 10:  Hey Birge, this is Jeff from North Carolina. I was
+
+1080
+01:10:09,515 --> 01:10:12,835
+Speaker 10:  listening to your latest episode on Meta's New Glasses and
+
+1081
+01:10:13,335 --> 01:10:17,235
+Speaker 10:  I'm wondering, I remember, I believe it was Sky Galloway made a
+
+1082
+01:10:17,235 --> 01:10:20,795
+Speaker 10:  comment that any product that you're wearing on your body that makes you
+
+1083
+01:10:20,795 --> 01:10:24,515
+Speaker 10:  less attractive will never succeed. I'm wondering If,
+
+1084
+01:10:24,935 --> 01:10:28,715
+Speaker 10:  you think with the Vision Pro and then now the Meta Smart Glasses,
+
+1085
+01:10:28,985 --> 01:10:32,875
+Speaker 10:  this will apply that If, you don't look cool in them. No one's gonna
+
+1086
+01:10:32,875 --> 01:10:35,755
+Speaker 10:  buy them. Love the show. Thanks very much. Bye.
+
+1087
+01:10:36,555 --> 01:10:39,295
+Speaker 2:  All right. There is only one person on earth who can answer this question.
+
+1088
+01:10:39,775 --> 01:10:43,055
+Speaker 2:  The Scott Galloway of The Vergecast. I call him sometimes brutal,
+
+1089
+01:10:43,875 --> 01:10:44,295
+Speaker 11:  Brutal
+
+1090
+01:10:44,835 --> 01:10:45,855
+Speaker 2:  Ne left tell. Why would
+
+1091
+01:10:45,855 --> 01:10:47,655
+Speaker 11:  She invite me here to insult me to my face?
+
+1092
+01:10:50,395 --> 01:10:50,855
+Speaker 2:  Hey buddy,
+
+1093
+01:10:51,285 --> 01:10:52,415
+Speaker 11:  This is my own show.
+
+1094
+01:10:54,815 --> 01:10:56,975
+Speaker 2:  I didn't even prepare you for this. You didn't even get to listen to this
+
+1095
+01:10:56,975 --> 01:10:59,535
+Speaker 2:  ahead of time. This was just, I, this is everything I wanted to. Hey, would
+
+1096
+01:10:59,535 --> 01:10:59,655
+Speaker 2:  you
+
+1097
+01:10:59,655 --> 01:11:01,895
+Speaker 11:  Like to walk into your own house? Me slapped in the face.
+
+1098
+01:11:04,205 --> 01:11:04,695
+Speaker 11:  Amazing.
+
+1099
+01:11:05,435 --> 01:11:08,575
+Speaker 2:  So I. Love this question for two reasons. One, because I think it's a good
+
+1100
+01:11:08,695 --> 01:11:12,375
+Speaker 2:  question and two, because it, it threatens the very core of
+
+1101
+01:11:12,565 --> 01:11:16,365
+Speaker 2:  Neli Patel's theory of wearable bullshit, which is just this, this
+
+1102
+01:11:16,365 --> 01:11:19,085
+Speaker 2:  just says, actually it doesn't even matter if it doesn't make you look cool.
+
+1103
+01:11:19,235 --> 01:11:23,085
+Speaker 2:  It's out So I want, I want to know your thoughts on, on this particular take
+
+1104
+01:11:23,085 --> 01:11:23,845
+Speaker 2:  with these devices.
+
+1105
+01:11:24,675 --> 01:11:28,005
+Speaker 11:  Well, you'll recall that the, the matrix of wearable bullshit has a
+
+1106
+01:11:28,975 --> 01:11:32,925
+Speaker 11:  minus 100 face penalty. Right? Which
+
+1107
+01:11:32,925 --> 01:11:36,645
+Speaker 11:  is basically what we're talking about here because you can put all
+
+1108
+01:11:36,645 --> 01:11:40,425
+Speaker 11:  kinds of stuff on your body that makes you look uncool. People wear
+
+1109
+01:11:40,425 --> 01:11:43,865
+Speaker 11:  fanny packs all day long. Fair first walking around. They're not even wearing
+
+1110
+01:11:43,985 --> 01:11:45,105
+Speaker 11:  'em on their Fannie from what I'm told.
+
+1111
+01:11:45,975 --> 01:11:47,745
+Speaker 2:  Yeah, they're slings now. Yeah.
+
+1112
+01:11:47,855 --> 01:11:51,545
+Speaker 11:  It's, it's watches. Incredibly subjective fashion choices, true
+
+1113
+01:11:52,625 --> 01:11:56,385
+Speaker 11:  clothing itself, shoes, the, the way people talk about shoes in this
+
+1114
+01:11:56,385 --> 01:11:56,625
+Speaker 11:  world.
+
+1115
+01:11:58,365 --> 01:12:01,465
+Speaker 11:  All, all kinds of ideas about things you put on your body. It's really just,
+
+1116
+01:12:02,365 --> 01:12:06,005
+Speaker 11:  do you have it on your face that sets people a flame,
+
+1117
+01:12:06,055 --> 01:12:09,285
+Speaker 11:  right? That's the thing we're talking about here. Is it on your face? Is
+
+1118
+01:12:09,285 --> 01:12:13,125
+Speaker 11:  it in your way? And the, the matrix of wearable
+
+1119
+01:12:13,285 --> 01:12:17,055
+Speaker 11:  bullshit is fids versus utility. And then
+
+1120
+01:12:17,055 --> 01:12:20,895
+Speaker 11:  there's just like this like big penalty for face somewhere in there
+
+1121
+01:12:20,895 --> 01:12:24,055
+Speaker 11:  that brings you way below the line. And then you have to offer vastly more
+
+1122
+01:12:24,055 --> 01:12:28,015
+Speaker 11:  utility to get back above the line so that people wear it every day. Regular
+
+1123
+01:12:28,015 --> 01:12:28,495
+Speaker 11:  glasses
+
+1124
+01:12:30,315 --> 01:12:33,375
+Speaker 11:  on your face, they take the penalty, but they're pretty useful to most people.
+
+1125
+01:12:33,925 --> 01:12:37,775
+Speaker 11:  True. So they, they come back up and now we've, you know, over decades
+
+1126
+01:12:37,985 --> 01:12:41,815
+Speaker 11:  we've turned glasses into fashion accessories. Well, okay, so that's
+
+1127
+01:12:41,815 --> 01:12:42,295
+Speaker 11:  made this choice
+
+1128
+01:12:42,485 --> 01:12:45,855
+Speaker 2:  That, that's the thing that I keep thinking about, thinking about this. 'cause
+
+1129
+01:12:45,855 --> 01:12:49,775
+Speaker 2:  there, there's basically two ways to look at this. One is these things
+
+1130
+01:12:49,775 --> 01:12:53,615
+Speaker 2:  will never be cool and the only way they're ever going to work
+
+1131
+01:12:53,795 --> 01:12:57,575
+Speaker 2:  is if we make them so phenomenally useful that it doesn't matter.
+
+1132
+01:12:57,745 --> 01:13:01,335
+Speaker 2:  Right. And I feel like, I don't know, like wired headphones is probably a
+
+1133
+01:13:01,335 --> 01:13:04,975
+Speaker 2:  good example of that, right? Like, I don't know that a, a pair of ear
+
+1134
+01:13:05,005 --> 01:13:08,775
+Speaker 2:  EarPods is like cool, but they're like simple and they're useful and we all
+
+1135
+01:13:08,775 --> 01:13:12,735
+Speaker 2:  just kind of gut over it, right? That that crossed the threshold with
+
+1136
+01:13:12,735 --> 01:13:16,615
+Speaker 2:  utility, not with cool. The other option is that in some way
+
+1137
+01:13:17,605 --> 01:13:21,415
+Speaker 2:  someone figures out how to make these things actually objectively
+
+1138
+01:13:21,485 --> 01:13:25,375
+Speaker 2:  cool and then, and then it flips, right? Like in glasses,
+
+1139
+01:13:26,405 --> 01:13:29,895
+Speaker 2:  some people like how they look in glasses better than how they look without
+
+1140
+01:13:29,895 --> 01:13:33,535
+Speaker 2:  glasses. Like that's a real thing. We have made them a fashion object and
+
+1141
+01:13:34,525 --> 01:13:37,935
+Speaker 2:  that seems like a much harder road for any kind of technology,
+
+1142
+01:13:38,755 --> 01:13:42,095
+Speaker 2:  but is maybe the actually most effective way to get there. It's just make
+
+1143
+01:13:42,095 --> 01:13:45,775
+Speaker 2:  them objectively cool. Figure out how to make it like iconically awesome
+
+1144
+01:13:45,875 --> 01:13:49,735
+Speaker 2:  to have ski goggles on your face and then none of the rest of it even
+
+1145
+01:13:49,735 --> 01:13:50,295
+Speaker 2:  matters. But,
+
+1146
+01:13:50,315 --> 01:13:52,895
+Speaker 11:  But this is, I think what Apple tried with the Vision Pro. They tried to
+
+1147
+01:13:52,895 --> 01:13:56,775
+Speaker 11:  make it cool and it fell on its face. 'cause it just, we can't be,
+
+1148
+01:13:57,475 --> 01:13:57,695
+Speaker 11:  it
+
+1149
+01:13:57,695 --> 01:13:58,375
+Speaker 2:  Just isn't.
+
+1150
+01:13:59,045 --> 01:14:03,015
+Speaker 11:  Well ski go, there are some ski goggles. Like cool. I I've certainly seen
+
+1151
+01:14:04,045 --> 01:14:07,655
+Speaker 11:  like sweet pictures of eighties people wearing ski
+
+1152
+01:14:07,655 --> 01:14:11,565
+Speaker 11:  goggles. True. They look cool as hell. Have you ever seen the movie ski
+
+1153
+01:14:11,565 --> 01:14:15,285
+Speaker 11:  school highly recommended? Anyway, my my point
+
+1154
+01:14:15,425 --> 01:14:19,285
+Speaker 11:  is one, you should watch ski school. Two, even
+
+1155
+01:14:19,345 --> 01:14:22,765
+Speaker 11:  the people who think they look better in glasses that don't, don't
+
+1156
+01:14:23,985 --> 01:14:27,595
+Speaker 11:  have not created enough of a market for like clear glasses. Like there's
+
+1157
+01:14:27,635 --> 01:14:31,275
+Speaker 11:  a little bit of interesting for clear glasses. Yeah, right? Like on prescription
+
+1158
+01:14:31,575 --> 01:14:34,635
+Speaker 11:  or non-prescription clear glasses that you just wear as a fashion accessory
+
+1159
+01:14:34,705 --> 01:14:38,685
+Speaker 11:  like a little bit, but it's as a signifier as part of
+
+1160
+01:14:38,685 --> 01:14:41,605
+Speaker 11:  another outfit, right? It's supposed to be part of another vibe that you're
+
+1161
+01:14:41,605 --> 01:14:45,405
+Speaker 11:  sending out, right? Not just, I wear these every day, all
+
+1162
+01:14:45,405 --> 01:14:47,085
+Speaker 11:  day. Like my shoes Right?
+
+1163
+01:14:47,145 --> 01:14:50,125
+Speaker 2:  As pure fashion statement, right? There's not much to, and
+
+1164
+01:14:50,125 --> 01:14:53,885
+Speaker 11:  So when you just, I think for a tech product you need to vastly increase
+
+1165
+01:14:53,885 --> 01:14:57,805
+Speaker 11:  the utility of the thing. Like AirPods, they're so useful and I care
+
+1166
+01:14:57,805 --> 01:15:00,445
+Speaker 11:  about them so much and they provide me so much value every single day as
+
+1167
+01:15:00,485 --> 01:15:03,645
+Speaker 11:  a product that I will overcome the fact that
+
+1168
+01:15:04,355 --> 01:15:07,085
+Speaker 11:  they're in my ears all the time and people can see them 'cause they're white
+
+1169
+01:15:07,585 --> 01:15:11,245
+Speaker 11:  and like regular over the ear headphones or fashion
+
+1170
+01:15:11,245 --> 01:15:13,885
+Speaker 11:  statements in different ways, right? They look different. There's different
+
+1171
+01:15:13,885 --> 01:15:17,605
+Speaker 11:  ways you can style 'em. There's different ways you can wear them that, remember
+
+1172
+01:15:17,605 --> 01:15:21,405
+Speaker 11:  when Beats came out, the beats were not the best sounding headphones. Like
+
+1173
+01:15:21,615 --> 01:15:25,085
+Speaker 11:  Jimmy Ivy and Dr. Dre had one idea for what headphones should sound like
+
+1174
+01:15:25,085 --> 01:15:28,685
+Speaker 11:  and it was super base heavy. Right? And they were a fashion
+
+1175
+01:15:28,685 --> 01:15:31,405
+Speaker 11:  statement at first 'cause it came in all the colors. Like they were the
+
+1176
+01:15:31,405 --> 01:15:35,325
+Speaker 11:  first headphones to like really push that idea. And they were a phenomenon
+
+1177
+01:15:35,465 --> 01:15:38,885
+Speaker 11:  in their time just for that. I think with smart glasses
+
+1178
+01:15:39,345 --> 01:15:41,645
+Speaker 11:  yep. You gotta make the form factor smaller. Yep. They've gotta be,
+
+1179
+01:15:43,705 --> 01:15:46,645
+Speaker 11:  yep. They've gotta look more like regular glasses. You've gotta solve the
+
+1180
+01:15:46,645 --> 01:15:50,525
+Speaker 11:  battery, you've gotta bring the fids way down and the value way up.
+
+1181
+01:15:50,525 --> 01:15:54,405
+Speaker 11:  They gotta be able to do more things and then somewhere in
+
+1182
+01:15:54,405 --> 01:15:58,285
+Speaker 11:  there you might overcome the penalty of it being on your face. But I
+
+1183
+01:15:58,285 --> 01:16:02,045
+Speaker 11:  still think that the core tenant holds, which is if it's really, really
+
+1184
+01:16:02,105 --> 01:16:05,965
+Speaker 11:  useful, people get over the fids and part of FIDS is
+
+1185
+01:16:05,965 --> 01:16:07,245
+Speaker 11:  like, is this shit on my face?
+
+1186
+01:16:07,655 --> 01:16:08,005
+Speaker 2:  Right?
+
+1187
+01:16:08,865 --> 01:16:12,165
+Speaker 11:  And whether or not that you want to interpret that in the Galloway fashion
+
+1188
+01:16:12,225 --> 01:16:16,165
+Speaker 11:  of does this make me more attractive That it's, it is up to you
+
+1189
+01:16:16,225 --> 01:16:20,165
+Speaker 11:  to decide if that is the type of utility you desire from a a product
+
+1190
+01:16:20,595 --> 01:16:22,645
+Speaker 2:  Fair. And I guess to be fair, like
+
+1191
+01:16:22,645 --> 01:16:25,685
+Speaker 11:  Post Malone is out here being like, you know what? Face tattoos. That sounds
+
+1192
+01:16:26,205 --> 01:16:26,405
+Speaker 11:  right.
+
+1193
+01:16:26,625 --> 01:16:30,165
+Speaker 2:  Listen, some things are attractive to some people. Every
+
+1194
+01:16:30,585 --> 01:16:34,205
+Speaker 2:  no accounting for taste. No one is attracted to Division Pro. I think is
+
+1195
+01:16:34,265 --> 01:16:37,685
+Speaker 2:  is basically the only true statement I can make at this. Yeah. Particular
+
+1196
+01:16:37,685 --> 01:16:38,285
+Speaker 2:  moment in time.
+
+1197
+01:16:39,845 --> 01:16:43,805
+Speaker 2:  I, okay, so the, the a hundred point deductible is on a scale
+
+1198
+01:16:43,805 --> 01:16:45,805
+Speaker 2:  that deduction, it's, it's an Apple. It's not like a,
+
+1199
+01:16:46,035 --> 01:16:47,005
+Speaker 11:  It's not like a tax return,
+
+1200
+01:16:47,615 --> 01:16:51,525
+Speaker 2:  Right? I apologize. The hundred point deduction is, is like,
+
+1201
+01:16:51,525 --> 01:16:55,285
+Speaker 2:  it's, it's apple chart crime, it's out of nothing. But what I wonder
+
+1202
+01:16:55,345 --> 01:16:59,165
+Speaker 2:  is, is have we, have we not hit it enough? Like
+
+1203
+01:16:59,245 --> 01:17:03,205
+Speaker 2:  should it be a 200 point deduction? Like I am starting to think that this
+
+1204
+01:17:03,205 --> 01:17:06,845
+Speaker 2:  thing might be harder to surmount even than I had thought.
+
+1205
+01:17:07,285 --> 01:17:10,485
+Speaker 2:  'cause even like I look at the Orion glasses, which are smaller and much
+
+1206
+01:17:10,485 --> 01:17:13,325
+Speaker 2:  closer to being normal glasses and then somebody puts 'em on their face and
+
+1207
+01:17:13,325 --> 01:17:16,245
+Speaker 2:  they still look kind of stupid. Like they're cool 'cause they're cool technology,
+
+1208
+01:17:16,525 --> 01:17:20,245
+Speaker 2:  whatever, but like in no way are they like cool looking glasses.
+
+1209
+01:17:20,665 --> 01:17:24,445
+Speaker 2:  And that is like the bleeding edge of the bleeding edge of where we are in
+
+1210
+01:17:24,445 --> 01:17:28,285
+Speaker 2:  terms of being able to make these things awesome. Like should we be,
+
+1211
+01:17:28,285 --> 01:17:32,205
+Speaker 2:  should we be dinging these things harder for their face wearing
+
+1212
+01:17:32,705 --> 01:17:34,525
+Speaker 2:  issues for the foreseeable future?
+
+1213
+01:17:35,075 --> 01:17:38,485
+Speaker 11:  Well, I would say one of the most fiddly things about the Orion is that
+
+1214
+01:17:38,485 --> 01:17:41,605
+Speaker 11:  you need to work at Facebook and apparently have $10,000 in order to have
+
+1215
+01:17:41,605 --> 01:17:45,525
+Speaker 11:  one. Yeah. Ums pretty fiddly. It's very fiddly. Like whether or not it's
+
+1216
+01:17:45,525 --> 01:17:49,005
+Speaker 11:  in your face, like doesn't matter. Like it, it's, it's a product you can't
+
+1217
+01:17:49,005 --> 01:17:52,925
+Speaker 11:  buy. You need to grow crystal lenses in the basement of your underground
+
+1218
+01:17:53,245 --> 01:17:57,085
+Speaker 11:  Hawaiian layer apparently to have them very fiddly. Like you're just in
+
+1219
+01:17:57,085 --> 01:17:59,845
+Speaker 11:  the hole and then you're a little bit further in the hole. I think a better
+
+1220
+01:17:59,845 --> 01:18:03,525
+Speaker 11:  example is the RayBan glasses that Meadow is doing where their
+
+1221
+01:18:03,525 --> 01:18:07,505
+Speaker 11:  utility is not that high. Right? Like they
+
+1222
+01:18:07,725 --> 01:18:11,385
+Speaker 11:  can take some photos, they can do some AI stuff. People actually like the
+
+1223
+01:18:11,385 --> 01:18:14,905
+Speaker 11:  photos. People like listening to music on them, but they're not very
+
+1224
+01:18:15,045 --> 01:18:15,465
+Speaker 11:  fiddly.
+
+1225
+01:18:16,485 --> 01:18:16,935
+Speaker 2:  That is
+
+1226
+01:18:16,935 --> 01:18:19,495
+Speaker 11:  True. They're just, they're just ray bands that have to, they're
+
+1227
+01:18:19,495 --> 01:18:20,455
+Speaker 2:  Mostly glasses. Yeah.
+
+1228
+01:18:20,455 --> 01:18:23,535
+Speaker 11:  And so even they can overcome the face penalty
+
+1229
+01:18:24,125 --> 01:18:28,045
+Speaker 11:  because their fids is so low. Right. And then, and then
+
+1230
+01:18:28,045 --> 01:18:30,645
+Speaker 11:  you get whatever utility you get out of it and they, they kind of just curve
+
+1231
+01:18:30,645 --> 01:18:34,335
+Speaker 11:  right back up to glasses maybe a little bit under regular glasses
+
+1232
+01:18:34,335 --> 01:18:38,175
+Speaker 11:  because they have a little more fids to them. But
+
+1233
+01:18:38,175 --> 01:18:40,895
+Speaker 11:  they, they're, I think they're just on the same curve as regular glasses,
+
+1234
+01:18:40,945 --> 01:18:44,615
+Speaker 11:  which also take the a hundred point face fids de deduction. Right.
+
+1235
+01:18:45,035 --> 01:18:48,815
+Speaker 2:  I'm gonna be so interested to see how the clear ones end up doing in the
+
+1236
+01:18:48,815 --> 01:18:51,215
+Speaker 2:  real world that like limited edition one that they came out with because
+
+1237
+01:18:51,755 --> 01:18:55,695
+Speaker 2:  my like threads algorithm is filled with people who are obsessed with
+
+1238
+01:18:55,695 --> 01:18:58,375
+Speaker 2:  it. My threads algorithm is also filled with like nerds. And so, and
+
+1239
+01:18:58,375 --> 01:19:00,095
+Speaker 11:  That's also owned I would point out by meta.
+
+1240
+01:19:00,475 --> 01:19:04,095
+Speaker 2:  It is also one by meta. That's a very good point. So I think the, the question
+
+1241
+01:19:04,095 --> 01:19:07,255
+Speaker 2:  of like, I, I have a pair here that are essentially
+
+1242
+01:19:07,555 --> 01:19:11,535
+Speaker 2:  indistinguishable from normal Wayfairs. Like you would never look at me twice
+
+1243
+01:19:11,535 --> 01:19:14,855
+Speaker 2:  wearing them. They just look like Wayfairs. That is a huge victory. I think
+
+1244
+01:19:14,855 --> 01:19:18,615
+Speaker 2:  the, the clear ones look a little more like gadgets and So I think
+
+1245
+01:19:19,035 --> 01:19:22,775
+Speaker 2:  how those sort of percolate out into the world is gonna be really
+
+1246
+01:19:23,015 --> 01:19:25,895
+Speaker 2:  interesting because there is this like all the way at the other end of that
+
+1247
+01:19:26,015 --> 01:19:29,615
+Speaker 2:  spectrum is Google glass, which is like the gadgets gadget of all time.
+
+1248
+01:19:29,615 --> 01:19:33,015
+Speaker 11:  And it also offered almost no utility. Right? I just, everyone forgets this
+
+1249
+01:19:33,015 --> 01:19:36,855
+Speaker 11:  about Google Glass. You had a little display in your face that was not very
+
+1250
+01:19:36,855 --> 01:19:37,575
+Speaker 11:  useful at all.
+
+1251
+01:19:37,835 --> 01:19:40,495
+Speaker 2:  No, it like told you you had a text message. Yeah. And I'm like, my phone
+
+1252
+01:19:40,555 --> 01:19:41,855
+Speaker 2:  buzzes when that happens this far.
+
+1253
+01:19:41,875 --> 01:19:44,015
+Speaker 11:  You were just in the hole. It was like, and it would be like turn left.
+
+1254
+01:19:44,445 --> 01:19:47,135
+Speaker 11:  It's like when you were doing Google apps. Yeah. And it's just, none of
+
+1255
+01:19:47,135 --> 01:19:51,095
+Speaker 11:  this is useful at all. So I, the, the, the real thing
+
+1256
+01:19:51,095 --> 01:19:54,935
+Speaker 11:  that I think that the Raybans have accomplished is they've
+
+1257
+01:19:54,935 --> 01:19:58,135
+Speaker 11:  gotten closer to the curve is of regular glasses.
+
+1258
+01:19:59,035 --> 01:20:02,295
+Speaker 11:  What's really interesting is the clear ones you're talking about have the
+
+1259
+01:20:02,295 --> 01:20:05,895
+Speaker 11:  next generation of transitions lenses in them, gen S they're called,
+
+1260
+01:20:06,105 --> 01:20:09,765
+Speaker 11:  which are supposed to go from sunglasses to clear much faster than
+
+1261
+01:20:09,765 --> 01:20:13,605
+Speaker 11:  before. And the idea is that that will make you wanna wear them all the
+
+1262
+01:20:13,605 --> 01:20:13,725
+Speaker 11:  time.
+
+1263
+01:20:15,465 --> 01:20:19,185
+Speaker 11:  I don't know, you know like, are people gonna buy these way
+
+1264
+01:20:19,185 --> 01:20:21,265
+Speaker 11:  things that look like Wayfairs and then just like wear 'em around their
+
+1265
+01:20:21,265 --> 01:20:24,985
+Speaker 11:  office because they're getting so much value out of wearing the meta
+
+1266
+01:20:25,085 --> 01:20:27,905
+Speaker 11:  ray bands. And I think the answer is no. I think you're still on the same
+
+1267
+01:20:27,905 --> 01:20:31,865
+Speaker 11:  curve as just regular sunglasses. So we'll see. I think that's the most
+
+1268
+01:20:32,435 --> 01:20:36,265
+Speaker 11:  successful of these products because they've gotten to the
+
+1269
+01:20:36,265 --> 01:20:39,665
+Speaker 11:  same sort of value equation as a regular set of sunglasses.
+
+1270
+01:20:40,755 --> 01:20:43,725
+Speaker 2:  Yeah, I think that's right. And that's, that's a good example of, I don't
+
+1271
+01:20:44,045 --> 01:20:48,005
+Speaker 2:  know that like your sunglasses generally make you look like cooler
+
+1272
+01:20:48,065 --> 01:20:51,845
+Speaker 2:  and more attractive, but they are like useful and they look good.
+
+1273
+01:20:52,245 --> 01:20:55,245
+Speaker 11:  I think historically in, in the history of culture, people have thought
+
+1274
+01:20:55,245 --> 01:20:56,765
+Speaker 11:  sunglasses make them look cool and attractive.
+
+1275
+01:20:57,225 --> 01:21:00,085
+Speaker 2:  No, they just like make you mysterious 'cause nobody can see what you're
+
+1276
+01:21:00,085 --> 01:21:01,445
+Speaker 2:  looking at and that Yeah.
+
+1277
+01:21:01,835 --> 01:21:03,005
+Speaker 11:  Sexy and dangerous.
+
+1278
+01:21:04,105 --> 01:21:05,085
+Speaker 2:  How do you feel about your sunglasses?
+
+1279
+01:21:06,505 --> 01:21:09,565
+Speaker 11:  I'm just saying I think this is how most people feel about sunglasses.
+
+1280
+01:21:10,145 --> 01:21:14,005
+Speaker 2:  That's no, that's fair. So maybe, maybe we're onto something here that there's
+
+1281
+01:21:14,005 --> 01:21:17,165
+Speaker 2:  maybe the new, the the, the whatever seventh
+
+1282
+01:21:17,875 --> 01:21:20,885
+Speaker 2:  dimension of the, the theory of wearable bullshit.
+
+1283
+01:21:21,325 --> 01:21:24,605
+Speaker 11:  I think I'm down to just two. It's two in the face deduction,
+
+1284
+01:21:25,525 --> 01:21:27,985
+Speaker 2:  But there's also like a sexiness quotient.
+
+1285
+01:21:28,885 --> 01:21:32,465
+Speaker 11:  No, I disagree. Two all too subjective. It's fids versus
+
+1286
+01:21:32,495 --> 01:21:34,345
+Speaker 11:  utility and then face.
+
+1287
+01:21:34,685 --> 01:21:38,545
+Speaker 2:  So do we put sexiness under utility? Is one of the utility like
+
+1288
+01:21:38,745 --> 01:21:41,825
+Speaker 2:  a possible utility? Just it makes me look hot as a hell per
+
+1289
+01:21:41,825 --> 01:21:44,985
+Speaker 11:  Yeah. Perceived utility. It's all, it's all in there. Which is why face
+
+1290
+01:21:45,005 --> 01:21:48,465
+Speaker 11:  is such a wait is face, a fiddly face is utility
+
+1291
+01:21:48,465 --> 01:21:49,065
+Speaker 11:  deduction.
+
+1292
+01:21:49,495 --> 01:21:50,465
+Speaker 2:  Okay. I think that's right.
+
+1293
+01:21:52,325 --> 01:21:52,615
+Speaker 11:  That
+
+1294
+01:21:52,615 --> 01:21:54,815
+Speaker 2:  Seems, no, it's a fiddly deduction face is very fiddly.
+
+1295
+01:21:55,115 --> 01:21:55,935
+Speaker 11:  I'm never gonna get this right.
+
+1296
+01:21:57,715 --> 01:22:01,535
+Speaker 11:  It just depends on which axis is which. Whichever one brings you down
+
+1297
+01:22:01,585 --> 01:22:05,375
+Speaker 11:  below that curve like hard and then you've gotta like, you've gotta
+
+1298
+01:22:05,435 --> 01:22:09,295
+Speaker 11:  pay it off with utility. So it is a, it is a utility deduction.
+
+1299
+01:22:09,765 --> 01:22:10,055
+Speaker 2:  Okay.
+
+1300
+01:22:10,545 --> 01:22:13,575
+Speaker 11:  Right. You put it on your face, you suddenly need to deliver vastly more
+
+1301
+01:22:13,575 --> 01:22:15,175
+Speaker 11:  utility to get back above the curve. Right.
+
+1302
+01:22:15,195 --> 01:22:18,815
+Speaker 2:  And one of those utilities can be sexy looking
+
+1303
+01:22:18,875 --> 01:22:19,495
+Speaker 11:  Hot. Yeah.
+
+1304
+01:22:19,955 --> 01:22:23,535
+Speaker 2:  All right. There we go. We've solved it. And as always If, you
+
+1305
+01:22:23,925 --> 01:22:27,775
+Speaker 2:  listeners can figure out how to graph this for us. Please,
+
+1306
+01:22:27,775 --> 01:22:30,295
+Speaker 2:  dear God, we'll let you sponsor the lightning round for free.
+
+1307
+01:22:30,915 --> 01:22:31,135
+Speaker 11:  You
+
+1308
+01:22:31,135 --> 01:22:31,775
+Speaker 2:  Can figure out how to
+
+1309
+01:22:31,775 --> 01:22:35,215
+Speaker 11:  Do this. We've mentioned it before. So there's regular glasses. This is
+
+1310
+01:22:35,215 --> 01:22:39,015
+Speaker 11:  the, the first thing to put on your chart is regular glasses, which
+
+1311
+01:22:39,035 --> 01:22:42,615
+Speaker 11:  are quite fiddly, especially If. you need them to see
+
+1312
+01:22:43,315 --> 01:22:47,095
+Speaker 11:  the fact that If you lose them you can no longer see is really quite fiddly.
+
+1313
+01:22:47,095 --> 01:22:50,535
+Speaker 11:  Yes. Agreed. Like you gotta keep them clean. You can't lose 'em, you don't
+
+1314
+01:22:50,535 --> 01:22:54,095
+Speaker 11:  want to scratch 'em. You gotta, you gotta wear 'em all the time. Very fiddly
+
+1315
+01:22:54,445 --> 01:22:58,255
+Speaker 11:  utility off the chart. You're, you're, you're way above the curve
+
+1316
+01:22:58,435 --> 01:23:01,455
+Speaker 11:  of success on this, on this whatever quadrant chart we're doing.
+
+1317
+01:23:02,885 --> 01:23:05,685
+Speaker 11:  AirPods also in the chart. Good, good thing to graph right? People like
+
+1318
+01:23:05,805 --> 01:23:09,005
+Speaker 11:  'em, but they make you look like you have AirPods in your ears. Apple watch
+
+1319
+01:23:09,365 --> 01:23:12,325
+Speaker 11:  first gen versus the current gen, first gen. Ooh, that's a good one. So
+
+1320
+01:23:12,325 --> 01:23:16,205
+Speaker 11:  fiddly. Yep. Not a lot of utility. So fiddly below
+
+1321
+01:23:16,205 --> 01:23:20,045
+Speaker 11:  the curve and they, they, they evened it out to where they are now. So
+
+1322
+01:23:20,045 --> 01:23:22,565
+Speaker 11:  like that's the chart, right? You just gotta, if you're gonna put something
+
+1323
+01:23:22,565 --> 01:23:25,805
+Speaker 11:  on your body, it's gotta be so useful. It's worth the time and attention.
+
+1324
+01:23:27,235 --> 01:23:30,415
+Speaker 11:  And then you've got face, face deduction,
+
+1325
+01:23:32,965 --> 01:23:34,735
+Speaker 2:  Face deductions, the, the title of Neli,
+
+1326
+01:23:35,195 --> 01:23:35,695
+Speaker 11:  The face penalty.
+
+1327
+01:23:37,635 --> 01:23:39,855
+Speaker 2:  All right, we did it Neli. Thank you as always.
+
+1328
+01:23:40,875 --> 01:23:43,575
+Speaker 11:  I'm still mad about the Scott Galloway thing. I wanna be very clear with
+
+1329
+01:23:43,575 --> 01:23:43,815
+Speaker 11:  this.
+
+1330
+01:23:45,235 --> 01:23:48,015
+Speaker 2:  All right, that is it for the Vergecast. Thank you to everybody who was on
+
+1331
+01:23:48,015 --> 01:23:50,615
+Speaker 2:  the show today, and thank you as always for listening. There's lots more
+
+1332
+01:23:50,615 --> 01:23:54,255
+Speaker 2:  on everything. We talked about all of Jen's coverage of matter and thread
+
+1333
+01:23:54,555 --> 01:23:58,535
+Speaker 2:  and the video doorbells. She actually wrote about a smart door just yesterday.
+
+1334
+01:23:58,625 --> 01:24:02,535
+Speaker 2:  Great stuff. All that is on the website. All of Chris's reviews of
+
+1335
+01:24:02,545 --> 01:24:05,855
+Speaker 2:  these various headphones are on the website. I think the, the
+
+1336
+01:24:06,375 --> 01:24:09,815
+Speaker 2:  wearable theory is mostly a vergecast thing. So, you know,
+
+1337
+01:24:10,525 --> 01:24:14,175
+Speaker 2:  keep it locked here for all of the updates on
+
+1338
+01:24:14,465 --> 01:24:18,455
+Speaker 2:  Eli's insane wearables theory that basically doesn't make any sense. And
+
+1339
+01:24:18,455 --> 01:24:22,415
+Speaker 2:  If you have thoughts, questions or feelings or anything else you wanna talk
+
+1340
+01:24:22,415 --> 01:24:25,255
+Speaker 2:  about. Other headphones you want us to try other ways to put terrible audio
+
+1341
+01:24:25,395 --> 01:24:28,735
+Speaker 2:  on The Vergecast. You can always email us at vergecast at The Verge dot com
+
+1342
+01:24:28,955 --> 01:24:32,615
+Speaker 2:  or call the hotline. Eight six six VERGE one one. we love hearing from you.
+
+1343
+01:24:32,615 --> 01:24:35,615
+Speaker 2:  Please keep all our questions coming. This show is produced by Liam James
+
+1344
+01:24:35,615 --> 01:24:37,175
+Speaker 2:  Will pour and Eric Gomez
+

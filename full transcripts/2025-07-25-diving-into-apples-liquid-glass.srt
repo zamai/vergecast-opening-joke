@@ -1,0 +1,6904 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 39e9c6cb-3949-42bf-bb8f-c4b6b85136a9
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/-5603183497053625171/764916528568325678/s93290-US-6120s-1753664636.mp3
+Description: It’s time. The public betas for iOS 26, iPadOS 26, macOS 26, and more are finally out for everyone to try. Jake Kastrenakes, Vee Song, and Antonio G. Di Benedetto give their takes on Apple’s Liquid Glass design language after two months of living with it. Antonio shares his experiences with macOS and the upgraded Spotlight, and Vee dives into the ups and downs of watchOS’s AI fitness coach. Then, Andy Hawkins and Eater's Matthew Kang talk about Tesla’s rough quarter, the new Tesla Diner, and what Epic Bacon has to do with it all. Finally, the Thunder Round returns, and we all learn what Labubus are.
+
+
+
+
+2
+00:00:41,495 --> 00:00:44,965
+Speaker 3:  Hello and Welcome to The Vergecast, the flagship podcast of making things
+
+3
+00:00:44,995 --> 00:00:48,285
+Speaker 3:  translucent. Then a little less translucent, then a little more translucent.
+
+4
+00:00:48,285 --> 00:00:52,045
+Speaker 3:  Again, I'm Jay Castor Nacas, executive editor at The Verge, NELI Patel, David Pierce.
+
+5
+00:00:52,045 --> 00:00:55,325
+Speaker 3:  Those guys aren't here. They're at home. They have newborns. They're taking
+
+6
+00:00:55,325 --> 00:00:59,165
+Speaker 3:  some time off on parental leave. They'll be back later this year. Today
+
+7
+00:00:59,375 --> 00:01:03,285
+Speaker 3:  we've got a really fun show later on. VERGE Transportation
+
+8
+00:01:03,345 --> 00:01:07,165
+Speaker 3:  editor, Andy Hawkins, is gonna join us. And Eater LA editor
+
+9
+00:01:07,165 --> 00:01:10,285
+Speaker 3:  Matthew Kang is gonna come on. And we're gonna be talking about Tesla and
+
+10
+00:01:10,285 --> 00:01:13,885
+Speaker 3:  the new Tesla Diner. I thought this was a joke when they announced it. It
+
+11
+00:01:13,885 --> 00:01:17,325
+Speaker 3:  is a real thing. They really announced this and launched a diner.
+
+12
+00:01:18,715 --> 00:01:22,165
+Speaker 3:  Then the thunder round is back. New and improved as always.
+
+13
+00:01:22,705 --> 00:01:26,365
+Speaker 3:  But first it's a big Apple week. So we've gotta talk about Apple.
+
+14
+00:01:27,015 --> 00:01:30,285
+Speaker 3:  We've got two VERGE reviewers here to talk about it in the studio with me.
+
+15
+00:01:30,425 --> 00:01:34,085
+Speaker 3:  Vee Song. Hello. And we've got Antonio
+
+16
+00:01:34,445 --> 00:01:38,085
+Speaker 3:  d Benedetto. Hello. So breaking news, like an hour
+
+17
+00:01:38,225 --> 00:01:41,845
+Speaker 3:  ago right before we recorded this, apple launched The public betas for
+
+18
+00:01:42,505 --> 00:01:46,205
+Speaker 3:  iOS 26, iPadOS 26 watch, west
+
+19
+00:01:46,205 --> 00:01:50,045
+Speaker 3:  26. I think like everything, except everything is Os No, everything
+
+20
+00:01:50,045 --> 00:01:53,965
+Speaker 3:  is 26. Everything is 26 now. Everything is 26 now. You
+
+21
+00:01:53,965 --> 00:01:57,565
+Speaker 3:  can now download them, you can try them out. Maybe don't if it's like your
+
+22
+00:01:57,565 --> 00:02:01,085
+Speaker 3:  primary device, but if you got an extra iPad lying around, this is its moment.
+
+23
+00:02:01,345 --> 00:02:04,805
+Speaker 3:  So big features across the board. There's Liquid Glass, the brand new design
+
+24
+00:02:04,895 --> 00:02:08,845
+Speaker 3:  style that is across all the new operating systems. There's new
+
+25
+00:02:08,895 --> 00:02:12,845
+Speaker 3:  games app, there are lots of power user features, particularly on the
+
+26
+00:02:12,865 --> 00:02:16,765
+Speaker 3:  Mac and the iPad. So v Antonio, both of you have been testing these for a
+
+27
+00:02:16,765 --> 00:02:20,645
+Speaker 3:  while because you've been in the developer beta. I just got my hands on
+
+28
+00:02:20,645 --> 00:02:24,485
+Speaker 3:  with these because okay, I got banned from the developer beta.
+
+29
+00:02:24,485 --> 00:02:27,245
+Speaker 3:  Did you know that you can get kicked out of the developer? I did not know.
+
+30
+00:02:27,595 --> 00:02:31,445
+Speaker 3:  What did you do? I didn't think I did anything. So I, so this is
+
+31
+00:02:31,445 --> 00:02:34,565
+Speaker 3:  like new-ish, right? Like Apple used to require you to like pay a hundred
+
+32
+00:02:34,565 --> 00:02:37,645
+Speaker 3:  dollars or something to get in the developer program if you wanted to get
+
+33
+00:02:37,645 --> 00:02:41,045
+Speaker 3:  the developer betas. And a lot of people were like, yeah, sure, but recently
+
+34
+00:02:41,065 --> 00:02:44,565
+Speaker 3:  you've been able to like get in for free, which is great, right? Anybody
+
+35
+00:02:44,585 --> 00:02:48,045
+Speaker 3:  can just get the developer beta if they really want to. However,
+
+36
+00:02:48,785 --> 00:02:52,045
+Speaker 3:  you have to fill out an application, right? There's like, you have to find
+
+37
+00:02:52,195 --> 00:02:55,645
+Speaker 3:  some weird web pages. I know you both went through this, but you gotta find
+
+38
+00:02:55,645 --> 00:02:58,965
+Speaker 3:  the right webpage. You gotta go to the application. And then it says like,
+
+39
+00:02:59,105 --> 00:03:03,085
+Speaker 3:  put in your information to apply. And I was like, yeah, sure. I've
+
+40
+00:03:03,085 --> 00:03:06,685
+Speaker 3:  put in my information on a million forms on the web every single day.
+
+41
+00:03:06,865 --> 00:03:10,685
+Speaker 3:  So I'm like, Jake, okay, here's my address. Turns out
+
+42
+00:03:11,145 --> 00:03:14,085
+Speaker 3:  if you do not precisely enter this information,
+
+43
+00:03:14,815 --> 00:03:18,605
+Speaker 3:  apple compares it to your Apple id. And they're like, no, no, no, no, this
+
+44
+00:03:18,605 --> 00:03:19,045
+Speaker 3:  is not correct.
+
+45
+00:03:19,275 --> 00:03:20,405
+Speaker 4:  This is privacy and
+
+46
+00:03:20,565 --> 00:03:24,285
+Speaker 3:  Security. Shut down. Oh goodness. Down and out. You're done. One
+
+47
+00:03:24,285 --> 00:03:27,805
+Speaker 3:  chance, one chance, and you're, you're booted, you're banned for life. I
+
+48
+00:03:27,805 --> 00:03:31,005
+Speaker 3:  think. So I googled this and there's a bunch of people on Reddit who are
+
+49
+00:03:31,005 --> 00:03:34,445
+Speaker 3:  just like, yeah man, I tried, I tried contacting, I've sent so many emails,
+
+50
+00:03:34,465 --> 00:03:37,845
+Speaker 3:  nobody responds. There's nothing you can do. You just gotta make a new Apple
+
+51
+00:03:38,025 --> 00:03:39,405
+Speaker 3:  id. You're just like, you're
+
+52
+00:03:39,405 --> 00:03:40,965
+Speaker 4:  Stuck. Oh my God, that's
+
+53
+00:03:41,585 --> 00:03:43,845
+Speaker 3:  Wow. The EU has to get involved, obviously,
+
+54
+00:03:44,165 --> 00:03:47,245
+Speaker 5:  Because that's the solution. If, if Fortnite can go back on the app store,
+
+55
+00:03:47,245 --> 00:03:49,845
+Speaker 5:  then you can get the developer beta again. There's gotta be
+
+56
+00:03:49,845 --> 00:03:53,565
+Speaker 3:  A way I should be able to lie on my developer
+
+57
+00:03:53,565 --> 00:03:57,045
+Speaker 3:  application. Wow. I think it is, it is inappropriate
+
+58
+00:03:57,315 --> 00:03:59,605
+Speaker 3:  that they enforced that I answer my name correctly.
+
+59
+00:04:00,825 --> 00:04:01,565
+Speaker 4:  Did you spell your
+
+60
+00:04:01,565 --> 00:04:04,245
+Speaker 3:  Name wrong? I guess I, okay. I mean, yes.
+
+61
+00:04:06,005 --> 00:04:09,725
+Speaker 3:  I think In fact that is what happened. And look, they got me there. I, I
+
+62
+00:04:09,725 --> 00:04:13,125
+Speaker 3:  could have spelled my name better, but I didn't know they were checking.
+
+63
+00:04:13,665 --> 00:04:14,085
+Speaker 3:  That's
+
+64
+00:04:14,425 --> 00:04:15,045
+Speaker 4:  That's a little
+
+65
+00:04:15,045 --> 00:04:17,885
+Speaker 3:  Unhinged. Yeah, it's a little unhinged. That's honestly, honestly, that's
+
+66
+00:04:17,885 --> 00:04:20,325
+Speaker 3:  like extremely apple of them to be like Jack
+
+67
+00:04:20,665 --> 00:04:21,445
+Speaker 5:  Castus strikes
+
+68
+00:04:21,445 --> 00:04:25,325
+Speaker 3:  Again. You, you have to do this precisely our way or,
+
+69
+00:04:25,385 --> 00:04:28,605
+Speaker 3:  or you're not, you're not worthy of the developer Beta. I wasn't worthy.
+
+70
+00:04:28,705 --> 00:04:29,245
+Speaker 3:  You two were.
+
+71
+00:04:30,065 --> 00:04:32,125
+Speaker 4:  That's, I'm sorry.
+
+72
+00:04:32,825 --> 00:04:35,885
+Speaker 3:  So as two worthy fellows
+
+73
+00:04:37,505 --> 00:04:41,405
+Speaker 3:  in Apple's eyes and we're, you know, we're right, they announced Liquid
+
+74
+00:04:41,405 --> 00:04:45,125
+Speaker 3:  Glass, they announced new operating systems at wwc start of June. You've
+
+75
+00:04:45,125 --> 00:04:48,245
+Speaker 3:  both been testing these in different forms, different devices for the past
+
+76
+00:04:48,265 --> 00:04:52,045
+Speaker 3:  two months. Liquid Glass was like, you know, controversial.
+
+77
+00:04:52,045 --> 00:04:55,085
+Speaker 3:  Controversial first liquid s How are we, how are we feeling? Two months in
+
+78
+00:04:55,385 --> 00:04:55,805
+Speaker 3:  liquid
+
+79
+00:04:56,165 --> 00:05:00,045
+Speaker 4:  SI do not. Well, okay. I
+
+80
+00:05:00,045 --> 00:05:03,805
+Speaker 4:  have a, I have a more nuanced take rather than just, it's all Ass,
+
+81
+00:05:04,095 --> 00:05:07,925
+Speaker 4:  which is it's ass on the iPhone, but it's okay on the watch
+
+82
+00:05:07,945 --> 00:05:11,565
+Speaker 4:  and on on Mac. Interesting, interesting. It's okay on those platforms. And
+
+83
+00:05:11,565 --> 00:05:15,485
+Speaker 4:  I think my problem with the phone, which I shall bring out now
+
+84
+00:05:15,485 --> 00:05:19,365
+Speaker 4:  because you were asking me earlier to take a, take a little gander
+
+85
+00:05:19,365 --> 00:05:22,885
+Speaker 4:  at it And I can't read anything. I just can't read
+
+86
+00:05:23,325 --> 00:05:26,925
+Speaker 4:  anything. Look at this, look at this. So it's just, if you have any
+
+87
+00:05:27,285 --> 00:05:31,205
+Speaker 4:  sort of background and any sort of background that is
+
+88
+00:05:31,205 --> 00:05:34,805
+Speaker 4:  not like a solid thing or, or an ombre gradient.
+
+89
+00:05:35,435 --> 00:05:38,885
+Speaker 4:  It's just so hard to read. And I think it's most visible
+
+90
+00:05:39,545 --> 00:05:43,485
+Speaker 4:  in the Messages app and in the music app because in the music app there's
+
+91
+00:05:43,485 --> 00:05:46,405
+Speaker 4:  like this little bar at the bottom and if you're trying to read the name
+
+92
+00:05:46,405 --> 00:05:49,365
+Speaker 4:  of the song that's playing, but the album art is in the background, can't
+
+93
+00:05:49,365 --> 00:05:53,165
+Speaker 4:  see, you can't see shit. It's just, how am I supposed to
+
+94
+00:05:53,165 --> 00:05:56,325
+Speaker 4:  read this? How am I supposed to do anything about this? And in the Messages
+
+95
+00:05:56,325 --> 00:05:59,125
+Speaker 4:  app, if you don't like, make the button outline
+
+96
+00:06:00,005 --> 00:06:03,605
+Speaker 4:  something that you toggle on in the accessibility setting, it just blends
+
+97
+00:06:03,605 --> 00:06:07,125
+Speaker 4:  into everything. And then, you know, I have, I have garbage eyes, so I just
+
+98
+00:06:07,125 --> 00:06:08,805
+Speaker 4:  can't see anything And I can't read anything angry
+
+99
+00:06:08,805 --> 00:06:11,405
+Speaker 3:  And I don't wanna shame you here, But that, that font is already blown up.
+
+100
+00:06:11,545 --> 00:06:13,285
+Speaker 3:  That's, that's not a small font. It's
+
+101
+00:06:13,285 --> 00:06:16,405
+Speaker 4:  Not a small font. It's not a false, I do, I have the big phone
+
+102
+00:06:17,225 --> 00:06:21,125
+Speaker 4:  to, to blow up my font as large as I can. Like if, if
+
+103
+00:06:21,125 --> 00:06:24,565
+Speaker 4:  you're in studio, you could sit over there and you could read all my messages.
+
+104
+00:06:24,605 --> 00:06:28,325
+Speaker 4:  I got nothing to hide. But like, I need that so that I can read. And it's
+
+105
+00:06:28,325 --> 00:06:32,285
+Speaker 4:  just, so I had to turn on all the accessibility settings,
+
+106
+00:06:32,285 --> 00:06:36,045
+Speaker 4:  which turns down the transparency, in which case there's no point in me having
+
+107
+00:06:36,705 --> 00:06:38,565
+Speaker 4:  liquid glass on my phone.
+
+108
+00:06:38,635 --> 00:06:40,125
+Speaker 3:  Does that get it to a usable place?
+
+109
+00:06:40,665 --> 00:06:44,205
+Speaker 4:  It gets it to a usable place. 'cause it's much frostier. It's no longer liquid
+
+110
+00:06:44,205 --> 00:06:45,485
+Speaker 4:  glass. It's frosted glass. Well,
+
+111
+00:06:45,485 --> 00:06:48,485
+Speaker 3:  Okay, but they've been changing it over the course of the betas, right? Like
+
+112
+00:06:48,485 --> 00:06:52,405
+Speaker 3:  they made, they made it like more frosted. And now I think in the most
+
+113
+00:06:52,405 --> 00:06:53,845
+Speaker 3:  recent one it is again, it's,
+
+114
+00:06:53,845 --> 00:06:54,245
+Speaker 4:  It's Glos g
+
+115
+00:06:54,245 --> 00:06:54,605
+Speaker 3:  Glassier
+
+116
+00:06:54,815 --> 00:06:56,125
+Speaker 4:  Again, it's Glossier again. And I was like,
+
+117
+00:06:56,205 --> 00:06:56,965
+Speaker 3:  Hmm. Has it gotten better
+
+118
+00:06:57,105 --> 00:07:00,925
+Speaker 4:  For you? No, not, not. Well there's like this new kind of
+
+119
+00:07:00,925 --> 00:07:04,885
+Speaker 4:  effect where when you bring up the notifications, it
+
+120
+00:07:04,915 --> 00:07:08,125
+Speaker 4:  darkens a little bit. Okay, yeah. So then you can like, see it slightly better.
+
+121
+00:07:08,445 --> 00:07:11,205
+Speaker 4:  I saw it And I was like, listen,
+
+122
+00:07:12,445 --> 00:07:16,365
+Speaker 4:  I already have by text blown up, blown up so that
+
+123
+00:07:16,525 --> 00:07:20,455
+Speaker 4:  everyone can read it from Jupiter. Like just, just, just help
+
+124
+00:07:20,535 --> 00:07:23,975
+Speaker 4:  a girl, help a girl out. Help a very,
+
+125
+00:07:24,605 --> 00:07:28,455
+Speaker 4:  very blind as a bat girl out. Like it's not, it's, I just can't
+
+126
+00:07:28,455 --> 00:07:32,255
+Speaker 4:  read it that well. It's, it's all right. When I talk to people who are also
+
+127
+00:07:33,285 --> 00:07:37,135
+Speaker 4:  tech nerds and they've, so like, our, our, our old merchandising guy,
+
+128
+00:07:37,375 --> 00:07:40,815
+Speaker 4:  Parker, I chat with him every once in a while and he, he like, as soon as
+
+129
+00:07:40,815 --> 00:07:44,215
+Speaker 4:  he's like, oh, you got the beta, okay, I put a wallpaper up in our chat
+
+130
+00:07:44,635 --> 00:07:48,455
+Speaker 4:  and like, so there's like a wallpaper in our messages chat and like it changes
+
+131
+00:07:49,515 --> 00:07:53,055
+Speaker 4:  the readability of it so that I can read it a bit better. And you know,
+
+132
+00:07:53,555 --> 00:07:57,495
+Speaker 4:  in that one chat everything is fine, but all of my other friends and my family,
+
+133
+00:07:57,965 --> 00:07:59,375
+Speaker 4:  it's just like, oh good lord.
+
+134
+00:07:59,885 --> 00:08:02,495
+Speaker 3:  It's very funny of you have to much to optimize around it. Yeah,
+
+135
+00:08:02,495 --> 00:08:03,415
+Speaker 4:  You really do. It's
+
+136
+00:08:03,685 --> 00:08:06,895
+Speaker 3:  Antonio. Is it like as extreme on the Mac?
+
+137
+00:08:07,555 --> 00:08:11,415
+Speaker 5:  No, I feel bad actually that it's that bad on the phone and I'm not
+
+138
+00:08:11,415 --> 00:08:14,575
+Speaker 5:  looking for, so I, I kind of held off on installing it on my phone this time.
+
+139
+00:08:14,815 --> 00:08:18,255
+Speaker 5:  'cause I had a pretty bad experience last year with, when Sequoia was in
+
+140
+00:08:18,255 --> 00:08:21,415
+Speaker 5:  developer preview, wrote absolutely wrecking my phone.
+
+141
+00:08:22,395 --> 00:08:26,295
+Speaker 5:  So, but on the Mac side it's, it's kind of fine. It's just, it's
+
+142
+00:08:26,295 --> 00:08:30,055
+Speaker 5:  like, I don't really particularly like it. I mean I'm, I I called it a bit
+
+143
+00:08:30,055 --> 00:08:32,655
+Speaker 5:  of a snoozer in, in the, my writeup on it. But
+
+144
+00:08:33,885 --> 00:08:37,615
+Speaker 5:  it's just whatever, because there's so much more room on a
+
+145
+00:08:37,935 --> 00:08:41,895
+Speaker 5:  bigger display that you, it's just kind of innocuous. It's like, okay, every
+
+146
+00:08:41,895 --> 00:08:45,855
+Speaker 5:  time I look at like another MacBook Air that I have on the side
+
+147
+00:08:45,855 --> 00:08:48,855
+Speaker 5:  that I like ha was still on Sequoia And I was looking one-to-one. I'm like,
+
+148
+00:08:49,015 --> 00:08:51,575
+Speaker 5:  I just like that better. I think that looks cleaner and nicer.
+
+149
+00:08:53,075 --> 00:08:55,925
+Speaker 5:  But then, you know, once you stare at liquid glass long enough, especially
+
+150
+00:08:55,925 --> 00:08:59,685
+Speaker 5:  on a, on a 13 inch, 15 inch screen, a laptop or
+
+151
+00:08:59,825 --> 00:09:03,605
+Speaker 5:  you know, a big monitor like I'm looking at right now, it's
+
+152
+00:09:03,605 --> 00:09:06,765
+Speaker 5:  kind of whatever. 'cause it's kind of tucked away, you know, it's, it's in,
+
+153
+00:09:06,765 --> 00:09:09,765
+Speaker 5:  it's in corners. It's in, you know, they, they move the widgets over to the
+
+154
+00:09:09,765 --> 00:09:13,645
+Speaker 5:  desktop. You can still undo that, but it's on
+
+155
+00:09:13,725 --> 00:09:16,445
+Speaker 5:  the desktop and it's like kind of, it's in the top left corner. Your, your
+
+156
+00:09:16,475 --> 00:09:20,165
+Speaker 5:  menu bar is, well, it's invisible now. You can undo that
+
+157
+00:09:20,305 --> 00:09:24,245
+Speaker 5:  too. The doc is tucked to the bottom and
+
+158
+00:09:24,465 --> 00:09:27,165
+Speaker 5:  you know, control center is, I, I never use, I don't use control center.
+
+159
+00:09:27,205 --> 00:09:28,845
+Speaker 5:  I So on a Mac. On a Mac,
+
+160
+00:09:29,475 --> 00:09:33,445
+Speaker 4:  Yeah, I do use it. What's the point? I, I'm shortcuts. Like,
+
+161
+00:09:33,445 --> 00:09:36,405
+Speaker 4:  they added little shortcuts in there that I was like, oh, I can scrape record
+
+162
+00:09:36,445 --> 00:09:40,205
+Speaker 4:  a little easier. That's nice. But I did get really angry because
+
+163
+00:09:40,315 --> 00:09:44,085
+Speaker 4:  they changed the, like the little icons in the
+
+164
+00:09:44,085 --> 00:09:47,685
+Speaker 4:  control center for Bluetooth and all of a sudden I couldn't access my Bluetooth
+
+165
+00:09:47,685 --> 00:09:51,365
+Speaker 4:  devices easily. And I was just like, this is an obscene.
+
+166
+00:09:51,745 --> 00:09:54,805
+Speaker 4:  And then I went to edit And I was like, oh, I could just put that back. That's
+
+167
+00:09:54,805 --> 00:09:55,445
+Speaker 4:  fine. So
+
+168
+00:09:55,475 --> 00:09:59,405
+Speaker 5:  Yeah, see, but that's the advantage of a desktop operating system and
+
+169
+00:09:59,465 --> 00:10:03,045
+Speaker 5:  why usually these things are like, not such a big deal because there's so
+
+170
+00:10:03,045 --> 00:10:06,605
+Speaker 5:  many different ways you can do all of this stuff, right? I have like in the
+
+171
+00:10:06,605 --> 00:10:09,805
+Speaker 5:  top right of my corner, I can go to control center, but I have another Bluetooth
+
+172
+00:10:10,075 --> 00:10:14,045
+Speaker 5:  like dropdown menu with one click that actually has more
+
+173
+00:10:14,045 --> 00:10:18,005
+Speaker 5:  controls. And you know, the widgets are on the desktop
+
+174
+00:10:18,025 --> 00:10:20,805
+Speaker 5:  now, but you can, you still have the option to push them back to the old
+
+175
+00:10:20,805 --> 00:10:24,045
+Speaker 5:  way. So, you know, that's the thing is I think like with, with an iPhone,
+
+176
+00:10:25,385 --> 00:10:29,085
+Speaker 5:  iOS, iPadOS, like those kinds of smaller screens and you're
+
+177
+00:10:29,425 --> 00:10:33,365
+Speaker 5:  and touch interfaces, you're limited in you the way you have to use it.
+
+178
+00:10:33,755 --> 00:10:37,485
+Speaker 5:  When we, when Jay first, when Jay Peters first posted that
+
+179
+00:10:37,485 --> 00:10:41,405
+Speaker 5:  picture of the, when the Del Beta launched day one and it was of con control
+
+180
+00:10:41,405 --> 00:10:45,245
+Speaker 5:  center swiped down on his iPhone, that screenshot like horrified
+
+181
+00:10:45,245 --> 00:10:48,405
+Speaker 5:  me. I thought it was just so like hard to parse and yeah. And it was just
+
+182
+00:10:48,405 --> 00:10:51,765
+Speaker 5:  so busy. And I'm like, okay, the, the Windows Vista
+
+183
+00:10:52,135 --> 00:10:55,685
+Speaker 5:  jokes and memes are, are true. There's something to that. Like Microsoft
+
+184
+00:10:55,705 --> 00:10:59,685
+Speaker 5:  can go ahead and, you know, try to own them. Like they try tried it's, but
+
+185
+00:11:00,645 --> 00:11:04,625
+Speaker 5:  on a Mac it's like, eh, it's fine. It's, I don't like it, but it can kind
+
+186
+00:11:04,625 --> 00:11:08,105
+Speaker 5:  of ignore it and just, you know, it's just, I think the usual way of these,
+
+187
+00:11:08,275 --> 00:11:12,265
+Speaker 5:  these changes is that we'll kind of just get used to them. It's like,
+
+188
+00:11:12,535 --> 00:11:16,065
+Speaker 5:  it's kind of a war of attrition, I think. I think eventually we just adjust.
+
+189
+00:11:16,705 --> 00:11:18,625
+Speaker 4:  Absolutely not, I will hate this forever. Okay.
+
+190
+00:11:18,645 --> 00:11:22,065
+Speaker 5:  Oh no, I'll still dislike it. I'll still look back at Sequoia and like, that
+
+191
+00:11:22,065 --> 00:11:25,185
+Speaker 5:  was better. Just the way a lot of us look back at fricking snow leopard.
+
+192
+00:11:25,385 --> 00:11:29,305
+Speaker 5:  Like that was really great, you know, but I just think that
+
+193
+00:11:29,305 --> 00:11:33,185
+Speaker 5:  like, you just kind of get, get used to it again on a desktop os especially,
+
+194
+00:11:33,365 --> 00:11:37,345
+Speaker 4:  You know, on a desktop, to your point, like the larger screen I think gives
+
+195
+00:11:37,345 --> 00:11:41,145
+Speaker 4:  you more space to deal with the horrible transparency of it. It's not necessarily
+
+196
+00:11:41,145 --> 00:11:44,465
+Speaker 4:  gonna be as bad, especially if you have multiple monitors, which many of
+
+197
+00:11:44,465 --> 00:11:48,145
+Speaker 4:  us nerds do also on an even
+
+198
+00:11:48,145 --> 00:11:51,945
+Speaker 4:  smaller screen than a phone. If you have, if you have a Apple watch,
+
+199
+00:11:51,975 --> 00:11:55,205
+Speaker 4:  like you can see a little bit of the liquid gloss and the numbers
+
+200
+00:11:55,855 --> 00:11:59,765
+Speaker 4:  there. Or like in the passcode, it's so not noticeable that
+
+201
+00:11:59,845 --> 00:12:03,605
+Speaker 4:  I don't care that it's on the watch at all. But on
+
+202
+00:12:03,625 --> 00:12:07,405
+Speaker 4:  my phone, on my phone, a device that I am on far
+
+203
+00:12:07,465 --> 00:12:11,165
+Speaker 4:  too often every day that has a ton of information and that, you
+
+204
+00:12:11,485 --> 00:12:15,405
+Speaker 4:  know, what I realized from this experiment experience is that like, I'm
+
+205
+00:12:15,405 --> 00:12:19,205
+Speaker 4:  using it to primarily read. Like I'm reading my notifications, I'm reading
+
+206
+00:12:19,225 --> 00:12:23,165
+Speaker 4:  my messages, I am reading The Verge dot com every day. And
+
+207
+00:12:23,305 --> 00:12:26,805
+Speaker 4:  you know, when you're going through things, when notifications pop up, it's
+
+208
+00:12:26,805 --> 00:12:27,965
+Speaker 4:  just a mess.
+
+209
+00:12:28,625 --> 00:12:31,685
+Speaker 3:  So what's interesting, like, I I think another point of this is
+
+210
+00:12:32,255 --> 00:12:35,915
+Speaker 3:  system UI is just so much more prevalent on a phone versus
+
+211
+00:12:36,055 --> 00:12:39,875
+Speaker 3:  on a laptop or on or a Mac, like Antonio is saying. And so
+
+212
+00:12:39,875 --> 00:12:43,355
+Speaker 3:  it's interesting 'cause like glass doesn't really get spread throughout third
+
+213
+00:12:43,355 --> 00:12:46,115
+Speaker 3:  party apps. Like it's in the music app and you're like, this is really annoying
+
+214
+00:12:46,115 --> 00:12:49,875
+Speaker 3:  and ugly. Yeah. But like, if you're using Chrome on the
+
+215
+00:12:49,905 --> 00:12:53,715
+Speaker 3:  desktop, I don't know, liquid, like in full screen, like where is liquid
+
+216
+00:12:53,715 --> 00:12:57,155
+Speaker 3:  glass? It's nowhere. Whereas on the iPhone, you like cannot avoid it. You
+
+217
+00:12:57,155 --> 00:12:59,915
+Speaker 3:  can't. It's so, okay, here's my feeling.
+
+218
+00:13:00,945 --> 00:13:04,555
+Speaker 3:  It's a little chaotic And I love it And I want more chaos in our lives. I
+
+219
+00:13:04,555 --> 00:13:07,915
+Speaker 3:  think, I think we should embrace like a slightly
+
+220
+00:13:09,405 --> 00:13:12,995
+Speaker 3:  unpolished, imperfect, messy design. Jake,
+
+221
+00:13:13,195 --> 00:13:16,355
+Speaker 4:  I feel like you're chaotic evil on the d and d chart with that
+
+222
+00:13:16,355 --> 00:13:18,475
+Speaker 3:  Take. Listen, is it a little hard to read? Absolutely.
+
+223
+00:13:20,475 --> 00:13:24,175
+Speaker 3:  Is it like maybe a little, you know, not the most cutting edge
+
+224
+00:13:24,175 --> 00:13:28,015
+Speaker 3:  thing, right? Is this something that like Windows did with Arrow like a decade
+
+225
+00:13:28,115 --> 00:13:31,815
+Speaker 3:  or more ago? Yeah, of course, of course. Like is this gonna look dated at
+
+226
+00:13:31,815 --> 00:13:35,495
+Speaker 3:  some point very soon? Like prob But you know what, go for it. I like it.
+
+227
+00:13:35,615 --> 00:13:39,455
+Speaker 3:  I want the, it's weird. It's cool. I remember when iOS seven came out,
+
+228
+00:13:40,085 --> 00:13:44,005
+Speaker 3:  they were just like, right, like pedal to the
+
+229
+00:13:44,005 --> 00:13:47,845
+Speaker 3:  ground, right? They're like, we're going all the way, it's gonna be ridiculous.
+
+230
+00:13:47,965 --> 00:13:51,925
+Speaker 3:  I was looking at old like, you know, beta one for
+
+231
+00:13:52,105 --> 00:13:55,805
+Speaker 3:  iOS seven, there are some buttons and it's like, it says like
+
+232
+00:13:55,895 --> 00:13:58,565
+Speaker 3:  swipe. And I'm like, I don't even know where to swipe. Like, it just, like,
+
+233
+00:13:58,565 --> 00:14:01,645
+Speaker 3:  there's no, there's no button on it. It's just like a, it just a big thing
+
+234
+00:14:01,645 --> 00:14:04,525
+Speaker 3:  that says swipe and it's like, I don't know what to do with this, but it's
+
+235
+00:14:04,525 --> 00:14:08,085
+Speaker 3:  like, it's opinionated And I kind of love these
+
+236
+00:14:08,755 --> 00:14:12,685
+Speaker 3:  like immediate post redesign moments where you're like, this is a mess.
+
+237
+00:14:12,875 --> 00:14:16,485
+Speaker 3:  It's not perfect, but like, they're trying something and this is sort of
+
+238
+00:14:16,485 --> 00:14:18,925
+Speaker 3:  like the purest version of the idea. And
+
+239
+00:14:20,845 --> 00:14:24,095
+Speaker 3:  it's, it's, it's a problem because like this is going out to
+
+240
+00:14:24,415 --> 00:14:28,215
+Speaker 3:  millions of people and it has to work for all of them.
+
+241
+00:14:28,675 --> 00:14:32,655
+Speaker 3:  And so like, you can't have major accessibility problems, which
+
+242
+00:14:32,655 --> 00:14:34,735
+Speaker 3:  like making everything transparent.
+
+243
+00:14:35,325 --> 00:14:37,655
+Speaker 4:  It's a major accessibility issue. Yeah.
+
+244
+00:14:37,995 --> 00:14:41,895
+Speaker 3:  But like, I don't know. I don't know. I want a little, like, you're,
+
+245
+00:14:41,895 --> 00:14:44,295
+Speaker 3:  you're showing me these things and it's like, I can't really read this. And
+
+246
+00:14:44,295 --> 00:14:48,135
+Speaker 3:  I'm like, yeah man, let's scroll around a little bit. Keep on swiping.
+
+247
+00:14:48,135 --> 00:14:50,935
+Speaker 3:  Eventually you'll be able to read it. Is it opinionated
+
+248
+00:14:50,965 --> 00:14:54,805
+Speaker 5:  Though, or is it just more on the chaotic side? I, I can't, like, I, I know
+
+249
+00:14:54,805 --> 00:14:57,525
+Speaker 5:  what I probably shouldn't like theorize or like conspiracy theorize, but
+
+250
+00:14:57,525 --> 00:15:01,245
+Speaker 5:  it just, it, to me it just feels like they are like
+
+251
+00:15:01,245 --> 00:15:05,085
+Speaker 5:  Apple. They, they being the designers like, but Apple as a whole is
+
+252
+00:15:05,115 --> 00:15:09,005
+Speaker 5:  kind of just trying to distract from, I can't shake the feeling that
+
+253
+00:15:09,005 --> 00:15:12,405
+Speaker 5:  they're trying to distract from like, oh don't, don't mind how Apple intelligence
+
+254
+00:15:12,865 --> 00:15:16,645
+Speaker 5:  is kind of meh. And, and oh ignore that. You know,
+
+255
+00:15:16,995 --> 00:15:20,845
+Speaker 5:  that new series we talked about and even had a, an advertisement featuring
+
+256
+00:15:20,885 --> 00:15:24,605
+Speaker 5:  a celebrity and paid a lot of money for that. Afraid about that liquid
+
+257
+00:15:24,605 --> 00:15:27,485
+Speaker 5:  glass. It's just, and it, and then they're, they're just fine. They're trying
+
+258
+00:15:27,485 --> 00:15:31,425
+Speaker 5:  to fine tune it. I just, this is just speculation, but I just
+
+259
+00:15:31,425 --> 00:15:35,025
+Speaker 5:  feel like they are like going a little seat of their pants here. Whereas
+
+260
+00:15:35,305 --> 00:15:38,985
+Speaker 5:  I think iOS seven I think was, it had something to say. It was
+
+261
+00:15:38,985 --> 00:15:41,945
+Speaker 5:  initially a little off the mark and they, they course corrected and you know,
+
+262
+00:15:42,045 --> 00:15:45,865
+Speaker 5:  and made that made what they tweaked what they had to say here. I feel like
+
+263
+00:15:45,865 --> 00:15:49,785
+Speaker 5:  they're just like tweaking for like, we gotta make this work. We gotta squa
+
+264
+00:15:49,815 --> 00:15:53,785
+Speaker 5:  like jam this round peg into a square
+
+265
+00:15:53,785 --> 00:15:54,385
+Speaker 5:  hole. Well
+
+266
+00:15:54,385 --> 00:15:57,265
+Speaker 4:  Like the other thing is that liquid glass originates from
+
+267
+00:15:57,985 --> 00:16:01,905
+Speaker 4:  famously the most successful apple hardware of all time. The Vision Pro.
+
+268
+00:16:02,765 --> 00:16:06,705
+Speaker 4:  And so when you have liquid glass on the Vision Pro,
+
+269
+00:16:07,005 --> 00:16:10,545
+Speaker 4:  it makes sense. You are in a mixed reality headset. You need to
+
+270
+00:16:10,805 --> 00:16:14,665
+Speaker 4:  see through the menu to see what's around you. In
+
+271
+00:16:14,785 --> 00:16:18,705
+Speaker 4:  I, I know, I understand that most people have not had the horror or
+
+272
+00:16:18,725 --> 00:16:22,705
+Speaker 4:  the pleasure or the privilege of wearing this gigantic, very heavy headset
+
+273
+00:16:22,845 --> 00:16:26,825
+Speaker 4:  on their face and looking around like it makes sense in Vision
+
+274
+00:16:27,045 --> 00:16:30,985
+Speaker 4:  os because you need to see through the menu. I do
+
+275
+00:16:30,985 --> 00:16:34,905
+Speaker 4:  not need to see through the menu on my phone. I need there to
+
+276
+00:16:34,905 --> 00:16:38,665
+Speaker 4:  be a frosted glass there so that like there is
+
+277
+00:16:39,185 --> 00:16:43,065
+Speaker 4:  contrast And I can read things because there are many things on top of each
+
+278
+00:16:43,065 --> 00:16:46,945
+Speaker 4:  other. Like I don't need to see through my phone. Like
+
+279
+00:16:47,275 --> 00:16:51,145
+Speaker 4:  maybe if I am gonna put my la tinfoil conspiracy hat
+
+280
+00:16:51,145 --> 00:16:54,625
+Speaker 4:  on, maybe, you know, sometimes I'm like, yeah, I would like to see this
+
+281
+00:16:54,625 --> 00:16:58,385
+Speaker 4:  carefully curated picked iPhone wallpaper that I
+
+282
+00:16:58,475 --> 00:17:02,425
+Speaker 4:  chose for my, my home screen. I can't really see it
+
+283
+00:17:02,425 --> 00:17:06,225
+Speaker 4:  most of the time. Maybe that's the thought behind liquid glass and the transparency,
+
+284
+00:17:06,525 --> 00:17:10,265
+Speaker 4:  having experienced the chaos. No, I was wrong, I was wrong.
+
+285
+00:17:10,465 --> 00:17:14,225
+Speaker 4:  I should have a much more boring home wallpaper and a fancy lock
+
+286
+00:17:14,225 --> 00:17:18,045
+Speaker 4:  screen and leave it at that. Because for me, readability is
+
+287
+00:17:18,045 --> 00:17:21,965
+Speaker 4:  the most important thing. I at least appreciate that I can turn some of
+
+288
+00:17:21,965 --> 00:17:25,525
+Speaker 4:  this off in the accessibility settings. But I wish it was easier to find
+
+289
+00:17:25,625 --> 00:17:29,005
+Speaker 4:  in the accessibility settings. 'cause you gotta go, you'd think there'd be
+
+290
+00:17:29,005 --> 00:17:32,445
+Speaker 4:  like a liquid glass settings menu. So you could adjust, you can't, you have
+
+291
+00:17:32,445 --> 00:17:35,085
+Speaker 4:  to go through the accessibility settings and then guess which one. I think
+
+292
+00:17:35,085 --> 00:17:38,725
+Speaker 3:  They need the opposite of an accessibility menu. There needs to be an option
+
+293
+00:17:38,725 --> 00:17:42,405
+Speaker 3:  to just ramp it way up. Everything, everything is see through
+
+294
+00:17:42,635 --> 00:17:46,325
+Speaker 3:  like weird, twisted, warping glass effects everywhere. That's what I want
+
+295
+00:17:46,325 --> 00:17:46,645
+Speaker 3:  from this
+
+296
+00:17:47,025 --> 00:17:50,405
+Speaker 5:  In a way. They almost do in that 'cause 'cause so, so one of the thing that
+
+297
+00:17:50,405 --> 00:17:54,085
+Speaker 5:  came to the Mac for this is, is the, the appearance and
+
+298
+00:17:54,085 --> 00:17:58,005
+Speaker 5:  theming options that were last year, I believe on the, on the iPhone,
+
+299
+00:17:58,135 --> 00:18:01,885
+Speaker 5:  right? So you could pick, you can make your, your widgets, your
+
+300
+00:18:02,055 --> 00:18:05,965
+Speaker 5:  icons, all like tinted colors you have, so you
+
+301
+00:18:05,965 --> 00:18:09,765
+Speaker 5:  have dark mode And I, I put sort of check out the, the writeup I did on it.
+
+302
+00:18:09,805 --> 00:18:12,685
+Speaker 5:  I, I put a bunch of comparison screenshots showing which, what it looks like
+
+303
+00:18:12,685 --> 00:18:15,965
+Speaker 5:  in all these different codes of paint. And you can pick dark mode, light
+
+304
+00:18:15,965 --> 00:18:19,845
+Speaker 5:  mode as of the whole os you can have like your widgets be
+
+305
+00:18:19,845 --> 00:18:23,685
+Speaker 5:  default dark and tinted and then tinted can be light or dark,
+
+306
+00:18:23,775 --> 00:18:27,765
+Speaker 5:  right? Talk about chaos. It's a little confusing. And when you put
+
+307
+00:18:27,765 --> 00:18:31,245
+Speaker 5:  everything on clear, it's like, yeah, there's glassy icons everywhere
+
+308
+00:18:32,105 --> 00:18:35,885
+Speaker 5:  and some stuff just looks ugly. Like I think that they could,
+
+309
+00:18:36,285 --> 00:18:40,005
+Speaker 5:  I think Apple could solve this a bit by, or at least remedy this by just
+
+310
+00:18:40,005 --> 00:18:43,805
+Speaker 5:  giving you some shortcut, theming options within liquid glass
+
+311
+00:18:43,805 --> 00:18:47,245
+Speaker 5:  and the appearance menu. I think if they like made it where it's like this
+
+312
+00:18:47,555 --> 00:18:50,925
+Speaker 5:  here like click this and you get this nice little combination that's gonna
+
+313
+00:18:51,315 --> 00:18:55,125
+Speaker 5:  magnify the liquid glass effect or tone it down and in there
+
+314
+00:18:55,465 --> 00:18:59,365
+Speaker 5:  should maybe even just be an off and that could activate, you know, some
+
+315
+00:18:59,365 --> 00:19:02,845
+Speaker 5:  of the accessibility features that, 'cause I think if you turn off, there's
+
+316
+00:19:02,845 --> 00:19:06,805
+Speaker 5:  an accessibility option called reduce transparency. And if you, if
+
+317
+00:19:06,805 --> 00:19:10,565
+Speaker 5:  you activate that, it's great. That kills it. It is great, but it kills so
+
+318
+00:19:10,565 --> 00:19:14,245
+Speaker 5:  much of the, the look like that was initially the only way. Yes. But again,
+
+319
+00:19:14,245 --> 00:19:17,485
+Speaker 5:  we're talking on the max side where it's like, you know, it's, it's, it's
+
+320
+00:19:17,485 --> 00:19:20,925
+Speaker 5:  passable maybe. But if in the first
+
+321
+00:19:21,195 --> 00:19:24,445
+Speaker 5:  developer beta that was there, it reduced transparency,
+
+322
+00:19:24,635 --> 00:19:28,445
+Speaker 5:  accessibility option was the only way you could have your menu bar filled
+
+323
+00:19:28,445 --> 00:19:32,355
+Speaker 5:  in again, right? So the menu bar is the top band at the top
+
+324
+00:19:32,355 --> 00:19:36,115
+Speaker 5:  of Mac os where your, you know, your file edit, view history, all that stuff
+
+325
+00:19:36,115 --> 00:19:38,035
+Speaker 5:  is, and, and your icon's on the top right. And
+
+326
+00:19:39,825 --> 00:19:43,515
+Speaker 5:  with it's also where on a MacBook or modern MacBooks, that's where the notch
+
+327
+00:19:43,515 --> 00:19:46,795
+Speaker 5:  is, right? So they were hiding the notch by having that filled in with a
+
+328
+00:19:46,795 --> 00:19:50,675
+Speaker 5:  background. They turned the menu bar invisible, fully invisible, which
+
+329
+00:19:50,675 --> 00:19:54,235
+Speaker 5:  now kind of accentuates the notch. It's not that big of a deal really. Again,
+
+330
+00:19:54,315 --> 00:19:57,835
+Speaker 5:  I just, I I noticed it for like a half hour And I'm like, all right, whatever,
+
+331
+00:19:57,835 --> 00:20:01,435
+Speaker 5:  it's fine. And now I'm like, now they, they, they didn't backtrack, but they
+
+332
+00:20:01,435 --> 00:20:05,235
+Speaker 5:  gave the option to fill that in again, kind of the old way. Or
+
+333
+00:20:05,235 --> 00:20:07,155
+Speaker 5:  you go with the new default, the new default's invisible
+
+334
+00:20:08,775 --> 00:20:11,715
+Speaker 5:  before you had to do the reduced transparency, but it would kill like everything
+
+335
+00:20:11,715 --> 00:20:15,355
+Speaker 5:  just to get your menu bar back. So in that same way, I think they could just
+
+336
+00:20:15,455 --> 00:20:19,275
+Speaker 5:  add in some options and some presets. And, And I, I, I
+
+337
+00:20:19,275 --> 00:20:22,315
+Speaker 5:  hate that I'm kind of in a way like thinking like I'm actually envisioning
+
+338
+00:20:22,315 --> 00:20:25,875
+Speaker 5:  like the Windows 11 theme Oh my god menu. Which I know, I know
+
+339
+00:20:26,005 --> 00:20:29,755
+Speaker 5:  don't wanna really, you know, say Ho Harken over to Microsoft where they're
+
+340
+00:20:29,815 --> 00:20:33,795
+Speaker 5:  the bastion of no, but, but I just think that they could with a little more
+
+341
+00:20:33,795 --> 00:20:37,115
+Speaker 5:  direction. 'cause like they have these pretty, you know,
+
+342
+00:20:37,345 --> 00:20:41,115
+Speaker 5:  screenshots or samples on when they announce Liquid Glass
+
+343
+00:20:41,175 --> 00:20:44,835
+Speaker 5:  and announce the update that show, oh, this cool, like monotone,
+
+344
+00:20:45,055 --> 00:20:48,605
+Speaker 5:  you know, color combo, very aesthetic options. You can change your
+
+345
+00:20:48,985 --> 00:20:52,885
+Speaker 5:  folder icon colors too and tint everything. It's
+
+346
+00:20:52,885 --> 00:20:56,125
+Speaker 5:  really hard to make that look good if you put the time into it. Sure. You
+
+347
+00:20:56,125 --> 00:20:59,245
+Speaker 5:  can make something maybe kind of cool or interesting and different. I just
+
+348
+00:20:59,245 --> 00:21:02,885
+Speaker 5:  think they could guide people a little more with some fun presets or something.
+
+349
+00:21:02,985 --> 00:21:06,445
+Speaker 5:  And yeah, let's turn the, the an option to turn the glass up, turn the glass
+
+350
+00:21:06,445 --> 00:21:06,885
+Speaker 5:  down. That
+
+351
+00:21:06,885 --> 00:21:10,205
+Speaker 3:  Feels real. Like I, I actually think that it's kind of surprising to me,
+
+352
+00:21:10,205 --> 00:21:14,165
+Speaker 3:  but if you look at iOS versus Android, in a lot of ways iOS has gotten way
+
+353
+00:21:14,165 --> 00:21:17,885
+Speaker 3:  more customizable in terms of letting users change the look of it
+
+354
+00:21:18,185 --> 00:21:21,445
+Speaker 3:  at at least the average user, right? You can go crazy on Android if you really
+
+355
+00:21:21,445 --> 00:21:25,325
+Speaker 3:  want to, but you know, the, I think iOS by
+
+356
+00:21:25,325 --> 00:21:29,005
+Speaker 3:  default has way more theming options than my Pixel does. But
+
+357
+00:21:29,105 --> 00:21:32,365
+Speaker 3:  the Pixel does try to do that thing where it picks out a few colors for you
+
+358
+00:21:32,505 --> 00:21:36,485
+Speaker 3:  to make things a little bit easier. It's just isn't as enforced across the
+
+359
+00:21:36,485 --> 00:21:40,445
+Speaker 3:  operating system as Apple has it. We should talk more about the Mac
+
+360
+00:21:40,445 --> 00:21:44,245
+Speaker 3:  though, because I do think the Mac had some of the biggest changes in
+
+361
+00:21:44,245 --> 00:21:47,725
+Speaker 3:  this release of operating systems, right?
+
+362
+00:21:48,625 --> 00:21:51,765
+Speaker 3:  It obviously Liquid Glass is the most notable one, but there's some like
+
+363
+00:21:51,765 --> 00:21:55,485
+Speaker 3:  pretty big upgrades to Spotlight in particular that I think power
+
+364
+00:21:55,495 --> 00:21:59,325
+Speaker 3:  users are, are pretty excited by or maybe like pissed about because it's
+
+365
+00:21:59,325 --> 00:22:02,645
+Speaker 3:  like just duplicating what a lot of 'em are using Raycast for. Yeah.
+
+366
+00:22:02,645 --> 00:22:03,285
+Speaker 4:  Like Raycast. Are
+
+367
+00:22:03,285 --> 00:22:04,165
+Speaker 3:  There Raycast people?
+
+368
+00:22:04,885 --> 00:22:08,085
+Speaker 4:  I was an Alfred person, Alfred Old School, which is not old school as like
+
+369
+00:22:08,875 --> 00:22:12,765
+Speaker 4:  real old school. So I know Raycast is better, but like I kind of
+
+370
+00:22:12,865 --> 00:22:16,245
+Speaker 4:  got rid of Alfred after a while and using Spotlight,
+
+371
+00:22:17,035 --> 00:22:20,695
+Speaker 4:  it's fine. It's not, it's okay.
+
+372
+00:22:20,885 --> 00:22:24,815
+Speaker 4:  Like I haven't really felt super engaged by it. Like I've tried to
+
+373
+00:22:24,815 --> 00:22:28,775
+Speaker 4:  use it a couple times and I'm like, I don't understand what I,
+
+374
+00:22:28,805 --> 00:22:31,375
+Speaker 4:  I'll just go back to this later and then you don't go back to it because
+
+375
+00:22:31,975 --> 00:22:35,855
+Speaker 4:  A DHD Yeah. But yeah, it's there. It can be
+
+376
+00:22:35,875 --> 00:22:38,935
+Speaker 4:  useful. I don't know Antonio, like how, how have you found it?
+
+377
+00:22:39,165 --> 00:22:42,935
+Speaker 5:  Yeah, so I think, I think the spotlight changes are actually in general
+
+378
+00:22:42,995 --> 00:22:46,695
+Speaker 5:  all positive. They're, they're welcome changes. I was not a Raycast
+
+379
+00:22:47,085 --> 00:22:50,975
+Speaker 5:  user. I, I knew I always knew of Raycast, but I just never used
+
+380
+00:22:51,095 --> 00:22:54,855
+Speaker 5:  Spotlight that much. So I never thought I had much interest in it. But,
+
+381
+00:22:54,995 --> 00:22:58,855
+Speaker 5:  you know, now I think the new change to Spotlight act as a nice
+
+382
+00:22:58,965 --> 00:23:02,735
+Speaker 5:  on-ramp into that, whether you want to go into that world of, you know,
+
+383
+00:23:02,825 --> 00:23:06,575
+Speaker 5:  crazy, you know, button combos for all kinds of stuff you can shortcut,
+
+384
+00:23:07,355 --> 00:23:11,335
+Speaker 5:  but it's like it's raycast light basically, and it makes sense for
+
+385
+00:23:11,335 --> 00:23:14,935
+Speaker 5:  it to be more approachable. You know, if, if you go with like the
+
+386
+00:23:15,535 --> 00:23:18,895
+Speaker 5:  keyboard commands, you can build this new muscle memory to do things faster.
+
+387
+00:23:19,675 --> 00:23:22,255
+Speaker 5:  You know, on a Windows machine, I hit the Windows key and type it, start
+
+388
+00:23:22,255 --> 00:23:25,655
+Speaker 5:  typing in an app and quickly open it. And I'm kind of used to that
+
+389
+00:23:26,075 --> 00:23:29,615
+Speaker 5:  you can always use, you've been able to for a while, like use Spotlight in
+
+390
+00:23:29,615 --> 00:23:32,935
+Speaker 5:  the same way, but now you can do a little further with it.
+
+391
+00:23:33,715 --> 00:23:37,575
+Speaker 5:  The biggest thing for me is I a a clipboard history, right? You
+
+392
+00:23:37,575 --> 00:23:41,415
+Speaker 5:  can actually for like the shortcut is you get command in
+
+393
+00:23:41,415 --> 00:23:45,205
+Speaker 5:  space and then just command in number four and boom, you've got
+
+394
+00:23:45,205 --> 00:23:48,925
+Speaker 5:  clipboard history and it's for the last about eight hours that you can
+
+395
+00:23:49,275 --> 00:23:53,005
+Speaker 5:  copy recopy anything that you, you copied before. It could be a file, it
+
+396
+00:23:53,005 --> 00:23:56,925
+Speaker 5:  could be, you know, just a, a little snippet of text. It's smart
+
+397
+00:23:56,925 --> 00:24:00,405
+Speaker 5:  enough to know that if you copied like a password
+
+398
+00:24:00,865 --> 00:24:04,845
+Speaker 5:  in a password field, it won't populate that. But
+
+399
+00:24:04,905 --> 00:24:08,725
+Speaker 5:  if you copied that password out of plain text, I tested this just to make
+
+400
+00:24:08,725 --> 00:24:12,525
+Speaker 5:  sure you should not do plain passwords in plain text, obviously,
+
+401
+00:24:12,745 --> 00:24:15,525
+Speaker 5:  but then it won't know and it doesn't, it doesn't like cross reference it
+
+402
+00:24:15,525 --> 00:24:19,445
+Speaker 5:  to your passwords. So yeah, it'll just be there. But that's, that's why
+
+403
+00:24:20,115 --> 00:24:23,645
+Speaker 5:  it's only an eight hour limit on Raycast. Again, for those power users, you
+
+404
+00:24:23,645 --> 00:24:27,405
+Speaker 5:  can have a clipboard history that's like months long Jesus if you
+
+405
+00:24:27,405 --> 00:24:31,245
+Speaker 5:  want to, and you can like pin things. So like if you,
+
+406
+00:24:32,085 --> 00:24:34,885
+Speaker 5:  I don't know, like always send a canned message to people or something like
+
+407
+00:24:34,885 --> 00:24:37,845
+Speaker 5:  that or like are putting like, I don't know, your, your address to your shipping
+
+408
+00:24:37,845 --> 00:24:41,815
+Speaker 5:  address to people pretty often or something like that. You can pin it there
+
+409
+00:24:41,875 --> 00:24:45,815
+Speaker 5:  and you just have it ready to go. That leads to all kinds of, or it can
+
+410
+00:24:45,815 --> 00:24:48,895
+Speaker 5:  lead to all kinds of privacy concerns. Then again, if someone's in on your
+
+411
+00:24:48,895 --> 00:24:51,695
+Speaker 5:  laptop and it's unlocked, they probably have access to all kinds of things.
+
+412
+00:24:52,315 --> 00:24:55,295
+Speaker 5:  But no, I think overall the spotlight changes are nice. I mean, you can go
+
+413
+00:24:55,295 --> 00:24:59,015
+Speaker 5:  a little deeper. You can use it with shortcuts and, and like tap
+
+414
+00:24:59,285 --> 00:25:03,175
+Speaker 5:  into certain Apple Intelligence actions as well. That's
+
+415
+00:25:03,185 --> 00:25:06,895
+Speaker 5:  again, like a little more extra power user stuff. I've never been like a
+
+416
+00:25:07,055 --> 00:25:10,855
+Speaker 5:  shortcut sicko. Like the people that I've seen that are using it are, they're
+
+417
+00:25:10,855 --> 00:25:13,455
+Speaker 5:  really into it. And I think, I think that's just gonna help them if they're
+
+418
+00:25:13,455 --> 00:25:17,375
+Speaker 5:  not already in that. Like raycast, there are other options too, but
+
+419
+00:25:17,375 --> 00:25:19,935
+Speaker 5:  like, you know, I'm just using that as one example. But if they're already
+
+420
+00:25:19,935 --> 00:25:23,655
+Speaker 5:  in that world, like they maybe just don't even need, you know, those integration.
+
+421
+00:25:24,115 --> 00:25:27,575
+Speaker 5:  But overall, I think the spotlight changes are nice. I think I, I wanna see,
+
+422
+00:25:27,735 --> 00:25:31,575
+Speaker 5:  I wanna see Apple grow this and, and make it better slowly and make it where
+
+423
+00:25:31,575 --> 00:25:35,095
+Speaker 5:  that's that more approachable on ramp and yeah, there's gonna be those guardrails,
+
+424
+00:25:35,095 --> 00:25:38,775
+Speaker 5:  like that eight hour time limit. I wouldn't mind them raising that a little
+
+425
+00:25:38,775 --> 00:25:42,615
+Speaker 5:  bit. Maybe 18 hours, 24 hours. But yeah,
+
+426
+00:25:42,775 --> 00:25:44,255
+Speaker 5:  I think overall spotlight good.
+
+427
+00:25:44,415 --> 00:25:48,375
+Speaker 3:  I, so I, I've bounced off Alfred and Raycast probably
+
+428
+00:25:48,415 --> 00:25:51,095
+Speaker 3:  a hundred times. Like I, I write like they feel like they should be, for
+
+429
+00:25:51,095 --> 00:25:54,695
+Speaker 3:  me, like in my browser, I have all
+
+430
+00:25:54,785 --> 00:25:58,735
+Speaker 3:  kinds of quick search commands to like, you know,
+
+431
+00:25:58,735 --> 00:26:01,935
+Speaker 3:  quickly search like The Verge or Wikipedia or all kinds of other websites.
+
+432
+00:26:02,335 --> 00:26:06,095
+Speaker 3:  I find them like I could not live without them, right? But the idea
+
+433
+00:26:06,235 --> 00:26:10,015
+Speaker 3:  of having like one toolbar that shortcuts across my pc, like,
+
+434
+00:26:10,455 --> 00:26:14,295
+Speaker 3:  I don't know, I, it's honestly so much of my computing is just in my
+
+435
+00:26:14,295 --> 00:26:17,895
+Speaker 3:  browser that I don't quite understand what the use is.
+
+436
+00:26:18,255 --> 00:26:22,225
+Speaker 3:  I just like haven't been able to tap into it. And I am sort of hoping
+
+437
+00:26:22,225 --> 00:26:25,865
+Speaker 3:  that maybe these spotlight changes, you know, give me a little bit more of
+
+438
+00:26:25,865 --> 00:26:29,705
+Speaker 3:  that power without all the complexity. Again, those apps seem great,
+
+439
+00:26:29,845 --> 00:26:31,025
+Speaker 3:  but I I they
+
+440
+00:26:31,025 --> 00:26:34,745
+Speaker 4:  It just requires you to rewire your brain. Yes. And the older I get, the
+
+441
+00:26:34,745 --> 00:26:38,705
+Speaker 4:  harder that is. Like the, the harder it is, the more time it takes. And I
+
+442
+00:26:38,705 --> 00:26:41,905
+Speaker 4:  just go like, what was that command that I just programmed three hours ago
+
+443
+00:26:41,915 --> 00:26:45,885
+Speaker 4:  again? And I will forget because I'm switching to a different platform
+
+444
+00:26:45,905 --> 00:26:49,565
+Speaker 4:  and a different system. So I think we sometimes have a rarefied problem,
+
+445
+00:26:50,305 --> 00:26:53,765
+Speaker 4:  but if you're using the same system and you're using the same programs, like
+
+446
+00:26:53,885 --> 00:26:56,925
+Speaker 4:  I think it's a little more lending itself to that process. Well,
+
+447
+00:26:57,025 --> 00:27:00,725
+Speaker 3:  And I also think there's like sort of different, you know, when you're using
+
+448
+00:27:00,725 --> 00:27:03,845
+Speaker 3:  something that has such a different way of interacting with it, it just like
+
+449
+00:27:03,845 --> 00:27:07,405
+Speaker 3:  takes a minute. I use ARC browser Yep.
+
+450
+00:27:07,535 --> 00:27:11,445
+Speaker 3:  Every single day now. And I like, could not be organized without it.
+
+451
+00:27:11,765 --> 00:27:15,525
+Speaker 3:  I also bounced off of it like five times and when I first use it, I'm like,
+
+452
+00:27:15,945 --> 00:27:19,885
+Speaker 3:  no serious person can use this browser. Right? Like, this is for people
+
+453
+00:27:20,105 --> 00:27:23,925
+Speaker 3:  who do not do work, which I don't know, you know, listen, come
+
+454
+00:27:23,925 --> 00:27:27,485
+Speaker 3:  at me. But you know, it is one of those things where it's like, actually
+
+455
+00:27:27,485 --> 00:27:31,445
+Speaker 3:  maybe you just do need a little bit of an on-ramp. Like, so, so perhaps I
+
+456
+00:27:31,525 --> 00:27:34,525
+Speaker 3:  I I, it does not sound like this is the death of Raycast by any means. And
+
+457
+00:27:34,525 --> 00:27:37,525
+Speaker 3:  if anything, it sounds like this is like maybe team people up to understand
+
+458
+00:27:37,915 --> 00:27:41,805
+Speaker 3:  that there's more potential there. That feels like it was
+
+459
+00:27:41,965 --> 00:27:44,725
+Speaker 3:  probably like that. The, the single biggest thing. I think what there's the
+
+460
+00:27:44,725 --> 00:27:47,525
+Speaker 3:  games app, I dunno if anybody's using that. There's a new phone app on the
+
+461
+00:27:47,525 --> 00:27:47,725
+Speaker 3:  Mac.
+
+462
+00:27:47,915 --> 00:27:48,645
+Speaker 5:  Okay. The phone app.
+
+463
+00:27:48,645 --> 00:27:49,685
+Speaker 3:  Are you hyped for the phone app?
+
+464
+00:27:49,835 --> 00:27:53,605
+Speaker 5:  Okay. It's, it's so stupid And I'm showing like, the most suburban
+
+465
+00:27:53,745 --> 00:27:57,725
+Speaker 5:  dad energy right now. But like to, like, it's just, it
+
+466
+00:27:57,725 --> 00:28:01,565
+Speaker 5:  was stupid how super helpful it is to just like,
+
+467
+00:28:01,675 --> 00:28:05,445
+Speaker 5:  make calls to doctor's offices and like my town about
+
+468
+00:28:05,445 --> 00:28:09,245
+Speaker 5:  like some documentation I had to submit or whatever. It was like,
+
+469
+00:28:09,705 --> 00:28:13,125
+Speaker 5:  it just helped me a little bit to be like, oh, I, I should, I could just
+
+470
+00:28:13,125 --> 00:28:16,405
+Speaker 5:  do that right now. Like while I'm still, while I'm working and kind of multitask
+
+471
+00:28:16,405 --> 00:28:20,125
+Speaker 5:  that as opposed to, usually I'm terrible about making those
+
+472
+00:28:20,365 --> 00:28:23,085
+Speaker 5:  annoying calls and it's like I put it off And I put it off and next thing
+
+473
+00:28:23,085 --> 00:28:26,445
+Speaker 5:  I know it's five o'clock and ev all those kinds of places are closed.
+
+474
+00:28:27,465 --> 00:28:31,245
+Speaker 5:  So it's, it's, it's not a big deal really. But yeah, the phone app, it operates
+
+475
+00:28:31,435 --> 00:28:35,165
+Speaker 5:  just like the iOS phone app. It's totally fine and
+
+476
+00:28:35,165 --> 00:28:39,045
+Speaker 5:  it's just effective. And even just like, while I'm typing and just
+
+477
+00:28:39,045 --> 00:28:42,925
+Speaker 5:  doing other stuff just to like sum it up and make a quick call and I'm
+
+478
+00:28:42,925 --> 00:28:46,885
+Speaker 5:  just, I'm not even like putting on headphones, earbuds, anything. I'm just
+
+479
+00:28:46,885 --> 00:28:50,805
+Speaker 5:  like, just talking to my laptop and like does a good job handling
+
+480
+00:28:50,805 --> 00:28:53,725
+Speaker 5:  the sound, not having echoes. No one's ever complained like, I can't hear
+
+481
+00:28:53,725 --> 00:28:57,645
+Speaker 5:  you. They're perfectly clear. So yeah, phone app seems so
+
+482
+00:28:57,645 --> 00:28:59,005
+Speaker 5:  in innocuous, but it's good.
+
+483
+00:28:59,205 --> 00:29:02,805
+Speaker 3:  I mean, legitimately why didn't they have this forever? Right? Like, this
+
+484
+00:29:02,805 --> 00:29:06,205
+Speaker 3:  is like, it's, it's like not exciting, but it is so functional. They
+
+485
+00:29:06,205 --> 00:29:09,805
+Speaker 4:  Had FaceTime exactly for a while, but like FaceTime, I, I don't know. I've
+
+486
+00:29:09,805 --> 00:29:12,965
+Speaker 4:  always had problems switching FaceTime calls from my phone to my
+
+487
+00:29:13,935 --> 00:29:17,885
+Speaker 4:  watch, to my, to my Mac. So I'm happy to hear that
+
+488
+00:29:17,885 --> 00:29:20,485
+Speaker 4:  the phone app isn't as bad as that. So Yeah.
+
+489
+00:29:21,385 --> 00:29:24,205
+Speaker 5:  And you can even listen to your voicemails on it too. Again, I think it's
+
+490
+00:29:24,205 --> 00:29:27,965
+Speaker 5:  just, it's for people. I, this, again, it's one of those things like if
+
+491
+00:29:27,965 --> 00:29:30,605
+Speaker 5:  it's for people like us where it's like if you're on a computer all day,
+
+492
+00:29:31,235 --> 00:29:34,125
+Speaker 5:  it's just kind of handy to have that stuff right there without, without having
+
+493
+00:29:34,145 --> 00:29:37,965
+Speaker 5:  to stop what you're doing and pick up your phone to do something on the
+
+494
+00:29:37,965 --> 00:29:41,805
+Speaker 5:  side, which just leads to other distractions. And I, so yeah, I
+
+495
+00:29:41,805 --> 00:29:45,645
+Speaker 5:  welcome the phone app. Phone app. The games app is just,
+
+496
+00:29:45,665 --> 00:29:46,165
+Speaker 5:  that's just
+
+497
+00:29:46,165 --> 00:29:48,125
+Speaker 3:  Kind of, it's, I don't know why. I don't know why it exists.
+
+498
+00:29:48,595 --> 00:29:51,005
+Speaker 4:  It's there. It doesn't, it would, it lets you look at the games that you
+
+499
+00:29:51,005 --> 00:29:54,605
+Speaker 4:  play and then you think about how you spend your time, which I spent a lot
+
+500
+00:29:54,605 --> 00:29:57,885
+Speaker 4:  of time in the Sudoku app apparently. So
+
+501
+00:29:58,195 --> 00:30:01,965
+Speaker 5:  It's kind of on and on A Mac on, on macOS, the games app. It actually,
+
+502
+00:30:02,025 --> 00:30:05,925
+Speaker 5:  it was, it was pulling games I downloaded from Steam,
+
+503
+00:30:06,425 --> 00:30:09,725
+Speaker 5:  but it was hit or miss. Like you could almost use it as a launcher for all
+
+504
+00:30:09,725 --> 00:30:13,325
+Speaker 5:  of your games. But how many games do you play on your Mac?
+
+505
+00:30:13,325 --> 00:30:15,525
+Speaker 5:  Unfortunately, it's just, come on. It's, that's just, they're, they're
+
+506
+00:30:15,525 --> 00:30:19,285
+Speaker 4:  Gonna reality a gaming happen on the Mac, they're gonna make it happen. Ray
+
+507
+00:30:19,405 --> 00:30:19,725
+Speaker 4:  tracing,
+
+508
+00:30:19,915 --> 00:30:20,925
+Speaker 3:  It's so aspirational.
+
+509
+00:30:23,205 --> 00:30:27,085
+Speaker 5:  I want them to, I, I actually, I, I genuinely want them to, like, when I
+
+510
+00:30:27,965 --> 00:30:31,685
+Speaker 5:  reviewed the most recent like M four Max MacBook Pro, I'm just like,
+
+511
+00:30:32,065 --> 00:30:34,965
+Speaker 5:  I'm sorry, I'm, I have to say like, the elephant in the room is like, it
+
+512
+00:30:34,965 --> 00:30:38,885
+Speaker 5:  would be so nice for someone who's like creative, like people I work with,
+
+513
+00:30:38,885 --> 00:30:42,725
+Speaker 5:  like photographers I work with that buy these kinds of like, heavy duty
+
+514
+00:30:42,835 --> 00:30:46,725
+Speaker 5:  Macs for like a Mac studio or a MacBook Pro. Like, they would like to
+
+515
+00:30:47,005 --> 00:30:49,805
+Speaker 5:  actually play games on them. And it's like, but ultimately, like they're
+
+516
+00:30:49,805 --> 00:30:53,525
+Speaker 5:  just, it's just still not enough. If, if they, if Apple could really get
+
+517
+00:30:53,525 --> 00:30:57,285
+Speaker 5:  their, get their stuff together with like a proton layer,
+
+518
+00:30:57,395 --> 00:31:00,405
+Speaker 5:  like setup, like I know they have their game toolkit,
+
+519
+00:31:01,225 --> 00:31:04,765
+Speaker 5:  but it's not the porting toolkit, but it's not fully there. Obviously you
+
+520
+00:31:04,765 --> 00:31:08,725
+Speaker 5:  need developers to, to, you know, sign on. But like, I don't know, man, just
+
+521
+00:31:08,825 --> 00:31:12,805
+Speaker 5:  try with more developers than like Aade Kajima and like Capcom
+
+522
+00:31:13,425 --> 00:31:17,165
+Speaker 5:  and I guess now CD Project Red again. Cool. Cyberpunk on on the Mac.
+
+523
+00:31:17,275 --> 00:31:20,885
+Speaker 5:  Cool. But you know, again, so the games app is just like,
+
+524
+00:31:20,915 --> 00:31:24,885
+Speaker 3:  It's rough when Nintendo beats you to cyberpunk. That's that,
+
+525
+00:31:24,955 --> 00:31:28,765
+Speaker 3:  yeah. Could not have foreseen that. Okay. VI wanna make sure I
+
+526
+00:31:28,925 --> 00:31:32,885
+Speaker 3:  I I ask you about watchOS 26.
+
+527
+00:31:32,915 --> 00:31:35,925
+Speaker 3:  Yeah. There's a, a new fitness coach. What is
+
+528
+00:31:35,925 --> 00:31:39,685
+Speaker 4:  This there? So, you know, apple Intelligence, right at, at
+
+529
+00:31:39,705 --> 00:31:43,605
+Speaker 4:  dub dub, they were just like, it's on our ecosystem of devices, of course,
+
+530
+00:31:43,605 --> 00:31:46,765
+Speaker 4:  because, you know, watch got left out last year, you know, didn't have Apple
+
+531
+00:31:46,765 --> 00:31:50,725
+Speaker 4:  Intelligence on the watch last year. Now they're like, yo, apple
+
+532
+00:31:50,725 --> 00:31:54,525
+Speaker 4:  Intelligence, it's on the watch this year and Workout Buddy.
+
+533
+00:31:54,925 --> 00:31:58,085
+Speaker 3:  I don't know if, I don't know if that's like a threat or an upgrade.
+
+534
+00:31:58,755 --> 00:31:59,045
+Speaker 3:  It's
+
+535
+00:31:59,805 --> 00:32:02,925
+Speaker 4:  A thing. It is, yes, it is a thing. So like in the, in the keynote
+
+536
+00:32:03,625 --> 00:32:06,765
+Speaker 4:  and the sizzle reel for Workout Buddy, you see this woman and she's running
+
+537
+00:32:06,905 --> 00:32:10,405
+Speaker 4:  and the workout buddy's just like, nice,
+
+538
+00:32:10,475 --> 00:32:14,165
+Speaker 4:  crushed the pace. And you know, the, the thing that happened
+
+539
+00:32:14,465 --> 00:32:18,445
+Speaker 4:  to my phone in real time while I was in that watching the
+
+540
+00:32:18,445 --> 00:32:20,885
+Speaker 4:  keynote was people going like, am I gonna hate this? Am I gonna hate the,
+
+541
+00:32:20,905 --> 00:32:24,325
+Speaker 4:  what's going on? Am I gonna get yelled at by an ai? You are not going to
+
+542
+00:32:24,325 --> 00:32:26,965
+Speaker 4:  get yelled at by an ai? It's actually kind of like
+
+543
+00:32:28,215 --> 00:32:31,275
+Speaker 4:  not really there for a lot of workouts.
+
+544
+00:32:31,985 --> 00:32:34,035
+Speaker 4:  It's, so the, the thing that's AI is it
+
+545
+00:32:34,035 --> 00:32:37,515
+Speaker 3:  Is this like Spotify's AI dj where every once in a while it's just like
+
+546
+00:32:37,815 --> 00:32:41,645
+Speaker 3:  Yo v good pace, kinda kind of, it's, and
+
+547
+00:32:41,645 --> 00:32:43,525
+Speaker 3:  you're like, oh, like I didn't need this. But
+
+548
+00:32:43,915 --> 00:32:47,645
+Speaker 4:  Yeah, it's kind of like that. So basically the AI elements of it,
+
+549
+00:32:47,905 --> 00:32:51,605
+Speaker 4:  you do need to have an iPhone that is capable of Apple
+
+550
+00:32:51,605 --> 00:32:55,365
+Speaker 4:  intelligence, which is why I needed two iPhones to, to basically
+
+551
+00:32:55,595 --> 00:32:56,445
+Speaker 4:  test this Beta
+
+552
+00:32:56,745 --> 00:33:00,645
+Speaker 3:  VK office today. She's like got got a light day, only two phones on
+
+553
+00:33:00,645 --> 00:33:03,325
+Speaker 3:  me, only two phones on me and only two watchOS on you. This is, yeah,
+
+554
+00:33:03,325 --> 00:33:06,365
+Speaker 4:  Only two watchOS on me. Well, there's only one for each wrist. But you know,
+
+555
+00:33:06,645 --> 00:33:09,645
+Speaker 4:  I have been carrying around three phones for the last couple of weeks. Like
+
+556
+00:33:09,725 --> 00:33:13,565
+Speaker 4:  a psycho because I need it. My, my main iPhone is a 14
+
+557
+00:33:13,585 --> 00:33:17,525
+Speaker 4:  Provac does not have the Apple Intelligence features, therefore I could not
+
+558
+00:33:17,525 --> 00:33:21,485
+Speaker 4:  test workout buddy on the watch that was paired to that. I needed
+
+559
+00:33:21,505 --> 00:33:25,485
+Speaker 4:  an i my iPhone 16, which was paired to a different Apple watch
+
+560
+00:33:25,485 --> 00:33:25,685
+Speaker 3:  Oh
+
+561
+00:33:25,685 --> 00:33:29,565
+Speaker 4:  Dear. Just to test workout buddy. So that's my dedication
+
+562
+00:33:29,985 --> 00:33:33,885
+Speaker 4:  to all of you. But Workout Buddy basically
+
+563
+00:33:34,585 --> 00:33:38,005
+Speaker 4:  has three voices that are trained on the Apple Fitness Plus
+
+564
+00:33:38,035 --> 00:33:41,685
+Speaker 4:  trainer's voices. So you can choose your version of peppy,
+
+565
+00:33:42,925 --> 00:33:46,565
+Speaker 4:  a peppy voice in your ear, and then when you go on an
+
+566
+00:33:46,565 --> 00:33:49,525
+Speaker 4:  equivalent or like not an equivalent, when you go on an eligible workout,
+
+567
+00:33:49,705 --> 00:33:53,565
+Speaker 4:  you're gonna get a little summary at the beginning where it's just
+
+568
+00:33:53,565 --> 00:33:57,045
+Speaker 4:  like, Hey, ve you're about to go on an outdoor walk. That's great.
+
+569
+00:33:57,315 --> 00:34:01,125
+Speaker 4:  Love that for you. You are kind of ahead where you would be
+
+570
+00:34:01,585 --> 00:34:05,365
+Speaker 4:  at this time of day for your rings in terms of closing it, go and
+
+571
+00:34:05,365 --> 00:34:08,765
+Speaker 4:  crash it. And then depending on the workout that you're doing,
+
+572
+00:34:09,225 --> 00:34:13,165
+Speaker 4:  you may get motivational tidbits in the actual
+
+573
+00:34:13,605 --> 00:34:16,245
+Speaker 4:  workout itself. So if you're going on a walk, you ain't gonna hear shit.
+
+574
+00:34:16,645 --> 00:34:20,565
+Speaker 4:  But if you're on a run, on a run at the mile pace, it's
+
+575
+00:34:20,565 --> 00:34:24,365
+Speaker 4:  like you crush that mile and insert pace here. You were listening to
+
+576
+00:34:24,365 --> 00:34:27,245
+Speaker 4:  Stray Kids when that happened. Love that for you. Keep going.
+
+577
+00:34:28,305 --> 00:34:32,205
+Speaker 4:  And then if you hit a PR or a milestone like that was your
+
+578
+00:34:32,205 --> 00:34:36,045
+Speaker 4:  hundredth mile of the year, love that for you. And that
+
+579
+00:34:36,045 --> 00:34:40,005
+Speaker 4:  happens. And then at the end of the, the workout,
+
+580
+00:34:40,065 --> 00:34:43,885
+Speaker 4:  you basically get a, you did great, you totally closed
+
+581
+00:34:43,955 --> 00:34:47,045
+Speaker 4:  your ring And I love this for you. And that's workout buddy.
+
+582
+00:34:47,235 --> 00:34:50,445
+Speaker 3:  This feels like, like upbeat and pleasant but not
+
+583
+00:34:50,755 --> 00:34:52,125
+Speaker 3:  helpful. Is that like
+
+584
+00:34:52,635 --> 00:34:54,405
+Speaker 4:  It's, it's okay. I like,
+
+585
+00:34:54,405 --> 00:34:57,245
+Speaker 3:  This is exactly how I feel about Spotify dj. Yeah. Where I'm like, I don't
+
+586
+00:34:57,245 --> 00:35:01,125
+Speaker 3:  know why this AI voice is talking to me. This like, this is
+
+587
+00:35:01,125 --> 00:35:04,645
+Speaker 3:  just a playlist, but it's actually there's less music. Yeah. Like,
+
+588
+00:35:05,275 --> 00:35:08,845
+Speaker 3:  okay, it's fun, it's fun. I'm like, I did just listen to that song.
+
+589
+00:35:08,845 --> 00:35:12,485
+Speaker 4:  Yeah, no, apple told me that the idea was to bring more delight and
+
+590
+00:35:12,485 --> 00:35:15,525
+Speaker 4:  motivation into the workouts. Yeah. 'cause let's, let's face it, working
+
+591
+00:35:15,545 --> 00:35:17,765
+Speaker 4:  out kind of sucks. Like it honestly, it just
+
+592
+00:35:18,035 --> 00:35:22,005
+Speaker 3:  Does. Listen, I've never wanted an AI therapist, but a while
+
+593
+00:35:22,005 --> 00:35:25,445
+Speaker 3:  I'm working out is the time. I've never, I'm never happy when I'm working
+
+594
+00:35:25,465 --> 00:35:29,005
+Speaker 3:  out. And if somebody could work through that with me, you know, it's, I think
+
+595
+00:35:29,005 --> 00:35:29,365
+Speaker 3:  that might,
+
+596
+00:35:29,715 --> 00:35:33,085
+Speaker 4:  It's not the worst thing in the world. It can be a little chatty. You do
+
+597
+00:35:33,085 --> 00:35:36,725
+Speaker 4:  have the option to turn it off. Is it better than
+
+598
+00:35:36,775 --> 00:35:40,765
+Speaker 4:  other, you know, workout apps that have had voices like telling you
+
+599
+00:35:40,785 --> 00:35:44,765
+Speaker 4:  to pick up the pace or to do whatever, not particularly, but
+
+600
+00:35:44,765 --> 00:35:48,605
+Speaker 4:  it does have more of your historical data. What I wish it would do was it'd
+
+601
+00:35:48,605 --> 00:35:52,285
+Speaker 4:  be like, Hey, you are going pretty fast on this first mile that you have
+
+602
+00:35:52,285 --> 00:35:55,965
+Speaker 4:  planned out. Right now it is 86 degrees out with 92%
+
+603
+00:35:56,205 --> 00:35:59,765
+Speaker 4:  humidity. Slow it down girl. You're fine. Like that's what I would love.
+
+604
+00:35:59,825 --> 00:36:03,645
+Speaker 4:  Yes. From that. And it's not an AI chat bot, it's not any of that
+
+605
+00:36:03,645 --> 00:36:04,325
+Speaker 4:  sort of thing. So,
+
+606
+00:36:04,945 --> 00:36:07,885
+Speaker 3:  Eh, this is the thing. It's just so, it's like not even V one, it's like
+
+607
+00:36:07,925 --> 00:36:11,445
+Speaker 3:  VV zero, right? None of them actually have the data yet to
+
+608
+00:36:11,755 --> 00:36:12,885
+Speaker 3:  sell you the smart thing.
+
+609
+00:36:13,355 --> 00:36:17,245
+Speaker 4:  Yeah. Or like the really smart thing, there's, it's just like one, yeah.
+
+610
+00:36:17,385 --> 00:36:21,325
+Speaker 4:  Or like one and a half turns short of where I would like really find it helpful
+
+611
+00:36:21,385 --> 00:36:25,005
+Speaker 4:  and useful. But as far as like a motivational thing goes, it's fine.
+
+612
+00:36:25,385 --> 00:36:28,045
+Speaker 3:  Can you talk to it? Like, can you talk back to it and like, no, you can't
+
+613
+00:36:28,045 --> 00:36:28,245
+Speaker 3:  talk back to it.
+
+614
+00:36:28,245 --> 00:36:31,365
+Speaker 4:  Okay. So like that's the, that's kind of like the disconnect where, you know
+
+615
+00:36:31,475 --> 00:36:35,365
+Speaker 4:  Yeah. Like is it actually ai? Well, yes, but not
+
+616
+00:36:35,365 --> 00:36:39,165
+Speaker 4:  in the way that you're probably thinking, but pretty on par for where fitness
+
+617
+00:36:39,505 --> 00:36:43,125
+Speaker 4:  AI is in general at this point. But they like marketed this
+
+618
+00:36:43,345 --> 00:36:47,205
+Speaker 4:  as the big marquee thing of watchOS 26.
+
+619
+00:36:47,395 --> 00:36:51,005
+Speaker 4:  What I think the real star of
+
+620
+00:36:51,235 --> 00:36:55,125
+Speaker 4:  watchOS 26 is, is the wrist flick and or the flippy flip
+
+621
+00:36:55,125 --> 00:36:58,925
+Speaker 4:  because we have the pinchy pinch. Yes. Coined by The Verge Dan Seaford
+
+622
+00:36:59,825 --> 00:37:03,405
+Speaker 4:  for the double tap, which is the gesture that lets you just like go through
+
+623
+00:37:03,665 --> 00:37:07,285
+Speaker 4:  the, the, the widget menus. If wake up there, there we go. And this watch
+
+624
+00:37:07,285 --> 00:37:10,525
+Speaker 4:  wake up so you can double pinch and you can go through all that stuff. That's
+
+625
+00:37:10,525 --> 00:37:13,805
+Speaker 4:  pretty good. Now you have the flippy flip or the wrist flick where you just
+
+626
+00:37:14,115 --> 00:37:17,405
+Speaker 4:  dismiss stuff. That's good. So if you have notifications that come in and
+
+627
+00:37:17,405 --> 00:37:20,085
+Speaker 4:  you're just busy, you can just go like that and it'll dismiss it for you.
+
+628
+00:37:20,465 --> 00:37:20,925
+Speaker 4:  So you can,
+
+629
+00:37:21,465 --> 00:37:24,485
+Speaker 3:  That's actually like legitimately huge. So like with a software update, like
+
+630
+00:37:24,485 --> 00:37:28,045
+Speaker 3:  add like an entire new like button effectively. Like that's, that's,
+
+631
+00:37:28,225 --> 00:37:28,645
+Speaker 3:  that's
+
+632
+00:37:28,645 --> 00:37:30,805
+Speaker 4:  Very cool because you're, you're, you're out and about. You got, you got
+
+633
+00:37:30,805 --> 00:37:33,925
+Speaker 4:  stuff going on. You're like, I can't take this boop, it's gone. You're like,
+
+634
+00:37:33,925 --> 00:37:37,685
+Speaker 4:  woo. Love that. Love that. Yeah. And then the other thing is the smart stack
+
+635
+00:37:37,745 --> 00:37:41,005
+Speaker 4:  now has a little icon. So the smart stack is like, I bring up this little
+
+636
+00:37:41,005 --> 00:37:44,605
+Speaker 4:  widget menu. There's all these widgets, it'll surface the most relevant thing
+
+637
+00:37:44,605 --> 00:37:48,405
+Speaker 4:  to you and that moment. And there's a little icon. So when I was taking
+
+638
+00:37:48,485 --> 00:37:51,685
+Speaker 4:  a picture for the thing, it was like a little icon of my camera so I could
+
+639
+00:37:51,685 --> 00:37:54,565
+Speaker 4:  bring up the remote, the camera remote on this thing.
+
+640
+00:37:56,865 --> 00:37:59,285
+Speaker 3:  And can I tell you something? That's great. I think Liquid Glass looks all
+
+641
+00:37:59,285 --> 00:38:00,325
+Speaker 3:  right on the watch. It does,
+
+642
+00:38:00,715 --> 00:38:02,765
+Speaker 4:  It's fine on the watch, it's on the phone.
+
+643
+00:38:03,165 --> 00:38:06,365
+Speaker 3:  'cause again, you don't notice it. Yeah. It's just so it's on the song. So
+
+644
+00:38:06,365 --> 00:38:09,525
+Speaker 3:  discreet. It's so interesting. 'cause Liquid glass is like the big splashy
+
+645
+00:38:09,525 --> 00:38:12,685
+Speaker 3:  feature that everybody's paying attention to. But there are so many actual
+
+646
+00:38:12,685 --> 00:38:15,285
+Speaker 3:  like, powerful functional updates. And the one we haven't talked about yet
+
+647
+00:38:15,505 --> 00:38:19,245
+Speaker 3:  is on the iPad where you can now have free floating windows.
+
+648
+00:38:19,655 --> 00:38:23,525
+Speaker 3:  Right. It's not the weird stage manager thing anymore where Apple will
+
+649
+00:38:23,725 --> 00:38:27,205
+Speaker 3:  control the windows for you. Which I think is like very
+
+650
+00:38:27,205 --> 00:38:30,845
+Speaker 3:  delightful that they spent years building this alternate
+
+651
+00:38:31,005 --> 00:38:34,685
+Speaker 3:  multitasking system. 'cause they're like, we cannot, the people can't handle
+
+652
+00:38:34,685 --> 00:38:38,605
+Speaker 3:  windows. Windows are too much for them. We have
+
+653
+00:38:38,605 --> 00:38:42,525
+Speaker 3:  to control the windows for them. And finally, finally they're just like,
+
+654
+00:38:43,125 --> 00:38:45,945
+Speaker 3:  all right, let's see what happens. Let's go crazy. It's great. And they have,
+
+655
+00:38:45,945 --> 00:38:49,305
+Speaker 3:  there's a mouse, there's a mouse pointer on the iPad. Now they, before that
+
+656
+00:38:49,305 --> 00:38:53,265
+Speaker 3:  this, they were like, they can have a circle. You're
+
+657
+00:38:53,265 --> 00:38:56,345
+Speaker 3:  like, mouse, that doesn't exist A pointer. No, I think
+
+658
+00:38:56,345 --> 00:38:59,745
+Speaker 4:  It's, you know, 'cause it's really funny because this is the thing that everyone
+
+659
+00:38:59,765 --> 00:39:03,465
+Speaker 4:  has wanted for iPad to be more like a Mac because of,
+
+660
+00:39:03,565 --> 00:39:07,545
+Speaker 4:  you know, there's always someone who's like, oh, I wanna use my iPad as
+
+661
+00:39:07,585 --> 00:39:11,225
+Speaker 4:  a Mac because I don't actually want to buy a Mac because money and price
+
+662
+00:39:11,225 --> 00:39:14,665
+Speaker 4:  points and whatever reason. And they finally gave it to us.
+
+663
+00:39:15,635 --> 00:39:16,935
+Speaker 4:  And I was just like,
+
+664
+00:39:19,205 --> 00:39:22,005
+Speaker 4:  I still don't know if this this is gonna work. But I love that it's
+
+665
+00:39:22,005 --> 00:39:25,805
+Speaker 3:  There. The thing that drives me crazy is I think that Apple's like hardware
+
+666
+00:39:25,805 --> 00:39:29,685
+Speaker 3:  innovation has leaned so heavily on the iPhone iPad side of the house.
+
+667
+00:39:30,025 --> 00:39:33,885
+Speaker 3:  And the Mac has lagged behind in some ways, not talking about the
+
+668
+00:39:33,885 --> 00:39:37,845
+Speaker 3:  processors, but like the like functional extra features, right? On
+
+669
+00:39:37,845 --> 00:39:41,285
+Speaker 3:  the, if you look at the iPad Pro, right? You've got
+
+670
+00:39:41,555 --> 00:39:45,485
+Speaker 3:  this great front facing camera, you've got face id, you've got
+
+671
+00:39:45,485 --> 00:39:48,085
+Speaker 3:  all, all these rear cameras with lidar. I don't even want this.
+
+672
+00:39:49,345 --> 00:39:52,285
+Speaker 3:  And I think the operating system is, is just very lovely to use in a lot
+
+673
+00:39:52,285 --> 00:39:56,125
+Speaker 3:  of ways. It has a touch screen. But the problem is that
+
+674
+00:39:56,825 --> 00:40:00,765
+Speaker 3:  the iPad software has not allowed you to use it like a laptop. Right?
+
+675
+00:40:00,785 --> 00:40:04,645
+Speaker 3:  So every time that I'm looking and saying I need to buy a new main
+
+676
+00:40:05,005 --> 00:40:08,525
+Speaker 3:  computer, it's always gonna be a Mac for me, right? Because it just can do
+
+677
+00:40:08,725 --> 00:40:12,565
+Speaker 3:  things in a, in a regular way for all tasks. And the
+
+678
+00:40:12,635 --> 00:40:16,045
+Speaker 3:  iPad is like maybe finally getting there and we'll see. Right? There are
+
+679
+00:40:16,045 --> 00:40:19,405
+Speaker 3:  still limitations. It's funny, I like plugged my iPad into my
+
+680
+00:40:19,635 --> 00:40:23,525
+Speaker 3:  monitor slash dock last night and it's like, oh, the wireless mouse
+
+681
+00:40:23,525 --> 00:40:26,965
+Speaker 3:  doesn't work. 'cause it docked through the monitor and it's like, look, these
+
+682
+00:40:26,965 --> 00:40:30,805
+Speaker 3:  are like, you know, minor extraneous things, right? But
+
+683
+00:40:30,805 --> 00:40:33,645
+Speaker 3:  that, you know, the iPad is finally getting background tasks. It finally
+
+684
+00:40:33,705 --> 00:40:36,885
+Speaker 3:  has windowing and it's like, okay, maybe I can actually use this as a computer.
+
+685
+00:40:37,225 --> 00:40:41,165
+Speaker 3:  And is really nice to see the power of the Mac increasingly
+
+686
+00:40:41,165 --> 00:40:44,885
+Speaker 3:  coming to the iPad so that you have an option if you are somebody who, like
+
+687
+00:40:44,885 --> 00:40:48,165
+Speaker 3:  me is like a big hardware nerd and like wants to get all the cool features,
+
+688
+00:40:48,795 --> 00:40:52,405
+Speaker 4:  Give the people what they want. That's just what they should do. And the
+
+689
+00:40:52,405 --> 00:40:56,005
+Speaker 4:  people have been wanting, this would be nice, this for iPadOS for ages at
+
+690
+00:40:56,005 --> 00:40:57,685
+Speaker 4:  this point. So yay.
+
+691
+00:40:57,875 --> 00:41:01,445
+Speaker 5:  Give them windowing on an iPad and give them a touchscreen Mac and then
+
+692
+00:41:01,905 --> 00:41:05,805
+Speaker 5:  people will be, I mean the buttons have, for years, the buttons on the Mac
+
+693
+00:41:05,995 --> 00:41:09,605
+Speaker 5:  have gotten more and more touch looking, touch friendly and liquid glass
+
+694
+00:41:09,625 --> 00:41:12,485
+Speaker 5:  is just even furthering that. Again, look at that control center on Tahoe.
+
+695
+00:41:13,465 --> 00:41:17,005
+Speaker 5:  You know, so this could maybe, maybe that they
+
+696
+00:41:17,315 --> 00:41:19,365
+Speaker 5:  very, very slowly converging. Just make the into a
+
+697
+00:41:19,365 --> 00:41:21,005
+Speaker 4:  Circle. Yeah. And people will be happy
+
+698
+00:41:21,275 --> 00:41:22,085
+Speaker 3:  Antonio, for some reason
+
+699
+00:41:22,175 --> 00:41:24,325
+Speaker 5:  It'll take 10 more years probably. But maybe
+
+700
+00:41:24,475 --> 00:41:28,165
+Speaker 3:  It's so funny, Todd Haton wrote for our website about iPadOS
+
+701
+00:41:28,805 --> 00:41:32,445
+Speaker 3:  26 beta and he talks about the, the stoplight
+
+702
+00:41:32,445 --> 00:41:36,325
+Speaker 3:  buttons in the, the corner. And he's like, yeah, when my finger gets close
+
+703
+00:41:36,385 --> 00:41:39,605
+Speaker 3:  to the tiny button on the iPad, it just gets bigger and then I can touch
+
+704
+00:41:39,605 --> 00:41:43,485
+Speaker 3:  it. And he is like, apple has no excuses to not just put a touchscreen
+
+705
+00:41:43,705 --> 00:41:47,325
+Speaker 3:  on the Mac. Like they solved it. They like, it's, it's, it's easy. It's doable.
+
+706
+00:41:47,325 --> 00:41:50,965
+Speaker 3:  They figured it out. Like, let's, let's make it happen. Give the people
+
+707
+00:41:51,595 --> 00:41:53,845
+Speaker 3:  what they want. Give 'em what they want.
+
+708
+00:41:55,695 --> 00:41:58,645
+Speaker 3:  We'll get there. We'll get there someday. Alright, we've gotta take a break.
+
+709
+00:41:58,915 --> 00:42:01,965
+Speaker 3:  Antonio, thanks for joining us for this segment. When we get back, we'll
+
+710
+00:42:01,965 --> 00:42:05,685
+Speaker 3:  have VERGE Transportation editor Andy Hawkins and Eater
+
+711
+00:42:05,835 --> 00:42:09,005
+Speaker 3:  LA's Matthew Kang to join us to talk about Elon
+
+712
+00:43:27,225 --> 00:43:30,805
+Speaker 3:  All right, we're back. We've got some new people in the studio. Joining me
+
+713
+00:43:30,805 --> 00:43:34,685
+Speaker 3:  in ve is VERGE Transportation editor Andy Hawkins. Hello. And joining us
+
+714
+00:43:34,685 --> 00:43:38,285
+Speaker 3:  from La Eater's, lead editor for Southern California, Matthew Kang.
+
+715
+00:43:38,625 --> 00:43:39,045
+Speaker 3:  Hey, how
+
+716
+00:43:39,045 --> 00:43:39,165
+Speaker 7:  Are
+
+717
+00:43:39,165 --> 00:43:41,845
+Speaker 3:  You? Good. Thanks for joining us. I'm really excited to talk about this.
+
+718
+00:43:42,475 --> 00:43:46,245
+Speaker 3:  This is is sort of a surprising one, right? So
+
+719
+00:43:46,245 --> 00:43:50,005
+Speaker 3:  Tesla, it's had a weird week, right? They just had their
+
+720
+00:43:50,005 --> 00:43:53,805
+Speaker 3:  largest revenue drop in years, which is not like great news to share. Yeah.
+
+721
+00:43:53,945 --> 00:43:57,565
+Speaker 3:  And the same week they announced that they opened a restaurant, which is
+
+722
+00:43:57,565 --> 00:44:00,645
+Speaker 3:  like, I maybe not what their investors are asking for, maybe not what their
+
+723
+00:44:00,805 --> 00:44:04,685
+Speaker 3:  customers are asking for, but is, you know, more positive news,
+
+724
+00:44:05,045 --> 00:44:08,085
+Speaker 3:  I guess Andy, like what is the state of Tesla? Because I feel like it has
+
+725
+00:44:08,085 --> 00:44:11,885
+Speaker 3:  been very like frantic since Musk stopped
+
+726
+00:44:11,935 --> 00:44:15,725
+Speaker 3:  doing Doge and went back to work, right? There's been the robo taxii,
+
+727
+00:44:16,995 --> 00:44:20,685
+Speaker 3:  there's diner, how Yes. But how,
+
+728
+00:44:20,785 --> 00:44:21,925
+Speaker 3:  how are things over
+
+729
+00:44:21,925 --> 00:44:25,885
+Speaker 7:  There? It's, it's been a, it's been a crazy half year for this
+
+730
+00:44:25,885 --> 00:44:29,445
+Speaker 7:  company, but no, yeah. The, the diner announcement was very
+
+731
+00:44:31,085 --> 00:44:34,965
+Speaker 7:  interestingly timed. I wanna say like, I feel like it opened at
+
+732
+00:44:35,285 --> 00:44:38,645
+Speaker 7:  right before this earnings. I, I don't wanna suggest that that was strategically
+
+733
+00:44:38,645 --> 00:44:42,485
+Speaker 7:  done this way, but it certainly seems to have been intended
+
+734
+00:44:42,545 --> 00:44:45,925
+Speaker 7:  to like, kind of like overshadow the incredibly bad news in this earnings
+
+735
+00:44:45,925 --> 00:44:48,805
+Speaker 7:  report, right? Like you have this shiny new diner that's opening up
+
+736
+00:44:49,945 --> 00:44:52,045
+Speaker 7:  and, and you know, like, I can't wait to hear what Matthew has to say about
+
+737
+00:44:52,045 --> 00:44:55,565
+Speaker 7:  it, but it's just like, you know, the timing right on the heels, right before
+
+738
+00:44:56,595 --> 00:44:59,765
+Speaker 7:  this, this horrible earnings report just seems really convenient
+
+739
+00:45:00,985 --> 00:45:03,685
+Speaker 7:  is all I'll say to start out with. But yeah, no terrible earnings report.
+
+740
+00:45:04,615 --> 00:45:08,445
+Speaker 7:  Third consecutive drop in revenue
+
+741
+00:45:08,705 --> 00:45:12,245
+Speaker 7:  and earnings and sales and, and it's getting worse. Why? Worse?
+
+742
+00:45:12,245 --> 00:45:15,285
+Speaker 3:  Worse. Why are they falling apart? Because I, I thought these cars are wild
+
+743
+00:45:15,285 --> 00:45:15,765
+Speaker 7:  Popular, Jake.
+
+744
+00:45:16,025 --> 00:45:17,445
+Speaker 3:  No, they're not. They're
+
+745
+00:45:17,665 --> 00:45:21,445
+Speaker 4:  Not. I have a car guy for a spouse and they are not well put
+
+746
+00:45:21,605 --> 00:45:22,205
+Speaker 4:  together. They're,
+
+747
+00:45:22,205 --> 00:45:24,165
+Speaker 7:  They're, that, that's a whole, that's
+
+748
+00:45:24,165 --> 00:45:25,565
+Speaker 4:  A whole other issue. That's a whole,
+
+749
+00:45:26,065 --> 00:45:29,805
+Speaker 7:  The, the quality of Tesla's vehicles has been a long like simmering problem
+
+750
+00:45:29,825 --> 00:45:33,045
+Speaker 7:  for, for that. But the, the problems the company is currently facing
+
+751
+00:45:34,595 --> 00:45:37,525
+Speaker 7:  have, you know, everything to do with sort of the Elon of it all, as we like
+
+752
+00:45:37,525 --> 00:45:40,725
+Speaker 7:  to say on staff, right? Like, you know, he came out in support of Trump last
+
+753
+00:45:40,725 --> 00:45:44,485
+Speaker 7:  year. He spent $300 million to get him elected. Then he took over Doge
+
+754
+00:45:44,545 --> 00:45:48,205
+Speaker 7:  and he made some fascist hand gestures and, you know,
+
+755
+00:45:49,375 --> 00:45:52,605
+Speaker 7:  everything that's been going on up until this point. And then we saw the
+
+756
+00:45:52,605 --> 00:45:56,205
+Speaker 7:  Tesla take down protests. Mm. And, you know, sort of a very
+
+757
+00:45:56,205 --> 00:46:00,125
+Speaker 7:  concerted effort by people who were very, you know, concerned
+
+758
+00:46:00,125 --> 00:46:03,165
+Speaker 7:  about the direction this country is going in. And they decided to, to, you
+
+759
+00:46:03,485 --> 00:46:06,605
+Speaker 7:  know, organize around protesting Tesla, boycotting
+
+760
+00:46:07,125 --> 00:46:10,925
+Speaker 7:  trying to, you know, basically make the, the, the brand toxic. And
+
+761
+00:46:11,125 --> 00:46:15,005
+Speaker 7:  I would say that they have been successful in, in that as, as
+
+762
+00:46:15,905 --> 00:46:19,125
+Speaker 7:  you know, as we've seen in these earnings. So you, Tesla, right now they're
+
+763
+00:46:19,125 --> 00:46:22,685
+Speaker 7:  in what's called double digit territory, where they are down the
+
+764
+00:46:22,685 --> 00:46:26,365
+Speaker 7:  revenue's down double digits, their profits are down double digits and their
+
+765
+00:46:26,365 --> 00:46:29,445
+Speaker 7:  and their sales are down double digits. And that's just not a good place
+
+766
+00:46:29,445 --> 00:46:30,725
+Speaker 7:  to be for a company like that. Mm.
+
+767
+00:46:30,915 --> 00:46:33,445
+Speaker 3:  This is, this is really nerdy, but there's this thing in your story that
+
+768
+00:46:33,445 --> 00:46:37,085
+Speaker 3:  you kept talking about where they have this regulatory credits problem that
+
+769
+00:46:37,085 --> 00:46:40,805
+Speaker 3:  like, seems to be sort of one of Elon's own making too,
+
+770
+00:46:41,175 --> 00:46:44,205
+Speaker 3:  which is can you tell me like what are these credits and what are, what is
+
+771
+00:46:44,205 --> 00:46:45,125
+Speaker 3:  it about to fall apart here?
+
+772
+00:46:45,315 --> 00:46:48,765
+Speaker 7:  Yeah, the credit situation is really fascinating because it's, it's really
+
+773
+00:46:48,785 --> 00:46:52,005
+Speaker 7:  an under-discussed aspect of Tesla's success over the years.
+
+774
+00:46:52,905 --> 00:46:56,885
+Speaker 7:  So we have, you know, in the United States something called the cafe
+
+775
+00:46:57,165 --> 00:47:00,685
+Speaker 7:  standards where automakers need to meet a certain threshold
+
+776
+00:47:01,305 --> 00:47:05,285
+Speaker 7:  for emissions sort of across their fleet, right? And
+
+777
+00:47:05,285 --> 00:47:09,165
+Speaker 7:  so the idea is that, you know, if you increase emission standards, cars get,
+
+778
+00:47:09,665 --> 00:47:13,525
+Speaker 7:  use less gasoline emit less carbon emissions, less pollution, and we're better
+
+779
+00:47:13,525 --> 00:47:17,285
+Speaker 7:  off as a society. And so for many, many years, Tesla is an
+
+780
+00:47:17,285 --> 00:47:21,165
+Speaker 7:  exclusively electric vehicle company, has no emissions across its fleet.
+
+781
+00:47:21,385 --> 00:47:25,205
+Speaker 7:  So they were earning these, they were able to sell these credits that they
+
+782
+00:47:25,205 --> 00:47:28,765
+Speaker 7:  were earning for the, from the government to other automakers that have a
+
+783
+00:47:28,765 --> 00:47:32,285
+Speaker 7:  mi more of a mix of, of gas burning vehicles and electric vehicles, mostly
+
+784
+00:47:32,385 --> 00:47:35,005
+Speaker 7:  gas burning vehicles. So they would sell their credits to companies like
+
+785
+00:47:35,005 --> 00:47:38,805
+Speaker 7:  Ford and GM and Dodge and Chrysler and all these other ones.
+
+786
+00:47:39,345 --> 00:47:43,005
+Speaker 7:  And that was a huge, huge, huge source of revenue for the company.
+
+787
+00:47:43,145 --> 00:47:46,645
+Speaker 7:  One that has not, you know, you think of Tesla as a successful company based
+
+788
+00:47:46,645 --> 00:47:49,965
+Speaker 7:  solely on the fact that they make these electric cars that people like, well
+
+789
+00:47:50,285 --> 00:47:53,925
+Speaker 7:  actually they, I think for the past decade alone have been earning
+
+790
+00:47:53,925 --> 00:47:57,445
+Speaker 7:  around $11 billion from regulatory credit sales.
+
+791
+00:47:57,545 --> 00:48:01,405
+Speaker 7:  11 billion. 11 billion. And last year it was like two and a half billion
+
+792
+00:48:01,405 --> 00:48:05,005
+Speaker 7:  dollars, which made up almost 50% of the company's
+
+793
+00:48:05,035 --> 00:48:08,965
+Speaker 7:  overall net income or profit essentially. Incredible. So half of their
+
+794
+00:48:08,965 --> 00:48:12,805
+Speaker 7:  profit came from the sale of these regulatory credits that's about to
+
+795
+00:48:12,805 --> 00:48:16,685
+Speaker 7:  go away because Donald Trump and the Republicans decided that this is not
+
+796
+00:48:16,805 --> 00:48:18,485
+Speaker 7:  a good thing anymore and they're gonna get rid of it.
+
+797
+00:48:18,625 --> 00:48:22,565
+Speaker 3:  It, it's just so rough where it, it, it really does feel like so much of
+
+798
+00:48:22,915 --> 00:48:26,685
+Speaker 3:  Tesla's challenge right now is of Elon's own making. Right? He
+
+799
+00:48:26,715 --> 00:48:30,525
+Speaker 3:  made cars that people like and then he made people not, at least
+
+800
+00:48:30,705 --> 00:48:34,605
+Speaker 3:  he made the people who really like electric cars. Yes. Right. A good chunk
+
+801
+00:48:34,605 --> 00:48:38,445
+Speaker 3:  of that segment, not like him. And then he helped elect the people
+
+802
+00:48:38,445 --> 00:48:42,085
+Speaker 3:  who are gonna get rid of the money flowing to environmental causes.
+
+803
+00:48:42,745 --> 00:48:46,645
+Speaker 3:  And so, you know, now he's just gotta be an automaker and compete
+
+804
+00:48:46,645 --> 00:48:47,765
+Speaker 3:  on that and like, it,
+
+805
+00:48:47,765 --> 00:48:51,725
+Speaker 7:  It, it really cannot be underemphasized the amount
+
+806
+00:48:51,825 --> 00:48:55,405
+Speaker 7:  of, of of face plant that this is for. So like, this is a
+
+807
+00:48:55,685 --> 00:48:59,485
+Speaker 7:  historic level face plant for a human being. Like to
+
+808
+00:48:59,655 --> 00:49:03,565
+Speaker 7:  spend $300 million to get one guy elected and have that guy come into
+
+809
+00:49:03,565 --> 00:49:07,525
+Speaker 7:  office doing exactly what he said he was gonna do during the campaign,
+
+810
+00:49:07,615 --> 00:49:10,725
+Speaker 7:  which was eliminate all these incentives and credits and all of these things
+
+811
+00:49:11,145 --> 00:49:15,045
+Speaker 7:  and, and have that have be such a negative effect weighing down your own
+
+812
+00:49:15,045 --> 00:49:18,465
+Speaker 7:  company. And that is the primary source of his wealth
+
+813
+00:49:18,995 --> 00:49:22,745
+Speaker 7:  popularity, you know, his status, his reputation, it, I mean,
+
+814
+00:49:22,925 --> 00:49:26,265
+Speaker 7:  you know, SpaceX and, and whatnot. But Tesla is really, like, that's the,
+
+815
+00:49:26,525 --> 00:49:28,105
+Speaker 7:  that's the money bags for him. So,
+
+816
+00:49:28,525 --> 00:49:32,265
+Speaker 3:  So I'll say like, the one thing that you can't knock Elon for is his ability
+
+817
+00:49:32,285 --> 00:49:35,865
+Speaker 3:  to do maybe like too many things at once, not always,
+
+818
+00:49:36,765 --> 00:49:40,545
+Speaker 3:  you know, to the, their full potential. The Robax rollout has
+
+819
+00:49:40,545 --> 00:49:44,465
+Speaker 3:  started, but at the same time, right this week he launched the Tesla
+
+820
+00:49:44,915 --> 00:49:48,905
+Speaker 3:  Diner, which Matthew, you actually went there. Can you, Matthew, can
+
+821
+00:49:48,905 --> 00:49:52,505
+Speaker 3:  you gimme like a, like, what is this diner? This is a real restaurant. Like,
+
+822
+00:49:52,505 --> 00:49:55,145
+Speaker 3:  he's serious about this. It's not just some, some pop-up.
+
+823
+00:49:55,605 --> 00:49:58,785
+Speaker 8:  Oh no, this, this, this restaurant was sort of
+
+824
+00:49:59,275 --> 00:50:02,865
+Speaker 8:  based on a diner model, like car hop, Sonic,
+
+825
+00:50:03,215 --> 00:50:03,945
+Speaker 8:  that kind of thing.
+
+826
+00:50:05,525 --> 00:50:09,065
+Speaker 8:  And he announced it, actually it was announced in like 2018. So
+
+827
+00:50:09,455 --> 00:50:12,825
+Speaker 8:  back then certainly we're like, oh, this is, this restaurant is vaporware
+
+828
+00:50:12,845 --> 00:50:16,465
+Speaker 8:  and, and we're never gonna see it. And so seven years
+
+829
+00:50:16,515 --> 00:50:20,345
+Speaker 8:  later they announced that he was partnering with a
+
+830
+00:50:20,345 --> 00:50:24,225
+Speaker 8:  very competent restaurateur and a well-known LA chef. And, and it opened
+
+831
+00:50:24,225 --> 00:50:28,140
+Speaker 8:  basically Surprise opened. They didn't invite anyone in. They didn't do any
+
+832
+00:50:28,140 --> 00:50:32,085
+Speaker 8:  like, media, nothing. And so Monday morning I schlep
+
+833
+00:50:32,105 --> 00:50:35,965
+Speaker 8:  out to Hollywood and beheld
+
+834
+00:50:35,965 --> 00:50:39,845
+Speaker 8:  this two story kind of rounded. It looks like you're
+
+835
+00:50:39,845 --> 00:50:43,165
+Speaker 8:  at Tomorrowland in Disneyland kind of a thing. And there's like
+
+836
+00:50:43,785 --> 00:50:47,645
+Speaker 8:  robots serving popcorn and they have screens where you order, and
+
+837
+00:50:47,945 --> 00:50:51,125
+Speaker 8:  at the end of the day, it's just like, it's diner. Like they have burgers
+
+838
+00:50:51,185 --> 00:50:55,045
+Speaker 8:  and, and fries and, and pie shakes. Like, just kind of
+
+839
+00:50:55,045 --> 00:50:58,685
+Speaker 8:  like, just real normal food. It is shockingly
+
+840
+00:50:58,775 --> 00:51:01,725
+Speaker 8:  basic, considering it's a Tesla product,
+
+841
+00:51:02,565 --> 00:51:06,525
+Speaker 8:  there are also like 80 charging stations next
+
+842
+00:51:06,525 --> 00:51:10,365
+Speaker 8:  to it. So I guess the idea is that it's gonna be a model of, of an
+
+843
+00:51:10,365 --> 00:51:14,085
+Speaker 8:  amenity for charging stations that could potentially open all around the
+
+844
+00:51:14,085 --> 00:51:14,205
+Speaker 8:  world.
+
+845
+00:51:14,465 --> 00:51:17,125
+Speaker 7:  That's kind of the innovation here, is that, you know, he has long talked
+
+846
+00:51:17,125 --> 00:51:20,365
+Speaker 7:  about, you know, the fact that like, you know, charging stations in, in America,
+
+847
+00:51:20,365 --> 00:51:23,005
+Speaker 7:  especially the supercharger stations, they're kind of like in the middle
+
+848
+00:51:23,005 --> 00:51:26,725
+Speaker 7:  of nowhere. Often they're in, you know, big box store parking
+
+849
+00:51:26,915 --> 00:51:30,605
+Speaker 7:  lots or you know, along highways and they're not, they're not real
+
+850
+00:51:30,605 --> 00:51:33,605
+Speaker 7:  destinations. And I think what he was trying to go forward with this is,
+
+851
+00:51:33,665 --> 00:51:36,725
+Speaker 7:  you know, you know, you have to plug in your car and usually it takes like
+
+852
+00:51:36,725 --> 00:51:40,005
+Speaker 7:  20 or 30 minutes for you to get like a decent amount of charge. Why not get
+
+853
+00:51:40,005 --> 00:51:43,485
+Speaker 7:  something to eat? Why not, you know, mingle with other Tesla owners? Like
+
+854
+00:51:43,485 --> 00:51:45,325
+Speaker 7:  the idea behind it seems pretty solid.
+
+855
+00:51:45,325 --> 00:51:48,885
+Speaker 4:  That's actually a pretty good idea. 'cause I went on a road trip in one of
+
+856
+00:51:48,885 --> 00:51:52,445
+Speaker 4:  the fully electric BMWs around the holiday season
+
+857
+00:51:52,825 --> 00:51:56,605
+Speaker 4:  and trying to find a charger that would work
+
+858
+00:51:57,385 --> 00:52:01,365
+Speaker 4:  got increasingly dicey. Oh yeah. It's a, as we were, as we were
+
+859
+00:52:01,365 --> 00:52:04,845
+Speaker 4:  going, it's just like, it's tough. Oh, I guess we can go to this mall. And
+
+860
+00:52:04,845 --> 00:52:08,605
+Speaker 4:  there was a line at the mall of all of these Teslas trying to get the thing,
+
+861
+00:52:08,705 --> 00:52:12,285
+Speaker 4:  and it's like, well, we have 23% charge left on this
+
+862
+00:52:12,325 --> 00:52:15,565
+Speaker 4:  BMW are we going to find, we got down to
+
+863
+00:52:15,935 --> 00:52:19,445
+Speaker 4:  7%, we got down to 7% at a Wawa.
+
+864
+00:52:20,065 --> 00:52:23,725
+Speaker 4:  And at this Wawa had only one working charging station.
+
+865
+00:52:24,225 --> 00:52:27,885
+Speaker 4:  So I could, we, were we hungry by the time we got to the Wawa? Yeah.
+
+866
+00:52:28,145 --> 00:52:31,565
+Speaker 4:  So I could see this working, but at the same time,
+
+867
+00:52:33,095 --> 00:52:35,875
+Speaker 4:  no, just big. No,
+
+868
+00:52:36,435 --> 00:52:40,235
+Speaker 3:  I, I've done that. I've, I've sat in the Walmart parking lot for a couple
+
+869
+00:52:40,295 --> 00:52:44,075
+Speaker 3:  of hours while on a road trip and it's like, it's not the most fun. It's
+
+870
+00:52:44,075 --> 00:52:47,515
+Speaker 3:  not the most it is, but like, this sort of makes sense, right? You can do
+
+871
+00:52:47,515 --> 00:52:51,395
+Speaker 3:  this in LA it feels hard to imagine
+
+872
+00:52:51,395 --> 00:52:54,675
+Speaker 3:  this existing on the side of like the PA turnpike
+
+873
+00:52:55,535 --> 00:52:59,115
+Speaker 3:  And I like, you know, like, this is like a destination. It's so interesting.
+
+874
+00:52:59,115 --> 00:53:02,235
+Speaker 3:  All the photos I've seen of the Tesla dinosaur. Far, far,
+
+875
+00:53:03,085 --> 00:53:06,635
+Speaker 3:  every single parking spot has a cyber truck. Yeah. Oh yeah. Which I can't
+
+876
+00:53:06,635 --> 00:53:10,195
+Speaker 3:  tell if they just like parked them there or if it's just every cyber truck
+
+877
+00:53:10,195 --> 00:53:13,995
+Speaker 3:  owner in LA like an alarm went off and they're like, here now
+
+878
+00:53:14,655 --> 00:53:14,875
+Speaker 3:  go.
+
+879
+00:53:15,625 --> 00:53:17,755
+Speaker 7:  They got notifications on their infotainment screen.
+
+880
+00:53:17,755 --> 00:53:20,875
+Speaker 3:  Well there is Matthew, you were telling me there is some like special feature
+
+881
+00:53:20,875 --> 00:53:24,355
+Speaker 3:  where if you have a Tesla, you can like roll up and it will like auto order
+
+882
+00:53:24,455 --> 00:53:24,755
+Speaker 3:  for you.
+
+883
+00:53:25,705 --> 00:53:29,605
+Speaker 8:  Not quite, so basically probably in a car industry first you could
+
+884
+00:53:29,695 --> 00:53:33,685
+Speaker 8:  place your order on your car screen. It doesn't matter where you are.
+
+885
+00:53:33,685 --> 00:53:36,925
+Speaker 8:  Like, I could be home. I live in Torrance, like 30 miles away from the, the,
+
+886
+00:53:36,985 --> 00:53:40,805
+Speaker 8:  the restaurant. If I pull up the app, the diner app on my screen,
+
+887
+00:53:41,315 --> 00:53:45,285
+Speaker 8:  then it will look exactly like the screen that you would see in
+
+888
+00:53:45,285 --> 00:53:49,085
+Speaker 8:  the restaurant, like to order food and and drinks or whatever.
+
+889
+00:53:49,085 --> 00:53:52,605
+Speaker 8:  And we're, I think we're pretty used to ordering food that way now because,
+
+890
+00:53:52,865 --> 00:53:56,045
+Speaker 8:  you know, they wanna get rid of staff at the counter to take your order.
+
+891
+00:53:56,745 --> 00:54:00,325
+Speaker 8:  And all you need to do is put your order in and I guess your payment stuff
+
+892
+00:54:00,325 --> 00:54:04,085
+Speaker 8:  is already in there because of your charging. And when you cross
+
+893
+00:54:04,115 --> 00:54:08,005
+Speaker 8:  like a geofence as they've called it like a, it's like 0.6 miles,
+
+894
+00:54:08,095 --> 00:54:11,925
+Speaker 8:  about 15 min in LA that could take forever. But, you know, 0.6 miles,
+
+895
+00:54:12,435 --> 00:54:15,605
+Speaker 8:  once you approach the diner, then they'll, they'll get a notification to
+
+896
+00:54:15,605 --> 00:54:19,245
+Speaker 8:  like start making your food. And then once you, I guess park in a, if you
+
+897
+00:54:19,315 --> 00:54:22,765
+Speaker 8:  park in the lot and you start charging your car, you'll get an option like,
+
+898
+00:54:22,765 --> 00:54:26,725
+Speaker 8:  Hey, do you wanna get your food in your car? Or do you wanna come in
+
+899
+00:54:26,725 --> 00:54:30,485
+Speaker 8:  the restaurant? Something like that. It hasn't actually launched yet, or
+
+900
+00:54:30,485 --> 00:54:33,765
+Speaker 8:  I, I don't think it works in the way that they've quite intended, but I think
+
+901
+00:54:33,795 --> 00:54:37,685
+Speaker 8:  this feature was supposed to be one of the more important aspects
+
+902
+00:54:37,685 --> 00:54:38,365
+Speaker 8:  of the diner
+
+903
+00:54:38,755 --> 00:54:42,485
+Speaker 3:  That does like, lend to the idea of like, this is sort of this amenity
+
+904
+00:54:42,905 --> 00:54:45,805
+Speaker 3:  for charging, which is so interesting. I, I think like you hear, there's
+
+905
+00:54:45,805 --> 00:54:49,445
+Speaker 3:  a restaurant, you see these photos of like, the interior looks lovely, right?
+
+906
+00:54:49,445 --> 00:54:52,405
+Speaker 3:  It looks like this, like it looks like a di retro futuristic,
+
+907
+00:54:52,425 --> 00:54:55,885
+Speaker 7:  And I guess like other non Tesla EV owners can charge there if they have
+
+908
+00:54:56,205 --> 00:54:59,805
+Speaker 7:  adapters or if they have cars that have supercharger ports on them. I refuse
+
+909
+00:54:59,865 --> 00:55:00,085
+Speaker 7:  to
+
+910
+00:55:00,085 --> 00:55:01,405
+Speaker 4:  Have the, the adapter
+
+911
+00:55:01,405 --> 00:55:03,765
+Speaker 7:  For one, but I, I don't think that some of these like menu features would,
+
+912
+00:55:03,765 --> 00:55:06,845
+Speaker 7:  would work on the BM BMW for example. But, you know, it does sort of speak
+
+913
+00:55:06,845 --> 00:55:10,285
+Speaker 7:  to like this future that Tesla has imagined where you can just do all these
+
+914
+00:55:10,285 --> 00:55:13,485
+Speaker 7:  things seamlessly and it's all integrated. All your information is right
+
+915
+00:55:13,485 --> 00:55:17,125
+Speaker 7:  there. I i, I do think that that's, if it ends up actually working would
+
+916
+00:55:17,125 --> 00:55:18,165
+Speaker 7:  be a pretty cool thing.
+
+917
+00:55:18,875 --> 00:55:22,645
+Speaker 4:  Okay. But my big thing is how was the food, Matthew,
+
+918
+00:55:23,085 --> 00:55:25,205
+Speaker 4:  because this is a diner that's the most important question. It's primary,
+
+919
+00:55:25,385 --> 00:55:29,245
+Speaker 4:  you know, like restaurants, they, sometimes you go to a restaurant for the
+
+920
+00:55:29,245 --> 00:55:32,805
+Speaker 4:  vibe. I will not be going to a Tesla diner for the vibe.
+
+921
+00:55:33,285 --> 00:55:37,205
+Speaker 4:  I will be there because I need to charge a car and I'm hungry. So of those
+
+922
+00:55:37,225 --> 00:55:40,885
+Speaker 4:  two components, how is the food, because I looked at the menu,
+
+923
+00:55:41,835 --> 00:55:45,365
+Speaker 4:  epic Bacon, $12 hot
+
+924
+00:55:45,625 --> 00:55:49,125
+Speaker 4:  dog, 13 do $13 for a hot dog in this economy.
+
+925
+00:55:51,005 --> 00:55:54,485
+Speaker 8:  I mean, I don't think the first of all the food, you know, I'll just, lemme
+
+926
+00:55:54,485 --> 00:55:58,205
+Speaker 8:  just preface all of this by saying you cannot imagine the amount of
+
+927
+00:55:58,705 --> 00:56:02,285
+Speaker 8:  hatred and like negative feedback that I have gotten
+
+928
+00:56:02,435 --> 00:56:06,205
+Speaker 8:  like just covering this restaurant. Like people are so
+
+929
+00:56:06,295 --> 00:56:09,645
+Speaker 8:  upset. And if you look at the Eater Instagram comments, oh my God, yeah,
+
+930
+00:56:09,645 --> 00:56:12,325
+Speaker 8:  there, there is an incredible amount of, I guess
+
+931
+00:56:13,335 --> 00:56:16,365
+Speaker 8:  anger, just the fact that we're covering it, like we should have just passed
+
+932
+00:56:16,425 --> 00:56:19,165
+Speaker 8:  on it or something like that. But I mean, there are hundreds, there were
+
+933
+00:56:19,165 --> 00:56:22,405
+Speaker 8:  hundreds of people waiting in line for it to open. Some people waited hours.
+
+934
+00:56:24,065 --> 00:56:27,915
+Speaker 8:  It's a 24 7 restaurant so that you could, you know, it, the, the birth
+
+935
+00:56:27,915 --> 00:56:31,595
+Speaker 8:  of a new twenty four seven restaurant in any big city is kind of a, a big
+
+936
+00:56:31,595 --> 00:56:35,075
+Speaker 8:  deal now given where, you know, costs and labor are. So
+
+937
+00:56:35,335 --> 00:56:38,635
+Speaker 8:  either way, like we were gonna cover this restaurant and of course we approached
+
+938
+00:56:38,635 --> 00:56:42,475
+Speaker 8:  it with as much, you know, knowing who Elon is and
+
+939
+00:56:42,475 --> 00:56:45,875
+Speaker 8:  what he is done and, and everything that the, the company represents. At
+
+940
+00:56:45,875 --> 00:56:49,715
+Speaker 8:  the end of the day, we're like, look, they hired Bill Cha, who is a prolific
+
+941
+00:56:49,775 --> 00:56:53,475
+Speaker 8:  LA restaurateur. He is behind Republic and Bestia and tar and
+
+942
+00:56:54,225 --> 00:56:57,875
+Speaker 8:  he's very competent as an operator. I've known him for a while and they hired
+
+943
+00:56:57,905 --> 00:57:01,755
+Speaker 8:  Eric Greenspan, who's, you know, I think claim to fame. He
+
+944
+00:57:01,755 --> 00:57:05,595
+Speaker 8:  opened a che, a grilled cheese restaurant like 10 years ago in la but
+
+945
+00:57:05,595 --> 00:57:09,475
+Speaker 8:  he also was the chef behind a bunch of ghost kitchens
+
+946
+00:57:09,475 --> 00:57:13,235
+Speaker 8:  like the Mr. Beas Burger. And he was like, ah, when I saw Greenspan
+
+947
+00:57:13,235 --> 00:57:16,035
+Speaker 8:  there, he was like, interesting. Oh, this is, this line's nothing. We served
+
+948
+00:57:16,135 --> 00:57:20,075
+Speaker 8:  10,000 people when Mr. Be Burger opened. And I, I was kind of
+
+949
+00:57:20,075 --> 00:57:23,995
+Speaker 8:  like, well, Mr. Beberg is kind of dead now, and Mr. Beast, the
+
+950
+00:57:23,995 --> 00:57:27,875
+Speaker 8:  guy like is suing the company for it. It just like,
+
+951
+00:57:27,875 --> 00:57:30,995
+Speaker 8:  it was a disaster, right? So I'm thinking, okay, is this gonna be a disaster?
+
+952
+00:57:31,135 --> 00:57:34,995
+Speaker 8:  We order the food, we take it upstairs, we paid for everything. No
+
+953
+00:57:34,995 --> 00:57:38,755
+Speaker 8:  special treatment other than did get to kind of skip a few places
+
+954
+00:57:38,815 --> 00:57:41,875
+Speaker 8:  in line to expedite our, our our reporting. And
+
+955
+00:57:43,155 --> 00:57:47,035
+Speaker 8:  honestly, the food is fine. It tastes like sort of slightly better
+
+956
+00:57:47,035 --> 00:57:50,955
+Speaker 8:  than Shake Shack, slightly better than, you know, regular fast food. Is it,
+
+957
+00:57:51,345 --> 00:57:55,235
+Speaker 8:  it's probably better than Denny's, you know, it's better than your like
+
+958
+00:57:55,395 --> 00:57:59,075
+Speaker 8:  average roadside spot. And I think that's probably because look,
+
+959
+00:57:59,355 --> 00:58:02,395
+Speaker 8:  everyone's all hands on deck. It's the first day it's open. As we all know,
+
+960
+00:58:02,635 --> 00:58:05,995
+Speaker 8:  restaurants are a tough thing to operate day in and day out, and especially
+
+961
+00:58:05,995 --> 00:58:09,795
+Speaker 8:  24 7. And so do I think it's gonna maintain that quality
+
+962
+00:58:10,145 --> 00:58:13,835
+Speaker 8:  five, eight months from now? You know, two years from now? I have no
+
+963
+00:58:14,035 --> 00:58:17,715
+Speaker 8:  idea and I'm very skeptical of that. But on day one,
+
+964
+00:58:19,105 --> 00:58:23,075
+Speaker 8:  they were making good food. The burger was not amazing. It was kind of
+
+965
+00:58:23,095 --> 00:58:26,995
+Speaker 8:  dry on the edges. The tuna melt was fantastic. We all
+
+966
+00:58:26,995 --> 00:58:30,035
+Speaker 8:  loved it. It was like heavy and dill and like, well toasted.
+
+967
+00:58:30,995 --> 00:58:34,395
+Speaker 8:  They're all served in like these cyber truck happy meal boxes. No, that like,
+
+968
+00:58:35,295 --> 00:58:38,675
+Speaker 8:  you just ruined it. You ruined it. No, that's like, yeah, I think that's
+
+969
+00:58:38,675 --> 00:58:42,355
+Speaker 8:  kind of a negative. But you know, they're going with the theme
+
+970
+00:58:42,465 --> 00:58:46,435
+Speaker 8:  also. The, all the silverware or the utensils are like these wooden
+
+971
+00:58:46,575 --> 00:58:50,435
+Speaker 8:  pieces that look like, they're like chiseled out of a cyber truck, you know,
+
+972
+00:58:50,655 --> 00:58:54,435
+Speaker 8:  oh God frame or something. And I lost the opportunity for the windshield
+
+973
+00:58:54,485 --> 00:58:54,835
+Speaker 8:  wiper.
+
+974
+00:58:56,945 --> 00:59:00,075
+Speaker 8:  Like they're trying to reinvent utensils and I'm like, oh my God, okay. Not
+
+975
+00:59:00,075 --> 00:59:03,875
+Speaker 8:  everything be reinvented, but like, I think, you know, they,
+
+976
+00:59:03,875 --> 00:59:06,875
+Speaker 8:  they for breakfast, you know, they have actual breakfast items. They had
+
+977
+00:59:06,915 --> 00:59:10,355
+Speaker 8:  a biscuits with red gravy and the biscuits were
+
+978
+00:59:10,425 --> 00:59:14,355
+Speaker 8:  fantastic. You have an organic egg. I got all the, all the ingredients
+
+979
+00:59:14,455 --> 00:59:17,635
+Speaker 8:  is another aspect. They, they say that they're sourcing everything within
+
+980
+00:59:17,915 --> 00:59:18,435
+Speaker 8:  a Tesla
+
+981
+00:59:20,045 --> 00:59:23,845
+Speaker 8:  range, like one single range of a Tesla car. So everything is
+
+982
+00:59:23,845 --> 00:59:27,605
+Speaker 8:  sourced within like 300 miles. Which, you know, like, there's something to
+
+983
+00:59:27,605 --> 00:59:31,205
+Speaker 8:  be said about that. Like most diners probably cannot say that they source
+
+984
+00:59:31,205 --> 00:59:35,085
+Speaker 8:  their items from, you know, within 300 miles. And so that there's
+
+985
+00:59:35,085 --> 00:59:38,445
+Speaker 8:  like this sliver of like, sustainability and like, okay, good
+
+986
+00:59:38,445 --> 00:59:39,845
+Speaker 7:  Quality too. That sounds kind of woke to me.
+
+987
+00:59:41,555 --> 00:59:44,485
+Speaker 8:  It's, it's, yeah, that's why they minimize it. It's like buried on the bottom
+
+988
+00:59:44,485 --> 00:59:45,405
+Speaker 8:  of the menu. But like, yeah,
+
+989
+00:59:45,405 --> 00:59:49,165
+Speaker 7:  You did Epic Bacon is the headline. The heritage farm that it comes from
+
+990
+00:59:49,165 --> 00:59:50,765
+Speaker 7:  is not, not, not mentioned as much.
+
+991
+00:59:51,045 --> 00:59:54,605
+Speaker 8:  I talked to Bill Che and he was like, Elon himself came in a week and a half
+
+992
+00:59:54,625 --> 00:59:58,525
+Speaker 8:  ago and personally tried everything. He's like, he, if it's gonna be on the
+
+993
+00:59:58,525 --> 01:00:02,405
+Speaker 8:  menu, it has to be epic. Okay. And I was like, how do you make every
+
+994
+01:00:02,405 --> 01:00:05,845
+Speaker 8:  single menu item epic? Like how do you make like, you know, a hot dog epic
+
+995
+01:00:05,905 --> 01:00:09,765
+Speaker 8:  or a burger epic. But the Epic logo is only on
+
+996
+01:00:09,765 --> 01:00:13,725
+Speaker 8:  the bacon and the bacon. Well, I think it was a matter
+
+997
+01:00:13,725 --> 01:00:17,605
+Speaker 8:  of preparation. It has the potential to be epic. There was certainly
+
+998
+01:00:18,195 --> 01:00:22,165
+Speaker 8:  four thick slices of like, well smoked, like high
+
+999
+01:00:22,165 --> 01:00:26,005
+Speaker 8:  quality bacon, like it, you know, just maybe that day it was off.
+
+1000
+01:00:26,025 --> 01:00:29,405
+Speaker 8:  But I, I think for 12 bucks, honestly, I, I would pay that.
+
+1001
+01:00:29,665 --> 01:00:32,565
+Speaker 3:  That's $3 per piece of bacon. But
+
+1002
+01:00:32,565 --> 01:00:35,405
+Speaker 8:  Like, that's what food costs. Now, I don't know what you,
+
+1003
+01:00:35,665 --> 01:00:37,125
+Speaker 3:  How did they prepare this bacon
+
+1004
+01:00:38,005 --> 01:00:38,565
+Speaker 7:  Epically
+
+1005
+01:00:38,565 --> 01:00:42,445
+Speaker 8:  Like food costs. It's, it's not cheap
+
+1006
+01:00:42,625 --> 01:00:46,605
+Speaker 8:  to make, you know, well sourced food. And I think
+
+1007
+01:00:46,605 --> 01:00:50,485
+Speaker 8:  that they're doing a good job of presenting people with decent quality,
+
+1008
+01:00:50,715 --> 01:00:54,605
+Speaker 8:  like well-prepared food at a reasonable price. And
+
+1009
+01:00:54,605 --> 01:00:58,285
+Speaker 8:  what's interesting is all the, like, they don't accept gratuities. Like they're,
+
+1010
+01:00:58,305 --> 01:01:02,005
+Speaker 8:  the, the company is actually paying all the gratuities
+
+1011
+01:01:02,465 --> 01:01:06,125
+Speaker 8:  for service staff. So if you go there, like the level of service you get
+
+1012
+01:01:06,145 --> 01:01:09,325
+Speaker 8:  is incredibly nice. Like everyone's very jolly and happy and,
+
+1013
+01:01:10,105 --> 01:01:13,725
+Speaker 8:  and like attentive. And I don't know if that's because it's the first day
+
+1014
+01:01:13,725 --> 01:01:17,645
+Speaker 8:  again, or like if it's a thing that I think a seasoned restaurateur is like,
+
+1015
+01:01:17,645 --> 01:01:21,245
+Speaker 8:  Hey, we're gonna approach this professionally and as well done as possible.
+
+1016
+01:01:21,625 --> 01:01:24,845
+Speaker 7:  You have to go back at 3:00 AM to fe to see if it's still the same level.
+
+1017
+01:01:24,845 --> 01:01:25,085
+Speaker 7:  Yeah,
+
+1018
+01:01:25,085 --> 01:01:27,325
+Speaker 8:  You gotta go there in the middle of the night to see if they'll still still
+
+1019
+01:01:27,325 --> 01:01:30,525
+Speaker 8:  be happy. But at the end of the day, I think it is a
+
+1020
+01:01:30,805 --> 01:01:34,725
+Speaker 8:  bonafide restaurant. It is worth covering. It was worth,
+
+1021
+01:01:35,105 --> 01:01:39,085
+Speaker 8:  you know, for us to go and see what it was like. Do I expect that I'll
+
+1022
+01:01:39,085 --> 01:01:42,965
+Speaker 8:  be there frequently? I don't think so. But
+
+1023
+01:01:43,125 --> 01:01:46,605
+Speaker 8:  I was honestly shocked by the number of quote unquote like Tesla fans
+
+1024
+01:01:47,195 --> 01:01:50,685
+Speaker 8:  that live in Los Angeles, that despite all of the Elon,
+
+1025
+01:01:51,345 --> 01:01:55,285
+Speaker 8:  you know, hatred and vitriol, like, I think people were there. They
+
+1026
+01:01:55,285 --> 01:01:58,765
+Speaker 8:  were, they showed up and they were, they were pretty happy. So I mean,
+
+1027
+01:01:59,585 --> 01:02:02,405
+Speaker 7:  That's what it is. That to me is kind of the key point. 'cause I, I, I, I
+
+1028
+01:02:02,405 --> 01:02:04,605
+Speaker 7:  think Wired had a good story about this too, where they talked to some of
+
+1029
+01:02:04,605 --> 01:02:08,565
+Speaker 7:  these folks and a lot of them were Tesla owners who didn't like Elon Musk.
+
+1030
+01:02:08,705 --> 01:02:12,405
+Speaker 7:  And it was kind of like getting to your point about how this is, you know,
+
+1031
+01:02:12,465 --> 01:02:16,085
+Speaker 7:  the people that they typically used to sell to a lot for many years
+
+1032
+01:02:16,635 --> 01:02:20,485
+Speaker 7:  were coastal liberal types progressives who, you know, want to
+
+1033
+01:02:20,485 --> 01:02:23,845
+Speaker 7:  save the environment. And those people hate Elon Musk,
+
+1034
+01:02:24,545 --> 01:02:27,165
+Speaker 7:  but it seems like they can, you know, they're doing some sort of mental,
+
+1035
+01:02:27,385 --> 01:02:31,085
+Speaker 7:  you know, sort of calculation to kind of separate these things and
+
+1036
+01:02:31,225 --> 01:02:34,325
+Speaker 7:  you know, they can still be supportive of the brand or, you know, still love
+
+1037
+01:02:34,325 --> 01:02:37,965
+Speaker 7:  their car while also still holding their, you know,
+
+1038
+01:02:37,965 --> 01:02:39,405
+Speaker 7:  political opinions about him.
+
+1039
+01:02:39,585 --> 01:02:43,125
+Speaker 3:  So my, my question is, right, like, it, you know, you, you, you know, Matthew,
+
+1040
+01:02:43,145 --> 01:02:46,565
+Speaker 3:  you went, you had this nice experience, I think, right? A ton of people showed
+
+1041
+01:02:46,565 --> 01:02:50,525
+Speaker 3:  up. Can they scale this? Right? Can you scale like
+
+1042
+01:02:50,845 --> 01:02:54,805
+Speaker 3:  a, a, you know, fancy diner chain that only
+
+1043
+01:02:54,805 --> 01:02:58,005
+Speaker 3:  goes to a couple of different, like what, what is the end goal here?
+
+1044
+01:02:58,205 --> 01:03:01,805
+Speaker 4:  I don't know if you're sourcing within a one charge
+
+1045
+01:03:01,895 --> 01:03:05,645
+Speaker 4:  range of a, of a Tesla, right? Because there are some places, you know,
+
+1046
+01:03:05,645 --> 01:03:09,605
+Speaker 4:  California has a lot of farms, but there are places out there where
+
+1047
+01:03:09,835 --> 01:03:13,725
+Speaker 4:  corn sweat is an issue. Oh yeah. And the Midwest where temperatures
+
+1048
+01:03:13,725 --> 01:03:17,565
+Speaker 4:  are awful because the corn is raising the humidity. So like,
+
+1049
+01:03:17,605 --> 01:03:21,565
+Speaker 4:  I don't know, like if you're gonna have the same gimmick across the,
+
+1050
+01:03:21,585 --> 01:03:24,685
+Speaker 4:  the, the entire nation, I don't know how even
+
+1051
+01:03:25,035 --> 01:03:28,445
+Speaker 3:  That is mean. Even charging infrastructure Yeah. Is hard. So like, right,
+
+1052
+01:03:28,445 --> 01:03:32,245
+Speaker 3:  like getting the charging infrastructure and the food infrastructure and
+
+1053
+01:03:32,245 --> 01:03:35,805
+Speaker 3:  finding a place where it makes sense for Tesla owners or EV owners.
+
+1054
+01:03:36,245 --> 01:03:39,645
+Speaker 3:  I, I am curious like Matthew, like do, do you get the sense that
+
+1055
+01:03:40,355 --> 01:03:44,125
+Speaker 3:  Bill Cha and the team over there are preparing to do more? Are they like,
+
+1056
+01:03:44,455 --> 01:03:46,605
+Speaker 3:  we've got this one, we will see what happens?
+
+1057
+01:03:47,205 --> 01:03:50,245
+Speaker 8:  That's a great question I had. I, I certainly have my doubts about that.
+
+1058
+01:03:50,315 --> 01:03:54,045
+Speaker 8:  Like how replic how much can you replicate this? You're in the middle of
+
+1059
+01:03:54,045 --> 01:03:57,445
+Speaker 8:  Hollywood. There's all the resources, labor, you know,
+
+1060
+01:03:57,745 --> 01:04:01,565
+Speaker 8:  demand for a hundred, almost a hundred charging stations. But like
+
+1061
+01:04:01,565 --> 01:04:03,405
+Speaker 8:  I've, I've taken road trips. I actually own a Tesla
+
+1062
+01:04:05,025 --> 01:04:08,685
+Speaker 8:  And I have taken it, I hate it as a road trip car. 'cause I have to charge
+
+1063
+01:04:08,685 --> 01:04:12,565
+Speaker 8:  all the time. And I've charged in the middle of the desert
+
+1064
+01:04:12,825 --> 01:04:15,045
+Speaker 8:  on the way to Vegas. Just nothing to do.
+
+1065
+01:04:16,805 --> 01:04:20,285
+Speaker 8:  I wonder, okay, if they open one in Barstow, right? There's like a hundred
+
+1066
+01:04:20,285 --> 01:04:24,085
+Speaker 8:  Tesla chargers in Barstow scattered about, it's, it's the main city between
+
+1067
+01:04:24,225 --> 01:04:25,245
+Speaker 8:  LA and, and Las Vegas.
+
+1068
+01:04:27,645 --> 01:04:31,165
+Speaker 8:  I think they can source, depending on what their menu looks like, is it gonna
+
+1069
+01:04:31,165 --> 01:04:34,485
+Speaker 8:  be as ambitions as the Hollywood one with like 30 menu items? Maybe not.
+
+1070
+01:04:34,485 --> 01:04:37,805
+Speaker 8:  But if they have a burger and a hot dog and fries and shakes,
+
+1071
+01:04:38,525 --> 01:04:42,405
+Speaker 8:  I mean, what, what more do you really need? And can you do that? Look, there
+
+1072
+01:04:42,405 --> 01:04:45,925
+Speaker 8:  are gas station restaurants all around the country and they serve, you know,
+
+1073
+01:04:46,075 --> 01:04:49,925
+Speaker 8:  basically reheated frozen pizza and hot dogs on those like
+
+1074
+01:04:49,925 --> 01:04:53,765
+Speaker 8:  steel rollers and they make it work. And I think
+
+1075
+01:04:53,835 --> 01:04:56,685
+Speaker 8:  it's certainly possible. I think their intention is to open,
+
+1076
+01:04:57,805 --> 01:05:01,725
+Speaker 8:  I think many of them a rest opening a restaurant
+
+1077
+01:05:01,865 --> 01:05:05,405
+Speaker 8:  as they probably realize is very difficult given
+
+1078
+01:05:05,665 --> 01:05:09,645
+Speaker 8:  the regulatory situations of each place that you're doing it. But other
+
+1079
+01:05:09,885 --> 01:05:12,645
+Speaker 8:  countries are different. Like if they, I don't know, like I just came back
+
+1080
+01:05:12,645 --> 01:05:15,925
+Speaker 8:  from South Korea. I I didn't know this. You could open any restaurant in
+
+1081
+01:05:15,925 --> 01:05:19,725
+Speaker 8:  South Korea and in Seoul and there's no permitting. You just like open,
+
+1082
+01:05:19,825 --> 01:05:22,965
+Speaker 8:  you just like build stuff and then you open and then you're open for business
+
+1083
+01:05:22,965 --> 01:05:26,805
+Speaker 8:  and you serve people. Like if they had that ease in other locations
+
+1084
+01:05:26,805 --> 01:05:30,205
+Speaker 8:  around the world, then they could probably open more of these diners and
+
+1085
+01:05:30,205 --> 01:05:34,005
+Speaker 8:  make them, you know, these kind of like destinations, restaurants are,
+
+1086
+01:05:34,875 --> 01:05:37,805
+Speaker 8:  they're, they're, they're places that people talk about, you know, they're
+
+1087
+01:05:37,805 --> 01:05:40,845
+Speaker 8:  not like, it's kind of like the Apple store, right? I mean when the first
+
+1088
+01:05:40,845 --> 01:05:43,205
+Speaker 8:  couple Apple stores came out, they're like, oh, how many of these are gonna
+
+1089
+01:05:43,205 --> 01:05:47,165
+Speaker 8:  open and now they're ubiquitous, right? So it took a generation, I think
+
+1090
+01:05:47,165 --> 01:05:50,845
+Speaker 8:  these diners could be a, a place where it makes
+
+1091
+01:05:50,855 --> 01:05:54,365
+Speaker 8:  Tesla continue to be relevant and, and separates themselves
+
+1092
+01:05:54,715 --> 01:05:58,485
+Speaker 8:  from other car makers and, and, you know, gives again
+
+1093
+01:05:58,685 --> 01:06:02,525
+Speaker 8:  a a a place for people to engage with the brand. And so
+
+1094
+01:06:03,145 --> 01:06:06,245
+Speaker 8:  do I think, I think it's actually smart And I think it's interesting that
+
+1095
+01:06:06,245 --> 01:06:10,165
+Speaker 8:  they opened it in California, in, in Los Angeles, a
+
+1096
+01:06:10,165 --> 01:06:13,365
+Speaker 8:  place that obviously has very mixed feelings politically about
+
+1097
+01:06:14,185 --> 01:06:17,805
+Speaker 8:  its CEO. I'm, I'm like, why didn't they open in Texas? Why didn't they open
+
+1098
+01:06:17,865 --> 01:06:21,285
+Speaker 8:  in Florida or whatever? Like in, in places that might be more receptive.
+
+1099
+01:06:21,305 --> 01:06:25,005
+Speaker 8:  But I think they're also trying to make a statement by putting it in Hollywood,
+
+1100
+01:06:25,005 --> 01:06:28,885
+Speaker 8:  putting it in a major world city and making
+
+1101
+01:06:29,005 --> 01:06:29,765
+Speaker 8:  a statement that way.
+
+1102
+01:06:29,955 --> 01:06:32,245
+Speaker 7:  They're definitely gonna attract protestors.
+
+1103
+01:06:34,125 --> 01:06:38,085
+Speaker 7:  I I spoke to an organizer who has been, you know, part of the Tesla T
+
+1104
+01:06:38,085 --> 01:06:40,845
+Speaker 7:  Down movement and he's, you know, they're, they're planning on coming out
+
+1105
+01:06:40,845 --> 01:06:44,445
+Speaker 7:  this Saturday and he says that the intention is to keep coming out. You know,
+
+1106
+01:06:44,515 --> 01:06:47,085
+Speaker 7:  they're, they're gonna keep at it, you know, they, their, their mission is
+
+1107
+01:06:47,085 --> 01:06:50,085
+Speaker 7:  to continue to protest the company. They don't care that he's stepped away
+
+1108
+01:06:50,085 --> 01:06:53,805
+Speaker 7:  from Doge and yada yada yada. They, their, you know, their, in their intention,
+
+1109
+01:06:53,915 --> 01:06:57,805
+Speaker 7:  they, they see they're being seen success obviously in
+
+1110
+01:06:57,805 --> 01:07:00,565
+Speaker 7:  the earnings report. And I think that they want to
+
+1111
+01:07:00,725 --> 01:07:04,645
+Speaker 3:  Continue that. And something like a diner is, is so much more impactful in
+
+1112
+01:07:04,645 --> 01:07:07,965
+Speaker 3:  the moment. Like they are customers who are trying to show up and have a
+
+1113
+01:07:08,045 --> 01:07:11,005
+Speaker 3:  pleasant meal. Yeah. Yeah. And you were going to disrupt their ability to
+
+1114
+01:07:11,345 --> 01:07:15,085
+Speaker 3:  do good business. Yeah, yeah. If nobody's gonna wanna walk past them or you,
+
+1115
+01:07:15,085 --> 01:07:18,165
+Speaker 7:  You, it's hard, it's hard not to see this also as maybe an attempt at some
+
+1116
+01:07:18,165 --> 01:07:21,765
+Speaker 7:  brand rehabilitation by Tesla, right? To like kind of say, you know, we are,
+
+1117
+01:07:21,765 --> 01:07:25,645
+Speaker 7:  we're more than just the guy making the salute, you know, Trump's
+
+1118
+01:07:25,645 --> 01:07:28,565
+Speaker 7:  inauguration. We're also, you know, we got these fun
+
+1119
+01:07:29,305 --> 01:07:32,965
+Speaker 7:  robots that are serving popcorn and, you know, we're going to the, to, to
+
+1120
+01:07:33,035 --> 01:07:34,085
+Speaker 7:  Mars and all these other things.
+
+1121
+01:07:34,085 --> 01:07:35,245
+Speaker 3:  They've got like a movie screen,
+
+1122
+01:07:35,625 --> 01:07:39,405
+Speaker 7:  The huge, the di okay. So the drive-in screens are gigantic and
+
+1123
+01:07:39,405 --> 01:07:42,605
+Speaker 7:  they're right in front of an apartment buildings with balconies that have
+
+1124
+01:07:42,605 --> 01:07:46,165
+Speaker 7:  just oh, had their views completely blocked. And I am
+
+1125
+01:07:46,425 --> 01:07:50,045
+Speaker 7:  so curious to hear what the people who live in these buildings
+
+1126
+01:07:50,255 --> 01:07:53,645
+Speaker 7:  think about this free movies from the back. Okay.
+
+1127
+01:07:53,645 --> 01:07:57,285
+Speaker 3:  Maybe not from the nevermind, but you know, I gotta know who you,
+
+1128
+01:07:57,705 --> 01:08:00,285
+Speaker 7:  You gotta track down some of these people who live in the, in, in these buildings
+
+1129
+01:08:00,285 --> 01:08:02,445
+Speaker 7:  and find out what they think. 'cause I, I, I gotta know.
+
+1130
+01:08:02,685 --> 01:08:06,485
+Speaker 8:  I mean, that was what I immediately thought about. I think that in
+
+1131
+01:08:06,515 --> 01:08:10,325
+Speaker 8:  most, first of all, you don't live in like Hollywood for quiet and
+
+1132
+01:08:10,325 --> 01:08:14,245
+Speaker 8:  comfort. And that's good point. You don't, nobody is forcing you
+
+1133
+01:08:14,245 --> 01:08:18,085
+Speaker 8:  to live there. Granted, there are again, ginormous billboard
+
+1134
+01:08:18,245 --> 01:08:21,685
+Speaker 8:  sized screens pointing at your balcony now. And that's probably very annoying.
+
+1135
+01:08:22,085 --> 01:08:25,005
+Speaker 8:  I do think that I, I actually find, I try was trying to find out what time
+
+1136
+01:08:25,005 --> 01:08:27,925
+Speaker 8:  they turn off. There's probably like a mandated time. Oh yeah. I think it's
+
+1137
+01:08:27,925 --> 01:08:31,445
+Speaker 8:  11:00 PM they said. Yeah, I think it's 11. That wasn't confirmed. I actually
+
+1138
+01:08:31,445 --> 01:08:34,845
+Speaker 8:  wrote that like, kind of like, are you, but there it wasn't confirmed. I'm
+
+1139
+01:08:34,845 --> 01:08:38,765
+Speaker 8:  pretty sure that's like, we don't have billboards going 24 7 here on unlike
+
+1140
+01:08:38,945 --> 01:08:42,085
+Speaker 8:  New York. So Yeah. New York City. Yeah.
+
+1141
+01:08:42,545 --> 01:08:46,405
+Speaker 8:  Baby's right, number one. So yeah, it's certainly
+
+1142
+01:08:46,405 --> 01:08:49,565
+Speaker 8:  very annoying and it's comical. It, I think when you go there,
+
+1143
+01:08:51,585 --> 01:08:55,205
+Speaker 8:  it would make sense to behold the whole facility like in the middle of the
+
+1144
+01:08:55,205 --> 01:08:58,725
+Speaker 8:  desert or in the middle of a cornfield or something. But like, it's, it's
+
+1145
+01:08:58,725 --> 01:09:02,605
+Speaker 8:  in the middle of Hollywood. There are a lot of buildings you can, it's,
+
+1146
+01:09:02,675 --> 01:09:05,925
+Speaker 8:  it's just like jarring. 'cause I'm like, why do they have to do these ginormous
+
+1147
+01:09:05,925 --> 01:09:09,685
+Speaker 8:  screens? So there's a, a little bit of it. I think the whole,
+
+1148
+01:09:10,485 --> 01:09:13,685
+Speaker 8:  what I'm learning now is that, I guess the project is
+
+1149
+01:09:14,615 --> 01:09:18,085
+Speaker 8:  Franz von Ho's hausen Yeah. Kind of lead designer
+
+1150
+01:09:18,545 --> 01:09:22,165
+Speaker 8:  of Tesla. Yeah. He's a lead designer of Tesla. And like I was, I think what
+
+1151
+01:09:22,165 --> 01:09:25,525
+Speaker 8:  I've been told now, and this is not confirmed, but like, he lives in Los
+
+1152
+01:09:25,525 --> 01:09:29,405
+Speaker 8:  Angeles. The Tesla Design Center is based in Hawthorne in Los Angeles. And
+
+1153
+01:09:29,405 --> 01:09:32,205
+Speaker 8:  I think that's probably why the first location
+
+1154
+01:09:33,265 --> 01:09:37,205
+Speaker 8:  was here. It's really like, if you think about where the company split up,
+
+1155
+01:09:37,205 --> 01:09:40,885
+Speaker 8:  there's like production in Fremont in Northern California and offices and
+
+1156
+01:09:40,885 --> 01:09:43,645
+Speaker 8:  whatnot. That's kind of where they started. But then now they're like sort
+
+1157
+01:09:43,645 --> 01:09:47,445
+Speaker 8:  of moved the headquarters to Texas and to Austin. But like, I think
+
+1158
+01:09:47,445 --> 01:09:51,285
+Speaker 8:  at the end of the day for this project, it's really a Tesla design project.
+
+1159
+01:09:51,395 --> 01:09:54,885
+Speaker 8:  It's like a way for them to like, it's like the flexing part of the company.
+
+1160
+01:09:55,035 --> 01:09:58,285
+Speaker 8:  It's, it's not quite the nuts and bolts like making batteries and boring
+
+1161
+01:09:58,285 --> 01:10:02,005
+Speaker 8:  stuff like that. This is the sexy thing. And so yeah, I think I,
+
+1162
+01:10:02,235 --> 01:10:05,485
+Speaker 8:  it's, it's, it's a, it's an attention getter
+
+1163
+01:10:06,145 --> 01:10:09,685
+Speaker 8:  And I think yeah, people will protest it. There's ginormous
+
+1164
+01:10:09,685 --> 01:10:13,245
+Speaker 8:  screens, but I don't know, it's la like, we're kind of like used to
+
+1165
+01:10:13,655 --> 01:10:16,965
+Speaker 8:  crazy stuff happening and then we're gonna move on and find out what else.
+
+1166
+01:10:18,005 --> 01:10:20,925
+Speaker 8:  I mean if I think over like six months, people would be like, eh, there it
+
+1167
+01:10:20,925 --> 01:10:23,045
+Speaker 8:  is. Yeah, exactly. A burger. Yeah. You know,
+
+1168
+01:10:23,545 --> 01:10:24,085
+Speaker 3:  If nothing else
+
+1169
+01:11:41,425 --> 01:11:43,965
+Speaker 3:  All right, we're back with the thunder round.
+
+1170
+01:11:46,265 --> 01:11:50,135
+Speaker 3:  There it is. That's right. For those who have missed it,
+
+1171
+01:11:50,295 --> 01:11:54,095
+Speaker 3:  I am on a power trip with Neli and David gone the lightning round.
+
+1172
+01:11:54,125 --> 01:11:57,535
+Speaker 3:  It's done. It's gone. I'm over it. That's so old news.
+
+1173
+01:11:58,075 --> 01:12:00,735
+Speaker 3:  Here's my problem with it. I don't know if you guys have listened to The
+
+1174
+01:12:00,855 --> 01:12:04,335
+Speaker 3:  Vergecast a lot. Yeah, I have. I hope you have. That's very good. They never
+
+1175
+01:12:04,435 --> 01:12:08,375
+Speaker 3:  get through all the stories. Oh, they don't. And so I have given Eric Gomez
+
+1176
+01:12:08,455 --> 01:12:12,055
+Speaker 3:  our producer, the Power of Thunder. He will,
+
+1177
+01:12:12,375 --> 01:12:16,135
+Speaker 3:  I don't know what the term, reign it down upon us. Cra it's not
+
+1178
+01:12:16,135 --> 01:12:18,735
+Speaker 3:  crashing. He'll do a Thor. It's he will, he'll do a Thor.
+
+1179
+01:12:18,735 --> 01:12:19,255
+Speaker 7:  He a
+
+1180
+01:12:19,255 --> 01:12:22,655
+Speaker 3:  Thor move. Yeah, there we go. He, he channels Thor
+
+1181
+01:12:23,195 --> 01:12:25,815
+Speaker 3:  and tells us politely to move along. So
+
+1182
+01:12:27,115 --> 01:12:30,965
+Speaker 3:  his organ do five stories, five minutes. He's gonna a little
+
+1183
+01:12:30,965 --> 01:12:34,765
+Speaker 3:  rolling thunder when we need to move along and then it's gonna crash down
+
+1184
+01:12:35,185 --> 01:12:38,885
+Speaker 3:  or something. We're gonna, we're still figuring this out. The thunder round.
+
+1185
+01:12:39,835 --> 01:12:43,285
+Speaker 3:  It's new and improved. Gonna get, we'll continue to improve as time goes
+
+1186
+01:12:43,385 --> 01:12:46,725
+Speaker 3:  on. Alright, first story. Let's roll.
+
+1187
+01:12:47,195 --> 01:12:48,205
+Speaker 3:  Andy, it's over to
+
+1188
+01:12:48,205 --> 01:12:52,125
+Speaker 7:  You. All right, so my first story is the return of Faraday future kind of
+
+1189
+01:12:52,685 --> 01:12:56,285
+Speaker 7:  Faraday future. A electric vehicle company that we've covered for a very
+
+1190
+01:12:56,315 --> 01:12:59,645
+Speaker 7:  long time. Most a company most associated with the term
+
+1191
+01:12:59,835 --> 01:13:03,005
+Speaker 7:  vaporware. I think you can say they are one of those companies that,
+
+1192
+01:13:03,665 --> 01:13:07,645
+Speaker 7:  you know, promised the moon, you know, super fast
+
+1193
+01:13:08,045 --> 01:13:11,045
+Speaker 7:  electric vehicles and all of these, you know, sort of like interlocking media
+
+1194
+01:13:11,185 --> 01:13:14,525
+Speaker 7:  and all these things. And it never really panned out. And
+
+1195
+01:13:15,275 --> 01:13:19,085
+Speaker 7:  they're back, they introduced a new vehicle called the
+
+1196
+01:13:19,585 --> 01:13:23,445
+Speaker 7:  fx, I'm sorry, the sub-brand. They have a new sub-brand called the FX
+
+1197
+01:13:24,065 --> 01:13:27,925
+Speaker 7:  in this new vehicle is the FX super one. And it's basically just
+
+1198
+01:13:27,925 --> 01:13:31,405
+Speaker 7:  like a luxury minivan, but it has something that's
+
+1199
+01:13:31,605 --> 01:13:35,565
+Speaker 7:  distinctive about it. It has a face. So instead
+
+1200
+01:13:35,565 --> 01:13:39,365
+Speaker 7:  of a grill in place of a grill, there is a digital screen on the front of
+
+1201
+01:13:39,365 --> 01:13:43,205
+Speaker 7:  the vehicle that projects like an AI
+
+1202
+01:13:43,235 --> 01:13:47,005
+Speaker 7:  generated face. So you can put like a smiley face on there. You can put
+
+1203
+01:13:47,005 --> 01:13:47,525
+Speaker 7:  like, you know,
+
+1204
+01:13:47,785 --> 01:13:51,605
+Speaker 3:  I'm sorry I scrolled past this image in your story And I, I thought
+
+1205
+01:13:51,765 --> 01:13:54,205
+Speaker 3:  I was like, oh, this is one of those things where like, you know, they're
+
+1206
+01:13:54,205 --> 01:13:57,085
+Speaker 3:  like covering it up so we don't see Yeah, it's, but no, that's a
+
+1207
+01:13:57,725 --> 01:13:58,285
+Speaker 3:  screen's
+
+1208
+01:13:58,285 --> 01:14:01,885
+Speaker 7:  A legit screen. Oh my God. Like a full on display. Like we have to, you know,
+
+1209
+01:14:02,025 --> 01:14:05,485
+Speaker 7:  get, you know, our TV reviewers on this immediately because this is gonna
+
+1210
+01:14:05,485 --> 01:14:07,405
+Speaker 7:  be the next big tv. I I'm, I'm,
+
+1211
+01:14:07,465 --> 01:14:10,045
+Speaker 3:  Can you assuming, can you watch like Top Gun on this?
+
+1212
+01:14:10,185 --> 01:14:12,165
+Speaker 7:  You can watch Top Chef on home. Oh
+
+1213
+01:14:12,165 --> 01:14:14,965
+Speaker 3:  Yeah. Right in front of the minivan.
+
+1214
+01:14:14,965 --> 01:14:18,405
+Speaker 7:  Obviously this is a terrible idea. 'cause if you think about if you're driving
+
+1215
+01:14:18,565 --> 01:14:22,485
+Speaker 7:  a vehicle, what often happens is the, the front of your vehicle gets very
+
+1216
+01:14:22,485 --> 01:14:26,365
+Speaker 7:  dirty. It gets covered in bugs that gets chipped pebbles and rocks
+
+1217
+01:14:26,365 --> 01:14:29,205
+Speaker 7:  and other things, you know, fly up in the face of it. It's, it's not something
+
+1218
+01:14:29,205 --> 01:14:33,125
+Speaker 7:  that you can ever really keep completely blemish free. So the idea of
+
+1219
+01:14:33,125 --> 01:14:36,685
+Speaker 7:  having a a, a cracked screen with broken
+
+1220
+01:14:36,785 --> 01:14:39,085
+Speaker 7:  pixels all over, it sounds insane to me.
+
+1221
+01:14:39,515 --> 01:14:43,365
+Speaker 4:  It's called front AI communications ecosystem. Face.
+
+1222
+01:14:43,675 --> 01:14:43,965
+Speaker 4:  Face.
+
+1223
+01:14:44,265 --> 01:14:44,485
+Speaker 3:  Oh
+
+1224
+01:14:44,485 --> 01:14:47,165
+Speaker 7:  Yeah. So this is also like another thing that Fairity Future is always very
+
+1225
+01:14:47,165 --> 01:14:50,925
+Speaker 7:  good at, which is giving things terrible brand names. So
+
+1226
+01:14:50,925 --> 01:14:54,645
+Speaker 7:  yeah, the, the F face is a, is an acronym that stands for front
+
+1227
+01:14:54,825 --> 01:14:58,725
+Speaker 7:  AI communication ecosystem. And you, if you're a business, you can
+
+1228
+01:14:58,725 --> 01:15:02,245
+Speaker 7:  like project your logo on it. If you're an artist, you can project your
+
+1229
+01:15:02,245 --> 01:15:05,805
+Speaker 7:  illustrations on it. It, again, I I cannot stress this enough. This
+
+1230
+01:15:06,235 --> 01:15:08,025
+Speaker 7:  will never ship
+
+1231
+01:15:08,505 --> 01:15:12,425
+Speaker 4:  What happens if you get into a, into a car crash too. When you
+
+1232
+01:15:12,425 --> 01:15:15,185
+Speaker 4:  break your, can you imagine how much that would cost to take
+
+1233
+01:15:15,185 --> 01:15:15,985
+Speaker 3:  Place? It does, it does a frown,
+
+1234
+01:15:15,985 --> 01:15:17,545
+Speaker 7:  Right? It does a yeah, it does an out face, right?
+
+1235
+01:15:19,685 --> 01:15:23,465
+Speaker 3:  It it tells you it's pain level. It's, oh God, I have a question about
+
+1236
+01:15:24,025 --> 01:15:27,305
+Speaker 3:  I thought minivans were like not cool anymore.
+
+1237
+01:15:27,665 --> 01:15:30,865
+Speaker 7:  I, well, So if you talk to like auto writers, they all love
+
+1238
+01:15:31,185 --> 01:15:34,465
+Speaker 7:  minivans. They, you know, they feel like it's a very practical vehicle that
+
+1239
+01:15:34,465 --> 01:15:38,385
+Speaker 7:  has fallen outta favor with the public as our SUVs
+
+1240
+01:15:38,385 --> 01:15:42,225
+Speaker 7:  have become larger and more hulking and bigger and, you know, sort of all
+
+1241
+01:15:42,225 --> 01:15:45,465
+Speaker 7:  those things, you know, the minivan has been sort of like left to the side
+
+1242
+01:15:45,465 --> 01:15:49,305
+Speaker 7:  to to, to molder. Like, you know, the, the Chrysler Pacifica is like the
+
+1243
+01:15:49,305 --> 01:15:52,945
+Speaker 7:  only like US based minivan anymore.
+
+1244
+01:15:53,055 --> 01:15:56,105
+Speaker 7:  There's still like, you know, a few, there's like your Honda Odyssey and
+
+1245
+01:15:56,105 --> 01:15:59,705
+Speaker 7:  your, your Kia Min minivans, but for the most part min minivan
+
+1246
+01:15:59,955 --> 01:16:00,905
+Speaker 7:  sales have have
+
+1247
+01:16:01,705 --> 01:16:05,105
+Speaker 3:  Plunged. So if you, if you are a company that is
+
+1248
+01:16:05,545 --> 01:16:09,225
+Speaker 3:  swearing, you're gonna make a car and gonna make money on that car,
+
+1249
+01:16:10,105 --> 01:16:13,605
+Speaker 3:  but you've never made a car, why are you going to minivan first?
+
+1250
+01:16:13,965 --> 01:16:17,045
+Speaker 7:  I, it's, it really like what it boggles the mind. But that's been sort of
+
+1251
+01:16:17,045 --> 01:16:19,725
+Speaker 7:  like the theme with Faraday future over the years is that they just, they
+
+1252
+01:16:19,725 --> 01:16:23,405
+Speaker 7:  don't do things that make sense. This is a company that has been in existence
+
+1253
+01:16:23,405 --> 01:16:26,845
+Speaker 7:  since 2014, has spent $3 billion
+
+1254
+01:16:27,585 --> 01:16:29,695
+Speaker 7:  to ship 12 cars.
+
+1255
+01:16:30,755 --> 01:16:32,615
+Speaker 4:  Oh. You know, that's a great return in our investing.
+
+1256
+01:16:32,615 --> 01:16:35,975
+Speaker 7:  That that's all that's, it's all gone to like investors and like influencers
+
+1257
+01:16:35,975 --> 01:16:39,775
+Speaker 7:  basically. This is not a real company. It's, if anything, it's just a, you
+
+1258
+01:16:39,975 --> 01:16:42,935
+Speaker 7:  know, it's a way to like light a huge pile of cash on fire.
+
+1259
+01:16:43,045 --> 01:16:46,895
+Speaker 4:  It's a grift. You know what? I respect it. I respect the grift.
+
+1260
+01:16:47,295 --> 01:16:47,415
+Speaker 4:  I,
+
+1261
+01:16:47,495 --> 01:16:50,415
+Speaker 7:  I respect that. We need more g grifting in our, in our, we need more minivan
+
+1262
+01:16:51,055 --> 01:16:51,215
+Speaker 7:  industry.
+
+1263
+01:16:51,775 --> 01:16:55,295
+Speaker 3:  I do think if they are going to make up a car that they're not really gonna
+
+1264
+01:16:55,535 --> 01:16:59,295
+Speaker 3:  ship. I think they could have thought bigger. I think not like
+
+1265
+01:16:59,295 --> 01:17:02,815
+Speaker 3:  physically bigger. The minivan is already quite large. I think they have
+
+1266
+01:17:03,415 --> 01:17:06,975
+Speaker 3:  a TV on the front and that's where it ends. Right?
+
+1267
+01:17:07,045 --> 01:17:10,005
+Speaker 4:  Well they have these little reclining chairs in the back with
+
+1268
+01:17:10,625 --> 01:17:14,125
+Speaker 4:  really poorly photoshopped bottle of wine
+
+1269
+01:17:14,665 --> 01:17:16,765
+Speaker 4:  to champagne glass. It's so poorly shop.
+
+1270
+01:17:16,765 --> 01:17:19,205
+Speaker 3:  I just learned that there are cars in China that can jump
+
+1271
+01:17:20,035 --> 01:17:23,135
+Speaker 7:  Oh yeah. The BYD. The BYD Listen. Yeah. It's, that's
+
+1272
+01:17:23,195 --> 01:17:25,695
+Speaker 3:  If you're gonna make a fake car, like promise me
+
+1273
+01:17:25,695 --> 01:17:29,615
+Speaker 7:  The moon. China, China, very, very ahead of us in the, in the cars that
+
+1274
+01:17:29,615 --> 01:17:30,335
+Speaker 7:  jump race.
+
+1275
+01:17:30,455 --> 01:17:33,495
+Speaker 3:  I say as global race, jump in cars, make it to the us.
+
+1276
+01:17:34,235 --> 01:17:35,215
+Speaker 3:  I'm never leaving my house.
+
+1277
+01:17:35,555 --> 01:17:38,855
+Speaker 4:  We, I mean that we need those in, in New York of all the potholes, you need
+
+1278
+01:17:38,855 --> 01:17:40,535
+Speaker 4:  a car that can jump over the potholes.
+
+1279
+01:17:40,775 --> 01:17:43,935
+Speaker 3:  I I don't think Americans are responsible enough for this. I'm really sorry.
+
+1280
+01:17:44,275 --> 01:17:44,495
+Speaker 3:  No,
+
+1281
+01:17:45,215 --> 01:17:48,815
+Speaker 4:  I mean I still, you know, just as you like chaos with liquid glass. Yeah.
+
+1282
+01:17:48,855 --> 01:17:49,775
+Speaker 4:  I want chaos on the highway.
+
+1283
+01:17:50,235 --> 01:17:50,935
+Speaker 3:  You want road warrior?
+
+1284
+01:17:51,375 --> 01:17:51,655
+Speaker 4:  I want road.
+
+1285
+01:17:51,715 --> 01:17:53,855
+Speaker 3:  You're you're full on like ready to go Mad
+
+1286
+01:17:54,055 --> 01:17:56,335
+Speaker 4:  Magazine. I'm ready to go. Yeah. A beautiful
+
+1287
+01:17:56,745 --> 01:17:57,095
+Speaker 3:  Twist.
+
+1288
+01:17:58,605 --> 01:18:01,375
+Speaker 3:  Okay. The, you've got some news for us?
+
+1289
+01:18:01,595 --> 01:18:05,375
+Speaker 4:  Yes. Amazon has bought BI and
+
+1290
+01:18:05,535 --> 01:18:09,215
+Speaker 4:  BAI is this wearable that I tested that kind
+
+1291
+01:18:09,215 --> 01:18:12,655
+Speaker 3:  Of, this is BBEE. Not, not b, EE. Okay. BEE like
+
+1292
+01:18:12,655 --> 01:18:13,055
+Speaker 7:  Buzz, buzz,
+
+1293
+01:18:13,285 --> 01:18:16,255
+Speaker 4:  Buzz, buzz. Like, so Yeah. No be by
+
+1294
+01:18:16,415 --> 01:18:20,255
+Speaker 4:  VI wrote that review. It's basically like
+
+1295
+01:18:20,255 --> 01:18:23,775
+Speaker 4:  this little Fitbit type thing. And it listens to you always.
+
+1296
+01:18:24,355 --> 01:18:28,215
+Speaker 4:  And it's basically supposed to be your AI memory. And it
+
+1297
+01:18:28,215 --> 01:18:31,735
+Speaker 4:  wrote fan fiction about my life. It recorded some very
+
+1298
+01:18:31,735 --> 01:18:35,575
+Speaker 4:  embarrassing moments. Like when I went And I had a particularly
+
+1299
+01:18:36,085 --> 01:18:40,015
+Speaker 4:  healthy bowel movement And I looked back And I went, oh shit. And then
+
+1300
+01:18:40,015 --> 01:18:43,895
+Speaker 4:  it said v said, oh shit, in this transcript. And
+
+1301
+01:18:43,895 --> 01:18:47,655
+Speaker 4:  it was making these like to-do lists. It was, it was like truly dystopian.
+
+1302
+01:18:47,765 --> 01:18:51,175
+Speaker 4:  Good god. It has So it learned so much about you That is
+
+1303
+01:18:51,175 --> 01:18:54,775
+Speaker 4:  incorrect. Incorrect At the same time. And now
+
+1304
+01:18:54,775 --> 01:18:55,695
+Speaker 4:  Amazon has bought it.
+
+1305
+01:18:55,885 --> 01:18:59,815
+Speaker 3:  I've, okay. You've just instantly turned me off of everything about
+
+1306
+01:18:59,815 --> 01:19:03,655
+Speaker 3:  this. Like, I just always listening, but on
+
+1307
+01:19:03,655 --> 01:19:05,855
+Speaker 3:  you, like what? No, yeah.
+
+1308
+01:19:05,855 --> 01:19:09,455
+Speaker 4:  This is like this new class. It's not of AI wearables where it's just like
+
+1309
+01:19:09,455 --> 01:19:12,815
+Speaker 4:  listening and we'll create transcriptions and this takes it a bit further
+
+1310
+01:19:12,815 --> 01:19:16,255
+Speaker 4:  because it'll, it'll the promises that like, oh, that thing you said you
+
+1311
+01:19:16,255 --> 01:19:19,855
+Speaker 4:  were gonna do, that you forgot to do. It's in a to-do list that it created
+
+1312
+01:19:19,885 --> 01:19:23,095
+Speaker 4:  because it's listening to you all the time.
+
+1313
+01:19:24,075 --> 01:19:25,895
+Speaker 4:  All the time. All the time.
+
+1314
+01:19:26,495 --> 01:19:29,735
+Speaker 7:  I feel like that's the thing that most people say that they don't want from
+
+1315
+01:19:29,735 --> 01:19:33,655
+Speaker 7:  their technology. Yeah. You know, given the sort of the pro prominence
+
+1316
+01:19:33,655 --> 01:19:37,255
+Speaker 7:  of the, you know, various conspiracy theories about people's phones listening
+
+1317
+01:19:37,255 --> 01:19:40,615
+Speaker 7:  to them and how, how that makes people feel. Like why would you actively
+
+1318
+01:19:40,675 --> 01:19:41,535
+Speaker 7:  buy something that does
+
+1319
+01:19:41,535 --> 01:19:45,415
+Speaker 4:  This? You know? 'cause I, I really do think there's a forgetful contingent
+
+1320
+01:19:45,465 --> 01:19:48,735
+Speaker 4:  among us and like people who want these like, notes
+
+1321
+01:19:49,625 --> 01:19:52,935
+Speaker 4:  taken. But like thi this thing couldn't tell that I was not
+
+1322
+01:19:53,695 --> 01:19:57,575
+Speaker 4:  Philadelphia school teacher working at Abbott Elementary. Oh. So it was telling
+
+1323
+01:19:57,635 --> 01:20:01,615
+Speaker 4:  me things like, get ready your classroom for the SEPTA strike. And those
+
+1324
+01:20:01,615 --> 01:20:05,175
+Speaker 4:  were just like things that were populating my to-do list. But you know, to
+
+1325
+01:20:05,175 --> 01:20:09,085
+Speaker 4:  your point, Amazon got into a bunch of trouble a number of
+
+1326
+01:20:09,085 --> 01:20:12,525
+Speaker 4:  years back. 'cause the Echo was listening to everything. And you know, like
+
+1327
+01:20:12,525 --> 01:20:16,165
+Speaker 4:  I've, I've spoken with the people who've made b they, like, when I wrote
+
+1328
+01:20:16,165 --> 01:20:19,205
+Speaker 4:  my review, they were like, oh, privacy is at the forefront. And I'm just
+
+1329
+01:20:19,205 --> 01:20:23,195
+Speaker 4:  like, well, we don't know how much Amazon bought B for, but
+
+1330
+01:20:23,195 --> 01:20:27,075
+Speaker 4:  this is the big first. Like this is the first big tech company that's buying
+
+1331
+01:20:27,075 --> 01:20:28,995
+Speaker 4:  these, always listening AI devices.
+
+1332
+01:20:31,065 --> 01:20:34,955
+Speaker 3:  Yeah. This is like a very confusing acquisition to me. It like,
+
+1333
+01:20:35,795 --> 01:20:39,275
+Speaker 3:  I understand that there are a lot of tech companies looking at AI being like,
+
+1334
+01:20:39,275 --> 01:20:42,395
+Speaker 3:  we gotta do an AI gadget, we gotta do something. And it does seem like the
+
+1335
+01:20:42,395 --> 01:20:45,875
+Speaker 3:  current idea is just like, oh, I'll just listen to you all the time. So like,
+
+1336
+01:20:45,875 --> 01:20:49,775
+Speaker 3:  okay. I I, I'll give that to them even though I think it's not the right
+
+1337
+01:20:49,775 --> 01:20:53,495
+Speaker 3:  idea and seems unpleasant. But this, this, the
+
+1338
+01:20:53,735 --> 01:20:57,455
+Speaker 3:  hardware and the software of this fundamentally don't seem very good.
+
+1339
+01:20:57,745 --> 01:21:01,215
+Speaker 3:  Right? Like Amazon could just make this themselves. Why do they need to buy
+
+1340
+01:21:01,215 --> 01:21:04,255
+Speaker 3:  this? It is, it's just a little, it's just a little thing around your wrist
+
+1341
+01:21:04,255 --> 01:21:04,935
+Speaker 3:  with a microphone.
+
+1342
+01:21:05,045 --> 01:21:07,735
+Speaker 4:  It's a little thing around. Or you could wear it as like a clip. I wear it
+
+1343
+01:21:07,735 --> 01:21:10,775
+Speaker 4:  mostly as a pendant because I have limited wrist real estate at any given
+
+1344
+01:21:10,775 --> 01:21:14,735
+Speaker 4:  point in time. But yeah, I think it's just the,
+
+1345
+01:21:14,755 --> 01:21:17,775
+Speaker 4:  the concept of what they're doing, you know, they're saying Alexa plus is
+
+1346
+01:21:17,775 --> 01:21:21,655
+Speaker 4:  gonna be agentic and they call b something that's about to be
+
+1347
+01:21:21,725 --> 01:21:25,255
+Speaker 4:  agentic. I don't, there's like this a
+
+1348
+01:21:25,355 --> 01:21:29,135
+Speaker 4:  aspect of you talking and it automatically adding things to a
+
+1349
+01:21:29,135 --> 01:21:32,815
+Speaker 4:  to-do list, which, you know, I went on the New Jersey transit bus and it
+
+1350
+01:21:32,815 --> 01:21:35,975
+Speaker 4:  was just like, you've got a patient in Louisiana that's about to die, make
+
+1351
+01:21:35,975 --> 01:21:39,895
+Speaker 4:  sure to check in on them. And I was like, what? No, what does
+
+1352
+01:21:39,935 --> 01:21:43,575
+Speaker 4:  either someone was watching like a medical drama on this bus And I didn't
+
+1353
+01:21:43,575 --> 01:21:47,375
+Speaker 4:  hear it, or I just violated someone's HIPAA rights. I
+
+1354
+01:21:47,375 --> 01:21:49,215
+Speaker 4:  don't know. But I just feel you're
+
+1355
+01:21:49,215 --> 01:21:49,335
+Speaker 3:  In the,
+
+1356
+01:21:49,595 --> 01:21:53,255
+Speaker 4:  Now that my conspiracy hat theory is that this has something to do with Alexa.
+
+1357
+01:21:53,325 --> 01:21:53,615
+Speaker 4:  Plus
+
+1358
+01:21:55,395 --> 01:21:58,695
+Speaker 3:  Amazon clearly wants to put Alexa on the, on your wrist. Right? They've
+
+1359
+01:21:58,695 --> 01:22:02,655
+Speaker 4:  Been trying to put it on your face, in your microwaves, in, in so many different
+
+1360
+01:22:02,655 --> 01:22:06,335
+Speaker 4:  ways. So I just feel like they're like, what if we put Alexa in it? And what
+
+1361
+01:22:06,335 --> 01:22:09,615
+Speaker 4:  if it's listening at all times and it can control your to-do list and then
+
+1362
+01:22:09,615 --> 01:22:13,055
+Speaker 4:  it can control your like shopping cart. So like, it kind of makes sense to
+
+1363
+01:22:13,055 --> 01:22:16,345
+Speaker 4:  me, but it also makes me just go like, oh no,
+
+1364
+01:22:17,655 --> 01:22:18,625
+Speaker 3:  It's coming for you. Oh
+
+1365
+01:22:18,645 --> 01:22:22,585
+Speaker 4:  No. B by V in like 20 years is
+
+1366
+01:22:22,585 --> 01:22:25,745
+Speaker 4:  just gonna be like, Alexa writing fan fiction about my life and all the things
+
+1367
+01:22:25,745 --> 01:22:29,425
+Speaker 4:  that it misinterprets. Like you should have seen the transfix it had when
+
+1368
+01:22:29,425 --> 01:22:31,185
+Speaker 4:  I was watching severance. Oh. And I could not
+
+1369
+01:22:31,185 --> 01:22:32,625
+Speaker 3:  Tell, tell honestly Severance
+
+1370
+01:22:32,695 --> 01:22:36,505
+Speaker 4:  From my life. And it was just like, oh, the numbers are
+
+1371
+01:22:36,505 --> 01:22:37,545
+Speaker 4:  important and mysterious.
+
+1372
+01:22:38,045 --> 01:22:40,945
+Speaker 3:  How does it even tell you? Like it doesn't have a speaker. Right? You're,
+
+1373
+01:22:40,945 --> 01:22:42,465
+Speaker 3:  you have to check another app. This
+
+1374
+01:22:42,465 --> 01:22:44,345
+Speaker 4:  Doesn't Yeah, there's a companion app and it
+
+1375
+01:22:44,345 --> 01:22:44,825
+Speaker 3:  Doesn't feel like
+
+1376
+01:22:44,825 --> 01:22:48,785
+Speaker 4:  It collects all the stuff. It has like fact Tinder. So
+
+1377
+01:22:48,875 --> 01:22:51,185
+Speaker 4:  it'll learn stuff about you and you have to verify things.
+
+1378
+01:22:51,485 --> 01:22:55,305
+Speaker 3:  Oh my God, yes. You swipe whether it is accurately surveilling you.
+
+1379
+01:22:55,565 --> 01:22:58,785
+Speaker 3:  Yes. Hmm. That's disturbing. It's,
+
+1380
+01:22:59,145 --> 01:23:03,105
+Speaker 4:  I got a lot of really funny fact genders, which you can check my B by V
+
+1381
+01:23:03,105 --> 01:23:07,085
+Speaker 4:  review. And you can see that it thought that I knew someone named Kendrick,
+
+1382
+01:23:07,305 --> 01:23:10,125
+Speaker 4:  Kendra Monisha because I was listening to the Kendrick album.
+
+1383
+01:23:10,995 --> 01:23:14,885
+Speaker 3:  Well, okay. Room for improvement, room for a lot. Good luck to
+
+1384
+01:23:14,885 --> 01:23:18,365
+Speaker 3:  Amazon with that one. And right under the,
+
+1385
+01:23:18,945 --> 01:23:19,165
+Speaker 4:  We
+
+1386
+01:23:19,165 --> 01:23:22,085
+Speaker 3:  Did it right under the, we did it. Yeah. Almost got there. Almost. Got it.
+
+1387
+01:23:22,085 --> 01:23:25,245
+Speaker 3:  Okay. Big shelter. I've got one for you. This week
+
+1388
+01:23:25,735 --> 01:23:29,525
+Speaker 3:  Apple launched a new service called AppleCare one
+
+1389
+01:23:30,095 --> 01:23:33,765
+Speaker 3:  Apple. I think if you guys have been paying attention to, to their earnings,
+
+1390
+01:23:34,555 --> 01:23:38,205
+Speaker 3:  they, they love services, they love recurring revenue. Right. And they're
+
+1391
+01:23:38,205 --> 01:23:41,445
+Speaker 3:  turning everything into a subscription among us. I do, I do. This is actually
+
+1392
+01:23:41,515 --> 01:23:45,405
+Speaker 3:  love it. I mean, we have subscription service, if not a,
+
+1393
+01:23:45,485 --> 01:23:47,165
+Speaker 3:  a recurring subscription.
+
+1394
+01:23:47,525 --> 01:23:48,405
+Speaker 4:  Subscribe to the rich.com
+
+1395
+01:23:48,425 --> 01:23:49,725
+Speaker 3:  To, to pe. Yeah.
+
+1396
+01:23:51,665 --> 01:23:55,285
+Speaker 3:  So Apple Service, you pay $20 a month and they'll offer,
+
+1397
+01:23:55,705 --> 01:23:59,485
+Speaker 3:  you know, warranty, extended warranty protection coverage for I think like
+
+1398
+01:23:59,505 --> 01:24:03,465
+Speaker 3:  any three of your Apple gadgets. And there's some restrictions and
+
+1399
+01:24:03,465 --> 01:24:07,145
+Speaker 3:  it's the max is three, three max is three. You can add more for $6 each.
+
+1400
+01:24:07,285 --> 01:24:10,305
+Speaker 3:  No. And I think maybe the, the deal starts getting worse. And so it's very
+
+1401
+01:24:10,505 --> 01:24:13,825
+Speaker 3:  interesting because some people it's $20 flat.
+
+1402
+01:24:14,255 --> 01:24:17,825
+Speaker 3:  Some people, if you're the kind of person who wants a warranty, are gonna
+
+1403
+01:24:17,825 --> 01:24:20,825
+Speaker 3:  make out, do you know how much the warranty is on
+
+1404
+01:24:21,905 --> 01:24:23,345
+Speaker 3:  a Vision Pro? If you're paying by month
+
+1405
+01:24:23,905 --> 01:24:24,185
+Speaker 4:  A lot,
+
+1406
+01:24:24,405 --> 01:24:28,345
+Speaker 3:  It is $25. So you're immediately saving $5 a month
+
+1407
+01:24:28,365 --> 01:24:31,345
+Speaker 3:  and covering two other gadgets. If you're a Vision Pro person. And listen,
+
+1408
+01:24:31,345 --> 01:24:34,025
+Speaker 3:  if you're a Vision Pro person who's like, you want that throwing this thing
+
+1409
+01:24:34,025 --> 01:24:35,705
+Speaker 3:  around town, oh yeah, okay,
+
+1410
+01:24:35,975 --> 01:24:39,905
+Speaker 4:  Well you, you want it Because like they, like when I had my first Vision
+
+1411
+01:24:40,045 --> 01:24:43,465
+Speaker 4:  Pro demos, they were like, you have to pick it up a specific way, my God.
+
+1412
+01:24:43,465 --> 01:24:46,865
+Speaker 4:  Because it, God attaches by magnets. Like the, the different, the light seals
+
+1413
+01:24:46,985 --> 01:24:50,305
+Speaker 4:  attached by magnets. So if you're not careful and then that glass screen
+
+1414
+01:24:50,325 --> 01:24:54,265
+Speaker 4:  is gonna go and then that's $3,500 down, down the
+
+1415
+01:24:54,265 --> 01:24:58,025
+Speaker 4:  hole. That's rough. But not if you have, if you're shaving $5
+
+1416
+01:24:58,205 --> 01:24:59,305
+Speaker 4:  on this Apple one,
+
+1417
+01:24:59,485 --> 01:25:02,665
+Speaker 3:  You still gotta pay, you still gotta pay the, the service fee. So, okay.
+
+1418
+01:25:03,165 --> 01:25:06,145
+Speaker 3:  It is less of a deal if you're, if you're covering cheaper gadgets. Right.
+
+1419
+01:25:06,145 --> 01:25:09,025
+Speaker 3:  If it's just your phone, your laptop, your AirPods, you're like maybe breaking
+
+1420
+01:25:09,025 --> 01:25:12,905
+Speaker 3:  even. Here's my question though. Do are either of you like extended warranty
+
+1421
+01:25:12,905 --> 01:25:15,265
+Speaker 3:  people? 'cause I, I'm always like, I'm not taking it like
+
+1422
+01:25:15,665 --> 01:25:19,505
+Speaker 4:  I didn't for a long time. And then Butterfinger v
+
+1423
+01:25:19,635 --> 01:25:23,585
+Speaker 4:  McGee dropped her phone, three phones in
+
+1424
+01:25:23,585 --> 01:25:26,705
+Speaker 4:  a row cracked the screens. And I was like,
+
+1425
+01:25:27,755 --> 01:25:31,375
+Speaker 4:  oh no. And I tried to go, I'm like, fix screen please. And they were like,
+
+1426
+01:25:31,555 --> 01:25:35,455
+Speaker 4:  ha ha, no, you don't have a warranty. So for a number of years I did,
+
+1427
+01:25:35,755 --> 01:25:37,095
+Speaker 4:  but it has since expired.
+
+1428
+01:25:37,635 --> 01:25:40,735
+Speaker 3:  See, that would do it. That would, I, I'm, I'm always like, I'm gonna take
+
+1429
+01:25:40,735 --> 01:25:44,455
+Speaker 3:  this risk because with Apple in particular, like, you gotta pay for the warranty
+
+1430
+01:25:44,475 --> 01:25:47,295
+Speaker 3:  and then you gotta pay for the service on top of that. And I'm like,
+
+1431
+01:25:48,615 --> 01:25:49,215
+Speaker 4:  I think I
+
+1432
+01:25:49,215 --> 01:25:49,535
+Speaker 3:  Gamble
+
+1433
+01:25:49,535 --> 01:25:53,415
+Speaker 4:  This. I let my extended warranty expire. So when I went to
+
+1434
+01:25:53,415 --> 01:25:57,335
+Speaker 4:  replace the battery on my 14 Pro Max, I was
+
+1435
+01:25:57,335 --> 01:26:00,535
+Speaker 4:  like, three battery please. And they're like, it's expired. So
+
+1436
+01:26:01,035 --> 01:26:03,645
+Speaker 4:  $100 please. I was was like, ah, I
+
+1437
+01:26:03,645 --> 01:26:07,085
+Speaker 7:  I I have a question about the warranties. As, as you know, we have these,
+
+1438
+01:26:07,185 --> 01:26:11,125
+Speaker 7:  you know, right. To repair, there's the right to repair movement,
+
+1439
+01:26:11,125 --> 01:26:14,685
+Speaker 7:  right. And there's states that are adopting laws around right. To repair
+
+1440
+01:26:15,785 --> 01:26:19,045
+Speaker 7:  and the Apple and the other tech companies are pushing back against it. I'm
+
+1441
+01:26:19,045 --> 01:26:22,645
+Speaker 7:  curious to see if we get like, sort of widespread
+
+1442
+01:26:23,135 --> 01:26:26,965
+Speaker 7:  right. To repair approvals, you know, maybe even like on a national
+
+1443
+01:26:26,965 --> 01:26:30,925
+Speaker 7:  level, like what that would mean for like a warranty or like long term.
+
+1444
+01:26:30,925 --> 01:26:34,285
+Speaker 7:  Because if you've, if you're suddenly you're like, you know, you can like
+
+1445
+01:26:34,285 --> 01:26:37,245
+Speaker 7:  update your battery, you can like update your screen over the years. Like,
+
+1446
+01:26:37,465 --> 01:26:41,165
+Speaker 7:  you know, maybe that warranty becomes a lot more useful or a lot more valuable
+
+1447
+01:26:41,165 --> 01:26:43,885
+Speaker 7:  to have if you can like, do these things to your phone that people typically
+
+1448
+01:26:43,885 --> 01:26:44,325
+Speaker 7:  haven't done.
+
+1449
+01:26:44,585 --> 01:26:48,285
+Speaker 3:  Or I guess like alternatively, I wonder if, if, if those things are really
+
+1450
+01:26:48,285 --> 01:26:51,965
+Speaker 3:  effective, right? Like maybe you don't need it because you can actually
+
+1451
+01:26:52,465 --> 01:26:54,285
+Speaker 3:  go kind of anywhere to get it fixed, right?
+
+1452
+01:26:54,285 --> 01:26:55,845
+Speaker 7:  Yeah. It's like a third party or, yeah. Whereas
+
+1453
+01:26:55,845 --> 01:26:59,245
+Speaker 3:  Right now, like third party repairs with Apple, like, it's it's very limited's.
+
+1454
+01:26:59,245 --> 01:26:59,605
+Speaker 3:  So you have to
+
+1455
+01:26:59,605 --> 01:27:03,445
+Speaker 4:  Go to the authorized repair Yeah. Thingy. And it's like, eh,
+
+1456
+01:27:03,795 --> 01:27:07,285
+Speaker 3:  They really have a lot of control over it. They do. I, my, my worst I guess
+
+1457
+01:27:07,285 --> 01:27:10,525
+Speaker 3:  like Apple, like, you know, failure to have coverage story was, I, I had
+
+1458
+01:27:10,525 --> 01:27:14,325
+Speaker 3:  the first Apple Watch and I was like working out one day and then it was
+
+1459
+01:27:14,325 --> 01:27:18,245
+Speaker 3:  just like, I'm done. Oh, just, just like, it was like
+
+1460
+01:27:18,245 --> 01:27:22,125
+Speaker 3:  that they were like, we had a good time and that's, it was only like, like
+
+1461
+01:27:22,585 --> 01:27:26,405
+Speaker 3:  it was not very old. And so I went to the Apple store and
+
+1462
+01:27:26,425 --> 01:27:30,165
+Speaker 3:  I'm like, I think like maybe we can just like, you know, reinstall the OS
+
+1463
+01:27:30,385 --> 01:27:33,525
+Speaker 3:  and they're like, I don't know, we gotta, we gotta send this thing off and
+
+1464
+01:27:33,525 --> 01:27:36,405
+Speaker 3:  it's out of warranty. I'm like, okay, send it off, see how much it would
+
+1465
+01:27:36,405 --> 01:27:40,325
+Speaker 3:  cost. And they got back to me, they're like, you can buy a new
+
+1466
+01:27:40,325 --> 01:27:44,295
+Speaker 3:  Apple watch. And I'm like, well that's, that
+
+1467
+01:27:44,295 --> 01:27:45,975
+Speaker 3:  was, we had a good, we had a good run.
+
+1468
+01:27:46,375 --> 01:27:48,815
+Speaker 7:  I mean that's ultimately what they want you to do. They just want you to
+
+1469
+01:27:48,815 --> 01:27:49,375
+Speaker 7:  keep buying new product.
+
+1470
+01:27:49,375 --> 01:27:50,015
+Speaker 3:  These new
+
+1471
+01:27:50,015 --> 01:27:53,775
+Speaker 4:  Products are the, the watchOS in particularly are really hard to repair anyway.
+
+1472
+01:27:53,775 --> 01:27:57,215
+Speaker 4:  Yeah. So anytime anything breaks, they're basically gonna be like, how would
+
+1473
+01:27:57,215 --> 01:27:58,255
+Speaker 4:  you like a new watch? Yeah.
+
+1474
+01:27:58,695 --> 01:28:01,895
+Speaker 7:  I, that's the thing. I don't think these devices would look the same if we
+
+1475
+01:28:01,915 --> 01:28:05,295
+Speaker 7:  had some, you know, some sort of widespread repairability, you know, like
+
+1476
+01:28:05,295 --> 01:28:05,575
+Speaker 7:  mandate
+
+1477
+01:28:05,795 --> 01:28:09,175
+Speaker 3:  That's very real. Like I think, you know, if you look at the Fairphone,
+
+1478
+01:28:10,095 --> 01:28:13,415
+Speaker 3:  actually it is getting a lot nicer looking. But I do think a lot of these
+
+1479
+01:28:13,415 --> 01:28:16,695
+Speaker 3:  parable gadgets, like they kinda, you know, chunky, they gotta make their
+
+1480
+01:28:16,695 --> 01:28:19,095
+Speaker 3:  trade offs. They gotta make their trade offs. They chunky and some of 'em
+
+1481
+01:28:19,095 --> 01:28:22,255
+Speaker 3:  will, they, they do it and they look nice And I think like Apple, like they're
+
+1482
+01:28:22,255 --> 01:28:26,175
+Speaker 3:  not gonna make that trade. Which, you know, they,
+
+1483
+01:28:26,175 --> 01:28:28,695
+Speaker 3:  they want to give you a reason to keep paying them money. Right. That's,
+
+1484
+01:28:28,695 --> 01:28:32,535
+Speaker 3:  that's great for them. I'm gonna keep taking the risk. Yeah. I don't think
+
+1485
+01:28:32,535 --> 01:28:33,015
+Speaker 3:  I'm, but if you're
+
+1486
+01:28:33,165 --> 01:28:33,855
+Speaker 7:  Sign up for this,
+
+1487
+01:28:34,155 --> 01:28:36,615
+Speaker 3:  But Vision Pro early adopters. Yeah.
+
+1488
+01:28:36,615 --> 01:28:39,415
+Speaker 7:  If you have the expensive, this is your moment stuff, it seems like it might
+
+1489
+01:28:39,415 --> 01:28:40,975
+Speaker 7:  be a worthwhile thing to sign up for.
+
+1490
+01:28:41,785 --> 01:28:43,025
+Speaker 4:  I just think you have to map it out.
+
+1491
+01:28:43,525 --> 01:28:47,345
+Speaker 3:  You got Yes. Very real. We go very real. Okay. Andy? Yes.
+
+1492
+01:28:47,455 --> 01:28:47,825
+Speaker 3:  What have
+
+1493
+01:28:47,825 --> 01:28:50,825
+Speaker 7:  You got? Pro us. All right. Next one is that Uber announced
+
+1494
+01:28:51,615 --> 01:28:55,425
+Speaker 7:  that it was rolling out a new feature that it's had in
+
+1495
+01:28:55,905 --> 01:28:59,625
+Speaker 7:  a lot of other countries, but now it's gonna be coming to the us It's a,
+
+1496
+01:28:59,745 --> 01:29:03,685
+Speaker 7:  a a, a driver preference and a rider preference feature for women. So
+
+1497
+01:29:03,685 --> 01:29:07,485
+Speaker 7:  if you are a woman who uses Uber and you would prefer
+
+1498
+01:29:07,505 --> 01:29:11,325
+Speaker 7:  to ride with a woman driver, you can set that preference now in the
+
+1499
+01:29:11,325 --> 01:29:14,965
+Speaker 7:  Uber app. Hell yes. And vice versa, a driver, if you're a woman who drives
+
+1500
+01:29:14,965 --> 01:29:17,765
+Speaker 7:  for Uber and you'd wanna prefer to have women passengers, you could set that
+
+1501
+01:29:17,765 --> 01:29:21,365
+Speaker 7:  preference as well. Uber acknowledges this is likely to
+
+1502
+01:29:21,725 --> 01:29:25,565
+Speaker 7:  increase wait times because the idea as of today, the vast majority of
+
+1503
+01:29:25,565 --> 01:29:29,445
+Speaker 7:  Uber drivers are men. It's something like three to one. But
+
+1504
+01:29:29,985 --> 01:29:33,405
+Speaker 7:  it, it does seem like, you know, they rolled this out to, in Saudi Arabia
+
+1505
+01:29:33,515 --> 01:29:37,445
+Speaker 7:  many years ago, it was very popular and then it, they brought it
+
+1506
+01:29:37,445 --> 01:29:40,925
+Speaker 7:  to other countries in Europe and Asia and now it's coming to the us. It's
+
+1507
+01:29:40,925 --> 01:29:44,405
+Speaker 7:  gonna be in Los Angeles, Detroit and San Francisco. And then they're gonna
+
+1508
+01:29:44,405 --> 01:29:46,885
+Speaker 7:  try to roll it out across the, the rest of the country. After that.
+
+1509
+01:29:47,525 --> 01:29:51,165
+Speaker 4:  I would love if you could make it so that after a certain time of day
+
+1510
+01:29:51,505 --> 01:29:55,285
+Speaker 4:  you could switch who you want driving you. Because I have had some
+
+1511
+01:29:56,445 --> 01:29:58,535
+Speaker 4:  dicey Uber drivers in the past.
+
+1512
+01:29:58,635 --> 01:29:59,815
+Speaker 7:  You are not alone in
+
+1513
+01:29:59,815 --> 01:30:03,615
+Speaker 4:  Past experience. I, I've had some dicey Uber drivers in the past. Like I've,
+
+1514
+01:30:03,875 --> 01:30:07,735
+Speaker 4:  you know, also had situations where like our Uber
+
+1515
+01:30:07,795 --> 01:30:10,575
+Speaker 4:  was stuck in traffic and then I got a phone call because they were like,
+
+1516
+01:30:10,575 --> 01:30:14,215
+Speaker 4:  you've been stuck in traffic, are you safe? Are you gonna be like un alive?
+
+1517
+01:30:14,435 --> 01:30:17,535
+Speaker 4:  And I was like, oh, that happened to me recently actually. Yeah. And I was
+
+1518
+01:30:17,535 --> 01:30:21,055
+Speaker 4:  like, oh, well that makes me feel slightly better,
+
+1519
+01:30:21,435 --> 01:30:25,335
+Speaker 4:  but also not at the same time. And I will
+
+1520
+01:30:25,475 --> 01:30:29,455
+Speaker 4:  say that I think road rage is less common in the New York City
+
+1521
+01:30:29,455 --> 01:30:32,735
+Speaker 4:  area when I've had women drivers. Yeah. Oh yeah. Just the
+
+1522
+01:30:32,975 --> 01:30:34,255
+Speaker 4:  GWB pissing.
+
+1523
+01:30:34,355 --> 01:30:37,135
+Speaker 7:  No, yeah. Pissing my driver off physically women are safer drivers than men
+
+1524
+01:30:37,135 --> 01:30:40,615
+Speaker 7:  in a lot of, a lot of mar a lot of cities in the countries. Yeah, it's, you
+
+1525
+01:30:40,615 --> 01:30:44,335
+Speaker 7:  know, I think it, what it does is it speaks to a larger problem that Uber's
+
+1526
+01:30:44,335 --> 01:30:48,135
+Speaker 7:  been having and Lyft as well. And just really anyone in the ride hail
+
+1527
+01:30:48,445 --> 01:30:51,535
+Speaker 7:  taxi business, which is that assaults, sexual assaults,
+
+1528
+01:30:51,945 --> 01:30:55,695
+Speaker 7:  harassment, violence still a big problem in this industry.
+
+1529
+01:30:56,855 --> 01:31:00,655
+Speaker 7:  I, I think in its last report that was, that was released in
+
+1530
+01:31:00,655 --> 01:31:04,415
+Speaker 7:  2024 Uber Safety Report covering the years of 2021 and
+
+1531
+01:31:04,415 --> 01:31:07,935
+Speaker 7:  2022, there were 2,717
+
+1532
+01:31:09,255 --> 01:31:12,655
+Speaker 7:  incidents of serious, serious sexual assault and misconduct
+
+1533
+01:31:13,115 --> 01:31:16,975
+Speaker 7:  in its vehicles. This is either drivers assaulting passengers,
+
+1534
+01:31:16,975 --> 01:31:20,575
+Speaker 7:  passengers assaulting drivers, that's down from the previous period,
+
+1535
+01:31:20,755 --> 01:31:24,015
+Speaker 7:  but still a, a big problem for the company. And they're trying to like, make
+
+1536
+01:31:24,015 --> 01:31:25,975
+Speaker 7:  things safer overall it seems like for people.
+
+1537
+01:31:26,375 --> 01:31:30,215
+Speaker 3:  I do wonder if on if on a long enough timeline, this could
+
+1538
+01:31:30,415 --> 01:31:33,895
+Speaker 3:  actually increase the number of women who are driving for Uber. I think it
+
+1539
+01:31:33,895 --> 01:31:37,815
+Speaker 3:  could, right? Yeah. Because now there is a specific audience for
+
+1540
+01:31:37,815 --> 01:31:41,295
+Speaker 3:  them and they're going to presumably have a safer time
+
+1541
+01:31:41,655 --> 01:31:44,975
+Speaker 3:  driving. I I cannot in memory,
+
+1542
+01:31:45,515 --> 01:31:47,935
+Speaker 3:  you know, remember having a woman driving Uber
+
+1543
+01:31:48,255 --> 01:31:48,695
+Speaker 4:  Really? That I've got.
+
+1544
+01:31:48,805 --> 01:31:49,095
+Speaker 3:  Yeah,
+
+1545
+01:31:49,125 --> 01:31:49,855
+Speaker 4:  I've got, I've
+
+1546
+01:31:49,855 --> 01:31:52,775
+Speaker 7:  Had a lot recently. I've had a few too. Okay. Yeah. Okay. But no, it is,
+
+1547
+01:31:52,795 --> 01:31:56,455
+Speaker 7:  it is certainly the case that for, for women who drive for Uber,
+
+1548
+01:31:56,795 --> 01:32:00,365
+Speaker 7:  you know, we ran a, a feature in 2022, which I would encourage you to read.
+
+1549
+01:32:00,425 --> 01:32:04,085
+Speaker 7:  It is a extremely tough read. But we, the
+
+1550
+01:32:04,285 --> 01:32:08,045
+Speaker 7:  reporter who's, whose name, hold on, let me see what
+
+1551
+01:32:08,675 --> 01:32:12,525
+Speaker 7:  Anna bets. She wrote this story, this is a great story. She interviewed
+
+1552
+01:32:12,525 --> 01:32:15,845
+Speaker 7:  like a dozen women who write, who drive for Uber and Lyft. And the stories
+
+1553
+01:32:15,845 --> 01:32:19,805
+Speaker 7:  that they told were horrifying. Horrifying. Just, you know, I'm sorry to
+
+1554
+01:32:19,805 --> 01:32:23,365
+Speaker 7:  say, but men are terrible in many, many
+
+1555
+01:32:23,405 --> 01:32:27,045
+Speaker 7:  contexts and one of which is in an Uber vehicle. So,
+
+1556
+01:32:27,465 --> 01:32:30,325
+Speaker 7:  you know, she talked to these women, you know, and, and you don't, you can't
+
+1557
+01:32:30,355 --> 01:32:34,125
+Speaker 7:  imagine it's, or it's, it's easy to imagine
+
+1558
+01:32:34,265 --> 01:32:37,765
+Speaker 7:  why more women don't, don't drive for these services because of how horrible
+
+1559
+01:32:37,765 --> 01:32:41,645
+Speaker 7:  these experiences are. So I do think it could have the, the, the knock on
+
+1560
+01:32:41,645 --> 01:32:44,365
+Speaker 7:  effect of of getting more women to sign up to drive the
+
+1561
+01:32:44,365 --> 01:32:47,565
+Speaker 3:  Hope is that it's just still a good enough experience in the meantime. Because
+
+1562
+01:32:47,565 --> 01:32:51,125
+Speaker 3:  like, I I mean honestly the wait times are are rough in general
+
+1563
+01:32:51,125 --> 01:32:55,045
+Speaker 3:  sometimes. Yeah. And if you have to wait for one of a, a subset of
+
+1564
+01:32:55,045 --> 01:32:55,365
+Speaker 3:  drivers,
+
+1565
+01:32:56,325 --> 01:33:00,125
+Speaker 4:  I wish, I wish it could be just like, yes, that's my preference. But if there
+
+1566
+01:33:00,185 --> 01:33:02,245
+Speaker 4:  are none within you can Yes. This time period,
+
+1567
+01:33:02,715 --> 01:33:03,725
+Speaker 7:  Then just they do let you,
+
+1568
+01:33:04,035 --> 01:33:06,285
+Speaker 4:  I'll, I'll I'll accept a man. Yeah.
+
+1569
+01:33:06,285 --> 01:33:09,605
+Speaker 7:  Like they say that you can, you can, as you're hailing the ride, you can
+
+1570
+01:33:09,605 --> 01:33:13,125
+Speaker 7:  say, I'd like this to be a woman. And that's also the case that
+
+1571
+01:33:13,955 --> 01:33:16,845
+Speaker 7:  Uber, you, you have to verify your identity. So they're making sure that
+
+1572
+01:33:16,865 --> 01:33:20,765
+Speaker 7:  men are not like fall asleep. Oh right. Impersonating to, to ensure,
+
+1573
+01:33:20,765 --> 01:33:23,365
+Speaker 7:  you know, to that they're not, you know, and if, if something like that happens,
+
+1574
+01:33:23,365 --> 01:33:26,165
+Speaker 7:  they encourage people to report it to Uber and they'll kick them off the
+
+1575
+01:33:26,165 --> 01:33:29,805
+Speaker 7:  app essentially. But yeah, they are they, if they say that, if it, if you
+
+1576
+01:33:29,805 --> 01:33:33,565
+Speaker 7:  see the wait time and it's like, you know, an hour until your car comes versus,
+
+1577
+01:33:33,745 --> 01:33:37,485
+Speaker 7:  you know, two minutes for Joe to driver to to swing by, maybe
+
+1578
+01:33:37,485 --> 01:33:41,445
+Speaker 4:  Sometimes you'll take that risk. 'cause my last Uber driver, I will
+
+1579
+01:33:41,465 --> 01:33:44,845
+Speaker 4:  say I do feel like a female Uber driver would have a better smelling Uber.
+
+1580
+01:33:45,205 --> 01:33:49,045
+Speaker 4:  'cause the last Uber I got into the man I got in And I was like,
+
+1581
+01:33:49,105 --> 01:33:52,765
+Speaker 4:  he clearly cro dusted right before I got in. And this is
+
+1582
+01:33:53,025 --> 01:33:56,365
+Speaker 7:  Not good. This is the most scatological Vergecast I've ever done.
+
+1583
+01:33:57,705 --> 01:34:00,085
+Speaker 7:  No, but it's, I think it's also what it speaks to that's interesting to me.
+
+1584
+01:34:00,115 --> 01:34:03,245
+Speaker 7:  Just to wrap it up is that, you know, Uber thought since the beginning that
+
+1585
+01:34:03,245 --> 01:34:06,205
+Speaker 7:  this like five star system was gonna be the end all be all. You, you, you
+
+1586
+01:34:06,205 --> 01:34:09,445
+Speaker 7:  rate the driver, they rate you and this is gonna weed out all of like the
+
+1587
+01:34:09,445 --> 01:34:12,885
+Speaker 7:  bad apples. Clearly that has not worked out at all.
+
+1588
+01:34:13,265 --> 01:34:17,045
+Speaker 7:  And if anything it has offered more opportunities for predators and other
+
+1589
+01:34:17,045 --> 01:34:20,845
+Speaker 7:  people who, you know, commit these types of violence to to, to continue to
+
+1590
+01:34:20,845 --> 01:34:24,005
+Speaker 7:  do so. So you know, hopefully as they continue to tweak these features, we
+
+1591
+01:34:24,005 --> 01:34:26,525
+Speaker 7:  can see some more safety in the system. Alright,
+
+1592
+01:34:27,085 --> 01:34:29,005
+Speaker 3:  D you've got one last story to wrap us
+
+1593
+01:34:29,005 --> 01:34:30,125
+Speaker 4:  Up. Labu Booo.
+
+1594
+01:34:30,355 --> 01:34:31,325
+Speaker 7:  Hell yeah. Let's go
+
+1595
+01:34:31,355 --> 01:34:35,245
+Speaker 4:  Baby la boos. Let's go into La boo boos. So Mia wrote
+
+1596
+01:34:35,445 --> 01:34:39,405
+Speaker 4:  a really great just writeup of how hard it is to get a
+
+1597
+01:34:39,475 --> 01:34:43,245
+Speaker 4:  Labu booo and how these little freaky ass
+
+1598
+01:34:43,355 --> 01:34:47,165
+Speaker 4:  toys have gotten so popular in the last few months. And
+
+1599
+01:34:47,585 --> 01:34:51,365
+Speaker 4:  you know, I am not saying that I wanted a Labu Booo,
+
+1600
+01:34:52,185 --> 01:34:55,765
+Speaker 4:  but having read this and watched the social video, I
+
+1601
+01:34:55,765 --> 01:34:58,285
+Speaker 4:  definitely do not have it in me. Okay. To get a
+
+1602
+01:34:58,315 --> 01:35:01,885
+Speaker 3:  Labu boo. Can I just ask you really, really quickly? I, I refused,
+
+1603
+01:35:02,555 --> 01:35:05,645
+Speaker 3:  refused to learn what a what a labu boo is for the longest time.
+
+1604
+01:35:06,595 --> 01:35:07,445
+Speaker 3:  What is a labu?
+
+1605
+01:35:07,965 --> 01:35:11,885
+Speaker 4:  A labu boo is a creepy
+
+1606
+01:35:11,885 --> 01:35:15,565
+Speaker 4:  little doll that has these little ears and they're fuzzy on the
+
+1607
+01:35:15,565 --> 01:35:18,565
+Speaker 4:  outside and they have these little angry toothy
+
+1608
+01:35:19,415 --> 01:35:23,325
+Speaker 4:  grins. They're, they're part of the subsect of thing
+
+1609
+01:35:23,325 --> 01:35:27,205
+Speaker 4:  that, like the Japanese term for it is Kim Kauai, which is like ugly,
+
+1610
+01:35:27,315 --> 01:35:31,245
+Speaker 4:  cute. So they're ugly, but they're kind of cute and they're just the,
+
+1611
+01:35:31,355 --> 01:35:35,085
+Speaker 4:  they're, they're the next collectible craze. People are going crazy
+
+1612
+01:35:35,145 --> 01:35:38,725
+Speaker 4:  for them. Like blind boxes. If you've ever had a blind box, which is like
+
+1613
+01:35:38,725 --> 01:35:41,725
+Speaker 4:  a little box that you go at, like these stores,
+
+1614
+01:35:41,725 --> 01:35:43,685
+Speaker 7:  That seems to be the thing that is really driving the craze
+
+1615
+01:35:43,905 --> 01:35:44,965
+Speaker 4:  Is the, yeah, they're blind.
+
+1616
+01:35:44,985 --> 01:35:45,205
+Speaker 7:  The
+
+1617
+01:35:45,205 --> 01:35:48,045
+Speaker 4:  Mystery of it. It's a mystery of it. It's a little box. You can get one of
+
+1618
+01:35:48,525 --> 01:35:51,525
+Speaker 4:  X amounts of figurines. You open it and you're like, oh, what a surprise.
+
+1619
+01:35:51,665 --> 01:35:55,645
+Speaker 4:  And then it like triggers into this primal collective
+
+1620
+01:35:55,645 --> 01:35:59,525
+Speaker 4:  urge that you gotta get 'em all like a Pokemon. So people are just going
+
+1621
+01:35:59,635 --> 01:36:03,005
+Speaker 4:  nuts over these labu boos to the point where they're so hard and it's like
+
+1622
+01:36:03,405 --> 01:36:06,685
+Speaker 4:  artificial scarcity, right? So they're so hard to get. There's labu boo drops
+
+1623
+01:36:06,685 --> 01:36:09,845
+Speaker 4:  and people are just trying to get these labu boos. But they're also, that
+
+1624
+01:36:09,845 --> 01:36:13,405
+Speaker 7:  Was a thing that floored me watching Mia's video, right? The drop aspect.
+
+1625
+01:36:13,475 --> 01:36:16,565
+Speaker 4:  There's like a drop and you have to like insane go into this app and you
+
+1626
+01:36:16,565 --> 01:36:16,765
+Speaker 4:  can't
+
+1627
+01:36:16,765 --> 01:36:18,525
+Speaker 7:  Trust Too many times it was gamified basically.
+
+1628
+01:36:18,525 --> 01:36:22,285
+Speaker 4:  It was gamified. Yeah. But you know, at a point that I really
+
+1629
+01:36:22,285 --> 01:36:26,245
+Speaker 4:  liked was that some people just don't care. So they get Laos and La
+
+1630
+01:36:26,545 --> 01:36:30,005
+Speaker 4:  Fus are the es they're like the, the knockoffs.
+
+1631
+01:36:30,625 --> 01:36:33,765
+Speaker 4:  So now I like, I see these tiktoks all the time and people are like, mm,
+
+1632
+01:36:33,765 --> 01:36:37,285
+Speaker 4:  that's not a labu boo. That's a la foo. And they're like, don't insult my
+
+1633
+01:36:37,435 --> 01:36:41,365
+Speaker 4:  labu boo. That's a labu boo. It's not a la fufu. And I just have
+
+1634
+01:36:41,365 --> 01:36:44,325
+Speaker 4:  been like, what the hell are these things?
+
+1635
+01:36:45,275 --> 01:36:48,525
+Speaker 4:  What are these? So now we have a 3D printed laboo in our office.
+
+1636
+01:36:49,125 --> 01:36:51,445
+Speaker 3:  I did see this and it was beautiful. It's gorgeous. It's
+
+1637
+01:36:51,525 --> 01:36:53,405
+Speaker 4:  Gorgeous. It's gold. It's there,
+
+1638
+01:36:53,575 --> 01:36:53,925
+Speaker 3:  We're
+
+1639
+01:36:53,925 --> 01:36:56,685
+Speaker 7:  Not worshiping it. Just to be clear, we're not worshiping it. It's not our,
+
+1640
+01:36:56,685 --> 01:36:59,085
+Speaker 7:  we're not worshiping it. We're not, it's not a new idol in the, on the office.
+
+1641
+01:36:59,085 --> 01:36:59,325
+Speaker 7:  Yeah,
+
+1642
+01:36:59,325 --> 01:37:03,245
+Speaker 3:  It's, but to be clear, we, we were jealous. And so yeah, we made a, we
+
+1643
+01:37:03,245 --> 01:37:05,765
+Speaker 3:  made it, we knocked her off our own. We had to because
+
+1644
+01:37:06,045 --> 01:37:09,085
+Speaker 4:  Mia did get a labu boo. I don't under, it's gonna take two months to get
+
+1645
+01:37:09,085 --> 01:37:09,485
+Speaker 4:  the labu boo.
+
+1646
+01:37:09,565 --> 01:37:13,285
+Speaker 3:  I do not understand fundamentally like, what is this mechanism to buy them?
+
+1647
+01:37:13,345 --> 01:37:15,285
+Speaker 3:  Why do you have to keep tapping things? It's,
+
+1648
+01:37:15,435 --> 01:37:16,445
+Speaker 4:  It's just distract. This
+
+1649
+01:37:16,445 --> 01:37:19,685
+Speaker 3:  Seems like worse than buying concert tickets. It at like, at least with concert
+
+1650
+01:37:19,685 --> 01:37:23,485
+Speaker 3:  tickets, you go in and you're like, I'm gonna find out instantly the bots
+
+1651
+01:37:23,485 --> 01:37:26,925
+Speaker 3:  got them all. I'm gonna be upset. But like, at least, at least it will be
+
+1652
+01:37:26,925 --> 01:37:30,005
+Speaker 3:  over quickly. And this seems like you spend like hours, like tapping your
+
+1653
+01:37:30,005 --> 01:37:30,525
+Speaker 3:  phone screen.
+
+1654
+01:37:31,805 --> 01:37:35,765
+Speaker 4:  I will not be, that's, that's a little much for me, but like, just as
+
+1655
+01:37:35,765 --> 01:37:39,685
+Speaker 4:  like an observer of the human condition. The labu boo has
+
+1656
+01:37:39,685 --> 01:37:43,605
+Speaker 4:  just been like a what the, wow. I went to a stray kids concert
+
+1657
+01:37:43,705 --> 01:37:47,565
+Speaker 4:  in June and like my bias, which is like your favorite member. He was up there,
+
+1658
+01:37:47,925 --> 01:37:51,605
+Speaker 4:  Felix and he had a blue laboo on him. I was like, he got, they got you too,
+
+1659
+01:37:52,895 --> 01:37:56,805
+Speaker 4:  Felix. Oh. And I was like, I guess I gotta look up
+
+1660
+01:37:56,805 --> 01:37:58,205
+Speaker 4:  what a lab boo boo is. For real.
+
+1661
+01:37:58,235 --> 01:38:01,165
+Speaker 3:  Well you know who has a blue labu boo to flip? I
+
+1662
+01:38:01,285 --> 01:38:05,005
+Speaker 4:  I Mia? Yeah. Mia has a blue lab booboo now. Yeah. Like I don't want
+
+1663
+01:38:05,365 --> 01:38:09,285
+Speaker 4:  a Labu boo. My, my other, my, my bestie, her parents went to
+
+1664
+01:38:09,285 --> 01:38:12,805
+Speaker 4:  the Louv in France and apparently they were selling a
+
+1665
+01:38:13,115 --> 01:38:16,005
+Speaker 4:  full lab booboo as artist blind box set.
+
+1666
+01:38:16,065 --> 01:38:16,645
+Speaker 7:  Oh my God.
+
+1667
+01:38:16,945 --> 01:38:20,645
+Speaker 4:  And so it's like lab booboos in different, like a Van Go Lab. Oh my God.
+
+1668
+01:38:20,885 --> 01:38:24,645
+Speaker 4:  A Starry Night Lab booboo. And she, I went over to her house and she just
+
+1669
+01:38:24,645 --> 01:38:28,285
+Speaker 4:  had them all displayed. And I was like, when did you get into Lab Booboos?
+
+1670
+01:38:28,545 --> 01:38:31,845
+Speaker 4:  And her parents were like, we had to get them 'cause they were at the Louvre.
+
+1671
+01:38:31,845 --> 01:38:34,685
+Speaker 4:  And I was like, they have lab booboos at the Louvre.
+
+1672
+01:38:35,005 --> 01:38:38,245
+Speaker 7:  I, I just wanna describe the, the, the ex I'm looking, I'm watching Mia's
+
+1673
+01:38:38,245 --> 01:38:42,205
+Speaker 7:  video right now and what looks like a pentagram, like appears on
+
+1674
+01:38:42,205 --> 01:38:44,525
+Speaker 7:  the screen and is like swirling. They
+
+1675
+01:38:44,555 --> 01:38:45,565
+Speaker 4:  Have some in the Labu
+
+1676
+01:38:45,565 --> 01:38:48,365
+Speaker 7:  Boo and now you've got these stores saying that they're not gonna sell them
+
+1677
+01:38:48,365 --> 01:38:50,885
+Speaker 7:  because they think that they're Satanic la
+
+1678
+01:38:51,065 --> 01:38:51,285
+Speaker 4:  Fu
+
+1679
+01:38:51,585 --> 01:38:52,285
+Speaker 7:  That's the la
+
+1680
+01:38:53,005 --> 01:38:56,645
+Speaker 4:  I don't know. This is, I it's also just really fun to say La Boo la Fufu
+
+1681
+01:38:56,945 --> 01:38:58,245
+Speaker 4:  la Lavu.
+
+1682
+01:38:59,015 --> 01:39:02,325
+Speaker 7:  We're like, we're like, I don't know, two weeks away from something like
+
+1683
+01:39:02,335 --> 01:39:06,285
+Speaker 7:  truly horrific happening if this trend, either that or they're gonna be
+
+1684
+01:39:06,285 --> 01:39:08,685
+Speaker 7:  like the hot new Halloween costume in October.
+
+1685
+01:39:09,805 --> 01:39:13,445
+Speaker 4:  I mean, it's slightly better than the Sunny Angels, which are like the naked
+
+1686
+01:39:13,445 --> 01:39:16,685
+Speaker 4:  babies that come with Cupid. Like Cuppy. May I,
+
+1687
+01:39:16,705 --> 01:39:20,565
+Speaker 7:  I'm old enough to remember the, the Beanie Baby. Yes. Craze. My grandmother
+
+1688
+01:39:20,665 --> 01:39:24,245
+Speaker 7:  got sucked into that. And when she passed away, we inherited her Beanie Baby
+
+1689
+01:39:24,245 --> 01:39:28,125
+Speaker 7:  collection, which was literally a trunk full
+
+1690
+01:39:28,385 --> 01:39:28,765
+Speaker 7:  of these.
+
+1691
+01:39:28,765 --> 01:39:32,045
+Speaker 4:  That's what this is incredible. That's what it's lab Booboos are the la la
+
+1692
+01:39:32,065 --> 01:39:33,245
+Speaker 4:  Beanie Babies of
+
+1693
+01:39:33,245 --> 01:39:37,085
+Speaker 3:  2025. I, okay. I thought they were maybe like the TikTok
+
+1694
+01:39:37,085 --> 01:39:39,285
+Speaker 3:  version of Funko Pops. They are like,
+
+1695
+01:39:39,285 --> 01:39:41,765
+Speaker 7:  They're like, yeah, there's an element to That's so they're definitely, they
+
+1696
+01:39:41,765 --> 01:39:43,285
+Speaker 7:  look more like Funko Pop pops than,
+
+1697
+01:39:43,495 --> 01:39:46,885
+Speaker 3:  Especially if they're doing like different versions of them. Like a starry
+
+1698
+01:39:46,885 --> 01:39:50,285
+Speaker 3:  night one. Like that's that's the Funko model. Yeah. You're like, I'm gonna
+
+1699
+01:39:50,285 --> 01:39:53,885
+Speaker 3:  do this branded one for like each character. Yeah, they're, it's gonna happen.
+
+1700
+01:39:54,205 --> 01:39:57,565
+Speaker 7:  I like that there are dupes though. I feel like that, that that is a sign
+
+1701
+01:39:57,565 --> 01:39:59,445
+Speaker 7:  of a, of a culture that is like evolving.
+
+1702
+01:39:59,715 --> 01:40:03,285
+Speaker 4:  They also have lore. There's like La Booboos have boyfriends and there's
+
+1703
+01:40:03,285 --> 01:40:06,925
+Speaker 4:  a Mo Coco. Oh, of course. And there's like a, there's a whole bore. I went
+
+1704
+01:40:06,925 --> 01:40:09,445
+Speaker 4:  into it And I went like, I'm too old for this shit.
+
+1705
+01:40:11,265 --> 01:40:13,805
+Speaker 4:  But I appreciate that it's there.
+
+1706
+01:40:14,465 --> 01:40:17,205
+Speaker 3:  The, I'm gonna need you to chase this down. Report back next week.
+
+1707
+01:40:18,345 --> 01:40:21,725
+Speaker 3:  We gotta know, are the La boos satanic? Are they
+
+1708
+01:40:21,735 --> 01:40:25,325
+Speaker 3:  corrupting our children? Will somebody, they most definitely, somebody put
+
+1709
+01:40:25,325 --> 01:40:27,445
+Speaker 3:  a mic in them and make them into AI gadgets.
+
+1710
+01:40:27,545 --> 01:40:28,525
+Speaker 7:  Oh, that's in, that's,
+
+1711
+01:40:28,525 --> 01:40:32,285
+Speaker 3:  That's inevitable. The future. That's it for the thunder round. And
+
+1712
+01:40:32,285 --> 01:40:35,965
+Speaker 3:  that's it for The Vergecast. We are off next week. MTO will host
+
+1713
+01:40:35,965 --> 01:40:39,565
+Speaker 3:  Tuesday's episode when we come back on August 5th. If you like what we do
+
+1714
+01:40:39,565 --> 01:40:43,525
+Speaker 3:  here, the best way to support us is to buy a subscription to The
+
+1715
+01:40:43,725 --> 01:40:47,405
+Speaker 3:  Verge. Go to The Verge dot com. We actually just had a really big update
+
+1716
+01:40:47,585 --> 01:40:51,485
+Speaker 3:  to the website. If you make an account, you can now sign up and follow
+
+1717
+01:40:52,005 --> 01:40:55,805
+Speaker 3:  specific topics and authors. These two good starting
+
+1718
+01:40:55,805 --> 01:40:59,645
+Speaker 3:  points. Me, you know, take it or leave it. It's
+
+1719
+01:40:59,645 --> 01:41:02,765
+Speaker 3:  all right. It's all right. Please check that out. Let us know what you think.
+
+1720
+01:41:03,145 --> 01:41:06,725
+Speaker 3:  If you have questions or wanna contact us, can you email us at
+
+1721
+01:41:06,925 --> 01:41:10,125
+Speaker 3:  vergecast at The Verge dot com or give us a call? 8 6 6
+
+1722
+01:41:10,725 --> 01:41:14,485
+Speaker 3:  VERGE 11. The Vergecast is a production of The Verge and Vox
+
+1723
+01:41:14,485 --> 01:41:18,325
+Speaker 3:  Media podcast network. Our show is produced by Eric Gomez, Brandon Kiefer,
+
+1724
+01:41:18,325 --> 01:41:21,085
+Speaker 3:  Travis Uck, and Andrew Marino. See you next week.
+

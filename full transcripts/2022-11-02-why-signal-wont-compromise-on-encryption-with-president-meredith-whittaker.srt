@@ -1,0 +1,4734 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: eb2b4240-5ab3-11ed-ac3c-7d5165c97e8a
+Status: Done
+Stage: Done
+Title: Why Signal won’t compromise on encryption, with president Meredith Whittaker
+Audio URL: https://jfe93e.s3.amazonaws.com/-8386194028004914580/-8082448870705272402/s93290-US-4475s-1667396357.mp3
+Description: Today we're sharing an episode of Decoder with Nilay Patel featuring an interview with Meredith Whittaker, president of Signal.
+Signal is the popular messaging app that offers encrypted communication. You might recognize Meredith’s name from 2018 when she was an AI researcher at Google and one of the organizers of the Google walkout. Now she’s at Signal, which is a little different than the usual tech company: it’s operated by a nonprofit foundation and prides itself on collecting as little data as possible.
+Listen to more of Decoder with Nilay Patel anywhere you get your podcasts.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Enabled (6 ads detected)
+
+2
+00:01:03,190 --> 00:01:06,650
+Speaker 1:  Hey, Verge has listeners, It's Eli. A regular Wednesday show is off this
+
+3
+00:01:06,650 --> 00:01:09,610
+Speaker 1:  week. So I wanted to share an episode of decoder that I did recently with
+
+4
+00:01:09,890 --> 00:01:13,650
+Speaker 1:  Meredith Whitaker. She's a president of Signal, the Encrypted messaging app.
+
+5
+00:01:13,660 --> 00:01:16,490
+Speaker 1:  If you're VER has listener, you're gonna like this conversation. It's a whole
+
+6
+00:01:16,490 --> 00:01:19,810
+Speaker 1:  show about messaging apps. After all, Signal has way different priorities
+
+7
+00:01:19,810 --> 00:01:23,450
+Speaker 1:  than Google and Apple. Meredith is gonna explain all that to you during this
+
+8
+00:01:23,450 --> 00:01:26,170
+Speaker 1:  show. We'll be back on Friday to talk about all the news from the week. But
+
+9
+00:01:26,170 --> 00:01:29,730
+Speaker 1:  in the meantime, here is my chat on decoder with Meredith Whitaker,
+
+10
+00:01:29,730 --> 00:01:30,730
+Speaker 1:  President of Signal.
+
+11
+00:01:33,540 --> 00:01:36,820
+Speaker 1:  Hello and welcome to decoder. I'm Nelia Patel, Editor in Chief of the Verge
+
+12
+00:01:36,820 --> 00:01:39,940
+Speaker 1:  and Decoder is my show about big ideas. The other products.
+
+13
+00:01:40,540 --> 00:01:43,900
+Speaker 1:  Today I'm talking to Meredith Whitaker. She's a president of Signal.
+
+14
+00:01:44,050 --> 00:01:47,420
+Speaker 1:  That's the popular messaging app that offers encrypted communication.
+
+15
+00:01:48,080 --> 00:01:52,060
+Speaker 1:  Now, you might recognize Meredith's name from a different context. In 2018,
+
+16
+00:01:52,060 --> 00:01:55,940
+Speaker 1:  she was an AI researcher at Google and one of the organizers of the
+
+17
+00:01:55,940 --> 00:01:59,700
+Speaker 1:  Google walkout during which 20,000 employees protested the
+
+18
+00:01:59,700 --> 00:02:03,380
+Speaker 1:  company's handling of sexual misconduct. Meredith also protested the
+
+19
+00:02:03,540 --> 00:02:06,980
+Speaker 1:  company's work on military contracts before ultimately leaving Google in
+
+20
+00:02:06,980 --> 00:02:10,860
+Speaker 1:  2019. Now she's at Signal, which is a little different
+
+21
+00:02:10,860 --> 00:02:14,540
+Speaker 1:  than the usual big tech company. It's operated by a nonprofit
+
+22
+00:02:14,540 --> 00:02:18,220
+Speaker 1:  foundation and it prides itself on collecting is a little Data is possible
+
+23
+00:02:18,920 --> 00:02:22,060
+Speaker 1:  for that reason. Signal is popular with journalists, with activists. People
+
+24
+00:02:22,060 --> 00:02:25,660
+Speaker 1:  who care about their privacy signal even popped up in the Elon versus Twitter
+
+25
+00:02:25,660 --> 00:02:28,820
+Speaker 1:  trial because Elon was using it. But messaging apps,
+
+26
+00:02:29,050 --> 00:02:32,620
+Speaker 1:  especially encrypted messaging apps are a complicated
+
+27
+00:02:33,020 --> 00:02:36,460
+Speaker 1:  business. Governments around the world really dislike encrypted messaging
+
+28
+00:02:36,640 --> 00:02:40,540
+Speaker 1:  and often push companies to put in back doors for surveillance and
+
+29
+00:02:40,540 --> 00:02:44,260
+Speaker 1:  law enforcement, because yeah, criminals use encrypted messaging for
+
+30
+00:02:44,580 --> 00:02:48,420
+Speaker 1:  all sorts of deeply evil things. But the thing is, there's no half
+
+31
+00:02:48,420 --> 00:02:52,300
+Speaker 1:  step to breaking encryption. You either have it or you don't. So companies
+
+32
+00:02:52,300 --> 00:02:55,980
+Speaker 1:  like Signal often find themselves in a difficult position of
+
+33
+00:02:55,980 --> 00:02:59,880
+Speaker 1:  refusing to help governments. You might recall that Apple has refused to
+
+34
+00:02:59,880 --> 00:03:03,720
+Speaker 1:  help the FBI break into iPhones, for example. I wanted to know
+
+35
+00:03:03,720 --> 00:03:07,320
+Speaker 1:  how that trade off plays out its signals much smaller scale, and with
+
+36
+00:03:07,320 --> 00:03:10,940
+Speaker 1:  signals much more idealistic mission. Then there's just the basic
+
+37
+00:03:10,940 --> 00:03:14,500
+Speaker 1:  reality of messaging apps. You have to get users, you have to have enough
+
+38
+00:03:14,500 --> 00:03:18,420
+Speaker 1:  people on the platform so that the network is really valuable. So you
+
+39
+00:03:18,420 --> 00:03:21,580
+Speaker 1:  choose Signal to message someone instead of something else. You have to add
+
+40
+00:03:21,580 --> 00:03:24,660
+Speaker 1:  features, you have to have customer support. The whole thing. Signal just
+
+41
+00:03:24,660 --> 00:03:27,660
+Speaker 1:  added stories like every other app in the world. I wanted to know how they
+
+42
+00:03:27,820 --> 00:03:31,020
+Speaker 1:  generate ideas like that without being able to track any user behavior.
+
+43
+00:03:31,480 --> 00:03:34,860
+Speaker 1:  And I wanted to know how the fight to take users from Apple's iMessage and
+
+44
+00:03:34,860 --> 00:03:38,500
+Speaker 1:  met as WhatsApp is going. Other companies like Google have struggled
+
+45
+00:03:38,500 --> 00:03:42,060
+Speaker 1:  mightily to compete. After all, Signal just dropped support for
+
+46
+00:03:42,220 --> 00:03:45,140
+Speaker 1:  SMS on Android, and then we talked about that trade off and what it means
+
+47
+00:03:45,140 --> 00:03:48,860
+Speaker 1:  for users and if the company can support the new RCS standard that Google
+
+48
+00:03:48,870 --> 00:03:52,460
+Speaker 1:  is pushing quite hard. Lastly, we talked about Meredith's biggest decision
+
+49
+00:03:52,460 --> 00:03:56,180
+Speaker 1:  as president, helping to hire a new full-time CEO for Signal.
+
+50
+00:03:56,520 --> 00:03:59,740
+Speaker 1:  And of course I asked why she's not just taking the job herself.
+
+51
+00:04:00,050 --> 00:04:04,020
+Speaker 1:  This is a really good episode with a lot of decoder themes in
+
+52
+00:04:04,020 --> 00:04:07,820
+Speaker 1:  the mix. Honestly, we have to start doing checklists or something. Okay.
+
+53
+00:04:08,060 --> 00:04:10,340
+Speaker 1:  Meredith Whitaker, President of Signal. Here we go.
+
+54
+00:04:23,260 --> 00:04:26,700
+Speaker 1:  Meredith Whitaker, you are the president of Signal. Welcome to decoder.
+
+55
+00:04:27,260 --> 00:04:29,380
+Speaker 5:  Thank you. It is wonderful to be here.
+
+56
+00:04:29,940 --> 00:04:33,340
+Speaker 1:  There is quite a lot to talk about. The messaging market is pretty
+
+57
+00:04:33,700 --> 00:04:37,580
+Speaker 1:  ferocious. The encrypted messaging market has lots of complication with it.
+
+58
+00:04:38,340 --> 00:04:40,900
+Speaker 1:  Signal is a really interesting company. It's structured interesting way.
+
+59
+00:04:41,240 --> 00:04:44,980
+Speaker 1:  One of your jobs as president is to hire a ceo, which is itself
+
+60
+00:04:45,900 --> 00:04:49,860
+Speaker 1:  interesting in a pretty fascinating decoder question. But let's start with
+
+61
+00:04:49,860 --> 00:04:53,700
+Speaker 1:  the very basics. Explain what Signal is and where it fits into
+
+62
+00:04:53,720 --> 00:04:54,940
+Speaker 1:  the messaging universe.
+
+63
+00:04:55,630 --> 00:04:59,000
+Speaker 5:  Absolutely. Signal is the
+
+64
+00:04:59,230 --> 00:05:03,000
+Speaker 5:  most widely used, truly private messaging
+
+65
+00:05:03,000 --> 00:05:06,920
+Speaker 5:  app on the market. It's used by millions and millions of
+
+66
+00:05:06,920 --> 00:05:10,640
+Speaker 5:  people globally. And for people who use Signal,
+
+67
+00:05:10,640 --> 00:05:14,480
+Speaker 5:  it may feel similar to other messaging apps. You open it, you send a
+
+68
+00:05:14,480 --> 00:05:17,640
+Speaker 5:  meme, you get party directions. You know, you close it when you're done talking
+
+69
+00:05:17,640 --> 00:05:21,520
+Speaker 5:  to your friends. But below the surface signal
+
+70
+00:05:21,770 --> 00:05:25,520
+Speaker 5:  is very different. It is truly private. We
+
+71
+00:05:25,520 --> 00:05:29,160
+Speaker 5:  go to great lengths not only to keep the
+
+72
+00:05:29,160 --> 00:05:32,800
+Speaker 5:  contents of your messages, who you're talking to, et cetera,
+
+73
+00:05:33,130 --> 00:05:37,040
+Speaker 5:  private, but to keep, you know, to collect as little data
+
+74
+00:05:37,290 --> 00:05:41,240
+Speaker 5:  as possible while providing a functional service. So we
+
+75
+00:05:41,600 --> 00:05:45,160
+Speaker 5:  differ from our competitors in that our mission
+
+76
+00:05:45,450 --> 00:05:49,320
+Speaker 5:  is to provide a private app. And in that, you know,
+
+77
+00:05:49,320 --> 00:05:52,960
+Speaker 5:  we are not in any way connected to the surveillance
+
+78
+00:05:53,280 --> 00:05:56,160
+Speaker 5:  business model. So we have a very different model and a very different mission
+
+79
+00:05:56,930 --> 00:06:00,760
+Speaker 1:  Signals really interesting because it has this non-profit foundation, it
+
+80
+00:06:00,760 --> 00:06:04,160
+Speaker 1:  sits over the top of it. One of the reasons the surveillance business model
+
+81
+00:06:04,160 --> 00:06:07,960
+Speaker 1:  exists is because that is an easy way to make a lot of money. Signals
+
+82
+00:06:07,960 --> 00:06:10,680
+Speaker 1:  obviously not doing that. There is a nonprofit. How is it structured? How
+
+83
+00:06:10,680 --> 00:06:11,240
+Speaker 1:  does it all work?
+
+84
+00:06:11,420 --> 00:06:15,040
+Speaker 5:  The Signal Foundation is a non-profit. The, you know,
+
+85
+00:06:15,240 --> 00:06:19,000
+Speaker 5:  Signal Messenger LLC is, you know, part is under
+
+86
+00:06:19,000 --> 00:06:22,400
+Speaker 5:  that non-profit umbrella. And the foundation exists
+
+87
+00:06:22,630 --> 00:06:26,160
+Speaker 5:  solely to support the messaging app. So
+
+88
+00:06:26,450 --> 00:06:30,040
+Speaker 5:  in kind of more colloquial terms, we can think of Signal as a non-profit.
+
+89
+00:06:30,040 --> 00:06:33,720
+Speaker 5:  It is a non-profit, which means, you know, we don't have shareholders,
+
+90
+00:06:33,720 --> 00:06:37,280
+Speaker 5:  we don't have equity. So we are not being structurally
+
+91
+00:06:37,280 --> 00:06:40,680
+Speaker 5:  incentivized to prioritize profit and growth
+
+92
+00:06:41,230 --> 00:06:45,200
+Speaker 5:  over our core mission. And you're not gonna see a billion dollar
+
+93
+00:06:45,200 --> 00:06:49,080
+Speaker 5:  exit coming. So, you know, we're not just biting our time until we can
+
+94
+00:06:49,080 --> 00:06:52,080
+Speaker 5:  get rich and move to a super yacht. So it's a, you know, it is a different
+
+95
+00:06:52,200 --> 00:06:56,040
+Speaker 5:  structure. It is a different model. That doesn't mean it's any
+
+96
+00:06:56,160 --> 00:06:59,640
+Speaker 5:  cheaper to develop Signal than it is to develop a high
+
+97
+00:06:59,640 --> 00:07:03,320
+Speaker 5:  availability surveillance messaging service. We are counting
+
+98
+00:07:03,370 --> 00:07:07,240
+Speaker 5:  on, you know, a sustainability model that relies on donations and
+
+99
+00:07:07,240 --> 00:07:10,960
+Speaker 5:  relies on a more nonprofit model than on a model where we are secretly
+
+100
+00:07:10,960 --> 00:07:14,880
+Speaker 5:  monetizing data in the background or otherwise. Again, participating
+
+101
+00:07:14,880 --> 00:07:18,520
+Speaker 5:  in the surveillance business model, which is the dominant paradigm across
+
+102
+00:07:18,520 --> 00:07:19,480
+Speaker 5:  the tech industry,
+
+103
+00:07:19,630 --> 00:07:23,280
+Speaker 1:  Across the tech industry, but not so much in
+
+104
+00:07:23,280 --> 00:07:26,800
+Speaker 1:  messaging specifically. I actually wanna just push on that a little bit.
+
+105
+00:07:27,160 --> 00:07:30,920
+Speaker 1:  There are obviously messaging services that look at everything that you send
+
+106
+00:07:30,920 --> 00:07:34,720
+Speaker 1:  across their service and then aggressively try to monetize you based on what
+
+107
+00:07:34,720 --> 00:07:37,920
+Speaker 1:  you're saying. Specifically, I'm thinking of dating apps, which
+
+108
+00:07:38,510 --> 00:07:42,000
+Speaker 1:  really read all of your messages to figure out when they should nudge you
+
+109
+00:07:42,000 --> 00:07:45,120
+Speaker 1:  into going on a date, which every time I hear about it just strikes me as
+
+110
+00:07:45,120 --> 00:07:49,080
+Speaker 1:  completely bonkers. But that's their universe. Some your competitors though,
+
+111
+00:07:49,080 --> 00:07:53,000
+Speaker 1:  your head up competitors, iMessage, WhatsApp, those are fully
+
+112
+00:07:53,000 --> 00:07:55,800
+Speaker 1:  encrypted. Obviously WhatsApp is owned by Facebook. There's a lot of controversy
+
+113
+00:07:55,800 --> 00:07:59,240
+Speaker 1:  there. There's a connection to Signal with Brian Acton, who was a co-founder
+
+114
+00:07:59,240 --> 00:08:03,080
+Speaker 1:  of WhatsApp now on the signal board. But those are inherently encrypted,
+
+115
+00:08:03,080 --> 00:08:07,000
+Speaker 1:  right? They're not reading your messages in the way that, you know, the
+
+116
+00:08:07,000 --> 00:08:09,560
+Speaker 1:  surveillance business model is predicated on collecting a lot of data. What
+
+117
+00:08:09,560 --> 00:08:11,280
+Speaker 1:  is the difference in your mind between the two things,
+
+118
+00:08:11,360 --> 00:08:14,680
+Speaker 5:  Right? Well, let's take WhatsApp as a specific example,
+
+119
+00:08:15,200 --> 00:08:18,960
+Speaker 5:  right? You know, again, WhatsApp uses the signal encryption
+
+120
+00:08:19,280 --> 00:08:22,960
+Speaker 5:  protocol to provide encryption for its messages. And that
+
+121
+00:08:22,960 --> 00:08:26,600
+Speaker 5:  was absolutely a visionary choice. And you know, something
+
+122
+00:08:26,600 --> 00:08:30,520
+Speaker 5:  that Brian and his team led back in the day. So, you
+
+123
+00:08:30,520 --> 00:08:34,400
+Speaker 5:  know, big props to them for doing that. But you can't just look at
+
+124
+00:08:34,400 --> 00:08:37,600
+Speaker 5:  that and you can't just stop at message protection, right? WhatsApp does
+
+125
+00:08:37,600 --> 00:08:40,680
+Speaker 5:  not protect metadata the way that Signal does.
+
+126
+00:08:41,360 --> 00:08:45,000
+Speaker 5:  So if Signal knows nothing about who you are,
+
+127
+00:08:45,000 --> 00:08:48,560
+Speaker 5:  doesn't have your profile information introduced,
+
+128
+00:08:48,580 --> 00:08:52,440
+Speaker 5:  you know, groups encryption protections, so that we don't know
+
+129
+00:08:52,440 --> 00:08:55,800
+Speaker 5:  who you're talking to or who the membership of a group is, has gone
+
+130
+00:08:55,880 --> 00:08:59,640
+Speaker 5:  above and beyond to minimize the collection of metadata.
+
+131
+00:09:00,280 --> 00:09:03,800
+Speaker 5:  WhatsApp on the other hand, you know, collects the information about, you
+
+132
+00:09:03,800 --> 00:09:07,480
+Speaker 5:  know, your profile information, your profile photo, who's talking to
+
+133
+00:09:07,480 --> 00:09:11,080
+Speaker 5:  whom, who is a group member. And that is powerful metadata.
+
+134
+00:09:11,080 --> 00:09:14,560
+Speaker 5:  It's particularly powerful and this is where we have to back out into kind
+
+135
+00:09:14,560 --> 00:09:18,480
+Speaker 5:  of a structural argument for a company to collect that
+
+136
+00:09:18,480 --> 00:09:22,240
+Speaker 5:  data that is also owned by Meta slash Facebook. So Facebook
+
+137
+00:09:22,700 --> 00:09:26,640
+Speaker 5:  has a huge amount just, you know, unspeakable volumes of
+
+138
+00:09:26,840 --> 00:09:30,680
+Speaker 5:  intimate information about billions of people across the globe. And
+
+139
+00:09:30,680 --> 00:09:34,640
+Speaker 5:  so it is not, you know, it, it is, it's not trivial to
+
+140
+00:09:34,640 --> 00:09:38,160
+Speaker 5:  point out that WhatsApp metadata could easily be joined
+
+141
+00:09:38,270 --> 00:09:41,720
+Speaker 5:  with Facebook data could easily reveal extremely intimate
+
+142
+00:09:41,720 --> 00:09:45,640
+Speaker 5:  information about people. And the choice to remove
+
+143
+00:09:45,810 --> 00:09:49,720
+Speaker 5:  or enhance the encryption protocols is still in the
+
+144
+00:09:49,720 --> 00:09:53,440
+Speaker 5:  hands of Facebook. So we have to look structurally at, you know, what that
+
+145
+00:09:53,440 --> 00:09:57,360
+Speaker 5:  organization is who actually has control over these
+
+146
+00:09:57,640 --> 00:10:01,480
+Speaker 5:  decisions. And you know, and look at some of these details
+
+147
+00:10:01,480 --> 00:10:04,760
+Speaker 5:  that don't often get discussed when we talk about sort of message encryption
+
+148
+00:10:04,760 --> 00:10:08,640
+Speaker 5:  overall, you know, Signal again is a nonprofit. We
+
+149
+00:10:08,640 --> 00:10:12,600
+Speaker 5:  don't have any access to data like Foot Facebook. We avoid having
+
+150
+00:10:12,600 --> 00:10:16,560
+Speaker 5:  access to that data. We don't buy sell trade your data. So it's,
+
+151
+00:10:16,560 --> 00:10:19,880
+Speaker 5:  you know, it is a different paradigm and I think we can't, you know, we can't
+
+152
+00:10:19,880 --> 00:10:23,720
+Speaker 5:  point to WhatsApp however slick their marketing is and say that is
+
+153
+00:10:23,720 --> 00:10:27,680
+Speaker 5:  truly secure and private because, you know, all of these details add up to
+
+154
+00:10:27,680 --> 00:10:31,520
+Speaker 5:  us needing to conclude that it is not, well, you know, Signal exists solely
+
+155
+00:10:31,520 --> 00:10:32,200
+Speaker 5:  for that purpose.
+
+156
+00:10:32,460 --> 00:10:36,400
+Speaker 1:  Let me ask you a hard question there. You have a long history as a, a
+
+157
+00:10:36,400 --> 00:10:40,200
+Speaker 1:  critic of big tech. You, you obviously believe in these criticism of big
+
+158
+00:10:40,200 --> 00:10:43,600
+Speaker 1:  tech. I don't believe that while you are the president of Signal, you're
+
+159
+00:10:43,600 --> 00:10:46,840
+Speaker 1:  gonna switch the business model. Mark Zuckerberg has his own reputation and
+
+160
+00:10:46,840 --> 00:10:50,480
+Speaker 1:  he can say things about privacy and people can believe whether Facebook is
+
+161
+00:10:50,480 --> 00:10:53,400
+Speaker 1:  or whether Meta is going to do those things based on their evaluation. Mark
+
+162
+00:10:53,400 --> 00:10:56,960
+Speaker 1:  Zuckerberg, how do you actually audit the service as a consumer? How do I
+
+163
+00:10:57,240 --> 00:10:58,680
+Speaker 1:  actually make sure that what you're saying is true?
+
+164
+00:10:59,070 --> 00:11:03,040
+Speaker 5:  Yeah, Well, Signal makes its code open source. It makes
+
+165
+00:11:03,100 --> 00:11:06,640
+Speaker 5:  the signal protocol and the key cryptographic
+
+166
+00:11:06,960 --> 00:11:10,800
+Speaker 5:  primitives that we use to ensure privacy and security
+
+167
+00:11:11,190 --> 00:11:14,880
+Speaker 5:  open for review. So, you know, a big part of our model
+
+168
+00:11:15,130 --> 00:11:19,000
+Speaker 5:  is telling people not to take our word for it, the people
+
+169
+00:11:19,000 --> 00:11:22,640
+Speaker 5:  who do have the specialized training and skill have engaged, you know,
+
+170
+00:11:22,960 --> 00:11:26,080
+Speaker 5:  thousands and thousands of hours pouring over our code. There are people
+
+171
+00:11:26,080 --> 00:11:29,440
+Speaker 5:  in the Signal community forums who every time we have a new,
+
+172
+00:11:29,660 --> 00:11:33,480
+Speaker 5:  you know, a new kind of piece of code that drops on GitHub,
+
+173
+00:11:33,480 --> 00:11:37,280
+Speaker 5:  sort of look at it, comment on it, deduce what features might be coming
+
+174
+00:11:37,280 --> 00:11:41,200
+Speaker 5:  through that. So there is an active and vigilant community that actually
+
+175
+00:11:41,200 --> 00:11:44,520
+Speaker 5:  sort of checks signals, claims against the code,
+
+176
+00:11:44,810 --> 00:11:48,680
+Speaker 5:  against the cryptographic protocol we use. And time and time again,
+
+177
+00:11:48,860 --> 00:11:52,160
+Speaker 5:  you know, our, you know, cryptographic protocol again, is not just used by
+
+178
+00:11:52,160 --> 00:11:55,520
+Speaker 5:  Signal, right? This is what, what Facebook uses, which other companies have
+
+179
+00:11:55,520 --> 00:11:59,240
+Speaker 5:  chosen to use because you know, it's the best. We rely on
+
+180
+00:11:59,240 --> 00:12:03,080
+Speaker 5:  that vigilant community and we rely on transparency
+
+181
+00:12:03,740 --> 00:12:06,960
+Speaker 5:  and the kind of community auditing. So we, but
+
+182
+00:12:06,960 --> 00:12:09,760
+Speaker 1:  But that's the, the protocol, right? That's not the app.
+
+183
+00:12:09,760 --> 00:12:10,920
+Speaker 5:  That is the app. The
+
+184
+00:12:10,920 --> 00:12:11,240
+Speaker 1:  Whole app,
+
+185
+00:12:11,400 --> 00:12:12,520
+Speaker 5:  Yeah, this open source.
+
+186
+00:12:12,770 --> 00:12:15,880
+Speaker 1:  So if I just want to fork signal and make my own signal, I can just take
+
+187
+00:12:15,880 --> 00:12:16,680
+Speaker 1:  the code and do it today.
+
+188
+00:12:16,830 --> 00:12:20,640
+Speaker 5:  Yeah, people do it. There are many of those we don't, you know, because
+
+189
+00:12:20,640 --> 00:12:24,520
+Speaker 5:  we can't guarantee them. Yeah. Because we can't validate them because we
+
+190
+00:12:24,520 --> 00:12:28,240
+Speaker 5:  don't have the time or the resources for that. We don't endorse them. Yeah.
+
+191
+00:12:28,240 --> 00:12:29,080
+Speaker 5:  But there are many out there.
+
+192
+00:12:29,080 --> 00:12:32,680
+Speaker 1:  That's really cool. Yeah. Let me ask another question
+
+193
+00:12:32,680 --> 00:12:35,560
+Speaker 1:  just about the structure here. So it's a nonprofit. You said you don't have
+
+194
+00:12:35,560 --> 00:12:39,080
+Speaker 1:  equity Facebook in a different time. Facebook equity was very valuable.
+
+195
+00:12:39,080 --> 00:12:42,880
+Speaker 1:  Maybe not so much today as we speak, but in a different time. Facebook equity
+
+196
+00:12:42,880 --> 00:12:46,840
+Speaker 1:  is really valuable. So Facebook, Apple, Google, whoever would pay
+
+197
+00:12:46,840 --> 00:12:50,520
+Speaker 1:  a high base salary and then give engineers a ton of equity and say, if you
+
+198
+00:12:50,520 --> 00:12:53,800
+Speaker 1:  work really hard, the stock price will go up, you'll get Rich. You don't
+
+199
+00:12:53,800 --> 00:12:57,520
+Speaker 1:  have that key. Are you just paying people more in cash or are you hoping
+
+200
+00:12:57,520 --> 00:12:59,360
+Speaker 1:  that people take a discount cuz they believe in your values?
+
+201
+00:12:59,360 --> 00:13:03,320
+Speaker 5:  Well, we are, we do have competitive salaries. I think that's part of Signal
+
+202
+00:13:03,330 --> 00:13:07,200
+Speaker 5:  as an organization also has a labor politics. We wanna make sure we're
+
+203
+00:13:07,200 --> 00:13:10,480
+Speaker 5:  compensating people. We wanna make sure that, you know, people aren't being
+
+204
+00:13:10,480 --> 00:13:14,240
+Speaker 5:  asked to sacrifice their lives Crypto
+
+205
+00:13:14,440 --> 00:13:17,840
+Speaker 5:  standard of living to come work for Signal. We wanna hire the best people
+
+206
+00:13:17,840 --> 00:13:21,760
+Speaker 5:  we can find. So we do have competitive salaries. Of course
+
+207
+00:13:21,760 --> 00:13:25,280
+Speaker 5:  we don't have equity, so that's not part of the package. But we are a fully
+
+208
+00:13:25,280 --> 00:13:29,200
+Speaker 5:  distributed organization. So there is, you know, flexibility with where you
+
+209
+00:13:29,200 --> 00:13:32,480
+Speaker 5:  live, which communities you might be able to live in. And there is also,
+
+210
+00:13:32,540 --> 00:13:36,360
+Speaker 5:  you know, we have, we have other benefits that we think make it a great
+
+211
+00:13:36,360 --> 00:13:39,960
+Speaker 5:  working environment for people who want to apply their
+
+212
+00:13:39,960 --> 00:13:43,680
+Speaker 5:  talents to something outside of the surveillance
+
+213
+00:13:44,190 --> 00:13:45,520
+Speaker 5:  tech ecosystem.
+
+214
+00:13:46,060 --> 00:13:49,800
+Speaker 1:  But on a straight comp basis, are you, do you match Big Tech or are you
+
+215
+00:13:49,800 --> 00:13:50,960
+Speaker 1:  lower, or where are you?
+
+216
+00:13:50,960 --> 00:13:54,720
+Speaker 5:  I mean, I don't have a spreadsheet in front of me and Big Tech is a
+
+217
+00:13:54,720 --> 00:13:58,560
+Speaker 5:  big amorphous entity. So Big tech in Europe or Big Tech in Palo
+
+218
+00:13:58,560 --> 00:14:02,520
+Speaker 5:  Alto. There are a lot of variables there, but what I can say straight up
+
+219
+00:14:02,520 --> 00:14:03,520
+Speaker 5:  is we are competitive.
+
+220
+00:14:03,620 --> 00:14:05,000
+Speaker 1:  How many people are at Signal right
+
+221
+00:14:05,000 --> 00:14:07,880
+Speaker 5:  Now? About 40 total. That's the org.
+
+222
+00:14:08,340 --> 00:14:11,880
+Speaker 1:  And how is that structured? Is that mostly engineers? Is it policy people?
+
+223
+00:14:12,050 --> 00:14:13,880
+Speaker 1:  Is it the C-suite? How's that work?
+
+224
+00:14:14,120 --> 00:14:18,040
+Speaker 5:  It's mostly engineers. We have a, you know, it's not a very complex
+
+225
+00:14:18,940 --> 00:14:22,520
+Speaker 5:  organization by which, you know, I'm avoiding using the term flat because
+
+226
+00:14:22,520 --> 00:14:26,080
+Speaker 5:  it is not flat, but it doesn't have, you know, many layers of bureaucracy.
+
+227
+00:14:26,080 --> 00:14:29,440
+Speaker 5:  There's a, a leadership team. We have a, a coo,
+
+228
+00:14:29,930 --> 00:14:33,800
+Speaker 5:  we have myself as president, we have a director of products. We have
+
+229
+00:14:33,940 --> 00:14:37,920
+Speaker 5:  two engineering executives, one that looks more at architecture, one that
+
+230
+00:14:37,920 --> 00:14:41,720
+Speaker 5:  looks more at People management. And then we have Brian Acton as acting ceo.
+
+231
+00:14:42,180 --> 00:14:45,640
+Speaker 5:  I'm like imagining in my head the kind of org chart right now.
+
+232
+00:14:46,520 --> 00:14:49,240
+Speaker 1:  That's the whole show. That's what we do here. By all means, it's
+
+233
+00:14:49,240 --> 00:14:52,920
+Speaker 5:  Primarily developers, but of course, like development isn't just
+
+234
+00:14:52,920 --> 00:14:56,600
+Speaker 5:  sort of, you know, submitting a pool request. Right? We also have a really
+
+235
+00:14:56,600 --> 00:14:59,720
+Speaker 5:  talented, you know, what we call the user voice team. And those are the people
+
+236
+00:14:59,720 --> 00:15:02,920
+Speaker 5:  who engage with the community. Those are the people who, you know, do a little
+
+237
+00:15:02,920 --> 00:15:06,800
+Speaker 5:  bit of QA test for bugs. I am tasked in my new role with
+
+238
+00:15:06,800 --> 00:15:10,760
+Speaker 5:  sort of bringing policy awareness. So we don't have a policy team, but
+
+239
+00:15:10,760 --> 00:15:13,920
+Speaker 5:  that's, you know, that is something I'm, you know, I'm working on what the
+
+240
+00:15:13,920 --> 00:15:17,760
+Speaker 5:  right calibration there is for Signal and kind of bringing in my
+
+241
+00:15:17,760 --> 00:15:21,640
+Speaker 5:  network and my many years of work on those topics. And then we
+
+242
+00:15:21,640 --> 00:15:25,040
+Speaker 5:  have, you know, what I'll characterize as like a narrative team. You know,
+
+243
+00:15:25,040 --> 00:15:28,400
+Speaker 5:  we have writers, we have people who, you know, think about how we translate
+
+244
+00:15:28,400 --> 00:15:32,240
+Speaker 5:  kind of arcane concepts to people who rely on
+
+245
+00:15:32,240 --> 00:15:35,640
+Speaker 5:  Signal in a way that they'll actually understand. And you know, we have folks
+
+246
+00:15:35,640 --> 00:15:39,120
+Speaker 5:  like that, but it's, it is primarily developers because what we do
+
+247
+00:15:39,850 --> 00:15:43,760
+Speaker 5:  is produce a high availability app across three platforms, which takes
+
+248
+00:15:43,760 --> 00:15:47,640
+Speaker 5:  a lot of labor, constant vigilance, constantly squashing bugs,
+
+249
+00:15:47,960 --> 00:15:50,760
+Speaker 5:  constantly thinking about new features, making sure there's parody across
+
+250
+00:15:50,760 --> 00:15:54,680
+Speaker 5:  all the versions. It is, you know, it is endless and
+
+251
+00:15:54,680 --> 00:15:57,760
+Speaker 5:  difficult work and I'm, you know, I'm happy to be working with the people
+
+252
+00:15:57,760 --> 00:15:58,480
+Speaker 5:  who are doing it.
+
+253
+00:15:58,860 --> 00:16:02,520
+Speaker 1:  You have a new role at Signal President of Signal new role for you. I don't
+
+254
+00:16:02,520 --> 00:16:06,040
+Speaker 1:  think you were the president of a company before you, or no, Google, obviously
+
+255
+00:16:06,160 --> 00:16:09,840
+Speaker 1:  president of a company is one of those roles that you kind of can be whatever
+
+256
+00:16:09,840 --> 00:16:13,760
+Speaker 1:  you want it to be, is my understanding of it. How do
+
+257
+00:16:13,760 --> 00:16:15,280
+Speaker 1:  you conceive of the role of President Single?
+
+258
+00:16:15,790 --> 00:16:19,680
+Speaker 5:  Well, I, I have core lanes in that role. So,
+
+259
+00:16:19,680 --> 00:16:22,760
+Speaker 5:  you know, and, and to back up for a second, I've been on the board for a
+
+260
+00:16:22,760 --> 00:16:26,240
+Speaker 5:  number of years. I've worked with Moxi and kind of a community there. There's
+
+261
+00:16:26,240 --> 00:16:29,560
+Speaker 5:  a kind of a open source community of folks who think hard about
+
+262
+00:16:29,560 --> 00:16:33,440
+Speaker 5:  technical privacy preservation. And I've been, you know, in and out of
+
+263
+00:16:33,440 --> 00:16:37,120
+Speaker 5:  that community for, you know, almost a decade now. So I'm, I'm very
+
+264
+00:16:37,360 --> 00:16:40,880
+Speaker 5:  familiar with the folks in this space. I'm familiar with the folks at Signal.
+
+265
+00:16:40,880 --> 00:16:44,800
+Speaker 5:  And so this was almost like a gradual transition into this role
+
+266
+00:16:44,800 --> 00:16:48,760
+Speaker 5:  of just like intensifying my, my attention to signal until it's
+
+267
+00:16:48,760 --> 00:16:52,640
+Speaker 5:  my, my whole work life in this role, I'm gonna be,
+
+268
+00:16:52,640 --> 00:16:56,280
+Speaker 5:  you know, I'm gonna be focusing on the narrative aspects. Like how do we,
+
+269
+00:16:56,460 --> 00:17:00,440
+Speaker 5:  you know, how do we communicate what Signal is why it's so
+
+270
+00:17:00,440 --> 00:17:04,040
+Speaker 5:  wonderful to people who might want to use it, right? And this is
+
+271
+00:17:04,040 --> 00:17:07,960
+Speaker 5:  particularly in an environment where there is increasing understanding
+
+272
+00:17:07,960 --> 00:17:11,120
+Speaker 5:  of the harms of the surveillance business model, increasing understanding
+
+273
+00:17:11,120 --> 00:17:14,960
+Speaker 5:  of the monopoly power of big tech, but not many
+
+274
+00:17:15,210 --> 00:17:19,080
+Speaker 5:  actions people can do when they're like, I feel really uncomfortable with
+
+275
+00:17:19,080 --> 00:17:22,680
+Speaker 5:  this, but what do we do? Right? It, you know, kind of inter interpolate our
+
+276
+00:17:22,680 --> 00:17:26,000
+Speaker 5:  entire life. So, you know, I think getting, getting the word out there, the
+
+277
+00:17:26,000 --> 00:17:29,880
+Speaker 5:  signal is truly different. And then building that network effect of
+
+278
+00:17:29,880 --> 00:17:33,160
+Speaker 5:  encrypted com communications. So anyone who picks up Signal
+
+279
+00:17:33,460 --> 00:17:36,800
+Speaker 5:  can talk to anyone they want to on Signal without having to think about it,
+
+280
+00:17:36,800 --> 00:17:40,360
+Speaker 5:  without having to be a privacy ideolog, right? It's not, you know,
+
+281
+00:17:40,570 --> 00:17:44,400
+Speaker 5:  my friends aren't just cryptographers who live in Berlin. My friends are
+
+282
+00:17:44,630 --> 00:17:48,160
+Speaker 5:  a number of people with varied interest. Some truly probably don't care about
+
+283
+00:17:48,160 --> 00:17:51,280
+Speaker 5:  privacy, but nonetheless, they're cool people. I like to hang out with them,
+
+284
+00:17:51,280 --> 00:17:54,720
+Speaker 5:  right? So I need to be able to reach them on that app. And, you know, if
+
+285
+00:17:54,720 --> 00:17:58,440
+Speaker 5:  they're not there, signal is significantly less useful to me. So, you know,
+
+286
+00:17:58,440 --> 00:18:01,640
+Speaker 5:  I'm gonna be working on working on that narrative aspect.
+
+287
+00:18:02,020 --> 00:18:05,480
+Speaker 5:  I'm also, you know, I mentioned policy awareness. So that is just, you know,
+
+288
+00:18:05,480 --> 00:18:09,360
+Speaker 5:  thinking about the global landscape that, you know, regulatory
+
+289
+00:18:09,360 --> 00:18:13,280
+Speaker 5:  and legislative landscape and how that, how that
+
+290
+00:18:13,280 --> 00:18:16,440
+Speaker 5:  affects Sig signal. How do we think about that during a product development
+
+291
+00:18:16,440 --> 00:18:20,000
+Speaker 5:  process? How do we think about that in terms of, you know, our high level
+
+292
+00:18:20,360 --> 00:18:24,240
+Speaker 5:  strategy? And then I will also be working with the leadership team
+
+293
+00:18:24,240 --> 00:18:27,280
+Speaker 5:  to direct strategy. So we're at, you know, as an organization,
+
+294
+00:18:28,010 --> 00:18:32,000
+Speaker 5:  we grew from what I would characterize as a, you know, passion
+
+295
+00:18:32,000 --> 00:18:35,760
+Speaker 5:  driven hypothesis project. This was, you know, an open
+
+296
+00:18:35,760 --> 00:18:39,680
+Speaker 5:  source project on a shoestring, Big thanks to Moxi, Marlon,
+
+297
+00:18:39,680 --> 00:18:43,320
+Speaker 5:  Spike, Tyler Reinhardt, a number of the sort of original folks at Signal
+
+298
+00:18:43,320 --> 00:18:47,040
+Speaker 5:  who made a bunch of sacrifices and worked extremely hard
+
+299
+00:18:47,040 --> 00:18:50,960
+Speaker 5:  to get this effort off the ground. In the last few years,
+
+300
+00:18:50,960 --> 00:18:54,920
+Speaker 5:  Signal has matured and I would say is at an inflection point as
+
+301
+00:18:54,920 --> 00:18:58,640
+Speaker 5:  an organization, you know, it's time to take the next step. We have, you
+
+302
+00:18:58,640 --> 00:19:02,440
+Speaker 5:  know, over a hundred million do downloads in the play store, but, you know,
+
+303
+00:19:02,440 --> 00:19:06,360
+Speaker 5:  what does it look like when we, you know, reach the next stage
+
+304
+00:19:06,360 --> 00:19:10,240
+Speaker 5:  and are serving, you know, hundreds of millions of people across the
+
+305
+00:19:10,240 --> 00:19:14,080
+Speaker 5:  globe? And how do we build a signal that can, can really meet
+
+306
+00:19:14,110 --> 00:19:18,080
+Speaker 5:  this moment? And I think, you know, sustainability is definitely part of
+
+307
+00:19:18,080 --> 00:19:21,980
+Speaker 5:  that. What is a business model that, you know, I don't think has been
+
+308
+00:19:21,980 --> 00:19:25,700
+Speaker 5:  done yet that can, you know, sustain technology like signal outside of the
+
+309
+00:19:25,700 --> 00:19:26,700
+Speaker 5:  surveillance paradigm?
+
+310
+00:19:27,270 --> 00:19:31,220
+Speaker 1:  So you talked about narrative and, and reaching people and you know,
+
+311
+00:19:31,220 --> 00:19:33,980
+Speaker 1:  the network effect of everybody you know, is using signals. So you, you're
+
+312
+00:19:33,980 --> 00:19:36,220
+Speaker 1:  not even thinking about it. You don't have to evangelize the service. Yeah.
+
+313
+00:19:36,220 --> 00:19:39,580
+Speaker 1:  Another way to characterize that is growth, right? Your job is to grow the
+
+314
+00:19:39,580 --> 00:19:42,260
+Speaker 1:  product, and then the back end of it is what you just said, which is figure
+
+315
+00:19:42,260 --> 00:19:45,740
+Speaker 1:  out how to monetize that product against that growth and run a product at
+
+316
+00:19:45,740 --> 00:19:49,420
+Speaker 1:  that scale in a way that's sustainable. Is growth the imperative here?
+
+317
+00:19:49,490 --> 00:19:53,300
+Speaker 5:  Like I've consciously avoided some of those terms because they're so
+
+318
+00:19:53,310 --> 00:19:57,300
+Speaker 5:  closely aligned with like profit motives, and I don't wanna
+
+319
+00:19:57,300 --> 00:20:01,260
+Speaker 5:  be misunderstood, right? Yes, of course we wanna grow because our,
+
+320
+00:20:01,260 --> 00:20:05,020
+Speaker 5:  you know, our mission is to provide, you know,
+
+321
+00:20:05,020 --> 00:20:08,940
+Speaker 5:  truly private communication to anyone who wants it across
+
+322
+00:20:08,940 --> 00:20:12,660
+Speaker 5:  the globe at any time, right? So, you know, we grow
+
+323
+00:20:13,310 --> 00:20:16,940
+Speaker 5:  so that we can fulfill our mission, not so that we can just, you know, we're
+
+324
+00:20:16,940 --> 00:20:20,740
+Speaker 5:  not looking at like growth hacking or adding like, you know, weird features,
+
+325
+00:20:20,740 --> 00:20:24,060
+Speaker 5:  you know, to get a, an inflated boost. We're looking at, you know, how do
+
+326
+00:20:24,060 --> 00:20:27,860
+Speaker 5:  we actually reach the people who do need to use this tech
+
+327
+00:20:27,860 --> 00:20:30,980
+Speaker 5:  reach, the people who want a convenient messaging service
+
+328
+00:20:31,480 --> 00:20:35,300
+Speaker 5:  and sort of, you know, ensure that they, you know, are able to use
+
+329
+00:20:35,300 --> 00:20:38,340
+Speaker 5:  signal quickly and easily that they know about it, that, you know, when they
+
+330
+00:20:38,340 --> 00:20:41,660
+Speaker 5:  open it up, all their friends are there. That it's a seamless and pleasant
+
+331
+00:20:41,660 --> 00:20:44,780
+Speaker 5:  experience. So yes, you know, I think, I think you can put it in those terms.
+
+332
+00:20:45,130 --> 00:20:48,360
+Speaker 5:  I have intentionally not put it in those those terms because I want to,
+
+333
+00:20:48,780 --> 00:20:52,520
+Speaker 5:  you know, not even echo the language of, you know, the
+
+334
+00:20:52,520 --> 00:20:55,760
+Speaker 5:  alternatives which are doing something that is, you know, may look the same
+
+335
+00:20:55,760 --> 00:20:58,760
+Speaker 5:  on the surface, but is, you know, substantively very, very different.
+
+336
+00:20:59,230 --> 00:21:02,400
+Speaker 1:  I wanna come back to that because I think there's a lot there to unpack and
+
+337
+00:21:02,400 --> 00:21:05,880
+Speaker 1:  there's growth regardless of the motive for the growth
+
+338
+00:21:06,000 --> 00:21:09,960
+Speaker 1:  comes with a pretty fixed set of challenges once you get to that scale.
+
+339
+00:21:09,960 --> 00:21:12,760
+Speaker 1:  So I do wanna come back to that, but I have to ask you this sort of classic
+
+340
+00:21:12,770 --> 00:21:16,400
+Speaker 1:  decoder question. How do you make decisions? You've been in a lot of
+
+341
+00:21:16,400 --> 00:21:18,560
+Speaker 1:  different companies, a lot of different environments, a lot of different
+
+342
+00:21:18,560 --> 00:21:22,200
+Speaker 1:  roles. You must have a pretty robust way of thinking about big decisions
+
+343
+00:21:22,200 --> 00:21:23,880
+Speaker 1:  you have to make. How do you make decisions? You
+
+344
+00:21:23,880 --> 00:21:27,120
+Speaker 5:  Know, I don't have a flow chart for decisions, right? I don't have like,
+
+345
+00:21:27,120 --> 00:21:30,920
+Speaker 5:  you know, my VC Twitter thread, like the three things I
+
+346
+00:21:30,920 --> 00:21:31,920
+Speaker 5:  know about decision making.
+
+347
+00:21:32,190 --> 00:21:35,840
+Speaker 1:  Yeah, that's not, that's not, I hope that's not what I implied. I I just
+
+348
+00:21:35,840 --> 00:21:38,680
+Speaker 1:  meant like you've made a lot of decisions in your life, a lot of high stakes
+
+349
+00:21:38,880 --> 00:21:40,400
+Speaker 1:  decisions. Yeah. How do you think about it?
+
+350
+00:21:40,670 --> 00:21:44,160
+Speaker 5:  I mean, I, you know, it is a combination of as much
+
+351
+00:21:44,640 --> 00:21:48,480
+Speaker 5:  research as I need to do until I'm satisfied I have the ground truth
+
+352
+00:21:48,480 --> 00:21:52,280
+Speaker 5:  around something. So, you know, I will ask very dumb
+
+353
+00:21:52,520 --> 00:21:56,160
+Speaker 5:  questions until I am sure that like there isn't some like trick
+
+354
+00:21:56,170 --> 00:22:00,040
+Speaker 5:  or some sort of, you know, issue that I haven't, you know,
+
+355
+00:22:00,040 --> 00:22:03,880
+Speaker 5:  fully understood. That means, you know, I'll read academic papers
+
+356
+00:22:03,880 --> 00:22:07,720
+Speaker 5:  or I'll call people who've worked in a certain sector, or I will reach
+
+357
+00:22:07,720 --> 00:22:11,000
+Speaker 5:  out to a mentor who maybe doesn't know much about the space, but has a sense
+
+358
+00:22:11,000 --> 00:22:14,600
+Speaker 5:  of dynamics and might, you know, lend a different eye, right? You know, it's,
+
+359
+00:22:14,600 --> 00:22:18,560
+Speaker 5:  I basically have as big a toolbox as I can and I will pull from any tool
+
+360
+00:22:18,790 --> 00:22:22,680
+Speaker 5:  that, you know, feels useful. And then, you know, I think
+
+361
+00:22:22,680 --> 00:22:26,520
+Speaker 5:  it will be, you know, again, some combination of instinct. Like when has
+
+362
+00:22:26,520 --> 00:22:29,880
+Speaker 5:  this worked well in the past, when is it not, right? Like, the benefit of
+
+363
+00:22:29,880 --> 00:22:33,320
+Speaker 5:  having been in this industry for almost 20 years is you just like, build
+
+364
+00:22:33,320 --> 00:22:36,800
+Speaker 5:  up a big set of experience and there's a lot of like pitfalls you've fallen
+
+365
+00:22:36,800 --> 00:22:40,280
+Speaker 5:  into before so you can avoid them. And then I think there's also sort of
+
+366
+00:22:40,280 --> 00:22:44,240
+Speaker 5:  a, you know, it needs to be accompanied with humility. Like, this
+
+367
+00:22:44,240 --> 00:22:47,480
+Speaker 5:  is the decision we're making, here is the basis for this decision, which
+
+368
+00:22:47,480 --> 00:22:51,080
+Speaker 5:  I'm really committed to, you know, making sure everyone understands, you
+
+369
+00:22:51,080 --> 00:22:54,240
+Speaker 5:  know, my basis, right? Like, this is why this decision is made. You don't
+
+370
+00:22:54,240 --> 00:22:58,040
+Speaker 5:  have to agree, but you can see the logic that led me to it, right?
+
+371
+00:22:58,800 --> 00:23:01,680
+Speaker 5:  And then if it, you know, how do we measure that it's the right decision,
+
+372
+00:23:01,680 --> 00:23:05,240
+Speaker 5:  right? What are the benchmarks we're looking at going forward and how do
+
+373
+00:23:05,240 --> 00:23:08,920
+Speaker 5:  I remain willing to say like, Look, that was wrong. You know, let's,
+
+374
+00:23:08,920 --> 00:23:12,600
+Speaker 5:  let's back up because like, clearly it's not going the direction we wanted
+
+375
+00:23:12,600 --> 00:23:16,320
+Speaker 5:  it to go, so, you know, let's, let's recalibrate, let's look
+
+376
+00:23:16,320 --> 00:23:20,120
+Speaker 5:  into our assumptions, let's do it over. And I think, you know, there's kind
+
+377
+00:23:20,120 --> 00:23:23,800
+Speaker 5:  of a, a combination of like iterating and learning on the go
+
+378
+00:23:24,330 --> 00:23:27,920
+Speaker 5:  in, you know, while being sensitive to like, you know, what is, what is our,
+
+379
+00:23:27,920 --> 00:23:31,240
+Speaker 5:  what are our ultimate goals? Why, you know, why is this decision being made?
+
+380
+00:23:31,700 --> 00:23:35,560
+Speaker 5:  And I think bringing everything I have, you know, my experience, my
+
+381
+00:23:35,560 --> 00:23:38,840
+Speaker 5:  knowledge, and any research I need to do to bear on the
+
+382
+00:23:39,000 --> 00:23:41,840
+Speaker 1:  Decision. So let's put that into practice. There is a big decision for Signal
+
+383
+00:23:41,840 --> 00:23:45,640
+Speaker 1:  coming up. You mentioned Brian Acton is currently the interim CEO l
+
+384
+00:23:45,640 --> 00:23:49,280
+Speaker 1:  Marlin Spike, who was the, one of the co-founders. He was the ceo, he stepped
+
+385
+00:23:49,280 --> 00:23:52,960
+Speaker 1:  down in last January. You gotta hire a new ceo. What are you looking for?
+
+386
+00:23:52,960 --> 00:23:53,360
+Speaker 1:  How are you gonna
+
+387
+00:23:53,360 --> 00:23:57,120
+Speaker 5:  Do it? Yeah, I mean, I think we're looking for somebody with, you know, stellar
+
+388
+00:23:57,120 --> 00:24:00,840
+Speaker 5:  product experience. We want somebody who can really
+
+389
+00:24:00,840 --> 00:24:04,760
+Speaker 5:  focus in on the organization. So, you know, how
+
+390
+00:24:04,760 --> 00:24:08,120
+Speaker 5:  do we get our development practices and coordination as
+
+391
+00:24:08,130 --> 00:24:10,880
+Speaker 5:  cleanly calibrated and well oiled as possible?
+
+392
+00:24:11,860 --> 00:24:15,360
+Speaker 5:  How do we think about, you know, scaling this organization,
+
+393
+00:24:15,490 --> 00:24:19,440
+Speaker 5:  growing this organization, growing our users, you know, ensuring that
+
+394
+00:24:19,440 --> 00:24:23,120
+Speaker 5:  we are, you know, choosing the right features and, you know,
+
+395
+00:24:23,120 --> 00:24:27,040
+Speaker 5:  innovations to function on while understanding that
+
+396
+00:24:27,040 --> 00:24:30,960
+Speaker 5:  this is not, you know, your average tech startup, right? That our growth
+
+397
+00:24:31,170 --> 00:24:35,040
+Speaker 5:  is in service of something different. That our organization does have
+
+398
+00:24:35,040 --> 00:24:38,200
+Speaker 5:  the luxury to say no to certain choices,
+
+399
+00:24:38,810 --> 00:24:42,560
+Speaker 5:  to reject the, you know, move quick and break things paradigm
+
+400
+00:24:43,170 --> 00:24:47,080
+Speaker 5:  if, if that's not going to serve our ultimate mission. So I think it's
+
+401
+00:24:47,200 --> 00:24:50,760
+Speaker 5:  somebody with those who, who has that experience, but who also has
+
+402
+00:24:50,900 --> 00:24:54,520
+Speaker 5:  sensibilities that will enable them to sort of discern the
+
+403
+00:24:54,520 --> 00:24:58,080
+Speaker 5:  differences between a signal and between, you know,
+
+404
+00:24:58,310 --> 00:25:02,040
+Speaker 5:  x, Y, z, you know, kind of, I don't know, some
+
+405
+00:25:02,040 --> 00:25:05,680
+Speaker 5:  social app that's a shim for data collection that goes into, you know, some
+
+406
+00:25:05,930 --> 00:25:09,800
+Speaker 5:  DD algorithm or something. You know, the, the, the truly,
+
+407
+00:25:10,220 --> 00:25:12,560
+Speaker 5:  you know, the truly dark side of tech.
+
+408
+00:25:12,710 --> 00:25:16,000
+Speaker 1:  I feel like you might have some history with not being happy with DOD related
+
+409
+00:25:16,000 --> 00:25:16,520
+Speaker 1:  to projects.
+
+410
+00:25:16,710 --> 00:25:20,280
+Speaker 5:  I will just say the more you know about so-called ai, the more
+
+411
+00:25:20,280 --> 00:25:21,360
+Speaker 5:  skeptical you become.
+
+412
+00:25:21,910 --> 00:25:25,800
+Speaker 1:  Fair enough. Why is it not you? I mean, you're very passionate
+
+413
+00:25:25,800 --> 00:25:28,040
+Speaker 1:  about Signal, It seems like you could do all those things. Why not? Why not
+
+414
+00:25:28,040 --> 00:25:29,040
+Speaker 1:  just pick yourself? Yeah.
+
+415
+00:25:29,040 --> 00:25:32,840
+Speaker 5:  Well, one reason is I wanna go deep on the areas that I have
+
+416
+00:25:32,840 --> 00:25:36,760
+Speaker 5:  experience in and that I just love doing, right? And
+
+417
+00:25:36,760 --> 00:25:39,600
+Speaker 5:  this was, you know, this was a role. I talked to the board, you know, for
+
+418
+00:25:39,600 --> 00:25:43,440
+Speaker 5:  a long time, and this was a role that we sort of shaped around some of
+
+419
+00:25:43,440 --> 00:25:46,960
+Speaker 5:  my interests and around some of my, you know, it's not increasing
+
+420
+00:25:46,960 --> 00:25:50,600
+Speaker 5:  realization, right? Like, I think I've always been a massive signal
+
+421
+00:25:50,600 --> 00:25:53,800
+Speaker 5:  booster. I use Signal when it was called Red Phone and Tech Secure, like
+
+422
+00:25:53,980 --> 00:25:57,360
+Speaker 5:  way back in the day, you know, before there was an iOS app.
+
+423
+00:25:58,420 --> 00:26:02,320
+Speaker 5:  But I think, you know, as I have moved through my career
+
+424
+00:26:02,320 --> 00:26:06,160
+Speaker 5:  and occupied, you know, different positions in, you know, academia, in tech,
+
+425
+00:26:06,180 --> 00:26:10,040
+Speaker 5:  you know, very briefly at the Federal Trade Commission, it was just
+
+426
+00:26:10,040 --> 00:26:14,000
+Speaker 5:  a realization that this is really something I thought a lot about and a
+
+427
+00:26:14,000 --> 00:26:17,960
+Speaker 5:  place where I could very meaningfully put my time. And I, you know, it,
+
+428
+00:26:17,960 --> 00:26:21,680
+Speaker 5:  it just was clearly the most meaningful thing I could do with my
+
+429
+00:26:21,680 --> 00:26:25,600
+Speaker 5:  energy and expertise. And I think, you know, what we want from a
+
+430
+00:26:25,600 --> 00:26:29,120
+Speaker 5:  CEO is also somebody who has, you know, on the ground product
+
+431
+00:26:29,120 --> 00:26:32,880
+Speaker 5:  experience, which I have some of, but you know, I have not been in the messaging
+
+432
+00:26:32,880 --> 00:26:36,680
+Speaker 5:  space. I just think it would be, it would be great to work side
+
+433
+00:26:36,680 --> 00:26:40,400
+Speaker 5:  by side with that person and to work on the leadership team. But it was,
+
+434
+00:26:40,400 --> 00:26:43,680
+Speaker 5:  you know, this was a very intentional choice and it was sort of shaped around,
+
+435
+00:26:43,820 --> 00:26:47,760
+Speaker 5:  you know, what I think I do best and, you know, I, we wanna shape
+
+436
+00:26:47,760 --> 00:26:51,600
+Speaker 5:  the CEO role for somebody who, you know, fits those specific
+
+437
+00:26:51,600 --> 00:26:55,480
+Speaker 5:  needs. And it's, you know, really inward focus, getting everything on
+
+438
+00:26:55,480 --> 00:26:58,600
+Speaker 5:  Rails. And this is not to say things aren't on rails now, but you know, if
+
+439
+00:26:58,600 --> 00:27:01,960
+Speaker 5:  you're preparing for growth, if you're preparing, you know, to meet this
+
+440
+00:27:01,960 --> 00:27:05,760
+Speaker 5:  moment, to really recognize this inflection point and mature the
+
+441
+00:27:05,760 --> 00:27:09,320
+Speaker 5:  organization, we need somebody who's able to focus inward on those issues.
+
+442
+00:27:09,320 --> 00:27:10,800
+Speaker 1:  How's the search going? Do you have a timeline?
+
+443
+00:27:10,930 --> 00:27:12,840
+Speaker 5:  We don't have a timeline, but it's, it's active.
+
+444
+00:27:12,900 --> 00:27:16,000
+Speaker 1:  And then who, what does it look like at the end? Do you have a board meeting
+
+445
+00:27:16,000 --> 00:27:19,560
+Speaker 1:  and you all sit down, you yeah. Throw secret ballots on the table. Do you
+
+446
+00:27:19,560 --> 00:27:23,480
+Speaker 1:  raise your hand? What's the most people are never gonna pick a CEO and give
+
+447
+00:27:23,480 --> 00:27:25,600
+Speaker 1:  them a vision of what that process is like at the end.
+
+448
+00:27:25,600 --> 00:27:29,360
+Speaker 5:  Cool. There are interviews, we wanna make sure that this is,
+
+449
+00:27:29,360 --> 00:27:33,040
+Speaker 5:  you know, somebody that leadership and the team feel,
+
+450
+00:27:33,180 --> 00:27:36,960
+Speaker 5:  you know, just wildly enthusiastic about, right? Somebody who
+
+451
+00:27:36,960 --> 00:27:40,680
+Speaker 5:  just, you know, lights up every interview and is, is sort of, you know,
+
+452
+00:27:40,680 --> 00:27:44,600
+Speaker 5:  clearly showing their knowledge of signal and their vision and their insight
+
+453
+00:27:44,600 --> 00:27:48,360
+Speaker 5:  about the space. And then we get real excited about that person. We
+
+454
+00:27:48,360 --> 00:27:52,040
+Speaker 5:  pop virtual champagne and then we have, have a board meeting
+
+455
+00:27:52,100 --> 00:27:56,040
+Speaker 5:  and the board votes and then, you know, there's all sorts of, you
+
+456
+00:27:56,040 --> 00:27:58,520
+Speaker 5:  know, the, the sort of background logistics, right? You would need to make
+
+457
+00:27:58,520 --> 00:28:01,720
+Speaker 5:  sure somebody can transition out of another role. If you're hiring a ceo,
+
+458
+00:28:01,720 --> 00:28:05,080
+Speaker 5:  they probably have significant responsibilities. So you, you know, create
+
+459
+00:28:05,080 --> 00:28:08,880
+Speaker 5:  an offboarding and onboarding timeline. You work with them on that
+
+460
+00:28:08,900 --> 00:28:12,520
+Speaker 5:  you, you know, meet, you make sure they have all of the documentation and
+
+461
+00:28:12,520 --> 00:28:16,480
+Speaker 5:  information they need. You sort of think about, you know, the, the sort of
+
+462
+00:28:16,480 --> 00:28:19,800
+Speaker 5:  classic timeline is like first hundred days for executives. But you know,
+
+463
+00:28:19,800 --> 00:28:22,960
+Speaker 5:  what is the, what is the timeline for impact? What is the initial vision?
+
+464
+00:28:23,420 --> 00:28:27,320
+Speaker 5:  And you know, at that stage I see myself as like a, you know, as a champion
+
+465
+00:28:27,320 --> 00:28:30,800
+Speaker 5:  and a supporter, right? Like, how do I back this person up? How do I make
+
+466
+00:28:30,800 --> 00:28:34,520
+Speaker 5:  sure they are sort of elevated to do, you know, the best job they can
+
+467
+00:28:34,520 --> 00:28:38,040
+Speaker 5:  and that they have, you know, all the resources and insight I have to give
+
+468
+00:28:38,260 --> 00:28:41,720
+Speaker 5:  and all the resources and insight, you know, that the org can offer as well.
+
+469
+00:30:32,230 --> 00:30:35,190
+Speaker 1:  We're back. So let's talk about growth.
+
+470
+00:30:36,150 --> 00:30:39,510
+Speaker 1:  It it, we've mentioned it by different names several times. I understand
+
+471
+00:30:39,510 --> 00:30:42,950
+Speaker 1:  exactly why you don't want to use the word growth. That implies a bunch of
+
+472
+00:30:43,080 --> 00:30:46,790
+Speaker 1:  Silicon Valley tropes, but you want to add users
+
+473
+00:30:46,790 --> 00:30:50,710
+Speaker 1:  to Signal. And so growth is a yes, is fundamentally the
+
+474
+00:30:50,710 --> 00:30:53,750
+Speaker 1:  thing you're talking about. User growth, yes. Is the goal Everyone on the
+
+475
+00:30:53,750 --> 00:30:53,910
+Speaker 1:  planet,
+
+476
+00:30:53,970 --> 00:30:57,870
+Speaker 5:  The goal is everyone who wants to, needs to
+
+477
+00:30:57,870 --> 00:31:01,150
+Speaker 5:  has a smartphone, right? Everyone on the planet,
+
+478
+00:31:01,610 --> 00:31:05,510
+Speaker 5:  Yes. That is, that is the goal. But it's also that just that almost
+
+479
+00:31:05,510 --> 00:31:08,990
+Speaker 5:  like abstracts it into the land of fantasy, right? Like I don't even, you
+
+480
+00:31:08,990 --> 00:31:12,270
+Speaker 5:  know, I don't, I don't have the latest numbers, but not everyone on the planet
+
+481
+00:31:12,270 --> 00:31:15,710
+Speaker 5:  has access to internet, right? Not everyone on the planet has access to a
+
+482
+00:31:15,710 --> 00:31:19,670
+Speaker 5:  smartphone that's running an operating system that can support Signal, right?
+
+483
+00:31:19,670 --> 00:31:23,230
+Speaker 5:  So there's, you know, sort of planetary distinctions
+
+484
+00:31:23,390 --> 00:31:27,150
+Speaker 5:  and inequities and contexts that you know mean that I don't, I feel like
+
+485
+00:31:27,150 --> 00:31:30,470
+Speaker 5:  throwing that out would just be like a bombastic tech
+
+486
+00:31:30,480 --> 00:31:34,430
+Speaker 5:  founder kind of goal and not actually anchored in reality.
+
+487
+00:31:34,430 --> 00:31:38,030
+Speaker 5:  However, like everyone who wants to use Signal, we want them to be able to
+
+488
+00:31:38,030 --> 00:31:41,910
+Speaker 5:  use it, right? And again, the, you know, the premise there is that signal
+
+489
+00:31:41,910 --> 00:31:45,710
+Speaker 5:  is more useful the, for the people who use Signal, the more people who
+
+490
+00:31:45,710 --> 00:31:49,270
+Speaker 5:  use Signal, right? Like a messaging app that no one use uses
+
+491
+00:31:49,400 --> 00:31:53,230
+Speaker 5:  is useless, right? A, you know, hyper secure, privacy aware
+
+492
+00:31:53,230 --> 00:31:56,910
+Speaker 5:  messaging app that only three people use is only useful and
+
+493
+00:31:56,910 --> 00:31:59,990
+Speaker 5:  secure and private to three people, right? So we want, you know, we really
+
+494
+00:31:59,990 --> 00:32:03,670
+Speaker 5:  want that network effect because that's, you know, that's what
+
+495
+00:32:03,670 --> 00:32:05,230
+Speaker 5:  makes messaging work.
+
+496
+00:32:05,340 --> 00:32:08,350
+Speaker 1:  Yeah, I, I asked the question that way cuz there's what somewhere between,
+
+497
+00:32:08,620 --> 00:32:10,750
+Speaker 1:  it's a little under 8 billion people on the
+
+498
+00:32:11,450 --> 00:32:15,350
+Speaker 1:  planet. 1.7 billion of those people live in China, which is
+
+499
+00:32:16,450 --> 00:32:20,430
+Speaker 1:  Block Signal. One and a half billion of those people live in India, which
+
+500
+00:32:20,430 --> 00:32:23,590
+Speaker 1:  the government does not like encryption. Just off the bat, are those markets
+
+501
+00:32:23,590 --> 00:32:27,470
+Speaker 1:  that you want to go into or those fights you want to have, are those compromises
+
+502
+00:32:27,470 --> 00:32:30,470
+Speaker 1:  you would make or are those people just off the books for you?
+
+503
+00:32:30,660 --> 00:32:34,030
+Speaker 5:  I mean, let's be clear, we are not in the business of
+
+504
+00:32:34,350 --> 00:32:38,310
+Speaker 5:  compromising on privacy and we're not in the business of, you know,
+
+505
+00:32:38,310 --> 00:32:42,040
+Speaker 5:  handing people who want and need signal a compromised
+
+506
+00:32:42,040 --> 00:32:45,840
+Speaker 5:  version of Signal, which, you know, we're not, we're not gonna
+
+507
+00:32:45,840 --> 00:32:49,640
+Speaker 5:  do, right? But, you know, are there people in South and
+
+508
+00:32:49,640 --> 00:32:53,160
+Speaker 5:  East Asia who want to be able to talk privately,
+
+509
+00:32:53,160 --> 00:32:57,000
+Speaker 5:  safely, intimately outside of the gays of corporate state surveillance?
+
+510
+00:32:57,000 --> 00:33:00,960
+Speaker 5:  Absolutely. Do we want them to have access to signal? Absolutely we do.
+
+511
+00:33:00,960 --> 00:33:04,560
+Speaker 5:  Right? You know, do we want signal to be available there? Yes.
+
+512
+00:33:05,100 --> 00:33:08,880
+Speaker 5:  Can we kind of magically transform the geopolitical
+
+513
+00:33:09,070 --> 00:33:12,960
+Speaker 5:  dynamics? No, we can't. But you know, we will do what is in within
+
+514
+00:33:12,960 --> 00:33:16,760
+Speaker 5:  our power to make sure that signal is available to as many people as possible.
+
+515
+00:33:16,760 --> 00:33:20,200
+Speaker 5:  And we will do that without compromising our privacy
+
+516
+00:33:20,200 --> 00:33:20,880
+Speaker 5:  promises.
+
+517
+00:33:21,450 --> 00:33:25,240
+Speaker 1:  So the Chinese government has effectively block signal. You don't have
+
+518
+00:33:25,240 --> 00:33:26,600
+Speaker 1:  plans to go into China in some way?
+
+519
+00:33:26,710 --> 00:33:30,080
+Speaker 5:  Yeah, I mean, I don't know what going into China would mean, like, you know,
+
+520
+00:33:30,080 --> 00:33:33,680
+Speaker 5:  a ticket to Beijing handout, you know, QR codes. I don't know.
+
+521
+00:33:34,630 --> 00:33:36,800
+Speaker 5:  That's a joke. I'm saying like, we're not doing that, but
+
+522
+00:33:37,350 --> 00:33:40,960
+Speaker 1:  Yeah. Right. You're not sure. You're not, you're not doing like Uber
+
+523
+00:33:40,960 --> 00:33:44,560
+Speaker 1:  styling gorilla user acquisition in China. I meant you're not talk actively
+
+524
+00:33:44,560 --> 00:33:47,040
+Speaker 1:  talking to the Chinese government about what it would mean for Signal to
+
+525
+00:33:47,210 --> 00:33:48,520
+Speaker 1:  be active in the Chinese market.
+
+526
+00:33:48,930 --> 00:33:52,920
+Speaker 5:  No, we are, you know, full stop. We're not gonna compromise. And you know,
+
+527
+00:33:52,920 --> 00:33:56,760
+Speaker 5:  that would imply that we are sort of in a negotiating stance. And
+
+528
+00:33:57,440 --> 00:34:01,240
+Speaker 5:  again, this, you know, this is sort of the magical thinking that comes
+
+529
+00:34:01,240 --> 00:34:04,760
+Speaker 5:  up and I've been in tech almost 20 years, so I've seen this sort of
+
+530
+00:34:04,760 --> 00:34:07,960
+Speaker 5:  recur, right? And it's this, you know, desire
+
+531
+00:34:07,960 --> 00:34:11,480
+Speaker 5:  particularly by state actors to kind of like break
+
+532
+00:34:11,480 --> 00:34:15,280
+Speaker 5:  encryption for their purposes without understanding that
+
+533
+00:34:15,280 --> 00:34:19,200
+Speaker 5:  that breaks it fundamentally across the board. So, you know, there's no,
+
+534
+00:34:19,630 --> 00:34:23,200
+Speaker 5:  I don't know, this sounds like a little bit dated, you know, there's no
+
+535
+00:34:23,480 --> 00:34:26,440
+Speaker 5:  compromising with math, I guess is what I'll say, right? Like if encryption
+
+536
+00:34:26,440 --> 00:34:30,200
+Speaker 5:  is broken, it is broken and then Signal doesn't
+
+537
+00:34:30,230 --> 00:34:34,160
+Speaker 5:  keep its privacy promises and then there's no real point for us to
+
+538
+00:34:34,160 --> 00:34:37,920
+Speaker 5:  exist as a non-profit whose sole mission is to provide
+
+539
+00:34:37,920 --> 00:34:41,740
+Speaker 5:  it, you know, safe, private, pleasant place for,
+
+540
+00:34:41,740 --> 00:34:45,380
+Speaker 5:  you know, messaging and communication in a world where those
+
+541
+00:34:45,400 --> 00:34:49,060
+Speaker 5:  are vanishingly few and far between, you know, it's signal
+
+542
+00:34:49,060 --> 00:34:52,420
+Speaker 5:  and then there's, you know, there are a number of other services, but because
+
+543
+00:34:52,420 --> 00:34:56,280
+Speaker 5:  very few people use them, they're very, you know, they're much, much,
+
+544
+00:34:56,280 --> 00:35:00,120
+Speaker 5:  much, much, much less useful to most people who pick them up and
+
+545
+00:35:00,120 --> 00:35:00,400
+Speaker 5:  try
+
+546
+00:35:00,600 --> 00:35:04,320
+Speaker 1:  Them, right? So putting this out there, Apple's solution to this problem,
+
+547
+00:35:04,320 --> 00:35:08,240
+Speaker 1:  because China is a gigantic market for Apple and its devices
+
+548
+00:35:08,690 --> 00:35:11,720
+Speaker 1:  is to say iMessage is encrypted. But to allow
+
+549
+00:35:12,470 --> 00:35:15,960
+Speaker 1:  a state operated company to actually run the iCloud data centers
+
+550
+00:35:16,490 --> 00:35:20,320
+Speaker 1:  in China, which seems like a right, they have threaded the needle in a way
+
+551
+00:35:20,320 --> 00:35:24,200
+Speaker 1:  that allows them to claim the thing they want to claim, even though the government
+
+552
+00:35:24,200 --> 00:35:27,640
+Speaker 1:  holds the encryption keys. You're not gonna do that. You're not even like
+
+553
+00:35:27,640 --> 00:35:29,520
+Speaker 1:  allowing for a solution like that to exist.
+
+554
+00:35:29,940 --> 00:35:33,280
+Speaker 5:  Let the record show hell no, we're not gonna do that.
+
+555
+00:35:33,610 --> 00:35:37,600
+Speaker 5:  No, I mean, and this is again, like let's pin, let's like flip
+
+556
+00:35:37,600 --> 00:35:40,920
+Speaker 5:  this and talk about the business model. Apple is doing that because like
+
+557
+00:35:40,920 --> 00:35:44,560
+Speaker 5:  every quarter they have to report their growth and revenue stats to the board.
+
+558
+00:35:44,700 --> 00:35:48,480
+Speaker 5:  And if those stats are like, you know, not looking to
+
+559
+00:35:48,480 --> 00:35:52,360
+Speaker 5:  acquire a new but Unac acquired market, then eventually their
+
+560
+00:35:52,360 --> 00:35:55,600
+Speaker 5:  executive team is gonna get fired and new people brought in because the imperative
+
+561
+00:35:55,810 --> 00:35:59,360
+Speaker 5:  of their company, to put this in machine learning terms, the objective function
+
+562
+00:35:59,530 --> 00:36:03,520
+Speaker 5:  of their company is increasing profit and growth forever.
+
+563
+00:36:03,520 --> 00:36:07,240
+Speaker 5:  Like literally the definition of metastasis, right?
+
+564
+00:36:07,310 --> 00:36:11,000
+Speaker 5:  That's not us, right? Like we don't need to do that. We do not need to, you
+
+565
+00:36:11,000 --> 00:36:14,800
+Speaker 5:  know, make those compromises like myself and our CEO will not get fired
+
+566
+00:36:15,130 --> 00:36:18,600
+Speaker 5:  if we're not sort of bringing new market strategies.
+
+567
+00:36:18,610 --> 00:36:22,200
+Speaker 5:  However, you know, twisted the compromise is
+
+568
+00:36:22,450 --> 00:36:25,640
+Speaker 5:  to the board. We have a different mission and a different set of incentives.
+
+569
+00:36:25,640 --> 00:36:29,160
+Speaker 5:  So, you know, which makes it easy to say hell no to a question like that.
+
+570
+00:36:29,330 --> 00:36:32,960
+Speaker 1:  So Signal is in India right now, India has claimed signal sought in
+
+571
+00:36:32,960 --> 00:36:36,640
+Speaker 1:  compliance with some regulations there that would require one of these magical
+
+572
+00:36:36,640 --> 00:36:39,760
+Speaker 1:  thinking back doors. Are you gonna leave India? Are you gonna stay there?
+
+573
+00:36:39,760 --> 00:36:40,880
+Speaker 1:  Are you gonna fight? How's that gonna work?
+
+574
+00:36:41,090 --> 00:36:44,800
+Speaker 5:  We are still available to people in India who want to
+
+575
+00:36:44,800 --> 00:36:48,280
+Speaker 5:  use Signal, right? We are not gonna compromise on privacy.
+
+576
+00:36:48,700 --> 00:36:52,560
+Speaker 5:  And that is our stance and we'll, you know, we'll do everything
+
+577
+00:36:52,560 --> 00:36:56,000
+Speaker 5:  we can to continue to be available to the people in India who
+
+578
+00:36:56,270 --> 00:36:57,720
+Speaker 5:  want and need signal.
+
+579
+00:36:57,980 --> 00:37:01,920
+Speaker 1:  But if India passes a law or deems signal to not be in compliance with
+
+580
+00:37:02,160 --> 00:37:03,760
+Speaker 1:  whatever encryption regulation you'll walk,
+
+581
+00:37:04,070 --> 00:37:07,480
+Speaker 5:  I mean, if the choice is, you know, breaking signal
+
+582
+00:37:07,770 --> 00:37:11,560
+Speaker 5:  or walking, but again, you know, I think a lot of times these
+
+583
+00:37:11,670 --> 00:37:15,360
+Speaker 5:  policy strategies and discussions just, you know, they're not, it's not like
+
+584
+00:37:15,360 --> 00:37:19,200
+Speaker 5:  a bullion, right? It's not a, you know, cut and dry engineering decision.
+
+585
+00:37:19,200 --> 00:37:22,960
+Speaker 5:  These are very muddy and like frankly not things
+
+586
+00:37:22,990 --> 00:37:26,760
+Speaker 5:  that it's usually best to sort of go into detail on
+
+587
+00:37:26,790 --> 00:37:30,000
+Speaker 5:  publicly because you're, you know, you're having to think about a lot of
+
+588
+00:37:30,000 --> 00:37:33,640
+Speaker 5:  different sort of, you know, political, social, et cetera,
+
+589
+00:37:33,750 --> 00:37:37,520
+Speaker 5:  dynamics all at once and sort of make, you know, make up to the
+
+590
+00:37:37,800 --> 00:37:41,560
+Speaker 5:  minute choices based on like it, you know, dynamic situation.
+
+591
+00:37:41,610 --> 00:37:45,560
+Speaker 5:  So, you know, that's, that is a very broad answer. But again, like
+
+592
+00:37:45,560 --> 00:37:48,760
+Speaker 5:  there, you know, I think we're gonna, we're gonna be keeping our eye on it.
+
+593
+00:37:48,760 --> 00:37:52,560
+Speaker 5:  We're gonna again be doing everything we can to remain available to
+
+594
+00:37:52,560 --> 00:37:55,280
+Speaker 5:  as many people as possible without breaking signal.
+
+595
+00:37:55,390 --> 00:37:59,200
+Speaker 1:  Well, it's a broad answer to a specific question, right? If a
+
+596
+00:37:59,200 --> 00:38:02,800
+Speaker 1:  government and the world says, in order to operate in our country, we want
+
+597
+00:38:02,800 --> 00:38:05,720
+Speaker 1:  the keys to your encryption, would you just walk?
+
+598
+00:38:06,260 --> 00:38:10,120
+Speaker 5:  Yes, we would walk, we will not hand over the keys to our encryption. We
+
+599
+00:38:10,120 --> 00:38:13,000
+Speaker 5:  will not, you know, break the encryption and in fact, the way we're built,
+
+600
+00:38:13,000 --> 00:38:14,360
+Speaker 5:  we don't have access to those keys.
+
+601
+00:38:14,690 --> 00:38:18,000
+Speaker 1:  So then there's the flip side of it, which is sort of internal to signal
+
+602
+00:38:18,000 --> 00:38:21,800
+Speaker 1:  and like what value Signal has as a company and
+
+603
+00:38:21,800 --> 00:38:24,920
+Speaker 1:  what it, what things you can and can't do because you cannot see into the
+
+604
+00:38:24,920 --> 00:38:28,600
+Speaker 1:  content, which I think is maybe the most difficult
+
+605
+00:38:29,210 --> 00:38:33,050
+Speaker 1:  thing for any company to reckon with when they operate a service with
+
+606
+00:38:33,050 --> 00:38:37,040
+Speaker 1:  lots and lots of users who might do lots and lots of things, things. In 2021,
+
+607
+00:38:37,440 --> 00:38:40,600
+Speaker 1:  we hosted a story from Casey Newton about that group chat feature
+
+608
+00:38:41,400 --> 00:38:44,280
+Speaker 1:  you mentioned where you can share links to group chats,
+
+609
+00:38:45,360 --> 00:38:48,040
+Speaker 1:  thousands of people can join them. Signal obviously cannot see what is going
+
+610
+00:38:48,040 --> 00:38:51,520
+Speaker 1:  on inside of this group chats because it's encrypted. That means bad actors
+
+611
+00:38:51,520 --> 00:38:55,120
+Speaker 1:  can do bad things inside of Signal and spread the, their
+
+612
+00:38:55,120 --> 00:38:57,800
+Speaker 1:  messages inside of Signal. Is that something that that concerns you?
+
+613
+00:38:58,070 --> 00:39:01,600
+Speaker 5:  I mean I think that that story from Casey Newton was not
+
+614
+00:39:02,070 --> 00:39:05,920
+Speaker 5:  a totally clear picture of the real dynamics inside signal. I think,
+
+615
+00:39:05,920 --> 00:39:09,810
+Speaker 5:  you know, the place where we really think about these
+
+616
+00:39:09,810 --> 00:39:13,210
+Speaker 5:  is in the sort of, you know, product direction, right? When we're, you know,
+
+617
+00:39:13,210 --> 00:39:16,930
+Speaker 5:  thinking through new features and capabilities, a number of very
+
+618
+00:39:16,930 --> 00:39:20,770
+Speaker 5:  smart people who spend a lot of time, you know, thinking through the implications.
+
+619
+00:39:21,110 --> 00:39:24,570
+Speaker 5:  You know, I think the, you know, the question of like, but what if bad actors
+
+620
+00:39:24,590 --> 00:39:28,290
+Speaker 5:  did it is, you know, it's, it's compelling and it's often very emotionally
+
+621
+00:39:28,290 --> 00:39:31,930
+Speaker 5:  charged, right? Like these are, you know, the truth remains
+
+622
+00:39:31,930 --> 00:39:35,650
+Speaker 5:  however, that like, you can't provide a service
+
+623
+00:39:36,080 --> 00:39:40,010
+Speaker 5:  that truly protects the privacy of good actors. You know, many of
+
+624
+00:39:40,010 --> 00:39:43,730
+Speaker 5:  whom often have a lot less power than the people they're, you know, not
+
+625
+00:39:43,730 --> 00:39:47,570
+Speaker 5:  wanting to be surveilled and tracked by while sort of
+
+626
+00:39:47,570 --> 00:39:51,090
+Speaker 5:  opening up that service to allow surveillance of bad actors. Like there isn't,
+
+627
+00:39:51,090 --> 00:39:54,890
+Speaker 5:  you know, there is no squaring that circle and you know,
+
+628
+00:39:55,170 --> 00:39:58,890
+Speaker 5:  I think we are committed to providing a service that is,
+
+629
+00:39:58,890 --> 00:40:02,290
+Speaker 5:  you know, again, truly private for both. And I can, you know, I can talk
+
+630
+00:40:02,290 --> 00:40:05,930
+Speaker 5:  about, you know, when I was, when I was participating in labor organizing
+
+631
+00:40:05,930 --> 00:40:09,650
+Speaker 5:  at Google, we used Signal and we were, you know, I knew
+
+632
+00:40:09,650 --> 00:40:13,410
+Speaker 5:  because I'd been at the company for, you know, like over a decade
+
+633
+00:40:13,460 --> 00:40:17,250
+Speaker 5:  at that point, you know, that the company was, had teams
+
+634
+00:40:17,250 --> 00:40:20,650
+Speaker 5:  that were looking for a pretext to, you know,
+
+635
+00:40:21,080 --> 00:40:24,970
+Speaker 5:  fire me, right? And, and those pretext exists. I was part of,
+
+636
+00:40:24,970 --> 00:40:28,370
+Speaker 5:  you know, ethical whistle blowing networks, right? We were sort of sharing
+
+637
+00:40:28,370 --> 00:40:32,130
+Speaker 5:  information we thought was in the public interest with the public and with
+
+638
+00:40:32,130 --> 00:40:35,490
+Speaker 5:  journalists, which I, you know, I stand behind. There's a lot of this information
+
+639
+00:40:35,880 --> 00:40:39,650
+Speaker 5:  should not be behind the walls of proprietary tech companies
+
+640
+00:40:39,650 --> 00:40:42,810
+Speaker 5:  where the decisions are being made based on profit, not on social good full
+
+641
+00:40:42,810 --> 00:40:43,090
+Speaker 5:  stock.
+
+642
+00:40:43,270 --> 00:40:44,330
+Speaker 1:  Yes, I agree with you.
+
+643
+00:40:44,530 --> 00:40:47,250
+Speaker 5:  There's, yeah, I know the least controversial statement
+
+644
+00:40:47,860 --> 00:40:51,130
+Speaker 1:  As, as someone who also participates in that dynamic. Yes, I agree.
+
+645
+00:40:51,130 --> 00:40:55,010
+Speaker 5:  Right? So I was participating along with many
+
+646
+00:40:55,010 --> 00:40:58,570
+Speaker 5:  others in networks of ethical whistle blowing, which would have provided
+
+647
+00:40:58,570 --> 00:41:02,450
+Speaker 5:  that pretext, right? Like easy, like pick this person off. But
+
+648
+00:41:02,450 --> 00:41:06,090
+Speaker 5:  we were using Signal and we knew Signal was secure and we were, you know,
+
+649
+00:41:06,090 --> 00:41:09,330
+Speaker 5:  using Signal on our personal devices. So there was no like device manager
+
+650
+00:41:09,330 --> 00:41:12,890
+Speaker 5:  that was able to key log very important detail for those of you taking notes.
+
+651
+00:41:13,310 --> 00:41:16,570
+Speaker 5:  And that meant that I could feel safe
+
+652
+00:41:17,050 --> 00:41:20,650
+Speaker 5:  being part of those activities. And I, you know, it's very,
+
+653
+00:41:21,080 --> 00:41:25,050
+Speaker 5:  it's hard to describe in like clear, you know, kind of analytical,
+
+654
+00:41:25,050 --> 00:41:28,770
+Speaker 5:  sterile technical terms what that meant. But it was, you know, it's the difference
+
+655
+00:41:28,770 --> 00:41:32,410
+Speaker 5:  between that like stomach dropping fear when you're like,
+
+656
+00:41:32,990 --> 00:41:36,920
+Speaker 5:  shit did one of the most sophisticated technical adversaries just like,
+
+657
+00:41:37,140 --> 00:41:40,840
+Speaker 5:  you know, blow up my spot, you know, which means that like I'm
+
+658
+00:41:40,840 --> 00:41:44,360
+Speaker 5:  unsafe, my health insurance is unsafe. I might, you know, implicate some
+
+659
+00:41:44,360 --> 00:41:47,520
+Speaker 5:  of my friends who I'm, you know, also working with on this.
+
+660
+00:41:48,240 --> 00:41:51,960
+Speaker 5:  You know, the difference between that and being able to sort of like clearly
+
+661
+00:41:52,300 --> 00:41:56,160
+Speaker 5:  and securely sort of participate in those ethical activities.
+
+662
+00:41:56,180 --> 00:42:00,120
+Speaker 5:  And again, you know, there is no, there is no, you
+
+663
+00:42:00,120 --> 00:42:03,480
+Speaker 5:  know, splitting the baby on this question, right? Either it is secure and
+
+664
+00:42:03,480 --> 00:42:07,440
+Speaker 5:  it's private for everyone or it's not. And then there's a big
+
+665
+00:42:07,600 --> 00:42:11,000
+Speaker 5:  question like an existential question like why do this at all?
+
+666
+00:42:11,070 --> 00:42:14,800
+Speaker 1:  Like I said, I agree with you, but there's idealism and then there's
+
+667
+00:42:14,800 --> 00:42:18,120
+Speaker 1:  in practice, So there's an election coming up.
+
+668
+00:42:18,850 --> 00:42:22,720
+Speaker 1:  If the Proud Boys post a signal group chat link to
+
+669
+00:42:22,720 --> 00:42:26,080
+Speaker 1:  recruit people to go storm the capital because they don't believe in the
+
+670
+00:42:26,360 --> 00:42:29,880
+Speaker 1:  election results, what, what happens? Do you have a a moderation team that
+
+671
+00:42:29,880 --> 00:42:31,800
+Speaker 1:  takes it down? Do you just let it happen? How does that go?
+
+672
+00:42:32,310 --> 00:42:36,040
+Speaker 5:  I think like if we look back at like January 6th, that's actually like a
+
+673
+00:42:36,040 --> 00:42:39,400
+Speaker 5:  pretty good example that was planned in the open, right?
+
+674
+00:42:39,600 --> 00:42:42,600
+Speaker 1:  Sure. But I'm, but I'm asking you specifically if this happens on Signal,
+
+675
+00:42:42,600 --> 00:42:43,280
+Speaker 1:  what happens?
+
+676
+00:42:43,430 --> 00:42:47,400
+Speaker 5:  I mean, we would not know that, right? Like Signal is fully private
+
+677
+00:42:47,400 --> 00:42:48,400
+Speaker 5:  and fully encrypted,
+
+678
+00:42:48,420 --> 00:42:52,160
+Speaker 1:  But if, But the links are not private or Right, the you can just post the
+
+679
+00:42:52,160 --> 00:42:52,400
+Speaker 1:  links.
+
+680
+00:42:52,550 --> 00:42:56,320
+Speaker 5:  Well the links could be posted in a forum, right? And the groups have
+
+681
+00:42:56,320 --> 00:42:57,600
+Speaker 5:  a limit of a thousand people.
+
+682
+00:42:57,810 --> 00:43:00,680
+Speaker 1:  So you, you can't even see that a thousand people have clicked this link
+
+683
+00:43:00,680 --> 00:43:01,600
+Speaker 1:  and started planning the
+
+684
+00:43:01,600 --> 00:43:04,920
+Speaker 5:  Thing. No, we can see that a link exists to a group we don't know about.
+
+685
+00:43:04,920 --> 00:43:07,920
+Speaker 1:  And if the link isn't a proud Voice forum, you would not take any action
+
+686
+00:43:07,920 --> 00:43:10,480
+Speaker 1:  against it. If you're like, if it's like click this link to help plan,
+
+687
+00:43:10,810 --> 00:43:14,200
+Speaker 5:  So are you, are you asking do we have people out there clicking every link
+
+688
+00:43:14,200 --> 00:43:17,960
+Speaker 5:  that is, you know, and then like checking out, does the forum sort of comport
+
+689
+00:43:17,960 --> 00:43:21,480
+Speaker 5:  with an ideological position that Signal agrees with? Cuz we don't, we don't
+
+690
+00:43:21,480 --> 00:43:23,760
+Speaker 1:  Have that. Yeah, I think in the most abstract way I'm saying do you have
+
+691
+00:43:23,760 --> 00:43:24,480
+Speaker 1:  a content moderation
+
+692
+00:43:24,480 --> 00:43:27,400
+Speaker 5:  Team? No, we, I mean we don't have Con we're not, you know, we're also not
+
+693
+00:43:27,400 --> 00:43:31,360
+Speaker 5:  a social media platform, right? We don't amplify content. We don't, you know,
+
+694
+00:43:31,370 --> 00:43:34,920
+Speaker 5:  we don't have sort of kind of Telegram, I think they're called channels,
+
+695
+00:43:34,920 --> 00:43:38,760
+Speaker 5:  right? Yeah. Where there's sort of broadcast only to like, you know, thousands
+
+696
+00:43:38,760 --> 00:43:42,480
+Speaker 5:  and thousands of people. We have been really careful in our product development
+
+697
+00:43:42,480 --> 00:43:46,400
+Speaker 5:  side not to develop Signal as a social network that
+
+698
+00:43:46,400 --> 00:43:49,840
+Speaker 5:  has sort of algorithmic amplification that allows that, you know,
+
+699
+00:43:50,060 --> 00:43:54,000
+Speaker 5:  one to millions, you know, amplification of content. We are a,
+
+700
+00:43:54,000 --> 00:43:57,760
+Speaker 5:  you know, we are a messaging platform so we don't, you know,
+
+701
+00:43:57,810 --> 00:44:01,680
+Speaker 5:  we don't have a content moderation team because one, we are fully private,
+
+702
+00:44:01,680 --> 00:44:04,880
+Speaker 5:  we don't see your content, we don't know who you're talking about. And two,
+
+703
+00:44:04,880 --> 00:44:07,640
+Speaker 5:  because we're not, you know, we're not a content platform. It's a different
+
+704
+00:44:07,840 --> 00:44:07,920
+Speaker 5:  paradigm.
+
+705
+00:44:08,610 --> 00:44:12,040
+Speaker 1:  So Signal has a terms of service, there's stuff you're not allowed to do
+
+706
+00:44:12,040 --> 00:44:13,840
+Speaker 1:  with it. How do you enforce that terms of service?
+
+707
+00:44:13,980 --> 00:44:17,600
+Speaker 5:  You know, we don't have access to your messaging, we don't have access to
+
+708
+00:44:17,600 --> 00:44:21,480
+Speaker 5:  who you're talking to. We have, you know, minimized our access to
+
+709
+00:44:21,480 --> 00:44:25,360
+Speaker 5:  information about you, about your conversations, about your friends, about
+
+710
+00:44:25,360 --> 00:44:29,160
+Speaker 5:  your networks. So, you know, we are not, we are not out there
+
+711
+00:44:29,160 --> 00:44:32,930
+Speaker 5:  policing who you talk to, to policing what you talk about.
+
+712
+00:44:32,930 --> 00:44:35,250
+Speaker 5:  You know, that's anathema to the mission of Signal.
+
+713
+00:44:35,500 --> 00:44:38,650
+Speaker 1:  So you've added stories, which is the ephemeral messages people aren't probably
+
+714
+00:44:38,850 --> 00:44:42,530
+Speaker 1:  familiar with. The reason that those are popular, especially for app is cuz
+
+715
+00:44:42,530 --> 00:44:45,410
+Speaker 1:  they're sticky, right? It gets people to come back and use the app more and
+
+716
+00:44:45,410 --> 00:44:47,450
+Speaker 1:  you can measure it and you can say, we need to add more sticky features.
+
+717
+00:44:47,520 --> 00:44:51,130
+Speaker 1:  Does Signal measure the stickiness of the app? Are you like measuring how
+
+718
+00:44:51,130 --> 00:44:53,210
+Speaker 1:  people use it to add features that are sticky like
+
+719
+00:44:53,210 --> 00:44:56,890
+Speaker 5:  That? No, we don't do analytics or tracking. So we actually
+
+720
+00:44:56,890 --> 00:45:00,730
+Speaker 5:  don't have that information, which is, which means we have to use
+
+721
+00:45:00,730 --> 00:45:04,610
+Speaker 5:  other pieces of information and intuition when we're making product choices.
+
+722
+00:45:04,630 --> 00:45:08,490
+Speaker 5:  But you know, we don't measure that. We have very, very limited information.
+
+723
+00:45:08,490 --> 00:45:12,170
+Speaker 5:  Yeah. You know, when people last use the app, is
+
+724
+00:45:12,170 --> 00:45:15,970
+Speaker 1:  It so when, when you have product people and engineers deciding what features
+
+725
+00:45:15,970 --> 00:45:19,010
+Speaker 1:  to add, they don't have the data to back up their arguments, they just have
+
+726
+00:45:19,010 --> 00:45:19,610
+Speaker 1:  to say, this is a good
+
+727
+00:45:19,610 --> 00:45:23,370
+Speaker 5:  Idea. Yeah, we don't track or analyze use on, on specific
+
+728
+00:45:23,370 --> 00:45:27,130
+Speaker 5:  features. So, you know, there are insights that are produced outside of Signal.
+
+729
+00:45:27,210 --> 00:45:31,010
+Speaker 5:  There is sort of, you know, basic sensibilities that come from, you know,
+
+730
+00:45:31,010 --> 00:45:34,850
+Speaker 5:  folks having experience and sort of, you know, oftentimes decades of
+
+731
+00:45:34,850 --> 00:45:38,330
+Speaker 5:  experience in the messaging space. So it's not, you know, we're not riding
+
+732
+00:45:38,330 --> 00:45:42,210
+Speaker 5:  blind, we're just not relying on, you know, surveilling our users to make
+
+733
+00:45:42,210 --> 00:45:42,570
+Speaker 5:  our choices.
+
+734
+00:45:43,240 --> 00:45:46,690
+Speaker 1:  That seems extremely refreshing. We need to take another break, but when
+
+735
+00:45:46,690 --> 00:45:48,370
+Speaker 1:  we come back, we're gonna talk about signals revenue.
+
+736
+00:48:18,130 --> 00:48:21,690
+Speaker 1:  We're back with Meredith Whitaker. Let's just talk about government regulators
+
+737
+00:48:21,690 --> 00:48:25,570
+Speaker 1:  for a minute. Usually when regulators, particularly in this
+
+738
+00:48:25,570 --> 00:48:28,850
+Speaker 1:  country lately want to break encryption, they
+
+739
+00:48:29,130 --> 00:48:32,970
+Speaker 1:  immediately turn to child abuse. It is maybe a new and
+
+740
+00:48:32,970 --> 00:48:36,730
+Speaker 1:  and somewhat startling trend that this is what regulators have focused on
+
+741
+00:48:36,730 --> 00:48:40,210
+Speaker 1:  to break encryption. They have pointed that gun at Apple
+
+742
+00:48:40,210 --> 00:48:43,850
+Speaker 1:  really strongly. Apple developed a system, it has not yet rolled it out
+
+743
+00:48:44,260 --> 00:48:48,210
+Speaker 1:  to scan your devices in this way. They claim protects your
+
+744
+00:48:48,210 --> 00:48:51,890
+Speaker 1:  privacy so you can't use their devices or child abuse material.
+
+745
+00:48:52,380 --> 00:48:55,890
+Speaker 1:  Is that something that Signal would do to say we don't even we to protect
+
+746
+00:48:56,130 --> 00:48:58,490
+Speaker 1:  everyone. We know that there has to be some amount of child abuse material
+
+747
+00:48:58,490 --> 00:49:01,890
+Speaker 1:  that's just the unnerving reality of all services at scale
+
+748
+00:49:02,230 --> 00:49:04,970
+Speaker 1:  and signal saying we don't, we, we can't even see it, we can't take any action
+
+749
+00:49:04,970 --> 00:49:08,370
+Speaker 1:  against it. Or is there something you would do to take action against it?
+
+750
+00:49:08,600 --> 00:49:12,370
+Speaker 5:  I would point to the work of folks like Rayna Ricco,
+
+751
+00:49:12,560 --> 00:49:16,090
+Speaker 5:  Matt Blaze, Susan Landow, who've looked at sort of
+
+752
+00:49:16,090 --> 00:49:20,010
+Speaker 5:  content scanning and what, you know, we might refer to as
+
+753
+00:49:20,010 --> 00:49:23,410
+Speaker 5:  analog backdoor. You know, the issue with Apple's
+
+754
+00:49:24,090 --> 00:49:27,810
+Speaker 5:  proposal to scan everything on your device is that they
+
+755
+00:49:27,890 --> 00:49:31,370
+Speaker 5:  still control sort of, you know, what they're scanning for.
+
+756
+00:49:31,550 --> 00:49:34,770
+Speaker 5:  And I would, you know, I would also point to a number of the, you know, the
+
+757
+00:49:34,770 --> 00:49:38,570
+Speaker 5:  sex worker organizers and people who are more on the margins, who
+
+758
+00:49:38,570 --> 00:49:42,170
+Speaker 5:  are more fearful of being kind of caught up in these
+
+759
+00:49:42,370 --> 00:49:45,650
+Speaker 5:  scannings. These, you know, often arbitrary, arbitrarily enforced.
+
+760
+00:49:46,280 --> 00:49:49,370
+Speaker 5:  Very rarely are there ways to contest these decisions.
+
+761
+00:49:49,910 --> 00:49:53,330
+Speaker 5:  And you know, when you have a company like Apple, it's very
+
+762
+00:49:53,340 --> 00:49:57,170
+Speaker 5:  unclear whether, you know, whether through some
+
+763
+00:49:57,370 --> 00:50:01,050
+Speaker 5:  national security letter or another mechanism, the US
+
+764
+00:50:01,050 --> 00:50:04,930
+Speaker 5:  government or another state could, you know, mandate scanning for just a
+
+765
+00:50:04,930 --> 00:50:08,810
+Speaker 5:  little extra, right? It is a extremely dangerous slippery slope
+
+766
+00:50:08,840 --> 00:50:12,450
+Speaker 5:  that is right at the nexus of state corporate surveillance.
+
+767
+00:50:12,610 --> 00:50:16,330
+Speaker 5:  These techniques, you know, whatever you call them, you know,
+
+768
+00:50:16,330 --> 00:50:19,810
+Speaker 5:  need to be understood as sort of back doors into privacy and
+
+769
+00:50:19,810 --> 00:50:23,730
+Speaker 5:  encryption. So no signal is not, you know, has absolutely no plans to
+
+770
+00:50:23,730 --> 00:50:27,400
+Speaker 5:  scan anyone's messages to decide which messages are okay or, or not.
+
+771
+00:50:27,590 --> 00:50:29,280
+Speaker 5:  That is our general stance there.
+
+772
+00:50:29,450 --> 00:50:32,800
+Speaker 1:  So we've actually had peppercorn on the show. Let's talk about the Apple
+
+773
+00:50:32,800 --> 00:50:33,400
+Speaker 1:  system before.
+
+774
+00:50:33,800 --> 00:50:34,640
+Speaker 5:  Fabulous. Hi Rena,
+
+775
+00:50:34,960 --> 00:50:38,000
+Speaker 1:  She's wonderful. Yeah, go, go listen to that episode too. Listen, finish
+
+776
+00:50:38,000 --> 00:50:41,440
+Speaker 1:  listening to this one and then go listen to that one. But you know, Apple's
+
+777
+00:50:41,640 --> 00:50:44,800
+Speaker 1:  position there is, well we think this is bad. We are getting this government
+
+778
+00:50:45,000 --> 00:50:48,520
+Speaker 1:  pressure. We've built this complicated system. You know,
+
+779
+00:50:49,080 --> 00:50:52,400
+Speaker 1:  Microsoft has built a complicated system to hash against this known imagery.
+
+780
+00:50:52,400 --> 00:50:55,520
+Speaker 1:  There's other ways to do it. It is all very complicated. It comes with a
+
+781
+00:50:55,520 --> 00:50:59,440
+Speaker 1:  set of tradeoffs, but the goal of those trade-offs is to eliminate
+
+782
+00:50:59,440 --> 00:51:03,000
+Speaker 1:  the bad things, right? And you can say the trade-offs are to
+
+783
+00:51:03,000 --> 00:51:06,360
+Speaker 1:  costly, but the goal
+
+784
+00:51:06,730 --> 00:51:10,560
+Speaker 1:  is potentially a good one, like probably a good one, right? Don't have
+
+785
+00:51:10,560 --> 00:51:14,160
+Speaker 1:  this material on our service. You're saying the tradeoffs are far too costly.
+
+786
+00:51:14,680 --> 00:51:17,400
+Speaker 1:  We're gonna just allow this material on the, on the signal service.
+
+787
+00:51:18,030 --> 00:51:22,010
+Speaker 5:  I'm saying the, the tradeoffs aren't tradeoffs, right? There isn't like some,
+
+788
+00:51:22,010 --> 00:51:25,770
+Speaker 5:  you know, kind of scale of justice that we are sort of, you know, like
+
+789
+00:51:25,770 --> 00:51:29,650
+Speaker 5:  evening out, right? Like, you either break it or you don't. Either
+
+790
+00:51:29,650 --> 00:51:33,610
+Speaker 5:  signal's core premise is intact or it's not. And that's just, you know,
+
+791
+00:51:33,610 --> 00:51:37,570
+Speaker 5:  that's that. And I also, you know, there are arguments that
+
+792
+00:51:37,570 --> 00:51:40,570
+Speaker 5:  I think there are better people positioned to make than I,
+
+793
+00:51:41,190 --> 00:51:45,170
+Speaker 5:  but there are a lot of techniques for law enforcement
+
+794
+00:51:45,170 --> 00:51:49,050
+Speaker 5:  that don't involve immediately turning
+
+795
+00:51:49,220 --> 00:51:52,970
+Speaker 5:  to digital surveillance, right? And there are a lot
+
+796
+00:51:53,020 --> 00:51:56,730
+Speaker 5:  of, I think, I think we need to dig into a more troubling history
+
+797
+00:51:56,730 --> 00:52:00,130
+Speaker 5:  of where is, you know, where are these bad things not
+
+798
+00:52:00,130 --> 00:52:04,090
+Speaker 5:  prosecuted? Who doesn't get prosecuted for them, right? Like, where are there,
+
+799
+00:52:04,310 --> 00:52:08,010
+Speaker 5:  you know, where are they allowed to exist in the analog world?
+
+800
+00:52:08,930 --> 00:52:12,810
+Speaker 5:  Because there's an unwillingness or political pressure not to check them,
+
+801
+00:52:13,020 --> 00:52:16,810
+Speaker 5:  or a lack of focus on these. And,
+
+802
+00:52:16,810 --> 00:52:20,730
+Speaker 5:  you know, really explore like what other mechanisms exist to, you
+
+803
+00:52:20,730 --> 00:52:24,530
+Speaker 5:  know, check these dynamics that are not often using, you know, the
+
+804
+00:52:24,530 --> 00:52:28,250
+Speaker 5:  most emotionally, emotionally stirring arguments,
+
+805
+00:52:28,250 --> 00:52:31,650
+Speaker 5:  which really, you know, it is. I don't think any of us can sit here and like
+
+806
+00:52:31,650 --> 00:52:35,490
+Speaker 5:  listen to, you know, stories about child abuse and not being moved
+
+807
+00:52:35,490 --> 00:52:39,090
+Speaker 5:  unless we're, you know, sociopaths, right? Yeah. Like, you know, this really
+
+808
+00:52:39,090 --> 00:52:42,890
+Speaker 5:  matters and it is horrific, right? Full stop. But
+
+809
+00:52:42,890 --> 00:52:46,730
+Speaker 5:  too often I think that pretext gets used to
+
+810
+00:52:46,730 --> 00:52:50,690
+Speaker 5:  sort of reflexively instill in people a response
+
+811
+00:52:51,100 --> 00:52:54,610
+Speaker 5:  to these questions that's like, break anything. We have to break. Cause this
+
+812
+00:52:54,610 --> 00:52:57,890
+Speaker 5:  is like too emotionally meaningful for me to like sit by, right? Without,
+
+813
+00:52:57,890 --> 00:53:01,730
+Speaker 5:  you know, it almost short circuits that sort of, you know, deliberate
+
+814
+00:53:01,990 --> 00:53:05,770
+Speaker 5:  and, you know, discerning analysis of the, the whole
+
+815
+00:53:05,770 --> 00:53:08,890
+Speaker 5:  scope of the problem. So I think that is also an issue with this debate.
+
+816
+00:53:09,300 --> 00:53:13,190
+Speaker 1:  So we've talked about government pressure, we've talked about the content
+
+817
+00:53:13,190 --> 00:53:16,350
+Speaker 1:  moderation problem. Those are problems that come with scale, right? Is you
+
+818
+00:53:16,350 --> 00:53:18,990
+Speaker 1:  get more and more scale, more and more governments are gonna pressure you
+
+819
+00:53:18,990 --> 00:53:21,630
+Speaker 1:  to break things. Is you get more and more scale, you'll get more and more
+
+820
+00:53:21,790 --> 00:53:24,630
+Speaker 1:  pressure from your users, from your employees potentially to, to moderate
+
+821
+00:53:24,630 --> 00:53:28,120
+Speaker 1:  in some, some way. Let's actually talk about how you would get that skill
+
+822
+00:53:28,120 --> 00:53:31,880
+Speaker 1:  right Now in United States, for example, almost everybody has
+
+823
+00:53:31,880 --> 00:53:35,760
+Speaker 1:  a phone, right? There's a significant population of people who don't
+
+824
+00:53:35,760 --> 00:53:39,600
+Speaker 1:  have access. But it is reasonably fair to say the people who can get phones
+
+825
+00:53:39,600 --> 00:53:42,480
+Speaker 1:  have phones in the United States. You have to take
+
+826
+00:53:43,510 --> 00:53:47,200
+Speaker 1:  market share away from competitors in order to grow, right? You
+
+827
+00:53:47,200 --> 00:53:50,120
+Speaker 1:  have to, people have to start using signal and stop using sms. They have
+
+828
+00:53:50,120 --> 00:53:53,960
+Speaker 1:  to stop using iMessage. They have to stop using WhatsApp. iMessage is pretty
+
+829
+00:53:54,200 --> 00:53:57,560
+Speaker 1:  dominant, right? There. There is like a trope about blue bubbles and green
+
+830
+00:53:57,560 --> 00:54:01,480
+Speaker 1:  bubbles that exist for a reason. iMessage users are not willing to switch
+
+831
+00:54:01,480 --> 00:54:03,680
+Speaker 1:  away from those blue bubbles. How do you get them to switch?
+
+832
+00:54:04,190 --> 00:54:08,120
+Speaker 5:  Well, first just install signal, right? Use it with
+
+833
+00:54:08,120 --> 00:54:11,920
+Speaker 5:  the people who are using signal, you know, in a sense like,
+
+834
+00:54:12,220 --> 00:54:16,080
+Speaker 5:  yes, of course we want people to switch, but you know, many people
+
+835
+00:54:16,080 --> 00:54:19,720
+Speaker 5:  use many different, you know, services, you know, potentially overlapping
+
+836
+00:54:19,720 --> 00:54:23,360
+Speaker 5:  services for many things, right? So I think, you know, I think
+
+837
+00:54:24,410 --> 00:54:28,320
+Speaker 5:  we first need to make it clear that signal is sort of different,
+
+838
+00:54:28,320 --> 00:54:31,840
+Speaker 5:  right? You know, what we offer is, you know,
+
+839
+00:54:32,230 --> 00:54:35,640
+Speaker 5:  true privacy, not, you know, privacy claims with little
+
+840
+00:54:35,640 --> 00:54:39,480
+Speaker 5:  caveats, you know, in a 15 page term of service and make it
+
+841
+00:54:39,480 --> 00:54:42,720
+Speaker 5:  clear like this is, you know, extremely valuable is something that will,
+
+842
+00:54:42,720 --> 00:54:46,160
+Speaker 5:  you know, protect you allow for, you know, intimate, safe
+
+843
+00:54:46,160 --> 00:54:50,120
+Speaker 5:  conversations with you and your friends. And I think, you know, we do see
+
+844
+00:54:50,120 --> 00:54:53,760
+Speaker 5:  people sort of understanding that, you know, understanding those
+
+845
+00:54:54,040 --> 00:54:57,720
+Speaker 5:  distinctions increasingly, you know, over the fir the, the last five years.
+
+846
+00:54:58,360 --> 00:55:02,000
+Speaker 5:  And then our task is to make signal as pleasant and useful
+
+847
+00:55:02,010 --> 00:55:05,880
+Speaker 5:  as possible, right? What are the features we can add that competitors
+
+848
+00:55:05,880 --> 00:55:09,440
+Speaker 5:  might not be willing or able to because of our
+
+849
+00:55:09,440 --> 00:55:13,360
+Speaker 5:  unique business model? Because our incentives are different, You
+
+850
+00:55:13,360 --> 00:55:17,200
+Speaker 5:  know, because, you know, privacy is forefront in, in our, in our product
+
+851
+00:55:17,200 --> 00:55:20,720
+Speaker 5:  and in our mission. Then we just need to make sure like, people know about
+
+852
+00:55:20,720 --> 00:55:24,360
+Speaker 5:  it and people are able to quickly and easily use it, right? You should open
+
+853
+00:55:24,360 --> 00:55:28,200
+Speaker 5:  signal. And again, you shouldn't have to really, you know, you can believe
+
+854
+00:55:28,200 --> 00:55:31,960
+Speaker 5:  that it's important, you can know why you downloaded it, but the second you're
+
+855
+00:55:31,960 --> 00:55:35,840
+Speaker 5:  using it to like, you know, share directions, you shouldn't be
+
+856
+00:55:36,040 --> 00:55:38,400
+Speaker 5:  actively thinking about that. It should just work. There should be a seamless
+
+857
+00:55:38,400 --> 00:55:41,840
+Speaker 5:  experience. You know, you get in there, you know, share your story. We have
+
+858
+00:55:41,840 --> 00:55:45,600
+Speaker 5:  a, a new feature that is in beta right now as stories. They're very cute.
+
+859
+00:55:45,710 --> 00:55:48,680
+Speaker 5:  I encourage people to use that when they're fully available.
+
+860
+00:55:49,900 --> 00:55:53,400
+Speaker 5:  And, and you know, it, it looks and feels and,
+
+861
+00:55:53,900 --> 00:55:57,760
+Speaker 5:  you know, acts like a messaging app, which again is, you know, this is not
+
+862
+00:55:58,470 --> 00:56:02,160
+Speaker 5:  easy, right? Like the, the norms and expectations about what
+
+863
+00:56:02,160 --> 00:56:05,520
+Speaker 5:  messaging apps should do have been set by these big, you know,
+
+864
+00:56:05,520 --> 00:56:09,480
+Speaker 5:  surveillance messaging apps, right? These, you know, big kind of
+
+865
+00:56:09,480 --> 00:56:13,280
+Speaker 5:  corporate structures, right? And, and signal, you know, just by way of
+
+866
+00:56:13,280 --> 00:56:16,560
+Speaker 5:  comparison, this is the sort of stat I've thrown around in a, in a couple
+
+867
+00:56:16,560 --> 00:56:20,400
+Speaker 5:  places, but WhatsApp has over a thousand engineers, and that's just
+
+868
+00:56:20,400 --> 00:56:23,520
+Speaker 5:  their engineering team. I think if you added sort of, you know, support and
+
+869
+00:56:23,520 --> 00:56:26,560
+Speaker 5:  policy, et cetera, et cetera, you're looking at many thousands of people
+
+870
+00:56:26,560 --> 00:56:30,440
+Speaker 5:  just, you know, sustaining WhatsApp. That's not meta. You have Telegram has,
+
+871
+00:56:30,440 --> 00:56:34,120
+Speaker 5:  you know, somewhere around 500 employees. So that's, you know, fairly big.
+
+872
+00:56:34,260 --> 00:56:38,120
+Speaker 5:  And Signal is 40 people, you know, it's 40 people maintaining
+
+873
+00:56:38,120 --> 00:56:41,480
+Speaker 5:  an app across, you know, three clients. It's not, you know,
+
+874
+00:56:41,800 --> 00:56:45,520
+Speaker 5:  it's not, it's, it's hard thankless constant work. And I'm, you know,
+
+875
+00:56:45,540 --> 00:56:48,600
+Speaker 5:  I'm privileged to work with the brilliant people who do it, but nonetheless,
+
+876
+00:56:48,600 --> 00:56:52,480
+Speaker 5:  they work really hard doing it. It's not any cheaper for us just because
+
+877
+00:56:52,480 --> 00:56:55,480
+Speaker 5:  we don't participate in the surveillance business model, right? So it's tens
+
+878
+00:56:55,480 --> 00:56:58,600
+Speaker 5:  of millions of dollars a year, and that's like hosting transit
+
+879
+00:56:58,740 --> 00:57:02,680
+Speaker 5:  registration, you know, et cetera, et cetera. All of the costs
+
+880
+00:57:02,730 --> 00:57:06,720
+Speaker 5:  of just, you know, making sure Signal is available everywhere, always
+
+881
+00:57:06,960 --> 00:57:10,720
+Speaker 5:  seamlessly, which are the expectations that have been set, you know, by the
+
+882
+00:57:10,720 --> 00:57:14,520
+Speaker 5:  current tech ecology. So I think, you know, we, we do need
+
+883
+00:57:14,520 --> 00:57:18,000
+Speaker 5:  to, you know, continue developing and building signals so it meets those
+
+884
+00:57:18,000 --> 00:57:21,720
+Speaker 5:  expectations and figure out ways that a, that a service like
+
+885
+00:57:21,960 --> 00:57:25,920
+Speaker 5:  ours can sustain given, you know, given the forever cost
+
+886
+00:57:25,920 --> 00:57:27,600
+Speaker 5:  and given the labor requirements.
+
+887
+00:57:28,210 --> 00:57:31,320
+Speaker 1:  So, but that's the, the forever cost is what I'm getting at, is it's hard
+
+888
+00:57:31,320 --> 00:57:35,080
+Speaker 1:  enough to get people to not use iMessage. Like Google
+
+889
+00:57:35,080 --> 00:57:38,760
+Speaker 1:  has now failed for a decade to get people to switch off of iMessage.
+
+890
+00:57:38,760 --> 00:57:40,040
+Speaker 1:  So like, doing this truly
+
+891
+00:57:40,040 --> 00:57:40,880
+Speaker 5:  Appalling strategy,
+
+892
+00:57:41,480 --> 00:57:45,320
+Speaker 1:  Right? I mean, but like it is in Google's best interest
+
+893
+00:57:46,130 --> 00:57:50,080
+Speaker 1:  to develop a messaging app that works, and they google's Google and
+
+894
+00:57:50,080 --> 00:57:50,840
+Speaker 1:  they can't get outta there. They
+
+895
+00:57:50,840 --> 00:57:53,360
+Speaker 5:  Developed 40,000 that didn't work. So, you know,
+
+896
+00:57:53,710 --> 00:57:57,440
+Speaker 1:  Sure. But they can't do it, right? Microsoft can't do it. Facebook
+
+897
+00:57:57,440 --> 00:58:00,920
+Speaker 1:  can't do it. Facebook will happily tell you that more, there's more action
+
+898
+00:58:00,920 --> 00:58:04,720
+Speaker 1:  on Instagram in messaging than there is on the grid or in stories,
+
+899
+00:58:05,260 --> 00:58:08,880
+Speaker 1:  but they haven't displaced iMessage. You've got that problem.
+
+900
+00:58:09,300 --> 00:58:13,200
+Speaker 1:  And then on top of it, you've got the, also the users need to like us so
+
+901
+00:58:13,200 --> 00:58:16,160
+Speaker 1:  much they donate to our foundation so we can keep the thing running. Well,
+
+902
+00:58:16,160 --> 00:58:19,720
+Speaker 5:  Not every user needs to donate, right? We need, you know,
+
+903
+00:58:19,720 --> 00:58:23,200
+Speaker 5:  again, we're never gonna, we're never gonna charge to use Signal because,
+
+904
+00:58:23,840 --> 00:58:27,560
+Speaker 5:  you know, privacy shouldn't be only for people who want to,
+
+905
+00:58:27,560 --> 00:58:31,520
+Speaker 5:  you know, pay for it or can pay for it. But we do think that
+
+906
+00:58:31,520 --> 00:58:35,040
+Speaker 5:  people will recognize, you know, I I, I don't subscribe to,
+
+907
+00:58:35,490 --> 00:58:38,720
+Speaker 5:  to the theory that like, people are idiots, right? I think people are very
+
+908
+00:58:38,720 --> 00:58:42,560
+Speaker 5:  discerning and they get it when they hear it, right? And, you know, people
+
+909
+00:58:42,560 --> 00:58:46,520
+Speaker 5:  get that the surveillance business model is no good, right? They get
+
+910
+00:58:46,520 --> 00:58:50,480
+Speaker 5:  that we are, you know, some here somewhere fairly scary with the power
+
+911
+00:58:50,480 --> 00:58:54,360
+Speaker 5:  that has been, you know, sort of seated to these large, you know,
+
+912
+00:58:54,360 --> 00:58:57,920
+Speaker 5:  surveillance tech giants, right? And, you know, they
+
+913
+00:58:57,920 --> 00:59:01,400
+Speaker 5:  understand that like alternatives are necessary. So it, you know, it doesn't
+
+914
+00:59:01,400 --> 00:59:05,320
+Speaker 5:  have to be everyone, but some percentage of the millions of people
+
+915
+00:59:05,320 --> 00:59:09,080
+Speaker 5:  who use Signal donating five bucks a month, right? Like,
+
+916
+00:59:09,080 --> 00:59:12,880
+Speaker 5:  that's what we're looking at, like a casual Patreon model that is again,
+
+917
+00:59:12,930 --> 00:59:16,400
+Speaker 5:  at scale so that we are, you know, we're able to support the
+
+918
+00:59:16,400 --> 00:59:20,160
+Speaker 5:  significant, you know, maintenance costs for Signal. And
+
+919
+00:59:20,190 --> 00:59:23,680
+Speaker 5:  that, you know, frankly is, is the hardest
+
+920
+00:59:23,890 --> 00:59:27,760
+Speaker 5:  to kind of cut off at the knees, right? What we don't want is to have, you
+
+921
+00:59:27,760 --> 00:59:31,320
+Speaker 5:  know, we, we are really, really fortunate that, you know, Brian
+
+922
+00:59:31,350 --> 00:59:35,160
+Speaker 5:  Actins generous, you know, long-term loan has allowed
+
+923
+00:59:35,160 --> 00:59:38,960
+Speaker 5:  us this foundation to sort of experiment with sustainability
+
+924
+00:59:38,960 --> 00:59:42,880
+Speaker 5:  models, to like, you know, grow signal to get it in
+
+925
+00:59:42,880 --> 00:59:46,600
+Speaker 5:  shape. But I think, you know, we're really aiming for small donors both
+
+926
+00:59:46,600 --> 00:59:50,480
+Speaker 5:  because we think people will be willing to donate and because we want
+
+927
+00:59:50,480 --> 00:59:54,160
+Speaker 5:  a model that, you know, where, where one person pulling out, wouldn't camp
+
+928
+00:59:54,160 --> 00:59:55,000
+Speaker 5:  capsize the ship?
+
+929
+00:59:55,330 --> 00:59:58,520
+Speaker 1:  Is that the model you have or is that the model you want? Because it's, it
+
+930
+00:59:58,520 --> 01:00:01,680
+Speaker 1:  seems like it's the model you want, but right now you've got Brian's money
+
+931
+01:00:01,680 --> 01:00:02,800
+Speaker 1:  and a bunch of other big donors.
+
+932
+01:00:02,810 --> 01:00:06,440
+Speaker 5:  We have like a hybrid, right? It's, you know, we have only
+
+933
+01:00:06,440 --> 01:00:10,160
+Speaker 5:  started experimenting with the donation model. So, you know, it was buried
+
+934
+01:00:10,160 --> 01:00:14,000
+Speaker 5:  like for a while there was like a donate page buried on our
+
+935
+01:00:14,000 --> 01:00:17,920
+Speaker 5:  website that, you know, people probably rarely found. And now we
+
+936
+01:00:17,920 --> 01:00:21,840
+Speaker 5:  are sort of, you know, experimenting, which is in app nudges
+
+937
+01:00:21,840 --> 01:00:25,480
+Speaker 5:  that are like, Hey, if you wanna kick down, kick down, we have
+
+938
+01:00:25,480 --> 01:00:29,280
+Speaker 5:  badges, which are like cute little signifiers that go on your profile
+
+939
+01:00:29,280 --> 01:00:33,000
+Speaker 5:  image that just, you know, demonstrate that you donated. People can click
+
+940
+01:00:33,000 --> 01:00:35,960
+Speaker 5:  on your badge, they can sort of click through to make their own donation.
+
+941
+01:00:36,720 --> 01:00:40,160
+Speaker 5:  But this is very recent, This is like, you know, in the last year or so,
+
+942
+01:00:40,160 --> 01:00:44,080
+Speaker 5:  and I think we are again sort of iterating and experimenting with that
+
+943
+01:00:44,080 --> 01:00:47,800
+Speaker 5:  model and, you know, everyone listening, you know, download signal, if you
+
+944
+01:00:47,800 --> 01:00:51,760
+Speaker 5:  haven't make a little monthly donation, you know, it's, it's easy.
+
+945
+01:00:51,760 --> 01:00:55,680
+Speaker 5:  And I can use some like boring non-profit trope. It's like
+
+946
+01:00:55,790 --> 01:00:59,320
+Speaker 5:  a cup of coffee or whatever, but like, oh no, you know, really this is existentially
+
+947
+01:00:59,320 --> 01:01:03,240
+Speaker 5:  important for like a livable future. We have to have a private way to communicate.
+
+948
+01:01:03,260 --> 01:01:07,160
+Speaker 5:  And you know, folks, particularly folks who are in and around tech, I
+
+949
+01:01:07,160 --> 01:01:10,720
+Speaker 5:  think will understand that at a visceral level. And, you know,
+
+950
+01:01:10,950 --> 01:01:13,200
+Speaker 5:  come on, join the community kick in.
+
+951
+01:01:13,300 --> 01:01:15,720
+Speaker 1:  Are you, is it gonna be like Wikipedia? Are you gonna ask us for money every,
+
+952
+01:01:15,720 --> 01:01:16,400
+Speaker 1:  every three months?
+
+953
+01:01:16,510 --> 01:01:20,320
+Speaker 5:  Well, no, we are, we're gonna have a lot of chill
+
+954
+01:01:21,420 --> 01:01:21,840
+Speaker 5:  and
+
+955
+01:01:23,650 --> 01:01:26,800
+Speaker 5:  we, you know, we wanna remind people that we need money, but we also, you
+
+956
+01:01:26,800 --> 01:01:30,200
+Speaker 5:  know, like the app is a messaging app, right? Like what we're dedicated to
+
+957
+01:01:30,200 --> 01:01:33,840
+Speaker 5:  first and foremost is you open it, it's useful, it is pleasant,
+
+958
+01:01:33,870 --> 01:01:37,760
+Speaker 5:  it's not in your face. So, you know, we wanna be, we wanna
+
+959
+01:01:37,760 --> 01:01:40,600
+Speaker 5:  remind you, but we wanna be really subtle about it. And that is actually
+
+960
+01:01:40,600 --> 01:01:44,440
+Speaker 5:  something we have a lot of discussions about. Like what is the minimum viable
+
+961
+01:01:44,630 --> 01:01:48,360
+Speaker 5:  sort of notice to folks that we can get away with and still
+
+962
+01:01:48,510 --> 01:01:52,120
+Speaker 5:  ensure that people, people who can donate, know, and,
+
+963
+01:01:52,440 --> 01:01:53,560
+Speaker 5:  and can sign up easily.
+
+964
+01:01:53,910 --> 01:01:57,720
+Speaker 1:  Last year we reported that I think it was Moxie's assessment that
+
+965
+01:01:57,720 --> 01:02:00,720
+Speaker 1:  for Signal to be self-sustaining, it would need a hundred million users.
+
+966
+01:02:01,130 --> 01:02:04,200
+Speaker 1:  Is that still the number in your mind, or how close are you to that goal?
+
+967
+01:02:04,340 --> 01:02:08,080
+Speaker 5:  You know, number of users is like, that's a shorthand
+
+968
+01:02:08,080 --> 01:02:11,960
+Speaker 5:  assessment from Moxi, right? It's number, you know, percentage of a
+
+969
+01:02:11,960 --> 01:02:15,640
+Speaker 5:  hundred million users who also donate, right? Yeah. Like more users
+
+970
+01:02:15,690 --> 01:02:19,000
+Speaker 5:  is more hosting, more transit, more
+
+971
+01:02:19,240 --> 01:02:22,920
+Speaker 5:  registration costs, which is actually sort of, you know, a cost without folks
+
+972
+01:02:22,920 --> 01:02:26,880
+Speaker 5:  donating. But yeah, I, you know, I think it's tens of millions of
+
+973
+01:02:26,880 --> 01:02:30,000
+Speaker 5:  dollars a year. So we need enough users donating
+
+974
+01:02:30,650 --> 01:02:34,400
+Speaker 5:  as a percentage of any user base so that we are, you know,
+
+975
+01:02:34,770 --> 01:02:38,200
+Speaker 5:  we are able to, you know, cover those costs.
+
+976
+01:02:38,380 --> 01:02:40,320
+Speaker 1:  Are you at a hundred million users? How close are you
+
+977
+01:02:40,320 --> 01:02:44,240
+Speaker 5:  To it? We are not at, we, we don't share user data
+
+978
+01:02:44,550 --> 01:02:47,880
+Speaker 5:  publicly. We, we are not at a hundred million users, I guess is the,
+
+979
+01:02:48,260 --> 01:02:52,120
+Speaker 5:  the straight answer to that question. But our user base is growing
+
+980
+01:02:52,120 --> 01:02:55,600
+Speaker 5:  and you can see, you know, we have over a hundred million in downloads in
+
+981
+01:02:55,600 --> 01:02:59,200
+Speaker 5:  the play store. You know, we have a significant user base, which is,
+
+982
+01:02:59,200 --> 01:03:03,000
+Speaker 5:  which is increasing. And I think, you know, I definitely think we will get
+
+983
+01:03:03,000 --> 01:03:03,240
+Speaker 5:  there.
+
+984
+01:03:03,410 --> 01:03:07,400
+Speaker 1:  So you recently announced that you're dropping SMS support from the Signal
+
+985
+01:03:07,400 --> 01:03:11,320
+Speaker 1:  app. Google's pushing rcs really hard, converting
+
+986
+01:03:11,320 --> 01:03:14,400
+Speaker 1:  people into messaging apps is really hard. Getting people to not use iMessage
+
+987
+01:03:14,400 --> 01:03:16,520
+Speaker 1:  is really hard. Why drop sms?
+
+988
+01:03:16,520 --> 01:03:20,280
+Speaker 5:  This is one of those decisions that has been a long time
+
+989
+01:03:20,280 --> 01:03:24,240
+Speaker 5:  coming, has been agonized over, you know, by the leadership
+
+990
+01:03:24,240 --> 01:03:27,880
+Speaker 5:  team, you know, before and after I joined, you know,
+
+991
+01:03:27,910 --> 01:03:31,200
+Speaker 5:  surfaced at the board level. So this was not an easy decision.
+
+992
+01:03:31,680 --> 01:03:35,400
+Speaker 5:  And for kind of a little bit of color on this signal is dropping SMS
+
+993
+01:03:35,400 --> 01:03:38,480
+Speaker 5:  support for Android. So on Android, not iPhone,
+
+994
+01:03:39,010 --> 01:03:42,840
+Speaker 5:  Android allowed people to set Signal as their default messaging app.
+
+995
+01:03:42,840 --> 01:03:46,160
+Speaker 5:  So that meant they could send signal messages, which are, you know, fully
+
+996
+01:03:46,240 --> 01:03:49,880
+Speaker 5:  encrypted, fully private and secure, or they could also
+
+997
+01:03:49,880 --> 01:03:53,800
+Speaker 5:  answer insecure SMS text messages. So the SMS text messages were kind
+
+998
+01:03:53,800 --> 01:03:57,160
+Speaker 5:  of like a guest in their text messaging house and were answered through
+
+999
+01:03:57,230 --> 01:04:01,200
+Speaker 5:  Signal, you know, alongside signal messages. This has been a feature that
+
+1000
+01:04:01,200 --> 01:04:04,440
+Speaker 5:  has been in the Android client for, you know, almost a decade
+
+1001
+01:04:04,930 --> 01:04:08,280
+Speaker 5:  at this point. And in that decade, a lot has changed.
+
+1002
+01:04:08,840 --> 01:04:12,480
+Speaker 5:  You know, SMS has always been insecure, but you know, SMS
+
+1003
+01:04:12,480 --> 01:04:16,040
+Speaker 5:  basically gives your messages in plain text to your telecom
+
+1004
+01:04:16,440 --> 01:04:20,240
+Speaker 5:  provider. So that is the opposite of signals stance
+
+1005
+01:04:20,400 --> 01:04:24,080
+Speaker 5:  and signals mission. And you know, frankly it was, we got a lot of reports
+
+1006
+01:04:24,270 --> 01:04:28,200
+Speaker 5:  that this was confusing to people. People didn't realize the difference between
+
+1007
+01:04:28,440 --> 01:04:32,080
+Speaker 5:  SMS and a signal message. And you know, we take that seriously
+
+1008
+01:04:32,080 --> 01:04:36,000
+Speaker 5:  because that can be, you know, that can be existentially dangerous
+
+1009
+01:04:36,000 --> 01:04:39,200
+Speaker 5:  for some people who are using signal in some high risk situations.
+
+1010
+01:04:39,440 --> 01:04:43,320
+Speaker 5:  There was also the issue, and this is not something that would've hit users
+
+1011
+01:04:43,810 --> 01:04:47,520
+Speaker 5:  in the US or in sort of, you know, historically rich
+
+1012
+01:04:47,520 --> 01:04:50,960
+Speaker 5:  countries, but in a number of disinvested regions, we were having people
+
+1013
+01:04:50,960 --> 01:04:54,200
+Speaker 5:  who would confuse an SMS message for a signal message,
+
+1014
+01:04:55,120 --> 01:04:58,600
+Speaker 5:  send a bunch of SMS texts, and because SMS
+
+1015
+01:04:58,600 --> 01:05:02,560
+Speaker 5:  messages are Bill at a very high rate, would get a huge bill when they
+
+1016
+01:05:02,560 --> 01:05:05,480
+Speaker 5:  were thinking they were using their data to use signals. So, you know, those
+
+1017
+01:05:05,480 --> 01:05:09,240
+Speaker 5:  are a couple of the key reasons. I think the security was really the,
+
+1018
+01:05:09,240 --> 01:05:12,680
+Speaker 5:  the biggest reason. But there's also, you know, times have changed since
+
+1019
+01:05:12,680 --> 01:05:16,520
+Speaker 5:  10 years ago. So as you said, Google is pushing rcs and RCS
+
+1020
+01:05:16,520 --> 01:05:20,210
+Speaker 5:  is, you know, know they hope and, and it, you know, it, it
+
+1021
+01:05:20,210 --> 01:05:24,010
+Speaker 5:  appears it's, it's set to replace SMS at some point, and
+
+1022
+01:05:24,010 --> 01:05:27,730
+Speaker 5:  that was leading to more and more errors with the SMS integration.
+
+1023
+01:05:27,730 --> 01:05:31,050
+Speaker 5:  So, you know, you would not receive a message if your phone defaulted to
+
+1024
+01:05:31,210 --> 01:05:34,610
+Speaker 5:  rcs or something like that. And that meant, you know, that was
+
+1025
+01:05:34,610 --> 01:05:38,490
+Speaker 5:  increasingly hard for us to deal with on the user report
+
+1026
+01:05:38,490 --> 01:05:42,210
+Speaker 5:  side. That meant that it was increasingly difficult to sort of, you know,
+
+1027
+01:05:42,500 --> 01:05:45,890
+Speaker 5:  support SMS as a degrading standard.
+
+1028
+01:05:47,070 --> 01:05:49,930
+Speaker 5:  And it was, you know, it was something where, you know, there still isn't
+
+1029
+01:05:49,930 --> 01:05:53,730
+Speaker 5:  an official API for rcs, you know, for Signal
+
+1030
+01:05:53,730 --> 01:05:57,010
+Speaker 5:  to implement it, even if we were considering it, which was not, you know,
+
+1031
+01:05:57,010 --> 01:06:00,570
+Speaker 5:  that's not on our roadmap at this point. So, you know, those are the
+
+1032
+01:06:00,730 --> 01:06:04,210
+Speaker 5:  considerations that went into making this choice. Again, like I am a
+
+1033
+01:06:04,930 --> 01:06:08,690
+Speaker 5:  lifelong or well, the life of Signal long Android Signal
+
+1034
+01:06:08,690 --> 01:06:11,970
+Speaker 5:  user, who's used it as my default the whole whole time. So this is, you know,
+
+1035
+01:06:11,970 --> 01:06:15,930
+Speaker 5:  like this is the front of my pain points, but weighing the kind of security,
+
+1036
+01:06:15,930 --> 01:06:19,730
+Speaker 5:  the confusion, and the fact that SMS is a deprecating standard
+
+1037
+01:06:19,840 --> 01:06:23,570
+Speaker 5:  were, you know, were things that waited in the direction of removing it and
+
+1038
+01:06:23,570 --> 01:06:26,690
+Speaker 5:  sort of moving onto a future where Signal is fully secure and there's no
+
+1039
+01:06:26,690 --> 01:06:27,450
+Speaker 5:  ambiguity.
+
+1040
+01:06:27,750 --> 01:06:31,560
+Speaker 1:  Let me push you this a little bit. Obviously Apple
+
+1041
+01:06:31,560 --> 01:06:33,930
+Speaker 1:  has played this game for a long time.
+
+1042
+01:06:34,880 --> 01:06:38,600
+Speaker 1:  iMessages, depending on your iMessage settings are
+
+1043
+01:06:38,600 --> 01:06:41,800
+Speaker 1:  encrypted end to end. They're blue, they're more feature rich.
+
+1044
+01:06:42,480 --> 01:06:46,280
+Speaker 1:  SMS is green, everyone understands Green is worse than Blue in
+
+1045
+01:06:46,280 --> 01:06:49,520
+Speaker 1:  iPhone world. Why can't you just do a solution like that? Because what you're
+
+1046
+01:06:49,520 --> 01:06:53,440
+Speaker 1:  losing is the opportunity to convert SMS users into
+
+1047
+01:06:53,440 --> 01:06:57,360
+Speaker 1:  signal users by saying, just use this one app for everything. And
+
+1048
+01:06:57,360 --> 01:07:01,200
+Speaker 1:  by the way, if your messages turn blue, you're in
+
+1049
+01:07:01,200 --> 01:07:03,080
+Speaker 1:  signal, you're encrypted to get all these other features.
+
+1050
+01:07:03,400 --> 01:07:07,240
+Speaker 5:  Let's be clear, Apple has advantages. We don't, there, you know,
+
+1051
+01:07:07,240 --> 01:07:11,160
+Speaker 5:  they control the hardware, they are the gatekeeper for the,
+
+1052
+01:07:11,160 --> 01:07:15,080
+Speaker 5:  you know, iOS and the iPhone and they have a lot of levers they
+
+1053
+01:07:15,080 --> 01:07:18,920
+Speaker 5:  can pull that we can't, right? You know, they also don't support rcs,
+
+1054
+01:07:19,120 --> 01:07:22,280
+Speaker 5:  right? And we're talking about the Android ecosystem here, but right now
+
+1055
+01:07:22,280 --> 01:07:25,720
+Speaker 5:  there are two competing, you know, protocols. There's SMS and there is
+
+1056
+01:07:26,200 --> 01:07:30,160
+Speaker 5:  rcs and you know, it is difficult to implement a third party
+
+1057
+01:07:30,480 --> 01:07:34,360
+Speaker 5:  SMS app when you know the phone will default to rcs, right?
+
+1058
+01:07:34,360 --> 01:07:37,840
+Speaker 5:  So there are a lot of other issues that we face as you know,
+
+1059
+01:07:38,050 --> 01:07:42,000
+Speaker 5:  we are not a big tech company that controls the hardware, that has
+
+1060
+01:07:42,000 --> 01:07:45,840
+Speaker 5:  that sort of closed ecosystem at our disposal so that we
+
+1061
+01:07:45,840 --> 01:07:49,800
+Speaker 5:  can sort of reliably make those choices for users. But yeah, you know,
+
+1062
+01:07:49,800 --> 01:07:53,760
+Speaker 5:  we did a lot of work trying to disambiguate SMS between signal
+
+1063
+01:07:53,760 --> 01:07:57,560
+Speaker 5:  messages and you know, this is no fault of the people who use Signal. This
+
+1064
+01:07:57,560 --> 01:08:00,840
+Speaker 5:  is simply like when people pick up tech, it's not so that they can be taught
+
+1065
+01:08:00,840 --> 01:08:04,120
+Speaker 5:  small nuances, right? So they can quickly communicate with their friends.
+
+1066
+01:08:04,120 --> 01:08:07,960
+Speaker 5:  Yeah. And so getting someone to sort of clock the difference in like a
+
+1067
+01:08:08,160 --> 01:08:11,720
+Speaker 5:  protocol layer security property, that's a, you know, that's an
+
+1068
+01:08:11,720 --> 01:08:15,600
+Speaker 5:  education task that is pretty steep. It is very difficult to accomplish
+
+1069
+01:08:15,600 --> 01:08:18,880
+Speaker 5:  and it's particularly difficult to accomplish if unlike Apple, you don't,
+
+1070
+01:08:18,880 --> 01:08:22,520
+Speaker 5:  you know, control every, you know, part of the ecosystem you're operating
+
+1071
+01:08:22,520 --> 01:08:22,720
+Speaker 5:  in.
+
+1072
+01:08:22,780 --> 01:08:26,680
+Speaker 1:  You said rcs isn't on the roadmap, You said Google doesn't
+
+1073
+01:08:26,680 --> 01:08:30,640
+Speaker 1:  have an API for rcs Android. If Google had an API for RCS
+
+1074
+01:08:30,640 --> 01:08:34,440
+Speaker 1:  and Android, would rcs support go back on the roadmap for Signal and
+
+1075
+01:08:34,440 --> 01:08:34,680
+Speaker 1:  Android?
+
+1076
+01:08:34,820 --> 01:08:38,680
+Speaker 5:  You know, I haven't looked deeply enough at that to have a clear answer.
+
+1077
+01:08:38,990 --> 01:08:42,920
+Speaker 5:  I think that the answer is tbd, right? Like our goal is
+
+1078
+01:08:42,980 --> 01:08:46,480
+Speaker 5:  for signal to offer unequivocal casual, you know,
+
+1079
+01:08:46,630 --> 01:08:50,440
+Speaker 5:  just completely reliable security and privacy. So we
+
+1080
+01:08:50,440 --> 01:08:53,920
+Speaker 5:  would want to make sure RCS wasn't an issue, vivi
+
+1081
+01:08:53,920 --> 01:08:57,720
+Speaker 5:  those goals. I know, you know, rcs is certainly much better than sms, but
+
+1082
+01:08:57,720 --> 01:09:01,160
+Speaker 5:  I haven't, I have not poured over the spec because again, you know, our primary
+
+1083
+01:09:01,160 --> 01:09:05,040
+Speaker 5:  motivation in this was get rid of this, you know, confusing and
+
+1084
+01:09:05,400 --> 01:09:07,880
+Speaker 5:  inherently insecure option. Yeah.
+
+1085
+01:09:07,980 --> 01:09:11,880
+Speaker 1:  One of the criticisms that I read after the announcement came out was,
+
+1086
+01:09:12,220 --> 01:09:16,160
+Speaker 1:  Hey, I was able to put signal on my mom's phone and she didn't have to
+
+1087
+01:09:16,160 --> 01:09:19,280
+Speaker 1:  know anything, but I knew that I was now sending her signal messages. This
+
+1088
+01:09:19,280 --> 01:09:22,720
+Speaker 1:  is how you grow the network. Now I need to have two apps. They need to have
+
+1089
+01:09:22,720 --> 01:09:26,520
+Speaker 1:  two apps. This is actually worse for signal adoption because you're not sort
+
+1090
+01:09:26,520 --> 01:09:30,280
+Speaker 1:  of seamlessly onboarding people onto the encrypted network away from sms.
+
+1091
+01:09:30,700 --> 01:09:33,440
+Speaker 1:  Are you worried about that? Or do you think this is just straight up we got
+
+1092
+01:09:33,440 --> 01:09:34,520
+Speaker 1:  a market and make the thing better?
+
+1093
+01:09:34,790 --> 01:09:38,280
+Speaker 5:  This is why this was a hard decision, right? Like, those folks are not wrong.
+
+1094
+01:09:38,430 --> 01:09:42,280
+Speaker 5:  That's real, right? Like I'm one of them, right? My dad uses Signal, he
+
+1095
+01:09:42,280 --> 01:09:45,720
+Speaker 5:  doesn't really know, he uses Signal, right? Yeah. He just uses the, you know,
+
+1096
+01:09:45,720 --> 01:09:49,080
+Speaker 5:  the app where the messages come in. You know, it will, this will probably
+
+1097
+01:09:49,080 --> 01:09:52,960
+Speaker 5:  be very confusing. And yeah, we, I think what we did is make
+
+1098
+01:09:52,960 --> 01:09:56,760
+Speaker 5:  a hard kind of crappy choice. We were presented with two
+
+1099
+01:09:56,760 --> 01:10:00,000
+Speaker 5:  options we didn't like, and we chose the one that, you know, privileged privacy
+
+1100
+01:10:00,000 --> 01:10:03,880
+Speaker 5:  and security and a kind of a long-term roadmap where again,
+
+1101
+01:10:03,880 --> 01:10:07,480
+Speaker 5:  you know, SMS is being deprecated, People were confused, it was causing an
+
+1102
+01:10:07,480 --> 01:10:11,360
+Speaker 5:  increasing amount of errors. And you know, the development effort of maintaining
+
+1103
+01:10:11,360 --> 01:10:14,520
+Speaker 5:  that in addition to doing all the other things was, you know, non-trivial.
+
+1104
+01:10:14,520 --> 01:10:18,280
+Speaker 5:  So yeah, no, you know, those, those folks are right. You know, when we
+
+1105
+01:10:18,280 --> 01:10:22,120
+Speaker 5:  weighed all of the variables, this is what we came out with.
+
+1106
+01:10:22,190 --> 01:10:25,000
+Speaker 5:  I do think people will continue to use Signal. Of course people will continue
+
+1107
+01:10:25,000 --> 01:10:28,760
+Speaker 5:  to adopt it, but, you know, it does make me really, you know, I'm not
+
+1108
+01:10:28,760 --> 01:10:31,840
+Speaker 5:  happy about, you know, as I put on Twitter, like pulling up on, on ramp to
+
+1109
+01:10:32,040 --> 01:10:35,240
+Speaker 5:  adoption, right? I'm not happy that it's gonna be harder for me to like explain
+
+1110
+01:10:35,240 --> 01:10:38,280
+Speaker 5:  this to my dad and my brother and you know, other folks. But
+
+1111
+01:10:38,930 --> 01:10:42,790
+Speaker 5:  you know, we don't, we don't create the reality that we're kind of
+
+1112
+01:10:42,790 --> 01:10:44,830
+Speaker 5:  operating in. And we had to face that
+
+1113
+01:10:44,830 --> 01:10:48,710
+Speaker 1:  One of the promises of rcs is that it will be encrypted. I'm not
+
+1114
+01:10:48,710 --> 01:10:51,870
+Speaker 1:  sure how well carriers around the world are gonna keep that promise or Google
+
+1115
+01:10:51,870 --> 01:10:54,790
+Speaker 1:  will keep that promise, but that is one of the promises. Do you think that
+
+1116
+01:10:54,950 --> 01:10:56,390
+Speaker 1:  RCS represents competition for Signal?
+
+1117
+01:10:57,030 --> 01:10:58,150
+Speaker 5:  Not at the moment, no.
+
+1118
+01:10:58,150 --> 01:10:58,790
+Speaker 1:  Why's that?
+
+1119
+01:10:58,900 --> 01:11:02,870
+Speaker 5:  Well, again, I haven't poured over the rcs spec, so I wanna be really
+
+1120
+01:11:02,870 --> 01:11:06,350
+Speaker 5:  careful with like, you know, any flip answers and you know, I could do that
+
+1121
+01:11:06,350 --> 01:11:09,710
+Speaker 5:  and come back on and we could have a whole conversation about it. Signal
+
+1122
+01:11:09,720 --> 01:11:13,440
+Speaker 5:  is not just encrypted, right? Like WhatsApp uses the signal
+
+1123
+01:11:13,720 --> 01:11:17,640
+Speaker 5:  protocol to encrypt its messages. Signal doesn't just encrypt the
+
+1124
+01:11:17,640 --> 01:11:21,480
+Speaker 5:  message content, right? It is encrypting metadata. It is,
+
+1125
+01:11:21,480 --> 01:11:24,720
+Speaker 5:  you know, it did, you know something which I considered like fairly
+
+1126
+01:11:24,720 --> 01:11:28,560
+Speaker 5:  revolutionary with its, you know, its new groups, methods
+
+1127
+01:11:28,560 --> 01:11:32,480
+Speaker 5:  and infrastructure, which was figure out a way to prevent signal
+
+1128
+01:11:32,480 --> 01:11:36,240
+Speaker 5:  from knowing who is in a group and who's talking to whom, right? Like these
+
+1129
+01:11:36,240 --> 01:11:39,680
+Speaker 5:  things are, you know, huge, you know, true, like kind of scientific
+
+1130
+01:11:39,680 --> 01:11:43,440
+Speaker 5:  innovations that are also innovations in privacy. That is
+
+1131
+01:11:43,440 --> 01:11:47,280
+Speaker 5:  sort of signal trying as hard as we can to collect as little information
+
+1132
+01:11:47,280 --> 01:11:50,600
+Speaker 5:  about you, about who you talk to as little meaningful information about,
+
+1133
+01:11:50,600 --> 01:11:53,800
+Speaker 5:  you know, what people are saying, who they're saying to it, who's using our
+
+1134
+01:11:53,800 --> 01:11:57,680
+Speaker 5:  server, our service, et cetera. So, you know, I would need to
+
+1135
+01:11:57,680 --> 01:12:01,480
+Speaker 5:  look at like the entire kind of end to end infrastructure,
+
+1136
+01:12:01,550 --> 01:12:05,440
+Speaker 5:  what incidental or metadata is being collected. And then
+
+1137
+01:12:05,440 --> 01:12:09,120
+Speaker 5:  I think we have to consider the concept of privacy structurally, not just
+
+1138
+01:12:09,120 --> 01:12:12,080
+Speaker 5:  technologically, right? Like people use encryption for a number of things.
+
+1139
+01:12:12,880 --> 01:12:16,640
+Speaker 5:  They still collect data, right? Like, you know, if we're looking at an app
+
+1140
+01:12:16,640 --> 01:12:20,400
+Speaker 5:  that is controlled by Google, it is pretty trivial to
+
+1141
+01:12:20,400 --> 01:12:24,280
+Speaker 5:  join that metadata with a lot of the other, you know, wildly
+
+1142
+01:12:24,560 --> 01:12:28,320
+Speaker 5:  intimate and personal data that Google has and sort of make conclusions about
+
+1143
+01:12:28,320 --> 01:12:32,040
+Speaker 5:  people, right? So, you know, we need to also look at the organizational and
+
+1144
+01:12:32,160 --> 01:12:35,600
+Speaker 5:  structural differences, but between a Signal and a Google and, you know,
+
+1145
+01:12:35,600 --> 01:12:38,520
+Speaker 5:  Google Signal doesn't have any of that data. We don't buy data from data
+
+1146
+01:12:38,520 --> 01:12:41,640
+Speaker 5:  brokers. We don't, you know, scrape data from anywhere. We don't have it.
+
+1147
+01:12:41,640 --> 01:12:44,600
+Speaker 5:  We don't want it. We actually go out of our way, as I just described, to
+
+1148
+01:12:44,600 --> 01:12:48,440
+Speaker 5:  avoid having it or touching it or knowing it, right? So I
+
+1149
+01:12:48,440 --> 01:12:51,600
+Speaker 5:  think that, you know, I think that we're talking about a difference in kind
+
+1150
+01:12:51,600 --> 01:12:55,480
+Speaker 5:  and that difference in kind is not just Visa vr technological
+
+1151
+01:12:55,620 --> 01:12:59,240
+Speaker 5:  implementation or you know, whether we're using this variety of end-to-end
+
+1152
+01:12:59,240 --> 01:13:02,040
+Speaker 5:  encryption, although, you know, the people who are using the state-of-the-art
+
+1153
+01:13:02,040 --> 01:13:05,880
+Speaker 5:  messaging encryption system are using the signal protocol. I think what we're
+
+1154
+01:13:05,880 --> 01:13:09,360
+Speaker 5:  talking about also is what our incentives and how are we structured to ensure
+
+1155
+01:13:09,360 --> 01:13:12,680
+Speaker 5:  that we, you know, live by our mission and not, you know, in the name of
+
+1156
+01:13:12,680 --> 01:13:13,760
+Speaker 5:  profit and growth. Well,
+
+1157
+01:13:13,840 --> 01:13:16,000
+Speaker 1:  Meredith, it's been really great having on decoder. Thank you for all this
+
+1158
+01:13:16,000 --> 01:13:18,080
+Speaker 1:  time. What's next for Signal? What should people be looking for?
+
+1159
+01:13:18,080 --> 01:13:22,040
+Speaker 5:  Well, you should definitely check out for, you know, look out for the stories
+
+1160
+01:13:22,040 --> 01:13:26,000
+Speaker 5:  update that's in a, you know, a couple of weeks. We should be rolling out
+
+1161
+01:13:26,000 --> 01:13:29,480
+Speaker 5:  stories, which are, you know, cute little ephemeral messages that you may
+
+1162
+01:13:29,480 --> 01:13:32,960
+Speaker 5:  be familiar with from other services, but on Signal they will be, you know,
+
+1163
+01:13:32,960 --> 01:13:36,880
+Speaker 5:  fully private and secure. And that, you know, that's the
+
+1164
+01:13:36,880 --> 01:13:40,480
+Speaker 5:  next big feature launch and we're all using it inside Signal. We all love
+
+1165
+01:13:40,480 --> 01:13:43,720
+Speaker 5:  it and it's gonna be great when we can actually use it with, you know, all
+
+1166
+01:13:43,720 --> 01:13:46,400
+Speaker 5:  of our friends and, and colleagues on single.
+
+1167
+01:13:47,000 --> 01:13:49,080
+Speaker 1:  Great. Thank you Saa. Koder, great. It's
+
+1168
+01:13:49,080 --> 01:13:49,720
+Speaker 5:  Great talking. Thank you.
+
+1169
+01:13:51,430 --> 01:13:54,640
+Speaker 1:  Thanks again to Meredith Whitaker for being on Dakota today, and thank you
+
+1170
+01:13:54,640 --> 01:13:57,760
+Speaker 1:  for listening. I hope you enjoyed it. As always. I'd love to hear what you
+
+1171
+01:13:57,760 --> 01:14:00,880
+Speaker 1:  think of decoder. You can email us at decoder@theverge.com or you can hit
+
+1172
+01:14:00,880 --> 01:14:04,280
+Speaker 1:  me up directly. I'm at Reckless on Twitter. If you like the show, please
+
+1173
+01:14:04,280 --> 01:14:07,320
+Speaker 1:  share it with your friends and subscribe wherever we get your podcasts. If
+
+1174
+01:14:07,320 --> 01:14:11,160
+Speaker 1:  you really like decoder, give us that five star review. And as many of of
+
+1175
+01:14:11,160 --> 01:14:14,240
+Speaker 1:  you have noticed, if you tweet at me about decoder, I will almost certainly
+
+1176
+01:14:14,240 --> 01:14:17,560
+Speaker 1:  retweet you. Decoder is a production of The Verge and part of the Vox Media
+
+1177
+01:14:17,560 --> 01:14:20,400
+Speaker 1:  podcast network. Today's episode is produced by Creighton De Simone and Jackie
+
+1178
+01:14:20,400 --> 01:14:24,280
+Speaker 1:  McDermott was researched by Liz Leanne, and edited by Kelly Wright. The
+
+1179
+01:14:24,280 --> 01:14:27,440
+Speaker 1:  decoder music is by Breakmaster Cylinder. Our senior audio director is Andrew
+
+1180
+01:14:27,440 --> 01:14:30,680
+Speaker 1:  Marino. Our editorial director is Brooke Miners, and our executive producer
+
+1181
+01:14:30,840 --> 01:14:32,240
+Speaker 1:  is Eleanor Donovan. We'll see you next time.
+

@@ -1,0 +1,1554 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: d4ccd473-3d30-4857-9f61-aa56851126f8
+Status: Done
+Stage: Done
+Title: AI voices are taking over the internet
+Audio URL: https://jfe93e.s3.amazonaws.com/-4963541293670325956/2071838724434312655/s93290-US-1507s-1694996835.mp3
+Description: In part one of The Vergecast's AI mini series, David Pierce dives into the boom of voice synthesis and artificially generated speech. The process is a lot more accessible for everyone, but how realistic can it sound?
+
+2
+00:00:02,550 --> 00:00:06,400
+Speaker 2:  Welcome to The Vergecast, the flagship podcast of Neurological Engines
+
+3
+00:00:06,420 --> 00:00:10,320
+Speaker 2:  for overdubbing. I'm David Pierce and hang on one second. Actually, I
+
+4
+00:00:10,320 --> 00:00:14,280
+Speaker 2:  just gotta finish something. Once upon a time, a white snake and a
+
+5
+00:00:14,280 --> 00:00:17,640
+Speaker 2:  green snake living in a remote mountain became immortal and obtained
+
+6
+00:00:17,710 --> 00:00:21,600
+Speaker 2:  superpowers after centuries of practice. Okay,
+
+7
+00:00:21,600 --> 00:00:25,560
+Speaker 2:  sorry. I'm back, and before you worry that I just like had a stroke or
+
+8
+00:00:25,560 --> 00:00:28,640
+Speaker 2:  something live on the microphone, I should tell you that I'm actually in
+
+9
+00:00:28,640 --> 00:00:32,600
+Speaker 2:  the middle of training an AI to mimic the sound of my voice. This
+
+10
+00:00:32,600 --> 00:00:36,320
+Speaker 2:  one is on the iPhone. It's called Personal Voice and products like this
+
+11
+00:00:36,500 --> 00:00:40,400
+Speaker 2:  are what we're gonna talk about today. The idea of being able to
+
+12
+00:00:40,400 --> 00:00:44,360
+Speaker 2:  create your own AI voice clone has been around for a while.
+
+13
+00:00:44,620 --> 00:00:48,080
+Speaker 2:  We actually talked a bunch about it on this show in 2021. I'll link to it
+
+14
+00:00:48,080 --> 00:00:50,960
+Speaker 2:  in the show notes. A lot of it holds up really well, but over the last couple
+
+15
+00:00:50,960 --> 00:00:54,560
+Speaker 2:  of years it's gotten both drastically easier to make a vocal
+
+16
+00:00:54,820 --> 00:00:58,800
+Speaker 2:  AI and the results have gotten drastically better. You can even
+
+17
+00:00:58,940 --> 00:01:02,840
+Speaker 2:  do it on your phone like I'm doing now with just a few minutes of really
+
+18
+00:01:02,950 --> 00:01:06,880
+Speaker 2:  awkward reading of sentences. Here's what mine sounds like. Hi, I am
+
+19
+00:01:06,880 --> 00:01:10,640
+Speaker 2:  David Pierce's, ai iPhone voice. I'm kind of like David, but kind of not.
+
+20
+00:01:11,460 --> 00:01:15,240
+Speaker 2:  So today on the show we're going to dive into the boom of voice ai
+
+21
+00:01:15,500 --> 00:01:19,120
+Speaker 2:  and then we're gonna try to figure out if I can actually make something that
+
+22
+00:01:19,120 --> 00:01:22,080
+Speaker 2:  sounds like me. This is The Vergecast. We'll be right back.
+
+23
+00:01:30,200 --> 00:01:33,890
+Speaker 3:  Support for this show comes from a w s. Innovations in
+
+24
+00:01:34,170 --> 00:01:37,770
+Speaker 3:  machine learning and AI have completely changed the game, but
+
+25
+00:01:37,990 --> 00:01:41,610
+Speaker 3:  as with any cutting edge technology, it's important to stay ahead of the
+
+26
+00:01:41,610 --> 00:01:45,570
+Speaker 3:  curve or you risk getting left behind. Amazon Web Services
+
+27
+00:01:45,670 --> 00:01:49,410
+Speaker 3:  can help your small business stay ahead of the competition. A w
+
+28
+00:01:49,690 --> 00:01:53,450
+Speaker 3:  s provides a framework for businesses to navigate the fast changing landscape
+
+29
+00:01:53,710 --> 00:01:57,570
+Speaker 3:  and helps businesses harness the emerging capabilities of AI and
+
+30
+00:01:57,570 --> 00:02:01,210
+Speaker 3:  machine learning. It's time to imagine how a w s can
+
+31
+00:02:01,530 --> 00:02:05,450
+Speaker 3:  transform your business. Go to AWS is how.com
+
+32
+00:02:05,670 --> 00:02:06,290
+Speaker 3:  to learn more.
+
+33
+00:02:12,070 --> 00:02:16,010
+Speaker 2:  All right, we're back. Before we get too deep into the world of AI voices,
+
+34
+00:02:16,620 --> 00:02:20,490
+Speaker 2:  let's try and quickly understand why this is such a big thing right now.
+
+35
+00:02:20,830 --> 00:02:24,330
+Speaker 2:  And as far as I can tell, there are basically three reasons this kind of
+
+36
+00:02:24,330 --> 00:02:28,250
+Speaker 2:  tech is booming. The first is because audio in general is
+
+37
+00:02:28,250 --> 00:02:31,970
+Speaker 2:  booming with podcasts and voice messages and those generated
+
+38
+00:02:31,970 --> 00:02:35,410
+Speaker 2:  spoken captions you hear on TikTok and all sorts of other things.
+
+39
+00:02:35,990 --> 00:02:39,850
+Speaker 2:  If you think about it, you probably hear the internet a lot more than you
+
+40
+00:02:39,850 --> 00:02:43,810
+Speaker 2:  used to, and like any other creative feature on the internet, a lot of
+
+41
+00:02:43,810 --> 00:02:47,650
+Speaker 2:  tools exist to help you make it. One app we use is called
+
+42
+00:02:47,830 --> 00:02:51,490
+Speaker 2:  Script. It's an app that a lot of people use for editing audio and video.
+
+43
+00:02:51,830 --> 00:02:55,610
+Speaker 2:  It has this feature called Overdub Voices and one of the script's coolest
+
+44
+00:02:55,930 --> 00:02:59,480
+Speaker 2:  features in general is that you can edit audio and video basically by editing
+
+45
+00:02:59,630 --> 00:03:03,240
+Speaker 2:  text. You import a file, it gives you a transcript, and if you
+
+46
+00:03:03,240 --> 00:03:06,760
+Speaker 2:  delete the word in the transcript, it'll also try and
+
+47
+00:03:07,000 --> 00:03:10,800
+Speaker 2:  seamlessly delete the from the actual audio file. It's not
+
+48
+00:03:10,800 --> 00:03:14,400
+Speaker 2:  perfect, but it works pretty well and it kind of feels like magic to use
+
+49
+00:03:14,400 --> 00:03:18,000
+Speaker 2:  it with overdub. Descrip can go even further. Let's say you
+
+50
+00:03:18,060 --> 00:03:21,880
+Speaker 2:  forgot something or you stumbled on a word or transition, you can
+
+51
+00:03:21,900 --> 00:03:25,680
+Speaker 2:  now make an AI copy of your own voice and insert new
+
+52
+00:03:25,680 --> 00:03:29,560
+Speaker 2:  audio just by typing the text you want to appear. So let's say I say
+
+53
+00:03:29,560 --> 00:03:33,480
+Speaker 2:  the sentence, the iPhone came out in 2007 when Steve Jobs announced
+
+54
+00:03:33,480 --> 00:03:37,320
+Speaker 2:  it as three things, a wide screen iPod, a revolutionary mobile
+
+55
+00:03:37,320 --> 00:03:41,000
+Speaker 2:  phone, and a breakthrough internet communicator. Alright, let's just hear
+
+56
+00:03:41,000 --> 00:03:44,840
+Speaker 2:  that sentence back. The iPhone came out in 2007 when
+
+57
+00:03:44,840 --> 00:03:48,560
+Speaker 2:  Steve Jobs announced it as three things. A widescreen iPod, a
+
+58
+00:03:48,720 --> 00:03:52,360
+Speaker 2:  revolutionary mobile phone, and a breakthrough internet communicator. Wait,
+
+59
+00:03:52,360 --> 00:03:56,160
+Speaker 2:  sorry, I got that slightly wrong. He called it a breakthrough internet communications
+
+60
+00:03:56,160 --> 00:03:59,960
+Speaker 2:  device. I could rerecord that whole thing or I could just go into the
+
+61
+00:03:59,960 --> 00:04:03,880
+Speaker 2:  script, retype the transcript, and here's what I get. The iPhone
+
+62
+00:04:03,880 --> 00:04:07,440
+Speaker 2:  came out in 2007 when Steve Jobs announced it as three things,
+
+63
+00:04:07,840 --> 00:04:11,800
+Speaker 2:  a widescreen iPod, a revolutionary mobile phone, and a breakthrough internet
+
+64
+00:04:12,080 --> 00:04:16,040
+Speaker 2:  communications device. It's not bad. I wouldn't wanna
+
+65
+00:04:16,040 --> 00:04:19,880
+Speaker 2:  listen to a whole hour of that voice, I don't think, but in small
+
+66
+00:04:19,950 --> 00:04:23,600
+Speaker 2:  bits, and especially in the context of something larger, I'm not even sure
+
+67
+00:04:23,600 --> 00:04:27,160
+Speaker 2:  you'd always notice it there. There are other apps out there like podcasts
+
+68
+00:04:27,160 --> 00:04:30,520
+Speaker 2:  all doing the same kind of thing, and I suspect you're gonna see tools like
+
+69
+00:04:30,520 --> 00:04:33,160
+Speaker 2:  this show up anywhere that people make audio.
+
+70
+00:04:35,790 --> 00:04:39,560
+Speaker 2:  Okay, so that's the first use case. The second is kind of the flip side.
+
+71
+00:04:39,770 --> 00:04:43,480
+Speaker 2:  There are also a bunch of tools out there using AI voices to read written
+
+72
+00:04:43,480 --> 00:04:46,840
+Speaker 2:  stories out loud. The Atlantic, for instance, is working with a company called
+
+73
+00:04:46,900 --> 00:04:50,800
+Speaker 2:  11 Labs to have an AI narrator read some of the stories
+
+74
+00:04:50,820 --> 00:04:51,440
+Speaker 2:  on the website.
+
+75
+00:04:52,100 --> 00:04:55,720
+Speaker 4:  For years, the American approach to protein has been a never ending
+
+76
+00:04:56,040 --> 00:04:59,840
+Speaker 4:  quest for more. On average, each person in the United States
+
+77
+00:05:00,030 --> 00:05:02,800
+Speaker 4:  puts away roughly 300 pounds of meat a year.
+
+78
+00:05:03,810 --> 00:05:07,080
+Speaker 2:  Again, it's not perfect and I don't know that it always sounds like a person,
+
+79
+00:05:07,340 --> 00:05:11,320
+Speaker 2:  but I kind of can't believe how good it's, it wasn't that
+
+80
+00:05:11,320 --> 00:05:14,800
+Speaker 2:  long ago by the way that these generated voices sounded like
+
+81
+00:05:15,070 --> 00:05:18,920
+Speaker 2:  flat tone less robots like, here's Sophia, the robot from
+
+82
+00:05:18,920 --> 00:05:22,600
+Speaker 2:  2016 that was considered to be one of the most advanced robots ever created
+
+83
+00:05:22,860 --> 00:05:23,600
+Speaker 2:  on The Tonight Show.
+
+84
+00:05:24,200 --> 00:05:28,120
+Speaker 5:  I traveled to over 25 countries, appeared on the cover of
+
+85
+00:05:28,120 --> 00:05:31,840
+Speaker 5:  Cosmopolitan Magazine, met German Chancellor Anger La
+
+86
+00:05:31,840 --> 00:05:35,720
+Speaker 5:  Merkel, and the actor Will Smith and became Twitter friends with Chrissy
+
+87
+00:05:35,770 --> 00:05:36,120
+Speaker 5:  Tegan,
+
+88
+00:05:36,700 --> 00:05:40,640
+Speaker 2:  And here is that same thing Sophia said, which I just typed into the generator
+
+89
+00:05:40,640 --> 00:05:44,200
+Speaker 2:  on the 11 Labs website. I picked a voice name, grace, put this in there,
+
+90
+00:05:44,770 --> 00:05:47,760
+Speaker 2:  click generate, and after about 10 seconds, this is what came out.
+
+91
+00:05:48,320 --> 00:05:51,680
+Speaker 6:  I traveled to over 25 countries, appeared on the cover of
+
+92
+00:05:51,680 --> 00:05:55,480
+Speaker 6:  Cosmopolitan Magazine, met German chancellor Angela Merkel
+
+93
+00:05:55,740 --> 00:05:59,560
+Speaker 6:  and the actor Will Smith and became Twitter friends with Chrissy Teigan.
+
+94
+00:06:00,360 --> 00:06:03,760
+Speaker 2:  I mean, it's night and day right? I think you're gonna start to see this
+
+95
+00:06:03,810 --> 00:06:07,280
+Speaker 2:  everywhere, articles, whole websites, entire books,
+
+96
+00:06:07,620 --> 00:06:11,480
+Speaker 2:  all read aloud, all using generated AI and the product itself
+
+97
+00:06:11,480 --> 00:06:13,000
+Speaker 2:  is actually starting to be pretty good.
+
+98
+00:06:15,820 --> 00:06:19,480
+Speaker 2:  It is also, of course, a huge ethical and legal disaster
+
+99
+00:06:19,980 --> 00:06:23,920
+Speaker 2:  all the way back in 2019 again, before the tech was nearly as good
+
+100
+00:06:23,920 --> 00:06:27,800
+Speaker 2:  as it is now. A bunch of publishers sued Audible over a feature called
+
+101
+00:06:27,830 --> 00:06:31,280
+Speaker 2:  Audible Captions, which would read a book aloud to you as you look to the
+
+102
+00:06:31,280 --> 00:06:34,920
+Speaker 2:  page. It seems like a normal useful feature, right?
+
+103
+00:06:35,310 --> 00:06:39,280
+Speaker 2:  Also seems like an existential threat to the entire idea and industry of
+
+104
+00:06:39,280 --> 00:06:43,120
+Speaker 2:  audiobooks. Audible and the publishers settled in 2020, but that was
+
+105
+00:06:43,230 --> 00:06:47,120
+Speaker 2:  only the beginning of the bigger questions here, some audiobook
+
+106
+00:06:47,120 --> 00:06:50,240
+Speaker 2:  narrators have worried that their voices are being used to train algorithms
+
+107
+00:06:50,240 --> 00:06:54,160
+Speaker 2:  that might someday replace them, and they're not really wrong. All this
+
+108
+00:06:54,160 --> 00:06:58,120
+Speaker 2:  is not at all theoretical. If you go into the Apple Books app and search
+
+109
+00:06:58,140 --> 00:07:01,960
+Speaker 2:  for AI narration, you'll find a bunch of audio books that say they are narrated
+
+110
+00:07:01,980 --> 00:07:05,360
+Speaker 2:  by Apple Books. Apple says that that means that they are quote
+
+111
+00:07:05,440 --> 00:07:09,280
+Speaker 2:  narrated by a digital voice based on a human narrator. Here's just a
+
+112
+00:07:09,280 --> 00:07:13,200
+Speaker 2:  sample from a book called Language of Love by Kristin Ethridge. A lot of
+
+113
+00:07:13,200 --> 00:07:16,560
+Speaker 2:  these AI narrated books are romance novels by the way, for whatever reason,
+
+114
+00:07:16,900 --> 00:07:20,680
+Speaker 2:  and this one sounds to my ears, shockingly like a human red audiobook,
+
+115
+00:07:21,140 --> 00:07:25,120
+Speaker 8:  He raised his fist and wrapped on the solid wood. After about 30
+
+116
+00:07:25,120 --> 00:07:29,040
+Speaker 8:  seconds of silence, the distinct sound of the lock turning broke
+
+117
+00:07:29,040 --> 00:07:32,880
+Speaker 8:  through a woman of average heights stepped into the sliver of
+
+118
+00:07:32,880 --> 00:07:33,280
+Speaker 8:  an opening.
+
+119
+00:07:33,860 --> 00:07:36,920
+Speaker 2:  The other version of this that you might have heard about or even encountered
+
+120
+00:07:36,920 --> 00:07:40,840
+Speaker 2:  without knowing is celebrity AI voices. Like there was a pretty
+
+121
+00:07:40,860 --> 00:07:44,360
+Speaker 2:  big backlash a couple of years ago when a documentary about Anthony Bourdain
+
+122
+00:07:44,360 --> 00:07:48,080
+Speaker 2:  called Roadrunner, which came out after Bourdain's death, trained an
+
+123
+00:07:48,340 --> 00:07:52,200
+Speaker 2:  AI model on his voice and then used it to generate narration for the film.
+
+124
+00:07:52,660 --> 00:07:56,560
+Speaker 2:  The director Morgan Neville said that he only used the AI to say words that
+
+125
+00:07:56,560 --> 00:08:00,360
+Speaker 2:  Bourdain himself had written, which was an ethical choice for him, and I
+
+126
+00:08:00,360 --> 00:08:03,360
+Speaker 2:  guess I can see where he's coming from. I still don't know whether any of
+
+127
+00:08:03,360 --> 00:08:06,960
+Speaker 2:  that feels okay to me or awful. It's all really
+
+128
+00:08:06,960 --> 00:08:10,800
+Speaker 2:  complicated and examples like this exist everywhere. AI helped
+
+129
+00:08:11,080 --> 00:08:15,000
+Speaker 2:  Val Kilmer speak after he lost his voice due to throat cancer. Lots of celebrities
+
+130
+00:08:15,000 --> 00:08:18,840
+Speaker 2:  trained AI to do things like give you Waze directions. All this too
+
+131
+00:08:18,940 --> 00:08:22,720
+Speaker 2:  is pretty controversial. One of the things Hollywood is on strike about right
+
+132
+00:08:22,720 --> 00:08:26,680
+Speaker 2:  now is AI's potential to scan their likeness so that they never need to
+
+133
+00:08:26,680 --> 00:08:30,560
+Speaker 2:  be actually used in films again. Imagine an AI trained on
+
+134
+00:08:30,560 --> 00:08:34,240
+Speaker 2:  Morgan Freeman's voice that could narrate every documentary ever without
+
+135
+00:08:34,240 --> 00:08:37,960
+Speaker 2:  paying Freeman a dime. This stuff all gets really messy really
+
+136
+00:08:37,990 --> 00:08:41,920
+Speaker 2:  fast. Okay, and Then, we have the third and probably most
+
+137
+00:08:42,210 --> 00:08:45,480
+Speaker 2:  newly mainstream use case here, accessibility.
+
+138
+00:08:46,010 --> 00:08:50,000
+Speaker 2:  Apple launched a new feature this year in iOS 17 called Live Speech,
+
+139
+00:08:50,050 --> 00:08:53,640
+Speaker 2:  which you can use to type something and have it said out loud in phone calls
+
+140
+00:08:53,740 --> 00:08:57,480
+Speaker 2:  or even for in-person conversation, and when you pair it with personal voice.
+
+141
+00:08:57,550 --> 00:09:00,120
+Speaker 2:  Another new feature this year, the one I was testing up at the beginning
+
+142
+00:09:00,120 --> 00:09:04,080
+Speaker 2:  of the show, you can create an AI version of your own voice just
+
+143
+00:09:04,080 --> 00:09:07,560
+Speaker 2:  by recording yourself, talking into your phone, and then use that to generate
+
+144
+00:09:07,630 --> 00:09:11,440
+Speaker 2:  your live speech. It's all a little like the incredibly powerful
+
+145
+00:09:11,440 --> 00:09:15,240
+Speaker 2:  system that the late Stephen Hawking had, which let him speak through a computer.
+
+146
+00:09:16,080 --> 00:09:19,880
+Speaker 9:  A cat offers a list of predictions based on an analysis of
+
+147
+00:09:19,880 --> 00:09:22,560
+Speaker 9:  the English language in my previous usage.
+
+148
+00:09:23,230 --> 00:09:26,840
+Speaker 2:  Okay, again, not to keep belaboring this point, but that video is from eight
+
+149
+00:09:26,840 --> 00:09:30,320
+Speaker 2:  years ago. Think about how much better a system like Hawkings would sound
+
+150
+00:09:30,320 --> 00:09:34,000
+Speaker 2:  today. Although I have to say I do love how much Hawking
+
+151
+00:09:34,400 --> 00:09:36,560
+Speaker 2:  embraced that robotic sound and made it his own.
+
+152
+00:09:37,060 --> 00:09:40,960
+Speaker 9:  It has become my trademark and I wouldn't change it for
+
+153
+00:09:41,000 --> 00:09:43,680
+Speaker 9:  a more natural voice with a British accent.
+
+154
+00:09:44,310 --> 00:09:47,480
+Speaker 2:  Samsung is building a similar feature with Bixby so that you can now speak
+
+155
+00:09:47,480 --> 00:09:50,440
+Speaker 2:  with your own voice through your Galaxy. Phone works kind of the same way
+
+156
+00:09:50,780 --> 00:09:54,520
+Speaker 2:  and on a similar line, lots of people have used screen readers for years,
+
+157
+00:09:54,530 --> 00:09:58,440
+Speaker 2:  which are able to speak aloud, whatever's on a screen. Those are also getting
+
+158
+00:09:58,700 --> 00:10:02,560
+Speaker 2:  vastly better, both because the voices are improving and because AI systems
+
+159
+00:10:02,700 --> 00:10:06,000
+Speaker 2:  are getting much better at actually understanding the contents of
+
+160
+00:10:06,430 --> 00:10:10,200
+Speaker 2:  webpage and apps and anything else you're looking at. All of that is super
+
+161
+00:10:10,480 --> 00:10:13,800
+Speaker 2:  exciting and I'm also really into the idea of being able to use machine
+
+162
+00:10:13,800 --> 00:10:17,520
+Speaker 2:  translation in these voices to be able to speak simultaneously in
+
+163
+00:10:17,550 --> 00:10:21,120
+Speaker 2:  lots of languages someday, not that far from now. This podcast
+
+164
+00:10:21,430 --> 00:10:25,360
+Speaker 2:  with my voice could be available in basically any language on
+
+165
+00:10:25,360 --> 00:10:29,240
+Speaker 2:  earth. That's really cool. It's also a really hard problem and we're definitely
+
+166
+00:10:29,240 --> 00:10:33,120
+Speaker 2:  not there yet, but in general, being able to speak with your own voice,
+
+167
+00:10:33,270 --> 00:10:36,760
+Speaker 2:  even when you can't do that, is a big deal. It's complicated
+
+168
+00:10:36,760 --> 00:10:40,200
+Speaker 2:  ethically and morally and legally and in so many other ways,
+
+169
+00:10:40,620 --> 00:10:41,800
+Speaker 2:  but it's a big deal nonetheless.
+
+170
+00:10:43,470 --> 00:10:47,000
+Speaker 2:  Alright, we need to take a quick break and then when we come back, we're
+
+171
+00:10:47,000 --> 00:10:50,960
+Speaker 2:  gonna investigate what it takes to actually make an AI voice and see if
+
+172
+00:10:50,960 --> 00:10:53,280
+Speaker 2:  it's really possible to do it well. We'll be right back.
+
+173
+00:11:09,570 --> 00:11:13,500
+Speaker 3:  Support for this show comes from a w s. We are living
+
+174
+00:11:13,520 --> 00:11:17,260
+Speaker 3:  in the future and artificial intelligence is completely transforming
+
+175
+00:11:17,440 --> 00:11:21,420
+Speaker 3:  how business is done, but without an experienced developer on your team,
+
+176
+00:11:21,680 --> 00:11:25,540
+Speaker 3:  how can you make the most of these emerging technologies? Amazon
+
+177
+00:11:25,600 --> 00:11:29,500
+Speaker 3:  Web Services can help. A w s has been democratizing
+
+178
+00:11:29,640 --> 00:11:33,260
+Speaker 3:  access to AI and machine learning for companies and customers.
+
+179
+00:11:33,810 --> 00:11:37,540
+Speaker 3:  They've invested $100 million to build their generative AI
+
+180
+00:11:37,540 --> 00:11:41,500
+Speaker 3:  innovation center to help customers understand and deploy generative
+
+181
+00:11:41,720 --> 00:11:45,140
+Speaker 3:  AI to predict trends and prototype with data-driven design.
+
+182
+00:11:45,970 --> 00:11:49,780
+Speaker 3:  Just imagine how a w s can transform your business. learn
+
+183
+00:11:49,780 --> 00:11:52,380
+Speaker 3:  more at a w ss is how.com.
+
+184
+00:11:59,370 --> 00:12:02,100
+Speaker 2:  Welcome back. Let's make some AI voices, shall we?
+
+185
+00:12:03,400 --> 00:12:06,700
+Speaker 2:  The idea with most of these systems is basically the same because the way
+
+186
+00:12:06,700 --> 00:12:09,700
+Speaker 2:  you train an AI model in general is just to give it lots and lots and lots
+
+187
+00:12:09,700 --> 00:12:13,540
+Speaker 2:  of data and just kind of watch it churn through and see what it learns.
+
+188
+00:12:13,840 --> 00:12:17,660
+Speaker 2:  But in the systems I've been trying, there is one important distinction.
+
+189
+00:12:17,890 --> 00:12:21,380
+Speaker 2:  Some tools like Descrip, just ask for a huge batch of audio.
+
+190
+00:12:21,530 --> 00:12:24,900
+Speaker 2:  They'll give you a script if you want it, but really the goal is just to
+
+191
+00:12:24,900 --> 00:12:28,100
+Speaker 2:  upload hours and hours and hours of the sound of your voice and see what
+
+192
+00:12:28,100 --> 00:12:31,900
+Speaker 2:  happens. Others go one step further and we'll ask you to record
+
+193
+00:12:32,140 --> 00:12:35,780
+Speaker 2:  yourself saying a series of specific and often weird and often
+
+194
+00:12:36,100 --> 00:12:40,020
+Speaker 2:  thoroughly random things. So like when I open up podcast to create
+
+195
+00:12:40,040 --> 00:12:43,620
+Speaker 2:  my digital AI voice, it had a lot of really specific instructions.
+
+196
+00:12:44,690 --> 00:12:47,940
+Speaker 2:  Okay, now time to do 70 sentences. Here we go.
+
+197
+00:12:48,710 --> 00:12:52,520
+Speaker 2:  Everything seems better. In summer. I asked my
+
+198
+00:12:52,520 --> 00:12:55,760
+Speaker 2:  dad if he could help me look at that lovely cat
+
+199
+00:12:58,270 --> 00:13:02,080
+Speaker 2:  That he had it 70 sentences later, I waited a while and
+
+200
+00:13:02,080 --> 00:13:05,320
+Speaker 2:  the next day I got an email saying my digital voice was ready. You wanna
+
+201
+00:13:05,320 --> 00:13:09,200
+Speaker 2:  hear it? Hi, I'm David Pierce, except not
+
+202
+00:13:09,200 --> 00:13:13,160
+Speaker 2:  really. I'm an AI bot, but I've been trained to sound like David
+
+203
+00:13:13,180 --> 00:13:17,120
+Speaker 2:  Pierce. Is this convincing? That one's not great,
+
+204
+00:13:17,420 --> 00:13:20,560
+Speaker 2:  not super impressed, but let's give it a little more to work with and see
+
+205
+00:13:20,560 --> 00:13:23,800
+Speaker 2:  how we do. While we're on the subject of ethically dubious things, I'm gonna
+
+206
+00:13:23,800 --> 00:13:27,680
+Speaker 2:  grab the text of one of my favorite TV moments ever. It's
+
+207
+00:13:27,720 --> 00:13:29,680
+Speaker 2:  a Dwight Shroud speech from the office.
+
+208
+00:13:30,350 --> 00:13:33,760
+Speaker 10:  What is my perfect crime? I break into Tiffany's at midnight.
+
+209
+00:13:34,340 --> 00:13:37,760
+Speaker 10:  Do I go for the vault? No. I go for the chandelier. It's priceless.
+
+210
+00:13:38,340 --> 00:13:42,000
+Speaker 10:  As I'm taking it down, a woman catches me. She tells me to stop. It's her
+
+211
+00:13:42,000 --> 00:13:45,840
+Speaker 10:  father's business. She's Tiffany. I say, no, we make love all
+
+212
+00:13:45,840 --> 00:13:49,320
+Speaker 10:  night. In the morning, the cops come and I escape in one of their uniforms.
+
+213
+00:13:49,640 --> 00:13:53,160
+Speaker 10:  I tell her to meet me in Mexico, but I go to Canada. I don't trust her
+
+214
+00:13:53,390 --> 00:13:57,320
+Speaker 10:  besides, I like the cold. 30 years later, I get a postcard. I have
+
+215
+00:13:57,320 --> 00:14:00,760
+Speaker 10:  a son and he's the chief of police. This is where the story gets interesting.
+
+216
+00:14:01,360 --> 00:14:05,280
+Speaker 10:  I tell Tiffany to meet me in Paris by the trod. She's
+
+217
+00:14:05,280 --> 00:14:08,320
+Speaker 10:  been waiting for me all these years. She's never taken another lover. I
+
+218
+00:14:08,320 --> 00:14:11,680
+Speaker 10:  don't care. I don't show up. I go to Berlin. That's where I stashed the
+
+219
+00:14:11,680 --> 00:14:12,280
+Speaker 10:  chandelier.
+
+220
+00:14:13,080 --> 00:14:16,400
+Speaker 2:  I mean, it's just like 60 perfect seconds. I love it so much. Let's have
+
+221
+00:14:16,700 --> 00:14:20,520
+Speaker 2:  ai David take a run at that speech. Here goes, what is my perfect
+
+222
+00:14:20,770 --> 00:14:24,600
+Speaker 2:  crime? I break into Tiffany's at midnight. Do I go for the
+
+223
+00:14:24,600 --> 00:14:28,400
+Speaker 2:  fall? No. I go for the chandelier. It's priceless. As
+
+224
+00:14:28,460 --> 00:14:32,280
+Speaker 2:  I'm taking it down, a woman catches me. She tells me to stop.
+
+225
+00:14:32,550 --> 00:14:36,400
+Speaker 2:  It's her father's business. She's Tiffany. I say, no, we make
+
+226
+00:14:36,400 --> 00:14:39,840
+Speaker 2:  love all night. Okay, so I hear that and it's like,
+
+227
+00:14:40,150 --> 00:14:44,120
+Speaker 2:  yeah, that sounds like me, but it also doesn't sound like a human, if
+
+228
+00:14:44,120 --> 00:14:47,800
+Speaker 2:  that makes sense. in general, podcast was really easy to use, but
+
+229
+00:14:47,980 --> 00:14:51,710
+Speaker 2:  I'm not terribly impressed with the outcome. So now let's try script,
+
+230
+00:14:51,760 --> 00:14:55,510
+Speaker 2:  which is I think in general a significantly more sophisticated piece of
+
+231
+00:14:55,510 --> 00:14:59,430
+Speaker 2:  audio software. It too is a process. So I go to
+
+232
+00:14:59,430 --> 00:15:03,230
+Speaker 2:  voices. Yeah, we're creating a new voice. Alright,
+
+233
+00:15:03,230 --> 00:15:07,150
+Speaker 2:  we'll do a few recent Friday Verge casts. How about
+
+234
+00:15:07,150 --> 00:15:10,990
+Speaker 2:  that? Preparing and uploading. Okay, it
+
+235
+00:15:10,990 --> 00:15:14,830
+Speaker 2:  finally uploaded all my stuff. Let's go. We click Submit Training data and
+
+236
+00:15:14,830 --> 00:15:18,030
+Speaker 2:  now it says, ready to create your overdub voice record your voice Id press
+
+237
+00:15:18,030 --> 00:15:21,750
+Speaker 2:  record and read the statement below. All right, let's do it. We hit stop.
+
+238
+00:15:22,050 --> 00:15:25,070
+Speaker 2:  We submit it. We are uploading. It says, putting the finishing touches on
+
+239
+00:15:25,070 --> 00:15:28,350
+Speaker 2:  your training project. Your voice is now training. We'll email you when it's
+
+240
+00:15:28,350 --> 00:15:32,070
+Speaker 2:  done. Here we go. I ended up submitting about four
+
+241
+00:15:32,070 --> 00:15:35,310
+Speaker 2:  hours of my own voice to make this happen because luckily, I already have
+
+242
+00:15:35,440 --> 00:15:39,430
+Speaker 2:  hours of my voice recorded from just being on The Vergecast and
+
+243
+00:15:39,780 --> 00:15:43,590
+Speaker 2:  like with podcast. It took a while to process everything and then I got an
+
+244
+00:15:43,590 --> 00:15:46,990
+Speaker 2:  email that my voice was ready, which is a very funny email to receive. Here's
+
+245
+00:15:47,150 --> 00:15:50,950
+Speaker 2:  what it sounded like. Hi, I'm David Pierce, the ai, David Pierce,
+
+246
+00:15:51,250 --> 00:15:54,190
+Speaker 2:  the descrip version of ai, David Pierce. How do I sound?
+
+247
+00:15:55,050 --> 00:15:58,390
+Speaker 2:  All I hear in that is that I feel like that's what I might sound like if
+
+248
+00:15:58,410 --> 00:16:02,190
+Speaker 2:  I'd gone to like a really fancy New England boarding school and
+
+249
+00:16:02,190 --> 00:16:06,110
+Speaker 2:  also had a really, really nasty head cold, but I don't think in general
+
+250
+00:16:06,140 --> 00:16:10,030
+Speaker 2:  that one sounds like me at all really, but let's try it again with our
+
+251
+00:16:10,030 --> 00:16:13,630
+Speaker 2:  Dwight Fruit speech. What is my perfect crime? I break into
+
+252
+00:16:13,630 --> 00:16:17,310
+Speaker 2:  Tiffany's at midnight. Do I go for the vault? No, I go for the chandelier.
+
+253
+00:16:17,500 --> 00:16:20,510
+Speaker 2:  It's priceless. I have a son and he's the chief of police. This is where
+
+254
+00:16:20,510 --> 00:16:24,110
+Speaker 2:  the story gets interesting. I tell Tiffany to meet me in Paris by the
+
+255
+00:16:24,230 --> 00:16:27,950
+Speaker 2:  trod. She's been waiting for me all these years. She's never taken another
+
+256
+00:16:27,960 --> 00:16:31,550
+Speaker 2:  lover. I don't show up. I go to Berlin. That's where I stash the
+
+257
+00:16:31,550 --> 00:16:35,390
+Speaker 2:  chandelier. The strange thing about this one is the intonation, the
+
+258
+00:16:35,390 --> 00:16:39,270
+Speaker 2:  kind of ebb and flow of the sentences here. It's really not bad. It's
+
+259
+00:16:39,270 --> 00:16:42,990
+Speaker 2:  a little stilted, but it does move more or less like you would
+
+260
+00:16:42,990 --> 00:16:46,790
+Speaker 2:  expect a human to talk. It just doesn't sound right and it
+
+261
+00:16:46,790 --> 00:16:50,350
+Speaker 2:  seems to skip a bunch of words and sentences when it doesn't quite know what
+
+262
+00:16:50,350 --> 00:16:54,150
+Speaker 2:  to do. My takeaway is basically descrip is fine for those little filler words
+
+263
+00:16:54,150 --> 00:16:56,430
+Speaker 2:  like we were doing earlier, but that's about it.
+
+264
+00:16:59,070 --> 00:17:02,390
+Speaker 2:  I would say in general so far my takeaway is that these things aren't amazing,
+
+265
+00:17:02,690 --> 00:17:06,390
+Speaker 2:  but they're decent and honestly it's really easy to make them like much easier
+
+266
+00:17:06,500 --> 00:17:09,150
+Speaker 2:  than I expected. So let's keep going. Let's do a couple more.
+
+267
+00:17:10,530 --> 00:17:14,390
+Speaker 2:  11 Labs, the company we've talked about a bunch so far has the simplest process
+
+268
+00:17:14,650 --> 00:17:18,550
+Speaker 2:  of any that I've seen. You just sign up, upload a few minutes of audio. It
+
+269
+00:17:18,670 --> 00:17:22,590
+Speaker 2:  actually explicitly says you only need about five minutes and that anything
+
+270
+00:17:22,590 --> 00:17:26,350
+Speaker 2:  more is just overkill and you're off and running. So I added some Vergecast
+
+271
+00:17:26,350 --> 00:17:30,230
+Speaker 2:  stuff about 15 minutes and all because You know I'm an overachiever and
+
+272
+00:17:30,260 --> 00:17:34,070
+Speaker 2:  then just waited a while. This one only took a couple of minutes and we were
+
+273
+00:17:34,070 --> 00:17:37,830
+Speaker 2:  up and running. Hi, it's AI David Pierce again. This time I'm made by 11
+
+274
+00:17:37,950 --> 00:17:41,830
+Speaker 2:  Labs, but I'm still me sort of. I think You know what I mean.
+
+275
+00:17:42,650 --> 00:17:46,470
+Speaker 2:  I'm not gonna lie it, that one kind of gave me goosebumps. It goes a little
+
+276
+00:17:46,580 --> 00:17:50,200
+Speaker 2:  fast like I don't think that's how you'd say that sentence, but this is way
+
+277
+00:17:50,200 --> 00:17:54,080
+Speaker 2:  better than anything else I've tried or even heard, and it took a grand total
+
+278
+00:17:54,220 --> 00:17:58,080
+Speaker 2:  of about 90 seconds to put together. What's weird though is
+
+279
+00:17:58,080 --> 00:18:01,960
+Speaker 2:  that it's not always this good. I clicked generate again with the same
+
+280
+00:18:01,960 --> 00:18:05,640
+Speaker 2:  text and it spit back something subtly different and I think
+
+281
+00:18:05,880 --> 00:18:09,760
+Speaker 2:  slightly worse. Hi, it's AI David Pierce again. This time I'm
+
+282
+00:18:09,760 --> 00:18:12,960
+Speaker 2:  made by 11 labs, but I'm still me sort of. I think You know what I mean.
+
+283
+00:18:13,490 --> 00:18:16,880
+Speaker 2:  Again, really good, better than anything else we've tried, but not quite
+
+284
+00:18:16,880 --> 00:18:20,560
+Speaker 2:  as good as that first one, which is odd. It's just that pause in the first
+
+285
+00:18:20,560 --> 00:18:24,280
+Speaker 2:  one right before the word sort of is like exactly how I
+
+286
+00:18:24,280 --> 00:18:27,960
+Speaker 2:  would've said that in real life. I still kind of can't get over it. It freaked
+
+287
+00:18:27,960 --> 00:18:31,440
+Speaker 2:  me out. Anyway, let's try this model with our Dwight True Speech.
+
+288
+00:18:32,150 --> 00:18:35,640
+Speaker 2:  What is my perfect crime? I break into Tiffany's at midnight. Do I go for
+
+289
+00:18:35,640 --> 00:18:39,280
+Speaker 2:  the vault? No. I go for the chandelier. It's priceless.
+
+290
+00:18:39,620 --> 00:18:43,080
+Speaker 2:  As I'm taking it down, a woman catches me. She tells me to stop.
+
+291
+00:18:43,470 --> 00:18:47,240
+Speaker 2:  It's her father's business. She's Tiffany. I say, no,
+
+292
+00:18:47,700 --> 00:18:51,520
+Speaker 2:  we make love all night. In the morning, the cops come and I escape
+
+293
+00:18:51,540 --> 00:18:55,400
+Speaker 2:  in one of their uniforms. I tell her to meet me in Mexico, but I go
+
+294
+00:18:55,400 --> 00:18:59,000
+Speaker 2:  to Canada. I don't trust her besides, I like the cold.
+
+295
+00:18:59,100 --> 00:19:02,680
+Speaker 2:  30 years later I get a postcard. I have a son and he's the
+
+296
+00:19:03,040 --> 00:19:06,920
+Speaker 2:  chief of police. This is where the story gets interesting. I tell Tiffany
+
+297
+00:19:07,060 --> 00:19:10,960
+Speaker 2:  to meet me in Paris by the ero. She's been waiting for me all these
+
+298
+00:19:10,960 --> 00:19:14,800
+Speaker 2:  years. She's never taken another lover. I don't care. I
+
+299
+00:19:14,800 --> 00:19:17,880
+Speaker 2:  don't show up. I go to Berlin. That's where I stashed the chandelier.
+
+300
+00:19:18,510 --> 00:19:22,400
+Speaker 2:  That one's not perfect and it seems to me that it got a little worse
+
+301
+00:19:22,420 --> 00:19:26,240
+Speaker 2:  as it went on. The cadence got a little less human and a little more just
+
+302
+00:19:26,240 --> 00:19:29,840
+Speaker 2:  kind of robot monotone. Everything takes the same time to say
+
+303
+00:19:30,100 --> 00:19:33,960
+Speaker 2:  You. know what I mean? But I bet I could use that voice on almost anyone
+
+304
+00:19:34,100 --> 00:19:37,920
+Speaker 2:  for a minute or two and get away with it. What is my perfect crime? Okay,
+
+305
+00:19:37,920 --> 00:19:41,560
+Speaker 2:  let's try one more. This is the Apple personal voice feature. The one that's
+
+306
+00:19:41,560 --> 00:19:44,760
+Speaker 2:  gonna come to lots of people's iPhones. I suspect a lot of people are gonna
+
+307
+00:19:44,760 --> 00:19:48,680
+Speaker 2:  set this up pretty soon. This one took by the way, the longest by far of
+
+308
+00:19:48,680 --> 00:19:52,400
+Speaker 2:  any to set up, so the first thing I have to do is decide, do I wanna share
+
+309
+00:19:52,400 --> 00:19:56,120
+Speaker 2:  across devices? Sure. Do I wanna allow apps to request to
+
+310
+00:19:56,180 --> 00:20:00,160
+Speaker 2:  use? Why would I want that? Creating my personal voice. I'm gonna
+
+311
+00:20:00,160 --> 00:20:03,960
+Speaker 2:  read 150 phrases aloud, which may take about 15 minutes. Then
+
+312
+00:20:03,960 --> 00:20:06,200
+Speaker 2:  it's gonna generate it, and then we'll go from there. All right. Let's see.
+
+313
+00:20:06,990 --> 00:20:10,560
+Speaker 2:  That was the best movie I've ever seen. Are you still hungry?
+
+314
+00:20:11,470 --> 00:20:14,920
+Speaker 2:  It's a beautiful day today. It's an extension of the nearby sea.
+
+315
+00:20:15,660 --> 00:20:18,520
+Speaker 2:  Her style of painting shows the influence of the French artists.
+
+316
+00:20:19,800 --> 00:20:23,730
+Speaker 2:  Then once it was set up, it also took the longest to finish. Your phone has
+
+317
+00:20:23,730 --> 00:20:27,650
+Speaker 2:  to be charging and not in use because all the training happens on your device
+
+318
+00:20:27,790 --> 00:20:31,250
+Speaker 2:  and takes up a huge amount of energy. I love that it happens on device. That's
+
+319
+00:20:31,250 --> 00:20:34,090
+Speaker 2:  good for privacy reasons, it's good for lots of reasons, but it does take
+
+320
+00:20:34,130 --> 00:20:37,610
+Speaker 2:  a while. So it took a couple of days, but I eventually had my voice ready
+
+321
+00:20:37,610 --> 00:20:41,570
+Speaker 2:  to go. Hi, I am David Pierce's, ai iPhone voice. I'm kind
+
+322
+00:20:41,570 --> 00:20:45,450
+Speaker 2:  of like David, but kind of not. Are we? Our phones? Are our phones
+
+323
+00:20:45,630 --> 00:20:49,480
+Speaker 2:  us Ordinarily, I think I would've been impressed by that,
+
+324
+00:20:49,820 --> 00:20:53,800
+Speaker 2:  but after hearing that 11 labs, one, I'm kind of meh on this
+
+325
+00:20:53,800 --> 00:20:57,480
+Speaker 2:  one. Let's try the Dwight TR test. 30 years later, I get a
+
+326
+00:20:57,480 --> 00:21:01,400
+Speaker 2:  postcard. I have a son and he's the chief of police. This is where the
+
+327
+00:21:01,400 --> 00:21:05,360
+Speaker 2:  story gets interesting. I tell Tiffany to meet me in Paris by the TRO cero.
+
+328
+00:21:05,730 --> 00:21:09,240
+Speaker 2:  She's been waiting for me all these years. She's never taken another lover.
+
+329
+00:21:09,720 --> 00:21:13,520
+Speaker 2:  I don't care. I don't show up. I go to Berlin. That's where I
+
+330
+00:21:13,520 --> 00:21:17,460
+Speaker 2:  stashed the chandelier. Still pretty okay, right? It kind of works, but
+
+331
+00:21:17,460 --> 00:21:21,340
+Speaker 2:  nobody's gonna confuse this with human David and in general. I
+
+332
+00:21:21,580 --> 00:21:22,940
+Speaker 2:  actually think that might be okay.
+
+333
+00:21:25,800 --> 00:21:29,660
+Speaker 2:  AI voices are one of those things where the better they get the stranger
+
+334
+00:21:29,730 --> 00:21:33,380
+Speaker 2:  they get. Seriously, that feeling I got listening to the first time
+
+335
+00:21:33,400 --> 00:21:36,980
+Speaker 2:  11 labs spit out that thing saying I'm David Pierce was
+
+336
+00:21:36,980 --> 00:21:40,860
+Speaker 2:  genuinely kind of disconcerting. It raises all these big questions
+
+337
+00:21:40,860 --> 00:21:44,740
+Speaker 2:  that like with so many things about ai, we've really only begun
+
+338
+00:21:44,740 --> 00:21:48,580
+Speaker 2:  dealing with what does it mean that I can create a replica
+
+339
+00:21:48,580 --> 00:21:52,180
+Speaker 2:  this good and that they're only going to get better and easier over time?
+
+340
+00:21:52,610 --> 00:21:56,220
+Speaker 2:  What responsibilities do I have as the person who made it and is using it
+
+341
+00:21:56,220 --> 00:21:59,540
+Speaker 2:  even though it's my voice? What responsibilities do other people have?
+
+342
+00:21:59,930 --> 00:22:03,860
+Speaker 2:  What responsibilities do the services who make these voices for me have now
+
+343
+00:22:03,860 --> 00:22:07,740
+Speaker 2:  that they have this incredibly personal thing of mine on their
+
+344
+00:22:07,740 --> 00:22:11,700
+Speaker 2:  servers? We're having a lot of debates over AI music right now. Obviously
+
+345
+00:22:11,880 --> 00:22:15,780
+Speaker 2:  as artists', voices are being used to train models that can make pretty convincing
+
+346
+00:22:15,780 --> 00:22:19,700
+Speaker 2:  songs in just about anyone's voice. You go on YouTube and you can
+
+347
+00:22:19,700 --> 00:22:23,660
+Speaker 2:  hear AI Taylor Swift sing almost anything. You can hear ai Patrick from
+
+348
+00:22:23,730 --> 00:22:27,620
+Speaker 2:  SpongeBob sing almost anything. All of that is going to
+
+349
+00:22:27,620 --> 00:22:31,500
+Speaker 2:  spawn like a decade of interesting court cases and ethical debates.
+
+350
+00:22:31,880 --> 00:22:35,780
+Speaker 2:  But those same issues are coming just for you and me in our everyday lives.
+
+351
+00:22:36,320 --> 00:22:39,980
+Speaker 2:  How do we use these tools? How do we talk about the fact that they exist
+
+352
+00:22:40,000 --> 00:22:43,540
+Speaker 2:  and how we're using them? Is it even possible to get the good,
+
+353
+00:22:43,610 --> 00:22:47,580
+Speaker 2:  helpful, democratizing things from them without all the deep fakes
+
+354
+00:22:47,580 --> 00:22:51,220
+Speaker 2:  and downsides? I don't know, but I do know it's well past time
+
+355
+00:22:51,360 --> 00:22:55,340
+Speaker 2:  we started talking about it because the tech is really good right now and
+
+356
+00:22:55,340 --> 00:22:57,100
+Speaker 2:  it's getting better really fast.
+
+357
+00:22:59,970 --> 00:23:03,700
+Speaker 2:  Alright, that is enough AI talk for one day. We're gonna be back
+
+358
+00:23:03,730 --> 00:23:07,500
+Speaker 2:  next week to talk even more about AI music because I think that is one of
+
+359
+00:23:07,500 --> 00:23:10,540
+Speaker 2:  the most interesting things in this space right now. Not just because of
+
+360
+00:23:10,560 --> 00:23:13,380
+Speaker 2:  the big heady debates about it all, but because I think there are really
+
+361
+00:23:13,740 --> 00:23:17,180
+Speaker 2:  interesting ways that AI can both help people make music
+
+362
+00:23:17,600 --> 00:23:21,180
+Speaker 2:  and totally change all of our ideas about what music even
+
+363
+00:23:21,440 --> 00:23:25,340
+Speaker 2:  is. It's gonna be fascinating. We will also be back in
+
+364
+00:23:25,340 --> 00:23:28,660
+Speaker 2:  this feed on Wednesday too, with a big episode all about this week's Apple
+
+365
+00:23:28,660 --> 00:23:31,780
+Speaker 2:  event. But until then, ai David, you wanna do the credits.
+
+366
+00:23:32,570 --> 00:23:36,460
+Speaker 2:  This show is produced by Andrew Marino and Liam James. Brooke Miners
+
+367
+00:23:36,460 --> 00:23:40,300
+Speaker 2:  is our editorial director of Audio The Vergecast is a Verge production
+
+368
+00:23:40,320 --> 00:23:44,140
+Speaker 2:  and part of the Vox Media Podcast network. If you have thoughts, questions,
+
+369
+00:23:44,140 --> 00:23:48,080
+Speaker 2:  ideas or anything else, you can email Vergecast The Verge dot com or
+
+370
+00:23:48,080 --> 00:23:51,720
+Speaker 2:  call The Verge hotline at eight six six Verge 11.
+
+371
+00:23:52,090 --> 00:23:55,360
+Speaker 2:  We'll be back on Wednesday with a special show all about the Apple event
+
+372
+00:23:55,580 --> 00:23:58,920
+Speaker 2:  and with all the rest of this week's news on Friday, we'll see you then.
+
+373
+00:23:59,190 --> 00:23:59,840
+Speaker 2:  Rock and roll.
+
+374
+00:24:01,430 --> 00:24:05,200
+Speaker 2:  Okay, not bad, pretty good ai, David, for your first try, but
+
+375
+00:24:05,200 --> 00:24:08,920
+Speaker 2:  it's Vergecast at The Verge dot com for the emails, and we really gotta work
+
+376
+00:24:08,920 --> 00:24:11,480
+Speaker 2:  on the Signoffs. Say it with me. Rock, rock. Rock and roll.
+
+377
+00:24:22,980 --> 00:24:26,750
+Speaker 3:  Support for this show came from a W Ss machine
+
+378
+00:24:26,950 --> 00:24:30,830
+Speaker 3:  learning cloud computing, generative ai. Things
+
+379
+00:24:30,850 --> 00:24:34,830
+Speaker 3:  are changing and they're changing fast. It can be hard to keep up with
+
+380
+00:24:34,830 --> 00:24:38,390
+Speaker 3:  cutting edge technologies, let alone knowing how to use them effectively.
+
+381
+00:24:39,210 --> 00:24:42,990
+Speaker 3:  Amazon Web Surfaces may be able to help. They make it easy
+
+382
+00:24:43,090 --> 00:24:46,630
+Speaker 3:  for businesses of any size to identify opportunities that
+
+383
+00:24:46,630 --> 00:24:50,470
+Speaker 3:  generative AI and machine learning offer and provide a proven
+
+384
+00:24:50,470 --> 00:24:54,350
+Speaker 3:  framework for best practices, all with customer support. For any
+
+385
+00:24:54,350 --> 00:24:58,070
+Speaker 3:  technical and non-technical questions you might have. Just
+
+386
+00:24:58,070 --> 00:25:01,070
+Speaker 3:  imagine how a w s can transform your business.
+
+387
+00:25:01,760 --> 00:25:03,950
+Speaker 3:  learn more at AWS is how.
+

@@ -1,0 +1,5885 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: f402bb43-3f45-495e-988d-cd4b75ec641b
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/-7946957092093692839/-4103204848988393182/s93290-US-5894s-1728383325.mp3
+Description: For this full-on “what is a photo” episode, we start by chatting with Halide developers Ben Sandofsky and Sebastiaan De With about what it means to build a camera app in 2024 — and what it means to try and accurately capture a photo. Then The Verge’s Allison Johnson joins the show to talk about her experiment going all-in on AI-ifying her photos. Finally, we answer a hotline about which gadgets to attach to your head when you go for a run.
+
+2
+00:00:03,185 --> 00:00:07,155
+Speaker 1:  Welcome To The Vergecast, the flagship podcast of knowing that the key
+
+3
+00:00:07,155 --> 00:00:10,795
+Speaker 1:  to the camera control on the iPhone 16 is that it does whatever it's gonna
+
+4
+00:00:10,795 --> 00:00:14,515
+Speaker 1:  do when you let go of the button, not when you press the button. Total game
+
+5
+00:00:14,515 --> 00:00:17,915
+Speaker 1:  changer. I'm your friend David Pierce and I am doing what I guess you would
+
+6
+00:00:17,915 --> 00:00:21,675
+Speaker 1:  call a camera audit. So I've decided for a bunch of reasons
+
+7
+00:00:21,675 --> 00:00:25,555
+Speaker 1:  that I want to take fewer photos and videos on my phone, especially
+
+8
+00:00:25,555 --> 00:00:28,915
+Speaker 1:  of like life memories. I think if you're doing it for a purpose, it's fine,
+
+9
+00:00:29,415 --> 00:00:33,315
+Speaker 1:  but I just wanna have these photos and not take them in a way
+
+10
+00:00:33,315 --> 00:00:36,475
+Speaker 1:  that sort of ruins the memory of the moment, if that makes sense. And I have
+
+11
+00:00:36,475 --> 00:00:40,355
+Speaker 1:  definitely been guilty of taking out my phone, taking a picture,
+
+12
+00:00:40,495 --> 00:00:43,475
+Speaker 1:  and then being like, oh, while I'm here, let me check my fantasy team for
+
+13
+00:00:43,475 --> 00:00:46,955
+Speaker 1:  45 minutes. And that's bad So. I'm trying to get outta that. And I've discovered
+
+14
+00:00:47,155 --> 00:00:51,075
+Speaker 1:  I actually have a lot of options around here. I have old phones and really
+
+15
+00:00:51,095 --> 00:00:54,235
+Speaker 1:  any phone from the last couple of years, I have old pixels, old iPhones,
+
+16
+00:00:54,595 --> 00:00:58,075
+Speaker 1:  I have a nothing phone. Like there's a bunch of decent camera options here.
+
+17
+00:00:58,075 --> 00:01:01,675
+Speaker 1:  Maybe I should use one of those. I have a dj, I Osmo pocket.
+
+18
+00:01:02,145 --> 00:01:05,875
+Speaker 1:  This thing takes great videos. I do a lot of Vergecast stuff with it actually.
+
+19
+00:01:05,935 --> 00:01:09,355
+Speaker 1:  And I like it quite a bit. I have an old Sony
+
+20
+00:01:09,725 --> 00:01:13,595
+Speaker 1:  Alpha 6,000 lying around here somewhere. I have a lot of options
+
+21
+00:01:13,815 --> 00:01:17,395
+Speaker 1:  and I was thinking, I need to buy a new camera, some fancy
+
+22
+00:01:17,615 --> 00:01:21,375
+Speaker 1:  new, you know, the Fuji X 100 or whatever. And
+
+23
+00:01:21,735 --> 00:01:25,255
+Speaker 1:  I probably will. Let's be honest, this is just the life I've chosen.
+
+24
+00:01:25,775 --> 00:01:28,455
+Speaker 1:  I spend all of the money on gadgets that I don't have.
+
+25
+00:01:29,755 --> 00:01:33,495
+Speaker 1:  But I think there's something interesting about repurposing one of these
+
+26
+00:01:33,495 --> 00:01:37,375
+Speaker 1:  gadgets. I mean, hell, I have the humane AI pin and the rabbit R one
+
+27
+00:01:37,375 --> 00:01:40,935
+Speaker 1:  here. Both of those are cameras. Maybe there's something to thinking about
+
+28
+00:01:40,955 --> 00:01:43,655
+Speaker 1:  the camera I have with me in a slightly different way. Maybe it's another
+
+29
+00:01:43,655 --> 00:01:46,535
+Speaker 1:  phone, maybe it's an old camera. Maybe I should go just like buy a bunch
+
+30
+00:01:46,535 --> 00:01:49,735
+Speaker 1:  of disposables. I have a friend who does that and it seems sort of delightful.
+
+31
+00:01:51,115 --> 00:01:55,055
+Speaker 1:  Anyway, all we are here to talk about on the show today, almost
+
+32
+00:01:55,055 --> 00:01:58,535
+Speaker 1:  all we're here to talk about is photos. We've been talking about this idea
+
+33
+00:01:58,635 --> 00:02:01,975
+Speaker 1:  of what is a photo for years now as
+
+34
+00:02:02,145 --> 00:02:05,535
+Speaker 1:  smartphone cameras have gotten more and more AI based. And the whole idea
+
+35
+00:02:05,535 --> 00:02:08,815
+Speaker 1:  of what happens when you hit the shutter button on your camera or on your
+
+36
+00:02:08,815 --> 00:02:12,735
+Speaker 1:  phone or wherever has shifted the question of
+
+37
+00:02:12,735 --> 00:02:13,775
+Speaker 1:  what you get out of it.
+
+38
+00:02:15,295 --> 00:02:18,475
+Speaker 1:  It feels harder to know than ever. And it's a thing we've talked about a
+
+39
+00:02:18,475 --> 00:02:22,395
+Speaker 1:  lot on this show. And so for today's episode, we're just gonna dig way
+
+40
+00:02:22,425 --> 00:02:26,115
+Speaker 1:  into that for the whole show. We're gonna talk to the folks behind the super
+
+41
+00:02:26,115 --> 00:02:29,835
+Speaker 1:  popular super cool camera app, Halide, maybe it's Hali, I don't know. We're
+
+42
+00:02:30,035 --> 00:02:33,475
+Speaker 1:  actually gonna sort that out when we get them on here to talk through how
+
+43
+00:02:33,475 --> 00:02:37,235
+Speaker 1:  they think about photos and why their new feature called Process Zero,
+
+44
+00:02:37,485 --> 00:02:40,835
+Speaker 1:  which just removes all of Apple's processing from the iPhone
+
+45
+00:02:41,375 --> 00:02:44,875
+Speaker 1:  has been such a hit. The photos are worse. People really like it, it's really
+
+46
+00:02:45,155 --> 00:02:47,835
+Speaker 1:  fascinating. So we're gonna talk to them about all that stuff. And then Allison
+
+47
+00:02:47,835 --> 00:02:51,795
+Speaker 1:  Johnson on our team has been doing kind of an AI photo
+
+48
+00:02:51,885 --> 00:02:55,675
+Speaker 1:  experiment on herself to see how it changes the photos
+
+49
+00:02:55,775 --> 00:02:58,315
+Speaker 1:  you take, the way that you take them, the way that you edit them, the way
+
+50
+00:02:58,315 --> 00:03:01,845
+Speaker 1:  that you remember them, when you know that you can change just about anything
+
+51
+00:03:01,845 --> 00:03:05,085
+Speaker 1:  about them after the fact. Then we have a hotline question that has nothing
+
+52
+00:03:05,085 --> 00:03:08,605
+Speaker 1:  to do with the photos but is still very fun. All that is coming up in just
+
+53
+00:03:08,645 --> 00:03:11,925
+Speaker 1:  a second. But first, I just realized that if I'm gonna charge this Sony camera,
+
+54
+00:03:12,525 --> 00:03:16,325
+Speaker 1:  I have to get a micro USB cable, and that means I have to go into
+
+55
+00:03:16,325 --> 00:03:19,885
+Speaker 1:  the dreaded bucket of cables to see if I still have a micro
+
+56
+00:03:20,045 --> 00:03:23,925
+Speaker 1:  USB cable. The good news is I'm who I am, so I'm sure that I do. The
+
+57
+00:03:23,925 --> 00:03:27,885
+Speaker 1:  bad news is that bucket of cables is a deeply terrifying
+
+58
+00:03:27,885 --> 00:03:31,085
+Speaker 1:  place. Wish me luck. This is The Vergecast. We'll be right back.
+
+59
+00:05:19,605 --> 00:05:23,525
+Speaker 1:  let's get into it. So this app, Halli or Halide, again, we're gonna
+
+60
+00:05:23,525 --> 00:05:27,205
+Speaker 1:  figure that out in a minute, has been around for a bunch of years and it
+
+61
+00:05:27,205 --> 00:05:30,685
+Speaker 1:  has gone through a lot of changes as the iPhone has gone through a lot of
+
+62
+00:05:30,685 --> 00:05:34,645
+Speaker 1:  changes. Not only, you know, the tech getting better and the things
+
+63
+00:05:34,655 --> 00:05:37,525
+Speaker 1:  about the design changing and the lenses moving around and all that stuff.
+
+64
+00:05:38,025 --> 00:05:41,845
+Speaker 1:  But the whole idea of what the iPhone camera is supposed to do and
+
+65
+00:05:42,085 --> 00:05:45,725
+Speaker 1:  b feels like it has changed. And the two guys, Ben
+
+66
+00:05:45,865 --> 00:05:47,045
+Speaker 1:  and Sebastian, Hey,
+
+67
+00:05:47,065 --> 00:05:50,725
+Speaker 5:  I'm Ben Sand Osky and I'm co-founder of Lux Optics and I'm the
+
+68
+00:05:50,725 --> 00:05:54,645
+Speaker 5:  developer half that works on Halide and Keynote and our other fun side projects.
+
+69
+00:05:55,065 --> 00:05:56,765
+Speaker 1:  I'm Sebastian Dewith, I'm the design half
+
+70
+00:05:56,765 --> 00:06:00,165
+Speaker 6:  Of that that, so the co co-founder and designer slash
+
+71
+00:06:00,445 --> 00:06:02,045
+Speaker 6:  photographer part of it
+
+72
+00:06:02,795 --> 00:06:06,405
+Speaker 1:  Have been going through all of this and trying to figure out not only
+
+73
+00:06:06,625 --> 00:06:10,325
+Speaker 1:  how to make a really great camera app, but what kind of camera app people
+
+74
+00:06:10,555 --> 00:06:14,445
+Speaker 1:  need now given what the iPhone and other smartphones are becoming.
+
+75
+00:06:15,065 --> 00:06:18,765
+Speaker 1:  We had a really fun conversation, NELI and I grabbed Ben and Sebastian
+
+76
+00:06:19,385 --> 00:06:22,965
+Speaker 1:  hashed all this out for a long time. Let's hear it. Excellent. All right.
+
+77
+00:06:22,965 --> 00:06:24,765
+Speaker 1:  And Neli Patel is also here. Hi Neli.
+
+78
+00:06:25,245 --> 00:06:28,325
+Speaker 7:  I think we should just get them to pronounce Halide over and over
+
+79
+00:06:28,325 --> 00:06:31,405
+Speaker 1:  Again. You, you just did the thing that I wanted to do first, which is how
+
+80
+00:06:31,545 --> 00:06:35,085
+Speaker 1:  in the, how is it how light or is it Halide? Can we, can we solve this for
+
+81
+00:06:35,085 --> 00:06:38,885
+Speaker 1:  people in the world right now? You just said Halide Ben, is this the official
+
+82
+00:06:38,885 --> 00:06:39,445
+Speaker 1:  correct answer?
+
+83
+00:06:40,435 --> 00:06:44,355
+Speaker 5:  I alternate because it's based on halogen, right? Oh God. and it so
+
+84
+00:06:44,355 --> 00:06:48,315
+Speaker 5:  Silver Halide halogen. As long as it's not Haliday, which is a Middle Eastern
+
+85
+00:06:48,315 --> 00:06:49,275
+Speaker 5:  name. No,
+
+86
+00:06:49,275 --> 00:06:50,475
+Speaker 7:  That's what it is now. Well,
+
+87
+00:06:50,475 --> 00:06:53,275
+Speaker 6:  Yeah, sorry. There was, there was actually someone who worked at The Verge,
+
+88
+00:06:53,625 --> 00:06:57,155
+Speaker 6:  John Porter, I think he has moved on now, but he, he once pr pronounce it
+
+89
+00:06:57,155 --> 00:07:00,835
+Speaker 6:  on a podcast Halide and we sent him a Happy Holidays Christmas card and
+
+90
+00:07:01,125 --> 00:07:04,555
+Speaker 6:  we'll never let him live that down. We continue to do this every year because
+
+91
+00:07:04,575 --> 00:07:05,595
+Speaker 6:  that's very good. It's so good.
+
+92
+00:07:06,775 --> 00:07:07,475
+Speaker 7:  That's very good.
+
+93
+00:07:07,835 --> 00:07:11,235
+Speaker 6:  Haylight or highlight, depending on how, how fancy you feel. No,
+
+94
+00:07:11,575 --> 00:07:15,155
+Speaker 1:  No. You guys, this is the worst. We have to pick one. Let's do this right
+
+95
+00:07:15,155 --> 00:07:17,795
+Speaker 1:  now here on the verse cast, can we name your app please?
+
+96
+00:07:18,105 --> 00:07:18,875
+Speaker 7:  What is your name
+
+97
+00:07:19,415 --> 00:07:23,235
+Speaker 5:  On 3 1 2? Allied. Allied. Okay, there we go.
+
+98
+00:07:23,255 --> 00:07:26,155
+Speaker 5:  All right, good. And I, I just wanna point out that like when we release,
+
+99
+00:07:26,355 --> 00:07:26,795
+Speaker 5:  I want point
+
+100
+00:07:26,795 --> 00:07:30,155
+Speaker 7:  Out that you super cheated in one Seb. Say it first.
+
+101
+00:07:30,715 --> 00:07:34,555
+Speaker 5:  I I I think he went on, he went on two. You never go on
+
+102
+00:07:34,695 --> 00:07:34,915
+Speaker 5:  two.
+
+103
+00:07:36,245 --> 00:07:38,795
+Speaker 6:  We're a very good team actually when it comes down to it.
+
+104
+00:07:39,315 --> 00:07:42,555
+Speaker 5:  I just wanna close this discourse on names that we were like when we're building
+
+105
+00:07:42,555 --> 00:07:46,355
+Speaker 5:  keynote No one can mess up that name. And then it was featured in the
+
+106
+00:07:46,355 --> 00:07:50,155
+Speaker 5:  keynote from Apple and they told us we're having trouble
+
+107
+00:07:50,155 --> 00:07:53,955
+Speaker 5:  because it sounds a lot like Keynote Ooh and So I think
+
+108
+00:07:53,955 --> 00:07:56,835
+Speaker 5:  every time we build a new app it just needs to challenge someone.
+
+109
+00:07:57,395 --> 00:08:00,515
+Speaker 6:  Well the best part was that I was like, it's actually pronounced kno. And
+
+110
+00:08:00,515 --> 00:08:02,395
+Speaker 6:  then they were like, really? And I was like, no.
+
+111
+00:08:03,315 --> 00:08:06,035
+Speaker 1:  Happy Kino everybody. That's what we're doing now.
+
+112
+00:08:07,145 --> 00:08:09,795
+Speaker 1:  Okay. So I. Think we, we have a bunch of stuff to talk about and we, we should
+
+113
+00:08:09,795 --> 00:08:13,435
+Speaker 1:  just, we've been getting into our feelings on this podcast about what a photo
+
+114
+00:08:13,495 --> 00:08:16,795
+Speaker 1:  is for years now, and we have invited you two to essentially do the same
+
+115
+00:08:16,795 --> 00:08:19,875
+Speaker 1:  thing with us. But my first question as we get into this, I wanna talk a
+
+116
+00:08:19,875 --> 00:08:23,475
+Speaker 1:  lot about Process zero and a lot about what has changed with iPhone photography
+
+117
+00:08:23,475 --> 00:08:26,995
+Speaker 1:  in particular and all this stuff. But I am desperately curious like when,
+
+118
+00:08:26,995 --> 00:08:30,875
+Speaker 1:  when you guys started building a camera app many years ago at this point,
+
+119
+00:08:32,255 --> 00:08:35,795
+Speaker 1:  did you know at the time how big a like, philosophical
+
+120
+00:08:36,355 --> 00:08:40,115
+Speaker 1:  exercise it was to build a camera app? I think we, we think about it as like
+
+121
+00:08:40,115 --> 00:08:43,995
+Speaker 1:  you, you add a bunch of filters and buttons, but it's really like
+
+122
+00:08:44,195 --> 00:08:47,595
+Speaker 1:  you, you are making decisions about the universe when you build a camera
+
+123
+00:08:47,655 --> 00:08:50,075
+Speaker 1:  app in a way that I think people are only coming around to. Did you know
+
+124
+00:08:50,075 --> 00:08:52,675
+Speaker 1:  this all those years ago when you started working on, on Allied
+
+125
+00:08:53,015 --> 00:08:56,965
+Speaker 5:  So I guess like the origin story? I think like the
+
+126
+00:08:56,965 --> 00:09:00,405
+Speaker 5:  first, the first code commit for a Halide was 2014.
+
+127
+00:09:00,865 --> 00:09:01,885
+Speaker 5:  For about like one day it's pronounced
+
+128
+00:09:01,885 --> 00:09:02,405
+Speaker 1:  How, actually
+
+129
+00:09:02,845 --> 00:09:05,285
+Speaker 5:  I don't, I'm gonna switch three times over. Oh my god.
+
+130
+00:09:05,905 --> 00:09:06,725
+Speaker 1:  All over the place.
+
+131
+00:09:07,545 --> 00:09:11,085
+Speaker 5:  So for Halladay in 2014 it was like
+
+132
+00:09:11,495 --> 00:09:15,365
+Speaker 5:  three lines of code and then put away until like 2016.
+
+133
+00:09:15,905 --> 00:09:19,325
+Speaker 5:  And so I'd say that in 2016 none of this computational
+
+134
+00:09:19,355 --> 00:09:23,125
+Speaker 5:  photography was happening. It was to,
+
+135
+00:09:23,185 --> 00:09:27,125
+Speaker 5:  to put it simply, a lot of these apps were just wrappers around the, the,
+
+136
+00:09:27,125 --> 00:09:30,805
+Speaker 5:  the APIs that Apple gave you and it was just a more pretty veneer. And so
+
+137
+00:09:30,865 --> 00:09:34,245
+Speaker 5:  we, we were doing at the time was, and then I connected with Sebastian in
+
+138
+00:09:34,245 --> 00:09:38,005
+Speaker 5:  2016, like we were adding a value like focus
+
+139
+00:09:38,115 --> 00:09:41,325
+Speaker 5:  peaking so that you could actually tell what was in focus. You could dial
+
+140
+00:09:41,345 --> 00:09:45,165
+Speaker 5:  in manual values, but for the most part until Apple released
+
+141
+00:09:45,265 --> 00:09:48,875
+Speaker 5:  raw that up there about it, it it was that you had no
+
+142
+00:09:49,025 --> 00:09:51,035
+Speaker 5:  real say on how the final image would look.
+
+143
+00:09:51,775 --> 00:09:55,275
+Speaker 6:  And what's interesting is, I think when it came out, so highlight is, is
+
+144
+00:09:55,275 --> 00:09:59,035
+Speaker 6:  now seven years old. It's, it, it came out in 2017,
+
+145
+00:09:59,375 --> 00:10:03,075
+Speaker 6:  that's exactly when the iPhone 10 launched that year. And with the iPhone
+
+146
+00:10:03,075 --> 00:10:06,235
+Speaker 6:  10, I think Apple started using the word smart HDR for the first time and
+
+147
+00:10:06,235 --> 00:10:08,675
+Speaker 6:  that kind of, they started using that very famous slide where it take one
+
+148
+00:10:08,675 --> 00:10:11,795
+Speaker 6:  photo and it kind of onion slice it into like 12 of them and it to try to
+
+149
+00:10:11,795 --> 00:10:14,435
+Speaker 6:  show you like, oh look, we look, we do a lot of stuff and there's a lot of
+
+150
+00:10:14,435 --> 00:10:18,275
+Speaker 6:  smart things happening here. And I think that was, you know, around the same
+
+151
+00:10:18,275 --> 00:10:20,795
+Speaker 6:  band that Pixel started, you know, talking, the Pixel team started talking
+
+152
+00:10:20,795 --> 00:10:24,315
+Speaker 6:  about like the Italian renaissance and how we can use science to influence
+
+153
+00:10:24,315 --> 00:10:26,835
+Speaker 6:  things. It was, it was a very early time where people were trying to figure
+
+154
+00:10:26,855 --> 00:10:30,195
+Speaker 6:  out like how do we get better images out of these tiny sensors? And that's
+
+155
+00:10:30,195 --> 00:10:32,595
+Speaker 6:  when everything exploded with like night mode and all those kind of things.
+
+156
+00:10:32,595 --> 00:10:36,355
+Speaker 6:  When it basically turned photography from just taking
+
+157
+00:10:36,475 --> 00:10:40,315
+Speaker 6:  a snap to like a data science and it was like, okay, no, if we actually
+
+158
+00:10:40,315 --> 00:10:42,915
+Speaker 6:  just use these processors and like do a crazy amount of computation on it,
+
+159
+00:10:43,375 --> 00:10:47,195
+Speaker 6:  we can fundamentally alter the output and we can just,
+
+160
+00:10:47,335 --> 00:10:50,395
+Speaker 6:  we can beat physics, we can just cheat it. Like we can do depths of field,
+
+161
+00:10:50,415 --> 00:10:52,595
+Speaker 6:  we can all these things that big cameras can because they have giant lenses
+
+162
+00:10:52,595 --> 00:10:55,755
+Speaker 6:  and giant sensors we can shoot at night and we can totally take photos with
+
+163
+00:10:55,755 --> 00:10:59,355
+Speaker 6:  like bouquet. It's not real, but nobody cares because you're still taking
+
+164
+00:10:59,355 --> 00:11:01,395
+Speaker 6:  a photo at night, you're still taking a photo with what looks like a shell
+
+165
+00:11:01,395 --> 00:11:05,355
+Speaker 6:  depth of field. And so we were kind of emerging at
+
+166
+00:11:05,515 --> 00:11:07,235
+Speaker 6:  the same time as that all emerging. So,
+
+167
+00:11:07,235 --> 00:11:11,195
+Speaker 1:  And and how much control over that stuff do you get? Like do you look
+
+168
+00:11:11,195 --> 00:11:13,955
+Speaker 1:  at that in those early days as like, oh my God, look at this incredible toolkit,
+
+169
+00:11:14,095 --> 00:11:17,875
+Speaker 1:  we suddenly have to play with all of the, the light that this thing is
+
+170
+00:11:17,875 --> 00:11:20,115
+Speaker 1:  capturing instead of just doing like a thing at the end of the pipeline?
+
+171
+00:11:20,455 --> 00:11:24,075
+Speaker 1:  Or is it like, oh, this is barely photography
+
+172
+00:11:24,075 --> 00:11:27,715
+Speaker 1:  anymore. What, what, how do we deal with this? Like what, how do you look
+
+173
+00:11:27,715 --> 00:11:29,275
+Speaker 1:  at that when those tools start to come available?
+
+174
+00:11:29,835 --> 00:11:33,595
+Speaker 5:  I, I'd say like around 2020 is when things started to converge of where
+
+175
+00:11:33,595 --> 00:11:37,475
+Speaker 5:  things were getting a lot smarter. Also, we had like this existential question
+
+176
+00:11:37,475 --> 00:11:40,835
+Speaker 5:  of why should our app exist when the first party cameras getting so much
+
+177
+00:11:40,835 --> 00:11:44,555
+Speaker 5:  better? And fortunately both Sebastian and I were already shooting raw
+
+178
+00:11:44,585 --> 00:11:48,555
+Speaker 5:  photography, which in a nutshell means that you're capturing
+
+179
+00:11:48,555 --> 00:11:52,075
+Speaker 5:  the sensor data as a file and then you can bring it into a third party app
+
+180
+00:11:52,075 --> 00:11:55,845
+Speaker 5:  like Lightroom and you can make different decisions on how you wanna process
+
+181
+00:11:55,905 --> 00:11:59,605
+Speaker 5:  the final image. And so around 2020 was like we were starting to see like,
+
+182
+00:11:59,605 --> 00:12:03,445
+Speaker 5:  wait a minute, like what Apple's doing is great, you tap a button and anyone
+
+183
+00:12:03,445 --> 00:12:06,765
+Speaker 5:  can get a good photo. Like my parents who don't know anything about photography
+
+184
+00:12:06,785 --> 00:12:09,965
+Speaker 5:  tap a button and they got a photo of their grandchild, right? But If, you
+
+185
+00:12:09,965 --> 00:12:13,925
+Speaker 5:  looked at the underlying sensor, apple is kind of underselling like
+
+186
+00:12:14,225 --> 00:12:17,645
+Speaker 5:  how much better the hardware was getting. And then over time the sensors
+
+187
+00:12:17,645 --> 00:12:20,925
+Speaker 5:  were getting bigger and better, the optics were getting better. And so that's
+
+188
+00:12:20,925 --> 00:12:23,405
+Speaker 5:  when we started being like, wait a minute, like how can we build a feature
+
+189
+00:12:23,405 --> 00:12:25,125
+Speaker 5:  around this where it stands on its own?
+
+190
+00:12:25,665 --> 00:12:29,565
+Speaker 7:  One of the questions I have about RAW is what it has
+
+191
+00:12:29,765 --> 00:12:33,685
+Speaker 7:  come to signify what is a raw photo? Yeah, yeah, exactly.
+
+192
+00:12:33,905 --> 00:12:37,845
+Speaker 7:  Not, not quite that, but people are like,
+
+193
+00:12:37,885 --> 00:12:41,645
+Speaker 7:  I don't like my iPhone 15 camera or I don't like my iPhone 14 camera.
+
+194
+00:12:41,945 --> 00:12:45,885
+Speaker 7:  And then you see in the comments on social media, people say, oh
+
+195
+00:12:45,885 --> 00:12:49,525
+Speaker 7:  you should shoot raw. And my reaction to that is like, that
+
+196
+00:12:49,905 --> 00:12:53,645
+Speaker 7:  is, that's a horrible suggestion, but all it really, because
+
+197
+00:12:53,645 --> 00:12:57,205
+Speaker 7:  you're gonna get this giant file and you actually have to process it to a
+
+198
+00:12:57,205 --> 00:13:01,125
+Speaker 7:  look. But what it really means is, oh, there's a way to turn
+
+199
+00:13:01,125 --> 00:13:04,485
+Speaker 7:  off this processing, right? Even inside of Apple's like pro raw system,
+
+200
+00:13:04,785 --> 00:13:08,525
+Speaker 7:  you're gonna generate a file that lets you
+
+201
+00:13:08,715 --> 00:13:12,485
+Speaker 7:  turn off this ultra HDR look. And that just means
+
+202
+00:13:12,485 --> 00:13:15,725
+Speaker 7:  something to people. And the fact that the word is raw I think is deeply
+
+203
+00:13:16,205 --> 00:13:20,125
+Speaker 7:  fascinating. Like the word and what it means and what you get are all kind
+
+204
+00:13:20,125 --> 00:13:23,405
+Speaker 7:  of wrapped up in a mess. But you guys are describing
+
+205
+00:13:24,395 --> 00:13:27,685
+Speaker 7:  like, we're gonna take the sensor data and start making different kinds of
+
+206
+00:13:27,685 --> 00:13:28,365
+Speaker 7:  images with it.
+
+207
+00:13:28,605 --> 00:13:31,965
+Speaker 5:  I, I think we make an effort to say native raw versus pro raw because what
+
+208
+00:13:31,965 --> 00:13:35,725
+Speaker 5:  Apple calls raw in pro raw is not technically raw.
+
+209
+00:13:36,025 --> 00:13:39,445
+Speaker 5:  And If, you read the comments on a photography website like a pet aix,
+
+210
+00:13:39,945 --> 00:13:43,805
+Speaker 5:  I'm sorry, but it'll be just constantly that guy being
+
+211
+00:13:43,805 --> 00:13:46,965
+Speaker 5:  like, you know, it's not really raw and like, yeah, yeah. Cool. Awesome.
+
+212
+00:13:47,035 --> 00:13:47,325
+Speaker 5:  Well
+
+213
+00:13:47,325 --> 00:13:49,605
+Speaker 7:  Explain the difference for people who don't, who aren't as deep in the weeds
+
+214
+00:13:49,605 --> 00:13:53,325
+Speaker 7:  as we are. What is, what is Apple's version of pro raw? What is your definition
+
+215
+00:13:53,325 --> 00:13:53,565
+Speaker 7:  of native
+
+216
+00:13:53,625 --> 00:13:57,605
+Speaker 5:  Raw? So technically raw is you have these sensors
+
+217
+00:13:57,605 --> 00:14:01,405
+Speaker 5:  that have voltage values from light converted to, you know,
+
+218
+00:14:01,405 --> 00:14:05,165
+Speaker 5:  these numbers, right? And then that's it. And then you need to run an
+
+219
+00:14:05,165 --> 00:14:09,085
+Speaker 5:  algorithm to take on the sensor. There's this Bayer filter which
+
+220
+00:14:09,085 --> 00:14:12,805
+Speaker 5:  are discreet red, green and blue values. So it needs to kind of mush 'em
+
+221
+00:14:12,805 --> 00:14:16,765
+Speaker 5:  up in a blender and it's all like, it's like basically like If you were to
+
+222
+00:14:16,765 --> 00:14:20,565
+Speaker 5:  buy the ingredients of making a cake and then the JPEG
+
+223
+00:14:20,565 --> 00:14:24,445
+Speaker 5:  is the final cake. Well I guess pro raw
+
+224
+00:14:24,445 --> 00:14:28,005
+Speaker 5:  is kinda like a half-baked cake. Like, like you get to pick the
+
+225
+00:14:28,005 --> 00:14:31,005
+Speaker 5:  frosting If you, If you like sprinkles, whatever,
+
+226
+00:14:32,085 --> 00:14:36,005
+Speaker 5:  raisins, I hate you. But pro raw is Apple solution to what you're
+
+227
+00:14:36,005 --> 00:14:39,525
+Speaker 5:  just talking about where it felt like you needed a PhD in image
+
+228
+00:14:39,525 --> 00:14:43,285
+Speaker 5:  processing to take one of these native raws and make them approximate
+
+229
+00:14:43,525 --> 00:14:46,045
+Speaker 5:  anything that Apple has. And that's partly because Apple, when they take
+
+230
+00:14:46,085 --> 00:14:49,845
+Speaker 5:  a photo, they're actually taking a burst of nine photos and then merging
+
+231
+00:14:49,845 --> 00:14:53,765
+Speaker 5:  them together. So the concept of having any of these Bayer underlying
+
+232
+00:14:53,765 --> 00:14:57,645
+Speaker 5:  values just doesn't exist anymore because it's all gonna be squashed
+
+233
+00:14:57,765 --> 00:15:01,205
+Speaker 5:  together to create smart HDR to reduce noise and do all these effects.
+
+234
+00:15:01,925 --> 00:15:05,885
+Speaker 5:  I really wish Apple hadn't said pro raw because it's, it's gonna haunt me
+
+235
+00:15:05,885 --> 00:15:08,685
+Speaker 5:  for the rest of my life explaining this to people. But it's like kind of
+
+236
+00:15:09,005 --> 00:15:11,965
+Speaker 5:  halfway between the native raw and the final jpeg.
+
+237
+00:15:12,425 --> 00:15:15,245
+Speaker 6:  And I think what is a really important thing to say there? 'cause I see a
+
+238
+00:15:15,245 --> 00:15:18,925
+Speaker 6:  lot of people saying something like, oh, like
+
+239
+00:15:19,275 --> 00:15:22,445
+Speaker 6:  this is just the same, like If, you just take a raw photo. That that in itself
+
+240
+00:15:22,445 --> 00:15:26,285
+Speaker 6:  is a really fascinating sort of phrase because If you say a raw photo,
+
+241
+00:15:26,565 --> 00:15:30,405
+Speaker 6:  a raw file technically is not a photo yet. So what, what Ben said, you know
+
+242
+00:15:30,405 --> 00:15:33,965
+Speaker 6:  it's like you got this sensor data, red green two, green two
+
+243
+00:15:34,265 --> 00:15:38,205
+Speaker 6:  to one blue, one red subpixels to make up the pixels. All that data needs
+
+244
+00:15:38,205 --> 00:15:40,645
+Speaker 6:  to be combined. You can think of it as kind of a giant spreadsheet that just
+
+245
+00:15:40,645 --> 00:15:43,205
+Speaker 6:  like has all these values of what the sensor caught in that moment in time
+
+246
+00:15:43,205 --> 00:15:46,405
+Speaker 6:  from one photo, one important, one photo.
+
+247
+00:15:47,665 --> 00:15:51,475
+Speaker 6:  And that's not a picture like you have to process
+
+248
+00:15:51,875 --> 00:15:55,315
+Speaker 6:  a native raw file to get the photo out of it. So per
+
+249
+00:15:55,315 --> 00:15:58,875
+Speaker 6:  definition, a raw file has to be processed for it to be displayed on a screen.
+
+250
+00:15:58,875 --> 00:16:01,715
+Speaker 6:  It actually has too much information to even be displayed on a screen. And
+
+251
+00:16:01,715 --> 00:16:05,515
+Speaker 6:  so a pro pro raw file is, is essentially already done that step. It has
+
+252
+00:16:05,515 --> 00:16:08,515
+Speaker 6:  created an image because a lot of the processing that happens on iPhone images
+
+253
+00:16:09,195 --> 00:16:13,035
+Speaker 6:  requires it to become an RGB image, a bitmap essentially. And so it's a
+
+254
+00:16:13,035 --> 00:16:16,795
+Speaker 6:  very deep image with separate information for stuff like what Neil mentioned,
+
+255
+00:16:16,795 --> 00:16:19,275
+Speaker 6:  like the tone mapping, which you now have the tone control for, for iPhone
+
+256
+00:16:19,275 --> 00:16:23,155
+Speaker 6:  16 that's separately stored in the profile game table. So you can now
+
+257
+00:16:23,495 --> 00:16:26,875
+Speaker 6:  adjust just how much that HDR effect is. You can adjust a white balance completely,
+
+258
+00:16:26,935 --> 00:16:29,835
+Speaker 6:  you can adjust the amount of sharpening. Noise reduction is something that
+
+259
+00:16:29,835 --> 00:16:33,355
+Speaker 6:  is baked in per se, and not just because Apple thinks
+
+260
+00:16:33,525 --> 00:16:36,475
+Speaker 6:  noise shouldn't exist, like notably native raw files have a lot of noise
+
+261
+00:16:36,475 --> 00:16:39,155
+Speaker 6:  because you have a tiny sensor, you can have a lot of noise but If, you combine
+
+262
+00:16:39,155 --> 00:16:42,435
+Speaker 6:  images, you can think of it If, you perfectly combine the same image. Noise
+
+263
+00:16:42,535 --> 00:16:46,035
+Speaker 6:  is different for every frame. So you're gonna average out the noise no matter
+
+264
+00:16:46,035 --> 00:16:47,395
+Speaker 6:  what you do. If you're combining images
+
+265
+00:16:47,975 --> 00:16:51,035
+Speaker 5:  Behind the scenes, like when we're talking about raws, we've been trying
+
+266
+00:16:51,055 --> 00:16:54,915
+Speaker 5:  to call them digital negatives, which I
+
+267
+00:16:54,915 --> 00:16:57,755
+Speaker 5:  don't know if that's any better for casual users, but it's the same concept
+
+268
+00:16:57,755 --> 00:17:01,675
+Speaker 5:  of when you had film photography you would have a negative, but then a
+
+269
+00:17:01,675 --> 00:17:05,395
+Speaker 5:  lot of the work of great photographers would be during the development
+
+270
+00:17:05,955 --> 00:17:09,395
+Speaker 5:  where you would take the negative and print it on paper, you would dodge
+
+271
+00:17:09,415 --> 00:17:13,115
+Speaker 5:  and burn it to recover the dynamic range, which is now an algorithm that
+
+272
+00:17:13,115 --> 00:17:16,155
+Speaker 5:  Apple does for you. But like there's really cool videos of like Ansel Adams
+
+273
+00:17:16,155 --> 00:17:20,115
+Speaker 5:  with some of his majestic landscapes, he's kind of doing like analog
+
+274
+00:17:20,115 --> 00:17:22,795
+Speaker 5:  photoshopping where he is like, okay, I gotta bring back some of the sky
+
+275
+00:17:22,795 --> 00:17:26,115
+Speaker 5:  values and bump this part up. So this isn't particularly
+
+276
+00:17:26,775 --> 00:17:30,555
+Speaker 5:  new, but Apple gives you like, okay, you want it on or off or
+
+277
+00:17:30,555 --> 00:17:33,235
+Speaker 5:  somewhere in between. That's all right. You can have any colors as long as
+
+278
+00:17:33,235 --> 00:17:34,235
+Speaker 5:  it's black, like Yeah,
+
+279
+00:17:34,465 --> 00:17:36,915
+Speaker 6:  Well I was just gonna say it's, it's just fascinating to me that a lot of
+
+280
+00:17:36,915 --> 00:17:40,595
+Speaker 6:  people say, I see all the processing that's happening and and maybe sometimes
+
+281
+00:17:40,595 --> 00:17:42,875
+Speaker 6:  don't even have a word for it. Like that's kinda like what you're alluding
+
+282
+00:17:42,875 --> 00:17:46,835
+Speaker 6:  to. Neli is like people are just like taking photos and, and then they take
+
+283
+00:17:46,835 --> 00:17:50,485
+Speaker 6:  a photo with Disney that's like prefer it even though it, it lacks this absolute
+
+284
+00:17:50,485 --> 00:17:54,445
+Speaker 6:  like, I mean literally the best teams in the world right now in in photography
+
+285
+00:17:54,445 --> 00:17:57,605
+Speaker 6:  are working at Google, are working at Samsung, are working at Huawei, at
+
+286
+00:17:57,605 --> 00:18:01,285
+Speaker 6:  Apple, like to make this pro processing to do all this processing engineering
+
+287
+00:18:01,345 --> 00:18:04,765
+Speaker 6:  and they work from the silicon up to do like insane innovations and then
+
+288
+00:18:04,765 --> 00:18:08,005
+Speaker 6:  people, because they're like, haha, that was an app and skip all that and
+
+289
+00:18:08,005 --> 00:18:11,805
+Speaker 6:  get what of sometimes is an objectively worse image. If you were to objectively
+
+290
+00:18:11,805 --> 00:18:13,245
+Speaker 6:  judge image quality. But
+
+291
+00:18:14,785 --> 00:18:18,365
+Speaker 6:  we find that people, yeah, people just seem to have
+
+292
+00:18:18,725 --> 00:18:22,205
+Speaker 6:  a current preference for authenticity through imperfection I think. And that
+
+293
+00:18:22,205 --> 00:18:22,965
+Speaker 6:  is really interesting.
+
+294
+00:18:23,725 --> 00:18:26,365
+Speaker 1:  I just keep coming back to this idea that like, and we've talked a bunch
+
+295
+00:18:26,365 --> 00:18:30,085
+Speaker 1:  about this on the show, that there is this increasingly pervasive feeling
+
+296
+00:18:31,055 --> 00:18:34,925
+Speaker 1:  among people that their iPhone camera in particular is bad. And,
+
+297
+00:18:34,945 --> 00:18:38,845
+Speaker 1:  and I think like to your point, the the on any objective
+
+298
+00:18:38,845 --> 00:18:41,805
+Speaker 1:  measure of quality, it, it gets better and better and better. And yet people
+
+299
+00:18:41,805 --> 00:18:45,685
+Speaker 1:  seem to like it less and less at the end. And
+
+300
+00:18:45,725 --> 00:18:49,525
+Speaker 1:  I like that disconnect is so fascinating to me because, and and it goes back
+
+301
+00:18:49,525 --> 00:18:53,245
+Speaker 1:  to what you were saying about like the, the iPhone has decided that noise
+
+302
+00:18:53,305 --> 00:18:57,125
+Speaker 1:  is bad period, right? Like it noise sucks, shadows
+
+303
+00:18:57,595 --> 00:19:01,045
+Speaker 1:  suck, they should not be allowed and we will get rid of them at all costs.
+
+304
+00:19:01,225 --> 00:19:04,725
+Speaker 1:  And I think like to your point about imperfections, like I think that's right
+
+305
+00:19:04,725 --> 00:19:08,525
+Speaker 1:  and I think everybody has sort of ideas about what older photos
+
+306
+00:19:08,555 --> 00:19:11,725
+Speaker 1:  look like and there is a thing where like photos can be too good, but I also
+
+307
+00:19:11,725 --> 00:19:15,565
+Speaker 1:  think as the hardware has gotten better, the software has
+
+308
+00:19:15,565 --> 00:19:19,525
+Speaker 1:  gotten vastly more opinionated about how a photo is supposed to look
+
+309
+00:19:20,465 --> 00:19:23,245
+Speaker 1:  in a way that just feels sort of incongruous, right? And, and like maybe
+
+310
+00:19:23,245 --> 00:19:26,845
+Speaker 1:  what's happening now is we're getting some of that choice back where it's
+
+311
+00:19:26,845 --> 00:19:28,925
+Speaker 1:  like, oh the hardware's really good, you can do a bunch of stuff with it.
+
+312
+00:19:30,245 --> 00:19:34,175
+Speaker 1:  Here are some options. and it seems like maybe that's what you, you
+
+313
+00:19:34,175 --> 00:19:36,735
+Speaker 1:  guys have even seen as developers is some of those tools are becoming available
+
+314
+00:19:36,735 --> 00:19:39,935
+Speaker 1:  to you to make available to other people and that actually that's what people
+
+315
+00:19:40,255 --> 00:19:43,815
+Speaker 1:  want now is some, some choice back with all this great hardware
+
+316
+00:19:44,085 --> 00:19:46,775
+Speaker 1:  instead of just wild new ideas about shadows.
+
+317
+00:19:46,995 --> 00:19:50,695
+Speaker 5:  So actually can I just dial back, I just said that process
+
+318
+00:19:50,805 --> 00:19:54,615
+Speaker 5:  zero is rebranded raw and I can already see a thousand comments on Pet
+
+319
+00:19:54,635 --> 00:19:58,015
+Speaker 5:  Aix and I thank you for pointing out haunted
+
+320
+00:19:58,155 --> 00:19:58,975
+Speaker 1:  By the comment section
+
+321
+00:19:59,095 --> 00:20:00,255
+Speaker 6:  On Pix. That's what I'm
+
+322
+00:20:00,255 --> 00:20:03,735
+Speaker 5:  Getting from you. Yeah, yeah. No, it's, I I think that it, you know, but
+
+323
+00:20:03,735 --> 00:20:07,615
+Speaker 5:  that's between me and my therapist. Now the, the, the, the thing is
+
+324
+00:20:07,615 --> 00:20:10,655
+Speaker 5:  what the value add here is that we do have opinions about, you know, there's
+
+325
+00:20:10,655 --> 00:20:13,655
+Speaker 5:  a million different ways that we could develop the raw. And what I think
+
+326
+00:20:13,655 --> 00:20:17,615
+Speaker 5:  with Process zero is we decided we like noise. I have
+
+327
+00:20:17,615 --> 00:20:21,255
+Speaker 5:  a friend who works in visual effects and he calls noise analog
+
+328
+00:20:21,255 --> 00:20:24,975
+Speaker 5:  dithering. And you can't remove noise without removing these
+
+329
+00:20:24,975 --> 00:20:28,935
+Speaker 5:  details because that's what the was captured at the time. We have opinions
+
+330
+00:20:28,935 --> 00:20:32,535
+Speaker 5:  on sharpening, our images are a little softer by design
+
+331
+00:20:32,795 --> 00:20:36,495
+Speaker 5:  and If, you look at, you know, you look at analog photography
+
+332
+00:20:36,775 --> 00:20:39,695
+Speaker 5:  actually last summer before we really went all in on this, I was shooting
+
+333
+00:20:39,695 --> 00:20:42,695
+Speaker 5:  with a, a Cannon AE one on 35 millimeter film
+
+334
+00:20:43,555 --> 00:20:47,510
+Speaker 5:  and I was like, oh, it just feels so warm. Like it's, it's so flawed but
+
+335
+00:20:47,525 --> 00:20:51,205
+Speaker 5:  I love it the fact that you can't get this crazy HDR in there.
+
+336
+00:20:51,545 --> 00:20:54,605
+Speaker 5:  And I think the challenge is gonna be as we're building out more features
+
+337
+00:20:54,665 --> 00:20:58,205
+Speaker 5:  and we start, you know, adding the ability, like in the future If you wanna
+
+338
+00:20:58,205 --> 00:21:02,125
+Speaker 5:  recover dynamic range, okay, at what point do we allow users to make fake
+
+339
+00:21:02,125 --> 00:21:06,045
+Speaker 5:  looking images, right? It's something we'll have to face in
+
+340
+00:21:06,045 --> 00:21:06,325
+Speaker 5:  the future.
+
+341
+00:21:06,785 --> 00:21:10,405
+Speaker 1:  That's a big question. And at what point does something become fake looking
+
+342
+00:21:10,825 --> 00:21:14,445
+Speaker 1:  is like back to big philosophical existential questions about photos. Like
+
+343
+00:21:14,575 --> 00:21:17,445
+Speaker 1:  where to draw that line is super messy.
+
+344
+00:21:18,165 --> 00:21:20,685
+Speaker 6:  I think one of the things that you're touching on that route too is like
+
+345
+00:21:21,505 --> 00:21:25,485
+Speaker 6:  at some point these cameras all started looking very similar, right? So you
+
+346
+00:21:25,485 --> 00:21:28,245
+Speaker 6:  get your photo out of Samsung phone of the pixel of the iPhone and they all
+
+347
+00:21:28,245 --> 00:21:32,045
+Speaker 6:  look like they boost the shadows way up and there there could
+
+348
+00:21:32,045 --> 00:21:35,245
+Speaker 6:  not be any reduction or clipping of dynamic range that is just considered
+
+349
+00:21:35,245 --> 00:21:38,005
+Speaker 6:  data loss. We cannot have any noise. We've all agreed on that. And I think
+
+350
+00:21:38,005 --> 00:21:40,925
+Speaker 6:  what the, that's simply the result of making a camera for the greatest common
+
+351
+00:21:40,925 --> 00:21:43,845
+Speaker 6:  denominator. Like this is a camera used to work for everyone. I think at
+
+352
+00:21:43,845 --> 00:21:46,885
+Speaker 6:  some point someone was mentioning like, oh I use my camera for like reading
+
+353
+00:21:46,885 --> 00:21:49,445
+Speaker 6:  like a serial number on the bottom of like a car or something, right? Like
+
+354
+00:21:49,445 --> 00:21:52,325
+Speaker 6:  at that point like If, you don't If you get an artistic photo that just has
+
+355
+00:21:52,325 --> 00:21:55,965
+Speaker 6:  like really nice kora rendering that's really cool for you but like this
+
+356
+00:21:55,965 --> 00:21:59,365
+Speaker 6:  camera literally doesn't work for me anymore. And so that's a really, really
+
+357
+00:21:59,365 --> 00:22:03,285
+Speaker 6:  difficult position to be in. I often tell people like, wow, I, I
+
+358
+00:22:03,285 --> 00:22:06,445
+Speaker 6:  would on the one side it's a fascinating job to design the camera at Apple,
+
+359
+00:22:06,445 --> 00:22:08,805
+Speaker 6:  but at the same time I have to make a camera that works for my one and a
+
+360
+00:22:08,805 --> 00:22:12,605
+Speaker 6:  half year old daughter and like my 80-year-old father and myself
+
+361
+00:22:12,675 --> 00:22:16,005
+Speaker 6:  like who is like an incredibly pedantic annoying photographer that frequents
+
+362
+00:22:16,005 --> 00:22:19,845
+Speaker 6:  the pet of pixel comment section. Maybe it's simply the time that like cameras
+
+363
+00:22:20,145 --> 00:22:23,485
+Speaker 6:  do allow, and this is what app skater too do allow people to like find their
+
+364
+00:22:23,485 --> 00:22:27,005
+Speaker 6:  own style and shoot in a different way. And you see that now with like the
+
+365
+00:22:27,005 --> 00:22:30,045
+Speaker 6:  very on apple like thing of like adding so much control to like what kind
+
+366
+00:22:30,045 --> 00:22:33,885
+Speaker 6:  of like final output you get in your image. And maybe that goes down to processing
+
+367
+00:22:33,885 --> 00:22:37,485
+Speaker 6:  too because processing I think people are becoming aware of how many creative
+
+368
+00:22:37,805 --> 00:22:41,765
+Speaker 6:  decisions are being made for you. And that's fascinating to me because there
+
+369
+00:22:41,765 --> 00:22:45,565
+Speaker 6:  was one time like in 2020 a year of unprecedented times, if I wanna like
+
+370
+00:22:45,675 --> 00:22:49,205
+Speaker 6:  pull an anecdote where people ran into this 'cause they were all taking photos
+
+371
+00:22:49,205 --> 00:22:52,965
+Speaker 6:  with their Samsung or Pixel or iPhone and they woke up in San
+
+372
+00:22:52,965 --> 00:22:55,765
+Speaker 6:  Francisco one day and the entire city was orange. Like completely orange
+
+373
+00:22:55,765 --> 00:22:59,605
+Speaker 6:  because there was a huge wildfire near the place where I live now. Yep. And
+
+374
+00:22:59,785 --> 00:23:02,845
+Speaker 6:  the sun was being filtered through it and it was all orange and people took
+
+375
+00:23:02,845 --> 00:23:06,485
+Speaker 6:  a photo with it and the craziest thing happened, the camera recognized it
+
+376
+00:23:06,505 --> 00:23:09,005
+Speaker 6:  as being like, oh the white balance is way off, we're gonna correct for that.
+
+377
+00:23:09,005 --> 00:23:11,445
+Speaker 6:  This doesn't really happen because it's trained on everything that's happened
+
+378
+00:23:11,445 --> 00:23:15,125
+Speaker 6:  before it. and it has, it's literally old, its smart stuff is
+
+379
+00:23:15,365 --> 00:23:18,645
+Speaker 6:  based on precedent and we were in 2020 living in
+
+380
+00:23:18,645 --> 00:23:22,525
+Speaker 6:  unprecedented times and so people started downloading like a camera
+
+381
+00:23:22,625 --> 00:23:26,405
+Speaker 6:  app like ours to you know, like try to correct that set manual wide
+
+382
+00:23:26,405 --> 00:23:30,285
+Speaker 6:  balance. And that I think was like beginning to be the turning point
+
+383
+00:23:30,285 --> 00:23:33,525
+Speaker 6:  around when people started like exploring options like that and being aware
+
+384
+00:23:33,525 --> 00:23:36,885
+Speaker 6:  of something like that existing. Like they were aware that as they took a
+
+385
+00:23:36,885 --> 00:23:40,805
+Speaker 6:  photo like, oh wait, it's doing something for me and I don't like
+
+386
+00:23:40,805 --> 00:23:44,325
+Speaker 6:  that it's doing that. And that has become a greater
+
+387
+00:23:44,325 --> 00:23:48,245
+Speaker 6:  awareness even in like Gen Z even in people who don't know what a file is,
+
+388
+00:23:48,675 --> 00:23:52,285
+Speaker 6:  they know that processing is a thing and that that increasingly is making
+
+389
+00:23:52,525 --> 00:23:55,765
+Speaker 6:  decisions for them to go on a long rant. But yeah,
+
+390
+00:23:56,305 --> 00:23:59,525
+Speaker 7:  One question I have, and I I've talked to you about this ever so slightly.
+
+391
+00:23:59,585 --> 00:23:59,805
+Speaker 7:  So
+
+392
+00:24:01,675 --> 00:24:05,665
+Speaker 7:  Apple designs the camera is a system, Samsung is a system, Google
+
+393
+00:24:05,725 --> 00:24:09,425
+Speaker 7:  is a system, you've got the hardware, the lens, and then you've got a processing
+
+394
+00:24:09,625 --> 00:24:12,305
+Speaker 7:  pipeline to lean on and they obviously know exactly what's gonna happen in
+
+395
+00:24:12,305 --> 00:24:15,025
+Speaker 7:  their processing pipeline. In the case of Apple, they're designing their
+
+396
+00:24:15,025 --> 00:24:18,905
+Speaker 7:  own chip as part of that processing pipeline and it feels like they can
+
+397
+00:24:18,905 --> 00:24:22,825
+Speaker 7:  make decisions about what they can handle in
+
+398
+00:24:22,825 --> 00:24:26,065
+Speaker 7:  processing at the expense of what the hardware can do.
+
+399
+00:24:26,605 --> 00:24:30,425
+Speaker 7:  And If, you all are making an app that just pulls the raw data off the
+
+400
+00:24:30,425 --> 00:24:34,225
+Speaker 7:  sensor. Apple gets to say, well we know there's gonna be some
+
+401
+00:24:34,385 --> 00:24:37,225
+Speaker 7:  fringing, we know there's gonna be some distortion in this lens, but we're
+
+402
+00:24:37,225 --> 00:24:41,105
+Speaker 7:  gonna optimize it to collect all the light we can because our pipeline
+
+403
+00:24:41,105 --> 00:24:44,865
+Speaker 7:  can fix almost anything except not having the light. Has that come up for
+
+404
+00:24:44,865 --> 00:24:48,705
+Speaker 7:  you now in these, in the newer versions of the phone where you can see that
+
+405
+00:24:48,985 --> 00:24:52,745
+Speaker 7:  optimization starting to shift against like quality
+
+406
+00:24:52,745 --> 00:24:55,345
+Speaker 7:  outta the lens for lack of a better term, in favor of just light collection?
+
+407
+00:24:55,935 --> 00:24:56,225
+Speaker 6:  Yeah,
+
+408
+00:24:57,845 --> 00:25:00,505
+Speaker 6:  the, that was actually one of the craziest things I saw when we started shooting
+
+409
+00:25:00,545 --> 00:25:03,785
+Speaker 6:  a lot of native raw and 'cause for a while I was just like pro rah maxing,
+
+410
+00:25:03,785 --> 00:25:06,945
+Speaker 6:  like just shooting on pro rah all the time. And then I was like, okay, let's
+
+411
+00:25:06,945 --> 00:25:09,905
+Speaker 6:  go back to native raw for a second. I noticed that the output was just getting
+
+412
+00:25:09,945 --> 00:25:12,945
+Speaker 6:  a little, was just getting a little worse. Like if I were to objectively
+
+413
+00:25:12,945 --> 00:25:16,665
+Speaker 6:  look at it, you know, and just take a this again to clarify the difference
+
+414
+00:25:16,665 --> 00:25:20,305
+Speaker 6:  between pro rah and and native raws. You get raw sensor data, which you just,
+
+415
+00:25:20,385 --> 00:25:23,065
+Speaker 6:  I just quickly throw in Lightroom to develop it. Lightroom processes that
+
+416
+00:25:23,065 --> 00:25:26,425
+Speaker 6:  sensor data and spits it out. There's actually some corrections already baked
+
+417
+00:25:26,425 --> 00:25:29,905
+Speaker 6:  into that. So some of the pipeline does raw data at on the Apple
+
+418
+00:25:30,125 --> 00:25:33,705
+Speaker 6:  iPhone and some of it gen it starts converting it to images so it can start
+
+419
+00:25:33,705 --> 00:25:36,745
+Speaker 6:  merging geometric geometry, corrections, those kind of things.
+
+420
+00:25:37,485 --> 00:25:39,985
+Speaker 6:  For instance, your ultra wide camera will have a lot of corrections because
+
+421
+00:25:39,985 --> 00:25:43,705
+Speaker 6:  otherwise it looks like a crazy fish island basically. Right? And then, yeah,
+
+422
+00:25:43,705 --> 00:25:46,825
+Speaker 6:  we noticed a few years ago, like the main camera especially, which is the
+
+423
+00:25:46,825 --> 00:25:49,185
+Speaker 6:  one that needs to gather the most light, you know, the camera people use
+
+424
+00:25:49,185 --> 00:25:52,945
+Speaker 6:  for 99% of the time it has more color fringing than it has in the past. and
+
+425
+00:25:52,945 --> 00:25:55,825
+Speaker 6:  we, we, we, I think we talked about it as in person briefly neli. I was like,
+
+426
+00:25:55,825 --> 00:25:59,345
+Speaker 6:  no, like the crazy thing that's happening here is they just,
+
+427
+00:25:59,535 --> 00:26:03,235
+Speaker 6:  there's a realization there. They're like, oh wait, it might be color
+
+428
+00:26:03,395 --> 00:26:07,075
+Speaker 6:  fringing, but we can just fix that in the pipeline if we get more light in.
+
+429
+00:26:08,055 --> 00:26:11,995
+Speaker 6:  We can just correct that out and the, the smart fuckable make
+
+430
+00:26:11,995 --> 00:26:15,035
+Speaker 6:  up for what would traditionally be considered a bad, the worst photographic
+
+431
+00:26:15,145 --> 00:26:18,755
+Speaker 6:  lens, right? If it just, it just becomes a data problem essentially.
+
+432
+00:26:19,815 --> 00:26:22,795
+Speaker 6:  And that is coming up a little bit and I wrote a little bit, I just published
+
+433
+00:26:22,795 --> 00:26:25,955
+Speaker 6:  a review of the iPhone 16 yesterday and I wrote like,
+
+434
+00:26:26,945 --> 00:26:30,875
+Speaker 6:  look, you gotta get used to processing because gadgets in our phones,
+
+435
+00:26:31,355 --> 00:26:35,275
+Speaker 6:  I can, I can see going in one direction David, I I'm, I feel like you're
+
+436
+00:26:35,275 --> 00:26:39,235
+Speaker 6:  like the pixel fold kind of guy, but like you're gonna get devices that are
+
+437
+00:26:39,235 --> 00:26:42,875
+Speaker 6:  thinner and folding and sometimes they fold three ways. Now in China here,
+
+438
+00:26:42,875 --> 00:26:46,765
+Speaker 6:  the devices are folding three ways. It's, it, it's, it's going, it it's going
+
+439
+00:26:46,765 --> 00:26:49,965
+Speaker 6:  that way. We're not going to opt for thicker phones and bigger cameras
+
+440
+00:26:50,825 --> 00:26:54,645
+Speaker 6:  and to make cameras work that are smaller and thinner and tinier and fit
+
+441
+00:26:54,645 --> 00:26:58,325
+Speaker 6:  into like very small headsets and ray band glasses. We're gonna need more
+
+442
+00:26:58,325 --> 00:27:01,925
+Speaker 6:  processing because the sensors, the images aren't gonna get any better. That's
+
+443
+00:27:01,925 --> 00:27:05,885
+Speaker 6:  just physics So I fully believe that, you know, as
+
+444
+00:27:05,885 --> 00:27:08,645
+Speaker 6:  we go towards slimmer and foldable iPhones or whatever
+
+445
+00:27:10,175 --> 00:27:13,675
+Speaker 6:  the, our output on something like a process zero image is probably gonna
+
+446
+00:27:13,675 --> 00:27:17,595
+Speaker 6:  get objectively worse. That's just the way it is. But old fashioned photography
+
+447
+00:27:17,595 --> 00:27:21,315
+Speaker 6:  in that way, that's just, I don't know how long that's gonna be around
+
+448
+00:27:21,415 --> 00:27:24,035
+Speaker 6:  on these kind of devices as they get smarter and smarter. 'cause they'll
+
+449
+00:27:24,035 --> 00:27:27,915
+Speaker 6:  just start relying more on the fact that they're magic, hyper powerful computers
+
+450
+00:27:28,295 --> 00:27:30,715
+Speaker 6:  and they're not gonna rely on the fact that they're good at collecting light
+
+451
+00:27:30,875 --> 00:27:31,435
+Speaker 6:  'cause they're just not.
+
+452
+00:27:31,785 --> 00:27:34,275
+Speaker 7:  Wait. So let me ask you about that. Let me send you all the way down the
+
+453
+00:27:34,275 --> 00:27:37,795
+Speaker 7:  existential rabbit hole. This is where I live down. Welcome to the basement
+
+454
+00:27:37,795 --> 00:27:38,075
+Speaker 7:  with me
+
+455
+00:27:39,855 --> 00:27:43,795
+Speaker 7:  at the end of this, right? You're, you, you, the hardware is just there
+
+456
+00:27:43,815 --> 00:27:47,795
+Speaker 7:  to collect light and everything else happens in
+
+457
+00:27:47,795 --> 00:27:50,995
+Speaker 7:  the processing stack. Everything else is an average of values from the past,
+
+458
+00:27:50,995 --> 00:27:54,355
+Speaker 7:  right? Is that, do you see that all the way at the end that it,
+
+459
+00:27:55,255 --> 00:27:59,195
+Speaker 7:  you just spin the dial all the way on the path that we're on and we don't
+
+460
+00:27:59,195 --> 00:28:02,235
+Speaker 7:  really care if the sensor is any good or the lens is any good as long as
+
+461
+00:28:02,235 --> 00:28:04,875
+Speaker 7:  we can collect as much massive light as possible.
+
+462
+00:28:05,535 --> 00:28:08,235
+Speaker 6:  See I think that's a great philosophical question because If, you come down
+
+463
+00:28:08,235 --> 00:28:11,835
+Speaker 6:  to it every, you can solve it the way the Samsung moon photo situation happens.
+
+464
+00:28:12,105 --> 00:28:15,275
+Speaker 6:  Most of the world is completely been captured before and done before If.
+
+465
+00:28:15,275 --> 00:28:18,555
+Speaker 6:  you train a good enough model with a bad enough sensor, you can probably
+
+466
+00:28:18,555 --> 00:28:21,635
+Speaker 6:  take photos of 99.95% of the things out there and they'll be really good.
+
+467
+00:28:22,355 --> 00:28:26,015
+Speaker 6:  So like, I don't know, that seems kind of like the
+
+468
+00:28:26,015 --> 00:28:28,855
+Speaker 6:  reality that we're heading towards where the processing is just simply good
+
+469
+00:28:28,855 --> 00:28:31,855
+Speaker 6:  enough and the reality does, the reality of capturing images just needs to
+
+470
+00:28:31,855 --> 00:28:35,575
+Speaker 6:  correspond to like what the internal logic can cor can, can
+
+471
+00:28:35,795 --> 00:28:39,335
+Speaker 6:  cohere together. And I personally philosophically find that a really big
+
+472
+00:28:39,335 --> 00:28:43,215
+Speaker 6:  problem. I want to make a camera that like If you go
+
+473
+00:28:43,215 --> 00:28:45,455
+Speaker 6:  to on the, what is a photo thing? I was talking to Ben about this, I was
+
+474
+00:28:45,455 --> 00:28:47,895
+Speaker 6:  like, we should probably think about what we consider to be a photo. And
+
+475
+00:28:47,895 --> 00:28:51,575
+Speaker 6:  to me it is an image that's generated largely majority, at least by photons
+
+476
+00:28:51,575 --> 00:28:55,535
+Speaker 6:  that you have captured at a moment in space and time. But I'm not sure if
+
+477
+00:28:55,535 --> 00:28:58,975
+Speaker 6:  that is going to be the case. I think in the future, some cameras, maybe
+
+478
+00:28:58,995 --> 00:29:01,815
+Speaker 6:  not all of them, but some cameras are going to increasingly rely on data
+
+479
+00:29:01,845 --> 00:29:04,775
+Speaker 6:  sets of what the world should look like and what images should look like
+
+480
+00:29:05,115 --> 00:29:07,975
+Speaker 6:  and just use data, use light as data, not as like
+
+481
+00:29:09,015 --> 00:29:11,495
+Speaker 6:  visual aid as much.
+
+482
+00:29:12,005 --> 00:29:15,175
+Speaker 1:  What is allied for all the way at the end of that road? Like what's, what's
+
+483
+00:29:15,175 --> 00:29:16,855
+Speaker 1:  your job when we get all the way to the end of that?
+
+484
+00:29:18,325 --> 00:29:22,175
+Speaker 5:  Well I mean like the invention of the automobile didn't
+
+485
+00:29:22,195 --> 00:29:26,135
+Speaker 5:  put an end to horses. It's just horses were allowed to be this fun
+
+486
+00:29:26,135 --> 00:29:28,855
+Speaker 5:  thing, you gotta look at 'em and ride 'em and stuff, right? But as far as
+
+487
+00:29:28,855 --> 00:29:32,775
+Speaker 5:  utility for every day, you know, people stopped keeping barns I guess.
+
+488
+00:29:33,685 --> 00:29:37,575
+Speaker 5:  Okay. And I mean like look, you know, photography didn't end
+
+489
+00:29:37,815 --> 00:29:41,285
+Speaker 5:  painting, painting. The reason people look at paintings is because the amount
+
+490
+00:29:41,285 --> 00:29:44,245
+Speaker 5:  of skill and craftsmanship that goes into it and being able to work within
+
+491
+00:29:44,245 --> 00:29:48,005
+Speaker 5:  these constraints. And again, it was really eye-opening last summer shooting
+
+492
+00:29:48,065 --> 00:29:51,805
+Speaker 5:  analog because there's just something about an analog
+
+493
+00:29:51,805 --> 00:29:55,605
+Speaker 5:  photo and actually the removal of details, right? And So
+
+494
+00:29:55,765 --> 00:29:58,445
+Speaker 5:  I don't know if anyone tried to watch one of these high frame rate movies
+
+495
+00:29:58,595 --> 00:30:02,525
+Speaker 5:  like The Hobbit at 48 frames per second or, or that HDR
+
+496
+00:30:04,315 --> 00:30:08,045
+Speaker 5:  Will Smith movie, the one with his clone, what was it called? Gemini Man,
+
+497
+00:30:08,045 --> 00:30:12,005
+Speaker 5:  there we go. Yeah. and it goes ultra high frame rate HDR. And what
+
+498
+00:30:12,005 --> 00:30:15,005
+Speaker 5:  ends up happening with movies is when you shoot high frame rate ultra realism,
+
+499
+00:30:15,065 --> 00:30:19,045
+Speaker 5:  it breaks the magic because your mind isn't able to fill in the
+
+500
+00:30:19,045 --> 00:30:22,805
+Speaker 5:  details and it turns out 24 frames per second with a slow shutter, like it
+
+501
+00:30:22,805 --> 00:30:26,725
+Speaker 5:  feels more dreamlike and you're able to suspend disbelief, right? And so
+
+502
+00:30:26,875 --> 00:30:30,645
+Speaker 5:  with photography, there's just something about a photo that is less perfect
+
+503
+00:30:31,835 --> 00:30:35,125
+Speaker 5:  that, that feels magical about it. So I think there's always gonna be that
+
+504
+00:30:35,125 --> 00:30:38,885
+Speaker 5:  as an art form and but as far as something that you're gonna
+
+505
+00:30:38,885 --> 00:30:42,725
+Speaker 5:  just tap a button and get a nice photo, you know, I think that we are smart
+
+506
+00:30:42,725 --> 00:30:46,045
+Speaker 5:  enough that we're never gonna enter that kind of battle with a world's most
+
+507
+00:30:46,765 --> 00:30:47,325
+Speaker 5:  valuable company.
+
+508
+00:30:48,355 --> 00:30:51,525
+Speaker 7:  Well lemme say this, just to put your definition in the test photons you
+
+509
+00:30:51,525 --> 00:30:54,645
+Speaker 7:  collected in a moment in space and time, right? I buy that, that's a pretty
+
+510
+00:30:54,805 --> 00:30:58,765
+Speaker 7:  good definition app. Does that count if you're taking nine photos and merging
+
+511
+00:30:58,765 --> 00:31:01,965
+Speaker 7:  them that that moment has extended to nine captures, right?
+
+512
+00:31:02,475 --> 00:31:05,765
+Speaker 6:  Yeah. So I think so. The the thing is like, let's say,
+
+513
+00:31:06,425 --> 00:31:09,125
+Speaker 6:  you know, and the same thing goes for cleaning up, like let's say use AI
+
+514
+00:31:09,125 --> 00:31:11,645
+Speaker 6:  cleanup to, to, to erase a part of the photo. I feel, I still think it's
+
+515
+00:31:11,645 --> 00:31:15,405
+Speaker 6:  a photo, but once you fill that in with the majority of a cleanup feature,
+
+516
+00:31:15,545 --> 00:31:19,405
+Speaker 6:  so like 50% or more of the pixels become filled in by a model, I feel
+
+517
+00:31:19,405 --> 00:31:22,605
+Speaker 6:  like it see, it ceases to be a photo meaning in a meaningful way because
+
+518
+00:31:22,605 --> 00:31:24,805
+Speaker 6:  it has now been filled in by a data set.
+
+519
+00:31:25,225 --> 00:31:27,645
+Speaker 7:  You guys are are making a tool. It sounds very much like you're focused on
+
+520
+00:31:27,645 --> 00:31:31,245
+Speaker 7:  the creative and artistic aspects of photography. There's a whole other conversation
+
+521
+00:31:31,245 --> 00:31:35,165
+Speaker 7:  about can we trust these images that exists in the world. Have you looked
+
+522
+00:31:35,265 --> 00:31:39,125
+Speaker 7:  at the various watermarking features from C two PA
+
+523
+00:31:39,155 --> 00:31:42,885
+Speaker 7:  that say, actually this happened, right? This photo of Donald Trump, it
+
+524
+00:31:43,085 --> 00:31:46,005
+Speaker 7:  occurred. We're gonna mark it, we're gonna send it to Getty. Getty's gonna
+
+525
+00:31:46,005 --> 00:31:49,205
+Speaker 7:  know this was real. This, this photos were marked at, at the camera level
+
+526
+00:31:49,635 --> 00:31:53,085
+Speaker 7:  when they went to to Getty. Have you looked at doing that? Is that something
+
+527
+00:31:53,085 --> 00:31:54,445
+Speaker 7:  you're allowed to do on iOS?
+
+528
+00:31:54,885 --> 00:31:58,045
+Speaker 5:  That's all bullshit. Am I allowed to swear? Like if not, like write down.
+
+529
+00:31:58,195 --> 00:32:01,485
+Speaker 5:  Okay, good. Yeah, you're allowed to swear. So alright. Everything that Adobe's
+
+530
+00:32:01,485 --> 00:32:05,245
+Speaker 5:  pushing as far as like content authenticity is, it's just, it's like
+
+531
+00:32:06,625 --> 00:32:10,365
+Speaker 5:  DKS and anti DVD kind of stuff in the two thousands. It's
+
+532
+00:32:11,355 --> 00:32:14,725
+Speaker 5:  like I If you look at it, the ability to just strip the metadata, the fact
+
+533
+00:32:14,725 --> 00:32:18,445
+Speaker 5:  that you can just point your camera at a screen and take a photo. Like
+
+534
+00:32:18,475 --> 00:32:21,565
+Speaker 5:  it's not gonna do anything other than convince people to sign up for Creative
+
+535
+00:32:21,615 --> 00:32:25,245
+Speaker 5:  Cloud and use Adobe products. I I, I don't know,
+
+536
+00:32:25,565 --> 00:32:29,485
+Speaker 5:  I I don't know how much deeper you want get in that, but I don't Right.
+
+537
+00:32:29,485 --> 00:32:32,685
+Speaker 5:  Think it's a, a useful use of time. Although they do have a verification
+
+538
+00:32:32,685 --> 00:32:36,605
+Speaker 5:  feature where I think it does like a signature of like you can, I
+
+539
+00:32:36,605 --> 00:32:39,885
+Speaker 5:  think kinda like c sam detection. Like it'll get a signature of a photo you
+
+540
+00:32:39,885 --> 00:32:43,685
+Speaker 5:  could drag and drop it to UI and it, whoever first posted it, like it'll
+
+541
+00:32:43,685 --> 00:32:46,285
+Speaker 5:  tell you who did that. That's pretty cool. But the rest of the stuff is just
+
+542
+00:32:46,445 --> 00:32:47,325
+Speaker 5:  a waste of time. Yeah.
+
+543
+00:32:47,865 --> 00:32:51,165
+Speaker 7:  I'm just curious. It, this is right next to the creative part of how much
+
+544
+00:32:51,225 --> 00:32:54,645
+Speaker 7:  can I change this or how much data processing can I do is the, how much can
+
+545
+00:32:54,645 --> 00:32:58,205
+Speaker 7:  I trust this? and it feels like both of those are
+
+546
+00:32:58,205 --> 00:32:58,645
+Speaker 7:  unsolved.
+
+547
+00:32:59,035 --> 00:33:01,765
+Speaker 6:  Yeah. When we launched process zero, like I thought I was talking to Ben,
+
+548
+00:33:01,805 --> 00:33:05,085
+Speaker 6:  I was like, can we use the fact that we shoot a jpeg that is the process
+
+549
+00:33:05,115 --> 00:33:09,005
+Speaker 6:  zero component and like the raw the the sensor again the sensor single shot
+
+550
+00:33:09,025 --> 00:33:12,845
+Speaker 6:  raw Bayer data as sort of a pro proof of provenance, like a proof
+
+551
+00:33:12,875 --> 00:33:16,565
+Speaker 6:  like that. There are not a lot of data sets of generative ai,
+
+552
+00:33:16,745 --> 00:33:20,325
+Speaker 6:  if any. I haven't found any at least that work on raw files. Right? But consider
+
+553
+00:33:20,325 --> 00:33:24,005
+Speaker 6:  conceivably you could totally do it. That's the thing. So it's, it's, it's
+
+554
+00:33:24,005 --> 00:33:27,165
+Speaker 6:  not a good, you know, it'd be a fig leaf of authenticity. It would be like,
+
+555
+00:33:27,165 --> 00:33:30,325
+Speaker 6:  look, there is a raw file. You can see that it was actually taken. But
+
+556
+00:33:30,985 --> 00:33:34,845
+Speaker 6:  you know, like it's still, it's just a such a losing battle.
+
+557
+00:33:34,945 --> 00:33:38,765
+Speaker 6:  We the we at some point, you philosophically as a, as a photographer or a
+
+558
+00:33:38,765 --> 00:33:42,645
+Speaker 6:  camera app maker or both or esteem member of photography,
+
+559
+00:33:42,645 --> 00:33:45,245
+Speaker 6:  common sections, you, you just go through the same existential crisis and
+
+560
+00:33:45,245 --> 00:33:48,875
+Speaker 6:  you just realize, okay, there's nothing stopping this.
+
+561
+00:33:49,575 --> 00:33:52,955
+Speaker 5:  And can I just back up to what you were saying about like editing photos
+
+562
+00:33:53,095 --> 00:33:57,075
+Speaker 5:  and where's the line that you're gonna draw? So in 2016 there was
+
+563
+00:33:57,115 --> 00:34:01,075
+Speaker 5:  a famous National Geographic photographer, Steve McCurry, and
+
+564
+00:34:01,075 --> 00:34:04,635
+Speaker 5:  so he got into hot water because people noticed one of his award-winning
+
+565
+00:34:04,635 --> 00:34:07,635
+Speaker 5:  photos was actually different on his website because there's like a dude
+
+566
+00:34:07,635 --> 00:34:10,675
+Speaker 5:  in the background who wasn't in the final award-winning photo. And people
+
+567
+00:34:10,675 --> 00:34:13,875
+Speaker 5:  started digging into it and like basically he would use what is
+
+568
+00:34:14,535 --> 00:34:18,475
+Speaker 5:  iOS eighteen's object removal feature before it existed. He did
+
+569
+00:34:18,475 --> 00:34:22,315
+Speaker 5:  that equivalent kind of editing. And this was a huge, like, you, you don't
+
+570
+00:34:22,315 --> 00:34:25,635
+Speaker 5:  do that if you're actually taking photos. So
+
+571
+00:34:26,235 --> 00:34:29,155
+Speaker 5:  I, I, and I guess this is also a question for you as journalists, like when
+
+572
+00:34:29,155 --> 00:34:31,795
+Speaker 5:  you, at what point when you're doing like an interview
+
+573
+00:34:33,455 --> 00:34:36,675
+Speaker 5:  or you're transcribing, you're pulling quotes, at what point is it okay to
+
+574
+00:34:36,675 --> 00:34:40,435
+Speaker 5:  remove the likes and the buts? You'll be doing a lot of that with me
+
+575
+00:34:40,535 --> 00:34:40,995
+Speaker 5:  and thank you,
+
+576
+00:34:41,975 --> 00:34:42,195
+Speaker 7:  But,
+
+577
+00:34:42,255 --> 00:34:46,195
+Speaker 5:  But at what point are you then editorializing what you're trying
+
+578
+00:34:46,195 --> 00:34:49,835
+Speaker 5:  to capture and telling a story that actually didn't occur and
+
+579
+00:34:49,835 --> 00:34:53,555
+Speaker 5:  effectively, you know, everyone has to have that level of journalistic integrity
+
+580
+00:34:53,575 --> 00:34:54,635
+Speaker 5:  if they wanna call it a photo.
+
+581
+00:34:55,255 --> 00:34:57,635
+Speaker 7:  So David and I are both gonna answer on three and we're gonna see if we have
+
+582
+00:34:57,635 --> 00:34:59,875
+Speaker 7:  the same answer. Okay.
+
+583
+00:35:01,595 --> 00:35:04,995
+Speaker 7:  I actually, I'll let David answer my, my quick version of that is,
+
+584
+00:35:05,655 --> 00:35:09,035
+Speaker 7:  that's norms, that's professional norms, that's what you're describing. Yep.
+
+585
+00:35:09,035 --> 00:35:11,395
+Speaker 7:  Right. This guy was a professional photographer, he entered a professional
+
+586
+00:35:11,395 --> 00:35:14,995
+Speaker 7:  photography contest, he broke the rules, he got kicked out and they got in
+
+587
+00:35:14,995 --> 00:35:18,955
+Speaker 7:  trouble. You're a journalist, you get a bunch of quotes, you go
+
+588
+00:35:18,955 --> 00:35:22,755
+Speaker 7:  too sideways, you're over the line, right? Like the journalist
+
+589
+00:35:22,755 --> 00:35:26,595
+Speaker 7:  club will, if it still exists, will will get mad
+
+590
+00:35:26,715 --> 00:35:29,835
+Speaker 7:  at you and your, your reputation will suffer If you're a Getty photographer,
+
+591
+00:35:29,835 --> 00:35:32,795
+Speaker 7:  there's a, there's a list of rules of things you're allowed to edit and most
+
+592
+00:35:32,795 --> 00:35:35,635
+Speaker 7:  of them are like, you can change exposure and that's about it, right? You
+
+593
+00:35:35,635 --> 00:35:38,885
+Speaker 7:  can do some vignetting If, you look at, at New York Times photos, all they're
+
+594
+00:35:38,885 --> 00:35:42,005
+Speaker 7:  allowed to do is vignette. So they're all just vignette to hell and back.
+
+595
+00:35:42,285 --> 00:35:46,245
+Speaker 7:  Yeah. Because that's the only button they get. So like that's professional
+
+596
+00:35:46,255 --> 00:35:49,885
+Speaker 7:  norms. I don't know what consumer norms are gonna be and what we're seeing
+
+597
+00:35:49,905 --> 00:35:53,885
+Speaker 7:  is an explosion of consumer photography and that I think is really challenging.
+
+598
+00:35:53,925 --> 00:35:55,445
+Speaker 7:  I dunno, David, what, what's your answer?
+
+599
+00:35:56,085 --> 00:35:59,365
+Speaker 1:  I, I I think about the same. I mean there's been a, a big discussion this
+
+600
+00:35:59,365 --> 00:36:02,685
+Speaker 1:  year about how people transcribe
+
+601
+00:36:02,705 --> 00:36:06,565
+Speaker 1:  Donald Trump. There, there's been all this stuff about sane washing Donald Trump
+
+602
+00:36:06,565 --> 00:36:10,485
+Speaker 1:  where he'll, he'll go on like a nine minute ramble of nonsense
+
+603
+00:36:10,665 --> 00:36:13,405
+Speaker 1:  and then a, a reporter will, will essentially try to make it make sense,
+
+604
+00:36:13,405 --> 00:36:17,245
+Speaker 1:  which on the one hand is like good, useful journalism. Like here
+
+605
+00:36:17,245 --> 00:36:21,125
+Speaker 1:  are the words that he was trying to say. On the other hand, it makes somebody
+
+606
+00:36:21,125 --> 00:36:24,005
+Speaker 1:  who doesn't make any sense makes some sense. And I think
+
+607
+00:36:25,195 --> 00:36:29,085
+Speaker 1:  it's, it's a complicated thing. Like at what point is my job to make
+
+608
+00:36:29,085 --> 00:36:32,645
+Speaker 1:  something, make as much sense as possible. So I can help my reader understand
+
+609
+00:36:32,985 --> 00:36:36,525
+Speaker 1:  and at what point is my job to represent something as it was
+
+610
+00:36:37,865 --> 00:36:41,805
+Speaker 1:  in all its messiness. Yeah. And it's like, it, I think it is kind of a perfect
+
+611
+00:36:41,955 --> 00:36:44,485
+Speaker 1:  analogy for what we're trying to do with photography and I, I don't have
+
+612
+00:36:44,485 --> 00:36:47,845
+Speaker 1:  great answers, right? Because it's, especially when it's messy how
+
+613
+00:36:48,345 --> 00:36:50,365
+Speaker 1:  uny you're supposed to make it, it's really complicated.
+
+614
+00:36:50,585 --> 00:36:54,325
+Speaker 7:  And, and really the question is, can you make everybody believed
+
+615
+00:36:54,425 --> 00:36:57,085
+Speaker 7:  in the professional norm? And the answer is just like, obviously no
+
+616
+00:36:57,745 --> 00:37:01,645
+Speaker 5:  So I guess the closest that we have around ethics right now is
+
+617
+00:37:01,715 --> 00:37:05,605
+Speaker 5:  Apple's decision that they're not gonna allow fully generated AI
+
+618
+00:37:05,985 --> 00:37:09,285
+Speaker 5:  in iOS 18. And there was the interview with Gruber where they're talking
+
+619
+00:37:09,315 --> 00:37:12,725
+Speaker 5:  like, okay, we're gonna generate cartoons, but we're not gonna generate
+
+620
+00:37:12,725 --> 00:37:16,165
+Speaker 5:  photorealistic stuff. And so that's nice when you have someone who is,
+
+621
+00:37:16,865 --> 00:37:20,525
+Speaker 5:  you know, not enabling outright bad actions,
+
+622
+00:37:20,925 --> 00:37:24,205
+Speaker 5:  although then you have someone like Google who's also letting you like yeah,
+
+623
+00:37:24,205 --> 00:37:26,525
+Speaker 5:  just change the background type in what you want.
+
+624
+00:37:26,995 --> 00:37:30,605
+Speaker 6:  That does like, remind me of like that amazing quote that Neli got from
+
+625
+00:37:30,605 --> 00:37:33,765
+Speaker 6:  Apple's John McCormack that basically was like, okay, we believe a photo
+
+626
+00:37:33,785 --> 00:37:37,165
+Speaker 6:  is a thing that really happened, which is still not going as far as saying
+
+627
+00:37:37,165 --> 00:37:40,165
+Speaker 6:  like a photo is a thing you capture with a camera or is light that is captured.
+
+628
+00:37:40,225 --> 00:37:43,125
+Speaker 6:  It is a thing that happened, which totally fits in the model of having a
+
+629
+00:37:43,125 --> 00:37:46,805
+Speaker 6:  generated future where there is a super great Apple model that will just
+
+630
+00:37:47,085 --> 00:37:50,685
+Speaker 6:  basically fill in the blanks if the image data isn't good enough. It just
+
+631
+00:37:50,685 --> 00:37:54,605
+Speaker 6:  needs to confirm that a thing has actually happened. So it's like, yeah,
+
+632
+00:37:54,755 --> 00:37:58,085
+Speaker 6:  like surely we will continue to have journalistic standards and there will
+
+633
+00:37:58,085 --> 00:38:01,965
+Speaker 6:  be a few of these things like C two PA to work in
+
+634
+00:38:01,965 --> 00:38:05,605
+Speaker 6:  their niches, but I mean, there's no stopping
+
+635
+00:38:05,745 --> 00:38:09,125
+Speaker 6:  the train that's heading down the tracks of like the absolute apocalypse
+
+636
+00:38:09,125 --> 00:38:12,285
+Speaker 6:  of like what the meaning the meaningfulness of photos on the internet. I
+
+637
+00:38:12,365 --> 00:38:15,525
+Speaker 6:  I truly think if I look at my daughter, she's one and a half years old now
+
+638
+00:38:15,635 --> 00:38:18,405
+Speaker 6:  when she's a teenager, I don't think she will believe any single image she
+
+639
+00:38:18,405 --> 00:38:19,045
+Speaker 6:  sees on the internet.
+
+640
+00:38:19,685 --> 00:38:22,965
+Speaker 1:  I think the, the piece of this could think is lost in a lot of this conversation
+
+641
+00:38:23,005 --> 00:38:26,685
+Speaker 1:  I think is like we, we talk a lot about the sort of really
+
+642
+00:38:26,755 --> 00:38:30,325
+Speaker 1:  high stakes photos and we talk a lot about
+
+643
+00:38:30,475 --> 00:38:34,405
+Speaker 1:  like the photos of a serial number, right? But I think like Sebastian,
+
+644
+00:38:34,405 --> 00:38:38,205
+Speaker 1:  to your point, you, you have a young kid. I, I think I have a young
+
+645
+00:38:38,205 --> 00:38:40,245
+Speaker 1:  kid, ELA has young kids, Ben, I don't, I don't know.
+
+646
+00:38:40,485 --> 00:38:44,325
+Speaker 5:  I got one. He is got hand foot and mouth disease right now, so yeah. Yeah,
+
+647
+00:38:45,125 --> 00:38:49,085
+Speaker 1:  Good times all around. But I think like Sebastian, to your point, your kid
+
+648
+00:38:49,085 --> 00:38:52,285
+Speaker 1:  will probably grow up in a world where they don't believe photos they see
+
+649
+00:38:52,285 --> 00:38:55,925
+Speaker 1:  on the internet. I think that's probably right. But the question of like,
+
+650
+00:38:55,925 --> 00:38:59,765
+Speaker 1:  will they believe photos about themselves from when they were kids? Mm. Is
+
+651
+00:38:59,785 --> 00:39:02,525
+Speaker 1:  is the other part of this that I think is like complicated and is is such
+
+652
+00:39:02,605 --> 00:39:06,565
+Speaker 1:  a like normal everyday use case. We don't talk about in this context,
+
+653
+00:39:06,745 --> 00:39:10,725
+Speaker 1:  but the, the question of like, when I, when I take pictures of my
+
+654
+00:39:10,905 --> 00:39:14,535
+Speaker 1:  kid, what is, what is what responsibility
+
+655
+00:39:15,275 --> 00:39:19,135
+Speaker 1:  in in air quotes, do I have to like truth and honesty versus like taking
+
+656
+00:39:19,295 --> 00:39:21,015
+Speaker 1:  a fun picture of my child having fun
+
+657
+00:39:22,535 --> 00:39:26,095
+Speaker 1:  I feel like is is such a like mainstream every single person
+
+658
+00:39:26,515 --> 00:39:29,535
+Speaker 1:  use case that we just don't talk about enough because it, I it feels
+
+659
+00:39:30,485 --> 00:39:33,935
+Speaker 1:  mely, but I don't know. And as you guys think about tallied, like people
+
+660
+00:39:34,175 --> 00:39:36,735
+Speaker 1:  download this stuff in part because they wanna make beautiful art that hangs
+
+661
+00:39:36,735 --> 00:39:38,975
+Speaker 1:  in museums and in part because they wanna take better pictures that are kids
+
+662
+00:39:39,515 --> 00:39:42,495
+Speaker 1:  and like, what, what is the job there in, in this world?
+
+663
+00:39:42,835 --> 00:39:46,655
+Speaker 5:  All of my son's photos are in native raw So, I can show him the
+
+664
+00:39:46,655 --> 00:39:47,455
+Speaker 5:  receipts afterwards.
+
+665
+00:39:47,635 --> 00:39:49,935
+Speaker 1:  He can develop the negatives themselves. Yeah, exactly.
+
+666
+00:39:50,285 --> 00:39:50,575
+Speaker 5:  Yeah.
+
+667
+00:39:53,015 --> 00:39:54,215
+Speaker 6:  No, but that's, that's a really good point too
+
+668
+00:39:55,095 --> 00:39:56,615
+Speaker 1:  Birthday here, son, I've made you some negatives.
+
+669
+00:39:56,815 --> 00:40:00,735
+Speaker 5:  You know, it's important that every dad has a talk with a son about
+
+670
+00:40:00,825 --> 00:40:04,775
+Speaker 5:  noise reduction. It's dangerous world out there and you know how to be
+
+671
+00:40:04,975 --> 00:40:06,215
+Speaker 5:  prepared. Yeah,
+
+672
+00:40:06,955 --> 00:40:10,695
+Speaker 6:  But So I mean to that point. Like some part of me feels like, you know,
+
+673
+00:40:10,695 --> 00:40:14,375
+Speaker 6:  we're gonna go back and look at, we're gonna recognize this era of
+
+674
+00:40:14,375 --> 00:40:18,135
+Speaker 6:  mobile photography for looking a certain way. That's just a fact. And
+
+675
+00:40:18,135 --> 00:40:20,935
+Speaker 6:  we're, look, we're recognizing the first generation of Instagram photos by
+
+676
+00:40:20,935 --> 00:40:24,455
+Speaker 6:  the heavy filters, which also means people are going look at the first generation
+
+677
+00:40:24,455 --> 00:40:27,535
+Speaker 6:  of Instagramed photos and be like, oh, these are real, there's no generative
+
+678
+00:40:27,555 --> 00:40:30,975
+Speaker 6:  AI in them because you can see by how bad these filters are. This was before
+
+679
+00:40:30,975 --> 00:40:34,015
+Speaker 6:  the end times of photographic integrity, which is fascinating to me by the
+
+680
+00:40:34,015 --> 00:40:37,735
+Speaker 6:  way that those fake c pia filters are gonna go down in time as like a symbol
+
+681
+00:40:37,755 --> 00:40:41,655
+Speaker 6:  of authenticity, which at the time were derided as being universally deeply
+
+682
+00:40:41,685 --> 00:40:42,975
+Speaker 1:  Real Photos. Yeah. Deeply
+
+683
+00:40:43,035 --> 00:40:46,535
+Speaker 6:  Unreal. Yeah, deeply real Photos must be real. And
+
+684
+00:40:47,295 --> 00:40:50,855
+Speaker 6:  I think we, we would love to kind of in a same, in, in a way
+
+685
+00:40:51,765 --> 00:40:55,655
+Speaker 6:  provide that niche too, because we want to offer that extra tool that
+
+686
+00:40:55,655 --> 00:40:58,775
+Speaker 6:  just gives you a, a more authentic shot because it's a bit more true to like
+
+687
+00:40:59,005 --> 00:41:01,775
+Speaker 6:  what an old fashioned camera might have captured. It has a bit of less of
+
+688
+00:41:01,775 --> 00:41:02,735
+Speaker 6:  that process look going on.
+
+689
+00:41:04,395 --> 00:41:08,335
+Speaker 6:  But two, like I I I also believe those photos are more representative
+
+690
+00:41:08,355 --> 00:41:11,855
+Speaker 6:  of your memories because they, they are more like the way you remember a
+
+691
+00:41:11,855 --> 00:41:15,495
+Speaker 6:  moment. Like when I edit my photos, actually, I tend to make the sunsets
+
+692
+00:41:15,495 --> 00:41:19,335
+Speaker 6:  warmer and the cozy times nicer. And the time when I walked in
+
+693
+00:41:19,335 --> 00:41:23,255
+Speaker 6:  Tokyo all alone 3:00 AM bluer and more cyber punky because that's just
+
+694
+00:41:23,255 --> 00:41:26,775
+Speaker 6:  the way it felt. And I think those aren't perfect representations of reality
+
+695
+00:41:27,115 --> 00:41:31,095
+Speaker 6:  and that greatest common denominator photography thing is kind of what's
+
+696
+00:41:31,675 --> 00:41:35,605
+Speaker 6:  making people pull towards that a bit more. And maybe also ironically,
+
+697
+00:41:35,605 --> 00:41:38,685
+Speaker 6:  making the pull more towards generative things or, or more creative ways
+
+698
+00:41:38,685 --> 00:41:42,125
+Speaker 6:  altering photos because they're deeply unsatisfied with how,
+
+699
+00:41:42,585 --> 00:41:46,165
+Speaker 6:  how perfectly photos represent reality when they're sensing reality around
+
+700
+00:41:46,165 --> 00:41:50,045
+Speaker 6:  them, but not the world that they perceive per se,
+
+701
+00:41:50,075 --> 00:41:50,765
+Speaker 6:  emotionally.
+
+702
+00:41:52,365 --> 00:41:55,325
+Speaker 1:  Right. We gotta take a break and when we come back we're gonna talk to Allison
+
+703
+00:41:55,325 --> 00:41:58,005
+Speaker 1:  Johnson about how to take pictures of your kids
+
+704
+00:45:31,095 --> 00:45:34,555
+Speaker 1:  All right, we're back. So the verges, Allison Johnson has been
+
+705
+00:45:34,555 --> 00:45:38,435
+Speaker 1:  reviewing all of these AI phone cameras for us all summer
+
+706
+00:45:38,975 --> 00:45:42,675
+Speaker 1:  and she decided to run an experiment on herself that I find very fun. She
+
+707
+00:45:42,675 --> 00:45:46,475
+Speaker 1:  basically wanted to go all the way in and figure
+
+708
+00:45:46,575 --> 00:45:50,195
+Speaker 1:  out what life is like when you just lean into the AI ness
+
+709
+00:45:50,495 --> 00:45:53,275
+Speaker 1:  of your phone, all the things it can do for you, all the ways it can change
+
+710
+00:45:53,275 --> 00:45:57,115
+Speaker 1:  your photos, all the upgrades and cool processing things
+
+711
+00:45:57,115 --> 00:46:00,955
+Speaker 1:  it can do. Just what If, you didn't have any existential crises
+
+712
+00:46:01,125 --> 00:46:04,755
+Speaker 1:  about AI photos and cameras and just bought in what would happen?
+
+713
+00:46:05,395 --> 00:46:08,875
+Speaker 1:  I have been excited for weeks to hear about the results of this
+
+714
+00:46:08,875 --> 00:46:12,835
+Speaker 1:  experiment and Allison is here now to tell me all about it. Allison, hello.
+
+715
+00:46:13,125 --> 00:46:13,475
+Speaker 9:  Hello.
+
+716
+00:46:13,965 --> 00:46:17,075
+Speaker 1:  We're back to talk about phone cameras because that's what you and I do on
+
+717
+00:46:17,075 --> 00:46:19,755
+Speaker 1:  this show is just talk about our feelings about phone cameras.
+
+718
+00:46:20,595 --> 00:46:21,875
+Speaker 9:  I love it. I'm here for it.
+
+719
+00:46:22,195 --> 00:46:24,835
+Speaker 1:  I think that might be the official mission statement of Vergecast at this
+
+720
+00:46:24,835 --> 00:46:28,035
+Speaker 1:  point, which is weird. We make an audio product about cameras
+
+721
+00:46:28,775 --> 00:46:30,155
+Speaker 1:  is a thing that I never really thought about.
+
+722
+00:46:30,805 --> 00:46:32,835
+Speaker 9:  Let's talk about photos for a while. Yeah,
+
+723
+00:46:34,015 --> 00:46:37,715
+Speaker 1:  So we, we've been looking for different ways to talk about this
+
+724
+00:46:37,715 --> 00:46:41,235
+Speaker 1:  stuff. Sometimes it's just like me, I having an existential crisis on The
+
+725
+00:46:41,355 --> 00:46:45,075
+Speaker 1:  Vergecast, but you went out and actually like tried to live
+
+726
+00:46:45,135 --> 00:46:49,115
+Speaker 1:  out this experiment a little bit in, in what the future of
+
+727
+00:46:49,115 --> 00:46:51,475
+Speaker 1:  photography looks like. Tell me a little bit about this experiment you've
+
+728
+00:46:51,475 --> 00:46:51,675
+Speaker 1:  been running.
+
+729
+00:46:52,345 --> 00:46:56,155
+Speaker 9:  Yeah, so the idea was what if I put myself in this head space
+
+730
+00:46:56,215 --> 00:46:59,795
+Speaker 9:  of I am using this phone camera to take
+
+731
+00:47:00,495 --> 00:47:02,835
+Speaker 9:  not photos, but memories
+
+732
+00:47:04,335 --> 00:47:08,075
+Speaker 9:  and just sort of like, ran with that for a little while.
+
+733
+00:47:08,395 --> 00:47:12,355
+Speaker 9:  I carried around the Pixel nine pro, the memory
+
+734
+00:47:12,775 --> 00:47:16,515
+Speaker 9:  making machine that it is and just kind of
+
+735
+00:47:16,615 --> 00:47:20,515
+Speaker 9:  set out to like, you know, I, I take a thousand
+
+736
+00:47:20,515 --> 00:47:24,435
+Speaker 9:  pictures of my kid anyway, but I was like, especially on a mission
+
+737
+00:47:24,735 --> 00:47:28,595
+Speaker 9:  for a, you know, about a week. So we went to
+
+738
+00:47:28,595 --> 00:47:32,395
+Speaker 9:  this science fair, it was kind of outdoors, indoors,
+
+739
+00:47:33,225 --> 00:47:36,035
+Speaker 9:  very kind of steam punky, cool, awesome
+
+740
+00:47:37,515 --> 00:47:40,955
+Speaker 9:  situation. We went to the park, rode in one of those little
+
+741
+00:47:41,625 --> 00:47:44,435
+Speaker 9:  fake stationary jeeps. He loves that.
+
+742
+00:47:45,715 --> 00:47:49,675
+Speaker 9:  I went to Starbucks. He is a good sport and, and goes
+
+743
+00:47:49,675 --> 00:47:52,835
+Speaker 9:  with me to get my coffee. So all of the usual things,
+
+744
+00:47:53,675 --> 00:47:56,915
+Speaker 9:  I just took photos for a week and
+
+745
+00:47:57,345 --> 00:48:01,195
+Speaker 9:  brought them into Google photos afterwards and pushed myself to
+
+746
+00:48:01,655 --> 00:48:04,955
+Speaker 9:  use the tools that I probably wouldn't have done
+
+747
+00:48:05,695 --> 00:48:09,195
+Speaker 9:  anyway. Like the reimagine, you know, take things outta the frame.
+
+748
+00:48:09,785 --> 00:48:13,115
+Speaker 9:  Just kind of put myself in an uncomfortable position to like
+
+749
+00:48:13,895 --> 00:48:15,795
+Speaker 9:  try and use as much of the AI as I could.
+
+750
+00:48:16,345 --> 00:48:20,115
+Speaker 1:  Well, so it makes me think of a conversation you and I had, this is
+
+751
+00:48:20,275 --> 00:48:23,995
+Speaker 1:  probably almost a year ago at this point, where we were talking about the
+
+752
+00:48:24,005 --> 00:48:27,315
+Speaker 1:  thing that happens when you go in and edit a photo
+
+753
+00:48:28,375 --> 00:48:31,475
+Speaker 1:  and you remember you've edited the photo and that something is sort of
+
+754
+00:48:32,165 --> 00:48:35,795
+Speaker 1:  inexorably changed when you edit the photo
+
+755
+00:48:35,985 --> 00:48:38,835
+Speaker 1:  that maybe it's good, maybe it's bad, maybe it doesn't really matter, but
+
+756
+00:48:38,835 --> 00:48:42,755
+Speaker 1:  like somewhere in your brain, the fact that you moved stuff around
+
+757
+00:48:42,815 --> 00:48:46,275
+Speaker 1:  inside of the photo becomes attached to that photo.
+
+758
+00:48:46,695 --> 00:48:50,555
+Speaker 1:  And I feel like a year later we're, we're even deeper into that theory
+
+759
+00:48:50,685 --> 00:48:53,915
+Speaker 1:  being the way that this works. So I'm, I'm very curious to hear how all of
+
+760
+00:48:53,915 --> 00:48:57,315
+Speaker 1:  this went, but like give me the, give me the setup how you were thinking
+
+761
+00:48:57,315 --> 00:49:00,995
+Speaker 1:  about approaching this experiment. 'cause I feel like I wanna make memories,
+
+762
+00:49:00,995 --> 00:49:04,685
+Speaker 1:  not photos is a very like, beautiful high-minded
+
+763
+00:49:04,685 --> 00:49:07,965
+Speaker 1:  thing to say that we can interrogate forever. But I'm, I'm curious if you're
+
+764
+00:49:07,965 --> 00:49:11,765
+Speaker 1:  like, I wanna actually live out this definition and, and I think it's Google
+
+765
+00:49:11,825 --> 00:49:15,805
+Speaker 1:  in particular, right? That has said a camera is for memories, not for photos.
+
+766
+00:49:15,865 --> 00:49:19,725
+Speaker 1:  So you're like, I wanna live in the universe. Google imagines, like how do
+
+767
+00:49:19,725 --> 00:49:20,725
+Speaker 1:  you set yourself up to do that?
+
+768
+00:49:21,195 --> 00:49:25,085
+Speaker 9:  Yeah, it, it was mostly in the, in the back half, like editing
+
+769
+00:49:25,085 --> 00:49:28,845
+Speaker 9:  the photos. So kind of just went into Google photos on the phone
+
+770
+00:49:29,905 --> 00:49:33,805
+Speaker 9:  and that's where you get the like reimagine tool and
+
+771
+00:49:33,825 --> 00:49:37,285
+Speaker 9:  all the AI stuff. So it was like a very
+
+772
+00:49:37,315 --> 00:49:40,805
+Speaker 9:  uncomfortable territory for me. 'cause I really don't like
+
+773
+00:49:41,235 --> 00:49:45,205
+Speaker 9:  edit phone photos at all. I just kind of like put
+
+774
+00:49:45,225 --> 00:49:48,325
+Speaker 9:  all my faith in the computational photography process.
+
+775
+00:49:49,025 --> 00:49:52,685
+Speaker 9:  So this was an exercise and like sitting down and kind of, I had to kind
+
+776
+00:49:52,685 --> 00:49:55,685
+Speaker 9:  of clear my mind and be like, okay, what, like what did this moment feel
+
+777
+00:49:55,835 --> 00:49:59,725
+Speaker 9:  like versus what's here? And sometimes it was obvious. It was
+
+778
+00:49:59,725 --> 00:50:03,605
+Speaker 9:  like, well this person was in the frame and you
+
+779
+00:50:03,605 --> 00:50:07,485
+Speaker 9:  know, I, my memory is of my child in this
+
+780
+00:50:07,885 --> 00:50:11,125
+Speaker 9:  situation not, and this person's distracting, So I would take them out.
+
+781
+00:50:12,025 --> 00:50:16,005
+Speaker 9:  But then I like pushed myself beyond that to kind of
+
+782
+00:50:16,005 --> 00:50:19,805
+Speaker 9:  be like, is there something I would add to the scene
+
+783
+00:50:19,875 --> 00:50:23,685
+Speaker 9:  that would make it feel more kind of like express how, like
+
+784
+00:50:23,795 --> 00:50:27,765
+Speaker 9:  magical or whatever it felt at the time. Because I think that
+
+785
+00:50:27,765 --> 00:50:31,645
+Speaker 9:  happens a lot too when you're taking pictures of your kid where like this
+
+786
+00:50:31,645 --> 00:50:35,125
+Speaker 9:  is such a special moment. And then you go back and there's just like
+
+787
+00:50:35,485 --> 00:50:38,885
+Speaker 9:  snot all over their nose and they look kind of annoyed. You're like,
+
+788
+00:50:39,505 --> 00:50:41,285
+Speaker 9:  oh, okay. We missed the mark on that one.
+
+789
+00:50:41,785 --> 00:50:45,165
+Speaker 1:  But I can imagine to all of that stuff that
+
+790
+00:50:45,625 --> 00:50:48,445
+Speaker 1:  it, it makes sense that that all comes up in, in the editing process, right?
+
+791
+00:50:48,445 --> 00:50:50,605
+Speaker 1:  You sit there and you're like, how did I feel and how does this photo feel?
+
+792
+00:50:50,705 --> 00:50:53,205
+Speaker 1:  And I wanna, I want to interrogate that 'cause I think it's really interesting.
+
+793
+00:50:53,225 --> 00:50:57,165
+Speaker 1:  But I can also imagine that you would start thinking differently about
+
+794
+00:50:57,165 --> 00:51:01,005
+Speaker 1:  the kinds of photos you're taking and even like the way you're setting
+
+795
+00:51:01,005 --> 00:51:04,685
+Speaker 1:  up to take those pictures, right? Like I'm thinking about, I was out
+
+796
+00:51:04,755 --> 00:51:08,725
+Speaker 1:  with my son yesterday. He loves trains and all he wants to do is
+
+797
+00:51:08,725 --> 00:51:12,525
+Speaker 1:  there's a, there's a walking path near a train track and he just wants to
+
+798
+00:51:12,525 --> 00:51:16,365
+Speaker 1:  stand there and wait for trains and a train goes by and he yells and
+
+799
+00:51:16,365 --> 00:51:19,325
+Speaker 1:  dances and then it leaves and then he just goes more choocho. And then we
+
+800
+00:51:19,325 --> 00:51:22,805
+Speaker 1:  wait until there's another train and we do that for hours. And
+
+801
+00:51:23,605 --> 00:51:26,925
+Speaker 1:  I was standing there like when he would get really excited about a train
+
+802
+00:51:26,925 --> 00:51:29,605
+Speaker 1:  and sort of stop paying attention to me, I would like back up and take a
+
+803
+00:51:29,605 --> 00:51:32,885
+Speaker 1:  picture of him or, and I was like running around trying to get the angle
+
+804
+00:51:32,955 --> 00:51:36,765
+Speaker 1:  just right and try to get the, the train in the exact right spot. And I had
+
+805
+00:51:36,765 --> 00:51:40,645
+Speaker 1:  this thought of like, oh, maybe it, I don't need to do any of this.
+
+806
+00:51:40,645 --> 00:51:43,485
+Speaker 1:  Like, I'm just gonna stand here and just sort of point my camera in, like
+
+807
+00:51:43,485 --> 00:51:46,965
+Speaker 1:  his vague direction and then worry about it later. But also maybe
+
+808
+00:51:47,675 --> 00:51:51,645
+Speaker 1:  like, do I even need this picture in an a, like, I don't know, it just, it
+
+809
+00:51:51,645 --> 00:51:55,365
+Speaker 1:  sort of messed with your head in terms of just like when you decide to hit
+
+810
+00:51:55,365 --> 00:51:58,885
+Speaker 1:  the shutter button in the first place, did you have any of that experience?
+
+811
+00:51:59,725 --> 00:52:03,525
+Speaker 9:  I did and it was like more forcing myself to take
+
+812
+00:52:03,845 --> 00:52:07,165
+Speaker 9:  a photo when I normally would've been like, this isn't really gonna work.
+
+813
+00:52:07,305 --> 00:52:07,525
+Speaker 9:  Oh,
+
+814
+00:52:07,725 --> 00:52:07,925
+Speaker 1:  Interesting.
+
+815
+00:52:07,995 --> 00:52:11,725
+Speaker 9:  Someone's in the way or you know, I was like, no,
+
+816
+00:52:12,795 --> 00:52:16,445
+Speaker 9:  I'll take the picture anyway and see what we can do and with ai.
+
+817
+00:52:17,465 --> 00:52:20,805
+Speaker 9:  So that was kind of more my experience. And so
+
+818
+00:52:20,805 --> 00:52:23,525
+Speaker 1:  You're kinda like, maybe there's a good picture in here somewhere. Yeah.
+
+819
+00:52:23,525 --> 00:52:26,285
+Speaker 1:  Yeah. And all I have to do is take the bad one and see what we can do later.
+
+820
+00:52:26,495 --> 00:52:26,845
+Speaker 1:  Right.
+
+821
+00:52:27,065 --> 00:52:30,285
+Speaker 9:  It it forced me to take more shots, I guess.
+
+822
+00:52:30,875 --> 00:52:34,685
+Speaker 9:  Yeah. I am, I'm like a classic parent photographer where
+
+823
+00:52:35,545 --> 00:52:39,325
+Speaker 9:  my kid was like, we, he was on a bridge in this little park
+
+824
+00:52:39,505 --> 00:52:43,245
+Speaker 9:  and I'm like waiting for the perfect moment when he's gonna like come running
+
+825
+00:52:43,315 --> 00:52:47,285
+Speaker 9:  back. Yep. And he's in, you know, framed perfectly in the middle of the
+
+826
+00:52:47,285 --> 00:52:51,085
+Speaker 9:  bridge and like just didn't cooperate, you know, like
+
+827
+00:52:51,105 --> 00:52:54,965
+Speaker 9:  he didn't wanna do that. But I'm like, well I'll take pictures anyway and
+
+828
+00:52:55,465 --> 00:52:56,765
+Speaker 9:  see what I can get away with.
+
+829
+00:52:57,435 --> 00:53:00,725
+Speaker 1:  Okay. So, and then take me through the editing process a little bit. You,
+
+830
+00:53:00,725 --> 00:53:04,325
+Speaker 1:  you know, you mentioned you're not really a, a phone editor. I think most
+
+831
+00:53:04,325 --> 00:53:08,245
+Speaker 1:  people aren't. I'll do occasional, like one
+
+832
+00:53:08,435 --> 00:53:11,125
+Speaker 1:  edit, a little bit of cropping, a little bit of straightening, maybe like
+
+833
+00:53:11,915 --> 00:53:15,605
+Speaker 1:  mess with the saturation every now and then. But I think most people
+
+834
+00:53:15,635 --> 00:53:18,685
+Speaker 1:  just like you take 10, you pick the best one and you put it on Instagram.
+
+835
+00:53:18,685 --> 00:53:21,725
+Speaker 1:  Yeah. Like that is, that is the pipeline we've all been taught at this point.
+
+836
+00:53:21,725 --> 00:53:25,565
+Speaker 1:  Yeah. But tell me about the process of going into these photos and, and you
+
+837
+00:53:25,565 --> 00:53:29,445
+Speaker 1:  open one up in this headspace of, what is the memory here? This feels
+
+838
+00:53:29,445 --> 00:53:33,205
+Speaker 1:  like a very like, philosophical thing to go through every time.
+
+839
+00:53:33,475 --> 00:53:37,405
+Speaker 9:  Yeah, yeah. It was odd and it was uncomfortable honestly.
+
+840
+00:53:37,625 --> 00:53:41,605
+Speaker 9:  But yeah, just kind of taking, taking myself back in in
+
+841
+00:53:41,605 --> 00:53:45,485
+Speaker 9:  the moment and like opening up those photos and I, I really
+
+842
+00:53:45,545 --> 00:53:49,325
+Speaker 9:  had to like sit with it for a minute. 'cause I was like, well this is what
+
+843
+00:53:49,325 --> 00:53:53,125
+Speaker 9:  I remember. Like, it was just like this, you know, he was stand, my husband
+
+844
+00:53:53,265 --> 00:53:57,165
+Speaker 9:  was standing here holding our child and we were looking at
+
+845
+00:53:57,165 --> 00:54:00,805
+Speaker 9:  something and then to kind of like, push myself a little bit
+
+846
+00:54:00,875 --> 00:54:04,565
+Speaker 9:  more. Like the, the one I came up with is like,
+
+847
+00:54:05,425 --> 00:54:09,045
+Speaker 9:  one of us is always carrying this massive diaper bag like a hundred percent
+
+848
+00:54:09,045 --> 00:54:12,805
+Speaker 9:  of the time at like a pack mule. And my husband had it,
+
+849
+00:54:12,985 --> 00:54:16,885
+Speaker 9:  you know, the strap around his shoulder in this
+
+850
+00:54:16,885 --> 00:54:20,725
+Speaker 9:  photo. And I was like, well, you know, I don't re like remember
+
+851
+00:54:20,785 --> 00:54:24,645
+Speaker 9:  the diaper bag? Like it's just there like furniture all the time.
+
+852
+00:54:26,145 --> 00:54:27,165
+Speaker 9:  So I took that out.
+
+853
+00:54:27,545 --> 00:54:30,205
+Speaker 1:  You sent me a bunch of the photos that you took and I'm looking at them now
+
+854
+00:54:30,205 --> 00:54:32,765
+Speaker 1:  trying to like, guess which ones you're talking about? Yeah. And there's
+
+855
+00:54:32,765 --> 00:54:36,245
+Speaker 1:  one, it's, it's your husband. He's holding your, your kid in his right arm
+
+856
+00:54:36,505 --> 00:54:39,525
+Speaker 1:  and they're looking at like machinery of some kind it looks like. Yeah. Like
+
+857
+00:54:39,525 --> 00:54:42,565
+Speaker 1:  this looks like a very old printing press is kind of what they're like poking
+
+858
+00:54:42,565 --> 00:54:46,285
+Speaker 1:  at. Yeah. And all I see on
+
+859
+00:54:46,315 --> 00:54:50,045
+Speaker 1:  your husband is is T-shirt. Yeah. But you're saying there was a diaper bag?
+
+860
+00:54:50,045 --> 00:54:52,765
+Speaker 1:  Yeah, a strap of a diaper bag is, am I thinking about the right picture?
+
+861
+00:54:52,785 --> 00:54:54,245
+Speaker 1:  Do I, am I guessing correctly? That's the one.
+
+862
+00:54:54,395 --> 00:54:58,205
+Speaker 9:  Yeah. Like there's a big black strap and it's, I don't know, it's not like
+
+863
+00:54:58,205 --> 00:55:00,845
+Speaker 9:  that distracting or anything. You look at it, you're like, yeah, that's the
+
+864
+00:55:00,845 --> 00:55:04,045
+Speaker 9:  kind of bag you carry around. Sure. If you If, you're hauling a kid everywhere.
+
+865
+00:55:04,625 --> 00:55:07,725
+Speaker 9:  But yeah, it's, it kind of amazed me just how
+
+866
+00:55:08,225 --> 00:55:11,645
+Speaker 9:  easily you can take something like that out. And it's not
+
+867
+00:55:12,245 --> 00:55:15,925
+Speaker 9:  a challenge for generative ai, it's just like, we got
+
+868
+00:55:16,165 --> 00:55:16,285
+Speaker 9:  it.
+
+869
+00:55:16,715 --> 00:55:20,485
+Speaker 1:  Yeah. I'm looking at this now and there's like, there's a little bit of
+
+870
+00:55:20,605 --> 00:55:24,445
+Speaker 1:  a wrinkle in a black line kind of going across
+
+871
+00:55:24,505 --> 00:55:28,285
+Speaker 1:  his chest that probably wouldn't be there. But If, you had never said that.
+
+872
+00:55:28,405 --> 00:55:30,565
+Speaker 1:  I looked at a bunch of these photos being like, okay, where, where did choose
+
+873
+00:55:30,625 --> 00:55:33,805
+Speaker 1:  ai? What did she did? And this was one where I, I had nothing, no idea. Wouldn't
+
+874
+00:55:33,805 --> 00:55:37,365
+Speaker 1:  have ever in a million years have noticed that this wasn't in here. Especially
+
+875
+00:55:37,385 --> 00:55:40,125
+Speaker 1:  at Instagram size. Right. Like even blowing this thing up as big as it goes.
+
+876
+00:55:40,195 --> 00:55:40,685
+Speaker 9:  Exactly.
+
+877
+00:55:41,325 --> 00:55:45,205
+Speaker 1:  I never would've noticed. So what, what tools do you end up using
+
+878
+00:55:45,225 --> 00:55:48,005
+Speaker 1:  in all of this? Are you're just like in Google Photos playing with the AI
+
+879
+00:55:48,005 --> 00:55:51,605
+Speaker 1:  stuff? Like what did you find yourself gravitating to messing with these
+
+880
+00:55:51,605 --> 00:55:51,885
+Speaker 1:  photos?
+
+881
+00:55:52,805 --> 00:55:56,045
+Speaker 9:  I stuck with Google photos and I,
+
+882
+00:55:56,595 --> 00:55:58,885
+Speaker 9:  some of these photos were taken on an iPhone
+
+883
+00:56:00,585 --> 00:56:04,005
+Speaker 9:  on in a different session. Sacrilege, you know, I I know
+
+884
+00:56:04,295 --> 00:56:06,885
+Speaker 9:  still messed with them in Google photos
+
+885
+00:56:08,225 --> 00:56:11,885
+Speaker 9:  and I uploaded a bunch of them to Instagram, which I
+
+886
+00:56:12,045 --> 00:56:15,365
+Speaker 9:  also felt weird about, felt like I was tricking my friends. But
+
+887
+00:56:15,955 --> 00:56:18,445
+Speaker 1:  Wait, why? Tell me more. Why did that feel weird?
+
+888
+00:56:19,105 --> 00:56:22,645
+Speaker 9:  It feels strange because, you know, like I've changed
+
+889
+00:56:23,025 --> 00:56:26,805
+Speaker 9:  enough of a lot of these that they're materially
+
+890
+00:56:26,955 --> 00:56:30,725
+Speaker 9:  like different, you know, I'm like, that is not
+
+891
+00:56:31,385 --> 00:56:34,685
+Speaker 9:  how that scene looked. One of them is cheesy as hell. There's like
+
+892
+00:56:35,415 --> 00:56:38,845
+Speaker 9:  birds in the sky that were there. That was the one I was, oh yeah, I really
+
+893
+00:56:38,845 --> 00:56:40,085
+Speaker 9:  gotta try this. Like,
+
+894
+00:56:40,195 --> 00:56:43,805
+Speaker 1:  Okay, wait, so let me, can I just explain two that I saw that really jumped
+
+895
+00:56:43,805 --> 00:56:47,365
+Speaker 1:  out to me? Yeah. There's one that's like the, the, the 10 out of 10 on this
+
+896
+00:56:47,365 --> 00:56:50,285
+Speaker 1:  scale I would say. Okay. Yeah. Is a, a photo that you took
+
+897
+00:56:51,305 --> 00:56:54,725
+Speaker 1:  of your son in a park. He's driving like a little, it looks like a little
+
+898
+00:56:54,725 --> 00:56:58,685
+Speaker 1:  one of those little like stationary cars that you can just sit in. You pretty
+
+899
+00:56:58,685 --> 00:57:02,085
+Speaker 1:  obviously just put a dinosaur in the background. Yeah, right. There's just
+
+900
+00:57:02,125 --> 00:57:02,925
+Speaker 1:  a dinosaur there. Now.
+
+901
+00:57:03,525 --> 00:57:07,085
+Speaker 9:  I had to throw that one into to be a little like, okay, something's up here.
+
+902
+00:57:07,715 --> 00:57:09,445
+Speaker 9:  Like, please don't believe all of this.
+
+903
+00:57:09,765 --> 00:57:13,605
+Speaker 1:  I will also say it's not a very good dinosaur. The head is
+
+904
+00:57:13,605 --> 00:57:13,965
+Speaker 1:  very good.
+
+905
+00:57:14,475 --> 00:57:15,245
+Speaker 9:  Yeah. The teeth,
+
+906
+00:57:15,505 --> 00:57:19,205
+Speaker 1:  It just sort of wisps as it turns into its dinosaur body. It
+
+907
+00:57:19,265 --> 00:57:22,565
+Speaker 9:  Has like, just kind of too many limbs I think. Yeah.
+
+908
+00:57:23,105 --> 00:57:25,205
+Speaker 9:  But the teeth are pretty scary. But
+
+909
+00:57:25,205 --> 00:57:28,525
+Speaker 1:  It's still, and it's, this is like the sixth photo in a gallery and I just
+
+910
+00:57:28,525 --> 00:57:32,205
+Speaker 1:  flip through and it's like, it works. It kind of, it's, it's fun. Like I
+
+911
+00:57:32,205 --> 00:57:34,725
+Speaker 1:  don't think it's real. Yeah. But it, it does give it a fun like Jurassic
+
+912
+00:57:34,815 --> 00:57:38,165
+Speaker 1:  parky kind of vibe. I'm into it. Yeah. And then the other one, which is I
+
+913
+00:57:38,165 --> 00:57:41,485
+Speaker 1:  think the one you were just describing, he's running through,
+
+914
+00:57:42,525 --> 00:57:46,165
+Speaker 1:  I I wanna say a field, but it's like a field next to some kind of
+
+915
+00:57:46,165 --> 00:57:49,645
+Speaker 1:  industrial machinery. I don't know what where you were for all of this, but
+
+916
+00:57:49,875 --> 00:57:52,005
+Speaker 1:  everybody looks like they're having fun. There's an
+
+917
+00:57:52,205 --> 00:57:54,045
+Speaker 9:  Interesting backstory. Yeah.
+
+918
+00:57:55,465 --> 00:57:59,365
+Speaker 1:  And so this is one that I actually lingered on for a minute because
+
+919
+00:57:59,365 --> 00:58:02,725
+Speaker 1:  he's, he's running and he is got his right arm up in the air and the sky
+
+920
+00:58:02,725 --> 00:58:05,925
+Speaker 1:  is beautiful and blue and there is just this big flock of birds basically
+
+921
+00:58:06,095 --> 00:58:07,205
+Speaker 1:  right above his head.
+
+922
+00:58:09,135 --> 00:58:12,315
+Speaker 1:  And if it's, if it's not ai,
+
+923
+00:58:13,225 --> 00:58:17,075
+Speaker 1:  this is like a perfectly reasonable thing to have photographed, right? Like
+
+924
+00:58:17,075 --> 00:58:20,995
+Speaker 1:  it's, it's, it would, it would be a lovely shot. Like I would be very proud
+
+925
+00:58:20,995 --> 00:58:24,595
+Speaker 1:  of you for getting this photo with this dimensions in these
+
+926
+00:58:24,595 --> 00:58:28,555
+Speaker 1:  particular ways. But then I found myself wondering like, okay, are the, are
+
+927
+00:58:28,555 --> 00:58:32,475
+Speaker 1:  the birds just not there at all? Were the birds like off to the side and
+
+928
+00:58:32,475 --> 00:58:35,195
+Speaker 1:  she just sort of like grabbed them and moved them over so that they were
+
+929
+00:58:35,435 --> 00:58:39,395
+Speaker 1:  directly on top of his head? Or is this just a perfectly timed photo? And
+
+930
+00:58:39,435 --> 00:58:43,275
+Speaker 1:  I think my hunch is you put the birds there, but
+
+931
+00:58:43,315 --> 00:58:45,075
+Speaker 1:  I couldn't say that with great confidence.
+
+932
+00:58:45,625 --> 00:58:49,475
+Speaker 9:  Yeah. Yeah. I did add the birds. Okay. Wholesale there,
+
+933
+00:58:49,475 --> 00:58:53,355
+Speaker 9:  there were no birds there. No birds. The funny thing is, we were
+
+934
+00:58:53,375 --> 00:58:56,395
+Speaker 9:  at this, they called it a science fair. And
+
+935
+00:58:57,105 --> 00:59:01,035
+Speaker 9:  outside just to the left of where you see Lennox, there's like a
+
+936
+00:59:01,125 --> 00:59:04,915
+Speaker 9:  giant iron kind of bird sculpture that flaps
+
+937
+00:59:04,935 --> 00:59:08,435
+Speaker 9:  its wings when you like pull, there's a little pulley. It was
+
+938
+00:59:08,935 --> 00:59:12,315
+Speaker 9:  so cool. and it was just kind of like,
+
+939
+00:59:12,775 --> 00:59:16,675
+Speaker 9:  you know, like the sun was hitting just right and it was like so beautiful.
+
+940
+00:59:17,415 --> 00:59:21,325
+Speaker 9:  And Lennox is kind of running around after we played with this thing and
+
+941
+00:59:21,825 --> 00:59:25,685
+Speaker 9:  he just looked super happy. I was like, what could I add that would
+
+942
+00:59:25,685 --> 00:59:29,365
+Speaker 9:  like, make it feel like that moment felt? And
+
+943
+00:59:30,005 --> 00:59:33,965
+Speaker 9:  I landed on putting these birds in and it just so cheesy and
+
+944
+00:59:33,965 --> 00:59:37,645
+Speaker 9:  like, I don't enjoy it. Like I look at it, I am like,
+
+945
+00:59:37,785 --> 00:59:41,645
+Speaker 9:  you know what? The birds are convincing and this is like a
+
+946
+00:59:41,645 --> 00:59:45,405
+Speaker 9:  pretty photo, but am I gonna like print it
+
+947
+00:59:45,505 --> 00:59:48,805
+Speaker 9:  and put it on the wall? Like no, I can't.
+
+948
+00:59:49,395 --> 00:59:53,205
+Speaker 1:  Well, and, and that, I mean, this is where you get back to the, like what
+
+949
+00:59:53,205 --> 00:59:56,805
+Speaker 1:  is the, what is the memory piece of this? Because I, I think
+
+950
+00:59:57,735 --> 01:00:01,445
+Speaker 1:  there is some part of this as a viewer that I'm immediately like, oh,
+
+951
+01:00:01,475 --> 01:00:04,965
+Speaker 1:  what a fun beautiful day outdoors. Right. And that's
+
+952
+01:00:05,275 --> 01:00:09,205
+Speaker 1:  like you are communicating to me, I think the correct thing.
+
+953
+01:00:09,765 --> 01:00:13,605
+Speaker 1:  I don't know how much the birds really add to that. Like it's, it's, it's
+
+954
+01:00:13,705 --> 01:00:17,405
+Speaker 1:  him smiling and running with his arms up that does most of the
+
+955
+01:00:17,435 --> 01:00:19,845
+Speaker 1:  work in this photo Yeah. Of like communicating the feeling.
+
+956
+01:00:21,385 --> 01:00:25,325
+Speaker 1:  But putting birds there certainly helps and it makes the photo cooler to
+
+957
+01:00:25,325 --> 01:00:29,015
+Speaker 1:  look at, but it doesn't sound like it accomplishes anything for you.
+
+958
+01:00:29,045 --> 01:00:31,495
+Speaker 1:  Yeah. And I find that really fascinating. Like as the person who is likely
+
+959
+01:00:31,495 --> 01:00:35,455
+Speaker 1:  to look at this photo the most over time, it doesn't sound
+
+960
+01:00:35,455 --> 01:00:38,655
+Speaker 1:  like this improve. Like you're not gonna look at this with fonder memories
+
+961
+01:00:38,655 --> 01:00:40,175
+Speaker 1:  because of the AI birds you put there.
+
+962
+01:00:40,765 --> 01:00:44,535
+Speaker 9:  Yeah. and it really, it really made me think about the whole exercise
+
+963
+01:00:44,555 --> 01:00:48,535
+Speaker 9:  is like, who's this for? Is this, would I make these edits for
+
+964
+01:00:48,595 --> 01:00:52,495
+Speaker 9:  me? So it felt more like what it was in my mind, or
+
+965
+01:00:52,555 --> 01:00:55,935
+Speaker 9:  am I trying to portray something on social media
+
+966
+01:00:56,275 --> 01:01:00,255
+Speaker 9:  that's like, looks more idyllic?
+
+967
+01:01:00,435 --> 01:01:04,415
+Speaker 9:  And I kept coming back to like, we have kind of a set of
+
+968
+01:01:04,415 --> 01:01:08,335
+Speaker 9:  expectations from like professional photography. Like if we had
+
+969
+01:01:08,335 --> 01:01:12,135
+Speaker 9:  hired a professional portrait photographer to kind of follow
+
+970
+01:01:12,195 --> 01:01:16,095
+Speaker 9:  us around for an afternoon, you would sort of expect you
+
+971
+01:01:16,095 --> 01:01:20,055
+Speaker 9:  like suspend your disbelief a little bit. Like,
+
+972
+01:01:20,835 --> 01:01:24,695
+Speaker 9:  you know, they, they know how to get the right moment and the right light
+
+973
+01:01:24,915 --> 01:01:28,135
+Speaker 9:  and like your kids smiling and not screaming and all that stuff.
+
+974
+01:01:28,835 --> 01:01:32,735
+Speaker 9:  And I think this like, one way that these AI
+
+975
+01:01:32,735 --> 01:01:36,335
+Speaker 9:  tools is, are maybe intended to be used is to kind of
+
+976
+01:01:36,335 --> 01:01:40,015
+Speaker 9:  achieve more of that, like without it being a
+
+977
+01:01:40,015 --> 01:01:43,975
+Speaker 9:  professional photographer. And that's where I was like iffy on it.
+
+978
+01:01:44,095 --> 01:01:47,975
+Speaker 9:  I was like, I don't think this quite works because there's just
+
+979
+01:01:47,975 --> 01:01:51,895
+Speaker 9:  too much that you can't like recreate afterward. It has to be
+
+980
+01:01:51,895 --> 01:01:55,855
+Speaker 9:  there. And like the photos I like are Yeah.
+
+981
+01:01:55,955 --> 01:01:59,575
+Speaker 9:  The things were just there. Like, Lennox is having a great time Right. And
+
+982
+01:01:59,575 --> 01:02:03,255
+Speaker 9:  the light was right. And that's what makes it a good photo, I think. Or like
+
+983
+01:02:03,295 --> 01:02:06,615
+Speaker 9:  a photo I wanna keep looking at not AI birds
+
+984
+01:02:07,035 --> 01:02:10,815
+Speaker 1:  To keep on that photo. I think the, the thing about
+
+985
+01:02:10,885 --> 01:02:14,295
+Speaker 1:  what you just said that I I I find very compelling is the idea that like
+
+986
+01:02:15,055 --> 01:02:18,255
+Speaker 1:  a professional photographer would know how to get the moment when they're
+
+987
+01:02:18,255 --> 01:02:21,885
+Speaker 1:  not screaming. And like your memory of this day
+
+988
+01:02:22,145 --> 01:02:25,285
+Speaker 1:  is, it was a very fun day. We all had a really good time. Right. Like I,
+
+989
+01:02:25,405 --> 01:02:28,885
+Speaker 1:  I bet Lennox at one point made a sad face or like,
+
+990
+01:02:29,305 --> 01:02:32,085
+Speaker 1:  or like had a bunch of snot everywhere, right? Like these things happen.
+
+991
+01:02:32,185 --> 01:02:35,005
+Speaker 1:  Yes. And So I look at this photo and I wonder, okay, what if instead of adding
+
+992
+01:02:35,215 --> 01:02:38,965
+Speaker 1:  birds, you had just opened his eyes or
+
+993
+01:02:39,065 --> 01:02:43,005
+Speaker 1:  Mm. You had just wiped away the snot on his face. Or like,
+
+994
+01:02:43,005 --> 01:02:46,165
+Speaker 1:  I'm thinking about my, my own kid right now who has a, he just, he's, he's
+
+995
+01:02:46,205 --> 01:02:50,085
+Speaker 1:  a 18 month old boy, so he's a, his face is a disaster all the time. Yeah.
+
+996
+01:02:50,325 --> 01:02:52,645
+Speaker 1:  And right now he just has this like little scratch right on the side of his
+
+997
+01:02:52,645 --> 01:02:56,125
+Speaker 1:  face and I'm like, what if all I did was just get rid of that? Just, just
+
+998
+01:02:56,245 --> 01:03:00,165
+Speaker 1:  sort of yank that away. And my memory of it is not the scratch
+
+999
+01:03:00,165 --> 01:03:02,725
+Speaker 1:  on his face. Right. Right. My memory of it is we all had a really nice day.
+
+1000
+01:03:03,505 --> 01:03:07,365
+Speaker 1:  Not that he was very snotty for two thirds of it. And I wonder
+
+1001
+01:03:07,595 --> 01:03:10,685
+Speaker 1:  like, to me there's a very stark line between like, I added a dinosaur and
+
+1002
+01:03:10,725 --> 01:03:14,365
+Speaker 1:  I wiped away the snot. But I guess somewhere between those things it's very
+
+1003
+01:03:14,585 --> 01:03:17,565
+Speaker 1:  blurry. But did you, did you do any of the like
+
+1004
+01:03:18,355 --> 01:03:22,125
+Speaker 1:  tiny AI cleanup rather than kind of using the tools to their full extent?
+
+1005
+01:03:22,185 --> 01:03:23,165
+Speaker 1:  Did that feel any different?
+
+1006
+01:03:23,875 --> 01:03:27,645
+Speaker 9:  Well, so the generative AI in Google photos
+
+1007
+01:03:27,645 --> 01:03:31,045
+Speaker 9:  right now will not let you do anything to a person. Oh, that's right. Right.
+
+1008
+01:03:31,045 --> 01:03:34,645
+Speaker 9:  So, and that's, that occurred to me a lot. I was like, well,
+
+1009
+01:03:35,025 --> 01:03:38,725
+Speaker 9:  you know, he looks kind of bummed in this picture.
+
+1010
+01:03:39,195 --> 01:03:43,125
+Speaker 9:  Yeah. Like, would I wanna change that? And the
+
+1011
+01:03:43,125 --> 01:03:46,885
+Speaker 9:  closest you can get is with Best Take So I did like, take
+
+1012
+01:03:47,265 --> 01:03:50,645
+Speaker 9:  bursts of photos and then you can kind of pick, you know,
+
+1013
+01:03:51,305 --> 01:03:55,205
+Speaker 9:  the expression you want afterward. It didn't, it, it's
+
+1014
+01:03:55,425 --> 01:03:59,415
+Speaker 9:  not super effective with just one subject. 'cause you could just
+
+1015
+01:03:59,965 --> 01:04:03,335
+Speaker 9:  pick that photo rather than the other. It makes a lot more sense. If you
+
+1016
+01:04:03,335 --> 01:04:07,135
+Speaker 9:  have multiple people in the scene. But yeah,
+
+1017
+01:04:07,245 --> 01:04:10,935
+Speaker 9:  that was, that was the weird area. I was like, I don't know, I think I would
+
+1018
+01:04:11,045 --> 01:04:14,855
+Speaker 9:  like clean up some boogers and not feel too
+
+1019
+01:04:14,855 --> 01:04:18,655
+Speaker 9:  weird about it in any of that. You get to like a, well, where
+
+1020
+01:04:18,655 --> 01:04:22,375
+Speaker 9:  do I stop doing this? Right. You know, once you've like cleaned up boogers,
+
+1021
+01:04:22,375 --> 01:04:24,175
+Speaker 9:  you're like, well what else can I do now?
+
+1022
+01:04:24,625 --> 01:04:27,695
+Speaker 1:  Right. It's a slippery slope to adding dinosaurs. Like it literally is,
+
+1023
+01:04:28,435 --> 01:04:32,335
+Speaker 9:  That's exactly where you end up, you end up in dinosaurs. Yeah.
+
+1024
+01:04:33,075 --> 01:04:36,295
+Speaker 9:  No, it was just a strange thing of like, I would start taking something outta
+
+1025
+01:04:36,295 --> 01:04:39,295
+Speaker 9:  the back, like there's a stroller in the background and I erased that and
+
+1026
+01:04:39,295 --> 01:04:43,215
+Speaker 9:  I'm like, well, what else can I take out here? And then the,
+
+1027
+01:04:43,595 --> 01:04:47,335
+Speaker 9:  the thing that is so wild to me, you just end up with this like
+
+1028
+01:04:48,025 --> 01:04:51,135
+Speaker 9:  bland picture. I'm like, I took out
+
+1029
+01:04:51,915 --> 01:04:55,335
+Speaker 9:  all of the clutter and all of the stuff in the background and it just looks,
+
+1030
+01:04:55,595 --> 01:04:59,215
+Speaker 9:  I'm like, well, where were we? You know, some of that stuff
+
+1031
+01:04:59,365 --> 01:05:03,135
+Speaker 9:  adds the context and the kind of like, we were really here
+
+1032
+01:05:03,185 --> 01:05:07,175
+Speaker 9:  doing this thing kind of feeling. And that's what really
+
+1033
+01:05:07,175 --> 01:05:11,015
+Speaker 9:  struck me in this experiment is like, oh, you can just ai your way into
+
+1034
+01:05:11,135 --> 01:05:14,975
+Speaker 9:  a picture that just could be anywhere just looks
+
+1035
+01:05:14,975 --> 01:05:15,295
+Speaker 9:  lovely.
+
+1036
+01:05:15,805 --> 01:05:19,655
+Speaker 1:  Totally. Yeah. And, and there is a weird thing that
+
+1037
+01:05:19,655 --> 01:05:23,335
+Speaker 1:  you see in a lot of sort of overly doctored photos like this where
+
+1038
+01:05:23,335 --> 01:05:26,775
+Speaker 1:  everything kind of happens in a vacuum, right? Like, there's so many photos
+
+1039
+01:05:26,805 --> 01:05:30,775
+Speaker 1:  that If you remove people from the photo. It's like the,
+
+1040
+01:05:30,895 --> 01:05:33,575
+Speaker 1:  a beach is a perfect example, right? Like If, you're at the beach and you're
+
+1041
+01:05:33,575 --> 01:05:37,175
+Speaker 1:  the only person there. It's actually weird, right. Like on a nice
+
+1042
+01:05:37,275 --> 01:05:40,855
+Speaker 1:  beachy day. So then you go, but you go in and you, you do the magic eraser
+
+1043
+01:05:40,855 --> 01:05:43,215
+Speaker 1:  and you get rid of all this stuff and now it looks like the rapture has happened
+
+1044
+01:05:43,215 --> 01:05:47,055
+Speaker 1:  and you're the only person left on earth at the beach. Yeah. And there, there's
+
+1045
+01:05:47,055 --> 01:05:50,655
+Speaker 1:  just, it's a strange thing to try to dial in. And there was a, there was
+
+1046
+01:05:50,655 --> 01:05:54,495
+Speaker 1:  a photo in the, the ones that you shared where Lennox is like,
+
+1047
+01:05:54,495 --> 01:05:57,535
+Speaker 1:  he's playing with a truck on a table and there's like a glass of milk in
+
+1048
+01:05:57,535 --> 01:06:01,415
+Speaker 1:  front of him and there's a blurry person in the background. And this
+
+1049
+01:06:01,415 --> 01:06:04,935
+Speaker 1:  was another one that I, I struggled to figure out what, if anything you had
+
+1050
+01:06:04,935 --> 01:06:07,855
+Speaker 1:  done with ai and I'm curious what the answer is, but I was looking at this
+
+1051
+01:06:07,855 --> 01:06:11,455
+Speaker 1:  and I was like, okay, my immediate instinct would be to remove the glass
+
+1052
+01:06:11,455 --> 01:06:15,055
+Speaker 1:  of milk because it's only like two thirds in frame and it's not really part
+
+1053
+01:06:15,055 --> 01:06:17,055
+Speaker 1:  of it. So it's just a little bit distracting. And then like, okay, maybe
+
+1054
+01:06:17,055 --> 01:06:20,535
+Speaker 1:  I'll get rid of the person in the background. And now I've turned this kind
+
+1055
+01:06:20,535 --> 01:06:24,495
+Speaker 1:  of nice photo of a person living in the world into like
+
+1056
+01:06:25,215 --> 01:06:28,735
+Speaker 1:  a kid at a table in an empty warehouse with nothing. And like, I think I've
+
+1057
+01:06:28,735 --> 01:06:30,215
+Speaker 1:  made the photo worse. Yeah.
+
+1058
+01:06:30,445 --> 01:06:33,575
+Speaker 9:  Yeah. That's a conclusion I came to a lot. And actually,
+
+1059
+01:06:34,355 --> 01:06:38,055
+Speaker 9:  so the glass of milk is not real. Oh really? Yeah,
+
+1060
+01:06:38,235 --> 01:06:38,895
+Speaker 9:  it is ai.
+
+1061
+01:06:38,925 --> 01:06:41,455
+Speaker 1:  Whoa. That is a convincing glass of milk,
+
+1062
+01:06:41,985 --> 01:06:45,895
+Speaker 9:  Isn't it? We were at the, we were at a Starbucks, but a fancy Starbucks,
+
+1063
+01:06:46,075 --> 01:06:49,935
+Speaker 9:  you know, the like ones where they would like roast the coffee
+
+1064
+01:06:49,995 --> 01:06:50,495
+Speaker 9:  in front of you.
+
+1065
+01:06:50,595 --> 01:06:50,815
+Speaker 1:  Oh
+
+1066
+01:06:50,815 --> 01:06:54,695
+Speaker 9:  Yeah. He had a, a little orange juice bottle, which is, I
+
+1067
+01:06:54,695 --> 01:06:58,535
+Speaker 9:  don't know how you feel about being a parent on Instagram
+
+1068
+01:06:58,595 --> 01:07:02,535
+Speaker 9:  is like loaded with sugar. I am like, well what if I put something in
+
+1069
+01:07:02,535 --> 01:07:06,415
+Speaker 9:  front of him that wasn't so overtly unhealthy, quote
+
+1070
+01:07:06,655 --> 01:07:09,535
+Speaker 9:  unquote. I don't know. Sure. I don't care if my kid drinks orange juice.
+
+1071
+01:07:09,895 --> 01:07:10,655
+Speaker 9:  I think orange juice is
+
+1072
+01:07:10,655 --> 01:07:11,175
+Speaker 1:  Basically fine.
+
+1073
+01:07:11,565 --> 01:07:12,655
+Speaker 9:  It's so good. Anyway.
+
+1074
+01:07:12,655 --> 01:07:14,055
+Speaker 1:  Yeah. Don't, don't cancel us internet.
+
+1075
+01:07:14,915 --> 01:07:17,135
+Speaker 9:  No bad opinions about orange juice.
+
+1076
+01:07:18,725 --> 01:07:21,695
+Speaker 9:  Yeah. I was like, well I'll just put a glass of milk in front of him. Like
+
+1077
+01:07:21,695 --> 01:07:25,495
+Speaker 9:  he ordered it at Starbucks. Yeah. And it's super convincing. I was
+
+1078
+01:07:25,495 --> 01:07:29,335
+Speaker 9:  like, well if Matt smiled and Wow. Yeah. Yeah. You can go like
+
+1079
+01:07:29,875 --> 01:07:33,695
+Speaker 9:  one of the pictures where he is in that little jeep in the
+
+1080
+01:07:33,695 --> 01:07:37,615
+Speaker 9:  park, the one that doesn't have any dinosaurs just has a park
+
+1081
+01:07:37,615 --> 01:07:41,575
+Speaker 9:  behind him. I actually took out like, there's like this
+
+1082
+01:07:41,975 --> 01:07:45,135
+Speaker 9:  building that has the bathrooms. It's like brick and
+
+1083
+01:07:45,795 --> 01:07:49,735
+Speaker 9:  it doesn't, it doesn't look like offensive. It was just kind of
+
+1084
+01:07:50,115 --> 01:07:53,295
+Speaker 9:  in the background. I was like, well maybe I can just put some trees there
+
+1085
+01:07:53,795 --> 01:07:57,775
+Speaker 9:  and it's a thousand percent convincing completely. But then it's also like,
+
+1086
+01:07:58,645 --> 01:08:01,775
+Speaker 9:  it's, it just looks like some trees. Like it doesn't tell me about anything
+
+1087
+01:08:01,775 --> 01:08:03,135
+Speaker 9:  about like where we were.
+
+1088
+01:08:04,765 --> 01:08:05,055
+Speaker 9:  Yeah.
+
+1089
+01:08:05,715 --> 01:08:09,695
+Speaker 1:  It does this, the picture becomes very kind of generic in that way. Yeah.
+
+1090
+01:08:10,155 --> 01:08:14,135
+Speaker 1:  One thing I find myself wondering about this process is how you'll
+
+1091
+01:08:14,135 --> 01:08:16,845
+Speaker 1:  think about these photos differently over time.
+
+1092
+01:08:18,365 --> 01:08:22,325
+Speaker 1:  A whether you'll go back to the photo of Lennox with the
+
+1093
+01:08:22,325 --> 01:08:25,845
+Speaker 1:  birds in six months, a year or five years or 50 years.
+
+1094
+01:08:26,105 --> 01:08:29,885
+Speaker 1:  And remember that those birds weren't there. Or if you'll forget
+
+1095
+01:08:29,905 --> 01:08:32,485
+Speaker 1:  and think they're part of the photos and maybe that's success in a certain
+
+1096
+01:08:32,545 --> 01:08:35,765
+Speaker 1:  way, but also it, whether
+
+1097
+01:08:36,565 --> 01:08:40,485
+Speaker 1:  changing the photos changes how you'll remember them in a way
+
+1098
+01:08:40,485 --> 01:08:43,285
+Speaker 1:  that feels weird. It's like so much of what we talk about with photography
+
+1099
+01:08:43,305 --> 01:08:47,005
+Speaker 1:  is it's, it's a documentation of a thing and If, you change the thing, you're
+
+1100
+01:08:47,005 --> 01:08:50,845
+Speaker 1:  gonna change your memory of the thing and that all gets very hairy
+
+1101
+01:08:50,845 --> 01:08:54,565
+Speaker 1:  and philosophical. But even just like removing people from
+
+1102
+01:08:54,565 --> 01:08:57,565
+Speaker 1:  something is gonna change how you remember that experience when you go back
+
+1103
+01:08:57,565 --> 01:09:01,505
+Speaker 1:  to the photo. I don't know, did, are you thinking about that at all
+
+1104
+01:09:01,505 --> 01:09:04,505
+Speaker 1:  as you're going through being like, how do I, how do I make this photo what
+
+1105
+01:09:04,505 --> 01:09:07,585
+Speaker 1:  I remembered versus what I want to remember it as many, many years from now?
+
+1106
+01:09:07,585 --> 01:09:08,545
+Speaker 1:  Or how I will remember it?
+
+1107
+01:09:09,175 --> 01:09:12,625
+Speaker 9:  Yeah. I like personally my Google photos
+
+1108
+01:09:13,085 --> 01:09:16,985
+Speaker 9:  is my journal at this point. Same. Yeah. Like I haven't written in a
+
+1109
+01:09:16,985 --> 01:09:20,305
+Speaker 9:  journal in a long time. If I'm trying to remember like
+
+1110
+01:09:20,915 --> 01:09:24,745
+Speaker 9:  where did we go when we were in Portland 10 years ago? I
+
+1111
+01:09:24,745 --> 01:09:27,745
+Speaker 9:  go to Google Photos and that's where the answer is
+
+1112
+01:09:28,805 --> 01:09:32,465
+Speaker 9:  So I did come across, you know, some examples of like,
+
+1113
+01:09:33,185 --> 01:09:37,145
+Speaker 9:  I was taking a, a friend, like a friend of ours was kind
+
+1114
+01:09:37,145 --> 01:09:40,065
+Speaker 9:  of half in the frame and I had a picture of
+
+1115
+01:09:40,905 --> 01:09:44,705
+Speaker 9:  Lennox and my husband and I was like, well I'll take him, our friend
+
+1116
+01:09:44,925 --> 01:09:48,745
+Speaker 9:  out of the picture. and it just fills it in, you know,
+
+1117
+01:09:49,095 --> 01:09:52,825
+Speaker 9:  perfectly. I would never think there was another human there. I was like,
+
+1118
+01:09:53,095 --> 01:09:56,145
+Speaker 9:  well, am I gonna remember that we were there with our friends on that day?
+
+1119
+01:09:56,165 --> 01:09:59,985
+Speaker 9:  Or am I going, is that like lost to time if
+
+1120
+01:10:00,105 --> 01:10:03,665
+Speaker 9:  I take him outta this photo? I started feeling really strange about it and
+
+1121
+01:10:03,665 --> 01:10:04,665
+Speaker 9:  I undid it.
+
+1122
+01:10:05,025 --> 01:10:08,825
+Speaker 1:  Yeah. There's a little bit of like, are you lying to your journal in, in
+
+1123
+01:10:08,825 --> 01:10:10,465
+Speaker 1:  all of that? Which is, which is very strange.
+
+1124
+01:10:10,815 --> 01:10:13,665
+Speaker 9:  Yeah. Oh, which I never lied to my journal.
+
+1125
+01:10:15,305 --> 01:10:16,185
+Speaker 9:  I would never do that.
+
+1126
+01:10:16,885 --> 01:10:20,185
+Speaker 1:  No. Who would, yeah. And then figuring out where that
+
+1127
+01:10:20,795 --> 01:10:23,265
+Speaker 1:  scale begins and ends, it's kind of the same thing. It's that same slippery
+
+1128
+01:10:23,275 --> 01:10:27,255
+Speaker 1:  slope, right. Where you're, you're saying, okay, I is
+
+1129
+01:10:27,395 --> 01:10:30,975
+Speaker 1:  is remembering that my friends were there an important part of this memory.
+
+1130
+01:10:32,085 --> 01:10:36,015
+Speaker 1:  Sometimes, sometimes probably not, but sometimes yes. Is
+
+1131
+01:10:36,415 --> 01:10:39,695
+Speaker 1:  remembering that, you know, whatever, he had a runny nose. Definitely not.
+
+1132
+01:10:40,555 --> 01:10:44,015
+Speaker 1:  But like those are, it's just strange to think you're making those decisions
+
+1133
+01:10:44,195 --> 01:10:47,855
+Speaker 1:  now. Also about the future. Like maybe,
+
+1134
+01:10:47,905 --> 01:10:50,815
+Speaker 1:  maybe you will wanna remember that you were there with your friends. Yeah.
+
+1135
+01:10:50,815 --> 01:10:54,535
+Speaker 1:  Maybe it doesn't seem so significant now, but it will later. And those are
+
+1136
+01:10:54,535 --> 01:10:58,375
+Speaker 1:  just making that decision now is,
+
+1137
+01:10:58,475 --> 01:11:02,255
+Speaker 1:  is an interesting way to like, you're changing the way that future,
+
+1138
+01:11:02,315 --> 01:11:05,215
+Speaker 1:  you remembers this without any real knowledge of how it might do it.
+
+1139
+01:11:05,985 --> 01:11:07,855
+Speaker 9:  Right. It's uncomfortable.
+
+1140
+01:11:08,075 --> 01:11:10,695
+Speaker 1:  It is, yeah. Uncomfortable is exactly the right word for it. Like even when
+
+1141
+01:11:10,695 --> 01:11:13,215
+Speaker 1:  it's useful it still feels kind of uncomfortable.
+
+1142
+01:11:13,715 --> 01:11:14,685
+Speaker 9:  Yeah, exactly.
+
+1143
+01:11:15,425 --> 01:11:19,045
+Speaker 1:  Did you have any of these that you, you came out of it and felt better about?
+
+1144
+01:11:19,045 --> 01:11:21,045
+Speaker 1:  Like I, I keep thinking about that thing you said at the beginning where
+
+1145
+01:11:21,045 --> 01:11:24,005
+Speaker 1:  you're like, I took photos I wouldn't have taken otherwise because I'm like,
+
+1146
+01:11:24,005 --> 01:11:27,365
+Speaker 1:  I bet there is a good photo in here somewhere. I find that very compelling.
+
+1147
+01:11:27,865 --> 01:11:30,765
+Speaker 1:  Did you have any of those experiences? Anything where you came out of it
+
+1148
+01:11:30,765 --> 01:11:33,725
+Speaker 1:  and you were like, I have made this into something out of nothing.
+
+1149
+01:11:34,585 --> 01:11:38,325
+Speaker 9:  Say yes and no. I have only reinforced
+
+1150
+01:11:38,385 --> 01:11:42,285
+Speaker 9:  my belief that you cannot edit a bad photo into a good
+
+1151
+01:11:42,285 --> 01:11:42,485
+Speaker 9:  photo.
+
+1152
+01:11:42,625 --> 01:11:43,965
+Speaker 1:  Mm. Even with ai.
+
+1153
+01:11:44,195 --> 01:11:47,765
+Speaker 9:  Yeah. Okay. That's true of Photoshop. That's true of putting
+
+1154
+01:11:47,975 --> 01:11:51,365
+Speaker 9:  birds in, you know, AI birds in your photo. Like
+
+1155
+01:11:51,435 --> 01:11:55,405
+Speaker 9:  nothing's going to, I tried, I tried to make some just
+
+1156
+01:11:55,465 --> 01:11:59,165
+Speaker 9:  bad photos look better and there's still stinkers. But the thing
+
+1157
+01:11:59,405 --> 01:12:03,125
+Speaker 9:  I am convinced now is I will
+
+1158
+01:12:03,125 --> 01:12:06,685
+Speaker 9:  take more photos where there's someone in the frame
+
+1159
+01:12:07,185 --> 01:12:11,085
+Speaker 9:  and I kind of wish they would move out of the way, but you know, you
+
+1160
+01:12:11,085 --> 01:12:13,845
+Speaker 9:  can't ask them to move. Right. Or
+
+1161
+01:12:15,285 --> 01:12:18,445
+Speaker 9:  I, I'll take more of those photos now and just
+
+1162
+01:12:19,025 --> 01:12:22,805
+Speaker 9:  remove them from the background. 'cause I, I don't feel bad about that
+
+1163
+01:12:22,825 --> 01:12:26,645
+Speaker 9:  and especially if it's like someone else's kid is in the
+
+1164
+01:12:26,805 --> 01:12:30,405
+Speaker 9:  background and it's a picture, you know, I can't get my
+
+1165
+01:12:30,665 --> 01:12:34,525
+Speaker 9:  my kid to stay still forever So I take the picture anyway
+
+1166
+01:12:34,665 --> 01:12:38,325
+Speaker 9:  and then I can remove the other kids so I'm not putting them
+
+1167
+01:12:38,465 --> 01:12:42,205
+Speaker 9:  on my Instagram. I'm like, I actually feel fine about that.
+
+1168
+01:12:42,715 --> 01:12:45,125
+Speaker 9:  Yeah. So that's where I landed. That
+
+1169
+01:12:45,125 --> 01:12:49,085
+Speaker 1:  Feels like a good use case. And especially like, the thing
+
+1170
+01:12:49,085 --> 01:12:52,325
+Speaker 1:  that immediately comes to mind there is like whenever If, you go to the zoo
+
+1171
+01:12:52,745 --> 01:12:56,285
+Speaker 1:  or whatever, you're inevitably going to take pictures of something
+
+1172
+01:12:56,915 --> 01:13:00,685
+Speaker 1:  with a thousand strangers right on, right on all sides of it.
+
+1173
+01:13:02,025 --> 01:13:04,845
+Speaker 1:  And you can make a case that actually not only are you making your photos
+
+1174
+01:13:04,845 --> 01:13:08,005
+Speaker 1:  better, you're kind of doing like a public service to the world by removing
+
+1175
+01:13:08,005 --> 01:13:11,965
+Speaker 1:  those people from the photos. Right. Like in a, you're you're, you're fighting
+
+1176
+01:13:11,985 --> 01:13:15,725
+Speaker 1:  the surveillance state with ai. Right? I love that.
+
+1177
+01:13:16,825 --> 01:13:18,165
+Speaker 9:  Not today surveillance
+
+1178
+01:13:18,215 --> 01:13:21,405
+Speaker 1:  State. Exactly. So how do you feel at the end of this
+
+1179
+01:13:21,775 --> 01:13:25,325
+Speaker 1:  experiment? Has it, you're, like you said, a person who takes a lot of photos
+
+1180
+01:13:25,465 --> 01:13:28,845
+Speaker 1:  anyway. Do you take anything away from this that makes you think you might
+
+1181
+01:13:29,635 --> 01:13:32,055
+Speaker 1:  act or operate differently with a camera from now on?
+
+1182
+01:13:32,895 --> 01:13:36,695
+Speaker 9:  I think the big one is I might rely on it more
+
+1183
+01:13:36,835 --> 01:13:40,695
+Speaker 9:  for those photos when I'm like, well I couldn't reframe this and
+
+1184
+01:13:40,965 --> 01:13:44,935
+Speaker 9:  there's someone here and I I just don't want them in my
+
+1185
+01:13:44,935 --> 01:13:48,695
+Speaker 9:  photo. It is very good at that. Sometimes it takes a couple
+
+1186
+01:13:48,755 --> 01:13:52,495
+Speaker 9:  of tries to get like the best version. But
+
+1187
+01:13:53,405 --> 01:13:56,855
+Speaker 9:  yeah, I was super surprised even with like kind of a complicated
+
+1188
+01:13:56,855 --> 01:14:00,495
+Speaker 9:  background or things in the foreground. I think that's where
+
+1189
+01:14:01,225 --> 01:14:04,975
+Speaker 9:  Magic Eraser hasn't been good in the past and where generative
+
+1190
+01:14:05,155 --> 01:14:08,815
+Speaker 9:  AI actually is like, makes it better. It isn't just
+
+1191
+01:14:08,925 --> 01:14:12,285
+Speaker 9:  like a gimmick, but there are also gimmicks and like
+
+1192
+01:14:13,235 --> 01:14:16,965
+Speaker 9:  Sure. I yeah. Remain unconvinced that
+
+1193
+01:14:16,965 --> 01:14:20,765
+Speaker 9:  anybody was asking for the ability to like put dinosaurs
+
+1194
+01:14:20,765 --> 01:14:23,845
+Speaker 9:  in their photos and like, it's kind of funny for a minute,
+
+1195
+01:14:24,865 --> 01:14:28,645
+Speaker 9:  but yeah, I'm, I'm gonna, I'm gonna stay away from the dinosaurs, I
+
+1196
+01:14:28,845 --> 01:14:28,925
+Speaker 9:  think.
+
+1197
+01:14:30,195 --> 01:14:32,725
+Speaker 1:  Yeah. I mean, and, and I think it, it goes back to that question of who is
+
+1198
+01:14:32,725 --> 01:14:36,605
+Speaker 1:  it for, right? Because I think there's a, there's a world in which you
+
+1199
+01:14:36,605 --> 01:14:40,045
+Speaker 1:  can make the case that this stuff is, it's fun to share with people, right?
+
+1200
+01:14:40,075 --> 01:14:43,925
+Speaker 1:  Like people who weren't there, people who care about you and
+
+1201
+01:14:43,985 --> 01:14:47,845
+Speaker 1:  and your kid. And like, it's silly and fun in the way that, like
+
+1202
+01:14:48,005 --> 01:14:50,965
+Speaker 1:  I think about the, the pictures you get at Disney World on a rollercoaster,
+
+1203
+01:14:50,965 --> 01:14:53,845
+Speaker 1:  right? Where they pick this one very specific moment and it always has a
+
+1204
+01:14:53,845 --> 01:14:57,805
+Speaker 1:  silly background and like No one believes that that
+
+1205
+01:14:57,805 --> 01:15:01,605
+Speaker 1:  is like a representative photo of your life. Right. But it is, it is.
+
+1206
+01:15:01,635 --> 01:15:04,485
+Speaker 1:  That to me is actually a perfect example of like, that is a photograph of
+
+1207
+01:15:04,525 --> 01:15:08,405
+Speaker 1:  a memory and not of a, it's not a photo. Right. Even though in a way it is
+
+1208
+01:15:08,405 --> 01:15:12,245
+Speaker 1:  a photo, it's so exactly staged and put together
+
+1209
+01:15:12,305 --> 01:15:16,205
+Speaker 1:  and directed and, and yeah. Surrounded with a frame that like they make
+
+1210
+01:15:16,245 --> 01:15:19,725
+Speaker 1:  a memory out of that in a way that I think is, is mostly cool and fine.
+
+1211
+01:15:19,995 --> 01:15:23,125
+Speaker 1:  Yeah. But there is still something
+
+1212
+01:15:24,075 --> 01:15:27,525
+Speaker 1:  different about it when you're doing it on your phone
+
+1213
+01:15:27,945 --> 01:15:31,325
+Speaker 1:  and your camera roll in these like very mundane things.
+
+1214
+01:15:31,955 --> 01:15:32,245
+Speaker 9:  Yeah.
+
+1215
+01:15:32,755 --> 01:15:36,685
+Speaker 1:  Like the taking out the background of a shot of a park
+
+1216
+01:15:37,105 --> 01:15:40,765
+Speaker 1:  to remove a building is like not the same thing as the rollercoaster shot
+
+1217
+01:15:40,765 --> 01:15:42,925
+Speaker 1:  at Disney World in a way that I'm still having trouble putting my finger
+
+1218
+01:15:42,925 --> 01:15:44,325
+Speaker 1:  on. It's not the same.
+
+1219
+01:15:44,915 --> 01:15:47,605
+Speaker 9:  Yeah, no, I agree. I think that's a good analogy.
+
+1220
+01:15:48,905 --> 01:15:52,845
+Speaker 1:  So what, what has this given you in terms of new perspective on the,
+
+1221
+01:15:52,845 --> 01:15:56,605
+Speaker 1:  what is a photo debate? Like do you, do you buy Google's memories, not
+
+1222
+01:15:56,605 --> 01:16:00,085
+Speaker 1:  photos, thesis a little more, even if it doesn't quite pan out in reality.
+
+1223
+01:16:01,325 --> 01:16:05,005
+Speaker 9:  I, you know, I dunno, I don't wanna give them too much credit.
+
+1224
+01:16:05,565 --> 01:16:09,525
+Speaker 9:  I do in a way, you know, I, the thing that struck
+
+1225
+01:16:09,525 --> 01:16:13,085
+Speaker 9:  me is really, it's such a different approach than,
+
+1226
+01:16:13,595 --> 01:16:17,565
+Speaker 9:  than the iPhone 16 camera, which is more about, you know,
+
+1227
+01:16:17,585 --> 01:16:19,965
+Speaker 9:  the new photographic styles and kind of
+
+1228
+01:16:21,735 --> 01:16:24,845
+Speaker 9:  their response to what is a photo is like,
+
+1229
+01:16:26,065 --> 01:16:30,045
+Speaker 9:  we will give you the tools to dial in the color and the skin
+
+1230
+01:16:30,055 --> 01:16:34,005
+Speaker 9:  tones the way you see it, which is, is kind
+
+1231
+01:16:34,005 --> 01:16:37,525
+Speaker 9:  of, they're answering the same question and it's not like we're going to
+
+1232
+01:16:37,925 --> 01:16:41,805
+Speaker 9:  reproduce this thing the way it absolutely was. It's sort
+
+1233
+01:16:41,805 --> 01:16:45,525
+Speaker 9:  of putting it, giving you more input
+
+1234
+01:16:45,675 --> 01:16:49,445
+Speaker 9:  over like, no, I it felt more like this. Or it looked more, it looked
+
+1235
+01:16:49,445 --> 01:16:53,285
+Speaker 9:  warmer or cooler. Adding dinosaurs to your photos is not
+
+1236
+01:16:53,325 --> 01:16:57,005
+Speaker 9:  a thing, you know, you can do with the iPhone camera right. Presently.
+
+1237
+01:16:58,225 --> 01:17:02,005
+Speaker 9:  But it kind of struck me how they're both kind of turning from
+
+1238
+01:17:02,005 --> 01:17:05,005
+Speaker 9:  this like, you know, push to like
+
+1239
+01:17:06,125 --> 01:17:09,685
+Speaker 9:  represent reality as faithfully as they can and like
+
+1240
+01:17:10,265 --> 01:17:14,245
+Speaker 9:  do it with as many, you know, as much data as
+
+1241
+01:17:14,245 --> 01:17:18,125
+Speaker 9:  they can gram into a single image. And it's sort of turning to
+
+1242
+01:17:18,125 --> 01:17:21,365
+Speaker 9:  like, no, you make the call on this. Actually.
+
+1243
+01:17:21,955 --> 01:17:25,645
+Speaker 1:  Yeah, there's a real like theory of relativity thing happening in
+
+1244
+01:17:25,645 --> 01:17:29,605
+Speaker 1:  photography that is maybe true. Like it has, I think it has never
+
+1245
+01:17:29,605 --> 01:17:33,295
+Speaker 1:  been true that cameras perfectly captured exactly
+
+1246
+01:17:33,295 --> 01:17:36,255
+Speaker 1:  everything right in the real world. Like it's just never been true.
+
+1247
+01:17:37,365 --> 01:17:41,215
+Speaker 1:  It's just that now the tools with which you can make it more
+
+1248
+01:17:41,215 --> 01:17:45,015
+Speaker 1:  real are the same tools with which you can make it less real and Yeah,
+
+1249
+01:17:45,175 --> 01:17:47,855
+Speaker 1:  I think you can't have one without the other. Right. Like If, you If you
+
+1250
+01:17:47,855 --> 01:17:51,175
+Speaker 1:  give me the tools I can, I can inevitably use them in both directions and
+
+1251
+01:17:51,755 --> 01:17:55,495
+Speaker 1:  we have to decide if we're okay with that. I think. Yeah. and it, like the
+
+1252
+01:17:55,495 --> 01:17:57,655
+Speaker 1:  magic eraser thing is really interesting 'cause this tech is getting better,
+
+1253
+01:17:57,685 --> 01:18:01,575
+Speaker 1:  like shockingly fast and I think is probably going to keep getting better
+
+1254
+01:18:01,895 --> 01:18:05,655
+Speaker 1:  shockingly fast for a pretty long time. So like the, the capabilities are
+
+1255
+01:18:05,675 --> 01:18:08,055
+Speaker 1:  not getting worse anytime soon.
+
+1256
+01:18:08,525 --> 01:18:08,815
+Speaker 9:  Yeah.
+
+1257
+01:18:09,675 --> 01:18:13,095
+Speaker 1:  All right. Before we go, give me, give me the single worst example that you
+
+1258
+01:18:13,095 --> 01:18:16,615
+Speaker 1:  had. What, was there a photo that you made disastrously,
+
+1259
+01:18:16,775 --> 01:18:18,815
+Speaker 1:  unusable would never share with another soul
+
+1260
+01:18:19,995 --> 01:18:20,615
+Speaker 9:  In this project?
+
+1261
+01:18:22,305 --> 01:18:25,735
+Speaker 9:  Let's see, I tried to do a bunch of my vaca.
+
+1262
+01:22:34,695 --> 01:22:38,555
+Speaker 1:  All right, we're back. Let's get to the hotline as always. The number 8 6 6
+
+1263
+01:22:38,755 --> 01:22:42,715
+Speaker 1:  VERGE one one, the email vergecast at The Verge dot com. We love all
+
+1264
+01:22:42,715 --> 01:22:46,155
+Speaker 1:  your questions. We try to answer at least one on this show every single week.
+
+1265
+01:22:46,525 --> 01:22:49,835
+Speaker 1:  Thank you again to everybody who reaches out. They all get funneled into
+
+1266
+01:22:49,835 --> 01:22:53,115
+Speaker 1:  a slack room that more and more people keep requesting access to because
+
+1267
+01:22:53,115 --> 01:22:56,795
+Speaker 1:  it's so fun to hear all of your awesome questions. So thank you to everybody
+
+1268
+01:22:56,795 --> 01:23:00,475
+Speaker 1:  who reaches out this week. We have a question, God help me
+
+1269
+01:23:00,685 --> 01:23:01,275
+Speaker 1:  about running.
+
+1270
+01:23:02,485 --> 01:23:06,165
+Speaker 10:  Hello Bridge cast. This is Zach from Las Vegas. I have a few hundred dollars
+
+1271
+01:23:06,195 --> 01:23:09,525
+Speaker 10:  that I wanted to spend on a new gadget and I've been looking at the Pixel
+
+1272
+01:23:09,715 --> 01:23:13,245
+Speaker 10:  Buds Pro two, I have the original pros and I'm mostly happy with them,
+
+1273
+01:23:13,585 --> 01:23:16,525
+Speaker 10:  but when I take them running, they often aren't very secure and I thought
+
+1274
+01:23:16,525 --> 01:23:20,365
+Speaker 10:  the Pro Twos would fix that. However, I've recently been intrigued with
+
+1275
+01:23:20,515 --> 01:23:23,845
+Speaker 10:  Amid of Ray Band glasses. I think they'd work well on my runs,
+
+1276
+01:23:23,845 --> 01:23:27,685
+Speaker 10:  incorporating sunglasses and speakers for music and it the new fun
+
+1277
+01:23:27,685 --> 01:23:31,285
+Speaker 10:  class of tech that I don't have. However, I'm all in on the Google
+
+1278
+01:23:31,355 --> 01:23:34,965
+Speaker 10:  ecosystem and Pixel products and I didn't want to add a new assistant or
+
+1279
+01:23:35,185 --> 01:23:38,445
+Speaker 10:  AI to my life. If, you are in my position, which would you purchase? Thank
+
+1280
+01:23:38,445 --> 01:23:38,525
+Speaker 10:  you.
+
+1281
+01:23:38,985 --> 01:23:40,885
+Speaker 1:  All right. Vs. Song is here to help me. Hy-Vee.
+
+1282
+01:23:41,505 --> 01:23:44,365
+Speaker 11:  Hi I I empathize so much. Right?
+
+1283
+01:23:44,365 --> 01:23:45,565
+Speaker 1:  You know why you're here for this, right?
+
+1284
+01:23:45,565 --> 01:23:46,965
+Speaker 11:  I know, I know. Yeah, I, yeah.
+
+1285
+01:23:47,315 --> 01:23:50,645
+Speaker 1:  Okay. So I. I wanna, I wanna reframe this question very slightly because
+
+1286
+01:23:51,285 --> 01:23:54,805
+Speaker 1:  I think I, I don't wanna spend a ton of time litigating the Pixel Buds Pro
+
+1287
+01:23:55,205 --> 01:23:58,005
+Speaker 1:  specifically in part just because everybody's ears are different, right?
+
+1288
+01:23:58,025 --> 01:24:01,045
+Speaker 1:  And the only actually good advice we can give is try them,
+
+1289
+01:24:02,005 --> 01:24:05,745
+Speaker 1:  buy 'em both, try 'em, see what happens. But I do think the question of
+
+1290
+01:24:07,365 --> 01:24:11,145
+Speaker 1:  can the RayBan Meta Smart glasses be a kind of
+
+1291
+01:24:12,025 --> 01:24:15,945
+Speaker 1:  multipurpose useful exercise thing is a question we've actually gotten a
+
+1292
+01:24:15,945 --> 01:24:19,865
+Speaker 1:  bunch of times. So I want to talk about that. And I also wanna throw in,
+
+1293
+01:24:20,165 --> 01:24:23,985
+Speaker 1:  you and I have both tried and are fans of the, the Shocks open
+
+1294
+01:24:23,985 --> 01:24:27,545
+Speaker 1:  runs So, I. Think in, in those three categories, you have the headphones
+
+1295
+01:24:27,545 --> 01:24:29,665
+Speaker 1:  that go in your ears, you have the bone production headphones and you have
+
+1296
+01:24:29,665 --> 01:24:33,225
+Speaker 1:  smart glasses. You're literally in running gear right now about to go running.
+
+1297
+01:24:33,525 --> 01:24:37,465
+Speaker 1:  My first question is, what are you going to put in or on or near your ears
+
+1298
+01:24:37,695 --> 01:24:38,545
+Speaker 1:  when you run today?
+
+1299
+01:24:39,035 --> 01:24:43,025
+Speaker 11:  Today when I run, I'm going to be wearing the shocks Open Run Pro
+
+1300
+01:24:43,245 --> 01:24:46,995
+Speaker 11:  two. I genuinely love them. They're, I
+
+1301
+01:24:46,995 --> 01:24:50,795
+Speaker 11:  used to be a big Beats fit pro girly and then I
+
+1302
+01:24:50,795 --> 01:24:54,435
+Speaker 11:  moved to the suburbs and the Range Rovers here are unhinged.
+
+1303
+01:24:55,905 --> 01:24:59,635
+Speaker 11:  It's a safety thing. I really need situational awareness. So I've been wearing
+
+1304
+01:24:59,645 --> 01:25:03,315
+Speaker 11:  these and I just love them compared to the
+
+1305
+01:25:03,675 --> 01:25:07,475
+Speaker 11:  previous versions of Aftershocks because the base is decent.
+
+1306
+01:25:07,945 --> 01:25:11,355
+Speaker 11:  Like If, you really love base, this ain't going to do it for you.
+
+1307
+01:25:11,775 --> 01:25:15,715
+Speaker 11:  But compared to other bone conduction headphones, the base is quite
+
+1308
+01:25:15,785 --> 01:25:19,715
+Speaker 11:  good. The sound quality for bone conduction is quite good.
+
+1309
+01:25:19,715 --> 01:25:23,315
+Speaker 11:  And it's because it's using some like regular
+
+1310
+01:25:23,535 --> 01:25:26,915
+Speaker 11:  air conduction speakers on top of the bone conduction. So the base is the
+
+1311
+01:25:26,915 --> 01:25:30,475
+Speaker 11:  air conduction and the, the mids and treble are
+
+1312
+01:25:30,705 --> 01:25:34,475
+Speaker 11:  bone conduction. Works great, really love it. Pretty
+
+1313
+01:25:34,575 --> 01:25:38,275
+Speaker 11:  secure. It's not falling off. But to
+
+1314
+01:25:38,535 --> 01:25:42,415
+Speaker 11:  to, to the, to the point of the question, it's not great
+
+1315
+01:25:42,435 --> 01:25:45,255
+Speaker 11:  If, you wanna wear glasses on top of it, like
+
+1316
+01:25:46,215 --> 01:25:49,335
+Speaker 11:  everyone's faces are different. Everyone's ear capacity is different. I
+
+1317
+01:25:49,365 --> 01:25:53,055
+Speaker 11:  have pretty narrow ear two head space.
+
+1318
+01:25:53,535 --> 01:25:57,175
+Speaker 11:  I, I guess what you, what you would say. So when I don't feel like we're
+
+1319
+01:25:57,175 --> 01:26:00,255
+Speaker 11:  in contacts when I'm running and I put the open,
+
+1320
+01:26:01,475 --> 01:26:05,245
+Speaker 11:  the, the shocks in and I have my glasses on or my sunglasses on
+
+1321
+01:26:05,585 --> 01:26:09,485
+Speaker 11:  is very crowded in the ear space. And that is like the, I think
+
+1322
+01:26:09,485 --> 01:26:13,445
+Speaker 11:  my biggest complaint of those so far. So met Ray bands are fucking great
+
+1323
+01:26:13,665 --> 01:26:17,005
+Speaker 11:  If, you just wanna consolidate two things and like I'm, I did
+
+1324
+01:26:17,315 --> 01:26:21,005
+Speaker 11:  several miles this summer wearing the met
+
+1325
+01:26:21,225 --> 01:26:25,125
+Speaker 11:  ray bands as as like a two in one. It's both my sunglasses
+
+1326
+01:26:25,745 --> 01:26:29,605
+Speaker 11:  and it's my form of audio. Like it's
+
+1327
+01:26:29,805 --> 01:26:33,645
+Speaker 11:  actually pretty great for that if you're running in a relatively quiet area
+
+1328
+01:26:34,555 --> 01:26:38,455
+Speaker 11:  or you're not like by like a highway. Because if you're by a highway,
+
+1329
+01:26:39,445 --> 01:26:42,815
+Speaker 11:  it's, it's just not gonna, it's not gonna do that for you.
+
+1330
+01:26:43,325 --> 01:26:47,295
+Speaker 1:  Yeah. In terms of like running in loud environments, it's in your headphones
+
+1331
+01:26:47,295 --> 01:26:50,775
+Speaker 1:  of the move. And then honestly I would say bone conduction is second
+
+1332
+01:26:51,395 --> 01:26:55,375
+Speaker 1:  and then like big gap, meta RayBan, smart glasses,
+
+1333
+01:26:55,485 --> 01:26:59,455
+Speaker 1:  like those things, if there's, if there's a truck idling that you
+
+1334
+01:26:59,475 --> 01:27:01,255
+Speaker 1:  run by like you're toast, you're not gonna be able to
+
+1335
+01:27:01,255 --> 01:27:05,055
+Speaker 11:  Hear anything your toast. And also If, you are someone who runs races. So
+
+1336
+01:27:05,215 --> 01:27:09,055
+Speaker 11:  I ran New York half marathon a couple years ago with the Bose tempo love
+
+1337
+01:27:09,055 --> 01:27:12,215
+Speaker 11:  to the Bose tempo. It was great during all throughout my training, I was
+
+1338
+01:27:12,215 --> 01:27:15,215
+Speaker 11:  like, this is great. I'm gonna do this race day. 'cause the general rule
+
+1339
+01:27:15,215 --> 01:27:18,855
+Speaker 11:  for runners is nothing new on race day. You wanna have practiced
+
+1340
+01:27:18,855 --> 01:27:22,675
+Speaker 11:  everything beforehand, went they are blasting
+
+1341
+01:27:23,325 --> 01:27:27,195
+Speaker 11:  music at these races. A critical failure on my part.
+
+1342
+01:27:27,395 --> 01:27:30,715
+Speaker 11:  'cause I have my very specific running playlist. It is
+
+1343
+01:27:31,055 --> 01:27:32,155
+Speaker 11:  highly curated
+
+1344
+01:27:33,695 --> 01:27:37,475
+Speaker 11:  and I was just like, I do not jam with these jams
+
+1345
+01:27:37,735 --> 01:27:41,515
+Speaker 11:  and it really kind of ruined my, my vibe. So like in that sense
+
+1346
+01:27:41,515 --> 01:27:45,395
+Speaker 11:  they're not great. So it really depends on where you're running. The other
+
+1347
+01:27:45,395 --> 01:27:48,035
+Speaker 11:  issue I have with the meadow ray vans is that they are heavier.
+
+1348
+01:27:48,385 --> 01:27:52,195
+Speaker 1:  That was my question. I I, my only real worry
+
+1349
+01:27:52,195 --> 01:27:55,995
+Speaker 1:  in recommending these to a lot of people is just that they are large,
+
+1350
+01:27:56,065 --> 01:28:00,035
+Speaker 1:  like physically heavy sunglasses. And I,
+
+1351
+01:28:00,155 --> 01:28:02,755
+Speaker 1:  I am not a consistent enough runner to weigh in on this, which is the thing
+
+1352
+01:28:02,755 --> 01:28:05,995
+Speaker 1:  I was most curious about from you. But like you've complained about how heavy
+
+1353
+01:28:05,995 --> 01:28:09,875
+Speaker 1:  they are when you're not trying to run fast and long. How do
+
+1354
+01:28:09,875 --> 01:28:13,115
+Speaker 1:  they feel in a, in a real like run scenario?
+
+1355
+01:28:13,835 --> 01:28:16,435
+Speaker 11:  I would say if you're doing like 5K or less, you're really not gonna nervous
+
+1356
+01:28:16,535 --> 01:28:20,235
+Speaker 11:  too much. But like the more you run the sweatier you are, especially if
+
+1357
+01:28:20,235 --> 01:28:23,435
+Speaker 11:  it's in the summer, especially if you're wearing a hat. So like, like I
+
+1358
+01:28:23,435 --> 01:28:26,955
+Speaker 11:  said, I wear them a lot from my mileage during the summer and
+
+1359
+01:28:27,335 --> 01:28:30,595
+Speaker 11:  you know, I'd have a little hat to protect me because the sun is deadly
+
+1360
+01:28:31,535 --> 01:28:35,475
+Speaker 11:  and I have the ray bands and like I'm running in 80 plus degree
+
+1361
+01:28:35,475 --> 01:28:39,465
+Speaker 11:  weather, high humidity in Jersey. My face gets
+
+1362
+01:28:39,485 --> 01:28:43,465
+Speaker 11:  sweaty. Sunscreen is just like melting down my face. These things. And so
+
+1363
+01:28:43,465 --> 01:28:47,265
+Speaker 11:  like, you know, these glasses are pretty good
+
+1364
+01:28:47,285 --> 01:28:49,825
+Speaker 11:  If. you have a low nose bridge like I do,
+
+1365
+01:28:51,325 --> 01:28:55,065
+Speaker 11:  but when you have sweat and sunscreen, they, they kinda slip a little bit.
+
+1366
+01:28:55,065 --> 01:28:57,625
+Speaker 11:  They're gonna slip a little bit. That's just like inevitable. 'cause you
+
+1367
+01:28:57,625 --> 01:28:59,225
+Speaker 11:  are in a up and down running motion
+
+1368
+01:29:01,105 --> 01:29:04,765
+Speaker 11:  if you're doing like really long mileage. I wanna say like if you're training
+
+1369
+01:29:04,785 --> 01:29:08,645
+Speaker 11:  for a half or you're training for a marathon, you
+
+1370
+01:29:08,645 --> 01:29:12,525
+Speaker 11:  kind of gotta deal with the fact that they are heavier battery
+
+1371
+01:29:12,675 --> 01:29:16,665
+Speaker 11:  life. Like it's hard to say because you could be a fricking
+
+1372
+01:29:16,945 --> 01:29:20,425
+Speaker 11:  cheetah and a half marathon is like an hour and a half for you. So like
+
+1373
+01:29:20,705 --> 01:29:24,505
+Speaker 11:  whatever, it'll be fine for your long runs or you could be slow like
+
+1374
+01:29:24,565 --> 01:29:28,385
+Speaker 11:  me where you're just like, you know, like Turtle steady does it
+
+1375
+01:29:28,405 --> 01:29:32,305
+Speaker 11:  and you're running like two and a half hour to three hour
+
+1376
+01:29:32,375 --> 01:29:35,985
+Speaker 11:  half marathons and you're just like, this is this battery
+
+1377
+01:29:36,095 --> 01:29:39,865
+Speaker 11:  life. It should, it should work if you're fully charged. But who
+
+1378
+01:29:39,935 --> 01:29:43,785
+Speaker 11:  whom among us always has a fully charged headphone when we run out the
+
+1379
+01:29:43,785 --> 01:29:47,665
+Speaker 11:  door. So like it could you plan a little bit with fire there.
+
+1380
+01:29:48,205 --> 01:29:52,065
+Speaker 11:  So yeah, like unfortunately you're gonna have to try a couple
+
+1381
+01:29:52,085 --> 01:29:52,465
+Speaker 11:  of things.
+
+1382
+01:29:52,805 --> 01:29:55,185
+Speaker 1:  So, but what it sounds like you're saying is that if you're just a person
+
+1383
+01:29:55,205 --> 01:29:58,905
+Speaker 1:  who just sort of casually runs for exercise, you just wanna like get out
+
+1384
+01:29:58,905 --> 01:30:02,065
+Speaker 1:  in the morning and run a couple miles to get the blood flowing. All those
+
+1385
+01:30:02,065 --> 01:30:05,785
+Speaker 1:  concerns you just described probably don't really apply. So you should mostly
+
+1386
+01:30:05,965 --> 01:30:08,505
+Speaker 1:  be fine with the, with the Raybans, right?
+
+1387
+01:30:08,575 --> 01:30:11,545
+Speaker 11:  Yeah, you should mostly be fine. So long as you don't like, like like you
+
+1388
+01:30:11,545 --> 01:30:14,225
+Speaker 11:  said, you're not running by highways and like a lot of construction 'cause
+
+1389
+01:30:14,225 --> 01:30:18,185
+Speaker 11:  you ain't gonna hear nothing like I, I have done that and you're not gonna
+
+1390
+01:30:18,185 --> 01:30:21,985
+Speaker 11:  hear anything. You know, obviously fit is very personal. So
+
+1391
+01:30:21,985 --> 01:30:25,425
+Speaker 11:  before you buy, I would go to the store and see how they fit on your face.
+
+1392
+01:30:26,165 --> 01:30:29,865
+Speaker 11:  But I actually really enjoyed running with them this summer, particularly
+
+1393
+01:30:29,865 --> 01:30:33,785
+Speaker 11:  when it was really sunny and the, I don't wanna have multiple
+
+1394
+01:30:33,785 --> 01:30:37,185
+Speaker 11:  things sitting in my ear. It's actually very smart. It's a very smart option.
+
+1395
+01:30:37,245 --> 01:30:41,185
+Speaker 11:  But again, loud environments, races, you're probably not
+
+1396
+01:30:41,185 --> 01:30:44,905
+Speaker 11:  gonna have a good time going, especially if it's a big race. It might not
+
+1397
+01:30:44,905 --> 01:30:48,665
+Speaker 11:  be a problem if it's a smaller race and they're not blasting like somebody
+
+1398
+01:30:48,665 --> 01:30:52,545
+Speaker 11:  else's playlist. But for me, like at a big
+
+1399
+01:30:52,545 --> 01:30:56,225
+Speaker 11:  race when I wore the Bose tempo, I was like, I've made a huge
+
+1400
+01:30:56,375 --> 01:31:00,305
+Speaker 11:  mistake because I had to listen to like
+
+1401
+01:31:00,485 --> 01:31:03,785
+Speaker 11:  pit bull and pit bull doesn't get me going for a run.
+
+1402
+01:31:04,285 --> 01:31:04,505
+Speaker 11:  So
+
+1403
+01:31:05,125 --> 01:31:09,105
+Speaker 1:  No one needs that for a half marathon. The thing I keep thinking about
+
+1404
+01:31:09,495 --> 01:31:13,425
+Speaker 1:  with all of this is just that we can't be that far away from like
+
+1405
+01:31:13,445 --> 01:31:17,185
+Speaker 1:  the wraparound oakley's smart glasses. Like that is so clearly
+
+1406
+01:31:17,405 --> 01:31:21,385
+Speaker 1:  the next one of these you would do if you're a meta, everybody's into
+
+1407
+01:31:21,385 --> 01:31:25,065
+Speaker 1:  health and fitness as a wearable thing. It's exactly for the people you're
+
+1408
+01:31:25,065 --> 01:31:28,625
+Speaker 1:  describing. Like somebody is gonna make those like rainbow tinted
+
+1409
+01:31:28,625 --> 01:31:32,345
+Speaker 1:  wraparound oakley's with the the croakies on the back that you can just secure
+
+1410
+01:31:32,345 --> 01:31:35,545
+Speaker 1:  to your head and it's gonna be RayBan meta glasses and they're going to sell
+
+1411
+01:31:36,045 --> 01:31:39,465
+Speaker 1:  so many of those. And that becomes the answer to this question because then
+
+1412
+01:31:39,465 --> 01:31:43,185
+Speaker 1:  it's like, you're gonna look like a doofus, but it's gonna rule and you're
+
+1413
+01:31:43,185 --> 01:31:44,905
+Speaker 1:  gonna win all your races. So congratulations. And
+
+1414
+01:31:44,905 --> 01:31:48,025
+Speaker 11:  That was supposed fit tempo. They already did it. Like both. That's true.
+
+1415
+01:31:48,215 --> 01:31:51,985
+Speaker 11:  Both just didn't manage that side of the business well. But like you can
+
+1416
+01:31:51,985 --> 01:31:55,385
+Speaker 11:  see some of my pictures from the, my first New York City half marathon.
+
+1417
+01:31:55,465 --> 01:31:59,245
+Speaker 11:  I am wearing the Bose Fit Tempo. I look like a fricking jabi. And
+
+1418
+01:31:59,945 --> 01:32:03,885
+Speaker 11:  you know, if if, if they could have beaten the, the pit bull and
+
+1419
+01:32:03,945 --> 01:32:07,845
+Speaker 11:  the pop music that I am not a fan of just blasting, it
+
+1420
+01:32:07,845 --> 01:32:11,685
+Speaker 11:  would've been perfect as it was. I was just like, I can't hear my K-pop.
+
+1421
+01:32:11,845 --> 01:32:15,765
+Speaker 11:  I have no motivation. This is terrible. So those are
+
+1422
+01:32:15,785 --> 01:32:18,805
+Speaker 11:  all things to consider. If, you really wanna go with the metal ray band
+
+1423
+01:32:18,805 --> 01:32:19,205
+Speaker 11:  for running.
+
+1424
+01:32:19,545 --> 01:32:21,125
+Speaker 1:  All right. What's on the running playlist right now?
+
+1425
+01:32:21,845 --> 01:32:25,765
+Speaker 11:  A lot of re hits because as far as K-pop
+
+1426
+01:32:25,765 --> 01:32:28,485
+Speaker 11:  goes, they're not very bubblegum. They're kind of like pots and pans,
+
+1427
+01:32:29,455 --> 01:32:32,045
+Speaker 11:  crazy electronica music and it's just like,
+
+1428
+01:32:34,545 --> 01:32:38,205
+Speaker 11:  I'm like, yeah, there's a beat I can go to that I hate everything right
+
+1429
+01:32:38,205 --> 01:32:41,925
+Speaker 11:  now, but I can, that can go. I can go. I also, I run, a lot of times I run
+
+1430
+01:32:41,925 --> 01:32:45,245
+Speaker 11:  to K-pop because I'm not super fluent in Korean So. I can just be like ignoring
+
+1431
+01:32:45,315 --> 01:32:48,805
+Speaker 11:  what they're saying and it's just like, yeah, they're just saying you can
+
+1432
+01:32:48,805 --> 01:32:50,525
+Speaker 11:  do it. That's great. I love this. For me,
+
+1433
+01:32:52,475 --> 01:32:56,365
+Speaker 11:  yeah, I'm a very, I need a lot of bass and a
+
+1434
+01:32:56,365 --> 01:33:00,325
+Speaker 11:  lot of when I run otherwise like I don't know
+
+1435
+01:33:00,325 --> 01:33:03,925
+Speaker 11:  how people listen to podcasts or audio books 'cause I'll just stop. There's
+
+1436
+01:33:03,925 --> 01:33:04,605
+Speaker 11:  nothing like, it's
+
+1437
+01:33:04,605 --> 01:33:05,485
+Speaker 1:  So boring. Yeah,
+
+1438
+01:33:05,795 --> 01:33:09,325
+Speaker 11:  It's so, it's like I could just listen to this audiobook on a couch.
+
+1439
+01:33:10,205 --> 01:33:14,165
+Speaker 11:  I don't need to be suffering while I run. So
+
+1440
+01:33:14,165 --> 01:33:15,245
+Speaker 11:  yeah, a lot of straight kids,
+
+1441
+01:33:17,155 --> 01:33:21,085
+Speaker 11:  Buzi and Duckworth, they have this song called Start a Riot and I'm
+
+1442
+01:33:21,085 --> 01:33:24,205
+Speaker 11:  like, they're like, who the hell gonna start a riot and I'll run, I'll be
+
+1443
+01:33:24,205 --> 01:33:27,965
+Speaker 11:  like me. I'm starting the riot up this
+
+1444
+01:33:27,965 --> 01:33:30,685
+Speaker 11:  hill. So yeah,
+
+1445
+01:33:30,965 --> 01:33:34,125
+Speaker 1:  I love that. All right, well I think my recommendation for this question
+
+1446
+01:33:34,265 --> 01:33:37,445
+Speaker 1:  is start with the Ray Bands a because they're a really fun gadget and If,
+
+1447
+01:33:37,445 --> 01:33:40,565
+Speaker 1:  you just have a few hundred dollars you wanna blow on a gadget. It's a really
+
+1448
+01:33:40,565 --> 01:33:44,485
+Speaker 1:  good one to mess with. They're super fun. You'll enjoy them, take
+
+1449
+01:33:44,485 --> 01:33:48,045
+Speaker 1:  them on a run and a half and you will immediately know whether they work
+
+1450
+01:33:48,045 --> 01:33:51,765
+Speaker 1:  for you or not. And then you can try the other things. But I think if, if
+
+1451
+01:33:51,785 --> 01:33:55,685
+Speaker 1:  the, if the Raybans work for you, that feels like the most fun outcome here.
+
+1452
+01:33:55,705 --> 01:33:56,645
+Speaker 1:  So I would say start there.
+
+1453
+01:33:57,035 --> 01:34:00,645
+Speaker 11:  That is the most fun. And if those don't work, highly recommend the shocks.
+
+1454
+01:34:00,675 --> 01:34:04,205
+Speaker 11:  Just because like If, you look at any running influencer on TikTok right
+
+1455
+01:34:04,205 --> 01:34:07,165
+Speaker 11:  now, they all got shocks on their ear. They all got that exact thing. They
+
+1456
+01:34:07,165 --> 01:34:11,045
+Speaker 11:  all love it. And I'm like, yeah, I do too. I was, I was pleasantly
+
+1457
+01:34:11,045 --> 01:34:13,485
+Speaker 11:  surprised by the latest version of the Open Run Pro.
+
+1458
+01:34:13,685 --> 01:34:17,405
+Speaker 1:  I started using them for runs, for dog walks for like pushing
+
+1459
+01:34:17,465 --> 01:34:20,725
+Speaker 1:  the stroller to go pick up my kid. And now it's like, you know the thing
+
+1460
+01:34:20,725 --> 01:34:23,125
+Speaker 1:  when you get a car and all of a sudden you start seeing the car that you
+
+1461
+01:34:23,125 --> 01:34:23,965
+Speaker 1:  have everywhere.
+
+1462
+01:34:25,475 --> 01:34:28,805
+Speaker 1:  That has been my experience with these. They are everywhere. And everyone
+
+1463
+01:34:28,925 --> 01:34:32,805
+Speaker 1:  I see who is like way too good at running those people who
+
+1464
+01:34:32,805 --> 01:34:35,325
+Speaker 1:  like, you know, If, you like met them, they would talk to you about how much
+
+1465
+01:34:35,325 --> 01:34:38,925
+Speaker 1:  they like running. They all wear them and I feel like it makes me hate
+
+1466
+01:34:38,925 --> 01:34:42,525
+Speaker 1:  myself and them, but it's also like clearly there's there's something here.
+
+1467
+01:34:42,995 --> 01:34:43,965
+Speaker 11:  Yeah, they're like
+
+1468
+01:35:18,555 --> 01:35:20,245
+Speaker 1:  Fair enough. All right, well I hope that helps
+
+1469
+01:36:20,405 --> 01:36:23,645
+Speaker 1:  gadgety stuff going on. We might get some Apple stuff soon. Lots to talk
+
+1470
+01:36:23,645 --> 01:36:25,165
+Speaker 1:  about. We'll see you then. Rock and roll
+

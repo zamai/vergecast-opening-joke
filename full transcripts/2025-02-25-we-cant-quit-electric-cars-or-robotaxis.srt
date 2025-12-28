@@ -1,0 +1,4301 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 438b7bf8-5a6a-4c74-aa44-ecc7a851bc06
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/2902809338000747610/-5982507960729502909/s93290-US-4671s-1740963497.mp3
+Description: Robotaxis: in. EVs: Out? The Verge's Andy Hawkins joins the show to talk about the goings-on in the transportation industry, including the reasons car makers are slowing down on EV production (but not giving up entirely) and why suddenly everyone's back in on robotaxis. Then, The Social Web Foundation's Evan Prodromou tells us what's new with the fediverse. We talk about Bluesky, Threads, Mastodon, and the increasingly ambitious plans for the ActivityPub protocol. Finally, we talk through some feedback on last week's episode about the pricing of the iPhone 16E, and how the way you buy your phone changes the way you feel about its price.
+
+2
+00:00:03,145 --> 00:00:07,075
+Speaker 2:  Welcome to The Vergecast, the flagship podcast of Intra Protocol
+
+3
+00:00:07,105 --> 00:00:10,755
+Speaker 2:  Competition. I'm your friend, David Pierce, and I am once again
+
+4
+00:00:10,965 --> 00:00:14,875
+Speaker 2:  attempting to learn how to do a Rubik's cube. So during the pandemic, the
+
+5
+00:00:14,875 --> 00:00:18,155
+Speaker 2:  two sort of weirdest days I had were the day that I woke up and decided to
+
+6
+00:00:18,155 --> 00:00:21,435
+Speaker 2:  learn how to juggle, which I successfully did. I'm not gonna do it for you
+
+7
+00:00:21,435 --> 00:00:24,515
+Speaker 2:  now, but I'm like a reasonably good juggler now. And then there was the day
+
+8
+00:00:24,515 --> 00:00:27,435
+Speaker 2:  that I woke up and decided I was going to learn how to solve a Rubik's cube
+
+9
+00:00:27,695 --> 00:00:31,555
+Speaker 2:  and just utterly failed. And so now I have this Rubik cube that just
+
+10
+00:00:31,555 --> 00:00:34,275
+Speaker 2:  sits here on my desk and I sort of fidget with it during meetings. I like
+
+11
+00:00:34,275 --> 00:00:38,155
+Speaker 2:  it for that, but mostly it just taunts me because it is unsolved and I don't
+
+12
+00:00:38,155 --> 00:00:42,115
+Speaker 2:  know how to solve it. So I have a bunch of YouTube videos. I have a a webpage
+
+13
+00:00:42,115 --> 00:00:45,715
+Speaker 2:  that is just step-by-step instructions. I'm realizing this is less like a
+
+14
+00:00:45,955 --> 00:00:49,755
+Speaker 2:  creative endeavor and more just sort of memorizing an algorithm. But I kinda
+
+15
+00:00:49,755 --> 00:00:52,075
+Speaker 2:  like that. I'm ready for that. I'm gonna try it. It's gonna be great. I'll
+
+16
+00:00:52,075 --> 00:00:55,755
+Speaker 2:  update you next week, see if I actually pull this off. That is not what we're
+
+17
+00:00:55,755 --> 00:00:59,075
+Speaker 2:  here to do on the show today. We're gonna do two things today. First, we're
+
+18
+00:00:59,075 --> 00:01:02,755
+Speaker 2:  gonna talk to Andy Hawkins about what's going on in the car world, because
+
+19
+00:01:02,755 --> 00:01:05,955
+Speaker 2:  right now it seems like EVs are kind of going away and
+
+20
+00:01:06,185 --> 00:01:09,475
+Speaker 2:  robotaxis are suddenly back. So we're gonna talk about both those things.
+
+21
+00:01:09,865 --> 00:01:13,075
+Speaker 2:  Then we're gonna talk to Evan Promo, who is one of the people overseeing
+
+22
+00:01:13,075 --> 00:01:16,595
+Speaker 2:  the Activity Pub protocol. We're gonna talk about Blue Sky and
+
+23
+00:01:16,625 --> 00:01:20,355
+Speaker 2:  Threads and Mastodon and the whole world of social
+
+24
+00:01:20,355 --> 00:01:24,235
+Speaker 2:  networking right now and where we're headed this year. We also have a really
+
+25
+00:01:24,235 --> 00:01:27,955
+Speaker 2:  fun hotline question about the iPhone 16 E with some of the thoughts that
+
+26
+00:01:27,955 --> 00:01:31,395
+Speaker 2:  we've heard from all of you since we talked about it on Friday. Lots to do,
+
+27
+00:01:31,585 --> 00:01:35,515
+Speaker 2:  lots to talk about, but the first step in my Rubik's cube as I understand
+
+28
+00:01:35,515 --> 00:01:39,395
+Speaker 2:  it, is to get one side solved. So I'm gonna go do that and
+
+29
+00:01:39,395 --> 00:01:42,275
+Speaker 2:  we'll be right back. This is The Vergecast. See you in a sec.
+
+30
+00:03:48,305 --> 00:03:52,115
+Speaker 2:  Welcome back. I managed to get six out of nine blue
+
+31
+00:03:52,115 --> 00:03:56,075
+Speaker 2:  things in the right place during the break. I don't think that's very good,
+
+32
+00:03:56,135 --> 00:03:59,995
+Speaker 2:  but it feels like a start. I'm, I'm, I will solve this thing if it
+
+33
+00:03:59,995 --> 00:04:03,835
+Speaker 2:  kills me. Anyway, let's just get into it. First up, we're gonna talk to Andy
+
+34
+00:04:03,915 --> 00:04:07,475
+Speaker 2:  Hawkins because following the transportation news the last few weeks,
+
+35
+00:04:07,865 --> 00:04:11,715
+Speaker 2:  there's this strange momentum shift happening on the one
+
+36
+00:04:11,715 --> 00:04:15,475
+Speaker 2:  hand, electric vehicles, which I think have been not on the
+
+37
+00:04:15,475 --> 00:04:19,155
+Speaker 2:  decline, but kind of outta fashion for the last little while, feel like
+
+38
+00:04:19,155 --> 00:04:22,275
+Speaker 2:  they're falling further and further out of fashion really quickly. And that
+
+39
+00:04:22,275 --> 00:04:26,075
+Speaker 2:  seems odd to me. Then on the flip side, you have companies like Uber and
+
+40
+00:04:26,075 --> 00:04:29,875
+Speaker 2:  Lyft making a big deal out of Robotaxis again, like it's a decade ago, and
+
+41
+00:04:29,875 --> 00:04:33,715
+Speaker 2:  we're all pretending that robotaxis are gonna be a thing. The the momentum
+
+42
+00:04:33,765 --> 00:04:37,435
+Speaker 2:  shift here is just very odd to me, and Andy's been covering it a lot. So
+
+43
+00:04:37,555 --> 00:04:41,045
+Speaker 2:  I think it's just time to get into it. Let's just call up Andy, see how we're
+
+44
+00:04:41,045 --> 00:04:44,815
+Speaker 2:  doing. Andy Hawkins, welcome back to the show. Hi. Thanks for having me.
+
+45
+00:04:44,925 --> 00:04:48,855
+Speaker 2:  It's been a minute. I feel like there is both, there's like so much car
+
+46
+00:04:48,855 --> 00:04:51,895
+Speaker 2:  news that there's never a good moment to be like, let's, let's just take
+
+47
+00:04:51,935 --> 00:04:55,455
+Speaker 2:  a break and talk about car news. It just like, it just keeps happening.
+
+48
+00:04:55,755 --> 00:04:59,695
+Speaker 2:  It does. It never stops. So, okay, so I brought you here I think for
+
+49
+00:04:59,695 --> 00:05:03,255
+Speaker 2:  like two and a half reasons and the half
+
+50
+00:05:04,065 --> 00:05:07,295
+Speaker 2:  we're gonna do as quickly and painlessly as possible, and that is, we have
+
+51
+00:05:07,295 --> 00:05:10,775
+Speaker 2:  to talk about Elon Musk and Teslas. Oh god. Alright. But we're gonna do that
+
+52
+00:05:10,955 --> 00:05:14,775
+Speaker 2:  so fast and at the end. Okay. I promised at the top of this show that the
+
+53
+00:05:14,775 --> 00:05:18,655
+Speaker 2:  Tuesday Vergecast is going to be a safe place from now on, and
+
+54
+00:05:18,655 --> 00:05:22,335
+Speaker 2:  I intend to live up to that as best We can. The two things I really wanna
+
+55
+00:05:22,335 --> 00:05:25,975
+Speaker 2:  talk about are sort of this moment in the EV revolution
+
+56
+00:05:25,975 --> 00:05:29,935
+Speaker 2:  because we're, it's sort of an odd moment in the
+
+57
+00:05:30,075 --> 00:05:33,375
+Speaker 2:  EV landscape and I just wanna feel that out a little bit. And then I wanna
+
+58
+00:05:33,375 --> 00:05:37,215
+Speaker 2:  talk about robotaxis, which are both like closer than ever and still
+
+59
+00:05:37,215 --> 00:05:39,575
+Speaker 2:  seem like a total pipe dream, and I just need you to make sense of those
+
+60
+00:05:39,575 --> 00:05:42,055
+Speaker 2:  things to me. Does that all sound good? I, I'm, I'm happy to do that for
+
+61
+00:05:42,055 --> 00:05:46,015
+Speaker 2:  you. Okay, good. Let's start with the EV stuff, and I think this is
+
+62
+00:05:46,015 --> 00:05:49,575
+Speaker 2:  particularly on my mind because Nicola, this ev
+
+63
+00:05:49,665 --> 00:05:53,655
+Speaker 2:  truck maker that I think has been somewhere between mostly
+
+64
+00:05:53,855 --> 00:05:57,765
+Speaker 2:  a fraud and entirely a fraud for a pretty long time now, finally declared
+
+65
+00:05:57,765 --> 00:06:01,645
+Speaker 2:  bankruptcy. And it just feels like we're at this moment, and we've talked
+
+66
+00:06:01,645 --> 00:06:05,565
+Speaker 2:  about this a few times on the show where EVs were going to be the thing and
+
+67
+00:06:05,565 --> 00:06:09,285
+Speaker 2:  everybody decided that EVs were going to be the thing, and this,
+
+68
+00:06:09,395 --> 00:06:13,325
+Speaker 2:  this revolution in electric vehicles just keeps shooting itself in the foot
+
+69
+00:06:13,495 --> 00:06:17,405
+Speaker 2:  every imaginable way. So where, where are
+
+70
+00:06:17,405 --> 00:06:21,125
+Speaker 2:  we right now in, in early 2025 in kind of the, the
+
+71
+00:06:21,345 --> 00:06:22,125
+Speaker 2:  EV universe?
+
+72
+00:06:22,755 --> 00:06:26,205
+Speaker 6:  Yeah, so I, I think you could say that even the, the, the biggest
+
+73
+00:06:26,375 --> 00:06:29,805
+Speaker 6:  supporters and boosters of electric vehicles will, will admit that
+
+74
+00:06:30,095 --> 00:06:34,005
+Speaker 6:  sales have kind of flatlined, and this is, you
+
+75
+00:06:34,085 --> 00:06:37,805
+Speaker 6:  know, both in the US and in Europe, but also in
+
+76
+00:06:37,865 --> 00:06:41,045
+Speaker 6:  in China as well. And China is sort of like the, the, the kind of the big
+
+77
+00:06:41,085 --> 00:06:43,525
+Speaker 6:  X factor hanging over all of this. And We can get to them in a minute, but,
+
+78
+00:06:43,825 --> 00:06:47,765
+Speaker 6:  but yeah, it's sort of a, it's a weird place because we're coming
+
+79
+00:06:47,825 --> 00:06:51,605
+Speaker 6:  off of four years of an extremely ev friendly administration
+
+80
+00:06:51,625 --> 00:06:55,445
+Speaker 6:  in the White House to whatever the opposite of that is now
+
+81
+00:06:56,065 --> 00:06:59,725
+Speaker 6:  the most hostile administration that we've ever seen towards
+
+82
+00:07:00,085 --> 00:07:03,565
+Speaker 6:  electric vehicles to the point where a lot of these policies decisions seem
+
+83
+00:07:03,565 --> 00:07:07,525
+Speaker 6:  to be being made just out of spite is how I would describe
+
+84
+00:07:07,525 --> 00:07:11,325
+Speaker 6:  it. And so on, on top of all of that, you also have a lot of
+
+85
+00:07:11,325 --> 00:07:14,925
+Speaker 6:  these kind of like mid to low tier startups
+
+86
+00:07:15,755 --> 00:07:19,445
+Speaker 6:  that came into prominence over the last decade or so
+
+87
+00:07:20,225 --> 00:07:24,205
+Speaker 6:  on the promise of electrifying, you know, certain segments of the car
+
+88
+00:07:24,205 --> 00:07:27,805
+Speaker 6:  markets. So for Nicholas Case, it was gonna be heavy duty trucks and they
+
+89
+00:07:27,805 --> 00:07:31,405
+Speaker 6:  were going to be battery powered, they were going to be some hydrogen powered
+
+90
+00:07:31,705 --> 00:07:35,645
+Speaker 6:  trucks in the mix, and this was gonna be sort of a, a major push to
+
+91
+00:07:36,345 --> 00:07:39,645
+Speaker 6:  get, get all the, the, the pollution out of the heavy trucking industry.
+
+92
+00:07:40,545 --> 00:07:44,045
+Speaker 6:  But this is a company that had a lot of problems even before
+
+93
+00:07:44,885 --> 00:07:47,765
+Speaker 6:  Trump came into office. I mean, like, like you mentioned, there was allegations
+
+94
+00:07:48,045 --> 00:07:51,525
+Speaker 6:  of fraud. There was a, a real kind of like dramatic
+
+95
+00:07:51,705 --> 00:07:55,685
+Speaker 6:  report from this short selling group called Hindenberg that accused
+
+96
+00:07:55,945 --> 00:07:59,885
+Speaker 6:  Nicola of staging a lot of its sort of hype videos showing its trucks
+
+97
+00:08:00,565 --> 00:08:04,205
+Speaker 6:  driving out in, you know, the, the, the desert. One of the videos apparently
+
+98
+00:08:04,225 --> 00:08:08,205
+Speaker 6:  was shown the truck was just being rolled downhill. It was even
+
+99
+00:08:08,205 --> 00:08:10,365
+Speaker 6:  operational. And so it's
+
+100
+00:08:10,365 --> 00:08:13,085
+Speaker 2:  Kind of amazing, honestly. I know, I know. It's like, it's really, it's like
+
+101
+00:08:13,105 --> 00:08:16,405
+Speaker 2:  not even technically a lie. They're like, we didn't say the car was on, like,
+
+102
+00:08:16,405 --> 00:08:19,645
+Speaker 2:  I, it's just a truck was moving. It was really mo it's, it's just, it's beautiful.
+
+103
+00:08:19,645 --> 00:08:20,005
+Speaker 2:  You just
+
+104
+00:08:20,005 --> 00:08:23,365
+Speaker 6:  Put it in neutral and shoved it down a hill. Just If you assumed that it
+
+105
+00:08:23,365 --> 00:08:27,125
+Speaker 6:  was driving that's, you know, that's on you, not on us. And, you know, and
+
+106
+00:08:27,245 --> 00:08:30,685
+Speaker 6:  a amongst a lot of other things that they had promised, you know, that they
+
+107
+00:08:30,745 --> 00:08:33,765
+Speaker 6:  had said that they were gonna be, this is gonna be a billion dollar com,
+
+108
+00:08:33,785 --> 00:08:37,045
+Speaker 6:  you know, multi-billions of dollars this company was gonna eventually pull
+
+109
+00:08:37,045 --> 00:08:40,445
+Speaker 6:  in. And so yes, they, they filed for chapter 11 bankruptcy protection.
+
+110
+00:08:41,085 --> 00:08:44,845
+Speaker 6:  And this came, I wanna say maybe about seven or eight months after
+
+111
+00:08:45,025 --> 00:08:48,125
+Speaker 6:  the original founder and first CEO of the company, Trevor Milton
+
+112
+00:08:48,905 --> 00:08:52,525
+Speaker 6:  was convicted of, of these of these frauds and
+
+113
+00:08:52,785 --> 00:08:56,085
+Speaker 6:  jailed he's in, he's currently in jail, I believe his sentence was for around
+
+114
+00:08:56,085 --> 00:08:59,565
+Speaker 6:  four years. And so the company was under new different leadership at the
+
+115
+00:08:59,565 --> 00:09:03,445
+Speaker 6:  time, and I think that they had sold around like 600. They
+
+116
+00:09:03,445 --> 00:09:06,285
+Speaker 6:  eventually got to make it got around to actually making the trucks okay.
+
+117
+00:09:06,285 --> 00:09:10,125
+Speaker 6:  And they sold around 600 of them. But the, the, the environment and
+
+118
+00:09:10,125 --> 00:09:13,685
+Speaker 6:  the, at the sort of the, the market environment right now for EVs is just
+
+119
+00:09:13,785 --> 00:09:17,765
+Speaker 6:  so upended that some of these smaller companies that
+
+120
+00:09:17,765 --> 00:09:21,725
+Speaker 6:  were kind of like hanging on by a thread already and had sort of
+
+121
+00:09:21,895 --> 00:09:25,725
+Speaker 6:  other various problems are, are just going to, you know, they're,
+
+122
+00:09:25,725 --> 00:09:29,205
+Speaker 6:  it's, it's gonna be tough for those companies to hang on and to survive given
+
+123
+00:09:29,235 --> 00:09:32,485
+Speaker 6:  sort of these market and policy forces that are sort of weighing down on
+
+124
+00:09:32,485 --> 00:09:33,405
+Speaker 6:  the industry. And
+
+125
+00:09:33,405 --> 00:09:36,685
+Speaker 2:  Is the lesson in all of this that this really has just been driven
+
+126
+00:09:37,265 --> 00:09:41,205
+Speaker 2:  by politics and policy in both directions, that the reason everybody
+
+127
+00:09:41,205 --> 00:09:43,725
+Speaker 2:  got excited about it was because we had a government that got excited about
+
+128
+00:09:43,725 --> 00:09:46,725
+Speaker 2:  it. And then the reason is falling apart is because we have a government
+
+129
+00:09:46,725 --> 00:09:50,325
+Speaker 2:  that wants it to fall apart. That actually If you just let the market
+
+130
+00:09:50,465 --> 00:09:54,325
+Speaker 2:  decide, maybe there hasn't really been the EV market, everyone sort of
+
+131
+00:09:54,325 --> 00:09:55,725
+Speaker 2:  assumed was coming. I,
+
+132
+00:09:55,765 --> 00:09:58,765
+Speaker 6:  I I think that that plays a big role, but I think that there's also a lot
+
+133
+00:09:58,765 --> 00:10:02,245
+Speaker 6:  of responsibility that's on the, the companies and the, the automakers themselves
+
+134
+00:10:02,825 --> 00:10:06,525
+Speaker 6:  who, who were the ones that were out there out front saying that they were
+
+135
+00:10:06,525 --> 00:10:10,405
+Speaker 6:  going to be, that electrification was the future and that they were
+
+136
+00:10:10,405 --> 00:10:14,205
+Speaker 6:  going to be fully electric companies. Like you got companies like gm,
+
+137
+00:10:14,455 --> 00:10:17,765
+Speaker 6:  which you know, is a huge global
+
+138
+00:10:17,915 --> 00:10:21,885
+Speaker 6:  automaker, makes Cadillac and Chevy and Buick and all of
+
+139
+00:10:21,885 --> 00:10:25,685
+Speaker 6:  these major brands, and they said that they were going to be zero
+
+140
+00:10:26,085 --> 00:10:29,885
+Speaker 6:  emission by 2030, that there was, you know, there was no equivocating
+
+141
+00:10:29,935 --> 00:10:33,045
+Speaker 6:  about this decision, right? And, and all of the other automakers basically
+
+142
+00:10:33,045 --> 00:10:36,845
+Speaker 6:  said something similar. Ford said that it was gonna be zero emission in
+
+143
+00:10:36,945 --> 00:10:40,805
+Speaker 6:  ev only in Europe by 2030. Mercedes said it, BMW,
+
+144
+00:10:41,385 --> 00:10:44,965
+Speaker 6:  all of these major companies coming out and saying, you know, gas is the
+
+145
+00:10:44,965 --> 00:10:48,805
+Speaker 6:  past and electric is the future. And they were fully
+
+146
+00:10:48,805 --> 00:10:52,605
+Speaker 6:  convinced that they were going to be able to be selling these cars hand
+
+147
+00:10:52,605 --> 00:10:56,045
+Speaker 6:  over fist and that customers were just gonna eat it up. That they were gonna
+
+148
+00:10:56,045 --> 00:10:58,965
+Speaker 6:  love the experience of driving EVs, that they were gonna love the ownership
+
+149
+00:10:58,965 --> 00:11:02,845
+Speaker 6:  experience. The only problem is that the, the prices didn't really match
+
+150
+00:11:02,845 --> 00:11:06,525
+Speaker 6:  what the expectations were that they were selling a lot of cars that were
+
+151
+00:11:07,185 --> 00:11:11,045
+Speaker 6:  in the luxury segment at first. And then you got into like the heavy
+
+152
+00:11:11,105 --> 00:11:15,085
+Speaker 6:  trucks like your Hummers and your Ford F-150 Lightnings and
+
+153
+00:11:15,085 --> 00:11:18,845
+Speaker 6:  your Chevy Silverados. And these are giant heavy vehicles with
+
+154
+00:11:18,945 --> 00:11:22,725
+Speaker 6:  big heavy batteries that yeah, they have some pretty decent range
+
+155
+00:11:23,285 --> 00:11:27,245
+Speaker 6:  over 300 miles, but the, the expense associated with getting
+
+156
+00:11:27,295 --> 00:11:30,965
+Speaker 6:  these batteries in these vehicles was just so much that
+
+157
+00:11:31,245 --> 00:11:33,685
+Speaker 6:  customers just sort of balked at the prices that they were, that they were
+
+158
+00:11:33,685 --> 00:11:37,445
+Speaker 6:  seeing that, you know, you could buy a gas powered F-150 for around 30,
+
+159
+00:11:37,445 --> 00:11:41,285
+Speaker 6:  $40,000 at the, at the base model, why would you spend 70
+
+160
+00:11:41,505 --> 00:11:45,245
+Speaker 6:  80 grand on an electric version of that? Yeah. You know, and, and,
+
+161
+00:11:45,305 --> 00:11:48,765
+Speaker 6:  and when you start towing stuff and doing truck stuff with it, all of a sudden
+
+162
+00:11:48,765 --> 00:11:52,245
+Speaker 6:  that range, that precious range starts to, starts to drop precipitously.
+
+163
+00:11:52,265 --> 00:11:56,165
+Speaker 6:  So it it, it was I think a, a a, a misstep on the part
+
+164
+00:11:56,165 --> 00:11:59,885
+Speaker 6:  of the industry to prioritize the luxury and the, the heavy
+
+165
+00:12:00,225 --> 00:12:04,005
+Speaker 6:  ev heavy truck and SUV assuming that customer preferences
+
+166
+00:12:04,645 --> 00:12:08,325
+Speaker 6:  in the gas market were gonna carry over to the electric market. And then
+
+167
+00:12:08,325 --> 00:12:12,125
+Speaker 6:  you had all of these sort of ev favorable policies from the Biden administration
+
+168
+00:12:13,075 --> 00:12:16,845
+Speaker 6:  that, you know, were instrumental in getting all these factories
+
+169
+00:12:16,915 --> 00:12:20,645
+Speaker 6:  spun up and getting a lot of regionalization companies bringing
+
+170
+00:12:20,865 --> 00:12:24,565
+Speaker 6:  the production to the US from overseas. It, it had a big
+
+171
+00:12:24,885 --> 00:12:28,405
+Speaker 6:  effort in that and also, you know, and funding the ev charging picture, which
+
+172
+00:12:28,405 --> 00:12:32,205
+Speaker 6:  is another thing altogether. But seeing now how quickly
+
+173
+00:12:32,425 --> 00:12:35,605
+Speaker 6:  all of that kind of stuff can be unwound and un spooled
+
+174
+00:12:36,265 --> 00:12:39,485
+Speaker 6:  by the president administration, I think is giving a lot of these companies
+
+175
+00:12:39,485 --> 00:12:43,125
+Speaker 6:  pause about sort of like banking too much on this certain
+
+176
+00:12:43,135 --> 00:12:47,005
+Speaker 6:  technology when perhaps the customers aren't there and then the government
+
+177
+00:12:47,005 --> 00:12:48,485
+Speaker 6:  help is not gonna be there as well.
+
+178
+00:12:48,915 --> 00:12:52,725
+Speaker 2:  Yeah. You, you wrote this great story a couple of weeks ago about Ford
+
+179
+00:12:52,725 --> 00:12:55,285
+Speaker 2:  that had, and I don't think I told you this at the time, but it had my favorite
+
+180
+00:12:55,525 --> 00:12:59,325
+Speaker 2:  VERGE headline of like the last 12 months that I feel like also like perfectly
+
+181
+00:12:59,325 --> 00:13:03,085
+Speaker 2:  summed up the EV market. The headline is Ford lost
+
+182
+00:13:03,085 --> 00:13:06,925
+Speaker 2:  $5 billion on EVs in 2024 comma teases new
+
+183
+00:13:07,085 --> 00:13:11,045
+Speaker 2:  models. And so, which just to me, it just perfectly
+
+184
+00:13:11,075 --> 00:13:14,965
+Speaker 2:  sums up the whole thing. And then there was, there was news I think around
+
+185
+00:13:14,965 --> 00:13:18,765
+Speaker 2:  the same time as that, that VW was like, no, no, we're actually
+
+186
+00:13:18,765 --> 00:13:22,485
+Speaker 2:  gonna do the $20,000 ev that we've been promising that everybody
+
+187
+00:13:22,485 --> 00:13:25,685
+Speaker 2:  holds up as this like mythical thing that someday when somebody does that,
+
+188
+00:13:25,685 --> 00:13:29,565
+Speaker 2:  it'll change everything. These companies at some point should
+
+189
+00:13:29,565 --> 00:13:32,325
+Speaker 2:  just look at themselves and be like, nevermind, this didn't work. Maybe it'll
+
+190
+00:13:32,325 --> 00:13:35,765
+Speaker 2:  work someday. We'll like leave a team working on it over there. Can they
+
+191
+00:13:35,765 --> 00:13:39,245
+Speaker 2:  just not help themselves at this point? Like why, why can't these companies
+
+192
+00:13:39,245 --> 00:13:42,885
+Speaker 2:  quit EVs given that right now, if you're just being pragmatic,
+
+193
+00:13:43,275 --> 00:13:46,885
+Speaker 2:  like if you're in pure shareholder value mode,
+
+194
+00:13:47,105 --> 00:13:51,005
+Speaker 2:  it seems like the clear obvious thing to do is spend a lot less time thinking
+
+195
+00:13:51,005 --> 00:13:51,725
+Speaker 2:  about electric cars.
+
+196
+00:13:52,165 --> 00:13:56,085
+Speaker 6:  I, I think fear is playing a big role in, in sort of why it is
+
+197
+00:13:56,085 --> 00:14:00,045
+Speaker 6:  that they're not just giving up entirely. I, I, I think there is
+
+198
+00:14:00,045 --> 00:14:03,845
+Speaker 6:  like an aspect of it that a lot of them do still believe that EVs
+
+199
+00:14:03,845 --> 00:14:07,525
+Speaker 6:  are the future and that this is the right technology to be
+
+200
+00:14:07,525 --> 00:14:11,325
+Speaker 6:  betting all of the money in the companies on that, you know,
+
+201
+00:14:11,695 --> 00:14:15,405
+Speaker 6:  eventually we'll get to a point where We can bring battery costs down and
+
+202
+00:14:15,465 --> 00:14:19,365
+Speaker 6:  ev charging infrastructure will get up to speed and will become something
+
+203
+00:14:19,365 --> 00:14:23,325
+Speaker 6:  that you can actually rely on and that the prices will
+
+204
+00:14:23,325 --> 00:14:27,245
+Speaker 6:  get right. And the, the, the form factor will be spot on. And
+
+205
+00:14:27,395 --> 00:14:30,245
+Speaker 6:  obviously you could have your cake, you eat it too, because this will be
+
+206
+00:14:30,505 --> 00:14:34,445
+Speaker 6:  an environmentally more environmentally friendly technology to bet on zero
+
+207
+00:14:34,685 --> 00:14:38,525
+Speaker 6:  emission If you can find a way to recycle the batteries and get this sort
+
+208
+00:14:38,525 --> 00:14:42,245
+Speaker 6:  of supply chain built up that will encourage people that
+
+209
+00:14:42,245 --> 00:14:45,125
+Speaker 6:  this is actually the technology of the future that they will actually get
+
+210
+00:14:45,125 --> 00:14:48,645
+Speaker 6:  there. And then there's the fear aspect, which is fear of China in Chinese
+
+211
+00:14:49,065 --> 00:14:52,245
+Speaker 6:  EVs. And we're already sort of starting to see the effect
+
+212
+00:14:53,035 --> 00:14:56,925
+Speaker 6:  less so in the US but definitely in Europe where, you know,
+
+213
+00:14:56,925 --> 00:15:00,485
+Speaker 6:  Germany, this, you know, country that is, has this
+
+214
+00:15:00,635 --> 00:15:04,445
+Speaker 6:  storied auto sector with, you know, Mercedes and
+
+215
+00:15:04,485 --> 00:15:08,405
+Speaker 6:  BMW and Audi and Volkswagen and all of these, you know, sort of major
+
+216
+00:15:08,425 --> 00:15:12,405
+Speaker 6:  legacy brands are just, you know, in a free fall at the moment because
+
+217
+00:15:12,745 --> 00:15:16,205
+Speaker 6:  of competition from China, the Chinese companies like
+
+218
+00:15:16,285 --> 00:15:19,845
+Speaker 6:  BYD and Neo and GLI and others are just
+
+219
+00:15:20,165 --> 00:15:23,965
+Speaker 6:  flooding the market with these cheap, affordable
+
+220
+00:15:24,385 --> 00:15:28,285
+Speaker 6:  and honestly pretty fucking cool EVs
+
+221
+00:15:29,275 --> 00:15:33,125
+Speaker 6:  that like everyone that I've read, sources that I trust that have driven
+
+222
+00:15:33,125 --> 00:15:36,325
+Speaker 6:  these cars and seen them up close and been to China and
+
+223
+00:15:36,785 --> 00:15:40,645
+Speaker 6:  toured the factories and tested the vehicles have said this is they
+
+224
+00:15:40,645 --> 00:15:44,565
+Speaker 6:  crack the code, like, you know, say what you will about government subsidies
+
+225
+00:15:44,745 --> 00:15:48,525
+Speaker 6:  and the, you know, the, the, the Chinese government has got its thumb on
+
+226
+00:15:48,525 --> 00:15:51,645
+Speaker 6:  the scale and is potentially, you know, cheating a little bit in terms of
+
+227
+00:15:51,645 --> 00:15:54,965
+Speaker 6:  like how much money they're pouring into the industry. But it's, it's certainly,
+
+228
+00:15:55,105 --> 00:15:59,005
+Speaker 6:  you know, it's not coming at the expense of like good fun cars
+
+229
+00:15:59,105 --> 00:16:02,965
+Speaker 6:  to drive and, and decent technology. So the, you know, the,
+
+230
+00:16:02,985 --> 00:16:06,725
+Speaker 6:  you know, there's certain vehicles that are, you know, in the 12, $13,000
+
+231
+00:16:06,725 --> 00:16:10,405
+Speaker 6:  range that If you had a vehicle like that available here in the us,
+
+232
+00:16:10,555 --> 00:16:14,285
+Speaker 6:  like it would just eat Ford and GM's lunch, right? Like, there's just no
+
+233
+00:16:14,405 --> 00:16:18,045
+Speaker 6:  question. And Ford Ford's, CEO Jim Farley has, you know, he had a,
+
+234
+00:16:18,365 --> 00:16:22,085
+Speaker 6:  a xmi ev last year that he drove around for like a couple
+
+235
+00:16:22,085 --> 00:16:25,925
+Speaker 6:  months I think, and he saw like the demise of his own company,
+
+236
+00:16:26,315 --> 00:16:29,805
+Speaker 6:  like basically in the future while driving this vehicle that it was just
+
+237
+00:16:29,805 --> 00:16:33,485
+Speaker 6:  such an impressive experience that he's like, there's, we have to catch up
+
+238
+00:16:33,485 --> 00:16:36,565
+Speaker 6:  to these guys because they have beat us. They have been at this for much
+
+239
+00:16:36,565 --> 00:16:40,245
+Speaker 6:  longer than we have. And they have figured out a way to
+
+240
+00:16:40,935 --> 00:16:44,605
+Speaker 6:  bring all the costs in line and, and come up with these, with these cars
+
+241
+00:16:44,605 --> 00:16:48,445
+Speaker 6:  that are just so technologically and design wise
+
+242
+00:16:49,655 --> 00:16:53,645
+Speaker 6:  above the rest. So I think that the rest of the industry, the
+
+243
+00:16:53,845 --> 00:16:57,685
+Speaker 6:  Europeans and the, and the, and the big three here in the US have
+
+244
+00:16:57,685 --> 00:17:01,565
+Speaker 6:  really no choice if they don't continue to pursue. And like it may
+
+245
+00:17:01,565 --> 00:17:04,285
+Speaker 6:  be like, you know, the Trump administration puts in some policies in place
+
+246
+00:17:04,285 --> 00:17:07,965
+Speaker 6:  that will like, actively make it like detrimental to their business to,
+
+247
+00:17:08,065 --> 00:17:11,765
+Speaker 6:  to produce EVs, which I could see happening. They will have really no choice
+
+248
+00:17:11,785 --> 00:17:15,325
+Speaker 6:  to just keep pursuing and keep trying to like, you know, throw everything
+
+249
+00:17:15,325 --> 00:17:19,045
+Speaker 6:  that they've got at this problem because otherwise it's, it's literally their
+
+250
+00:17:19,045 --> 00:17:20,605
+Speaker 6:  own futures at that are at stake.
+
+251
+00:17:21,245 --> 00:17:23,765
+Speaker 2:  Interesting. Okay. I think the, the China piece of it, I think I have been
+
+252
+00:17:23,765 --> 00:17:26,405
+Speaker 2:  underwriting in all of this because I keep looking at this thinking, okay,
+
+253
+00:17:27,025 --> 00:17:29,885
+Speaker 2:  the, the first mover advantage of this already happened, right? Like Tesla
+
+254
+00:17:30,265 --> 00:17:33,485
+Speaker 2:  did that and, and I think has pretty much ridden out its entire advantage
+
+255
+00:17:33,585 --> 00:17:37,325
+Speaker 2:  on that front by being so far out in front of everybody else. Now we're at
+
+256
+00:17:37,325 --> 00:17:40,725
+Speaker 2:  a point where it's like, okay, if this isn't going mainstream tomorrow,
+
+257
+00:17:41,505 --> 00:17:44,965
+Speaker 2:  what's actually the harm in waiting? And the harm in waiting is that when
+
+258
+00:17:44,965 --> 00:17:48,365
+Speaker 2:  it goes mainstream, China will have already won. Yeah. That we will, it,
+
+259
+00:17:48,365 --> 00:17:52,285
+Speaker 2:  we will be so far behind at that point that it will just like
+
+260
+00:17:52,285 --> 00:17:55,965
+Speaker 2:  China, it it seems like is just sitting there waiting to flood the market
+
+261
+00:17:56,025 --> 00:17:59,445
+Speaker 2:  the minute the market is ready for it to do so. And that's pretty scary if
+
+262
+00:17:59,445 --> 00:18:00,605
+Speaker 2:  you're, if you're a Volkswagen.
+
+263
+00:18:00,755 --> 00:18:03,965
+Speaker 6:  Yeah, I was, it was, it was kind of, it was crazy. So I was in Brazil visiting
+
+264
+00:18:03,965 --> 00:18:07,725
+Speaker 6:  some friends last year and you know, at first, you
+
+265
+00:18:07,925 --> 00:18:11,405
+Speaker 6:  know, I saw like a lot of like EO and Renault and like a lot of these like
+
+266
+00:18:11,605 --> 00:18:15,565
+Speaker 6:  European brands out on the road. And then eventually I started to notice
+
+267
+00:18:15,635 --> 00:18:19,525
+Speaker 6:  that like most of the cars that I saw and we were taking Ubers and, and
+
+268
+00:18:19,525 --> 00:18:21,885
+Speaker 6:  you know, rideshare and all that kind of stuff, and they were all Chinese
+
+269
+00:18:22,465 --> 00:18:26,325
+Speaker 6:  EVs, they were BYD, they were Neo and it was just like, it was
+
+270
+00:18:26,325 --> 00:18:30,285
+Speaker 6:  incredible how just like overnight
+
+271
+00:18:30,645 --> 00:18:33,965
+Speaker 6:  apparently like had come in and just like dominated, you know, these markets
+
+272
+00:18:34,035 --> 00:18:37,685
+Speaker 6:  like, like Brazil and others. And I think like, yeah, I think it's like,
+
+273
+00:18:37,685 --> 00:18:41,645
+Speaker 6:  it's certainly the case that you can slap tariffs on every single one and
+
+274
+00:18:41,645 --> 00:18:45,525
+Speaker 6:  Biden has done that and now Trump's talking about doing the same or,
+
+275
+00:18:45,625 --> 00:18:49,405
+Speaker 6:  or one-upping and trying to make it sort of financially prohibitive for these
+
+276
+00:18:49,405 --> 00:18:53,325
+Speaker 6:  Chinese companies. But the, if the cars are so inexpensive and
+
+277
+00:18:53,385 --> 00:18:57,245
+Speaker 6:  so cheap that, that they literally can absorb the cost of a tariff and
+
+278
+00:18:57,245 --> 00:19:01,045
+Speaker 6:  still come into the market. Like I don't see how you can eventually stop
+
+279
+00:19:01,045 --> 00:19:04,445
+Speaker 6:  that. And that's something that I think a lot of these companies are in the
+
+280
+00:19:04,465 --> 00:19:06,165
+Speaker 6:  US are deeply afraid of.
+
+281
+00:19:06,355 --> 00:19:10,045
+Speaker 2:  Yeah. I mean, a $12,000 car plus a 25% tariff is still
+
+282
+00:19:10,175 --> 00:19:12,645
+Speaker 2:  gonna win the price worse in a lot of these cases.
+
+283
+00:19:12,915 --> 00:19:13,205
+Speaker 6:  Yeah,
+
+284
+00:19:13,525 --> 00:19:15,885
+Speaker 2:  Absolutely. That's really interesting. Okay. And so on the, on the other
+
+285
+00:19:15,885 --> 00:19:19,325
+Speaker 2:  hand, as we talk about, you know, things happening sort of slowly and all
+
+286
+00:19:19,325 --> 00:19:21,965
+Speaker 2:  at once and maybe not, and going back and forth a million times,
+
+287
+00:19:22,715 --> 00:19:26,695
+Speaker 2:  robotaxis, which kind of seemed to be
+
+288
+00:19:26,695 --> 00:19:29,495
+Speaker 2:  having another moment, I, I think
+
+289
+00:19:30,635 --> 00:19:33,975
+Speaker 2:  Joanna Stern on the show at the end of last year predicted that this was
+
+290
+00:19:33,975 --> 00:19:37,775
+Speaker 2:  going to be kind of the year of Waymo. Seems like that might be
+
+291
+00:19:37,805 --> 00:19:41,175
+Speaker 2:  kind of coming true, but also like Lyft and Uber are back in this game.
+
+292
+00:19:41,525 --> 00:19:45,335
+Speaker 2:  Like it's like it's 2016 all over again in the robotaxis
+
+293
+00:19:45,345 --> 00:19:46,615
+Speaker 2:  world. What is happening here?
+
+294
+00:19:47,125 --> 00:19:50,095
+Speaker 6:  Yeah, it's a, it's a weird situation because I think what you've seen is
+
+295
+00:19:50,095 --> 00:19:53,295
+Speaker 6:  that the, the major automakers, you know, like a good
+
+296
+00:19:53,745 --> 00:19:57,335
+Speaker 6:  seven, eight years ago were like, oh, we need to be all in on
+
+297
+00:19:58,285 --> 00:20:01,055
+Speaker 6:  part, you know, on autonomous vehicles the same way that they, you know,
+
+298
+00:20:01,055 --> 00:20:02,335
+Speaker 6:  missed the boat on EVs.
+
+299
+00:20:02,555 --> 00:20:06,455
+Speaker 2:  It was gonna be by 2020. They were all like, by 2020 we'll be Robotaxis everywhere.
+
+300
+00:20:06,455 --> 00:20:09,495
+Speaker 6:  Exactly. It was always by 2020. And I seem to recall 2020 being kind of a
+
+301
+00:20:09,495 --> 00:20:10,375
+Speaker 6:  different year. Yeah. I,
+
+302
+00:20:10,455 --> 00:20:14,095
+Speaker 2:  I had a real different experience. I didn't take other taxis very much in
+
+303
+00:20:14,095 --> 00:20:15,575
+Speaker 2:  2020. So I guess that's something people
+
+304
+00:20:15,575 --> 00:20:18,855
+Speaker 6:  Were buying a lot of e-bikes and scooters and not so much robotaxis,
+
+305
+00:20:19,395 --> 00:20:22,895
+Speaker 6:  but yeah, so they were, they were all in on automation. They were like, this
+
+306
+00:20:22,895 --> 00:20:26,495
+Speaker 6:  is gonna be us, we're gonna be, the future of, of the auto industry is gonna
+
+307
+00:20:26,495 --> 00:20:30,455
+Speaker 6:  be full autonomy. And now they are like, oh, this is just
+
+308
+00:20:30,455 --> 00:20:33,335
+Speaker 6:  taking too long. And it's, it's really expensive actually, and
+
+309
+00:20:34,355 --> 00:20:38,055
+Speaker 6:  our business is really precarious at, at this moment, so we cannot be
+
+310
+00:20:38,515 --> 00:20:42,135
+Speaker 6:  so deeply invested in, in, in these sort of like, long-term
+
+311
+00:20:43,325 --> 00:20:47,285
+Speaker 6:  like hyper expensive science experiments. So yeah,
+
+312
+00:20:47,285 --> 00:20:51,005
+Speaker 6:  just recently you had GM completely divesting itself from
+
+313
+00:20:51,075 --> 00:20:54,565
+Speaker 6:  Cruz, and that was after, you know, Cruz having a pretty rough year,
+
+314
+00:20:55,525 --> 00:20:59,365
+Speaker 6:  rough couple years because of some of, you know, the, its cars
+
+315
+00:20:59,365 --> 00:21:02,445
+Speaker 6:  were blocking traffic and were getting on people's nerves in San Francisco
+
+316
+00:21:02,465 --> 00:21:06,325
+Speaker 6:  and then, you know, s a a lady got ran over and that was bad
+
+317
+00:21:06,505 --> 00:21:06,725
+Speaker 6:  on
+
+318
+00:21:06,725 --> 00:21:10,365
+Speaker 2:  That one. By the way, do you, do you read the whole cruise thing as GM
+
+319
+00:21:10,915 --> 00:21:14,725
+Speaker 2:  wanting out of the robotaxis business and deciding that that whole
+
+320
+00:21:15,115 --> 00:21:18,565
+Speaker 2:  idea was just not what it wanted? Or is that like a specific cruise
+
+321
+00:21:18,715 --> 00:21:19,205
+Speaker 2:  problem?
+
+322
+00:21:19,665 --> 00:21:22,645
+Speaker 6:  Oh no. Yeah. It's, it's the, I would say it's, it's a little bit of both.
+
+323
+00:21:22,705 --> 00:21:26,685
+Speaker 6:  It was okay, it was a, a specific cruise problem. Cruise was known to
+
+324
+00:21:26,685 --> 00:21:30,605
+Speaker 6:  be sort of pushing the envelope and going a bit too aggressive. Yeah. As
+
+325
+00:21:30,845 --> 00:21:33,885
+Speaker 6:  compared to like Waymo and others. They were trying to like get, you know,
+
+326
+00:21:33,945 --> 00:21:37,405
+Speaker 6:  up to speed and, and, and compete and they were sort of, you know,
+
+327
+00:21:38,425 --> 00:21:42,005
+Speaker 6:  not being as buttoned up and safe. Right. Which is like with a, with a
+
+328
+00:21:42,205 --> 00:21:45,965
+Speaker 6:  autonomous vehicle operation, you really have to be as
+
+329
+00:21:46,645 --> 00:21:50,605
+Speaker 6:  cautious and conservative as you possibly can. And that just wasn't
+
+330
+00:21:50,605 --> 00:21:53,365
+Speaker 6:  the ethos at Cruz. They were really trying to
+
+331
+00:21:54,315 --> 00:21:56,445
+Speaker 6:  just, they they were, they were pushing the envelope Yeah.
+
+332
+00:21:56,445 --> 00:22:00,005
+Speaker 2:  Real, like move fast and break things, which is not a good idea. And robotaxis
+
+333
+00:22:00,025 --> 00:22:00,245
+Speaker 2:  the
+
+334
+00:22:00,245 --> 00:22:04,045
+Speaker 6:  Move fast and break ethos was just, yeah, it was at, at at odds with
+
+335
+00:22:04,145 --> 00:22:07,125
+Speaker 6:  the Yeah. The safety element and they really kind of
+
+336
+00:22:07,925 --> 00:22:11,205
+Speaker 6:  screwed, screwed themselves over with that one. But then also, yeah, that
+
+337
+00:22:11,205 --> 00:22:14,405
+Speaker 6:  was sort of like the big, the big message when GM said that they were gonna
+
+338
+00:22:14,405 --> 00:22:16,725
+Speaker 6:  be getting out of cruise was that, you know, this was not part of our core
+
+339
+00:22:17,045 --> 00:22:20,885
+Speaker 6:  business, which is hilarious because, you know, seven,
+
+340
+00:22:20,885 --> 00:22:24,765
+Speaker 6:  eight years ago, GM said its core business was gonna be zero, zero
+
+341
+00:22:24,865 --> 00:22:28,845
+Speaker 6:  deaths, zero emissions, all this stuff that they were, they were sort of
+
+342
+00:22:28,845 --> 00:22:32,485
+Speaker 6:  like betting the company on the future being, you know, sort of like, no
+
+343
+00:22:32,485 --> 00:22:35,765
+Speaker 6:  more car crashes, no more traffic fatalities, and also no more emissions.
+
+344
+00:22:35,765 --> 00:22:39,605
+Speaker 6:  So autonomy and electrification. And now actually
+
+345
+00:22:39,715 --> 00:22:41,485
+Speaker 6:  GM's doing pretty good with EVs, but
+
+346
+00:22:41,665 --> 00:22:45,565
+Speaker 2:  GM just like working backwards from a cool slogan was, was a, an interesting
+
+347
+00:22:45,565 --> 00:22:46,125
+Speaker 2:  move there.
+
+348
+00:22:47,545 --> 00:22:50,765
+Speaker 6:  So, so yeah. So they, so they divested and Cruise is dead now.
+
+349
+00:22:51,515 --> 00:22:54,805
+Speaker 6:  They absorbed some of the engineers into their Super cruise division, which
+
+350
+00:22:54,805 --> 00:22:58,165
+Speaker 6:  is like their partial automation, their hands off driving assist feature.
+
+351
+00:22:58,845 --> 00:23:02,525
+Speaker 6:  And a lot of these companies now are going all in on like this sort of
+
+352
+00:23:02,725 --> 00:23:06,245
+Speaker 6:  level three, like hands off, eyes off driving on
+
+353
+00:23:06,245 --> 00:23:09,845
+Speaker 6:  highways or in like traffic situations. And that's,
+
+354
+00:23:10,025 --> 00:23:13,805
+Speaker 6:  you know, a huge bag of worms. I mean, like, there's been so many safety
+
+355
+00:23:13,805 --> 00:23:17,365
+Speaker 6:  assessments that show that, that that kind of stuff is extremely dangerous.
+
+356
+00:23:17,985 --> 00:23:21,845
+Speaker 6:  So I, I don't wanna say that like there's, you know, there's a, a whole
+
+357
+00:23:21,965 --> 00:23:25,085
+Speaker 6:  raft of liability concerns that are gonna be coming up, I think in, in, in
+
+358
+00:23:25,085 --> 00:23:28,845
+Speaker 6:  smashing into these companies. No, no pun intended with that. But it, it,
+
+359
+00:23:28,855 --> 00:23:32,685
+Speaker 6:  there there is a lot of potential there as well. Obviously short term revenue,
+
+360
+00:23:32,795 --> 00:23:35,645
+Speaker 6:  like you could sell options to customers that you have.
+
+361
+00:23:36,585 --> 00:23:39,885
+Speaker 6:  So really that kind of just leaves Waymo all alone
+
+362
+00:23:40,645 --> 00:23:43,805
+Speaker 6:  in the robotaxis space and they're light years ahead of all the rest of the
+
+363
+00:23:43,805 --> 00:23:47,685
+Speaker 6:  competition. Like Zoox is still just sort of in, in beta phase and
+
+364
+00:23:47,685 --> 00:23:50,925
+Speaker 6:  like Las Vegas and some others, that's Amazon's robotaxis company
+
+365
+00:23:51,705 --> 00:23:54,845
+Speaker 6:  and there's obviously some Chinese robotaxis companies that are
+
+366
+00:23:55,555 --> 00:23:58,925
+Speaker 6:  operating Baidu and others in their country.
+
+367
+00:23:59,665 --> 00:24:03,285
+Speaker 6:  So it's, it seems like really Waymo is, is is way ahead of the rest of the
+
+368
+00:24:03,285 --> 00:24:05,925
+Speaker 6:  competition. And they've, you know, they've got operations in San Francisco
+
+369
+00:24:05,925 --> 00:24:09,605
+Speaker 6:  and Phoenix and Los Angeles and this year they're launching in Austin
+
+370
+00:24:09,905 --> 00:24:13,845
+Speaker 6:  and Atlanta. And the interesting thing about those launches is that they're
+
+371
+00:24:13,845 --> 00:24:17,725
+Speaker 6:  gonna be done exclusively with Uber. So instead of using
+
+372
+00:24:17,785 --> 00:24:21,685
+Speaker 6:  the Waymo app where you've done in previous markets, you'll open up
+
+373
+00:24:21,885 --> 00:24:25,805
+Speaker 6:  your Uber and potentially you'll get paired with a, a human driver or maybe
+
+374
+00:24:26,085 --> 00:24:29,685
+Speaker 6:  a robot. Waymo car will be the one to come and pick you up in those, in those
+
+375
+00:24:29,685 --> 00:24:33,445
+Speaker 6:  two cities. So I think that that's why you hear, you've been hearing a lot
+
+376
+00:24:33,445 --> 00:24:37,365
+Speaker 6:  about, about Robotaxis, but also it's interesting because, you know, you
+
+377
+00:24:37,365 --> 00:24:40,485
+Speaker 6:  have now Uber that is very much a part of the conversation,
+
+378
+00:24:41,085 --> 00:24:44,285
+Speaker 6:  Lyft as well, but Uber obviously is the one that's really trying to make
+
+379
+00:24:44,285 --> 00:24:47,805
+Speaker 6:  itself like the, like the agnostic platform that will take
+
+380
+00:24:47,835 --> 00:24:51,645
+Speaker 6:  anybody's autonomous vehicles. So whether it's Waymo
+
+381
+00:24:51,865 --> 00:24:55,565
+Speaker 6:  or some of these other companies like AV Ride and some of the other ones
+
+382
+00:24:55,565 --> 00:24:59,125
+Speaker 6:  that are putting out like sidewalk robots for Uber Eats deliveries and others,
+
+383
+00:24:59,635 --> 00:25:03,285
+Speaker 6:  Uber just wants to be like the, like the neutral party that is just like,
+
+384
+00:25:03,335 --> 00:25:06,725
+Speaker 6:  we'll, we'll take anyone's robot, you got a robot, put it on our platform.
+
+385
+00:25:06,965 --> 00:25:09,645
+Speaker 6:  Right? We'll take your robot. We'll, we'll we'll give it to, we'll send it
+
+386
+00:25:09,645 --> 00:25:11,765
+Speaker 6:  out to a customer and we'll see how, how it works. Which
+
+387
+00:25:11,765 --> 00:25:14,685
+Speaker 2:  Strikes me as a real lesson learned from the last time around, right? Like
+
+388
+00:25:14,685 --> 00:25:17,845
+Speaker 2:  the, the first time everybody thought Robotaxis were right around the corner,
+
+389
+00:25:18,625 --> 00:25:22,605
+Speaker 2:  all these companies were spending money, they didn't have to own
+
+390
+00:25:22,605 --> 00:25:25,245
+Speaker 2:  the technology themselves. Right? Right. You had Travis Kanick being like,
+
+391
+00:25:25,265 --> 00:25:28,845
+Speaker 2:  we are fundamentally going to be a self-driving company. It was like, that
+
+392
+00:25:28,845 --> 00:25:29,325
+Speaker 2:  was the, well,
+
+393
+00:25:29,325 --> 00:25:32,885
+Speaker 6:  It was like an existential right thing for him. He was like, we, we won't
+
+394
+00:25:32,885 --> 00:25:36,765
+Speaker 6:  exist if we don't design the technology ourselves. And then
+
+395
+00:25:36,915 --> 00:25:40,805
+Speaker 6:  they did that and they killed somebody and they were like, oh wait, no,
+
+396
+00:25:41,785 --> 00:25:42,685
+Speaker 6:  we changed our minds.
+
+397
+00:25:42,785 --> 00:25:46,125
+Speaker 2:  We want to be a different thing. Yes. And I think, I mean, I I, it's just
+
+398
+00:25:46,125 --> 00:25:49,005
+Speaker 2:  been interesting to me, especially like you said, watching Uber and Lyft
+
+399
+00:25:49,025 --> 00:25:52,925
+Speaker 2:  get back into this because those companies were so wrong a
+
+400
+00:25:52,925 --> 00:25:56,885
+Speaker 2:  decade ago and we're so badly burned by how wrong they were and invested
+
+401
+00:25:57,235 --> 00:26:01,085
+Speaker 2:  incorrectly so heavily in those directions for so long that I think
+
+402
+00:26:01,085 --> 00:26:05,045
+Speaker 2:  it really set them back. And so to see them now come back and
+
+403
+00:26:05,045 --> 00:26:08,605
+Speaker 2:  it was like, it was Lyft saying again, like, Lyft is a pretty careful
+
+404
+00:26:08,605 --> 00:26:11,205
+Speaker 2:  company at this point. And so for Lyft to come out and be like,
+
+405
+00:26:12,315 --> 00:26:16,005
+Speaker 2:  Robotaxis, y'all, like we're, we're ready. We're doing, it was just so
+
+406
+00:26:16,245 --> 00:26:18,645
+Speaker 2:  interesting to me. This company is like finally making money for the first
+
+407
+00:26:18,645 --> 00:26:22,525
+Speaker 2:  time in its history and they're like, so robotaxis. So it's like, there
+
+408
+00:26:22,525 --> 00:26:23,965
+Speaker 2:  must be something here. It's,
+
+409
+00:26:24,045 --> 00:26:27,125
+Speaker 6:  I think it's, it's a, it's a couple things. So I think for one it's that
+
+410
+00:26:27,125 --> 00:26:31,005
+Speaker 6:  Uber and Lyft are now sort of like newly profitable. Uber is,
+
+411
+00:26:31,025 --> 00:26:35,005
+Speaker 6:  is profitable. Lyft is, it had just had, its like its first profitable
+
+412
+00:26:35,005 --> 00:26:38,765
+Speaker 6:  year, their cashflow positive. They finally, after like over
+
+413
+00:26:39,165 --> 00:26:42,685
+Speaker 6:  a decade and a half have have figured out how to make money off of,
+
+414
+00:26:43,185 --> 00:26:47,125
+Speaker 6:  off of Rideshare. And so they've got like, you know, they, they're kind
+
+415
+00:26:47,125 --> 00:26:49,485
+Speaker 6:  of like, they're feeling themselves a little bit. Yeah. I think in, in one
+
+416
+00:26:49,485 --> 00:26:52,485
+Speaker 6:  respect. And then the other respect is, I think is is is the, is the market
+
+417
+00:26:52,705 --> 00:26:55,765
+Speaker 6:  in, and investors are really kind of pushing them towards this because every
+
+418
+00:26:55,765 --> 00:26:59,725
+Speaker 6:  time Waymo makes a, some sort of, you know, iterative announcement
+
+419
+00:26:59,725 --> 00:27:02,845
+Speaker 6:  about like going into a new market or a new city, it's saying like, we're
+
+420
+00:27:02,845 --> 00:27:06,805
+Speaker 6:  gonna be in Miami or we're gonna be in this city. You see that
+
+421
+00:27:07,035 --> 00:27:10,565
+Speaker 6:  that reflected in Uber's share price, right? Like Uber's stock starts to
+
+422
+00:27:10,565 --> 00:27:14,445
+Speaker 6:  go down a little bit. So Uber feels a little bit like pressure to pair up
+
+423
+00:27:14,445 --> 00:27:17,925
+Speaker 6:  with these companies as a way to keep them close to them so that they can
+
+424
+00:27:17,925 --> 00:27:21,845
+Speaker 6:  be part of this conversation. They can be part of sort of how this technology
+
+425
+00:27:21,895 --> 00:27:25,405
+Speaker 6:  rolls out if they're the ones that are sort of like at the front line of
+
+426
+00:27:25,405 --> 00:27:29,325
+Speaker 6:  being in between the customer and the robotaxis. They see
+
+427
+00:27:29,325 --> 00:27:31,965
+Speaker 6:  that as like a benefit to them that they, they get like sort of like the
+
+428
+00:27:32,205 --> 00:27:35,885
+Speaker 6:  positive vibe, you know, sort of like ricochet off of, you know, the, the
+
+429
+00:27:35,885 --> 00:27:39,485
+Speaker 6:  experience of writing in a Waymo like, oh, this is so fun. I get to, you
+
+430
+00:27:39,485 --> 00:27:43,085
+Speaker 6:  know, control my music and there's nobody in the front seat. And it's, it's
+
+431
+00:27:43,085 --> 00:27:47,045
+Speaker 6:  so unique and different and wow. And, and you know, maybe
+
+432
+00:27:47,045 --> 00:27:50,125
+Speaker 6:  you associate that all a hundred percent with Waymo, but maybe you get like,
+
+433
+00:27:50,125 --> 00:27:53,125
+Speaker 6:  you know, a little bit a a little nudge to, to Uber as well. And so Uber
+
+434
+00:27:53,125 --> 00:27:56,285
+Speaker 6:  gets something out of that. So, so Waymo
+
+435
+00:27:56,285 --> 00:27:59,765
+Speaker 2:  Is really like the, the boogeyman of this whole industry. Like everybody
+
+436
+00:27:59,765 --> 00:28:03,445
+Speaker 2:  who's doing any of this is just watching Waymo essentially have unlimited
+
+437
+00:28:03,445 --> 00:28:07,325
+Speaker 2:  time and money and resources to do this. And is I, I assume
+
+438
+00:28:07,385 --> 00:28:10,205
+Speaker 2:  anyone else working on any part of this is petrified of what's going on at
+
+439
+00:28:10,205 --> 00:28:10,485
+Speaker 2:  Waymo,
+
+440
+00:28:10,585 --> 00:28:14,005
+Speaker 6:  And yet they like operate at a like fraction of a fraction of the levels
+
+441
+00:28:14,075 --> 00:28:17,925
+Speaker 6:  that Uber does. Hmm. Waymo's got like less than
+
+442
+00:28:18,005 --> 00:28:20,005
+Speaker 6:  a thousand cars on the road today. Oh,
+
+443
+00:28:20,125 --> 00:28:21,085
+Speaker 2:  Interesting. I didn't realize that. Okay.
+
+444
+00:28:21,105 --> 00:28:25,005
+Speaker 6:  And Uber is doing, like, just recently did like, it's like
+
+445
+00:28:25,185 --> 00:28:29,085
+Speaker 6:  1000000th, concurrent ride. Like, it's like Wow. All over the world. Yeah,
+
+446
+00:28:29,235 --> 00:28:33,085
+Speaker 6:  it's taken in taxied cabs now. It's, you know, it's like fully eaten
+
+447
+00:28:33,105 --> 00:28:36,925
+Speaker 6:  the rideshare and like the, the, the, the vehicle transportation market
+
+448
+00:28:37,545 --> 00:28:41,325
+Speaker 6:  and, and Uber is just like so small in,
+
+449
+00:28:41,555 --> 00:28:45,525
+Speaker 6:  it's like, it boggles my mind some too because like it's got like,
+
+450
+00:28:45,595 --> 00:28:48,685
+Speaker 6:  it's got great, you know, sort of like brand value in the terms of like Yeah.
+
+451
+00:28:48,685 --> 00:28:52,245
+Speaker 6:  People like associate are, are starting to like, you know, like fully
+
+452
+00:28:52,245 --> 00:28:56,045
+Speaker 6:  associate, like a Waymo has become like the Xerox or like the Kleenex of
+
+453
+00:28:56,045 --> 00:29:00,005
+Speaker 6:  totally. Of like Robotaxis and that that there's, there is
+
+454
+00:29:00,005 --> 00:29:03,845
+Speaker 6:  certainly value involved in that. But yeah, given how like how few
+
+455
+00:29:03,845 --> 00:29:07,325
+Speaker 6:  cities they're actually, and how slowly and conservatively
+
+456
+00:29:07,535 --> 00:29:10,285
+Speaker 6:  which they have to, they have to do that because they don't wanna fall into
+
+457
+00:29:10,285 --> 00:29:14,205
+Speaker 6:  the same pitfalls right. As Cruz or as Uber did. They
+
+458
+00:29:14,205 --> 00:29:14,325
+Speaker 6:  can
+
+459
+00:29:14,325 --> 00:29:15,565
+Speaker 2:  Also afford to importantly,
+
+460
+00:29:15,825 --> 00:29:18,365
+Speaker 6:  And they, I I mean may maybe,
+
+461
+00:29:18,765 --> 00:29:19,005
+Speaker 2:  I mean
+
+462
+00:29:19,005 --> 00:29:20,085
+Speaker 6:  Fair, I mean like If you seen
+
+463
+00:29:20,275 --> 00:29:21,805
+Speaker 2:  Also that certainly has the money. I is all
+
+464
+00:29:21,805 --> 00:29:23,685
+Speaker 6:  All, I mean, I know if you've seen like the other bets and stuff like that,
+
+465
+00:29:23,685 --> 00:29:27,405
+Speaker 6:  like, you know, where they list like the losses there, like it's not, it's
+
+466
+00:29:27,405 --> 00:29:30,845
+Speaker 6:  not looking good. Like they're still losing hundreds of millions of dollars
+
+467
+00:29:30,945 --> 00:29:32,165
+Speaker 6:  on this project. Right. But
+
+468
+00:29:32,165 --> 00:29:36,085
+Speaker 2:  They're, they're, they're I suppose at risk of running out of corporate
+
+469
+00:29:36,365 --> 00:29:38,845
+Speaker 2:  patients Yes. But they're not at risk of running out of money. That's really
+
+470
+00:29:38,845 --> 00:29:41,845
+Speaker 6:  All Yeah. It's a very different situation than Cruise with GM where GM was
+
+471
+00:29:41,845 --> 00:29:45,085
+Speaker 6:  just like, our margins are so incredibly tight that we just cannot continue
+
+472
+00:29:45,085 --> 00:29:48,525
+Speaker 6:  to fund this thing. Whereas alphabet's like Sure, five more billion dollars
+
+473
+00:29:48,585 --> 00:29:50,765
+Speaker 6:  for the next five years. Sure. Why not Minutes
+
+474
+00:29:50,765 --> 00:29:52,325
+Speaker 2:  Of running Google. Like it'll be fine. Yeah,
+
+475
+00:29:52,325 --> 00:29:55,925
+Speaker 6:  Exactly. So yeah, it is, it is. And I think like, it, it one could see the
+
+476
+00:29:55,925 --> 00:29:59,885
+Speaker 6:  same with Amazon too, right? Like Amazon can continue to fund like money
+
+477
+00:29:59,885 --> 00:30:03,445
+Speaker 6:  losing operation like Zoox for Right. Which like Zoox is an interesting player
+
+478
+00:30:03,445 --> 00:30:07,165
+Speaker 6:  because we just had a, a piece that ran where our freelancer Abigail
+
+479
+00:30:07,165 --> 00:30:11,045
+Speaker 6:  Bassett rode in one in Las Vegas during CES. They, they're taking
+
+480
+00:30:11,125 --> 00:30:14,005
+Speaker 6:  a different tack. They're like, we, it's actually purpose built vehicles.
+
+481
+00:30:14,005 --> 00:30:17,765
+Speaker 6:  It's these vehicles that look kind of like weird toaster shaped things and
+
+482
+00:30:17,885 --> 00:30:20,685
+Speaker 6:  they don't have, they don't have pedals and they don't have steering wheels
+
+483
+00:30:20,685 --> 00:30:23,685
+Speaker 6:  and you sort of like sit on these bench seats facing each other. It's
+
+484
+00:30:23,685 --> 00:30:27,605
+Speaker 2:  Like the foursome seat on a train that faces each other made into a vehicle,
+
+485
+00:30:27,695 --> 00:30:30,125
+Speaker 6:  Which are, they're always the worst seats on the train. Yeah, they're awful.
+
+486
+00:30:30,125 --> 00:30:33,165
+Speaker 6:  Yeah. Like nobody ever wants to, like, when your knees bump up against the
+
+487
+00:30:33,165 --> 00:30:34,925
+Speaker 6:  other person's knees and it's just like, ugh, sucks.
+
+488
+00:30:34,925 --> 00:30:36,085
+Speaker 2:  Everybody wants that. I hate this.
+
+489
+00:30:36,085 --> 00:30:38,765
+Speaker 6:  Yeah, perfect. Yeah. So that's what Zoox is going for
+
+490
+00:30:40,185 --> 00:30:43,445
+Speaker 6:  and that was interestingly what Cruise was also going for at first until
+
+491
+00:30:43,445 --> 00:30:46,725
+Speaker 6:  everything fell apart for them. So it's interesting because, you know, and
+
+492
+00:30:46,795 --> 00:30:50,085
+Speaker 6:  Waymo's got, you know, its future platforms. They've got a deal with
+
+493
+00:30:50,665 --> 00:30:54,085
+Speaker 6:  GLI to make these zeer vehicles, but that could get seriously compromised
+
+494
+00:30:54,085 --> 00:30:57,925
+Speaker 6:  by the Chinese tariffs. They've got deals with Hyundai to use Hyundai's Iion
+
+495
+00:30:57,995 --> 00:31:01,805
+Speaker 6:  five as a, as a vehicle. So there, you know,
+
+496
+00:31:01,805 --> 00:31:04,725
+Speaker 6:  there's, everyone's got, you know, is putting their, placing their bets.
+
+497
+00:31:04,725 --> 00:31:08,485
+Speaker 6:  And I think interestingly, Waymo being the one so far out ahead on the technology
+
+498
+00:31:08,545 --> 00:31:11,565
+Speaker 6:  is still like we need regular cars that We can just retrofit. We are not
+
+499
+00:31:11,565 --> 00:31:15,365
+Speaker 6:  ready to go like the purpose, purpose-built direction quite
+
+500
+00:31:15,425 --> 00:31:17,565
+Speaker 6:  yet, which I think is is quite telling.
+
+501
+00:31:18,185 --> 00:31:22,165
+Speaker 2:  Got it. Okay. All right. Before I let you go, let's do 90 seconds on
+
+502
+00:31:22,165 --> 00:31:26,045
+Speaker 2:  Tesla because All right. I think a, a lot of this, like a lot of everything
+
+503
+00:31:26,045 --> 00:31:28,925
+Speaker 2:  we've talked about is Tesla is wrapped up in,
+
+504
+00:31:30,425 --> 00:31:34,375
+Speaker 2:  but it's, the company's in an odd place, right? The, the last quarter
+
+505
+00:31:34,635 --> 00:31:38,615
+Speaker 2:  was fine, but not great sales are down year, over the year for
+
+506
+00:31:38,615 --> 00:31:41,135
+Speaker 2:  the first time in forever maybe ever. Yeah. Was it ever
+
+507
+00:31:41,455 --> 00:31:43,615
+Speaker 6:  I think it's like an over a decade basically. Okay. It's
+
+508
+00:31:43,615 --> 00:31:43,815
+Speaker 2:  Like a
+
+509
+00:31:43,815 --> 00:31:45,495
+Speaker 6:  Long since they've been profitable. Yeah. It's
+
+510
+00:31:45,495 --> 00:31:49,375
+Speaker 2:  The first time. Yeah. And I think also Teslas have been sort
+
+511
+00:31:49,375 --> 00:31:53,295
+Speaker 2:  of political statements in a variety of ways for a long time now, but
+
+512
+00:31:53,295 --> 00:31:57,095
+Speaker 2:  that has really escalated. Like what, what's your read on sort of the, the
+
+513
+00:31:57,095 --> 00:32:00,535
+Speaker 2:  market vibes around Tesla right now? How, what, what's going on inside that
+
+514
+00:32:00,535 --> 00:32:00,695
+Speaker 2:  company?
+
+515
+00:32:00,915 --> 00:32:04,855
+Speaker 6:  So yeah, I mean like stock price wise, it's not doing too great. It's definitely
+
+516
+00:32:04,855 --> 00:32:08,735
+Speaker 6:  down, I think this year, year over year. And yeah, as you mentioned, sales,
+
+517
+00:32:08,825 --> 00:32:12,775
+Speaker 6:  sales are down and the vibes are off, you could say.
+
+518
+00:32:13,175 --> 00:32:16,095
+Speaker 6:  I mean, you know, I feel like I've been like writing the same story for like
+
+519
+00:32:16,095 --> 00:32:19,455
+Speaker 6:  five, six years now about the vibes being off at Tesla, but now the vibes
+
+520
+00:32:19,455 --> 00:32:23,335
+Speaker 6:  are seriously off and that's obviously due entirely to Elon Musk and
+
+521
+00:32:23,335 --> 00:32:26,895
+Speaker 6:  his new found prominence as, you know, as
+
+522
+00:32:27,285 --> 00:32:31,055
+Speaker 6:  Trump's hatchet guy. So it's, it's, yeah, it's, it's like, you know,
+
+523
+00:32:31,355 --> 00:32:35,255
+Speaker 6:  you once had you, it was a brand that was once associated with like
+
+524
+00:32:35,255 --> 00:32:39,015
+Speaker 6:  California liberals and as a, as sort of like a statement about
+
+525
+00:32:39,130 --> 00:32:42,010
+Speaker 6:  like how what you thought about like the environment and climate change and
+
+526
+00:32:42,010 --> 00:32:45,605
+Speaker 6:  the future and technology and, and now it's like fully
+
+527
+00:32:45,755 --> 00:32:49,725
+Speaker 6:  like a MAGA brand, but it's not though because MAGA people will not
+
+528
+00:32:49,905 --> 00:32:53,085
+Speaker 6:  buy Teslas and they're not interested in buying Teslas. They still like their
+
+529
+00:32:53,085 --> 00:32:56,845
+Speaker 6:  trucks and their SUVs. So it's in a very leaves sort of Tesla,
+
+530
+00:32:57,225 --> 00:33:00,485
+Speaker 6:  the, the company in like a very weird limbo space right now where,
+
+531
+00:33:01,905 --> 00:33:05,725
+Speaker 6:  you know, the this, it's, it's sort of like unsure of what's gonna,
+
+532
+00:33:05,725 --> 00:33:09,685
+Speaker 6:  what, what it's gonna take in order to, to sort of like reset the
+
+533
+00:33:09,685 --> 00:33:12,965
+Speaker 6:  narrative, I guess. And I, I think one of the things is the cyber cab, which
+
+534
+00:33:13,315 --> 00:33:17,245
+Speaker 6:  came out last year, and Musk has said that it's going to, you know, sort
+
+535
+00:33:17,245 --> 00:33:21,045
+Speaker 6:  of start doing Robotaxis rides in Austin starting this
+
+536
+00:33:21,045 --> 00:33:22,565
+Speaker 6:  summer Right. Big
+
+537
+00:33:22,565 --> 00:33:24,085
+Speaker 2:  Year for Austin and Robotaxis.
+
+538
+00:33:24,085 --> 00:33:27,725
+Speaker 6:  Yeah, it seems that way. Yeah. But, you know, Tesla's approach to autonomy
+
+539
+00:33:27,915 --> 00:33:31,765
+Speaker 6:  very different than Waymo. You know, they have been, it's a camera only
+
+540
+00:33:31,765 --> 00:33:35,685
+Speaker 6:  system, you know, it relies on its full self-driving hardware and
+
+541
+00:33:35,965 --> 00:33:39,085
+Speaker 6:  software. And there's a lot of concerns about sort of like the safety of
+
+542
+00:33:39,085 --> 00:33:42,645
+Speaker 6:  that technology. Tesla famously a company that does not like to accept
+
+543
+00:33:42,645 --> 00:33:46,485
+Speaker 6:  liability for crashes that occur with its vehicles. That's gonna be a really
+
+544
+00:33:46,725 --> 00:33:49,685
+Speaker 6:  interesting thing to watch going forward as, as they start to take drivers
+
+545
+00:33:49,825 --> 00:33:53,805
+Speaker 6:  out from behind the steering wheel and offer rides to people as
+
+546
+00:33:53,805 --> 00:33:57,645
+Speaker 6:  part of like a, a fleet service, very different business for them. It, it'll
+
+547
+00:33:57,645 --> 00:34:00,845
+Speaker 6:  be really interesting to see how, how they navigate that. And then you've
+
+548
+00:34:00,845 --> 00:34:04,365
+Speaker 6:  got like this promise for this next gen platform or this
+
+549
+00:34:04,635 --> 00:34:08,365
+Speaker 6:  more mass market vehicle, you know, they've, there's been talk about, you
+
+550
+00:34:08,365 --> 00:34:12,165
+Speaker 6:  know, a model two now it seems like that's, that's being replaced by
+
+551
+00:34:12,165 --> 00:34:16,085
+Speaker 6:  something called the Model Q. It's, it's unclear exactly what
+
+552
+00:34:16,085 --> 00:34:19,725
+Speaker 6:  that's gonna look like if, if it's just like a model three or a model y
+
+553
+00:34:19,725 --> 00:34:23,685
+Speaker 6:  that's like a little bit cheaper and a little bit more, less, less kind
+
+554
+00:34:23,685 --> 00:34:26,685
+Speaker 6:  of like technologically advanced, a little more
+
+555
+00:34:26,705 --> 00:34:27,125
+Speaker 2:  Carish
+
+556
+00:34:27,275 --> 00:34:31,125
+Speaker 6:  Yeah. Than like the current models. Yeah. So it's we're it's really unclear
+
+557
+00:39:03,185 --> 00:39:07,035
+Speaker 2:  Alright, we're back. Now I wanna talk about Activity Pub
+
+558
+00:39:07,035 --> 00:39:10,915
+Speaker 2:  because I cannot help myself from talking about The Fediverse and the Open
+
+559
+00:39:10,915 --> 00:39:14,395
+Speaker 2:  Social web and all of the different ways that we might
+
+560
+00:39:14,755 --> 00:39:18,555
+Speaker 2:  interact with each other. Evan Promo is a person I've talked to before about
+
+561
+00:39:18,555 --> 00:39:22,435
+Speaker 2:  this stuff because he is one of the people actually in charge of maintaining
+
+562
+00:39:22,455 --> 00:39:26,315
+Speaker 2:  the activity pub protocol that underpins Mastodon
+
+563
+00:39:26,615 --> 00:39:30,435
+Speaker 2:  and Flipboard Surf. And a lot of this fediverse stuff that we've been
+
+564
+00:39:30,435 --> 00:39:34,195
+Speaker 2:  talking about for the last couple of years, they're not quite the same, The
+
+565
+00:39:34,195 --> 00:39:37,515
+Speaker 2:  Fediverse and Activity Pub, but a lot of what's happening on The Fediverse
+
+566
+00:39:37,815 --> 00:39:41,395
+Speaker 2:  is happening because of Activity Pub. It's what Threads is invested in, it's
+
+567
+00:39:41,395 --> 00:39:45,075
+Speaker 2:  what Medium has been working on. It's what Tumblr and WordPress are going
+
+568
+00:39:45,075 --> 00:39:48,915
+Speaker 2:  to. This is kind of the protocol, the underlying infrastructure that
+
+569
+00:39:48,915 --> 00:39:52,835
+Speaker 2:  might make all of this work. And Evan is not only in
+
+570
+00:39:52,835 --> 00:39:56,555
+Speaker 2:  charge of helping make sure that the protocol works, he's trying to convince
+
+571
+00:39:56,555 --> 00:39:59,475
+Speaker 2:  the world to use it. So I figured it'd be a fun time to catch up with him,
+
+572
+00:39:59,855 --> 00:40:03,835
+Speaker 2:  see how all of it's going, and see where this is headed. Let's
+
+573
+00:40:03,835 --> 00:40:07,585
+Speaker 2:  get into it. I think the place I wanna start is
+
+574
+00:40:08,555 --> 00:40:11,885
+Speaker 2:  sort of in the, in the deep tech of Activity hub
+
+575
+00:40:12,485 --> 00:40:15,765
+Speaker 2:  and we're gonna, we're gonna sort of build out from the base of the technology
+
+576
+00:40:15,865 --> 00:40:18,765
+Speaker 2:  out into taking over the world. Oh
+
+577
+00:40:18,825 --> 00:40:19,045
+Speaker 10:  Boy.
+
+578
+00:40:20,265 --> 00:40:23,405
+Speaker 2:  You're, one of the things that you spend your time on is thinking about what
+
+579
+00:40:23,405 --> 00:40:27,085
+Speaker 2:  this protocol is and how it's supposed to work and what
+
+580
+00:40:27,245 --> 00:40:30,965
+Speaker 2:  is going on, what is new with Activity Pub, how is the protocol
+
+581
+00:40:30,965 --> 00:40:33,085
+Speaker 2:  work going at like the deepest level these days?
+
+582
+00:40:33,945 --> 00:40:37,635
+Speaker 10:  Well, there's a lot that's new happening with Activity Pub.
+
+583
+00:40:38,215 --> 00:40:42,155
+Speaker 10:  So just to like, you know, pull back for a second. Activity
+
+584
+00:40:42,175 --> 00:40:44,875
+Speaker 10:  Pub is the protocol that lets
+
+585
+00:40:45,975 --> 00:40:49,795
+Speaker 10:  the network of independent heterogeneous
+
+586
+00:40:50,255 --> 00:40:53,995
+Speaker 10:  social platforms that we call The fediverse talk to each other.
+
+587
+00:40:54,375 --> 00:40:58,155
+Speaker 10:  So it is the streams of activities and
+
+588
+00:40:58,275 --> 00:41:01,875
+Speaker 10:  contents that go from one social platform to the other. And
+
+589
+00:41:02,345 --> 00:41:05,675
+Speaker 10:  when it was initially developed, it was developed for
+
+590
+00:41:06,265 --> 00:41:09,875
+Speaker 10:  kind of a, a, a very straightforward idea
+
+591
+00:41:10,375 --> 00:41:14,195
+Speaker 10:  of social networking, right? I create an image
+
+592
+00:41:14,335 --> 00:41:18,195
+Speaker 10:  or some text, you reply to it, maybe like it
+
+593
+00:41:18,295 --> 00:41:21,875
+Speaker 10:  or share it. We had a fairly limited number
+
+594
+00:41:22,255 --> 00:41:25,635
+Speaker 10:  of interesting objects and
+
+595
+00:41:25,635 --> 00:41:27,955
+Speaker 10:  activities that you could share across this network.
+
+596
+00:41:28,495 --> 00:41:30,795
+Speaker 2:  So actually, can I pause you on that really fast? Yeah, go ahead. This is
+
+597
+00:41:30,795 --> 00:41:33,845
+Speaker 2:  a thing I've always wondered about Activity Pub and have never asked somebody
+
+598
+00:41:33,845 --> 00:41:35,245
+Speaker 2:  and you're the perfect person to ask this question
+
+599
+00:41:36,995 --> 00:41:40,805
+Speaker 2:  that focus the idea that this, this thing should be essentially
+
+600
+00:41:40,895 --> 00:41:43,765
+Speaker 2:  about social networking in a, in a sort of
+
+601
+00:41:44,435 --> 00:41:47,405
+Speaker 2:  Twitter posts kind of way. Yeah. Was that
+
+602
+00:41:47,955 --> 00:41:50,485
+Speaker 2:  intentional? Like was there, was there a meeting at the very beginning that
+
+603
+00:41:50,485 --> 00:41:53,725
+Speaker 2:  was like, let's keep this thing simple and focused and straightforward
+
+604
+00:41:54,155 --> 00:41:57,645
+Speaker 2:  because now it's like you can look at Activity pub and sort of make it anything.
+
+605
+00:41:57,705 --> 00:42:00,565
+Speaker 2:  And I think there are people who kind of want to make it anything and I want
+
+606
+00:42:00,565 --> 00:42:04,485
+Speaker 2:  to talk about that, but like how deliberate was the idea that it's like let's
+
+607
+00:42:04,485 --> 00:42:07,285
+Speaker 2:  keep this in a sort of box that we understand on the internet.
+
+608
+00:42:08,045 --> 00:42:11,805
+Speaker 10:  I, I think there's two sides to it, right? I think we wanted
+
+609
+00:42:11,905 --> 00:42:15,805
+Speaker 10:  to at least be able to cover that very simple idea
+
+610
+00:42:15,865 --> 00:42:19,805
+Speaker 10:  of like, you know, I post a lot of tweets and people can reply and
+
+611
+00:42:19,805 --> 00:42:20,125
+Speaker 10:  like them,
+
+612
+00:42:21,665 --> 00:42:25,365
+Speaker 10:  but we wanted to also make it extensible so we could cover
+
+613
+00:42:25,435 --> 00:42:29,085
+Speaker 10:  different kinds of social interactions. Okay. Right.
+
+614
+00:42:30,065 --> 00:42:33,725
+Speaker 10:  And things that have changed, you know, in the time
+
+615
+00:42:33,975 --> 00:42:37,725
+Speaker 10:  since Activity Pub was created are things
+
+616
+00:42:37,755 --> 00:42:41,605
+Speaker 10:  like stories that we see in Snap or Instagram or
+
+617
+00:42:41,885 --> 00:42:45,645
+Speaker 10:  Facebook or other kinds of interactions. Geo
+
+618
+00:42:45,645 --> 00:42:49,045
+Speaker 10:  social interactions like Swarm or
+
+619
+00:42:49,045 --> 00:42:52,965
+Speaker 10:  Foursquare is a, is another one being able to do check-ins. And
+
+620
+00:42:53,225 --> 00:42:56,845
+Speaker 10:  so there are new kinds of interactions
+
+621
+00:42:57,955 --> 00:43:01,605
+Speaker 10:  that we send over that wire now, but
+
+622
+00:43:02,075 --> 00:43:05,685
+Speaker 10:  it's the same wire and it's the same kind of
+
+623
+00:43:05,685 --> 00:43:09,335
+Speaker 10:  packets. We've just like made an extensibility
+
+624
+00:43:09,405 --> 00:43:12,935
+Speaker 10:  mechanism that makes it possible to define new kinds of packets.
+
+625
+00:43:13,125 --> 00:43:16,895
+Speaker 2:  Okay. And in theory, as long as you can do one of those things
+
+626
+00:43:17,605 --> 00:43:21,295
+Speaker 2:  well and reliably across that wire building new ones shouldn't be
+
+627
+00:43:21,875 --> 00:43:24,375
+Speaker 2:  as hard. Like you don't have to reinvent every wheel every time.
+
+628
+00:43:24,725 --> 00:43:28,415
+Speaker 10:  Exactly. Okay. Absolutely. Yeah. So the idea is that you should be like
+
+629
+00:43:28,415 --> 00:43:32,055
+Speaker 10:  95% of the way there and If you wanna start defining new
+
+630
+00:43:32,065 --> 00:43:35,415
+Speaker 10:  kinds of interactions, you don't have to start from the ground up. You can
+
+631
+00:43:35,415 --> 00:43:38,895
+Speaker 10:  start at this very high level of like social interactions.
+
+632
+00:43:39,275 --> 00:43:41,975
+Speaker 2:  Got it. Okay. That's a good answer. Yeah. So I, I derailed you from talking
+
+633
+00:43:41,975 --> 00:43:43,775
+Speaker 2:  about what's, what's been going on recently.
+
+634
+00:43:44,525 --> 00:43:48,095
+Speaker 10:  Yeah. So there are quite a few interesting things going on
+
+635
+00:43:49,375 --> 00:43:53,295
+Speaker 10:  recently. I, I realized that these can
+
+636
+00:43:53,355 --> 00:43:57,215
+Speaker 10:  be exciting for me, not necessarily exciting for everyone in the world.
+
+637
+00:43:57,595 --> 00:44:01,295
+Speaker 10:  One of the ones that's, that was recently announced is that
+
+638
+00:44:01,875 --> 00:44:05,575
+Speaker 10:  Masson and other services are gonna be supporting quote
+
+639
+00:44:05,625 --> 00:44:09,095
+Speaker 10:  posts, right? So quote tweet like posts
+
+640
+00:44:10,095 --> 00:44:11,295
+Speaker 2:  Slightly controversial decision
+
+641
+00:44:11,695 --> 00:44:15,135
+Speaker 10:  Slightly controversial, right? A very interesting thing And one of the things
+
+642
+00:44:15,135 --> 00:44:18,735
+Speaker 10:  that, you know, the, like Fediverse can be kind of
+
+643
+00:44:19,025 --> 00:44:22,615
+Speaker 10:  Amish in the way that it approaches technology sometimes. Yeah. Right. Where
+
+644
+00:44:22,615 --> 00:44:26,255
+Speaker 10:  it's like, hey, we're considering this new type of
+
+645
+00:44:26,365 --> 00:44:30,095
+Speaker 10:  interaction, is this actually good for our
+
+646
+00:44:30,915 --> 00:44:34,525
+Speaker 10:  community, for our social benefit? So there were some concern about quote
+
+647
+00:44:34,535 --> 00:44:37,285
+Speaker 10:  posts, whether they would be primarily for like
+
+648
+00:44:38,235 --> 00:44:42,085
+Speaker 10:  dunking and holding people up to ridicule. And
+
+649
+00:44:42,925 --> 00:44:46,805
+Speaker 10:  I think that we've kind of coalesced around some ideas about quote
+
+650
+00:44:46,895 --> 00:44:50,725
+Speaker 10:  posts that would give the quoted person some
+
+651
+00:44:50,875 --> 00:44:54,765
+Speaker 10:  control in how that they're talked about. Interesting. Okay. And so I think
+
+652
+00:44:54,765 --> 00:44:58,725
+Speaker 10:  that's a nice like kind of compromise that's come up there. So
+
+653
+00:44:58,725 --> 00:45:01,965
+Speaker 10:  that's one that's really interesting. Well it, it's interesting 'cause it's
+
+654
+00:45:01,965 --> 00:45:05,005
+Speaker 10:  gonna have kind of broad use. Yeah. But the
+
+655
+00:45:06,125 --> 00:45:10,085
+Speaker 10:  W three C, the Worldwide Web Consortium, which is the organization that
+
+656
+00:45:10,395 --> 00:45:14,325
+Speaker 10:  established the Activity pub standard, is working on
+
+657
+00:45:14,445 --> 00:45:18,165
+Speaker 10:  a number of new types of interaction. So one
+
+658
+00:45:18,165 --> 00:45:21,885
+Speaker 10:  that's very important is end-to-end encrypted
+
+659
+00:45:22,355 --> 00:45:25,965
+Speaker 10:  messaging, end-to-end encrypted messaging has
+
+660
+00:45:26,185 --> 00:45:28,045
+Speaker 10:  become the default for
+
+661
+00:45:29,905 --> 00:45:33,845
+Speaker 10:  DMS across systems. So If you use Facebook Messenger
+
+662
+00:45:34,105 --> 00:45:37,645
+Speaker 10:  or WhatsApp or Signal, those are all end to end
+
+663
+00:45:37,645 --> 00:45:41,605
+Speaker 10:  encrypted from your my phone to your phone. I can read it
+
+664
+00:45:41,605 --> 00:45:45,565
+Speaker 10:  on my phone, you can read it on your phone. Nobody in between can read
+
+665
+00:45:45,565 --> 00:45:49,485
+Speaker 10:  it. Right. And that is the type of topology that we
+
+666
+00:45:49,485 --> 00:45:53,165
+Speaker 10:  want to see with end-to-end encrypted dms in The Fediverse
+
+667
+00:45:53,315 --> 00:45:57,285
+Speaker 10:  also. So that's some work that started middle of last year,
+
+668
+00:45:57,655 --> 00:46:01,605
+Speaker 10:  we're heading into doing like first implementations and definitions around
+
+669
+00:46:01,605 --> 00:46:04,925
+Speaker 10:  it. And that's a really exciting step
+
+670
+00:46:05,115 --> 00:46:08,325
+Speaker 10:  because it lets people have a level of
+
+671
+00:46:08,555 --> 00:46:12,525
+Speaker 10:  interaction and trust that they wouldn't otherwise have. Right. Right. So
+
+672
+00:46:12,705 --> 00:46:16,445
+Speaker 10:  people are starting off conversations on The Fediverse and moving
+
+673
+00:46:16,545 --> 00:46:20,445
+Speaker 10:  to like a signal or a WhatsApp and this would let them kind of have their
+
+674
+00:46:20,905 --> 00:46:24,805
+Speaker 10:  DM interface happened right there. I mentioned
+
+675
+00:46:24,945 --> 00:46:28,885
+Speaker 10:  geo social work, right? That's something that has kind of like
+
+676
+00:46:28,885 --> 00:46:32,845
+Speaker 10:  in the early 2010s was very exciting. Yeah. And
+
+677
+00:46:33,105 --> 00:46:37,045
+Speaker 10:  it was a, an area of sociality that kind of fell by
+
+678
+00:46:37,045 --> 00:46:40,805
+Speaker 10:  the wayside. You know, I think only, like, I still use
+
+679
+00:46:40,965 --> 00:46:44,925
+Speaker 10:  Swarm, I use it all the time, but you know, not a lot of
+
+680
+00:46:44,925 --> 00:46:48,725
+Speaker 10:  other folks do. We do check-ins on Facebook, but it's not as
+
+681
+00:46:48,725 --> 00:46:52,525
+Speaker 10:  big a deal as it was was, but there's some fun exploration of it
+
+682
+00:46:52,615 --> 00:46:56,485
+Speaker 10:  going on at the W three C. So there's a task force that's just
+
+683
+00:46:56,485 --> 00:47:00,005
+Speaker 10:  focused on geo social work, doing check-ins,
+
+684
+00:47:00,855 --> 00:47:03,565
+Speaker 10:  collecting, you know, information around a
+
+685
+00:47:04,565 --> 00:47:08,525
+Speaker 10:  geographical area. Another area that's that's
+
+686
+00:47:08,525 --> 00:47:11,445
+Speaker 10:  being explored right now is groups. Mm. So
+
+687
+00:47:12,675 --> 00:47:16,645
+Speaker 10:  it's been a little tough to do. Facebook style
+
+688
+00:47:16,645 --> 00:47:20,085
+Speaker 10:  groups are such an important part about how, how people
+
+689
+00:47:20,875 --> 00:47:24,645
+Speaker 10:  have social interactions, you know, Facebook specifically Facebook
+
+690
+00:47:24,645 --> 00:47:25,485
+Speaker 10:  groups. I was gonna
+
+691
+00:47:25,485 --> 00:47:28,085
+Speaker 2:  Say, it's the reason everyone I know is still on Facebook. Like it It is,
+
+692
+00:47:28,085 --> 00:47:32,005
+Speaker 2:  yeah, exactly. It is the single stickiest thing about the stickiest app in
+
+693
+00:47:32,005 --> 00:47:34,245
+Speaker 2:  the world. Like it's it's wild. It's really true.
+
+694
+00:47:34,675 --> 00:47:38,605
+Speaker 10:  Yeah. Yeah. And people really love working with 'em. You get other kinds
+
+695
+00:47:38,605 --> 00:47:42,365
+Speaker 10:  of groups, so like Reddit, Reddit sub subreddits and the
+
+696
+00:47:42,395 --> 00:47:46,205
+Speaker 10:  idea is to have that kind of community process that
+
+697
+00:47:46,555 --> 00:47:50,445
+Speaker 10:  crosses different social platforms. So people from Mastodon,
+
+698
+00:47:50,875 --> 00:47:54,725
+Speaker 10:  from Threads, from Flipboard, from WordPress can
+
+699
+00:47:54,725 --> 00:47:58,365
+Speaker 10:  all be in the same group. Right. And still participating together,
+
+700
+00:47:58,375 --> 00:48:01,925
+Speaker 10:  which is a really cool, interesting part, right? Like your
+
+701
+00:48:02,725 --> 00:48:06,325
+Speaker 10:  choice of platform doesn't necessarily dictate which
+
+702
+00:48:06,325 --> 00:48:10,045
+Speaker 10:  groups that you can be part of. And so
+
+703
+00:48:10,115 --> 00:48:13,645
+Speaker 10:  that, that work has started in December
+
+704
+00:48:13,945 --> 00:48:17,485
+Speaker 10:  of last year and we're starting to spec that out. The
+
+705
+00:48:17,845 --> 00:48:21,445
+Speaker 10:  activity pub spec actually included some group information in it. So, but
+
+706
+00:48:21,445 --> 00:48:24,885
+Speaker 10:  there haven't been a lot of in implementations, so getting to
+
+707
+00:48:25,785 --> 00:48:29,725
+Speaker 10:  better definition and more implementations
+
+708
+00:48:29,825 --> 00:48:31,005
+Speaker 10:  is kind of the big step there.
+
+709
+00:48:31,345 --> 00:48:34,805
+Speaker 2:  Got it. Okay. That's more stuff than I thought you were gonna say. I think
+
+710
+00:48:35,195 --> 00:48:38,325
+Speaker 2:  like truthfully, I think one of the things I expected you to say is
+
+711
+00:48:39,305 --> 00:48:43,045
+Speaker 2:  we are in a sort of happy, optimistic sounding
+
+712
+00:48:43,085 --> 00:48:46,405
+Speaker 2:  maintenance mode. Like we just have to keep hardening this thing and make
+
+713
+00:48:46,405 --> 00:48:48,885
+Speaker 2:  it work and make sure it supports all the things that it needs to. And like
+
+714
+00:48:48,955 --> 00:48:52,045
+Speaker 2:  this is new and it's growing really fast and but you're out here being like,
+
+715
+00:48:52,045 --> 00:48:54,565
+Speaker 2:  we're just attaching new stuff to this all the time. Like that's a, it's
+
+716
+00:48:54,565 --> 00:48:55,645
+Speaker 2:  a, it's a different kind of head space.
+
+717
+00:48:55,975 --> 00:48:59,965
+Speaker 10:  There is, I mean those are some of the interesting parts
+
+718
+00:49:00,065 --> 00:49:03,445
+Speaker 10:  of what's happening. Sure. In terms of like new functionality, new stuff
+
+719
+00:49:03,445 --> 00:49:07,245
+Speaker 10:  happening. I think there are other parts that are also
+
+720
+00:49:07,395 --> 00:49:11,125
+Speaker 10:  like coming up that are challenging that we're
+
+721
+00:49:11,125 --> 00:49:13,045
+Speaker 10:  kind of dealing with as, as we go
+
+722
+00:49:14,635 --> 00:49:17,845
+Speaker 10:  last. You know, last year was really the year that we started
+
+723
+00:49:17,845 --> 00:49:21,685
+Speaker 10:  incorporating Threads into The Fediverse Threads being the big
+
+724
+00:49:22,355 --> 00:49:26,285
+Speaker 10:  meta product that's, you know, shot up in terms I think there are over
+
+725
+00:49:26,335 --> 00:49:29,525
+Speaker 10:  300 million people, 325, something like that.
+
+726
+00:49:30,425 --> 00:49:33,765
+Speaker 10:  And that has put a lot of pressure on the rest of The fediverse to be able
+
+727
+00:49:33,765 --> 00:49:35,685
+Speaker 10:  to encompass having such a big node.
+
+728
+00:49:37,785 --> 00:49:41,515
+Speaker 10:  Largely it's worked pretty well because of the way that activity
+
+729
+00:49:41,615 --> 00:49:45,515
+Speaker 10:  pub is, is defined. You make your subscriptions to a
+
+730
+00:49:45,515 --> 00:49:49,195
+Speaker 10:  person not a service. So if I follow
+
+731
+00:49:50,405 --> 00:49:54,235
+Speaker 10:  POTUS at Threads, which was a really great idea a few months
+
+732
+00:49:54,235 --> 00:49:58,115
+Speaker 10:  ago, it is less interesting now, but like if I follow POTUS at Threads,
+
+733
+00:49:58,375 --> 00:50:02,195
+Speaker 10:  I'm able to get just that one person's posts.
+
+734
+00:50:02,195 --> 00:50:02,395
+Speaker 10:  Right.
+
+735
+00:50:02,395 --> 00:50:05,595
+Speaker 2:  You don't have to digest the whole Threads database every time you wanna
+
+736
+00:50:05,595 --> 00:50:05,835
+Speaker 2:  pull
+
+737
+00:50:05,835 --> 00:50:09,795
+Speaker 10:  For I'm not get Yeah, exactly. Which is just too much for a little mast
+
+738
+00:50:09,795 --> 00:50:12,915
+Speaker 10:  on server running on somebody's raspberry pie. So we're able to kind of
+
+739
+00:50:12,915 --> 00:50:16,835
+Speaker 10:  make this, make this work pretty well. I think the other
+
+740
+00:50:16,845 --> 00:50:17,715
+Speaker 10:  thing, and
+
+741
+00:50:19,225 --> 00:50:23,155
+Speaker 10:  this has been more about implementation than about standards,
+
+742
+00:50:23,415 --> 00:50:27,215
+Speaker 10:  has been the growth of Blue Sky, right? Hmm. So Blue Sky
+
+743
+00:50:27,315 --> 00:50:31,255
+Speaker 10:  really after the election in, in November
+
+744
+00:50:31,475 --> 00:50:35,295
+Speaker 10:  has had this explosive growth. It is Blue Sky is
+
+745
+00:50:35,295 --> 00:50:39,015
+Speaker 10:  part of The Fediverse, right? It is linked through a
+
+746
+00:50:39,015 --> 00:50:42,895
+Speaker 10:  two-way bridge into the activity pub world. So there's a wonderful
+
+747
+00:50:43,115 --> 00:50:46,975
+Speaker 10:  bridge that lets you follow people on Blue Sky,
+
+748
+00:50:47,205 --> 00:50:50,695
+Speaker 10:  like what they post, respond to them, et cetera. It's a very,
+
+749
+00:50:51,155 --> 00:50:55,095
+Speaker 10:  it very much puts them on an equal footing with other parts of The fediverse.
+
+750
+00:50:55,465 --> 00:50:57,935
+Speaker 2:  Let's talk about that actually before we get Sure. I was gonna ask you about
+
+751
+00:50:57,935 --> 00:51:00,975
+Speaker 2:  Blue Sky later, but No problem. But no, We can, We can talk about it now
+
+752
+00:51:01,055 --> 00:51:05,015
+Speaker 2:  'cause I think it's, it's, it's a really interesting part of this story because
+
+753
+00:51:05,335 --> 00:51:09,015
+Speaker 2:  I knew you were gonna say it's terrific and we're, everybody's so happy and
+
+754
+00:51:09,015 --> 00:51:12,055
+Speaker 2:  it's all great, but like there is a real world in which
+
+755
+00:51:12,965 --> 00:51:16,855
+Speaker 2:  Blue Sky and the, the AT protocol are like a threat
+
+756
+00:51:16,855 --> 00:51:20,695
+Speaker 2:  competitor, whatever you wanna call it, to what Activity Pub
+
+757
+00:51:20,695 --> 00:51:24,535
+Speaker 2:  is trying to do. And I think in a sense of like, open
+
+758
+00:51:24,855 --> 00:51:27,015
+Speaker 2:  standards are better and we're trying to help everybody understand that.
+
+759
+00:51:27,015 --> 00:51:30,255
+Speaker 2:  Sure. I get that we're in sort of a rising Tide lifts all boats moment,
+
+760
+00:51:31,075 --> 00:51:34,615
+Speaker 2:  but the idea that I have to build sort of
+
+761
+00:51:34,765 --> 00:51:37,775
+Speaker 2:  brittle software on top of brittle software, on top of brittle software to
+
+762
+00:51:37,775 --> 00:51:41,535
+Speaker 2:  get all of this to work together. Yeah. Seems like not the answer anybody
+
+763
+00:51:41,835 --> 00:51:45,815
+Speaker 2:  is looking for here. So like, and especially Threads is gonna continue
+
+764
+00:51:45,815 --> 00:51:49,615
+Speaker 2:  to work, it seems, I find Threads personally less interesting than I used
+
+765
+00:51:49,615 --> 00:51:53,135
+Speaker 2:  to, but it's, it's, it's a booming platform. Blue Sky
+
+766
+00:51:53,405 --> 00:51:57,375
+Speaker 2:  appears to have some real staying power in this space. Is it
+
+767
+00:51:57,495 --> 00:52:01,415
+Speaker 2:  a long-term problem for you as somebody who A, cares
+
+768
+00:52:01,415 --> 00:52:05,255
+Speaker 2:  about the space but b believes in Activity Pub in particular, that Blue Sky
+
+769
+00:52:05,355 --> 00:52:07,535
+Speaker 2:  is not directly in that world?
+
+770
+00:52:08,285 --> 00:52:12,135
+Speaker 10:  Yeah, I will like, I'll be straight on this one. I I
+
+771
+00:52:12,135 --> 00:52:15,655
+Speaker 10:  don't wanna be like too Pollyannish, but
+
+772
+00:52:16,595 --> 00:52:20,415
+Speaker 10:  you know, they don't maintain the bridge. The bridge
+
+773
+00:52:20,475 --> 00:52:24,335
+Speaker 10:  is maintained by a nonprofit called a New Social who are
+
+774
+00:52:24,585 --> 00:52:28,375
+Speaker 10:  great guys, Ryan Barrett and New Jet and they're
+
+775
+00:52:28,375 --> 00:52:32,215
+Speaker 10:  doing really great work, but they aren't supported by Blue Sky.
+
+776
+00:52:32,215 --> 00:52:36,175
+Speaker 10:  Right. And the Blue Sky Corporation is really focused on
+
+777
+00:52:36,175 --> 00:52:39,455
+Speaker 10:  their own network. They're not spending a lot of time engaging with the
+
+778
+00:52:39,455 --> 00:52:43,255
+Speaker 10:  rest of The fediverse. And that's okay. So I find it
+
+779
+00:52:43,535 --> 00:52:47,495
+Speaker 10:  frustrating that Blue Sky exists, that there is an at proto
+
+780
+00:52:47,605 --> 00:52:51,215
+Speaker 10:  that it is kind of set up as a competitor to Activity Pub,
+
+781
+00:52:51,795 --> 00:52:55,775
+Speaker 10:  but in a lot of ways it's not a direct competitor. If I was
+
+782
+00:52:55,775 --> 00:52:59,535
+Speaker 10:  gonna say how I understand at Proto, it's really
+
+783
+00:52:59,735 --> 00:53:03,695
+Speaker 10:  a way to do say a Facebook platform
+
+784
+00:53:03,875 --> 00:53:07,815
+Speaker 10:  or a Twitter platform on a distributed
+
+785
+00:53:08,545 --> 00:53:11,975
+Speaker 10:  blockchain like storage system. Hmm. Okay. So If you, you're familiar with
+
+786
+00:53:11,975 --> 00:53:15,735
+Speaker 10:  like IPFS or some of the
+
+787
+00:53:15,735 --> 00:53:17,175
+Speaker 10:  peer-to-peer networks, right?
+
+788
+00:53:18,715 --> 00:53:21,735
+Speaker 10:  Unlike Activity Pub, which has this like
+
+789
+00:53:22,205 --> 00:53:25,135
+Speaker 10:  connections between different
+
+790
+00:53:25,715 --> 00:53:29,605
+Speaker 10:  independent services that have their own internal storage, they
+
+791
+00:53:29,605 --> 00:53:33,085
+Speaker 10:  do their own, you know, structures, UIs, et cetera.
+
+792
+00:53:33,555 --> 00:53:37,445
+Speaker 10:  Blue Sky is really about having this kind of one big network and then
+
+793
+00:53:37,445 --> 00:53:41,405
+Speaker 10:  you can build clients or filtering, et cetera that works
+
+794
+00:53:41,585 --> 00:53:45,325
+Speaker 10:  on it. So all of which is to say like, I don't
+
+795
+00:53:45,465 --> 00:53:49,245
+Speaker 10:  see a Tumblr moving to use
+
+796
+00:53:49,985 --> 00:53:53,965
+Speaker 10:  at Proto and Blue Sky, right? Sure. Tumblr is an existing
+
+797
+00:53:53,965 --> 00:53:57,925
+Speaker 10:  network that has a hundred million people on it and they
+
+798
+00:53:57,945 --> 00:54:01,605
+Speaker 10:  are working to implement Activity Pub because that gives them
+
+799
+00:54:01,965 --> 00:54:05,925
+Speaker 10:  a chance to connect to the rush of this fediverse and
+
+800
+00:54:05,925 --> 00:54:09,805
+Speaker 10:  still maintain their independence. Kind of Tumblr
+
+801
+00:54:09,805 --> 00:54:12,965
+Speaker 10:  works its own way, right? Yeah. And they've got that kind of maintenance.
+
+802
+00:54:13,195 --> 00:54:16,925
+Speaker 10:  Does that make sense? I I think that Blue Sky like has
+
+803
+00:54:17,075 --> 00:54:20,765
+Speaker 10:  some opportunities to pick up like third party developers. There
+
+804
+00:54:20,925 --> 00:54:24,885
+Speaker 10:  are some interesting apps that are built being built on top of that network
+
+805
+00:54:25,145 --> 00:54:29,045
+Speaker 10:  and don't want to like undercut that entirely. But at
+
+806
+00:54:29,045 --> 00:54:32,245
+Speaker 10:  the same time, I don't think it represents the same kind of
+
+807
+00:54:33,015 --> 00:54:36,725
+Speaker 10:  networking between independent platforms that Activity
+
+808
+00:54:36,865 --> 00:54:37,245
+Speaker 10:  Pup does.
+
+809
+00:54:37,955 --> 00:54:41,765
+Speaker 2:  Yeah. That, that idea of the not needing to
+
+810
+00:54:41,765 --> 00:54:45,605
+Speaker 2:  build a social graph just to build an app, I think is incredibly exciting.
+
+811
+00:54:45,605 --> 00:54:47,925
+Speaker 2:  And it's the thing I hear from app developers all the time that I'm like,
+
+812
+00:54:47,965 --> 00:54:51,045
+Speaker 2:  I, they're like, I don't even have to build a login system. You just, you
+
+813
+00:54:51,045 --> 00:54:53,085
+Speaker 2:  just come with your Mastodon account and all your friends are already here
+
+814
+00:54:53,085 --> 00:54:56,245
+Speaker 2:  like that. There's something really powerful in that. What I, I assume you're
+
+815
+00:54:56,385 --> 00:54:59,325
+Speaker 2:  one of the people running around to companies like
+
+816
+00:54:59,915 --> 00:55:03,765
+Speaker 2:  YouTube and Facebook and, and others trying to
+
+817
+00:55:03,865 --> 00:55:07,845
+Speaker 2:  get the big platforms to understand the value of this. And
+
+818
+00:55:07,845 --> 00:55:11,685
+Speaker 2:  I think the, the part of me that is less optimistic about the
+
+819
+00:55:11,715 --> 00:55:14,245
+Speaker 2:  sort of universal takeover of The Fediverse, which I would love to be the
+
+820
+00:55:14,245 --> 00:55:18,005
+Speaker 2:  case, thinks that there's really no compelling reason
+
+821
+00:55:18,385 --> 00:55:22,245
+Speaker 2:  for any of these sort of sufficiently large networks to
+
+822
+00:55:22,305 --> 00:55:26,045
+Speaker 2:  be part of this. Yeah. How, how do you feel like it's going with the,
+
+823
+00:55:26,145 --> 00:55:29,005
+Speaker 2:  the, you know, the YouTubes and LinkedIns and Facebooks of the world?
+
+824
+00:55:29,475 --> 00:55:33,245
+Speaker 10:  Well, like I can say that like we've had some
+
+825
+00:55:33,425 --> 00:55:37,165
+Speaker 10:  really great, you know, opportunities that are coming up.
+
+826
+00:55:37,165 --> 00:55:40,925
+Speaker 10:  They're still like kind of working, working forward. I think
+
+827
+00:55:41,025 --> 00:55:44,365
+Speaker 10:  the thing for say a Google right who are
+
+828
+00:55:44,715 --> 00:55:48,485
+Speaker 10:  notoriously skeptical about engaging with social
+
+829
+00:55:48,485 --> 00:55:51,125
+Speaker 10:  networks, right? They, they took like they've been
+
+830
+00:55:51,125 --> 00:55:51,965
+Speaker 2:  Burned a few times.
+
+831
+00:55:52,765 --> 00:55:56,125
+Speaker 10:  Yeah. They've been burned so much and they're like never again. Right? Yeah.
+
+832
+00:55:56,145 --> 00:56:00,005
+Speaker 10:  No more social. Even though they run one of the biggest social platforms,
+
+833
+00:56:00,005 --> 00:56:03,245
+Speaker 10:  YouTube in the world, they, they really kind of think of themselves as like
+
+834
+00:56:03,345 --> 00:56:07,325
+Speaker 10:  out of social and being able
+
+835
+00:56:07,345 --> 00:56:11,205
+Speaker 10:  to say like, you can have a product in the social space that doesn't
+
+836
+00:56:11,525 --> 00:56:15,205
+Speaker 10:  have to be a monopoly, doesn't have to own the whole
+
+837
+00:56:15,205 --> 00:56:19,125
+Speaker 10:  system. Right. Another company that's like famous for
+
+838
+00:56:19,125 --> 00:56:23,045
+Speaker 10:  this is Apple who I've made like a few tentative efforts in the
+
+839
+00:56:23,125 --> 00:56:27,045
+Speaker 10:  social space and kind of again got burnt. Apple is
+
+840
+00:56:27,045 --> 00:56:30,685
+Speaker 10:  great at, you know, deploying cloud services and iCloud
+
+841
+00:56:31,075 --> 00:56:34,965
+Speaker 10:  providing great interfaces that are easy for people to use and
+
+842
+00:56:35,035 --> 00:56:38,765
+Speaker 10:  like owning the devices and end user
+
+843
+00:56:38,765 --> 00:56:42,605
+Speaker 10:  operating systems where they can be incorporated. So like that is
+
+844
+00:56:42,605 --> 00:56:46,205
+Speaker 10:  an opportunity, The Fediverse is an opportunity for Apple to get involved
+
+845
+00:56:46,205 --> 00:56:50,005
+Speaker 10:  in social networks without necessarily having to be like the one and only
+
+846
+00:56:50,005 --> 00:56:51,685
+Speaker 10:  social network in the world. Right, right.
+
+847
+00:56:51,865 --> 00:56:54,925
+Speaker 2:  Or trying to build Facebook from scratch, which turns out to be pretty hard
+
+848
+00:56:54,925 --> 00:56:55,765
+Speaker 2:  to do. Yeah.
+
+849
+00:56:55,995 --> 00:56:59,925
+Speaker 10:  Yeah. You don't have to build for like 1.2 billion people.
+
+850
+00:57:00,345 --> 00:57:04,205
+Speaker 10:  You can build for like one person and they can engage with
+
+851
+00:57:04,205 --> 00:57:07,805
+Speaker 10:  all those billions of people, you know, across The fediverse and that's
+
+852
+00:57:07,805 --> 00:57:10,965
+Speaker 10:  the really great part. You can start having value really early on.
+
+853
+00:57:11,435 --> 00:57:15,165
+Speaker 2:  Totally. How, what are you hearing in the, in the startup world? I feel like
+
+854
+00:57:15,395 --> 00:57:19,085
+Speaker 2:  I've been waiting for a while for there to be
+
+855
+00:57:19,635 --> 00:57:23,405
+Speaker 2:  kind of the, the thing that turns everybody on to The
+
+856
+00:57:23,405 --> 00:57:26,325
+Speaker 2:  fediverse and it was like it was gonna be mastered on and it was gonna be
+
+857
+00:57:26,325 --> 00:57:29,805
+Speaker 2:  Threads and I think it still might be Threads, but Threads is going kind
+
+858
+00:57:29,805 --> 00:57:33,525
+Speaker 2:  of slowly and I don't wanna say haphazardly, but
+
+859
+00:57:33,655 --> 00:57:37,605
+Speaker 2:  let's just say slowly and I was gonna say, but I think
+
+860
+00:57:37,605 --> 00:57:41,245
+Speaker 2:  the lesson of Blue Sky is that actually there's something about the simplicity
+
+861
+00:57:41,245 --> 00:57:44,445
+Speaker 2:  of that that has been really productive for Blue Sky, right? Yeah. Like it
+
+862
+00:57:44,445 --> 00:57:48,405
+Speaker 2:  blue sky explains itself much, much faster than Sure The Fediverse does
+
+863
+00:57:48,665 --> 00:57:52,205
+Speaker 2:  in a way that I think has been really helpful for Blue Sky. Like yeah, maybe,
+
+864
+00:57:52,215 --> 00:57:55,805
+Speaker 2:  maybe in the course of time that becomes a limiting factor,
+
+865
+00:57:56,025 --> 00:57:59,045
+Speaker 2:  but it's also like you, you could just sign up and type in a username and
+
+866
+00:57:59,045 --> 00:58:02,965
+Speaker 2:  start using Blue Sky in a way that I think in, that's
+
+867
+00:58:02,965 --> 00:58:06,005
+Speaker 2:  the reason to me to have a killer app in the first place is just to like,
+
+868
+00:58:06,275 --> 00:58:10,205
+Speaker 2:  just to have the thing that gets you in the door Yeah. Goes a long way. Yeah.
+
+869
+00:58:10,205 --> 00:58:13,125
+Speaker 2:  And I don't, maybe that doesn't matter in 20 years, but as somebody who would
+
+870
+00:58:13,125 --> 00:58:16,405
+Speaker 2:  love everybody to just like start using it right now, I feel like I want
+
+871
+00:58:16,405 --> 00:58:16,965
+Speaker 2:  that to exist.
+
+872
+00:58:17,315 --> 00:58:20,125
+Speaker 10:  Yeah, no, absolutely. And I think that's one of the things that Blue Sky
+
+873
+00:58:20,125 --> 00:58:23,765
+Speaker 10:  has done so well, like If you are a Twitter refugee, right?
+
+874
+00:58:23,905 --> 00:58:27,205
+Speaker 10:  And you're, you're washing up on the Blue Sky shores, like
+
+875
+00:58:27,785 --> 00:58:31,085
+Speaker 10:  it looks very familiar, you know, what you're doing, you know,
+
+876
+00:58:31,395 --> 00:58:35,005
+Speaker 10:  limitations like on the number of characters or things like that.
+
+877
+00:58:35,115 --> 00:58:38,365
+Speaker 10:  Sure. Like, yeah, I I love this, this is just what I know from Twitter.
+
+878
+00:58:38,365 --> 00:58:42,125
+Speaker 10:  Right. But you know, I think that If you are a startup
+
+879
+00:58:42,665 --> 00:58:46,525
+Speaker 10:  who is working on making, you know, the next four square or
+
+880
+00:58:46,525 --> 00:58:49,805
+Speaker 10:  the next Tinder, right. Whatever it is,
+
+881
+00:58:50,425 --> 00:58:54,365
+Speaker 10:  and you wanna build on top of a, a network where you already
+
+882
+00:58:54,365 --> 00:58:58,245
+Speaker 10:  know that there are millions of people already participating, I think it's
+
+883
+00:58:58,245 --> 00:59:02,205
+Speaker 10:  harder to build that on top of an at proto than it is on top of
+
+884
+00:59:02,205 --> 00:59:04,685
+Speaker 10:  an activity pub. Right. Yeah, that makes a lot of sense. There's, there's
+
+885
+00:59:04,685 --> 00:59:08,085
+Speaker 10:  just more room to like innovate and build interesting things.
+
+886
+00:59:08,545 --> 00:59:12,285
+Speaker 2:  How are the business conversations going on, on all sides of this? Because
+
+887
+00:59:12,505 --> 00:59:16,125
+Speaker 2:  one of the things, I mean you talk about the interesting feelings of people
+
+888
+00:59:16,125 --> 00:59:20,085
+Speaker 2:  on Mastodon is that anytime you talk about money on
+
+889
+00:59:20,085 --> 00:59:23,885
+Speaker 2:  The Fediverse, people get squirrely. Yeah. And I think, I think
+
+890
+00:59:23,885 --> 00:59:27,365
+Speaker 2:  it's because there is something that feels pure about
+
+891
+00:59:27,835 --> 00:59:31,605
+Speaker 2:  this thing that is being built. And people have seen us go through that
+
+892
+00:59:31,605 --> 00:59:34,245
+Speaker 2:  before and then it became corrupted by money and they're desperate for it
+
+893
+00:59:34,245 --> 00:59:36,605
+Speaker 2:  not to be corrupted by money, but at some point for this thing to work, there
+
+894
+00:59:36,605 --> 00:59:40,565
+Speaker 2:  has to be money in it. And, and I think to some
+
+895
+00:59:40,565 --> 00:59:43,645
+Speaker 2:  extent there are, there are obvious ways people make money, right? Like you,
+
+896
+00:59:43,645 --> 00:59:47,365
+Speaker 2:  you can do lots of things on top of these services, you sell ads, like whatever.
+
+897
+00:59:47,825 --> 00:59:51,365
+Speaker 2:  But the, to me the the biggest challenge is just going to be the
+
+898
+00:59:51,735 --> 00:59:55,245
+Speaker 2:  convincing everybody involved that there is a business inside of this and
+
+899
+00:59:55,245 --> 00:59:58,845
+Speaker 2:  that that's okay. Strikes me is maybe one of the hardest parts
+
+900
+00:59:59,145 --> 01:00:01,125
+Speaker 2:  of sort of evangelizing this whole space.
+
+901
+01:00:02,165 --> 01:00:05,745
+Speaker 10:  You know, I mean when we talk about like
+
+902
+01:00:06,065 --> 01:00:08,745
+Speaker 10:  business models for social content, right?
+
+903
+01:00:09,945 --> 01:00:13,425
+Speaker 10:  I think we have some pretty decent ones that have, you know,
+
+904
+01:00:13,775 --> 01:00:17,625
+Speaker 10:  been proven through the test of time, right? Ad supported
+
+905
+01:00:18,685 --> 01:00:22,505
+Speaker 10:  and algorithmic feeds is like a great example that pretty
+
+906
+01:00:22,505 --> 01:00:26,225
+Speaker 10:  much whatever half of tech runs off of, right? It
+
+907
+01:00:26,225 --> 01:00:29,545
+Speaker 10:  depending on ad supported feeds.
+
+908
+01:00:30,425 --> 01:00:34,345
+Speaker 10:  I think another one that has been super positive for creators,
+
+909
+01:00:34,925 --> 01:00:38,465
+Speaker 10:  for creative people has been subscription based
+
+910
+01:00:39,025 --> 01:00:42,825
+Speaker 10:  business. So, you know, whether you're a Twitch broadcaster or
+
+911
+01:00:42,985 --> 01:00:46,625
+Speaker 10:  a Substack publisher, you get to
+
+912
+01:00:46,735 --> 01:00:50,265
+Speaker 10:  like establish these subscriptions and you're kind of maintaining a more
+
+913
+01:00:50,265 --> 01:00:53,265
+Speaker 10:  direct relationship with your audience and develop and
+
+914
+01:00:54,195 --> 01:00:58,145
+Speaker 10:  delivering premium content to them based on, you know,
+
+915
+01:00:58,145 --> 01:01:01,785
+Speaker 10:  that direct relationship. And both of those are
+
+916
+01:01:01,885 --> 01:01:05,705
+Speaker 10:  really awesome. You know, there are other business models that work,
+
+917
+01:01:06,045 --> 01:01:10,025
+Speaker 10:  but you know, I think that those are two that seem to work pretty well
+
+918
+01:01:10,125 --> 01:01:13,425
+Speaker 10:  for different players in this, in the social space.
+
+919
+01:01:14,545 --> 01:01:18,065
+Speaker 10:  I think the question that comes up and that's been really
+
+920
+01:01:18,335 --> 01:01:22,265
+Speaker 10:  hard for people who are engaged in The fediverse
+
+921
+01:01:22,285 --> 01:01:25,425
+Speaker 10:  to deal with is, and I'm gonna be like
+
+922
+01:01:27,005 --> 01:01:30,625
+Speaker 10:  biting the hand of some of the big networks that have, that have
+
+923
+01:01:30,905 --> 01:01:34,505
+Speaker 10:  supported us so far. But you know, when Twitter
+
+924
+01:01:34,755 --> 01:01:37,905
+Speaker 10:  moved to an advertising based model, they
+
+925
+01:01:38,445 --> 01:01:42,345
+Speaker 10:  really clamped down on access to their API Right. And your
+
+926
+01:01:42,345 --> 01:01:46,065
+Speaker 10:  ability to say resort the feed or filter
+
+927
+01:01:46,525 --> 01:01:49,785
+Speaker 10:  or take parts out of the feed because
+
+928
+01:01:50,145 --> 01:01:53,105
+Speaker 2:  Suddenly it's their business to have you on twitter.com. Like it's exactly,
+
+929
+01:01:53,105 --> 01:01:54,105
+Speaker 2:  that's how it happens. Yeah,
+
+930
+01:01:54,135 --> 01:01:57,545
+Speaker 10:  Exactly. They only want you to see things in a certain way, in a certain
+
+931
+01:01:58,325 --> 01:02:02,185
+Speaker 10:  way of addressing it. Same with Facebook, right? So they
+
+932
+01:02:02,495 --> 01:02:05,905
+Speaker 10:  very much cut back on the ability of third party clients to
+
+933
+01:02:07,105 --> 01:02:11,025
+Speaker 10:  interact with the Facebook data because they needed to
+
+934
+01:02:11,265 --> 01:02:14,745
+Speaker 10:  maintain a very specific, you know, way of
+
+935
+01:02:14,745 --> 01:02:17,905
+Speaker 10:  delivering ads to the, to the user. And I think that
+
+936
+01:02:18,495 --> 01:02:22,125
+Speaker 10:  it's a lot harder to do in The fediverse structure where,
+
+937
+01:02:22,385 --> 01:02:26,245
+Speaker 10:  you know, I'm on Tumblr and you're on Threads, and Threads
+
+938
+01:02:26,245 --> 01:02:30,005
+Speaker 10:  pushes an ad into that network and Tumblr throws it
+
+939
+01:02:30,005 --> 01:02:33,485
+Speaker 10:  away, right? Like right, or or my client throws it away because I don't
+
+940
+01:02:33,485 --> 01:02:37,445
+Speaker 10:  want to see it. You don't have that same control in this kind of network.
+
+941
+01:02:38,105 --> 01:02:41,925
+Speaker 10:  So there are other ways to deliver ads, but that idea that like
+
+942
+01:02:42,505 --> 01:02:46,405
+Speaker 10:  one company is going to control from one end to the other, how
+
+943
+01:02:46,405 --> 01:02:49,765
+Speaker 10:  the stream of content is delivered and make sure that ads are included,
+
+944
+01:02:50,315 --> 01:02:53,725
+Speaker 10:  that breaks down in The fediverse. And I think that that means like
+
+945
+01:02:55,385 --> 01:02:59,265
+Speaker 10:  a, it's a little bit, you know, tough for companies that have
+
+946
+01:02:59,785 --> 01:03:03,105
+Speaker 10:  depended on that business model so far, but b
+
+947
+01:03:03,815 --> 01:03:07,625
+Speaker 10:  there's a lot of great opportunities to build new kinds of
+
+948
+01:03:07,685 --> 01:03:11,625
+Speaker 10:  ad networks in that space. Right, right. If, If you want to, like
+
+949
+01:03:11,855 --> 01:03:15,425
+Speaker 10:  that is something that can happen. And, and I think that,
+
+950
+01:03:15,925 --> 01:03:19,265
+Speaker 10:  you know, I think that there's some real interesting opportunities there.
+
+951
+01:03:19,695 --> 01:03:23,145
+Speaker 2:  Yeah. I mean it's, it's very funny, the, the like user
+
+952
+01:03:23,565 --> 01:03:27,305
+Speaker 2:  in me looks at that and is like, well, tough noogies everybody
+
+953
+01:03:27,365 --> 01:03:30,905
+Speaker 2:  now you have to compete on building great products, not on locking me into
+
+954
+01:03:30,905 --> 01:03:34,745
+Speaker 2:  your social network. Yeah. Oh no, how awful. But then
+
+955
+01:03:34,745 --> 01:03:38,505
+Speaker 2:  the part of me that is like, okay, these companies are full of business people
+
+956
+01:03:38,505 --> 01:03:42,065
+Speaker 2:  making business decisions, worry is that they just won't try because they
+
+957
+01:03:42,065 --> 01:03:45,985
+Speaker 2:  know it might lead that way. Right. And they'll have
+
+958
+01:03:45,985 --> 01:03:49,945
+Speaker 2:  to like actually compete and try hard and do good work forever in order
+
+959
+01:03:49,945 --> 01:03:53,745
+Speaker 2:  to keep winning. And boy, I hope they all sign up to do
+
+960
+01:04:22,105 --> 01:04:24,305
+Speaker 10:  like, why would you have any
+
+961
+01:08:41,115 --> 01:08:44,535
+Speaker 2:  All right, we're back. Let's get into The Vergecast hotline. As always, you
+
+962
+01:08:44,535 --> 01:08:48,455
+Speaker 2:  can call 8 6 6 VERGE one one. You can email Vergecast at The Verge dot com.
+
+963
+01:08:48,755 --> 01:08:52,535
+Speaker 2:  We love all of your questions. It is truly the best thing hearing
+
+964
+01:08:52,645 --> 01:08:55,895
+Speaker 2:  from everybody. We get an email and a Slack notification every time somebody
+
+965
+01:08:56,185 --> 01:09:00,135
+Speaker 2:  calls in. It's the best. Cannot recommend highly enough having a bunch
+
+966
+01:09:00,135 --> 01:09:03,895
+Speaker 2:  of strangers call and ask you tech questions. Anyway, this week instead of
+
+967
+01:09:04,095 --> 01:09:07,575
+Speaker 2:  questions I want to play you some feedback that we got. We talked a bunch
+
+968
+01:09:07,575 --> 01:09:11,455
+Speaker 2:  about the iPhone 16 E last week and in particular I
+
+969
+01:09:11,475 --> 01:09:14,655
+Speaker 2:  had some strong feelings about the price of the thing. I think
+
+970
+01:09:15,375 --> 01:09:19,255
+Speaker 2:  a $600 phone and an $800 phone are not
+
+971
+01:09:19,495 --> 01:09:23,015
+Speaker 2:  actually that different in a meaningful way when you think of how people
+
+972
+01:09:23,415 --> 01:09:26,775
+Speaker 2:  actually buy and use smartphones. But we got a bunch of feedback from people
+
+973
+01:09:26,795 --> 01:09:30,295
+Speaker 2:  saying maybe I'm wrong about that. So let me just play you
+
+974
+01:09:30,595 --> 01:09:34,535
+Speaker 2:  one voicemail that we got and then we're gonna get into it.
+
+975
+01:09:36,235 --> 01:09:40,095
+Speaker 19:  Hi, this is Gau from India. I've been listening
+
+976
+01:09:40,095 --> 01:09:44,055
+Speaker 19:  to the podcast about the iPhone 16 E and I think you guys
+
+977
+01:09:44,165 --> 01:09:47,975
+Speaker 19:  have just totally missed why Apple
+
+978
+01:09:48,245 --> 01:09:52,175
+Speaker 19:  made the iPhone 16 P and it's definitely not
+
+979
+01:09:52,475 --> 01:09:56,255
+Speaker 19:  for the US market, it's definitely for the Indian
+
+980
+01:09:56,255 --> 01:09:59,935
+Speaker 19:  market. They have been trying to penetrate into India for
+
+981
+01:10:00,155 --> 01:10:03,935
+Speaker 19:  so long and this is the device, I
+
+982
+01:10:03,935 --> 01:10:07,375
+Speaker 19:  think they will be doing it away because
+
+983
+01:10:07,965 --> 01:10:11,495
+Speaker 19:  usually the selling price, the best selling
+
+984
+01:10:11,635 --> 01:10:14,975
+Speaker 19:  iPhone at sale time is usually
+
+985
+01:10:15,555 --> 01:10:19,295
+Speaker 19:  the older iPhones, which is like iPhone 13 or iPhone
+
+986
+01:10:19,775 --> 01:10:23,295
+Speaker 19:  14, which is like two, three years ago.
+
+987
+01:10:24,155 --> 01:10:27,775
+Speaker 19:  Old iPhones, so which sell for
+
+988
+01:10:28,035 --> 01:10:31,335
+Speaker 19:  around 60,000 to 70,000
+
+989
+01:10:32,275 --> 01:10:36,015
+Speaker 19:  rupees in India this time they're releasing
+
+990
+01:10:36,415 --> 01:10:40,335
+Speaker 19:  a new iPhone, which you can buy brand new, which
+
+991
+01:10:40,335 --> 01:10:43,975
+Speaker 19:  is for iPhone 16 E for
+
+992
+01:10:43,975 --> 01:10:47,855
+Speaker 19:  60,000 rupees. So imagine the sales
+
+993
+01:10:47,855 --> 01:10:51,295
+Speaker 19:  numbers that's gonna bring for you and when
+
+994
+01:10:51,685 --> 01:10:55,495
+Speaker 19:  there's a sale on the iPhone 16 E, it's
+
+995
+01:10:55,495 --> 01:10:59,295
+Speaker 19:  gonna come down even more. It's gonna, it's gonna sell
+
+996
+01:10:59,295 --> 01:11:00,895
+Speaker 19:  like hot gigs in India.
+
+997
+01:11:02,465 --> 01:11:06,095
+Speaker 19:  Apple usually have a brand value in India,
+
+998
+01:11:06,185 --> 01:11:09,815
+Speaker 19:  which a lot of other manufacturers don't have.
+
+999
+01:11:10,555 --> 01:11:14,365
+Speaker 19:  So everybody wants to buy an iPhone and bringing the
+
+1000
+01:11:14,365 --> 01:11:18,125
+Speaker 19:  price down is like the best move they can do and
+
+1001
+01:11:18,305 --> 01:11:21,725
+Speaker 19:  I'm telling you right now it'll be the best selling iPhone model
+
+1002
+01:11:22,225 --> 01:11:25,525
+Speaker 19:  of the year hands down in India.
+
+1003
+01:11:26,635 --> 01:11:29,885
+Speaker 2:  This actually makes quite a lot of sense to me. I think I probably underrated
+
+1004
+01:11:29,905 --> 01:11:33,645
+Speaker 2:  the extent to which people around the world, especially
+
+1005
+01:11:33,995 --> 01:11:37,445
+Speaker 2:  outside of the US where most of the cell phone market is much less
+
+1006
+01:11:37,795 --> 01:11:41,605
+Speaker 2:  carrier dominated and postpaid and based on
+
+1007
+01:11:41,605 --> 01:11:45,005
+Speaker 2:  like multi-year contracts that you have with your carrier, a lot of people
+
+1008
+01:11:45,005 --> 01:11:48,045
+Speaker 2:  just buy a phone in a store and put a SIM card in and walk away. And in that
+
+1009
+01:11:48,155 --> 01:11:51,845
+Speaker 2:  case, a $200 difference is super meaningful and
+
+1010
+01:11:51,845 --> 01:11:55,645
+Speaker 2:  obviously in many parts of the world the price difference can even
+
+1011
+01:11:55,645 --> 01:11:59,525
+Speaker 2:  be bigger or feel bigger. So I I, I think that's right. I buy that
+
+1012
+01:11:59,665 --> 01:12:03,405
+Speaker 2:  and we heard this from a bunch of people. Actually I got an email from Mauricio
+
+1013
+01:12:03,425 --> 01:12:07,085
+Speaker 2:  in Brazil who said that here in Brazil, I can't think of one single person
+
+1014
+01:12:07,225 --> 01:12:10,485
+Speaker 2:  who chooses a phone based on carrier deals. I really don't know anyone who
+
+1015
+01:12:10,485 --> 01:12:13,725
+Speaker 2:  buys this way considering that Apple sells to many other countries, it feels
+
+1016
+01:12:13,725 --> 01:12:17,205
+Speaker 2:  like you missed an important part of the conversation. Totally fair. I still
+
+1017
+01:12:17,205 --> 01:12:21,125
+Speaker 2:  think the logic of why would you make it this cost and not
+
+1018
+01:12:21,125 --> 01:12:24,885
+Speaker 2:  the cost of the s se is complicated, right? I think if Apple had found a
+
+1019
+01:12:24,885 --> 01:12:28,285
+Speaker 2:  way to even split the difference, make this thing 4 99 instead of
+
+1020
+01:12:28,285 --> 01:12:31,925
+Speaker 2:  5 99, I think that price Delta becomes really
+
+1021
+01:12:32,445 --> 01:12:36,365
+Speaker 2:  powerful. But Apple has always been happy selling to a smaller
+
+1022
+01:12:36,585 --> 01:12:40,165
+Speaker 2:  but more affluent group of phone buyers. I think maybe the thing that I'm
+
+1023
+01:12:40,445 --> 01:12:44,405
+Speaker 2:  reacting to above all else is that this is just such an unlike Apple move.
+
+1024
+01:12:45,065 --> 01:12:48,725
+Speaker 2:  If the thing that Apple is doing here is purely about
+
+1025
+01:12:48,735 --> 01:12:52,045
+Speaker 2:  price and it seems like it's purely about price, but then again this is the
+
+1026
+01:12:52,045 --> 01:12:55,965
+Speaker 2:  company that's also selling an M1 MacBook Air in Walmart now. So maybe
+
+1027
+01:12:55,965 --> 01:12:59,845
+Speaker 2:  Apple just is a price conscious company in a way that it never
+
+1028
+01:12:59,845 --> 01:13:03,685
+Speaker 2:  really has been before and would still like you to not think that it's,
+
+1029
+01:13:04,185 --> 01:13:08,165
+Speaker 2:  we also got an email from Marcine who said, I found some data from 2022 that
+
+1030
+01:13:08,165 --> 01:13:12,085
+Speaker 2:  shows that 44% of the cellular user population in the US is on prepaid
+
+1031
+01:13:12,085 --> 01:13:15,485
+Speaker 2:  plans. I haven't checked that number, but if it's true, that's a higher number
+
+1032
+01:13:15,485 --> 01:13:19,025
+Speaker 2:  than I would've expected. I'm guessing that this group is probably more cost
+
+1033
+01:13:19,025 --> 01:13:22,265
+Speaker 2:  conscious and price sensitive, and for them the iPhone 16 E makes a lot more
+
+1034
+01:13:22,265 --> 01:13:25,625
+Speaker 2:  sense. Also, I wanna point out that the price difference between 16 e and
+
+1035
+01:13:25,625 --> 01:13:29,545
+Speaker 2:  16 isn't 200, but more like two 50. He's talking about things like
+
+1036
+01:13:29,545 --> 01:13:33,185
+Speaker 2:  adding in taxes and taking away some of the carrier deals that you get to
+
+1037
+01:13:33,185 --> 01:13:37,145
+Speaker 2:  make these things cheaper Again, all true and I think the idea
+
+1038
+01:13:37,255 --> 01:13:41,105
+Speaker 2:  that people are walking into a store, putting down a credit card or
+
+1039
+01:13:41,305 --> 01:13:45,265
+Speaker 2:  cash and buying a phone outright is certainly true. I think
+
+1040
+01:13:45,535 --> 01:13:49,265
+Speaker 2:  that just hasn't really been Apple's clientele for
+
+1041
+01:13:49,295 --> 01:13:53,265
+Speaker 2:  many, many years now, that is not the group of people that Apple has
+
+1042
+01:13:53,265 --> 01:13:56,785
+Speaker 2:  typically served. Apple is typically interested in really high margins on
+
+1043
+01:13:56,785 --> 01:14:00,665
+Speaker 2:  really high prices for people who are much less price conscious. And
+
+1044
+01:14:00,665 --> 01:14:04,585
+Speaker 2:  so maybe what I need to do is just reframe my brain a little bit
+
+1045
+01:14:04,585 --> 01:14:08,145
+Speaker 2:  to think of Apple as a company interested in hitting all price points for
+
+1046
+01:14:08,145 --> 01:14:11,715
+Speaker 2:  the sake of hitting all price points. It it makes perfect sense as a business
+
+1047
+01:14:11,715 --> 01:14:15,515
+Speaker 2:  move. If you're Apple and you're increasingly a services business and actually
+
+1048
+01:14:15,515 --> 01:14:18,515
+Speaker 2:  what you want is to have your stuff in more people's hands, that's what Google
+
+1049
+01:14:18,575 --> 01:14:22,395
+Speaker 2:  has been doing forever, right? Google makes the majority of its money, not
+
+1050
+01:14:22,395 --> 01:14:25,315
+Speaker 2:  when you buy an Android phone, but when you use the services on an Android
+
+1051
+01:14:25,315 --> 01:14:29,275
+Speaker 2:  phone. So Google has a huge incentive to put its phones in
+
+1052
+01:14:29,275 --> 01:14:32,795
+Speaker 2:  front of as many people as possible across price spectrums, across
+
+1053
+01:14:32,795 --> 01:14:36,635
+Speaker 2:  demographics. It's just a volume game for Google and if Apple
+
+1054
+01:14:36,695 --> 01:14:40,155
+Speaker 2:  is a services company, it's playing the same kind of volume game. So maybe
+
+1055
+01:14:40,155 --> 01:14:44,075
+Speaker 2:  that just is Apple now. Anyway, thank you to everybody who called
+
+1056
+01:14:44,075 --> 01:14:47,755
+Speaker 2:  in and emailed with feedback. These are good points and I think
+
+1057
+01:14:47,895 --> 01:14:51,515
+Speaker 2:  the the price of an iPhone is more interesting and more
+
+1058
+01:14:51,785 --> 01:14:53,875
+Speaker 2:  complicated maybe than I even realized.
+
+1059
+01:14:55,695 --> 01:14:59,075
+Speaker 2:  Anyway, that is it for the show today. Thank you to everybody who came on
+
+1060
+01:14:59,075 --> 01:15:02,435
+Speaker 2:  and thank you as always so much for listening. As always, If you have thoughts,
+
+1061
+01:15:02,955 --> 01:15:06,595
+Speaker 2:  questions, feedbacks or Robotaxis rides you wanna tell me about, if
+
+1062
+01:15:06,795 --> 01:15:10,195
+Speaker 2:  you've like been in a Waymo or a zoox and had an experience, I would love
+
+1063
+01:15:10,195 --> 01:15:14,155
+Speaker 2:  to hear about it. You can always call 8 6 6 VERGE one, one email
+
+1064
+01:15:14,475 --> 01:15:18,235
+Speaker 2:  vergecast at The Verge dot com. Hit us up. We love hearing from you all the
+
+1065
+01:15:18,235 --> 01:15:21,715
+Speaker 2:  time. This show is produced by Eric Gomez, Brandon Keefer, and Will pour
+
+1066
+01:15:21,895 --> 01:15:24,955
+Speaker 2:  The Vergecast is VERGE production part of the Vox Media podcast network.
+
+1067
+01:15:25,585 --> 01:15:28,715
+Speaker 2:  Neli, I'll be back on Friday. He's back from vacation this week, by the way.
+
+1068
+01:15:28,715 --> 01:15:31,995
+Speaker 2:  Thank you to everybody who was concerned and sad that you weren't hearing
+
+1069
+01:15:31,995 --> 01:15:35,195
+Speaker 2:  from Neli. Also, everybody thinks Neli is like quitting his job every time
+
+1070
+01:15:35,195 --> 01:15:38,595
+Speaker 2:  he goes on vacation. He's just on vacation. You're stuck with us forever,
+
+1071
+01:15:38,835 --> 01:15:41,875
+Speaker 2:  I think. Don't worry about it. Anyway, we'll be back. Lots of news to talk
+
+1072
+01:15:41,875 --> 01:15:45,795
+Speaker 2:  about. Lots still happening. We will have the triumphant return,
+
+1073
+01:15:45,855 --> 01:15:49,515
+Speaker 2:  I'm sure of America's favorite segment. Brenda and Carr is a dummy on this
+
+1074
+01:15:49,515 --> 01:15:52,675
+Speaker 2:  Friday show plus lots more. We'll see you then. Rock and roll.
+

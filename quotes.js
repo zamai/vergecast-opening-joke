@@ -602,6 +602,447 @@ const fakeQuotes = [
     },
     {
         quote: "Welcome to The Vergecast, the flagship podcast of self-aware coffee mugs."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of Blockchain-based breakfast cereals."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of folding charging cables."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of predictive text anxiety."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of mandatory firmware updates during presentations."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of USB-C to USB-C to USB-A adapters."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of thermal paste application techniques."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidentally closing all browser tabs."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of mechanical keyboard acoustics."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of enterprise-grade fidget spinners."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of NFT-authenticated pizza boxes."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of subscription-based door locks."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of algorithmically-generated compliments."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of wireless charging anxiety."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of smart fridge content moderation."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of deprecated API endpoints."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of touchscreen-compatible winter gloves that never work."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of notification badge psychology."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of cable management philosophy."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of haptic feedback overthinking."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of cloud-native salt shakers."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidentally unmuting yourself."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of vertical video syndrome."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of RGB lighting governance."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of podcast apps that play podcasts about podcasts."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of emergency software patches on Friday afternoons."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of trying to screenshot error messages."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of micro-USB in a USB-C world."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of laptop stickers as personality indicators."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of dark mode everywhere except that one app."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of Bluetooth pairing rituals."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of password complexity requirements."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of smart home devices that require seventeen different apps."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of video game patch notes that are longer than novels."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of conference call background noise."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of trying to find the headphone jack."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of AI that's just autocorrect with confidence."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of email newsletters about newsletters."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'this meeting could have been an email.'"
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of phone cases thicker than the phone."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of screen protector bubbles."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of WiFi names that are cries for help."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of legacy code that nobody dares to touch."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of browser tabs you've been meaning to read for months."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of corporate synergy buzzwords."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of smart watches that need charging more than regular watches need winding."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'please wait while we update your device.'"
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of social media platforms speedrunning trust and safety."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of ethernet cables in the wireless age."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of refresh button anxiety."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of streaming services that are just cable with extra steps."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of keyboard shortcuts nobody remembers."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of phone notifications at 3 AM."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'have you tried turning it off and on again.'"
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of emoji interpretation disputes."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of software versioning chaos."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of devices that beep but you can't figure out which one."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of cookie consent banners."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of loading bars that lie."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'works on my machine.'"
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of deleting and reinstalling apps as troubleshooting."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of screenshot folders you'll never organize."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of two-factor authentication during emergencies."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of app icons that look identical."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of thinking the Caps Lock key is useful."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of phone battery percentages that jump around."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of software that requires a subscription to change settings."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidentally starting a conference call."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of AI assistants that mishear everything."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of unlimited cloud storage with asterisks."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of wired headphones getting caught on doorknobs."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of laptop fans that sound like jet engines."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of gaming chairs as productivity tools."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of pixel-perfect alignment obsessions."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of hover states that don't work on mobile."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of tech demos that look nothing like the final product."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of device names with too many numbers."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of smart speakers listening but not understanding."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of keyboard backlighting with only two settings: too dim and too bright."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of software beta programs you forgot you joined."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of typing on glass and pretending it's fine."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of Chrome eating all your RAM."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidentally pocket-dialing with a touchscreen."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of group chats that should have been direct messages."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of HDMI port roulette."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of software changelogs that just say 'bug fixes and improvements.'"
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of tech support holding music."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidentally closing the tab you needed."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of autocorrect making you sound insane."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of laptop chargers that only work at certain angles."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of video call backgrounds that fool nobody."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'skip this version' regret."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of aggressive push notification strategies."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of phone cameras with more lenses than sense."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of waiting for other people to update their software."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of printers that are somehow still this bad."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of voice assistants that activate randomly."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of email signatures that are longer than emails."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of notification sounds you can hear in your sleep."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of cables that only work one way even though they're symmetrical."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of software that updates itself mid-presentation."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of trying to click the X on mobile ads."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'this is a feature not a bug' gaslighting."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of wireless earbuds that fall out."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of video game launchers that launch launchers."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of devices bricked by software updates."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of unsubscribe links that don't work."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of mobile apps that are just wrappers for websites."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidentally activating Siri in your pocket."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of laptop webcams that make you look like a cryptid."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of password requirements that guarantee you'll forget it."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidentally sending messages in the wrong group chat."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of startup sounds that are way too loud."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of device backups that never actually work when you need them."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidentally hitting reply-all."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of infinity scroll regret."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of apps that refuse to work in landscape mode."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of typing your password into the username field."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'new phone who dis' identity crises."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of carrier-locked bootloader nightmares."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of documentation that's older than the software."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidentally liking photos from 47 weeks ago."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of phantom phone vibrations."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'check your inbox for a verification code' loops."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of touchpad gestures that do unexpected things."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of app permissions that don't make sense."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of charging cables that fray exactly where you grip them."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of devices that auto-connect to the wrong Bluetooth speaker."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of software trials that require credit cards."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of video buffering at the best part."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'this page is having trouble loading' existential dread."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of notification LED colors you can never remember."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidentally enabling sticky keys."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of smart TVs that are somehow slower than old TVs."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'do you want to save changes' panic."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of file formats that only open on one operating system."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of VPN ads during tech podcasts."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of drag and drop that doesn't work when you need it."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of cursor lag on remote desktops."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of accidental voice-to-text messages."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of apps that ask for ratings before you've used them."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of system maintenance at the worst possible time."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of zoom levels that reset every time."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of notification channels you didn't know existed."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of copy-paste that stops working randomly."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of 'installation failed' with no error message."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of phone storage mysteriously filling up."
+    },
+    {
+        quote: "Welcome to The Vergecast, the flagship podcast of screen burn-in from status bars."
     }
 ];
 

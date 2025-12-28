@@ -1,0 +1,2653 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 30f51fc0-bc80-11ed-a0df-f3ecae73300a
+Status: Done
+Stage: Done
+Title: Solo Acts: McRib Locator's Alan Klein
+Audio URL: https://jfe93e.s3.amazonaws.com/-5313655083728285350/-8646229356276219270/s93290-US-2301s-1678149426.mp3
+Description: In this next episode of our Vergecast Solo Acts mini series, Ashley Esqueda talks with Alan Klein, the creator of the McRib Locator, a website that helps people track and submit where McDonald's BBQ pork sandwich is available in stores.
+Alan shares what drove him to make this free tool for people back in 2009, what he does with the data he's collected, what's next for the site after the McRib's "farewell tour" this past fall, and more.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Disabled
+
+2
+00:00:00,820 --> 00:00:04,770
+Speaker 1:  Support for this podcast comes from Toyota Crown, the all new Toyota Crown
+
+3
+00:00:04,770 --> 00:00:08,690
+Speaker 1:  wants to help you make a statement each and every time you drive. Find yourself
+
+4
+00:00:08,690 --> 00:00:12,330
+Speaker 1:  immersed in the premium driver focused interior that puts you in control.
+
+5
+00:00:12,470 --> 00:00:15,810
+Speaker 1:  Not to mention that the Toyota Crown is equipped with Toyota Safety Sense
+
+6
+00:00:15,810 --> 00:00:19,370
+Speaker 1:  3.0 featuring lane tracing, assist full speed range,
+
+7
+00:00:19,570 --> 00:00:23,210
+Speaker 1:  dynamic range cruise control, automatic high beams, and so much more.
+
+8
+00:00:23,210 --> 00:00:26,930
+Speaker 1:  Toyota says, wherever you go in the all new Toyota Crown, you make a
+
+9
+00:00:26,930 --> 00:00:29,330
+Speaker 1:  statement. The car that says so much. Visit
+
+10
+00:00:29,330 --> 00:00:32,530
+Speaker 1:  toyota.com/crown to learn more. Toyota,
+
+11
+00:00:32,810 --> 00:00:33,810
+Speaker 1:  let's go places.
+
+12
+00:00:38,500 --> 00:00:42,490
+Speaker 3:  Welcome to the Ver Vercast, the flagship podcast of snacks
+
+13
+00:00:42,490 --> 00:00:46,130
+Speaker 3:  with a little M S G in them. Just, just a little. I'm your friend Alex
+
+14
+00:00:46,130 --> 00:00:49,770
+Speaker 3:  Cranz. And today we have a new episode of the Solo Acts miniseries,
+
+15
+00:00:49,770 --> 00:00:53,370
+Speaker 3:  which features interviews from people who are working independently to create
+
+16
+00:00:53,370 --> 00:00:56,890
+Speaker 3:  great things on the internet. Every Monday on the Vergecast, our friend Ashley
+
+17
+00:00:57,010 --> 00:01:00,250
+Speaker 3:  Escada is curating and hosting these interviews and sharing with us everything
+
+18
+00:01:00,450 --> 00:01:02,010
+Speaker 3:  she's learned. Hello Ashley.
+
+19
+00:01:02,420 --> 00:01:03,610
+Speaker 4:  Hi, how are you?
+
+20
+00:01:03,870 --> 00:01:07,010
+Speaker 3:  I'm doing good. I'm a little hungry. It's getting around lunchtime here.
+
+21
+00:01:07,220 --> 00:01:10,170
+Speaker 4:  Oh, I have the perfect interview for you. It's gonna make you extra hungry.
+
+22
+00:01:10,430 --> 00:01:14,290
+Speaker 3:  Yes, because last week you talked Toka pop from Hive Social. Who do you have
+
+23
+00:01:14,290 --> 00:01:14,890
+Speaker 3:  for me this week?
+
+24
+00:01:15,410 --> 00:01:19,170
+Speaker 4:  Yes, I, I'm very excited today to have the creator
+
+25
+00:01:19,170 --> 00:01:22,410
+Speaker 4:  of the M Rib Locator, Alan Klein. Ooh.
+
+26
+00:01:22,680 --> 00:01:26,530
+Speaker 4:  This is a website where users can track how they
+
+27
+00:01:26,530 --> 00:01:28,530
+Speaker 4:  can find a McDonald's McRib sandwich.
+
+28
+00:01:28,990 --> 00:01:32,890
+Speaker 5:  The mc McRib is back on the new taste menu at McDonald's, but only for a
+
+29
+00:01:32,890 --> 00:01:36,850
+Speaker 5:  while. So hurry in for that. One-of-a-kind super saucy piled on a Homestyle
+
+30
+00:01:36,850 --> 00:01:38,370
+Speaker 5:  roll taste. Have
+
+31
+00:01:38,370 --> 00:01:42,010
+Speaker 4:  You Miss Alan might actually be the biggest Mick McRib fan
+
+32
+00:01:42,220 --> 00:01:45,850
+Speaker 4:  on the planet. Okay. And we are gonna talk about why he spent
+
+33
+00:01:45,900 --> 00:01:49,650
+Speaker 4:  so much of his free time making this website, what he does with all of the
+
+34
+00:01:49,930 --> 00:01:53,850
+Speaker 4:  Mick Rib location data, which is very interesting and the future of his
+
+35
+00:01:53,850 --> 00:01:56,610
+Speaker 4:  work since the Mick Rib went on a farewell tour last year.
+
+36
+00:01:56,950 --> 00:02:00,010
+Speaker 3:  All right, well I know I'm gonna be absolutely starved by the end of this,
+
+37
+00:02:00,010 --> 00:02:01,810
+Speaker 3:  so let's go ahead and get to it.
+
+38
+00:02:08,500 --> 00:02:09,250
+Speaker 4:  Hi Alan.
+
+39
+00:02:09,460 --> 00:02:11,090
+Speaker 6:  Hi Ashley. Thanks for having me today.
+
+40
+00:02:11,340 --> 00:02:15,130
+Speaker 4:  Oh man. I cannot wait to talk to you about Mick Rib
+
+41
+00:02:15,130 --> 00:02:19,050
+Speaker 4:  Locator. So I have given a very broad description of
+
+42
+00:02:19,050 --> 00:02:22,570
+Speaker 4:  the site, but Alan, do you mind explaining to our
+
+43
+00:02:22,890 --> 00:02:26,650
+Speaker 4:  listeners in more detail about M McRib locator and how it
+
+44
+00:02:26,650 --> 00:02:26,890
+Speaker 4:  works?
+
+45
+00:02:27,000 --> 00:02:30,570
+Speaker 6:  Yeah, sure. So the Mc McRib locator webpage, it's, it's really a
+
+46
+00:02:30,570 --> 00:02:34,290
+Speaker 6:  crowdsource driven page where people from across the world, it's not just
+
+47
+00:02:34,290 --> 00:02:37,290
+Speaker 6:  the United States, have the M McRib, they can come and contribute to the
+
+48
+00:02:37,290 --> 00:02:41,050
+Speaker 6:  page saying, I found a McRib at a given location. And then, and as a addition
+
+49
+00:02:41,050 --> 00:02:44,650
+Speaker 6:  to that, fans can come in and say, yes, I agree there was one there. Or I
+
+50
+00:02:44,650 --> 00:02:47,570
+Speaker 6:  can dispute that finding cuz sometimes, you know, we get some that are a
+
+51
+00:02:47,570 --> 00:02:51,010
+Speaker 6:  little bit overexcited fans that may be a little bit too soon. So we, we
+
+52
+00:02:51,010 --> 00:02:54,850
+Speaker 6:  build up this base of places on a map so people can see where can I find
+
+53
+00:02:54,850 --> 00:02:58,330
+Speaker 6:  the nearest McRib because we never know when they're going to be around or
+
+54
+00:02:58,330 --> 00:02:59,760
+Speaker 6:  how far we have to, to go to find them.
+
+55
+00:02:59,790 --> 00:03:03,360
+Speaker 4:  That's so intriguing that it's all user-generated data. This
+
+56
+00:03:03,360 --> 00:03:07,240
+Speaker 4:  reminds me a lot of Gawker stalker or that old
+
+57
+00:03:07,240 --> 00:03:11,160
+Speaker 4:  website for finding iPhones when it right be before we could really kind
+
+58
+00:03:11,160 --> 00:03:15,040
+Speaker 4:  of order them online. Do you remember when you ate your first McRib?
+
+59
+00:03:15,190 --> 00:03:18,680
+Speaker 6:  Yeah, I do. It, it's, it's a memory from back way in my youth.
+
+60
+00:03:18,910 --> 00:03:22,600
+Speaker 6:  I grew up on a family farm in South Dakota and, and we would, we raised hogs
+
+61
+00:03:22,780 --> 00:03:26,640
+Speaker 6:  and we took 'em to town one day to market. And I remember with my dad, right
+
+62
+00:03:26,640 --> 00:03:30,360
+Speaker 6:  after taking 'em to the, to the marketplace, we went over to the local McDonald's
+
+63
+00:03:30,360 --> 00:03:33,680
+Speaker 6:  in town and they happened to have the M McRib on the menu. And I remember
+
+64
+00:03:33,680 --> 00:03:37,320
+Speaker 6:  eating the McRib, not necessarily so much for the McRib itself, but having
+
+65
+00:03:37,320 --> 00:03:41,280
+Speaker 6:  a kind of surreal moment as a child realizing like, we just took hogs
+
+66
+00:03:41,280 --> 00:03:44,680
+Speaker 6:  to market and now here we are eating, you know, the byproduct of all of our
+
+67
+00:03:44,680 --> 00:03:48,200
+Speaker 6:  efforts. And it's, it's not just feeding ourselves, it's like feeding, you
+
+68
+00:03:48,200 --> 00:03:49,760
+Speaker 6:  know, essentially the entire world.
+
+69
+00:03:50,190 --> 00:03:53,840
+Speaker 4:  That's so fascinating that you, that was your first
+
+70
+00:03:54,080 --> 00:03:56,200
+Speaker 4:  Mick McRib experience. That is very surreal.
+
+71
+00:03:56,410 --> 00:03:59,440
+Speaker 6:  It really is. Cuz you do all that work, you know, you do all the work on
+
+72
+00:03:59,440 --> 00:04:02,880
+Speaker 6:  a farm and you, you know, it goes somewhere. But when you finally have that
+
+73
+00:04:02,880 --> 00:04:06,000
+Speaker 6:  realization like, holy smokes, like I've, I'm doing something much larger
+
+74
+00:04:06,000 --> 00:04:07,040
+Speaker 6:  than just something here locally.
+
+75
+00:04:07,470 --> 00:04:11,320
+Speaker 4:  I would imagine it would also be so interesting to have had the
+
+76
+00:04:11,320 --> 00:04:15,040
+Speaker 4:  experience of growing up on a farm, raising hogs. You have a
+
+77
+00:04:15,040 --> 00:04:18,520
+Speaker 4:  very different idea of what pork should taste like
+
+78
+00:04:18,850 --> 00:04:22,840
+Speaker 4:  as opposed to the very processed version of what
+
+79
+00:04:22,840 --> 00:04:25,760
+Speaker 4:  a Mick rib is that's made, I mean they make it with a mold so, right.
+
+80
+00:04:25,760 --> 00:04:29,000
+Speaker 6:  Yeah. The, the Mick McRib itself, right. It comes from, it's a pork shoulder
+
+81
+00:04:29,000 --> 00:04:31,720
+Speaker 6:  is what they've said in the past and they, they process it down and like
+
+82
+00:04:31,720 --> 00:04:35,200
+Speaker 6:  you said, they put it through a mold processes to get it down to that rib
+
+83
+00:04:35,200 --> 00:04:39,040
+Speaker 6:  like shape that they, they distribute. Yeah, it's definitely the pork itself
+
+84
+00:04:39,110 --> 00:04:42,560
+Speaker 6:  when you have it as a different, you know, if you go get a pork chop or a
+
+85
+00:04:42,560 --> 00:04:45,640
+Speaker 6:  pork loin, it's a little bit different, right. Cuz it's not that processed
+
+86
+00:04:45,640 --> 00:04:49,280
+Speaker 6:  part. But it's still like the McRib itself still produces that, that feeling
+
+87
+00:04:49,280 --> 00:04:51,200
+Speaker 6:  of, you know, the, the taste of the pork itself.
+
+88
+00:04:51,530 --> 00:04:55,480
+Speaker 4:  So what is it about the mc McRib that sparks joy for you? So much joy
+
+89
+00:04:55,480 --> 00:04:56,800
+Speaker 4:  that you made a website about it?
+
+90
+00:04:56,820 --> 00:05:00,560
+Speaker 6:  You know what it's always been from, even when the origins of the micro
+
+91
+00:05:00,560 --> 00:05:04,360
+Speaker 6:  locator itself, it was like helping other people isn't that it's no longer
+
+92
+00:05:04,360 --> 00:05:07,880
+Speaker 6:  just the sandwich itself For me that keeps it going. It's, you know, I'm
+
+93
+00:05:07,880 --> 00:05:11,800
+Speaker 6:  helping a larger community. It's fellow fans like myself and
+
+94
+00:05:11,800 --> 00:05:15,560
+Speaker 6:  that really is what keeps me driven to keep doing it because the
+
+95
+00:05:15,720 --> 00:05:18,160
+Speaker 6:  sandwich itself I've always enjoyed, right? It's a, it's a barbecue pork
+
+96
+00:05:18,360 --> 00:05:22,080
+Speaker 6:  sandwich. You don't really have a comparable thing on the market
+
+97
+00:05:22,080 --> 00:05:24,880
+Speaker 6:  in the fast food industry. You know, there's been a few other efforts of
+
+98
+00:05:24,880 --> 00:05:28,600
+Speaker 6:  people trying to produce something very similar, but for a long time if you
+
+99
+00:05:28,600 --> 00:05:31,160
+Speaker 6:  wanted a pork product, you know that you're looking at the McRib, when's
+
+100
+00:05:31,160 --> 00:05:35,000
+Speaker 6:  it coming? And there's that alert because for a long time it
+
+101
+00:05:35,000 --> 00:05:38,920
+Speaker 6:  was an offering that was stored by store decisions. So you would go in a
+
+102
+00:05:38,920 --> 00:05:42,520
+Speaker 6:  region like where I'm at now in Minnesota, we wouldn't have the McRib for
+
+103
+00:05:42,520 --> 00:05:46,240
+Speaker 6:  a very long time and suddenly, oh look it's back and you get those memories.
+
+104
+00:05:46,240 --> 00:05:49,560
+Speaker 6:  For me it's some of those memories again of my youth. But for a lot of people,
+
+105
+00:05:49,560 --> 00:05:52,760
+Speaker 6:  like it's just something you can't get somewhere else at barbecue sandwich
+
+106
+00:05:52,970 --> 00:05:54,880
+Speaker 6:  in a pork sandwich in a fast food venue.
+
+107
+00:05:55,250 --> 00:05:59,080
+Speaker 4:  So when did you realize there needed to to be a tool for finding the Mick
+
+108
+00:05:59,080 --> 00:06:01,920
+Speaker 4:  McRib? When did you decide to build the site? How long did it take?
+
+109
+00:06:02,110 --> 00:06:05,640
+Speaker 6:  Yeah, so back, you know, a number of years ago around that 2008,
+
+110
+00:06:05,640 --> 00:06:09,560
+Speaker 6:  2009 era, I was working in meteorology at the time. I have a meteorology
+
+111
+00:06:09,560 --> 00:06:13,320
+Speaker 6:  degree so let's where my, my story starts for for professionally.
+
+112
+00:06:13,420 --> 00:06:17,240
+Speaker 6:  And I was looking to make a product that was something to help find storm
+
+113
+00:06:17,240 --> 00:06:20,760
+Speaker 6:  chasers. Cause it really wasn't something at the time really to help coordinate
+
+114
+00:06:20,760 --> 00:06:24,200
+Speaker 6:  your chasing. And it's more of where are my friends at where you're at in
+
+115
+00:06:24,200 --> 00:06:27,760
+Speaker 6:  the storm, those types of things. And I was working on it and working on
+
+116
+00:06:27,760 --> 00:06:31,600
+Speaker 6:  it and while I was at work one day the McRib was back somewhere nearby
+
+117
+00:06:31,860 --> 00:06:35,680
+Speaker 6:  and it turned out there were a few other Avid fans at my workplace and we
+
+118
+00:06:36,000 --> 00:06:39,560
+Speaker 6:  talked about how, boy it's been a really long time since I've been able to
+
+119
+00:06:39,560 --> 00:06:43,200
+Speaker 6:  get one. And it's always such a pain to find it. So this idea sparked of,
+
+120
+00:06:43,200 --> 00:06:47,120
+Speaker 6:  well instead of a storm locator, why couldn't it just be a Mick rip locator?
+
+121
+00:06:47,340 --> 00:06:51,120
+Speaker 6:  And it kind of took off from there. Like I started putting the pieces together
+
+122
+00:06:51,120 --> 00:06:54,960
+Speaker 6:  after work, you know, kind of my free time, something fun learning and kept
+
+123
+00:06:54,960 --> 00:06:58,840
+Speaker 6:  evolving it. And you know, I don't remember exactly how long it took. There's
+
+124
+00:06:58,840 --> 00:07:02,200
+Speaker 6:  a period of time where you have a product that's available as a webpage and
+
+125
+00:07:02,200 --> 00:07:04,920
+Speaker 6:  then there's the how long does it take before people start using it. Hmm.
+
+126
+00:07:05,060 --> 00:07:08,360
+Speaker 6:  And I don't know if it was months or I don't, you know, I don't really exactly
+
+127
+00:07:08,760 --> 00:07:12,440
+Speaker 6:  remember the timeframe anymore, but I know it existed for some period of
+
+128
+00:07:12,440 --> 00:07:15,560
+Speaker 6:  time before it really started to get its publicity out there.
+
+129
+00:07:15,830 --> 00:07:19,800
+Speaker 4:  Yeah. I would imagine the Mick McRib came back kind of nationwide in
+
+130
+00:07:19,800 --> 00:07:23,600
+Speaker 4:  2012, is that right? Like right, yeah. Around that timeframe. So I would
+
+131
+00:07:23,600 --> 00:07:27,280
+Speaker 4:  imagine it was probably around then when people were really clamoring to
+
+132
+00:07:27,280 --> 00:07:31,240
+Speaker 4:  find their mick ribs. I can't believe the Mick rib locator was originally
+
+133
+00:07:31,240 --> 00:07:34,720
+Speaker 4:  a tornado locator. Right. Pretty wild. Yeah.
+
+134
+00:07:34,720 --> 00:07:38,040
+Speaker 6:  And in know there was sort of those struggles of, as a storm chaser, you
+
+135
+00:07:38,040 --> 00:07:41,880
+Speaker 6:  wouldn't be able to get that accurate precision of location and
+
+136
+00:07:41,880 --> 00:07:45,800
+Speaker 6:  you remembering back to 2008 and nine, our phones weren't always the best
+
+137
+00:07:45,800 --> 00:07:49,560
+Speaker 6:  at producing that geolocation data in a right, in a friendly format back
+
+138
+00:07:49,560 --> 00:07:53,160
+Speaker 6:  to webpages. So that's sort of what helped me pivot cuz a McDonald's location
+
+139
+00:07:53,250 --> 00:07:56,720
+Speaker 6:  is static, right? It's not moving. So you're not so worried about how do
+
+140
+00:07:56,720 --> 00:08:00,640
+Speaker 6:  I keep real time? It's just these are the places and that that also helped,
+
+141
+00:08:00,640 --> 00:08:04,360
+Speaker 6:  you know, make my solution a little easier because I could see like,
+
+142
+00:08:04,360 --> 00:08:07,560
+Speaker 6:  okay, it's just a location now not trying to find a floating location.
+
+143
+00:08:07,560 --> 00:08:09,720
+Speaker 4:  Right. It's a, it's fixed for the most
+
+144
+00:08:09,720 --> 00:08:11,560
+Speaker 6:  Part. Yeah, exactly. It's, it's fixed.
+
+145
+00:08:11,780 --> 00:08:15,320
+Speaker 4:  And so over the course of all of these years
+
+146
+00:08:15,430 --> 00:08:19,040
+Speaker 4:  you've I'm sure amassed some great deal of data
+
+147
+00:08:19,250 --> 00:08:23,200
+Speaker 4:  on people who are reporting M McRibs is looking for M ribs, right?
+
+148
+00:08:23,200 --> 00:08:26,920
+Speaker 4:  What do you do with that data? Does McDonald's call you up? Do they say,
+
+149
+00:08:26,920 --> 00:08:30,320
+Speaker 4:  Hey, we're just doing some market research on the M McRib and
+
+150
+00:08:30,600 --> 00:08:32,760
+Speaker 4:  you're it? Can we take a peek at your books?
+
+151
+00:08:32,830 --> 00:08:36,560
+Speaker 6:  Yeah, it's a great question. And honestly the data itself, I keep it
+
+152
+00:08:36,760 --> 00:08:39,680
+Speaker 6:  internal, you're right, that would be a valid exercise of that data. But
+
+153
+00:08:39,680 --> 00:08:43,080
+Speaker 6:  that's never really been my application of it. It's more where are people
+
+154
+00:08:43,080 --> 00:08:46,000
+Speaker 6:  reporting them at, you know, where are the fan base at. So I can try to help
+
+155
+00:08:46,000 --> 00:08:49,880
+Speaker 6:  maybe guide some of my traffic that direction. Like I can see, hey, it comes
+
+156
+00:08:49,880 --> 00:08:52,560
+Speaker 6:  back in this part of the country first, or you know, a couple years back
+
+157
+00:08:52,560 --> 00:08:56,000
+Speaker 6:  I produced a map of, here are the states that are most likely to have a McRib
+
+158
+00:08:56,000 --> 00:08:59,560
+Speaker 6:  back if it's not a nationwide release because that's sort of the data I'm
+
+159
+00:08:59,560 --> 00:09:03,120
+Speaker 6:  collecting, right? It's like these are the reports. So yes, certainly there's
+
+160
+00:09:03,120 --> 00:09:06,480
+Speaker 6:  more locations than what I have on my map because it's crowdsourced, but
+
+161
+00:09:06,480 --> 00:09:10,360
+Speaker 6:  it's still the same premise of here are the hotspots for fans reporting the
+
+162
+00:09:10,360 --> 00:09:14,320
+Speaker 6:  McRib. So I kind of have an idea of if I wanna find one year to
+
+163
+00:09:14,320 --> 00:09:18,240
+Speaker 6:  year, these are the most likely places. So, so mostly the data has
+
+164
+00:09:18,240 --> 00:09:22,040
+Speaker 6:  just been internally used. Just to kind of my own curiosity, I did have someone
+
+165
+00:09:22,040 --> 00:09:25,880
+Speaker 6:  this year reach out to me kind of trying to get information of, hey,
+
+166
+00:09:25,880 --> 00:09:29,280
+Speaker 6:  in the Chicago land area, when's the McRib available? And he was trying to
+
+167
+00:09:29,280 --> 00:09:32,360
+Speaker 6:  correlate when the McRib was available to when the Chicago Bears win games
+
+168
+00:09:32,360 --> 00:09:36,280
+Speaker 6:  or not, which was kind of a fun exercise for him to do. But again,
+
+169
+00:09:36,280 --> 00:09:39,440
+Speaker 6:  it's, it's very anonymous, right? I'm not, I'm certainly not intending to
+
+170
+00:09:39,440 --> 00:09:40,760
+Speaker 6:  send any personal data out.
+
+171
+00:09:41,060 --> 00:09:44,880
+Speaker 4:  Was there anything over the years that struck you as interesting about the
+
+172
+00:09:44,880 --> 00:09:48,760
+Speaker 4:  data? Is there, is there a region that reports the most sightings?
+
+173
+00:09:48,760 --> 00:09:52,520
+Speaker 4:  Is there, do you find that there's a specific part of the country
+
+174
+00:09:52,610 --> 00:09:56,600
+Speaker 4:  or globally that just gets really jacked
+
+175
+00:09:56,600 --> 00:10:00,320
+Speaker 4:  up about the McRib coming back? Like what, what is the data that you have
+
+176
+00:10:00,320 --> 00:10:01,880
+Speaker 4:  seen that you find the most interesting?
+
+177
+00:10:02,150 --> 00:10:06,080
+Speaker 6:  Yeah, it is interesting, you know, more when we've done over the years where
+
+178
+00:10:06,080 --> 00:10:09,400
+Speaker 6:  the releases have not been nationwide, trying to see how it trickles out
+
+179
+00:10:09,400 --> 00:10:13,000
+Speaker 6:  to what regions get it first. And we definitely get a lot of traffic coming
+
+180
+00:10:13,000 --> 00:10:16,960
+Speaker 6:  from the southeast. We get it from the south and we do get it
+
+181
+00:10:16,960 --> 00:10:20,600
+Speaker 6:  a little bit out to the west too. But there are certainly states that are
+
+182
+00:10:20,600 --> 00:10:24,240
+Speaker 6:  voids whether it's just, there's not as many fans there, maybe they're not
+
+183
+00:10:24,240 --> 00:10:27,520
+Speaker 6:  as, you know, maybe they're not unaware of the McRib locator that's possible.
+
+184
+00:10:27,520 --> 00:10:30,920
+Speaker 6:  But there are certainly some states we don't see it much. I see tons of traffic
+
+185
+00:10:30,920 --> 00:10:34,280
+Speaker 6:  from New England states asking will it be back? Because there are part of
+
+186
+00:10:34,280 --> 00:10:38,160
+Speaker 6:  the country that very often gets skipped. They don't get the M McRib for
+
+187
+00:10:38,160 --> 00:10:41,320
+Speaker 6:  one reason or another. I remember a couple years ago, well it's been a number
+
+188
+00:10:41,320 --> 00:10:45,080
+Speaker 6:  of years ago now, New York City area, all the McDonald's store owners were
+
+189
+00:10:45,080 --> 00:10:48,400
+Speaker 6:  trying to decide should we bring the M McRib back? And one of the locators
+
+190
+00:10:48,550 --> 00:10:52,480
+Speaker 6:  stores, they really wanted it back, but the majority said, no, we,
+
+191
+00:10:52,480 --> 00:10:55,760
+Speaker 6:  we don't think we wanna offer it this year. So that owner actually went on
+
+192
+00:10:56,000 --> 00:10:58,800
+Speaker 6:  Twitter and was like, Hey everybody, I really tried for you. But it, it just
+
+193
+00:10:58,800 --> 00:11:02,720
+Speaker 6:  didn't work out. So we, we see a huge draw to areas that don't get it because
+
+194
+00:11:02,720 --> 00:11:06,400
+Speaker 6:  they wanna have it again. So the last couple years having it
+
+195
+00:11:06,400 --> 00:11:09,480
+Speaker 6:  nationwide has been, you know, it's been really nice for all the fans that
+
+196
+00:11:09,480 --> 00:11:09,880
+Speaker 6:  are out there.
+
+197
+00:11:10,530 --> 00:11:14,200
+Speaker 4:  So right now, currently, we should elaborate on this for
+
+198
+00:11:14,200 --> 00:11:18,160
+Speaker 4:  people who are maybe less Mick aware of the Mick
+
+199
+00:11:18,160 --> 00:11:21,800
+Speaker 4:  McRib status. So the, the Mick McRib currently is retired,
+
+200
+00:11:21,800 --> 00:11:24,080
+Speaker 4:  they had a farewell tour last fall.
+
+201
+00:11:24,080 --> 00:11:27,280
+Speaker 6:  That's what they say, right? We've done this before. Like this isn't new
+
+202
+00:11:27,280 --> 00:11:30,840
+Speaker 6:  for Mick Rib fans. That's, that's sort of part of the alert for some, right?
+
+203
+00:11:30,840 --> 00:11:34,520
+Speaker 6:  Like will it be back or won't it be back thus far? We see,
+
+204
+00:11:34,580 --> 00:11:38,360
+Speaker 6:  you know, every year McDonald's reports how much revenues they've had in
+
+205
+00:11:38,360 --> 00:11:42,040
+Speaker 6:  the quarters and we've seen whenever the McRib has been back, those quarters
+
+206
+00:11:42,040 --> 00:11:45,800
+Speaker 6:  seem to do better for them. So it's an interesting idea of, well it's retired
+
+207
+00:11:45,800 --> 00:11:49,080
+Speaker 6:  in the United States because keep in mind in Germany you can always get the
+
+208
+00:11:49,080 --> 00:11:52,960
+Speaker 6:  McRib. It's there year round, it's always available and it does pop up in,
+
+209
+00:11:52,960 --> 00:11:55,560
+Speaker 6:  in other parts of the world from time to time. We had Malta this year, I
+
+210
+00:11:55,560 --> 00:11:58,960
+Speaker 6:  hadn't seen them for a long time or Australia even. There's people down there
+
+211
+00:11:58,960 --> 00:12:02,760
+Speaker 6:  that get it or Japan, it floats around where it comes. And oftentimes those
+
+212
+00:12:02,760 --> 00:12:06,280
+Speaker 6:  international options are maybe a little bit different spin on the McRib,
+
+213
+00:12:06,280 --> 00:12:09,680
+Speaker 6:  but it's still the McRib, they still advertise it that way. Central America
+
+214
+00:12:09,680 --> 00:12:12,680
+Speaker 6:  gets them every year now too, where they have these little variations on
+
+215
+00:12:12,680 --> 00:12:16,160
+Speaker 6:  them that are kind of fun. But yeah, I mean the fans come, they come in from
+
+216
+00:12:16,160 --> 00:12:19,080
+Speaker 6:  most places cuz they all want to participate and help each other, which is
+
+217
+00:12:19,080 --> 00:12:20,560
+Speaker 6:  really what I like about the webpage.
+
+218
+00:12:24,910 --> 00:12:28,640
+Speaker 4:  Okay, we're gonna take a quick break, but when I come back I'll chat with
+
+219
+00:12:28,640 --> 00:12:32,200
+Speaker 4:  Alex Kranz about McDonald's making their own version of the McRib
+
+220
+00:12:32,200 --> 00:12:34,520
+Speaker 4:  locator and how Allen felt about that.
+
+221
+00:12:43,250 --> 00:12:47,020
+Speaker 1:  This episode is sponsored by Toyota Crown Crown's available hybrid
+
+222
+00:12:47,020 --> 00:12:50,740
+Speaker 1:  max powertrain and standard all-wheel drive makes this sedan a leader in
+
+223
+00:12:50,740 --> 00:12:54,260
+Speaker 1:  the field from the premium driver focused interior that says you're always
+
+224
+00:12:54,260 --> 00:12:58,060
+Speaker 1:  comfortable in the spotlight to the stylish exterior that says Trendsetter
+
+225
+00:12:58,060 --> 00:13:01,980
+Speaker 1:  Toyota says, wherever you go in the all new Toyota crown, you make a statement,
+
+226
+00:13:02,000 --> 00:13:05,740
+Speaker 1:  the car that says so much, visit toyota.com/crown
+
+227
+00:13:05,750 --> 00:13:08,500
+Speaker 1:  to learn more. Toyota, let's go places.
+
+228
+00:13:16,630 --> 00:13:19,560
+Speaker 4:  Okay, we're back. And Alex Kranz is here. Hi Alex.
+
+229
+00:13:19,720 --> 00:13:22,560
+Speaker 3:  Hello. You guys have made me absolutely starving.
+
+230
+00:13:22,560 --> 00:13:26,520
+Speaker 4:  Good. I could not have imagined that there was a whole underbelly,
+
+231
+00:13:26,830 --> 00:13:30,760
+Speaker 4:  a pork underbelly, if you will. There's just a whole underbelly
+
+232
+00:13:30,760 --> 00:13:34,640
+Speaker 4:  world of finding a m McRib, like the M McRib has such a, has such a fan
+
+233
+00:13:34,640 --> 00:13:34,840
+Speaker 4:  base.
+
+234
+00:13:35,110 --> 00:13:38,920
+Speaker 3:  Yeah, and I remember like used to it was, it was temporary. And so when he
+
+235
+00:13:38,920 --> 00:13:42,720
+Speaker 3:  started this in 2009, it was like a limited offer and
+
+236
+00:13:42,720 --> 00:13:46,280
+Speaker 3:  kinda like the Shamrock Shake. And then in 2016
+
+237
+00:13:47,000 --> 00:13:50,880
+Speaker 3:  McDonald's had their own like app called the Mick McRib finder, which
+
+238
+00:13:50,880 --> 00:13:52,040
+Speaker 3:  kind of felt like a clone.
+
+239
+00:13:52,870 --> 00:13:56,560
+Speaker 7:  Well Friends, the Cult classic is back at McDonald's,
+
+240
+00:13:56,780 --> 00:14:00,720
+Speaker 7:  the McRib, if you wanna make sure where you can find it, they actually have
+
+241
+00:14:00,720 --> 00:14:04,640
+Speaker 7:  a M McRib locator app. So you go into your app store and you
+
+242
+00:14:04,640 --> 00:14:07,360
+Speaker 7:  can download this app and it's a M McRib finder, but
+
+243
+00:14:07,360 --> 00:14:11,280
+Speaker 4:  They absolutely must have known about Alan's page and then
+
+244
+00:14:11,280 --> 00:14:14,760
+Speaker 4:  just, you know, just, just Facebooked it just Facebooked it for themselves
+
+245
+00:14:14,850 --> 00:14:18,440
+Speaker 4:  as I, as I like to call it. Yeah, it was a very, obviously a very
+
+246
+00:14:18,440 --> 00:14:22,360
+Speaker 4:  influential website for Mick McRib lovers everywhere. Yeah. And clearly
+
+247
+00:14:22,390 --> 00:14:26,320
+Speaker 4:  a very good idea. So they launched the Mick McRib finder not locator.
+
+248
+00:14:26,980 --> 00:14:30,920
+Speaker 4:  Fun fact about that. It's not around anymore. So Alan's own Mick
+
+249
+00:14:30,920 --> 00:14:34,240
+Speaker 4:  McRib locator completely outlasted McDonald's official offering.
+
+250
+00:14:34,570 --> 00:14:34,920
+Speaker 4:  Oh
+
+251
+00:14:34,920 --> 00:14:38,720
+Speaker 3:  My God, I love that. So how does, how does Alan actually feel about
+
+252
+00:14:39,320 --> 00:14:40,680
+Speaker 3:  McDonald's kind of aping his work?
+
+253
+00:14:40,830 --> 00:14:43,040
+Speaker 4:  Well, I asked him about that, so let's hear,
+
+254
+00:14:43,430 --> 00:14:45,920
+Speaker 6:  I remember it coming out and going, well wow, they're doing something just
+
+255
+00:14:45,920 --> 00:14:49,640
+Speaker 6:  like I'm doing. But you know, the, the main difference always was is mine
+
+256
+00:14:49,640 --> 00:14:53,440
+Speaker 6:  was crowdsourced. So the McDonald's webpage at the start OFM McRib season,
+
+257
+00:14:53,550 --> 00:14:57,400
+Speaker 6:  they don't always show the availability that's truly in store because they're
+
+258
+00:14:57,400 --> 00:15:00,200
+Speaker 6:  showing what's available for their consumers and their app, or that's what
+
+259
+00:15:00,200 --> 00:15:03,640
+Speaker 6:  it is nowadays. That's what's available on the app. And those early days,
+
+260
+00:15:03,710 --> 00:15:06,720
+Speaker 6:  they don't show the m McRib is available. We, I remember this year someone
+
+261
+00:15:06,720 --> 00:15:09,400
+Speaker 6:  said they went like two or three weeks before it actually became available
+
+262
+00:15:09,400 --> 00:15:13,280
+Speaker 6:  on the register in store. They could still order it, but that was being
+
+263
+00:15:13,280 --> 00:15:16,880
+Speaker 6:  rung up as a different product. And it certainly is certainly more interesting
+
+264
+00:15:16,880 --> 00:15:20,440
+Speaker 6:  toward the end of the season too, is are they still there? And certainly
+
+265
+00:15:20,440 --> 00:15:23,880
+Speaker 6:  the McDonald's app today at least their mobile ordering app is certainly
+
+266
+00:15:23,880 --> 00:15:27,160
+Speaker 6:  more accustomed to catching that toward the end. But that initial upfront
+
+267
+00:15:27,160 --> 00:15:30,800
+Speaker 6:  is where my webpage continues to provide value for Mick McRib fans because
+
+268
+00:15:30,800 --> 00:15:33,560
+Speaker 6:  it's, it's not there on the menu, but we know it's there.
+
+269
+00:15:33,670 --> 00:15:37,280
+Speaker 4:  Yeah, I mean the, the reflection of live reporting
+
+270
+00:15:37,650 --> 00:15:41,080
+Speaker 4:  is certainly a much more powerful tool for anybody actually
+
+271
+00:15:41,130 --> 00:15:44,760
+Speaker 4:  seeking a Mick rib. So you're, you're gonna keep going, you're gonna
+
+272
+00:15:44,760 --> 00:15:48,080
+Speaker 4:  keep the site up, you're gonna keep it running. Do you consider yourself
+
+273
+00:15:48,080 --> 00:15:51,720
+Speaker 4:  a Mick influencer? Are you, like is this a thing that you've, that has gone
+
+274
+00:15:51,720 --> 00:15:54,800
+Speaker 4:  a little bit beyond McRib locator or do you feel like it's pretty contained
+
+275
+00:15:54,800 --> 00:15:58,680
+Speaker 4:  to just like running this website and specifically supporting people
+
+276
+00:15:58,680 --> 00:16:00,520
+Speaker 4:  who would like to enjoy a mc McRib?
+
+277
+00:16:00,710 --> 00:16:04,240
+Speaker 6:  Yeah, there've been, people reach out in the past asking for other products
+
+278
+00:16:04,240 --> 00:16:07,600
+Speaker 6:  perhaps that we would, we would try to pursue. And I did do another one where
+
+279
+00:16:07,600 --> 00:16:11,000
+Speaker 6:  for the, the Shamrock Shake, right, the Shamrock Shake used to be one that
+
+280
+00:16:11,000 --> 00:16:14,560
+Speaker 6:  wasn't always a perennial this time of year. So I had another idea why I
+
+281
+00:16:14,560 --> 00:16:18,000
+Speaker 6:  did the Shake Locator, but it wasn't as popular because again, it was a product
+
+282
+00:16:18,000 --> 00:16:21,520
+Speaker 6:  that became more consistently available and it still lives,
+
+283
+00:16:21,730 --> 00:16:25,720
+Speaker 6:  it just isn't used all that much because fans know, oh, it's coming to be,
+
+284
+00:16:25,720 --> 00:16:29,000
+Speaker 6:  you know, around St. Patrick's Day will get a shamrock shake nowadays. But
+
+285
+00:16:29,090 --> 00:16:32,600
+Speaker 6:  it certainly lives on, I mean, I certainly have no intention of
+
+286
+00:16:32,600 --> 00:16:36,360
+Speaker 6:  disbanding the McRib locator. And I, I don't really see myself
+
+287
+00:16:36,490 --> 00:16:40,080
+Speaker 6:  as an influencer per se. I mean, my efforts are always focused on the mcg
+
+288
+00:16:40,080 --> 00:16:43,400
+Speaker 6:  McRib and I'm certainly going to promote because it, you know, obviously
+
+289
+00:16:43,400 --> 00:16:46,760
+Speaker 6:  it helps myself get other fans onto the page, you know, hey, the mcg McRib
+
+290
+00:16:46,760 --> 00:16:50,680
+Speaker 6:  is back and I have had regional McDonald's locations contact me saying, Hey,
+
+291
+00:16:50,680 --> 00:16:53,880
+Speaker 6:  you know what, these particular stores are gonna start serving it these days.
+
+292
+00:16:54,020 --> 00:16:57,240
+Speaker 6:  You know, they want to help get the information in, but there's, it's more
+
+293
+00:16:57,240 --> 00:17:01,000
+Speaker 6:  of a mutual conversation so than an influence type position.
+
+294
+00:17:01,490 --> 00:17:05,000
+Speaker 4:  So I know that part of the website allows you to report
+
+295
+00:17:05,000 --> 00:17:08,560
+Speaker 4:  anonymously and if you do that then you're, you show up as the
+
+296
+00:17:08,560 --> 00:17:12,360
+Speaker 4:  hamburger on the map. Right. Which is delightful. It's a great detail,
+
+297
+00:17:12,580 --> 00:17:16,440
+Speaker 4:  but I, I can't make a a a mick disinformation joke here.
+
+298
+00:17:17,240 --> 00:17:21,040
+Speaker 4:  That's word doesn't sound great, it's not funny. But
+
+299
+00:17:21,040 --> 00:17:24,800
+Speaker 4:  how do you, how do you deal with moderation? How do you deal with false reports?
+
+300
+00:17:24,800 --> 00:17:28,600
+Speaker 4:  Have you ever had a situation in which you've been swarmed by people trying
+
+301
+00:17:28,600 --> 00:17:32,080
+Speaker 4:  to sort of falsely claim a Mick rib is somewhere, I know this is like the
+
+302
+00:17:32,080 --> 00:17:35,880
+Speaker 4:  smallest of problems for people, like I've come to this McDonald's
+
+303
+00:17:35,880 --> 00:17:38,840
+Speaker 4:  and the, the hamburger said there was a mc McRib beer and there isn't one.
+
+304
+00:17:39,560 --> 00:17:42,560
+Speaker 4:  But how do you, how do you deal with that? Or, or have you ever had to deal
+
+305
+00:17:42,560 --> 00:17:42,880
+Speaker 4:  with that?
+
+306
+00:17:43,210 --> 00:17:47,000
+Speaker 6:  No, it's, it's a very real problem. I, I do get plenty of reports every year
+
+307
+00:17:47,000 --> 00:17:50,440
+Speaker 6:  from people for one reason or another. Another, maybe they thought they were
+
+308
+00:17:50,440 --> 00:17:53,760
+Speaker 6:  going to say I'd like to have one. Or maybe they were just being funny with
+
+309
+00:17:53,760 --> 00:17:57,080
+Speaker 6:  their friends to say, look, it's on a map that seems to be most likely the
+
+310
+00:17:57,080 --> 00:18:00,400
+Speaker 6:  case. That's where each of those reports before they're confirmed, there's
+
+311
+00:18:00,400 --> 00:18:03,880
+Speaker 6:  an option to say, I think it's here or I dispute that it's here
+
+312
+00:18:03,980 --> 00:18:07,600
+Speaker 6:  cuz that helps me hone in on the ones that are most likely a suspicious
+
+313
+00:18:07,600 --> 00:18:10,840
+Speaker 6:  reporting. Obviously like this time of year, I know most likely it's going
+
+314
+00:18:10,840 --> 00:18:14,760
+Speaker 6:  to be not real if it's in the United States, but I can still go flush out,
+
+315
+00:18:14,760 --> 00:18:18,640
+Speaker 6:  go look, do my diligence to find out is it actually there. And I remember
+
+316
+00:18:18,640 --> 00:18:22,400
+Speaker 6:  a couple years ago where one fan, you know, it's just myself
+
+317
+00:18:22,400 --> 00:18:25,960
+Speaker 6:  and my wife helps do some of the social media stuff for me it's just a two
+
+318
+00:18:25,960 --> 00:18:29,480
+Speaker 6:  of us. Keep in mind it's not, it's not like a team of McRib locator
+
+319
+00:18:29,600 --> 00:18:33,280
+Speaker 6:  staff here going through trying to track things down. So it's, you know,
+
+320
+00:18:33,280 --> 00:18:36,400
+Speaker 6:  as I get to it outside of my normal day job or whatever we have going on,
+
+321
+00:18:36,620 --> 00:18:40,200
+Speaker 6:  and I remember one particular day I got this email from someone,
+
+322
+00:18:40,200 --> 00:18:43,560
+Speaker 6:  they're like, please take this location off the map. We're getting bombarded
+
+323
+00:18:43,560 --> 00:18:47,480
+Speaker 6:  with calls. We don't have the McRib. And I apologize to them like, I'm so
+
+324
+00:18:47,480 --> 00:18:50,880
+Speaker 6:  sorry that happened. I went in and removed it immediately. Cuz obviously
+
+325
+00:18:50,880 --> 00:18:54,800
+Speaker 6:  nobody wants that experience, but it, it's a real problem. So it's, it's
+
+326
+00:18:54,800 --> 00:18:58,560
+Speaker 6:  more as best I can, I stay up with those reports to flush 'em out.
+
+327
+00:18:58,860 --> 00:19:02,520
+Speaker 6:  And then again, having the fans also help contribute to say, no that's not
+
+328
+00:19:02,520 --> 00:19:05,680
+Speaker 6:  true. That helps me focus in on those ones to start with.
+
+329
+00:19:05,990 --> 00:19:09,800
+Speaker 4:  Yeah, it's, it is very interesting that you seem to
+
+330
+00:19:09,800 --> 00:19:13,680
+Speaker 4:  have kind of grassroots cultivated a very
+
+331
+00:19:13,980 --> 00:19:17,920
+Speaker 4:  transparent and willingly honest group
+
+332
+00:19:17,920 --> 00:19:21,840
+Speaker 4:  of users who, who seem very dedicated to making sure that accurate
+
+333
+00:19:21,840 --> 00:19:25,600
+Speaker 4:  information is on your website. Like I, I think that seems like a very
+
+334
+00:19:25,960 --> 00:19:29,160
+Speaker 4:  baseline expectation, but I also believe that
+
+335
+00:19:29,560 --> 00:19:33,200
+Speaker 4:  right now in 2023 it is actually maybe, maybe not a
+
+336
+00:19:33,360 --> 00:19:36,760
+Speaker 4:  baseline expectation and it is a pleasant surprise.
+
+337
+00:19:37,030 --> 00:19:40,440
+Speaker 6:  Yeah. And again it's not like you're saying the majority of the users that
+
+338
+00:19:40,440 --> 00:19:43,400
+Speaker 6:  come in, they're there for the honest reason of I'm interested in the McRib.
+
+339
+00:19:43,780 --> 00:19:47,520
+Speaker 6:  And it's not terribly hard when people put in their fake
+
+340
+00:19:47,520 --> 00:19:50,480
+Speaker 6:  reports. Oftentimes there's things about those reports that make it very
+
+341
+00:19:50,480 --> 00:19:54,440
+Speaker 6:  clear by the name or whatever it is that's in there that these aren't real
+
+342
+00:19:54,440 --> 00:19:57,960
+Speaker 6:  reports. So by and far the fans are people who
+
+343
+00:19:58,080 --> 00:20:00,840
+Speaker 6:  legit. I want to contribute back to the MCG McRib community.
+
+344
+00:20:01,090 --> 00:20:04,640
+Speaker 4:  There's something really special about weird websites right now.
+
+345
+00:20:04,850 --> 00:20:08,080
+Speaker 4:  We discussed this just a little bit when I did a soundcheck with you last
+
+346
+00:20:08,080 --> 00:20:11,920
+Speaker 4:  week. There is an era of the internet from
+
+347
+00:20:11,920 --> 00:20:15,360
+Speaker 4:  around the early aughts where you could just find
+
+348
+00:20:15,580 --> 00:20:19,560
+Speaker 4:  the strangest websites, the most niche websites
+
+349
+00:20:19,900 --> 00:20:23,800
+Speaker 4:  and they would be so delightful and bizarre
+
+350
+00:20:23,980 --> 00:20:27,920
+Speaker 4:  and serve a very specific group of people. And it feels like
+
+351
+00:20:28,100 --> 00:20:31,320
+Speaker 4:  the M McRib locator is sort of an echo of that
+
+352
+00:20:31,510 --> 00:20:35,200
+Speaker 4:  bygone era because really we don't have that as much anymore or
+
+353
+00:20:35,200 --> 00:20:38,800
+Speaker 4:  it's all shifted really to social media. You have kind of your favorite weirdo
+
+354
+00:20:38,800 --> 00:20:42,760
+Speaker 4:  niche accounts across social, wherever that may be. And I would
+
+355
+00:20:42,760 --> 00:20:46,040
+Speaker 4:  love to hear your thoughts on that. Thoughts about the Mick McRib locator
+
+356
+00:20:46,160 --> 00:20:50,000
+Speaker 4:  still being a a a traditional website number one and, and not having
+
+357
+00:20:50,000 --> 00:20:53,600
+Speaker 4:  moved to an app or something that's a little bit more
+
+358
+00:20:53,600 --> 00:20:57,360
+Speaker 4:  siloed off because you mentioned the McRib locator is a
+
+359
+00:20:57,360 --> 00:21:01,080
+Speaker 4:  global tool and there are a lot of people who do not use smartphones
+
+360
+00:21:01,170 --> 00:21:04,960
+Speaker 4:  in other markets. And so the ability to use the M McRib locator
+
+361
+00:21:05,440 --> 00:21:09,200
+Speaker 4:  seems very critical to me no matter what type of phone
+
+362
+00:21:09,200 --> 00:21:12,160
+Speaker 4:  you're using. And I, I would love to hear your thoughts on that and and just
+
+363
+00:21:12,160 --> 00:21:15,880
+Speaker 4:  in general that sort of having a website that is a little weird, a little
+
+364
+00:21:15,880 --> 00:21:19,560
+Speaker 4:  different that has echoes of that long gone era of weird
+
+365
+00:21:19,560 --> 00:21:20,720
+Speaker 4:  websites you can find.
+
+366
+00:21:20,950 --> 00:21:24,920
+Speaker 6:  Yeah it definitely does do that. It and a lot of, I think like
+
+367
+00:21:24,920 --> 00:21:28,000
+Speaker 6:  we said, those earlier years you had something you would come in for, there
+
+368
+00:21:28,000 --> 00:21:31,440
+Speaker 6:  was new content so you kept coming back or there was a particular item
+
+369
+00:21:31,620 --> 00:21:34,320
+Speaker 6:  not really all that much different from things going, you know, viral as
+
+370
+00:21:34,320 --> 00:21:37,560
+Speaker 6:  they do today. You had this thing like, hey this is really cool and you would
+
+371
+00:21:37,560 --> 00:21:40,320
+Speaker 6:  go and you'd enjoy it for a while and if there was nothing new you kind of
+
+372
+00:21:40,320 --> 00:21:44,120
+Speaker 6:  moved on. And the difference with the McRib locator was obviously the data
+
+373
+00:21:44,120 --> 00:21:48,080
+Speaker 6:  comes and goes, right? It's not, it's not just a one time, this is it type
+
+374
+00:21:48,080 --> 00:21:51,560
+Speaker 6:  of thing. And I think that's what's helped keep the interest up in it. It
+
+375
+00:21:51,560 --> 00:21:55,040
+Speaker 6:  certainly helps with a product that comes and goes off the market at
+
+376
+00:21:55,040 --> 00:21:58,960
+Speaker 6:  certainly no, no good reason. But yeah, it, it has always been very
+
+377
+00:21:59,160 --> 00:22:02,680
+Speaker 6:  interesting to see these pages that come up that go away. You know, they,
+
+378
+00:22:02,680 --> 00:22:06,000
+Speaker 6:  they do a lot of things and there's, I think part of the reason they go away
+
+379
+00:22:06,000 --> 00:22:09,800
+Speaker 6:  maybe is there's a lot of upkeep for some webpages, right? Like the more
+
+380
+00:22:09,800 --> 00:22:12,920
+Speaker 6:  and more you build into it, the more and more upkeep there is. And that was
+
+381
+00:22:12,920 --> 00:22:16,080
+Speaker 6:  sort of the same thing cuz I, I used to have an app for mobile devices that
+
+382
+00:22:16,080 --> 00:22:19,800
+Speaker 6:  I used, but it, it didn't really have the draw that the page itself did.
+
+383
+00:22:19,800 --> 00:22:23,320
+Speaker 6:  Like you said, I think because people were more, I'm willing to go to a webpage,
+
+384
+00:22:23,460 --> 00:22:27,120
+Speaker 6:  I'm a little hesitant to download an app and, and maybe even in this case
+
+385
+00:22:27,360 --> 00:22:30,720
+Speaker 6:  like this is a really strange, maybe I'll use it one time kind of thing.
+
+386
+00:22:30,910 --> 00:22:34,800
+Speaker 4:  It's an extra step that people are hesitant to do because your
+
+387
+00:22:34,800 --> 00:22:38,600
+Speaker 4:  phone has, you know, precious real estate app wise and it's like there's
+
+388
+00:22:38,600 --> 00:22:41,120
+Speaker 4:  that transaction there where you're like, oh I feel obligated to use this
+
+389
+00:22:41,120 --> 00:22:42,360
+Speaker 4:  if I'm gonna install it on my phone.
+
+390
+00:22:42,360 --> 00:22:45,160
+Speaker 6:  Right. And I certainly have had people still reach out like, Hey I really
+
+391
+00:22:45,160 --> 00:22:48,160
+Speaker 6:  miss that app. And I'm like, well you know, I, it just, there's not enough
+
+392
+00:22:48,160 --> 00:22:51,800
+Speaker 6:  time to keep it, you know, keep it modern to keep it useful. And it was an
+
+393
+00:22:51,800 --> 00:22:54,880
+Speaker 6:  okay app. I mean it certainly had things that needed improvements on, but
+
+394
+00:22:55,050 --> 00:22:58,560
+Speaker 6:  it was still more like coming back to the webpage still gave you that full
+
+395
+00:22:58,560 --> 00:23:02,400
+Speaker 6:  experience because you could still contribute by looking at the map, you
+
+396
+00:23:02,400 --> 00:23:06,040
+Speaker 6:  could still contribute by, you know, helping prove if a McRib report if you
+
+397
+00:23:06,040 --> 00:23:09,480
+Speaker 6:  thought it was true or not, if it's fake or not. And those kinds of things
+
+398
+00:23:09,480 --> 00:23:12,920
+Speaker 6:  kept people coming back and I think that's really what a lot of those other
+
+399
+00:23:12,920 --> 00:23:15,800
+Speaker 6:  pages, I mean they were great pages but they just, they didn't have something
+
+400
+00:23:15,800 --> 00:23:19,040
+Speaker 6:  to keep getting someone to come back. And that's I think why they've more
+
+401
+00:23:19,040 --> 00:23:22,440
+Speaker 6:  or less either been absorbed into somewhere else or like you said, maybe
+
+402
+00:23:22,440 --> 00:23:25,480
+Speaker 6:  they found better avenues through social media. Like this works better for
+
+403
+00:23:25,480 --> 00:23:29,320
+Speaker 6:  us to have the content come here exclusively. And and we do. Yeah, we, we
+
+404
+00:23:29,320 --> 00:23:32,800
+Speaker 6:  certainly also have the social media page is that or out there to help communicate
+
+405
+00:23:32,800 --> 00:23:36,000
+Speaker 6:  cuz that helps garner traffic from a different avenue as well. Cause it's
+
+406
+00:23:36,000 --> 00:23:39,960
+Speaker 6:  a lot easier nowadays to go out on social and say, Hey, news, news,
+
+407
+00:23:39,960 --> 00:23:43,400
+Speaker 6:  news versus before is like, well I hope you come back to my webpage when
+
+408
+00:23:43,400 --> 00:23:46,080
+Speaker 6:  there's something new. So yeah, it's a little, a little bit different transition
+
+409
+00:23:46,080 --> 00:23:46,600
+Speaker 6:  over the years.
+
+410
+00:23:46,910 --> 00:23:50,680
+Speaker 4:  Yeah. And you, you mentioned having a day job. I am
+
+411
+00:23:50,680 --> 00:23:53,720
+Speaker 4:  going to assume McRib locator is not your day job.
+
+412
+00:23:53,930 --> 00:23:54,640
+Speaker 6:  No it is not.
+
+413
+00:23:55,340 --> 00:23:59,160
+Speaker 4:  But does it make enough money to sustain itself? Is this something
+
+414
+00:23:59,160 --> 00:24:02,200
+Speaker 4:  that you just, you know, sort of pay for out of pocket? Do you have ads?
+
+415
+00:24:02,200 --> 00:24:05,680
+Speaker 4:  How do you make money or do you make money on Mick Rib
+
+416
+00:24:05,680 --> 00:24:07,800
+Speaker 4:  locator? What's the process there?
+
+417
+00:24:08,070 --> 00:24:11,280
+Speaker 6:  Yeah, so the, the early years of the Mick McRib locator, there was absolutely
+
+418
+00:24:11,280 --> 00:24:14,280
+Speaker 6:  no ads. I was like, I don't want ads on this thing. This is, this is what
+
+419
+00:24:14,280 --> 00:24:17,280
+Speaker 6:  it is. And I had pay for it out pocket. And then over the years it's like,
+
+420
+00:24:17,550 --> 00:24:20,640
+Speaker 6:  well you know, there's, if I put a couple ads here and there, there's no
+
+421
+00:24:20,650 --> 00:24:23,840
+Speaker 6:  no reason they can be there. They'll generate enough revenue to help pay
+
+422
+00:24:24,040 --> 00:24:26,720
+Speaker 6:  for the page. And it does, there's a little bit in excess every year that
+
+423
+00:24:26,720 --> 00:24:30,040
+Speaker 6:  I put back toward other ideas. Like, you know, a number of years ago we gave
+
+424
+00:24:30,040 --> 00:24:33,840
+Speaker 6:  our make McRib locator pens or other types of merchandise that people
+
+425
+00:24:33,840 --> 00:24:37,080
+Speaker 6:  are really interested in. We, we try to find these things that we can send
+
+426
+00:24:37,080 --> 00:24:40,520
+Speaker 6:  out. We had stickers, we had, we've done various things over the years. Like
+
+427
+00:24:40,520 --> 00:24:43,680
+Speaker 6:  give something back to the fans cuz that's how you keep people interested.
+
+428
+00:24:43,710 --> 00:24:46,520
+Speaker 6:  That's sort of what we've done with it. It's certainly not something I'm
+
+429
+00:24:46,520 --> 00:24:49,680
+Speaker 6:  losing money on anymore, but it is certainly not something I'm looking to
+
+430
+00:24:49,680 --> 00:24:53,400
+Speaker 6:  make tons of money on either cuz I'm not, I'm not interested in doing that
+
+431
+00:24:53,400 --> 00:24:53,920
+Speaker 6:  per se.
+
+432
+00:24:53,920 --> 00:24:55,520
+Speaker 4:  You're not buying a McDonald's with
+
+433
+00:24:55,520 --> 00:24:58,400
+Speaker 6:  It. Yeah, yeah. I'm not trying to buy a McDonald's with it. I'm not, I'm
+
+434
+00:24:58,400 --> 00:25:00,920
+Speaker 6:  certainly not trying to do anything like that. I'm just, it's just keep it
+
+435
+00:25:00,920 --> 00:25:03,720
+Speaker 6:  rolling as long as we can because it's, it's one of those things, like you
+
+436
+00:25:03,720 --> 00:25:07,240
+Speaker 6:  said, you never really know when the fan base is gonna say, well
+
+437
+00:25:07,840 --> 00:25:08,560
+Speaker 6:  I've had enough.
+
+438
+00:25:13,030 --> 00:25:16,200
+Speaker 4:  Okay, we're gonna take one more break, but when we come back we're gonna
+
+439
+00:25:16,200 --> 00:25:19,160
+Speaker 4:  get really extra nerdy about the Mick Rib. So stay tuned.
+
+440
+00:25:24,910 --> 00:25:28,760
+Speaker 1:  This podcast is sponsored by Toyota Crown. The all new Toyota
+
+441
+00:25:28,760 --> 00:25:32,520
+Speaker 1:  crown is breaking new ground when it comes to the premium sedan with an
+
+442
+00:25:32,520 --> 00:25:36,240
+Speaker 1:  available hybrid max powertrain. The Toyota crown is the perfect combination
+
+443
+00:25:36,240 --> 00:25:40,120
+Speaker 1:  of power, style and elegance. Making it the car to glide in
+
+444
+00:25:40,120 --> 00:25:43,240
+Speaker 1:  from a driver focused interior that says you're always comfortable in the
+
+445
+00:25:43,320 --> 00:25:47,120
+Speaker 1:  spotlight to the stylish exterior that says I have arrived.
+
+446
+00:25:47,230 --> 00:25:50,960
+Speaker 1:  Toyota says, wherever you go in the all new Toyota crown, you make a
+
+447
+00:25:50,960 --> 00:25:53,320
+Speaker 1:  statement. The car that says so much, visit
+
+448
+00:25:53,320 --> 00:25:56,480
+Speaker 1:  toyota.com/crown to learn more. Toyota,
+
+449
+00:25:56,800 --> 00:25:57,800
+Speaker 1:  let's go places.
+
+450
+00:26:04,290 --> 00:26:06,830
+Speaker 4:  All right and we're back. I've got Alex here again.
+
+451
+00:26:07,090 --> 00:26:10,350
+Speaker 3:  I'm just like, I don't know how I'm gonna survive. I gotta go get on some
+
+452
+00:26:10,350 --> 00:26:10,990
+Speaker 3:  Uber Eats.
+
+453
+00:26:11,160 --> 00:26:14,150
+Speaker 4:  If you're not eating a Mick McRib by the end of this interview, I'm gonna
+
+454
+00:26:14,150 --> 00:26:15,110
+Speaker 4:  be very disappointed.
+
+455
+00:26:15,460 --> 00:26:19,150
+Speaker 3:  I really, really love how passionate Alan is about this. Like he
+
+456
+00:26:19,150 --> 00:26:22,790
+Speaker 3:  really loves the Mick McRib but also like supporting the other
+
+457
+00:26:22,790 --> 00:26:26,430
+Speaker 3:  fans of the Mick McRib and it, it kind of seems like he's gonna keep doing
+
+458
+00:26:26,430 --> 00:26:27,630
+Speaker 3:  this as long as he can.
+
+459
+00:26:27,940 --> 00:26:31,910
+Speaker 4:  Yeah, you know, the mc McRib is not around right now. It went
+
+460
+00:26:31,910 --> 00:26:35,870
+Speaker 4:  on that farewell tour and you know, he's gonna keep the website up
+
+461
+00:26:35,870 --> 00:26:38,630
+Speaker 4:  because he really thinks it's gonna come back someday.
+
+462
+00:26:39,450 --> 00:26:43,110
+Speaker 4:  And it's pretty interesting in the mc McRib fan base, which
+
+463
+00:26:43,320 --> 00:26:47,160
+Speaker 4:  is such a strange term, but it exists. There are actually a couple of
+
+464
+00:26:47,160 --> 00:26:50,800
+Speaker 4:  different theories about predicting when the M McRib might
+
+465
+00:26:50,800 --> 00:26:54,760
+Speaker 4:  return. And I did a little bit of digging about this because I was very curious.
+
+466
+00:26:54,990 --> 00:26:58,920
+Speaker 4:  I really fell into a M McRib rabbit hole and it seems like a really
+
+467
+00:26:58,920 --> 00:27:02,680
+Speaker 4:  good way to predict the return or the retirement of the McRib
+
+468
+00:27:02,680 --> 00:27:06,160
+Speaker 4:  is to keep an eye on the USDA's monthly
+
+469
+00:27:06,310 --> 00:27:07,760
+Speaker 4:  cold storage report.
+
+470
+00:27:09,350 --> 00:27:13,160
+Speaker 4:  You're laughing because it is the best thing I've ever heard in my life.
+
+471
+00:27:13,180 --> 00:27:17,120
+Speaker 4:  And it's specifically stocks of frozen pork belly year over year.
+
+472
+00:27:17,290 --> 00:27:21,200
+Speaker 4:  So the report comes out and people can look at the year
+
+473
+00:27:21,200 --> 00:27:24,960
+Speaker 4:  over year stocks of frozen pork belly and if there's a surplus
+
+474
+00:27:24,960 --> 00:27:27,920
+Speaker 4:  then maybe the Mick McRib will be back and if you start seeing it fall, then
+
+475
+00:27:27,920 --> 00:27:31,640
+Speaker 4:  maybe the Mick McRib goes away. And so it's a very interesting
+
+476
+00:27:32,230 --> 00:27:35,960
+Speaker 4:  predictive, I won't say it's a tool because it's not always a hundred
+
+477
+00:27:35,960 --> 00:27:39,520
+Speaker 4:  percent accurate to the stocks. Yeah. But it is a
+
+478
+00:27:39,520 --> 00:27:43,240
+Speaker 4:  generally good indicator of when it might come back.
+
+479
+00:27:43,450 --> 00:27:46,920
+Speaker 4:  So I started wondering here if there were any plans on
+
+480
+00:27:46,920 --> 00:27:50,520
+Speaker 4:  incorporating that data into the actual Mick r locator website
+
+481
+00:27:50,570 --> 00:27:54,320
+Speaker 4:  so that people can kind of get a magic eight ball kind of, you know, outlook,
+
+482
+00:27:54,320 --> 00:27:58,120
+Speaker 4:  like not likely, you know, just sort of that that like, hey, is the Mick
+
+483
+00:27:58,120 --> 00:28:00,800
+Speaker 4:  R gonna come back soon and just immediately have a thing that says like no
+
+484
+00:28:01,390 --> 00:28:05,240
+Speaker 4:  prediction, say maybe just, maybe you're gonna have to wait for Mick Rib
+
+485
+00:28:05,240 --> 00:28:08,560
+Speaker 4:  for a while. Outlook not so good. Yeah, outlook not so good. Or like Mick
+
+486
+00:28:08,560 --> 00:28:12,080
+Speaker 4:  rib imminent, like maybe that's like a, you know, that seems really fun.
+
+487
+00:28:12,080 --> 00:28:13,440
+Speaker 4:  So I asked Alan about that.
+
+488
+00:28:13,670 --> 00:28:16,960
+Speaker 6:  Yeah, no that, that's a great avenue to follow. I've had people over the
+
+489
+00:28:16,960 --> 00:28:20,600
+Speaker 6:  years contact me to get, again, get the anonymized data to say, hey, I would
+
+490
+00:28:20,600 --> 00:28:24,320
+Speaker 6:  like to prove if this is a thing or not. And what they were always looking
+
+491
+00:28:24,320 --> 00:28:28,040
+Speaker 6:  at more directly was the, the current pricing of of hog market
+
+492
+00:28:28,160 --> 00:28:31,960
+Speaker 6:  value. Because they would say, Hey look, the values are very low so
+
+493
+00:28:32,520 --> 00:28:36,240
+Speaker 6:  McDonald's is going to buy now. And it makes sense from a very pure financial
+
+494
+00:28:36,240 --> 00:28:38,720
+Speaker 6:  perspective, why would McDonald's buy when the market's high? They should
+
+495
+00:28:38,720 --> 00:28:41,880
+Speaker 6:  always buy when it's low to maximize profits. That makes perfect sense from
+
+496
+00:28:41,880 --> 00:28:45,520
+Speaker 6:  a business perspective. It's not something that I've directly keep an eyeball
+
+497
+00:28:45,520 --> 00:28:49,280
+Speaker 6:  on because it's, it's hard to gauge certainly over the last couple
+
+498
+00:28:49,280 --> 00:28:52,680
+Speaker 6:  years the, with the way the meat markets have been fluctuating, not just
+
+499
+00:28:52,680 --> 00:28:56,360
+Speaker 6:  pork but just in general to be able to say like absolutely certain that's
+
+500
+00:28:56,360 --> 00:28:59,840
+Speaker 6:  what's going to happen. But yeah, it makes a lot of sense and it would certainly
+
+501
+00:28:59,840 --> 00:29:02,080
+Speaker 6:  be something worth tracking and it wouldn't take a whole lot of effort to
+
+502
+00:29:02,080 --> 00:29:05,920
+Speaker 6:  do that. To say, Hey, here's what we've had a number of years ago.
+
+503
+00:29:06,230 --> 00:29:09,960
+Speaker 6:  It's been quite a few where I would have someone from one of the, the meat
+
+504
+00:29:09,960 --> 00:29:13,720
+Speaker 6:  packing plants, they'd be like, Hey, secret, secret. We're starting to make
+
+505
+00:29:13,720 --> 00:29:14,760
+Speaker 6:  McRib Pat's
+
+506
+00:29:14,840 --> 00:29:17,320
+Speaker 4:  Anonymous tips. I love
+
+507
+00:29:17,320 --> 00:29:17,600
+Speaker 6:  This.
+
+508
+00:29:17,740 --> 00:29:21,680
+Speaker 4:  Yes, it is literally the secret world of the mc McRib and I I,
+
+509
+00:29:21,680 --> 00:29:25,360
+Speaker 4:  this is so interesting that you're get, you get anonymous tips from factories,
+
+510
+00:29:25,360 --> 00:29:25,960
+Speaker 4:  that's incredible.
+
+511
+00:29:26,080 --> 00:29:29,840
+Speaker 6:  Right? And that, and that's certainly always been again understanding
+
+512
+00:29:29,840 --> 00:29:33,720
+Speaker 6:  that the McRib is like this very, very niche thing, right? Like
+
+513
+00:29:33,720 --> 00:29:36,520
+Speaker 6:  you have people who really, really like it and you have the other people
+
+514
+00:29:36,520 --> 00:29:40,400
+Speaker 6:  who like, I don't understand why is this fan base exist? But
+
+515
+00:29:40,400 --> 00:29:43,800
+Speaker 6:  that's how anything, anything is anymore. Like with the modern era of internet,
+
+516
+00:29:43,860 --> 00:29:47,600
+Speaker 6:  you can go out and find like-minded people that are really avid about
+
+517
+00:29:47,600 --> 00:29:51,080
+Speaker 6:  something and apparently that's where they come to see my Mick Rib locator.
+
+518
+00:29:51,830 --> 00:29:55,800
+Speaker 4:  I think that brings me to kind of the pen ultimate question here,
+
+519
+00:29:55,800 --> 00:29:59,560
+Speaker 4:  which is the Mick rib as we mentioned, is made with a
+
+520
+00:29:59,560 --> 00:30:03,480
+Speaker 4:  mold. It is not a traditional actual rib, it's
+
+521
+00:30:03,480 --> 00:30:07,320
+Speaker 4:  boneless. There has been some speculation that now that the
+
+522
+00:30:07,440 --> 00:30:11,200
+Speaker 4:  Mick McRib has been retired once again and we are seeing
+
+523
+00:30:11,200 --> 00:30:14,920
+Speaker 4:  the rise of plant-based foods that we may see the
+
+524
+00:30:15,040 --> 00:30:18,560
+Speaker 4:  Mick McRib return in a completely different form, which would be a plant-based
+
+525
+00:30:18,840 --> 00:30:22,800
+Speaker 4:  Mick rib. I am curious as to your thoughts on that and if
+
+526
+00:30:22,800 --> 00:30:26,560
+Speaker 4:  it does come back as a plant-based McRib, and I'll paraphrase
+
+527
+00:30:26,560 --> 00:30:30,280
+Speaker 4:  Shakespeare here, would a m McRib by any other ingredient
+
+528
+00:30:30,320 --> 00:30:31,600
+Speaker 4:  taste as sweet?
+
+529
+00:30:31,870 --> 00:30:35,640
+Speaker 6:  Yeah, you know, I've, I've not really thought much about a plant-based
+
+530
+00:30:35,640 --> 00:30:39,440
+Speaker 6:  driven m McRib like product over the years. You know, I've,
+
+531
+00:30:39,440 --> 00:30:42,920
+Speaker 6:  I've seen people just in general conversations like the sauce is different,
+
+532
+00:30:43,050 --> 00:30:46,360
+Speaker 6:  it has to be different or the bread has to be different. Like there's been
+
+533
+00:30:46,360 --> 00:30:49,680
+Speaker 6:  years where people pick up on subtlety of, of changes in the, in the house
+
+534
+00:30:49,960 --> 00:30:53,800
+Speaker 6:  produced. So I would suspect that fans switching to a plant driven M rib,
+
+535
+00:30:53,840 --> 00:30:56,800
+Speaker 6:  while some people would certainly be willing to try it, which I would be
+
+536
+00:30:56,800 --> 00:31:00,520
+Speaker 6:  one, I'll try something once. I don't think it would probably garner the
+
+537
+00:31:00,520 --> 00:31:04,240
+Speaker 6:  same fan base. It's a little bit different group of people, right?
+
+538
+00:31:04,240 --> 00:31:07,520
+Speaker 6:  It's, there's nothing wrong with the plant-based driven foods, it's just
+
+539
+00:31:07,520 --> 00:31:10,520
+Speaker 6:  that's not quite what everyone's looking for just yet. It is certainly an
+
+540
+00:31:10,520 --> 00:31:14,240
+Speaker 6:  up and coming and it's a very interesting idea to have this. Again, it's
+
+541
+00:31:14,240 --> 00:31:18,120
+Speaker 6:  a molded shape so you could certainly make a plant-based driven, McRib
+
+542
+00:31:18,120 --> 00:31:21,760
+Speaker 6:  shaped item to serve. I'm just not sure if it would have the same
+
+543
+00:31:21,790 --> 00:31:22,640
+Speaker 6:  popularity.
+
+544
+00:31:23,390 --> 00:31:26,760
+Speaker 4:  I just realized what the name of this product should be. And I shouldn't
+
+545
+00:31:26,760 --> 00:31:30,160
+Speaker 4:  laugh at my own jokes, but I mean it's right there.
+
+546
+00:31:30,440 --> 00:31:32,280
+Speaker 4:  McDonald's, you gotta name it. The mc fib.
+
+547
+00:31:32,350 --> 00:31:33,880
+Speaker 6:  Yeah the mc fib. Yes,
+
+548
+00:31:35,700 --> 00:31:39,480
+Speaker 4:  Yes. If they do that, you owe me a lot of money. McDonald's to be called
+
+549
+00:31:39,480 --> 00:31:43,160
+Speaker 4:  the mc fib. If they ever did that, let's say they
+
+550
+00:31:43,160 --> 00:31:45,840
+Speaker 4:  split it and they said we're gonna make the M McRib but we're also gonna
+
+551
+00:31:45,840 --> 00:31:49,720
+Speaker 4:  make this plant-based rim McRib, would you continue to only support
+
+552
+00:31:49,720 --> 00:31:52,920
+Speaker 4:  the authentic m McRib or would you say okay well now we have two different
+
+553
+00:31:52,920 --> 00:31:56,280
+Speaker 4:  types of m McRibs and we'll have it, you know, we'll have identifiers for
+
+554
+00:31:56,280 --> 00:32:00,240
+Speaker 4:  those at each location because maybe one in Silver Lake here
+
+555
+00:32:00,240 --> 00:32:03,880
+Speaker 4:  in Los Angeles maybe only has the plant-based McRib and not the
+
+556
+00:32:03,880 --> 00:32:07,840
+Speaker 4:  meat-based one or maybe ones in other parts of the country
+
+557
+00:32:07,840 --> 00:32:10,200
+Speaker 4:  would not carry the plant-based one and vice versa.
+
+558
+00:32:10,790 --> 00:32:13,520
+Speaker 6:  N no that, that's absolutely something that would be worth tracking and it
+
+559
+00:32:13,520 --> 00:32:17,360
+Speaker 6:  wouldn't take, again, nothing is a terrible amount of effort. So doing something
+
+560
+00:32:17,360 --> 00:32:20,480
+Speaker 6:  like that would make a lot of sense because there certainly would be the
+
+561
+00:32:20,480 --> 00:32:24,040
+Speaker 6:  fans at in a much more restricted, much more limited release of a product.
+
+562
+00:32:24,470 --> 00:32:28,360
+Speaker 6:  Having that availability would be very helpful because again, you can use
+
+563
+00:32:28,360 --> 00:32:31,240
+Speaker 6:  the McDonald's app in general when things have been on the market for a while
+
+564
+00:32:31,240 --> 00:32:35,160
+Speaker 6:  to find things. But it's generally trying to find you the closest store where
+
+565
+00:32:35,160 --> 00:32:38,720
+Speaker 6:  like the McRib locator, it's where's this pocket at? Because
+
+566
+00:32:39,520 --> 00:32:41,960
+Speaker 6:  honestly like if you're gonna make some sort of journey, which there have
+
+567
+00:32:41,960 --> 00:32:45,880
+Speaker 6:  been many people take very long journeys. Years ago somebody went from Colorado
+
+568
+00:32:45,880 --> 00:32:49,760
+Speaker 6:  clear down, I forget how many hours they went to go bring back a
+
+569
+00:32:49,760 --> 00:32:53,400
+Speaker 6:  big ton of, no big ton isn't quite the right phrasing, but they brought back
+
+570
+00:32:53,400 --> 00:32:56,760
+Speaker 6:  a lot of McRibs back to the Colorado market cause they hadn't had it. So
+
+571
+00:32:56,820 --> 00:33:00,400
+Speaker 6:  you don't wanna make that journey if it's not available. So being able to
+
+572
+00:33:00,400 --> 00:33:03,680
+Speaker 6:  see like there's a pocket of 'em here or a pocket of 'em there you have that
+
+573
+00:33:03,680 --> 00:33:07,320
+Speaker 6:  boost of confidence of I'll get there, it'll still be there. Now
+
+574
+00:33:07,530 --> 00:33:11,240
+Speaker 6:  in that same mindset, I always suggest people, even with the webpage for
+
+575
+00:33:11,240 --> 00:33:13,960
+Speaker 6:  what it is, you know, if it's getting late in the season, it's usually best
+
+576
+00:33:13,960 --> 00:33:16,960
+Speaker 6:  to give a little buzz ahead to make sure they're still there. Because again,
+
+577
+00:33:16,960 --> 00:33:20,680
+Speaker 6:  my reports on the page, they're at that moment of time.
+
+578
+00:33:21,130 --> 00:33:24,840
+Speaker 6:  So after so many days they, you know, maybe isn't as accurate anymore.
+
+579
+00:33:25,350 --> 00:33:28,920
+Speaker 4:  I know that there has been some speculation that McDonald's will let the
+
+580
+00:33:29,040 --> 00:33:32,960
+Speaker 4:  M McRib rest this year that we may not see it back. How do you
+
+581
+00:33:32,960 --> 00:33:36,520
+Speaker 4:  recover users? How do you, how do you get the word out when the M McRibs
+
+582
+00:33:36,520 --> 00:33:40,160
+Speaker 4:  been gone for a long enough time to sort of exit the collective
+
+583
+00:33:40,320 --> 00:33:42,080
+Speaker 4:  awareness of it,
+
+584
+00:33:42,240 --> 00:33:46,040
+Speaker 6:  Right? And it's really about trying to find that information to
+
+585
+00:33:46,040 --> 00:33:49,240
+Speaker 6:  tell someone that it's going to come back. Cuz if you can share that like
+
+586
+00:33:49,240 --> 00:33:52,400
+Speaker 6:  through the social media avenues like it's coming back, come back to the
+
+587
+00:33:52,400 --> 00:33:56,160
+Speaker 6:  webpage, that's our best avenues. We also get pickups and
+
+588
+00:33:56,160 --> 00:34:00,000
+Speaker 6:  as the news in general picks up on Amic McRib possibility, that
+
+589
+00:34:00,000 --> 00:34:03,160
+Speaker 6:  drives people back to that curiosity of, hey, I remember that webpage I used
+
+590
+00:34:03,160 --> 00:34:06,000
+Speaker 6:  to go to. Let's go see if it's still there. Like, you know, hey maybe it's
+
+591
+00:34:06,000 --> 00:34:09,040
+Speaker 6:  still there and hey look, there's data there that I can look at to say that
+
+592
+00:34:09,040 --> 00:34:12,280
+Speaker 6:  I can go get a McRib now. And it's kind of a fun journey in that way.
+
+593
+00:34:12,670 --> 00:34:16,640
+Speaker 4:  What is the most amount of users, unique visitors you've had in
+
+594
+00:34:16,640 --> 00:34:16,920
+Speaker 4:  a day?
+
+595
+00:34:17,250 --> 00:34:21,080
+Speaker 6:  In a particular day? I'd have to go back and look. I mean, I can
+
+596
+00:34:21,080 --> 00:34:24,880
+Speaker 6:  tell you this, last year in October for the month of October, we had about
+
+597
+00:34:24,880 --> 00:34:28,800
+Speaker 6:  200,000 unique users on the webpage at some point during the month. Man,
+
+598
+00:34:28,800 --> 00:34:30,160
+Speaker 4:  That's a lot of Mick McRib fans.
+
+599
+00:34:30,230 --> 00:34:33,160
+Speaker 6:  It's a lot of people coming to look to see what's going on. And I, I think
+
+600
+00:34:33,160 --> 00:34:36,880
+Speaker 6:  the individual days was, you know, tens of thousands probably. Cuz again,
+
+601
+00:34:37,010 --> 00:34:40,920
+Speaker 6:  as people pick up on the news outlets that say, Hey Mick McRibs back, they
+
+602
+00:34:40,920 --> 00:34:44,440
+Speaker 6:  start searching for McRib, right? And, and search is happening and one of
+
+603
+00:34:44,440 --> 00:34:46,640
+Speaker 6:  those results is gonna be the MCG McRib locator and they're gonna go, oh
+
+604
+00:34:46,640 --> 00:34:50,440
+Speaker 6:  cool, lemme go check that out. And that's where those, you know, fans
+
+605
+00:34:50,440 --> 00:34:54,200
+Speaker 6:  helping each other really comes into play because people are very curious
+
+606
+00:34:54,200 --> 00:34:55,920
+Speaker 6:  when it's back, where can I find it?
+
+607
+00:34:56,310 --> 00:34:59,960
+Speaker 4:  I love this cycle of boom and bust, the mc McRib boom and bust cycle,
+
+608
+00:35:00,120 --> 00:35:02,480
+Speaker 4:  the bell curve of, of the Mick McRib.
+
+609
+00:35:02,660 --> 00:35:05,720
+Speaker 6:  But you're right there, there's always this constant concern like maybe it
+
+610
+00:35:05,720 --> 00:35:08,960
+Speaker 6:  won't be back this year. You know, I'm, I'm disappointed as a fan myself,
+
+611
+00:35:08,960 --> 00:35:12,480
+Speaker 6:  I'm disappointed as the operator of the webpage, but it's still like,
+
+612
+00:35:13,040 --> 00:35:16,360
+Speaker 6:  we'll see how it goes. You know, as a fan, obviously I want to be nationwide
+
+613
+00:35:16,360 --> 00:35:18,600
+Speaker 6:  every year because I want people to be able to get it wherever they can.
+
+614
+00:35:19,020 --> 00:35:22,640
+Speaker 6:  And in the same token as a, as a webpage, you know, when it's more
+
+615
+00:35:22,640 --> 00:35:25,840
+Speaker 6:  restricted I get more traffic. So it's that kind of catch of, well, which
+
+616
+00:35:25,840 --> 00:35:29,080
+Speaker 6:  one's? Right? And I've always preferred, you know, get it wherever you can.
+
+617
+00:35:37,190 --> 00:35:40,800
+Speaker 3:  Okay, thank you. That is it for the Verge cast this week. Although Ashley,
+
+618
+00:35:40,800 --> 00:35:42,160
+Speaker 3:  I gotta say mc fib
+
+619
+00:35:42,830 --> 00:35:46,000
+Speaker 4:  Alex, look, no one's sending me any royalties. Everyone on Earth has thought
+
+620
+00:35:46,000 --> 00:35:49,920
+Speaker 4:  of mc fib. I realized this the second the interview was over and I
+
+621
+00:35:49,920 --> 00:35:53,640
+Speaker 4:  was like, oh no, everyone's gonna just think I'm the dumbest human being
+
+622
+00:35:53,640 --> 00:35:53,920
+Speaker 4:  alive.
+
+623
+00:35:54,150 --> 00:35:58,120
+Speaker 3:  I mean, I don't judge you. I do a lot of puns on the show, so like anything
+
+624
+00:35:58,120 --> 00:36:00,120
+Speaker 3:  pun adjacent, I'm here for Thank you. I
+
+625
+00:36:00,120 --> 00:36:03,960
+Speaker 4:  Appreciate it. Me too. And honestly, I really hope that beyond
+
+626
+00:36:03,960 --> 00:36:07,800
+Speaker 4:  the absolutely terrible Mc fib, I hope that you all
+
+627
+00:36:08,060 --> 00:36:11,360
+Speaker 4:  out there listening learned something today, not just about the Mc McRib,
+
+628
+00:36:11,360 --> 00:36:15,000
+Speaker 4:  but also about how one person can create a useful tool for a
+
+629
+00:36:15,000 --> 00:36:18,960
+Speaker 4:  passionate community because Alan really is so passionate and it
+
+630
+00:36:18,960 --> 00:36:21,800
+Speaker 4:  is a useful tool for anybody looking for the mc McRib.
+
+631
+00:36:21,950 --> 00:36:25,800
+Speaker 3:  Well, thank you Ashley. She's gonna be back next week with another
+
+632
+00:36:25,800 --> 00:36:29,520
+Speaker 3:  episode of Solo X because we're doing this special series every Monday for
+
+633
+00:36:29,520 --> 00:36:31,200
+Speaker 3:  the next few weeks. What's going on next week?
+
+634
+00:36:31,500 --> 00:36:34,920
+Speaker 4:  I'm very excited. Next week we are gonna be talking to a solo game
+
+635
+00:36:34,920 --> 00:36:38,800
+Speaker 4:  developer. Her name is Madison Carr and she has a game
+
+636
+00:36:38,800 --> 00:36:42,680
+Speaker 4:  that actually just launched called Birth. She just launched it on
+
+637
+00:36:42,680 --> 00:36:45,840
+Speaker 4:  Steam very recently and she is gonna talk to us about
+
+638
+00:36:46,440 --> 00:36:50,200
+Speaker 4:  making games all by yourself, which is quite a feat. All video
+
+639
+00:36:50,200 --> 00:36:54,120
+Speaker 4:  games are miracles, I've said this many times. And to do it alone
+
+640
+00:36:54,120 --> 00:36:57,600
+Speaker 4:  is pretty outstanding and she has a lot of great things to say about
+
+641
+00:36:57,780 --> 00:37:01,600
+Speaker 4:  the steam deck and indie games and a lot of other
+
+642
+00:37:01,600 --> 00:37:04,200
+Speaker 4:  things that go into making a game by yourself.
+
+643
+00:37:04,350 --> 00:37:08,200
+Speaker 3:  Well, I am terrifically excited. I can't wait to listen. It's gonna
+
+644
+00:37:08,200 --> 00:37:08,520
+Speaker 3:  be great.
+
+645
+00:37:10,030 --> 00:37:13,720
+Speaker 3:  This show is produced by Andrew Marino and Liam James Brooke Mentors is our
+
+646
+00:37:13,720 --> 00:37:17,520
+Speaker 3:  editorial director of audio. The VER is a Verge production and part of the
+
+647
+00:37:17,520 --> 00:37:20,920
+Speaker 3:  Vox Media podcast network. If you have thoughts, feedback, feelings, you
+
+648
+00:37:20,920 --> 00:37:24,600
+Speaker 3:  can always email us@vergecasttheverge.com or call the
+
+649
+00:37:24,600 --> 00:37:28,560
+Speaker 3:  hotline at eight six six eleven. That's 8 6 6 Verge 11.
+
+650
+00:37:28,680 --> 00:37:32,080
+Speaker 3:  We'll be back on Wednesday for an all new episode of the Vergecast. Until
+
+651
+00:37:32,080 --> 00:37:33,040
+Speaker 3:  then, stay classy.
+
+652
+00:37:42,740 --> 00:37:46,630
+Speaker 1:  Thanks to Toyota Crown for supporting this episode. The all new Toyota Crown
+
+653
+00:37:46,630 --> 00:37:50,510
+Speaker 1:  lets you separate from the crowd as soon as you step inside the car. It's
+
+654
+00:37:50,510 --> 00:37:53,670
+Speaker 1:  equipped with a cutting edge design with an available hybrid max powertrain
+
+655
+00:37:53,670 --> 00:37:57,470
+Speaker 1:  that generates an exceptional 340 combined net horsepower. The
+
+656
+00:37:57,470 --> 00:38:01,030
+Speaker 1:  dynamic placement of the electric motor between the engine and the transmission
+
+657
+00:38:01,030 --> 00:38:04,630
+Speaker 1:  allows for power to be transferred without any lag. The result,
+
+658
+00:38:04,700 --> 00:38:08,430
+Speaker 1:  zero to 60 seconds in 5.7 seconds. Toyota
+
+659
+00:38:08,430 --> 00:38:11,910
+Speaker 1:  says, wherever you go in the all new Toyota crown, you make a statement,
+
+660
+00:38:11,970 --> 00:38:15,910
+Speaker 1:  the car that says so much. Visit toyota.com/crown to
+
+661
+00:38:15,910 --> 00:38:18,350
+Speaker 1:  learn more. Toyota, let's go places.
+

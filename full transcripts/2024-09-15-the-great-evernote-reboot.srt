@@ -1,0 +1,3812 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 3da2c496-5433-44a0-808c-9e65ffbd2788
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/-113283244900419373/6763820982741694671/s93290-US-3533s-1726418536.mp3
+Description: Peak Evernote was roughly a decade ago. Since then, the product has often felt stagnant (or worse), the company churned through executives and business plans, and it seemed like Evernote was slowly turning into a zombie app. Not gone, not even forgotten, just sort of... there. For the third and final installment in our series about productivity and digital life, we sit down with Federico Simionato, the Evernote product lead at Bending Spoons. We talk about the acquisition process, how he perceives Evernote in today’s landscape, what it took to start shipping new stuff again, why Bending Spoons changed the subscription price, and much more.
+Email us at vergecast@theverge.com or call us at 866-VERGE11, we love hearing from you.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Enabled (15 ads detected)
+
+2
+00:00:38,715 --> 00:00:41,925
+Speaker 3:  it's coming a couple of weeks late. Won't happen again. We've been looking
+
+3
+00:00:42,315 --> 00:00:46,045
+Speaker 3:  into how people work in this series and how we
+
+4
+00:00:46,045 --> 00:00:49,925
+Speaker 3:  should work, and really not even just work, we're just trying to
+
+5
+00:00:49,925 --> 00:00:52,765
+Speaker 3:  find ways to be more functional, sane,
+
+6
+00:00:53,625 --> 00:00:57,325
+Speaker 3:  useful people in our digital lives. The more we do this, the more I'm hating
+
+7
+00:00:57,325 --> 00:01:00,525
+Speaker 3:  the term productivity, but it's kind of the best way we have to talk about
+
+8
+00:01:00,525 --> 00:01:04,485
+Speaker 3:  this. For this last episode, we're gonna talk about one of the all
+
+9
+00:01:04,485 --> 00:01:08,365
+Speaker 3:  time iconic productivity apps, Evernote. My
+
+10
+00:01:08,365 --> 00:01:12,325
+Speaker 3:  guest today is Federico Sato, who now leads work on Evernote for a company
+
+11
+00:01:12,325 --> 00:01:16,285
+Speaker 3:  called Bending Spoons. But before we get into all of that, let me just quickly
+
+12
+00:01:16,315 --> 00:01:20,285
+Speaker 3:  give you the brief Evernote story. Evernote has been around for more
+
+13
+00:01:20,285 --> 00:01:23,965
+Speaker 3:  than two decades, but I think most people probably heard of it. Around
+
+14
+00:01:24,185 --> 00:01:27,925
+Speaker 3:  2008 when the app launched in the very first
+
+15
+00:01:27,925 --> 00:01:31,525
+Speaker 3:  version of Apple's iPhone app store. That was a huge deal.
+
+16
+00:01:31,655 --> 00:01:35,445
+Speaker 3:  Being in the store at the beginning was a big win for basically
+
+17
+00:01:35,445 --> 00:01:39,165
+Speaker 3:  every app that was in there. So Evernote blew up and it became one of the
+
+18
+00:01:39,165 --> 00:01:42,765
+Speaker 3:  biggest productivity apps on the planet. The biggest number
+
+19
+00:01:42,875 --> 00:01:46,645
+Speaker 3:  I've seen was that in 2014 there were a hundred million people
+
+20
+00:01:46,735 --> 00:01:49,925
+Speaker 3:  using Evernote. I was one of them, by the way, and I loved
+
+21
+00:01:50,365 --> 00:01:53,925
+Speaker 3:  Evernote many, many years ago. Back when I was in college, I actually did
+
+22
+00:01:53,925 --> 00:01:57,725
+Speaker 3:  some freelance work for the company, and I was a devoted user of
+
+23
+00:01:57,725 --> 00:02:01,565
+Speaker 3:  Evernote for years. It was fast, it was cross platform
+
+24
+00:02:01,635 --> 00:02:04,965
+Speaker 3:  back when that was kind of a rare thing to be. It had a really great web
+
+25
+00:02:04,965 --> 00:02:08,365
+Speaker 3:  clipper that made it easy to get stuff into the app. You could email into
+
+26
+00:02:08,365 --> 00:02:12,205
+Speaker 3:  it. It was just great. It was like a digital filing cabinet. It just had
+
+27
+00:02:12,205 --> 00:02:15,845
+Speaker 3:  all my stuff. I loved it very much, but Evernote never quite
+
+28
+00:02:15,845 --> 00:02:19,805
+Speaker 3:  figured out how to keep going or where to go next
+
+29
+00:02:20,395 --> 00:02:24,365
+Speaker 3:  when it was really popular. Around that same time, it had this weird
+
+30
+00:02:24,395 --> 00:02:28,165
+Speaker 3:  diversion into being a lifestyle company, selling socks and
+
+31
+00:02:28,365 --> 00:02:31,925
+Speaker 3:  notebooks and all kinds of stuff. It was like Evernote wanted to be Nike
+
+32
+00:02:32,225 --> 00:02:36,125
+Speaker 3:  for nerds. It was very strange. The company also started making other
+
+33
+00:02:36,125 --> 00:02:39,885
+Speaker 3:  apps like a scanner app and the image editing app Skitch and
+
+34
+00:02:39,885 --> 00:02:43,085
+Speaker 3:  generally just seemed like it kind of lost track of what it was actually
+
+35
+00:02:43,225 --> 00:02:47,085
+Speaker 3:  for. Meanwhile, the app got bloated and slow. The company
+
+36
+00:02:47,335 --> 00:02:51,245
+Speaker 3:  tried to kind of pivot to being a B2B app for people
+
+37
+00:02:51,265 --> 00:02:55,125
+Speaker 3:  at work. Multiple CEOs came in and tried to reboot the whole
+
+38
+00:02:55,125 --> 00:02:58,325
+Speaker 3:  thing, but never quite figured it out, and Evernote just seemed like it was
+
+39
+00:02:58,345 --> 00:03:01,445
+Speaker 3:  slowly dying. One of those apps that's still around
+
+40
+00:03:02,425 --> 00:03:06,325
+Speaker 3:  but stops getting better and just kind of slowly gets worse forever and
+
+41
+00:03:06,325 --> 00:03:10,125
+Speaker 3:  ever and ever. Then in late 2022, Evernote was acquired
+
+42
+00:03:10,145 --> 00:03:14,085
+Speaker 3:  by bending spoons, which seemed odd. Bending Spoons is a kind
+
+43
+00:03:14,085 --> 00:03:17,765
+Speaker 3:  of mix of tech incubator and private
+
+44
+00:03:17,765 --> 00:03:21,565
+Speaker 3:  equity company. Basically, it buys products, integrates them all together
+
+45
+00:03:21,665 --> 00:03:25,445
+Speaker 3:  and tries to find ways to do things more efficiently. Basically,
+
+46
+00:03:25,465 --> 00:03:28,565
+Speaker 3:  by having them all in one company, you can share some resources
+
+47
+00:03:29,345 --> 00:03:32,725
+Speaker 3:  and in theory then devote more resources just to the products.
+
+48
+00:03:33,145 --> 00:03:36,525
+Speaker 3:  Anyway, a few months after the acquisition bending spoons announced that
+
+49
+00:03:36,525 --> 00:03:40,285
+Speaker 3:  it was laying off most of Evernote's staff and moving most of the company's
+
+50
+00:03:40,285 --> 00:03:43,845
+Speaker 3:  operations to Europe, which is where bending spoons is based. This is a pattern
+
+51
+00:03:43,905 --> 00:03:47,045
+Speaker 3:  for bending spoons. It does this with a lot of companies it buys, but at
+
+52
+00:03:47,045 --> 00:03:50,645
+Speaker 3:  this point I thought Evernote was dead for sure. I think most people did,
+
+53
+00:03:50,985 --> 00:03:54,485
+Speaker 3:  but that's not actually what happened. Evernote eventually started
+
+54
+00:03:54,925 --> 00:03:58,765
+Speaker 3:  shipping new stuff. It seemed to have a new identity about what it was
+
+55
+00:03:58,765 --> 00:04:02,365
+Speaker 3:  and what it was for, and for the first time, frankly, in a really long time,
+
+56
+00:04:02,705 --> 00:04:06,605
+Speaker 3:  the product started getting better. It also got a lot more expensive, which
+
+57
+00:04:06,605 --> 00:04:10,325
+Speaker 3:  made a lot of people really, really, really mad. But we're gonna get to that
+
+58
+00:04:10,325 --> 00:04:14,205
+Speaker 3:  in a minute. To start with, Federico, we just went back to the
+
+59
+00:04:14,205 --> 00:04:17,965
+Speaker 3:  beginning. He was an Evernote user himself for years and said he was psyched
+
+60
+00:04:17,965 --> 00:04:21,485
+Speaker 3:  to have the company on board at bending spoons. It sounds to me like bending
+
+61
+00:04:21,565 --> 00:04:25,445
+Speaker 3:  spoons was enticed by the combo of big brand, really popular
+
+62
+00:04:25,705 --> 00:04:29,525
+Speaker 3:  app, just something in need of some serious product love.
+
+63
+00:04:30,145 --> 00:04:34,045
+Speaker 3:  And as soon as they got the deal done, Federico and his team went to work.
+
+64
+00:04:34,765 --> 00:04:38,565
+Speaker 4:  I think the first, yeah, 12 months, maybe like 11 months were
+
+65
+00:04:38,915 --> 00:04:42,325
+Speaker 4:  just about technology, just about learning how
+
+66
+00:04:42,745 --> 00:04:46,645
+Speaker 4:  the backend worked or the client architecture worked and trying to
+
+67
+00:04:47,705 --> 00:04:51,285
+Speaker 4:  not rebuild it because we couldn't rebuild Evernote. You know, like, like
+
+68
+00:04:51,315 --> 00:04:54,725
+Speaker 4:  it's 20 years of software. We couldn't, we couldn't rebuild it all, but trying
+
+69
+00:04:54,725 --> 00:04:57,725
+Speaker 4:  to identify the most critical pieces and, and try to rewrite
+
+70
+00:04:57,725 --> 00:05:01,085
+Speaker 3:  Those. And this is true of almost any app that age, right? Like, I feel like
+
+71
+00:05:01,085 --> 00:05:03,805
+Speaker 3:  this is a story you hear, it's just what's gonna happen. Yes, If, you are
+
+72
+00:05:03,925 --> 00:05:07,485
+Speaker 3:  building a thing in 2004 and then 2007 and then 2009, like
+
+73
+00:05:07,955 --> 00:05:11,765
+Speaker 3:  yeah, the world changes every 18 months and it's very
+
+74
+00:05:11,765 --> 00:05:14,965
+Speaker 3:  hard to keep up and So, I feel like anything of that kind of age
+
+75
+00:05:16,025 --> 00:05:17,565
+Speaker 3:  is going to have these sorts of
+
+76
+00:05:17,565 --> 00:05:20,405
+Speaker 4:  Problems. Yeah, definitely. Even something that you, right now, probably
+
+77
+00:05:20,405 --> 00:05:23,445
+Speaker 4:  in like 10 years, people are going to look at the code and say what they,
+
+78
+00:05:23,445 --> 00:05:27,045
+Speaker 4:  what were they think? Right. You know, and it's fair, it's fair, it's fine,
+
+79
+00:05:27,425 --> 00:05:31,325
+Speaker 4:  but it was super complex. And so one of the first things we did when we arrived
+
+80
+00:05:31,425 --> 00:05:35,365
+Speaker 4:  was to ship this huge project that the team already
+
+81
+00:05:35,365 --> 00:05:38,645
+Speaker 4:  started working on, which was called rt, like real time editing.
+
+82
+00:05:39,225 --> 00:05:43,045
+Speaker 4:  And it was about synchronizing the note content so that the content of a
+
+83
+00:05:43,045 --> 00:05:46,885
+Speaker 4:  single note instantaneously between devices, both your other devices
+
+84
+00:05:47,185 --> 00:05:51,085
+Speaker 4:  and devices of people, that they were also in the same note with you. And
+
+85
+00:05:51,465 --> 00:05:55,045
+Speaker 4:  you can see how this is like a completely different thing than what
+
+86
+00:05:55,045 --> 00:05:58,565
+Speaker 4:  Evernote used to be, or like the, you can imagine how
+
+87
+00:05:58,945 --> 00:06:02,765
+Speaker 4:  the, the way the note editor was built needed to change in order
+
+88
+00:06:02,765 --> 00:06:06,445
+Speaker 4:  to do this, to achieve this. And So I, I don't know how many, like months
+
+89
+00:06:06,965 --> 00:06:10,365
+Speaker 4:  and tens of people went into making it a reality, but we were able to to
+
+90
+00:06:10,405 --> 00:06:14,205
+Speaker 4:  ship it in the first few months. And today we just launched Rent, which is
+
+91
+00:06:14,205 --> 00:06:17,685
+Speaker 4:  the other thing which we worked on since. So after
+
+92
+00:06:17,685 --> 00:06:21,565
+Speaker 4:  releasing rt, which is about synchronizing the note content, we started working
+
+93
+00:06:21,825 --> 00:06:25,725
+Speaker 4:  on rent, which is a project to synchronize the metadata. So
+
+94
+00:06:25,725 --> 00:06:29,445
+Speaker 4:  the, the note list, the, I dunno that even just the title, the snippet,
+
+95
+00:06:29,825 --> 00:06:33,805
+Speaker 4:  the preview, the time it was LA last edited, et cetera. Not
+
+96
+00:06:33,805 --> 00:06:37,325
+Speaker 4:  because I want to talk about that necessarily, but because you see how we
+
+97
+00:06:37,325 --> 00:06:41,085
+Speaker 4:  started working on it after RTE, and now we are done after
+
+98
+00:06:41,085 --> 00:06:44,445
+Speaker 4:  like more than a year. Right? So yeah, that's, that's the, that's the reason.
+
+99
+00:06:44,745 --> 00:06:48,685
+Speaker 4:  And the, the decision behind it is just can we improve it in a
+
+100
+00:06:48,685 --> 00:06:52,605
+Speaker 4:  way that it won't be a problem? Not anymore necessarily
+
+101
+00:06:52,635 --> 00:06:56,245
+Speaker 4:  like forever, but, but like, it's like something that we can actually touch
+
+102
+00:06:56,905 --> 00:06:58,645
+Speaker 4:  and, and we feel like we own. And
+
+103
+00:06:58,845 --> 00:07:01,965
+Speaker 3:  I, I would assume there's also a part of that process where you have to say
+
+104
+00:07:01,965 --> 00:07:05,885
+Speaker 3:  like, okay, it's not whatever, 2006
+
+105
+00:07:05,915 --> 00:07:08,565
+Speaker 3:  when Evernote first came out, I think it was around then, somewhere in there
+
+106
+00:07:08,865 --> 00:07:12,845
+Speaker 3:  the landscape has changed. Yeah. And it's a really different kind of world
+
+107
+00:07:12,845 --> 00:07:16,245
+Speaker 3:  to be in, and you're in a position of saying, not we want to take this kind
+
+108
+00:07:16,245 --> 00:07:20,085
+Speaker 3:  of old crusty app and like bleed it for
+
+109
+00:07:20,085 --> 00:07:23,325
+Speaker 3:  cash until it dies. Yeah. You're saying we wanna like, we wanna renovate
+
+110
+00:07:23,325 --> 00:07:26,125
+Speaker 3:  this thing and make it new and modern and, and forward looking. Yeah. Which
+
+111
+00:07:26,125 --> 00:07:29,445
+Speaker 3:  I would think also means you have to kind of sit down and say, what is the
+
+112
+00:07:29,445 --> 00:07:33,405
+Speaker 3:  job of an app like Evernote now as opposed to what it was then?
+
+113
+00:07:33,635 --> 00:07:35,925
+Speaker 3:  Yeah. And I'm curious, especially for you as somebody who had been using
+
+114
+00:07:35,925 --> 00:07:39,765
+Speaker 3:  the app for a long time, what is that process like? Like what, what were
+
+115
+00:07:39,765 --> 00:07:41,845
+Speaker 3:  you talking about when you were thinking about like, okay, what is the next
+
+116
+00:07:41,845 --> 00:07:42,645
+Speaker 3:  thing for Evernote to be?
+
+117
+00:07:43,515 --> 00:07:46,565
+Speaker 4:  Yeah, so there's a bunch of different things in that question. So the first
+
+118
+00:07:46,665 --> 00:07:50,645
+Speaker 4:  one is what does Evernote do? You know, what
+
+119
+00:07:50,645 --> 00:07:54,285
+Speaker 4:  I, what I understood by talking to, to customers is that they see
+
+120
+00:07:54,285 --> 00:07:58,205
+Speaker 4:  Evernote as a tool for individual note taking, that that's the core of what
+
+121
+00:07:58,205 --> 00:08:01,325
+Speaker 4:  it does. So, so that people can organize their system. There's different
+
+122
+00:08:01,325 --> 00:08:04,125
+Speaker 4:  degrees of how organized you can be, but, but like generally, people who
+
+123
+00:08:04,185 --> 00:08:08,165
+Speaker 4:  who use such a software arb tend to be fairly organized and tend
+
+124
+00:08:08,165 --> 00:08:12,045
+Speaker 4:  to have like system of, of some sort. Sure. And, and, and it's
+
+125
+00:08:12,045 --> 00:08:15,685
+Speaker 4:  also interesting to see, to think about what it doesn't necessarily need
+
+126
+00:08:15,685 --> 00:08:18,765
+Speaker 4:  to do for, for the customers that, that are still like the millions of customers
+
+127
+00:08:18,765 --> 00:08:21,885
+Speaker 4:  that, that still use Evernote every week for instance. It doesn't do
+
+128
+00:08:22,645 --> 00:08:26,125
+Speaker 4:  a lot of like project management, especially collaborative project management.
+
+129
+00:08:26,405 --> 00:08:29,685
+Speaker 4:  They, they don't care about using Evernote for that. And, and so that's,
+
+130
+00:08:29,685 --> 00:08:33,165
+Speaker 4:  that's one part which already tells you what Evernote will not necessarily
+
+131
+00:08:33,265 --> 00:08:37,005
+Speaker 4:  try to be in the future. The other thing is where we think
+
+132
+00:08:37,005 --> 00:08:40,885
+Speaker 4:  Evernote is kind of failing at being the best and, and where we
+
+133
+00:08:40,885 --> 00:08:44,325
+Speaker 4:  think there is space and, and even just like market need
+
+134
+00:08:44,865 --> 00:08:48,605
+Speaker 4:  and customer necessity for such a tool. And I think that
+
+135
+00:08:48,965 --> 00:08:51,885
+Speaker 4:  collaboration, even though people will still see Evernote as an individual
+
+136
+00:08:52,605 --> 00:08:56,285
+Speaker 4:  note taking tool first, I still think that people would like forever Evernote
+
+137
+00:08:56,285 --> 00:09:00,125
+Speaker 4:  to be better at like note sharing, collaborating real
+
+138
+00:09:00,125 --> 00:09:03,685
+Speaker 4:  time with people and, and stuff like that. And So, I, I'm excited to be working
+
+139
+00:09:03,685 --> 00:09:04,285
+Speaker 4:  on that. Is
+
+140
+00:09:04,285 --> 00:09:07,445
+Speaker 3:  It, is it risky in that process to spend most of your time talking to people
+
+141
+00:09:07,545 --> 00:09:11,205
+Speaker 3:  who have been using Evernote? Like what's, what's the mix between
+
+142
+00:09:11,485 --> 00:09:15,005
+Speaker 3:  thinking about the people who are part of the product and thinking about
+
+143
+00:09:15,005 --> 00:09:18,965
+Speaker 3:  people who, for one reason or another have not used it, but you'd
+
+144
+00:09:18,965 --> 00:09:21,645
+Speaker 3:  like to Yeah. Like who, who do you think about in those early days?
+
+145
+00:09:21,955 --> 00:09:25,725
+Speaker 4:  Well, we, we think mostly about existing customers.
+
+146
+00:09:25,725 --> 00:09:29,685
+Speaker 4:  Okay. That's our main focus just because there are so many. And,
+
+147
+00:09:29,685 --> 00:09:33,645
+Speaker 4:  and so we definitely don't, don't want to piss them off. Then if we can add
+
+148
+00:09:33,645 --> 00:09:37,405
+Speaker 4:  something to Evernet that makes it better for both them and new
+
+149
+00:09:37,645 --> 00:09:41,365
+Speaker 4:  customers, that's great. But yeah, I, I don't think we will want to like,
+
+150
+00:09:41,595 --> 00:09:45,005
+Speaker 4:  make Evernet worse for, for people who are there in the hope that we can,
+
+151
+00:09:45,195 --> 00:09:49,125
+Speaker 4:  that we can add some use case that maybe is enticing to somebody else. Okay.
+
+152
+00:09:49,145 --> 00:09:49,565
+Speaker 4:  That's
+
+153
+00:09:49,565 --> 00:09:53,165
+Speaker 3:  A tricky balance though. 'cause I think about it is like we, we've had Microsoft
+
+154
+00:09:53,165 --> 00:09:56,805
+Speaker 3:  executives tell us before that one of the hard things about building for
+
+155
+00:09:56,995 --> 00:10:00,845
+Speaker 3:  Word or Excel is that If, you remove a feature that
+
+156
+00:10:00,865 --> 00:10:04,165
+Speaker 3:  you know 1% of people use, that's still 10 million people who use it and
+
+157
+00:10:04,165 --> 00:10:07,205
+Speaker 3:  love it and rely on it for work. And it's the most important thing in their
+
+158
+00:10:07,205 --> 00:10:10,965
+Speaker 3:  lives. And Evernote, I think, and really any tool
+
+159
+00:10:11,035 --> 00:10:14,565
+Speaker 3:  like it, people are like pouring their most important stuff
+
+160
+00:10:14,755 --> 00:10:18,045
+Speaker 3:  into it. Yes. And so If, you mess with it, even in the service of making
+
+161
+00:10:18,065 --> 00:10:21,765
+Speaker 3:  it ostensibly better, you're gonna screw up some
+
+162
+00:10:21,765 --> 00:10:24,805
+Speaker 3:  percentage of people's workflows and lives. Yeah. And
+
+163
+00:10:25,275 --> 00:10:28,165
+Speaker 3:  there's nothing you can do that will satisfy everybody.
+
+164
+00:10:28,725 --> 00:10:32,365
+Speaker 4:  I definitely felt the responsibility initially. Like I, I, I saw that people
+
+165
+00:10:32,365 --> 00:10:36,005
+Speaker 4:  understandably like, like empathize with them when, when somebody acquires
+
+166
+00:10:36,005 --> 00:10:39,765
+Speaker 4:  your, the tool that you use like multiple hours per day every day in a week.
+
+167
+00:10:40,325 --> 00:10:44,285
+Speaker 4:  I mean, you're, you're kind of in a, in a scary situation, you
+
+168
+00:10:44,285 --> 00:10:47,845
+Speaker 4:  know? So So I definitely empathize with them. When we first joined, when
+
+169
+00:10:47,845 --> 00:10:51,045
+Speaker 4:  we first arrived, some people in the team I think told me something like,
+
+170
+00:10:51,635 --> 00:10:55,045
+Speaker 4:  ANOT has a 5% problem, which like in a very
+
+171
+00:10:55,285 --> 00:10:59,245
+Speaker 4:  simplified way means that every feature is used at least by 5%
+
+172
+00:10:59,545 --> 00:11:02,965
+Speaker 4:  of the people. It's not like technically true, but like, it lets you understand
+
+173
+00:11:03,025 --> 00:11:06,925
+Speaker 4:  how complex it is to think about ever not with the thousand things it
+
+174
+00:11:06,925 --> 00:11:10,845
+Speaker 4:  can do. Right. Will, will, while everything that it does is a,
+
+175
+00:11:10,845 --> 00:11:13,085
+Speaker 4:  is used by a non-negligible amount of, of people.
+
+176
+00:11:13,305 --> 00:11:16,565
+Speaker 3:  So do you then have to just get to the point where you're, you're comfortable
+
+177
+00:11:16,565 --> 00:11:19,925
+Speaker 3:  pissing off 5% of users at a time because it's kind of inevitable. I
+
+178
+00:11:19,925 --> 00:11:23,645
+Speaker 4:  Mean, you try not to Yeah. In some, so for fortunately it
+
+179
+00:11:23,645 --> 00:11:27,445
+Speaker 4:  wasn't 5%, there were some things that were used by, by fewer than 5% of
+
+180
+00:11:27,445 --> 00:11:31,325
+Speaker 4:  people. So we, we were able to do some simplification. So for instance,
+
+181
+00:11:31,345 --> 00:11:35,285
+Speaker 4:  we, we removed the, the, the work chat, which was like a piece of everyone
+
+182
+00:11:35,285 --> 00:11:38,885
+Speaker 4:  that wasn't very used. It, it, it wasn't also particularly powerful. So understandably
+
+183
+00:11:38,885 --> 00:11:42,445
+Speaker 4:  people used something else for it and it allowed us to simplify
+
+184
+00:11:42,795 --> 00:11:45,845
+Speaker 4:  some part of the product. But yeah, it's not like you can come and just say,
+
+185
+00:11:45,845 --> 00:11:48,805
+Speaker 4:  okay, I'll remove everything except for that thing, because that thing is
+
+186
+00:11:48,805 --> 00:11:51,565
+Speaker 4:  the only thing people care about. No, no. That's not possible.
+
+187
+00:11:51,895 --> 00:11:54,565
+Speaker 3:  Right. I mean, and even If, you take a button that's over here and you move
+
+188
+00:11:54,565 --> 00:11:57,365
+Speaker 3:  it to over there. Yeah. Yeah. 5% of people are going to absolutely lose their
+
+189
+00:11:57,365 --> 00:12:01,125
+Speaker 3:  minds about it. Absolutely. Yeah. So the individual note taking thing I think
+
+190
+00:12:01,125 --> 00:12:04,205
+Speaker 3:  is really interesting because I've talked to a lot of folks over the years
+
+191
+00:12:04,665 --> 00:12:08,565
+Speaker 3:  who build a thing that is for something like individual
+
+192
+00:12:08,595 --> 00:12:12,365
+Speaker 3:  note taking or I had this like deep obsession with to-do lists or to-do
+
+193
+00:12:12,365 --> 00:12:16,085
+Speaker 3:  lists or calendar apps or whatever. All of these kind of productivity tools
+
+194
+00:12:16,375 --> 00:12:20,365
+Speaker 3:  start by being for people. Yeah. And then you realize where actually
+
+195
+00:12:20,385 --> 00:12:23,525
+Speaker 3:  the money is, is by selling to teams. And so they build the
+
+196
+00:12:24,125 --> 00:12:26,925
+Speaker 3:  collaboration environments and you build out all the business tools and all
+
+197
+00:12:26,925 --> 00:12:30,605
+Speaker 3:  of a sudden you've changed the app entirely into something that is basically
+
+198
+00:12:30,605 --> 00:12:34,485
+Speaker 3:  like a thing meant for lots of people to use at once, which
+
+199
+00:12:34,485 --> 00:12:37,725
+Speaker 3:  becomes sort of the lowest common denominator kind of app and causes,
+
+200
+00:12:38,465 --> 00:12:41,205
+Speaker 3:  it just changes, right? Yeah. Like, I think Notion is my favorite example,
+
+201
+00:12:41,205 --> 00:12:45,165
+Speaker 3:  right? Like Notion is a very good app that is completely different now
+
+202
+00:12:45,165 --> 00:12:47,605
+Speaker 3:  that they mostly sell the companies than it was when they were mostly focused
+
+203
+00:12:47,605 --> 00:12:50,325
+Speaker 3:  on individual users. Yeah. Not necessarily right or wrong, they make a lot
+
+204
+00:12:50,325 --> 00:12:54,205
+Speaker 3:  more money because they sell to companies. But this idea of individual note
+
+205
+00:12:54,205 --> 00:12:58,165
+Speaker 3:  taking, both as a product and as a business, I
+
+206
+00:12:58,165 --> 00:13:01,525
+Speaker 3:  think there, there are a lot of people out there who are not convinced that's
+
+207
+00:13:01,565 --> 00:13:05,445
+Speaker 3:  a thing with a big enough market to be Yeah. Worth it. Are you, are
+
+208
+00:13:05,445 --> 00:13:06,205
+Speaker 3:  you sure that it is?
+
+209
+00:13:06,915 --> 00:13:10,685
+Speaker 4:  Well, the thing is, like If, you take into account
+
+210
+00:13:10,685 --> 00:13:14,565
+Speaker 4:  what, what customers tell you. You'll, you'll kind of find the answer. So
+
+211
+00:13:14,665 --> 00:13:18,565
+Speaker 4:  if If you tell people, yeah, I'm going to turn Evernote into
+
+212
+00:13:18,685 --> 00:13:21,325
+Speaker 4:  a Teams product and, and which
+
+213
+00:13:21,325 --> 00:13:24,165
+Speaker 3:  Is kind of what Evernote tried to do, right? Like at there was a period of
+
+214
+00:13:24,165 --> 00:13:26,485
+Speaker 3:  time, like the work chat thing you're talking about, like there was a minute
+
+215
+00:13:26,485 --> 00:13:28,805
+Speaker 3:  where Evernote was like, we are going to be a business tool. Yes.
+
+216
+00:13:28,825 --> 00:13:32,725
+Speaker 4:  Yes. I I think they were seeing where the market was going and
+
+217
+00:13:32,725 --> 00:13:36,325
+Speaker 4:  they wanted to, to follow that, but still they had this huge
+
+218
+00:13:36,625 --> 00:13:40,125
+Speaker 4:  use case o of individual note taking that they couldn't ignore. And so they
+
+219
+00:13:40,125 --> 00:13:43,365
+Speaker 4:  tried to do kind of both things. So I, I don't have like a
+
+220
+00:13:43,995 --> 00:13:47,365
+Speaker 4:  perfect plan for how to achieve that. My, my, my
+
+221
+00:13:47,895 --> 00:13:51,765
+Speaker 4:  North Star is you talk to customers, they tell you I
+
+222
+00:13:51,765 --> 00:13:55,165
+Speaker 4:  want this. You talk to enough customers and you notice
+
+223
+00:13:55,585 --> 00:13:58,725
+Speaker 4:  if something that you're planning on building goes against that direction.
+
+224
+00:13:59,065 --> 00:14:01,525
+Speaker 4:  So I mentioned collaboration earlier because it's something that we would
+
+225
+00:14:01,525 --> 00:14:05,365
+Speaker 4:  like to work on, but it doesn't mean like turning Evernote into a
+
+226
+00:14:05,645 --> 00:14:08,725
+Speaker 4:  collaboration only tool, for instance, or like, or like a collaboration first
+
+227
+00:14:08,835 --> 00:14:12,445
+Speaker 4:  tool. You, you still need to, to keep into account what current
+
+228
+00:14:12,945 --> 00:14:16,845
+Speaker 4:  people using Evernote think Evernote should do and, and try to make it good
+
+229
+00:14:16,845 --> 00:14:19,365
+Speaker 4:  for that use case first. And then If, you want, you cannot some, some of
+
+230
+00:14:19,365 --> 00:14:22,245
+Speaker 4:  that. And, and the cool thing is that people are asking for that. It's not
+
+231
+00:14:22,245 --> 00:14:25,885
+Speaker 4:  something that I, I came up with or we came up with at some point and, and
+
+232
+00:14:25,885 --> 00:14:28,525
+Speaker 4:  said, yeah, it would be cool if everyone was more collaborative and, and
+
+233
+00:14:28,525 --> 00:14:31,685
+Speaker 4:  we will do it against what people want. It's more like
+
+234
+00:14:32,385 --> 00:14:35,365
+Speaker 4:  we sit down, we have countless conversations every week with customers and,
+
+235
+00:14:35,425 --> 00:14:38,885
+Speaker 4:  and they tell us. Yeah. But like, sharing notes, sharing notes, notebooks
+
+236
+00:14:38,885 --> 00:14:42,765
+Speaker 4:  is a pain. I I wish it worked well and Okay, that's
+
+237
+00:14:42,765 --> 00:14:43,645
+Speaker 4:  cool. We'll do it. Yeah.
+
+238
+00:14:43,795 --> 00:14:46,605
+Speaker 3:  Yeah. What else were people asking you for? Because I feel like there's a
+
+239
+00:14:46,605 --> 00:14:50,285
+Speaker 3:  certain set of kind of big picture things that people build for stuff like
+
+240
+00:14:50,285 --> 00:14:52,565
+Speaker 3:  this. Like collaboration is one of them. Yeah. And, and I, I can't imagine
+
+241
+00:14:52,565 --> 00:14:54,605
+Speaker 3:  you're sitting with a lot of people who are like, I'd like for there to be
+
+242
+00:14:54,605 --> 00:14:57,125
+Speaker 3:  a real time collaborative editor. Yeah. But it makes sense that people were
+
+243
+00:14:57,125 --> 00:15:00,725
+Speaker 3:  like, I, it's annoying that I can't share notes with my partner. Like simple
+
+244
+00:15:00,825 --> 00:15:04,725
+Speaker 3:  use case. That totally works. What else on those levels were
+
+245
+00:15:04,725 --> 00:15:05,845
+Speaker 3:  people telling you about at the beginning? Yeah,
+
+246
+00:15:06,465 --> 00:15:09,725
+Speaker 4:  So we have this track, which is called Quality of Life,
+
+247
+00:15:10,235 --> 00:15:14,125
+Speaker 4:  that goes a bit against what usually product management should be
+
+248
+00:15:14,125 --> 00:15:17,685
+Speaker 4:  about, which is classically product management should be about like identifying
+
+249
+00:15:17,685 --> 00:15:20,285
+Speaker 4:  a metric and trying to optimize for, for that metric and building something
+
+250
+00:15:20,285 --> 00:15:22,525
+Speaker 4:  to, to make it, to make that metric work better.
+
+251
+00:15:23,355 --> 00:15:27,125
+Speaker 3:  Like the app is faster or Yeah. Or people open it next time
+
+252
+00:15:27,265 --> 00:15:27,885
+Speaker 3:  or whatever. Okay.
+
+253
+00:15:27,885 --> 00:15:31,605
+Speaker 4:  Exactly. Yes. Instead this, this track, this quality of life
+
+254
+00:15:31,605 --> 00:15:35,445
+Speaker 4:  track goes in the direction where we talk to as many customers as we can
+
+255
+00:15:35,625 --> 00:15:38,965
+Speaker 4:  either, like in conversations that we have on, on like Google Meet every
+
+256
+00:15:38,965 --> 00:15:42,685
+Speaker 4:  week or through surveys and we just try to quantify,
+
+257
+00:15:42,975 --> 00:15:46,845
+Speaker 4:  first identify what, what they want and then to quantify how many of
+
+258
+00:15:46,845 --> 00:15:50,765
+Speaker 4:  them want what. And, and so we just like rank a list of, of things
+
+259
+00:15:50,765 --> 00:15:53,485
+Speaker 4:  that people want and we try to build them. Of course, if something takes
+
+260
+00:15:53,485 --> 00:15:56,085
+Speaker 4:  like six months, maybe we, we, we will ignore it for, for the time being.
+
+261
+00:15:56,105 --> 00:15:59,965
+Speaker 4:  But we, we try to to make it as, as ranked as possible.
+
+262
+00:15:59,965 --> 00:16:03,645
+Speaker 4:  Okay. And so, so good examples of this are collapsible sections
+
+263
+00:16:03,885 --> 00:16:07,485
+Speaker 4:  Hmm. People were saying. Yeah. How can it be that that after 20 years, everyone
+
+264
+00:16:07,485 --> 00:16:09,325
+Speaker 4:  still doesn't have collapsible sections. Okay.
+
+265
+00:16:09,325 --> 00:16:11,365
+Speaker 3:  Wait, I, I wanna get to the rest of this, but can we actually pause on this
+
+266
+00:16:11,365 --> 00:16:14,885
+Speaker 3:  for sure for a second because I am one of those people. Okay. And like, the
+
+267
+00:16:14,885 --> 00:16:18,005
+Speaker 3:  way I work generally is I, I like, I think in outlines So, I do a lot of
+
+268
+00:16:18,005 --> 00:16:21,045
+Speaker 3:  bullets and I have very long lists. Yep. And being able to collapse individual
+
+269
+00:16:21,045 --> 00:16:24,925
+Speaker 3:  parts of those lists is just most of what I need from a notes.
+
+270
+00:16:25,105 --> 00:16:28,405
+Speaker 3:  And I have heard sort of vaguely over the years, a lot of people say that
+
+271
+00:16:28,405 --> 00:16:31,445
+Speaker 3:  is a strangely difficult thing to build. Can you explain to me why that's
+
+272
+00:16:31,445 --> 00:16:32,765
+Speaker 3:  so hard? Why can't I have it?
+
+273
+00:16:33,595 --> 00:16:34,245
+Speaker 4:  Well, So
+
+274
+00:16:35,805 --> 00:16:39,445
+Speaker 4:  I, I, I don't know specifically how we implemented it, but
+
+275
+00:16:39,945 --> 00:16:43,805
+Speaker 4:  the thing is that the note, you can imagine the note as a kind of a webpage.
+
+276
+00:16:44,145 --> 00:16:48,005
+Speaker 4:  And so everything that kind of edits some part
+
+277
+00:16:48,005 --> 00:16:51,645
+Speaker 4:  of that webpage is kind of tricky to, to do, especially when you leave, leave
+
+278
+00:16:51,645 --> 00:16:55,405
+Speaker 4:  the rest untouched and So I. I think that might be what they were
+
+279
+00:16:55,405 --> 00:16:58,725
+Speaker 4:  referring to, but I, I don't think it was particularly difficult to build.
+
+280
+00:16:59,485 --> 00:17:03,445
+Speaker 4:  I think it was reasonably normal. Okay. In terms
+
+281
+00:17:03,445 --> 00:17:03,965
+Speaker 4:  of difficulty.
+
+282
+00:17:04,155 --> 00:17:08,005
+Speaker 3:  Okay. So fascinating that that's the first one on that you think of, right?
+
+283
+00:17:08,005 --> 00:17:10,405
+Speaker 3:  Yeah. It might not have been the top of the list, but like, it, it's a good
+
+284
+00:17:10,405 --> 00:17:13,965
+Speaker 3:  example of Yeah, I think there are a lot of like big
+
+285
+00:17:14,195 --> 00:17:16,325
+Speaker 3:  kind of whizzbang features that people are talking about. And we're gonna
+
+286
+00:17:16,355 --> 00:17:20,325
+Speaker 3:  talk about AI in a minute. Yep. Like the whizzbang ist feature of All
+
+287
+00:17:20,325 --> 00:17:24,285
+Speaker 3:  right. Now, but I I, my suspicion when I asked you
+
+288
+00:17:24,285 --> 00:17:27,285
+Speaker 3:  that question was that most of what people wanted from you was going to be
+
+289
+00:17:27,285 --> 00:17:30,845
+Speaker 3:  things about the size of collapsible sections. What else is on that list?
+
+290
+00:17:31,395 --> 00:17:34,965
+Speaker 4:  Well, slash comments was also a big one. Mm. So like, like you can do on
+
+291
+00:17:34,965 --> 00:17:38,525
+Speaker 4:  Slack, you hit slash and then you type a comment. So on Slack you do, it's
+
+292
+00:17:38,525 --> 00:17:38,725
+Speaker 4:  like, it's
+
+293
+00:17:38,845 --> 00:17:41,165
+Speaker 3:  Fascinating that that's become like a universal thing now. People understand
+
+294
+00:17:41,165 --> 00:17:43,085
+Speaker 3:  slash commands now it's so Yeah. It's really great. Yeah. Yeah.
+
+295
+00:17:43,355 --> 00:17:46,285
+Speaker 4:  It's like, I don't know, it's like right click, you know? Yeah. It's something
+
+296
+00:17:46,285 --> 00:17:50,125
+Speaker 4:  that, that you do no matter the the operating system
+
+297
+00:17:50,125 --> 00:17:53,645
+Speaker 4:  you're in. No. And so that's also something that people were asking it, it's
+
+298
+00:17:53,645 --> 00:17:56,845
+Speaker 4:  a bit more of a niche feature collapsible section. I I just bring it up because
+
+299
+00:17:56,955 --> 00:18:00,445
+Speaker 4:  it's the obvious example of quality of life feature that everybody wanted,
+
+300
+00:18:01,045 --> 00:18:04,205
+Speaker 4:  but slash comments was also a big one. Let me think.
+
+301
+00:18:04,755 --> 00:18:08,725
+Speaker 4:  Well, image alignment is also like a classic, you know, like you, you could
+
+302
+00:18:08,745 --> 00:18:11,725
+Speaker 4:  not align an image in the center or, or Right, right. You could only have
+
+303
+00:18:11,725 --> 00:18:14,485
+Speaker 4:  it on on the left and you cannot edit it. So Yeah. We, we built it.
+
+304
+00:18:14,595 --> 00:18:18,525
+Speaker 3:  Another one that seems to mystify every document editor everywhere.
+
+305
+00:18:18,555 --> 00:18:21,525
+Speaker 3:  Yeah. Like why can't I put my photo where I would like it to be? Yeah. Yeah.
+
+306
+00:18:22,005 --> 00:18:23,485
+Speaker 3:  Shockingly difficult. Text editing
+
+307
+00:18:23,725 --> 00:18:26,405
+Speaker 4:  Probably, you know, there, I think there are memes about Microsoft Word.
+
+308
+00:18:26,405 --> 00:18:29,365
+Speaker 4:  Yeah. Like messing the whole layout of the document. Yep. Yeah.
+
+309
+00:18:29,595 --> 00:18:32,285
+Speaker 3:  Alright, we gotta take a break. But when we come back, I wanna talk about
+
+310
+00:18:32,285 --> 00:18:35,645
+Speaker 3:  what it means to build a productivity tool in 2024.
+
+311
+00:18:35,915 --> 00:18:39,725
+Speaker 3:  Instead of doing it in 2014 or 2004 when Evernote was starting
+
+312
+00:18:39,725 --> 00:18:41,405
+Speaker 3:  out. We'll get to all that. We'll be right back.
+
+313
+00:19:46,755 --> 00:19:49,995
+Speaker 4:  people were asking for and especially
+
+314
+00:19:50,895 --> 00:19:54,755
+Speaker 4:  in between advanced users. There was this need of like having
+
+315
+00:19:54,795 --> 00:19:58,635
+Speaker 4:  a better task manager being Evernote individual. Most people who
+
+316
+00:19:58,635 --> 00:20:02,115
+Speaker 4:  use Evernote either use it for their, their own like
+
+317
+00:20:02,315 --> 00:20:06,035
+Speaker 4:  organization and not, not for a team organization or they
+
+318
+00:20:06,095 --> 00:20:10,035
+Speaker 4:  use it for like very small projects or, or like projects with, with
+
+319
+00:20:10,035 --> 00:20:13,755
+Speaker 4:  few people involved. And so we were asking people what would you like us
+
+320
+00:20:13,755 --> 00:20:17,715
+Speaker 4:  to, to do? And, and tasks was a big part of what they were
+
+321
+00:20:17,715 --> 00:20:20,875
+Speaker 4:  asking for. Why do you think that is? To improve? I I think it's because
+
+322
+00:20:21,825 --> 00:20:25,395
+Speaker 4:  they were already there. So So, I, I think that previous teams in the past
+
+323
+00:20:25,605 --> 00:20:29,515
+Speaker 4:  built ANOT tasks and given that ANOT
+
+324
+00:20:29,515 --> 00:20:32,355
+Speaker 4:  is not a task management tool, they, they didn't give it like a lot of attention.
+
+325
+00:20:32,855 --> 00:20:36,675
+Speaker 4:  And So I think that the reason why people were asking for better tasks
+
+326
+00:20:36,895 --> 00:20:40,755
+Speaker 4:  was because they were already there. I I think that maybe if tasks weren't
+
+327
+00:20:40,755 --> 00:20:43,395
+Speaker 4:  there in the first place, maybe people wouldn't have, wouldn't have asked
+
+328
+00:20:43,395 --> 00:20:44,475
+Speaker 4:  for it, but I'm not sure.
+
+329
+00:20:45,065 --> 00:20:48,645
+Speaker 3:  Okay. You, you've just raised the philosophical question about productivity
+
+330
+00:20:48,645 --> 00:20:52,525
+Speaker 3:  tools. That is my favorite thing to talk about. So I think the, the two schools
+
+331
+00:20:52,545 --> 00:20:55,605
+Speaker 3:  of thought as people are sitting there telling you we want tasks inside of
+
+332
+00:20:55,605 --> 00:20:59,565
+Speaker 3:  Evernote. One is to say people are inside of our app, there's lots
+
+333
+00:20:59,565 --> 00:21:02,725
+Speaker 3:  of information inside of our app, we should give people more stuff to do.
+
+334
+00:21:02,725 --> 00:21:06,645
+Speaker 3:  Right? Like that makes sense. Build in to, to-do list build in
+
+335
+00:21:06,885 --> 00:21:10,285
+Speaker 3:  calendar. You'll eventually end up making like an email app inside of there.
+
+336
+00:21:10,285 --> 00:21:13,565
+Speaker 3:  You'll you'll do, you'll do work chat again, right? Like you can go down
+
+337
+00:21:13,565 --> 00:21:17,445
+Speaker 3:  this road of yeah, this is an app full of your stuff, we should do more with
+
+338
+00:21:17,445 --> 00:21:20,445
+Speaker 3:  it. And you eventually just recreate Microsoft Office, right? Like, that
+
+339
+00:21:20,445 --> 00:21:23,965
+Speaker 3:  is one path. The other path is to say we are
+
+340
+00:21:24,815 --> 00:21:28,725
+Speaker 3:  going to avoid the kind of feature creep crustiness that has
+
+341
+00:21:28,725 --> 00:21:31,925
+Speaker 3:  plagued Evernote and other apps in the past. We're going to slim it down
+
+342
+00:21:32,355 --> 00:21:36,125
+Speaker 3:  that actually what this app needs is to be more opinionated and simple. And
+
+343
+00:21:36,125 --> 00:21:39,805
+Speaker 3:  If, you want a task manager, awesome. There's a bunch of sick ones over here,
+
+344
+00:21:40,625 --> 00:21:43,805
+Speaker 3:  one swipe or click away. And
+
+345
+00:21:44,845 --> 00:21:48,445
+Speaker 3:  I, I actually have a, I have a an opinion on which of those I think is the
+
+346
+00:21:48,445 --> 00:21:52,245
+Speaker 3:  better answer. But I'm curious how you reason out between
+
+347
+00:21:52,245 --> 00:21:55,725
+Speaker 3:  saying to people, like, I think one totally valid answer would be to say
+
+348
+00:21:56,405 --> 00:21:58,805
+Speaker 3:  Evernote is not a task management app. Yeah. That's not what we're here for.
+
+349
+00:21:58,805 --> 00:22:01,605
+Speaker 3:  If. you wanna write a checklist? We've got you. We're good at that. Yeah.
+
+350
+00:22:01,625 --> 00:22:05,125
+Speaker 3:  But If you are like a person who wants to do like capital T tasks.
+
+351
+00:22:05,585 --> 00:22:07,725
+Speaker 3:  That's just not what ever notice is for. I feel like that would've been a
+
+352
+00:22:07,725 --> 00:22:10,885
+Speaker 3:  perfectly valid answer even if it made some people mad. Why did you decide
+
+353
+00:22:10,885 --> 00:22:11,445
+Speaker 3:  to go the other way?
+
+354
+00:22:12,065 --> 00:22:15,165
+Speaker 4:  Man, that's such a hard question. I'm not sure I can answer that. So
+
+355
+00:22:16,165 --> 00:22:20,005
+Speaker 4:  I can give you a few thoughts. The first one is, it's, it's the age old
+
+356
+00:22:20,245 --> 00:22:23,205
+Speaker 4:  question of bundling and unbundling, you know, totally. Like, it's, it's
+
+357
+00:22:23,965 --> 00:22:26,885
+Speaker 4:  software history is full of people like bundling and unbundling products
+
+358
+00:22:26,885 --> 00:22:30,725
+Speaker 4:  and, and they, and they always like try to integrate more stuff and
+
+359
+00:22:30,725 --> 00:22:34,605
+Speaker 4:  then some somebody new arises from, from like a little startup because they
+
+360
+00:22:34,635 --> 00:22:38,565
+Speaker 4:  just focused on that thing and they do well. So So I think it's, it's
+
+361
+00:22:38,665 --> 00:22:42,605
+Speaker 4:  an age old question. And I think that on Evernote, on one
+
+362
+00:22:42,605 --> 00:22:45,965
+Speaker 4:  hand you want to do what people want to, to have, so you want to build what,
+
+363
+00:22:45,965 --> 00:22:49,565
+Speaker 4:  what people need. And if it's tasks why not? Like, you know,
+
+364
+00:22:49,865 --> 00:22:53,525
+Speaker 4:  why, why collapsible sections Yes. And, and tasks not. So that's, that's
+
+365
+00:22:53,525 --> 00:22:57,045
+Speaker 4:  one way to look at it. The other way to look at it
+
+366
+00:22:57,305 --> 00:23:00,925
+Speaker 4:  is, as you said, being opinionated. And I think that there is a,
+
+367
+00:23:01,805 --> 00:23:05,445
+Speaker 4:  I don't know if I'm being too like democratic or, or, or if I'm,
+
+368
+00:23:05,805 --> 00:23:06,725
+Speaker 4:  I don't want to choose, but
+
+369
+00:23:06,735 --> 00:23:08,765
+Speaker 3:  We're about to talk about that. I, I, that's my next question.
+
+370
+00:23:09,405 --> 00:23:13,085
+Speaker 4:  I think that the best way to solve it is through customization. Okay. So
+
+371
+00:23:13,085 --> 00:23:16,925
+Speaker 4:  that you don't want to use tasks, you just like hide
+
+372
+00:23:16,925 --> 00:23:20,805
+Speaker 4:  that that part or you don't want to use calendar. You, you can just
+
+373
+00:23:20,825 --> 00:23:24,765
+Speaker 4:  not use it and, and hopefully have some tools to like make sure
+
+374
+00:23:24,765 --> 00:23:28,685
+Speaker 4:  that the UI doesn't get too messy for you. And I think that that
+
+375
+00:23:28,685 --> 00:23:31,245
+Speaker 4:  might be the, the answer, but I'm not sure yet. Yeah. We're, we're looking
+
+376
+00:23:31,245 --> 00:23:31,925
+Speaker 4:  into it. So, I,
+
+377
+00:23:32,085 --> 00:23:35,925
+Speaker 3:  I buy that theory pretty much entirely. Like, I think
+
+378
+00:23:35,925 --> 00:23:39,605
+Speaker 3:  that's right and I actually think with a lot of things, giving people
+
+379
+00:23:40,255 --> 00:23:43,805
+Speaker 3:  tools to set something up for themselves is really cool and really powerful.
+
+380
+00:23:43,805 --> 00:23:47,165
+Speaker 3:  Yeah. I also think it leads to trouble because
+
+381
+00:23:47,555 --> 00:23:51,445
+Speaker 3:  it's, it's just really hard to do that in a way that is good and helpful
+
+382
+00:23:51,625 --> 00:23:55,565
+Speaker 3:  and also most people don't touch the defaults and so whatever
+
+383
+00:23:55,995 --> 00:23:59,605
+Speaker 3:  weirdness is on by default, they're gonna get regardless. But I also think
+
+384
+00:23:59,875 --> 00:24:03,845
+Speaker 3:  like realistically, you, your team is only so big. You only have so
+
+385
+00:24:03,845 --> 00:24:07,725
+Speaker 3:  many things to do. Everything you add is going to make the
+
+386
+00:24:07,725 --> 00:24:11,245
+Speaker 3:  app bigger. Yeah. It's gonna make it more complicated. It's gonna make it
+
+387
+00:24:11,245 --> 00:24:14,965
+Speaker 3:  slower. And So I think the question of especially
+
+388
+00:24:15,025 --> 00:24:17,765
+Speaker 3:  I'm just So I, like this thing where you're coming from this long history
+
+389
+00:24:17,765 --> 00:24:20,725
+Speaker 3:  of Evernote where it kind of lost its way by trying to do too much
+
+390
+00:24:21,675 --> 00:24:25,445
+Speaker 3:  back to, you don't want to try to do too much, but
+
+391
+00:24:25,835 --> 00:24:28,965
+Speaker 3:  like one of my favorite things to do is go into the discords of productivity
+
+392
+00:24:28,965 --> 00:24:32,765
+Speaker 3:  apps. Yeah. Because I'm a loser doesn't have any friends and
+
+393
+00:24:32,765 --> 00:24:36,045
+Speaker 3:  just watch what people ask for. Yeah. And everybody asks for everything all
+
+394
+00:24:36,045 --> 00:24:39,285
+Speaker 3:  the time. Yes. Right. And everybody has the one teeny tiny thing that works
+
+395
+00:24:39,305 --> 00:24:42,605
+Speaker 3:  for their use that specifically. Correct. And If, you give it to them, they'll
+
+396
+00:24:42,605 --> 00:24:46,005
+Speaker 3:  love your app forever and ever. But for every person on planet Earth, that
+
+397
+00:24:46,005 --> 00:24:49,725
+Speaker 3:  thing is different. Yes. And I, I actually admire the impulse to give all
+
+398
+00:24:49,725 --> 00:24:52,205
+Speaker 3:  those people what they want, but you can't, you'll ruin your app. Right.
+
+399
+00:24:52,205 --> 00:24:55,725
+Speaker 3:  And I think we, we've seen what happens when you try. Yeah. So
+
+400
+00:24:55,915 --> 00:24:59,845
+Speaker 3:  like, I I, the strategy of sort of being democratic and giving people
+
+401
+00:24:59,845 --> 00:25:02,805
+Speaker 3:  what they want makes a lot of sense to me. But I do wonder, like, do you
+
+402
+00:25:02,805 --> 00:25:05,765
+Speaker 3:  have to have boundaries in your head of Absolutely. Like if enough people
+
+403
+00:25:05,765 --> 00:25:08,085
+Speaker 3:  asked you to make an email client inside of Evernote, would you make an email
+
+404
+00:25:08,085 --> 00:25:08,925
+Speaker 3:  client inside of Evernote?
+
+405
+00:25:09,145 --> 00:25:13,045
+Speaker 4:  It depends on how many they are and it depends on how good the, the UX that
+
+406
+00:25:13,045 --> 00:25:13,965
+Speaker 4:  we can prototype is. Okay.
+
+407
+00:25:13,965 --> 00:25:15,045
+Speaker 3:  So tell me what the boundaries are then.
+
+408
+00:25:15,405 --> 00:25:18,005
+Speaker 4:  I think that, that the boundaries are always about
+
+409
+00:25:19,115 --> 00:25:22,565
+Speaker 4:  what is Evernote, you know, and in order to answer that you can just look
+
+410
+00:25:22,565 --> 00:25:26,165
+Speaker 4:  at how many people use what inside Evernote. So of course Evernote being
+
+411
+00:25:26,165 --> 00:25:30,045
+Speaker 4:  what it is, the note editor is the most used part together with
+
+412
+00:25:30,155 --> 00:25:33,605
+Speaker 4:  know, like lists somewhere in the app. So when we work on
+
+413
+00:25:33,715 --> 00:25:37,645
+Speaker 4:  quality of life improvements, which is one of our biggest tracks and, and
+
+414
+00:25:37,645 --> 00:25:41,245
+Speaker 4:  non synchronization projects, which is also one of our biggest tracks.
+
+415
+00:25:42,055 --> 00:25:45,845
+Speaker 4:  Those are about note taking. And like to the
+
+416
+00:25:45,845 --> 00:25:49,685
+Speaker 4:  core I would say, I dunno, 80, 90% of the team is focused
+
+417
+00:25:49,685 --> 00:25:53,085
+Speaker 4:  on the core note taking experience. And so If, you look at what we released
+
+418
+00:25:53,155 --> 00:25:57,045
+Speaker 4:  this year. So the, this year we had this like idealistic goal of
+
+419
+00:25:57,045 --> 00:26:01,005
+Speaker 4:  releasing 100 quality of life improvements. We
+
+420
+00:26:01,005 --> 00:26:04,205
+Speaker 4:  shipped I think 60 or 65. I don't know. That's pretty good
+
+421
+00:26:04,345 --> 00:26:07,125
+Speaker 3:  For now. We should, and it's late August. We're that's pretty solid.
+
+422
+00:26:07,365 --> 00:26:11,005
+Speaker 4:  I think we are kind of on track. Yeah. I think Evernote is going to be fine
+
+423
+00:26:11,265 --> 00:26:15,245
+Speaker 4:  as long as we are very intentional with the fact that
+
+424
+00:26:15,565 --> 00:26:19,445
+Speaker 4:  everyone's focuses on note taking. Okay. I I I think as long as we
+
+425
+00:26:20,005 --> 00:26:22,965
+Speaker 4:  recognize that and we work with that in mind, I think everyone is going to
+
+426
+00:26:22,965 --> 00:26:26,805
+Speaker 4:  be fine. Then if some people want to have a calendar client inside it, it's
+
+427
+00:26:26,805 --> 00:26:29,805
+Speaker 4:  fine. But, but I, I, I don't think, I don't see
+
+428
+00:26:31,085 --> 00:26:34,125
+Speaker 4:  a way for the team to be mostly focused on calendar going forward. Okay.
+
+429
+00:26:34,515 --> 00:26:36,605
+Speaker 4:  Even though like, yeah, I would like to improve it.
+
+430
+00:26:36,955 --> 00:26:40,365
+Speaker 3:  When you say note taking, I'm curious what, what's your sense of what that
+
+431
+00:26:40,775 --> 00:26:44,325
+Speaker 3:  looks like for people in 2024? Because I, I look back to like
+
+432
+00:26:44,765 --> 00:26:48,365
+Speaker 3:  Evernote at the very beginning of the app store. Right. And its thing was
+
+433
+00:26:48,365 --> 00:26:52,085
+Speaker 3:  like, it was very easy to put stuff into Evernote. Yeah. And for years,
+
+434
+00:26:52,905 --> 00:26:55,885
+Speaker 3:  the strangest thing about the productivity space to me was that nobody built
+
+435
+00:26:55,925 --> 00:26:58,805
+Speaker 3:  a web clipper as good as Evernotes. Yeah. That was just like, I have a thing
+
+436
+00:26:59,225 --> 00:27:02,485
+Speaker 3:  and I need to get it into my notes app. Evernote has always been better at
+
+437
+00:27:02,485 --> 00:27:06,365
+Speaker 3:  that than everybody. Yeah. Still is. Which is bizarre. Yeah. All these
+
+438
+00:27:06,365 --> 00:27:10,005
+Speaker 3:  years later. But my sense is as
+
+439
+00:27:10,155 --> 00:27:13,965
+Speaker 3:  like we're in this space now where there's this renewed interest in
+
+440
+00:27:14,385 --> 00:27:17,685
+Speaker 3:  Second Brain stuff and everybody talks about like zeal castens on the internet
+
+441
+00:27:17,685 --> 00:27:21,525
+Speaker 3:  and personal knowledge management and all this stuff. And
+
+442
+00:27:21,525 --> 00:27:25,125
+Speaker 3:  then with AI there is this sort of renewed sense of like, here's how we organize
+
+443
+00:27:25,125 --> 00:27:28,205
+Speaker 3:  our stuff and how we manage our digital lives. When you think about like
+
+444
+00:27:28,205 --> 00:27:31,605
+Speaker 3:  what note taking means, how, how sort of
+
+445
+00:27:31,855 --> 00:27:34,845
+Speaker 3:  broad or narrow is your definition of that at this point? It's
+
+446
+00:27:34,845 --> 00:27:36,445
+Speaker 4:  Super broad. Okay. Like, I, I,
+
+447
+00:27:38,085 --> 00:27:42,005
+Speaker 4:  I think we talked to hundreds of customers in the
+
+448
+00:27:42,005 --> 00:27:45,285
+Speaker 4:  last year and I don't recall two people
+
+449
+00:27:45,515 --> 00:27:49,365
+Speaker 4:  telling me that they follow exactly the same, the same like flow
+
+450
+00:27:49,365 --> 00:27:52,845
+Speaker 4:  or system. Sure. Yeah. Maybe some people like mention, I dunno, some frameworks
+
+451
+00:27:52,845 --> 00:27:56,725
+Speaker 4:  like para getting things done, et cetera. But, but then they always
+
+452
+00:27:56,925 --> 00:27:59,765
+Speaker 4:  customize it because they have one slightly different thing that they need
+
+453
+00:27:59,765 --> 00:28:03,525
+Speaker 4:  to do. And then there's people who handle everything like house related
+
+454
+00:28:03,545 --> 00:28:07,245
+Speaker 4:  on Evernote, but also their work people who are consultants, they have a
+
+455
+00:28:07,245 --> 00:28:11,205
+Speaker 4:  bunch of projects, et cetera. And then people who are more or less interested
+
+456
+00:28:11,265 --> 00:28:15,245
+Speaker 4:  in, in like saving everything they do. And
+
+457
+00:28:15,405 --> 00:28:18,885
+Speaker 4:  so, yeah, it's super broad. It, it's like there is
+
+458
+00:28:19,305 --> 00:28:23,045
+Speaker 4:  nobody who does it in the same exact way as somebody else
+
+459
+00:28:23,315 --> 00:28:26,925
+Speaker 4:  does. And so for that reason, I think, well, customization again is important,
+
+460
+00:28:26,945 --> 00:28:30,125
+Speaker 4:  but, but also building the tools for them to do it, it's also important.
+
+461
+00:28:30,585 --> 00:28:30,805
+Speaker 4:  So
+
+462
+00:28:30,805 --> 00:28:32,805
+Speaker 3:  What are the, what are the buckets you think about when you think about like
+
+463
+00:28:33,225 --> 00:28:37,085
+Speaker 3:  how to do note taking really well, what does that Yeah. Require even
+
+464
+00:28:37,085 --> 00:28:38,125
+Speaker 3:  at like a higher level?
+
+465
+00:28:38,925 --> 00:28:42,445
+Speaker 4:  I think it depends on what you do. So we kind of identified a few
+
+466
+00:28:43,325 --> 00:28:46,885
+Speaker 4:  families of, of like categories of ways you could do note taking.
+
+467
+00:28:47,105 --> 00:28:50,285
+Speaker 4:  So for instance, there's a category that we call the Archivers. And there
+
+468
+00:28:50,285 --> 00:28:54,045
+Speaker 4:  are people who basically save everything in, in inside
+
+469
+00:28:54,045 --> 00:28:57,525
+Speaker 4:  Evernote. And they like, as you mentioned with web, the web clipper, there
+
+470
+00:28:57,525 --> 00:29:01,045
+Speaker 4:  are people who automatically forward every email they receive
+
+471
+00:29:01,665 --> 00:29:05,485
+Speaker 4:  to Evernote. Whoa. Every, even email, even like newsletters and
+
+472
+00:29:05,655 --> 00:29:07,445
+Speaker 4:  stuff, every email they have like a filter in
+
+473
+00:29:07,445 --> 00:29:09,925
+Speaker 3:  Email. L has a sale. It goes straight to Evernote. Absolute.
+
+474
+00:29:09,925 --> 00:29:13,605
+Speaker 4:  Okay. And so you, you see why there are some people who have like a hundred,
+
+475
+00:29:13,605 --> 00:29:13,965
+Speaker 4:  that is
+
+476
+00:29:13,965 --> 00:29:14,885
+Speaker 3:  My nightmare. A hundred
+
+477
+00:29:15,165 --> 00:29:18,885
+Speaker 4:  Thousand notes and everyth. Yeah. So for them, you just need to build
+
+478
+00:29:19,235 --> 00:29:22,365
+Speaker 4:  just like as if it was easy. But you, you need to build a very good like
+
+479
+00:29:22,365 --> 00:29:26,125
+Speaker 4:  organization tool. Then there are some people who are writers and they
+
+480
+00:29:26,495 --> 00:29:30,205
+Speaker 4:  don't even write that many notes, but they write long notes and complex
+
+481
+00:29:30,205 --> 00:29:33,805
+Speaker 4:  notes and they want to have, like, they care a lot about the craft of, of
+
+482
+00:29:33,825 --> 00:29:37,725
+Speaker 4:  how the note is structured and how it's written, what they can add
+
+483
+00:29:37,745 --> 00:29:41,325
+Speaker 4:  to the note and different, like for instance, when we created the quote block,
+
+484
+00:29:41,535 --> 00:29:45,125
+Speaker 4:  which is nothing like incredibly, particularly, particularly
+
+485
+00:29:45,355 --> 00:29:49,085
+Speaker 4:  it's in every piece of software that I know of. But it's basically a, a different
+
+486
+00:29:49,085 --> 00:29:52,125
+Speaker 4:  way to, to look at a bunch of text, a block of text. And you can just see
+
+487
+00:29:52,145 --> 00:29:55,525
+Speaker 4:  the as if it was a quote and these people went crazy for it, even though
+
+488
+00:29:55,525 --> 00:29:58,645
+Speaker 4:  it's so simple, you know, because they, they go crazy for how you can build
+
+489
+00:29:58,725 --> 00:30:02,525
+Speaker 4:  a note. And then there are people who are particularly interested in,
+
+490
+00:30:02,585 --> 00:30:06,005
+Speaker 4:  in like personal knowledge management as, as you said. And so they want to
+
+491
+00:30:06,005 --> 00:30:09,845
+Speaker 4:  see Evernote as their one tool and they would like to have
+
+492
+00:30:09,845 --> 00:30:13,525
+Speaker 4:  their own life running on Evernote. So if Evernote did like, I dunno, something
+
+493
+00:30:13,525 --> 00:30:17,485
+Speaker 4:  weird like banking, they would love it. They could
+
+494
+00:30:17,485 --> 00:30:21,045
+Speaker 4:  just use for that. Of course. That, that's crazy. But, so yeah, basically
+
+495
+00:30:21,045 --> 00:30:24,685
+Speaker 4:  we try to look at the interception of all these categories
+
+496
+00:30:24,865 --> 00:30:28,765
+Speaker 4:  and we try to build the things that are as effective as possible for as
+
+497
+00:30:28,765 --> 00:30:32,085
+Speaker 4:  many people in these categories as possible. And then if there's one of these
+
+498
+00:30:32,085 --> 00:30:36,005
+Speaker 4:  groups that needs something specific to them, we'll still build it if it's,
+
+499
+00:30:36,005 --> 00:30:37,765
+Speaker 4:  if it's important enough to their use case.
+
+500
+00:30:37,985 --> 00:30:41,885
+Speaker 3:  Got it. Okay. And how much do you think about the
+
+501
+00:30:41,885 --> 00:30:45,605
+Speaker 3:  work of like doing some of that stuff for people
+
+502
+00:30:45,985 --> 00:30:49,965
+Speaker 3:  versus sort of giving them a, a canvas to do it for themselves? And I think
+
+503
+00:30:49,965 --> 00:30:52,605
+Speaker 3:  organization is one really interesting one, right? Where one of the things
+
+504
+00:30:52,605 --> 00:30:55,005
+Speaker 3:  that's happening in a lot of these tools is they're like, don't worry about
+
+505
+00:30:55,005 --> 00:30:58,645
+Speaker 3:  organizing. We'll we'll use AI to suggest tags or
+
+506
+00:30:58,795 --> 00:31:02,205
+Speaker 3:  Yeah, we'll, we'll just magically do the search and all this stuff for you.
+
+507
+00:31:02,305 --> 00:31:06,045
+Speaker 3:  And I think I, I sense this sort of schism in this space
+
+508
+00:31:06,045 --> 00:31:08,805
+Speaker 3:  between people who are like, what I want is like a really fast, really nice,
+
+509
+00:31:08,805 --> 00:31:12,365
+Speaker 3:  really pleasant tool that doesn't tell me how to
+
+510
+00:31:12,625 --> 00:31:16,325
+Speaker 3:  use it, that I can just use however I want. And then there's another
+
+511
+00:31:16,425 --> 00:31:19,805
+Speaker 3:  set of people who are like, what I wanna do is spend a lot less time thinking
+
+512
+00:31:19,805 --> 00:31:23,365
+Speaker 3:  about my notes. I just wanna dump every email I get into
+
+513
+00:31:23,365 --> 00:31:26,525
+Speaker 3:  Evernote and have it make sense of all of those things for me. Yeah. And
+
+514
+00:31:26,565 --> 00:31:30,485
+Speaker 3:  I kind of feel like you can't be both of those things at the same time. Yeah.
+
+515
+00:31:30,805 --> 00:31:34,565
+Speaker 4:  I don't think there is a way to build something that works
+
+516
+00:31:35,665 --> 00:31:39,365
+Speaker 4:  in the perfect way for both So I think that the perfect re
+
+517
+00:31:39,465 --> 00:31:43,445
+Speaker 4:  the perfect approach is to build both kind of, build a
+
+518
+00:31:43,445 --> 00:31:46,525
+Speaker 4:  product that supports both Okay. Use cases. So
+
+519
+00:31:47,045 --> 00:31:50,885
+Speaker 4:  increasingly there are people who just want to dump stuff into
+
+520
+00:31:51,005 --> 00:31:54,965
+Speaker 4:  Evernote and then like ask ai search Right.
+
+521
+00:31:54,965 --> 00:31:57,885
+Speaker 4:  To, to retrieve the information they want. So for instance, one, one of my
+
+522
+00:31:58,005 --> 00:32:01,245
+Speaker 4:  favorite examples is one person I think uploaded the
+
+523
+00:32:02,425 --> 00:32:06,365
+Speaker 4:  manual for their kitchen clock I think Sure.
+
+524
+00:32:06,985 --> 00:32:10,525
+Speaker 4:  On, on Evernote. And then they wanted to know how to, I dunno, change from
+
+525
+00:32:10,595 --> 00:32:14,005
+Speaker 4:  from Celsius to Fahrenheit in the, in the clock.
+
+526
+00:32:14,985 --> 00:32:18,885
+Speaker 4:  And, and they just asked AI search and, and he just scanned the PDF
+
+527
+00:32:18,985 --> 00:32:21,645
+Speaker 4:  and, and just told him like, you should, you should do this, this, and that.
+
+528
+00:32:22,165 --> 00:32:25,845
+Speaker 4:  Which was interesting. Of course this is not useful to somebody who
+
+529
+00:32:26,515 --> 00:32:29,765
+Speaker 4:  uses Evernote not even to collect stuff, but to
+
+530
+00:32:30,685 --> 00:32:33,765
+Speaker 4:  organize it in a, in a way that, that like mimics their
+
+531
+00:32:34,265 --> 00:32:37,885
+Speaker 4:  mental map of how their content is organized. And so for them
+
+532
+00:32:37,995 --> 00:32:41,525
+Speaker 4:  it's much more important to build stuff like, I dunno, stocks
+
+533
+00:32:42,225 --> 00:32:45,725
+Speaker 4:  for, for notebooks for instance. Or, or like multiple levels of, of hierarchy
+
+534
+00:32:45,945 --> 00:32:49,205
+Speaker 4:  and stuff like that. So, so you, you see how you need to build different
+
+535
+00:32:49,205 --> 00:32:50,365
+Speaker 4:  things for, for different use cases.
+
+536
+00:32:50,875 --> 00:32:54,605
+Speaker 3:  That first use case, the like, I wanna
+
+537
+00:32:54,625 --> 00:32:58,325
+Speaker 3:  upload stuff to Evernote and have Evernote just kind of know it Yeah.
+
+538
+00:32:59,305 --> 00:33:03,205
+Speaker 3:  Is so new and so interesting to me. Yeah. And I feel
+
+539
+00:33:03,205 --> 00:33:06,645
+Speaker 3:  like in a, in a certain way is like the obvious next step of this, right?
+
+540
+00:33:06,645 --> 00:33:10,445
+Speaker 3:  Where instead of searching for a note, I should just be able to
+
+541
+00:33:10,445 --> 00:33:13,245
+Speaker 3:  search for information that I need and it doesn't really matter where it
+
+542
+00:33:13,245 --> 00:33:17,085
+Speaker 3:  is. Yeah. Like as a, as a person who likes to organize stuff, that kinda
+
+543
+00:33:17,085 --> 00:33:20,605
+Speaker 3:  makes me itchy, but I also understand why that's really valuable. Is that,
+
+544
+00:33:20,785 --> 00:33:24,365
+Speaker 3:  are we getting to that point? Like, is is that a, a thing you're investing
+
+545
+00:33:24,365 --> 00:33:28,205
+Speaker 3:  in a lot? 'cause that also causes some really interesting privacy and
+
+546
+00:33:28,205 --> 00:33:31,525
+Speaker 3:  data security questions Yeah. And changes like the, the literal cost of running
+
+547
+00:33:31,545 --> 00:33:35,205
+Speaker 3:  the service. Are you, is there gonna be more and more of that
+
+548
+00:33:35,275 --> 00:33:39,125
+Speaker 3:  kind of put everything in and let the app make sense of all your
+
+549
+00:33:39,125 --> 00:33:41,645
+Speaker 3:  information for you coming in overnight? Yeah.
+
+550
+00:33:42,075 --> 00:33:45,045
+Speaker 4:  It's, it's something that's trending. So it's clearly something that people
+
+551
+00:33:45,065 --> 00:33:48,685
+Speaker 4:  are starting to explore more. Both because they are
+
+552
+00:33:48,705 --> 00:33:52,565
+Speaker 4:  seeing how it could work because maybe they are getting familiar with chat
+
+553
+00:33:52,605 --> 00:33:55,805
+Speaker 4:  g PT or, or other AI products. But also because I think that
+
+554
+00:33:56,315 --> 00:33:59,085
+Speaker 4:  deep down this, this is something that people always wanted. You know, you,
+
+555
+00:33:59,085 --> 00:34:01,605
+Speaker 4:  you just want to talk to a computer and the computer just tells you what,
+
+556
+00:34:01,605 --> 00:34:05,045
+Speaker 4:  what you want to know instead of like going through this like
+
+557
+00:34:05,495 --> 00:34:09,285
+Speaker 4:  level of emulation, which is like, I have to click on a mouse and then open
+
+558
+00:34:09,325 --> 00:34:12,325
+Speaker 4:  a page and then I read the information out of that. I I just want to know
+
+559
+00:34:12,325 --> 00:34:13,285
+Speaker 4:  that information, you know? Right.
+
+560
+00:34:13,305 --> 00:34:16,845
+Speaker 3:  My favorite example is always I have, I have a note with
+
+561
+00:34:17,145 --> 00:34:21,045
+Speaker 3:  all of my like account and loyalty numbers for different airlines and car
+
+562
+00:34:21,045 --> 00:34:24,405
+Speaker 3:  rental places and stuff like that. Yeah. And every time I do it, if I just
+
+563
+00:34:24,405 --> 00:34:27,645
+Speaker 3:  search Delta, it brings up too many notes. 'cause it has everything with
+
+564
+00:34:27,645 --> 00:34:30,645
+Speaker 3:  the word delta in it. And So I have to remember like, okay, the thing is
+
+565
+00:34:30,765 --> 00:34:34,725
+Speaker 3:  actually called accounts space slash space loyalty numbers. And
+
+566
+00:34:34,725 --> 00:34:37,885
+Speaker 3:  then it's like, no, it's loyalty, it's something else. And so it's like finding
+
+567
+00:34:37,885 --> 00:34:40,965
+Speaker 3:  this is a pain and what I want is just to say what's my, what's my Delta
+
+568
+00:34:41,685 --> 00:34:45,485
+Speaker 3:  frequent flyer number? Yeah. And it just pops it up. Yeah. A feels
+
+569
+00:34:45,485 --> 00:34:48,765
+Speaker 3:  like a terrific use case for a notes app and B feels like in a funny way,
+
+570
+00:34:49,045 --> 00:34:52,725
+Speaker 3:  actually a thing AI is able to do. I think we're at a place where a lot of
+
+571
+00:34:52,725 --> 00:34:55,885
+Speaker 3:  people are like, I'm gonna throw all these interesting links and Evernote
+
+572
+00:34:55,885 --> 00:34:59,605
+Speaker 3:  or something else is going to Yeah. Make new insights out of them. It's like,
+
+573
+00:34:59,605 --> 00:35:03,445
+Speaker 3:  yeah, no it's not, but it might find information for you Yeah. That
+
+574
+00:35:03,445 --> 00:35:07,045
+Speaker 3:  would otherwise take you several steps to find. Does that, does that feel
+
+575
+00:35:07,245 --> 00:35:09,765
+Speaker 3:  like the right frame for how you're thinking about some of this stuff? It
+
+576
+00:35:09,765 --> 00:35:13,605
+Speaker 4:  Is exactly why we built AI search a few months ago. Like I think last
+
+577
+00:35:13,605 --> 00:35:17,525
+Speaker 4:  year. I don't think we nailed it yet. I think we'll need to iterate again
+
+578
+00:35:17,525 --> 00:35:21,205
+Speaker 4:  on that. Okay. But it's exactly the, the vision behind it. So
+
+579
+00:35:21,385 --> 00:35:24,125
+Speaker 4:  you have some information there. You don't need to care about where it is.
+
+580
+00:35:24,385 --> 00:35:28,365
+Speaker 4:  You just look for your Delta account number and just
+
+581
+00:35:28,365 --> 00:35:32,285
+Speaker 4:  tells you, yeah, it's X, y, Z and it should already be able to do it.
+
+582
+00:35:32,285 --> 00:35:36,005
+Speaker 4:  It's just a bit clunky. It's, it's not easily, it's not easy to find
+
+583
+00:35:36,065 --> 00:35:38,765
+Speaker 4:  inside Evernote because we want to make sure that, that we don't disrupt,
+
+584
+00:35:38,765 --> 00:35:41,805
+Speaker 4:  like search search is a very important feature ever. So we, we didn't want
+
+585
+00:35:41,805 --> 00:35:44,805
+Speaker 4:  to replace it, but it's already possible. You can already do it, I think.
+
+586
+00:35:44,915 --> 00:35:45,205
+Speaker 4:  Okay.
+
+587
+00:35:45,315 --> 00:35:49,245
+Speaker 3:  Well and I think that goes back to the bundling and unbundling Yeah. For
+
+588
+00:35:49,245 --> 00:35:53,005
+Speaker 3:  me, in a really interesting way because the, the last phase of software has
+
+589
+00:35:53,005 --> 00:35:56,685
+Speaker 3:  definitely been unbundling. We're back, we're in this like best in breed,
+
+590
+00:35:57,515 --> 00:36:00,965
+Speaker 3:  kind of take one slice of something, do it super well. Yeah. And it's all
+
+591
+00:36:00,965 --> 00:36:04,565
+Speaker 3:  just apps on your home screen. So, I, it's not like the switching cost is
+
+592
+00:36:04,565 --> 00:36:08,325
+Speaker 3:  super high from thing to thing. Yeah. But when I'm working with an AI
+
+593
+00:36:08,325 --> 00:36:12,085
+Speaker 3:  system, having there be one place that
+
+594
+00:36:12,175 --> 00:36:15,605
+Speaker 3:  knows everything, again, leaving all of the like
+
+595
+00:36:15,915 --> 00:36:19,685
+Speaker 3:  privacy and security Yeah. And terrifying dystopian
+
+596
+00:36:19,705 --> 00:36:23,645
+Speaker 3:  things out, that's really valuable. Yeah. And so for me to know
+
+597
+00:36:24,495 --> 00:36:28,445
+Speaker 3:  every, every confirmation number, every loyalty number, all of
+
+598
+00:36:28,445 --> 00:36:32,365
+Speaker 3:  my email, everything is all knowing all of that is in one place Yeah. Becomes
+
+599
+00:36:32,525 --> 00:36:36,165
+Speaker 3:  really valuable. And So I think, it seems to me that If you think
+
+600
+00:36:36,505 --> 00:36:40,245
+Speaker 3:  AI is gonna become a bigger and bigger part of this that would sort of expand
+
+601
+00:36:40,245 --> 00:36:43,245
+Speaker 3:  the boundaries of what you feel like Evernote has to do. Because in order
+
+602
+00:36:43,245 --> 00:36:47,205
+Speaker 3:  for you to be able to like return that kind of information, you just need
+
+603
+00:36:47,205 --> 00:36:49,165
+Speaker 3:  a lot of stuff from me. Yeah.
+
+604
+00:36:50,265 --> 00:36:53,325
+Speaker 4:  The cool thing is that you always have control over it. Right? So So I, if
+
+605
+00:36:53,325 --> 00:36:57,045
+Speaker 4:  you're not comfortable with sharing at the norm, your some document for instance,
+
+606
+00:36:57,065 --> 00:37:01,005
+Speaker 4:  you can just not put it on Evernote or, or on any software and, and you it
+
+607
+00:37:01,005 --> 00:37:04,765
+Speaker 4:  won't be scanned, quote unquote. The other thing is that we take this stuff
+
+608
+00:37:04,765 --> 00:37:08,285
+Speaker 4:  incredibly seriously. So one of the reasons why we weren't
+
+609
+00:37:08,605 --> 00:37:12,445
+Speaker 4:  particularly bold into creating AI searches because we wanted to
+
+610
+00:37:12,445 --> 00:37:15,925
+Speaker 4:  make sure that people who didn't want it on their content
+
+611
+00:37:16,375 --> 00:37:19,965
+Speaker 4:  could just not use it and not worry about it. Hmm. So that, that's one way
+
+612
+00:37:20,145 --> 00:37:24,085
+Speaker 4:  to approach it of, I I think, I think we we're maybe a bit too conservative
+
+613
+00:37:24,185 --> 00:37:27,685
+Speaker 4:  and, and too careful with it. But I think it's, it's a good attention to
+
+614
+00:37:27,845 --> 00:37:28,445
+Speaker 4:  have. So
+
+615
+00:37:28,635 --> 00:37:30,765
+Speaker 3:  Wait, actually walk me through that. How do you put that in the product?
+
+616
+00:37:31,085 --> 00:37:34,325
+Speaker 3:  'cause again, you have a lot of people who use Evernote who Yeah. Are, have
+
+617
+00:37:34,325 --> 00:37:37,605
+Speaker 3:  been putting stuff into it, including in many cases very sensitive things.
+
+618
+00:37:37,675 --> 00:37:41,245
+Speaker 3:  Yeah. Like, you keep hearing about people who put all their passwords in
+
+619
+00:37:41,245 --> 00:37:44,445
+Speaker 3:  Evernote and like, don't do that. People just don't, don't Yeah. Please don't,
+
+620
+00:37:44,455 --> 00:37:44,925
+Speaker 3:  don't do that.
+
+621
+00:37:45,745 --> 00:37:48,925
+Speaker 4:  Or at least use end-to-end encryption. Like there is an end-to-end encrypt
+
+622
+00:37:48,925 --> 00:37:50,325
+Speaker 4:  encryption feature on Evernote.
+
+623
+00:37:50,395 --> 00:37:53,085
+Speaker 3:  Okay. That's one If. you have to like, don't do that. Don't
+
+624
+00:37:53,085 --> 00:37:53,325
+Speaker 4:  Just
+
+625
+00:37:53,325 --> 00:37:57,285
+Speaker 3:  Don't do that. Don't. But then so then to say, it's one thing to say,
+
+626
+00:37:57,285 --> 00:38:01,245
+Speaker 3:  you know, we, we have a new layout for the, the formatting
+
+627
+00:38:01,245 --> 00:38:04,605
+Speaker 3:  buttons. It's another thing to say, we now have an AI tool Yep. That is going
+
+628
+00:38:04,605 --> 00:38:07,885
+Speaker 3:  to index everything you've ever put into Evernote and make you and make it
+
+629
+00:38:07,885 --> 00:38:10,805
+Speaker 3:  searchable. There's gonna be a subset of people who are like, oh, neat. And
+
+630
+00:38:10,805 --> 00:38:13,085
+Speaker 3:  there's gonna be a subset of people who are like, you did what now? Yeah,
+
+631
+00:38:13,085 --> 00:38:16,485
+Speaker 3:  yeah. Like how do you, how do you sequence that for those people? How do
+
+632
+00:38:16,485 --> 00:38:19,085
+Speaker 3:  you roll that out in a way that doesn't terrify two thirds of your users?
+
+633
+00:38:19,235 --> 00:38:19,525
+Speaker 3:  Yeah.
+
+634
+00:38:19,825 --> 00:38:23,805
+Speaker 4:  So this is a great example on how we take
+
+635
+00:38:23,805 --> 00:38:27,725
+Speaker 4:  this seriously. So we literally didn't take this vision
+
+636
+00:38:27,785 --> 00:38:31,525
+Speaker 4:  to its full potential because we didn't want people to be scared
+
+637
+00:38:31,885 --> 00:38:35,565
+Speaker 4:  and, and, and to be like frightened by what this could become.
+
+638
+00:38:36,125 --> 00:38:40,045
+Speaker 4:  So we work very careful in building it. So right now, the way it works is
+
+639
+00:38:40,425 --> 00:38:44,325
+Speaker 4:  If, you don't opt in to use AI powered
+
+640
+00:38:44,325 --> 00:38:44,605
+Speaker 4:  search.
+
+641
+00:38:46,195 --> 00:38:49,805
+Speaker 4:  Your notes are not shared with any sort of like third party ai,
+
+642
+00:38:49,935 --> 00:38:53,645
+Speaker 4:  which is an interesting approach because we could have said like, yeah, don't
+
+643
+00:38:53,765 --> 00:38:57,285
+Speaker 4:  worry. Like the, the privacy policy of this AI tool
+
+644
+00:38:57,585 --> 00:39:00,845
+Speaker 4:  is that they don't train anything on your, on your content, et cetera. So
+
+645
+00:39:00,845 --> 00:39:04,445
+Speaker 4:  you're, you're still safe. But, but it'll still do it. You know? So for,
+
+646
+00:39:04,445 --> 00:39:07,805
+Speaker 4:  for now it works like this. Now, now we're always trying to to, to ask people
+
+647
+00:39:07,835 --> 00:39:11,765
+Speaker 4:  what their feeling for these things are because it, it would be so useful.
+
+648
+00:39:12,185 --> 00:39:16,165
+Speaker 4:  So I'm, I'm, I'm curious to know if there is a way to build it
+
+649
+00:39:16,165 --> 00:39:19,965
+Speaker 4:  in such a way that is, that it's both like, frictionless and it works
+
+650
+00:39:19,995 --> 00:39:23,645
+Speaker 4:  like super well, super easy to use, et cetera,
+
+651
+00:39:24,145 --> 00:39:28,085
+Speaker 4:  and also remain super private and, and, and stuff like that. I think
+
+652
+00:39:28,085 --> 00:39:30,605
+Speaker 4:  there are ways we, we just didn't have time yet to, to work. Do
+
+653
+00:39:30,725 --> 00:39:33,205
+Speaker 3:  You think there are ways? I'm not convinced there are ways, but I'm, I'm
+
+654
+00:39:33,205 --> 00:39:34,285
+Speaker 3:  glad to hear that you think there are,
+
+655
+00:39:34,435 --> 00:39:38,245
+Speaker 4:  Well for instance, If, you could run a model locally. You could do it
+
+656
+00:39:38,245 --> 00:39:42,085
+Speaker 4:  without sharing it with anybody else, which is one way to
+
+657
+00:39:42,085 --> 00:39:45,165
+Speaker 4:  protect it. So, so that at least you know that everything is still on your,
+
+658
+00:39:45,165 --> 00:39:48,245
+Speaker 4:  on your device. And it's not like there is one
+
+659
+00:39:49,135 --> 00:39:53,045
+Speaker 4:  model that is ingesting everybody's content. That's one way.
+
+660
+00:39:53,065 --> 00:39:54,685
+Speaker 4:  But there are maybe other ways. Yeah.
+
+661
+00:39:55,235 --> 00:39:58,325
+Speaker 3:  Alright, we gotta take one more break and then we're gonna talk about price.
+
+662
+00:41:50,125 --> 00:41:54,085
+Speaker 4:  like every widget is a different query for content that needs to
+
+663
+00:41:54,085 --> 00:41:58,045
+Speaker 4:  be populated. So every section needs to be populated through a query.
+
+664
+00:41:58,665 --> 00:42:02,445
+Speaker 4:  So one of the big reasons why we did it is because we wanted to make it faster,
+
+665
+00:42:02,575 --> 00:42:06,445
+Speaker 4:  especially at launch. Like it was like, I think like
+
+666
+00:42:06,445 --> 00:42:10,245
+Speaker 4:  four or five seconds on good devices to launch in the past, and now
+
+667
+00:42:10,245 --> 00:42:13,645
+Speaker 4:  it's down to like less than a second on some, some good devices. So that's,
+
+668
+00:42:13,645 --> 00:42:17,445
+Speaker 4:  that's a big thing. So the other thing is just like technology,
+
+669
+00:42:17,505 --> 00:42:20,685
+Speaker 4:  you, we, we need to improve the technology and we are, we did like for, for
+
+670
+00:42:20,685 --> 00:42:24,405
+Speaker 4:  the, for the whole last year. And we're still doing, like, as I told you
+
+671
+00:42:24,415 --> 00:42:28,045
+Speaker 4:  today, we are launching a rent, which is this new synchronization engine,
+
+672
+00:42:28,215 --> 00:42:32,045
+Speaker 4:  which also speeds up synchronization. So yeah, it, it's basically, it comes
+
+673
+00:42:32,045 --> 00:42:34,405
+Speaker 4:  down to the technology that you have and, and the way it works,
+
+674
+00:42:35,125 --> 00:42:38,165
+Speaker 3:  I mean, there's nothing work to do the answer. Like, I both believe you and
+
+675
+00:42:39,095 --> 00:42:41,485
+Speaker 3:  still don't care. And I still think all the apps should be faster. I know.
+
+676
+00:42:41,485 --> 00:42:45,165
+Speaker 3:  Yeah. Is speed a trade off to some of this other stuff that you're
+
+677
+00:42:45,165 --> 00:42:48,645
+Speaker 3:  thinking about? Like does as you build in all these new features and bring
+
+678
+00:42:48,645 --> 00:42:52,045
+Speaker 3:  in lots of new kinds of stuff and activities people can do, like, you know,
+
+679
+00:42:52,045 --> 00:42:55,645
+Speaker 3:  you mentioned every widget on the homepage adds more response time.
+
+680
+00:42:55,755 --> 00:42:59,485
+Speaker 3:  Yeah. Is, does all of that stuff fight against
+
+681
+00:42:59,625 --> 00:43:00,605
+Speaker 3:  making the app faster?
+
+682
+00:43:01,745 --> 00:43:05,045
+Speaker 4:  Not necessarily, but I'll give you an a close example. So
+
+683
+00:43:05,715 --> 00:43:09,645
+Speaker 4:  there's this trade off of I want everyone to be faster, but
+
+684
+00:43:09,955 --> 00:43:13,405
+Speaker 4:  also for some reason I'm running like Meco S
+
+685
+00:43:14,845 --> 00:43:18,765
+Speaker 4:  13 and for my own understandable reason, reasons I
+
+686
+00:43:18,765 --> 00:43:22,165
+Speaker 4:  don't want to abandon that. And so that prevents us
+
+687
+00:43:22,595 --> 00:43:26,565
+Speaker 4:  from abandoning that that os if there are, like, if there's
+
+688
+00:43:26,565 --> 00:43:30,485
+Speaker 4:  a mini meaningful number of people using it, So, I, it's not like to
+
+689
+00:43:30,485 --> 00:43:34,125
+Speaker 4:  have an excuse. I'm, I'm saying that there are a lot of things that we could
+
+690
+00:43:34,125 --> 00:43:37,445
+Speaker 4:  do, even though there are no trade-offs and, and we are doing them, but in
+
+691
+00:43:37,445 --> 00:43:40,725
+Speaker 4:  some cases there are trade-offs. And so we always have to balance, okay,
+
+692
+00:43:40,725 --> 00:43:43,885
+Speaker 4:  like how many people are we preventing from using Evernote in the future
+
+693
+00:43:44,345 --> 00:43:48,165
+Speaker 4:  in order to be able to update a library that drops support
+
+694
+00:43:48,185 --> 00:43:51,445
+Speaker 4:  for that operating system. You, you see? So, so it's kind of complex many
+
+695
+00:43:51,445 --> 00:43:51,565
+Speaker 4:  times.
+
+696
+00:43:51,915 --> 00:43:55,765
+Speaker 3:  Okay. And then the other thing is the price. Yeah. Most of
+
+697
+00:43:55,765 --> 00:43:58,525
+Speaker 3:  the people who are mad at Evernote, especially right now, are mad because
+
+698
+00:43:58,525 --> 00:44:01,445
+Speaker 3:  you just changed the price. Mm. Yeah. And you just changed what people get
+
+699
+00:44:01,625 --> 00:44:05,605
+Speaker 3:  who don't pay for Evernote. And the number of people who are like, I haven't
+
+700
+00:44:05,605 --> 00:44:08,605
+Speaker 3:  been paying for Evernote, I've been using it for 15 years. Yeah. And now
+
+701
+00:44:08,605 --> 00:44:12,525
+Speaker 3:  I'm quitting because they're charging me money. I have found myself wondering,
+
+702
+00:44:13,065 --> 00:44:15,925
+Speaker 3:  If, you are sitting there being like, yes. Yes. Precisely. That's the point.
+
+703
+00:44:15,985 --> 00:44:19,925
+Speaker 3:  We have to make money. If, you use this for free. We're just losing
+
+704
+00:44:19,925 --> 00:44:23,365
+Speaker 3:  money. Part of what you did in a big way when you bought Evernote was you
+
+705
+00:44:23,365 --> 00:44:26,445
+Speaker 3:  changed the business model, right? Like, it, it it charges very differently
+
+706
+00:44:26,445 --> 00:44:30,285
+Speaker 3:  than it did. Yeah. The free tier is very different than it was. How do you
+
+707
+00:44:30,285 --> 00:44:34,245
+Speaker 3:  think through the business, especially for individual note taking, which
+
+708
+00:44:34,345 --> 00:44:38,045
+Speaker 3:  as we talked about is a business a lot of people run away from because they
+
+709
+00:44:38,045 --> 00:44:41,445
+Speaker 3:  just can't figure it out. Yeah. How do you think about what it takes to make
+
+710
+00:44:41,445 --> 00:44:42,325
+Speaker 3:  that a business right now?
+
+711
+00:44:42,795 --> 00:44:43,085
+Speaker 4:  Yeah.
+
+712
+00:44:45,405 --> 00:44:48,125
+Speaker 4:  I empathize with, with, with those people because it's not something that
+
+713
+00:44:48,125 --> 00:44:52,085
+Speaker 4:  I don't understand, right? So we all use many different software
+
+714
+00:44:52,085 --> 00:44:55,605
+Speaker 4:  products and it's not like we are happy when, when prices increase
+
+715
+00:44:56,305 --> 00:45:00,165
+Speaker 4:  and sim applies to me. So it's not like we are here saying, yeah, we're going
+
+716
+00:45:00,165 --> 00:45:03,125
+Speaker 4:  to raise the price and it's going to be great. It, it's more about
+
+717
+00:45:03,805 --> 00:45:07,685
+Speaker 4:  identifying the way to make everyone the most successful that we can in
+
+718
+00:45:07,685 --> 00:45:11,485
+Speaker 4:  order for it to be sustainable so that we can guarantee
+
+719
+00:45:11,585 --> 00:45:14,325
+Speaker 4:  the glorious future. That that's the point. Right? The, the whole reason
+
+720
+00:45:14,385 --> 00:45:18,045
+Speaker 4:  we increase prices is so that anot would be, would have a
+
+721
+00:45:18,165 --> 00:45:21,285
+Speaker 4:  glorious future in looking ahead. And so
+
+722
+00:45:22,075 --> 00:45:25,765
+Speaker 4:  what we try to do in this situation is, is to be, is to have like a rigorous
+
+723
+00:45:26,085 --> 00:45:30,045
+Speaker 4:  scientific approach where we If you think of the extremes.
+
+724
+00:45:30,265 --> 00:45:34,165
+Speaker 4:  If, you charge $0, everybody's going to be happy, but then
+
+725
+00:45:34,165 --> 00:45:37,965
+Speaker 4:  Evernote is going to be dead very soon. Yes. If, you charge a
+
+726
+00:45:38,085 --> 00:45:41,085
+Speaker 4:  thousand dollars per month, nobody's going to use, use Evernote anymore.
+
+727
+00:45:41,345 --> 00:45:45,325
+Speaker 4:  And, and, and so it'll die too. So of course you have to find a
+
+728
+00:45:45,325 --> 00:45:49,125
+Speaker 4:  balance. What I mean that we try to be scientific is that Evernotes
+
+729
+00:45:49,125 --> 00:45:53,005
+Speaker 4:  prices weren't traced for seven years before we, before we adjusted the
+
+730
+00:45:53,005 --> 00:45:56,565
+Speaker 4:  pricing. And so we tried to rebalance that in a way
+
+731
+00:45:56,995 --> 00:46:00,965
+Speaker 4:  that basically tempted to piss off the lowest amount
+
+732
+00:46:00,965 --> 00:46:04,725
+Speaker 4:  of people that we could while increasing the,
+
+733
+00:46:04,785 --> 00:46:08,405
+Speaker 4:  the everyone revenue as much as we could. And so we had to
+
+734
+00:46:08,685 --> 00:46:11,525
+Speaker 4:  identify that, that that delicate balance and, and, and we take this stuff
+
+735
+00:46:11,525 --> 00:46:14,245
+Speaker 4:  very seriously because it's not like we're happy when we read people who
+
+736
+00:46:14,245 --> 00:46:17,125
+Speaker 4:  are pissed at Evernote. Right. And so that, that's what, what, that was a
+
+737
+00:46:17,125 --> 00:46:21,045
+Speaker 4:  tricky thing to do. But eventually the the cool thing, I can
+
+738
+00:46:21,045 --> 00:46:24,885
+Speaker 4:  give you two interesting data points. Maybe. One thing is when
+
+739
+00:46:25,065 --> 00:46:28,885
+Speaker 4:  we talk to customers as, as I told you, it's so cool to observe how
+
+740
+00:46:28,885 --> 00:46:32,845
+Speaker 4:  reasonable they are. Like most people we talk to who use Evernet
+
+741
+00:46:32,885 --> 00:46:36,845
+Speaker 4:  a lot, they're saying, yeah, I saw the new prices. It's not like I'm
+
+742
+00:46:36,845 --> 00:46:40,765
+Speaker 4:  happy about it. It's, it's okay. I get a lot of value out of
+
+743
+00:46:40,765 --> 00:46:44,685
+Speaker 4:  Evernet far more than, than what you charge me. Now. Let's
+
+744
+00:46:44,685 --> 00:46:47,925
+Speaker 4:  go back to talking about how we can make evernet better. Sure. You look like
+
+745
+00:46:47,925 --> 00:46:51,725
+Speaker 4:  they, they very quickly the conversation shifts to Yeah, but
+
+746
+00:46:51,955 --> 00:46:55,885
+Speaker 4:  okay, the, the price is, is fine, but let's talk about how to improve ever
+
+747
+00:46:55,885 --> 00:46:56,325
+Speaker 4:  ornot. Right.
+
+748
+00:46:56,325 --> 00:46:58,685
+Speaker 3:  Which is the conversation I'm sure you want to be having, right. Where it's
+
+749
+00:46:58,685 --> 00:47:02,645
+Speaker 3:  like, yes, how make it worth my money. Exactly. Let's go. Exactly.
+
+750
+00:47:02,675 --> 00:47:06,445
+Speaker 4:  Yeah, exactly. The other data point is the numbers.
+
+751
+00:47:06,785 --> 00:47:10,645
+Speaker 4:  So when we look at how many people like left Evernote
+
+752
+00:47:10,645 --> 00:47:13,765
+Speaker 4:  versus not, et cetera, of course we, we, we are always looking at, at that
+
+753
+00:47:13,765 --> 00:47:17,485
+Speaker 4:  number in order to make these decisions. And the cool thing is that
+
+754
+00:47:17,605 --> 00:47:21,485
+Speaker 4:  Evernote retention has never been higher than today. So Yeah, of course like
+
+755
+00:47:21,485 --> 00:47:24,485
+Speaker 4:  If you If you look on Reddit, you, you might imagine something different.
+
+756
+00:47:24,665 --> 00:47:28,445
+Speaker 4:  But actually like the, the situation is kind of good. So
+
+757
+00:47:28,635 --> 00:47:28,925
+Speaker 4:  yeah.
+
+758
+00:47:29,705 --> 00:47:32,645
+Speaker 3:  So are you gonna raise the price more then? Did you go too low? No,
+
+759
+00:47:32,645 --> 00:47:33,605
+Speaker 4:  We, we don't have, did
+
+760
+00:47:33,605 --> 00:47:34,365
+Speaker 3:  You have lost a few more people
+
+761
+00:47:34,765 --> 00:47:35,605
+Speaker 4:  Concrete plans Okay.
+
+762
+00:47:35,825 --> 00:47:38,485
+Speaker 3:  To do that? Well, part of the reason I ask is I think we're, we're in a moment
+
+763
+00:47:38,485 --> 00:47:42,325
+Speaker 3:  right now where a, everything is becoming a subscription. And so subscription
+
+764
+00:47:42,325 --> 00:47:46,245
+Speaker 3:  fatigue is pretty real. Yeah. And b, all the prices seem to go up all
+
+765
+00:47:46,245 --> 00:47:50,125
+Speaker 3:  the time. Yeah. And, and I think there is a sense of, I'd be willing
+
+766
+00:47:50,125 --> 00:47:53,885
+Speaker 3:  to pay for this, but the more I invest in it, the more
+
+767
+00:47:54,865 --> 00:47:58,405
+Speaker 3:  you as the company are going to be able to essentially
+
+768
+00:47:58,835 --> 00:48:02,205
+Speaker 3:  like, blackmail me out of my money because you have all my stuff. And the
+
+769
+00:48:02,205 --> 00:48:05,565
+Speaker 3:  harder it is to get out, the more you're gonna be able to take from me before
+
+770
+00:48:05,565 --> 00:48:09,165
+Speaker 3:  I'm willing to leave. And I think the, the fear of that trade is very real
+
+771
+00:48:09,525 --> 00:48:12,165
+Speaker 3:  because people keep going through it, right? Like, yeah. I sign up for a
+
+772
+00:48:12,165 --> 00:48:15,725
+Speaker 3:  streaming service and I've, I've been using Spotify for 10 years and Spotify
+
+773
+00:48:15,795 --> 00:48:19,565
+Speaker 3:  gets more expensive like every 15 minutes now. Yeah. And it sucks, but
+
+774
+00:48:19,725 --> 00:48:23,285
+Speaker 3:  I don't leave because it would be a giant pain, the leave Spotify. And that
+
+775
+00:48:23,335 --> 00:48:26,965
+Speaker 3:  feels bad. Yeah. And I think with something like Evernote, especially,
+
+776
+00:48:27,305 --> 00:48:30,965
+Speaker 3:  you've gone through all this change recently and like, do you, do you get
+
+777
+00:48:30,965 --> 00:48:34,325
+Speaker 3:  to the point where you say, okay, we've, we've done this, this is how we
+
+778
+00:48:34,325 --> 00:48:38,085
+Speaker 3:  set this thing up, it was a painful change, and now we're going to, we're
+
+779
+00:48:38,085 --> 00:48:41,885
+Speaker 3:  going to stop making those changes. Or does it make sense
+
+780
+00:48:41,945 --> 00:48:45,925
+Speaker 3:  to say, you know, we're, we're gonna do this slowly and raise prices as we
+
+781
+00:48:45,925 --> 00:48:49,805
+Speaker 3:  need to, but try to make it kind of less painful each time? Yeah. Like
+
+782
+00:48:49,805 --> 00:48:52,645
+Speaker 3:  the, it's the sort of rip the bandaid off approach versus like, hope nobody
+
+783
+00:48:52,645 --> 00:48:54,125
+Speaker 3:  notices when you raise prices a dollar.
+
+784
+00:48:54,505 --> 00:48:58,325
+Speaker 4:  No, it's, it's generally expensive, quote unquote, to raise
+
+785
+00:48:58,325 --> 00:49:02,285
+Speaker 4:  prices because you don't want to piss people off and, and, and so
+
+786
+00:49:03,065 --> 00:49:04,725
+Speaker 4:  you want to do it the
+
+787
+00:49:06,415 --> 00:49:10,405
+Speaker 4:  fewer times you can. So, so we did it once and we hope
+
+788
+00:49:10,405 --> 00:49:14,165
+Speaker 4:  to be good for, for, for years now, so, fair enough. So that, that's the
+
+789
+00:49:14,285 --> 00:49:17,485
+Speaker 4:  approach. Of course, like every, every once in a while, every service needs
+
+790
+00:49:17,485 --> 00:49:21,245
+Speaker 4:  to adjust prices even just for inflation, you know, every once in a while
+
+791
+00:49:21,275 --> 00:49:25,045
+Speaker 4:  like it compounds. And so it becomes important after, after
+
+792
+00:49:25,205 --> 00:49:29,045
+Speaker 4:  a few years. But yeah, they're like, the other thing is that
+
+793
+00:49:29,065 --> 00:49:32,725
+Speaker 4:  I'm pretty optimistic about how this kind of things
+
+794
+00:49:33,205 --> 00:49:36,085
+Speaker 4:  balances itself. Like competition is strong
+
+795
+00:49:37,155 --> 00:49:40,485
+Speaker 4:  both on note taking, but also on, on other softwares. And
+
+796
+00:49:40,865 --> 00:49:44,365
+Speaker 4:  people are starting to build a sense for, for how to handle these things.
+
+797
+00:49:44,465 --> 00:49:48,445
+Speaker 4:  So I don't think there's the case where you can just like sneak
+
+798
+00:49:48,465 --> 00:49:51,845
+Speaker 4:  in a price increase and people will not notice. That's true. I, I think,
+
+799
+00:49:51,885 --> 00:49:55,485
+Speaker 4:  I think people will, people notice and, and will notice and
+
+800
+00:49:55,675 --> 00:49:59,645
+Speaker 4:  they will be, I'm very optimistic that people know how
+
+801
+00:49:59,645 --> 00:50:03,285
+Speaker 4:  much value they're getting out of a product and, and they are kind of intentional
+
+802
+00:50:03,305 --> 00:50:07,005
+Speaker 4:  in how they behave and, and if they want to stay subscribed versus
+
+803
+00:50:07,105 --> 00:50:07,325
+Speaker 4:  not.
+
+804
+00:50:07,545 --> 00:50:09,725
+Speaker 3:  How competitive does this space feel to you right now?
+
+805
+00:50:10,925 --> 00:50:11,885
+Speaker 4:  Hmm. This, it's,
+
+806
+00:50:13,985 --> 00:50:17,845
+Speaker 4:  we see it as not very competitive because we focus a lot
+
+807
+00:50:17,845 --> 00:50:21,165
+Speaker 4:  on our customers. Okay. and we try to build stuff because
+
+808
+00:50:21,715 --> 00:50:25,245
+Speaker 4:  they need it, rather than, oh, look what the other product is doing, we should
+
+809
+00:50:25,245 --> 00:50:28,845
+Speaker 4:  build that. At the same time, there's no denying that, that there are a lot
+
+810
+00:50:28,845 --> 00:50:32,525
+Speaker 4:  of products that, that compete in the same arena.
+
+811
+00:50:32,625 --> 00:50:36,445
+Speaker 4:  So we need to be careful about both things. The cool thing is that by
+
+812
+00:50:36,445 --> 00:50:40,205
+Speaker 4:  using the, the approach of only caring about our customers,
+
+813
+00:50:40,205 --> 00:50:43,925
+Speaker 4:  quote unquote, is that you can build something unique. So,
+
+814
+00:50:43,985 --> 00:50:47,605
+Speaker 4:  so you don't need to, you don't necessarily need to participate to the race,
+
+815
+00:50:47,775 --> 00:50:48,445
+Speaker 4:  which is cool.
+
+816
+00:50:48,985 --> 00:50:51,325
+Speaker 3:  Who else do you look at that you feel like is doing cool stuff right now?
+
+817
+00:50:52,565 --> 00:50:56,405
+Speaker 4:  I take a lot of inspiration from stuff that is
+
+818
+00:50:56,585 --> 00:51:00,125
+Speaker 4:  not necessarily note taking software. Okay. So for instance, I'm a big fan
+
+819
+00:51:00,125 --> 00:51:02,245
+Speaker 4:  of Slack and, and oh
+
+820
+00:51:02,245 --> 00:51:04,045
+Speaker 3:  My God, you are gonna build work chat again. No,
+
+821
+00:51:04,045 --> 00:51:07,965
+Speaker 4:  Don't, again, I, I I don't think we are,
+
+822
+00:51:08,005 --> 00:51:11,245
+Speaker 4:  I I I think there's very little reason to do that. Okay. Especially because
+
+823
+00:51:11,245 --> 00:51:14,325
+Speaker 4:  like getting a feature parity or even just like to a reasonable
+
+824
+00:51:14,975 --> 00:51:18,765
+Speaker 4:  percentage of the, the features set that that softwares like Slack have is
+
+825
+00:51:18,765 --> 00:51:21,765
+Speaker 4:  hard. So I, I don't think I want to compete with them, but like for instance
+
+826
+00:51:21,855 --> 00:51:25,365
+Speaker 4:  slash comments, it's such a great UX
+
+827
+00:51:25,795 --> 00:51:29,405
+Speaker 4:  that it's just like obvious that every software should have it.
+
+828
+00:51:29,845 --> 00:51:32,805
+Speaker 4:  Another thing I'm a big fan of is like, you know, I don't know how it's called
+
+829
+00:51:32,805 --> 00:51:36,205
+Speaker 4:  maybe Quick Switcher, you know how on Slack you, you hit like CMDK and it,
+
+830
+00:51:36,265 --> 00:51:39,525
+Speaker 4:  you can, you can like switch from, from one channel to the other. The same
+
+831
+00:51:39,525 --> 00:51:43,085
+Speaker 4:  thing exists on, on Evernote. It's just CMDJ instead of K
+
+832
+00:51:43,265 --> 00:51:46,165
+Speaker 3:  And it should be J everywhere by the way, to anyone who's listening, do you
+
+833
+00:51:46,165 --> 00:51:49,485
+Speaker 3:  think So it should be J because K is how you insert links in most apps. Okay.
+
+834
+00:51:49,745 --> 00:51:53,325
+Speaker 3:  And it should be, it j should be for switching. Yeah. K should be for links.
+
+835
+00:51:53,425 --> 00:51:55,005
+Speaker 4:  You, you don't know how many people have tell
+
+836
+00:51:55,075 --> 00:51:58,205
+Speaker 3:  Have deep religion on this. There are a lot of people who believe it's K
+
+837
+00:51:58,265 --> 00:52:02,005
+Speaker 3:  and they're wrong. We can switch links if we want to, but
+
+838
+00:52:02,065 --> 00:52:04,925
+Speaker 3:  one should be J and one should be K. Yeah. And the fact that one is K when
+
+839
+00:52:04,925 --> 00:52:07,365
+Speaker 3:  you have some text selected and the other one is K when you don't have tech
+
+840
+00:52:07,565 --> 00:52:09,165
+Speaker 3:  selected. Yeah. Bad ui.
+
+841
+00:52:09,565 --> 00:52:12,765
+Speaker 4:  I agree. I I I think it should be the same everywhere. I, I I don't have
+
+842
+00:52:12,765 --> 00:52:14,925
+Speaker 4:  any strong opinion on which one it should be. Then
+
+843
+00:52:14,925 --> 00:52:16,645
+Speaker 3:  It should be J get on board with me. Let's
+
+844
+00:52:16,645 --> 00:52:17,445
+Speaker 4:  Do this team
+
+845
+00:52:17,445 --> 00:52:18,045
+Speaker 3:  Command J
+
+846
+00:52:18,075 --> 00:52:20,125
+Speaker 4:  It's already J so that's everyone is good. Perfect.
+
+847
+00:52:21,685 --> 00:52:24,325
+Speaker 4:  I think it could be even more powerful. So first of all, people don't know
+
+848
+00:52:24,325 --> 00:52:27,685
+Speaker 4:  about it and, and, and I think it's so powerful that they should, and So
+
+849
+00:52:28,165 --> 00:52:30,885
+Speaker 4:  I would like for people to know about it. The second thing is that I think
+
+850
+00:52:30,885 --> 00:52:34,005
+Speaker 4:  it could do so much more, like right now on Evernote, you can use the quick
+
+851
+00:52:34,165 --> 00:52:38,085
+Speaker 4:  switcher to navigate to a note or, or, or or
+
+852
+00:52:38,085 --> 00:52:41,365
+Speaker 4:  something like that. But I think you could use it to like delete a note for
+
+853
+00:52:41,485 --> 00:52:45,085
+Speaker 4:  instance, like you are inside a note, CM DJ Dell, you, you write like
+
+854
+00:52:45,205 --> 00:52:48,605
+Speaker 4:  DEL and, and you hit enter and it deletes the note and you can, you could
+
+855
+00:52:48,605 --> 00:52:51,805
+Speaker 4:  do like a bunch of different things with that like share or or something
+
+856
+00:52:51,805 --> 00:52:51,965
+Speaker 4:  like that.
+
+857
+00:52:52,425 --> 00:52:55,725
+Speaker 3:  That's a cool idea. Yeah. That's another one that like, you know, you mentioned
+
+858
+00:52:55,785 --> 00:52:59,245
+Speaker 3:  the, the kind of universal slash command thing that's starting to happen.
+
+859
+00:52:59,835 --> 00:53:03,485
+Speaker 3:  That sort of thing is starting to happen more and more places where you bring
+
+860
+00:53:03,485 --> 00:53:06,805
+Speaker 3:  up the kind of universal command bar Yeah. And it lets you do
+
+861
+00:53:06,805 --> 00:53:07,485
+Speaker 4:  Stuff. Exactly.
+
+862
+00:53:07,645 --> 00:53:08,525
+Speaker 3:  I think that's very cool. Yeah.
+
+863
+00:53:08,635 --> 00:53:12,405
+Speaker 4:  Like recast, right? Yeah, exactly. I'm a huge fan of Alfred ku and
+
+864
+00:53:12,435 --> 00:53:13,205
+Speaker 4:  that archetype. Yeah.
+
+865
+00:53:13,265 --> 00:53:16,965
+Speaker 3:  But that is the kind of stuff that is so power usy
+
+866
+00:53:17,745 --> 00:53:21,005
+Speaker 3:  and I think about a lot of people who use tools like Evernote who are the
+
+867
+00:53:21,005 --> 00:53:24,885
+Speaker 3:  folks who are like Yeah. Not even necessarily learning the keyboard
+
+868
+00:53:25,325 --> 00:53:28,365
+Speaker 3:  shortcuts for like copy and paste. Yeah. Right. Like most people
+
+869
+00:53:29,255 --> 00:53:33,085
+Speaker 3:  don't do that stuff. Yeah. And So I think with
+
+870
+00:53:33,105 --> 00:53:35,485
+Speaker 3:  any tool like this and, and it goes back to kinda what you're saying about
+
+871
+00:53:35,485 --> 00:53:39,205
+Speaker 3:  customization, trying to build something that starts very simply Yes.
+
+872
+00:53:39,465 --> 00:53:43,325
+Speaker 3:  And then scales all the way up to what the most power users want. Yeah. It's
+
+873
+00:53:43,525 --> 00:53:47,365
+Speaker 3:  like that's the dream. But I feel like from a, from a actual
+
+874
+00:53:47,715 --> 00:53:51,685
+Speaker 3:  interface perspective, it's so easy to make that into
+
+875
+00:53:51,685 --> 00:53:54,005
+Speaker 3:  just a gigantic mess. Yeah. That actually helps. No one,
+
+876
+00:53:54,685 --> 00:53:58,485
+Speaker 4:  I think in that direction I think we did kind of, well the mobile navigation,
+
+877
+00:53:58,645 --> 00:54:01,845
+Speaker 4:  I think that you want to give a, a good default
+
+878
+00:54:02,355 --> 00:54:06,325
+Speaker 4:  that, that people who are not power users and don't care about
+
+879
+00:54:06,325 --> 00:54:09,525
+Speaker 4:  being power users, they can still use it in a satisfying way.
+
+880
+00:54:10,145 --> 00:54:14,045
+Speaker 4:  And then you can customize it. If you're a power user and you don't want
+
+881
+00:54:14,145 --> 00:54:17,565
+Speaker 4:  the create page to be your default homepage, then you can just customize
+
+882
+00:54:17,565 --> 00:54:21,525
+Speaker 4:  it and make it so that the note list is your, is your homepage. And it took
+
+883
+00:54:21,525 --> 00:54:24,605
+Speaker 4:  a while to to, to nail it because I think we tested
+
+884
+00:54:25,675 --> 00:54:29,365
+Speaker 4:  nine different iterations, I think Wow. Of, of the new navigation and
+
+885
+00:54:29,365 --> 00:54:33,165
+Speaker 4:  homepage. And then after those nine iterations, then we added
+
+886
+00:54:33,545 --> 00:54:37,525
+Speaker 4:  the, the customization setting. So you can, you can customize
+
+887
+00:54:37,525 --> 00:54:41,285
+Speaker 4:  which page opens when you launch the app and, and how the nav bar looks.
+
+888
+00:54:41,285 --> 00:54:44,285
+Speaker 4:  You can like switch between notebooks and shortcuts in the nav bar. So I.
+
+889
+00:54:44,365 --> 00:54:47,365
+Speaker 4:  I think that's a good approach. It's not necessarily perfect or finished
+
+890
+00:54:47,425 --> 00:54:51,285
+Speaker 4:  yet, but it's, it's good. I think that we should aim at doing the same thing
+
+891
+00:54:51,285 --> 00:54:54,165
+Speaker 4:  everywhere. Like where you have for every feature you have a strong default
+
+892
+00:54:54,425 --> 00:54:58,165
+Speaker 4:  and then those who want more customization can customize it. Okay.
+
+893
+00:54:58,325 --> 00:55:02,085
+Speaker 3:  I buy that. So it feels like you're, you're, you're in a good place where
+
+894
+00:55:02,115 --> 00:55:06,045
+Speaker 3:  kind of the basic infrastructure of Evernote is in a,
+
+895
+00:55:06,045 --> 00:55:08,805
+Speaker 3:  in a solid place. You've built a bunch of new stuff, you've shipped a bunch
+
+896
+00:55:08,805 --> 00:55:12,325
+Speaker 3:  of new stuff. As you think to like the next 18 months,
+
+897
+00:55:12,995 --> 00:55:16,645
+Speaker 3:  what are some of the big, not, you don't have to tell me about
+
+898
+00:55:16,925 --> 00:55:20,685
+Speaker 3:  features, you can if you'd like to, but sort of big picture things that are
+
+899
+00:55:20,685 --> 00:55:23,645
+Speaker 3:  like top of your mind right now. Either the things that are still at the
+
+900
+00:55:23,645 --> 00:55:26,605
+Speaker 3:  top of the list that customers are asking you for, or just like interesting
+
+901
+00:55:26,605 --> 00:55:28,645
+Speaker 3:  things you wanna work on in the next year or so. Yeah.
+
+902
+00:55:28,745 --> 00:55:32,565
+Speaker 4:  Any note taking software, but especially ever note needs to like nail the
+
+903
+00:55:32,565 --> 00:55:36,525
+Speaker 4:  basic really well and it doesn't do it every
+
+904
+00:55:36,525 --> 00:55:40,205
+Speaker 4:  time. And I would like it to be perfect every time. And then you have collaboration
+
+905
+00:55:40,205 --> 00:55:43,805
+Speaker 4:  and ai I think both are promising. Both are not, they're, they're not
+
+906
+00:55:43,805 --> 00:55:47,045
+Speaker 4:  necessarily core to evernet, So, I. I would like to split between things
+
+907
+00:55:47,045 --> 00:55:50,445
+Speaker 4:  that are like core and sort of non-negotiable.
+
+908
+00:55:50,805 --> 00:55:54,125
+Speaker 4:  Almost like, like the two that we just mentioned. And then things that if
+
+909
+00:55:54,195 --> 00:55:57,885
+Speaker 4:  done well could be very cool and you kind of want both,
+
+910
+00:55:57,885 --> 00:56:01,205
+Speaker 4:  right? You want stuff that that's non-negotiable to be done perfectly. And
+
+911
+00:56:01,205 --> 00:56:04,885
+Speaker 4:  then you want some stuff that that's just cool and you want to have it in
+
+912
+00:56:04,885 --> 00:56:08,245
+Speaker 4:  in your, in your tools. Totally. And so stuff like one click sharing,
+
+913
+00:56:08,585 --> 00:56:12,405
+Speaker 3:  Do you think any of those things are the thing
+
+914
+00:56:12,405 --> 00:56:16,365
+Speaker 3:  that go out and get all the people who don't use a Notes app? 'cause
+
+915
+00:56:16,365 --> 00:56:20,325
+Speaker 3:  I think like it's, it's easy to forget when you care about this stuff that
+
+916
+00:56:20,325 --> 00:56:24,165
+Speaker 3:  most people don't. Yeah. And that most people don't use any of these tools.
+
+917
+00:56:24,515 --> 00:56:28,365
+Speaker 3:  They just live in chaos. Yeah. And like monsters and I don't like
+
+918
+00:56:28,365 --> 00:56:31,645
+Speaker 3:  any of them. You just like live your life with a million open tabs until
+
+919
+00:56:31,645 --> 00:56:35,405
+Speaker 3:  your computer falls apart and there you're So I think like, is
+
+920
+00:56:35,505 --> 00:56:39,325
+Speaker 3:  is the next phase of this. Like, if AI search
+
+921
+00:56:39,325 --> 00:56:43,245
+Speaker 3:  gets really good, maybe that's how we start to get to those people. Like,
+
+922
+00:56:43,245 --> 00:56:46,125
+Speaker 3:  have you started thinking about the non Evernote users much yet?
+
+923
+00:56:46,275 --> 00:56:50,125
+Speaker 4:  Yeah, I think for them the most important thing is, as we were saying, ease
+
+924
+00:56:50,125 --> 00:56:53,125
+Speaker 4:  of use and a strong default. Okay. I, I think that
+
+925
+00:56:53,835 --> 00:56:57,525
+Speaker 4:  they were not trying Evernote because it was a bit cumbersome to learn.
+
+926
+00:56:57,755 --> 00:57:01,605
+Speaker 4:  Like you land on Evernote and then if the first thing you see is a page
+
+927
+00:57:01,605 --> 00:57:05,365
+Speaker 4:  with widgets and you're expecting to, to write notes, you're, you're a bit
+
+928
+00:57:05,365 --> 00:57:08,605
+Speaker 4:  like uncomfortable. You, you're thinking, yeah, how do I write a note here
+
+929
+00:57:09,145 --> 00:57:13,005
+Speaker 4:  and, and like why is it so complicated? So I think that in order to attract
+
+930
+00:57:13,005 --> 00:57:16,525
+Speaker 4:  them you need to have strong use cases that they might not find elsewhere,
+
+931
+00:57:16,585 --> 00:57:20,405
+Speaker 4:  but especially like a very good user, user experience. And so we are also
+
+932
+00:57:20,405 --> 00:57:21,405
+Speaker 4:  working on that. Alright.
+
+933
+00:57:21,545 --> 00:57:24,205
+Speaker 3:  I'm excited to try it. Yeah. All right, well we should go. But thank you
+
+934
+00:57:24,205 --> 00:57:24,925
+Speaker 3:  so much for doing this. Thank you. This was
+
+935
+00:57:24,995 --> 00:57:26,005
+Speaker 4:  Very fun. Thank you. Thank you very much.
+
+936
+00:57:26,675 --> 00:57:30,045
+Speaker 3:  Alright, that's it for The Vergecast today. Thank you to Federico for coming
+
+937
+00:57:30,065 --> 00:57:33,285
+Speaker 3:  on and nerding out about productivity apps with me. And thank you as always
+
+938
+00:57:33,385 --> 00:57:36,405
+Speaker 3:  for listening. Thank you by the way, for all of the nice feedback we've gotten
+
+939
+00:57:36,505 --> 00:57:40,405
+Speaker 3:  on this series. I've had fun and I've learned a ton and it's been great to
+
+940
+00:57:40,405 --> 00:57:43,645
+Speaker 3:  hear from everyone else who has as well as always, If, you have thoughts,
+
+941
+00:57:44,205 --> 00:57:47,485
+Speaker 3:  questions, feelings, or Evernote alternatives that you swear are better and
+
+942
+00:57:47,485 --> 00:57:50,805
+Speaker 3:  I should totally try. You can always email us at Vergecast at The Verge dot
+
+943
+00:57:50,805 --> 00:57:54,685
+Speaker 3:  com or call the hotline. It's six six VERGE one one. we love hearing from
+
+944
+00:57:54,685 --> 00:57:58,365
+Speaker 3:  you productivity. We got other miniseries stuff coming up this fall. Lots
+
+945
+00:57:58,365 --> 00:58:01,765
+Speaker 3:  going on. Keep all your questions coming. This show is produced by Liam James
+
+946
+00:58:01,835 --> 00:58:05,605
+Speaker 3:  Will Pour and Eric Gomez. This episode was edited by Xandr Adams. The
+
+947
+00:58:05,725 --> 00:58:08,365
+Speaker 3:  Vergecast is The Verge production and part of the Vox Media podcast network.
+
+948
+00:58:08,695 --> 00:58:11,925
+Speaker 3:  We'll be back on Tuesday and Friday with our regularly scheduled programming.
+
+949
+00:58:12,145 --> 00:58:15,165
+Speaker 3:  We got a lot of reviews to talk about. We got a lot of Apple stuff to talk
+
+950
+00:58:15,165 --> 00:58:18,605
+Speaker 3:  about. We got a lot more events coming up. Lots going on. We'll see you then.
+
+951
+00:58:18,875 --> 00:58:19,445
+Speaker 3:  Rock and roll
+

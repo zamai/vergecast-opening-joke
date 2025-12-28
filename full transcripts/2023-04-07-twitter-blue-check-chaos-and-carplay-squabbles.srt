@@ -1,0 +1,6377 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: ffa8c660-d534-11ed-8800-85fa158bdfd3
+Status: Done
+Stage: Done
+Title: Twitter blue check chaos and CarPlay squabbles
+Audio URL: https://jfe93e.s3.amazonaws.com/6389274455218958759/3063693691983621813/s93290-US-4937s-1680865910.mp3
+Description: The Verge's Nilay Patel, David Pierce, and Alex Cranz discuss the end of Twitter and the future of infotainment.
+Links:
+
+The color quiz
+
+Twitter tried to hide who pays for their checkmark, but life finds a way.
+
+https://twitter.com/AlexBlechman/status/1641905502043926530
+
+Substack is getting a Twitter-like ‘Notes’ feed
+
+Elon Musk’s obsession with blue checks is a verified problem
+
+Twitter yanks the New York Times’ checkmark in verification overhaul
+
+Today in Twitter: where are the retweet labels, and why did Doge replace the bird?
+
+Spotify shuts down its Clubhouse competitor
+
+Spotify shows how the live audio boom has gone bust
+
+Everybody hates GM’s decision to kill Apple CarPlay and Android Auto for its EVs
+
+The rest of the auto industry still loves CarPlay and Android Auto
+
+GM is cutting off access to Apple CarPlay and Android Auto for its future EVs
+
+Could a new PlayStation handheld be built for Remote Play? I like the idea
+
+Asus ROG Ally handheld gaming PC is no April Fools’ joke
+
+
+Walmart’s redesigned website looks better than Amazon
+
+
+Donald Trump was arrested, please like and subscribe
+
+The Home Assistant SkyConnect is a combination Zigbee and Thread dongle for better smart home control
+
+
+Vote for us in the People’s Voice Webby Awards for Best Technology Podcast!
+Email us at vergecast@theverge.com or call us at 866-VERGE11, we love hearing from you.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Disabled
+
+2
+00:00:00,000 --> 00:00:03,760
+Speaker 1:  Support for today's show comes from Deloitte. In the business world, it can
+
+3
+00:00:03,760 --> 00:00:07,160
+Speaker 1:  be especially crucial to innovate. You can either build your own future or
+
+4
+00:00:07,160 --> 00:00:10,440
+Speaker 1:  bet on someone else's. No one knows what tomorrow will bring, but you push
+
+5
+00:00:10,440 --> 00:00:14,160
+Speaker 1:  forward and create enterprise anyway. That's why Deloitte's mission is to
+
+6
+00:00:14,160 --> 00:00:17,320
+Speaker 1:  help engineer advantage for their clients by harnessing the latest innovations
+
+7
+00:00:17,320 --> 00:00:21,040
+Speaker 1:  and technology while exploring the ideas and opportunities that can look
+
+8
+00:00:21,040 --> 00:00:24,320
+Speaker 1:  beyond today. Transform what's next into what's now.
+
+9
+00:00:24,700 --> 00:00:27,440
+Speaker 1:  See how you can engineer advantage with Deloitte at
+
+10
+00:00:27,680 --> 00:00:31,200
+Speaker 1:  deloitte.com/us/engineering advantage.
+
+11
+00:00:33,220 --> 00:00:37,160
+Speaker 3:  The HBO drama's succession is in its fourth and final season.
+
+12
+00:00:37,620 --> 00:00:41,480
+Speaker 3:  And for diehard fans, some of the characters have achieved pop
+
+13
+00:00:41,480 --> 00:00:42,080
+Speaker 3:  star status.
+
+14
+00:00:42,270 --> 00:00:46,040
+Speaker 4:  That just feels like, so like, you know, you're that bitch you calls all
+
+15
+00:00:46,040 --> 00:00:49,680
+Speaker 4:  that conversation like that. Like he's it.
+
+16
+00:00:50,070 --> 00:00:51,120
+Speaker 4:  I just kind of like,
+
+17
+00:00:52,140 --> 00:00:54,160
+Speaker 3:  Did you just compare Logan Roy to Beyonce?
+
+18
+00:00:54,590 --> 00:00:57,680
+Speaker 4:  Well, I mean, why not?
+
+19
+00:00:58,730 --> 00:01:02,680
+Speaker 3:  Oh, let's keep this going. We talk succession this week
+
+20
+00:01:02,730 --> 00:01:05,680
+Speaker 3:  on Intuit Vultures Pop culture podcast.
+
+21
+00:01:20,560 --> 00:01:21,120
+Speaker 2:  Hello.
+
+22
+00:01:21,120 --> 00:01:24,960
+Speaker 5:  Welcome to our chest, the flagship podcast of not knowing what color
+
+23
+00:01:24,960 --> 00:01:28,680
+Speaker 5:  Spotify's logo is. I'm your friend Eli. It's so hard,
+
+24
+00:01:29,010 --> 00:01:29,360
+Speaker 1:  So
+
+25
+00:01:29,360 --> 00:01:30,920
+Speaker 5:  Hard. Alex Trans is here.
+
+26
+00:01:31,060 --> 00:01:33,320
+Speaker 1:  I'm not colorblind, but I think I might be
+
+27
+00:01:33,320 --> 00:01:35,920
+Speaker 5:  After the color quiz. Yeah. David Pierce is
+
+28
+00:01:35,920 --> 00:01:39,640
+Speaker 6:  Here. Hi. I got the first four right on our color quiz and was so
+
+29
+00:01:39,910 --> 00:01:43,720
+Speaker 6:  like absolutely outrageously proud of myself. And then I think
+
+30
+00:01:43,720 --> 00:01:46,880
+Speaker 6:  got the next three wrong and have not forgiven myself for it.
+
+31
+00:01:46,950 --> 00:01:50,640
+Speaker 5:  It's not great. So it's design week here at the Verge. It's got a great
+
+32
+00:01:50,640 --> 00:01:54,520
+Speaker 5:  package. It's super fun. We've got pieces on ui,
+
+33
+00:01:54,760 --> 00:01:58,560
+Speaker 5:  we've got pieces on the, like how the logout button
+
+34
+00:01:58,560 --> 00:02:02,040
+Speaker 5:  on website works or more importantly doesn't work. We've got pieces on
+
+35
+00:02:02,040 --> 00:02:05,760
+Speaker 5:  accessibility and design that are coming that's very exciting. But the
+
+36
+00:02:05,760 --> 00:02:09,520
+Speaker 5:  highlight of the whole week was our color quiz, which is designed
+
+37
+00:02:09,570 --> 00:02:13,360
+Speaker 5:  by our associate creative director, Chris Raske, who's a genius, our
+
+38
+00:02:13,560 --> 00:02:17,480
+Speaker 5:  engineer Graham, who is an evil mastermind and it's ma
+
+39
+00:02:17,480 --> 00:02:21,200
+Speaker 5:  it's just made to torture us. And all you're supposed to do
+
+40
+00:02:21,200 --> 00:02:24,560
+Speaker 5:  is you open it, you see five shades of blue and you gotta pick the one that's
+
+41
+00:02:24,560 --> 00:02:28,520
+Speaker 5:  the Facebook logo. And the the, the thing that makes
+
+42
+00:02:28,520 --> 00:02:32,320
+Speaker 5:  it evil is that as you roll over each of the shades of blue, there's an actual
+
+43
+00:02:32,560 --> 00:02:36,440
+Speaker 5:  Facebook logo that changes. So then you just sit there arguing with
+
+44
+00:02:36,600 --> 00:02:39,040
+Speaker 5:  yourself cuz every one of them looks correct. Well
+
+45
+00:02:39,040 --> 00:02:42,360
+Speaker 1:  The Facebook one's also like a cheat because there's like an old Facebook
+
+46
+00:02:42,360 --> 00:02:45,040
+Speaker 1:  color on there. So you're like, that's the one because I haven't checked
+
+47
+00:02:45,320 --> 00:02:46,040
+Speaker 1:  Facebook in 10 years.
+
+48
+00:02:46,110 --> 00:02:49,960
+Speaker 5:  I've been taking this quiz over and over again all week. I've, I can't get
+
+49
+00:02:49,960 --> 00:02:53,080
+Speaker 5:  better at it. The only one that I get consistently is Snapchat. I'm very
+
+50
+00:02:53,080 --> 00:02:53,960
+Speaker 5:  good at yellow. Yeah,
+
+51
+00:02:53,960 --> 00:02:54,880
+Speaker 1:  Just, just yellow.
+
+52
+00:02:55,110 --> 00:02:59,080
+Speaker 5:  Well, so the only app on my phone that Max wants to use is a
+
+53
+00:02:59,320 --> 00:03:02,680
+Speaker 5:  Snapchat, but she can't, she can't read. It's and it cuz she's four.
+
+54
+00:03:04,950 --> 00:03:06,960
+Speaker 6:  That's an important detail. She's four.
+
+55
+00:03:07,400 --> 00:03:08,720
+Speaker 1:  Don't worry guys, it's
+
+56
+00:03:08,850 --> 00:03:12,640
+Speaker 5:  So, she just calls it the ghost button. Yeah, it's perfect sense. First
+
+57
+00:03:12,640 --> 00:03:15,520
+Speaker 6:  Of all, unbelievable product idea for Snapchat. I love that. To sell something
+
+58
+00:03:15,520 --> 00:03:17,040
+Speaker 6:  called a ghost button. I don't know what it does.
+
+59
+00:03:17,040 --> 00:03:20,640
+Speaker 5:  She'll just pick up my phone and be like, ghost button. And I was like, and
+
+60
+00:03:20,640 --> 00:03:24,280
+Speaker 5:  then we just do the filters so I know what that one looks like. Yeah. Yelp.
+
+61
+00:03:24,570 --> 00:03:28,440
+Speaker 5:  No, no, no idea what color red Yelp is. And there's actually, there's
+
+62
+00:03:28,440 --> 00:03:31,320
+Speaker 5:  science in the quiz. If you haven't taken it, go on the site, do the color
+
+63
+00:03:31,320 --> 00:03:35,040
+Speaker 5:  quiz, it will drive you bananas. And then with a sense of
+
+64
+00:03:35,040 --> 00:03:38,760
+Speaker 5:  smugness and superiority, go make other people take it. Yes,
+
+65
+00:03:39,880 --> 00:03:43,520
+Speaker 5:  there are people on our staff who've gotten them. All right. We over 20,000
+
+66
+00:03:43,520 --> 00:03:44,880
+Speaker 5:  people have taken this quiz so far. I
+
+67
+00:03:44,880 --> 00:03:46,040
+Speaker 1:  Think it's up to 50,000. It's
+
+68
+00:03:46,040 --> 00:03:46,840
+Speaker 5:  Up to 50,000.
+
+69
+00:03:46,910 --> 00:03:48,240
+Speaker 1:  A lot of people have taken this quiz
+
+70
+00:03:48,420 --> 00:03:51,920
+Speaker 5:  And like you can see the scores they normalize like around 4.5.
+
+71
+00:03:52,350 --> 00:03:56,040
+Speaker 1:  I got six the sec, the first time I did it, I got four. Oh my God. The second
+
+72
+00:03:56,040 --> 00:03:59,960
+Speaker 1:  time I got six and the two I got wrong. I was like, that can't
+
+73
+00:03:59,960 --> 00:04:03,280
+Speaker 1:  be the color. I'm gonna pick this other one. And it was the color. So I feel
+
+74
+00:04:03,280 --> 00:04:05,600
+Speaker 1:  like I could do eight if I just practiced.
+
+75
+00:04:05,860 --> 00:04:07,760
+Speaker 5:  See, see, see.
+
+76
+00:04:07,950 --> 00:04:09,000
+Speaker 1:  Just keep doing it.
+
+77
+00:04:09,000 --> 00:04:09,720
+Speaker 5:  David, how'd you do?
+
+78
+00:04:10,070 --> 00:04:14,040
+Speaker 6:  I ended up with six out of eight. Yelp was the one that I got
+
+79
+00:04:14,040 --> 00:04:17,000
+Speaker 6:  to and was just instantly like, I'm not gonna know this one. This isn't gonna
+
+80
+00:04:17,000 --> 00:04:20,280
+Speaker 6:  happen. So I just basically like closed my eyes and hammered our shade of
+
+81
+00:04:20,280 --> 00:04:23,760
+Speaker 6:  red. And that was that the one I got wrong
+
+82
+00:04:24,030 --> 00:04:27,800
+Speaker 6:  that I'm furious. Like I, I can still, you know, picture the moment
+
+83
+00:04:27,800 --> 00:04:31,480
+Speaker 6:  when I got it wrong with Spotify and I was down to two shades of green
+
+84
+00:04:31,620 --> 00:04:35,440
+Speaker 6:  and my, my rubric was basically like pick the second best
+
+85
+00:04:35,440 --> 00:04:38,320
+Speaker 6:  looking one if I don't know which one it is. Because usually there's one
+
+86
+00:04:38,320 --> 00:04:42,240
+Speaker 6:  that's like simple and clean and chill and like no tech company's ever gonna
+
+87
+00:04:42,240 --> 00:04:45,960
+Speaker 6:  choose that one. So you pick the, the second chillest one
+
+88
+00:04:45,960 --> 00:04:49,800
+Speaker 6:  and that's usually the one. And it served me really well except in
+
+89
+00:04:49,800 --> 00:04:53,760
+Speaker 6:  Spotify's case where they just went like full bonkers neon and it just
+
+90
+00:04:53,760 --> 00:04:55,680
+Speaker 6:  is supposed to hurt your brain. Yeah,
+
+91
+00:04:55,680 --> 00:04:59,640
+Speaker 5:  Spotify. Yeah. And Lyft. Yeah. Go take it. Go look
+
+92
+00:04:59,640 --> 00:05:02,840
+Speaker 5:  at all of design week. It's super fun. It's great. Sarah Jung has a piece
+
+93
+00:05:02,840 --> 00:05:06,800
+Speaker 5:  about the poop emoji in legal filings and how it's breaking
+
+94
+00:05:07,160 --> 00:05:11,000
+Speaker 5:  database systems across our country's court system. Very good. Like
+
+95
+00:05:11,230 --> 00:05:14,720
+Speaker 5:  cackling, when I was reading it, we've got one about the shuffle button and
+
+96
+00:05:14,720 --> 00:05:17,720
+Speaker 5:  then we, we were doing this big partnership with the Computer history museum
+
+97
+00:05:17,840 --> 00:05:21,400
+Speaker 5:  about the history of the Lisa Apple, Lisa the precursor to
+
+98
+00:05:21,400 --> 00:05:25,280
+Speaker 5:  Macintosh. It's super cool. Go watch that video. Go read that piece. All
+
+99
+00:05:25,280 --> 00:05:28,200
+Speaker 5:  great design week happening. Go look at it. Take the color
+
+100
+00:05:28,200 --> 00:05:29,440
+Speaker 1:  Quiz. Fail at the color quiz.
+
+101
+00:05:29,440 --> 00:05:31,040
+Speaker 6:  Tell us what you got. Tell we wanna
+
+102
+00:05:31,040 --> 00:05:34,320
+Speaker 5:  Know. Well the reason I want more people to take it is right now the audience
+
+103
+00:05:34,320 --> 00:05:38,200
+Speaker 5:  average score is higher than the Verge team score. I feel like if we can
+
+104
+00:05:38,200 --> 00:05:42,000
+Speaker 5:  just get more people to take it, we equal the staff
+
+105
+00:05:42,000 --> 00:05:43,240
+Speaker 5:  can outdo the world.
+
+106
+00:05:43,510 --> 00:05:46,080
+Speaker 1:  I think everybody's cheating. I think everybody's like going and like they've
+
+107
+00:05:46,080 --> 00:05:48,400
+Speaker 1:  got it on their phone, they're holding their phone up next to it, whereas
+
+108
+00:05:48,400 --> 00:05:49,720
+Speaker 1:  we didn't, we took it the real way.
+
+109
+00:05:49,720 --> 00:05:53,280
+Speaker 5:  Yeah. We all had to take it on camera in a conference room so that we could
+
+110
+00:05:53,280 --> 00:05:55,080
+Speaker 5:  make like marketing videos for it. It's
+
+111
+00:05:55,970 --> 00:05:59,960
+Speaker 6:  My favorite was someone on our team who I won't name said in Slack cuz
+
+112
+00:05:59,960 --> 00:06:02,920
+Speaker 6:  we were all talking about it. Like, oh, I didn't do very well. But then when
+
+113
+00:06:02,920 --> 00:06:06,560
+Speaker 6:  I got to be on a monitor with a better color gamut, I got, I did better.
+
+114
+00:06:06,560 --> 00:06:08,040
+Speaker 6:  And it was like, oh, okay. I'm sure you
+
+115
+00:06:08,040 --> 00:06:10,480
+Speaker 5:  Did. My controller's broken.
+
+116
+00:06:10,840 --> 00:06:13,880
+Speaker 6:  Yeah, exactly. Must have been the lag. I don't know.
+
+117
+00:06:13,880 --> 00:06:14,200
+Speaker 5:  Yeah.
+
+118
+00:06:15,820 --> 00:06:19,080
+Speaker 5:  All right. Go take the color quiz. Look at Design Week. A very cool
+
+119
+00:06:19,560 --> 00:06:23,480
+Speaker 5:  situation on the verge.com this week. Speaking of the verge.com story
+
+120
+00:06:23,480 --> 00:06:25,520
+Speaker 5:  that we've uncovered. This is the worst segue podcast.
+
+121
+00:06:25,520 --> 00:06:26,440
+Speaker 1:  This is, where's this going?
+
+122
+00:06:27,110 --> 00:06:30,720
+Speaker 5:  Speaking of websites that start with the letter T. Twitter is kind of a
+
+123
+00:06:30,720 --> 00:06:31,320
+Speaker 5:  disastrous,
+
+124
+00:06:32,790 --> 00:06:35,240
+Speaker 1:  Much better, much better segue. It's
+
+125
+00:06:35,240 --> 00:06:39,040
+Speaker 5:  Good. It's not great. It's what we're doing. Twitter had a very
+
+126
+00:06:39,040 --> 00:06:41,640
+Speaker 5:  hard weekend, I would say
+
+127
+00:06:42,930 --> 00:06:46,560
+Speaker 5:  in the context of Twitter's other weekends actually not that hard. Like
+
+128
+00:06:46,560 --> 00:06:50,480
+Speaker 5:  equally bad. Yeah, but this is the weekend they that they started turning
+
+129
+00:06:50,480 --> 00:06:51,480
+Speaker 5:  off verification.
+
+130
+00:06:51,790 --> 00:06:54,480
+Speaker 1:  Have you, have you been deified yet? No. Same.
+
+131
+00:06:55,040 --> 00:06:58,480
+Speaker 5:  There was a rumor going around that if you blocked
+
+132
+00:06:58,780 --> 00:07:02,080
+Speaker 5:  the verified account on Twitter, they could not deify you.
+
+133
+00:07:02,190 --> 00:07:03,960
+Speaker 1:  I I did it just to see if that'll happen.
+
+134
+00:07:04,270 --> 00:07:07,920
+Speaker 5:  I was like, I got nothing to lose. But like David,
+
+135
+00:07:07,920 --> 00:07:11,760
+Speaker 5:  the the actual mechanics of unifying and then what they
+
+136
+00:07:11,960 --> 00:07:14,280
+Speaker 5:  actually did. None of it seems to make any sense.
+
+137
+00:07:14,610 --> 00:07:18,520
+Speaker 6:  No. So what turns out to be the case there was some really good Washington
+
+138
+00:07:18,520 --> 00:07:22,480
+Speaker 6:  Post reporting on this a few days ago, is that essentially there's just
+
+139
+00:07:22,480 --> 00:07:26,440
+Speaker 6:  like a database of all the verified people on Twitter. You would
+
+140
+00:07:26,440 --> 00:07:29,920
+Speaker 6:  think this is like a, a thing that lives inside of the app that is somehow
+
+141
+00:07:29,920 --> 00:07:33,360
+Speaker 6:  sort of controllable and understandable. It's really not. It's like somebody
+
+142
+00:07:33,360 --> 00:07:37,040
+Speaker 6:  just went and like pasted a picture onto your
+
+143
+00:07:37,040 --> 00:07:40,480
+Speaker 6:  profile and then like wrote down in a line of a spreadsheet. I pasted the
+
+144
+00:07:40,480 --> 00:07:44,200
+Speaker 6:  picture onto their profile. Yes. It's slightly more technical than that,
+
+145
+00:07:44,200 --> 00:07:47,960
+Speaker 6:  but not much more technical than that. And so what that means is what seems
+
+146
+00:07:47,960 --> 00:07:51,880
+Speaker 6:  to be happening is there is no way to sort of systematically find
+
+147
+00:07:51,880 --> 00:07:55,480
+Speaker 6:  out and remove verification. So simultaneously
+
+148
+00:07:55,480 --> 00:07:59,160
+Speaker 6:  what has been going on is that the whole idea of
+
+149
+00:07:59,160 --> 00:08:02,720
+Speaker 6:  paying $8 a month for Twitter blue has become deeply embarrassing, which
+
+150
+00:08:02,720 --> 00:08:04,760
+Speaker 6:  is what we've talked about on this show. And so
+
+151
+00:08:04,830 --> 00:08:06,400
+Speaker 1:  I called it Victory Lap for
+
+152
+00:08:06,400 --> 00:08:08,960
+Speaker 6:  Me. Yeah, you did. Like you, you continue to have been right about that.
+
+153
+00:08:08,960 --> 00:08:09,160
+Speaker 6:  So
+
+154
+00:08:09,340 --> 00:08:11,440
+Speaker 5:  I'm so worried you're gonna be right about the other thing.
+
+155
+00:08:12,910 --> 00:08:15,840
+Speaker 1:  I am, I'm gonna win that bet. Monica. Liz, get ready.
+
+156
+00:08:15,840 --> 00:08:19,280
+Speaker 6:  We're not talking about this now. This is, listen, we this, a lot of things
+
+157
+00:08:19,480 --> 00:08:22,360
+Speaker 6:  happened while I was on leave, but I'm back now and we can't do this anymore.
+
+158
+00:08:22,360 --> 00:08:22,720
+Speaker 6:  Alex,
+
+159
+00:08:23,750 --> 00:08:24,600
+Speaker 1:  It's coming. Just
+
+160
+00:08:24,600 --> 00:08:28,040
+Speaker 5:  Alex thinks Elon's gonna tweet a dong. I just, let's be clear. That's what
+
+161
+00:08:28,040 --> 00:08:28,720
+Speaker 5:  she thinks is gonna happen.
+
+162
+00:08:28,720 --> 00:08:31,040
+Speaker 1:  It's it's every day we get a little closer.
+
+163
+00:08:31,040 --> 00:08:34,840
+Speaker 5:  Anyway, Alex victory lap one blue check
+
+164
+00:08:34,840 --> 00:08:36,760
+Speaker 5:  mark of shame. Go ahead, continue David.
+
+165
+00:08:36,870 --> 00:08:40,640
+Speaker 6:  Yeah, so I, being verified is now bad
+
+166
+00:08:41,090 --> 00:08:44,720
+Speaker 6:  if you've paid for Twitter Blue and also they can't unverified people. So
+
+167
+00:08:44,720 --> 00:08:48,520
+Speaker 6:  it's become this messy thing where they've actually changed the
+
+168
+00:08:48,520 --> 00:08:52,320
+Speaker 6:  message on verification to, they either paid for Twitter
+
+169
+00:08:52,320 --> 00:08:56,040
+Speaker 6:  blue or are a legacy verified account and there's no
+
+170
+00:08:56,040 --> 00:08:59,960
+Speaker 6:  real indication if that's sort of the end state or if it's gonna change.
+
+171
+00:08:59,960 --> 00:09:03,880
+Speaker 6:  People have come up with chrome extensions that will show you which is
+
+172
+00:09:03,880 --> 00:09:07,600
+Speaker 6:  which, like there's one script that replaces the verified
+
+173
+00:09:07,600 --> 00:09:11,480
+Speaker 6:  icon with the nerd emoji if you paid for Twitter Blue, which is just
+
+174
+00:09:11,480 --> 00:09:14,920
+Speaker 6:  wonderful. And so it's gotten to this point now where this, there's, it's
+
+175
+00:09:14,920 --> 00:09:18,480
+Speaker 6:  just a disaster, right? Like the upside of paying for Twitter blue is that
+
+176
+00:09:18,480 --> 00:09:22,400
+Speaker 6:  you get more play, you get shown in the for you page, you
+
+177
+00:09:22,400 --> 00:09:26,040
+Speaker 6:  get supposedly up ranked in replies and things like that. So it's
+
+178
+00:09:26,040 --> 00:09:29,640
+Speaker 6:  literally just a mark of thirstiness and so there's no reason anybody would
+
+179
+00:09:29,640 --> 00:09:32,760
+Speaker 6:  pay for it. And so you've had people like LeBron James say, of course I'm
+
+180
+00:09:32,760 --> 00:09:36,360
+Speaker 6:  not gonna pay for Twitter blue. Which is a terrible look for Elon Musk and
+
+181
+00:09:36,360 --> 00:09:40,080
+Speaker 6:  Twitter. You have folks like the New York Times who have said there was a
+
+182
+00:09:40,080 --> 00:09:43,040
+Speaker 6:  big round of media organizations talking about whether or not they're gonna
+
+183
+00:09:43,040 --> 00:09:46,760
+Speaker 6:  pay for Twitter Blue. And then Elon Musk Vindictively was like, well then
+
+184
+00:09:46,760 --> 00:09:49,560
+Speaker 6:  we're gonna take that away from them. So he took off the blue check for the
+
+185
+00:09:49,560 --> 00:09:52,880
+Speaker 6:  New York Times, but not a bunch of the other New York Times accounts. So
+
+186
+00:09:52,760 --> 00:09:52,880
+Speaker 6:  it's just
+
+187
+00:09:52,990 --> 00:09:55,840
+Speaker 5:  Some of which by the way, some of which have gold checks,
+
+188
+00:09:56,520 --> 00:09:57,200
+Speaker 6:  Whatever that is.
+
+189
+00:09:57,800 --> 00:10:01,680
+Speaker 5:  Yeah. So the is my, here's my understanding in
+
+190
+00:10:01,680 --> 00:10:05,320
+Speaker 5:  this disclosure alert we run Twitter
+
+191
+00:10:05,320 --> 00:10:07,720
+Speaker 5:  accounts. I yeah, sure. I dunno what to
+
+192
+00:10:07,720 --> 00:10:09,080
+Speaker 6:  Tell you. We're all verifi verifying Twitter.
+
+193
+00:10:09,190 --> 00:10:13,080
+Speaker 5:  Yeah. Dis disclosure. I I have a phone. It contains
+
+194
+00:10:13,540 --> 00:10:16,520
+Speaker 5:  all the apps. I used them all. We
+
+195
+00:10:16,520 --> 00:10:19,200
+Speaker 6:  Have accounts. Mila, did you pay for Twitter Blue? Be honest, I did not.
+
+196
+00:10:19,200 --> 00:10:20,200
+Speaker 6:  This is a safe space. Did you pay?
+
+197
+00:10:20,310 --> 00:10:24,280
+Speaker 5:  I paid for Twitter Blue. He paid for it. I paid for all Reckless
+
+198
+00:10:24,280 --> 00:10:28,000
+Speaker 5:  Patel. Paid for, yeah. Reckless Patel and then got banned. My, my
+
+199
+00:10:28,000 --> 00:10:31,760
+Speaker 5:  Dopel gang got banned for impersonating me. Even though that person was
+
+200
+00:10:31,760 --> 00:10:35,600
+Speaker 5:  Alex who's sitting right here. What? It's gone now. It's gone. It's all
+
+201
+00:10:35,600 --> 00:10:39,200
+Speaker 5:  gone. Alright. Truly, truly wonderful. So we run Verge
+
+202
+00:10:39,200 --> 00:10:42,880
+Speaker 5:  accounts. Yeah, the Verge has an account. We verge reviews
+
+203
+00:10:42,880 --> 00:10:46,520
+Speaker 5:  Verge Science, we got a bunch of accounts. What we were told and I think
+
+204
+00:10:46,520 --> 00:10:50,440
+Speaker 5:  has become publicly disclosed by Twitter is that if you were
+
+205
+00:10:50,440 --> 00:10:54,280
+Speaker 5:  one of the top 10,000 followed accounts on Twitter, you
+
+206
+00:10:54,280 --> 00:10:58,160
+Speaker 5:  got Twitter blue, you got a check mark for free and you have to like
+
+207
+00:10:58,160 --> 00:11:01,760
+Speaker 5:  use the API tools and then you could like have five
+
+208
+00:11:01,760 --> 00:11:05,440
+Speaker 5:  affiliated accounts. But then if you weren't one of those and you paid for
+
+209
+00:11:05,440 --> 00:11:08,880
+Speaker 5:  it, the affiliated accounts got like gold check marks and then like
+
+210
+00:11:09,000 --> 00:11:12,520
+Speaker 5:  icons next to them. Too much very unclear. Like how it actually works.
+
+211
+00:11:12,890 --> 00:11:16,880
+Speaker 5:  So the times some of their accounts have gold check marks, which means
+
+212
+00:11:16,880 --> 00:11:20,840
+Speaker 5:  they're affiliated with the New York Times, but the New York Times does
+
+213
+00:11:20,840 --> 00:11:24,560
+Speaker 5:  not have a check mark because Elon's mad at them. Perfect. I
+
+214
+00:11:24,630 --> 00:11:28,480
+Speaker 5:  dunno man. Like all that's crazy. So we, the Verge
+
+215
+00:11:28,480 --> 00:11:32,320
+Speaker 5:  accounts are affiliated, they're in it something, something something.
+
+216
+00:11:32,320 --> 00:11:36,160
+Speaker 5:  API usage rules, something, who knows it will change tomorrow. Our
+
+217
+00:11:36,480 --> 00:11:40,120
+Speaker 5:  poor like audience director Ruben is just like beside himself
+
+218
+00:11:40,310 --> 00:11:44,240
+Speaker 5:  every day, softly weeping what's going on. And then the
+
+219
+00:11:44,240 --> 00:11:47,840
+Speaker 5:  other piece of the puzzle as far as I understand it is like he's
+
+220
+00:11:47,910 --> 00:11:51,240
+Speaker 5:  just adding labels to things like NPR saying you're state affiliated media.
+
+221
+00:11:51,670 --> 00:11:55,480
+Speaker 5:  Yeah. And you just get, there's just a, there's a conference room, a Twitter
+
+222
+00:11:55,480 --> 00:11:58,880
+Speaker 5:  headquarters that's been stripped to furniture cuz he sold it all on eBay
+
+223
+00:11:58,940 --> 00:12:02,440
+Speaker 5:  and he is just sitting on the floor like adding and removing labels
+
+224
+00:12:02,590 --> 00:12:05,960
+Speaker 5:  from people's Twitter's account. There's an air mattress in the corner for
+
+225
+00:12:05,960 --> 00:12:09,480
+Speaker 5:  someone. He has added beds. Yeah, there's beds. Like people are living there.
+
+226
+00:12:09,480 --> 00:12:13,360
+Speaker 5:  Yeah. And he's like, he's like, I don't know, make it the Doge icon. It's
+
+227
+00:12:13,480 --> 00:12:17,080
+Speaker 5:  actually good. Like there's a part of it that I love. Yeah. Which is what
+
+228
+00:12:17,080 --> 00:12:20,760
+Speaker 5:  if you were allowed to screw the
+
+229
+00:12:20,760 --> 00:12:24,560
+Speaker 5:  major social network? It's like, yeah, I would just do whatever he wanted.
+
+230
+00:12:25,040 --> 00:12:25,680
+Speaker 5:  And he did.
+
+231
+00:12:26,590 --> 00:12:30,520
+Speaker 6:  I mean, it, it is sort of fun to imagine like what he would do differently
+
+232
+00:12:30,520 --> 00:12:34,240
+Speaker 6:  if he were trying to kill it as fast as possible. Like would,
+
+233
+00:12:34,240 --> 00:12:38,200
+Speaker 6:  would any of his moves change it? None. This all seems so destructive. And
+
+234
+00:12:38,200 --> 00:12:42,040
+Speaker 6:  the thing is like the Twitter blue stuff is, is silly and funny and
+
+235
+00:12:42,160 --> 00:12:45,160
+Speaker 6:  whatever. And like the changing the Twitter icon to the Doge icon is like
+
+236
+00:12:45,440 --> 00:12:47,960
+Speaker 6:  whatever. Ultimately I have no feelings about that. It, it's, it's sort of
+
+237
+00:12:47,960 --> 00:12:50,960
+Speaker 6:  hilarious and doesn't really matter at all. But like Twitter Blue is the
+
+238
+00:12:50,960 --> 00:12:54,840
+Speaker 6:  overwhelming favorite to be the future of Twitter. If Twitter has a
+
+239
+00:12:54,840 --> 00:12:58,760
+Speaker 6:  future, like its ad business has tanked, its usership is going
+
+240
+00:12:58,760 --> 00:13:02,360
+Speaker 6:  down. Like Elon Musk get said over and over, he has like big weird banking
+
+241
+00:13:02,360 --> 00:13:05,400
+Speaker 6:  ideas that he won't let go of. But like fundamentally the way Twitter is
+
+242
+00:13:05,400 --> 00:13:08,400
+Speaker 6:  going to survive if it's going to survive is to get a lot of people to pay
+
+243
+00:13:08,400 --> 00:13:12,160
+Speaker 6:  for Twitter blue. And basically all that has happened so far is
+
+244
+00:13:12,160 --> 00:13:15,840
+Speaker 6:  paying for Twitter. Blue has gotten deeply embarrassing and
+
+245
+00:13:16,330 --> 00:13:20,280
+Speaker 6:  no one who has any actual like reputation to protect
+
+246
+00:13:20,470 --> 00:13:23,240
+Speaker 6:  will do it. Like there was somebody who was tweeting the other day, like
+
+247
+00:13:23,240 --> 00:13:27,120
+Speaker 6:  imagine if you had a platform, imagine what it would cost to get LeBron
+
+248
+00:13:27,120 --> 00:13:31,000
+Speaker 6:  James to provide content for you. And imagine if by some crazy miracle you
+
+249
+00:13:31,000 --> 00:13:34,600
+Speaker 6:  had done that for free. Imagine then what would happen if you just
+
+250
+00:13:34,600 --> 00:13:36,160
+Speaker 6:  systematically drove him away.
+
+251
+00:13:36,480 --> 00:13:40,200
+Speaker 5:  Yeah. For $96 a year. Yeah. It was a very good tweet. I don't remember who
+
+252
+00:13:40,200 --> 00:13:41,320
+Speaker 5:  it was. It was very good. It's
+
+253
+00:13:41,320 --> 00:13:43,480
+Speaker 6:  A good tweet. We'll we'll find it and put it in the show notes cuz it's,
+
+254
+00:13:43,480 --> 00:13:44,040
+Speaker 6:  it's a good tweet.
+
+255
+00:13:44,350 --> 00:13:47,880
+Speaker 5:  That is the part to me and there are arguments that I've seen from people
+
+256
+00:13:47,910 --> 00:13:51,120
+Speaker 5:  I respect for paying, right? If you run
+
+257
+00:13:51,750 --> 00:13:55,640
+Speaker 5:  a small publication and you are paying and you get boosted
+
+258
+00:13:55,640 --> 00:13:58,960
+Speaker 5:  in for you Sure. That might work for you. I've seen arguments from
+
+259
+00:13:59,360 --> 00:14:03,280
+Speaker 5:  advertisers right now of small companies who are like, this is the
+
+260
+00:14:03,280 --> 00:14:06,640
+Speaker 5:  most efficient advertising we can buy because no one else is here. Yeah.
+
+261
+00:14:06,640 --> 00:14:07,360
+Speaker 6:  For eight bucks a month
+
+262
+00:14:07,360 --> 00:14:10,760
+Speaker 5:  It's working. And then MyPillow guy. Yeah. No, not even like, not just Twitter
+
+263
+00:14:10,760 --> 00:14:13,200
+Speaker 5:  Blue, like actually buying Twitter ads right now. Oh,
+
+264
+00:14:13,360 --> 00:14:13,560
+Speaker 6:  Interesting.
+
+265
+00:14:13,560 --> 00:14:17,160
+Speaker 5:  Because they're so cheap cuz there's no, it's it's you,
+
+266
+00:14:17,160 --> 00:14:20,760
+Speaker 5:  it's you and the MyPillow guy. Yeah. Like it's what you're doing. And so
+
+267
+00:14:20,760 --> 00:14:23,920
+Speaker 5:  you can just buy a reach on Twitter as long as it exists. So there's, there's
+
+268
+00:14:23,920 --> 00:14:27,680
+Speaker 5:  a dynamic there that's happening, but the more important thing
+
+269
+00:14:27,680 --> 00:14:30,600
+Speaker 5:  that's happening, and we don't have to like talk about Mask done
+
+270
+00:14:31,010 --> 00:14:34,880
+Speaker 5:  because who knows, but the mo more important thing that's happening is
+
+271
+00:14:34,880 --> 00:14:38,760
+Speaker 5:  anecdotally a lot of people I know are like, my engagement on Twitter has
+
+272
+00:14:38,760 --> 00:14:42,600
+Speaker 5:  plummeted. Yep. The audiences aren't real. It it's all just a bunch
+
+273
+00:14:42,600 --> 00:14:46,440
+Speaker 5:  of people yelling about Elon all the time. Even there was
+
+274
+00:14:46,440 --> 00:14:50,160
+Speaker 5:  the, the, you know, the Trump indictment this week. Like it's quiet.
+
+275
+00:14:50,160 --> 00:14:53,840
+Speaker 5:  There was a time when not being on Twitter during that day
+
+276
+00:14:53,990 --> 00:14:57,840
+Speaker 5:  would've felt like a huge miss. Like all the actions unfolding on
+
+277
+00:14:57,840 --> 00:15:00,800
+Speaker 5:  Twitter. And I was like, I just opened cable news.
+
+278
+00:15:01,550 --> 00:15:05,400
+Speaker 5:  Like I I'm, ooh, this is weird. Yeah. Like what
+
+279
+00:15:05,400 --> 00:15:08,800
+Speaker 5:  a weird reaction to this day is like, I'm gonna watch cable news
+
+280
+00:15:09,330 --> 00:15:11,320
+Speaker 5:  because Twitter isn't any good.
+
+281
+00:15:11,390 --> 00:15:15,320
+Speaker 1:  Yeah. It was not, it's not worth it anymore. Yeah. It's like just kind of
+
+282
+00:15:15,320 --> 00:15:18,640
+Speaker 1:  weirdos being angry about, I say that as somebody who's still on Twitter,
+
+283
+00:15:19,310 --> 00:15:20,000
+Speaker 5:  I I'm one of
+
+284
+00:15:20,000 --> 00:15:22,640
+Speaker 1:  Those weirdos, I count myself as one of those weirdos. But yeah, it's just
+
+285
+00:15:22,640 --> 00:15:26,520
+Speaker 1:  people being vaguely angry about whatever's happening that day.
+
+286
+00:15:26,520 --> 00:15:30,000
+Speaker 1:  And it like boils Twitter's boiled down to like the most
+
+287
+00:15:30,000 --> 00:15:33,800
+Speaker 1:  obnoxious elements of Twitter previously. Yeah. With no
+
+288
+00:15:33,800 --> 00:15:34,320
+Speaker 1:  real value
+
+289
+00:15:34,320 --> 00:15:38,080
+Speaker 6:  Added real. And Elon Musk tweet in every other slot on your
+
+290
+00:15:38,240 --> 00:15:39,760
+Speaker 6:  timeline because he demanded,
+
+291
+00:15:39,830 --> 00:15:43,280
+Speaker 1:  I I actually don't ever see him on, on mine. I don't know why.
+
+292
+00:15:43,280 --> 00:15:44,320
+Speaker 6:  How is that possible?
+
+293
+00:15:44,320 --> 00:15:46,320
+Speaker 1:  Maybe he blocked me, maybe I blocked him. I don't know.
+
+294
+00:15:46,350 --> 00:15:49,760
+Speaker 5:  A very funny thing that happened this week is that Elon is using the four
+
+295
+00:15:49,760 --> 00:15:53,320
+Speaker 5:  UAB as well. Yeah. So he's just replying to ancient tweets.
+
+296
+00:15:53,850 --> 00:15:57,160
+Speaker 5:  So he just replied to an ancient tweet from our own James
+
+297
+00:15:57,360 --> 00:16:01,280
+Speaker 5:  Vincent about Bard and Bing citing each other. Yeah. And he just
+
+298
+00:16:01,280 --> 00:16:04,760
+Speaker 5:  hit it with a lull. So like James woke up to an army of
+
+299
+00:16:05,270 --> 00:16:08,640
+Speaker 5:  bots that follow Elon around the internet, repeating whatever he
+
+300
+00:16:08,990 --> 00:16:12,320
+Speaker 5:  said, replying to like a tweet from two weeks ago. Like a
+
+301
+00:16:12,680 --> 00:16:14,040
+Speaker 5:  perfect encapsulation of the, of the Twitter moment.
+
+302
+00:16:14,050 --> 00:16:17,680
+Speaker 1:  Do you think Elon's ever gonna realize that so many of his followers that
+
+303
+00:16:17,680 --> 00:16:21,480
+Speaker 1:  he thinks love him and adore him are bots? Like we knew he, he's always had
+
+304
+00:16:21,480 --> 00:16:24,600
+Speaker 1:  an issue with bots, but do you think he realizes that like what he bought
+
+305
+00:16:24,600 --> 00:16:25,680
+Speaker 1:  was a giant bot network?
+
+306
+00:16:25,810 --> 00:16:28,760
+Speaker 5:  Oh he definitely knows Cheer him bought, he tried to not buy it because of
+
+307
+00:16:28,760 --> 00:16:32,400
+Speaker 5:  the bot networks, if you will recall. That's true. And now he's like, wait,
+
+308
+00:16:32,400 --> 00:16:36,280
+Speaker 5:  they're the only, they're what I got. I don't want a, a big theme
+
+309
+00:16:36,280 --> 00:16:40,040
+Speaker 5:  of the podcast today for the audience is the host
+
+310
+00:16:40,040 --> 00:16:43,240
+Speaker 5:  assigning themselves stories that we have talked about and not yet published.
+
+311
+00:16:44,490 --> 00:16:48,360
+Speaker 5:  So David, I don't want to get too much into what comes next in, maam, but
+
+312
+00:16:48,360 --> 00:16:52,160
+Speaker 5:  you and I have talked a lot about Activity Pub we have, and you have promised
+
+313
+00:16:52,360 --> 00:16:56,160
+Speaker 5:  me a story next week on this so we can follow this up. But there's no big
+
+314
+00:16:56,160 --> 00:16:59,440
+Speaker 5:  competitor to Twitter yet, right? Like every other social network is like,
+
+315
+00:16:59,440 --> 00:17:00,960
+Speaker 5:  ah, what if we were TikTok instead?
+
+316
+00:17:01,270 --> 00:17:04,720
+Speaker 6:  Yeah. That is kind of happening and I think it, it looks
+
+317
+00:17:04,720 --> 00:17:08,320
+Speaker 6:  increasingly unlikely that Mastodon is going to be that thing like
+
+318
+00:17:08,320 --> 00:17:11,560
+Speaker 6:  Macedon scoring really fast. It's doing really well. I think anyone paying
+
+319
+00:17:11,560 --> 00:17:15,000
+Speaker 6:  attention would say that Macedon is a success story, right? But it is like
+
+320
+00:17:15,010 --> 00:17:18,920
+Speaker 6:  several orders of magnitude smaller than Twitter
+
+321
+00:17:18,920 --> 00:17:22,400
+Speaker 6:  and it's even having its own funny issues now because Macedon set itself
+
+322
+00:17:22,410 --> 00:17:26,280
+Speaker 6:  up as such an aggressive counter to Twitter that
+
+323
+00:17:26,280 --> 00:17:29,920
+Speaker 6:  now like if you're on Macedon, you're obligated to call Twitter the bird
+
+324
+00:17:29,920 --> 00:17:33,840
+Speaker 6:  site. You can't even say Twitter. You just say the Bird site. And if
+
+325
+00:17:33,840 --> 00:17:37,560
+Speaker 6:  you, if you acknowledge being on Mastodon and on Twitter, it's like you've
+
+326
+00:17:37,560 --> 00:17:41,240
+Speaker 6:  violated the spirit of Mastodon and thus everyone
+
+327
+00:17:41,390 --> 00:17:44,720
+Speaker 6:  will yell at you. Like it's, it's really become a thing that if you are a
+
+328
+00:17:44,720 --> 00:17:47,960
+Speaker 6:  person who uses Mastodon on Twitter, you are like unwelcome on Mastodon.
+
+329
+00:17:47,960 --> 00:17:51,510
+Speaker 6:  And in a really funny way, that is a huge problem for Macedon because
+
+330
+00:17:51,720 --> 00:17:55,350
+Speaker 6:  it is supposed to be the place that is like better than Twitter.
+
+331
+00:17:55,710 --> 00:17:58,670
+Speaker 6:  And instead it's just people yelling about Twitter, which is also what Twitter
+
+332
+00:17:58,670 --> 00:18:02,310
+Speaker 6:  is like, we've accomplished nothing here. And so I think we're in a place
+
+333
+00:18:02,310 --> 00:18:05,990
+Speaker 6:  now where I keep talking to people who are really excited about like the
+
+334
+00:18:05,990 --> 00:18:09,590
+Speaker 6:  next phase of things, right? And I think Activity Pub in this whole idea
+
+335
+00:18:09,590 --> 00:18:13,270
+Speaker 6:  of a decentralized internet and social ecosystem that
+
+336
+00:18:13,270 --> 00:18:17,190
+Speaker 6:  doesn't rely on one platform and one person because we've seen
+
+337
+00:18:17,190 --> 00:18:20,790
+Speaker 6:  what happens now, right? Like we, we all used to talk about, you know, what
+
+338
+00:18:20,790 --> 00:18:24,390
+Speaker 6:  would happen if Mark Zuckerberg stopped being the CEO of
+
+339
+00:18:24,790 --> 00:18:28,230
+Speaker 6:  Facebook and someone with less good intentions came in. That all seems like
+
+340
+00:18:28,230 --> 00:18:31,510
+Speaker 6:  hilariously naive now in retrospect. But like we used to have those conversations
+
+341
+00:18:31,510 --> 00:18:35,350
+Speaker 6:  and then it was like, what if a maniac buys Twitter and does
+
+342
+00:18:35,350 --> 00:18:39,190
+Speaker 6:  insane stuff with it every single day like we know now, right? And so there's
+
+343
+00:18:39,190 --> 00:18:42,830
+Speaker 6:  this big push towards an internet and a social world that is
+
+344
+00:18:42,830 --> 00:18:46,550
+Speaker 6:  immune to those things. But I think there was a brief moment where it was
+
+345
+00:18:46,550 --> 00:18:50,390
+Speaker 6:  like maybe mastered on is ready to take all of this stuff in and for a
+
+346
+00:18:50,390 --> 00:18:53,830
+Speaker 6:  big variety of reasons, including like discovery and identity and
+
+347
+00:18:54,130 --> 00:18:57,990
+Speaker 6:  its own like toxicity. It's just not there. But I keep talking
+
+348
+00:18:57,990 --> 00:19:01,870
+Speaker 6:  to people who are absolutely not put off and are like, fast forward 12 months
+
+349
+00:19:01,870 --> 00:19:04,710
+Speaker 6:  from now and we're gonna have really exciting answers to these questions.
+
+350
+00:19:04,820 --> 00:19:05,310
+Speaker 6:  Sure.
+
+351
+00:19:05,600 --> 00:19:09,430
+Speaker 5:  So there's a difference there between Mastodon and we
+
+352
+00:19:09,590 --> 00:19:13,510
+Speaker 5:  just had Eugene Rajko the c o of mastered on the
+
+353
+00:19:13,830 --> 00:19:17,670
+Speaker 5:  protocol on decoder. So masked on there's masked on the company.
+
+354
+00:19:17,670 --> 00:19:21,590
+Speaker 5:  Yeah, there's masked on the protocol. Okay. There's masked
+
+355
+00:19:21,590 --> 00:19:25,390
+Speaker 5:  on that social, the website, these are all different things. It's like
+
+356
+00:19:25,390 --> 00:19:29,070
+Speaker 5:  Apple tv. Yeah. There's masked on plots. Yeah.
+
+357
+00:19:31,210 --> 00:19:34,630
+Speaker 5:  Max, they're all different things. Yeah.
+
+358
+00:19:34,870 --> 00:19:38,350
+Speaker 5:  David, when you say like you can't talk about Twitter or Masson, do you mean
+
+359
+00:19:38,350 --> 00:19:42,150
+Speaker 5:  on mastodon.social because there's like 9,000 different servers?
+
+360
+00:19:42,330 --> 00:19:45,750
+Speaker 6:  Yes. Well, and like welcome to the problem, right? It's like
+
+361
+00:19:46,800 --> 00:19:50,790
+Speaker 6:  on Mastodon, where do you go? Do you go to a server
+
+362
+00:19:50,790 --> 00:19:54,630
+Speaker 6:  that is just like run by a dude with a server in his
+
+363
+00:19:54,630 --> 00:19:58,350
+Speaker 6:  house? Like a lot of people do. Do you go to macedon.social, which is the
+
+364
+00:19:58,350 --> 00:20:01,830
+Speaker 6:  one that is officially run by Macedon the company, but is so
+
+365
+00:20:02,030 --> 00:20:04,430
+Speaker 6:  overloaded with people that it crashes all the time and they actually don't
+
+366
+00:20:04,430 --> 00:20:08,270
+Speaker 6:  allow signups often. Do you just pick one and then move later? Like we,
+
+367
+00:20:08,310 --> 00:20:12,110
+Speaker 6:  these are questions you don't have to answer when it's go to Twitter
+
+368
+00:20:12,110 --> 00:20:16,070
+Speaker 6:  and pick a username and the the like workflow for like, I
+
+369
+00:20:16,070 --> 00:20:20,030
+Speaker 6:  I want to go to this new internet, where do I go? And, and
+
+370
+00:20:20,030 --> 00:20:22,710
+Speaker 6:  like Casey Newton keeps making this point, which is like, people don't want
+
+371
+00:20:22,710 --> 00:20:26,230
+Speaker 6:  to administer their own servers. And we're,
+
+372
+00:20:26,230 --> 00:20:30,150
+Speaker 6:  we're kind of in a phase where doing this is not, you don't have to administer
+
+373
+00:20:30,150 --> 00:20:33,310
+Speaker 6:  your own server, but you have to like know what it means to administer a
+
+374
+00:20:33,310 --> 00:20:37,070
+Speaker 6:  server in order to use Macedon. And that's too much work. And so
+
+375
+00:20:37,150 --> 00:20:41,110
+Speaker 6:  we're, we're in this interim phase where like Activity Pub is a, is
+
+376
+00:20:41,110 --> 00:20:44,990
+Speaker 6:  a protocol by which a lot of different tools can come
+
+377
+00:20:44,990 --> 00:20:48,960
+Speaker 6:  up that you'll use the same follower graph, the same content and build lots
+
+378
+00:20:48,960 --> 00:20:51,920
+Speaker 6:  of different experiences, right? It was like, what if you could use your
+
+379
+00:20:51,920 --> 00:20:55,000
+Speaker 6:  Twitter account to post Instagram photos? Like that's the future. That's
+
+380
+00:20:55,000 --> 00:20:57,560
+Speaker 6:  where we're headed. That's what everybody believes in. None of that is built
+
+381
+00:20:57,560 --> 00:21:00,960
+Speaker 6:  yet. And the problem with Mastodon is that it just requires
+
+382
+00:21:01,300 --> 00:21:05,280
+Speaker 6:  two steps. Too much work. And so the people who are mad enough
+
+383
+00:21:05,520 --> 00:21:08,920
+Speaker 6:  at Twitter to leave are already there and they're mad at the people who aren't
+
+384
+00:21:08,920 --> 00:21:12,880
+Speaker 6:  mad enough at Twitter to leave. And so it just becomes this
+
+385
+00:21:12,880 --> 00:21:16,480
+Speaker 6:  sort of self-perpetuating thing that like, until it gets easier, people are
+
+386
+00:21:16,480 --> 00:21:19,880
+Speaker 6:  just gonna stay where it's easy. And overwhelmingly that's still Twitter.
+
+387
+00:21:19,880 --> 00:21:22,600
+Speaker 6:  Like it's hard to leave a thing even when it sucks, but
+
+388
+00:21:22,600 --> 00:21:25,200
+Speaker 1:  It's probably like mastodons not gonna be the thing, right?
+
+389
+00:21:25,510 --> 00:21:26,680
+Speaker 5:  I don't know. Well
+
+390
+00:21:26,680 --> 00:21:27,640
+Speaker 1:  What, what comes next?
+
+391
+00:21:27,770 --> 00:21:31,680
+Speaker 5:  So there's, there's a universe of competitors, right? So Macedon is the
+
+392
+00:21:31,980 --> 00:21:35,840
+Speaker 5:  decentralized one. It is built on this protocol called
+
+393
+00:21:36,040 --> 00:21:39,960
+Speaker 5:  Activity Pub. Right. That I will not shut up about. Yes. Like I've been running
+
+394
+00:21:39,960 --> 00:21:42,960
+Speaker 5:  around the halls of this company being like Activity Pub. I love it. It's
+
+395
+00:21:42,960 --> 00:21:46,240
+Speaker 5:  kickass making David write a story about it. There's
+
+396
+00:21:46,320 --> 00:21:49,760
+Speaker 5:  something there, like if you, and you just look at the universe of people
+
+397
+00:21:49,760 --> 00:21:52,760
+Speaker 5:  who are building on it. Meta is building some sort of Twitter competitor
+
+398
+00:21:52,760 --> 00:21:56,640
+Speaker 5:  that is built on activity Pub Flipboard is all Tumblr Activity
+
+399
+00:21:56,640 --> 00:22:00,480
+Speaker 5:  Pub. Yep. We had Matt Mullenweg on Decoder. He said Tumblr and
+
+400
+00:22:00,480 --> 00:22:04,440
+Speaker 5:  WordPress are gonna support Activity pub. Which is kind of wild to think
+
+401
+00:22:04,440 --> 00:22:07,480
+Speaker 5:  about Tumblr like being a decentralized social network that can interact
+
+402
+00:22:07,480 --> 00:22:11,360
+Speaker 5:  with mass. Like that's weird, right? Yeah. Mozilla is gonna do something
+
+403
+00:22:11,360 --> 00:22:14,880
+Speaker 5:  with it. Like you just see these companies, these like OG web
+
+404
+00:22:14,880 --> 00:22:18,800
+Speaker 5:  companies and people be like, all right, we can tear the wild gardens
+
+405
+00:22:18,800 --> 00:22:22,240
+Speaker 5:  down using this new protocol and we'll talk about it more after David's story
+
+406
+00:22:22,240 --> 00:22:24,400
+Speaker 5:  comes out next week. So I don't get the whole thing away. That's just cool.
+
+407
+00:22:24,470 --> 00:22:28,340
+Speaker 5:  Yeah. Then there's like Post News, which is a
+
+408
+00:22:28,340 --> 00:22:31,980
+Speaker 5:  Twitter competitor that is totally closed and I think Care Swisher's on the
+
+409
+00:22:31,980 --> 00:22:35,740
+Speaker 5:  board, they have a great proposition, which is that if you sign up for it,
+
+410
+00:22:35,740 --> 00:22:39,020
+Speaker 5:  you use it, you see a New York Times article that you like, they've
+
+411
+00:22:39,160 --> 00:22:42,820
+Speaker 5:  built micro-transactions into the app to let you slide through their paywall.
+
+412
+00:22:42,930 --> 00:22:45,020
+Speaker 1:  Okay. That's, that's cool. Yeah. That's
+
+413
+00:22:45,020 --> 00:22:47,580
+Speaker 5:  Cool. Like that's a thing Twitter should have built ages ago and never could
+
+414
+00:22:47,580 --> 00:22:50,620
+Speaker 5:  get done. Yeah. They're starting with that. Then there's a thing called Spout
+
+415
+00:22:50,620 --> 00:22:51,700
+Speaker 5:  Ball, which I haven't used,
+
+416
+00:22:52,010 --> 00:22:53,060
+Speaker 6:  I don't know spout it
+
+417
+00:22:53,060 --> 00:22:56,940
+Speaker 5:  Seems, but people keep asking me about it, you know, in the way that like
+
+418
+00:22:56,940 --> 00:23:00,660
+Speaker 5:  it's that it's that moment it's like of evolutionary explosion,
+
+419
+00:23:00,660 --> 00:23:03,900
+Speaker 5:  like Cambri explosion. Yeah. Where people will just send me emails. It's
+
+420
+00:23:03,900 --> 00:23:07,100
+Speaker 5:  like, well the Virgin Engage a spout. And I'm like, I don't know what that
+
+421
+00:23:07,100 --> 00:23:07,900
+Speaker 5:  is. Are you a
+
+422
+00:23:08,100 --> 00:23:08,260
+Speaker 6:  Cop?
+
+423
+00:23:10,600 --> 00:23:14,220
+Speaker 5:  But like a lot of sports people are on it and, and you just see like, okay,
+
+424
+00:23:14,220 --> 00:23:16,460
+Speaker 5:  there's a bunch of new networks starting. Are you looking at it?
+
+425
+00:23:16,520 --> 00:23:19,540
+Speaker 1:  I'm trying to, but you have to create an account, see, nevermind
+
+426
+00:23:19,540 --> 00:23:20,420
+Speaker 5:  And bounced right out.
+
+427
+00:23:22,450 --> 00:23:25,740
+Speaker 5:  I just think it's really interesting to see this many new competitors
+
+428
+00:23:25,990 --> 00:23:29,220
+Speaker 5:  because it's obvious that the thing is falling apart. Yeah. Yes.
+
+429
+00:23:29,570 --> 00:23:31,140
+Speaker 1:  That's the best part of this. And
+
+430
+00:23:31,140 --> 00:23:34,540
+Speaker 6:  They, and the do e everybody, like overwhelmingly in the course of reporting
+
+431
+00:23:34,540 --> 00:23:37,780
+Speaker 6:  this story, I have asked people like, why do you think this is the moment?
+
+432
+00:23:37,780 --> 00:23:40,780
+Speaker 6:  Because people have been working on this idea of like distributed open social
+
+433
+00:23:40,780 --> 00:23:44,260
+Speaker 6:  for 25 years. Like this is not a new idea. There have been a million attempts
+
+434
+00:23:44,260 --> 00:23:47,400
+Speaker 6:  of it. Like remember Jabber back in the day when you could put all of your
+
+435
+00:23:47,400 --> 00:23:51,000
+Speaker 6:  IM clients into one app. Like that's this, that's the same thing. You just
+
+436
+00:23:51,000 --> 00:23:53,480
+Speaker 6:  talk to all your friends, it doesn't matter where they are. Like that is
+
+437
+00:23:53,720 --> 00:23:56,680
+Speaker 6:  functionally the exact same idea. And we ran away from that because Google
+
+438
+00:23:56,680 --> 00:23:59,680
+Speaker 6:  talk got really big and Google said, well we don't need to deal with Xmpp.
+
+439
+00:23:59,680 --> 00:24:02,160
+Speaker 6:  And so they stopped supporting it and it all fell apart. And that is just
+
+440
+00:24:02,160 --> 00:24:02,480
+Speaker 6:  what happens.
+
+441
+00:24:02,480 --> 00:24:03,960
+Speaker 5:  Bcast. Yeah. That's
+
+442
+00:24:04,160 --> 00:24:07,720
+Speaker 6:  Just what happens. And so I keep asking people like, why do you think this
+
+443
+00:24:07,720 --> 00:24:11,440
+Speaker 6:  is the moment? Why is there so much excitement? And almost every single person,
+
+444
+00:24:11,470 --> 00:24:14,280
+Speaker 6:  I can't think of one person I've talked to for this story who hasn't said
+
+445
+00:24:14,370 --> 00:24:18,360
+Speaker 6:  because of Elon, because Elon Musk showed up and made abundantly
+
+446
+00:24:18,360 --> 00:24:22,240
+Speaker 6:  clear to a lot of people how bad this can go and how fast and how
+
+447
+00:24:22,270 --> 00:24:26,240
+Speaker 6:  ugly it is to have something that you've invested this much time
+
+448
+00:24:26,240 --> 00:24:30,200
+Speaker 6:  and energy into fall apart like this. Like there's so many people, and
+
+449
+00:24:30,200 --> 00:24:33,000
+Speaker 6:  I'm one of them who have stories about making friends on Twitter and like
+
+450
+00:24:33,330 --> 00:24:36,120
+Speaker 6:  we all, you know, the real Twitter is the friends we made along the way.
+
+451
+00:24:36,120 --> 00:24:39,880
+Speaker 6:  Like it's a, it's a really important place to a lot of people and it's
+
+452
+00:24:39,880 --> 00:24:42,960
+Speaker 6:  just crumbling in a way that I think is really painful. And so the pitch
+
+453
+00:24:42,960 --> 00:24:46,880
+Speaker 6:  is now like, what if that can't happen anymore? And I think it's, it's sinking
+
+454
+00:24:46,880 --> 00:24:50,840
+Speaker 6:  in for people in a way it never has before. It's just that the right product
+
+455
+00:24:51,020 --> 00:24:53,920
+Speaker 6:  for it doesn't really seem to have appeared yet.
+
+456
+00:24:54,070 --> 00:24:57,880
+Speaker 5:  Yeah. If you're listening to this podcast, you are almost certainly the sort
+
+457
+00:24:57,880 --> 00:25:00,880
+Speaker 5:  of person that can deal with your own server just to guess. I'm making, it's
+
+458
+00:25:00,880 --> 00:25:01,240
+Speaker 6:  Not that hard.
+
+459
+00:25:01,590 --> 00:25:05,520
+Speaker 5:  I you've, you've probably got an ass, you probably have a Plex server
+
+460
+00:25:05,520 --> 00:25:07,080
+Speaker 5:  that you don't wanna tell the authorities about.
+
+461
+00:25:07,400 --> 00:25:08,560
+Speaker 1:  It's okay. I support you.
+
+462
+00:25:09,750 --> 00:25:13,600
+Speaker 5:  You're you're using it to distribute Linux. Yeah, I know what
+
+463
+00:25:13,600 --> 00:25:13,960
+Speaker 5:  you're doing.
+
+464
+00:25:14,350 --> 00:25:18,320
+Speaker 1:  It's the best way to use it. Only Linux. It's all I share
+
+465
+00:25:18,320 --> 00:25:18,640
+Speaker 1:  on my,
+
+466
+00:25:18,910 --> 00:25:22,680
+Speaker 5:  It's open source, open source textbooks and Linux on
+
+467
+00:25:22,680 --> 00:25:26,560
+Speaker 5:  Alex's Plex server. Look, you're probably the sort of person you can
+
+468
+00:25:26,560 --> 00:25:29,280
+Speaker 5:  figure this stuff out. You should start a Masstone account
+
+469
+00:25:30,470 --> 00:25:33,600
+Speaker 5:  just for the experience of doing it because it's difficult. And then you
+
+470
+00:25:33,600 --> 00:25:36,920
+Speaker 5:  should start a Pixel fed account. Pixeled is the activity pub
+
+471
+00:25:36,920 --> 00:25:39,920
+Speaker 5:  Instagram. Okay, same deal. You gotta find a server, all that, blah blah
+
+472
+00:25:39,920 --> 00:25:43,600
+Speaker 5:  da. And then you should see hosting from Twitter to Instagram is a thing
+
+473
+00:25:43,600 --> 00:25:47,040
+Speaker 5:  you can do with those services. Yep. Right. From Mastodon to pixeled. From
+
+474
+00:25:47,040 --> 00:25:48,040
+Speaker 5:  pixeled to Mastodon,
+
+475
+00:25:48,040 --> 00:25:51,880
+Speaker 6:  You can make a pixeled post from your Mastodon account. Like that is, that's
+
+476
+00:25:51,880 --> 00:25:52,600
+Speaker 6:  the magic, right?
+
+477
+00:25:52,790 --> 00:25:56,000
+Speaker 5:  Yeah. And there's just something there, like once you do it, you're like,
+
+478
+00:25:56,000 --> 00:25:59,480
+Speaker 5:  oh, this makes a lot of sense. And I know like usually we spend this entire
+
+479
+00:25:59,480 --> 00:26:02,960
+Speaker 5:  show talking about AI and that's where all the hype is. But the, I think
+
+480
+00:26:02,960 --> 00:26:06,480
+Speaker 5:  the thing that actually changes the nature of the social internet is
+
+481
+00:26:06,720 --> 00:26:09,600
+Speaker 5:  somewhere in here. And then I promise we'll have a story about it next week
+
+482
+00:26:09,600 --> 00:26:11,640
+Speaker 5:  and we'll actually talk with the actual story with the actual reporting.
+
+483
+00:26:11,780 --> 00:26:15,760
+Speaker 5:  But like, I just like watching this week in particular with Twitter where
+
+484
+00:26:15,760 --> 00:26:19,680
+Speaker 5:  like the legacy thing happened, the Trump stuff having no impact on
+
+485
+00:26:19,680 --> 00:26:23,280
+Speaker 5:  Twitter. Like cable news for the last decade has been
+
+486
+00:26:23,280 --> 00:26:25,960
+Speaker 5:  people with great haircuts reading tweets and
+
+487
+00:26:25,960 --> 00:26:26,400
+Speaker 1:  It was beautiful.
+
+488
+00:26:27,120 --> 00:26:29,360
+Speaker 5:  Was it? I loved it. It might have destroyed democracy.
+
+489
+00:26:30,110 --> 00:26:31,320
+Speaker 1:  Just a little. Just
+
+490
+00:26:31,320 --> 00:26:34,840
+Speaker 5:  A little. And to watch it this week and be like, oh there's no, there's literally
+
+491
+00:26:34,840 --> 00:26:38,800
+Speaker 5:  no loop here. Yeah. It's like, oh, the thing is over. The vibrancy
+
+492
+00:26:38,800 --> 00:26:41,800
+Speaker 5:  of the thing is over. I don't know when Aaron Rodgers going to the Jets.
+
+493
+00:26:41,800 --> 00:26:45,760
+Speaker 5:  I dunno if it's gonna happen, but there's, there have been years of
+
+494
+00:26:45,760 --> 00:26:49,320
+Speaker 5:  my life where I have one Twitter list that's just all the Packers
+
+495
+00:26:49,320 --> 00:26:53,000
+Speaker 5:  beat reporters and I used to check it a thousand times a day and now I
+
+496
+00:26:53,170 --> 00:26:53,920
+Speaker 5:  don't. Aw, that's
+
+497
+00:26:53,920 --> 00:26:56,760
+Speaker 6:  Crazy. To me, that's actually a really good example of like, where are those
+
+498
+00:26:56,760 --> 00:27:00,200
+Speaker 6:  people gonna go? Like are we gonna lose that? Should we lose that?
+
+499
+00:27:00,460 --> 00:27:04,320
+Speaker 6:  Are we, does everybody go to Mass? Like, I don't know Casey
+
+500
+00:27:04,490 --> 00:27:07,240
+Speaker 6:  on platform or wrote a good thing about this, like why journalists can't
+
+501
+00:27:07,240 --> 00:27:09,680
+Speaker 6:  quit Twitter And like as a journalist who quit Twitter, I'm here to tell
+
+502
+00:27:09,680 --> 00:27:12,440
+Speaker 6:  you like, it is possible. It's actually not nearly as hard as anyone thinks,
+
+503
+00:27:12,460 --> 00:27:16,320
+Speaker 6:  but there is just something too, like as long as anyone is there,
+
+504
+00:27:16,550 --> 00:27:20,320
+Speaker 6:  people are gonna stay. Right? And so I think it's gonna be really
+
+505
+00:27:20,600 --> 00:27:24,560
+Speaker 6:  interesting to see what it takes and I assume it's like some great product
+
+506
+00:27:24,560 --> 00:27:28,480
+Speaker 6:  and some huge news event kind of in tandem. That
+
+507
+00:27:28,480 --> 00:27:32,120
+Speaker 6:  might be that poll. But I don't know, like my, my sense is
+
+508
+00:27:32,120 --> 00:27:36,040
+Speaker 6:  Twitter can be broken for a long time and we're gonna keep having to talk
+
+509
+00:27:36,040 --> 00:27:37,840
+Speaker 6:  about it because it's just really hard to leave.
+
+510
+00:27:38,090 --> 00:27:42,000
+Speaker 5:  So Ben Smith, who is the editor-in-chief at Buzzfeed News and left
+
+511
+00:27:42,000 --> 00:27:45,960
+Speaker 5:  to found, co-found SE four, the new new site, he's got a book
+
+512
+00:27:45,960 --> 00:27:48,680
+Speaker 5:  out called Traffic, which not out yet, but it's going at May. He's going
+
+513
+00:27:48,680 --> 00:27:52,360
+Speaker 5:  outta de coder. Traffic is about Gawker versus Buzzfeed in like the early
+
+514
+00:27:52,360 --> 00:27:55,520
+Speaker 5:  days of the internet. And he's got, it's great, highly recommended when it
+
+515
+00:27:55,520 --> 00:27:59,200
+Speaker 5:  comes out, but he is got a theory in there that new, new sites,
+
+516
+00:27:59,660 --> 00:28:03,600
+Speaker 5:  new properties come into form their opportunities that come into
+
+517
+00:28:03,600 --> 00:28:04,560
+Speaker 5:  form during election years.
+
+518
+00:28:05,220 --> 00:28:06,520
+Speaker 1:  Ooh, I
+
+519
+00:28:06,520 --> 00:28:10,280
+Speaker 5:  Like that. So these, like Buzzfeed news was like rushed out for an election.
+
+520
+00:28:10,470 --> 00:28:14,160
+Speaker 5:  I actually remember when I was@vox.com, we, we pushed it to hit the election.
+
+521
+00:28:14,410 --> 00:28:17,920
+Speaker 5:  We like, that's the moment, like those cycles, there's lots of news,
+
+522
+00:28:17,990 --> 00:28:20,880
+Speaker 5:  lots of whatever this is like, and if you just kinda like look at the history
+
+523
+00:28:20,880 --> 00:28:22,200
+Speaker 5:  of the media, this is Yeah.
+
+524
+00:28:22,200 --> 00:28:24,880
+Speaker 1:  Every four years for some reason a new, a new
+
+525
+00:28:24,880 --> 00:28:27,680
+Speaker 5:  Publication cause they line up with elections cause there's just like, there's
+
+526
+00:28:27,680 --> 00:28:30,440
+Speaker 5:  two teams and they hate each other and you can't talk shit about it. It's
+
+527
+00:28:30,440 --> 00:28:33,760
+Speaker 5:  like, it's just very easy. Yeah. Right. And I just wonder if this upcoming
+
+528
+00:28:34,040 --> 00:28:38,000
+Speaker 5:  election cycle is when you see a mass of like people moving to a
+
+529
+00:28:38,000 --> 00:28:40,080
+Speaker 5:  new kinda media. So like it's, it's just on my mind that there's a thing
+
+530
+00:28:40,080 --> 00:28:42,840
+Speaker 5:  happening. The one thing I wanna point out before I move on and talk about
+
+531
+00:28:42,840 --> 00:28:46,720
+Speaker 5:  Spotify completely not knowing what it's doing, ISCK put out
+
+532
+00:28:46,720 --> 00:28:49,920
+Speaker 5:  notes this week, which is basically they added a Twitter feed
+
+533
+00:28:50,270 --> 00:28:54,240
+Speaker 5:  tock in the app. Ooh. That looks exactly like our quick posts on
+
+534
+00:28:54,240 --> 00:28:56,640
+Speaker 5:  our site. And like the reasoning is exactly the same. Like sometimes you
+
+535
+00:28:56,640 --> 00:28:59,360
+Speaker 5:  don't wanna write a whole thing and I'm like, yeah, yeah, yeah, we made that.
+
+536
+00:28:59,660 --> 00:29:03,360
+Speaker 5:  But this is the next move, right? Is to, if you talk to any sub
+
+537
+00:29:03,360 --> 00:29:07,240
+Speaker 5:  stackers, their biggest audience funnel was on Twitter. Like
+
+538
+00:29:07,240 --> 00:29:10,960
+Speaker 5:  they, they monetized their Twitter audience with CK and if that goes away,
+
+539
+00:29:10,960 --> 00:29:13,960
+Speaker 5:  I'm not sure where the next generation of sub stackers finds audience.
+
+540
+00:29:13,960 --> 00:29:16,720
+Speaker 1:  Yeah, because they can't build it from like TikTok or Instagram.
+
+541
+00:29:16,780 --> 00:29:19,920
+Speaker 5:  The idea of making a TikTok video that's like sign up for my newsletter
+
+542
+00:29:20,610 --> 00:29:24,520
+Speaker 5:  is so bonkers. Can you imagine Casey just like dancing
+
+543
+00:29:24,720 --> 00:29:28,680
+Speaker 5:  for dollars on TikTok? Just a little shuffle.
+
+544
+00:29:29,090 --> 00:29:32,560
+Speaker 5:  So there's just a yawning need for a platform that's like Twitter, a
+
+545
+00:29:32,560 --> 00:29:36,520
+Speaker 5:  text-based, real-time news platform and someone's gonna fill it.
+
+546
+00:29:36,520 --> 00:29:40,160
+Speaker 5:  And I think that's actually really exciting regardless in the, the chaos
+
+547
+00:29:40,160 --> 00:29:43,920
+Speaker 5:  of Twitter itself is is like regardless of the chaos of Twitter itself. But
+
+548
+00:29:43,920 --> 00:29:47,600
+Speaker 5:  it's exciting to see this much activity in that space. Yeah. Because there
+
+549
+00:29:47,600 --> 00:29:49,720
+Speaker 5:  just hasn't been for a long time.
+
+550
+00:29:50,060 --> 00:29:53,920
+Speaker 1:  But it's not gonna be masked on. I'm just gonna say it now. That's my
+
+551
+00:29:53,920 --> 00:29:55,320
+Speaker 1:  my third prognostication.
+
+552
+00:29:55,650 --> 00:29:56,680
+Speaker 5:  So you got, I
+
+553
+00:29:56,680 --> 00:30:00,120
+Speaker 1:  Got, everybody's gonna think the blue check mark's dumb Elon's gonna tweet
+
+554
+00:30:00,120 --> 00:30:04,080
+Speaker 1:  his Don and Mastodon is not gonna
+
+555
+00:30:04,080 --> 00:30:05,280
+Speaker 1:  be the true success.
+
+556
+00:30:05,280 --> 00:30:07,760
+Speaker 5:  What if he tweets his don on Mastodon?
+
+557
+00:30:07,990 --> 00:30:11,160
+Speaker 1:  I'll pay you $20 because I'll just be like, oh my God,
+
+558
+00:30:11,390 --> 00:30:14,680
+Speaker 5:  I feel strongly that we should take a break. I quit the podcast. Goodbye.
+
+559
+00:30:14,680 --> 00:30:17,360
+Speaker 5:  We're gonna be right back. We gotta talk about Spotify. We gotta talk about
+
+560
+00:30:17,360 --> 00:30:19,680
+Speaker 5:  GM's doing at CarPlay. We'll be right back.
+
+561
+00:30:23,730 --> 00:30:27,380
+Speaker 7:  Over the past several weeks today explained has been going
+
+562
+00:30:27,780 --> 00:30:30,420
+Speaker 7:  downtown, downtown Seattle drug
+
+563
+00:30:30,700 --> 00:30:34,500
+Speaker 8:  Activity. Like when spring and summer, you know, when they hang out all night,
+
+564
+00:30:34,500 --> 00:30:35,260
+Speaker 8:  it's worse.
+
+565
+00:30:35,860 --> 00:30:37,220
+Speaker 7:  Downtown Chicago now
+
+566
+00:30:37,220 --> 00:30:41,060
+Speaker 9:  Just happens anywhere, anytime of day, morning, night. Like it's just way
+
+567
+00:30:41,060 --> 00:30:42,260
+Speaker 7:  Worse. Philadelphia.
+
+568
+00:30:42,440 --> 00:30:45,780
+Speaker 10:  Lot more violence, more homeless people.
+
+569
+00:30:46,000 --> 00:30:47,500
+Speaker 7:  And New York City, I
+
+570
+00:30:47,500 --> 00:30:51,420
+Speaker 11:  See a lot of people just going and grabbing people's bags, hitting
+
+571
+00:30:51,420 --> 00:30:52,820
+Speaker 11:  them. They, it's like they
+
+572
+00:30:52,820 --> 00:30:55,780
+Speaker 7:  Don't care one through line in all these cities. Crime,
+
+573
+00:30:56,000 --> 00:30:59,940
+Speaker 12:  The number one barrier that we heard from people was that fear
+
+574
+00:30:59,940 --> 00:31:03,740
+Speaker 12:  of crime was what was preventing them from going downtown, particularly
+
+575
+00:31:03,740 --> 00:31:07,580
+Speaker 12:  within the central business district itself. And on their commutes
+
+576
+00:31:07,580 --> 00:31:07,780
+Speaker 12:  there,
+
+577
+00:31:07,820 --> 00:31:11,420
+Speaker 7:  Americans are scared of their downtowns, but should they be,
+
+578
+00:31:11,420 --> 00:31:15,140
+Speaker 7:  we're gonna find out in our City limits series on today.
+
+579
+00:31:15,310 --> 00:31:15,980
+Speaker 7:  Explain.
+
+580
+00:31:23,890 --> 00:31:27,700
+Speaker 13:  I am Preed Barra, the former US attorney in Manhattan. My
+
+581
+00:31:27,700 --> 00:31:31,620
+Speaker 13:  podcast stay tuned is about law, justice and politics.
+
+582
+00:31:31,920 --> 00:31:35,340
+Speaker 13:  The Manhattan District Attorney's case against Donald Trump is one of the
+
+583
+00:31:35,340 --> 00:31:39,260
+Speaker 13:  most consequential, legal and political stories of our time. So
+
+584
+00:31:39,260 --> 00:31:42,980
+Speaker 13:  this week I was joined by two top legal experts, former US
+
+585
+00:31:42,980 --> 00:31:46,740
+Speaker 13:  Attorney Joyce Vance and Law Fair editor Ben Whits, to
+
+586
+00:31:46,740 --> 00:31:47,140
+Speaker 13:  analyze the charges.
+
+587
+00:31:47,540 --> 00:31:51,340
+Speaker 14:  While I don't think this is a no-brainer case to bring,
+
+588
+00:31:51,770 --> 00:31:55,420
+Speaker 14:  I do think there is a fairly solid basis
+
+589
+00:31:55,560 --> 00:31:55,980
+Speaker 14:  for
+
+590
+00:31:55,980 --> 00:31:57,580
+Speaker 13:  It. The potential evidence,
+
+591
+00:31:58,170 --> 00:32:01,860
+Speaker 15:  I think the jury hearing the evidence that at least if Brad can
+
+592
+00:32:01,860 --> 00:32:05,580
+Speaker 15:  prove what he's laid out in the statement of facts, the evidence
+
+593
+00:32:05,580 --> 00:32:07,740
+Speaker 15:  will be compelling on these charges.
+
+594
+00:32:08,080 --> 00:32:11,780
+Speaker 13:  And where we go from here, it's not clear that a conviction on
+
+595
+00:32:11,880 --> 00:32:15,580
+Speaker 13:  one or more of these felony counts would result in prison
+
+596
+00:32:15,860 --> 00:32:19,620
+Speaker 13:  sentence or a substantial prison sentence to listen. Just search. Stay
+
+597
+00:32:19,620 --> 00:32:23,540
+Speaker 13:  tuned wherever you get your podcasts, new episodes drop every
+
+598
+00:32:23,820 --> 00:32:23,940
+Speaker 13:  Thursday.
+
+599
+00:32:25,810 --> 00:32:26,660
+Speaker 13:  Stay tuned.
+
+600
+00:32:32,430 --> 00:32:35,500
+Speaker 5:  Welcome back to the Verge Cast where we don't
+
+601
+00:32:36,110 --> 00:32:37,600
+Speaker 5:  make bets about dogs
+
+602
+00:32:38,530 --> 00:32:40,870
+Speaker 1:  No more. It's done moratorium on that.
+
+603
+00:32:40,870 --> 00:32:43,830
+Speaker 5:  It's good. Yeah, it's a family show. Find your children.
+
+604
+00:32:44,590 --> 00:32:48,270
+Speaker 5:  Don't explain what's going on. We gotta talk about Spotify. Yeah.
+
+605
+00:32:48,400 --> 00:32:52,350
+Speaker 5:  So in the pandemic, Spotify decided that it was
+
+606
+00:32:52,350 --> 00:32:56,230
+Speaker 5:  all in on podcasts and then it was all in on live audio. Right? And then
+
+607
+00:32:56,230 --> 00:32:57,470
+Speaker 5:  it is not,
+
+608
+00:32:58,420 --> 00:33:00,910
+Speaker 1:  It's done, it's done with both of those.
+
+609
+00:33:01,880 --> 00:33:05,630
+Speaker 5:  So Spotify bought this thing called, what was it, green Room David It
+
+610
+00:33:05,630 --> 00:33:09,550
+Speaker 6:  Renamed it Green Room. The app before it was bought by Spotify
+
+611
+00:33:09,550 --> 00:33:13,350
+Speaker 6:  was called Locker Room cuz it was specifically about like live talk about
+
+612
+00:33:13,350 --> 00:33:14,630
+Speaker 6:  sports was like their
+
+613
+00:33:14,630 --> 00:33:18,110
+Speaker 5:  Main thing. And then they renamed a Green room and they were gonna compete
+
+614
+00:33:18,110 --> 00:33:18,750
+Speaker 5:  with Clubhouse,
+
+615
+00:33:18,750 --> 00:33:21,990
+Speaker 6:  Which is itself, by the way, just a hilarious statement. They were gonna
+
+616
+00:33:21,990 --> 00:33:25,350
+Speaker 6:  compete with Clubhouse is now with hindsight, a very fun thing to
+
+617
+00:33:25,350 --> 00:33:28,550
+Speaker 5:  Say. Whoa. It turns out you could compete with Clubhouse and the thing that
+
+618
+00:33:28,550 --> 00:33:30,710
+Speaker 5:  competed with a clubhouse was leaving your house
+
+619
+00:33:31,450 --> 00:33:32,550
+Speaker 6:  Was outdoors
+
+620
+00:33:32,980 --> 00:33:36,710
+Speaker 5:  Like any other room with people in it competed with clubhouse,
+
+621
+00:33:36,830 --> 00:33:37,710
+Speaker 1:  Touch grass,
+
+622
+00:33:38,940 --> 00:33:42,310
+Speaker 5:  Look in the depths of the pandemic. I swear to God, the tech industry was
+
+623
+00:33:42,310 --> 00:33:45,150
+Speaker 5:  like, all right, we've got 'em brains and vats. They're never leaving the
+
+624
+00:33:45,150 --> 00:33:48,710
+Speaker 5:  house again. Software will eat not only the world but the human
+
+625
+00:33:48,710 --> 00:33:52,550
+Speaker 5:  population. And like I get it, we, we, I we had a million
+
+626
+00:33:52,550 --> 00:33:54,990
+Speaker 5:  versions of this conversation like what trends are here to stay and what
+
+627
+00:33:54,990 --> 00:33:58,510
+Speaker 5:  trends are gonna go back and most everybody bet wrong. And now all these
+
+628
+00:33:58,510 --> 00:34:02,150
+Speaker 5:  companies are having layoffs. But the reason I wanna talk about Spotify
+
+629
+00:34:02,560 --> 00:34:06,110
+Speaker 5:  in particular is their big bet on podcasts
+
+630
+00:34:06,400 --> 00:34:07,510
+Speaker 5:  is shaky.
+
+631
+00:34:07,620 --> 00:34:08,110
+Speaker 1:  Yeah.
+
+632
+00:34:08,290 --> 00:34:11,750
+Speaker 5:  And then this big bet on live audio where you would just like open Spotify
+
+633
+00:34:11,750 --> 00:34:12,670
+Speaker 5:  at the end of the night and
+
+634
+00:34:13,580 --> 00:34:14,070
+Speaker 1:  Talk
+
+635
+00:34:14,070 --> 00:34:17,670
+Speaker 5:  Dudes would be talking does what is
+
+636
+00:34:17,670 --> 00:34:18,750
+Speaker 5:  next for this company?
+
+637
+00:34:20,010 --> 00:34:23,910
+Speaker 1:  And they heard of music. Have they heard of like, like
+
+638
+00:34:23,910 --> 00:34:27,350
+Speaker 1:  I think everybody just needs to go look at Apple Music Classical
+
+639
+00:34:27,830 --> 00:34:31,670
+Speaker 1:  and do that. Like if Spotify did that and gave you more access
+
+640
+00:34:31,670 --> 00:34:35,030
+Speaker 1:  to metadata and let you search and and browse that way,
+
+641
+00:34:35,260 --> 00:34:38,750
+Speaker 1:  that would be better than to spend all the money on locker room and rename
+
+642
+00:34:38,750 --> 00:34:42,070
+Speaker 1:  it Green Room, which I presume is just Broadway show tunes.
+
+643
+00:34:42,080 --> 00:34:45,910
+Speaker 5:  So I was reading the comments of your Apple Music classical piece, which
+
+644
+00:34:45,910 --> 00:34:48,670
+Speaker 5:  was great. Everyone should read it. And a lot of people in the comments were
+
+645
+00:34:48,670 --> 00:34:49,550
+Speaker 5:  like, this is Roone.
+
+646
+00:34:49,800 --> 00:34:50,390
+Speaker 1:  Oh really?
+
+647
+00:34:51,110 --> 00:34:54,910
+Speaker 5:  And so if you don't know Roone is, Roone is like a wild idea. It is a subscription-based
+
+648
+00:34:54,910 --> 00:34:58,110
+Speaker 5:  music player that has not music in it. So you gotta plug it into a title
+
+649
+00:34:58,110 --> 00:35:01,030
+Speaker 5:  account or a, a lot of people use this thing called Cobas.
+
+650
+00:35:01,280 --> 00:35:04,550
+Speaker 1:  Is this the one that like you use for your smart home?
+
+651
+00:35:04,740 --> 00:35:08,150
+Speaker 5:  Yeah. Like people integrate it with smart homes, but it's it's a music player,
+
+652
+00:35:08,150 --> 00:35:11,670
+Speaker 5:  right? So you like plug it in a title or if you have a big local library
+
+653
+00:35:11,880 --> 00:35:14,750
+Speaker 5:  on your Linux distribution plus whatever server,
+
+654
+00:35:15,630 --> 00:35:18,910
+Speaker 5:  it'll like read it all. It'll figure out all the metadata. It'll show you
+
+655
+00:35:18,910 --> 00:35:22,750
+Speaker 5:  like lots of links. It'll reorganize the metadata strike. Okay. This guitar
+
+656
+00:35:22,750 --> 00:35:26,510
+Speaker 5:  player in this song played on this song. Yeah. And like peop the, the thing
+
+657
+00:35:26,510 --> 00:35:29,710
+Speaker 5:  people say is like, this is just a discovery interface. Like I'm just like
+
+658
+00:35:29,710 --> 00:35:31,950
+Speaker 5:  falling down the rabbit hole of music in a way that like,
+
+659
+00:35:32,010 --> 00:35:34,630
+Speaker 1:  But you don't have kaza to like back up the
+
+660
+00:35:34,630 --> 00:35:36,510
+Speaker 5:  Falling down. Right. You gotta pay for, you gotta pay
+
+661
+00:35:37,950 --> 00:35:40,480
+Speaker 1:  Source your music somewhere. Yeah. Yeah.
+
+662
+00:35:40,700 --> 00:35:43,760
+Speaker 5:  You know, I spent like a significant part of my legal career defending kids
+
+663
+00:35:43,760 --> 00:35:47,360
+Speaker 5:  who use Kaza. Thank you. They they all lost. Oh no. Just like, you know,
+
+664
+00:35:47,360 --> 00:35:48,760
+Speaker 5:  these are not winnable cases.
+
+665
+00:35:49,200 --> 00:35:51,720
+Speaker 6:  Yeah. And that's like Lime why is a hundred billion company
+
+666
+00:35:52,670 --> 00:35:53,920
+Speaker 5:  They did it. Everybody.
+
+667
+00:35:54,770 --> 00:35:58,640
+Speaker 6:  No, but the, the thing about that is, I I what I was gonna say is what
+
+668
+00:35:58,640 --> 00:36:02,360
+Speaker 6:  Spotify needs to do is stop thinking about itself as the audio
+
+669
+00:36:02,360 --> 00:36:05,160
+Speaker 6:  company. Like that's what they've been saying over and over, right? They're
+
+670
+00:36:05,160 --> 00:36:08,640
+Speaker 6:  not a music thing, they're about audio and what it actually seems like needs
+
+671
+00:36:08,640 --> 00:36:12,520
+Speaker 6:  to happen and where there is much more room for doing interesting stuff is
+
+672
+00:36:12,520 --> 00:36:16,440
+Speaker 6:  to go all in on music. Like Spotify should take the
+
+673
+00:36:16,440 --> 00:36:20,080
+Speaker 6:  fact that every musician has a link tree in their social
+
+674
+00:36:20,190 --> 00:36:24,120
+Speaker 6:  bios as like a direct threat to Spotify. And like if you wanna
+
+675
+00:36:24,120 --> 00:36:27,160
+Speaker 6:  buy merch, that should be Spotify. If you wanna buy concert tickets, that
+
+676
+00:36:27,160 --> 00:36:30,920
+Speaker 6:  should be Spotify. Like there is no money to be made in licensing music
+
+677
+00:36:31,210 --> 00:36:35,200
+Speaker 6:  to stream on a platform. There's a hell of a lot of money to be made in all
+
+678
+00:36:35,200 --> 00:36:39,160
+Speaker 6:  of the other ways that artists make money. And that all sucks
+
+679
+00:36:39,160 --> 00:36:42,440
+Speaker 6:  now. Like everybody's mad at Ticketmaster, thanks to Taylor Swift buying
+
+680
+00:36:42,440 --> 00:36:45,960
+Speaker 6:  stuff on the internet is a disaster. Everybody's merch stores that are ridiculous.
+
+681
+00:36:45,990 --> 00:36:49,880
+Speaker 6:  Like if I'm Spotify, I'm chasing the entire music
+
+682
+00:36:50,200 --> 00:36:53,560
+Speaker 6:  industry much more than I'm chasing the audio industry at this point.
+
+683
+00:36:53,870 --> 00:36:57,520
+Speaker 5:  Yeah. But I, what what Spotify wants you to do is pay them
+
+684
+00:36:57,570 --> 00:37:01,520
+Speaker 5:  15 or $20 a month and then keep all the money. Right.
+
+685
+00:37:02,460 --> 00:37:06,320
+Speaker 5:  And the thing you're describing is like, what if other people
+
+686
+00:37:06,320 --> 00:37:10,080
+Speaker 5:  made money, right? Like when you listen to music on Spotify, some
+
+687
+00:37:10,080 --> 00:37:13,960
+Speaker 5:  complicated set of algorithms assigns 4 cents to every artist that
+
+688
+00:37:13,960 --> 00:37:17,800
+Speaker 5:  you listen to per stream, whatever. And they've gotta give
+
+689
+00:37:17,800 --> 00:37:21,440
+Speaker 5:  a huge chunk of your subscription dollar away when you listen to podcasts.
+
+690
+00:37:21,440 --> 00:37:24,080
+Speaker 5:  That is not true. Yeah. Because they've already bought and ingested them
+
+691
+00:37:23,840 --> 00:37:24,080
+Speaker 5:  Right.
+
+692
+00:37:24,080 --> 00:37:27,520
+Speaker 1:  When they have like a weird relationship with the music industry. Right.
+
+693
+00:37:27,530 --> 00:37:31,160
+Speaker 1:  Because of the fact that, you know, they only get 4 cents for every
+
+694
+00:37:31,160 --> 00:37:33,240
+Speaker 5:  Song. But the music industry also owns a huge chunk of Spotify.
+
+695
+00:37:33,390 --> 00:37:36,680
+Speaker 1:  Yeah. So they, so theoretically they could just go in and be like, okay,
+
+696
+00:37:36,990 --> 00:37:39,240
+Speaker 1:  you're the new Ticketmaster, let's go.
+
+697
+00:37:39,310 --> 00:37:43,080
+Speaker 5:  Yeah. I mean maybe Ticketmaster also owns all the venues. This is
+
+698
+00:37:43,080 --> 00:37:46,880
+Speaker 5:  a very complicated thing to unwind. I'm just saying if you look at Spotify's
+
+699
+00:37:46,880 --> 00:37:50,680
+Speaker 5:  arc, right? Right. They desperately tried to keep more of your
+
+700
+00:37:50,680 --> 00:37:54,320
+Speaker 5:  dollars by pointing you at audio that they already own they owned outright
+
+701
+00:37:54,320 --> 00:37:57,440
+Speaker 5:  so they didn't have to pay further royalties on or that other that users
+
+702
+00:37:57,440 --> 00:38:01,320
+Speaker 5:  are making for free. And things like what Spotify Clubhouse Jr. Or
+
+703
+00:38:01,480 --> 00:38:05,080
+Speaker 5:  whatever it was called, green Ram, green Room, Spotify, clubhouse,
+
+704
+00:38:05,080 --> 00:38:06,000
+Speaker 6:  Clubhouse, Junior's.
+
+705
+00:38:06,000 --> 00:38:06,320
+Speaker 5:  Really different.
+
+706
+00:38:06,320 --> 00:38:07,560
+Speaker 6:  We don't, we don't talk about that here.
+
+707
+00:38:10,020 --> 00:38:13,920
+Speaker 5:  I'm just saying like, I think Spotify is not in just in a shakier zone Yeah.
+
+708
+00:38:13,920 --> 00:38:17,200
+Speaker 5:  Than any of the other big tech companies. Like we, we talk about the other
+
+709
+00:38:17,200 --> 00:38:20,960
+Speaker 5:  streamer, like we'll end up talking about Disney and it's like war with the
+
+710
+00:38:20,960 --> 00:38:24,240
+Speaker 5:  state of Florida and it's reorg and Netflix and all this other stuff. And
+
+711
+00:38:24,240 --> 00:38:27,200
+Speaker 5:  they've all had cuts and they've like stopped spending money. Spotify is
+
+712
+00:38:27,200 --> 00:38:31,160
+Speaker 5:  a streaming service. It's competitors are Apple and Amazon, which
+
+713
+00:38:31,160 --> 00:38:34,280
+Speaker 5:  heavily subsidized their services. And then they're
+
+714
+00:38:34,420 --> 00:38:35,000
+Speaker 1:  And Title
+
+715
+00:38:35,510 --> 00:38:36,000
+Speaker 5:  Dear
+
+716
+00:38:36,000 --> 00:38:36,920
+Speaker 1:  Sweet. Oh forget about title
+
+717
+00:38:36,920 --> 00:38:40,160
+Speaker 5:  Dear sweet title, which is part of Block, which has like a research report
+
+718
+00:38:40,160 --> 00:38:43,400
+Speaker 5:  that's like block is built on fraud. Very
+
+719
+00:38:43,400 --> 00:38:44,040
+Speaker 1:  Good. Not great.
+
+720
+00:38:45,170 --> 00:38:48,760
+Speaker 5:  So yeah, it's just a weird, a weird moment for that company in
+
+721
+00:38:48,760 --> 00:38:52,320
+Speaker 5:  particular. Yeah. And it the, the same ways with Twitter, right? It's the
+
+722
+00:38:52,320 --> 00:38:55,240
+Speaker 5:  foundation of like an entire ecosystem and it's like,
+
+723
+00:38:56,190 --> 00:38:58,160
+Speaker 5:  what if that one, what if this domino falls?
+
+724
+00:38:58,310 --> 00:39:01,480
+Speaker 6:  Yeah. I mean the the thing for Spotify though is I think because the music
+
+725
+00:39:01,720 --> 00:39:05,160
+Speaker 6:  industry is so invested in it, it it, they just, they're they can't let it
+
+726
+00:39:05,160 --> 00:39:08,400
+Speaker 6:  fall. Right. Like you let it fall and it's just Apple, Amazon, and YouTube
+
+727
+00:39:08,400 --> 00:39:11,720
+Speaker 6:  own the music business. Yeah. And that for the music business is like an
+
+728
+00:39:11,720 --> 00:39:15,360
+Speaker 6:  abject disaster. So I, I would, I I have high
+
+729
+00:39:15,370 --> 00:39:19,200
+Speaker 6:  or like geezer like what if geezer just wins? Go get it
+
+730
+00:39:19,200 --> 00:39:21,120
+Speaker 6:  geezer. Like I'm in on that plan. It's
+
+731
+00:39:21,120 --> 00:39:23,760
+Speaker 5:  All roone. We should talk. So this brings me to CarPlay.
+
+732
+00:39:23,770 --> 00:39:27,360
+Speaker 6:  Oh yeah. Okay. Everybody's favorite Geezer consumption location
+
+733
+00:39:28,470 --> 00:39:30,160
+Speaker 1:  Only way I listened to Geezer.
+
+734
+00:39:30,560 --> 00:39:34,480
+Speaker 5:  Well it's interesting, like, so GM had announcement this week, very odd
+
+735
+00:39:34,720 --> 00:39:38,440
+Speaker 5:  announcement. They released a fact sheet and then I think only Reuters like
+
+736
+00:39:38,440 --> 00:39:38,800
+Speaker 5:  read it
+
+737
+00:39:40,540 --> 00:39:43,840
+Speaker 5:  and like Reuters had headlines, like GM walks away from CarPlay and we saw
+
+738
+00:39:43,840 --> 00:39:47,600
+Speaker 5:  that headline and we were no, yeah, that's dumb.
+
+739
+00:39:47,660 --> 00:39:50,520
+Speaker 5:  And then we acquired the fact sheet which we published so people could actually
+
+740
+00:39:50,520 --> 00:39:54,240
+Speaker 5:  see this was sourced. Cuz it is such a bonkers thing to say that we didn't
+
+741
+00:39:54,240 --> 00:39:58,120
+Speaker 5:  think people would believe our headline. So we like put the PDF in the story.
+
+742
+00:39:59,130 --> 00:40:02,600
+Speaker 5:  They're walking away from car plan Android Auto in just the EVs.
+
+743
+00:40:02,900 --> 00:40:06,400
+Speaker 5:  And their reasoning is that the cars are
+
+744
+00:40:06,680 --> 00:40:10,520
+Speaker 5:  computers now and that they want to do things like have you used the built-in
+
+745
+00:40:10,520 --> 00:40:14,200
+Speaker 5:  nav so that when you're on your way to a charging station, the batteries
+
+746
+00:40:14,200 --> 00:40:15,720
+Speaker 5:  pre-conditioned so you can charge faster.
+
+747
+00:40:15,950 --> 00:40:19,640
+Speaker 1:  Yeah, that sounds great. I wish they'd thought of that 20 years ago.
+
+748
+00:40:20,190 --> 00:40:21,920
+Speaker 1:  Like welcome to the party
+
+749
+00:40:22,090 --> 00:40:25,040
+Speaker 5:  Gm. I think this is the beginning. I think every automaker is gonna start
+
+750
+00:40:25,040 --> 00:40:25,800
+Speaker 5:  to do things like this in
+
+751
+00:40:25,800 --> 00:40:28,360
+Speaker 6:  Five years. That's hundred percent public reasoning. Right. And it's like
+
+752
+00:40:28,360 --> 00:40:31,360
+Speaker 6:  that, that reading the story, it was like that's the one thing they could
+
+753
+00:40:31,360 --> 00:40:34,760
+Speaker 6:  think to say that sounded like a feature. And then everything else is just,
+
+754
+00:40:34,810 --> 00:40:38,560
+Speaker 6:  we don't make any money from CarPlay and we think there's a lot of money
+
+755
+00:40:38,560 --> 00:40:42,080
+Speaker 6:  to be made in not CarPlay. Right. Like how, is there any other way to read
+
+756
+00:40:42,080 --> 00:40:42,640
+Speaker 6:  this than that?
+
+757
+00:40:42,640 --> 00:40:46,400
+Speaker 1:  Yeah, Patrick George did a great piece for the site that was just
+
+758
+00:40:46,400 --> 00:40:48,520
+Speaker 1:  that he went and spoke to a lot of people and they're like, oh yeah, they
+
+759
+00:40:48,520 --> 00:40:51,000
+Speaker 1:  just wanna make money and so they're gonna, they're gonna kill it so that
+
+760
+00:40:51,000 --> 00:40:51,680
+Speaker 1:  they can like Yeah.
+
+761
+00:40:51,680 --> 00:40:54,880
+Speaker 5:  The future of cars is no steering wheels and you're shopping all day in the
+
+762
+00:40:54,880 --> 00:40:58,000
+Speaker 5:  car. Yeah. Or looking at ads while you like stream movies or
+
+763
+00:40:58,120 --> 00:40:59,640
+Speaker 1:  Whatever. Like, just like minority reports.
+
+764
+00:40:59,670 --> 00:41:03,120
+Speaker 5:  I have been to enough ces future of car
+
+765
+00:41:03,470 --> 00:41:07,400
+Speaker 5:  panels where they're like, soon we will reclaim the time you
+
+766
+00:41:07,400 --> 00:41:10,280
+Speaker 5:  spend commuting. And it's like, oh awesome. For what? For literature, for
+
+767
+00:41:10,280 --> 00:41:13,520
+Speaker 5:  art and like for advertising and e-commerce. It's like, oh,
+
+768
+00:41:13,710 --> 00:41:14,880
+Speaker 5:  that's not what I thought.
+
+769
+00:41:15,210 --> 00:41:17,040
+Speaker 1:  We get 30%.
+
+770
+00:41:17,670 --> 00:41:21,280
+Speaker 5:  It's like to improve the human condition and it's like, no, no, no, no.
+
+771
+00:41:21,640 --> 00:41:21,760
+Speaker 5:  Shopping
+
+772
+00:41:21,960 --> 00:41:22,840
+Speaker 6:  Can't crush,
+
+773
+00:41:24,600 --> 00:41:28,560
+Speaker 5:  Can't crush. So yes, I think that's what Jim wants to do.
+
+774
+00:41:28,560 --> 00:41:32,320
+Speaker 5:  I do think there's some valid stuff in there, right? If you make a self-driving
+
+775
+00:41:32,320 --> 00:41:35,960
+Speaker 5:  car and you, you don't control the navigation system, you
+
+776
+00:41:35,960 --> 00:41:37,280
+Speaker 5:  almost certainly have a problem.
+
+777
+00:41:37,460 --> 00:41:41,320
+Speaker 1:  Are you saying this because you hate CarPlay and you wanna support big
+
+778
+00:41:41,620 --> 00:41:42,320
+Speaker 1:  big car?
+
+779
+00:41:42,460 --> 00:41:45,680
+Speaker 5:  Yes. I love big car. Big car. Big car's my favorite,
+
+780
+00:41:47,620 --> 00:41:49,120
+Speaker 1:  You know, big car. Who doesn't
+
+781
+00:41:49,120 --> 00:41:53,080
+Speaker 5:  Love a big car? Yeah. My parents by the way refer to our cars as small, medium
+
+782
+00:41:53,080 --> 00:41:56,960
+Speaker 5:  and big. That's, that's why my mom's like, can we borrow your
+
+783
+00:41:56,960 --> 00:42:00,600
+Speaker 5:  medium car? It's a real thing that happens. I love that so much. It's very
+
+784
+00:42:00,600 --> 00:42:04,440
+Speaker 5:  good. No, I, I think CarPlay is bad. Like, just to be clear, I,
+
+785
+00:42:04,440 --> 00:42:08,400
+Speaker 5:  this is my opinion. CarPlay is bad. It is superior to have
+
+786
+00:42:08,400 --> 00:42:12,240
+Speaker 5:  the radio on the bad infotainment screen and then mount
+
+787
+00:42:12,240 --> 00:42:16,080
+Speaker 5:  your phone using a MagSafe charger. We'll put an affiliate link in the show
+
+788
+00:42:16,080 --> 00:42:19,840
+Speaker 5:  notes. This is my white whales, like the world's best MagSafe charger.
+
+789
+00:42:19,840 --> 00:42:23,480
+Speaker 5:  If you make a new one that's be like 5% better than what I will buy it in
+
+790
+00:42:23,480 --> 00:42:26,600
+Speaker 5:  a heartbeat. I will spend $70 on you MagSafe charger. And
+
+791
+00:42:26,600 --> 00:42:29,880
+Speaker 6:  Imagining like, you know, the people with like McDonald's boxes all over
+
+792
+00:42:29,880 --> 00:42:33,440
+Speaker 6:  their cars. That's just you with MagSafe chargers. You like can't get in
+
+793
+00:42:33,440 --> 00:42:35,240
+Speaker 6:  the passenger seat cause there's 200 MagSafe
+
+794
+00:42:35,240 --> 00:42:39,120
+Speaker 5:  Chargers. It's a perfect impulse by gadget. Swear to God. Because if you,
+
+795
+00:42:39,120 --> 00:42:42,760
+Speaker 5:  cause you can always make it 5% better. The magnets click a little harder,
+
+796
+00:42:42,760 --> 00:42:46,200
+Speaker 5:  the charging's a little faster, the mount's a little smarter and you put
+
+797
+00:42:46,200 --> 00:42:49,160
+Speaker 5:  the ma my phone is almost as big as the infotainment screen in my car.
+
+798
+00:42:49,430 --> 00:42:50,840
+Speaker 1:  What what year is your car?
+
+799
+00:42:52,140 --> 00:42:56,120
+Speaker 5:  The Raptor of 2020. Okay. And that's a tiny little
+
+800
+00:42:56,120 --> 00:42:59,200
+Speaker 5:  screen that's before the new big screen. Okay. So that one is like whatever.
+
+801
+00:42:59,200 --> 00:43:03,040
+Speaker 5:  Yeah, like that's sync three. I've sworn on blood oath that I will not buy
+
+802
+00:43:03,040 --> 00:43:06,160
+Speaker 5:  another Ford until they go to the Android based system. I'm like, I can't
+
+803
+00:43:06,160 --> 00:43:08,560
+Speaker 5:  have more sync in my life. It's real bad. It's not allowed.
+
+804
+00:43:08,630 --> 00:43:12,560
+Speaker 6:  This is the point, right? Like CarPlay is bad except that it's
+
+805
+00:43:12,560 --> 00:43:15,240
+Speaker 6:  so much better than everything That
+
+806
+00:43:16,130 --> 00:43:17,560
+Speaker 5:  Is not better. It's,
+
+807
+00:43:17,560 --> 00:43:21,280
+Speaker 1:  It's way better. So I've got, I've got a Mazda CX five and
+
+808
+00:43:21,390 --> 00:43:25,200
+Speaker 1:  I know every single time I forget to plug my phone in cuz they'll be like,
+
+809
+00:43:25,200 --> 00:43:28,080
+Speaker 1:  I'm just gonna call someone and this robot voice is like, who do you wanna
+
+810
+00:43:28,080 --> 00:43:30,240
+Speaker 1:  pull? I'm like the hell are you?
+
+811
+00:43:30,310 --> 00:43:34,160
+Speaker 5:  Yeah, I know what you're doing there. You can make it. I'm just saying. So
+
+812
+00:43:34,610 --> 00:43:38,600
+Speaker 5:  they're all small screens except for our new Jeep, which is an Android computer
+
+813
+00:43:38,700 --> 00:43:42,560
+Speaker 5:  and is basically like a tamagotchi. Like I have to go into the garage every
+
+814
+00:43:42,560 --> 00:43:44,040
+Speaker 5:  night and be like, are you okay
+
+815
+00:43:44,450 --> 00:43:45,120
+Speaker 1:  Petting
+
+816
+00:43:45,120 --> 00:43:45,520
+Speaker 5:  Car?
+
+817
+00:43:45,580 --> 00:43:49,040
+Speaker 6:  And we like this better than CarPlay. Just to be clear, this is an improvement.
+
+818
+00:43:49,040 --> 00:43:51,120
+Speaker 6:  Well it has your phone in and everything
+
+819
+00:43:51,120 --> 00:43:55,000
+Speaker 5:  Works fine. Consumer satisfaction with car infotainment systems has
+
+820
+00:43:55,000 --> 00:43:58,520
+Speaker 5:  been going steadily down since wireless CarPlay was introduced because it's
+
+821
+00:43:58,520 --> 00:43:59,200
+Speaker 5:  so unreliable.
+
+822
+00:43:59,310 --> 00:44:02,680
+Speaker 1:  That's what Monica was talking about this when we were having a huge argument
+
+823
+00:44:02,680 --> 00:44:05,840
+Speaker 1:  and I was telling you, you were both wrong for hitting CarPlay because she
+
+824
+00:44:05,840 --> 00:44:08,800
+Speaker 1:  had it wireless and it kept like disconnecting and she'd be like driving
+
+825
+00:44:08,800 --> 00:44:11,280
+Speaker 1:  and it'd be like, where are we going? And she'd be like, where You should
+
+826
+00:44:11,280 --> 00:44:11,480
+Speaker 1:  know.
+
+827
+00:44:12,040 --> 00:44:15,960
+Speaker 5:  Right. And so integrated is better than weird, fragmented. I'm just telling
+
+828
+00:44:15,960 --> 00:44:19,840
+Speaker 5:  you it is superior to mount your phone in the car using a i I
+
+829
+00:44:19,840 --> 00:44:22,920
+Speaker 5:  should just make a wireless MagSafe charger at this point. It's superior
+
+830
+00:44:22,920 --> 00:44:26,560
+Speaker 5:  to mount your phone, put the map on there and then do your audio cuz you
+
+831
+00:44:26,560 --> 00:44:27,640
+Speaker 5:  can deal with it. You can get through it.
+
+832
+00:44:27,640 --> 00:44:30,320
+Speaker 1:  We just, we just need a little slot and you just, you can even Bluetooth
+
+833
+00:44:30,320 --> 00:44:33,840
+Speaker 1:  your phone in. Yeah. And and it just projects. It's your phone. Yeah. And
+
+834
+00:44:33,840 --> 00:44:34,240
+Speaker 1:  just done.
+
+835
+00:44:34,240 --> 00:44:37,320
+Speaker 5:  Anyhow, the reason I'm doing app CarPlay is horrible and I'm correct and
+
+836
+00:44:37,320 --> 00:44:39,800
+Speaker 5:  I don't know what wrong. No wrong. It's not good. The only thing you wanna
+
+837
+00:44:39,800 --> 00:44:41,080
+Speaker 5:  do with it is show your maps.
+
+838
+00:44:41,080 --> 00:44:44,920
+Speaker 6:  Are you so excited about having the one app for music that exists?
+
+839
+00:44:44,920 --> 00:44:46,320
+Speaker 6:  Like they're literally what the end
+
+840
+00:44:46,320 --> 00:44:48,840
+Speaker 5:  Of of this is? No, cuz I'm gonna stick my phone on the dash and it's gonna
+
+841
+00:44:48,840 --> 00:44:52,720
+Speaker 5:  start charging through the power of magnetism. It's gonna be awesome
+
+842
+00:44:52,720 --> 00:44:55,360
+Speaker 5:  every time. So you can't stop me. You're already
+
+843
+00:44:55,360 --> 00:44:57,560
+Speaker 6:  Listen to the radio for more Dons
+
+844
+00:44:57,720 --> 00:45:00,040
+Speaker 5:  Steve Chevy. What are you gonna do my house? Arrest me?
+
+845
+00:45:00,710 --> 00:45:01,200
+Speaker 1:  He's
+
+846
+00:45:01,200 --> 00:45:02,520
+Speaker 5:  Getting his little car. Pull me over cuz
+
+847
+00:45:02,520 --> 00:45:03,720
+Speaker 1:  I, he's getting into small car
+
+848
+00:45:03,720 --> 00:45:07,560
+Speaker 5:  Because I use the blinding power of magnets to overcome your
+
+849
+00:45:07,560 --> 00:45:10,640
+Speaker 5:  stupid infotainment. No, do whatever I want.
+
+850
+00:45:12,300 --> 00:45:14,080
+Speaker 5:  See your point David.
+
+851
+00:45:14,080 --> 00:45:18,000
+Speaker 6:  Lemme just make sure I understand. So what what you're arguing is I would
+
+852
+00:45:18,000 --> 00:45:21,560
+Speaker 6:  like to get in my car, I would like to attach my phone to an incredibly
+
+853
+00:45:21,840 --> 00:45:25,640
+Speaker 6:  powerful magnet, and then I would like to plug my phone in to
+
+854
+00:45:25,670 --> 00:45:27,160
+Speaker 6:  some thing. No,
+
+855
+00:45:27,160 --> 00:45:29,440
+Speaker 5:  It's just the magnet is there. It's charging
+
+856
+00:45:29,440 --> 00:45:31,720
+Speaker 6:  You music out of the speakers of your phone.
+
+857
+00:45:31,810 --> 00:45:35,240
+Speaker 5:  No, with Bluetooth into the car. James gonna still let you Bluetooth into
+
+858
+00:45:35,240 --> 00:45:38,600
+Speaker 5:  the car. Okay. So you're playing your music over Bluetooth, your steering
+
+859
+00:45:38,600 --> 00:45:41,640
+Speaker 5:  wheel controls to control the music player and you got a map on the phone
+
+860
+00:45:41,700 --> 00:45:45,680
+Speaker 5:  and you're not stuck in some weird projection system
+
+861
+00:45:46,520 --> 00:45:50,160
+Speaker 5:  and you've got two screens. What Vergecast listener does not want two screens
+
+862
+00:45:50,160 --> 00:45:50,720
+Speaker 5:  going instead
+
+863
+00:45:50,720 --> 00:45:54,600
+Speaker 6:  Of one. What if I had one small good screen and one big bad screen?
+
+864
+00:45:55,590 --> 00:45:57,200
+Speaker 6:  Like what a what a cool future
+
+865
+00:45:57,200 --> 00:46:00,920
+Speaker 5:  That is the Mercedes experience. I don't know man. I'm just saying
+
+866
+00:46:00,920 --> 00:46:04,520
+Speaker 5:  CarPlay is not great and Apple's dream that it would colonize all of the
+
+867
+00:46:04,520 --> 00:46:08,440
+Speaker 5:  screens near car is hitting reality. Remember last year WWE C where
+
+868
+00:46:08,440 --> 00:46:11,080
+Speaker 5:  they're like, here's the future of CarPlay. Yes. And they showed all the
+
+869
+00:46:11,080 --> 00:46:12,680
+Speaker 5:  logos and all the car companies, like
+
+870
+00:46:13,750 --> 00:46:14,920
+Speaker 1:  They were like, Nu-uh,
+
+871
+00:46:15,280 --> 00:46:19,160
+Speaker 5:  What are you doing? It's about to be a year later, no
+
+872
+00:46:19,160 --> 00:46:22,840
+Speaker 5:  car makers have announced any plans to support that version of CarPlay. True.
+
+873
+00:46:22,980 --> 00:46:26,960
+Speaker 5:  And GM's like, actually we're not gonna support CarPlay at all because we
+
+874
+00:46:26,960 --> 00:46:29,520
+Speaker 5:  need to take the screen back because this is where people will shop
+
+875
+00:46:29,520 --> 00:46:30,960
+Speaker 6:  In the future by giving it to Google.
+
+876
+00:46:31,270 --> 00:46:35,040
+Speaker 1:  Yeah. Like they're just gonna make something crappy. Like
+
+877
+00:46:35,040 --> 00:46:38,720
+Speaker 1:  all of the other systems, you're still using your phone when you use your
+
+878
+00:46:38,720 --> 00:46:42,440
+Speaker 1:  very powerful magnet because the system behind your phone is garbage.
+
+879
+00:46:43,280 --> 00:46:47,120
+Speaker 1:  They're all garbage and CarPlay just a little better. And I really, that's
+
+880
+00:46:47,120 --> 00:46:47,200
+Speaker 5:  Not,
+
+881
+00:46:47,830 --> 00:46:48,760
+Speaker 6:  I mean you're, you're
+
+882
+00:46:48,900 --> 00:46:51,440
+Speaker 1:  The GM's not gonna do better. They did Q like
+
+883
+00:46:51,440 --> 00:46:55,320
+Speaker 6:  Your car infotainment in the best case scenario now is
+
+884
+00:46:55,320 --> 00:46:59,120
+Speaker 6:  like a four year old Android tablet. Like, congratulations on your four
+
+885
+00:46:59,120 --> 00:47:00,080
+Speaker 6:  year old Android tablet,
+
+886
+00:47:00,080 --> 00:47:03,720
+Speaker 5:  Please. So the the argument that I'll, I'll give, I don't own a Tesla, but
+
+887
+00:47:03,720 --> 00:47:07,360
+Speaker 5:  every Tesla owner has already experienced this life, right? Where like there's
+
+888
+00:47:07,360 --> 00:47:10,440
+Speaker 5:  no CarPlay integration. They've asked for it, but Tesla's like, this is the
+
+889
+00:47:10,440 --> 00:47:14,200
+Speaker 5:  future. We want to control your experience in the car. We're gonna put games
+
+890
+00:47:14,200 --> 00:47:17,880
+Speaker 5:  on here, we're going to do over the year updates every day. Every automaker
+
+891
+00:47:17,880 --> 00:47:20,680
+Speaker 5:  thinks that's their future too. Whether or not they can execute at the level
+
+892
+00:47:20,680 --> 00:47:23,200
+Speaker 5:  of the Tesla's executed remains to be seen.
+
+893
+00:47:23,310 --> 00:47:27,120
+Speaker 1:  Yeah. Like I think it makes sense. They all wanna do this. They're doing
+
+894
+00:47:27,120 --> 00:47:30,640
+Speaker 1:  the exact same thing TV makers did where they're all like, we're gonna own
+
+895
+00:47:30,640 --> 00:47:34,200
+Speaker 1:  the the home and we're gonna put our smart TV in. And most of them have been
+
+896
+00:47:34,200 --> 00:47:37,040
+Speaker 1:  like, this kind of sucks. Yeah. Go buy
+
+897
+00:47:37,040 --> 00:47:40,520
+Speaker 5:  A I'm just saying the outrage about GM walking away from CarPlay, if you
+
+898
+00:47:40,520 --> 00:47:44,120
+Speaker 5:  just look at CarPlay itself, it's kind of bad.
+
+899
+00:47:44,310 --> 00:47:44,600
+Speaker 5:  I
+
+900
+00:47:44,600 --> 00:47:48,120
+Speaker 6:  Love it. But that's, that's the thing, like the fact that CarPlay and, and
+
+901
+00:47:48,120 --> 00:47:51,360
+Speaker 6:  there have been all these stats that say like 80% of people won't buy a car
+
+902
+00:47:51,360 --> 00:47:54,200
+Speaker 6:  without CarPlay. It's not because CarPlay is magical software. It's because
+
+903
+00:47:54,200 --> 00:47:54,880
+Speaker 6:  everything else
+
+904
+00:47:55,210 --> 00:47:55,880
+Speaker 5:  Is shit.
+
+905
+00:47:56,230 --> 00:48:00,000
+Speaker 6:  Like the, the, the thing about Tesla is like Tesla has people
+
+906
+00:48:00,180 --> 00:48:03,280
+Speaker 6:  who make good software and has a decent reputation for making good software.
+
+907
+00:48:03,280 --> 00:48:06,600
+Speaker 6:  And a lot of Tesla people still want CarPlay, but at least the stuff
+
+908
+00:48:06,730 --> 00:48:10,480
+Speaker 6:  broadly works. Right? Like it's pretty good software. There is nothing
+
+909
+00:48:10,570 --> 00:48:14,440
+Speaker 6:  in the history of the auto industry to suggest that they know how to make
+
+910
+00:48:14,440 --> 00:48:17,360
+Speaker 6:  good software. They didn't know how to make good simple software. Like when
+
+911
+00:48:17,360 --> 00:48:20,760
+Speaker 6:  all the software had to do was change the radio station. It was horrible.
+
+912
+00:48:20,870 --> 00:48:24,840
+Speaker 6:  Yeah. And now I'm, I'm supposed to assume that these companies are just
+
+913
+00:48:24,840 --> 00:48:28,000
+Speaker 6:  gonna turn around and figure out how to make it like car plan Android auto
+
+914
+00:48:28,000 --> 00:48:31,920
+Speaker 6:  worked because they were so bad at making software in cars.
+
+915
+00:48:31,930 --> 00:48:34,120
+Speaker 6:  So they just came and said, well, we're just gonna show up and go over the
+
+916
+00:48:34,120 --> 00:48:37,800
+Speaker 6:  top. And like, what, how is there any evidence that that has changed? Isn't
+
+917
+00:48:37,800 --> 00:48:41,160
+Speaker 1:  One, one of the car makers is doing like Akm, morphic one, right? Didn't,
+
+918
+00:48:41,160 --> 00:48:43,120
+Speaker 1:  didn't they all invest in like Epic?
+
+919
+00:48:43,410 --> 00:48:46,760
+Speaker 5:  Oh yeah. No. They all run unreal engineering. Oh yeah. So the new the new
+
+920
+00:48:46,760 --> 00:48:50,480
+Speaker 5:  Mustang, which is still sink. Why? Yeah.
+
+921
+00:48:51,340 --> 00:48:55,120
+Speaker 5:  But like the, all the graphics in it are unreal engine. There's like Rivian
+
+922
+00:48:55,120 --> 00:48:55,400
+Speaker 5:  or
+
+923
+00:48:55,400 --> 00:48:57,760
+Speaker 6:  Unreal engines. Such high res sync. Yeah. It's so high res.
+
+924
+00:48:57,820 --> 00:49:00,360
+Speaker 5:  Too much. I mean, it looks beautiful and you're like, is this the new Android
+
+925
+00:49:00,360 --> 00:49:03,360
+Speaker 5:  system that you announced like over 18? And they're like, no, it's not, sir.
+
+926
+00:49:03,470 --> 00:49:06,840
+Speaker 1:  It's garbage. But it is. It's like hot, hot garbage. It's,
+
+927
+00:49:06,840 --> 00:49:10,080
+Speaker 5:  It's, look, Q and X will never go away. It's gonna be in Ford forever.
+
+928
+00:49:10,630 --> 00:49:13,360
+Speaker 5:  They did announce an Android based system. They're supposed, it's supposed
+
+929
+00:49:13,360 --> 00:49:15,800
+Speaker 5:  to come out. Yeah. No one knows when it's coming out, but it runs Unreal
+
+930
+00:49:15,800 --> 00:49:19,200
+Speaker 5:  Engine. And that's all the graphics Rivian run anal engine. There's tons
+
+931
+00:49:19,200 --> 00:49:22,480
+Speaker 5:  of that going on in the auto space because they know that when they move
+
+932
+00:49:22,480 --> 00:49:26,320
+Speaker 5:  to ev drive trains, the actual difference in driving a car
+
+933
+00:49:26,320 --> 00:49:30,200
+Speaker 5:  will be n like they, they, they cannot
+
+934
+00:49:30,550 --> 00:49:33,280
+Speaker 5:  make it ver they all the cars are gonna kind of be the same.
+
+935
+00:49:33,280 --> 00:49:37,000
+Speaker 6:  Yeah. Is that why they're all making such futuristic looking designs to like,
+
+936
+00:49:37,000 --> 00:49:40,840
+Speaker 6:  because they have to loudly exclaim. This is a new kind of car or else
+
+937
+00:49:40,840 --> 00:49:41,560
+Speaker 6:  no one will notice.
+
+938
+00:49:41,670 --> 00:49:44,920
+Speaker 1:  Yeah. And put the little Hemi speaker in. So it sounds like a hemi
+
+939
+00:49:45,280 --> 00:49:45,440
+Speaker 5:  Yeah.
+
+940
+00:49:47,270 --> 00:49:48,640
+Speaker 1:  That's my Hemi impression.
+
+941
+00:49:49,160 --> 00:49:52,600
+Speaker 5:  That's not, that's the wrong sound. That's a Honda
+
+942
+00:49:52,600 --> 00:49:53,160
+Speaker 5:  impression.
+
+943
+00:49:55,460 --> 00:49:59,360
+Speaker 5:  You should the frat zanax speaker and the new charger, the EV charger or
+
+944
+00:49:59,440 --> 00:50:02,720
+Speaker 5:  whatever is No ev challenger. Yeah. It it's like
+
+945
+00:50:02,850 --> 00:50:04,680
+Speaker 5:  rumbles. Yeah. It's like a dinosaur
+
+946
+00:50:04,680 --> 00:50:06,840
+Speaker 1:  Sound. I can't get that low. Like my voice doesn't go that
+
+947
+00:50:06,840 --> 00:50:10,720
+Speaker 5:  Low anyhow. They, they're doing it because this is
+
+948
+00:50:11,000 --> 00:50:14,840
+Speaker 5:  their opportunity to break from history. And they know, they're like the
+
+949
+00:50:14,840 --> 00:50:18,400
+Speaker 5:  ev buyer wants to feel special. EVs are more expensive and they have to be
+
+950
+00:50:18,400 --> 00:50:21,640
+Speaker 5:  more expensive cuz the margins are lower on these cars cuz they're invent,
+
+951
+00:50:21,640 --> 00:50:25,080
+Speaker 5:  they're full of new technology that hasn't proven out and then they all think
+
+952
+00:50:25,080 --> 00:50:28,880
+Speaker 5:  we're all gonna not drive and shop in the car. Like, I promise you every
+
+953
+00:50:28,880 --> 00:50:31,880
+Speaker 5:  auto CEO is like, I can't wait for people to start shopping in their cars
+
+954
+00:50:32,210 --> 00:50:36,040
+Speaker 5:  on our screens where we take 30%. And like the CEO of BMW
+
+955
+00:50:36,040 --> 00:50:39,680
+Speaker 5:  is like, and soon you'll subscribe to your heated seats. And
+
+956
+00:50:39,680 --> 00:50:40,200
+Speaker 5:  they're,
+
+957
+00:50:40,260 --> 00:50:44,120
+Speaker 1:  And people hate all of that. Yeah. No one like, like Apple,
+
+958
+00:50:44,120 --> 00:50:47,960
+Speaker 1:  apple was, has the benefit of being first movers and the, I'm gonna
+
+959
+00:50:47,960 --> 00:50:51,920
+Speaker 1:  bake a big technological walled garden and all
+
+960
+00:50:51,920 --> 00:50:54,960
+Speaker 1:  the car companies are now like 30 years later saying we're gonna do it too.
+
+961
+00:50:54,960 --> 00:50:57,840
+Speaker 1:  And everybody's like, no, that sucks.
+
+962
+00:50:58,030 --> 00:50:59,000
+Speaker 5:  Yeah. Yeah.
+
+963
+00:50:59,000 --> 00:51:02,240
+Speaker 6:  We're just heading back to the early days of cell phones where everybody
+
+964
+00:51:02,240 --> 00:51:05,880
+Speaker 6:  had their own operating system with their own app store, with their own brand
+
+965
+00:51:05,880 --> 00:51:07,960
+Speaker 6:  new ideas about how to do absolutely everything.
+
+966
+00:51:07,960 --> 00:51:10,120
+Speaker 5:  And the weird thing that's different here is they're all picking Android
+
+967
+00:51:10,520 --> 00:51:11,480
+Speaker 1:  Because it's easy to build on.
+
+968
+00:51:11,870 --> 00:51:15,680
+Speaker 5:  Well, but it's like weird. So like the GM system is Google builtin
+
+969
+00:51:16,160 --> 00:51:19,720
+Speaker 5:  so it's not a hundred percent clear if the thing is Android.
+
+970
+00:51:19,750 --> 00:51:23,520
+Speaker 5:  Yeah. Like the operating system is Android, but the navigation is Google
+
+971
+00:51:23,520 --> 00:51:23,920
+Speaker 5:  Maps.
+
+972
+00:51:24,010 --> 00:51:25,640
+Speaker 1:  Is it gonna have like play store in it?
+
+973
+00:51:25,860 --> 00:51:27,280
+Speaker 5:  Ooh, yeah. I know.
+
+974
+00:51:27,890 --> 00:51:31,520
+Speaker 1:  Is it, is it Android? Like Huawei is Android or is it Android? Like
+
+975
+00:51:31,770 --> 00:51:35,480
+Speaker 5:  So my Jeep is Android, like Huawei is Android. Yeah. And boy does it show
+
+976
+00:51:37,900 --> 00:51:39,320
+Speaker 5:  boy is that obvious and
+
+977
+00:51:39,320 --> 00:51:42,880
+Speaker 1:  That's bad. That's like not a place to go. Like they're
+
+978
+00:51:42,880 --> 00:51:43,280
+Speaker 5:  Very proud of it
+
+979
+00:51:43,280 --> 00:51:47,000
+Speaker 1:  Getting three guys who just graduated from college to build your
+
+980
+00:51:47,000 --> 00:51:50,680
+Speaker 1:  entire car infotainment system seems like a bad idea. And
+
+981
+00:51:50,680 --> 00:51:54,240
+Speaker 1:  that's kind of the sense of what I get from all of these, these attempts,
+
+982
+00:51:54,240 --> 00:51:57,760
+Speaker 5:  Right? They've all forked Android in some way or they're using qnx and Google
+
+983
+00:51:57,760 --> 00:52:01,720
+Speaker 5:  is there to be their mapping provider. Yeah. Or there's Android
+
+984
+00:52:02,110 --> 00:52:05,160
+Speaker 5:  automotive, which is Google's a whole os of your car, which is like what
+
+985
+00:52:05,160 --> 00:52:08,880
+Speaker 5:  Polestar uses, but just in response to David,
+
+986
+00:52:08,880 --> 00:52:12,800
+Speaker 5:  they're all picking Google services. So Google is colonizing
+
+987
+00:52:12,800 --> 00:52:16,600
+Speaker 5:  more of the auto industry, whereas Apple is like, what if we do all the screens
+
+988
+00:52:16,600 --> 00:52:16,800
+Speaker 5:  for you?
+
+989
+00:52:16,800 --> 00:52:20,200
+Speaker 1:  Same with TVs. They did the same thing. Right. None of the TV makers
+
+990
+00:52:20,310 --> 00:52:23,880
+Speaker 1:  wanted to, they all wanted to build their own TV stuff and then one day they
+
+991
+00:52:23,880 --> 00:52:27,440
+Speaker 1:  said, oh Android does it good enough. And then we can still slap all our
+
+992
+00:52:27,440 --> 00:52:31,120
+Speaker 1:  logos on everything and and pop it out and yeah. That's what they've done.
+
+993
+00:52:31,290 --> 00:52:34,040
+Speaker 1:  So Android's just doing that again for a new market.
+
+994
+00:52:34,310 --> 00:52:38,280
+Speaker 5:  Yeah. It's like, it's hard to see consumers don't change their cars
+
+995
+00:52:38,280 --> 00:52:41,720
+Speaker 5:  enough. Right. So it's like that market's just moving way, way, way, way
+
+996
+00:52:41,720 --> 00:52:42,000
+Speaker 5:  slower.
+
+997
+00:52:42,000 --> 00:52:45,120
+Speaker 1:  Yeah, because it's like every, what, 10 years? I don't know. Yeah, it's,
+
+998
+00:52:45,120 --> 00:52:48,040
+Speaker 1:  I just got this car. Who know? Have it forever. Forever.
+
+999
+00:52:48,070 --> 00:52:49,800
+Speaker 5:  Have you gotten a MagSafe Matt,
+
+1000
+00:52:49,800 --> 00:52:53,440
+Speaker 1:  For you? No. Cuz I, I plug in with the lightning and then I throw it in my
+
+1001
+00:52:53,440 --> 00:52:53,680
+Speaker 1:  my
+
+1002
+00:52:53,680 --> 00:52:56,000
+Speaker 5:  I'm just gonna get, I've got like a drawer full. I'm just gonna,
+
+1003
+00:52:56,000 --> 00:52:59,760
+Speaker 1:  It's like, just bring me one, bring me your second best one.
+
+1004
+00:52:59,900 --> 00:53:01,520
+Speaker 1:  You can keep your best one but bring me
+
+1005
+00:53:01,520 --> 00:53:03,960
+Speaker 5:  Like your second. Yeah. That I'm giving you my best one. It's like completely
+
+1006
+00:53:03,960 --> 00:53:07,080
+Speaker 5:  off the table. I don't even know why you not you open that door just to suggest
+
+1007
+00:53:07,080 --> 00:53:08,160
+Speaker 5:  that I give the best one.
+
+1008
+00:53:08,230 --> 00:53:12,120
+Speaker 1:  I just like, how are you gonna convince me? Otherwise I really need to feel
+
+1009
+00:53:12,120 --> 00:53:12,760
+Speaker 1:  that snap.
+
+1010
+00:53:12,830 --> 00:53:16,280
+Speaker 5:  It's very good. Oh my, oh the good. A good MagSafe click. It's very good.
+
+1011
+00:53:16,550 --> 00:53:20,000
+Speaker 5:  Anyhow. Yeah, this is, I'm telling you by the, by
+
+1012
+00:53:20,210 --> 00:53:24,040
+Speaker 5:  at WWDC this year Apple will say nothing about CarPlay. This is my prediction.
+
+1013
+00:53:24,040 --> 00:53:27,480
+Speaker 5:  Okay. Cuz it has gone nowhere. It's all, it's all me headset talk. Anyway.
+
+1014
+00:53:27,480 --> 00:53:31,280
+Speaker 5:  And then this time next year, two more automakers will have dropped. Phone
+
+1015
+00:53:31,280 --> 00:53:33,400
+Speaker 5:  projection. Mm. That's my another prediction.
+
+1016
+00:53:33,750 --> 00:53:35,400
+Speaker 1:  I can see it. Wow. That's no jogs
+
+1017
+00:53:35,400 --> 00:53:36,600
+Speaker 6:  Sight. Glad I bought a car already.
+
+1018
+00:53:37,240 --> 00:53:41,200
+Speaker 5:  Yeah. My bets are better than you. All right. We gotta take a
+
+1019
+00:53:41,200 --> 00:53:44,200
+Speaker 5:  break and we got a little bit of a lightning round. There's a lot going on
+
+1020
+00:53:44,200 --> 00:53:45,360
+Speaker 5:  in the sling round. We'll right back.
+
+1021
+00:53:53,610 --> 00:53:57,120
+Speaker 5:  Alright, we're back. What? I'm super right.
+
+1022
+00:53:57,150 --> 00:54:00,440
+Speaker 6:  I just realized at some point on the Vergecast we're gonna do an entire segment
+
+1023
+00:54:00,440 --> 00:54:04,280
+Speaker 6:  about Eli's favorite mag safe chargers and I could not be more excited
+
+1024
+00:54:04,280 --> 00:54:04,760
+Speaker 6:  about it.
+
+1025
+00:54:04,960 --> 00:54:08,840
+Speaker 5:  Right now I'm on Bekin, like I've got a Mofi one
+
+1026
+00:54:08,840 --> 00:54:12,760
+Speaker 5:  in the, in the truck. No, I don't, don't I have a
+
+1027
+00:54:12,760 --> 00:54:13,600
+Speaker 5:  moment. One in the truck.
+
+1028
+00:54:13,750 --> 00:54:16,880
+Speaker 1:  I wanna just hear the click. I want you to do a whole segment where you just
+
+1029
+00:54:16,880 --> 00:54:20,000
+Speaker 1:  click 'em all against the microphone so we can really Oh,
+
+1030
+00:54:20,000 --> 00:54:20,520
+Speaker 5:  That's good. Yeah.
+
+1031
+00:54:20,520 --> 00:54:23,720
+Speaker 6:  Andrew Producer just instantly green lit that segment. Absolutely guarantee.
+
+1032
+00:54:23,720 --> 00:54:27,560
+Speaker 5:  Done. So the, the truck is weird cuz there's not a a a a
+
+1033
+00:54:27,560 --> 00:54:30,920
+Speaker 5:  cigarette port or power port. Yeah. Close enough to it. It's just a weird
+
+1034
+00:54:30,920 --> 00:54:33,960
+Speaker 5:  situation. So I can use the moment ones which aren't actually Chargers and
+
+1035
+00:54:33,960 --> 00:54:37,680
+Speaker 5:  moment uses stronger magnets. Ooh. And they're very proud of their
+
+1036
+00:54:37,680 --> 00:54:39,560
+Speaker 5:  stronger magnets, which are not mag safe approved.
+
+1037
+00:54:39,650 --> 00:54:42,040
+Speaker 1:  So if you get in a car accident, your phone probably isn't
+
+1038
+00:54:43,030 --> 00:54:43,720
+Speaker 1:  twirling
+
+1039
+00:54:43,720 --> 00:54:43,880
+Speaker 5:  Around.
+
+1040
+00:54:43,880 --> 00:54:45,720
+Speaker 6:  All the metal in your car is just gonna attach
+
+1041
+00:54:46,000 --> 00:54:46,240
+Speaker 5:  To the
+
+1042
+00:54:47,830 --> 00:54:50,960
+Speaker 5:  That's very good. Welcome to the third segment of the Vir House where we
+
+1043
+00:54:50,960 --> 00:54:53,960
+Speaker 5:  just continue the previous segment about how cool magnets are.
+
+1044
+00:54:55,200 --> 00:54:57,560
+Speaker 5:  Mag Save is legitimately my favorite feature on the phone.
+
+1045
+00:54:58,530 --> 00:54:59,360
+Speaker 1:  Is that your lightning
+
+1046
+00:54:59,360 --> 00:55:02,280
+Speaker 5:  Room? Have you done the thing where you hang the puck in your bathroom yet
+
+1047
+00:55:02,280 --> 00:55:05,600
+Speaker 5:  next to your mirror? No, you gotta get a mag save. They're like five bucks
+
+1048
+00:55:05,600 --> 00:55:06,640
+Speaker 5:  in Amazon. Like I,
+
+1049
+00:55:06,790 --> 00:55:09,280
+Speaker 1:  I live in an, a small apartment in New York
+
+1050
+00:55:09,280 --> 00:55:11,200
+Speaker 5:  City, whatever. Just saying the puck on the mirror and then when you're like
+
+1051
+00:55:11,200 --> 00:55:14,960
+Speaker 5:  brushing your teeth, you can like have YouTube TV open. It's great.
+
+1052
+00:55:15,100 --> 00:55:16,080
+Speaker 1:  I'm all right. All
+
+1053
+00:55:16,080 --> 00:55:18,480
+Speaker 5:  Right. Okay. I'm tired. It's like, it's the best thing you can do.
+
+1054
+00:55:18,590 --> 00:55:21,760
+Speaker 1:  I'll believe you all. I believe you in my heart. I'm never gonna do it.
+
+1055
+00:55:22,240 --> 00:55:25,280
+Speaker 5:  House has a five-year-old in their house. Like, this is my me time baby.
+
+1056
+00:55:25,420 --> 00:55:29,200
+Speaker 5:  I'm like, just like rocking and rolling. Close the door, watching TV in the
+
+1057
+00:55:29,360 --> 00:55:32,600
+Speaker 5:  bathroom. Alright, lightning round.
+
+1058
+00:55:32,880 --> 00:55:33,880
+Speaker 5:  David, you start.
+
+1059
+00:55:34,110 --> 00:55:37,960
+Speaker 6:  Sure. So I had two. We'll do, they're both fairly quick.
+
+1060
+00:55:38,360 --> 00:55:42,120
+Speaker 6:  The first one is that Walmart rolled out a big redesign of its
+
+1061
+00:55:42,120 --> 00:55:46,000
+Speaker 6:  website because Walmart, which I have been proclaiming, is a secret like
+
+1062
+00:55:46,000 --> 00:55:49,880
+Speaker 6:  sneaky tech giant and nobody realizes it is now a drastically better
+
+1063
+00:55:49,880 --> 00:55:53,640
+Speaker 6:  looking website than amazon.com. Which yes, a very funny thing that
+
+1064
+00:55:53,800 --> 00:55:57,120
+Speaker 6:  happened this week was when this news came out, everybody sort of all at
+
+1065
+00:55:57,120 --> 00:56:01,000
+Speaker 6:  once had this moment on our staff of being like, wait, Amazon is ugly. Like
+
+1066
+00:56:01,000 --> 00:56:04,680
+Speaker 6:  what a bad website amazon.com is. And we've all just been
+
+1067
+00:56:04,790 --> 00:56:08,440
+Speaker 6:  sort of slowly like frog boiling and water to
+
+1068
+00:56:08,600 --> 00:56:11,800
+Speaker 6:  amazon.com and we just didn't realize it's a hideous website. And then Walmart,
+
+1069
+00:56:11,800 --> 00:56:15,680
+Speaker 6:  which used to be a like roughly equivalently hideous website, came
+
+1070
+00:56:15,680 --> 00:56:18,480
+Speaker 6:  out and said like, oh, we care about curation and we're gonna make things
+
+1071
+00:56:18,480 --> 00:56:21,560
+Speaker 6:  look a little nicer and we're gonna use like colors and the names of things
+
+1072
+00:56:21,560 --> 00:56:25,400
+Speaker 6:  aren't gonna be 65 words long and we're gonna have like a, a thing
+
+1073
+00:56:25,400 --> 00:56:28,920
+Speaker 6:  that actually makes sense for shopping. And everybody's just like, oh, Amazon
+
+1074
+00:56:28,920 --> 00:56:31,640
+Speaker 6:  sucks. That was my favorite part of this whole thing. It was like Walmart
+
+1075
+00:56:31,640 --> 00:56:34,320
+Speaker 6:  did a redesign and everybody was like, you know what's bad? It's amazon.com.
+
+1076
+00:56:34,430 --> 00:56:34,920
+Speaker 6:  Yeah,
+
+1077
+00:56:35,050 --> 00:56:36,640
+Speaker 5:  It does look very pretty. It's
+
+1078
+00:56:36,640 --> 00:56:40,280
+Speaker 1:  Nice. Looks nice. I'm still not gonna shop there, but like I, I appreciate
+
+1079
+00:56:40,280 --> 00:56:43,480
+Speaker 1:  that Walmart was like, we're getting our asses kicked and we're actually
+
+1080
+00:56:43,480 --> 00:56:47,120
+Speaker 1:  gonna come back and, and go after a big tech company even though we're just
+
+1081
+00:56:47,120 --> 00:56:50,840
+Speaker 1:  the guys that like destroy small towns with our giant, very convenient
+
+1082
+00:56:50,840 --> 00:56:52,760
+Speaker 1:  and lovely shopping centers.
+
+1083
+00:56:53,850 --> 00:56:57,480
+Speaker 5:  We had the CEO of Barnes and Noble in Decoder and I was like, this is quite
+
+1084
+00:56:57,480 --> 00:57:00,560
+Speaker 5:  a turnaround for you. You remember he used to like destroy small town bookstores
+
+1085
+00:57:00,560 --> 00:57:03,080
+Speaker 5:  and he is like, who? No Amazon exists now.
+
+1086
+00:57:04,830 --> 00:57:06,040
+Speaker 5:  He's like, don't worry about it.
+
+1087
+00:57:06,040 --> 00:57:06,840
+Speaker 1:  We're the little guys.
+
+1088
+00:57:06,840 --> 00:57:10,160
+Speaker 5:  We're we're what you need. Like, he's like, small bookstores can't exist
+
+1089
+00:57:10,160 --> 00:57:13,080
+Speaker 5:  without Barnes and Noble because they're the distributor to the small bookstores
+
+1090
+00:57:13,080 --> 00:57:16,800
+Speaker 5:  now. Wow. Ooh. So like your local independent book seller is like,
+
+1091
+00:57:17,010 --> 00:57:20,920
+Speaker 5:  it needs a Barnes and Noble to exist, otherwise Amazon will crush
+
+1092
+00:57:20,920 --> 00:57:21,800
+Speaker 5:  it. Very good.
+
+1093
+00:57:21,800 --> 00:57:22,680
+Speaker 1:  That's incredible. I love that.
+
+1094
+00:57:22,990 --> 00:57:25,000
+Speaker 5:  I don't know if Walmart is that thing for people, but
+
+1095
+00:57:25,020 --> 00:57:26,200
+Speaker 1:  Not yet. Not yet. Quite
+
+1096
+00:57:26,200 --> 00:57:30,120
+Speaker 6:  A take though. But yeah, Walmart has been on this like, relentless quest
+
+1097
+00:57:30,290 --> 00:57:34,280
+Speaker 6:  to just solve logistics in a way I think is super funny and interesting
+
+1098
+00:57:34,280 --> 00:57:37,360
+Speaker 6:  that during the pandemic they, they started talking a lot about we're gonna
+
+1099
+00:57:37,360 --> 00:57:41,200
+Speaker 6:  turn our stores into essentially like super optimized warehouses
+
+1100
+00:57:41,200 --> 00:57:45,000
+Speaker 6:  for Instacart shoppers to come pick stuff up. And they were really
+
+1101
+00:57:45,000 --> 00:57:48,240
+Speaker 6:  big on curbside pickup and they've just, they have this like
+
+1102
+00:57:48,260 --> 00:57:52,200
+Speaker 6:  omnichannel by everything any way you want. It all magically
+
+1103
+00:57:52,200 --> 00:57:56,080
+Speaker 6:  appears at your house vision in their head. And I don't know if it's
+
+1104
+00:57:56,080 --> 00:57:59,320
+Speaker 6:  what anyone actually wants out of their life, but it is the vision that I,
+
+1105
+00:57:59,320 --> 00:58:03,040
+Speaker 6:  that that Walmart has. And I find it sort of fascinating watching them
+
+1106
+00:58:03,170 --> 00:58:03,720
+Speaker 6:  go after
+
+1107
+00:58:03,880 --> 00:58:07,640
+Speaker 1:  It. Well they're like, they saw Amazon doing what they do best
+
+1108
+00:58:08,020 --> 00:58:11,560
+Speaker 1:  and doing it a little better and they went, oh wait, no, we're the biggest
+
+1109
+00:58:11,560 --> 00:58:15,360
+Speaker 1:  guy in the room. We're not just gonna give that up. And as a me
+
+1110
+00:58:15,360 --> 00:58:17,720
+Speaker 1:  have a me because they were, for the longest time, they were like the largest
+
+1111
+00:58:18,080 --> 00:58:21,200
+Speaker 1:  employer in the United States and Amazon took that over. And so Walmart's
+
+1112
+00:58:21,200 --> 00:58:25,120
+Speaker 1:  like, no, no, no, we can employ the most people. No, we actually already
+
+1113
+00:58:25,120 --> 00:58:28,120
+Speaker 1:  have all these warehouses built out. We don't have to go do it. We just call
+
+1114
+00:58:28,590 --> 00:58:32,440
+Speaker 1:  them stores. Right. Supercenters. And in fact, we can just fill that
+
+1115
+00:58:32,440 --> 00:58:36,360
+Speaker 1:  with crap and get it to you faster. So like that part of it I think is really,
+
+1116
+00:58:36,640 --> 00:58:40,280
+Speaker 1:  really interesting. They just said Nu-uh, we're really good at doing this.
+
+1117
+00:58:40,280 --> 00:58:41,000
+Speaker 1:  F you there's
+
+1118
+00:58:41,000 --> 00:58:44,200
+Speaker 5:  A weird set of rumors that Walmart will be the one to buy TikTok, which I
+
+1119
+00:58:44,200 --> 00:58:45,400
+Speaker 5:  think is just like perfect.
+
+1120
+00:58:45,750 --> 00:58:46,240
+Speaker 6:  What?
+
+1121
+00:58:46,600 --> 00:58:48,120
+Speaker 5:  It's very good. I don't know. It's true.
+
+1122
+00:58:48,120 --> 00:58:48,880
+Speaker 1:  I've just love this for the
+
+1123
+00:58:48,880 --> 00:58:52,120
+Speaker 5:  Wall. I just heard the rumors. Okay, here's my pick. Speaking of Amazon Okay.
+
+1124
+00:58:52,460 --> 00:58:56,320
+Speaker 5:  And things. Amazon does pretty devastating report in the
+
+1125
+00:58:56,320 --> 00:59:00,280
+Speaker 5:  Hollywood Reporter this week about Amazon Prime Studios. Oh yeah. Yeah. How
+
+1126
+00:59:00,280 --> 00:59:01,160
+Speaker 5:  badly it's going over there.
+
+1127
+00:59:02,700 --> 00:59:06,240
+Speaker 5:  I'm just gonna do disclosure now I'm gonna talk about streaming.
+
+1128
+00:59:06,620 --> 00:59:10,240
+Speaker 5:  Get ready, buckle up. Comcast NBC
+
+1129
+00:59:10,240 --> 00:59:14,080
+Speaker 5:  Universal Division is investor in V Media. They own Peacock. They Comcast
+
+1130
+00:59:14,080 --> 00:59:17,960
+Speaker 5:  does not love me, but they own Peacock. That's a competitor. We made a
+
+1131
+00:59:17,960 --> 00:59:21,680
+Speaker 5:  Netflix show on the EP of a Netflix show. I've used Hulu. Yeah.
+
+1132
+00:59:23,640 --> 00:59:26,880
+Speaker 5:  Everyone in this room has opinions about the I like Obsession. It's on hbo.
+
+1133
+00:59:27,440 --> 00:59:31,320
+Speaker 5:  Yeah. Yeah. Disclosures. Amazon Prime video that invested a
+
+1134
+00:59:31,320 --> 00:59:35,280
+Speaker 5:  ton of money in the Lord of the Ring series. Yep. 37% completion rate.
+
+1135
+00:59:35,280 --> 00:59:37,040
+Speaker 5:  Ooh, it's brutal. No one talks about
+
+1136
+00:59:37,040 --> 00:59:38,160
+Speaker 1:  It. Did you watch it? No.
+
+1137
+00:59:38,160 --> 00:59:38,640
+Speaker 5:  Yeah,
+
+1138
+00:59:38,810 --> 00:59:40,440
+Speaker 1:  It, I watched all of
+
+1139
+00:59:40,440 --> 00:59:41,320
+Speaker 5:  It. It's from Nerds. What do I
+
+1140
+00:59:41,320 --> 00:59:45,160
+Speaker 1:  Like? It was real bad. I got like, I fell asleep. I didn't like laundry during
+
+1141
+00:59:45,160 --> 00:59:46,480
+Speaker 1:  it. It was one of those shows.
+
+1142
+00:59:47,150 --> 00:59:51,000
+Speaker 5:  Yeah. When I was told it was slow, their quote in the piece was like,
+
+1143
+00:59:51,090 --> 00:59:54,080
+Speaker 5:  we we're definitely doing a second season. This was all world building,
+
+1144
+00:59:54,880 --> 00:59:57,920
+Speaker 5:  which is bad. Season one was just set up for season
+
+1145
+00:59:57,920 --> 01:00:01,440
+Speaker 5:  200 million of world building. Yeah.
+
+1146
+01:00:01,600 --> 01:00:05,160
+Speaker 5:  Whatever. Nerds. Yeah. Nerd stuff. Yeah. Look at these wizards.
+
+1147
+01:00:05,360 --> 01:00:07,000
+Speaker 5:  Huh? Elves. Tsm. Elves.
+
+1148
+01:00:08,150 --> 01:00:10,720
+Speaker 1:  That's what it was though. You're right. That's what it was.
+
+1149
+01:00:12,740 --> 01:00:16,640
+Speaker 5:  You met Hobbits, you love those. Right? Here's Sumo all
+
+1150
+01:00:16,640 --> 01:00:17,120
+Speaker 5:  Collide.
+
+1151
+01:00:18,770 --> 01:00:22,720
+Speaker 5:  It was, it's very slow show. But the bigger point is,
+
+1152
+01:00:22,870 --> 01:00:26,480
+Speaker 5:  Amazon's entire idea about this thing is you
+
+1153
+01:00:26,480 --> 01:00:30,440
+Speaker 5:  will subscribe to Prime, then you'll get great shows and then
+
+1154
+01:00:30,440 --> 01:00:34,200
+Speaker 5:  it'll make you stay, subscribe to Prime. So you keep shopping on Prime. Right.
+
+1155
+01:00:34,460 --> 01:00:37,800
+Speaker 5:  And the thing itself does not need an identity just has to be good enough
+
+1156
+01:00:38,070 --> 01:00:42,000
+Speaker 5:  that you're happy about it and stay subscribed to Prime. What is fascinating
+
+1157
+01:00:42,000 --> 01:00:45,560
+Speaker 5:  to me, and Alex, I really want your view of this is the
+
+1158
+01:00:45,560 --> 01:00:48,920
+Speaker 5:  normals that I know are all fire TV people. Yeah.
+
+1159
+01:00:49,070 --> 01:00:52,560
+Speaker 5:  Like everyone, all of Becky's aunts are like fire TV people.
+
+1160
+01:00:52,560 --> 01:00:52,880
+Speaker 1:  Not
+
+1161
+01:00:52,880 --> 01:00:55,960
+Speaker 5:  Roku. Not Roku. It's all Fire tv. It's bonkers to me.
+
+1162
+01:00:55,990 --> 01:00:56,800
+Speaker 1:  That's wild.
+
+1163
+01:00:56,860 --> 01:01:00,760
+Speaker 5:  And I'm like, are they happy with Prime? Are they watching the Lord of the
+
+1164
+01:01:00,760 --> 01:01:02,720
+Speaker 5:  Rings? I think clearly not
+
+1165
+01:01:02,800 --> 01:01:06,640
+Speaker 1:  Prime is stealthy. Like it does technically. It has like the, the largest
+
+1166
+01:01:06,640 --> 01:01:10,120
+Speaker 1:  number of subscribers or the second largest, it's over 200 million
+
+1167
+01:01:10,340 --> 01:01:13,720
+Speaker 1:  subscribers. But they're also, that's because they're also just regular prime
+
+1168
+01:01:14,120 --> 01:01:16,440
+Speaker 1:  shipping subscribers. Yeah. And so most people I don't think really think
+
+1169
+01:01:16,440 --> 01:01:19,120
+Speaker 1:  about it that often except for when they wanna watch a movie and it happens
+
+1170
+01:01:19,120 --> 01:01:21,560
+Speaker 1:  to have it. Or they, they heard like, oh, leave it their own and then they
+
+1171
+01:01:21,840 --> 01:01:25,560
+Speaker 1:  watch it and went, this is gay because it's very gay, it's great, watch it.
+
+1172
+01:01:25,590 --> 01:01:28,400
+Speaker 1:  But a lot of people then were like, no, I didn't want that. And clicked
+
+1173
+01:01:29,610 --> 01:01:33,200
+Speaker 1:  out. So I don't think as many people are engaging with it. And we, and
+
+1174
+01:01:33,200 --> 01:01:37,040
+Speaker 1:  we're, there's that was a big part of that piece too, was about how
+
+1175
+01:01:37,040 --> 01:01:40,560
+Speaker 1:  it hasn't had a big hit. Yeah. Like the closest it's had is a couple like
+
+1176
+01:01:40,560 --> 01:01:42,320
+Speaker 1:  bro shows like the Boys and The
+
+1177
+01:01:42,320 --> 01:01:42,800
+Speaker 5:  Boys is
+
+1178
+01:01:42,800 --> 01:01:44,640
+Speaker 1:  Great. Jack Reacher. Do you like Jack
+
+1179
+01:01:44,640 --> 01:01:45,520
+Speaker 5:  Reacher? I didn't watch
+
+1180
+01:01:45,990 --> 01:01:48,360
+Speaker 1:  Real Bro. Like, it's like bro spy show
+
+1181
+01:01:48,360 --> 01:01:51,760
+Speaker 5:  The Boys is particularly weird because I think people are taking the wrong
+
+1182
+01:01:51,760 --> 01:01:54,560
+Speaker 5:  message from the boys. Yes. Which is that Homeland is cool and it's like,
+
+1183
+01:01:54,560 --> 01:01:57,720
+Speaker 5:  mm. That's not it. That's not what that show's about.
+
+1184
+01:01:59,330 --> 01:02:02,240
+Speaker 1:  They're like, what a white supremacy was awesome. No, no. Wrong. Wrong.
+
+1185
+01:02:02,510 --> 01:02:03,000
+Speaker 5:  Yeah.
+
+1186
+01:02:03,190 --> 01:02:03,680
+Speaker 1:  Kill
+
+1187
+01:02:03,680 --> 01:02:07,320
+Speaker 5:  It. What if we lasered everyone's heads? If they pissed us off, that would
+
+1188
+01:02:07,320 --> 01:02:10,600
+Speaker 5:  rule the boy. It's like, no, that's not, yeah, that's not it. Everyone,
+
+1189
+01:02:10,880 --> 01:02:14,840
+Speaker 1:  Most people, it's, it doesn't have these big moments. Like
+
+1190
+01:02:14,840 --> 01:02:18,280
+Speaker 1:  it got Fleabag, but Fleabag wasn't even an Amazon show. They picked it up,
+
+1191
+01:02:18,280 --> 01:02:20,800
+Speaker 1:  they acquired it from, from I think the BBC or something. And
+
+1192
+01:02:20,800 --> 01:02:22,000
+Speaker 5:  That's fine. Yeah.
+
+1193
+01:02:22,000 --> 01:02:25,600
+Speaker 6:  Well, and then, and this was a detail that, that was in the story. Amazon
+
+1194
+01:02:25,600 --> 01:02:29,400
+Speaker 6:  then gave Phoebe Waller Bridge who created Fleabag a truckload of money
+
+1195
+01:02:29,400 --> 01:02:32,440
+Speaker 6:  to make more stuff. And then she didn't make anything for them.
+
+1196
+01:02:32,640 --> 01:02:36,360
+Speaker 1:  So she was supposed to make the part of the issue here is that their, their
+
+1197
+01:02:36,360 --> 01:02:40,080
+Speaker 1:  idea is, okay, we need to get people on board, so we're gonna
+
+1198
+01:02:40,080 --> 01:02:43,560
+Speaker 1:  throw money at creators. Which reasonably good, especially nowadays where
+
+1199
+01:02:43,560 --> 01:02:45,880
+Speaker 1:  everybody's throwing money around. That's what everybody, but then they're
+
+1200
+01:02:45,880 --> 01:02:49,400
+Speaker 1:  not following through. And so like Phoebe Waller Bridge and Donald Glover
+
+1201
+01:02:49,520 --> 01:02:52,920
+Speaker 1:  were supposed to make a Mr. And Mrs. Smith show. There was things did not
+
+1202
+01:02:52,920 --> 01:02:56,360
+Speaker 1:  go well there, there were some personality classes, clashes and stuff. So
+
+1203
+01:02:56,360 --> 01:03:00,280
+Speaker 1:  they, they parted ways and she's still now doing a Tomb Raider show,
+
+1204
+01:03:00,280 --> 01:03:03,120
+Speaker 1:  but she has a tendency to go and come up with the idea for a show and then
+
+1205
+01:03:03,120 --> 01:03:06,480
+Speaker 1:  walk away. Huh. Because that's what she's like killing Eve. She did the first
+
+1206
+01:03:06,480 --> 01:03:09,800
+Speaker 1:  season and she was like, this is cool. Bye. And the show got progressively
+
+1207
+01:03:09,800 --> 01:03:11,600
+Speaker 1:  worse as different showrunners came on.
+
+1208
+01:03:11,600 --> 01:03:13,360
+Speaker 6:  The first season's amazing though. It's
+
+1209
+01:03:13,360 --> 01:03:17,000
+Speaker 1:  Really good. The show still was great. I loved it. But yeah, so they're doing
+
+1210
+01:03:17,000 --> 01:03:19,680
+Speaker 1:  that a bunch. They're just throwing money at people and then being like,
+
+1211
+01:03:19,680 --> 01:03:22,960
+Speaker 1:  Hey, did you you do anything with that 20 mil we gave you? No. Cool, here's
+
+1212
+01:03:22,960 --> 01:03:23,120
+Speaker 1:  another
+
+1213
+01:03:23,120 --> 01:03:24,240
+Speaker 5:  Thing, why can't I get these deals?
+
+1214
+01:03:24,240 --> 01:03:26,800
+Speaker 1:  Right. Like, I gotta go do that. That sounds great.
+
+1215
+01:03:26,940 --> 01:03:30,920
+Speaker 5:  The thing that really strikes me with all of these is the harshest
+
+1216
+01:03:30,920 --> 01:03:33,440
+Speaker 5:  criticism. And I think the most devastating criticism in the story is they
+
+1217
+01:03:33,440 --> 01:03:37,080
+Speaker 5:  don't know what they want. Yes. Yeah. Right. And that is to some extent the
+
+1218
+01:03:37,080 --> 01:03:40,960
+Speaker 5:  criticism of Netflix. All the big sort of data driven to
+
+1219
+01:03:40,960 --> 01:03:44,360
+Speaker 5:  some extent the criticism of YouTube is like, this thing has no point of
+
+1220
+01:03:44,360 --> 01:03:47,680
+Speaker 5:  view. It's just a mishmash of stuff. It's all driven by data.
+
+1221
+01:03:47,790 --> 01:03:51,760
+Speaker 1:  Well, and they hired, so the person who's running Amazon Prime, she was hired
+
+1222
+01:03:51,850 --> 01:03:55,720
+Speaker 1:  to have vision and she does have vision, like she was a big fan of Ali, of
+
+1223
+01:03:55,720 --> 01:03:59,600
+Speaker 1:  their own. She's been pushing some other stuff and she's running into
+
+1224
+01:04:00,240 --> 01:04:04,200
+Speaker 1:  conflict with the people who are data driven. And then also the stuff
+
+1225
+01:04:04,200 --> 01:04:06,360
+Speaker 1:  that she puts all her effort into aren't,
+
+1226
+01:04:06,470 --> 01:04:07,440
+Speaker 5:  It's not good. Not
+
+1227
+01:04:07,440 --> 01:04:08,720
+Speaker 1:  Working. Doesn't actually land
+
+1228
+01:04:08,720 --> 01:04:09,160
+Speaker 5:  Lord of
+
+1229
+01:04:09,160 --> 01:04:12,720
+Speaker 1:  The Rings. Yeah. So it's, well that wasn't her her deal. Like she came in
+
+1230
+01:04:12,720 --> 01:04:15,920
+Speaker 1:  to do that. That was Jeff Bezos being like, I wanna watch my Nerd show. And
+
+1231
+01:04:15,760 --> 01:04:15,920
+Speaker 1:  and
+
+1232
+01:04:15,920 --> 01:04:19,880
+Speaker 5:  They In The Expanse Yeah. Which spun completely in like literally into
+
+1233
+01:04:20,080 --> 01:04:23,120
+Speaker 5:  Orbit. Yeah. The second they went through that gate, I was like, the show's
+
+1234
+01:04:23,120 --> 01:04:24,280
+Speaker 5:  dumb, like come over it.
+
+1235
+01:04:24,280 --> 01:04:25,600
+Speaker 1:  And more seasons came.
+
+1236
+01:04:25,630 --> 01:04:29,560
+Speaker 5:  Yeah. Yeah. They kept making it so many seasons. I just wanna compare that
+
+1237
+01:04:29,560 --> 01:04:33,400
+Speaker 5:  to hbo, which absolutely has a point of view. And just
+
+1238
+01:04:33,400 --> 01:04:37,320
+Speaker 5:  like fires off hit after hit, right. Even with all the corporate chaos of
+
+1239
+01:04:37,320 --> 01:04:41,080
+Speaker 5:  HBO and at t and all the rest, they're like, what we do is we
+
+1240
+01:04:41,080 --> 01:04:44,950
+Speaker 5:  make things we like and then we show them to people. And that's how you get
+
+1241
+01:04:44,950 --> 01:04:48,430
+Speaker 5:  the White Lotus and succession and all the rest of it. And it just doesn't
+
+1242
+01:04:48,430 --> 01:04:51,230
+Speaker 5:  seem like the tech companies that want to take over streaming have gotten
+
+1243
+01:04:51,230 --> 01:04:53,350
+Speaker 5:  it with the notable exception of Apple.
+
+1244
+01:04:53,350 --> 01:04:56,750
+Speaker 1:  Yep. Apple's the only one. And they, they, and that was partly because they
+
+1245
+01:04:56,750 --> 01:05:00,590
+Speaker 1:  hired a bunch of H B O people. Yeah. So part of this is, is Amazon doesn't
+
+1246
+01:05:00,870 --> 01:05:04,750
+Speaker 1:  wanna listen to, to these people that they hire. They go and they hire
+
+1247
+01:05:04,750 --> 01:05:07,350
+Speaker 1:  them and they're like, let's do this. And Amazon's like, nah, let's do this
+
+1248
+01:05:07,350 --> 01:05:10,710
+Speaker 1:  other stuff. And, and so there's just this constant disconnect. And Netflix
+
+1249
+01:05:10,710 --> 01:05:14,150
+Speaker 1:  is having the same issue. Netflix is totally driven by the algorithm to the
+
+1250
+01:05:14,150 --> 01:05:16,870
+Speaker 1:  point that it cancels shows that are really, really popular and then gets
+
+1251
+01:05:16,870 --> 01:05:19,760
+Speaker 1:  people, people furious and lots of bad press and everybody yells at them.
+
+1252
+01:05:20,100 --> 01:05:23,760
+Speaker 1:  And Apple has figured this out because they just trusted
+
+1253
+01:05:23,760 --> 01:05:27,160
+Speaker 1:  that we don't know what we're doing here. We're gonna pay people who do
+
+1254
+01:05:27,420 --> 01:05:31,360
+Speaker 1:  and let them work and like get out of the way and also give them a
+
+1255
+01:05:31,500 --> 01:05:34,880
+Speaker 1:  ton of money to do it. Just a ton of money.
+
+1256
+01:05:34,880 --> 01:05:38,760
+Speaker 6:  Well, and and to be fair, apple has had its share of
+
+1257
+01:05:38,790 --> 01:05:42,680
+Speaker 6:  stinkers. It's just also had some really massive successes
+
+1258
+01:05:42,680 --> 01:05:46,200
+Speaker 6:  in a way that Amazon hasn't. But the thing for me is it's always
+
+1259
+01:05:46,270 --> 01:05:49,520
+Speaker 6:  been like this at Amazon. Like, do you remember when Amazon would put out
+
+1260
+01:05:49,520 --> 01:05:52,560
+Speaker 6:  a bunch of pilots and let people vote on which ones they thought should go
+
+1261
+01:05:52,560 --> 01:05:56,480
+Speaker 6:  to series? Like it turns out that if you do the whole Amazon thing, which
+
+1262
+01:05:56,480 --> 01:06:00,320
+Speaker 6:  is like start with what the customer wants and you know, go out
+
+1263
+01:06:00,320 --> 01:06:03,040
+Speaker 6:  to the end, which is how Amazon says it does everything, you're gonna get
+
+1264
+01:06:03,040 --> 01:06:06,240
+Speaker 6:  shitty stuff because people don't know what they want. And if you ask people
+
+1265
+01:06:06,240 --> 01:06:09,160
+Speaker 6:  what they want, they're gonna say Lord of the Rings. Yeah. And then you have
+
+1266
+01:06:09,160 --> 01:06:12,760
+Speaker 6:  to make a good Lord of the Rings show. And that's much harder than just saying,
+
+1267
+01:06:12,760 --> 01:06:16,280
+Speaker 6:  do you like Lord of the Rings? But then on the flip side, Amazon a at least
+
+1268
+01:06:16,280 --> 01:06:19,960
+Speaker 6:  as far as I can tell, has never been at all clear about what its video stuff
+
+1269
+01:06:19,960 --> 01:06:23,520
+Speaker 6:  is for. And even in the course of this story, they talked a bunch about,
+
+1270
+01:06:23,520 --> 01:06:26,160
+Speaker 6:  like, one of the compelling things about Lord of the Rings was all the like
+
+1271
+01:06:26,160 --> 01:06:29,000
+Speaker 6:  merchandising opportunities. Right? And they, they've talked about this with
+
+1272
+01:06:29,200 --> 01:06:31,720
+Speaker 6:  football too, that if you get people to sign up, like we're gonna be able
+
+1273
+01:06:31,720 --> 01:06:34,800
+Speaker 6:  to sell you football related things like maybe you'll buy
+
+1274
+01:06:35,560 --> 01:06:39,080
+Speaker 6:  todos through Thursday night football. And that that's actually as big a
+
+1275
+01:06:39,080 --> 01:06:41,880
+Speaker 6:  victory as getting you to watch Thursday Night Football through Prime video.
+
+1276
+01:06:42,100 --> 01:06:45,920
+Speaker 6:  And so there's just been this weird thing where it's like, what, what
+
+1277
+01:06:45,920 --> 01:06:49,680
+Speaker 6:  are these shows and movies here to accomplish for Amazon? And
+
+1278
+01:06:50,150 --> 01:06:53,640
+Speaker 6:  I don't necessarily think Amazon has a clear answer to that. They at least
+
+1279
+01:06:53,640 --> 01:06:57,520
+Speaker 6:  have not communicated that to Hollywood. And until they do, it's gonna
+
+1280
+01:06:57,720 --> 01:06:59,720
+Speaker 6:  keep being the same thing where people just come and they're like, what,
+
+1281
+01:06:59,720 --> 01:07:02,200
+Speaker 6:  what do you want from us? Like, what does success look like here?
+
+1282
+01:07:02,200 --> 01:07:05,680
+Speaker 1:  Yeah. And and they had even people saying that, I think the guy that did
+
+1283
+01:07:05,680 --> 01:07:09,560
+Speaker 1:  a league with their own was like, what do you want from us? Like Green Lit
+
+1284
+01:07:09,560 --> 01:07:09,720
+Speaker 1:  our
+
+1285
+01:07:09,720 --> 01:07:11,440
+Speaker 5:  Show. They wanna sell baseball pads. Yeah.
+
+1286
+01:07:11,920 --> 01:07:13,760
+Speaker 1:  Apparently just the little girls.
+
+1287
+01:07:13,760 --> 01:07:16,480
+Speaker 5:  All right. This is the longest lightning round ever. You can tell we have
+
+1288
+01:07:16,480 --> 01:07:20,440
+Speaker 5:  a lot of feelings about this story. Yeah. But it is notable that the
+
+1289
+01:07:20,440 --> 01:07:24,360
+Speaker 5:  data driven streamers are not producing hits at the rate of
+
+1290
+01:07:24,360 --> 01:07:27,880
+Speaker 5:  the people who are just like have taste. Yeah. Oh, there's a lesson there.
+
+1291
+01:07:27,880 --> 01:07:29,400
+Speaker 5:  Shock. All right, what's your lightning round item?
+
+1292
+01:07:29,420 --> 01:07:33,280
+Speaker 1:  Ooh. So mine is kind of, I'm, I'm folding two in together because we had
+
+1293
+01:07:33,280 --> 01:07:36,520
+Speaker 1:  some handheld news this week. Oh boy. So first of all, Asus,
+
+1294
+01:07:37,010 --> 01:07:40,240
+Speaker 1:  on April Fool's Day, it was like, this was not great. It was really bad.
+
+1295
+01:07:40,240 --> 01:07:43,880
+Speaker 1:  Asus was like, Hey, we're gonna do a really cool handheld April
+
+1296
+01:07:43,880 --> 01:07:47,080
+Speaker 1:  Fools. And everybody's like, well that's stupid. Like the steam deck exists.
+
+1297
+01:07:47,080 --> 01:07:49,800
+Speaker 1:  You could have done that. And then a few days later they're like, oh actually
+
+1298
+01:07:49,800 --> 01:07:53,080
+Speaker 1:  we are doing it. And everybody's like, well that was stupid. Why didn't,
+
+1299
+01:07:53,620 --> 01:07:56,960
+Speaker 1:  why did you message it with April Fools? And I think the idea there was supposed
+
+1300
+01:07:56,960 --> 01:08:00,560
+Speaker 1:  to be, you'd get really excited and wish it existed and then be really excited
+
+1301
+01:08:00,560 --> 01:08:01,480
+Speaker 1:  when it did exist.
+
+1302
+01:08:01,610 --> 01:08:04,160
+Speaker 5:  Oh the the classic April Fool's Gambit.
+
+1303
+01:08:04,400 --> 01:08:08,280
+Speaker 1:  Yeah. And instead they just pissed everybody off. And we
+
+1304
+01:08:08,280 --> 01:08:12,240
+Speaker 1:  don't really know a lot about the pricing or what's involved. There's a couple
+
+1305
+01:08:12,240 --> 01:08:15,960
+Speaker 1:  of YouTubers that have seen it so far, it seems potentially really cool.
+
+1306
+01:08:15,960 --> 01:08:19,920
+Speaker 1:  It runs Windows. Could be neat. Could be $600 and nobody would
+
+1307
+01:08:19,920 --> 01:08:22,200
+Speaker 1:  want to spend that on a handheld when a steam deck explode.
+
+1308
+01:08:22,200 --> 01:08:24,240
+Speaker 5:  Why is it called the RO ally? Because
+
+1309
+01:08:24,240 --> 01:08:25,360
+Speaker 1:  It's your ally in gaming.
+
+1310
+01:08:25,370 --> 01:08:29,280
+Speaker 6:  Oh my God. Also, have you ever seen Jesus's product names? Ro
+
+1311
+01:08:29,520 --> 01:08:31,120
+Speaker 6:  Ally is like the best it's ever done. RO
+
+1312
+01:08:31,610 --> 01:08:35,520
+Speaker 1:  Is Republic of Gamer, which was a gaming Yeah. Thing that
+
+1313
+01:08:35,520 --> 01:08:37,760
+Speaker 1:  they acquired years ago. And so they
+
+1314
+01:08:37,760 --> 01:08:39,200
+Speaker 5:  Just, this is the ally. Yeah.
+
+1315
+01:08:39,260 --> 01:08:39,680
+Speaker 1:  All
+
+1316
+01:08:39,680 --> 01:08:40,120
+Speaker 5:  Right. This is your
+
+1317
+01:08:40,120 --> 01:08:43,400
+Speaker 1:  Friend, I'll take it. And then the other part of this is Sony is
+
+1318
+01:08:44,240 --> 01:08:47,880
+Speaker 1:  considering also making a handheld super late to that party in some
+
+1319
+01:08:47,880 --> 01:08:50,920
+Speaker 1:  respects. Even though they did the Vita and they did the PSP and they're
+
+1320
+01:08:50,920 --> 01:08:54,840
+Speaker 1:  both were great overpriced, nobody bought them except for me and
+
+1321
+01:08:55,080 --> 01:08:56,120
+Speaker 5:  Probably Sean. I had a psp.
+
+1322
+01:08:56,120 --> 01:09:00,080
+Speaker 1:  Okay. You, me and Sean. Yeah. We were the three that owned the psp. It
+
+1323
+01:09:00,080 --> 01:09:01,160
+Speaker 1:  was great. Mine was pink.
+
+1324
+01:09:01,300 --> 01:09:04,160
+Speaker 5:  Did I have a Vita too? There's a real chance I might've had a vita along.
+
+1325
+01:09:04,160 --> 01:09:04,520
+Speaker 5:  The
+
+1326
+01:09:04,520 --> 01:09:07,440
+Speaker 1:  Vita was like, it had like 3G in it. You're like, it's like it's practically
+
+1327
+01:09:07,440 --> 01:09:09,000
+Speaker 1:  a phone. I can justify this
+
+1328
+01:09:09,160 --> 01:09:11,760
+Speaker 5:  Purchase. It's weird that a gadget made so little impression that I can't
+
+1329
+01:09:11,960 --> 01:09:14,520
+Speaker 5:  remember if I owned one. But it feels like the sort of thing that I bought
+
+1330
+01:09:14,850 --> 01:09:18,400
+Speaker 1:  It was not great. The games were great for it, but so
+
+1331
+01:09:18,550 --> 01:09:22,400
+Speaker 1:  Sony is looking into this again, curiously not for
+
+1332
+01:09:22,400 --> 01:09:25,560
+Speaker 1:  cloud gaming. That's probably because they have a really bad cloud gaming
+
+1333
+01:09:25,560 --> 01:09:29,320
+Speaker 1:  infrastructure. They farmed it all out to Microsoft. They don't
+
+1334
+01:09:29,320 --> 01:09:32,200
+Speaker 1:  everybody's now somebody's gonna yell at me in the comments and I'm sorry,
+
+1335
+01:09:32,310 --> 01:09:35,720
+Speaker 1:  I know you all love it and it works, but it's garbage.
+
+1336
+01:09:36,210 --> 01:09:38,960
+Speaker 1:  So they're not making it for that. They're making it for remote play. So
+
+1337
+01:09:38,960 --> 01:09:42,680
+Speaker 1:  you can just play your PS five. Yeah. Far away from your house. That makes
+
+1338
+01:09:42,680 --> 01:09:46,160
+Speaker 1:  sense. But that might be the only thing you can do with it. And how much
+
+1339
+01:09:46,160 --> 01:09:49,480
+Speaker 1:  is it gonna cost? Cuz everybody's struggling to get it under $400.
+
+1340
+01:09:49,780 --> 01:09:53,600
+Speaker 1:  And why would you spend $400 on something to just play your PS five
+
+1341
+01:09:53,600 --> 01:09:56,960
+Speaker 1:  that's at home when you could spend $400 on the steam deck
+
+1342
+01:09:57,110 --> 01:09:59,640
+Speaker 1:  that lets you do that and play other games.
+
+1343
+01:09:59,990 --> 01:10:03,880
+Speaker 6:  I would assume this has to be coming alongside
+
+1344
+01:10:03,990 --> 01:10:07,920
+Speaker 6:  some like huge expansion in Sony's cloud gaming
+
+1345
+01:10:07,920 --> 01:10:10,800
+Speaker 6:  stuff because if not, yeah, you're exactly right. This just becomes like
+
+1346
+01:10:10,920 --> 01:10:14,400
+Speaker 6:  history's most expensive, barely useful PlayStation
+
+1347
+01:10:14,400 --> 01:10:18,240
+Speaker 6:  peripheral. Just slightly edging the, the move sticks
+
+1348
+01:10:18,240 --> 01:10:21,280
+Speaker 6:  that existed. But just
+
+1349
+01:10:21,420 --> 01:10:25,200
+Speaker 1:  The recording was was like emphatically like it's not for cloud gaming,
+
+1350
+01:10:25,200 --> 01:10:29,080
+Speaker 1:  it's for remote play, which is why it's so weird. Also the name is
+
+1351
+01:10:29,080 --> 01:10:29,280
+Speaker 1:  bad.
+
+1352
+01:10:29,280 --> 01:10:29,800
+Speaker 5:  What's the
+
+1353
+01:10:29,800 --> 01:10:30,680
+Speaker 1:  Name Q Light.
+
+1354
+01:10:32,190 --> 01:10:33,520
+Speaker 5:  It's okay. It's worse than Rogue
+
+1355
+01:10:33,760 --> 01:10:35,320
+Speaker 1:  Ally. Yeah, it was like, which do you want Rag Ally
+
+1356
+01:10:35,650 --> 01:10:36,920
+Speaker 5:  Or QAN on the
+
+1357
+01:10:36,920 --> 01:10:39,200
+Speaker 6:  Videos? Hope that's a, let's hope that's a code name.
+
+1358
+01:10:39,200 --> 01:10:43,080
+Speaker 5:  Yeah. Can I tell you whatever? They can do whatever they want. Okay,
+
+1359
+01:10:43,080 --> 01:10:43,680
+Speaker 5:  that's fine.
+
+1360
+01:10:43,750 --> 01:10:44,640
+Speaker 1:  You'll buy it.
+
+1361
+01:10:44,990 --> 01:10:48,680
+Speaker 5:  Sony needs to put psvr two Grand Teresa
+
+1362
+01:10:48,680 --> 01:10:52,360
+Speaker 5:  mode demo stations in every mall and store
+
+1363
+01:10:52,460 --> 01:10:54,280
+Speaker 5:  and seven-eleven in America. How
+
+1364
+01:10:54,280 --> 01:10:55,680
+Speaker 1:  Many times have you vomited playing it?
+
+1365
+01:10:55,730 --> 01:10:59,440
+Speaker 5:  No. So the first day was really bad. Okay. So I had Addie send me
+
+1366
+01:10:59,780 --> 01:11:03,400
+Speaker 5:  one of our PSVR two review units and then I bought a
+
+1367
+01:11:03,400 --> 01:11:06,880
+Speaker 5:  Logitech G 9 23 wheel in pedals and a love it and a
+
+1368
+01:11:07,030 --> 01:11:11,000
+Speaker 5:  chair just it's, I was like whatever is fully
+
+1369
+01:11:11,000 --> 01:11:13,120
+Speaker 5:  ridiculous, but I live in the woods, I'm in the basement, no one can see,
+
+1370
+01:11:13,120 --> 01:11:16,560
+Speaker 5:  see me headset on and the first day I was like, Ooh, this is a
+
+1371
+01:11:16,880 --> 01:11:20,840
+Speaker 5:  mistake. Super queasy. And then just a couple days later
+
+1372
+01:11:20,840 --> 01:11:24,720
+Speaker 5:  is fine. Okay, so a couple days of queasy. I'm obsessed. It is
+
+1373
+01:11:24,720 --> 01:11:25,920
+Speaker 5:  like being in the stupid cars.
+
+1374
+01:11:26,110 --> 01:11:30,080
+Speaker 1:  Love that. Do you like miss the break? Do you have break
+
+1375
+01:11:30,840 --> 01:11:34,320
+Speaker 1:  pushback and stuff like when a real car you can feel it when you're breaking?
+
+1376
+01:11:34,610 --> 01:11:37,200
+Speaker 5:  No, because it's just, they're plastic pedals.
+
+1377
+01:11:38,020 --> 01:11:41,400
+Speaker 6:  You know, you can spend like 30 grand on this setup mil Eli and I feel like
+
+1378
+01:11:41,400 --> 01:11:42,360
+Speaker 6:  we are, we're headed down a
+
+1379
+01:11:42,360 --> 01:11:46,280
+Speaker 5:  Dangerous road. Yeah. I've spent a bunch of credit card points and fine,
+
+1380
+01:11:46,430 --> 01:11:49,280
+Speaker 5:  like I haven't spent like, it was like a hundred dollars on a bunch of credit
+
+1381
+01:11:49,280 --> 01:11:53,120
+Speaker 5:  card points to accomplish this setup. It is legitimately
+
+1382
+01:11:53,120 --> 01:11:56,800
+Speaker 5:  the most compelling thing you can do in vr. Yeah. Like it is so cool.
+
+1383
+01:11:57,150 --> 01:12:00,800
+Speaker 5:  It's so much fun. You convince yourself that you're moving,
+
+1384
+01:12:00,840 --> 01:12:04,680
+Speaker 5:  which is bizarre. Like absolutely bizarre to
+
+1385
+01:12:04,680 --> 01:12:08,560
+Speaker 5:  be sitting dead, still holding a plastic wheel that you cannot
+
+1386
+01:12:08,560 --> 01:12:12,240
+Speaker 5:  see cuz you're wearing a VR headset and like leaning your body like it's
+
+1387
+01:12:12,600 --> 01:12:15,960
+Speaker 5:  crazy. I took off, my wife came down the stairs the other day and I took
+
+1388
+01:12:15,960 --> 01:12:19,320
+Speaker 5:  off the headset and I literally went, you gotta try this. And she was like,
+
+1389
+01:12:19,320 --> 01:12:20,520
+Speaker 5:  what is wrong with you?
+
+1390
+01:12:20,630 --> 01:12:22,000
+Speaker 1:  Just went right back up the
+
+1391
+01:12:22,000 --> 01:12:25,480
+Speaker 5:  Stairs. I'm outta here for all of the, we talked so much about last week,
+
+1392
+01:12:25,480 --> 01:12:29,440
+Speaker 5:  talked about AR killer apps, all this stuff. It's an incredibly complicated
+
+1393
+01:12:29,440 --> 01:12:33,000
+Speaker 5:  full setup. Yeah. It's like $1,500 worth of stuff, right?
+
+1394
+01:12:33,340 --> 01:12:37,040
+Speaker 5:  You need a PS five, you need a head sandwich, another five, $600. You need
+
+1395
+01:12:37,040 --> 01:12:40,920
+Speaker 5:  to buy a wheel A, it's all ridiculous chair. And you
+
+1396
+01:12:40,920 --> 01:12:44,200
+Speaker 5:  can, you can spend like $30,000 on like full motion
+
+1397
+01:12:44,450 --> 01:12:48,160
+Speaker 5:  iRacing PC based max for stop in the F F1 racer
+
+1398
+01:12:48,220 --> 01:12:52,120
+Speaker 5:  has a full rig in his trailer. So he leaves F1 races
+
+1399
+01:12:52,120 --> 01:12:55,520
+Speaker 5:  and then sim races against people using his real name,
+
+1400
+01:12:55,800 --> 01:12:57,360
+Speaker 5:  which is incredible. It's
+
+1401
+01:12:57,360 --> 01:12:57,960
+Speaker 1:  Badass.
+
+1402
+01:12:58,440 --> 01:13:01,800
+Speaker 6:  Devastating sim racing as yourself is the coolest imaginable thing
+
+1403
+01:13:02,380 --> 01:13:04,960
+Speaker 5:  And all. That's fine. And like I have friends and I've tried those things
+
+1404
+01:13:04,960 --> 01:13:07,840
+Speaker 5:  on screens with the three, three screens around you. I'm telling you put
+
+1405
+01:13:07,840 --> 01:13:09,960
+Speaker 5:  on a VR headset, you're like, oh, this is the coolest thing you can do in
+
+1406
+01:13:09,960 --> 01:13:13,040
+Speaker 5:  vr. Yeah. So needs to throw this cloud gaming,
+
+1407
+01:13:14,080 --> 01:13:16,960
+Speaker 5:  whatever, get people the headsets with the racing games
+
+1408
+01:13:17,430 --> 01:13:19,200
+Speaker 1:  That should, that's like they're Tetris.
+
+1409
+01:13:19,550 --> 01:13:22,800
+Speaker 5:  Yeah. It's $1,500 of sim racing setup.
+
+1410
+01:13:23,480 --> 01:13:26,000
+Speaker 5:  Also, it judges you every time you put it on. It's like, are you sitting
+
+1411
+01:13:26,000 --> 01:13:29,560
+Speaker 5:  down again? And it's like, I'm definitely sitting down again. It's like,
+
+1412
+01:13:29,560 --> 01:13:32,360
+Speaker 5:  don't you wanna play standing up, moving around? It's like, no, no, no. I'm
+
+1413
+01:13:32,360 --> 01:13:33,080
+Speaker 5:  in the chair, bro.
+
+1414
+01:13:33,150 --> 01:13:35,000
+Speaker 6:  Stationary mode. What's up?
+
+1415
+01:13:35,400 --> 01:13:39,360
+Speaker 5:  Yeah, let's go. It's like every time it's like, are you, you're stationary
+
+1416
+01:13:39,360 --> 01:13:43,080
+Speaker 5:  again, huh? It's like sure am. Let's just put the pedal
+
+1417
+01:13:43,080 --> 01:13:44,000
+Speaker 5:  to the metal, bro.
+
+1418
+01:13:45,870 --> 01:13:49,640
+Speaker 5:  It's very good. Okay, one more. Wait, how many picks are we at?
+
+1419
+01:13:49,640 --> 01:13:51,480
+Speaker 5:  That was like one each, basically we
+
+1420
+01:13:51,480 --> 01:13:54,240
+Speaker 6:  Did one each. You you get one more and then I think we should probably go,
+
+1421
+01:13:54,300 --> 01:13:58,160
+Speaker 5:  All right, let me wrap this up. Last lightning round item. This is me just
+
+1422
+01:13:58,160 --> 01:14:00,920
+Speaker 5:  assigning myself a story again. We'll have it on the website tomorrow. Okay.
+
+1423
+01:14:00,920 --> 01:14:02,600
+Speaker 5:  Something is happening in Wisconsin.
+
+1424
+01:14:04,470 --> 01:14:07,200
+Speaker 1:  Cheese, it's 49ers.
+
+1425
+01:14:07,640 --> 01:14:08,880
+Speaker 5:  Aaron Rodgers is
+
+1426
+01:14:11,060 --> 01:14:14,840
+Speaker 5:  leaving the only things anyone can think of. So as you
+
+1427
+01:14:14,840 --> 01:14:18,040
+Speaker 5:  know, I'm obsessed with the fox on plot, which is just minutes away from
+
+1428
+01:14:18,040 --> 01:14:21,800
+Speaker 5:  the child, my childhood home in Wisconsin. Yeah. They're gonna do something
+
+1429
+01:14:21,800 --> 01:14:25,640
+Speaker 5:  on it and it's not coffee robots or whatever nonsense they claim they
+
+1430
+01:14:25,640 --> 01:14:27,520
+Speaker 5:  were doing. It's definitely not building TVs.
+
+1431
+01:14:27,630 --> 01:14:30,760
+Speaker 6:  A K A I. Yeah. Wait, so the first thing, let's just, let's run through the
+
+1432
+01:14:30,760 --> 01:14:32,760
+Speaker 6:  history of this real fast. So it was real
+
+1433
+01:14:32,760 --> 01:14:33,200
+Speaker 5:  Fast. You think
+
+1434
+01:14:33,200 --> 01:14:35,600
+Speaker 6:  It was gonna be, it was gonna be TVs,
+
+1435
+01:14:35,600 --> 01:14:39,280
+Speaker 5:  Right? Yes. So in the Trump administration, Donald Trump
+
+1436
+01:14:39,280 --> 01:14:43,240
+Speaker 5:  golden shovel breaks ground with Terry Go, chairman of Foxconn says we're
+
+1437
+01:14:43,240 --> 01:14:47,120
+Speaker 5:  building a TV factory in Mount Pleasant Wisconsin. They ram
+
+1438
+01:14:47,120 --> 01:14:50,680
+Speaker 5:  it through the bulldozed houses, the whole
+
+1439
+01:14:50,850 --> 01:14:54,400
+Speaker 5:  thing. AI eight k plus 5g. Sure. The plus they're gonna
+
+1440
+01:14:54,400 --> 01:14:58,280
+Speaker 5:  do 15,000 jobs, billions in tax subsidies. I don't
+
+1441
+01:14:58,280 --> 01:15:02,080
+Speaker 5:  need to tell you that this did not happen. It was never
+
+1442
+01:15:02,080 --> 01:15:05,600
+Speaker 5:  gonna happen. And it definitely did not happen. At one point in the course
+
+1443
+01:15:05,600 --> 01:15:09,440
+Speaker 5:  of this story, when they broke ground on the factory
+
+1444
+01:15:09,490 --> 01:15:13,360
+Speaker 5:  display experts told us that foundation doesn't look correct
+
+1445
+01:15:13,360 --> 01:15:17,280
+Speaker 5:  for an L C D fab. And we asked them and they said, the
+
+1446
+01:15:17,280 --> 01:15:21,200
+Speaker 5:  special clay soil in Wisconsin does not means that we do
+
+1447
+01:15:21,200 --> 01:15:24,280
+Speaker 5:  not need to build the foundation that you need in the rest of the world.
+
+1448
+01:15:24,300 --> 01:15:28,240
+Speaker 5:  And I went, I'm from there. And no one ever told me that the dirt was
+
+1449
+01:15:28,240 --> 01:15:28,480
+Speaker 5:  special.
+
+1450
+01:15:30,330 --> 01:15:33,520
+Speaker 5:  So that was weird. So then they built this weird building, they call it the
+
+1451
+01:15:33,520 --> 01:15:36,280
+Speaker 5:  multi-purpose building. It is all but empty. They used it for storage, edit
+
+1452
+01:15:36,280 --> 01:15:39,040
+Speaker 5:  rezone to storage. They claim they coffee robots. They think they're making
+
+1453
+01:15:39,040 --> 01:15:42,120
+Speaker 5:  server boards for Google there, but they won't claim no reporters have ever
+
+1454
+01:15:42,120 --> 01:15:45,880
+Speaker 5:  been there. There's a tiny dome they claim is a data center, but the
+
+1455
+01:15:45,880 --> 01:15:49,800
+Speaker 5:  actual data center is in shipping containers outside the dome. It's a, it's
+
+1456
+01:15:49,800 --> 01:15:52,920
+Speaker 5:  all very good geodesic dome, right? Yeah. It's like a little,
+
+1457
+01:15:53,470 --> 01:15:56,320
+Speaker 5:  it's so, it's like by my parents' house. Every time I go home I look at it,
+
+1458
+01:15:56,320 --> 01:15:57,240
+Speaker 5:  I'm like, it's so small.
+
+1459
+01:15:57,680 --> 01:15:59,560
+Speaker 6:  It's just a little, little snow globe data center.
+
+1460
+01:16:00,500 --> 01:16:03,560
+Speaker 5:  And it's not, it's just like a conference center. You can rent it out for
+
+1461
+01:16:03,560 --> 01:16:05,320
+Speaker 5:  weddings. Anyhow, first
+
+1462
+01:16:05,320 --> 01:16:07,200
+Speaker 6:  Of all, let's, let's do that. Yeah.
+
+1463
+01:16:07,730 --> 01:16:11,480
+Speaker 5:  If any our casters are getting married in Wisconsin. Might I interest you
+
+1464
+01:16:11,480 --> 01:16:13,000
+Speaker 5:  in Mount Pleasant Wisconsin?
+
+1465
+01:16:13,320 --> 01:16:15,640
+Speaker 6:  Mili will officiate your wedding at the do.
+
+1466
+01:16:15,640 --> 01:16:19,520
+Speaker 5:  That's true. Every time when my sister got married, my parents renovated
+
+1467
+01:16:19,520 --> 01:16:22,360
+Speaker 5:  the house. When my, when I got married, they did the backyard. My parents,
+
+1468
+01:16:22,360 --> 01:16:26,320
+Speaker 5:  they're looking to do the bathroom and apparently it takes a wedding to kick
+
+1469
+01:16:26,320 --> 01:16:28,040
+Speaker 5:  him into gear. So if you're listening to this,
+
+1470
+01:16:28,040 --> 01:16:28,600
+Speaker 6:  Get at us.
+
+1471
+01:16:29,260 --> 01:16:30,000
+Speaker 5:  Let me know.
+
+1472
+01:16:32,250 --> 01:16:35,920
+Speaker 5:  So there's a news report. Somebody tweeted this at me and
+
+1473
+01:16:35,920 --> 01:16:39,640
+Speaker 5:  just looking at Twitter in the background, I, I came upon it DA
+
+1474
+01:16:39,920 --> 01:16:43,720
+Speaker 5:  Mount Pleasant, the board that approved the Fox End deal, just like quietly
+
+1475
+01:16:43,720 --> 01:16:46,960
+Speaker 5:  announced that Microsoft would be building a data center there. They did
+
+1476
+01:16:46,960 --> 01:16:49,960
+Speaker 5:  this a week before the election. So they announced this thing Microsoft is
+
+1477
+01:16:50,080 --> 01:16:53,320
+Speaker 5:  building a data center. They have not taken the votes to do it, but they
+
+1478
+01:16:53,320 --> 01:16:57,040
+Speaker 5:  announced it before the election to prove that fox hunt is a great idea.
+
+1479
+01:16:57,450 --> 01:17:00,800
+Speaker 5:  So I'm looking at the story and I'm like, I don't, I don't know about this.
+
+1480
+01:17:00,800 --> 01:17:03,880
+Speaker 5:  Yeah. I will say Microsoft President Brad Smith is from Appleton, Wisconsin,
+
+1481
+01:17:04,120 --> 01:17:07,920
+Speaker 5:  loves Wisconsin. There's a big tech campus at Lambeau Field called Title
+
+1482
+01:17:07,920 --> 01:17:11,000
+Speaker 5:  Town Tech. Okay. The man loves Wisconsin. He likes investing in Wisconsin.
+
+1483
+01:17:11,310 --> 01:17:15,080
+Speaker 5:  Love it. Love it for me. Love it for him. I've not yet been invited to Lambeau
+
+1484
+01:17:15,080 --> 01:17:18,400
+Speaker 5:  Field. I'm just putting that out there. But I feel like it's two hometown
+
+1485
+01:17:18,400 --> 01:17:22,120
+Speaker 5:  boys. We could really vibe. So I asked Microsoft, Microsoft sends me the
+
+1486
+01:17:22,120 --> 01:17:25,840
+Speaker 5:  following statement. This is all they say. Our data center campus investment
+
+1487
+01:17:25,840 --> 01:17:29,600
+Speaker 5:  plans with the village of Mount Pleasant in Racine County are part of
+
+1488
+01:17:29,840 --> 01:17:32,640
+Speaker 5:  Microsoft's long-term commitment for the local communities in Wisconsin.
+
+1489
+01:17:32,930 --> 01:17:36,000
+Speaker 5:  We look forward to our work there. Other than that, we don't have more to
+
+1490
+01:17:36,000 --> 01:17:37,360
+Speaker 5:  say, nor are we doing interviews.
+
+1491
+01:17:38,210 --> 01:17:39,040
+Speaker 6:  So that's nothing.
+
+1492
+01:17:41,230 --> 01:17:41,720
+Speaker 5:  Okay.
+
+1493
+01:17:41,900 --> 01:17:42,400
+Speaker 1:  All right.
+
+1494
+01:17:43,150 --> 01:17:46,800
+Speaker 5:  I was like, can I talk to anyone about how many jobs are Will this data center?
+
+1495
+01:17:46,800 --> 01:17:48,240
+Speaker 5:  It's a room full of servers.
+
+1496
+01:17:48,240 --> 01:17:49,120
+Speaker 1:  It's a one job.
+
+1497
+01:17:49,230 --> 01:17:52,400
+Speaker 5:  Yeah. Microsoft data centers, they're around the country. You can see they
+
+1498
+01:17:52,400 --> 01:17:55,680
+Speaker 5:  don't make a lot of jobs and they know it. Kevin Scott, the CTO of Microsoft,
+
+1499
+01:17:55,680 --> 01:17:59,640
+Speaker 5:  has a whole book about how data centers don't make a lot of jobs. It's a
+
+1500
+01:17:59,640 --> 01:18:02,280
+Speaker 5:  great book. He was on again on Dakota. We've talked about it. He's like,
+
+1501
+01:18:02,280 --> 01:18:05,760
+Speaker 5:  this is not the thing that is like an engine of job creation. Yeah. But you
+
+1502
+01:18:05,760 --> 01:18:09,160
+Speaker 5:  need to have them and like then you build infrastructure and you have power
+
+1503
+01:18:09,160 --> 01:18:12,720
+Speaker 5:  grids and this helps local communities. They're getting tax rebates and subsidies
+
+1504
+01:18:12,720 --> 01:18:16,680
+Speaker 5:  for it as always. And Mount Pleasant and Foxconn are like, this
+
+1505
+01:18:16,680 --> 01:18:20,640
+Speaker 5:  is what happens when you build the infrastructure. The clients
+
+1506
+01:18:20,640 --> 01:18:24,400
+Speaker 5:  will come and it's like, no, you guys were, you tore down
+
+1507
+01:18:24,400 --> 01:18:27,920
+Speaker 5:  people's homes to build the TV factory. Where's the
+
+1508
+01:18:27,920 --> 01:18:28,400
+Speaker 5:  TV factory?
+
+1509
+01:18:28,920 --> 01:18:30,880
+Speaker 1:  Where we're the jobs? Where are the jobs?
+
+1510
+01:18:31,070 --> 01:18:34,960
+Speaker 5:  Yeah. So we're gonna be tracking the Microsoft data center in Mount Pleasant.
+
+1511
+01:18:34,960 --> 01:18:37,080
+Speaker 5:  I'm sure they're actually gonna build it, but I think
+
+1512
+01:18:37,080 --> 01:18:40,840
+Speaker 6:  They literally, they field of dreams did they just, if you build it, they
+
+1513
+01:18:40,840 --> 01:18:44,320
+Speaker 6:  will come just throw up a giant empty building and somebody will come put
+
+1514
+01:18:44,320 --> 01:18:44,600
+Speaker 6:  servers
+
+1515
+01:18:44,600 --> 01:18:48,480
+Speaker 5:  In. And by it, just to be specifically clear is it is
+
+1516
+01:18:48,520 --> 01:18:52,480
+Speaker 5:  declaring the land on which people's homes sit as
+
+1517
+01:18:52,480 --> 01:18:56,320
+Speaker 5:  blighted, tearing them all down. Trucking water from
+
+1518
+01:18:56,320 --> 01:18:59,880
+Speaker 5:  Lake Michigan over there and building a power substation for no one
+
+1519
+01:19:00,170 --> 01:19:04,080
+Speaker 5:  to life fallow for three years. So that eventually Microsoft
+
+1520
+01:19:04,080 --> 01:19:05,600
+Speaker 5:  is like, yeah, sure. We'll put one
+
+1521
+01:19:07,210 --> 01:19:07,880
+Speaker 1:  Classic
+
+1522
+01:19:07,880 --> 01:19:08,560
+Speaker 6:  Field of dreams.
+
+1523
+01:19:09,270 --> 01:19:11,800
+Speaker 5:  That's it. I mean that's field of dreams too.
+
+1524
+01:19:12,430 --> 01:19:13,240
+Speaker 1:  Just the movie.
+
+1525
+01:19:13,440 --> 01:19:17,360
+Speaker 5:  We're so, we're again, we're tracking it. I, I dunno what to tell
+
+1526
+01:19:17,360 --> 01:19:21,200
+Speaker 5:  you. Like it is very silly. I think it is
+
+1527
+01:19:21,200 --> 01:19:24,400
+Speaker 5:  very odd that Microsoft isn't like pounding its chest. They're building a
+
+1528
+01:19:24,400 --> 01:19:28,040
+Speaker 5:  data center in southeastern Wisconsin. Like they just, they just don't want
+
+1529
+01:19:28,040 --> 01:19:29,200
+Speaker 5:  to talk about it. Yeah.
+
+1530
+01:19:29,630 --> 01:19:33,280
+Speaker 6:  When do you run for mayor of Receipt Wisconsin? This is the only outcome
+
+1531
+01:19:33,280 --> 01:19:33,520
+Speaker 6:  here.
+
+1532
+01:19:35,200 --> 01:19:38,730
+Speaker 5:  I don't know that I could get my dad to vote for me, so that's gonna be tough.
+
+1533
+01:19:41,270 --> 01:19:43,810
+Speaker 6:  You did swear once on the ver.com. He didn't like
+
+1534
+01:19:43,810 --> 01:19:47,770
+Speaker 5:  That. Did My parents were not, I think I could get my mom. Okay.
+
+1535
+01:19:48,250 --> 01:19:48,730
+Speaker 6:  It's a good start.
+
+1536
+01:19:48,800 --> 01:19:51,890
+Speaker 1:  Yeah. Just promise you'll never swear again. Would that help?
+
+1537
+01:19:52,400 --> 01:19:55,490
+Speaker 5:  I don't know that I'm prepared to make these commitments to the people of
+
+1538
+01:19:55,490 --> 01:19:56,410
+Speaker 5:  Wisconsin today.
+
+1539
+01:19:58,150 --> 01:20:02,010
+Speaker 5:  And I will consider my options at this time hearing from my
+
+1540
+01:20:02,170 --> 01:20:02,330
+Speaker 5:  attorney.
+
+1541
+01:20:03,490 --> 01:20:04,730
+Speaker 6:  We're not doing interviews.
+
+1542
+01:20:05,170 --> 01:20:07,840
+Speaker 1:  We're not doing no interviews. No press. Sorry. Sorry. No
+
+1543
+01:20:07,840 --> 01:20:11,800
+Speaker 5:  Press. All right. That's it. That's a vergecast. I promise that
+
+1544
+01:20:11,800 --> 01:20:14,440
+Speaker 5:  all the stories we've talked about will be published. David will publish
+
+1545
+01:20:14,440 --> 01:20:17,360
+Speaker 5:  about Activity Pub. Yes. I will write about Wisconsin.
+
+1546
+01:20:17,790 --> 01:20:19,240
+Speaker 1:  I made no promises today.
+
+1547
+01:20:20,020 --> 01:20:21,240
+Speaker 5:  You did one last week, right?
+
+1548
+01:20:21,240 --> 01:20:23,200
+Speaker 1:  Yeah, I did one last week. I I did
+
+1549
+01:20:23,200 --> 01:20:24,400
+Speaker 5:  The album music classical.
+
+1550
+01:20:24,400 --> 01:20:26,520
+Speaker 1:  Yeah. So I promised it and I
+
+1551
+01:20:26,520 --> 01:20:29,840
+Speaker 5:  Delivered. I swear to God this entire show is just for us to ideate stories
+
+1552
+01:20:29,840 --> 01:20:33,000
+Speaker 5:  put on the website. But that's why you love it. That's the ver cast stuff
+
+1553
+01:20:33,000 --> 01:20:36,920
+Speaker 5:  on the website you should look at. We do have a retrospective of Lisa going
+
+1554
+01:20:36,920 --> 01:20:39,640
+Speaker 5:  on the Apple, Lisa, the precursor McIntosh, the Computer History museum.
+
+1555
+01:20:39,640 --> 01:20:43,480
+Speaker 5:  It's great. Go look at it. I really want people to read McKenna's story about
+
+1556
+01:20:43,480 --> 01:20:47,040
+Speaker 5:  the Donald Trump protests in front of Matt and
+
+1557
+01:20:47,060 --> 01:20:50,800
+Speaker 5:  Courthouse and how they, everyone there was a streamer. It is one of the
+
+1558
+01:20:50,800 --> 01:20:53,360
+Speaker 5:  verges verge stories we've ever published. It's very good. That's really
+
+1559
+01:20:53,360 --> 01:20:56,200
+Speaker 5:  good. And we have the same with the home assistant Sky Connect, which is
+
+1560
+01:20:56,200 --> 01:20:57,360
+Speaker 5:  another just extremely verge story.
+
+1561
+01:20:57,470 --> 01:20:59,320
+Speaker 1:  It's so verge, so new.
+
+1562
+01:20:59,710 --> 01:21:03,640
+Speaker 5:  Like that's the range. And then take the color quiz, whatever. David,
+
+1563
+01:21:03,640 --> 01:21:05,840
+Speaker 5:  do you wanna tell people to vote for the People's Choice Award?
+
+1564
+01:21:06,220 --> 01:21:10,120
+Speaker 6:  Yes. So the Vergecast is nominated for a Webby Award for best technology
+
+1565
+01:21:10,120 --> 01:21:13,760
+Speaker 6:  podcast. We're currently losing to a TechCrunch podcast.
+
+1566
+01:21:14,020 --> 01:21:17,760
+Speaker 6:  Ooh. I like TechCrunch fine. They're all lovely people. I would like to
+
+1567
+01:21:17,760 --> 01:21:21,560
+Speaker 6:  destroy them and bury them in the ground with our votes. Please
+
+1568
+01:21:21,560 --> 01:21:24,640
+Speaker 6:  go. We'll put the link in the show notes. Please go vote for the Verge so
+
+1569
+01:21:24,640 --> 01:21:28,200
+Speaker 6:  that we can gloat to everyone we ever met that we on the webby and they didn't.
+
+1570
+01:21:28,350 --> 01:21:29,520
+Speaker 2:  It's like a spring.
+
+1571
+01:21:30,230 --> 01:21:30,720
+Speaker 5:  Yeah.
+
+1572
+01:21:31,030 --> 01:21:34,400
+Speaker 6:  Yeah. The award itself is rad looking and I want one, so
+
+1573
+01:21:35,040 --> 01:21:35,960
+Speaker 6:  let's, let's
+
+1574
+01:21:35,960 --> 01:21:39,080
+Speaker 5:  Get it. Very good. That's it. That's for Trust rock.
+
+1575
+01:21:43,940 --> 01:21:47,560
+Speaker 16:  And that's a wrap for Vergecast this week. Thanks for listening. If you
+
+1576
+01:21:47,760 --> 01:21:51,160
+Speaker 16:  enjoy the show, subscribe in the podcast app of your choice or tell a friend,
+
+1577
+01:21:51,300 --> 01:21:55,240
+Speaker 16:  you can send us feedback at vergecast@theverge.com. This show is
+
+1578
+01:21:55,440 --> 01:21:59,040
+Speaker 16:  produced by me, Liam James, and our senior audio director, Andrew Marino.
+
+1579
+01:21:59,040 --> 01:22:02,760
+Speaker 16:  This episode was edited and mixed by Amanda Rose
+
+1580
+01:22:02,760 --> 01:22:06,480
+Speaker 16:  Smith. Our editorial director is Brooke Min, and our executive producer
+
+1581
+01:22:06,480 --> 01:22:10,320
+Speaker 16:  is Eleanor Donovan. The Verge Cast is a production of the Verge and
+
+1582
+01:22:10,320 --> 01:22:13,520
+Speaker 16:  Box Media Podcast network. And that's it. We'll see you next week.
+

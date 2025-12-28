@@ -1,0 +1,5901 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 48a62bb0-8106-11ed-b55d-57f99e1262fa
+Status: Done
+Stage: Done
+Title: The Bluetooth Holiday Spec-tacular
+Audio URL: https://jfe93e.s3.amazonaws.com/-2193725185036004093/-1808338667386181260/s93290-US-4911s-1671609846.mp3
+Description: The Verge's Nilay Patel, Alex Cranz, Chris Welch, and Sean Hollister celebrate the holiday season with a full show dedicated to Bluetooth.
+03:57 - We play Bluetooth Jeopardy! Play along here
+30:38 - The crew discuss the many codecs layered onto the Bluetooth spec, and where the standard is headed.
+46:56 - Former Bluetooth SIG executive director Dr. Mike Foley joins the show to discuss his time in charge of Bluetooth.
+Happy Holidays!
+Email us at vergecast@theverge.com or call us at 866-VERGE11, we'd love to hear from you.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Disabled
+
+2
+00:00:22,190 --> 00:00:24,030
+Speaker 2:  Connected to mobile device.
+
+3
+00:00:24,550 --> 00:00:28,390
+Speaker 3:  Hello and welcome to the Vergecast Bluetooth, holiday Spectacular,
+
+4
+00:00:28,730 --> 00:00:32,670
+Speaker 3:  the flagship podcast of the holidays of all of
+
+5
+00:00:32,670 --> 00:00:33,150
+Speaker 3:  the holidays,
+
+6
+00:00:33,150 --> 00:00:33,550
+Speaker 4:  All
+
+7
+00:00:33,550 --> 00:00:37,390
+Speaker 3:  Of them. The one episode a year where we dive deep into a
+
+8
+00:00:37,390 --> 00:00:41,150
+Speaker 3:  speck that makes all of our lives go. We've done hgm I this year
+
+9
+00:00:41,230 --> 00:00:43,990
+Speaker 3:  we're doing Bluetooth. Alex Kranz is here. Hey Alex.
+
+10
+00:00:44,050 --> 00:00:47,990
+Speaker 4:  Hey, I am wearing Bluetooth headphones just this once in
+
+11
+00:00:47,990 --> 00:00:49,630
+Speaker 4:  honor of the holidays. Spectacular,
+
+12
+00:00:49,890 --> 00:00:52,750
+Speaker 3:  And that's why Alex sounds bad. Thank you, Alex, for joining us
+
+13
+00:00:54,220 --> 00:00:57,830
+Speaker 3:  Compressed audio. We love it. Chris Welch and Sean
+
+14
+00:00:57,830 --> 00:01:00,190
+Speaker 3:  Hollister are gonna join us. We're gonna have a bit of a discussion about
+
+15
+00:01:00,190 --> 00:01:04,030
+Speaker 3:  Bluetooth, the standard, where it's going, what it means, what it could
+
+16
+00:01:04,030 --> 00:01:07,750
+Speaker 3:  turn into. We're gonna play a round of Bluetooth jeopardy, which is
+
+17
+00:01:07,760 --> 00:01:09,470
+Speaker 3:  so hard. Let me tell you
+
+18
+00:01:09,560 --> 00:01:10,110
+Speaker 4:  So hard.
+
+19
+00:01:10,870 --> 00:01:13,870
+Speaker 3:  Whatever you think Bluetooth jeopardy is, when I say we're gonna play Bluetooth
+
+20
+00:01:13,870 --> 00:01:17,710
+Speaker 3:  jeopardy, it is so much harder than you think it's gonna be. You're gonna
+
+21
+00:01:17,710 --> 00:01:18,790
+Speaker 3:  watch a struggle through that.
+
+22
+00:01:19,070 --> 00:01:20,030
+Speaker 4:  We do. Great. We
+
+23
+00:01:20,030 --> 00:01:23,630
+Speaker 3:  Did. It was fun. We had a good time. Yeah, and then we're gonna
+
+24
+00:01:23,630 --> 00:01:27,350
+Speaker 3:  interview the former executive director of the Bluetooth
+
+25
+00:01:27,550 --> 00:01:31,390
+Speaker 3:  sig, Dr. Mike Foley. We tried to get the current director of the Bluetooth
+
+26
+00:01:31,510 --> 00:01:34,630
+Speaker 3:  sig. That's the standards body that oversees Bluetooth. It's the holidays,
+
+27
+00:01:34,800 --> 00:01:38,270
+Speaker 3:  so he couldn't do it. Mike Foley, the former director, he's the one who launched
+
+28
+00:01:38,270 --> 00:01:41,870
+Speaker 3:  Bluetooth 3.0. He oversaw Bluetooth. Man's a shark
+
+29
+00:01:42,150 --> 00:01:45,510
+Speaker 3:  key joined us. He had some very interesting things to say about the status
+
+30
+00:01:45,510 --> 00:01:48,550
+Speaker 3:  of Bluetooth, how political it is and where it might be going. I mean it
+
+31
+00:01:48,550 --> 00:01:51,870
+Speaker 3:  all in all, when you think of the holidays, you think of one hour
+
+32
+00:01:52,320 --> 00:01:56,070
+Speaker 3:  of extremely deep Bluetooth conversation. Alex, I don't know what you think
+
+33
+00:01:56,070 --> 00:01:56,190
+Speaker 3:  of.
+
+34
+00:01:56,190 --> 00:01:59,070
+Speaker 4:  That's all I think about. I wanna know the Codex.
+
+35
+00:01:59,070 --> 00:02:02,910
+Speaker 3:  Yeah, I think about Codex. The children are sleeping, the gifts are
+
+36
+00:02:02,910 --> 00:02:06,670
+Speaker 3:  wrapped. The little blue pairing lights are blinking. It's gonna be great.
+
+37
+00:02:06,670 --> 00:02:08,230
+Speaker 3:  Alex, what headset are you on right now?
+
+38
+00:02:08,450 --> 00:02:10,630
+Speaker 4:  I'm on my AirPods Pro, I think.
+
+39
+00:02:10,670 --> 00:02:11,710
+Speaker 3:  How's the Bluetooth?
+
+40
+00:02:11,930 --> 00:02:15,830
+Speaker 4:  You know, it's fine. It's not shutting off right now because I'm not leaving
+
+41
+00:02:15,830 --> 00:02:19,630
+Speaker 4:  my house. Every time I leave my house, it dies like just instant
+
+42
+00:02:19,630 --> 00:02:23,030
+Speaker 4:  shuts down, but I'm, I'm on the road to Texas
+
+43
+00:02:23,210 --> 00:02:25,390
+Speaker 4:  and it, it sounds, it sounds good enough.
+
+44
+00:02:25,730 --> 00:02:29,590
+Speaker 3:  I'm very happy to be with you in this moment, in this holiday season
+
+45
+00:02:29,590 --> 00:02:33,270
+Speaker 3:  and season of giving and love. When I think about how to
+
+46
+00:02:33,270 --> 00:02:37,150
+Speaker 3:  express my love for you and the Vergecast audience, it is
+
+47
+00:02:37,150 --> 00:02:38,870
+Speaker 3:  definitely one hour of talking about Bluetooth.
+
+48
+00:02:39,180 --> 00:02:42,070
+Speaker 4:  A hundred percent. It was actually on my Christmas wishlist this year
+
+49
+00:02:42,290 --> 00:02:45,910
+Speaker 3:  And get ready everyone. All right. Like I said, Bluetooth
+
+50
+00:02:45,910 --> 00:02:48,750
+Speaker 3:  jeopardy. It is so much harder than you think.
+
+51
+00:02:48,880 --> 00:02:49,710
+Speaker 4:  We brought it.
+
+52
+00:02:49,930 --> 00:02:53,630
+Speaker 3:  Get your minds in the holiday spirit. We're gonna take a break. We're gonna
+
+53
+00:02:53,630 --> 00:02:55,910
+Speaker 3:  come back. We're gonna play around with Bluetooth jeopardy
+
+54
+00:02:56,010 --> 00:02:57,030
+Speaker 4:  Cue. The Lays
+
+55
+00:03:21,520 --> 00:03:25,510
+Speaker 5:  Support for this episode comes from Airbnb. If you've stayed in
+
+56
+00:03:25,510 --> 00:03:29,030
+Speaker 5:  one of Airbnb's unique homes all around the world, you may be wondering,
+
+57
+00:03:29,030 --> 00:03:32,910
+Speaker 5:  could my place be in Airbnb and what could I earn? You could be sitting
+
+58
+00:03:32,910 --> 00:03:36,830
+Speaker 5:  on an Airbnb right now. That might mean your extra guest room or maybe
+
+59
+00:03:36,830 --> 00:03:40,510
+Speaker 5:  even Airbnb in your entire home. While you're away on a long trip,
+
+60
+00:03:40,510 --> 00:03:43,910
+Speaker 5:  whether you could use some extra money to cover some of those surprise
+
+61
+00:03:43,910 --> 00:03:47,750
+Speaker 5:  expenses or maybe just a little something for yourself, your home
+
+62
+00:03:47,750 --> 00:03:50,990
+Speaker 5:  might be worth more than you think. Find out how much at
+
+63
+00:03:51,060 --> 00:03:53,030
+Speaker 5:  airbnb.com/host
+
+64
+00:03:55,170 --> 00:03:58,900
+Speaker 6:  Stream, the new Paramount Plus original series 1923, A
+
+65
+00:03:59,060 --> 00:04:02,580
+Speaker 6:  Yellowstone origin story starring Helen me in Harrison Ford
+
+66
+00:04:03,780 --> 00:04:07,620
+Speaker 6:  1923. A new series streaming now exclusively on Paramount Plus.
+
+67
+00:04:07,630 --> 00:04:10,020
+Speaker 6:  Go to paramount plus.com to try it for free.
+
+68
+00:04:13,170 --> 00:04:16,020
+Speaker 5:  This is Bluetooth jeopardy.
+
+69
+00:04:18,760 --> 00:04:22,020
+Speaker 5:  Now entering the studio are today's contestants
+
+70
+00:04:22,490 --> 00:04:26,260
+Speaker 5:  originally from Fort Worth, Texas, master of Plex
+
+71
+00:04:26,260 --> 00:04:29,220
+Speaker 5:  Media Server, Alex kras,
+
+72
+00:04:30,240 --> 00:04:34,140
+Speaker 5:  our resident earbud quality tester. Originally from Rockland County,
+
+73
+00:04:34,140 --> 00:04:38,100
+Speaker 5:  New York, Chris Welch and the
+
+74
+00:04:38,100 --> 00:04:41,060
+Speaker 5:  Verges editor in chief from Ray Scene Wisconsin,
+
+75
+00:04:41,800 --> 00:04:45,580
+Speaker 5:  Eli Patel. And now here is the
+
+76
+00:04:45,580 --> 00:04:48,980
+Speaker 5:  host of Bluetooth Jeopardy, Sean Hollister.
+
+77
+00:04:49,740 --> 00:04:53,460
+Speaker 7:  Thank you ladies and gentlemen and welcome. If you know how to play Jeopardy,
+
+78
+00:04:53,460 --> 00:04:57,340
+Speaker 7:  you know how to play this, except every question is related to one of our
+
+79
+00:04:57,500 --> 00:05:00,980
+Speaker 7:  favorite short rage wireless standards. The person
+
+80
+00:05:01,220 --> 00:05:05,100
+Speaker 7:  to pick first is the first person to hold up a Bluetooth device
+
+81
+00:05:05,100 --> 00:05:08,940
+Speaker 7:  on the screen. Let's hear from our contestants. What are you holding, deli?
+
+82
+00:05:09,090 --> 00:05:12,660
+Speaker 3:  It's an iPhone 14 promax. Does that count? That counts. Sure.
+
+83
+00:05:12,930 --> 00:05:16,260
+Speaker 7:  I'll take it. Alex, is that a Bluetooth track ball you have there? Yes,
+
+84
+00:05:16,260 --> 00:05:19,980
+Speaker 4:  But it was also, I was holding up my iPhone 14 pro, not
+
+85
+00:05:19,980 --> 00:05:20,900
+Speaker 4:  max, because I have
+
+86
+00:05:21,100 --> 00:05:24,340
+Speaker 3:  Small hits. Oh my god. I'm literally holding a Bluetooth mouse and I forgot
+
+87
+00:05:24,340 --> 00:05:27,700
+Speaker 3:  to hold up the Bluetooth mouse and I held up my phone instead.
+
+88
+00:05:27,840 --> 00:05:29,740
+Speaker 7:  And Chris, what is your Bluetooth pick?
+
+89
+00:05:30,140 --> 00:05:33,060
+Speaker 3:  I've got a Pixel seven in my hand. Is this how Jeopardy works?
+
+90
+00:05:33,990 --> 00:05:37,980
+Speaker 7:  Alright. Alright, good luck and let's go to work. Let's look
+
+91
+00:05:37,980 --> 00:05:39,180
+Speaker 7:  at today's categories.
+
+92
+00:05:41,550 --> 00:05:45,380
+Speaker 7:  We have Genesis, the early days of
+
+93
+00:05:45,380 --> 00:05:49,180
+Speaker 7:  Bluetooth. Pair me please. Each answer
+
+94
+00:05:49,180 --> 00:05:52,580
+Speaker 7:  will be a Bluetooth device. Spectacular.
+
+95
+00:05:52,830 --> 00:05:56,420
+Speaker 7:  We get into the specs of Bluetooth, bluetooth.com,
+
+96
+00:05:56,530 --> 00:05:59,480
+Speaker 7:  some PR messaging from Bluetooth we found on their site
+
+97
+00:06:00,150 --> 00:06:03,680
+Speaker 7:  Hack week, the security concerns of Bluetooth and of course
+
+98
+00:06:05,120 --> 00:06:08,360
+Speaker 7:  ri. Will you start us off? Alex Kratz?
+
+99
+00:06:08,470 --> 00:06:11,160
+Speaker 4:  Yeah. I'm gonna take Pot Parri for 200.
+
+100
+00:06:11,430 --> 00:06:11,920
+Speaker 3:  Alex,
+
+101
+00:06:12,390 --> 00:06:14,720
+Speaker 7:  That is Pori at the answer is
+
+102
+00:06:15,980 --> 00:06:19,960
+Speaker 7:  the first Bluetooth device, a hands-free mobile headset earns the best
+
+103
+00:06:19,960 --> 00:06:22,720
+Speaker 7:  of show award at this trade show. Chris Welch,
+
+104
+00:06:23,030 --> 00:06:26,280
+Speaker 8:  I will be there in a matter of weeks. What is c e s?
+
+105
+00:06:26,770 --> 00:06:27,640
+Speaker 4:  Be wrong. Be wrong.
+
+106
+00:06:27,690 --> 00:06:28,160
+Speaker 7:  Be wrong.
+
+107
+00:06:28,700 --> 00:06:29,120
+Speaker 8:  Yes.
+
+108
+00:06:30,510 --> 00:06:31,480
+Speaker 7:  Alex Kranz.
+
+109
+00:06:31,630 --> 00:06:33,280
+Speaker 4:  What is Mobile World Congress?
+
+110
+00:06:33,680 --> 00:06:35,400
+Speaker 7:  Incorrect. Nii.
+
+111
+00:06:36,070 --> 00:06:38,440
+Speaker 3:  What is cia?
+
+112
+00:06:39,300 --> 00:06:42,600
+Speaker 7:  I'm afraid that's not the correct answer. What is Comdex
+
+113
+00:06:42,980 --> 00:06:44,040
+Speaker 4:  Old ass standard
+
+114
+00:06:44,190 --> 00:06:46,280
+Speaker 7:  Predated ces Technically
+
+115
+00:06:46,540 --> 00:06:50,040
+Speaker 3:  Yes. Comdex turned into ces. Can Chris get like half a point?
+
+116
+00:06:50,690 --> 00:06:51,040
+Speaker 7:  No.
+
+117
+00:06:51,050 --> 00:06:54,640
+Speaker 3:  Is this how Jeopardy works? Are we allowed to use Jeopardy as much as we're
+
+118
+00:06:54,640 --> 00:06:55,240
+Speaker 3:  saying Jeopardy?
+
+119
+00:06:55,420 --> 00:06:57,280
+Speaker 7:  Eli, you may pick the next category.
+
+120
+00:06:57,390 --> 00:06:58,680
+Speaker 4:  It's my turn still.
+
+121
+00:06:58,850 --> 00:07:02,640
+Speaker 7:  It should be I'm seating consideration to our editor
+
+122
+00:07:02,640 --> 00:07:03,040
+Speaker 7:  Achieve.
+
+123
+00:07:03,310 --> 00:07:05,560
+Speaker 3:  I will take Perme please for 200.
+
+124
+00:07:06,410 --> 00:07:10,000
+Speaker 7:  If you really want to hone Noobs, we'll connect
+
+125
+00:07:10,070 --> 00:07:13,840
+Speaker 7:  this SC system, which was the first to use both Bluetooth and
+
+126
+00:07:13,840 --> 00:07:15,960
+Speaker 7:  Blu-ray technologies. Alex Kranz,
+
+127
+00:07:16,070 --> 00:07:20,000
+Speaker 4:  What is the PlayStation three?
+
+128
+00:07:20,470 --> 00:07:21,360
+Speaker 7:  That's correct.
+
+129
+00:07:22,290 --> 00:07:23,200
+Speaker 3:  Oh, she got it.
+
+130
+00:07:23,200 --> 00:07:24,880
+Speaker 4:  Yes, I'm in the zeros.
+
+131
+00:07:25,060 --> 00:07:26,360
+Speaker 7:  You picked the next category.
+
+132
+00:07:26,580 --> 00:07:28,600
+Speaker 4:  Gen five SIS for a thousand.
+
+133
+00:07:29,680 --> 00:07:33,400
+Speaker 7:  Bluetooth was originally conceived as a wireless alternative to
+
+134
+00:07:33,400 --> 00:07:36,080
+Speaker 7:  this data cable. Alex Kranz, I
+
+135
+00:07:36,080 --> 00:07:40,000
+Speaker 4:  Want you to know my strategy today is to just hit the buzzer as soon as
+
+136
+00:07:40,000 --> 00:07:43,520
+Speaker 4:  Sean starts asking the questions every time, but I think
+
+137
+00:07:43,560 --> 00:07:47,200
+Speaker 4:  maybe what is scuzzy?
+
+138
+00:07:47,380 --> 00:07:49,360
+Speaker 3:  Wow, I know that's wrong.
+
+139
+00:07:49,720 --> 00:07:51,440
+Speaker 7:  Wrong. Eli Patel.
+
+140
+00:07:51,550 --> 00:07:54,600
+Speaker 3:  What is the 2.5 millimeter headphone cable
+
+141
+00:07:54,680 --> 00:07:55,480
+Speaker 7:  Incorrect?
+
+142
+00:07:55,970 --> 00:07:59,280
+Speaker 3:  No. Well, I was worth the shot. If it's U usb, I'm gonna be so mad. Chris,
+
+143
+00:07:59,280 --> 00:08:00,880
+Speaker 3:  can you just try and see if it's u sb?
+
+144
+00:08:00,880 --> 00:08:02,240
+Speaker 8:  I'm gonna keep my lead here.
+
+145
+00:08:03,220 --> 00:08:07,200
+Speaker 7:  The correct response in this case is RS 2 32. Wow. I
+
+146
+00:08:07,200 --> 00:08:08,640
+Speaker 7:  would've also accepted cereal.
+
+147
+00:08:08,640 --> 00:08:11,040
+Speaker 8:  Definitely had the one right in the back pocket.
+
+148
+00:08:11,480 --> 00:08:12,640
+Speaker 4:  Scuzzy is like cereal.
+
+149
+00:08:12,730 --> 00:08:13,280
+Speaker 3:  No, it's
+
+150
+00:08:13,280 --> 00:08:14,440
+Speaker 7:  Not crayons. You're next.
+
+151
+00:08:15,060 --> 00:08:18,480
+Speaker 4:  I'm gonna do Jenna five sis for
+
+152
+00:08:18,760 --> 00:08:19,280
+Speaker 4:  800.
+
+153
+00:08:19,570 --> 00:08:23,320
+Speaker 7:  Oh God. This was the data transfer speed of
+
+154
+00:08:23,320 --> 00:08:27,040
+Speaker 7:  Bluetooth 1.0 in 1999. Alex Crad,
+
+155
+00:08:27,040 --> 00:08:30,320
+Speaker 7:  slam Baam is the exact text I have in my buzzer window.
+
+156
+00:08:30,830 --> 00:08:33,320
+Speaker 4:  What is one megabit
+
+157
+00:08:33,560 --> 00:08:35,360
+Speaker 7:  Close? Anyone else?
+
+158
+00:08:35,470 --> 00:08:37,160
+Speaker 4:  Does that mean I lost? Yes.
+
+159
+00:08:37,870 --> 00:08:40,400
+Speaker 3:  What is 750 kilobits
+
+160
+00:08:40,510 --> 00:08:42,520
+Speaker 7:  That is also very close.
+
+161
+00:08:42,630 --> 00:08:45,080
+Speaker 3:  What is 751 kilobits?
+
+162
+00:08:46,180 --> 00:08:48,280
+Speaker 7:  The correct, sir is
+
+163
+00:08:48,400 --> 00:08:51,320
+Speaker 7:  721 kilobits per
+
+164
+00:08:53,070 --> 00:08:54,640
+Speaker 7:  zero per second.
+
+165
+00:08:56,480 --> 00:09:00,040
+Speaker 7:  Would any of you like to take a moment to reflect on how we all have negative
+
+166
+00:09:00,040 --> 00:09:02,080
+Speaker 7:  scores until we get to this?
+
+167
+00:09:03,760 --> 00:09:04,720
+Speaker 3:  We're doing great.
+
+168
+00:09:04,980 --> 00:09:07,120
+Speaker 7:  Eli is the lead with negative 2000.
+
+169
+00:09:07,530 --> 00:09:10,360
+Speaker 3:  Is that the lead? I think Chris is in the lead with negative 200.
+
+170
+00:09:10,720 --> 00:09:13,080
+Speaker 7:  That's correct. Cred. Pick the next please.
+
+171
+00:09:13,740 --> 00:09:17,600
+Speaker 4:  I'm gonna mix it up a little bluetooth.com
+
+172
+00:09:18,030 --> 00:09:18,840
+Speaker 4:  400.
+
+173
+00:09:19,870 --> 00:09:23,400
+Speaker 7:  This is a new Bluetooth audio capability that would allow
+
+174
+00:09:23,720 --> 00:09:27,280
+Speaker 7:  multiple devices to find and join an audio podcast via Bluetooth
+
+175
+00:09:27,410 --> 00:09:31,400
+Speaker 7:  in areas like concert venues and airports. And this question is very logged
+
+176
+00:09:31,640 --> 00:09:32,840
+Speaker 7:  Welch. What
+
+177
+00:09:32,840 --> 00:09:33,520
+Speaker 8:  Is Aura?
+
+178
+00:09:34,230 --> 00:09:35,120
+Speaker 7:  That's correct.
+
+179
+00:09:35,260 --> 00:09:35,680
+Speaker 8:  Wow.
+
+180
+00:09:36,260 --> 00:09:36,680
+Speaker 3:  I'm
+
+181
+00:09:36,680 --> 00:09:38,960
+Speaker 8:  Very proud of myself. For one correct answer.
+
+182
+00:09:39,090 --> 00:09:42,280
+Speaker 7:  We have a positive score on the board. Pick the next, let's
+
+183
+00:09:42,280 --> 00:09:44,120
+Speaker 8:  Get Wow. Let's do hack week for a thousand.
+
+184
+00:09:44,830 --> 00:09:48,600
+Speaker 7:  This open source USB device could sniff at monitor Bluetooth
+
+185
+00:09:48,600 --> 00:09:52,360
+Speaker 7:  signals from nearby devices using an antenna powered by an arm Cortex
+
+186
+00:09:52,560 --> 00:09:54,720
+Speaker 7:  M three chip cran slab. Abara,
+
+187
+00:09:54,990 --> 00:09:56,200
+Speaker 4:  What is the coconut?
+
+188
+00:09:56,770 --> 00:09:57,120
+Speaker 7:  No.
+
+189
+00:09:57,500 --> 00:10:01,040
+Speaker 3:  Can I have a clarification on the rules? Am I allowed to Google
+
+190
+00:10:01,140 --> 00:10:01,560
+Speaker 3:  the
+
+191
+00:10:01,560 --> 00:10:05,240
+Speaker 7:  Answers? No. The correct answer is the buer
+
+192
+00:10:05,240 --> 00:10:06,240
+Speaker 7:  tooth one.
+
+193
+00:10:06,510 --> 00:10:07,000
+Speaker 3:  Okay.
+
+194
+00:10:07,000 --> 00:10:07,800
+Speaker 4:  Stupid name?
+
+195
+00:10:08,440 --> 00:10:09,000
+Speaker 7:  Chris Welch.
+
+196
+00:10:09,370 --> 00:10:13,120
+Speaker 8:  Oh, okay. Let's go for bluetooth.com for 600
+
+197
+00:10:13,120 --> 00:10:13,440
+Speaker 8:  please.
+
+198
+00:10:14,200 --> 00:10:18,120
+Speaker 7:  Competing with standards like ZigBee and Thread, this standard
+
+199
+00:10:18,410 --> 00:10:22,280
+Speaker 7:  is designed to allow multiple Bluetooth devices to operate as beacons for
+
+200
+00:10:22,280 --> 00:10:24,560
+Speaker 7:  large scale device networks. Chris Welch,
+
+201
+00:10:25,200 --> 00:10:26,760
+Speaker 8:  What is Bluetooth mesh?
+
+202
+00:10:27,820 --> 00:10:29,280
+Speaker 7:  Yes, you pick. Next,
+
+203
+00:10:30,000 --> 00:10:32,320
+Speaker 8:  Let's do pair me please for 800.
+
+204
+00:10:32,950 --> 00:10:36,560
+Speaker 7:  This model of this fruitful computer introduced both wifi
+
+205
+00:10:36,580 --> 00:10:39,320
+Speaker 7:  and Bluetooth for the first time in 2016.
+
+206
+00:10:39,670 --> 00:10:41,560
+Speaker 4:  What is the raspberry pie?
+
+207
+00:10:42,540 --> 00:10:42,960
+Speaker 7:  Yes.
+
+208
+00:10:42,960 --> 00:10:44,760
+Speaker 4:  Yes. NEA and I are tied now
+
+209
+00:10:44,760 --> 00:10:46,040
+Speaker 3:  You're going down Cranz.
+
+210
+00:10:46,380 --> 00:10:49,560
+Speaker 4:  I'm gonna do Pop Piri for 800
+
+211
+00:10:51,060 --> 00:10:55,040
+Speaker 7:  FCC filings by GameStop in 2020. Depicted a Bluetooth speaker that looked
+
+212
+00:10:55,040 --> 00:10:57,680
+Speaker 7:  like this Pokemon ne Eli Patel.
+
+213
+00:10:57,710 --> 00:11:01,160
+Speaker 3:  I only know the name of one Pokemon and it's Pikachu and it's gotta be Pikachu,
+
+214
+00:11:01,410 --> 00:11:01,760
+Speaker 7:  No
+
+215
+00:11:01,870 --> 00:11:02,480
+Speaker 3:  Dammit.
+
+216
+00:11:04,150 --> 00:11:05,160
+Speaker 7:  Alex Kranz.
+
+217
+00:11:05,430 --> 00:11:07,600
+Speaker 4:  What is Charmander
+
+218
+00:11:08,160 --> 00:11:08,960
+Speaker 7:  Incorrect?
+
+219
+00:11:08,960 --> 00:11:12,360
+Speaker 3:  Paul? Oh an now we just have to name Pokemon for the rest of the show.
+
+220
+00:11:12,680 --> 00:11:14,840
+Speaker 4:  Chris Buzz in. Buzz in. You got this.
+
+221
+00:11:15,040 --> 00:11:18,520
+Speaker 8:  Those two? No, I'm wanna throw in the towel on this one.
+
+222
+00:11:18,620 --> 00:11:22,440
+Speaker 7:  The correct response in this case is jiggly puff.
+
+223
+00:11:22,750 --> 00:11:26,200
+Speaker 4:  I was gonna say jiggly puff and I was like it's gotta be one of the starters.
+
+224
+00:11:26,830 --> 00:11:30,720
+Speaker 7:  Mili at Alex. Give it that you are currently in negative numbers. How
+
+225
+00:11:30,720 --> 00:11:32,120
+Speaker 7:  do you plan to pay back the money?
+
+226
+00:11:32,460 --> 00:11:34,520
+Speaker 3:  I'm gonna go with spectacular by 200.
+
+227
+00:11:35,350 --> 00:11:39,000
+Speaker 7:  This system introduced with Bluetooth 2.0 increased the security
+
+228
+00:11:39,000 --> 00:11:42,600
+Speaker 7:  provided by a Bluetooth link as well as baking the pairing process.
+
+229
+00:11:42,710 --> 00:11:45,120
+Speaker 7:  More user-friendly. Eli Patel.
+
+230
+00:11:45,120 --> 00:11:46,000
+Speaker 3:  What is edr?
+
+231
+00:11:46,210 --> 00:11:47,920
+Speaker 7:  No, Alex Kranz.
+
+232
+00:11:48,010 --> 00:11:50,800
+Speaker 4:  So actually is Bluetooth even secure?
+
+233
+00:11:51,050 --> 00:11:54,160
+Speaker 3:  No, just says increase the security. It didn't say secure.
+
+234
+00:11:54,400 --> 00:11:57,160
+Speaker 4:  Who's determined that? Can I get some clarification?
+
+235
+00:11:57,420 --> 00:11:58,760
+Speaker 7:  I'm sorry, we're out of time.
+
+236
+00:12:00,500 --> 00:12:02,840
+Speaker 3:  How is filibustering Jeopardy?
+
+237
+00:12:03,220 --> 00:12:06,760
+Speaker 7:  The correct answer is simple. Secure paring.
+
+238
+00:12:07,260 --> 00:12:08,200
+Speaker 7:  Eli, you go again.
+
+239
+00:12:08,300 --> 00:12:09,920
+Speaker 3:  Spectacular for 400.
+
+240
+00:12:10,500 --> 00:12:14,360
+Speaker 7:  One of the most significant changes in this version of Bluetooth was
+
+241
+00:12:14,360 --> 00:12:17,480
+Speaker 7:  the ability to transfer data. Oprah, wifi. Eli,
+
+242
+00:12:17,510 --> 00:12:19,200
+Speaker 3:  What is Bluetooth 2.1?
+
+243
+00:12:20,050 --> 00:12:20,400
+Speaker 7:  No,
+
+244
+00:12:20,430 --> 00:12:22,040
+Speaker 3:  What is Bluetooth 4.0?
+
+245
+00:12:23,400 --> 00:12:26,360
+Speaker 7:  Eddie, what else? Wanna ask Alex? Kratz,
+
+246
+00:12:26,360 --> 00:12:28,480
+Speaker 4:  What is Bluetooth 3.0?
+
+247
+00:12:30,180 --> 00:12:32,800
+Speaker 3:  Yes. No. Yes.
+
+248
+00:12:33,440 --> 00:12:35,400
+Speaker 4:  Thank you for narrowing it down.
+
+249
+00:12:35,640 --> 00:12:38,360
+Speaker 3:  Chris is just never gonna answer a question again.
+
+250
+00:12:38,490 --> 00:12:42,080
+Speaker 8:  Exactly. I'm just gonna sit on this lead.
+
+251
+00:12:42,160 --> 00:12:45,840
+Speaker 7:  Currently we have Chris Welch at the lead with 800 points. Alex
+
+252
+00:12:45,840 --> 00:12:49,800
+Speaker 7:  Crad with the command dig second at negative $2,400
+
+253
+00:12:50,420 --> 00:12:54,080
+Speaker 7:  and Eli bringing up the lead at negative 3,200.
+
+254
+00:12:54,510 --> 00:12:58,160
+Speaker 3:  I appreciate that you continue referring to it as the lead. Thank you for
+
+255
+00:12:58,160 --> 00:12:58,320
+Speaker 3:  that
+
+256
+00:12:58,390 --> 00:12:59,640
+Speaker 7:  Alex, it's your pick.
+
+257
+00:13:00,140 --> 00:13:03,760
+Speaker 4:  I'm gonna do spectacular for a thousand.
+
+258
+00:13:04,710 --> 00:13:08,640
+Speaker 7:  This is Sony's own Bluetooth Kodak, which enables transmission
+
+259
+00:13:08,640 --> 00:13:12,040
+Speaker 7:  of high res audio at a maximum bit rate of 990
+
+260
+00:13:12,070 --> 00:13:14,320
+Speaker 7:  kilobits per second. Chris Welch,
+
+261
+00:13:14,430 --> 00:13:17,760
+Speaker 8:  Time to pad the lead here a little bit. What is l a?
+
+262
+00:13:18,130 --> 00:13:18,800
+Speaker 7:  Correct?
+
+263
+00:13:19,880 --> 00:13:22,640
+Speaker 8:  Let's do pair me please. 600.
+
+264
+00:13:23,550 --> 00:13:27,360
+Speaker 7:  This was the first Kindle to support Bluetooth audio.
+
+265
+00:13:27,490 --> 00:13:29,240
+Speaker 7:  Oh, Alex Cranz.
+
+266
+00:13:29,310 --> 00:13:30,920
+Speaker 4:  What is the original Kindle?
+
+267
+00:13:31,490 --> 00:13:31,840
+Speaker 7:  No,
+
+268
+00:13:32,070 --> 00:13:33,640
+Speaker 4:  I have to go away now.
+
+269
+00:13:33,640 --> 00:13:36,360
+Speaker 3:  There are so many Kindles you can just make up names.
+
+270
+00:13:36,530 --> 00:13:38,960
+Speaker 4:  It has not worked for either of us before this.
+
+271
+00:13:39,070 --> 00:13:40,360
+Speaker 8:  What is the Oasis?
+
+272
+00:13:41,250 --> 00:13:45,040
+Speaker 7:  No, the Oasis was not the first with Bluetooth audio. That was
+
+273
+00:13:45,460 --> 00:13:49,320
+Speaker 7:  the eighth generation Kindle. Of course I did not know
+
+274
+00:13:49,320 --> 00:13:50,120
+Speaker 7:  until today.
+
+275
+00:13:50,230 --> 00:13:52,080
+Speaker 4:  I should have just said Kindle. You
+
+276
+00:13:52,080 --> 00:13:53,160
+Speaker 3:  Should have just said Kindle
+
+277
+00:13:53,160 --> 00:13:54,520
+Speaker 7:  Chris, you'll continue
+
+278
+00:13:55,040 --> 00:13:58,240
+Speaker 8:  Apparently. So let's do bluetooth.com for 800.
+
+279
+00:13:58,960 --> 00:14:02,720
+Speaker 7:  According to ABI research, this many Bluetooth
+
+280
+00:14:02,720 --> 00:14:05,640
+Speaker 7:  data transfer devices will ship in 2022.
+
+281
+00:14:05,860 --> 00:14:07,920
+Speaker 4:  Can I ask a clarification question?
+
+282
+00:14:08,470 --> 00:14:09,720
+Speaker 7:  Sure, let's do it.
+
+283
+00:14:09,910 --> 00:14:13,720
+Speaker 4:  Does that mean like phones? Just anything with Bluetooth
+
+284
+00:14:13,720 --> 00:14:13,920
+Speaker 4:  in
+
+285
+00:14:13,920 --> 00:14:16,880
+Speaker 3:  It? No, it's a standard. It's a new standard. It's a thing.
+
+286
+00:14:16,950 --> 00:14:18,760
+Speaker 4:  Well, I'm not gonna try to answer this.
+
+287
+00:14:19,070 --> 00:14:22,800
+Speaker 3:  Will you? Just like hell at the spelling bee, you're like, can I define
+
+288
+00:14:22,800 --> 00:14:23,640
+Speaker 3:  every word please?
+
+289
+00:14:24,030 --> 00:14:25,080
+Speaker 4:  I lost to Buffalo
+
+290
+00:14:25,660 --> 00:14:28,760
+Speaker 7:  And we're out of time. The answer is 1 billion.
+
+291
+00:14:28,970 --> 00:14:30,280
+Speaker 4:  Oh, I was gonna guess that.
+
+292
+00:14:30,720 --> 00:14:32,760
+Speaker 3:  I've been burned too many times. Let's
+
+293
+00:14:32,760 --> 00:14:33,240
+Speaker 7:  Keep going Chris,
+
+294
+00:14:34,360 --> 00:14:36,080
+Speaker 8:  Let's do hack week for 400.
+
+295
+00:14:37,040 --> 00:14:40,960
+Speaker 7:  Often seen as a security threat, sending a picture or message from one
+
+296
+00:14:40,960 --> 00:14:44,800
+Speaker 7:  user to an unsuspecting user through Bluetooth wired list technology
+
+297
+00:14:45,090 --> 00:14:48,080
+Speaker 7:  is called this. Alex Kranz.
+
+298
+00:14:48,150 --> 00:14:50,000
+Speaker 4:  What is my ride home on the subway?
+
+299
+00:14:50,790 --> 00:14:52,920
+Speaker 7:  I like it, but no, Chris Welch.
+
+300
+00:14:53,070 --> 00:14:54,120
+Speaker 8:  What is Beam?
+
+301
+00:14:55,090 --> 00:14:55,440
+Speaker 7:  No.
+
+302
+00:14:55,440 --> 00:14:59,400
+Speaker 3:  Okay, I buzzed in and I wanna say if I guess, and it's close to
+
+303
+00:14:59,400 --> 00:15:00,320
+Speaker 3:  right? I want the points.
+
+304
+00:15:00,920 --> 00:15:01,680
+Speaker 7:  I'll consider it.
+
+305
+00:15:02,150 --> 00:15:03,640
+Speaker 3:  What is Blue Nerfing?
+
+306
+00:15:06,020 --> 00:15:08,680
+Speaker 7:  The correct answer is what is Bluejack?
+
+307
+00:15:09,060 --> 00:15:12,040
+Speaker 3:  See, I knew it was something like that. It's close enough,
+
+308
+00:15:12,860 --> 00:15:14,400
+Speaker 7:  Not close enough, but unfortunately
+
+309
+00:15:14,650 --> 00:15:17,800
+Speaker 8:  He had blue and the verb part down. Yeah, it's you know,
+
+310
+00:15:17,940 --> 00:15:19,520
+Speaker 3:  See I I knew it was something
+
+311
+00:15:19,520 --> 00:15:22,560
+Speaker 7:  Like that. Once again, Chris Welch had the last correct answer so let's continue
+
+312
+00:15:22,560 --> 00:15:22,760
+Speaker 7:  on.
+
+313
+00:15:23,000 --> 00:15:26,760
+Speaker 8:  Okay, let's see what happens when we do Pair me please for a
+
+314
+00:15:26,960 --> 00:15:27,080
+Speaker 8:  thousand.
+
+315
+00:15:27,910 --> 00:15:31,720
+Speaker 7:  This Bluetooth speaker with the most recent number one on our
+
+316
+00:15:31,720 --> 00:15:35,400
+Speaker 7:  best Bluetooth speaker list@theversion.com. This is claiming it
+
+317
+00:15:35,400 --> 00:15:39,200
+Speaker 7:  offers pristine, detailed sound quality with a surprising
+
+318
+00:15:39,200 --> 00:15:43,080
+Speaker 7:  amount of bass for its size. All at a rugged design you
+
+319
+00:15:43,080 --> 00:15:44,880
+Speaker 7:  could take anywhere. Chris Welch,
+
+320
+00:15:45,030 --> 00:15:47,760
+Speaker 8:  It's possible that I wrote this article possible.
+
+321
+00:15:49,110 --> 00:15:52,280
+Speaker 8:  What is the bows SoundLink Flex.
+
+322
+00:15:52,620 --> 00:15:54,600
+Speaker 7:  Unfortunately that is the correct answer.
+
+323
+00:15:54,820 --> 00:15:55,680
+Speaker 3:  Unfortunately
+
+324
+00:15:56,080 --> 00:15:56,680
+Speaker 4:  This was
+
+325
+00:15:56,680 --> 00:15:59,920
+Speaker 8:  Cheating. That's good. That's not very fair. Even I can acknowledge that.
+
+326
+00:15:59,950 --> 00:16:03,920
+Speaker 7:  Good. Let's keep the good times. Rolling. Chris Welch, your next category
+
+327
+00:16:04,230 --> 00:16:06,280
+Speaker 8:  Hack week for 600, please.
+
+328
+00:16:07,170 --> 00:16:11,000
+Speaker 7:  In 2004, Nokia and Sony Ericks had admitted some of their
+
+329
+00:16:11,000 --> 00:16:14,920
+Speaker 7:  handsets were vulnerable to this, a method of hacking into
+
+330
+00:16:14,920 --> 00:16:18,440
+Speaker 7:  a Bluetooth-enabled device and accessing personal information.
+
+331
+00:16:18,550 --> 00:16:19,640
+Speaker 7:  Alex Kranz,
+
+332
+00:16:19,750 --> 00:16:21,240
+Speaker 4:  What is Blue Nerfing
+
+333
+00:16:23,370 --> 00:16:24,040
+Speaker 7:  Correct?
+
+334
+00:16:26,380 --> 00:16:28,080
+Speaker 9:  Yes. Come
+
+335
+00:16:28,080 --> 00:16:31,040
+Speaker 3:  On man. It's the worst outcome
+
+336
+00:16:31,300 --> 00:16:34,120
+Speaker 7:  And be like do continuous. To slide into oblivion.
+
+337
+00:16:35,240 --> 00:16:38,960
+Speaker 3:  First of all, I would like some points for even knowing that Blue
+
+338
+00:16:38,960 --> 00:16:42,520
+Speaker 3:  Scarfing was a term and having that in my brain. I can't remember
+
+339
+00:16:42,520 --> 00:16:46,040
+Speaker 3:  people's names. I forgot my own child's name the other day and I'm hold it
+
+340
+00:16:46,040 --> 00:16:48,920
+Speaker 3:  on to blue scarfing. That's worth a thousand points. With
+
+341
+00:16:48,920 --> 00:16:52,560
+Speaker 7:  The last correct answer, we have Chris Welch with 1800 points,
+
+342
+00:16:52,790 --> 00:16:56,000
+Speaker 7:  Alex at negative 2,800 and negative 3,600.
+
+343
+00:16:56,220 --> 00:16:59,840
+Speaker 3:  I'm sorry. The moral victory of knowing that Blue scarfing was a real word
+
+344
+00:17:00,050 --> 00:17:02,760
+Speaker 3:  is very high and I'm currently the winner. I'm just putting that out there.
+
+345
+00:17:02,920 --> 00:17:05,880
+Speaker 4:  I want you to know, I did not know it was a real word. I thought you made
+
+346
+00:17:05,880 --> 00:17:06,160
+Speaker 4:  it up.
+
+347
+00:17:06,310 --> 00:17:10,240
+Speaker 3:  I can't believe I confused Blue Scarfing and Bluejack. That's a rookie Bluetooth
+
+348
+00:17:10,240 --> 00:17:11,160
+Speaker 3:  jeopardy mistake.
+
+349
+00:17:13,710 --> 00:17:15,200
+Speaker 7:  Crad, wanna continue this?
+
+350
+00:17:15,550 --> 00:17:18,960
+Speaker 4:  Yeah, I'm gonna do a RI for 1000.
+
+351
+00:17:19,310 --> 00:17:22,040
+Speaker 4:  That was my really good Sean Connery impression.
+
+352
+00:17:22,040 --> 00:17:23,040
+Speaker 3:  That's good, thanks.
+
+353
+00:17:23,710 --> 00:17:27,360
+Speaker 7:  This year the Bluetooth standard organization thought this company
+
+354
+00:17:27,660 --> 00:17:31,480
+Speaker 7:  was trying to get a free ride by putting Bluetooth brand
+
+355
+00:17:31,480 --> 00:17:35,440
+Speaker 7:  in cars without paying requisite product declaration fees. Those
+
+356
+00:17:35,440 --> 00:17:38,840
+Speaker 7:  last five words are in air quotes. We're getting its cars certified.
+
+357
+00:17:38,960 --> 00:17:39,880
+Speaker 7:  Nelia Patel,
+
+358
+00:17:39,940 --> 00:17:43,600
+Speaker 3:  Who is Stelmanis or fca? It's one of, they're the same company.
+
+359
+00:17:44,220 --> 00:17:45,160
+Speaker 7:  Yes, it's
+
+360
+00:17:45,160 --> 00:17:48,520
+Speaker 3:  Correct, yes. I'm deeply aware of when Chrysler is doing dumb things.
+
+361
+00:17:49,360 --> 00:17:49,800
+Speaker 3:  My zone.
+
+362
+00:17:49,990 --> 00:17:50,920
+Speaker 7:  Nela, you're next.
+
+363
+00:17:51,050 --> 00:17:54,760
+Speaker 3:  Oh no, I can't. I can't. You can't follow the highs with the lows.
+
+364
+00:17:54,800 --> 00:17:56,840
+Speaker 3:  Let's go with spectacular for 600.
+
+365
+00:17:57,710 --> 00:18:01,360
+Speaker 7:  This subset of Bluetooth War 0.0 was previously known as
+
+366
+00:18:01,950 --> 00:18:05,640
+Speaker 7:  wiry, which was intended for such industries as fitness, security and home
+
+367
+00:18:05,640 --> 00:18:08,720
+Speaker 7:  entertainment. It later tried to track the novel Coronavirus
+
+368
+00:18:09,790 --> 00:18:10,280
+Speaker 3:  Wiry.
+
+369
+00:18:11,030 --> 00:18:14,040
+Speaker 7:  I will accept wiry as a pronunciation
+
+370
+00:18:14,340 --> 00:18:16,280
+Speaker 3:  And we know what wiry is.
+
+371
+00:18:16,780 --> 00:18:19,240
+Speaker 7:  You probably know what the answer to this one is.
+
+372
+00:18:19,710 --> 00:18:22,880
+Speaker 3:  I do because I can guess. I mean, just,
+
+373
+00:18:22,880 --> 00:18:24,160
+Speaker 7:  Just, just, just guess
+
+374
+00:18:24,720 --> 00:18:25,960
+Speaker 3:  What is Bluetooth? Ellie?
+
+375
+00:18:26,860 --> 00:18:29,560
+Speaker 7:  The correct answer is Bluetooth, low energy
+
+376
+00:18:29,560 --> 00:18:30,720
+Speaker 3:  There. Kick
+
+377
+00:18:30,720 --> 00:18:31,520
+Speaker 7:  Us off again.
+
+378
+00:18:31,580 --> 00:18:33,200
+Speaker 3:  Spectacular for 800.
+
+379
+00:18:34,160 --> 00:18:38,000
+Speaker 7:  These are sets of specifications or rules that determine how a Bluetooth
+
+380
+00:18:38,000 --> 00:18:41,760
+Speaker 7:  device is used, whether it's hand three has land access or even an
+
+381
+00:18:41,760 --> 00:18:43,320
+Speaker 7:  iPod accessory. Nii.
+
+382
+00:18:43,350 --> 00:18:44,840
+Speaker 3:  What are Bluetooth profiles?
+
+383
+00:18:45,300 --> 00:18:45,720
+Speaker 7:  Yes,
+
+384
+00:18:46,230 --> 00:18:47,600
+Speaker 3:  I knew this is my category.
+
+385
+00:18:47,820 --> 00:18:48,880
+Speaker 7:  And one more.
+
+386
+00:18:49,180 --> 00:18:50,360
+Speaker 3:  Now I want to stop.
+
+387
+00:18:52,600 --> 00:18:55,160
+Speaker 3:  Let's go with bluetooth.com for 200.
+
+388
+00:18:55,790 --> 00:18:59,600
+Speaker 7:  This is the standards organization and they've already buzzed in
+
+389
+00:18:59,600 --> 00:19:02,720
+Speaker 7:  the standards organization that oversees the development of Bluetooth standards
+
+390
+00:19:02,720 --> 00:19:06,400
+Speaker 7:  and licensing of the Bluetooth technologies and trademarks to manufacturers.
+
+391
+00:19:06,540 --> 00:19:07,840
+Speaker 7:  The answer. Chris Welch,
+
+392
+00:19:08,030 --> 00:19:09,960
+Speaker 8:  What is the Bluetooth sig?
+
+393
+00:19:10,740 --> 00:19:11,160
+Speaker 7:  Yes.
+
+394
+00:19:11,260 --> 00:19:12,000
+Speaker 4:  How did he
+
+395
+00:19:12,000 --> 00:19:13,520
+Speaker 8:  Know? Just got in ahead of Eli.
+
+396
+00:19:13,520 --> 00:19:14,400
+Speaker 7:  Next one, Chris.
+
+397
+00:19:14,590 --> 00:19:16,880
+Speaker 8:  Okay, let's do RI for 600
+
+398
+00:19:17,850 --> 00:19:21,640
+Speaker 7:  On the company's website. This speaker is listed to have
+
+399
+00:19:21,640 --> 00:19:25,320
+Speaker 7:  nine ways to listen to audio, none of which is pairing via
+
+400
+00:19:25,320 --> 00:19:26,920
+Speaker 7:  Bluetooth. Alex crayons.
+
+401
+00:19:27,230 --> 00:19:30,560
+Speaker 4:  What is the Sonos? Chris?
+
+402
+00:19:30,940 --> 00:19:32,880
+Speaker 4:  Nod or or or turn away.
+
+403
+00:19:33,390 --> 00:19:34,160
+Speaker 3:  Give gimme,
+
+404
+00:19:34,160 --> 00:19:34,920
+Speaker 4:  Gimme tips.
+
+405
+00:19:34,960 --> 00:19:38,440
+Speaker 7:  We're moving on. Anybody else? Wanna try the Eli Patel?
+
+406
+00:19:38,440 --> 00:19:39,800
+Speaker 3:  What is the HomePod mini
+
+407
+00:19:40,020 --> 00:19:43,200
+Speaker 7:  Dad might be true. The answer is the apple HomePod.
+
+408
+00:19:43,870 --> 00:19:45,720
+Speaker 8:  I think the judges can accept that. Yeah.
+
+409
+00:19:45,830 --> 00:19:47,640
+Speaker 7:  Next ne Eli, you're up again. I
+
+410
+00:19:47,640 --> 00:19:50,640
+Speaker 3:  Gotta say the exhilaration of this run. It's too much.
+
+411
+00:19:50,640 --> 00:19:51,760
+Speaker 4:  You're almost into the
+
+412
+00:19:52,000 --> 00:19:54,560
+Speaker 3:  Positives. Pair me please for 400
+
+413
+00:19:54,740 --> 00:19:58,480
+Speaker 7:  And the answer. A daily double. Just kidding.
+
+414
+00:19:58,480 --> 00:19:59,400
+Speaker 7:  There's no round two.
+
+415
+00:20:00,840 --> 00:20:01,640
+Speaker 3:  Thank God.
+
+416
+00:20:02,370 --> 00:20:06,120
+Speaker 7:  In 2021, this device had a surprise upgrade
+
+417
+00:20:06,120 --> 00:20:09,840
+Speaker 7:  that added Bluetooth audio support four years after its initial
+
+418
+00:20:09,840 --> 00:20:11,480
+Speaker 7:  release. Chris Welch,
+
+419
+00:20:11,750 --> 00:20:13,600
+Speaker 8:  What is the Nintendo Switch?
+
+420
+00:20:14,350 --> 00:20:16,760
+Speaker 7:  That's correct, right pick again.
+
+421
+00:20:16,800 --> 00:20:20,040
+Speaker 8:  Let's just close out the bluetooth.com for a thousand.
+
+422
+00:20:20,260 --> 00:20:24,040
+Speaker 7:  And here's the clue. Recently it was announced Bluetooth would be
+
+423
+00:20:24,040 --> 00:20:27,720
+Speaker 7:  expanding into this frequency spectrum band and according to
+
+424
+00:20:27,720 --> 00:20:31,520
+Speaker 7:  bluetooth.com it will pay of the way for the next 20 years
+
+425
+00:20:31,520 --> 00:20:32,640
+Speaker 7:  of Bluetooth innovation.
+
+426
+00:20:36,980 --> 00:20:38,760
+Speaker 7:  And we're running out of time. Well
+
+427
+00:20:38,760 --> 00:20:42,040
+Speaker 4:  I'm trying to type faster into my phone to Google it but it's not working.
+
+428
+00:20:42,510 --> 00:20:44,800
+Speaker 3:  I was just like I can't cheat fast enough.
+
+429
+00:20:45,260 --> 00:20:48,120
+Speaker 7:  And the correct response response in this case is
+
+430
+00:20:49,020 --> 00:20:51,800
+Speaker 7:  the six gigahertz spectrum band.
+
+431
+00:20:52,510 --> 00:20:53,240
+Speaker 3:  I could have guessed
+
+432
+00:20:53,240 --> 00:20:56,800
+Speaker 7:  That. Also handy for certain forms of wifi. Next
+
+433
+00:20:57,000 --> 00:20:58,960
+Speaker 7:  let's go again with Chris.
+
+434
+00:20:59,720 --> 00:21:02,720
+Speaker 8:  Let's do hack week for 203.
+
+435
+00:21:02,720 --> 00:21:06,520
+Speaker 7:  Former campaign aids to this elected official told
+
+436
+00:21:06,520 --> 00:21:09,920
+Speaker 7:  West Wing playbook. She does not use Bluetooth headsets for security reasons
+
+437
+00:21:09,920 --> 00:21:13,200
+Speaker 7:  and insists on using wired headphones instead. Eli,
+
+438
+00:21:13,280 --> 00:21:14,400
+Speaker 3:  Who's Kamala Harris?
+
+439
+00:21:15,070 --> 00:21:15,920
+Speaker 7:  That's correct.
+
+440
+00:21:15,920 --> 00:21:17,040
+Speaker 3:  This story is great.
+
+441
+00:21:17,170 --> 00:21:17,720
+Speaker 7:  Go again.
+
+442
+00:21:17,780 --> 00:21:20,520
+Speaker 3:  I'm so close to the positive. Let's go with hack week for 800.
+
+443
+00:21:21,090 --> 00:21:25,000
+Speaker 7:  Limited to class two Bluetooth radios. This form of Bluetooth attack
+
+444
+00:21:25,000 --> 00:21:28,760
+Speaker 7:  creates a backdoor for hackers, which could allow them to list it
+
+445
+00:21:28,760 --> 00:21:30,000
+Speaker 7:  on the phone conversations.
+
+446
+00:21:30,710 --> 00:21:32,560
+Speaker 4:  Give us a hint just like a
+
+447
+00:21:32,560 --> 00:21:35,320
+Speaker 7:  Little hint. I have a hint. It is not blue snrp.
+
+448
+00:21:35,800 --> 00:21:36,600
+Speaker 4:  Is it Jingly
+
+449
+00:21:36,600 --> 00:21:39,760
+Speaker 7:  Puff? Okay, we're out of time. It's blue. Bu
+
+450
+00:21:40,610 --> 00:21:44,280
+Speaker 3:  So far in this episode of Jeopardy, we've heard about Bluejack, blue snaring
+
+451
+00:21:44,280 --> 00:21:45,440
+Speaker 3:  and now blue bugging. There's
+
+452
+00:21:45,440 --> 00:21:46,240
+Speaker 4:  Nothing left in hack
+
+453
+00:21:46,480 --> 00:21:50,320
+Speaker 3:  Week. I was gonna say tooth spoofing with no G at the end.
+
+454
+00:21:50,430 --> 00:21:51,080
+Speaker 7:  I like it.
+
+455
+00:21:51,300 --> 00:21:55,200
+Speaker 3:  All right, we gotta knock down this Genesis category. Let's
+
+456
+00:21:55,200 --> 00:21:56,320
+Speaker 3:  go to Genesis for 200.
+
+457
+00:21:57,260 --> 00:22:00,880
+Speaker 7:  The king with a dental problem. United, Denmark, and
+
+458
+00:22:00,880 --> 00:22:04,400
+Speaker 7:  Norway in 9 58 ad Alex Kranz, who
+
+459
+00:22:04,400 --> 00:22:05,560
+Speaker 4:  Is Harold Bluetooth.
+
+460
+00:22:06,710 --> 00:22:10,480
+Speaker 7:  I will accept that it is King Harold Bluetooth goon.
+
+461
+00:22:10,480 --> 00:22:14,240
+Speaker 4:  That's misspelled. Someone misspelled this. His name is
+
+462
+00:22:14,240 --> 00:22:14,600
+Speaker 4:  Harold.
+
+463
+00:22:15,610 --> 00:22:16,200
+Speaker 7:  Go again.
+
+464
+00:22:16,840 --> 00:22:20,720
+Speaker 4:  I'm gonna do Genesis for 400 and hope Eli doesn't get it
+
+465
+00:22:20,720 --> 00:22:20,920
+Speaker 4:  right.
+
+466
+00:22:21,720 --> 00:22:25,640
+Speaker 7:  Intel Nokia and this industry leader met to plan
+
+467
+00:22:25,640 --> 00:22:29,480
+Speaker 7:  the standardization of Bluetooth in 1996. Chris
+
+468
+00:22:29,480 --> 00:22:29,880
+Speaker 7:  Welch.
+
+469
+00:22:29,950 --> 00:22:31,560
+Speaker 3:  What is Qualcomm?
+
+470
+00:22:32,490 --> 00:22:33,560
+Speaker 7:  No nela.
+
+471
+00:22:33,620 --> 00:22:34,920
+Speaker 3:  Who is Sony Erickson?
+
+472
+00:22:35,390 --> 00:22:38,120
+Speaker 7:  Erickson is the correct answer. Dammit. We'll give you the points.
+
+473
+00:22:38,220 --> 00:22:42,080
+Speaker 3:  Yes. Oh, I'm at zero. I'm done. No more answers from me. I
+
+474
+00:22:42,080 --> 00:22:45,960
+Speaker 3:  bought myself bags in negative territory. You're not bluejack this away
+
+475
+00:22:45,960 --> 00:22:47,960
+Speaker 3:  from me. Pori for 400.
+
+476
+00:22:49,050 --> 00:22:52,800
+Speaker 7:  He said this about Bluetooth. There are quality issues. The bandwidth
+
+477
+00:22:52,800 --> 00:22:56,520
+Speaker 7:  isn't high enough and even if it does get there someday, people don't want
+
+478
+00:22:56,520 --> 00:22:58,760
+Speaker 7:  to recharge their headphones. Ni Eli.
+
+479
+00:22:58,820 --> 00:22:59,800
+Speaker 3:  Who is Steve Jobs?
+
+480
+00:23:00,700 --> 00:23:01,120
+Speaker 7:  Yes.
+
+481
+00:23:01,120 --> 00:23:02,640
+Speaker 3:  That's a classic Steve Jobs
+
+482
+00:23:02,640 --> 00:23:06,560
+Speaker 7:  Quote. As we go into our last two questions, we have Chris Welch, the lead
+
+483
+00:23:06,560 --> 00:23:09,920
+Speaker 7:  with 2000 ni Eli at 400 and Alex
+
+484
+00:23:10,330 --> 00:23:12,040
+Speaker 7:  at negative $3,000.
+
+485
+00:23:14,230 --> 00:23:15,600
+Speaker 4:  I can still bring this around.
+
+486
+00:23:15,750 --> 00:23:19,360
+Speaker 7:  That leaves our final question, Genesis for 600
+
+487
+00:23:19,620 --> 00:23:23,360
+Speaker 7:  and the answer is this was the first mobile
+
+488
+00:23:23,360 --> 00:23:26,040
+Speaker 7:  phone to include Bluetooth in 2001.
+
+489
+00:23:26,120 --> 00:23:29,560
+Speaker 3:  Somewhere Deiter Bone is crying that he can't be answering this question
+
+490
+00:23:29,560 --> 00:23:29,880
+Speaker 3:  right now
+
+491
+00:23:30,300 --> 00:23:31,880
+Speaker 7:  And nobody is buzzing in.
+
+492
+00:23:32,300 --> 00:23:34,360
+Speaker 3:  Can we say company?
+
+493
+00:23:35,060 --> 00:23:38,920
+Speaker 7:  You can say whatever you like. Whether you get the points or not. We'll depend
+
+494
+00:23:38,920 --> 00:23:40,800
+Speaker 7:  on how close it is. Eli,
+
+495
+00:23:41,190 --> 00:23:43,600
+Speaker 3:  What is the Nokia N 92.
+
+496
+00:23:44,340 --> 00:23:47,480
+Speaker 7:  Not even close. Anyone else?
+
+497
+00:23:47,840 --> 00:23:50,880
+Speaker 7:  3, 2, 1.
+
+498
+00:23:51,500 --> 00:23:55,320
+Speaker 7:  The answer is the Sony Erickson T 39.
+
+499
+00:23:55,630 --> 00:23:57,440
+Speaker 7:  I would've also accepted T 36.
+
+500
+00:23:57,470 --> 00:24:01,240
+Speaker 3:  Okay, I would like some points for saying brand name and letters and numbers.
+
+501
+00:24:01,260 --> 00:24:03,840
+Speaker 3:  You get that? I got the format of the answer correct.
+
+502
+00:24:03,920 --> 00:24:06,200
+Speaker 7:  Don't take his points away. He was in the
+
+503
+00:24:06,480 --> 00:24:06,600
+Speaker 1:  Positive.
+
+504
+00:24:06,750 --> 00:24:10,720
+Speaker 3:  I wasn't like, what is the HCC bacon? I was like, what are some letters
+
+505
+00:24:10,720 --> 00:24:10,840
+Speaker 3:  and
+
+506
+00:24:10,840 --> 00:24:14,800
+Speaker 7:  Numbers? Alright ladies and gentlemen, we'll be right back with
+
+507
+00:24:14,800 --> 00:24:15,680
+Speaker 7:  final jeopardy.
+
+508
+00:24:17,390 --> 00:24:20,600
+Speaker 10:  This is David at The Verge and this is the Motorola hint. This is sort of
+
+509
+00:24:20,600 --> 00:24:24,320
+Speaker 10:  the smallest of the announcements that Motorola had today. It's a tiny
+
+510
+00:24:24,320 --> 00:24:26,840
+Speaker 10:  little Bluetooth headset. They don't want to call it a Bluetooth headset
+
+511
+00:24:26,840 --> 00:24:29,880
+Speaker 10:  cuz there's all sorts of stigmas with that, but it's a Bluetooth headset.
+
+512
+00:24:29,880 --> 00:24:33,840
+Speaker 10:  It's made to be super discreet and nice looking. It comes in this wood plus
+
+513
+00:24:33,840 --> 00:24:36,240
+Speaker 10:  a bunch of other materials that are designed to look really, really nice
+
+514
+00:24:36,240 --> 00:24:39,480
+Speaker 10:  in your ear. And on one level it's just a Bluetooth headset. You put it
+
+515
+00:24:39,480 --> 00:24:43,200
+Speaker 10:  in your ear, you make phone calls, you can do voice control on the phone
+
+516
+00:24:43,200 --> 00:24:46,360
+Speaker 10:  and there's all this cool Motorola assist in Motorola actions and stuff
+
+517
+00:24:46,360 --> 00:24:50,240
+Speaker 10:  that all work. But on the other hand, it's kind of extra special for a
+
+518
+00:24:50,240 --> 00:24:54,160
+Speaker 10:  Bluetooth headset for the one thing, it's time for another thing. It's super
+
+519
+00:24:54,160 --> 00:24:57,280
+Speaker 10:  sensitive so it's made to go in your ear just like this. And there's a sensor
+
+520
+00:24:57,280 --> 00:25:00,240
+Speaker 10:  on it that recognizes when it's in your ear and it'll automatically turn
+
+521
+00:25:00,240 --> 00:25:03,240
+Speaker 10:  on and connect and then as soon as you take it out, it'll disconnect. And
+
+522
+00:25:03,240 --> 00:25:06,120
+Speaker 10:  even if you're on a call, it'll route it straight back to your phone. So
+
+523
+00:25:06,120 --> 00:25:09,560
+Speaker 10:  it's made to be super simple and to basically be worn all day. But you can
+
+524
+00:25:09,560 --> 00:25:13,520
+Speaker 10:  have it come and go as you please. So it's $149. It's designed
+
+525
+00:25:13,520 --> 00:25:16,600
+Speaker 10:  to be used with the new Moto X and the Moto G, but it'll work with lots
+
+526
+00:25:16,600 --> 00:25:19,200
+Speaker 10:  of other phones too. There's some special stuff with the way that one x
+
+527
+00:25:19,200 --> 00:25:22,280
+Speaker 10:  works that makes it even better for voice actions. But the Moto hint is
+
+528
+00:25:22,480 --> 00:25:25,120
+Speaker 10:  designed as really, it's a wearable, it's not a Bluetooth headset though,
+
+529
+00:25:25,120 --> 00:25:28,440
+Speaker 10:  it's kind of a Bluetooth headset. So the hint is kind of a weird little
+
+530
+00:25:28,440 --> 00:25:31,240
+Speaker 10:  accessory. I'm not sure how many people are gonna get into it. I kind of
+
+531
+00:25:31,240 --> 00:25:33,880
+Speaker 10:  like it, but we'll see how it does when it comes out with the Mox. This
+
+532
+00:25:33,880 --> 00:25:34,040
+Speaker 10:  fall
+
+533
+00:25:35,470 --> 00:25:36,520
+Speaker 3:  2014.
+
+534
+00:25:39,230 --> 00:25:42,320
+Speaker 7:  Okay, we're back. This is our final jeopardy question.
+
+535
+00:25:43,340 --> 00:25:47,160
+Speaker 7:  The first version of Bluetooth used a modulation scheme
+
+536
+00:25:47,160 --> 00:25:51,000
+Speaker 7:  called this, which modulated carrier shifts between
+
+537
+00:25:51,000 --> 00:25:54,200
+Speaker 7:  two frequencies representing ones and zeros.
+
+538
+00:25:54,660 --> 00:25:57,120
+Speaker 7:  You have 30 seconds. Good luck.
+
+539
+00:26:08,950 --> 00:26:09,240
+Speaker 1:  I
+
+540
+00:26:09,240 --> 00:26:11,720
+Speaker 3:  Mean the police are coming because we're playing this music. I'm very,
+
+541
+00:26:28,260 --> 00:26:32,120
+Speaker 7:  All right, let's see what our contestants wrote. Chris, you're in the lead.
+
+542
+00:26:32,120 --> 00:26:36,040
+Speaker 7:  So let's begin. You have 2000 points. What was your
+
+543
+00:26:36,040 --> 00:26:36,480
+Speaker 7:  answer?
+
+544
+00:26:36,950 --> 00:26:40,920
+Speaker 8:  I have no answer, but I also wagered no money and I drew a
+
+545
+00:26:40,920 --> 00:26:42,400
+Speaker 8:  smiley face to,
+
+546
+00:26:44,010 --> 00:26:45,080
+Speaker 8:  to signal my victory.
+
+547
+00:26:45,670 --> 00:26:47,640
+Speaker 7:  Well played nek.
+
+548
+00:26:47,780 --> 00:26:51,160
+Speaker 3:  All right. I wagered $5,000 and I wrote
+
+549
+00:26:51,160 --> 00:26:52,720
+Speaker 3:  frequency shift pulsing.
+
+550
+00:26:53,240 --> 00:26:53,400
+Speaker 7:  Hmm
+
+551
+00:26:54,180 --> 00:26:54,600
+Speaker 3:  Huh
+
+552
+00:26:55,680 --> 00:26:55,920
+Speaker 8:  Interest.
+
+553
+00:26:57,350 --> 00:27:01,040
+Speaker 7:  That was not the answer. Let's see how much it's going to cost you. $5,000.
+
+554
+00:27:01,310 --> 00:27:01,800
+Speaker 7:  Okay,
+
+555
+00:27:03,550 --> 00:27:07,400
+Speaker 7:  Alex Cranz with negative 3000. What did you decide to dip your
+
+556
+00:27:07,400 --> 00:27:08,080
+Speaker 7:  pockets into?
+
+557
+00:27:08,530 --> 00:27:11,800
+Speaker 4:  So I put a billion dollars on the line
+
+558
+00:27:12,260 --> 00:27:14,400
+Speaker 4:  for binary baby shuffle.
+
+559
+00:27:17,120 --> 00:27:19,840
+Speaker 7:  Excellent, excellent. The correct answer was
+
+560
+00:27:20,810 --> 00:27:22,000
+Speaker 7:  gf, sk
+
+561
+00:27:22,710 --> 00:27:23,320
+Speaker 4:  I was close.
+
+562
+00:27:23,630 --> 00:27:25,800
+Speaker 7:  Gaussian frequency shift. Keach,
+
+563
+00:27:25,830 --> 00:27:27,680
+Speaker 3:  I got some words in there. Yes, that
+
+564
+00:27:27,680 --> 00:27:31,080
+Speaker 7:  Counts. I feel like some of your random words were, were among the right
+
+565
+00:27:31,080 --> 00:27:31,960
+Speaker 7:  words. Something
+
+566
+00:27:31,960 --> 00:27:32,920
+Speaker 8:  To do with the frequency.
+
+567
+00:27:33,440 --> 00:27:37,320
+Speaker 3:  You might use the word frequency and the word shift, which you
+
+568
+00:27:37,320 --> 00:27:38,360
+Speaker 3:  earned in the question.
+
+569
+00:27:38,410 --> 00:27:42,360
+Speaker 4:  He gets 2,500, give him 2,500. He earned it. Don't
+
+570
+00:27:42,360 --> 00:27:43,000
+Speaker 4:  put 'em in the
+
+571
+00:27:43,200 --> 00:27:46,640
+Speaker 7:  Negative. And the winner of today is Chris Welch with
+
+572
+00:27:46,640 --> 00:27:50,440
+Speaker 7:  2000 FTX tokens. Thank you. Her pledge.
+
+573
+00:27:50,720 --> 00:27:54,520
+Speaker 3:  Chris has won nothing. You know I would be in the lead if I'd
+
+574
+00:27:54,520 --> 00:27:57,640
+Speaker 3:  under, if I remembered the difference between Bluejack and Blueing. Yeah,
+
+575
+00:27:57,640 --> 00:27:58,680
+Speaker 3:  I just wanna put that out there.
+
+576
+00:28:02,600 --> 00:28:06,280
+Speaker 7:  We'll be right back with more of the Bluetooth holiday
+
+577
+00:28:06,340 --> 00:28:07,240
+Speaker 7:  spectacular.
+
+578
+00:28:19,280 --> 00:28:23,150
+Speaker 5:  Today's episode is sponsored by Airbnb. Airbnb lets you
+
+579
+00:28:23,150 --> 00:28:26,790
+Speaker 5:  book comfortable stays all around the world. So comfortable, they might even
+
+580
+00:28:26,790 --> 00:28:30,670
+Speaker 5:  feel like home, which might lead you to wonder could my place be an Airbnb?
+
+581
+00:28:30,730 --> 00:28:34,590
+Speaker 5:  And if it was, what could it earn? The exciting answer to that question
+
+582
+00:28:34,600 --> 00:28:38,430
+Speaker 5:  is that right now you could be sitting on an Airbnb and not even know it.
+
+583
+00:28:38,430 --> 00:28:41,710
+Speaker 5:  Maybe you have a spare room that's already a haven for visiting friends and
+
+584
+00:28:41,710 --> 00:28:45,550
+Speaker 5:  family. So why not make it an Airbnb and make some extra cash
+
+585
+00:28:45,550 --> 00:28:49,470
+Speaker 5:  instead of letting it sit empty. Some people Airbnb their entire homes
+
+586
+00:28:49,470 --> 00:28:52,790
+Speaker 5:  when they're away for holidays or a big trip. That's a great way to help
+
+587
+00:28:52,790 --> 00:28:56,430
+Speaker 5:  cover the plane tickets. Whether you could use a little extra money to stash
+
+588
+00:28:56,430 --> 00:29:00,390
+Speaker 5:  away for a rainy day or you're saving up for something fun, your home
+
+589
+00:29:00,390 --> 00:29:03,470
+Speaker 5:  might be worth more than you think. Find out how much at
+
+590
+00:29:03,700 --> 00:29:05,910
+Speaker 5:  airbnb.com/host
+
+591
+00:29:09,280 --> 00:29:13,150
+Speaker 5:  Support for this episode comes from another bite. If you're a Shark Tank
+
+592
+00:29:13,150 --> 00:29:17,030
+Speaker 5:  fan or business junkie, then you'll love another bite. Each week the
+
+593
+00:29:17,030 --> 00:29:20,950
+Speaker 5:  host breaks down the biggest success stories and most disastrous failures
+
+594
+00:29:20,950 --> 00:29:24,830
+Speaker 5:  to come out of Shark Tank. From the Squatty Potty to the Waken Bacon, they
+
+595
+00:29:24,830 --> 00:29:28,470
+Speaker 5:  dive into each company's pitch, analyze the deals that were or
+
+596
+00:29:28,470 --> 00:29:32,150
+Speaker 5:  weren't made and answer the million dollar question. Is that company
+
+597
+00:29:32,150 --> 00:29:35,870
+Speaker 5:  still a company? Basically they cover all the things you need to know to
+
+598
+00:29:35,870 --> 00:29:39,750
+Speaker 5:  survive the tank or scale a company on your own. Whether you're
+
+599
+00:29:39,750 --> 00:29:43,600
+Speaker 5:  an entrepreneur looking for tips or a fan looking to relive the show's most
+
+600
+00:29:43,760 --> 00:29:47,560
+Speaker 5:  dramatic moments, another bite offers a deep dive into the world of Shark
+
+601
+00:29:47,560 --> 00:29:51,320
+Speaker 5:  Tank. Just search for another bite in your favorite podcast app
+
+602
+00:29:51,320 --> 00:29:52,800
+Speaker 5:  like the one you're using right now.
+
+603
+00:29:59,500 --> 00:30:03,460
+Speaker 3:  Happy holidays and welcome back to the VER has Bluetooth
+
+604
+00:30:03,460 --> 00:30:07,340
+Speaker 3:  holiday spectacular full hour of audio about
+
+605
+00:30:07,340 --> 00:30:11,140
+Speaker 3:  Bluetooth. We've got an all-star panel here on a holiday Bluetooth
+
+606
+00:30:11,140 --> 00:30:14,780
+Speaker 3:  spectacular talk about Bluetooth, where it is now, the future of it
+
+607
+00:30:14,880 --> 00:30:18,100
+Speaker 3:  and the many threats that face our favorite
+
+608
+00:30:18,480 --> 00:30:21,780
+Speaker 3:  low range. And quite honestly, taxed wireless standard.
+
+609
+00:30:22,620 --> 00:30:25,900
+Speaker 3:  Chris, it's, it's all the same people who played Jeopardy. Like what am I,
+
+610
+00:30:25,900 --> 00:30:28,420
+Speaker 3:  what are we doing here? I'm here. I'm Eli. Chris Welch is here. Hey Chris.
+
+611
+00:30:28,680 --> 00:30:32,660
+Speaker 3:  Hey Sean. Haler, who was the host of Jeopardy now finds himself on
+
+612
+00:30:32,660 --> 00:30:35,060
+Speaker 3:  the other side of the equation. Welcome Sean.
+
+613
+00:30:35,350 --> 00:30:39,260
+Speaker 7:  It it is horror. I I am your friend who, who wishes I had some
+
+614
+00:30:39,350 --> 00:30:42,820
+Speaker 7:  earbuds that had pairing to multiple devices at once. That'd be great.
+
+615
+00:30:42,920 --> 00:30:44,140
+Speaker 3:  And Cranz is here. Hey
+
+616
+00:30:44,140 --> 00:30:47,740
+Speaker 4:  Cranz, I'm your friend who's pissed at Sean for his rude
+
+617
+00:30:47,740 --> 00:30:49,740
+Speaker 4:  scoring of me during Jeopardy.
+
+618
+00:30:49,740 --> 00:30:53,220
+Speaker 3:  Yeah, Sean, I don't know if you understand the point of this segment is revenge
+
+619
+00:30:53,780 --> 00:30:57,660
+Speaker 3:  taking, of course our inspiration from Bluetooth Notorious Pirate
+
+620
+00:30:57,680 --> 00:31:01,380
+Speaker 3:  who sought only revenge. I have not read anything about said pirate.
+
+621
+00:31:01,450 --> 00:31:02,660
+Speaker 3:  I just tease a pirate.
+
+622
+00:31:02,720 --> 00:31:05,700
+Speaker 7:  The Verge has been about a revenge for a very long time. It's, it's, it's
+
+623
+00:31:05,700 --> 00:31:07,500
+Speaker 7:  fitting that we bring it back for Christmas.
+
+624
+00:31:07,650 --> 00:31:11,180
+Speaker 3:  Sean and I are, we are, these are founders. We founded this whole site on
+
+625
+00:31:11,180 --> 00:31:14,700
+Speaker 3:  revenge. So this is all fitting. Okay, let's talk about Bluetooth in the
+
+626
+00:31:14,700 --> 00:31:18,460
+Speaker 3:  context of the holidays, Chris, it's, you cover the, the headphones space
+
+627
+00:31:18,460 --> 00:31:22,020
+Speaker 3:  pretty carefully. It seems like the moment for Bluetooth
+
+628
+00:31:22,180 --> 00:31:26,060
+Speaker 3:  right now is everyone has hit the bandwidth limits of Bluetooth as
+
+629
+00:31:26,060 --> 00:31:29,940
+Speaker 3:  we know it and they're doing stuff next to it. They're doing stuff
+
+630
+00:31:29,940 --> 00:31:32,180
+Speaker 3:  on top of it. What is going on here?
+
+631
+00:31:32,370 --> 00:31:35,500
+Speaker 8:  Yeah, I mean I think they're all trying to just kind of stand out with their
+
+632
+00:31:35,500 --> 00:31:39,460
+Speaker 8:  headphones quality. Samsung has their own Kodak. You've got Sony with
+
+633
+00:31:39,460 --> 00:31:42,700
+Speaker 8:  ldac, which is actually kind of spread between a bunch of headphones makers
+
+634
+00:31:42,880 --> 00:31:46,860
+Speaker 8:  and then there's, there's Qualcomm Snap track and sound, which might
+
+635
+00:31:46,860 --> 00:31:50,700
+Speaker 8:  be CD quality sometime soon. But you're gonna need new earbuds and who knows,
+
+636
+00:31:50,860 --> 00:31:51,740
+Speaker 8:  probably a new phone. I
+
+637
+00:31:51,740 --> 00:31:53,100
+Speaker 7:  Got pitches literally today.
+
+638
+00:31:54,420 --> 00:31:56,460
+Speaker 4:  We're not just CD quality yet.
+
+639
+00:31:57,210 --> 00:32:01,140
+Speaker 8:  I mean Sony's close-ish. Samsung says they can do
+
+640
+00:32:01,330 --> 00:32:05,180
+Speaker 8:  a 24 bit audio on the Buds two Pro, but like the actual bit rate is
+
+641
+00:32:05,180 --> 00:32:08,500
+Speaker 8:  unclear. So who knows what quality it actually is. It's all just a mess.
+
+642
+00:32:08,500 --> 00:32:11,420
+Speaker 8:  But like yeah, the idea is that they can say like these products are now
+
+643
+00:32:11,420 --> 00:32:14,980
+Speaker 8:  hi-fi or just sound better than they did before. So you upgrade and buy a
+
+644
+00:32:14,980 --> 00:32:16,380
+Speaker 8:  new set of headphones your buds or
+
+645
+00:32:16,380 --> 00:32:17,540
+Speaker 4:  They'll now work with title.
+
+646
+00:32:17,540 --> 00:32:21,460
+Speaker 8:  Yeah title but no Spotify hi-fi which was announced almost two years ago
+
+647
+00:32:21,460 --> 00:32:23,500
+Speaker 8:  and has yet to come to fruition.
+
+648
+00:32:23,910 --> 00:32:27,540
+Speaker 7:  So the protocol itself is like just a few megabits per second,
+
+649
+00:32:27,540 --> 00:32:31,020
+Speaker 7:  right? That's, that's all you can transmit between Bluetooth devices at a
+
+650
+00:32:31,020 --> 00:32:33,180
+Speaker 7:  time. And so that's the the hesitation here.
+
+651
+00:32:33,660 --> 00:32:37,100
+Speaker 8:  Yeah that and plus like the actual, so the file codex that's Apples used
+
+652
+00:32:37,380 --> 00:32:41,360
+Speaker 8:  the AAC codec forever. They felt no need to ever go beyond that
+
+653
+00:32:41,410 --> 00:32:41,960
+Speaker 8:  so far.
+
+654
+00:32:42,090 --> 00:32:45,920
+Speaker 3:  By the way, apple will claim that the actual Kodak they use between
+
+655
+00:32:45,920 --> 00:32:49,880
+Speaker 3:  the phone and AirPods is they're tweaking it all the time
+
+656
+00:32:49,880 --> 00:32:53,640
+Speaker 3:  and improving it all the time. This is what they claim. Is it stock AAC
+
+657
+00:32:53,640 --> 00:32:57,280
+Speaker 3:  or is Apple messing with it AC on the edges all the time to do
+
+658
+00:32:57,560 --> 00:33:01,120
+Speaker 3:  some proprietary AirPod stuff that no one else has access to?
+
+659
+00:33:01,650 --> 00:33:05,440
+Speaker 3:  We don't know. We can't verify what they're actually doing between their
+
+660
+00:33:05,440 --> 00:33:09,400
+Speaker 3:  own devices and their closed ecosystem. And this is what everyone else seems
+
+661
+00:33:09,400 --> 00:33:13,360
+Speaker 3:  to be doing right? Like you, you are stuck with a handful of codex that you
+
+662
+00:33:13,360 --> 00:33:16,720
+Speaker 3:  can license from Snapdragon or Sony or whatever, but you're stuck with some
+
+663
+00:33:16,720 --> 00:33:20,560
+Speaker 3:  basic limitations of Bluetooth and then you have to add
+
+664
+00:33:20,560 --> 00:33:24,520
+Speaker 3:  on to them or do something proprietary to add more features or
+
+665
+00:33:24,520 --> 00:33:28,160
+Speaker 3:  more sound quality. And that doesn't seem like the industry is settled on
+
+666
+00:33:28,360 --> 00:33:32,240
+Speaker 3:  standards. It seems like Samsung is basically like what wouldn't it be cool
+
+667
+00:33:32,240 --> 00:33:34,400
+Speaker 3:  if everyone bought Samsung headphones and they bought the Oxy phone?
+
+668
+00:33:34,910 --> 00:33:37,480
+Speaker 8:  Yeah, I mean when you have like seven different codex, there's just a lot
+
+669
+00:33:37,480 --> 00:33:39,920
+Speaker 8:  going on and I don't know how anybody really keeps it straight. Like someone
+
+670
+00:33:39,920 --> 00:33:43,360
+Speaker 8:  who just goes and buys a new pair of headphones from like Sennheiser or Bowers
+
+671
+00:33:43,360 --> 00:33:47,320
+Speaker 8:  and Wilkins, like they support stuff like Apex and like Apex HD and
+
+672
+00:33:47,320 --> 00:33:51,080
+Speaker 8:  Apex Lossless. Even that one standard has like four
+
+673
+00:33:51,080 --> 00:33:54,960
+Speaker 8:  tiers of different supporters. So it's gotten
+
+674
+00:33:54,960 --> 00:33:55,840
+Speaker 8:  a bit jumbled. I
+
+675
+00:33:55,840 --> 00:33:59,000
+Speaker 7:  Think part of this is that the standards aren't very good.
+
+676
+00:33:59,470 --> 00:34:03,000
+Speaker 7:  Like I j I just wrote about this with the steam deck. If you wanna set up
+
+677
+00:34:03,000 --> 00:34:06,840
+Speaker 7:  your Bluetooth earbuds and hear what you're doing on your game system, the
+
+678
+00:34:06,840 --> 00:34:10,400
+Speaker 7:  default is that it uses a profile that is not low
+
+679
+00:34:10,400 --> 00:34:14,160
+Speaker 7:  latency. It's supposed to be like high quality instead of low latency. And
+
+680
+00:34:14,160 --> 00:34:17,680
+Speaker 7:  so you have this tremendous lag and I swing a sword and I don't hear it till
+
+681
+00:34:17,680 --> 00:34:21,560
+Speaker 7:  almost entire second is passed. Where's my woosh? I wanna hear my woosh.
+
+682
+00:34:21,920 --> 00:34:25,640
+Speaker 7:  But they have to, they have to choose between the high quality of their low
+
+683
+00:34:25,640 --> 00:34:28,200
+Speaker 7:  latency. You don't get both automatically.
+
+684
+00:34:28,290 --> 00:34:31,880
+Speaker 8:  So it's Sony if you use the LDAC Kodak and you choose like the highest setting,
+
+685
+00:34:31,880 --> 00:34:34,960
+Speaker 8:  I think it's like nine, 960 like kilobits per second. It gets like really
+
+686
+00:34:35,120 --> 00:34:38,640
+Speaker 8:  unstable when it cuts out constantly. So even that like at its best quality
+
+687
+00:34:38,640 --> 00:34:42,440
+Speaker 8:  just doesn't work very well. So I think if there is like a next step to come
+
+688
+00:34:42,580 --> 00:34:46,560
+Speaker 8:  and it sounds like Qualcomm has new chips coming for phones that ends
+
+689
+00:34:46,560 --> 00:34:49,760
+Speaker 8:  some for headphones too. That'll like make things more stable and hopefully
+
+690
+00:34:49,760 --> 00:34:53,120
+Speaker 8:  keep that higher quality and actually so you can enjoy it, not just have
+
+691
+00:34:53,120 --> 00:34:53,920
+Speaker 8:  cutouts all the time.
+
+692
+00:34:54,210 --> 00:34:57,960
+Speaker 3:  So Apple uses a C, other people are using other proprietary code acts like
+
+693
+00:34:57,960 --> 00:35:01,920
+Speaker 3:  ldac and Snap Track and sound. Yeah, great name. But
+
+694
+00:35:01,920 --> 00:35:05,720
+Speaker 3:  it sounds like there's an actual Bluetooth audio Kodak
+
+695
+00:35:05,720 --> 00:35:09,200
+Speaker 3:  upgrade coming with lc three. It sounds like there's
+
+696
+00:35:09,440 --> 00:35:11,720
+Speaker 3:  functionality updates coming with or cast. What's going on there?
+
+697
+00:35:11,810 --> 00:35:14,360
+Speaker 8:  So I haven't really looked into AutoCast much. I think it's just gonna be
+
+698
+00:35:14,360 --> 00:35:16,800
+Speaker 8:  one of those things where you can compare with like multiple devices at once
+
+699
+00:35:16,800 --> 00:35:20,000
+Speaker 8:  or like, like several phones can compare to one speaker. Things like that.
+
+700
+00:35:20,180 --> 00:35:23,880
+Speaker 7:  Theoretically I love this idea you're gonna be in your airport or your hospital
+
+701
+00:35:23,880 --> 00:35:27,080
+Speaker 7:  and you're listening to your music on your earbuds, but you've also apparently
+
+702
+00:35:27,080 --> 00:35:31,040
+Speaker 7:  opted in to connect to like the local acast access point.
+
+703
+00:35:31,300 --> 00:35:34,440
+Speaker 7:  And so you'll hear your airport at Outspent and instead of them trying to
+
+704
+00:35:34,440 --> 00:35:38,240
+Speaker 7:  like pump up the sound to a ridiculous level which blows at everybody's
+
+705
+00:35:38,240 --> 00:35:41,920
+Speaker 7:  ears just so they can get through the earbuds that you have on, it'll just
+
+706
+00:35:41,920 --> 00:35:44,720
+Speaker 7:  go directly there and hopefully also not blow out your ears
+
+707
+00:35:44,790 --> 00:35:45,560
+Speaker 4:  Like magic.
+
+708
+00:35:45,670 --> 00:35:48,560
+Speaker 3:  Yeah. They're gonna find a way to use that for advertising in in one second.
+
+709
+00:35:48,620 --> 00:35:49,120
+Speaker 3:  I'm just,
+
+710
+00:35:50,630 --> 00:35:53,960
+Speaker 3:  I just, I just know how this goes. Yeah that seems interesting, right? Like
+
+711
+00:35:53,960 --> 00:35:57,920
+Speaker 3:  everything is wireless, there are new seat back. I think United has new seat
+
+712
+00:35:57,920 --> 00:36:01,680
+Speaker 3:  backs entertainment units that have Bluetooth but the actual
+
+713
+00:36:01,680 --> 00:36:05,560
+Speaker 3:  like lc three Kodak functionality, it's not
+
+714
+00:36:05,560 --> 00:36:06,320
+Speaker 3:  out yet. When's that coming?
+
+715
+00:36:06,840 --> 00:36:09,400
+Speaker 8:  I think it's starting to rollout my latest version of Android supports it
+
+716
+00:36:09,400 --> 00:36:12,440
+Speaker 8:  and there's some earbuds that will get updates for it but it's not so much
+
+717
+00:36:12,440 --> 00:36:16,000
+Speaker 8:  about quality. Like it's about more efficiency and so it's not so much gonna
+
+718
+00:36:16,200 --> 00:36:19,000
+Speaker 8:  like change the game in terms of like you know, like lossless streaming or
+
+719
+00:36:19,000 --> 00:36:21,480
+Speaker 8:  any of that. It's just gonna be more efficient and should work better
+
+720
+00:36:21,770 --> 00:36:23,880
+Speaker 4:  So it'll approve battery life.
+
+721
+00:36:23,990 --> 00:36:25,080
+Speaker 8:  Yeah, stuff like that.
+
+722
+00:36:25,330 --> 00:36:28,960
+Speaker 3:  So Chris just like let's run down the list here. So Sony has l a,
+
+723
+00:36:29,050 --> 00:36:32,920
+Speaker 3:  it tops out at nine 90. You're saying it's unreliable. There's standard
+
+724
+00:36:32,920 --> 00:36:36,880
+Speaker 3:  Bluetooth SBC which tops out at 3 28.
+
+725
+00:36:37,580 --> 00:36:40,880
+Speaker 3:  The fact that we're only at CD quality and I get why people say CD quality
+
+726
+00:36:40,880 --> 00:36:44,400
+Speaker 3:  cuz once you get above it it's very hard for people to hear the difference.
+
+727
+00:36:44,400 --> 00:36:46,320
+Speaker 8:  Like right, I mean most people say that you can't even tell the difference
+
+728
+00:36:46,320 --> 00:36:49,200
+Speaker 8:  between like AAC and CD quality and that's what Apple said for years and
+
+729
+00:36:49,200 --> 00:36:52,800
+Speaker 8:  years and years until suddenly there was spatial audio and and
+
+730
+00:36:52,800 --> 00:36:53,760
+Speaker 8:  lossless on Apple Music.
+
+731
+00:36:54,080 --> 00:36:58,040
+Speaker 3:  But Apple stuff even over wireless, there's no lossless over any wireless
+
+732
+00:36:58,040 --> 00:37:01,320
+Speaker 3:  connection to an Apple product. Right? Right. And even on a phone they kind
+
+733
+00:37:01,320 --> 00:37:04,880
+Speaker 3:  of want you to plug in a different DAC to get lossless out of it. So just
+
+734
+00:37:04,880 --> 00:37:08,400
+Speaker 3:  compare and contrast these, these codex for me, like inside of
+
+735
+00:37:08,400 --> 00:37:11,320
+Speaker 3:  Bluetooth there's a bunch of ways to get audio out
+
+736
+00:37:12,020 --> 00:37:15,840
+Speaker 3:  and most of them are hitting a limit and then
+
+737
+00:37:15,840 --> 00:37:19,560
+Speaker 3:  there's the functionality stuff like or cast pair stuff to any TV you're
+
+738
+00:37:19,560 --> 00:37:23,200
+Speaker 3:  walking by simply there's Apples H one
+
+739
+00:37:23,200 --> 00:37:27,040
+Speaker 3:  and H two chips where they're, they're controlling the connection more
+
+740
+00:37:27,320 --> 00:37:30,520
+Speaker 3:  directly in a proprietary way than no one else has access to. There's fast
+
+741
+00:37:30,520 --> 00:37:34,080
+Speaker 3:  pair and Android. What's left of this standard? Like what's the point?
+
+742
+00:37:35,030 --> 00:37:37,960
+Speaker 8:  I think it's just a case where people just build on top of it and build on
+
+743
+00:37:38,080 --> 00:37:41,760
+Speaker 8:  top of it and build on top of it and CFR they can push it. I mean you've
+
+744
+00:37:41,760 --> 00:37:45,240
+Speaker 8:  also got like spatial audio and all that stuff that's on the AirPods coming
+
+745
+00:37:45,240 --> 00:37:49,160
+Speaker 8:  soon to the pixel buds pro that's already on Samsung earbuds. So let's just
+
+746
+00:37:49,230 --> 00:37:53,160
+Speaker 8:  like how can we build on top of just the core earbuds experience and keep
+
+747
+00:37:53,160 --> 00:37:56,120
+Speaker 8:  selling new pairs? Cuz if they sound great then that's not all that matters.
+
+748
+00:37:56,120 --> 00:37:57,760
+Speaker 8:  Obviously they want to like isn't
+
+749
+00:37:57,760 --> 00:38:01,680
+Speaker 4:  The core experience though kind of crummy Like I, I think
+
+750
+00:38:01,680 --> 00:38:04,680
+Speaker 4:  we, we all make the sacrifice of using these earbuds because they're way
+
+751
+00:38:04,680 --> 00:38:08,600
+Speaker 4:  more convenient and also because everybody got rid of the port to plug
+
+752
+00:38:08,600 --> 00:38:12,240
+Speaker 4:  in regular ear earbuds but they're still kind of crummy. Like we were talking
+
+753
+00:38:12,240 --> 00:38:15,760
+Speaker 4:  about this before we started recording. Anytime I leave my house, if I touch
+
+754
+00:38:15,760 --> 00:38:19,600
+Speaker 4:  the door just right, it'll disconnect my
+
+755
+00:38:19,600 --> 00:38:23,400
+Speaker 4:  earbuds consistently. Right. And for
+
+756
+00:38:23,400 --> 00:38:27,120
+Speaker 4:  years like it has to actually send the audio signal to both
+
+757
+00:38:27,170 --> 00:38:30,720
+Speaker 4:  earbuds because it can't communicate through your body
+
+758
+00:38:30,720 --> 00:38:34,360
+Speaker 4:  because Bluetooth's like biggest problem is dealing with the fact that water
+
+759
+00:38:34,360 --> 00:38:38,080
+Speaker 4:  exists, right? Like it feels like we Bluetooth has a limit and everybody's
+
+760
+00:38:38,080 --> 00:38:41,840
+Speaker 4:  just like we're gonna keep piling on top of the garbage pile because we don't
+
+761
+00:38:41,840 --> 00:38:42,480
+Speaker 4:  have anything else.
+
+762
+00:38:42,800 --> 00:38:45,040
+Speaker 8:  Yeah, I think it's gotten a bit better in that regard. Like I think most
+
+763
+00:38:45,040 --> 00:38:47,960
+Speaker 8:  of the recent earbuds and headphones I reviewed have much fewer cutout to
+
+764
+00:38:47,960 --> 00:38:49,800
+Speaker 8:  them. They used to like there are like parts of the city where I would walk
+
+765
+00:38:49,800 --> 00:38:52,680
+Speaker 8:  down and most stuff from like a few years ago would always drop out and constantly
+
+766
+00:38:52,780 --> 00:38:54,880
+Speaker 8:  cut out. But now it's gotten a lot better.
+
+767
+00:38:54,900 --> 00:38:58,520
+Speaker 4:  The Union square station was like an earbud killer
+
+768
+00:38:58,520 --> 00:38:59,200
+Speaker 4:  for years,
+
+769
+00:38:59,200 --> 00:39:01,680
+Speaker 8:  Right? That and like Bryant Park in a lot of areas,
+
+770
+00:39:01,750 --> 00:39:04,920
+Speaker 7:  I think it's one of the most intriguing things about the standard is that
+
+771
+00:39:04,940 --> 00:39:08,800
+Speaker 7:  you know, the one constant with every standard is that companies
+
+772
+00:39:08,830 --> 00:39:12,560
+Speaker 7:  love to rebrand it to sell you shit, to make it seem like you need
+
+773
+00:39:12,600 --> 00:39:16,440
+Speaker 7:  their proprietary shit to make things work. Even though it's actually a standard
+
+774
+00:39:16,510 --> 00:39:20,200
+Speaker 7:  like H D M I C C or USB versus
+
+775
+00:39:20,200 --> 00:39:23,120
+Speaker 7:  Thunderbolt. But here this is, this is a situation where
+
+776
+00:39:23,710 --> 00:39:27,600
+Speaker 7:  each of these companies is actually improving Bluetooth
+
+777
+00:39:27,600 --> 00:39:31,360
+Speaker 7:  in some way and it's a problem that the standard isn't
+
+778
+00:39:31,360 --> 00:39:35,160
+Speaker 7:  good enough that they are pulling it in all these different
+
+779
+00:39:35,160 --> 00:39:36,400
+Speaker 7:  proprietary directions.
+
+780
+00:39:36,630 --> 00:39:40,560
+Speaker 3:  Yeah, I don't think Apple ever says that AirPods or Bluetooth headphones,
+
+781
+00:39:40,590 --> 00:39:43,120
+Speaker 3:  I think they're over it, right? They're just AirPods, you connect 'em to
+
+782
+00:39:43,120 --> 00:39:46,960
+Speaker 3:  your iPhone and they work great and they pair to iCloud to your Mac and your
+
+783
+00:39:46,960 --> 00:39:50,800
+Speaker 3:  Apple TV and whatever else. You just see Samsung trying to run the same
+
+784
+00:39:51,000 --> 00:39:54,840
+Speaker 3:  playbook. You see Google trying to run the same playbook and underneath
+
+785
+00:39:54,840 --> 00:39:58,320
+Speaker 3:  it all is the sense that okay Bluetooth is a connectivity
+
+786
+00:39:58,720 --> 00:40:02,440
+Speaker 3:  protocol and we can just run whatever Codex and whatever control software
+
+787
+00:40:02,440 --> 00:40:06,320
+Speaker 3:  over that protocol to make the connection more stable. And I do not see
+
+788
+00:40:06,590 --> 00:40:10,400
+Speaker 3:  a ton of investment into making Bluetooth itself better for all the
+
+789
+00:40:10,400 --> 00:40:14,040
+Speaker 3:  devices in the ecosystem to play better together. The way that you honestly
+
+790
+00:40:14,040 --> 00:40:17,840
+Speaker 3:  see it with wifi, you actually do see it with h dmmi
+
+791
+00:40:17,990 --> 00:40:21,920
+Speaker 3:  like when we did the h dmmi spectaculars cuz of HDMI 2.1 and like
+
+792
+00:40:21,920 --> 00:40:25,840
+Speaker 3:  VR R came out and now all the TV support variable refresh and it all, I
+
+793
+00:40:25,840 --> 00:40:29,400
+Speaker 3:  would say it sort of works like it works more than it doesn't in a way that
+
+794
+00:40:29,400 --> 00:40:33,280
+Speaker 3:  Bluetooth, you know, the refrain is it'll be better next year. Then
+
+795
+00:40:33,280 --> 00:40:37,160
+Speaker 3:  there's all the other stuff Bluetooth is supposed to do, like run
+
+796
+00:40:37,160 --> 00:40:40,880
+Speaker 3:  your smart home and form Bluetooth le connections to pair wifi
+
+797
+00:40:40,890 --> 00:40:44,880
+Speaker 3:  devices to your phone and it's fine at that stuff. I think
+
+798
+00:40:44,890 --> 00:40:48,720
+Speaker 3:  in that, in those cases it's a utility, right? You bought a smart
+
+799
+00:40:48,720 --> 00:40:52,320
+Speaker 3:  plug you need to get it into home kit, you can just like wave your phone
+
+800
+00:40:52,320 --> 00:40:55,360
+Speaker 3:  at it and it'll like pick up a Bluetooth connection and pair your smart plug.
+
+801
+00:40:55,580 --> 00:40:59,400
+Speaker 3:  But that's neat. But I fundamentally like Bluetooth as a
+
+802
+00:40:59,640 --> 00:41:03,480
+Speaker 3:  protocol has now been shoved into like this thing that
+
+803
+00:41:03,480 --> 00:41:07,280
+Speaker 3:  headphone makers have to use that they would like to run away from as fast
+
+804
+00:41:07,280 --> 00:41:09,360
+Speaker 3:  as they can or they would like to hide as much as they can.
+
+805
+00:41:09,450 --> 00:41:13,440
+Speaker 7:  If you look back at the last 15 years of Bluetooth and, and I always think
+
+806
+00:41:13,440 --> 00:41:17,320
+Speaker 7:  back to like the Motorola, like HT eight 20 like
+
+807
+00:41:17,320 --> 00:41:21,240
+Speaker 7:  cinnamon bun stereo headphones that I bought my wife.
+
+808
+00:41:21,240 --> 00:41:24,680
+Speaker 7:  Yeah. Which were like the first Bluetooth stereo headphones and I think about
+
+809
+00:41:24,680 --> 00:41:27,640
+Speaker 7:  how shitty those were in so many ways.
+
+810
+00:41:28,540 --> 00:41:32,000
+Speaker 7:  Not like the pairing and the audio quality everything you had to do the
+
+811
+00:41:32,000 --> 00:41:35,640
+Speaker 7:  memorization of like like how many seconds do I hold down which button on
+
+812
+00:41:35,640 --> 00:41:39,560
+Speaker 7:  which side to make them pair properly? And like if I look at every like
+
+813
+00:41:39,560 --> 00:41:43,360
+Speaker 7:  five year span, I wanna say that audio quality and connectivity
+
+814
+00:41:43,820 --> 00:41:47,800
+Speaker 7:  and pairing have improved substantially from like one five year block to
+
+815
+00:41:47,800 --> 00:41:48,080
+Speaker 7:  the next.
+
+816
+00:41:48,080 --> 00:41:51,040
+Speaker 3:  Chris do you think audio quality is improved substantially from one five
+
+817
+00:41:51,040 --> 00:41:54,080
+Speaker 3:  of your block to the next? I think this is like the heart of what we're kind
+
+818
+00:41:54,080 --> 00:41:56,920
+Speaker 3:  of talking about here is yeah sort of
+
+819
+00:41:56,990 --> 00:42:00,680
+Speaker 8:  It's easy to fall down a well of like what matters most like the Kodak or
+
+820
+00:42:00,680 --> 00:42:03,960
+Speaker 8:  like the mastering of a song like Apple even has their own like custom mastering
+
+821
+00:42:03,960 --> 00:42:07,520
+Speaker 8:  of songs. They've got this whole program called Mastered for iTunes or not
+
+822
+00:42:07,520 --> 00:42:10,680
+Speaker 8:  iTunes anymore but Apple Music. And so they have like their own files of
+
+823
+00:42:10,680 --> 00:42:14,560
+Speaker 8:  songs that you don't get on Spotify from Amazon. So like is that what sounds
+
+824
+00:42:14,560 --> 00:42:18,120
+Speaker 8:  good or is it the Kodak or is it the he headphone tuning or what on the whole
+
+825
+00:42:18,120 --> 00:42:21,320
+Speaker 8:  I think they sound better than like five years ago. Like if you compare something
+
+826
+00:42:21,320 --> 00:42:25,000
+Speaker 8:  like the SONY thousand XM five versus the thousand XM three or
+
+827
+00:42:25,000 --> 00:42:28,280
+Speaker 8:  twos. Yeah there's been some improvements. I mean it's a slow incline. I
+
+828
+00:42:28,280 --> 00:42:31,600
+Speaker 4:  Mean I've got the the XM threes or the the noise
+
+829
+00:42:31,920 --> 00:42:35,880
+Speaker 4:  canceling ones to the 1000 XM threes.
+
+830
+00:42:35,880 --> 00:42:36,880
+Speaker 4:  Is that what they were called?
+
+831
+00:42:36,910 --> 00:42:38,200
+Speaker 8:  Love the name. Yeah.
+
+832
+00:42:38,360 --> 00:42:42,160
+Speaker 4:  Would I really notice a difference not in the noise
+
+833
+00:42:42,160 --> 00:42:45,960
+Speaker 4:  canceling but in just like listening to music would I really notice a
+
+834
+00:42:45,990 --> 00:42:47,000
+Speaker 4:  a big difference on the
+
+835
+00:42:47,000 --> 00:42:50,040
+Speaker 8:  Fives? Depends how much of an audio person you are. I think that that's part
+
+836
+00:42:50,040 --> 00:42:52,520
+Speaker 8:  of it too. Like most people have like the first, well not most people, like
+
+837
+00:42:52,520 --> 00:42:55,320
+Speaker 8:  a lot of people still have it their first pair of AirPods and they love those
+
+838
+00:42:55,350 --> 00:42:58,120
+Speaker 3:  Spoken like a true audio person Chris.
+
+839
+00:42:58,560 --> 00:42:59,200
+Speaker 8:  Exactly.
+
+840
+00:42:59,230 --> 00:43:02,480
+Speaker 4:  I remember here being like it's CD quality, not yet. Yeah
+
+841
+00:43:02,480 --> 00:43:06,200
+Speaker 3:  And he's like yeah how smart are your ears? Crayons. Exactly. Really
+
+842
+00:43:06,200 --> 00:43:06,480
+Speaker 3:  saying
+
+843
+00:43:07,310 --> 00:43:08,400
+Speaker 4:  Very dumb.
+
+844
+00:43:09,590 --> 00:43:13,120
+Speaker 3:  I think there's that but it's also just you've got whatever the artist
+
+845
+00:43:13,360 --> 00:43:16,480
+Speaker 3:  made, you've got music, then you've gotta compress it to deliver it over
+
+846
+00:43:16,480 --> 00:43:19,880
+Speaker 3:  a streaming service because most of them are still not lossless. Then you've
+
+847
+00:43:19,880 --> 00:43:23,200
+Speaker 3:  gotta compress it again to send it to your headphones and then your headphones
+
+848
+00:43:23,200 --> 00:43:26,920
+Speaker 3:  have to do a bunch of work to like reproduce the sound. And that chain is
+
+849
+00:43:26,920 --> 00:43:30,440
+Speaker 3:  like, I agree with you. It's hard to isolate it Chris, but it's also this
+
+850
+00:43:30,440 --> 00:43:33,960
+Speaker 3:  is, this is the last thing Bluetooth is actually in charge of, right? Right.
+
+851
+00:43:34,160 --> 00:43:38,080
+Speaker 3:  Like I don't think most people want to use like Bluetooth
+
+852
+00:43:38,110 --> 00:43:41,680
+Speaker 3:  mice like right like any, like if you're a gamer, a Bluetooth
+
+853
+00:43:41,680 --> 00:43:45,640
+Speaker 3:  master's, I'm not gonna do it for you. Like they could not make this protocol
+
+854
+00:43:46,070 --> 00:43:49,800
+Speaker 3:  fast enough or reliable enough for that purpose. Right?
+
+855
+00:43:49,810 --> 00:43:53,720
+Speaker 3:  If I was like I'm gonna run my smart home on Bluetooth. Most vir cast listeners
+
+856
+00:43:53,720 --> 00:43:56,600
+Speaker 3:  know that as there's like a suicidal idea. Like you shouldn't just
+
+857
+00:43:56,600 --> 00:43:56,960
+Speaker 4:  Don't do that,
+
+858
+00:43:58,240 --> 00:44:01,880
+Speaker 3:  Right? Bluetooth in cars is whole like today,
+
+859
+00:44:01,880 --> 00:44:05,720
+Speaker 3:  like the dumbest thing, I was sitting downstairs, my wife got in our car
+
+860
+00:44:05,720 --> 00:44:09,200
+Speaker 3:  and drove away and my phone just paired to the car and the phone call I was
+
+861
+00:44:09,200 --> 00:44:13,080
+Speaker 3:  on transferred to the car, she drove away, right? It's still
+
+862
+00:44:13,080 --> 00:44:16,960
+Speaker 3:  just like dumb for that stuff in like hilarious ways. Google
+
+863
+00:44:16,960 --> 00:44:20,600
+Speaker 3:  Maps is still faking phone calls to send navigation guidance to
+
+864
+00:44:20,600 --> 00:44:24,560
+Speaker 3:  car stereos across the country because Bluetooth are like too stupid to
+
+865
+00:44:24,560 --> 00:44:28,480
+Speaker 3:  communicate well in all those scenarios. That's weird. So what
+
+866
+00:44:28,480 --> 00:44:32,440
+Speaker 3:  you're left with like the innovation appears to be in music and they are
+
+867
+00:44:32,440 --> 00:44:36,320
+Speaker 3:  just up against hard bit rate constraints that make it
+
+868
+00:44:36,320 --> 00:44:40,200
+Speaker 3:  impossible to do the next thing. And so you get, I
+
+869
+00:44:40,200 --> 00:44:43,160
+Speaker 3:  think Chris, you and I have laughed at this kind of like yo-yo from Apple
+
+870
+00:44:43,560 --> 00:44:47,160
+Speaker 3:  where last year they're like yep we're outta space and Bluetooth, wink wink,
+
+871
+00:44:47,200 --> 00:44:50,800
+Speaker 3:  we're do some Apple stuff and this year they're like, wait actually special
+
+872
+00:44:50,800 --> 00:44:54,240
+Speaker 3:  audio's a thing we might not need the room. Bluetooth is just fine because
+
+873
+00:44:54,350 --> 00:44:58,160
+Speaker 3:  I think they know if AirPods ditch Bluetooth, that's like a nuclear
+
+874
+00:44:58,160 --> 00:45:02,080
+Speaker 3:  move for them but people still need AirPods to connect to their Windows PCs
+
+875
+00:45:02,080 --> 00:45:02,360
+Speaker 3:  or whatever.
+
+876
+00:45:02,550 --> 00:45:05,120
+Speaker 8:  Yeah. So like what happens next year they have some kinda like custom code
+
+877
+00:45:05,120 --> 00:45:07,720
+Speaker 8:  decorator platform that they use like on top of Bluetooth or like beside
+
+878
+00:45:07,720 --> 00:45:10,640
+Speaker 8:  it I think like maybe last year that person spoke out of turn and then all
+
+879
+00:45:10,640 --> 00:45:13,840
+Speaker 8:  of a sudden this year there were rumors of the AirPods Pro two having some
+
+880
+00:45:13,840 --> 00:45:17,080
+Speaker 8:  new Kodak or like Lossless streaming that didn't happen. So now all of a
+
+881
+00:45:17,080 --> 00:45:19,120
+Speaker 8:  sudden they're like, yeah, you know what, Bluetooth works great, we love
+
+882
+00:45:19,120 --> 00:45:23,000
+Speaker 8:  it. Good, good times when the AirPods max two come along And
+
+883
+00:45:23,000 --> 00:45:26,840
+Speaker 8:  if those still use Play-Doh Bluetooth and aac, I'll be kind of
+
+884
+00:45:26,840 --> 00:45:30,360
+Speaker 8:  surprised cuz like two generations of $500 headphones that
+
+885
+00:45:30,600 --> 00:45:34,040
+Speaker 8:  still stick to this old very buggy standard that we've all talked about here
+
+886
+00:45:34,040 --> 00:45:37,400
+Speaker 8:  is not the best thing. So we'll see what happens I guess next year.
+
+887
+00:45:37,400 --> 00:45:40,440
+Speaker 3:  Happy holidays everyone. Bluetooth will be better next year.
+
+888
+00:45:43,130 --> 00:45:46,640
+Speaker 3:  We gotta take a break. We're right back with more of the Vergecast Bluetooth
+
+889
+00:45:46,640 --> 00:45:47,600
+Speaker 3:  holiday spectacular.
+
+890
+00:46:14,420 --> 00:46:18,360
+Speaker 12:  For 120 years Cadillac has been an industry leader in luxury
+
+891
+00:46:18,360 --> 00:46:22,320
+Speaker 12:  vehicles. Now they're redefining their future, starting with the all
+
+892
+00:46:22,640 --> 00:46:26,600
+Speaker 12:  electric lyrics. U v Cadillac's first ever electric vehicle isn't
+
+893
+00:46:26,600 --> 00:46:30,160
+Speaker 12:  a gasoline powered model with an electric system swapped in. It's something
+
+894
+00:46:30,160 --> 00:46:33,880
+Speaker 12:  completely different, built from the ground up to be truly original.
+
+895
+00:46:33,980 --> 00:46:37,880
+Speaker 12:  The Cadillac lyric pairs high performance luxury with the latest automotive
+
+896
+00:46:37,880 --> 00:46:41,280
+Speaker 12:  technology including available super crews. The first true
+
+897
+00:46:41,280 --> 00:46:45,200
+Speaker 12:  hands-free driver assistance technology of its kind. It comes with
+
+898
+00:46:45,200 --> 00:46:49,160
+Speaker 12:  an easy to use 33 inch diagonal advanced L E D screen and the
+
+899
+00:46:49,160 --> 00:46:52,480
+Speaker 12:  lyrics. LTM Battery has a balanced weight distribution and lower center
+
+900
+00:46:52,480 --> 00:46:56,240
+Speaker 12:  of gravity that provides a sporty, responsive, and spirited drive
+
+901
+00:46:56,370 --> 00:47:00,320
+Speaker 12:  as you travel down long highways and city streets. The 2023
+
+902
+00:47:00,320 --> 00:47:04,120
+Speaker 12:  lyric rear wheel drive offers an EPA estimated 312 miles of range
+
+903
+00:47:04,120 --> 00:47:07,280
+Speaker 12:  on a full charge. Actual lyric range will vary based on several factors
+
+904
+00:47:07,280 --> 00:47:10,800
+Speaker 12:  including temperature, terrain, battery, age loading, use and maintenance.
+
+905
+00:47:10,910 --> 00:47:14,640
+Speaker 12:  Always pay attention while driving and using super crews. Do not use a handheld
+
+906
+00:47:14,640 --> 00:47:17,920
+Speaker 12:  device requires active SuperCrew plan or trial terms apply. Visit
+
+907
+00:47:18,200 --> 00:47:22,160
+Speaker 12:  cadillac.com/super crewse for compatible roads and full details with the
+
+908
+00:47:22,320 --> 00:47:26,240
+Speaker 12:  Cadillac lyric and all electric future can be yours. 2023 Lyric
+
+909
+00:47:26,240 --> 00:47:28,960
+Speaker 12:  orders. Our full C dealer for 2024 availability
+
+910
+00:47:29,080 --> 00:47:29,640
+Speaker 13:  Details.
+
+911
+00:47:32,600 --> 00:47:36,390
+Speaker 14:  My favorite story this year was the cut cover story
+
+912
+00:47:36,520 --> 00:47:40,110
+Speaker 14:  on Megan Markle by Allison p Davis. I have read
+
+913
+00:47:40,710 --> 00:47:44,430
+Speaker 14:  probably a zillion pieces about Megan Markle that hardly told me anything
+
+914
+00:47:44,460 --> 00:47:48,390
+Speaker 14:  I didn't know already. And Allison who's really I think one of the
+
+915
+00:47:48,390 --> 00:47:52,310
+Speaker 14:  best profilers writing profiles right now, just did a
+
+916
+00:47:52,310 --> 00:47:56,030
+Speaker 14:  really impressive job painting a picture of what it is actually like to
+
+917
+00:47:56,030 --> 00:47:59,270
+Speaker 14:  be her or even in her presence right now and how sort of
+
+918
+00:47:59,920 --> 00:48:03,910
+Speaker 14:  weirdly normal but also weirdly abnormal it is
+
+919
+00:48:03,910 --> 00:48:07,350
+Speaker 14:  to be her. And it was just one of those pieces that I wanted to put directly
+
+920
+00:48:07,420 --> 00:48:11,350
+Speaker 14:  into my veins. David Haskell editor-in-chief
+
+921
+00:48:11,350 --> 00:48:14,830
+Speaker 14:  the other day was saying how the magazine just feels so alive.
+
+922
+00:48:14,970 --> 00:48:18,550
+Speaker 14:  And that really is very true. As soon as we're bored of something, we
+
+923
+00:48:18,680 --> 00:48:22,310
+Speaker 14:  do something else and try something else and it's just
+
+924
+00:48:22,420 --> 00:48:25,670
+Speaker 14:  a really exciting place to work and also to
+
+925
+00:48:25,860 --> 00:48:27,190
+Speaker 14:  experience as a reader.
+
+926
+00:48:27,820 --> 00:48:31,470
+Speaker 13:  That's Alexis Sword Law. The deputy editor of New York
+
+927
+00:48:31,710 --> 00:48:35,670
+Speaker 13:  Magazine. Get stories like Megan of Montecito and everything else,
+
+928
+00:48:35,670 --> 00:48:38,590
+Speaker 13:  New York for up to 70% off through the end of the year.
+
+929
+00:48:39,260 --> 00:48:43,150
+Speaker 13:  Head to ny mag.com/holiday and
+
+930
+00:48:43,150 --> 00:48:46,710
+Speaker 13:  you'll also get our editor approved tote bag plus a set of limited
+
+931
+00:48:46,710 --> 00:48:49,550
+Speaker 13:  edition stickers with any annual subscription.
+
+932
+00:48:58,750 --> 00:49:02,030
+Speaker 3:  We're back. So we're onto our next segment of the Bluetooth holiday spectacular.
+
+933
+00:49:02,390 --> 00:49:05,990
+Speaker 3:  We're gonna interview Dr. Mike Foley, who was the CEO
+
+934
+00:49:05,990 --> 00:49:09,670
+Speaker 3:  and executive director of the Bluetooth sig with me on that.
+
+935
+00:49:09,670 --> 00:49:12,590
+Speaker 3:  Alex Kranz here. Hey Alex, is she here?
+
+936
+00:49:13,840 --> 00:49:16,910
+Speaker 3:  Oh, are you on the right microphones? No,
+
+937
+00:49:17,380 --> 00:49:20,750
+Speaker 3:  yeah, you're in your, you're you're using your car's mic and speakers right
+
+938
+00:49:20,750 --> 00:49:21,790
+Speaker 3:  now. That's what's happening.
+
+939
+00:49:22,020 --> 00:49:23,990
+Speaker 15:  I have no idea the switch. It's
+
+940
+00:49:23,990 --> 00:49:27,790
+Speaker 3:  Fine. The car sounds worse than ever. We're gonna definitely gonna talk
+
+941
+00:49:27,790 --> 00:49:31,670
+Speaker 3:  to Mike Foley about why the car sounds bad that's coming up. Chris
+
+942
+00:49:31,670 --> 00:49:35,510
+Speaker 3:  Welch is also here. Hey Chris. Hey. Hey Chris. Do me a favor.
+
+943
+00:49:35,640 --> 00:49:38,710
+Speaker 3:  In the spirit of the holidays, describe to people what the Bluetooth sig
+
+944
+00:49:38,710 --> 00:49:39,470
+Speaker 3:  is. So
+
+945
+00:49:39,470 --> 00:49:42,710
+Speaker 8:  The Bluetooth sig SIG stands for special Interest group is a collection of
+
+946
+00:49:42,710 --> 00:49:46,390
+Speaker 8:  all these companies from Microsoft, from Intel, from Apple that kind of like,
+
+947
+00:49:46,390 --> 00:49:49,710
+Speaker 8:  you know, guide the way and choose what goes where and what to focus on for
+
+948
+00:49:49,710 --> 00:49:50,750
+Speaker 8:  each version of Bluetooth spec.
+
+949
+00:49:51,180 --> 00:49:54,750
+Speaker 3:  I always think of the people that run these trade groups as being
+
+950
+00:49:54,770 --> 00:49:58,750
+Speaker 3:  politicians more than engineers. What should people be listening for
+
+951
+00:49:59,160 --> 00:50:00,830
+Speaker 3:  in our conversation with Dr.
+
+952
+00:50:00,830 --> 00:50:04,270
+Speaker 8:  Foley? Yeah, it does seem like a lot of politics and a lot of just, just
+
+953
+00:50:04,270 --> 00:50:07,750
+Speaker 8:  sitting down and talking and trying to just find some common balance between
+
+954
+00:50:07,750 --> 00:50:10,510
+Speaker 8:  like what the Bluetooth sig wants and what these companies want. Be it Samsung
+
+955
+00:50:10,560 --> 00:50:14,230
+Speaker 8:  or Apple or whoever to kind of build out features or include them in the
+
+956
+00:50:14,230 --> 00:50:16,710
+Speaker 8:  spec. Cause we talked about, you know, like Apple and Samsung having their
+
+957
+00:50:16,710 --> 00:50:20,190
+Speaker 8:  own kind of side things on top of Bluetooth. And so you'll hear kind of what
+
+958
+00:50:20,190 --> 00:50:23,190
+Speaker 8:  that tussle entails about like when companies wanna keep things for themselves
+
+959
+00:50:23,240 --> 00:50:26,310
+Speaker 8:  or just bring them over to the spec in general at wide. And so it's a pretty
+
+960
+00:50:26,470 --> 00:50:29,160
+Speaker 8:  interesting conversation. Mike's been gone for a while, but even back when
+
+961
+00:50:29,160 --> 00:50:31,640
+Speaker 8:  he was there you can hear that there was a lot of fascinating stuff going
+
+962
+00:50:31,640 --> 00:50:31,880
+Speaker 8:  on.
+
+963
+00:50:31,910 --> 00:50:34,880
+Speaker 3:  Yeah, and honestly the, the current director of the Bluetooth said couldn't
+
+964
+00:50:34,880 --> 00:50:37,560
+Speaker 3:  do it cuz it's the holidays. But I would say, I said this to Chris right
+
+965
+00:50:37,560 --> 00:50:41,480
+Speaker 3:  after this conversation that having the former person is actually
+
+966
+00:50:41,480 --> 00:50:44,320
+Speaker 3:  better cuz he was raw, he was not shy, he
+
+967
+00:50:44,320 --> 00:50:45,440
+Speaker 8:  Was very raw.
+
+968
+00:50:45,680 --> 00:50:49,560
+Speaker 3:  Yeah. So this is a great conversation again, truly
+
+969
+00:50:49,580 --> 00:50:53,400
+Speaker 3:  the the holiday spirit comes through in every moment of talking to Dr.
+
+970
+00:50:53,400 --> 00:50:57,120
+Speaker 3:  Mike Foley, former CEO and executive director of the Bluetooth
+
+971
+00:50:57,280 --> 00:50:58,480
+Speaker 3:  sig. Let's run that interview.
+
+972
+00:51:04,530 --> 00:51:08,320
+Speaker 3:  Dr. Michael Foley. You are the former executive director and
+
+973
+00:51:08,320 --> 00:51:12,160
+Speaker 3:  CEO of the Bluetooth sig. I'm currently the CEO and founder of
+
+974
+00:51:12,160 --> 00:51:14,840
+Speaker 3:  I Y S. Welcome to the holiday. Spectacular.
+
+975
+00:51:14,990 --> 00:51:16,880
+Speaker 16:  Well thank you. It's a pleasure to be here.
+
+976
+00:51:17,150 --> 00:51:21,080
+Speaker 3:  I can't tell you how excited I am to talk to you about Bluetooth in this
+
+977
+00:51:21,080 --> 00:51:24,960
+Speaker 3:  the holiday season. Let's start, you were at the SIG for
+
+978
+00:51:24,990 --> 00:51:28,360
+Speaker 3:  a a while. From 2004 to 2012, you let it,
+
+979
+00:51:28,580 --> 00:51:32,560
+Speaker 3:  you brought Bluetooth 3.0 to market. You let a
+
+980
+00:51:32,560 --> 00:51:36,360
+Speaker 3:  merger with another standards body called the library forum. Tell me,
+
+981
+00:51:36,360 --> 00:51:40,240
+Speaker 3:  in your role is the person who leads the standard, what's the
+
+982
+00:51:40,440 --> 00:51:43,240
+Speaker 3:  structure of your day? Do you wake up and say, I gotta take over the library
+
+983
+00:51:43,240 --> 00:51:47,040
+Speaker 3:  of people or they're gonna come get us? Do you do politics all day?
+
+984
+00:51:47,240 --> 00:51:48,080
+Speaker 3:  What is that tribe like?
+
+985
+00:51:48,490 --> 00:51:52,200
+Speaker 16:  It, it's interesting. I looked at kind of my role within the
+
+986
+00:51:52,400 --> 00:51:56,160
+Speaker 16:  SIG as kind of three prongs. One, I led the
+
+987
+00:51:56,160 --> 00:51:59,840
+Speaker 16:  organization, you know, we had a team at the time of about 60
+
+988
+00:51:59,840 --> 00:52:03,680
+Speaker 16:  people that worked for the Bluetooth sig. So I led that
+
+989
+00:52:03,680 --> 00:52:07,600
+Speaker 16:  group in that group, did the websites, did the tools
+
+990
+00:52:07,600 --> 00:52:11,560
+Speaker 16:  for Bluetooth, helped with members create the specifications
+
+991
+00:52:11,560 --> 00:52:15,120
+Speaker 16:  and publish them. So that in and of itself was a fairly
+
+992
+00:52:15,300 --> 00:52:19,120
+Speaker 16:  big role. And then kind of the second pillar
+
+993
+00:52:19,660 --> 00:52:23,480
+Speaker 16:  was evangelizing the technology and working with
+
+994
+00:52:23,480 --> 00:52:26,440
+Speaker 16:  member companies on having them
+
+995
+00:52:26,680 --> 00:52:30,440
+Speaker 16:  implement Bluetooth in their products. Cuz remember when I started
+
+996
+00:52:30,440 --> 00:52:34,320
+Speaker 16:  this, there were very few products that had Bluetooth in them.
+
+997
+00:52:34,850 --> 00:52:38,760
+Speaker 16:  So getting Bluetooth just into products and being kind of a real
+
+998
+00:52:38,760 --> 00:52:42,680
+Speaker 16:  technology was key at that point in time.
+
+999
+00:52:42,680 --> 00:52:46,200
+Speaker 16:  It's not like today we're 5 billion devices a year shipped with Bluetooth.
+
+1000
+00:52:46,230 --> 00:52:50,080
+Speaker 16:  I mean there was 50,000, a hundred thousand very small numbers at
+
+1001
+00:52:50,080 --> 00:52:53,800
+Speaker 16:  that time. So it was a different beast. And then the other
+
+1002
+00:52:53,800 --> 00:52:57,080
+Speaker 16:  one was more marketing and PR
+
+1003
+00:52:57,380 --> 00:53:01,240
+Speaker 16:  and analyst relations to promote the technology
+
+1004
+00:53:01,310 --> 00:53:05,120
+Speaker 16:  within the industry, but also to the consumer
+
+1005
+00:53:05,380 --> 00:53:09,240
+Speaker 16:  and try to convince them that the scenarios
+
+1006
+00:53:09,440 --> 00:53:13,400
+Speaker 16:  that Bluetooth was enabling was good for them, better for
+
+1007
+00:53:13,400 --> 00:53:17,320
+Speaker 16:  them. So that we'd create consumer demand to try to get companies to
+
+1008
+00:53:17,320 --> 00:53:21,240
+Speaker 16:  adopt the technology into them as well. So I kinda looked at it
+
+1009
+00:53:21,240 --> 00:53:23,040
+Speaker 16:  as three key areas.
+
+1010
+00:53:23,580 --> 00:53:27,560
+Speaker 3:  You led the Bluetooth sig in what you're describing as a pivotal
+
+1011
+00:53:27,560 --> 00:53:31,520
+Speaker 3:  moment. I would agree it was a pivotal moment. It's before phones were everywhere.
+
+1012
+00:53:31,520 --> 00:53:35,400
+Speaker 3:  It was certainly before wireless headphones were everywhere. We have a quote
+
+1013
+00:53:35,400 --> 00:53:39,280
+Speaker 3:  here from you in 2005 when you gave an interview and gadget where I
+
+1014
+00:53:39,280 --> 00:53:41,960
+Speaker 3:  used to work. The quote is probably next year to be able to stream music
+
+1015
+00:53:41,960 --> 00:53:45,640
+Speaker 3:  to your car stereo from your phone. I mean that's like incredible,
+
+1016
+00:53:45,640 --> 00:53:49,440
+Speaker 3:  right? We're far beyond that. But in that time, 2005,
+
+1017
+00:53:49,440 --> 00:53:53,120
+Speaker 3:  2006, it wasn't clear that Bluetooth was gonna win, right? There was like
+
+1018
+00:53:53,120 --> 00:53:56,880
+Speaker 3:  a competitive dynamic between Bluetooth, other wireless standards with
+
+1019
+00:53:56,880 --> 00:54:00,520
+Speaker 3:  wifi for a while, which I thought was always very fascinating. And then now
+
+1020
+00:54:00,550 --> 00:54:03,880
+Speaker 3:  with other things like thread and matter, there was a moment when Bluetooth
+
+1021
+00:54:04,080 --> 00:54:07,680
+Speaker 3:  was competitive for like smart home networking. How did you think about where
+
+1022
+00:54:07,680 --> 00:54:11,440
+Speaker 3:  Bluetooth was in the market in 2005 and where do you think it is now?
+
+1023
+00:54:11,830 --> 00:54:15,520
+Speaker 16:  Well, you're right, it's hard to believe back then. But there
+
+1024
+00:54:15,520 --> 00:54:19,440
+Speaker 16:  was a real question whether Bluetooth would ever be adopted
+
+1025
+00:54:19,440 --> 00:54:23,360
+Speaker 16:  or used in products. And that was highlighted by
+
+1026
+00:54:23,470 --> 00:54:27,160
+Speaker 16:  I, I worked for Microsoft before I joined the Bluetooth
+
+1027
+00:54:27,400 --> 00:54:31,240
+Speaker 16:  sig. And one of the first things I did was an analyst
+
+1028
+00:54:31,240 --> 00:54:35,120
+Speaker 16:  who were to get some feedback on where analysts thought the technology and
+
+1029
+00:54:35,120 --> 00:54:39,000
+Speaker 16:  try to convince them where it was going was a good idea and the like.
+
+1030
+00:54:39,100 --> 00:54:43,000
+Speaker 16:  And the first call I had with an analyst, his first
+
+1031
+00:54:43,320 --> 00:54:47,080
+Speaker 16:  question was, you know, how stupid are you? You le left a great
+
+1032
+00:54:47,080 --> 00:54:50,960
+Speaker 16:  job at Microsoft to run this technology that will be dead in a
+
+1033
+00:54:50,960 --> 00:54:54,920
+Speaker 16:  year. You know? And so that that made me think a little
+
+1034
+00:54:54,920 --> 00:54:58,640
+Speaker 16:  bit, well may maybe I'm not that smart, you know, maybe this wasn't such
+
+1035
+00:54:58,640 --> 00:55:02,000
+Speaker 16:  a good idea, but the scenarios that Bluetooth
+
+1036
+00:55:02,340 --> 00:55:05,960
+Speaker 16:  was enabling I thought were compelling and so
+
+1037
+00:55:06,020 --> 00:55:09,840
+Speaker 16:  did many other people. So convincing, you know, companies
+
+1038
+00:55:09,840 --> 00:55:13,560
+Speaker 16:  to adopt those and things was very important. And
+
+1039
+00:55:13,560 --> 00:55:17,400
+Speaker 16:  Bluetooth had, you know, some technical features, some other
+
+1040
+00:55:17,400 --> 00:55:20,760
+Speaker 16:  features that made it appealing for those scenarios and
+
+1041
+00:55:20,830 --> 00:55:24,280
+Speaker 16:  better than the other technologies for the initial
+
+1042
+00:55:25,200 --> 00:55:28,720
+Speaker 16:  scenarios that Bluetooth was used. You mentioned wifi and
+
+1043
+00:55:28,790 --> 00:55:32,560
+Speaker 16:  WiFi's, you know, at the time. Excellent and still excellent
+
+1044
+00:55:32,560 --> 00:55:35,920
+Speaker 16:  networking technology and it's used for other things now as well.
+
+1045
+00:55:36,260 --> 00:55:40,120
+Speaker 16:  But you know, home routers and laptops, networking was
+
+1046
+00:55:40,380 --> 00:55:44,280
+Speaker 16:  its killer scenario, if you will. And at least at
+
+1047
+00:55:44,380 --> 00:55:48,160
+Speaker 16:  the time, the 2004 56 timeframe,
+
+1048
+00:55:48,450 --> 00:55:52,080
+Speaker 16:  it really wasn't appropriate for, you know, the
+
+1049
+00:55:52,310 --> 00:55:56,080
+Speaker 16:  earpiece, the headset that you mentioned purely because
+
+1050
+00:55:56,250 --> 00:55:59,720
+Speaker 16:  of power requirements, latency as well, but
+
+1051
+00:56:00,360 --> 00:56:04,120
+Speaker 16:  primarily power and and cost. And so Bluetooth really
+
+1052
+00:56:04,120 --> 00:56:08,000
+Speaker 16:  was a good technology for those initial scenarios.
+
+1053
+00:56:08,000 --> 00:56:11,800
+Speaker 16:  And then of course we were able to keep adapting it and
+
+1054
+00:56:11,800 --> 00:56:15,640
+Speaker 16:  tweaking it for other use cases. And now today,
+
+1055
+00:56:15,880 --> 00:56:19,760
+Speaker 16:  which this kind of second wave of scenarios really started
+
+1056
+00:56:19,760 --> 00:56:22,960
+Speaker 16:  with Bluetooth four, Bluetooth low energy,
+
+1057
+00:56:23,240 --> 00:56:27,080
+Speaker 16:  which was the last speck that came out while I was
+
+1058
+00:56:27,080 --> 00:56:30,760
+Speaker 16:  running the organization. And that's really enabled Bluetooth to go
+
+1059
+00:56:30,790 --> 00:56:34,200
+Speaker 16:  into the health and fitness devices, the sensors
+
+1060
+00:56:34,310 --> 00:56:38,200
+Speaker 16:  that are just all sorts of new devices that
+
+1061
+00:56:38,200 --> 00:56:41,560
+Speaker 16:  really, even in the 2004, 2005
+
+1062
+00:56:41,560 --> 00:56:45,400
+Speaker 16:  timeframe, even Bluetooth wasn't properly suited for
+
+1063
+00:56:45,400 --> 00:56:49,240
+Speaker 16:  at that point because it wasn't low enough energy for these sensor type
+
+1064
+00:56:49,240 --> 00:56:53,200
+Speaker 16:  devices So, you know, once we got a foothold into the market, we were
+
+1065
+00:56:53,200 --> 00:56:57,160
+Speaker 16:  able to expand and improve the technology for more
+
+1066
+00:56:57,160 --> 00:56:58,040
+Speaker 16:  and more use cases.
+
+1067
+00:56:58,630 --> 00:57:02,560
+Speaker 3:  Tell me what that sales pitch was like, you go into Apple or
+
+1068
+00:57:02,560 --> 00:57:06,320
+Speaker 3:  Samsung or Dell or whatever, they're evaluating
+
+1069
+00:57:06,320 --> 00:57:10,080
+Speaker 3:  their range of standards to support. Do you have like a PowerPoint deck
+
+1070
+00:57:10,160 --> 00:57:13,520
+Speaker 3:  where there, do you do bribes under the table? What does that sales job look
+
+1071
+00:57:13,520 --> 00:57:14,840
+Speaker 3:  like? You take 'em golfing.
+
+1072
+00:57:15,350 --> 00:57:16,480
+Speaker 16:  I did that, yes,
+
+1073
+00:57:18,810 --> 00:57:22,680
+Speaker 16:  because I'm a golfer as as well. So it, there were
+
+1074
+00:57:22,680 --> 00:57:26,560
+Speaker 16:  some rounds of golf involved, but more times you would, you'd
+
+1075
+00:57:26,560 --> 00:57:30,440
+Speaker 16:  go meet with companies and yes, you'd have a PowerPoint
+
+1076
+00:57:30,440 --> 00:57:33,880
+Speaker 16:  deck that you would present. You know, the, the numbers, the
+
+1077
+00:57:33,880 --> 00:57:37,680
+Speaker 16:  faxes, you saw 'em and lots of conversations with them
+
+1078
+00:57:37,680 --> 00:57:41,200
+Speaker 16:  and gonna typically one meeting and one, you know,
+
+1079
+00:57:41,200 --> 00:57:44,920
+Speaker 16:  PowerPoint deck wouldn't be enough to, to close the deal. So
+
+1080
+00:57:44,920 --> 00:57:48,840
+Speaker 16:  there was a journey and they developed relationships and friendships
+
+1081
+00:57:49,110 --> 00:57:52,800
+Speaker 16:  with these, you know, people that are building the products
+
+1082
+00:57:52,800 --> 00:57:56,440
+Speaker 16:  and go from there. One meeting that stands out vividly
+
+1083
+00:57:56,470 --> 00:58:00,400
+Speaker 16:  with that was as going into Sony and trying
+
+1084
+00:58:00,400 --> 00:58:04,080
+Speaker 16:  to convince their TV team to use Bluetooth for
+
+1085
+00:58:04,350 --> 00:58:08,120
+Speaker 16:  your remote control, you know, the, at that time they were
+
+1086
+00:58:08,120 --> 00:58:11,440
+Speaker 16:  mainly IR based, but Sony was
+
+1087
+00:58:11,830 --> 00:58:15,400
+Speaker 16:  promoter or a proponent of using a different
+
+1088
+00:58:15,650 --> 00:58:19,520
+Speaker 16:  RF technology for the remote control. So it's a,
+
+1089
+00:58:19,760 --> 00:58:23,560
+Speaker 16:  it wasn't a very easy sell or, or meeting and stuff, but you,
+
+1090
+00:58:23,560 --> 00:58:27,520
+Speaker 16:  you start that way and go from there. And now Bluetooth is
+
+1091
+00:58:27,520 --> 00:58:31,000
+Speaker 16:  used in the vast majority of TV remote
+
+1092
+00:58:31,000 --> 00:58:34,520
+Speaker 16:  controls. You know, it didn't happen overnight but over time and
+
+1093
+00:58:34,520 --> 00:58:37,960
+Speaker 16:  continuing and you know, they told me the couple of things that were really
+
+1094
+00:58:37,960 --> 00:58:41,360
+Speaker 16:  needed and the spec before they could use 'em in a TV remote. So then you
+
+1095
+00:58:41,360 --> 00:58:45,080
+Speaker 16:  fix the spec to address those issues then
+
+1096
+00:58:45,140 --> 00:58:47,040
+Speaker 16:  you know, eventually it gets used there
+
+1097
+00:58:47,340 --> 00:58:50,400
+Speaker 3:  All. If you're gonna talk about Sony and Bluetooth, I gotta throw to Chris
+
+1098
+00:58:50,400 --> 00:58:53,120
+Speaker 3:  here so we can talk about some Codex stuff. Chris.
+
+1099
+00:58:53,310 --> 00:58:57,160
+Speaker 8:  Yeah, I guess, I mean I guess you were kind of gone before they
+
+1100
+00:58:57,160 --> 00:59:00,680
+Speaker 8:  came out with ldac and the whole spec to raise the bit rates,
+
+1101
+00:59:00,980 --> 00:59:04,480
+Speaker 8:  but I guess like what part of that did you play? Did you see it coming and
+
+1102
+00:59:04,480 --> 00:59:07,720
+Speaker 8:  like how do you feel now about like where things are headed? You've got Samsung,
+
+1103
+00:59:08,320 --> 00:59:11,320
+Speaker 8:  their earbuds do like 24 bit audio now. Like what's the ceiling for what
+
+1104
+00:59:11,320 --> 00:59:13,400
+Speaker 8:  is possible with the Bluetooth audio in your mind?
+
+1105
+00:59:13,930 --> 00:59:17,720
+Speaker 16:  Oh, I mean I pretty much the audio is migrating
+
+1106
+00:59:17,720 --> 00:59:21,640
+Speaker 16:  towards being run over the low energy channel rather than
+
+1107
+00:59:21,640 --> 00:59:25,480
+Speaker 16:  the, you know, a traditional Bluetooth channel and a couple
+
+1108
+00:59:25,490 --> 00:59:29,440
+Speaker 16:  of, I think really exciting things where the specs
+
+1109
+00:59:29,440 --> 00:59:33,240
+Speaker 16:  were just updated for that one running over low audio
+
+1110
+00:59:33,250 --> 00:59:36,960
+Speaker 16:  to be able to broadcast a, a stereo stream to
+
+1111
+00:59:37,240 --> 00:59:41,080
+Speaker 16:  multiple headphones. I think, you know, for sharing music between people
+
+1112
+00:59:41,410 --> 00:59:45,160
+Speaker 16:  or you know, in a a bar type environment where they have
+
+1113
+00:59:45,160 --> 00:59:48,600
+Speaker 16:  three games on, you can put your headphone onto whichever
+
+1114
+00:59:48,680 --> 00:59:52,240
+Speaker 16:  games you know you wanna listen to do hear that
+
+1115
+00:59:52,240 --> 00:59:55,840
+Speaker 16:  audio stream. And so I think there's a lot of cool things
+
+1116
+00:59:55,840 --> 00:59:59,560
+Speaker 16:  where, you know, Bluetooth audio is going to and
+
+1117
+00:59:59,720 --> 01:00:03,520
+Speaker 16:  being able to have though a basic functionality
+
+1118
+01:00:03,520 --> 01:00:07,320
+Speaker 16:  that allows interoperability between products from different
+
+1119
+01:00:07,380 --> 01:00:11,320
+Speaker 16:  manufacturers but then also enable manufacturers if
+
+1120
+01:00:11,320 --> 01:00:15,240
+Speaker 16:  they wanna put improvements on top of that. Whether, you know it's a
+
+1121
+01:00:15,240 --> 01:00:18,480
+Speaker 16:  different Kodak or different bit rates, things like that to
+
+1122
+01:00:18,630 --> 01:00:21,960
+Speaker 16:  enable, you know, their own products or products with their
+
+1123
+01:00:21,990 --> 01:00:25,880
+Speaker 16:  partners to work better. I think that's a positive, you know, that
+
+1124
+01:00:26,200 --> 01:00:29,520
+Speaker 16:  you keep the interoperability so you can use products from different
+
+1125
+01:00:29,520 --> 01:00:33,400
+Speaker 16:  manufacturers but manufacturers are able to innovate on top
+
+1126
+01:00:33,400 --> 01:00:37,360
+Speaker 16:  of that as well and add their own, you know, special sauce if you will
+
+1127
+01:00:37,650 --> 01:00:41,440
+Speaker 16:  to make what they believe even improve products. And I, I,
+
+1128
+01:00:41,470 --> 01:00:44,840
+Speaker 16:  I think that's great. I think the technology should enable that.
+
+1129
+01:00:44,950 --> 01:00:48,520
+Speaker 3:  Wait, is that the political answer or is do you believe that because I don't,
+
+1130
+01:00:48,590 --> 01:00:52,000
+Speaker 3:  I just to be clear, I do not like that. Is
+
+1131
+01:00:52,400 --> 01:00:56,120
+Speaker 3:  Microsoft doing embrace Xtend extinguish, right where Apple uses,
+
+1132
+01:00:56,120 --> 01:00:59,040
+Speaker 3:  I'm just pick on Apple cuz everybody knows AirPods, but I know Samsung wants
+
+1133
+01:00:59,040 --> 01:01:02,240
+Speaker 3:  to use this and I know Google wants to do this. Apple gets used AirPods,
+
+1134
+01:01:02,240 --> 01:01:06,040
+Speaker 3:  they leverage Bluetooth, this spec, they build proprietary extensions
+
+1135
+01:01:06,040 --> 01:01:09,640
+Speaker 3:  that no one else can access. Eventually everyone loves AirPods and then they
+
+1136
+01:01:09,640 --> 01:01:13,120
+Speaker 3:  leave the spec behind and they leave everyone else high and dry. And I can
+
+1137
+01:01:13,120 --> 01:01:16,960
+Speaker 3:  pick on Apple, but Microsoft invented this playbook, it was called
+
+1138
+01:01:16,960 --> 01:01:20,480
+Speaker 3:  Embrace extended extinguish with the web. Do you believe that that
+
+1139
+01:01:20,480 --> 01:01:24,440
+Speaker 3:  outcome can be managed by the Bluetooth SIG or you can avoid it or
+
+1140
+01:01:24,440 --> 01:01:26,480
+Speaker 3:  is that just the dynamic of the tech industry?
+
+1141
+01:01:26,990 --> 01:01:30,760
+Speaker 16:  Well I, you know, when I was involved with the
+
+1142
+01:01:30,920 --> 01:01:34,880
+Speaker 16:  SIG you would see some of that and a lot of
+
+1143
+01:01:35,060 --> 01:01:39,000
+Speaker 16:  the initial innovation was done that way and then it would be
+
+1144
+01:01:39,000 --> 01:01:42,560
+Speaker 16:  rolled back into the specification and now, you know,
+
+1145
+01:01:42,840 --> 01:01:46,120
+Speaker 16:  I can't speak for Apple with what they've done with some of their products
+
+1146
+01:01:46,120 --> 01:01:49,560
+Speaker 16:  and stuff if they'd ever want to roll that back into the spec.
+
+1147
+01:01:50,060 --> 01:01:53,480
+Speaker 16:  But back in my day when I was there, things like
+
+1148
+01:01:53,480 --> 01:01:57,200
+Speaker 16:  usability to make, you know, one of the early issues with
+
+1149
+01:01:57,200 --> 01:02:01,080
+Speaker 16:  Bluetooth was nobody could figure out how to pair devices and, and
+
+1150
+01:02:01,080 --> 01:02:02,080
+Speaker 16:  get them to work together
+
+1151
+01:02:02,380 --> 01:02:05,480
+Speaker 3:  And let tell you that's not an early issue.
+
+1152
+01:02:07,630 --> 01:02:11,240
+Speaker 16:  Yeah, fair enough. But it is better now Yeah,
+
+1153
+01:02:11,310 --> 01:02:15,160
+Speaker 16:  than it was then. And there was a, a major push in
+
+1154
+01:02:15,160 --> 01:02:18,960
+Speaker 16:  a whole spec, you know, it's Hallmark feature was secure
+
+1155
+01:02:19,080 --> 01:02:22,320
+Speaker 16:  simple pairing, which made pairing easier and that
+
+1156
+01:02:23,120 --> 01:02:26,720
+Speaker 16:  introduced a lot of the ways you pair today with it just works and things
+
+1157
+01:02:26,720 --> 01:02:30,120
+Speaker 16:  like that. And a lot of
+
+1158
+01:02:30,230 --> 01:02:34,160
+Speaker 16:  that spec came from companies that, you know,
+
+1159
+01:02:34,160 --> 01:02:37,600
+Speaker 16:  had already been working to improve the pairing
+
+1160
+01:02:37,600 --> 01:02:41,360
+Speaker 16:  experience because, you know, they, they saw the flaws in it
+
+1161
+01:02:41,360 --> 01:02:45,120
+Speaker 16:  at, at the time and those were rolled back into the spec.
+
+1162
+01:02:45,120 --> 01:02:48,880
+Speaker 16:  Now some of the things that have done since then to enhance pairing
+
+1163
+01:02:49,310 --> 01:02:53,200
+Speaker 16:  hasn't been rolled back into the spec yet. Whether that ever will or
+
+1164
+01:02:53,200 --> 01:02:57,120
+Speaker 16:  not, you know, I'm, I'm not close enough to the Bluetooth organization now
+
+1165
+01:02:57,120 --> 01:03:00,880
+Speaker 16:  to know if there's an appetite for members to do that or not,
+
+1166
+01:03:00,900 --> 01:03:04,840
+Speaker 16:  but I think it can work and I don't believe that all
+
+1167
+01:03:04,840 --> 01:03:08,720
+Speaker 16:  companies when they're extending a spec or improving upon
+
+1168
+01:03:08,720 --> 01:03:12,400
+Speaker 16:  it, you know, are are trying to, to wipe out the
+
+1169
+01:03:12,400 --> 01:03:16,360
+Speaker 16:  competition. Sure they're trying to win and have the best products out there.
+
+1170
+01:03:16,530 --> 01:03:20,480
+Speaker 16:  If the spec is so complete, if
+
+1171
+01:03:20,480 --> 01:03:24,120
+Speaker 16:  you will, then it doesn't allow for that innovation. And that was something
+
+1172
+01:03:24,120 --> 01:03:28,080
+Speaker 16:  we discussed a lot with each spec is where you
+
+1173
+01:03:28,080 --> 01:03:31,840
+Speaker 16:  draw that line, you know, how much is in the spec and
+
+1174
+01:03:31,840 --> 01:03:35,760
+Speaker 16:  how much is company Inno company's innovation on top of that. And
+
+1175
+01:03:35,760 --> 01:03:39,680
+Speaker 16:  that was debated, you know, with with every spec all the
+
+1176
+01:03:39,680 --> 01:03:43,200
+Speaker 16:  time. And again, I'm not in those meetings today,
+
+1177
+01:03:43,260 --> 01:03:47,200
+Speaker 16:  but I would assume that is still a major conversation piece
+
+1178
+01:03:47,200 --> 01:03:50,640
+Speaker 16:  is how much you put in the spec and how much you lead for company innovation.
+
+1179
+01:03:51,180 --> 01:03:55,080
+Speaker 4:  Can you kind of walk us through how you have those conversations where you
+
+1180
+01:03:55,080 --> 01:03:55,960
+Speaker 4:  wanna roll it back?
+
+1181
+01:03:56,030 --> 01:03:59,880
+Speaker 16:  Well that, that's may sound like an absurd thing
+
+1182
+01:03:59,880 --> 01:04:03,320
+Speaker 16:  to do, but maybe I was just shameless, I would do that all the time
+
+1183
+01:04:05,980 --> 01:04:07,520
+Speaker 4:  And it worked. That's awesome.
+
+1184
+01:04:07,520 --> 01:04:11,080
+Speaker 16:  That didn't bother me at all. Well sometimes it worked, sometimes it didn't.
+
+1185
+01:04:11,080 --> 01:04:15,000
+Speaker 16:  But you know, what's the old saying, the worst they can do is say no,
+
+1186
+01:04:15,860 --> 01:04:19,480
+Speaker 16:  you know, and, and I'm no worse off than I was before
+
+1187
+01:04:19,910 --> 01:04:23,760
+Speaker 16:  having the conversation or or asking. And
+
+1188
+01:04:24,350 --> 01:04:28,240
+Speaker 16:  a, a lot of times also though, you would go and speak not
+
+1189
+01:04:28,240 --> 01:04:32,160
+Speaker 16:  only to Apple but also companies that were building
+
+1190
+01:04:32,160 --> 01:04:36,080
+Speaker 16:  the products to work with the Apple products because
+
+1191
+01:04:36,080 --> 01:04:40,040
+Speaker 16:  they would be more motivated to want that stuff standardized. So
+
+1192
+01:04:40,040 --> 01:04:43,960
+Speaker 16:  those features could also work with Android phones or you
+
+1193
+01:04:43,960 --> 01:04:47,800
+Speaker 16:  know, o other products depending on what they were making and
+
+1194
+01:04:48,190 --> 01:04:52,160
+Speaker 16:  they, you know, would then have those conversations with Apple as well
+
+1195
+01:04:52,160 --> 01:04:55,800
+Speaker 16:  that, you know, we had re really like to see this feature, that
+
+1196
+01:04:55,800 --> 01:04:59,680
+Speaker 16:  feature rolled into the standard and you know, obviously
+
+1197
+01:04:59,720 --> 01:05:02,520
+Speaker 16:  those companies would have a lot of pull as well.
+
+1198
+01:05:03,050 --> 01:05:06,520
+Speaker 4:  So when you have companies like Apple who are pretty vertically integrated
+
+1199
+01:05:06,520 --> 01:05:09,840
+Speaker 4:  now and they make the iPhones, they make the AirPods and everything else
+
+1200
+01:05:09,950 --> 01:05:13,920
+Speaker 4:  that kind of disincentivizes them from like working with
+
+1201
+01:05:13,920 --> 01:05:17,840
+Speaker 4:  the standard more closely because yeah, they can just say, say go kick rocks
+
+1202
+01:05:17,840 --> 01:05:18,320
+Speaker 4:  Jabra.
+
+1203
+01:05:19,190 --> 01:05:22,440
+Speaker 16:  Well yeah, any company that's in that situation and
+
+1204
+01:05:23,000 --> 01:05:26,800
+Speaker 16:  you know, the Samsung of the world, you know, there, there's a lot of
+
+1205
+01:05:26,800 --> 01:05:30,560
+Speaker 16:  companies that are in that position. So you're using Apple as an
+
+1206
+01:05:30,560 --> 01:05:34,000
+Speaker 16:  example. I'm not trying to pick on them, I don't think what you're saying
+
+1207
+01:05:34,000 --> 01:05:37,680
+Speaker 16:  is very true, but there's also the chip
+
+1208
+01:05:37,700 --> 01:05:41,480
+Speaker 16:  manufacturer, you know, the, the Qualcomms of the world
+
+1209
+01:05:41,670 --> 01:05:45,440
+Speaker 16:  that want to be able to create their silicon and
+
+1210
+01:05:45,440 --> 01:05:48,840
+Speaker 16:  have it work in products to all their customers, not just
+
+1211
+01:05:48,960 --> 01:05:52,880
+Speaker 16:  Apple or Samsung or, or whomever and not have to do
+
+1212
+01:05:52,880 --> 01:05:56,720
+Speaker 16:  special, you know, spins for the one company. Obviously,
+
+1213
+01:05:57,100 --> 01:06:01,040
+Speaker 16:  you know, a company like Apple or Samsung, they will, you know,
+
+1214
+01:06:01,040 --> 01:06:04,560
+Speaker 16:  but, but they'd prefer to be able to have that be as
+
+1215
+01:06:04,840 --> 01:06:07,960
+Speaker 16:  versatile as possible. So even when a company
+
+1216
+01:06:08,660 --> 01:06:12,600
+Speaker 16:  has their complete vertical solution, I forget exactly how
+
+1217
+01:06:12,600 --> 01:06:16,160
+Speaker 16:  you phrased it, but you know, creates their own ecosystem, there's still
+
+1218
+01:06:16,160 --> 01:06:20,080
+Speaker 16:  different layers in it, as I said, like the chip manufacturers and other
+
+1219
+01:06:20,080 --> 01:06:24,040
+Speaker 16:  people that are motivated to standardize some of this
+
+1220
+01:06:24,040 --> 01:06:25,080
+Speaker 16:  stuff as well.
+
+1221
+01:06:25,310 --> 01:06:28,240
+Speaker 3:  When you talked about stuff being in the standard and some stuff being built
+
+1222
+01:06:28,240 --> 01:06:31,920
+Speaker 3:  on top of it and there's always a debate about where the line is, who's in
+
+1223
+01:06:31,920 --> 01:06:35,360
+Speaker 3:  that debate, who go, who gets to be in those rooms. Are you all around a
+
+1224
+01:06:35,360 --> 01:06:39,240
+Speaker 3:  whiteboard drawing lines at different heights and like angrily pointing
+
+1225
+01:06:39,240 --> 01:06:41,840
+Speaker 3:  at them, like who's in the room and what does that debate actually sound
+
+1226
+01:06:41,840 --> 01:06:45,680
+Speaker 16:  Like? So the Bluetooth specifications are
+
+1227
+01:06:45,890 --> 01:06:49,640
+Speaker 16:  created by members and there's work groups
+
+1228
+01:06:49,680 --> 01:06:53,040
+Speaker 16:  where various members that are interested in that
+
+1229
+01:06:53,260 --> 01:06:56,200
+Speaker 16:  use case or that spec would participate in.
+
+1230
+01:06:57,090 --> 01:07:00,800
+Speaker 16:  So there's the radio work group work group
+
+1231
+01:07:00,800 --> 01:07:04,720
+Speaker 16:  for hands free in the car work group, you know, for the low
+
+1232
+01:07:04,720 --> 01:07:08,600
+Speaker 16:  energy audio just e everything that comes out of Bluetooth. There's a
+
+1233
+01:07:08,600 --> 01:07:11,760
+Speaker 16:  work group involved and member companies that have
+
+1234
+01:07:12,080 --> 01:07:15,960
+Speaker 16:  expertise in opinion for lack the different word of,
+
+1235
+01:07:16,050 --> 01:07:19,760
+Speaker 16:  of how that should be implemented are sitting in the room
+
+1236
+01:07:19,820 --> 01:07:23,360
+Speaker 16:  and they'll, they'll debate that and they'll contribute to the spec
+
+1237
+01:07:23,580 --> 01:07:26,960
+Speaker 16:  and then also at the end of the day it's the board of
+
+1238
+01:07:27,280 --> 01:07:31,200
+Speaker 16:  directors that adopts the specification and that's
+
+1239
+01:07:31,200 --> 01:07:35,160
+Speaker 16:  when it gets published and companies can start building products based on
+
+1240
+01:07:35,160 --> 01:07:38,960
+Speaker 16:  it. And so the board of directors sets the
+
+1241
+01:07:38,960 --> 01:07:42,840
+Speaker 16:  goals for the specification, you know, these are the
+
+1242
+01:07:43,400 --> 01:07:47,320
+Speaker 16:  scenarios we wanna enable the enable, these are the new features we
+
+1243
+01:07:47,320 --> 01:07:50,880
+Speaker 16:  wanna enable, stuff like that. And then it goes to the work group and then
+
+1244
+01:07:50,880 --> 01:07:54,800
+Speaker 16:  when it's done, it comes back to the board of directors to, to sign off
+
+1245
+01:07:54,800 --> 01:07:58,640
+Speaker 16:  on. So I mean that's a way 10,000 level over simplification
+
+1246
+01:07:58,640 --> 01:08:02,480
+Speaker 16:  of how it's done. But those are the two main groups
+
+1247
+01:08:02,480 --> 01:08:06,040
+Speaker 16:  that are kind of around that table, if you will,
+
+1248
+01:08:06,140 --> 01:08:10,000
+Speaker 16:  for what goes in the spec and what doesn't go in the spec and where
+
+1249
+01:08:10,000 --> 01:08:11,080
+Speaker 16:  that line is drawn.
+
+1250
+01:08:11,530 --> 01:08:14,320
+Speaker 3:  So you got the members, you got the board of directors, they're talking about
+
+1251
+01:08:14,320 --> 01:08:18,160
+Speaker 3:  different parts of the, the spec. Just as a consumer, somebody who experiences
+
+1252
+01:08:18,160 --> 01:08:22,120
+Speaker 3:  Bluetooth every day, is there a part where you're like, all
+
+1253
+01:08:22,120 --> 01:08:25,720
+Speaker 3:  right, the world's great consumer technology and computer companies are gonna
+
+1254
+01:08:25,720 --> 01:08:29,680
+Speaker 3:  implement our spec, we don't have to worry about them, the car
+
+1255
+01:08:29,680 --> 01:08:33,600
+Speaker 3:  companies are now gonna put Bluetooth radios in their cars and
+
+1256
+01:08:33,600 --> 01:08:37,200
+Speaker 3:  that's a little dicey and maybe we should go babysit them a little bit cuz
+
+1257
+01:08:37,200 --> 01:08:41,160
+Speaker 3:  that like that's where the breakdown is, right? In the actual execution and
+
+1258
+01:08:41,160 --> 01:08:44,560
+Speaker 3:  the implementation of the standard. And some companies
+
+1259
+01:08:44,560 --> 01:08:48,360
+Speaker 3:  historically very good at it, some gigantic category of companies
+
+1260
+01:08:48,360 --> 01:08:51,240
+Speaker 3:  historically very bad at it. How do you make sure that consumer experience
+
+1261
+01:08:51,240 --> 01:08:51,680
+Speaker 3:  stays good?
+
+1262
+01:08:51,910 --> 01:08:55,800
+Speaker 16:  Well that's, that's a difficult one because the consumer
+
+1263
+01:08:55,800 --> 01:08:59,760
+Speaker 16:  experience isn't in the specification itself and that
+
+1264
+01:09:00,280 --> 01:09:04,200
+Speaker 16:  actually with Bluetooth anyway is very entrenched within the
+
+1265
+01:09:04,520 --> 01:09:08,480
+Speaker 16:  original grue of the organization and how it
+
+1266
+01:09:08,480 --> 01:09:12,440
+Speaker 16:  was formed that the user experience not be in the
+
+1267
+01:09:12,720 --> 01:09:16,680
+Speaker 16:  specification that that's something that really yes. That the companies
+
+1268
+01:09:16,780 --> 01:09:18,880
+Speaker 16:  can do on their own.
+
+1269
+01:09:19,180 --> 01:09:19,960
+Speaker 3:  Why is that?
+
+1270
+01:09:22,430 --> 01:09:26,080
+Speaker 16:  Well the, the, when Bluetooth
+
+1271
+01:09:26,520 --> 01:09:29,880
+Speaker 16:  formed, it was a lot of big companies
+
+1272
+01:09:30,190 --> 01:09:34,000
+Speaker 16:  coming together to do this specification and all of
+
+1273
+01:09:34,160 --> 01:09:37,880
+Speaker 16:  'em had very strong opinions on what
+
+1274
+01:09:37,880 --> 01:09:41,640
+Speaker 16:  the user interface should look like and how it should
+
+1275
+01:09:41,640 --> 01:09:45,240
+Speaker 16:  be. And you know, one of the things that when I first started
+
+1276
+01:09:45,240 --> 01:09:49,120
+Speaker 16:  working with Bluetooth, I worked for Microsoft and I was on the board of
+
+1277
+01:09:49,360 --> 01:09:52,800
+Speaker 16:  directors, I chaired the board of directors and things like that and I negotiated,
+
+1278
+01:09:52,800 --> 01:09:56,640
+Speaker 16:  there was part of the team that negotiated the deal for Microsoft
+
+1279
+01:09:56,650 --> 01:10:00,640
+Speaker 16:  to join the Bluetooth sig and back in Redmond in
+
+1280
+01:10:00,640 --> 01:10:04,400
+Speaker 16:  the meetings, you know, one direction that I received very loud
+
+1281
+01:10:04,400 --> 01:10:08,160
+Speaker 16:  and clearly is, you know, some group of other companies
+
+1282
+01:10:08,160 --> 01:10:11,760
+Speaker 16:  is not gonna tell us what the user dinner base in Windows
+
+1283
+01:10:11,850 --> 01:10:15,800
+Speaker 16:  is. And you know, and one time when
+
+1284
+01:10:16,080 --> 01:10:19,920
+Speaker 16:  I, I went to Ericsson, you know, this was 99,
+
+1285
+01:10:19,920 --> 01:10:23,520
+Speaker 16:  2000 timeframe. So at that time Ericsson was a very
+
+1286
+01:10:23,520 --> 01:10:27,360
+Speaker 16:  big cell phone manufacturer and I had what I thought was
+
+1287
+01:10:27,630 --> 01:10:30,880
+Speaker 16:  a great idea for how Bluetooth should be in the phone and how it should
+
+1288
+01:10:30,880 --> 01:10:34,760
+Speaker 16:  implement with Windows and some with their head UI guy for
+
+1289
+01:10:34,760 --> 01:10:38,720
+Speaker 16:  phones and give them this idea. And he kind of
+
+1290
+01:10:38,720 --> 01:10:42,200
+Speaker 16:  stares blankly at me and I said, come on, I couldn't take you more than
+
+1291
+01:10:42,200 --> 01:10:46,120
+Speaker 16:  a week to implement this feature. And he said, no, it'll be
+
+1292
+01:10:46,120 --> 01:10:50,080
+Speaker 16:  six months because it'll take five and a half months for you to
+
+1293
+01:10:50,240 --> 01:10:54,040
+Speaker 16:  convince me to do it and then two weeks for me to do it. You know,
+
+1294
+01:10:54,040 --> 01:10:57,280
+Speaker 16:  so, so all these companies had very strong
+
+1295
+01:10:57,560 --> 01:11:01,440
+Speaker 16:  impressions of how the UI on
+
+1296
+01:11:01,440 --> 01:11:05,120
+Speaker 16:  the devices that they made and their experts at should
+
+1297
+01:11:05,120 --> 01:11:08,680
+Speaker 16:  work and you know, some kid from another company
+
+1298
+01:11:08,680 --> 01:11:12,240
+Speaker 16:  shouldn't come and tell them how it should be. And
+
+1299
+01:11:12,460 --> 01:11:15,840
+Speaker 16:  you know, know when I worked at Microsoft they wouldn't allow it. Erickson
+
+1300
+01:11:15,840 --> 01:11:19,680
+Speaker 16:  wouldn't, Nokia sure as heck wouldn't allow it. And so, you know,
+
+1301
+01:11:19,680 --> 01:11:23,560
+Speaker 16:  none of the companies involved back then would allow
+
+1302
+01:11:23,560 --> 01:11:27,280
+Speaker 16:  that. And so to kind of roll back to your question though,
+
+1303
+01:11:27,500 --> 01:11:31,080
+Speaker 16:  one of the things we did do is we had put out,
+
+1304
+01:11:31,540 --> 01:11:35,440
+Speaker 16:  you know, guidelines and the Bluetooth sig
+
+1305
+01:11:35,540 --> 01:11:39,280
+Speaker 16:  you, you mentioned the car scenario. One of the things we did is we
+
+1306
+01:11:39,280 --> 01:11:42,840
+Speaker 16:  did consumer focus groups and brought, you know,
+
+1307
+01:11:43,400 --> 01:11:46,840
+Speaker 16:  consumers, regular people that may or may not have ever used
+
+1308
+01:11:46,840 --> 01:11:50,800
+Speaker 16:  Bluetooth and stuck 'em in a car and stuck them in, you know, many, many
+
+1309
+01:11:50,800 --> 01:11:54,440
+Speaker 16:  different types of cars. Not always the same person but you know, different
+
+1310
+01:11:54,440 --> 01:11:58,120
+Speaker 16:  people in different cars and had them try to pair a
+
+1311
+01:11:58,120 --> 01:12:02,000
+Speaker 16:  phone with the car and sometimes as you
+
+1312
+01:12:02,000 --> 01:12:05,800
+Speaker 16:  said, it went very smoothly, sometimes it didn't. But there was some
+
+1313
+01:12:05,800 --> 01:12:09,120
+Speaker 16:  very clear things that consumers
+
+1314
+01:12:09,760 --> 01:12:13,600
+Speaker 16:  expected and kind of wanted to follow the flow through and
+
+1315
+01:12:13,600 --> 01:12:17,480
+Speaker 16:  some that the cars did that they weren't expecting at all. And so we
+
+1316
+01:12:17,480 --> 01:12:21,280
+Speaker 16:  were able to put that into a, a paper and give some guidelines and
+
+1317
+01:12:21,600 --> 01:12:25,360
+Speaker 16:  share that with all the car manufacturers that were members. And that
+
+1318
+01:12:25,360 --> 01:12:28,800
+Speaker 16:  helped some, you know, as you said, they're, they're still not all perfect
+
+1319
+01:12:28,800 --> 01:12:32,200
+Speaker 16:  than things, but I, I do think it's better than
+
+1320
+01:12:33,030 --> 01:12:36,480
+Speaker 16:  when cars first started implementing Bluetooth.
+
+1321
+01:12:36,930 --> 01:12:40,920
+Speaker 3:  So you have a PhD or an engineer by training. You used to work
+
+1322
+01:12:40,930 --> 01:12:44,760
+Speaker 3:  on the actual wireless standards at Microsoft. Every time
+
+1323
+01:12:44,760 --> 01:12:48,360
+Speaker 3:  I talk to someone in your position or someone who's been in your position
+
+1324
+01:12:48,360 --> 01:12:52,160
+Speaker 3:  as standards body, I come away thinking, oh this is a politics
+
+1325
+01:12:52,160 --> 01:12:56,040
+Speaker 3:  job. This person had to become a politician. Cuz what you are describing
+
+1326
+01:12:56,040 --> 01:12:59,920
+Speaker 3:  is less engineering and way more politics. Is that how you see it, that this
+
+1327
+01:12:59,920 --> 01:13:01,360
+Speaker 3:  is a, a political job?
+
+1328
+01:13:01,870 --> 01:13:05,640
+Speaker 16:  Well there's definitely that part of it and you're a salesman
+
+1329
+01:13:05,800 --> 01:13:09,640
+Speaker 16:  who's as well, no doubt about that. But I
+
+1330
+01:13:09,640 --> 01:13:13,320
+Speaker 16:  think at least in my own experience, having
+
+1331
+01:13:13,320 --> 01:13:16,920
+Speaker 16:  the technical background enabled me to
+
+1332
+01:13:16,960 --> 01:13:20,800
+Speaker 16:  speak to the people that were making the specifications, you know,
+
+1333
+01:13:20,810 --> 01:13:24,480
+Speaker 16:  at the radio level I understood that level at the upper
+
+1334
+01:13:24,480 --> 01:13:28,440
+Speaker 16:  layers, I understood that level and I think at least with Bluetooth and
+
+1335
+01:13:28,440 --> 01:13:32,280
+Speaker 16:  my personal experience, that helped a lot with the
+
+1336
+01:13:32,560 --> 01:13:36,280
+Speaker 16:  specifications. But as you said, with talking with
+
+1337
+01:13:36,280 --> 01:13:39,560
+Speaker 16:  members and press and analyst and stuff,
+
+1338
+01:13:40,710 --> 01:13:43,640
+Speaker 16:  I, I didn't use that part of my background nearly as
+
+1339
+01:13:43,640 --> 01:13:43,880
+Speaker 3:  Much.
+
+1340
+01:13:45,990 --> 01:13:49,360
+Speaker 3:  I wanna let Alex and Chris ask some questions to wrap us up. But here's my,
+
+1341
+01:13:49,360 --> 01:13:52,400
+Speaker 3:  my my final question. I look at the state of Bluetooth today
+
+1342
+01:13:53,100 --> 01:13:57,000
+Speaker 3:  and it can do a lot of things. It has more capabilities than ever,
+
+1343
+01:13:57,260 --> 01:14:01,120
+Speaker 3:  but it, it's narrowed to the audio use case in
+
+1344
+01:14:01,120 --> 01:14:05,000
+Speaker 3:  almost every circumstance, right? Like air AirPods and Galaxy Buds
+
+1345
+01:14:05,000 --> 01:14:08,520
+Speaker 3:  and Pixel buds are all great and they have all these capabilities and that's
+
+1346
+01:14:08,520 --> 01:14:12,080
+Speaker 3:  great and pairing with your car is great and spatial audio is
+
+1347
+01:14:12,400 --> 01:14:16,200
+Speaker 3:  whatever it is. But the universe of other things that
+
+1348
+01:14:16,200 --> 01:14:20,040
+Speaker 3:  Bluetooth could do has been supplanted by other
+
+1349
+01:14:20,320 --> 01:14:24,120
+Speaker 3:  lower power technologies has been supplanted by things like wifi, Bluetooth
+
+1350
+01:14:24,120 --> 01:14:27,840
+Speaker 3:  and wifi work together now in many cases, do you see that narrowing or
+
+1351
+01:14:27,840 --> 01:14:29,080
+Speaker 3:  am I missing something big?
+
+1352
+01:14:29,470 --> 01:14:33,400
+Speaker 16:  Well, it audio was the original killer use case and it
+
+1353
+01:14:33,400 --> 01:14:37,200
+Speaker 16:  went from voice audio to stereo audio and now it's going
+
+1354
+01:14:37,230 --> 01:14:41,200
+Speaker 16:  stereo audio over the low energy channel. And so
+
+1355
+01:14:41,200 --> 01:14:45,000
+Speaker 16:  audio has been, and I think will continue to be a,
+
+1356
+01:14:45,000 --> 01:14:48,800
+Speaker 16:  a major, major feature or part of what Bluetooth is
+
+1357
+01:14:48,820 --> 01:14:52,800
+Speaker 16:  and enables. I do think though in a lot of other
+
+1358
+01:14:52,800 --> 01:14:56,040
+Speaker 16:  devices like the medical, the fitness and things like that,
+
+1359
+01:14:56,160 --> 01:15:00,000
+Speaker 16:  Bluetooth can still be adopted and used there
+
+1360
+01:15:00,130 --> 01:15:03,560
+Speaker 16:  as well. Having the connection to pretty much every
+
+1361
+01:15:03,560 --> 01:15:07,320
+Speaker 16:  smartphone out there is still a, a big advantage for
+
+1362
+01:15:07,360 --> 01:15:10,400
+Speaker 16:  those other type of use cases and makes
+
+1363
+01:15:10,990 --> 01:15:14,840
+Speaker 16:  some other technologies, at least for the consumer
+
+1364
+01:15:14,950 --> 01:15:18,920
+Speaker 16:  side, harder to enter because you don't have that cell phone connectivity.
+
+1365
+01:15:19,300 --> 01:15:23,000
+Speaker 16:  Now in the industrial world and things like that where
+
+1366
+01:15:23,000 --> 01:15:26,880
+Speaker 16:  you're doing the entire vertical, you know, in-house if
+
+1367
+01:15:26,880 --> 01:15:30,200
+Speaker 16:  you will, if you're doing automation on a
+
+1368
+01:15:30,960 --> 01:15:34,480
+Speaker 16:  manufacturing floor, you know that that cell phone
+
+1369
+01:15:34,480 --> 01:15:38,240
+Speaker 16:  connection may not be as important because you'll just create your
+
+1370
+01:15:38,240 --> 01:15:42,000
+Speaker 16:  own basically access point or connectivity point for whatever
+
+1371
+01:15:42,000 --> 01:15:45,960
+Speaker 16:  technology you're using. So you use the best technology that's fit
+
+1372
+01:15:45,960 --> 01:15:49,760
+Speaker 16:  for that particular job. So I think that's a harder
+
+1373
+01:15:49,780 --> 01:15:53,560
+Speaker 16:  nut, if you will, for Bluetooth to crack than the more consumer
+
+1374
+01:15:53,560 --> 01:15:57,160
+Speaker 16:  ones where the phone is such a vital component in it.
+
+1375
+01:15:57,530 --> 01:15:59,920
+Speaker 8:  So I've been at the Verge for a while and I feel like there was a period
+
+1376
+01:15:59,920 --> 01:16:03,800
+Speaker 8:  a few years ago where we often wrote about BLE low energy and these
+
+1377
+01:16:03,800 --> 01:16:06,840
+Speaker 8:  beacons and this notion that you would like welcome into a store and the
+
+1378
+01:16:06,840 --> 01:16:09,640
+Speaker 8:  app for like Walmart or Target would like guide you to the aisle or shelf
+
+1379
+01:16:09,640 --> 01:16:12,960
+Speaker 8:  where the thing you wanted was, and that never really happened.
+
+1380
+01:16:13,560 --> 01:16:16,800
+Speaker 8:  So do you think like there are times where the tech industry just gets maybe
+
+1381
+01:16:16,800 --> 01:16:20,080
+Speaker 8:  too ambitious with Bluetooth and uses it in ways that sound nice and concept,
+
+1382
+01:16:20,080 --> 01:16:23,520
+Speaker 8:  but in practice or a hassle or not really what it's meant for when it comes
+
+1383
+01:16:23,520 --> 01:16:24,040
+Speaker 8:  down to it?
+
+1384
+01:16:24,230 --> 01:16:28,040
+Speaker 16:  Well, you're right, the, the low energy beacons, there's a lot of
+
+1385
+01:16:28,040 --> 01:16:31,880
+Speaker 16:  hype around those for a while and it might have been
+
+1386
+01:16:31,880 --> 01:16:35,800
+Speaker 16:  one of those, if you build it, they will come type of things, but
+
+1387
+01:16:36,040 --> 01:16:39,480
+Speaker 16:  not as many people came as, as some people had hoped.
+
+1388
+01:16:39,660 --> 01:16:43,480
+Speaker 16:  You know, even back at the beginning I was talking about the scenarios
+
+1389
+01:16:43,480 --> 01:16:46,880
+Speaker 16:  that you're enabling, you know, I tested with
+
+1390
+01:16:47,240 --> 01:16:50,880
+Speaker 16:  Bluetooth, low energy beacons around a target and you know, it'll
+
+1391
+01:16:50,950 --> 01:16:54,520
+Speaker 16:  show you where the item is and map you to it and stuff,
+
+1392
+01:16:55,100 --> 01:16:59,080
+Speaker 16:  but you know, I I don't really know how compelling that is. You know,
+
+1393
+01:16:59,080 --> 01:17:02,800
+Speaker 16:  most people can walk around the target and, and find the stuff and,
+
+1394
+01:17:02,900 --> 01:17:06,720
+Speaker 16:  and part of walking around the, the target is, is the journey
+
+1395
+01:17:06,720 --> 01:17:10,080
+Speaker 16:  that people enjoy when they're shopping it, you know, so
+
+1396
+01:17:10,090 --> 01:17:14,040
+Speaker 16:  pulling out your phone and having it do all of that, yeah, maybe
+
+1397
+01:17:14,040 --> 01:17:18,000
+Speaker 16:  has some value, but I don't know if it's really a killer type
+
+1398
+01:17:18,320 --> 01:17:22,200
+Speaker 16:  scenario. So the the, the scenarios have to be good and consumers
+
+1399
+01:17:22,200 --> 01:17:25,720
+Speaker 16:  have to, you know, want them and, and be willing to use them
+
+1400
+01:17:25,920 --> 01:17:29,840
+Speaker 16:  where the beacon scenario might not have been there. Now if you
+
+1401
+01:17:30,280 --> 01:17:34,240
+Speaker 16:  easily push good coupons to them and things like that and
+
+1402
+01:17:34,240 --> 01:17:38,120
+Speaker 16:  it saved them some money, then people might be more inclined to use
+
+1403
+01:17:38,150 --> 01:17:39,640
+Speaker 16:  that sort of application.
+
+1404
+01:17:40,110 --> 01:17:44,080
+Speaker 4:  What element of Bluetooth that you worked on was like just the part
+
+1405
+01:17:44,080 --> 01:17:48,040
+Speaker 4:  you really, really are super proud of and like you probably bring up
+
+1406
+01:17:48,040 --> 01:17:50,840
+Speaker 4:  in a conversation with people who know nothing about Bluetooth.
+
+1407
+01:17:51,470 --> 01:17:55,360
+Speaker 16:  Well, it was mentioned earlier about how
+
+1408
+01:17:55,680 --> 01:17:59,640
+Speaker 16:  Bluetooth and, and y came together and that turned
+
+1409
+01:17:59,640 --> 01:18:03,600
+Speaker 16:  into Bluetooth low energy in the, in the Fort Auto spec and
+
+1410
+01:18:03,600 --> 01:18:07,440
+Speaker 16:  that whole process and going through and working
+
+1411
+01:18:07,440 --> 01:18:11,080
+Speaker 16:  out the deal for that and getting this specification
+
+1412
+01:18:11,150 --> 01:18:14,960
+Speaker 16:  done, you know, that was really something and that really set
+
+1413
+01:18:14,960 --> 01:18:18,800
+Speaker 16:  the foundation for what Bluetooth is and became for the,
+
+1414
+01:18:18,800 --> 01:18:22,480
+Speaker 16:  for this last decade, you know, for the next 10 years af
+
+1415
+01:18:22,480 --> 01:18:26,320
+Speaker 16:  after that was done. So, you know, that was very
+
+1416
+01:18:26,320 --> 01:18:29,040
+Speaker 16:  good, very proud of that. And how, how that's turned out.
+
+1417
+01:18:29,430 --> 01:18:32,640
+Speaker 3:  Were you like, I gotta take these library guys, they're coming from me.
+
+1418
+01:18:33,450 --> 01:18:36,680
+Speaker 16:  No, no, no, no. They, they
+
+1419
+01:18:37,360 --> 01:18:40,600
+Speaker 16:  actually believed that the Bluetooth sig was probably the best way to get
+
+1420
+01:18:40,600 --> 01:18:43,640
+Speaker 16:  the technology out there as well, rather than
+
+1421
+01:18:43,910 --> 01:18:47,880
+Speaker 16:  recreating everything that the Bluetooth sig had. Because people I
+
+1422
+01:18:47,880 --> 01:18:51,520
+Speaker 16:  don't think realize, and the consumer shouldn't have to
+
+1423
+01:18:51,520 --> 01:18:55,400
+Speaker 16:  realize this, but you know, creating a standard like that and
+
+1424
+01:18:55,400 --> 01:18:58,800
+Speaker 16:  getting the technology out there takes a lot of time,
+
+1425
+01:18:58,910 --> 01:19:02,800
+Speaker 16:  energy, money, resources, infrastructure, just all
+
+1426
+01:19:02,800 --> 01:19:06,760
+Speaker 16:  these things and duplicating that for each technology is
+
+1427
+01:19:06,760 --> 01:19:10,720
+Speaker 16:  very wasteful in the industry. And so being able to
+
+1428
+01:19:10,720 --> 01:19:14,640
+Speaker 16:  bring those two together, you know, saved companies a lot of
+
+1429
+01:19:14,640 --> 01:19:18,400
+Speaker 16:  money, I think made it easier for the consumer when the actual
+
+1430
+01:19:18,580 --> 01:19:22,320
+Speaker 16:  low energy came out because it got put into phones right away because people
+
+1431
+01:19:22,320 --> 01:19:26,280
+Speaker 16:  made dual mode chip sets right away. And so it,
+
+1432
+01:19:26,280 --> 01:19:30,080
+Speaker 16:  it was definitely a win-win for both organizations, for
+
+1433
+01:19:30,220 --> 01:19:33,800
+Speaker 16:  the consumer, for the members, et cetera. So,
+
+1434
+01:19:33,970 --> 01:19:37,720
+Speaker 16:  no, it wasn't like you're going out and saying, you know, we, we have to
+
+1435
+01:19:37,720 --> 01:19:38,800
+Speaker 16:  just take over these guys.
+
+1436
+01:19:39,270 --> 01:19:42,280
+Speaker 3:  It's a nice low power wireless speck you have there. It would be a shame
+
+1437
+01:19:42,280 --> 01:19:43,920
+Speaker 3:  if anything happen
+
+1438
+01:19:43,920 --> 01:19:45,520
+Speaker 16:  To, yeah, exactly.
+
+1439
+01:19:45,660 --> 01:19:48,720
+Speaker 3:  All right, let's wrap it up here. Thank you so much, Mike for joining us
+
+1440
+01:19:48,720 --> 01:19:52,680
+Speaker 3:  on the Vergecast Bluetooth holiday. Spectacular. It would be
+
+1441
+01:19:52,680 --> 01:19:55,720
+Speaker 3:  a crime if I didn't ask this, our listeners would kill me. The joke we've
+
+1442
+01:19:55,720 --> 01:19:58,840
+Speaker 3:  had that a lot of folks, a lot of people who report on consumer technology
+
+1443
+01:19:58,840 --> 01:20:01,880
+Speaker 3:  have for years about Bluetooth is that Bluetooth will be better next year.
+
+1444
+01:20:01,980 --> 01:20:05,400
+Speaker 3:  And that has just always been the answer for a decade plus of Bluetooth
+
+1445
+01:20:05,770 --> 01:20:09,000
+Speaker 3:  in the spirit of the holidays. Will Bluetooth be better next year?
+
+1446
+01:20:11,880 --> 01:20:13,240
+Speaker 16:  Maybe? I dunno,
+
+1447
+01:20:15,950 --> 01:20:19,840
+Speaker 16:  it's, it's pretty damn good now and it, it will continue
+
+1448
+01:20:19,840 --> 01:20:20,840
+Speaker 16:  to do more things.
+
+1449
+01:20:21,150 --> 01:20:24,360
+Speaker 3:  That's amazing. Mike, thank you so much for joining the broadcast Bluetooth
+
+1450
+01:20:24,360 --> 01:20:25,840
+Speaker 3:  holiday spectacular. This is great.
+
+1451
+01:20:26,220 --> 01:20:27,080
+Speaker 16:  All right, thanks.
+
+1452
+01:20:32,060 --> 01:20:35,960
+Speaker 3:  And with that, the Vergecast Bluetooth holiday spectacular
+
+1453
+01:20:36,240 --> 01:20:40,200
+Speaker 3:  comes to a close, children are sleeping or headsets are charging
+
+1454
+01:20:40,380 --> 01:20:43,360
+Speaker 3:  and Bluetooth. Well, honestly, we don't know if Bluetooth will be better
+
+1455
+01:20:43,360 --> 01:20:47,320
+Speaker 3:  next year, which we'll just have to try again. Thank you for joining us
+
+1456
+01:20:47,320 --> 01:20:51,200
+Speaker 3:  on the Vergecast Bluetooth holiday spectacular. We enjoyed having you. I
+
+1457
+01:20:51,200 --> 01:20:55,120
+Speaker 3:  hope you have an excellent holiday season. There's lots of coverage of Bluetooth
+
+1458
+01:20:55,120 --> 01:20:58,440
+Speaker 3:  on the verge.com, there's lots of coverage of Bluetooth in all of our hearts.
+
+1459
+01:20:58,500 --> 01:21:01,880
+Speaker 3:  You can follow us on the website@theverge.com. We're thinking about what
+
+1460
+01:21:01,880 --> 01:21:04,440
+Speaker 3:  other social platforms you can follow us on. But the verge.com right now,
+
+1461
+01:21:04,440 --> 01:21:07,960
+Speaker 3:  it's pretty good. So check out the verge.com. We're on it. We're writing
+
+1462
+01:21:07,960 --> 01:21:11,200
+Speaker 3:  up Bluetooth every day. We're writing about the holidays. The vercast Bluetooth
+
+1463
+01:21:11,200 --> 01:21:14,680
+Speaker 3:  Holidays Spectacular is produced by Andrew Marino and Liam James Brooke Mentors
+
+1464
+01:21:14,680 --> 01:21:18,080
+Speaker 3:  is our editorial director of audio. The vercast is a VER production and part
+
+1465
+01:21:18,080 --> 01:21:21,400
+Speaker 3:  of the Vox Media podcast network. If you have thoughts, feedback, feelings,
+
+1466
+01:21:21,510 --> 01:21:24,240
+Speaker 3:  even just some Bluetooth tips and tricks, you can always email
+
+1467
+01:21:24,240 --> 01:21:28,080
+Speaker 3:  vergecast@theverge.com. And if you have questions, call the hotline.
+
+1468
+01:21:28,080 --> 01:21:31,800
+Speaker 3:  Eight six six Verge 11. Send us all of your big thoughts,
+
+1469
+01:21:32,070 --> 01:21:35,600
+Speaker 3:  concerns, and questions about the world of tech. That's it for the Verge
+
+1470
+01:21:35,600 --> 01:21:39,240
+Speaker 3:  Test in 2022. Happy holidays and we'll see you at
+
+1471
+01:21:39,410 --> 01:21:40,560
+Speaker 3:  CS 2023.
+
+1472
+01:21:48,590 --> 01:21:50,160
+Speaker 17:  Device is now disconnected.
+

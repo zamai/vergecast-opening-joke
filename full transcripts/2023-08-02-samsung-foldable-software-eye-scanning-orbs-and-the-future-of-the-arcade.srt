@@ -1,0 +1,5905 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 326ca05d-3537-46c1-a270-877403b51ec0
+Status: Done
+Stage: Done
+Title: Samsung foldable software, eye-scanning orbs, and the future of the arcade
+Audio URL: https://jfe93e.s3.amazonaws.com/6875978995141352667/5416438324661530522/s93290-US-5306s-1690962810.mp3
+Description: Today on the flagship podcast of texting on the outside screen: 
+03:28 - The Verge’s David Pierce chats with Allison Johnson and Dan Seifert about the software design of Samsung’s new Galaxy Z Flip 5 and Galaxy Z Fold 5. 
+32:54 - David takes a trip to the Dave & Busters to find out why the games on your phone ended up in your local arcade.
+49:48 - Alex Heath joins the show to discuss his experience getting his eye scanned by an orb from Worldcoin, a crypto startup co-founded by OpenAI CEO Sam Altman.
+1:14:45 - Our hotline question of the week about wearables without screens.
+Email us at vergecast@theverge.com or call us at 866-VERGE11, we love hearing from you.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Disabled
+
+2
+00:00:02,550 --> 00:00:06,440
+Speaker 2:  Welcome to The Vergecast, the flagship podcast of texting on the outside
+
+3
+00:00:06,440 --> 00:00:10,200
+Speaker 2:  screen. I'm your friend David Pierce. And. I am doing a little belated
+
+4
+00:00:10,200 --> 00:00:14,160
+Speaker 2:  digital spring cleaning. Normally every few months I try to back up
+
+5
+00:00:14,260 --> 00:00:17,680
+Speaker 2:  all my important documents, put all my photos on an external hard drive that
+
+6
+00:00:17,680 --> 00:00:21,560
+Speaker 2:  I keep in a safe, clean up my computer, all that good stuff. This year
+
+7
+00:00:21,590 --> 00:00:25,080
+Speaker 2:  I've done a bad job of keeping on top of all that. So in my spare moments
+
+8
+00:00:25,110 --> 00:00:28,680
+Speaker 2:  this week I'm trying to catch up. Today's project is to clean up some of
+
+9
+00:00:28,680 --> 00:00:32,480
+Speaker 2:  the old stuff in my downloads folder. Actually, should we just do this together?
+
+10
+00:00:32,500 --> 00:00:36,000
+Speaker 2:  You wanna hear what's in here? This is sort of terrifying. Let's see. Okay,
+
+11
+00:00:36,060 --> 00:00:39,560
+Speaker 2:  we go to date added and we go to oldest first.
+
+12
+00:00:40,330 --> 00:00:44,040
+Speaker 2:  First thing I have is a bunch of PDFs of boring minutes
+
+13
+00:00:44,150 --> 00:00:47,760
+Speaker 2:  from F C C meetings for some reason, not really sure what that's about.
+
+14
+00:00:48,240 --> 00:00:52,120
+Speaker 2:  I have screenshots from a Slack redesign. I have a bunch of receipts
+
+15
+00:00:52,150 --> 00:00:55,600
+Speaker 2:  from food that I don't think I actually care about at all.
+
+16
+00:00:56,960 --> 00:01:00,800
+Speaker 2:  I have a photo of a weird thing that Starbucks did where they
+
+17
+00:01:00,800 --> 00:01:04,480
+Speaker 2:  made a thing that looks like, I think they were Galaxy Buds
+
+18
+00:01:04,480 --> 00:01:08,400
+Speaker 2:  headphones case, but it looks like a latte. Sure. I have
+
+19
+00:01:08,520 --> 00:01:12,440
+Speaker 2:  a picture of that meme that says I'm, you know,
+
+20
+00:01:12,440 --> 00:01:16,360
+Speaker 2:  I'm not reading all that but I'm happy for you. Or sorry that happened. I
+
+21
+00:01:16,360 --> 00:01:20,000
+Speaker 2:  have that picture here somewhere. I guess I used that. I have a bunch of
+
+22
+00:01:20,000 --> 00:01:23,880
+Speaker 2:  photos of apps that I can't even identify as I'm sitting
+
+23
+00:01:23,880 --> 00:01:27,800
+Speaker 2:  here. Oh, one of them is the weather app for I iPad oss. I have
+
+24
+00:01:28,050 --> 00:01:31,680
+Speaker 2:  audio of my baby's first heartbeat. That's nice. I'll keep that. I have a
+
+25
+00:01:31,680 --> 00:01:35,600
+Speaker 2:  bunch of pictures of the Lego n e s system for you know,
+
+26
+00:01:35,600 --> 00:01:39,360
+Speaker 2:  obvious reasons. A lot of old pictures. I have a bunch of U p s
+
+27
+00:01:39,360 --> 00:01:43,160
+Speaker 2:  labels that I for sure don't need anymore. This is the point,
+
+28
+00:01:43,160 --> 00:01:46,800
+Speaker 2:  right? This is why I need to do this more than once a year because otherwise
+
+29
+00:01:46,880 --> 00:01:50,600
+Speaker 2:  I go back and I'm like, why do I have a four megabyte image of
+
+30
+00:01:51,080 --> 00:01:55,000
+Speaker 2:  a Kindle cover just chilling on my computer, do some spring cleaning
+
+31
+00:01:55,000 --> 00:01:58,800
+Speaker 2:  folks. It helps. Anyway, we have a great show coming up for you today. We're
+
+32
+00:01:58,800 --> 00:02:02,520
+Speaker 2:  gonna dig back into the new Samsung phones, the Z Flip five and Z Fold five
+
+33
+00:02:02,700 --> 00:02:06,160
+Speaker 2:  and try to figure out what they can actually do that makes them special
+
+34
+00:02:06,500 --> 00:02:10,160
+Speaker 2:  and see if as a result you might need more flip and Fold in your life.
+
+35
+00:02:10,590 --> 00:02:14,240
+Speaker 2:  Then we're gonna talk about Arcade and how it happened that the games on
+
+36
+00:02:14,240 --> 00:02:18,160
+Speaker 2:  your phone ended up in your local arcade. This is the thing I've been wondering
+
+37
+00:02:18,160 --> 00:02:21,440
+Speaker 2:  about for a while and we finally, I think got to the bottom of it. And finally
+
+38
+00:02:21,570 --> 00:02:25,320
+Speaker 2:  we're gonna talk about Worldcoin, one of the most ambitious, bizarre,
+
+39
+00:02:25,420 --> 00:02:29,400
+Speaker 2:  and frankly interesting crypto things you've ever seen. All that's coming
+
+40
+00:02:29,400 --> 00:02:33,080
+Speaker 2:  up in just a sec. But first I have to do my number one favorite
+
+41
+00:02:33,080 --> 00:02:36,800
+Speaker 2:  ritual in all of the digital spring cleaning process, which is just to
+
+42
+00:02:36,800 --> 00:02:40,600
+Speaker 2:  select everything in my downloads folder that's either a screenshot, a zip
+
+43
+00:02:40,600 --> 00:02:44,440
+Speaker 2:  file, or more than a year old. And just delete It all feels so
+
+44
+00:02:44,470 --> 00:02:48,040
+Speaker 2:  good. Y'all And I have never regretted it Once. This is The
+
+45
+00:02:48,120 --> 00:02:49,320
+Speaker 2:  Vergecast. We'll be right back.
+
+46
+00:02:51,190 --> 00:02:54,780
+Speaker 3:  Right now the biggest song of the year so far is a country song
+
+47
+00:02:55,570 --> 00:02:59,180
+Speaker 3:  last night by Morgan Wallen. But in spite of country's
+
+48
+00:02:59,240 --> 00:03:02,240
+Speaker 3:  dominance, country radio by the numbers
+
+49
+00:03:03,140 --> 00:03:05,520
+Speaker 3:  is still more than 99% white.
+
+50
+00:03:06,350 --> 00:03:10,040
+Speaker 4:  What is it about country music that has not changed the way
+
+51
+00:03:10,070 --> 00:03:13,840
+Speaker 4:  rock music has changed the way hip hop has changed soul r and b,
+
+52
+00:03:14,020 --> 00:03:17,640
+Speaker 4:  how is that possible? How is that feasible?
+
+53
+00:03:18,020 --> 00:03:21,600
+Speaker 3:  We talk country's race problem this week on Intuit
+
+54
+00:03:22,120 --> 00:03:23,720
+Speaker 3:  Vultures Pop Culture podcast.
+
+55
+00:03:29,270 --> 00:03:32,960
+Speaker 2:  Welcome back. So we talked on the show last week about the new Samsung
+
+56
+00:03:32,980 --> 00:03:36,720
+Speaker 2:  phones, the Z Flip five and the Z Fold five. But I wanna
+
+57
+00:03:36,820 --> 00:03:40,120
+Speaker 2:  dig back into them, especially now that we've had a chance to actually try
+
+58
+00:03:40,120 --> 00:03:43,920
+Speaker 2:  the phones a bit because I continue to think the most interesting question
+
+59
+00:03:44,010 --> 00:03:47,960
+Speaker 2:  about these phones is just what do they actually add to your
+
+60
+00:03:47,960 --> 00:03:51,400
+Speaker 2:  life? This is true of all flip phones and foldable phones by the way. Does
+
+61
+00:03:51,400 --> 00:03:54,920
+Speaker 2:  having a small screen that folds into a big screen
+
+62
+00:03:55,480 --> 00:03:59,240
+Speaker 2:  meaningfully actually change what you can do with your phone
+
+63
+00:03:59,300 --> 00:04:03,000
+Speaker 2:  and how you do it? What about a phone that folds closed? Does that
+
+64
+00:04:03,180 --> 00:04:07,040
+Speaker 2:  do anything? So much of Samsung's efforts with the Z Flip and the Z
+
+65
+00:04:07,040 --> 00:04:10,880
+Speaker 2:  Fold series, especially on the software side, have been about trying to find
+
+66
+00:04:10,990 --> 00:04:14,800
+Speaker 2:  answers to that question. And I think every year it gets a little bit closer.
+
+67
+00:04:15,060 --> 00:04:18,880
+Speaker 2:  So I wanna see what's actually happened this year and whether we think
+
+68
+00:04:18,950 --> 00:04:22,680
+Speaker 2:  Samsung's really getting there. And as always, when we're talking about this
+
+69
+00:04:22,680 --> 00:04:26,040
+Speaker 2:  stuff, there are just two people in the world I really need here with me.
+
+70
+00:04:26,300 --> 00:04:30,200
+Speaker 2:  The Verge is Allison Johnson and Dan Seaford. Hi Allison. Hello
+
+71
+00:04:30,820 --> 00:04:31,480
+Speaker 2:  Dan. Hello,
+
+72
+00:04:31,930 --> 00:04:32,280
+Speaker 6:  Hello.
+
+73
+00:04:32,860 --> 00:04:36,400
+Speaker 2:  My Flip and Fold people. This is, this is what has happened. This is what
+
+74
+00:04:36,420 --> 00:04:39,840
+Speaker 2:  we have come to and it makes me very happy that anytime I want to litigate
+
+75
+00:04:39,840 --> 00:04:43,720
+Speaker 2:  flip and Fold phones, I have to do it with the two of you. So Allison, you
+
+76
+00:04:43,720 --> 00:04:46,600
+Speaker 2:  have these phones now, correct? The last, I was on vacation last week. I
+
+77
+00:04:46,760 --> 00:04:49,960
+Speaker 2:  listened to the podcast. You seem devastated that you did not have the phones
+
+78
+00:04:50,020 --> 00:04:50,720
+Speaker 2:  yet. There was
+
+79
+00:04:50,920 --> 00:04:54,720
+Speaker 5:  A devastating 48 hours where I did not have the phones. And I was supposed
+
+80
+00:04:54,720 --> 00:04:57,840
+Speaker 5:  to, but it's resolved. I have them all as well.
+
+81
+00:04:58,070 --> 00:05:00,680
+Speaker 2:  Okay, I'm, I'm very happy to hear this. Dan, do you, did you get the phones
+
+82
+00:05:00,680 --> 00:05:01,080
+Speaker 2:  this year?
+
+83
+00:05:01,600 --> 00:05:05,080
+Speaker 6:  I did not. Ah, so I'm living vicariously through Allison's experience.
+
+84
+00:05:05,080 --> 00:05:07,760
+Speaker 2:  Samsung, how could you, that's what we're gonna do here. We're gonna spend
+
+85
+00:05:07,760 --> 00:05:11,080
+Speaker 2:  the next 30 minutes talking about why Samsung didn't send you a review unit.
+
+86
+00:05:11,320 --> 00:05:12,440
+Speaker 2:  Stan, this is gonna be great.
+
+87
+00:05:12,700 --> 00:05:16,520
+Speaker 6:  In all fairness to Samsung, I did get a pile of tablets this morning.
+
+88
+00:05:17,180 --> 00:05:17,400
+Speaker 6:  So
+
+89
+00:05:17,980 --> 00:05:21,840
+Speaker 2:  One of which is, if I remember correctly, 40 to 60 inches in screen
+
+90
+00:05:21,840 --> 00:05:23,160
+Speaker 2:  size. Okay. Did you hang
+
+91
+00:05:23,160 --> 00:05:23,640
+Speaker 5:  It on the wall?
+
+92
+00:05:25,150 --> 00:05:25,440
+Speaker 6:  Okay.
+
+93
+00:05:25,460 --> 00:05:29,360
+Speaker 2:  So y'all did a segment Allison last week about the phones and we
+
+94
+00:05:29,360 --> 00:05:32,560
+Speaker 2:  got a bunch of responses from people saying talk more about how these things
+
+95
+00:05:32,560 --> 00:05:35,920
+Speaker 2:  work. Which I actually think is interesting and very instructive because
+
+96
+00:05:36,410 --> 00:05:40,280
+Speaker 2:  especially with flip and foldable phones, we're
+
+97
+00:05:40,280 --> 00:05:43,680
+Speaker 2:  still in the like what are these things for phase and
+
+98
+00:05:44,110 --> 00:05:47,960
+Speaker 2:  Samsung as we've talked about, is deeper down the what are
+
+99
+00:05:47,960 --> 00:05:51,440
+Speaker 2:  these things for road than just about anybody and has some truly wild ideas.
+
+100
+00:05:52,100 --> 00:05:56,040
+Speaker 2:  But I want to like get back into this idea of are these things
+
+101
+00:05:56,160 --> 00:05:59,880
+Speaker 2:  meaningfully different? Do they change the way that you experience and use
+
+102
+00:05:59,900 --> 00:06:03,760
+Speaker 2:  and interact with your phone? Is it worth right now like the extra cost
+
+103
+00:06:03,820 --> 00:06:07,120
+Speaker 2:  but also the trade-offs that you make in order to get one of these over the
+
+104
+00:06:07,120 --> 00:06:10,560
+Speaker 2:  candy bar phones we've all spent with the last decade? So
+
+105
+00:06:10,770 --> 00:06:13,120
+Speaker 2:  let's start with the flip. 'cause I think this year that seems to be the
+
+106
+00:06:13,120 --> 00:06:16,920
+Speaker 2:  most interesting one and also the place where Samsung pushed the
+
+107
+00:06:16,920 --> 00:06:20,680
+Speaker 2:  hardest on the software. Allison. Let's talk about the outside screen
+
+108
+00:06:20,680 --> 00:06:24,160
+Speaker 2:  first because as we have talked about the, these big outside screens make
+
+109
+00:06:24,160 --> 00:06:27,400
+Speaker 2:  a big difference and in this case it seems like just poking around and looking
+
+110
+00:06:27,400 --> 00:06:30,960
+Speaker 2:  at videos. This thing Samsung did, I think it's called the, the flex window
+
+111
+00:06:31,130 --> 00:06:34,920
+Speaker 2:  where you can, you can basically like swipe through a bunch of widgets on
+
+112
+00:06:34,920 --> 00:06:38,800
+Speaker 2:  the outside and you have this sort of big, almost smart watchy
+
+113
+00:06:38,800 --> 00:06:42,240
+Speaker 2:  looking thing that you can mess around with. What's been your
+
+114
+00:06:42,240 --> 00:06:43,800
+Speaker 2:  impression so far? How does it feel?
+
+115
+00:06:44,430 --> 00:06:48,320
+Speaker 5:  It's great and I'm gonna compare it to the Motorola Razor 'cause that's
+
+116
+00:06:48,320 --> 00:06:52,000
+Speaker 5:  kind of the only reference I have. But my quick take
+
+117
+00:06:52,340 --> 00:06:55,880
+Speaker 5:  is that I like how Samsung is handling
+
+118
+00:06:55,950 --> 00:06:59,600
+Speaker 5:  widgets. The widgets that they have that you swipe through on the cover screen
+
+119
+00:07:00,340 --> 00:07:03,880
+Speaker 5:  are just way better, like way more informative. You've got like
+
+120
+00:07:04,110 --> 00:07:07,920
+Speaker 5:  weather in your calendar and set a quick timer.
+
+121
+00:07:08,070 --> 00:07:11,640
+Speaker 5:  There's more ways to interact with them and
+
+122
+00:07:12,070 --> 00:07:15,880
+Speaker 5:  view them. You can like pinch and zoom out and you'll see them
+
+123
+00:07:15,940 --> 00:07:19,760
+Speaker 5:  all kind of in a tile interface. So that's, that's one
+
+124
+00:07:19,760 --> 00:07:23,480
+Speaker 5:  point for Samsung here. And this is, I wanna preface like
+
+125
+00:07:23,670 --> 00:07:27,320
+Speaker 5:  this is like sicko territory of like using flip phones,
+
+126
+00:07:27,910 --> 00:07:31,760
+Speaker 5:  running full apps. I'm liking better on
+
+127
+00:07:31,860 --> 00:07:35,760
+Speaker 5:  the Motorola phone and they're both kind of like, they
+
+128
+00:07:35,760 --> 00:07:39,720
+Speaker 5:  both put the, the option to run like a full app on the cover
+
+129
+00:07:39,720 --> 00:07:42,960
+Speaker 5:  screen kind of out of sight 'cause it's maybe not a great idea.
+
+130
+00:07:43,260 --> 00:07:47,040
+Speaker 2:  No, it's objectively no maybe involved. It's, it's a bad idea and you shouldn't
+
+131
+00:07:47,040 --> 00:07:47,320
+Speaker 2:  do it.
+
+132
+00:07:47,740 --> 00:07:51,720
+Speaker 5:  But it is, it's surprisingly like Samsung kind of puts it at
+
+133
+00:07:51,830 --> 00:07:55,720
+Speaker 5:  more of an arm's length. Like you can add Google maps
+
+134
+00:07:56,060 --> 00:07:59,760
+Speaker 5:  and messaging like without jumping through too many hoops
+
+135
+00:07:59,990 --> 00:08:03,840
+Speaker 5:  it's in the labs feature. But if you wanna do anything beyond that you have
+
+136
+00:08:03,840 --> 00:08:07,120
+Speaker 5:  to and you have to go to the Galaxy store
+
+137
+00:08:07,410 --> 00:08:09,320
+Speaker 2:  Where everyone goes from time to time.
+
+138
+00:08:09,550 --> 00:08:13,280
+Speaker 5:  Yeah you have to download Good Luck and then you have to download like
+
+139
+00:08:13,920 --> 00:08:17,520
+Speaker 5:  a specific module for good luck to
+
+140
+00:08:17,540 --> 00:08:20,000
+Speaker 5:  enable a launcher for the cover screen.
+
+141
+00:08:20,720 --> 00:08:23,920
+Speaker 6:  I just wanna jump in and say if you are a sicko,
+
+142
+00:08:24,910 --> 00:08:28,760
+Speaker 6:  good luck is like your favorite best friend ever. Like, like good luck
+
+143
+00:08:28,820 --> 00:08:32,480
+Speaker 6:  is the reason to create the stupid Samsung account to get to the stupid Samsung
+
+144
+00:08:32,610 --> 00:08:36,560
+Speaker 6:  store and download it. Especially if like you really want to like
+
+145
+00:08:36,820 --> 00:08:40,520
+Speaker 6:  do anything with your Samsung device. I think the people that make Sam
+
+146
+00:08:40,800 --> 00:08:44,440
+Speaker 6:  the Good Luck modules and stuff are all a bunch of like really
+
+147
+00:08:45,410 --> 00:08:49,160
+Speaker 6:  nerdy Samsung engineers that just wanna do weird stuff with these, this hardware
+
+148
+00:08:49,220 --> 00:08:52,760
+Speaker 6:  and that is like, that is your path to do that. So yeah, keep going. Allison,
+
+149
+00:08:53,000 --> 00:08:55,320
+Speaker 6:  I just wanna say good luck. It's a lot of fun. Well
+
+150
+00:08:55,320 --> 00:08:58,240
+Speaker 2:  And I, I, I will say to that point actually one of the things that seems
+
+151
+00:08:58,260 --> 00:09:02,200
+Speaker 2:  to have happened with this round of these phones is that Samsung
+
+152
+00:09:02,420 --> 00:09:05,480
+Speaker 2:  is pushing more towards the thing it's gotten better at with the galaxies
+
+153
+00:09:05,480 --> 00:09:09,280
+Speaker 2:  over the years. Which is like giving you lots to do but only
+
+154
+00:09:09,470 --> 00:09:13,240
+Speaker 2:  sort of showing you the easy stuff. Or like for years
+
+155
+00:09:13,420 --> 00:09:17,400
+Speaker 2:  you I I, my experience is always I would get Samsung's newest phone,
+
+156
+00:09:17,900 --> 00:09:21,600
+Speaker 2:  it would boot up, I would log in with my Google account and then it would
+
+157
+00:09:21,600 --> 00:09:25,280
+Speaker 2:  present me 1000 options. And I had to make a decision about
+
+158
+00:09:25,330 --> 00:09:29,320
+Speaker 2:  every one of those 1000 options and they eventually got to the
+
+159
+00:09:29,320 --> 00:09:31,440
+Speaker 2:  point where they're like, okay, there's still a thousand options and if you
+
+160
+00:09:31,800 --> 00:09:35,480
+Speaker 2:  want to do stuff there's more stuff to do on a Samsung phone than basically
+
+161
+00:09:35,480 --> 00:09:39,320
+Speaker 2:  anybody else. But they've done a much better job of saying here are the things
+
+162
+00:09:39,320 --> 00:09:42,040
+Speaker 2:  we wanna sort of put in front of you and then here are the things we wanna
+
+163
+00:09:42,060 --> 00:09:45,520
+Speaker 2:  let you find. And. I feel like good luck is a perfect example of like, it's
+
+164
+00:09:45,520 --> 00:09:48,560
+Speaker 2:  great that that exists. I think it's awesome that that exists. That absolutely
+
+165
+00:09:48,560 --> 00:09:52,480
+Speaker 2:  is not a thing that most people should even need to know exists.
+
+166
+00:09:53,080 --> 00:09:53,360
+Speaker 2:  Yeah
+
+167
+00:09:53,540 --> 00:09:57,480
+Speaker 6:  And they won't find it either. Like right to know about good luck means
+
+168
+00:09:57,480 --> 00:10:01,040
+Speaker 6:  that you have to have been told about good luck. Right, right, right. Either
+
+169
+00:10:01,040 --> 00:10:04,320
+Speaker 6:  through a blog or your friend or something.
+
+170
+00:10:04,520 --> 00:10:08,400
+Speaker 5:  Yeah. You typed into Google how do I do this on my Samsung phone?
+
+171
+00:10:08,400 --> 00:10:12,320
+Speaker 5:  Exactly. Yeah. I just think it's interesting that Motorola like
+
+172
+00:10:12,350 --> 00:10:16,120
+Speaker 5:  doesn't make it that hard. There's sort of an apps panel
+
+173
+00:10:16,540 --> 00:10:20,480
+Speaker 5:  for the cover screen and then you, you go in and you enable every app
+
+174
+00:10:20,480 --> 00:10:23,840
+Speaker 5:  individually and it gives you a warning or something. It's like this might
+
+175
+00:10:23,840 --> 00:10:27,760
+Speaker 5:  be a dumb idea but it's much more like permissive. And there are
+
+176
+00:10:27,880 --> 00:10:31,840
+Speaker 5:  certain apps I think are pretty good and like helpful to have on the cover
+
+177
+00:10:31,840 --> 00:10:35,560
+Speaker 5:  screen like Google Maps, which you wanna glance at some
+
+178
+00:10:35,850 --> 00:10:39,720
+Speaker 5:  directions. Like I'm the worst when I get out of like not in
+
+179
+00:10:39,720 --> 00:10:43,400
+Speaker 5:  Seattle but like out of a subway stop. I'm like, I have no idea which, oh
+
+180
+00:10:43,400 --> 00:10:46,720
+Speaker 5:  yeah. Direction I need to be going. And that's when you just kinda like
+
+181
+00:10:47,140 --> 00:10:47,960
+Speaker 5:  glance at Google
+
+182
+00:10:48,110 --> 00:10:52,000
+Speaker 6:  Maps. I'm, I'm curious, I assume that both Motorola and Samsung have like
+
+183
+00:10:52,240 --> 00:10:55,800
+Speaker 6:  a widget to like play pause and skip your music tracks
+
+184
+00:10:56,080 --> 00:10:59,840
+Speaker 6:  that's playing, but can you run, I guess you can
+
+185
+00:10:59,840 --> 00:11:03,680
+Speaker 6:  force like Spotify to run if you wanted to like browse
+
+186
+00:11:04,140 --> 00:11:07,480
+Speaker 6:  to a different playlist or something like that. Is that like a, a thing that
+
+187
+00:11:07,480 --> 00:11:11,240
+Speaker 6:  is like feasible or doable or even a good experience if you do that
+
+188
+00:11:11,660 --> 00:11:15,600
+Speaker 5:  So questionable whether it's a good experience? So the way Motorola
+
+189
+00:11:15,630 --> 00:11:19,160
+Speaker 5:  does it, there's a Spotify widget like specifically okay
+
+190
+00:11:19,430 --> 00:11:23,160
+Speaker 5:  it's broken like most of the time so it's
+
+191
+00:11:23,440 --> 00:11:27,120
+Speaker 5:  not very helpful. you know the bulk, they'll both give you the like media
+
+192
+00:11:27,140 --> 00:11:31,040
+Speaker 5:  player like pause or fast forward whatever happens to be playing.
+
+193
+00:11:31,430 --> 00:11:35,160
+Speaker 5:  Yeah. If you want to browse Spotify or do anything
+
+194
+00:11:35,160 --> 00:11:38,920
+Speaker 5:  beyond that and the Samsung phone, you gotta do the good luck thing.
+
+195
+00:11:39,660 --> 00:11:43,600
+Speaker 5:  And then I was just looking through it and like I got a popup
+
+196
+00:11:43,610 --> 00:11:47,440
+Speaker 5:  about some new Spotify feature. I was like well this is blocking the
+
+197
+00:11:47,440 --> 00:11:50,840
+Speaker 5:  whole screen and I need to quit this app now. So
+
+198
+00:11:51,580 --> 00:11:52,880
+Speaker 5:  not great on either. I
+
+199
+00:11:52,960 --> 00:11:56,240
+Speaker 2:  Suspect that stuff will get better. And I do think one of the interesting
+
+200
+00:11:56,720 --> 00:11:59,960
+Speaker 2:  questions developers are gonna have to ask is like what is our outside screen
+
+201
+00:11:59,970 --> 00:12:03,760
+Speaker 2:  experience gonna be? Because the, you can just run the full
+
+202
+00:12:03,780 --> 00:12:07,560
+Speaker 2:  app thing as a useful hack, but if these phones are gonna get popular and
+
+203
+00:12:07,560 --> 00:12:10,080
+Speaker 2:  they're not there yet, but if they are going to get there over time
+
+204
+00:12:10,950 --> 00:12:14,520
+Speaker 2:  Spotify's gonna have to figure out like what is the closed screen experience?
+
+205
+00:12:14,580 --> 00:12:15,200
+Speaker 2:  And. I.
+
+206
+00:12:15,200 --> 00:12:16,800
+Speaker 6:  Don't think Spotify's ever gonna figure that out.
+
+207
+00:12:16,940 --> 00:12:17,520
+Speaker 2:  It may not.
+
+208
+00:12:18,000 --> 00:12:21,000
+Speaker 6:  I think Samsung's gonna have to figure that out. Interesting. And then like
+
+209
+00:12:21,190 --> 00:12:25,160
+Speaker 6:  Samsung is going to have to be like, we reformatted your app
+
+210
+00:12:25,160 --> 00:12:28,760
+Speaker 6:  to fit this screen because I think that what's gonna happen is the same thing
+
+211
+00:12:28,760 --> 00:12:32,720
+Speaker 6:  that we saw with Android tablets forever and ever is that like
+
+212
+00:12:33,220 --> 00:12:37,000
+Speaker 6:  the companies are not gonna really invest a lot in the app experience for
+
+213
+00:12:37,000 --> 00:12:40,840
+Speaker 6:  the different size screens that are not phone shaped and phone size. But
+
+214
+00:12:41,190 --> 00:12:45,160
+Speaker 6:  Samsung will do the legwork to like allow you to run a
+
+215
+00:12:45,160 --> 00:12:48,640
+Speaker 6:  window or allow you to split the screen in different ways or make use of
+
+216
+00:12:48,640 --> 00:12:52,440
+Speaker 6:  the larger screen or in this case the smaller screen in a way
+
+217
+00:12:52,440 --> 00:12:56,400
+Speaker 6:  that is more practical and more useful. And I would be, I would not be
+
+218
+00:12:56,400 --> 00:13:00,320
+Speaker 6:  surprised if we don't see like Spotify widget by Samsung that like,
+
+219
+00:13:00,700 --> 00:13:04,440
+Speaker 6:  you know, kind of addresses those problems because Spotify won't do it or
+
+220
+00:13:05,020 --> 00:13:08,040
+Speaker 6:  Amazon won't do it or whatever. you know, name your app developer.
+
+221
+00:13:08,440 --> 00:13:12,240
+Speaker 5:  I think widgets, it's the year of the widget. I think it really is. Let's
+
+222
+00:13:12,240 --> 00:13:14,080
+Speaker 5:  just have more, let's keep going with widgets.
+
+223
+00:13:14,340 --> 00:13:18,120
+Speaker 2:  I'm, I'm into it. And so one, one more thing on the Google Maps thing.
+
+224
+00:13:18,240 --> 00:13:21,920
+Speaker 2:  'cause I, I was watching a video in which they were all excited about Google
+
+225
+00:13:21,990 --> 00:13:25,880
+Speaker 2:  Maps navigation on the outside screen and it made me think, so if I have
+
+226
+00:13:25,880 --> 00:13:29,800
+Speaker 2:  a flip phone, And I open up my phone or I guess I
+
+227
+00:13:29,800 --> 00:13:33,440
+Speaker 2:  take my phone out of my pocket and I'm like, I need to navigate home. Am
+
+228
+00:13:33,520 --> 00:13:37,160
+Speaker 2:  I gonna open up the phone, type it in, start the
+
+229
+00:13:37,160 --> 00:13:41,000
+Speaker 2:  navigation and close it and then like dock it to the thing in my
+
+230
+00:13:41,100 --> 00:13:44,880
+Speaker 2:  car. And I gonna leave it open. Like I don't know what the
+
+231
+00:13:44,880 --> 00:13:48,840
+Speaker 2:  correct phone behavior is anymore. And it feels very weird in that
+
+232
+00:13:48,840 --> 00:13:52,760
+Speaker 2:  sense. Like to close my phone and then look at navigation seems weird
+
+233
+00:13:52,760 --> 00:13:56,080
+Speaker 2:  even though that's possible. And then it's like, if I want to add a stop,
+
+234
+00:13:56,080 --> 00:13:58,720
+Speaker 2:  should I open my phone? Should I leave my phone closed? Does it not matter?
+
+235
+00:13:58,740 --> 00:14:02,400
+Speaker 2:  Is this too many options? Like, I don't know, it just feels weird.
+
+236
+00:14:03,040 --> 00:14:06,880
+Speaker 5:  I I've definitely have those moments where I was, you try and do too
+
+237
+00:14:06,880 --> 00:14:10,320
+Speaker 5:  many things on the cover screen and you're like, oh okay, I've I've pushed
+
+238
+00:14:10,340 --> 00:14:14,320
+Speaker 5:  it too far. This is like one too many things. It's just not
+
+239
+00:14:14,480 --> 00:14:17,880
+Speaker 5:  a comfortable experience. Yeah, I, I find myself when I'm starting
+
+240
+00:14:17,880 --> 00:14:21,400
+Speaker 5:  navigation or whatnot, you know, opening the phone,
+
+241
+00:14:21,530 --> 00:14:25,080
+Speaker 5:  doing the like fiddly stuff and then I think if I was
+
+242
+00:14:25,110 --> 00:14:28,800
+Speaker 5:  driving with it I would would keep it open. But if I'm
+
+243
+00:14:28,800 --> 00:14:32,480
+Speaker 5:  walking then I close it, put it in my pocket and that's when I'm like, I
+
+244
+00:14:32,480 --> 00:14:36,400
+Speaker 5:  might need to glance at something or check, you know, respond to a
+
+245
+00:14:36,400 --> 00:14:40,120
+Speaker 5:  text message. It's sort of like a choose your own adventure. And,
+
+246
+00:14:40,840 --> 00:14:44,720
+Speaker 5:  I. I think there's, if you're going to buy a flip phone right now, I
+
+247
+00:14:44,720 --> 00:14:48,520
+Speaker 5:  think you need a little bit of that kind of sense of adventure or
+
+248
+00:14:48,550 --> 00:14:52,280
+Speaker 5:  like you're sort of excited about figuring those things out.
+
+249
+00:14:52,540 --> 00:14:56,400
+Speaker 5:  You can use it and just out of the box just have like a fine
+
+250
+00:14:56,400 --> 00:15:00,320
+Speaker 5:  experience with widgets. But I think like the people who
+
+251
+00:15:00,320 --> 00:15:04,280
+Speaker 5:  are gonna get the most out of it are kind of like Ooh. I have options. I
+
+252
+00:15:04,280 --> 00:15:08,000
+Speaker 5:  can do this on the cover screen or the inside screen or run a app.
+
+253
+00:15:08,580 --> 00:15:10,640
+Speaker 6:  Can you take a call on the cover screen?
+
+254
+00:15:11,550 --> 00:15:15,360
+Speaker 5:  Yeah. And it goes automatically to the speaker phone.
+
+255
+00:15:15,870 --> 00:15:18,840
+Speaker 6:  Okay. So you're not holding half of a phone up to the side of your face.
+
+256
+00:15:19,080 --> 00:15:23,040
+Speaker 5:  Right. Hello? Okay. Yeah, I I don't answer the
+
+257
+00:15:23,040 --> 00:15:23,480
+Speaker 5:  phone so
+
+258
+00:15:23,840 --> 00:15:26,800
+Speaker 2:  Yeah, it's just all robocalls. What's the that's who it's trick question.
+
+259
+00:15:27,800 --> 00:15:31,400
+Speaker 6:  I know where the flip five, one of the Samsung six sing is a new hinge. Is
+
+260
+00:15:31,400 --> 00:15:34,720
+Speaker 6:  this hinge any more one Hable Flickable
+
+261
+00:15:35,470 --> 00:15:36,560
+Speaker 6:  than we've seen in the past?
+
+262
+00:15:37,440 --> 00:15:40,280
+Speaker 5:  I hate doing that. I've like, I don't know.
+
+263
+00:15:40,400 --> 00:15:42,880
+Speaker 2:  I No 'cause that's the like done, right? That's the best part.
+
+264
+00:15:43,480 --> 00:15:47,320
+Speaker 5:  I don't, I don't enjoy it. Like you gotta get your, I'm already
+
+265
+00:15:47,320 --> 00:15:50,960
+Speaker 5:  putting my nails like under the screen in a way that I don't
+
+266
+00:15:51,030 --> 00:15:55,000
+Speaker 5:  like And I wouldn't say it's any better or worse. It's the same
+
+267
+00:15:55,300 --> 00:15:57,480
+Speaker 5:  And. I don't recommend it. I think it's bad.
+
+268
+00:15:57,760 --> 00:16:01,720
+Speaker 6:  I think we've talked about this before, but we need a button that you push
+
+269
+00:16:01,720 --> 00:16:04,320
+Speaker 6:  a button on the side and you got the spring loaded action. Yes.
+
+270
+00:16:04,540 --> 00:16:04,760
+Speaker 2:  Yes.
+
+271
+00:16:05,030 --> 00:16:07,040
+Speaker 6:  Like, you know, one of those switchblade combs
+
+272
+00:16:07,310 --> 00:16:10,960
+Speaker 2:  Give me the thing he has in the matrix. That is the answer. That is the correct
+
+273
+00:16:10,960 --> 00:16:14,680
+Speaker 2:  answer. I totally agree. We should get off of the outside screen here in
+
+274
+00:16:14,680 --> 00:16:17,160
+Speaker 2:  a sec. But customization is the other thing that Samsung made a big deal
+
+275
+00:16:17,160 --> 00:16:20,560
+Speaker 2:  about being able to change the background and move the widgets around and
+
+276
+00:16:20,750 --> 00:16:24,360
+Speaker 2:  have it look like your thing. And obviously like this is,
+
+277
+00:16:24,630 --> 00:16:28,160
+Speaker 2:  this is the lock screen of this phone in a super real way.
+
+278
+00:16:28,470 --> 00:16:31,480
+Speaker 2:  Have you been playing around with it? What, what kind of cool stuff have
+
+279
+00:16:31,480 --> 00:16:32,000
+Speaker 2:  you discovered?
+
+280
+00:16:32,950 --> 00:16:36,360
+Speaker 5:  I've, I went pretty intense with it. Yeah. Like
+
+281
+00:16:36,790 --> 00:16:40,360
+Speaker 5:  I've got like the font, I've got a cute picture of my kid I turned,
+
+282
+00:16:40,730 --> 00:16:44,600
+Speaker 5:  there are a lot of options and yeah you can, you can
+
+283
+00:16:44,600 --> 00:16:48,080
+Speaker 5:  treat it as like first of all there's an always on display
+
+284
+00:16:48,500 --> 00:16:52,200
+Speaker 5:  so that's an option. You don't get on the Motorola and you get little app,
+
+285
+00:16:52,380 --> 00:16:55,880
+Speaker 5:  you know icons for your notifications. You can turn on the battery
+
+286
+00:16:55,880 --> 00:16:59,440
+Speaker 5:  percentage or turn that off. Yeah, it's pretty customizable and
+
+287
+00:16:59,960 --> 00:17:03,920
+Speaker 5:  flexible and you get to a point where you're like which of these
+
+288
+00:17:03,920 --> 00:17:07,760
+Speaker 5:  background colors goes best with this photo of my
+
+289
+00:17:07,860 --> 00:17:11,720
+Speaker 5:  kid wearing sunglasses in a funny way, And I. I went
+
+290
+00:17:11,720 --> 00:17:14,080
+Speaker 5:  down the rabbit hole this weekend so I'm very pleased.
+
+291
+00:17:14,300 --> 00:17:17,480
+Speaker 2:  Are y'all big lock screen customizers in general? Yeah,
+
+292
+00:17:17,520 --> 00:17:19,400
+Speaker 5:  I am. I get into it.
+
+293
+00:17:19,800 --> 00:17:21,000
+Speaker 2:  I believe that. Dan what about you?
+
+294
+00:17:21,620 --> 00:17:24,880
+Speaker 6:  Yes, but I view it from the lens of
+
+295
+00:17:24,920 --> 00:17:28,640
+Speaker 6:  productivity 'cause I'm a huge nerd. I'm like, no
+
+296
+00:17:28,730 --> 00:17:32,680
+Speaker 6:  there are no kids on my lock screen. More widgets. What are, what are the
+
+297
+00:17:32,680 --> 00:17:36,320
+Speaker 6:  most useful widgets and what is the wallpaper that signifies I'm in work
+
+298
+00:17:36,320 --> 00:17:40,240
+Speaker 6:  mode now. So that, that's kind of how I do it. I
+
+299
+00:17:40,240 --> 00:17:43,960
+Speaker 6:  know with Samsung And I know with Android 14 they added a bunch of like
+
+300
+00:17:43,990 --> 00:17:47,080
+Speaker 6:  wallpaper lock screen customizations that I've not really played with a bunch,
+
+301
+00:17:47,100 --> 00:17:50,920
+Speaker 6:  but at least on an iPhone what I've done is set up a bunch of different ones
+
+302
+00:17:50,920 --> 00:17:54,280
+Speaker 6:  that tie into the focus mode that I'm using at the current moment and then
+
+303
+00:17:54,280 --> 00:17:57,360
+Speaker 6:  it switches. And so my weekend one has kids
+
+304
+00:17:57,900 --> 00:17:59,320
+Speaker 6:  that's nice, but the weekday one doesn't,
+
+305
+00:17:59,700 --> 00:18:03,520
+Speaker 2:  Dan Seaford loves his kids but only on the weekends. That's the, that's the
+
+306
+00:18:03,680 --> 00:18:07,640
+Speaker 2:  takeaway. No, my customization has been, I have discovered
+
+307
+00:18:07,720 --> 00:18:11,640
+Speaker 2:  it is actually very powerful to not have app icons
+
+308
+00:18:11,640 --> 00:18:14,760
+Speaker 2:  accessible to me. So all the customization I've done now is mostly on my
+
+309
+00:18:14,760 --> 00:18:18,000
+Speaker 2:  home screen, which is just, I have one that I hit at the end of the workday
+
+310
+00:18:18,000 --> 00:18:21,160
+Speaker 2:  that just makes it much harder for me to open Slack and I've just discovered
+
+311
+00:18:21,160 --> 00:18:24,840
+Speaker 2:  that even that tiny little bit of friction goes a very long way. So I, I've
+
+312
+00:18:24,840 --> 00:18:28,120
+Speaker 2:  become a big believer in, in that kind of customization, but only really
+
+313
+00:18:28,120 --> 00:18:31,840
+Speaker 2:  in the last like six months. Alright. Allison, before we switch to the
+
+314
+00:18:31,840 --> 00:18:35,600
+Speaker 2:  Fold, anything else on the flip that you've noticed in terms of like how
+
+315
+00:18:35,620 --> 00:18:39,520
+Speaker 2:  you use it? I saw the, everybody's doing the, the new gesture where you can
+
+316
+00:18:39,520 --> 00:18:41,960
+Speaker 2:  like flick a thing up to the top screen so you can do stuff on the bottom
+
+317
+00:18:41,960 --> 00:18:43,280
+Speaker 2:  screen. How does that work?
+
+318
+00:18:43,820 --> 00:18:47,600
+Speaker 5:  You know, I, I go right for the camera. And I, that's a thing
+
+319
+00:18:47,800 --> 00:18:51,440
+Speaker 5:  I like on this form factor on the flip phones and
+
+320
+00:18:51,900 --> 00:18:55,800
+Speaker 5:  I'm just enjoying the hell out of it. Like you can, you
+
+321
+00:18:55,800 --> 00:18:58,960
+Speaker 5:  can do so many things. You can make it like a little, like a little view
+
+322
+00:18:58,960 --> 00:19:02,560
+Speaker 5:  camera where you're, you've got it folded in half and you're looking at the
+
+323
+00:19:02,800 --> 00:19:06,640
+Speaker 5:  image on the bottom. You can record video. Like I, I like that
+
+324
+00:19:06,650 --> 00:19:10,520
+Speaker 5:  Becca pointed that out in our hands-on, you can kind of flip it like a
+
+325
+00:19:10,520 --> 00:19:14,120
+Speaker 5:  cam recorder. All those things are, they're not new but they're
+
+326
+00:19:14,170 --> 00:19:16,640
+Speaker 5:  still here and I'm still enjoying them.
+
+327
+00:19:17,220 --> 00:19:21,080
+Speaker 2:  And one question we've gotten a bunch is the transition from the
+
+328
+00:19:21,080 --> 00:19:24,400
+Speaker 2:  different modes. If you're using something with it closed or you have it
+
+329
+00:19:24,400 --> 00:19:27,320
+Speaker 2:  flipped around in one of the viewing modes and then you open up the phone
+
+330
+00:19:27,320 --> 00:19:30,480
+Speaker 2:  to use it like a normal phone, how does, how do all those transitions work?
+
+331
+00:19:31,260 --> 00:19:35,080
+Speaker 5:  I'm not noticing like I think Samsung treats the
+
+332
+00:19:35,220 --> 00:19:38,720
+Speaker 5:  two screens as two different sort of experiences more
+
+333
+00:19:38,950 --> 00:19:42,800
+Speaker 5:  than Motorola. Like if you're doing something on the cover screen and you
+
+334
+00:19:42,800 --> 00:19:45,640
+Speaker 5:  open the phone, you're like this is frustrating, I need to open the phone
+
+335
+00:19:45,640 --> 00:19:49,600
+Speaker 5:  and do it. It'll open that app or whatever you were working
+
+336
+00:19:49,660 --> 00:19:53,400
+Speaker 5:  on. But something I think the Motorola phone does a little better
+
+337
+00:19:53,620 --> 00:19:57,600
+Speaker 5:  is if you're, you're like in Google Maps and you set up navigation and
+
+338
+00:19:57,600 --> 00:20:01,240
+Speaker 5:  you close the phone, Motorola will give you a little icon
+
+339
+00:20:01,500 --> 00:20:05,400
+Speaker 5:  that's like, do you wanna open this on the cover screen? And Samsung is
+
+340
+00:20:05,400 --> 00:20:06,440
+Speaker 5:  just kinda like, you're done.
+
+341
+00:20:07,160 --> 00:20:11,040
+Speaker 2:  Interesting Case closed. Yeah, I feel like in both directions I would want
+
+342
+00:20:11,070 --> 00:20:14,440
+Speaker 2:  some continuity there. And it's like back to the Spotify thing, right? If
+
+343
+00:20:14,440 --> 00:20:18,360
+Speaker 2:  I start playing Spotify And I close my phone, I feel like the correct thing
+
+344
+00:20:18,360 --> 00:20:22,280
+Speaker 2:  to do would be pop up Spotify controls on the outside screen. Yeah. Or at
+
+345
+00:20:22,280 --> 00:20:24,560
+Speaker 2:  least ask me if that's a thing that I want. Yeah,
+
+346
+00:20:24,620 --> 00:20:28,400
+Speaker 5:  It might give you media controls at that point. I, I think the default behavior
+
+347
+00:20:28,500 --> 00:20:31,880
+Speaker 5:  is to just like the, the screen goes dark. You're okay, you're done.
+
+348
+00:20:32,060 --> 00:20:35,240
+Speaker 2:  So when you close your phone, Samsung is like you are finished. Yeah. Okay.
+
+349
+00:20:35,720 --> 00:20:39,640
+Speaker 6:  I, I think that's what I like most of the time because I know with the folding
+
+350
+00:20:39,740 --> 00:20:43,120
+Speaker 6:  the Fold and like the pixel Fold and stuff like that, there are some people
+
+351
+00:20:43,120 --> 00:20:45,480
+Speaker 6:  who like to like close it and then continue what they're doing when it's
+
+352
+00:20:45,480 --> 00:20:48,760
+Speaker 6:  closed. If I'm closing the device, I'm probably putting it down or putting
+
+353
+00:20:48,760 --> 00:20:51,320
+Speaker 6:  it in my pocket or putting it in a bag or something like that. Like that
+
+354
+00:20:51,320 --> 00:20:54,840
+Speaker 6:  is my signification that or signifier that like I'm done doing what I'm doing
+
+355
+00:20:55,060 --> 00:20:57,800
+Speaker 6:  and if there's music playing in the background, it'll continue to play, that's
+
+356
+00:20:57,800 --> 00:21:01,760
+Speaker 6:  fine. But I don't want it to like light up again or throw something at
+
+357
+00:21:01,760 --> 00:21:05,160
+Speaker 6:  me unless I pick up the phone again with intention to like keep using it.
+
+358
+00:21:05,540 --> 00:21:09,440
+Speaker 2:  You know what gesture I love to that end is on the flip five,
+
+359
+00:21:09,820 --> 00:21:13,080
+Speaker 2:  if you have it closed and you get a phone call, you silence it by putting
+
+360
+00:21:13,080 --> 00:21:16,320
+Speaker 2:  your hand over it. Kinda like you do on the, on the, on the watch where you
+
+361
+00:21:16,320 --> 00:21:19,160
+Speaker 2:  just like cover it with your hand and it shuts down. Yeah. I think that should
+
+362
+00:21:19,160 --> 00:21:22,440
+Speaker 2:  be like a universal gesture for all things, right? Like talk to the hand
+
+363
+00:21:22,550 --> 00:21:26,480
+Speaker 2:  literally like that is a way of just saying sort of I am finished.
+
+364
+00:21:26,630 --> 00:21:30,360
+Speaker 2:  Like I love so much, it's a power move. It really is. Yeah,
+
+365
+00:21:30,640 --> 00:21:33,480
+Speaker 2:  I love it. It's like no more out of you. Yeah. Like whatever you're doing
+
+366
+00:21:33,480 --> 00:21:34,480
+Speaker 2:  just stop it.
+
+367
+00:21:36,710 --> 00:21:40,440
+Speaker 2:  Exactly. So all right, let's talk about the Fold a little bit. Dan I'm
+
+368
+00:21:40,440 --> 00:21:44,320
+Speaker 2:  particularly curious for you as the the Fold sicko of of our little family
+
+369
+00:21:44,350 --> 00:21:48,120
+Speaker 2:  here. Anything in the Fold five that blows your mind? It seems like the big
+
+370
+00:21:48,120 --> 00:21:51,440
+Speaker 2:  upgrade here this year was the hinge. Was there any software stuff we're
+
+371
+00:21:51,440 --> 00:21:51,840
+Speaker 2:  excited about?
+
+372
+00:21:52,220 --> 00:21:55,920
+Speaker 6:  So Allison can confirm but I believe that there are two software
+
+373
+00:21:56,200 --> 00:22:00,080
+Speaker 6:  features, both of which are gonna be coming to the four and maybe the
+
+374
+00:22:00,080 --> 00:22:03,840
+Speaker 6:  three and the two or whatever. The first one is you get on
+
+375
+00:22:03,940 --> 00:22:07,280
+Speaker 6:  the task bar at the bottom, which is like a permanent strip of your apps.
+
+376
+00:22:07,340 --> 00:22:11,200
+Speaker 6:  You get another slot for a recent app. So instead of like two or three, it's
+
+377
+00:22:11,200 --> 00:22:14,160
+Speaker 6:  now up to four, maybe five now. Okay. Which is cool.
+
+378
+00:22:14,360 --> 00:22:17,840
+Speaker 2:  I will just say the fact that you led with that as the first Yes software
+
+379
+00:22:17,870 --> 00:22:20,360
+Speaker 2:  feature is not super exciting. The
+
+380
+00:22:20,360 --> 00:22:23,760
+Speaker 6:  Other software feature that I'm aware of is if you are
+
+381
+00:22:23,760 --> 00:22:27,680
+Speaker 6:  organizing your home screen you can now like tap and hold and
+
+382
+00:22:27,680 --> 00:22:30,880
+Speaker 6:  pick up an app and then use another finger to like swipe to a different screen
+
+383
+00:22:30,900 --> 00:22:34,240
+Speaker 6:  and then drop the app which you've been able to do on an iPhone or an iPad
+
+384
+00:22:34,240 --> 00:22:38,040
+Speaker 6:  and it makes it a lot easier to like kind of organize your home screen. Samsung's
+
+385
+00:22:38,040 --> 00:22:41,680
+Speaker 6:  now added that otherwise it's got a new hinge.
+
+386
+00:22:42,910 --> 00:22:43,200
+Speaker 2:  Yeah,
+
+387
+00:22:43,740 --> 00:22:47,680
+Speaker 6:  I'm gonna be like perfectly blunt here. I think that Samsung should have
+
+388
+00:22:47,680 --> 00:22:51,520
+Speaker 6:  done so much more this year than it did. It needed to do the hinge, like
+
+389
+00:22:51,520 --> 00:22:53,800
+Speaker 6:  that was a necessary thing and they needed to finally get rid of the gap
+
+390
+00:22:53,800 --> 00:22:57,200
+Speaker 6:  and they did that And, I'm happy that they did and they made it ever so slightly
+
+391
+00:22:57,200 --> 00:23:01,120
+Speaker 6:  lighter or whatever. But the processor upgrade is just your standard
+
+392
+00:23:01,440 --> 00:23:04,640
+Speaker 6:  Qualcomm chip bump. I don't think anybody really had any performance issues
+
+393
+00:23:04,640 --> 00:23:07,560
+Speaker 6:  with the four. so like are you gonna notice any difference in the five? No
+
+394
+00:23:07,780 --> 00:23:10,920
+Speaker 6:  the camera's exactly the same. The screens are basically exactly the same.
+
+395
+00:23:11,260 --> 00:23:14,800
+Speaker 6:  The software is almost identical and it's going to be back ported to the
+
+396
+00:23:14,960 --> 00:23:18,760
+Speaker 6:  older devices. So at least for people that already have a Fold four,
+
+397
+00:23:19,310 --> 00:23:23,120
+Speaker 6:  even with Samsung's like incredible trade-in promotions, it's really
+
+398
+00:23:23,120 --> 00:23:26,920
+Speaker 6:  hard to justify buying a Fold five And I. I like, I own a Fold four
+
+399
+00:23:26,920 --> 00:23:30,000
+Speaker 6:  And I have no intention to buy a Fold five. And it's really interesting that
+
+400
+00:23:30,000 --> 00:23:33,240
+Speaker 6:  this is the year when Samsung finally has some competition and it's done
+
+401
+00:23:33,240 --> 00:23:36,840
+Speaker 6:  maybe it's most iterative update to the, to the phone ever.
+
+402
+00:23:37,100 --> 00:23:40,200
+Speaker 6:  And all of the updates have been really iterative but this one is most iterative.
+
+403
+00:23:40,500 --> 00:23:44,120
+Speaker 6:  So I was really hoping Samsung would do more kind of knowing that Google
+
+404
+00:23:44,300 --> 00:23:47,120
+Speaker 6:  had the Pixel Fold working, we all knew Google was working on the Pixel Fold
+
+405
+00:23:47,120 --> 00:23:49,280
+Speaker 6:  for like two years. Like that's, it's not a surprise, but
+
+406
+00:23:49,280 --> 00:23:53,160
+Speaker 2:  On the software front, Samsung is still a mile ahead of Google, right? Yeah.
+
+407
+00:23:53,160 --> 00:23:56,720
+Speaker 2:  And we talked about this with the Pixel Fold, like the Z folds ability to
+
+408
+00:23:56,950 --> 00:24:00,400
+Speaker 2:  move apps around is so much better than
+
+409
+00:24:00,840 --> 00:24:04,720
+Speaker 2:  anything on any other Android large screen device. And in a lot of
+
+410
+00:24:04,720 --> 00:24:07,880
+Speaker 2:  ways it's better than the iPad. Like it's, it's very good at letting you
+
+411
+00:24:07,880 --> 00:24:11,320
+Speaker 2:  move a bunch of things around on the screen and put apps where you want them
+
+412
+00:24:11,320 --> 00:24:15,160
+Speaker 2:  to go and like it, it's, it seems a little clunky in spots but like
+
+413
+00:24:15,160 --> 00:24:16,040
+Speaker 2:  it's very powerful.
+
+414
+00:24:16,350 --> 00:24:19,200
+Speaker 6:  Yeah and and like, like we were talking about with Goodlock, like we said
+
+415
+00:24:19,200 --> 00:24:23,120
+Speaker 6:  on the show before, Samsung software makes the Fold phone feel like
+
+416
+00:24:23,160 --> 00:24:27,040
+Speaker 6:  a PC that you shove in your pocket with all of the like good and bad that
+
+417
+00:24:27,040 --> 00:24:30,880
+Speaker 6:  comes along with that. So if you want a portable computer,
+
+418
+00:24:31,470 --> 00:24:35,040
+Speaker 6:  like the Fold Five's gonna do all of that stuff just as well as the Fold
+
+419
+00:24:35,040 --> 00:24:37,920
+Speaker 6:  forwarded. so like if You don't have one already, sure you're getting a slightly
+
+420
+00:24:37,920 --> 00:24:41,880
+Speaker 6:  refined experience this year, but if it didn't like really
+
+421
+00:24:42,030 --> 00:24:45,240
+Speaker 6:  like if you weren't sold by that pitch a year ago, I don't think the Fold
+
+422
+00:24:45,240 --> 00:24:46,680
+Speaker 6:  five's gonna change anything in that matter.
+
+423
+00:24:47,320 --> 00:24:51,000
+Speaker 2:  That's fair. Allison, have you noticed anything that feels different in
+
+424
+00:24:51,320 --> 00:24:52,000
+Speaker 2:  actually using the thing?
+
+425
+00:24:52,660 --> 00:24:55,920
+Speaker 5:  No, it's feels very much like using the Fold four
+
+426
+00:24:56,670 --> 00:25:00,360
+Speaker 5:  fair I mean just coming from the Pixel Fold more
+
+427
+00:25:00,600 --> 00:25:04,440
+Speaker 5:  recently, I do notice that it's quite a bit lighter than the
+
+428
+00:25:04,440 --> 00:25:08,120
+Speaker 5:  Pixel Fold, which the Fold for was lighter also.
+
+429
+00:25:08,460 --> 00:25:12,280
+Speaker 5:  So I'm, I'm appreciating that the kind of like, yeah there's more
+
+430
+00:25:12,280 --> 00:25:16,120
+Speaker 5:  like drag and drop options you can kind of like, there's a
+
+431
+00:25:16,120 --> 00:25:20,040
+Speaker 5:  two handed copy and paste which didn't work
+
+432
+00:25:20,100 --> 00:25:22,680
+Speaker 5:  the first three times. So I tried it but I finally got it working.
+
+433
+00:25:23,590 --> 00:25:27,000
+Speaker 2:  Wait, explain what, what is a two-handed copy and paste? Is this, is this
+
+434
+00:25:27,040 --> 00:25:27,480
+Speaker 2:  a good thing?
+
+435
+00:25:28,020 --> 00:25:31,720
+Speaker 5:  So the the you, you have a, a picture in the like Samsung
+
+436
+00:25:31,720 --> 00:25:35,600
+Speaker 5:  gallery app and you can do that like long press on a person
+
+437
+00:25:35,860 --> 00:25:37,320
+Speaker 5:  and it'll cut it out thing.
+
+438
+00:25:37,680 --> 00:25:38,200
+Speaker 2:  I see sure.
+
+439
+00:25:38,300 --> 00:25:42,120
+Speaker 5:  And then you can, you can leave that finger there and
+
+440
+00:25:42,510 --> 00:25:46,360
+Speaker 5:  grab another app, open another app with your other hand and
+
+441
+00:25:46,610 --> 00:25:50,360
+Speaker 5:  it'll just like drag and drop the image to the new app
+
+442
+00:25:50,660 --> 00:25:54,560
+Speaker 5:  and voila, I don't know but like Dan
+
+443
+00:25:54,680 --> 00:25:57,680
+Speaker 5:  said, that's going to come to the older Fold phones
+
+444
+00:25:58,600 --> 00:26:02,000
+Speaker 5:  soon-ish and they never say so yeah there's, there's really
+
+445
+00:26:03,060 --> 00:26:06,960
+Speaker 5:  not much here. If you, if you have a Fold four, if you were sort
+
+446
+00:26:06,960 --> 00:26:10,680
+Speaker 5:  of on the fence before and this year's the year to
+
+447
+00:26:10,740 --> 00:26:14,640
+Speaker 5:  buy a foldable for some reason like yeah get get the
+
+448
+00:26:14,640 --> 00:26:17,440
+Speaker 5:  Fold five. That's nice. But that's about it.
+
+449
+00:26:17,700 --> 00:26:21,680
+Speaker 2:  It is interesting how quickly the Fold in particular seems
+
+450
+00:26:21,680 --> 00:26:24,960
+Speaker 2:  to have settled into the, like it's very mature and now just gets slightly
+
+451
+00:26:24,960 --> 00:26:28,920
+Speaker 2:  better every year thing and maybe there are more sort of big turns to have
+
+452
+00:26:28,920 --> 00:26:32,440
+Speaker 2:  but it feels like with you know, regular smartphones it took a lot longer
+
+453
+00:26:32,540 --> 00:26:35,840
+Speaker 2:  to get to the like we know what this thing is and it's just gonna sort of
+
+454
+00:26:35,840 --> 00:26:39,280
+Speaker 2:  slowly improve over time phase and Samsung is already there.
+
+455
+00:26:39,720 --> 00:26:43,080
+Speaker 6:  I mean, I think Samsung thinks Samsung is there fair they're are
+
+456
+00:26:43,400 --> 00:26:46,280
+Speaker 6:  absolutely a list of things that I would've loved for them to address on
+
+457
+00:26:46,280 --> 00:26:49,200
+Speaker 6:  the Vault four that they did not on the vault five. Tell us
+
+458
+00:26:49,200 --> 00:26:50,600
+Speaker 2:  The list Dan. That's what we're here for.
+
+459
+00:26:50,860 --> 00:26:53,920
+Speaker 6:  All right, so this doesn't matter as much to me but it matters to the vast
+
+460
+00:26:54,200 --> 00:26:57,520
+Speaker 6:  majority of people. The camera is exactly the same. Mm. And the camera we
+
+461
+00:26:57,520 --> 00:27:00,960
+Speaker 6:  know is not as good as the camera that you can get on other phones for half
+
+462
+00:27:00,960 --> 00:27:04,360
+Speaker 6:  the price. They did nothing there to improve that. so like that could have
+
+463
+00:27:04,360 --> 00:27:07,800
+Speaker 6:  been an improvement. It they did make it a little bit lighter. It's 10 grams
+
+464
+00:27:07,800 --> 00:27:11,600
+Speaker 6:  lighter, two nickels as Allison says that's great. But
+
+465
+00:27:11,600 --> 00:27:15,360
+Speaker 6:  it's also like barely perceptible And we've seen phones
+
+466
+00:27:15,390 --> 00:27:19,360
+Speaker 6:  from China from Honor and Huawei and Xmi and other brands that
+
+467
+00:27:19,360 --> 00:27:23,280
+Speaker 6:  are noticeably lighter, like 40 grams lighter. They're thinner.
+
+468
+00:27:23,430 --> 00:27:27,400
+Speaker 6:  They are, they're more pocketable and and portable would've loved to
+
+469
+00:27:27,400 --> 00:27:30,520
+Speaker 6:  see improvements there. It's great that they fixed the hinge but it's still
+
+470
+00:27:30,520 --> 00:27:34,400
+Speaker 6:  kind of a chunky thick phone. The outside cover display
+
+471
+00:27:34,500 --> 00:27:38,160
+Speaker 6:  is a big blocker for a lot of people in that it is still weird and
+
+472
+00:27:38,360 --> 00:27:39,920
+Speaker 6:  narrow and awkward. It's
+
+473
+00:27:39,920 --> 00:27:40,720
+Speaker 2:  Still a TV remote.
+
+474
+00:27:40,790 --> 00:27:44,760
+Speaker 6:  Yeah, it's still a TV remote. I kind of understand why Samsung is using
+
+475
+00:27:44,760 --> 00:27:48,240
+Speaker 6:  that and we talked about this in the past of like when you open the phone
+
+476
+00:27:48,540 --> 00:27:52,200
+Speaker 6:  the screen experience is better because it matches your apps better and things
+
+477
+00:27:52,200 --> 00:27:56,080
+Speaker 6:  like that and that kind of dictates the covers geometry
+
+478
+00:27:56,080 --> 00:28:00,040
+Speaker 6:  and dimensions. But again we've seen phones from China that have
+
+479
+00:28:00,320 --> 00:28:04,240
+Speaker 6:  a portrait oriented inside display but have larger outside
+
+480
+00:28:04,240 --> 00:28:08,040
+Speaker 6:  displays that are wider and more normal aspect ratios and are easier
+
+481
+00:28:08,100 --> 00:28:12,080
+Speaker 6:  to use. So I would've loved to seen Samsung make some progress or forward
+
+482
+00:28:12,360 --> 00:28:15,560
+Speaker 6:  momentum there. They still are not
+
+483
+00:28:16,070 --> 00:28:20,000
+Speaker 6:  dust resistant. I know Allison just wrote a piece on the site that it
+
+484
+00:28:20,000 --> 00:28:23,440
+Speaker 6:  looks like they are exploring ways to make them dust resistant but they're
+
+485
+00:28:23,440 --> 00:28:27,160
+Speaker 6:  still the same level of dust resistance as before. They still have the same
+
+486
+00:28:27,160 --> 00:28:30,840
+Speaker 6:  kind of like construction on the inside of the screen panels and
+
+487
+00:28:31,370 --> 00:28:34,920
+Speaker 6:  cover and like screen protectors and things like that. So you have to be
+
+488
+00:28:34,920 --> 00:28:38,600
+Speaker 6:  careful with these and things like that. so like there's a lot of progress
+
+489
+00:28:38,620 --> 00:28:42,480
+Speaker 6:  And, I think what I would like to see is more experiments and more
+
+490
+00:28:42,480 --> 00:28:46,280
+Speaker 6:  innovation from Samsung that we're not, they've kind of like settled into
+
+491
+00:28:46,280 --> 00:28:49,800
+Speaker 6:  this. We're going to make very tiny tweaks to this formula because we
+
+492
+00:28:50,070 --> 00:28:53,800
+Speaker 6:  screwed it up the first year and are very scared of screwing it up again.
+
+493
+00:28:54,300 --> 00:28:57,400
+Speaker 6:  And so that's kind of like what we're getting. But a another example, you
+
+494
+00:28:57,400 --> 00:29:01,000
+Speaker 6:  still can't put the spen in the phone. You have to buy a case to hold the
+
+495
+00:29:01,160 --> 00:29:04,200
+Speaker 6:  spen and it's like external and they made the spen smaller and they came
+
+496
+00:29:04,200 --> 00:29:06,320
+Speaker 6:  up with a new case design to like hold it and stuff like that. It's great
+
+497
+00:29:06,320 --> 00:29:10,280
+Speaker 6:  and all put a silo in the phone that you can put the spen in like, like there's
+
+498
+00:29:10,280 --> 00:29:13,280
+Speaker 6:  like so many things that they could be doing but they are just like either
+
+499
+00:29:14,000 --> 00:29:17,760
+Speaker 6:  planning them out over a 10 year period and doing one at a time or
+
+500
+00:29:17,760 --> 00:29:21,360
+Speaker 6:  they're just, they just feel like it's not worth the time. So I don't know.
+
+501
+00:29:21,660 --> 00:29:25,400
+Speaker 6:  The last point is it's still $1,800. Yep. And that is the biggest turnoff
+
+502
+00:29:25,400 --> 00:29:28,800
+Speaker 6:  to everybody that you talk about about this phone. They didn't move the price
+
+503
+00:29:28,900 --> 00:29:32,680
+Speaker 6:  budget anywhere. There were rumors that it was gonna be more expensive because
+
+504
+00:29:32,680 --> 00:29:36,440
+Speaker 6:  of inflation and and what have you and they kept the price the same which
+
+505
+00:29:36,440 --> 00:29:39,720
+Speaker 6:  is great but still $1,800 or $2,000 if you
+
+506
+00:29:39,950 --> 00:29:43,920
+Speaker 6:  upgrade the storage or whatever it is, is still like just completely
+
+507
+00:29:43,920 --> 00:29:47,600
+Speaker 6:  non-starter for for very massive amounts of people. so like why
+
+508
+00:29:47,600 --> 00:29:50,560
+Speaker 6:  couldn't we get it to 1500 or 1400 or closer to a thousand
+
+509
+00:29:50,800 --> 00:29:54,080
+Speaker 2:  Whatever. Well and this goes back to why I think the flip continues to be
+
+510
+00:29:54,080 --> 00:29:57,000
+Speaker 2:  the more interesting of the two phones at the moment. Partly because they
+
+511
+00:29:57,000 --> 00:30:00,960
+Speaker 2:  just did more to it this year. But also because I think even
+
+512
+00:30:00,980 --> 00:30:04,960
+Speaker 2:  in the early days of these foreign factors where there's not some sort of
+
+513
+00:30:05,070 --> 00:30:09,000
+Speaker 2:  instant killer app that's like if you, if you buy a Z flip you can
+
+514
+00:30:09,020 --> 00:30:12,800
+Speaker 2:  do this, this and this that you just straight up can't do on your
+
+515
+00:30:12,820 --> 00:30:16,400
+Speaker 2:  normal Galaxy phone. It's an interesting tiebreaker right? And like kind
+
+516
+00:30:16,400 --> 00:30:19,640
+Speaker 2:  of what you're talking about Allison that it lets you do different stuff,
+
+517
+00:30:19,640 --> 00:30:23,480
+Speaker 2:  different ways. It gives you these kinds of new ideas about when your
+
+518
+00:30:23,480 --> 00:30:26,240
+Speaker 2:  phone should work and how you interact with it and all this stuff. And if
+
+519
+00:30:26,240 --> 00:30:29,720
+Speaker 2:  that appeals to you, terrific. You have to make what seems to be relatively
+
+520
+00:30:30,010 --> 00:30:33,960
+Speaker 2:  small camera trade-offs and there is the dust proof issue but you get
+
+521
+00:30:33,960 --> 00:30:37,480
+Speaker 2:  something in exchange for that for about the same price the
+
+522
+00:30:37,870 --> 00:30:41,520
+Speaker 2:  Fold comes with all of those trade-offs and another
+
+523
+00:30:41,770 --> 00:30:45,520
+Speaker 2:  eight or $900 in cost and that's just tough.
+
+524
+00:30:45,860 --> 00:30:49,480
+Speaker 2:  And so I think the thing we're at right now is it seems like the flip five
+
+525
+00:30:49,540 --> 00:30:53,520
+Speaker 2:  is a phone that a lot of people might actually stand in the store and think
+
+526
+00:30:53,520 --> 00:30:56,240
+Speaker 2:  about buying instead of the SS
+
+527
+00:30:56,240 --> 00:31:00,200
+Speaker 2:  27,000 or whatever we're gonna get next. And I
+
+528
+00:31:00,200 --> 00:31:02,880
+Speaker 2:  think that's really exciting and it feels like Alison, you And I have both
+
+529
+00:31:02,880 --> 00:31:06,120
+Speaker 2:  written that like this is kind of the moment for flip phones and it seems
+
+530
+00:31:06,120 --> 00:31:09,760
+Speaker 2:  like the flip five genuinely has a shot to be kind of the the first
+
+531
+00:31:10,030 --> 00:31:11,440
+Speaker 2:  real one for a lot of people.
+
+532
+00:31:12,230 --> 00:31:16,120
+Speaker 5:  Yeah, I had some friends over this weekend and the phone was on
+
+533
+00:31:16,120 --> 00:31:20,040
+Speaker 5:  the table and generally my friends are extremely uninterested
+
+534
+00:31:20,060 --> 00:31:23,880
+Speaker 5:  in whatever phone I'm reviewing, but they were kind of like, what is
+
+535
+00:31:23,880 --> 00:31:27,800
+Speaker 5:  this? you know, tell me more And I think their reaction is totally
+
+536
+00:31:27,800 --> 00:31:31,720
+Speaker 5:  different if I have the Z Fold out. It just sort of
+
+537
+00:31:31,940 --> 00:31:35,640
+Speaker 5:  has, I think instantly someone who's not super
+
+538
+00:31:36,030 --> 00:31:39,920
+Speaker 5:  into tech or phones is like, oh I can tell that's not for
+
+539
+00:31:39,920 --> 00:31:43,840
+Speaker 5:  me that that looks pretty intense. But the flip form factor
+
+540
+00:31:43,900 --> 00:31:47,840
+Speaker 5:  is it's familiar. We had flip phones back in the day, we kind of know
+
+541
+00:31:47,840 --> 00:31:51,760
+Speaker 5:  what that is and and you can see immediately like I'm,
+
+542
+00:31:51,820 --> 00:31:55,600
+Speaker 5:  I'm showing them the widgets on the cover screen and how I open
+
+543
+00:31:55,740 --> 00:31:59,560
+Speaker 5:  the daycare app to sign my kid out without flipping the phone open
+
+544
+00:31:59,780 --> 00:32:03,080
+Speaker 5:  and ooze and ahs, you know, from the crowd.
+
+545
+00:32:03,710 --> 00:32:07,520
+Speaker 2:  Yeah, no I, I agree. I think you're gonna have to keep us posted on how your
+
+546
+00:32:07,750 --> 00:32:11,480
+Speaker 2:  reviews come because I wonder if there are big messy
+
+547
+00:32:11,500 --> 00:32:15,240
+Speaker 2:  things left to be discovered. 'cause we are like all these apps have to figure
+
+548
+00:32:15,240 --> 00:32:17,640
+Speaker 2:  out how this is gonna work. Samsung has to figure out how people are gonna
+
+549
+00:32:17,640 --> 00:32:21,600
+Speaker 2:  use it and like as all the Flip and Fold phones get more popular,
+
+550
+00:32:22,010 --> 00:32:25,480
+Speaker 2:  we're just gonna discover new ways in which they're still early and broken.
+
+551
+00:32:25,720 --> 00:32:26,800
+Speaker 2:  I think it's gonna be fascinating.
+
+552
+00:32:27,310 --> 00:32:28,680
+Speaker 5:  Yeah, I'm excited.
+
+553
+00:32:29,100 --> 00:32:32,840
+Speaker 2:  All right, well thank you both. I am confident that we will have more reasons
+
+554
+00:32:32,940 --> 00:32:36,920
+Speaker 2:  to talk about flips and folds in the next few months so we'll be back soon.
+
+555
+00:32:36,940 --> 00:32:37,520
+Speaker 2:  But thank you both.
+
+556
+00:32:37,970 --> 00:32:38,400
+Speaker 6:  Thank you.
+
+557
+00:32:38,460 --> 00:32:38,880
+Speaker 7:  Thanks.
+
+558
+00:32:40,030 --> 00:32:43,680
+Speaker 2:  Alright, we gotta take a break and then we are gonna come back with a little
+
+559
+00:32:43,680 --> 00:32:47,520
+Speaker 2:  bit of an investigation into the present and future of arcade
+
+560
+00:32:47,520 --> 00:32:48,840
+Speaker 2:  games. We'll be right back.
+
+561
+00:32:54,270 --> 00:32:57,960
+Speaker 7:  This episode is brought to you by Shopify. That's the sound
+
+562
+00:32:58,200 --> 00:33:01,720
+Speaker 7:  of switching your business to Shopify, the global commerce platform that
+
+563
+00:33:01,720 --> 00:33:05,400
+Speaker 7:  supercharges your selling harness, the best converting checkout and same
+
+564
+00:33:05,400 --> 00:33:09,360
+Speaker 7:  intuitive features, trusted apps and powerful analytics used by the
+
+565
+00:33:09,360 --> 00:33:13,320
+Speaker 7:  world's leading brands. Stop leaving sales on the table. Discover why
+
+566
+00:33:13,320 --> 00:33:17,280
+Speaker 7:  millions trust Shopify to build, grow and run their business.
+
+567
+00:33:17,510 --> 00:33:21,320
+Speaker 7:  Sign up today for your $1 per month trial period at Shopify dot com
+
+568
+00:33:21,370 --> 00:33:22,560
+Speaker 7:  slash tech 23.
+
+569
+00:33:27,210 --> 00:33:30,940
+Speaker 2:  Welcome back. Have you ever seen those videos on TikTok of people
+
+570
+00:33:30,940 --> 00:33:33,940
+Speaker 2:  playing that arcade game? I don't know what it's called, but it's the one
+
+571
+00:33:33,940 --> 00:33:37,580
+Speaker 2:  where you just put the quarters in and then you try to use that quarter
+
+572
+00:33:37,800 --> 00:33:40,500
+Speaker 2:  to push a bunch of other quarters off the edge.
+
+573
+00:33:41,070 --> 00:33:43,660
+Speaker 8:  Leave a lock on the video for that win right there.
+
+574
+00:33:45,210 --> 00:33:46,180
+Speaker 8:  That is amazing.
+
+575
+00:33:47,960 --> 00:33:51,780
+Speaker 2:  The game is sort of dumb and watching other people play it on TikTok is
+
+576
+00:33:51,780 --> 00:33:55,380
+Speaker 2:  definitely dumb, but I had this phase where I was watching a
+
+577
+00:33:55,390 --> 00:33:57,220
+Speaker 2:  surprising amount of it. It fell
+
+578
+00:33:57,220 --> 00:33:58,140
+Speaker 9:  Right off of the pusher.
+
+579
+00:33:58,230 --> 00:34:01,940
+Speaker 10:  There was a massive tower of quarters sitting inside the coin
+
+580
+00:34:02,040 --> 00:34:02,460
+Speaker 10:  pusher
+
+581
+00:34:02,560 --> 00:34:06,340
+Speaker 11:  To turn this $5 bill into 20 by winning it on the edge of this coin pusher.
+
+582
+00:34:06,490 --> 00:34:10,180
+Speaker 2:  There's just something about seeing the quarters like teetering over the
+
+583
+00:34:10,180 --> 00:34:14,060
+Speaker 2:  edge that is surprisingly riveting. At least for
+
+584
+00:34:14,060 --> 00:34:14,180
+Speaker 2:  me.
+
+585
+00:34:15,530 --> 00:34:16,420
+Speaker 9:  There's a whole bunch.
+
+586
+00:34:17,840 --> 00:34:21,740
+Speaker 2:  Anyway, the TikTok algorithm pretty quickly decided that I must
+
+587
+00:34:21,890 --> 00:34:25,620
+Speaker 2:  love arcade games, which isn't untrue. I do like
+
+588
+00:34:25,620 --> 00:34:29,580
+Speaker 2:  arcade games. I especially used to play that old Teenage Mutant Ninja Turtles
+
+589
+00:34:29,610 --> 00:34:33,460
+Speaker 2:  side scroller one all the time, but it's been a few years since I was
+
+590
+00:34:33,480 --> 00:34:37,380
+Speaker 2:  in an arcade at all. But I started seeing these videos all the time
+
+591
+00:34:37,490 --> 00:34:41,380
+Speaker 2:  just of people hanging out at Dave and Busters trying to hack the games to
+
+592
+00:34:41,380 --> 00:34:42,740
+Speaker 2:  get more tickets. Yo,
+
+593
+00:34:42,740 --> 00:34:45,220
+Speaker 12:  Today we be show you guys how to get unlimited Dave and Busters tickets
+
+594
+00:34:45,610 --> 00:34:47,660
+Speaker 12:  with the board. Yes sir. You already know. Let's get it.
+
+595
+00:34:48,030 --> 00:34:51,940
+Speaker 2:  We're just straight up cheating. There's a lot of TikTok videos of just
+
+596
+00:34:51,940 --> 00:34:55,420
+Speaker 2:  people cheating. Like there's one I saw where this guy is just climbing
+
+597
+00:34:55,730 --> 00:34:59,340
+Speaker 2:  into the machine where you throw the ball to knock the clowns over and just
+
+598
+00:34:59,500 --> 00:35:01,700
+Speaker 2:  knocking all the clowns over with his hands. This
+
+599
+00:35:01,700 --> 00:35:03,020
+Speaker 8:  Dude out here really cheating.
+
+600
+00:35:03,780 --> 00:35:07,460
+Speaker 2:  I guess that's fun. I also came across a lot of people claiming to have
+
+601
+00:35:07,640 --> 00:35:11,460
+Speaker 2:  tricks to get you enough tickets to get a PSS five and one guy who
+
+602
+00:35:11,460 --> 00:35:15,100
+Speaker 2:  calls himself the arcade goat who says he got 10 Oculus
+
+603
+00:35:15,220 --> 00:35:17,180
+Speaker 2:  quests just from playing arcade games,
+
+604
+00:35:17,920 --> 00:35:20,340
+Speaker 12:  Tip play, games of skill, not luck.
+
+605
+00:35:22,720 --> 00:35:26,300
+Speaker 2:  In watching all of these videos, I started noticing games I
+
+606
+00:35:26,660 --> 00:35:30,500
+Speaker 2:  recognized. Not arcade games I recognized, but games I know because
+
+607
+00:35:30,500 --> 00:35:31,580
+Speaker 2:  they're on my phone.
+
+608
+00:35:34,310 --> 00:35:38,120
+Speaker 2:  Angry Birds, flappy Bird, Crossy Road. I saw console
+
+609
+00:35:38,210 --> 00:35:41,840
+Speaker 2:  games like Halo and Mario Kart two. This all seems really
+
+610
+00:35:41,910 --> 00:35:45,840
+Speaker 2:  strange to me. Why would I go all the way to an arcade to pay a bunch of
+
+611
+00:35:45,840 --> 00:35:49,680
+Speaker 2:  money to play games I already have on my phone? Is it just for the
+
+612
+00:35:49,680 --> 00:35:52,600
+Speaker 2:  tickets? Like are people making these games so that people will play these
+
+613
+00:35:52,600 --> 00:35:56,440
+Speaker 2:  games just to get a PSS five? That seems strange. Is it just fun that
+
+614
+00:35:56,440 --> 00:36:00,280
+Speaker 2:  it's louder and not in my house and they serve beer? It's all
+
+615
+00:36:00,280 --> 00:36:04,240
+Speaker 2:  very confusing to me. So one afternoon I went to the Arcadian
+
+616
+00:36:04,340 --> 00:36:07,840
+Speaker 2:  arcade. I could think of the Dave and Buster's location in Times Square
+
+617
+00:36:08,180 --> 00:36:11,280
+Speaker 2:  in New York City where I would only go for journalism.
+
+618
+00:36:12,140 --> 00:36:16,000
+Speaker 2:  All right, the Dave and Buster's here is located on the third floor. So
+
+619
+00:36:16,000 --> 00:36:19,800
+Speaker 2:  I'm on an escalator going up to Applebee's and then Dave and
+
+620
+00:36:19,880 --> 00:36:23,840
+Speaker 2:  Busters. This is actually one of the biggest and in a lot of ways most popular
+
+621
+00:36:24,430 --> 00:36:27,680
+Speaker 2:  arcades in New York City. You can go to places like Barcade where they are
+
+622
+00:36:27,680 --> 00:36:31,200
+Speaker 2:  really focused on re stuff, but this is just all about gaming. So here we
+
+623
+00:36:31,200 --> 00:36:35,120
+Speaker 2:  go. Eventually I made it past the Applebee's, passed all the tourists,
+
+624
+00:36:35,380 --> 00:36:39,280
+Speaker 2:  got upstairs to dvs, waited for my turn and went
+
+625
+00:36:39,280 --> 00:36:43,200
+Speaker 2:  in and had a look around. Alright, I made it into the arcade. And I already
+
+626
+00:36:43,200 --> 00:36:46,840
+Speaker 2:  cannot believe how many games I recognize from console games
+
+627
+00:36:47,300 --> 00:36:50,880
+Speaker 2:  and even just pop culture, like there's Tomb Raider and Star Trek and Jurassic
+
+628
+00:36:50,880 --> 00:36:54,560
+Speaker 2:  World and all that kind of stuff, but especially from Mobile, there's a
+
+629
+00:36:54,620 --> 00:36:58,600
+Speaker 2:  Crossy Road game. There's a floppy bird game that they call Dave
+
+630
+00:36:58,600 --> 00:37:01,440
+Speaker 2:  and Buster's floppy tickets, even though it's just straight up floppy bird.
+
+631
+00:37:01,510 --> 00:37:05,440
+Speaker 2:  Love that. There's a Mario Kart game that is one of those arcade games with
+
+632
+00:37:05,440 --> 00:37:08,600
+Speaker 2:  the chairs and the steering wheel and you actually drive. There's Candy Crush.
+
+633
+00:37:08,740 --> 00:37:12,600
+Speaker 2:  You can just stand here and play Candy Crush. And it is precisely the
+
+634
+00:37:12,600 --> 00:37:16,240
+Speaker 2:  same game I would play on my phone except the screen is bigger and the room
+
+635
+00:37:16,240 --> 00:37:19,120
+Speaker 2:  is louder and it feels more exciting somehow.
+
+636
+00:37:19,930 --> 00:37:23,280
+Speaker 2:  After that, I did a couple more laps. I played some Crossy Road and some
+
+637
+00:37:23,280 --> 00:37:27,120
+Speaker 2:  Mario Kart arcade gp and then I played more Mario Kart. And then after that
+
+638
+00:37:27,200 --> 00:37:30,880
+Speaker 2:  I think I played more Mario Kart. Alright, as expected, Mario
+
+639
+00:37:31,160 --> 00:37:35,120
+Speaker 2:  Kart in an arcade is amazing. It makes me want to get one of those big
+
+640
+00:37:35,300 --> 00:37:38,800
+Speaker 2:  $10,000 racing simulator kits, but not play
+
+641
+00:37:39,130 --> 00:37:43,040
+Speaker 2:  Grant CMO or any cool games just go hard into Mario
+
+642
+00:37:43,320 --> 00:37:47,240
+Speaker 2:  Kart. It's also maybe the most popular game in this entire arcade.
+
+643
+00:37:47,310 --> 00:37:51,120
+Speaker 2:  It's either that or the air hockey. But there is a long line for Mario
+
+644
+00:37:51,360 --> 00:37:55,160
+Speaker 2:  Kart and I keep winning, so they keep letting me back,
+
+645
+00:37:55,500 --> 00:37:57,240
+Speaker 2:  but I figured I'd give somebody else a chance.
+
+646
+00:37:59,030 --> 00:38:02,440
+Speaker 2:  It's not that there are no older school arcade games left anymore.
+
+647
+00:38:02,730 --> 00:38:06,680
+Speaker 2:  David Busters still has ski ball and the Papa Shot Basketball
+
+648
+00:38:06,780 --> 00:38:10,760
+Speaker 2:  one and a new and kind of high def Space Invaders and
+
+649
+00:38:11,040 --> 00:38:14,800
+Speaker 2:  Pac-Man and a bunch of those racing games where you just sit in the seat
+
+650
+00:38:14,800 --> 00:38:18,200
+Speaker 2:  and grab the steering wheel. I will say though, there's a lot less pinball,
+
+651
+00:38:18,520 --> 00:38:22,280
+Speaker 2:  a lot less of the side scrolling games like the Teenage Mutant Ninja
+
+652
+00:38:22,280 --> 00:38:26,160
+Speaker 2:  Turtles, one that I loved and The Simpsons and that X-Men one
+
+653
+00:38:26,160 --> 00:38:29,840
+Speaker 2:  that everybody used to play. Most of that is just not here
+
+654
+00:38:29,910 --> 00:38:33,840
+Speaker 2:  anymore. And the real truth is the arcade, as it used to
+
+655
+00:38:33,840 --> 00:38:37,640
+Speaker 2:  be, is mostly dead in general. We don't need to go too
+
+656
+00:38:37,660 --> 00:38:41,480
+Speaker 2:  far into all of that. But the arcade as a place you used to go
+
+657
+00:38:41,540 --> 00:38:45,480
+Speaker 2:  and hang out was a staple of American life for like decades.
+
+658
+00:38:46,320 --> 00:38:50,280
+Speaker 2:  A huge portion of the gaming world as we know it now wouldn't exist without
+
+659
+00:38:50,300 --> 00:38:54,280
+Speaker 2:  Arcade. And now all we're left with is Dave and Busters and a bunch
+
+660
+00:38:54,280 --> 00:38:58,200
+Speaker 2:  of bar arcade things and not much else. The reason why
+
+661
+00:38:58,230 --> 00:39:01,840
+Speaker 2:  that happened is pretty obvious, right? It's that we all started playing
+
+662
+00:39:01,840 --> 00:39:05,640
+Speaker 2:  games at home on consoles and then on our phones, and why
+
+663
+00:39:05,640 --> 00:39:09,040
+Speaker 2:  would I go all the way to an arcade and pay money just to play the same game?
+
+664
+00:39:09,080 --> 00:39:12,720
+Speaker 2:  I can play as long as I want for free in my living room.
+
+665
+00:39:13,340 --> 00:39:17,080
+Speaker 2:  All of that is all the more reason I'm fascinated by these mobile games
+
+666
+00:39:17,140 --> 00:39:20,760
+Speaker 2:  in the arcade. If Dave and Busters and all these other arcades are having
+
+667
+00:39:20,760 --> 00:39:23,920
+Speaker 2:  trouble convincing people to come out and play games at all, wouldn't it
+
+668
+00:39:23,920 --> 00:39:27,640
+Speaker 2:  be the worst idea ever to make those games the same games
+
+669
+00:39:27,700 --> 00:39:31,400
+Speaker 2:  you can already play on your phone? It's like, come pay us money
+
+670
+00:39:31,500 --> 00:39:35,080
+Speaker 2:  to play the game you got for free already. Seems like the worst pitch of
+
+671
+00:39:35,080 --> 00:39:38,680
+Speaker 2:  all time. And I. Think the best example of all those games in Dave and
+
+672
+00:39:38,760 --> 00:39:40,600
+Speaker 2:  Buster's is probably Angry Birds.
+
+673
+00:39:45,130 --> 00:39:48,440
+Speaker 2:  Angry Birds in general is one of those totally unavoidable
+
+674
+00:39:49,000 --> 00:39:52,360
+Speaker 2:  franchises. You can play a million different versions of it on every
+
+675
+00:39:52,530 --> 00:39:56,440
+Speaker 2:  imaginable screen and surface. You can buy Angry Birds Cereal, you can
+
+676
+00:39:56,440 --> 00:40:00,360
+Speaker 2:  get plush toys. There was an Angry Birds movie and like a million other things
+
+677
+00:40:00,680 --> 00:40:04,520
+Speaker 2:  I have very deliberately ignored over the years. So what's it doing in an
+
+678
+00:40:04,540 --> 00:40:08,400
+Speaker 2:  arcade? Asking for my money to answer that question, I called
+
+679
+00:40:08,400 --> 00:40:09,920
+Speaker 2:  up the people who made that game.
+
+680
+00:40:10,640 --> 00:40:14,440
+Speaker 14:  I am Drew Krause, I am the c o o And I Run Development here at Ice
+
+681
+00:40:14,940 --> 00:40:18,320
+Speaker 15:  And, I Amm, Josh Krause. I run our home arcade game sales,
+
+682
+00:40:18,470 --> 00:40:20,280
+Speaker 15:  marketing, and advertising here at Ice.
+
+683
+00:40:20,860 --> 00:40:24,560
+Speaker 2:  Ice makes a lot of arcade games, including a bunch you probably know, like
+
+684
+00:40:24,580 --> 00:40:27,960
+Speaker 2:  the one where you throw the ball and try to knock the clowns over that everybody
+
+685
+00:40:27,960 --> 00:40:31,920
+Speaker 2:  on TikTok likes to cheat at, or the air hockey game that they have called
+
+686
+00:40:31,950 --> 00:40:35,760
+Speaker 2:  Extreme Air fx. The company actually started with Bubble Hockey,
+
+687
+00:40:35,810 --> 00:40:39,760
+Speaker 2:  which is apparently still super popular in arcades and more recently they
+
+688
+00:40:39,760 --> 00:40:41,800
+Speaker 2:  also made a game called Angry Birds Arcade.
+
+689
+00:40:45,700 --> 00:40:49,640
+Speaker 2:  The Kres has told me that the whole mobile games to Arcade Trend has actually
+
+690
+00:40:49,640 --> 00:40:53,600
+Speaker 2:  been happening for a while, and the reason is honestly pretty simple.
+
+691
+00:40:54,260 --> 00:40:58,040
+Speaker 14:  You know, notoriety, it gets you to walk up to it no matter what. So
+
+692
+00:40:58,040 --> 00:41:01,880
+Speaker 14:  that's a huge, huge plus. Now, a lot of the arcades like it
+
+693
+00:41:01,950 --> 00:41:05,920
+Speaker 14:  because it brings licensed brands to their location. A big facility
+
+694
+00:41:05,950 --> 00:41:09,800
+Speaker 14:  like a Dave and Busters who has 160 across the country, you know
+
+695
+00:41:09,800 --> 00:41:13,400
+Speaker 14:  they have movie studios coming to them saying, Hey, Ghostbusters
+
+696
+00:41:13,640 --> 00:41:17,440
+Speaker 14:  19 is coming out, can you guys do a Ghostbusters game? I mean that's how
+
+697
+00:41:17,440 --> 00:41:21,320
+Speaker 14:  Ghostbusters, you know, we're talking to Sony and looking at products and
+
+698
+00:41:21,320 --> 00:41:25,160
+Speaker 14:  then Sony's talking to Dave and Busters all of a sudden says, Hey, I like
+
+699
+00:41:25,160 --> 00:41:28,240
+Speaker 14:  Ghostbusters. Hey, we're doing a Ghostbusters, let's do a Ghostbusters game.
+
+700
+00:41:28,260 --> 00:41:30,680
+Speaker 14:  It just, sometimes it falls into place like that.
+
+701
+00:41:31,380 --> 00:41:34,640
+Speaker 2:  So if you're trying to make games that will make people walk up to them.
+
+702
+00:41:34,810 --> 00:41:38,280
+Speaker 2:  Angry Birds was a pretty easy win. It's one of the biggest games ever.
+
+703
+00:41:38,740 --> 00:41:42,640
+Speaker 2:  So when Ice reached out to Royo, the company that made Angry Birds, drew
+
+704
+00:41:42,640 --> 00:41:46,440
+Speaker 2:  said, they started talking about an Angry Birds arcade game with one
+
+705
+00:41:46,440 --> 00:41:50,240
+Speaker 2:  really specific question in mind. How do we build something you
+
+706
+00:41:50,490 --> 00:41:51,760
+Speaker 2:  can't do at home?
+
+707
+00:41:52,380 --> 00:41:56,320
+Speaker 14:  So I start to bring in physical attributes like, Hey, what would
+
+708
+00:41:56,320 --> 00:42:00,040
+Speaker 14:  Angry Birds be? Even better if it was Angry Birds Plus, right? So,
+
+709
+00:42:00,110 --> 00:42:04,000
+Speaker 14:  alright, I actually wanna launch a physical ball 10 feet across the
+
+710
+00:42:04,000 --> 00:42:07,800
+Speaker 14:  room and hit a touchscreen monitor, and to me, that's where my brain starts
+
+711
+00:42:07,800 --> 00:42:08,320
+Speaker 14:  going to
+
+712
+00:42:09,230 --> 00:42:13,000
+Speaker 2:  That mechanic he's describing is actually how Angry Birds Arcade works.
+
+713
+00:42:13,300 --> 00:42:16,840
+Speaker 2:  You walk up to the game, you grab that mechanical slingshot in two hands,
+
+714
+00:42:17,140 --> 00:42:21,080
+Speaker 2:  and then you aim and launch these pool ball sized balls with
+
+715
+00:42:21,090 --> 00:42:24,960
+Speaker 2:  birds painted on them at the huge screen. When it hits the screen, the
+
+716
+00:42:24,960 --> 00:42:28,160
+Speaker 2:  pigs go flying. Or at least if you're any good, that's what happens.
+
+717
+00:42:29,860 --> 00:42:33,800
+Speaker 2:  The best thing I can compare it to is like one of those golf simulators where
+
+718
+00:42:33,800 --> 00:42:37,600
+Speaker 2:  you see people smack the ball into a screen, which then simulates where it
+
+719
+00:42:37,600 --> 00:42:41,360
+Speaker 2:  goes and how far it's like that. It's really fun and genuinely
+
+720
+00:42:41,360 --> 00:42:44,000
+Speaker 2:  does feel different from swiping my finger on the screen.
+
+721
+00:42:47,730 --> 00:42:51,360
+Speaker 2:  ICE's, drew Kraus told me that making these onscreen games more
+
+722
+00:42:51,760 --> 00:42:54,040
+Speaker 2:  physical like that is a huge part of the job.
+
+723
+00:42:54,540 --> 00:42:57,720
+Speaker 14:  You know when you asked, Hey, I saw a bunch of these games just show up
+
+724
+00:42:57,720 --> 00:43:01,600
+Speaker 14:  in the arcade on a giant screen. I'm gonna say 90% of those, they
+
+725
+00:43:01,600 --> 00:43:05,520
+Speaker 14:  lasted for about 60 to 90 days, lasted as far as they
+
+726
+00:43:05,520 --> 00:43:08,760
+Speaker 14:  made money. Okay, you play it once. Oh, this is the same thing I have on
+
+727
+00:43:08,760 --> 00:43:10,800
+Speaker 14:  my phone, just giant. It gets sold real quick.
+
+728
+00:43:11,460 --> 00:43:14,760
+Speaker 2:  The other part of the job for anyone making arcade games is to make sure
+
+729
+00:43:14,760 --> 00:43:18,360
+Speaker 2:  the game is not only fun, but fun to play over and over.
+
+730
+00:43:18,790 --> 00:43:22,040
+Speaker 2:  Arcades want games that you'll play for a minute and then pay to play again,
+
+731
+00:43:22,340 --> 00:43:26,200
+Speaker 2:  not pay once and play forever or pay once and then immediately leave.
+
+732
+00:43:26,430 --> 00:43:30,200
+Speaker 2:  Repeatability is the thing. That also means making games easy
+
+733
+00:43:30,220 --> 00:43:33,760
+Speaker 2:  for people to figure out in the first place because as Drew said, people
+
+734
+00:43:33,820 --> 00:43:37,720
+Speaker 2:  expect to just walk up and start playing, especially a game they've seen
+
+735
+00:43:37,720 --> 00:43:38,000
+Speaker 2:  before.
+
+736
+00:43:38,310 --> 00:43:42,200
+Speaker 14:  When you're home on your phone, you can lose a hundred times, not
+
+737
+00:43:42,200 --> 00:43:46,160
+Speaker 14:  get frustrated. You go into an arcade and, oh, I know what Doodle
+
+738
+00:43:46,160 --> 00:43:49,400
+Speaker 14:  jump is. I've never played it. You go play it in the arcade and you've gotta
+
+739
+00:43:49,400 --> 00:43:53,080
+Speaker 14:  figure out puzzles, you're putting a dollar in, you're not happy.
+
+740
+00:43:53,420 --> 00:43:56,840
+Speaker 14:  you know, sometimes you have to teach them how to play opposed to expecting
+
+741
+00:43:56,840 --> 00:44:00,680
+Speaker 14:  everybody can walk up to it and play. So it took me And I a while
+
+742
+00:44:00,740 --> 00:44:04,720
+Speaker 14:  to learn some of those nuances. When we take what we think is easy,
+
+743
+00:44:05,130 --> 00:44:06,440
+Speaker 14:  bring the app to the market.
+
+744
+00:44:07,150 --> 00:44:11,080
+Speaker 2:  That means basically two things as far as I can tell. Making the game
+
+745
+00:44:11,080 --> 00:44:14,440
+Speaker 2:  skill-based as much as possible so you're not just playing a slot machine
+
+746
+00:44:14,440 --> 00:44:18,400
+Speaker 2:  every time you step up and giving people tickets for their successes. That's
+
+747
+00:44:18,400 --> 00:44:21,560
+Speaker 2:  how you get people to keep playing. Speaking of Doodle Jump, by the way,
+
+748
+00:44:21,560 --> 00:44:25,480
+Speaker 2:  that's another game Ice worked on. Drew told me that at first they had a
+
+749
+00:44:25,480 --> 00:44:29,360
+Speaker 2:  ball kind of like golden tea to move things back and forth, but it landed
+
+750
+00:44:29,500 --> 00:44:33,340
+Speaker 2:  on this big yellow joystick, which you slide from left to
+
+751
+00:44:33,340 --> 00:44:37,020
+Speaker 2:  right to move your character as it jumps between things. That's the physical
+
+752
+00:44:37,020 --> 00:44:40,860
+Speaker 2:  object, kind of like the slingshot in Angry Birds. Again, it's super simple.
+
+753
+00:44:40,990 --> 00:44:44,820
+Speaker 2:  Maybe too simple for me, actually, I'm not sure I'd spend a ton of money
+
+754
+00:44:44,880 --> 00:44:48,780
+Speaker 2:  on Doodle Jump in an arcade, but it's actually been a huge hit for ice rice.
+
+755
+00:44:53,800 --> 00:44:57,700
+Speaker 2:  Anyway, with all of this in mind about physicality and big screens
+
+756
+00:44:57,700 --> 00:45:01,460
+Speaker 2:  and all this different stuff, I went back out to a different arcade to see
+
+757
+00:45:01,460 --> 00:45:05,100
+Speaker 2:  if I could make sense of all these games in a new way. Alright, it's been
+
+758
+00:45:05,100 --> 00:45:08,940
+Speaker 2:  a few weeks and now I'm at a different arcade. This is
+
+759
+00:45:09,040 --> 00:45:12,860
+Speaker 2:  the Fredericksburg Funland in Fredericksburg Virginia, and after talking
+
+760
+00:45:12,860 --> 00:45:16,420
+Speaker 2:  to some of the folks who make these games, I'm starting to see the mechanics
+
+761
+00:45:16,420 --> 00:45:20,060
+Speaker 2:  they talk about everywhere. Fruit Ninja is here, it's called Fruit
+
+762
+00:45:20,070 --> 00:45:23,460
+Speaker 2:  Ninja fx, and it's basically you just stand in front of a large screen and
+
+763
+00:45:23,830 --> 00:45:27,060
+Speaker 2:  swipe on it the way you would in Fruit Ninja, and that's all fun and good,
+
+764
+00:45:27,120 --> 00:45:30,260
+Speaker 2:  but the best ones of these games, and the ones I'm seeing the most people
+
+765
+00:45:30,330 --> 00:45:34,260
+Speaker 2:  play are the ones where they make it physical in some way.
+
+766
+00:45:34,330 --> 00:45:38,100
+Speaker 2:  There's one game where all you do is try to explode something and launch
+
+767
+00:45:38,100 --> 00:45:41,900
+Speaker 2:  someone out of a cannon, and they made this very cool lever
+
+768
+00:45:41,900 --> 00:45:45,460
+Speaker 2:  that actually feels like you're pressing it and it's different than it would
+
+769
+00:45:45,460 --> 00:45:48,340
+Speaker 2:  feel if you were just playing it on your phone. Even a really big version
+
+770
+00:45:48,360 --> 00:45:52,300
+Speaker 2:  of your phone, there's a Space Invaders game, which is like from a
+
+771
+00:45:52,300 --> 00:45:56,180
+Speaker 2:  million years old video game, but it's this huge screen and you actually
+
+772
+00:45:56,240 --> 00:45:59,860
+Speaker 2:  sit there in a seat with a blaster. It takes the same mechanic, it's just
+
+773
+00:45:59,860 --> 00:46:03,580
+Speaker 2:  these eight bit aliens coming at you, but it feels bigger and
+
+774
+00:46:03,740 --> 00:46:07,660
+Speaker 2:  cooler and different because it has this physical mechanic
+
+775
+00:46:07,680 --> 00:46:11,260
+Speaker 2:  to it. This is the kind of thing I think about as we move all of the
+
+776
+00:46:11,400 --> 00:46:14,740
+Speaker 2:  online digital screen-based culture into the world. How do you make this
+
+777
+00:46:14,740 --> 00:46:18,460
+Speaker 2:  stuff more than just bigger screens, but actually make it physical?
+
+778
+00:46:18,730 --> 00:46:22,700
+Speaker 2:  Also fun fact, the most popular thing here again, is
+
+779
+00:46:22,700 --> 00:46:26,500
+Speaker 2:  Mario Kart gp, but the one other one I wanna talk about is Guitar Hero. This
+
+780
+00:46:26,500 --> 00:46:29,340
+Speaker 2:  is the other one I keep seeing at all these arcades, and it might actually
+
+781
+00:46:29,340 --> 00:46:33,180
+Speaker 2:  be the best earliest example of this that I can think of.
+
+782
+00:46:33,250 --> 00:46:36,460
+Speaker 2:  It's a video game. It's a thing that happens on a screen, but your controller
+
+783
+00:46:36,480 --> 00:46:40,220
+Speaker 2:  is part of the game. You don't just touch or press
+
+784
+00:46:40,380 --> 00:46:44,180
+Speaker 2:  buttons, you're actually playing guitar and it works at home for the same
+
+785
+00:46:44,180 --> 00:46:47,980
+Speaker 2:  reason. It works in an arcade. It just feels like you're doing
+
+786
+00:46:47,980 --> 00:46:51,180
+Speaker 2:  something even though all you're doing ultimately is playing a game on a
+
+787
+00:46:51,180 --> 00:46:55,100
+Speaker 2:  screen. It's very cool. I'm now seeing this absolutely everywhere I go. I
+
+788
+00:46:55,100 --> 00:46:58,740
+Speaker 2:  love it. I really did think a lot about Guitar Hero
+
+789
+00:46:58,740 --> 00:47:02,580
+Speaker 2:  through this whole process and Dance Dance Revolution also, and
+
+790
+00:47:02,760 --> 00:47:06,660
+Speaker 2:  really everything Nintendo has done since the we, the gaming
+
+791
+00:47:06,940 --> 00:47:10,420
+Speaker 2:  industry, has been exploring ideas about how to make controllers more than
+
+792
+00:47:10,660 --> 00:47:14,460
+Speaker 2:  controllers for a long time and how to bring your body into the
+
+793
+00:47:14,660 --> 00:47:17,620
+Speaker 2:  equation more and more. That's what the Connect was, right? That's what the
+
+794
+00:47:17,920 --> 00:47:21,860
+Speaker 2:  PSS move is, all these different ideas, and as VR gaming continues
+
+795
+00:47:21,860 --> 00:47:25,700
+Speaker 2:  to become a thing, we're gonna get entirely new explorations of that
+
+796
+00:47:25,810 --> 00:47:29,360
+Speaker 2:  idea. Mobile games, I think maybe more than most, need a lot, lot of help
+
+797
+00:47:29,640 --> 00:47:33,520
+Speaker 2:  figuring that out. So many of the games we play now, whether it's Angry
+
+798
+00:47:33,530 --> 00:47:37,520
+Speaker 2:  Birds and Cut the Rope, or more complicated things like Clash of Clans and
+
+799
+00:47:37,520 --> 00:47:41,480
+Speaker 2:  Subway surfers, they were built on swiping and tapping, but that's
+
+800
+00:47:41,480 --> 00:47:45,320
+Speaker 2:  never been the most fun or immersive way to play these games. Even just
+
+801
+00:47:45,320 --> 00:47:48,880
+Speaker 2:  looking at the app store's, top charts right now, it's fun to imagine how
+
+802
+00:47:48,920 --> 00:47:52,680
+Speaker 2:  a game like Alto's Odyssey or even something like Fortnite or Roblox
+
+803
+00:47:52,810 --> 00:47:56,560
+Speaker 2:  might go way beyond screens and controllers and just
+
+804
+00:47:56,560 --> 00:48:00,520
+Speaker 2:  sitting at my tv. It won't work for everything, but I suspect the next
+
+805
+00:48:00,630 --> 00:48:04,400
+Speaker 2:  turn for a lot of these games is going to be back toward the physical in
+
+806
+00:48:04,400 --> 00:48:08,240
+Speaker 2:  that way. Figuring out how to build new mechanics and new control
+
+807
+00:48:08,240 --> 00:48:12,080
+Speaker 2:  systems and new ways to bring more than just your finger into the game.
+
+808
+00:48:12,370 --> 00:48:16,240
+Speaker 2:  Think about something like the Apple Vision Pro headset. I can basically
+
+809
+00:48:16,390 --> 00:48:20,240
+Speaker 2:  guarantee you that there will be Angry Birds for the Vision Pro at
+
+810
+00:48:20,270 --> 00:48:24,120
+Speaker 2:  some point, but it'll be a huge bummer if all that is is
+
+811
+00:48:24,240 --> 00:48:27,800
+Speaker 2:  a big screen. You tap to do stuff that just feels
+
+812
+00:48:28,400 --> 00:48:32,240
+Speaker 2:  unambitious. It feels like not enough. I don't really think arcade are gonna
+
+813
+00:48:32,240 --> 00:48:36,080
+Speaker 2:  become what they once were playing games at home or on my phone is just too
+
+814
+00:48:36,140 --> 00:48:39,840
+Speaker 2:  fun and too easy for me to venture back out every time I want to play Angry
+
+815
+00:48:39,840 --> 00:48:43,760
+Speaker 2:  Birds. But there's some part of me that kind of hopes I'm wrong, that
+
+816
+00:48:44,040 --> 00:48:47,960
+Speaker 2:  physical gaming spaces do become a big thing again and bring people back
+
+817
+00:48:48,200 --> 00:48:51,840
+Speaker 2:  together in the real world, even to do screen-based things. Drew
+
+818
+00:48:51,840 --> 00:48:55,600
+Speaker 2:  Krause is obviously biased towards that perspective since, you know, he makes
+
+819
+00:48:55,600 --> 00:48:58,720
+Speaker 2:  arcade games, but I like the way he thinks about bringing together the best
+
+820
+00:48:58,720 --> 00:48:59,560
+Speaker 2:  of both worlds.
+
+821
+00:49:00,210 --> 00:49:04,000
+Speaker 14:  Let's stay in the reality and if we can make you throw a ball instead of
+
+822
+00:49:04,000 --> 00:49:07,120
+Speaker 14:  flicking on your phone. I think we won, right?
+
+823
+00:49:08,460 --> 00:49:11,880
+Speaker 14:  I'm just trying to bring people back to being a kid and playing with physical
+
+824
+00:49:11,880 --> 00:49:15,520
+Speaker 14:  stuff. A game by adding in cool apps, cool ideas
+
+825
+00:49:15,780 --> 00:49:16,880
+Speaker 14:  and video, right?
+
+826
+00:49:17,960 --> 00:49:21,040
+Speaker 2:  I think I agree with that. And I. Think it's gonna be fascinating to see
+
+827
+00:49:21,040 --> 00:49:24,960
+Speaker 2:  what it looks like to bring the best of our screens out into the world More.
+
+828
+00:49:25,170 --> 00:49:29,000
+Speaker 2:  Think about headsets. Are we gonna use headsets to bring technology with
+
+829
+00:49:29,000 --> 00:49:32,920
+Speaker 2:  us more places or are we gonna use them as ways to be home and
+
+830
+00:49:32,920 --> 00:49:36,800
+Speaker 2:  be in our own worlds more often? I don't know. I know I'm looking
+
+831
+00:49:36,800 --> 00:49:40,480
+Speaker 2:  forward to getting screens out more because I know I own Mario
+
+832
+00:49:40,680 --> 00:49:44,280
+Speaker 2:  Kart at home and yet I spent objectively an upsetting amount of money
+
+833
+00:49:44,280 --> 00:49:47,920
+Speaker 2:  playing Mario Kart GP at both Dave and Busters and at Funland,
+
+834
+00:49:48,480 --> 00:49:52,000
+Speaker 2:  I don't know the chair and the steering wheel and the loud crowd. Just do
+
+835
+00:49:52,000 --> 00:49:54,440
+Speaker 2:  something for me. you know, I don't think I can get that at home.
+
+836
+00:49:55,780 --> 00:49:59,560
+Speaker 13:  Little Mario start. Mario is
+
+837
+00:49:59,560 --> 00:50:00,200
+Speaker 13:  closing in.
+
+838
+00:50:00,830 --> 00:50:04,760
+Speaker 2:  Alright, we gotta take a break and then we're gonna talk crypto, but not
+
+839
+00:50:04,760 --> 00:50:07,440
+Speaker 2:  the crypto you're probably thinking of. We'll be right back.
+
+840
+00:50:18,800 --> 00:50:22,610
+Speaker 2:  Welcome back. So if you've been following crypto over the last couple of
+
+841
+00:50:22,610 --> 00:50:26,530
+Speaker 2:  years, Worldcoin is probably one of the companies you've heard the
+
+842
+00:50:26,530 --> 00:50:30,200
+Speaker 2:  most about. It was co-founded by Sam Altman, who's one of the founders of
+
+843
+00:50:30,460 --> 00:50:34,440
+Speaker 2:  OpenAI, which makes chat g p t and g p t four and obviously is a big
+
+844
+00:50:34,440 --> 00:50:38,200
+Speaker 2:  deal just because it's related to Sam, but it also has really big ideas
+
+845
+00:50:38,370 --> 00:50:42,320
+Speaker 2:  about not just creating a currency, but for helping identify
+
+846
+00:50:42,580 --> 00:50:46,360
+Speaker 2:  all the humans in the world and universal basic income and all this
+
+847
+00:50:46,380 --> 00:50:49,760
+Speaker 2:  big sort of heady futurist stuff. Even if you don't know about
+
+848
+00:50:49,790 --> 00:50:53,520
+Speaker 2:  Worldcoin, I bet you've heard about the orb, which is the
+
+849
+00:50:53,620 --> 00:50:57,120
+Speaker 2:  big metal ball that Worldcoin wants to use to scan your
+
+850
+00:50:57,300 --> 00:51:01,120
+Speaker 2:  irises, to verify your human. This all sounds insane, even as
+
+851
+00:51:01,140 --> 00:51:04,880
+Speaker 2:  I'm saying it out loud. And I feel obligated here to give you a
+
+852
+00:51:05,080 --> 00:51:08,760
+Speaker 2:  thousand disclaimers about the risks of investing in crypto and the
+
+853
+00:51:08,910 --> 00:51:12,760
+Speaker 2:  huge environmental implications of the blockchain and the many, many,
+
+854
+00:51:12,830 --> 00:51:16,360
+Speaker 2:  many, many scams that have come through this space. And actually, you know
+
+855
+00:51:16,360 --> 00:51:20,160
+Speaker 2:  what, let's just get started and we can get to all of that. Alex Heath recently
+
+856
+00:51:20,160 --> 00:51:24,040
+Speaker 2:  became our foremost Worldcoin expert. He's here now. Let's
+
+857
+00:51:24,040 --> 00:51:25,200
+Speaker 2:  talk about it. Hi. Alex.
+
+858
+00:51:25,660 --> 00:51:26,080
+Speaker 17:  Hey David.
+
+859
+00:51:26,490 --> 00:51:29,000
+Speaker 2:  We're gonna talk about Worldcoin because you just had a very interesting
+
+860
+00:51:29,000 --> 00:51:32,800
+Speaker 2:  experience with Worldcoin. How would you put Worldcoin as a thing
+
+861
+00:51:32,860 --> 00:51:36,560
+Speaker 2:  in kind of the broader crypto landscape? It's not Bitcoin in the sense that
+
+862
+00:51:36,560 --> 00:51:40,080
+Speaker 2:  it's just a thing that people buy and sell to make money, but it's not, not
+
+863
+00:51:40,310 --> 00:51:43,680
+Speaker 2:  Bitcoin. Like how, how do you think about Worldcoin in that space?
+
+864
+00:51:43,950 --> 00:51:47,760
+Speaker 17:  Yeah, I would say to understand Worldcoin, you have to really
+
+865
+00:51:47,760 --> 00:51:51,120
+Speaker 17:  understand Sam Altman, okay, so he's the c e O of
+
+866
+00:51:51,380 --> 00:51:55,320
+Speaker 17:  OpenAI, which makes chat G P T obviously. And his stated goal with
+
+867
+00:51:55,620 --> 00:51:59,200
+Speaker 17:  OpenAI is to build artificial general intelligence,
+
+868
+00:51:59,600 --> 00:52:03,400
+Speaker 17:  a g i. And the thinking here is that a g I will eventually happen
+
+869
+00:52:03,460 --> 00:52:07,440
+Speaker 17:  and when it does, machines will be smarter, more
+
+870
+00:52:07,440 --> 00:52:11,120
+Speaker 17:  capable than humans. AI, for example, are already starting to
+
+871
+00:52:11,120 --> 00:52:13,960
+Speaker 17:  evade caps, but the thinking that is eventually they're gonna run the world
+
+872
+00:52:14,020 --> 00:52:18,000
+Speaker 17:  for us or maybe over us as the dystopian view of that. And
+
+873
+00:52:18,240 --> 00:52:22,200
+Speaker 17:  so in that future theoretical world run by a g I,
+
+874
+00:52:22,660 --> 00:52:26,640
+Speaker 17:  you know, to borrow from Westworld you kind of need to know who is a
+
+875
+00:52:26,640 --> 00:52:30,400
+Speaker 17:  human and who is a host. And so I would actually describe Worldcoin
+
+876
+00:52:30,740 --> 00:52:34,120
+Speaker 17:  and we can talk about the crypto aspect of it. But in totality, Worldcoin
+
+877
+00:52:34,420 --> 00:52:38,280
+Speaker 17:  is in a way an antidote to what Sam Altman is building
+
+878
+00:52:38,310 --> 00:52:41,640
+Speaker 17:  with his other company OpenAI. And he's not running
+
+879
+00:52:41,710 --> 00:52:45,280
+Speaker 17:  Worldcoin day to day, but he's the co-founder kind of public face of it.
+
+880
+00:52:45,310 --> 00:52:49,080
+Speaker 17:  He's been tweeting about the lines people are forming to, to get their
+
+881
+00:52:49,080 --> 00:52:52,960
+Speaker 17:  eyes scanned and kind of using his clout to advance the project.
+
+882
+00:52:53,620 --> 00:52:57,600
+Speaker 17:  So you know, he also, Altman is a huge fan of this
+
+883
+00:52:57,630 --> 00:53:01,480
+Speaker 17:  idea of universal basic income. I've heard him talk about this
+
+884
+00:53:01,480 --> 00:53:05,240
+Speaker 17:  in interviews. He uses this example of, you know, eventually we have these
+
+885
+00:53:05,520 --> 00:53:08,880
+Speaker 17:  A g I controlled robots and they're doing solar power
+
+886
+00:53:09,110 --> 00:53:13,000
+Speaker 17:  farming on our behalfs in mines. They're running
+
+887
+00:53:13,000 --> 00:53:16,920
+Speaker 17:  things for us. Basically humans won't need to work as much, they'll
+
+888
+00:53:16,920 --> 00:53:20,680
+Speaker 17:  make our homes for us, they'll do everything for us. And so in a future
+
+889
+00:53:20,680 --> 00:53:24,320
+Speaker 17:  world like that, maybe you do want some kind of universal
+
+890
+00:53:24,370 --> 00:53:28,360
+Speaker 17:  basic income. The problem with that obviously is governments
+
+891
+00:53:28,380 --> 00:53:32,080
+Speaker 17:  may not like that U B I has never worked to date at scale in the modern
+
+892
+00:53:32,090 --> 00:53:35,480
+Speaker 17:  world. It's actually funny, you know, researching this, I, I found out that
+
+893
+00:53:35,520 --> 00:53:38,840
+Speaker 17:  U B I actually dates back to the Romans in Julius Caesar. So it was something
+
+894
+00:53:38,840 --> 00:53:42,760
+Speaker 17:  that happened a long time ago. So yeah, the goal really simply
+
+895
+00:53:42,940 --> 00:53:46,560
+Speaker 17:  is to scan every eyeball on earth so that you can then
+
+896
+00:53:46,570 --> 00:53:50,440
+Speaker 17:  distribute Worldcoin the token and eventually down the
+
+897
+00:53:50,440 --> 00:53:54,080
+Speaker 17:  road in some kind of theoretical future that token will be used for some
+
+898
+00:53:54,080 --> 00:53:57,640
+Speaker 17:  kind of universal basic income. Now this sounds like the kind of pitch
+
+899
+00:53:57,950 --> 00:54:01,920
+Speaker 17:  that I can totally imagine some venture capitalists falling in love with
+
+900
+00:54:02,180 --> 00:54:05,560
+Speaker 17:  as they're walking through the Presidio Yeah. In San Francisco.
+
+901
+00:54:06,100 --> 00:54:10,080
+Speaker 17:  But you know, the criticism is that it's a solution in search of a
+
+902
+00:54:10,080 --> 00:54:13,840
+Speaker 17:  problem, but that, that's in a nutshell kind of the philosophy
+
+903
+00:54:13,840 --> 00:54:15,960
+Speaker 17:  behind Worldcoin and what Altman is doing.
+
+904
+00:54:16,310 --> 00:54:20,200
+Speaker 2:  Yeah, I it to me, this just strikes me as like a series of solutions in
+
+905
+00:54:20,200 --> 00:54:23,200
+Speaker 2:  search of a problem. And I think to some extent, I actually don't wanna like
+
+906
+00:54:23,200 --> 00:54:26,840
+Speaker 2:  litigate Worldcoin because it's, it's sort of in this crazy world that if
+
+907
+00:54:26,840 --> 00:54:30,120
+Speaker 2:  everything were different this might be useful and necessary and that's all
+
+908
+00:54:30,120 --> 00:54:33,760
+Speaker 2:  fine and good. I do think the question of how
+
+909
+00:54:34,640 --> 00:54:38,040
+Speaker 2:  currency and the identification thing fit together is really interesting
+
+910
+00:54:38,040 --> 00:54:42,000
+Speaker 2:  because the, the pushback on this has been basically a lot of people are
+
+911
+00:54:42,000 --> 00:54:45,920
+Speaker 2:  being asked to give their iris scans to this
+
+912
+00:54:45,920 --> 00:54:48,440
+Speaker 2:  company and in exchange they're getting some amount of this currency and
+
+913
+00:54:48,440 --> 00:54:51,080
+Speaker 2:  then it's like fast forward a bunch of years, this becomes a very important
+
+914
+00:54:51,400 --> 00:54:54,920
+Speaker 2:  currency. Could be super interesting. Who knows we'll save that for another
+
+915
+00:54:54,920 --> 00:54:57,840
+Speaker 2:  day. The thing on the ground is that there are a lot of people who are like,
+
+916
+00:54:57,910 --> 00:55:01,640
+Speaker 2:  there's this sort of meaningless, not staked to
+
+917
+00:55:01,920 --> 00:55:05,360
+Speaker 2:  anything money that is just being passed around in an exchange or taking
+
+918
+00:55:05,480 --> 00:55:09,360
+Speaker 2:  a huge amount of my data in order to verify that I'm a person Because
+
+919
+00:55:09,360 --> 00:55:12,960
+Speaker 2:  of the other tools that you've made, which are getting so good so fast that
+
+920
+00:55:12,960 --> 00:55:16,760
+Speaker 2:  you're now solving the problem you've created with a new creation that
+
+921
+00:55:16,760 --> 00:55:20,680
+Speaker 2:  creates its own problems. And, I just I get like twisted into knots trying
+
+922
+00:55:20,680 --> 00:55:23,600
+Speaker 2:  to figure out even like which part of this to sort of be annoyed by.
+
+923
+00:55:24,870 --> 00:55:28,200
+Speaker 17:  Yeah, there is a lot to be potentially annoyed by, a lot to be skeptical
+
+924
+00:55:28,340 --> 00:55:31,600
+Speaker 17:  of. I think the people at Worldcoin and the parent company, which is called
+
+925
+00:55:31,600 --> 00:55:35,240
+Speaker 17:  Tools for Humanity of course have high minded
+
+926
+00:55:35,250 --> 00:55:38,720
+Speaker 17:  intentions here. I guess maybe it's helpful to rewind just a little bit.
+
+927
+00:55:39,100 --> 00:55:42,920
+Speaker 17:  Up until last week, Worldcoin was not out in the world. It wasn't a
+
+928
+00:55:42,920 --> 00:55:46,680
+Speaker 17:  token that you could access at all. And what Worldcoin had been doing for
+
+929
+00:55:46,680 --> 00:55:50,520
+Speaker 17:  the last couple years is going around mostly in poorer
+
+930
+00:55:50,840 --> 00:55:54,720
+Speaker 17:  countries outside of the US and and Europe though they did quite a bit of
+
+931
+00:55:54,720 --> 00:55:58,520
+Speaker 17:  this in Europe as well, but particularly in in Africa, parts of
+
+932
+00:55:58,530 --> 00:56:01,960
+Speaker 17:  India, they would go out and send contractors to
+
+933
+00:56:02,390 --> 00:56:06,200
+Speaker 17:  basically convince people in villages, people who
+
+934
+00:56:06,200 --> 00:56:09,920
+Speaker 17:  maybe just got a smartphone for the first time to have their
+
+935
+00:56:09,990 --> 00:56:13,440
+Speaker 17:  eyes scanned in exchange for you know, some,
+
+936
+00:56:13,710 --> 00:56:17,680
+Speaker 17:  some tether or some Bitcoin or a nominal amount of money. And
+
+937
+00:56:17,710 --> 00:56:21,480
+Speaker 17:  they claim that over 2 million people have already scanned with the
+
+938
+00:56:21,580 --> 00:56:25,480
+Speaker 17:  orb and now with the token out importantly it's
+
+939
+00:56:25,480 --> 00:56:28,640
+Speaker 17:  not available in the US for reasons we can talk about or in China. Yeah,
+
+940
+00:56:28,700 --> 00:56:32,320
+Speaker 17:  so the whole world aspect of that is kind of defeated on on day one
+
+941
+00:56:32,540 --> 00:56:36,280
+Speaker 17:  but now that the token is out, basically all those people had IOUs
+
+942
+00:56:36,740 --> 00:56:39,160
+Speaker 17:  in the form of you're going to get the token at some point and now it's
+
+943
+00:56:39,160 --> 00:56:43,040
+Speaker 17:  out and to the idea of it being a currency, it's actually a horrible
+
+944
+00:56:43,440 --> 00:56:47,400
+Speaker 17:  currency because it behaves like a security and that's I think why it's
+
+945
+00:56:47,400 --> 00:56:50,360
+Speaker 17:  not available in the US is the S E C and
+
+946
+00:56:50,730 --> 00:56:54,360
+Speaker 17:  regulators here in the US have started cracking down on crypto quite a bit.
+
+947
+00:56:54,530 --> 00:56:57,720
+Speaker 17:  We've seen a lot of lawsuits, stuff going on with Coinbase that's still
+
+948
+00:56:57,720 --> 00:57:01,280
+Speaker 17:  ongoing and there's this whole debate about, you know,
+
+949
+00:57:01,380 --> 00:57:05,160
+Speaker 17:  should these tokens be regulated like securities which come with important
+
+950
+00:57:05,270 --> 00:57:08,880
+Speaker 17:  disclosures that right now the crypto economy does not have,
+
+951
+00:57:09,140 --> 00:57:12,520
+Speaker 17:  if you're thinking about this as a currency, a, it can't be used for anything
+
+952
+00:57:12,520 --> 00:57:15,960
+Speaker 17:  right now. So it just exists in the world app when you get it airdropped
+
+953
+00:57:15,960 --> 00:57:19,560
+Speaker 17:  if you're not in the US. So it's not really good currency in that respect
+
+954
+00:57:19,560 --> 00:57:22,760
+Speaker 17:  though. They plan to eventually let people send it back and forth. It also
+
+955
+00:57:23,080 --> 00:57:26,600
+Speaker 17:  fluctuates like crazy the price of it because it behaves like a speculative
+
+956
+00:57:26,650 --> 00:57:30,560
+Speaker 17:  asset. So immediately this became one of the 10 most valuable crypto
+
+957
+00:57:30,820 --> 00:57:34,720
+Speaker 17:  tokens in the world. The week it launched the app, the world app was
+
+958
+00:57:34,900 --> 00:57:38,200
+Speaker 17:  the number one downloaded app on iOS and Android in Kenya
+
+959
+00:57:38,570 --> 00:57:42,000
+Speaker 17:  where a lot of people had already been doing signups pre-launch. There's
+
+960
+00:57:42,000 --> 00:57:45,360
+Speaker 17:  just a lot of pain that's gonna happen here with normal people
+
+961
+00:57:45,820 --> 00:57:49,680
+Speaker 17:  who are doing this because they want some kind of magic bean and then they
+
+962
+00:57:49,680 --> 00:57:53,600
+Speaker 17:  realize the price of that bean is not going to be what it was when
+
+963
+00:57:53,600 --> 00:57:57,520
+Speaker 17:  they signed up. And we've seen this time and time again with crypto
+
+964
+00:57:57,600 --> 00:58:01,440
+Speaker 17:  projects, And, I think that's been the harshest criticism I've seen of the
+
+965
+00:58:01,440 --> 00:58:04,920
+Speaker 17:  way that they're structuring the actual token so far.
+
+966
+00:58:05,220 --> 00:58:08,280
+Speaker 17:  And I think that's fair. I mean I think if you're trying to build a utility,
+
+967
+00:58:08,300 --> 00:58:11,760
+Speaker 17:  if you're trying to build something that everyone in the world is theoretically
+
+968
+00:58:11,760 --> 00:58:14,960
+Speaker 17:  gonna have one day, I don't really understand the way they've rolled it
+
+969
+00:58:14,960 --> 00:58:15,560
+Speaker 17:  out initially.
+
+970
+00:58:16,070 --> 00:58:19,080
+Speaker 2:  Yeah, that's fair. And I think one of the things I've wondered about this
+
+971
+00:58:19,080 --> 00:58:22,960
+Speaker 2:  project the whole time has been to what extent Worldcoin would
+
+972
+00:58:22,960 --> 00:58:26,600
+Speaker 2:  be as kind of interesting and big as it is if Sam
+
+973
+00:58:26,840 --> 00:58:30,640
+Speaker 2:  Altman weren't involved. Because obviously in the world of a g I, there are
+
+974
+00:58:30,640 --> 00:58:34,480
+Speaker 2:  very few people who have done more and put their money where
+
+975
+00:58:34,480 --> 00:58:38,400
+Speaker 2:  their mouth is more often than Sam Altman like guy has a history
+
+976
+00:58:38,400 --> 00:58:41,680
+Speaker 2:  of being right? And some of the stuff we're talking about I think is sort
+
+977
+00:58:41,680 --> 00:58:44,720
+Speaker 2:  of specific to Worldcoin, right? Like the underlying tech, the iris scanning
+
+978
+00:58:44,720 --> 00:58:47,240
+Speaker 2:  stuff, all of which we're about to get into that is different. But some of
+
+979
+00:58:47,240 --> 00:58:50,920
+Speaker 2:  these like big long term promises that they're making
+
+980
+00:58:51,050 --> 00:58:54,960
+Speaker 2:  about you know, banking the unbanked and helping create
+
+981
+00:58:55,140 --> 00:58:58,320
+Speaker 2:  one single global financial system. Like that's what everybody in the crypto
+
+982
+00:58:58,640 --> 00:59:02,320
+Speaker 2:  industry has been saying for a long time. And I think you've been obviously
+
+983
+00:59:02,320 --> 00:59:06,160
+Speaker 2:  following this and Sam for a while, like is a lot of the hype here
+
+984
+00:59:06,160 --> 00:59:09,760
+Speaker 2:  just that Sam is kind of the Midas of
+
+985
+00:59:10,190 --> 00:59:13,200
+Speaker 2:  this industry and everything he touches seems to work and people wanna be
+
+986
+00:59:13,200 --> 00:59:13,720
+Speaker 2:  along for the ride?
+
+987
+00:59:14,070 --> 00:59:17,960
+Speaker 17:  Yeah, absolutely. you know, he's been going around the world on behalf
+
+988
+00:59:17,960 --> 00:59:21,840
+Speaker 17:  of OpenAI over the past several months meeting with regulators holding
+
+989
+00:59:22,010 --> 00:59:25,600
+Speaker 17:  talks in different countries and he's been mentioning Worldcoin, he's been
+
+990
+00:59:25,600 --> 00:59:29,360
+Speaker 17:  helping to hype it. I saw him tweet a god, what is it x a photo now
+
+991
+00:59:29,380 --> 00:59:33,320
+Speaker 17:  of him in Europe finally getting scanned himself a month or two
+
+992
+00:59:33,380 --> 00:59:37,200
+Speaker 17:  ago. So yeah, the halo of Altman around this is certainly helping,
+
+993
+00:59:37,780 --> 00:59:41,000
+Speaker 17:  you know, this is also like a company that's raised a lot of money. Like
+
+994
+00:59:41,000 --> 00:59:44,000
+Speaker 17:  we should note they've raised hundreds of millions of dollars from Andreessen
+
+995
+00:59:44,000 --> 00:59:47,840
+Speaker 17:  Horowitz. I should note one of their earliest investors was actually Sandbank
+
+996
+00:59:47,840 --> 00:59:51,640
+Speaker 17:  been freed, believe it or not. Oh boy. Which you know, obviously
+
+997
+00:59:51,640 --> 00:59:55,320
+Speaker 17:  that's, that's a problem. But they've moved on from that and yeah they have
+
+998
+00:59:55,320 --> 00:59:59,160
+Speaker 17:  a lot of money and it's not a nonprofit either. So
+
+999
+00:59:59,300 --> 01:00:02,440
+Speaker 17:  you know, right. There is a business here somewhere, you know, investors
+
+1000
+01:00:02,540 --> 01:00:06,200
+Speaker 17:  in the project have told me that the kind of initial business plan is to
+
+1001
+01:00:06,200 --> 01:00:09,840
+Speaker 17:  create a kind of a p i business is for other companies to be able to access
+
+1002
+01:00:09,860 --> 01:00:13,800
+Speaker 17:  the world IDs so that they can verify that someone is who they say they
+
+1003
+01:00:13,800 --> 01:00:17,680
+Speaker 17:  are theoretically. so like Okta for example, I think just
+
+1004
+01:00:17,680 --> 01:00:21,520
+Speaker 17:  in Germany has already rolled out world ID as a way that you can
+
+1005
+01:00:21,520 --> 01:00:25,480
+Speaker 17:  authenticate. So yeah, I guess like right now, yes the
+
+1006
+01:00:25,480 --> 01:00:28,800
+Speaker 17:  project is technically only like two weeks old, At this point, but world
+
+1007
+01:00:29,140 --> 01:00:32,880
+Speaker 17:  ID and Worldcoin can't really be used for much of
+
+1008
+01:00:33,160 --> 01:00:37,080
+Speaker 17:  anything except hoping that world coin's price continues to
+
+1009
+01:00:37,080 --> 01:00:37,400
+Speaker 17:  go up.
+
+1010
+01:00:37,730 --> 01:00:41,320
+Speaker 2:  Right. And that's where it becomes like Bitcoin. So Okay. There are a million
+
+1011
+01:00:41,320 --> 01:00:44,360
+Speaker 2:  disclaimers and a million questions and generally I think most crypto stuff
+
+1012
+01:00:44,360 --> 01:00:48,320
+Speaker 2:  is nonsense and to all of that we will just leave aside for now. 'cause I
+
+1013
+01:00:48,320 --> 01:00:52,240
+Speaker 2:  think if nothing else, this is a show about weird technology
+
+1014
+01:00:52,260 --> 01:00:55,920
+Speaker 2:  and how it makes us feel. And you just experienced this thing,
+
+1015
+01:00:56,180 --> 01:00:59,720
+Speaker 2:  you have seen the orb, this thing's been out for a while. Like you said,
+
+1016
+01:00:59,870 --> 01:01:03,000
+Speaker 2:  it's been kind of out in the world but it hasn't sort of officially been
+
+1017
+01:01:03,160 --> 01:01:06,920
+Speaker 2:  launched and now it is officially launched and you got to try
+
+1018
+01:01:06,940 --> 01:01:10,400
+Speaker 2:  it. So tell me about it. Like what happened, how did this happen? Are you
+
+1019
+01:01:10,400 --> 01:01:12,040
+Speaker 2:  okay? Do you need me to call someone?
+
+1020
+01:01:12,620 --> 01:01:16,480
+Speaker 17:  I'm okay so far. We'll see if there's any drones around
+
+1021
+01:01:16,480 --> 01:01:20,280
+Speaker 17:  my house afterwards here. Yeah, so I guess it was the day after the token
+
+1022
+01:01:20,280 --> 01:01:23,240
+Speaker 17:  launch. I'd been following Worldcoin kind of leading up to this, but not
+
+1023
+01:01:23,240 --> 01:01:26,640
+Speaker 17:  super in depth but I was kind of reading up on it and then I saw that they
+
+1024
+01:01:26,640 --> 01:01:29,960
+Speaker 17:  weren't making the token available in the US but they were still doing orb
+
+1025
+01:01:30,050 --> 01:01:33,880
+Speaker 17:  scans in a handful of cities. And I just
+
+1026
+01:01:33,880 --> 01:01:37,680
+Speaker 17:  went online to their website. It was like booking through Calendly or
+
+1027
+01:01:37,680 --> 01:01:41,480
+Speaker 17:  something. Like I looked for like two hours out on the very same day and
+
+1028
+01:01:41,480 --> 01:01:45,320
+Speaker 17:  there were a ton of appointments at multiple locations in la. So I
+
+1029
+01:01:45,320 --> 01:01:49,040
+Speaker 17:  booked one for about an hour out. I got on my car, drove across town
+
+1030
+01:01:49,140 --> 01:01:53,080
+Speaker 17:  to West Hollywood here in Los Angeles to this non-descript coworking space
+
+1031
+01:01:53,820 --> 01:01:56,480
+Speaker 17:  to get my eyeballs scanned by Sam Alton's or Yeah.
+
+1032
+01:01:56,760 --> 01:01:59,480
+Speaker 18:  Before we get started, do you have any questions about the project or the
+
+1033
+01:01:59,480 --> 01:02:01,400
+Speaker 18:  OR or anything? No, I was reading
+
+1034
+01:02:01,430 --> 01:02:04,000
+Speaker 17:  That like your biometrics don't leave the device
+
+1035
+01:02:04,290 --> 01:02:08,000
+Speaker 18:  Right? So that is correct. However, when you
+
+1036
+01:02:08,000 --> 01:02:11,840
+Speaker 18:  accept the terms of service, there'll be a third optional thing where
+
+1037
+01:02:11,860 --> 01:02:15,440
+Speaker 18:  you can keep your iris image stored in their
+
+1038
+01:02:15,640 --> 01:02:19,560
+Speaker 18:  databases on cloud. Okay. You don't have to. Okay. And the
+
+1039
+01:02:19,560 --> 01:02:23,160
+Speaker 18:  only benefit of it is if they do an update that
+
+1040
+01:02:23,160 --> 01:02:27,040
+Speaker 18:  requires you to like, that changes their algorithm for hashing
+
+1041
+01:02:27,040 --> 01:02:30,120
+Speaker 18:  your iris image, the iris code you'd have to re-scan.
+
+1042
+01:02:30,460 --> 01:02:30,960
+Speaker 17:  Oh, okay.
+
+1043
+01:02:31,340 --> 01:02:34,240
+Speaker 18:  So it's a convenience thing. Oh okay. Don't want it's stored then Yes, it
+
+1044
+01:02:34,240 --> 01:02:38,040
+Speaker 18:  will be used on the orb to hash and they will delete drainage.
+
+1045
+01:02:39,220 --> 01:02:43,120
+Speaker 17:  It was kind of funny because it's a coworking space, right? So there's a
+
+1046
+01:02:43,120 --> 01:02:45,880
+Speaker 17:  bunch of like people there kind of working around different desks, just
+
+1047
+01:02:45,880 --> 01:02:49,000
+Speaker 17:  kind of like plugging away like normal. And then in the various center you've
+
+1048
+01:02:49,000 --> 01:02:52,360
+Speaker 17:  just got this like frankly kind of weird dystopian looking,
+
+1049
+01:02:52,690 --> 01:02:56,600
+Speaker 17:  shiny metallic orb. It looks like Howl 9,000 from Space
+
+1050
+01:02:56,670 --> 01:03:00,480
+Speaker 17:  Odyssey just sitting there. It's about a foot tall with a guy
+
+1051
+01:03:00,480 --> 01:03:04,160
+Speaker 17:  behind it who's the orb operator so to speak. So the,
+
+1052
+01:03:04,340 --> 01:03:06,240
+Speaker 17:  oh you gotta look right now. Oh okay.
+
+1053
+01:03:06,530 --> 01:03:08,960
+Speaker 18:  Now's the time. Okay moment.
+
+1054
+01:03:09,260 --> 01:03:09,560
+Speaker 17:  All right.
+
+1055
+01:03:14,260 --> 01:03:17,480
+Speaker 18:  So yeah, now it should be verifying you on the cloud. Make sure that you
+
+1056
+01:03:17,480 --> 01:03:21,280
+Speaker 18:  didn't try to sign up twice and trick us. Okay. And then you get a sticker.
+
+1057
+01:03:21,350 --> 01:03:23,280
+Speaker 18:  Okay. And you get a badge and then you're
+
+1058
+01:03:23,280 --> 01:03:27,080
+Speaker 17:  Done. Okay. you know, I guess the weirdest part of all of this is that
+
+1059
+01:03:27,600 --> 01:03:31,320
+Speaker 17:  my orb operator didn't ask who I was, didn't ask me to confirm my
+
+1060
+01:03:31,320 --> 01:03:34,640
+Speaker 17:  appointment time or even my email or anything like that.
+
+1061
+01:03:35,300 --> 01:03:38,480
+Speaker 17:  He never knew my name. He just walked me through the process. And I was
+
+1062
+01:03:38,910 --> 01:03:42,840
+Speaker 17:  scanned and gone within five minutes. Wait what? I know. Yeah, that's the
+
+1063
+01:03:43,040 --> 01:03:46,080
+Speaker 17:  reaction. It's like what? But that's kind of the point. The point of this
+
+1064
+01:03:46,080 --> 01:03:49,960
+Speaker 17:  technology is that Worldcoin and other companies
+
+1065
+01:03:49,960 --> 01:03:53,600
+Speaker 17:  that use their A P I one day don't need to actually know who you are.
+
+1066
+01:03:53,710 --> 01:03:57,520
+Speaker 17:  They just need to know that you're a human being. And so through a kind
+
+1067
+01:03:57,520 --> 01:04:00,600
+Speaker 17:  of complicated process, I won't go super in depth on here.
+
+1068
+01:04:00,950 --> 01:04:04,760
+Speaker 17:  Basically what happens is the orb scans your eye,
+
+1069
+01:04:04,970 --> 01:04:08,920
+Speaker 17:  makes some little noises and then it creates this hash
+
+1070
+01:04:09,700 --> 01:04:13,560
+Speaker 17:  of numbers tied to your IRIS scan that theoretically
+
+1071
+01:04:13,560 --> 01:04:17,000
+Speaker 17:  is not supposed to leave the ore but helps them assign you a world id.
+
+1072
+01:04:17,380 --> 01:04:20,600
+Speaker 17:  And then there's a corresponding code that's then eventually put on this
+
+1073
+01:04:20,600 --> 01:04:24,080
+Speaker 17:  Ethereum based blockchain that corresponds to your iris hash.
+
+1074
+01:04:24,460 --> 01:04:28,320
+Speaker 17:  But because of fancy cryptography technology, there's no way
+
+1075
+01:04:28,520 --> 01:04:32,120
+Speaker 17:  of linking the two. Basically it's like just having a code saying
+
+1076
+01:04:32,400 --> 01:04:36,320
+Speaker 17:  I am real according to the orb, my operator for the orb was of course
+
+1077
+01:04:36,400 --> 01:04:40,280
+Speaker 17:  a guy who said he works in web three but he wasn't a Worldcoin employee.
+
+1078
+01:04:40,300 --> 01:04:43,240
+Speaker 17:  you know, they're using contractors and paying them per scan to do this.
+
+1079
+01:04:43,340 --> 01:04:46,960
+Speaker 17:  So he tried to answer some of my questions but couldn't really
+
+1080
+01:04:47,160 --> 01:04:49,720
+Speaker 17:  answer all of them. Do you work at Worldcoin or? I am
+
+1081
+01:04:49,760 --> 01:04:51,840
+Speaker 18:  A community specialist.
+
+1082
+01:04:51,980 --> 01:04:52,800
+Speaker 17:  Oh, okay.
+
+1083
+01:04:52,800 --> 01:04:56,600
+Speaker 18:  So I don't work full-time. I actually, I work in web
+
+1084
+01:04:56,600 --> 01:04:59,520
+Speaker 18:  three full-time, but this is just my like fun little
+
+1085
+01:04:59,620 --> 01:05:03,440
+Speaker 17:  Oh cool. I saw, yeah I saw the, the token launch. Are
+
+1086
+01:05:03,440 --> 01:05:06,320
+Speaker 17:  people coming in like for mainly to get the token
+
+1087
+01:05:06,380 --> 01:05:08,480
+Speaker 18:  Or, so in the US you don't get tokens.
+
+1088
+01:05:08,740 --> 01:05:11,800
+Speaker 17:  Oh yeah. So you won't get tokens. So it's basically just to have your id.
+
+1089
+01:05:11,950 --> 01:05:15,640
+Speaker 18:  It's just to have your id like, I guess maybe they think if they're like
+
+1090
+01:05:15,950 --> 01:05:19,840
+Speaker 18:  they, they do early engagement, maybe in the future there might be a, but
+
+1091
+01:05:19,840 --> 01:05:22,400
+Speaker 18:  like nothing of Official has been announced like that. Oh wow.
+
+1092
+01:05:23,100 --> 01:05:25,920
+Speaker 2:  You're making me feel a lot of feelings I did not expect to feel right now.
+
+1093
+01:05:26,100 --> 01:05:29,880
+Speaker 2:  But I think the, the thing that I had not fully processed about
+
+1094
+01:05:29,910 --> 01:05:33,760
+Speaker 2:  Worldcoin until you just explain that, is that Worldcoin doesn't care
+
+1095
+01:05:33,900 --> 01:05:37,760
+Speaker 2:  who you are, it just caress that you're a person. That's right.
+
+1096
+01:05:37,760 --> 01:05:39,960
+Speaker 2:  Which I had not really thought about. Like I, I've been thinking about world
+
+1097
+01:05:40,060 --> 01:05:43,560
+Speaker 2:  ID as like a, a sort of blockchain identity system, right? That eventually
+
+1098
+01:05:43,560 --> 01:05:47,160
+Speaker 2:  they'd be like, we're gonna get rid of your physical passport and exchange
+
+1099
+01:05:47,160 --> 01:05:50,240
+Speaker 2:  it for something on the blockchain. And part of me just like wants to give
+
+1100
+01:05:50,240 --> 01:05:52,960
+Speaker 2:  that two middle fingers but they're not doing that. They're going one step
+
+1101
+01:05:53,110 --> 01:05:57,040
+Speaker 2:  like much higher in the obstruction layer. They're just saying this is
+
+1102
+01:05:57,120 --> 01:06:00,040
+Speaker 2:  a person and we can now sufficiently
+
+1103
+01:06:00,560 --> 01:06:04,160
+Speaker 2:  convincingly say this is a person and that's, that's the goal here. That's
+
+1104
+01:06:04,160 --> 01:06:04,280
+Speaker 2:  it.
+
+1105
+01:06:04,390 --> 01:06:08,160
+Speaker 17:  Yeah. That's literally the only goal. And that now you know, the fact that
+
+1106
+01:06:08,160 --> 01:06:11,280
+Speaker 17:  you have been verified by an orb is theoretically
+
+1107
+01:06:11,720 --> 01:06:15,120
+Speaker 17:  provable on a blockchain and other
+
+1108
+01:06:15,640 --> 01:06:19,600
+Speaker 17:  companies can know this and use that identity layer for their
+
+1109
+01:06:19,880 --> 01:06:20,040
+Speaker 17:  services.
+
+1110
+01:06:20,740 --> 01:06:24,640
+Speaker 2:  Did this whole thing seem legit to you? Like you're, you're in a,
+
+1111
+01:06:24,640 --> 01:06:28,520
+Speaker 2:  you're in a coworking space, it's just like a contract person. We've read
+
+1112
+01:06:28,520 --> 01:06:32,040
+Speaker 2:  all these stories about the people who are like in malls doing iris scanning.
+
+1113
+01:06:32,150 --> 01:06:35,160
+Speaker 2:  This strikes me as the kind of thing that you'd see in a sci-fi movie and
+
+1114
+01:06:35,160 --> 01:06:38,800
+Speaker 2:  they would be in like the top floor of a huge skyscraper and there would
+
+1115
+01:06:38,800 --> 01:06:42,760
+Speaker 2:  be like people in white lab coats doing this. This is so different from that.
+
+1116
+01:06:43,150 --> 01:06:46,680
+Speaker 17:  Yeah, it's very bottoms up community organized.
+
+1117
+01:06:46,990 --> 01:06:50,680
+Speaker 17:  Like obviously these people are getting paid to do these scans but they're
+
+1118
+01:06:50,680 --> 01:06:53,760
+Speaker 17:  really just enthusiasts. Like my operator said he worked in the web three
+
+1119
+01:06:53,760 --> 01:06:57,400
+Speaker 17:  space of course and that he was just interested in the
+
+1120
+01:06:57,400 --> 01:07:01,320
+Speaker 17:  technology and that most of the people that he's scanned
+
+1121
+01:07:01,320 --> 01:07:05,000
+Speaker 17:  were coming in kind of just because they thought it was like a cool idea.
+
+1122
+01:07:05,000 --> 01:07:08,640
+Speaker 17:  Maybe they saw Sam Altman tweet about it. He did say that a fair number,
+
+1123
+01:07:08,790 --> 01:07:12,720
+Speaker 17:  like maybe a quarter 20% of people were asking where are my tokens?
+
+1124
+01:07:12,720 --> 01:07:15,560
+Speaker 17:  Even though they're not available in the US there's certainly like people
+
+1125
+01:07:15,560 --> 01:07:19,520
+Speaker 17:  are token farming. There's already been reports of people buying
+
+1126
+01:07:19,520 --> 01:07:23,480
+Speaker 17:  world IDs on like the dark web so that they can then get the tokens
+
+1127
+01:07:23,480 --> 01:07:27,280
+Speaker 17:  associated with that world id. So this is by no means a fail
+
+1128
+01:07:27,290 --> 01:07:30,960
+Speaker 17:  proof system, but yeah, that's what they're doing at a high level and they're
+
+1129
+01:07:30,960 --> 01:07:34,440
+Speaker 17:  doing with flare. you know, like this orb was designed by
+
+1130
+01:07:34,500 --> 01:07:38,440
+Speaker 17:  Thomas Meyer Hoffer who was, Johnny i's first designer hire
+
+1131
+01:07:38,460 --> 01:07:42,320
+Speaker 17:  at Apple and you know they've hired a lot of, you know, big names a
+
+1132
+01:07:42,320 --> 01:07:45,560
+Speaker 17:  across the tech industry. So yeah, it's definitely this kind of weird
+
+1133
+01:07:46,040 --> 01:07:50,000
+Speaker 17:  sci-fi thing meets reality but definitely did not feel as like high
+
+1134
+01:07:50,000 --> 01:07:51,640
+Speaker 17:  stakes as I thought it would when I walked in.
+
+1135
+01:07:51,990 --> 01:07:55,280
+Speaker 2:  Yeah, it's really interesting. What is your sense of what they're trying
+
+1136
+01:07:55,280 --> 01:07:59,040
+Speaker 2:  to do with the hardware? Because I, I kind of see it a bunch of ways. On
+
+1137
+01:07:59,040 --> 01:08:02,120
+Speaker 2:  the one hand you have this thing that they would want to make seem as normal
+
+1138
+01:08:02,340 --> 01:08:06,240
+Speaker 2:  and uns scary as possible. If they could just like point their
+
+1139
+01:08:06,240 --> 01:08:10,000
+Speaker 2:  phone at you and make it seem every day that that would be great. On the
+
+1140
+01:08:10,000 --> 01:08:13,600
+Speaker 2:  other hand they seem to have leaned into this very futuristic idea.
+
+1141
+01:08:13,790 --> 01:08:17,320
+Speaker 2:  It's this big shiny object like you said, it looks like Howl
+
+1142
+01:08:17,320 --> 01:08:21,200
+Speaker 2:  9,000. It just looks like a robot. And I can't imagine that was not intentional.
+
+1143
+01:08:21,200 --> 01:08:23,800
+Speaker 2:  Like what did you make of the actual hardware itself?
+
+1144
+01:08:24,270 --> 01:08:27,760
+Speaker 17:  Yeah, I mean it's designed to look like an eye, like you're looking into
+
+1145
+01:08:27,760 --> 01:08:31,560
+Speaker 17:  an eyeball, which is pretty creepy but it was like super
+
+1146
+01:08:31,670 --> 01:08:35,560
+Speaker 17:  fast. It made some cute noises and over time I
+
+1147
+01:08:35,560 --> 01:08:38,800
+Speaker 17:  think what's interesting is that tools for humanity, the parent company
+
+1148
+01:08:39,270 --> 01:08:43,160
+Speaker 17:  says they want to open source the design of the
+
+1149
+01:08:43,310 --> 01:08:47,120
+Speaker 17:  orbs and let other people make them and distribute them. So it becomes this
+
+1150
+01:08:47,120 --> 01:08:50,920
+Speaker 17:  like kind of decentralized thing on top of the, the blockchain
+
+1151
+01:08:50,920 --> 01:08:54,480
+Speaker 17:  aspect of this sounds pretty problematic 'cause what happens when
+
+1152
+01:08:54,870 --> 01:08:58,360
+Speaker 17:  some kind of vendor installs malware or like
+
+1153
+01:08:58,390 --> 01:09:02,200
+Speaker 17:  something into the orb that isn't, you know, to spec and there's a huge
+
+1154
+01:09:02,200 --> 01:09:06,080
+Speaker 17:  data leakage or something. But for now it's all designed and operated and
+
+1155
+01:09:06,760 --> 01:09:09,640
+Speaker 17:  maintained by Worldcoin. These are very expensive devices. I think they
+
+1156
+01:09:09,640 --> 01:09:13,520
+Speaker 17:  cost like 5,000 plus each to build. But yeah, eventually
+
+1157
+01:09:13,940 --> 01:09:17,640
+Speaker 17:  the goal is that the whole company moves towards this Dow model, a
+
+1158
+01:09:17,640 --> 01:09:21,520
+Speaker 17:  decentralized autonomous organization where not only are the orbs able
+
+1159
+01:09:21,520 --> 01:09:25,160
+Speaker 17:  to be operated by other people and made by other people, but the
+
+1160
+01:09:25,160 --> 01:09:29,000
+Speaker 17:  Worldcoin itself can be used to vote on how governance works
+
+1161
+01:09:29,340 --> 01:09:33,320
+Speaker 17:  and how the company operates. So they wanna move to this foundation model
+
+1162
+01:09:33,590 --> 01:09:37,040
+Speaker 17:  that would also govern the orbs. They haven't done that yet. I think that's
+
+1163
+01:09:37,040 --> 01:09:40,880
+Speaker 17:  another pretty fair criticism of doing this right now is it's kind of putting
+
+1164
+01:09:40,900 --> 01:09:44,520
+Speaker 17:  the car before the horse on what a lot of they're trying to do. But I also
+
+1165
+01:09:44,520 --> 01:09:47,440
+Speaker 17:  see the other side, you know, investors are telling me like, look they gotta
+
+1166
+01:09:47,560 --> 01:09:50,680
+Speaker 17:  start somewhere. This is a chicken and egg problem. How else are you gonna
+
+1167
+01:09:50,680 --> 01:09:54,240
+Speaker 17:  incentivize people to scan their eyes in this frankly kind of creepy thing.
+
+1168
+01:09:54,620 --> 01:09:56,480
+Speaker 17:  So yeah, that's, that's kinda where it stands now.
+
+1169
+01:09:56,830 --> 01:10:00,720
+Speaker 2:  Okay. And what do you get as a person who has now had your irises scanned?
+
+1170
+01:10:00,720 --> 01:10:04,320
+Speaker 2:  Do you got a sticker which is like rad, I love a sticker and you have an
+
+1171
+01:10:04,340 --> 01:10:08,280
+Speaker 2:  app that I guess like says you're human. Like what, how, how
+
+1172
+01:10:08,280 --> 01:10:10,720
+Speaker 2:  has your life changed now that you've had your irises scanned?
+
+1173
+01:10:10,950 --> 01:10:14,920
+Speaker 17:  Yeah, I've got my unique human sticker and then I've got in the
+
+1174
+01:10:14,920 --> 01:10:18,640
+Speaker 17:  world app that says I'm verified, I'm anonymous but I'm
+
+1175
+01:10:18,840 --> 01:10:22,320
+Speaker 17:  verified with an or. It says when I was verified and at some point in the
+
+1176
+01:10:22,320 --> 01:10:26,040
+Speaker 17:  future I guess 'cause I'm in the US I probably won't get the world coins
+
+1177
+01:10:26,140 --> 01:10:30,000
+Speaker 17:  but at some point in the future this ID I may be
+
+1178
+01:10:30,000 --> 01:10:33,600
+Speaker 17:  able to use to log in somewhere I guess would be the most immediate
+
+1179
+01:10:33,830 --> 01:10:37,720
+Speaker 17:  implication of having it. But for now it's just, just this little
+
+1180
+01:10:37,790 --> 01:10:38,720
+Speaker 17:  virtual badge
+
+1181
+01:10:39,590 --> 01:10:43,080
+Speaker 2:  That is I mean. One of the things that is very funny to me about
+
+1182
+01:10:43,080 --> 01:10:46,800
+Speaker 2:  Worldcoin is there's a version of its story that if you play out the future
+
+1183
+01:10:46,800 --> 01:10:49,600
+Speaker 2:  in one direction it is this like huge
+
+1184
+01:10:50,350 --> 01:10:53,920
+Speaker 2:  society shaping thing, right? Like if you go all the way out into universal
+
+1185
+01:10:53,920 --> 01:10:56,680
+Speaker 2:  basic income and a G I and we end up in this totally different place than
+
+1186
+01:10:56,680 --> 01:10:59,880
+Speaker 2:  we are now. Something like Worldcoin could be really interesting and really
+
+1187
+01:10:59,880 --> 01:11:03,360
+Speaker 2:  important I would say in a much more sort of immediate
+
+1188
+01:11:03,740 --> 01:11:07,400
+Speaker 2:  and plausible worldview. It's just like a fancy login
+
+1189
+01:11:07,400 --> 01:11:10,200
+Speaker 2:  system. Like it's very funny to me that it's integrating with Okta because
+
+1190
+01:11:10,230 --> 01:11:14,160
+Speaker 2:  it's just Okta like in a lot of ways it's like this is a person who
+
+1191
+01:11:14,160 --> 01:11:17,920
+Speaker 2:  would like to log into a website and it just has cooler
+
+1192
+01:11:18,490 --> 01:11:22,320
+Speaker 2:  technology hardware than like my Apple Watch Okta
+
+1193
+01:11:22,320 --> 01:11:23,000
+Speaker 2:  Verify app.
+
+1194
+01:11:23,430 --> 01:11:26,280
+Speaker 17:  Yeah. Or you could be more cynical and say it's actually just a pump and
+
+1195
+01:11:26,280 --> 01:11:30,120
+Speaker 17:  dump scheme. So 25% of all world coins are held by the company
+
+1196
+01:11:30,220 --> 01:11:33,960
+Speaker 17:  and it's investors and they have not been able to sell any of that yet.
+
+1197
+01:11:33,960 --> 01:11:37,880
+Speaker 17:  They're in a lockup. So a bunch of Worldcoin is gonna get dumped
+
+1198
+01:11:38,100 --> 01:11:41,680
+Speaker 17:  you know in a year or so most likely. And you know,
+
+1199
+01:11:41,700 --> 01:11:45,360
+Speaker 17:  retail again like has been the case and so many of these crypto stories
+
+1200
+01:11:45,360 --> 01:11:48,680
+Speaker 17:  will be left holding the bag. Yeah, I think what's clear in the short term
+
+1201
+01:11:48,680 --> 01:11:51,880
+Speaker 17:  is the only reason to own Worldcoin is because you think the price will
+
+1202
+01:11:51,880 --> 01:11:55,360
+Speaker 17:  go up. But in the long run, if you buy this U B I
+
+1203
+01:11:55,530 --> 01:11:59,440
+Speaker 17:  thing and you buy AI may one day rule the world, you may want to have it.
+
+1204
+01:11:59,440 --> 01:12:02,600
+Speaker 17:  But it comes back to what I was saying originally. Like this is a solution
+
+1205
+01:12:02,600 --> 01:12:06,520
+Speaker 17:  in search of a problem. And I think whatever happens. I guess I find the
+
+1206
+01:12:06,590 --> 01:12:10,480
+Speaker 17:  idea behind Worldcoin to be deeply unsettling because
+
+1207
+01:12:10,860 --> 01:12:14,800
+Speaker 17:  it suggests a future in which humans are indistinguishable
+
+1208
+01:12:14,800 --> 01:12:18,560
+Speaker 17:  from machines. And I know we've had that in sci-fi, you know, I love
+
+1209
+01:12:18,560 --> 01:12:22,480
+Speaker 17:  Westworld as much as the next person. But the idea that, you know,
+
+1210
+01:12:22,580 --> 01:12:26,240
+Speaker 17:  Sam Altman, one of the leaders in this space is actively
+
+1211
+01:12:26,760 --> 01:12:30,680
+Speaker 17:  building towards this future that he thinks is definitely going to
+
+1212
+01:12:30,680 --> 01:12:34,520
+Speaker 17:  happen is pretty unsettling. And I think, you know,
+
+1213
+01:12:34,580 --> 01:12:37,840
+Speaker 17:  we as a society may be having bigger conversations about this in the coming
+
+1214
+01:12:37,840 --> 01:12:38,080
+Speaker 17:  years.
+
+1215
+01:12:38,680 --> 01:12:42,280
+Speaker 2:  I think that's right. I think the thing that gives me immediate hope is that
+
+1216
+01:12:42,350 --> 01:12:45,920
+Speaker 2:  this launch happened at a very funny time, which is right around the same
+
+1217
+01:12:45,920 --> 01:12:49,720
+Speaker 2:  time that OpenAI ditched its project for figuring
+
+1218
+01:12:49,940 --> 01:12:53,760
+Speaker 2:  out what text was created by AI because it
+
+1219
+01:12:53,760 --> 01:12:56,840
+Speaker 2:  didn't work. And I just think we're, we're at this funny phase now where
+
+1220
+01:12:56,840 --> 01:13:00,720
+Speaker 2:  like it keeps making me think of, I watch a lot of H G T V and there
+
+1221
+01:13:00,720 --> 01:13:04,520
+Speaker 2:  was this whole run of H G T V shows where it was like regular people learn
+
+1222
+01:13:04,560 --> 01:13:08,440
+Speaker 2:  how to flip houses and then there was a whole other run of H G
+
+1223
+01:13:08,520 --> 01:13:11,680
+Speaker 2:  T V shows that were regular people tried to flip their houses and screwed
+
+1224
+01:13:11,680 --> 01:13:14,600
+Speaker 2:  them up so badly that they had to call in professionals. And now that's what
+
+1225
+01:13:14,600 --> 01:13:17,720
+Speaker 2:  that show is about. There's just literally a show called like Help I wreck
+
+1226
+01:13:17,740 --> 01:13:21,640
+Speaker 2:  my house. And it's just like that's the phase of AI that I
+
+1227
+01:13:21,640 --> 01:13:24,920
+Speaker 2:  think we're heading into where it was like, okay, AI got outta control, we're
+
+1228
+01:13:24,920 --> 01:13:28,280
+Speaker 2:  gonna build tools to fix the ai, those aren't gonna work
+
+1229
+01:13:28,740 --> 01:13:32,080
+Speaker 2:  so we're gonna, we're gonna bring in people to fix the AI but then we're
+
+1230
+01:13:32,080 --> 01:13:34,840
+Speaker 2:  gonna use the AI to beat people and it's just like we're like caught in this
+
+1231
+01:13:34,840 --> 01:13:38,600
+Speaker 2:  loop forever and it just sort of seems like Sam Altman is gonna be the one
+
+1232
+01:13:38,600 --> 01:13:42,000
+Speaker 2:  sitting on every side of it, just like laughing hysterically as he makes
+
+1233
+01:13:42,000 --> 01:13:45,560
+Speaker 2:  billions and billions of dollars. Yeah. So to some extent like, you know,
+
+1234
+01:13:45,800 --> 01:13:48,000
+Speaker 2:  kudos to Sam Altman forgetting it like coming and going
+
+1235
+01:13:48,480 --> 01:13:52,040
+Speaker 17:  I mean. Yeah, there's nothing like building the problem and the antidote
+
+1236
+01:13:52,040 --> 01:13:53,880
+Speaker 17:  and being able to profit off of both, right?
+
+1237
+01:13:54,030 --> 01:13:54,640
+Speaker 2:  Seriously,
+
+1238
+01:13:55,040 --> 01:13:58,120
+Speaker 17:  Altman is such an important aspect of this as we've been saying. you know,
+
+1239
+01:13:58,140 --> 01:14:02,120
+Speaker 17:  the fact that it's not launching in the US as he's really wooing regulators
+
+1240
+01:14:02,120 --> 01:14:05,800
+Speaker 17:  going to DC meeting with President Biden about AI stuff
+
+1241
+01:14:06,120 --> 01:14:10,080
+Speaker 17:  recently for example. you know, a lot of this is wrapped up in him and his,
+
+1242
+01:14:10,140 --> 01:14:13,920
+Speaker 17:  how he's perceived and it makes sense to me now a little bit
+
+1243
+01:14:13,920 --> 01:14:17,800
+Speaker 17:  more why he's been this super vocal voice talking to regulators saying
+
+1244
+01:14:17,800 --> 01:14:21,480
+Speaker 17:  we need safety around ai. Guess what? He's got a solution, right?
+
+1245
+01:14:21,710 --> 01:14:25,600
+Speaker 17:  He's got a for-profit solution to the problem. And so yeah, we've been
+
+1246
+01:14:25,600 --> 01:14:29,320
+Speaker 17:  hearing a lot about chat G P T in the broader world
+
+1247
+01:14:29,460 --> 01:14:33,360
+Speaker 17:  and society. I do think we'll start hearing more about Worldcoin
+
+1248
+01:14:33,540 --> 01:14:36,720
+Speaker 17:  in the coming months as Altman starts talking about it more and using his
+
+1249
+01:14:37,000 --> 01:14:39,880
+Speaker 17:  platform. So say stay tuned and you're listening to this episode, you're
+
+1250
+01:14:39,880 --> 01:14:43,040
+Speaker 17:  getting kind of the the early look And I think something that everyone else
+
+1251
+01:14:43,060 --> 01:14:43,840
+Speaker 17:  is gonna be talking about.
+
+1252
+01:14:44,700 --> 01:14:48,600
+Speaker 2:  All right Alex, appreciate you stopping by as always and this time
+
+1253
+01:14:48,600 --> 01:14:52,400
+Speaker 2:  thank you especially for scanning your eyes for journalism. If you do end
+
+1254
+01:14:52,400 --> 01:14:56,080
+Speaker 2:  up needing new eyes by the way, let us know because that's like truly excellent
+
+1255
+01:14:56,080 --> 01:14:59,960
+Speaker 2:  forge cast material. So keep us posted. You can read more about Alex's experience
+
+1256
+01:14:59,960 --> 01:15:02,760
+Speaker 2:  with the orb in Command line, his excellent newsletter, which you can sign
+
+1257
+01:15:02,760 --> 01:15:06,240
+Speaker 2:  up for at The Verge dot com slash newsletters. Alright,
+
+1258
+01:15:06,580 --> 01:15:10,120
+Speaker 2:  one more thing to do and then we're gonna get outta here. Let's answer a
+
+1259
+01:15:10,240 --> 01:15:11,560
+Speaker 2:  question from the Vergecast hotline.
+
+1260
+01:15:15,660 --> 01:15:19,120
+Speaker 2:  As a reminder, the hotline number is 8 6 6 Verge one one.
+
+1261
+01:15:19,300 --> 01:15:22,960
+Speaker 2:  Please call and ask us all your deepest, darkest, weirdest tech
+
+1262
+01:15:23,160 --> 01:15:26,760
+Speaker 2:  questions. We love them all. You can also email Vergecast at The Verge dot
+
+1263
+01:15:26,760 --> 01:15:30,400
+Speaker 2:  com, send us a voice memo, whatever makes you happy. We love hearing our
+
+1264
+01:15:30,520 --> 01:15:33,760
+Speaker 2:  questions. For this one, I brought in V Song Hy-Vee.
+
+1265
+01:15:34,060 --> 01:15:34,840
+Speaker 19:  Hey, what's up?
+
+1266
+01:15:35,320 --> 01:15:38,840
+Speaker 2:  I have not played you this question I just, I gave you like a vague sense
+
+1267
+01:15:38,840 --> 01:15:42,440
+Speaker 2:  of what's coming. So let's, let me just play the question. I think you'll
+
+1268
+01:15:42,440 --> 01:15:45,640
+Speaker 2:  be ready for this, but I'm excited to see where we go 'cause I also have
+
+1269
+01:15:45,640 --> 01:15:47,000
+Speaker 2:  this question here we go.
+
+1270
+01:15:48,140 --> 01:15:51,640
+Speaker 20:  Hey guys, it's Mark again. And I had a question
+
+1271
+01:15:52,010 --> 01:15:55,520
+Speaker 20:  about wearables or particularly wearables without screens
+
+1272
+01:15:55,550 --> 01:15:59,320
+Speaker 20:  because I have a pretty, well I think they're listing
+
+1273
+01:15:59,430 --> 01:16:03,120
+Speaker 20:  it's a cool little GShock slash vintage Cassia watch collection.
+
+1274
+01:16:03,380 --> 01:16:07,120
+Speaker 20:  And. I really enjoy wearing them. But I also would really
+
+1275
+01:16:07,150 --> 01:16:11,040
+Speaker 20:  love to get a lot of the health tracking and sleep tracking features of
+
+1276
+01:16:11,040 --> 01:16:14,880
+Speaker 20:  something like an Apple Watch or whatever Samsung's rolling out these
+
+1277
+01:16:14,880 --> 01:16:18,560
+Speaker 20:  days. And so I tried an Apple watch for a little bit, I
+
+1278
+01:16:18,630 --> 01:16:22,520
+Speaker 20:  just don't really care for a screen on my wrist, I'm being honest
+
+1279
+01:16:22,520 --> 01:16:26,280
+Speaker 20:  with you. I already feel like the notifications on my phone are a little
+
+1280
+01:16:26,280 --> 01:16:30,160
+Speaker 20:  bit too much. So I'd rather avoid that on my wrist too. But I
+
+1281
+01:16:30,160 --> 01:16:33,640
+Speaker 20:  also would really like to track my health sub. So I'm wondering are there
+
+1282
+01:16:33,640 --> 01:16:37,480
+Speaker 20:  any wearables without a screen these days? Something kind of closer to like
+
+1283
+01:16:37,620 --> 01:16:41,480
+Speaker 20:  the Fitbit Flex that used to exist, r i p or
+
+1284
+01:16:41,510 --> 01:16:45,160
+Speaker 20:  also anything that's like not frankly what I think is kind of expensive,
+
+1285
+01:16:45,160 --> 01:16:48,480
+Speaker 20:  like the aura ring. Anyways, thanks for the help. Bye. Okay,
+
+1286
+01:16:48,580 --> 01:16:51,800
+Speaker 2:  You're, you're making the face that made me want to do this question. It's,
+
+1287
+01:16:51,870 --> 01:16:52,840
+Speaker 2:  it's bleak dude.
+
+1288
+01:16:53,310 --> 01:16:57,120
+Speaker 19:  It's bleak. Like when you said something not as expensive
+
+1289
+01:16:57,120 --> 01:17:00,840
+Speaker 19:  as the aura ring, I was like, oh, because yeah, that is
+
+1290
+01:17:00,840 --> 01:17:04,600
+Speaker 19:  basically what I think fits 99% of
+
+1291
+01:17:04,600 --> 01:17:08,440
+Speaker 19:  what Mark's asking for because it's, it's going to get you
+
+1292
+01:17:08,440 --> 01:17:12,040
+Speaker 19:  really great clinically, I don't wanna say validated, but
+
+1293
+01:17:12,040 --> 01:17:16,000
+Speaker 19:  clinically tested sleep tracking. Like they just, I've been on
+
+1294
+01:17:16,000 --> 01:17:19,640
+Speaker 19:  calls with them and they just told me how like their sleep tracking is,
+
+1295
+01:17:19,760 --> 01:17:23,040
+Speaker 19:  I wanna say around 75, 70 9% corresponds to
+
+1296
+01:17:23,040 --> 01:17:26,840
+Speaker 19:  polysomnography, which is the gold standard. So if you want really accurate
+
+1297
+01:17:27,040 --> 01:17:30,960
+Speaker 19:  sleep tracking the AAA ring is one of the best options for it. It's
+
+1298
+01:17:30,960 --> 01:17:34,200
+Speaker 19:  not invasive in the sense that you never get a single
+
+1299
+01:17:34,200 --> 01:17:38,160
+Speaker 19:  notification from this on your, on your body. Yeah. Like the only
+
+1300
+01:17:38,160 --> 01:17:41,320
+Speaker 19:  problem with that is it can run out of battery and then you're like, oh
+
+1301
+01:17:41,840 --> 01:17:44,960
+Speaker 19:  I missed two nights because I missed that one notification on my phone
+
+1302
+01:17:45,590 --> 01:17:49,440
+Speaker 19:  that says charge this thing up. Yeah. So that's the one thing with
+
+1303
+01:17:49,440 --> 01:17:53,320
+Speaker 19:  that. The other one would be whoop and
+
+1304
+01:17:53,370 --> 01:17:56,480
+Speaker 19:  whoop is still kind of expensive.
+
+1305
+01:17:56,910 --> 01:18:00,760
+Speaker 2:  Yeah and whoop also picks it's, it has such a different idea about what
+
+1306
+01:18:00,780 --> 01:18:04,440
+Speaker 2:  to measure and what you care about that I've always had a hard time
+
+1307
+01:18:04,720 --> 01:18:08,600
+Speaker 2:  recommending it to people because it's like, like Mark wants step tracking
+
+1308
+01:18:08,620 --> 01:18:11,560
+Speaker 2:  and sleep tracking fundamentally, right? All the other stuff is well and
+
+1309
+01:18:11,560 --> 01:18:15,160
+Speaker 2:  good, but that's fundamentally what it wants. And Whoop has this very different
+
+1310
+01:18:15,470 --> 01:18:19,320
+Speaker 2:  picture of how you should measure health and if that works for you. It makes
+
+1311
+01:18:19,320 --> 01:18:22,200
+Speaker 2:  a lot of sense. It's really interested in recovery and lots of different
+
+1312
+01:18:22,200 --> 01:18:25,880
+Speaker 2:  ideas about how to sort of track exertion. That's all fine and good but it's
+
+1313
+01:18:25,880 --> 01:18:27,240
+Speaker 2:  not step tracking and sleep tracking.
+
+1314
+01:18:27,630 --> 01:18:30,960
+Speaker 19:  Well it is sleep tracking because the sleep tracking kind of feeds into
+
+1315
+01:18:30,960 --> 01:18:34,640
+Speaker 19:  their recovery metrics. That's true but it's, it's not really gonna help
+
+1316
+01:18:34,660 --> 01:18:38,040
+Speaker 19:  you so much on the step tracking part of it. It's really
+
+1317
+01:18:38,380 --> 01:18:42,000
+Speaker 19:  geared towards people who have, you know, ambitious
+
+1318
+01:18:42,360 --> 01:18:46,200
+Speaker 19:  training regimens and who really care about their H R V and they wanna
+
+1319
+01:18:46,200 --> 01:18:49,960
+Speaker 19:  check their exertion and want to be at optimal like priming.
+
+1320
+01:18:50,580 --> 01:18:53,720
+Speaker 19:  That's, those are the two that are like the most well-known
+
+1321
+01:18:54,250 --> 01:18:58,240
+Speaker 19:  Screenless devices. The other one would have been the Amazon
+
+1322
+01:18:58,670 --> 01:19:02,440
+Speaker 19:  Halo, but that's kaput 'cause they also went to this
+
+1323
+01:19:02,440 --> 01:19:06,160
+Speaker 19:  Screenless route. There is the Fitbit
+
+1324
+01:19:06,590 --> 01:19:10,280
+Speaker 19:  Inspire three which has the most like not
+
+1325
+01:19:10,470 --> 01:19:14,360
+Speaker 19:  even a screen screen because it's just, it's, it's basically kind of like
+
+1326
+01:19:14,360 --> 01:19:17,600
+Speaker 19:  the Fitbit flags a little bit. It's, it's got a, oh let's screen now.
+
+1327
+01:19:18,180 --> 01:19:21,960
+Speaker 19:  So it's not as the the monochrome L C D as it used to be,
+
+1328
+01:19:22,100 --> 01:19:25,440
+Speaker 19:  but you know, it's really not gonna tell you much 'cause it's a tiny little
+
+1329
+01:19:25,440 --> 01:19:28,920
+Speaker 19:  screen and you're not really gonna be looking through notifications on that.
+
+1330
+01:19:29,580 --> 01:19:33,240
+Speaker 19:  So that is an option if you don't mind double wristing as as I do.
+
+1331
+01:19:33,660 --> 01:19:37,480
+Speaker 19:  But you know, there is a couple of smart rings that are coming
+
+1332
+01:19:37,500 --> 01:19:41,360
+Speaker 19:  out. I've got a sizing kit for one, so I'm gonna be testing that
+
+1333
+01:19:41,380 --> 01:19:45,200
+Speaker 19:  and if that's an option, that'll be cool. But the problem with smart
+
+1334
+01:19:45,200 --> 01:19:48,480
+Speaker 19:  rings is that they all kind of cost around the amount that the Aura Ring
+
+1335
+01:19:48,480 --> 01:19:51,880
+Speaker 19:  does. There's not really a, what I would call a super
+
+1336
+01:19:51,880 --> 01:19:55,760
+Speaker 19:  affordable option for Screenless at
+
+1337
+01:19:55,760 --> 01:19:59,640
+Speaker 19:  the moment because they're, they're being like,
+
+1338
+01:19:59,640 --> 01:20:03,120
+Speaker 19:  the people developing the Screenless tech at the moment are the ones who
+
+1339
+01:20:03,120 --> 01:20:06,960
+Speaker 19:  are really invested in research and that sort of stuff. So
+
+1340
+01:20:07,040 --> 01:20:10,440
+Speaker 19:  you're gonna get people who are like, Hey, you want a subscription so you
+
+1341
+01:20:10,440 --> 01:20:14,320
+Speaker 19:  can fund our research? And the answer is always no, I don't want the subscription.
+
+1342
+01:20:14,620 --> 01:20:18,440
+Speaker 19:  But if you're looking into like cost effectiveness, whoop
+
+1343
+01:20:18,800 --> 01:20:22,600
+Speaker 19:  recently lowered their subscription prices, so if you wanna lock yourself
+
+1344
+01:20:22,600 --> 01:20:26,200
+Speaker 19:  in there for a long time, you can get a lower
+
+1345
+01:20:26,200 --> 01:20:30,000
+Speaker 19:  monthly subscription and the hardware is quote unquote free.
+
+1346
+01:20:30,700 --> 01:20:34,120
+Speaker 19:  You know, they, they say that it's never free, it's just built into a much
+
+1347
+01:20:34,120 --> 01:20:37,960
+Speaker 19:  higher monthly subscription. So if you wanna, and you know, I
+
+1348
+01:20:38,080 --> 01:20:41,520
+Speaker 19:  I believe they have like year long commitments, so that's kind of not
+
+1349
+01:20:41,900 --> 01:20:45,600
+Speaker 19:  my favorite thing. But yeah, so the OR Ring is still
+
+1350
+01:20:45,600 --> 01:20:49,440
+Speaker 19:  unfortunately, I think your best bet, unless you're willing to cobble
+
+1351
+01:20:49,600 --> 01:20:53,520
+Speaker 19:  together multiple devices to you see like
+
+1352
+01:20:53,570 --> 01:20:57,320
+Speaker 19:  Jerry Rig something, I unfortunately don't think that that's
+
+1353
+01:20:57,420 --> 01:21:00,800
+Speaker 19:  really great. But if sleep tracking is your number one thing, there are
+
+1354
+01:21:01,320 --> 01:21:05,000
+Speaker 19:  actually a number of sleep trekking apps on your phone that are pretty good.
+
+1355
+01:21:05,000 --> 01:21:07,960
+Speaker 19:  There's sleep cycle. I like rise
+
+1356
+01:21:08,910 --> 01:21:12,800
+Speaker 19:  Rise science, which is, that does have a yearly subscription, but I believe
+
+1357
+01:21:12,800 --> 01:21:16,720
+Speaker 19:  it's like $60 and if you really get on top of
+
+1358
+01:21:16,720 --> 01:21:20,200
+Speaker 19:  that sleep habit, then it's not really gonna be a forever
+
+1359
+01:21:20,610 --> 01:21:23,960
+Speaker 19:  thing Rise is interesting because it takes into account your
+
+1360
+01:21:24,630 --> 01:21:28,120
+Speaker 19:  circadian rhythms and based on like your phone
+
+1361
+01:21:28,120 --> 01:21:31,680
+Speaker 19:  cracking you and your sleep, it'll be like, oh, okay, this is your sleep
+
+1362
+01:21:31,680 --> 01:21:35,320
+Speaker 19:  need, this is your sleep debt. Like these are the times of the day where
+
+1363
+01:21:35,320 --> 01:21:39,120
+Speaker 19:  you should plan high intensity activity and these are the ones where
+
+1364
+01:21:39,400 --> 01:21:42,800
+Speaker 19:  you should do like lower intensity because your energy is gonna dip. And
+
+1365
+01:21:42,800 --> 01:21:46,400
+Speaker 19:  I've done, I've been doing that for I wanna say six, seven months now. It's
+
+1366
+01:21:46,560 --> 01:21:49,720
+Speaker 19:  interesting. After a while I don't pay attention to it anymore. So that's
+
+1367
+01:21:49,720 --> 01:21:53,480
+Speaker 19:  kind of the trap with sleep tracking apps. So I, I feel really
+
+1368
+01:21:53,500 --> 01:21:56,960
+Speaker 19:  bad Mark because I have very unsatisfying answers for you.
+
+1369
+01:21:57,820 --> 01:22:01,800
+Speaker 19:  But yeah, I, I do think the Aura Ring is like 99% of what he
+
+1370
+01:22:01,800 --> 01:22:04,600
+Speaker 19:  is looking for except for price, which is always the issue with the Aura
+
+1371
+01:22:04,600 --> 01:22:04,760
+Speaker 19:  ring.
+
+1372
+01:22:04,820 --> 01:22:08,280
+Speaker 2:  That's exactly where I landed too, is I did a bunch of research and landed
+
+1373
+01:22:08,340 --> 01:22:11,640
+Speaker 2:  on the Aura is kind of the only answer. And that's really the, the last thing
+
+1374
+01:22:11,640 --> 01:22:15,080
+Speaker 2:  I'm curious about from you before, before we let you here is I think
+
+1375
+01:22:15,430 --> 01:22:19,400
+Speaker 2:  what it seems like has happened is the whole market for people like
+
+1376
+01:22:19,750 --> 01:22:23,640
+Speaker 2:  Mark has disappeared, right? For a while we had, you could buy a
+
+1377
+01:22:23,640 --> 01:22:26,560
+Speaker 2:  thing that looked more or less like a bracelet, like the original Jawbone
+
+1378
+01:22:26,620 --> 01:22:30,120
+Speaker 2:  is still my favorite wearable of all time. It was that nice sort of, it was
+
+1379
+01:22:30,120 --> 01:22:33,960
+Speaker 2:  like a little too snap bracelet looking, but it just like fit
+
+1380
+01:22:33,960 --> 01:22:37,520
+Speaker 2:  around a wrist. It looked much less like technology and more like a thing
+
+1381
+01:22:37,520 --> 01:22:40,920
+Speaker 2:  you might actually wanna wear on purpose, which was great. And then there
+
+1382
+01:22:40,920 --> 01:22:43,680
+Speaker 2:  were the Fitbit trackers that you could clip to things. Those were cool.
+
+1383
+01:22:43,680 --> 01:22:47,360
+Speaker 2:  Like we had this run of things that weren't smart watches and
+
+1384
+01:22:47,660 --> 01:22:51,280
+Speaker 2:  all of those have died in favor of either smart watches on one end, that's
+
+1385
+01:22:51,280 --> 01:22:55,240
+Speaker 2:  kind of the mainstream idea or the like capital ss
+
+1386
+01:22:55,450 --> 01:22:59,240
+Speaker 2:  scientific tools that are very expensive and designed for people who want
+
+1387
+01:22:59,240 --> 01:23:02,120
+Speaker 2:  to do like clinical studies on themselves. And it seems like the middle ground
+
+1388
+01:23:02,140 --> 01:23:06,080
+Speaker 2:  is just gone. Is that ever gonna come back? Like have, my argument
+
+1389
+01:23:06,080 --> 01:23:09,560
+Speaker 2:  would be that we've pushed too many people towards smart watches, including
+
+1390
+01:23:09,600 --> 01:23:12,400
+Speaker 2:  a lot of people who actually don't want smart watches and that maybe there
+
+1391
+01:23:12,400 --> 01:23:14,400
+Speaker 2:  is room in the middle, but maybe I'm crazy.
+
+1392
+01:23:15,140 --> 01:23:18,880
+Speaker 19:  No, you're not crazy. You're 100% correct. So what ended up
+
+1393
+01:23:18,880 --> 01:23:22,720
+Speaker 19:  happening is one Google bought Fitbit and that kind of killed
+
+1394
+01:23:22,780 --> 01:23:26,160
+Speaker 19:  the middle market Fitbit smart watches are
+
+1395
+01:23:26,550 --> 01:23:30,360
+Speaker 19:  blah, especially with the latest generation, but I still think that
+
+1396
+01:23:30,360 --> 01:23:33,440
+Speaker 19:  the Inspire three is quite good. And I believe with the Inspire three you
+
+1397
+01:23:33,440 --> 01:23:37,200
+Speaker 19:  can pop out the, the main unit and you can stick it
+
+1398
+01:23:37,340 --> 01:23:40,480
+Speaker 19:  in like different accessories. So that, that's one option.
+
+1399
+01:23:41,300 --> 01:23:45,040
+Speaker 19:  Garmin makes a single fitness band at the moment, which actually
+
+1400
+01:23:45,100 --> 01:23:48,880
+Speaker 19:  may be more up Mark's Alley now that I think about it. The only
+
+1401
+01:23:48,880 --> 01:23:52,680
+Speaker 19:  issue is that Garmin sleep tracking kind of sucks. So that's, that's
+
+1402
+01:23:52,920 --> 01:23:56,320
+Speaker 19:  actually the, the, the worst part about a Garmin is that it's sleep tracking
+
+1403
+01:23:56,380 --> 01:24:00,280
+Speaker 19:  is I think not good. It's good enough to
+
+1404
+01:24:00,480 --> 01:24:03,880
+Speaker 19:  do your like recovery metrics because that's pulling on different things
+
+1405
+01:24:03,880 --> 01:24:07,680
+Speaker 19:  like heart rate variation, but in terms of like you wanting to sleep better,
+
+1406
+01:24:07,870 --> 01:24:08,800
+Speaker 19:  it's not very helpful.
+
+1407
+01:24:09,580 --> 01:24:13,440
+Speaker 2:  And even that the, the Vivosmart falls into that same, it's a smaller
+
+1408
+01:24:13,440 --> 01:24:15,360
+Speaker 2:  screen but it's still a screen category.
+
+1409
+01:24:15,470 --> 01:24:19,320
+Speaker 19:  It's still a screen. So months ago I was reviewing
+
+1410
+01:24:19,470 --> 01:24:23,120
+Speaker 19:  Amaz Fit a Maze Fit, I still dunno how to pronounce it. Me neither
+
+1411
+01:24:23,500 --> 01:24:27,320
+Speaker 19:  am Mafi Band seven. It is a $50 fitness
+
+1412
+01:24:27,430 --> 01:24:31,240
+Speaker 19:  tracker and it, if you wanna throw back to all the different
+
+1413
+01:24:32,510 --> 01:24:36,440
+Speaker 19:  mid-range fitness bands of yesteryear, that's a really great
+
+1414
+01:24:36,440 --> 01:24:40,160
+Speaker 19:  option. It has a lot of the health tracking features, the sleep tracking
+
+1415
+01:24:40,180 --> 01:24:44,160
+Speaker 19:  is all right. The battery life is pretty good. It's not a
+
+1416
+01:24:44,160 --> 01:24:48,080
+Speaker 19:  Looker, it's fairly, you know, I want, I don't wanna say
+
+1417
+01:24:48,260 --> 01:24:51,760
+Speaker 19:  Chinsy, but it's, it's not the best looking device. It's very
+
+1418
+01:24:51,760 --> 01:24:55,320
+Speaker 19:  utilitarian. The only issue I've seen with
+
+1419
+01:24:55,680 --> 01:24:58,400
+Speaker 19:  recommending this to people is that people are like, well it's a Chinese
+
+1420
+01:24:58,400 --> 01:25:02,120
+Speaker 19:  company and Chinese company's don't have my health data. No thank you. To
+
+1421
+01:25:02,120 --> 01:25:05,800
+Speaker 19:  which, you know, the problem is, is that Fitbit started
+
+1422
+01:25:05,800 --> 01:25:09,160
+Speaker 19:  dying off because these Chinese company like Xiaomi and
+
+1423
+01:25:09,590 --> 01:25:13,160
+Speaker 19:  Amaz Fit, they basically came in and was like, Hey, what if we sold you
+
+1424
+01:25:13,160 --> 01:25:16,840
+Speaker 19:  these fitness bands for not a hundred dollars like Fitbit's asking
+
+1425
+01:25:16,940 --> 01:25:20,840
+Speaker 19:  for, but somewhere between 20 to $50 and it's largely
+
+1426
+01:25:20,930 --> 01:25:24,920
+Speaker 19:  gonna get you a good portion of the experience. So
+
+1427
+01:25:25,310 --> 01:25:28,120
+Speaker 19:  that just kind of cannibalized the whole market. you know, I had a reader
+
+1428
+01:25:28,140 --> 01:25:32,000
+Speaker 19:  ask me the other day, why didn't Samsung update the, the it's fitness
+
+1429
+01:25:32,090 --> 01:25:35,440
+Speaker 19:  spans? And I was like, honey, they have not updated these since
+
+1430
+01:25:36,300 --> 01:25:39,600
+Speaker 19:  the last time I went to efa, which I think was like 2019
+
+1431
+01:25:40,510 --> 01:25:44,480
+Speaker 19:  past 20 18, 20 19, maybe even 2017, like it was a really,
+
+1432
+01:25:44,480 --> 01:25:48,400
+Speaker 19:  really long time ago. So I too, you know,
+
+1433
+01:25:48,400 --> 01:25:51,160
+Speaker 19:  I might, I might end up blogging this, but like I too have wondered where
+
+1434
+01:25:51,160 --> 01:25:54,760
+Speaker 19:  the fitness bands have gone. And I get a lot of
+
+1435
+01:25:54,960 --> 01:25:58,640
+Speaker 19:  questions like those from Mark And, I feel really bad that I'm like, well
+
+1436
+01:25:58,640 --> 01:26:02,560
+Speaker 19:  if you got built a time machine and traveled back to 2014, I have some options
+
+1437
+01:26:02,660 --> 01:26:06,400
+Speaker 19:  for you there. But all of those options have since lost
+
+1438
+01:26:06,400 --> 01:26:10,360
+Speaker 19:  support because the companies went under as well. So you are kind of stuck
+
+1439
+01:26:10,360 --> 01:26:14,040
+Speaker 19:  with smartwatches, which I do think is tragic because
+
+1440
+01:26:14,140 --> 01:26:18,120
+Speaker 19:  not everyone wants a smartwatch. I even take smartwatch free days once in
+
+1441
+01:26:18,120 --> 01:26:21,920
+Speaker 19:  a while to maintain my own sanity. So it's, I really feel
+
+1442
+01:26:22,060 --> 01:26:25,200
+Speaker 19:  for Mark. But you know there, you know, thinking about it, I do have a sleep
+
+1443
+01:26:25,200 --> 01:26:28,960
+Speaker 19:  tracker buying guide or sleep tech buying guide, which if sleep
+
+1444
+01:26:29,060 --> 01:26:32,720
+Speaker 19:  is really your main thing, there are non-invasive
+
+1445
+01:26:33,470 --> 01:26:37,400
+Speaker 19:  non-contact sleep options. The Nest Hub is one it, it'll track you via
+
+1446
+01:26:37,450 --> 01:26:41,240
+Speaker 19:  radar. The Ying sleep mat I believe it's called
+
+1447
+01:26:41,260 --> 01:26:45,160
+Speaker 19:  is like a $100 sleep mat that you stick under your mattress and
+
+1448
+01:26:45,160 --> 01:26:48,480
+Speaker 19:  it can read your heart rate and all of that stuff. So that's kind of cool.
+
+1449
+01:26:49,360 --> 01:26:53,200
+Speaker 19:  I have an eight sleep pod pro cover, which is not
+
+1450
+01:26:53,200 --> 01:26:56,960
+Speaker 19:  cheap, that is even more expensive than the Ora Ring, but it does offer
+
+1451
+01:26:56,960 --> 01:27:00,800
+Speaker 19:  temperature cooling. So you know, you're either
+
+1452
+01:27:00,800 --> 01:27:04,160
+Speaker 19:  gonna, if you really wanna avoid the screens and sleep track, you're gonna
+
+1453
+01:27:04,160 --> 01:27:08,000
+Speaker 19:  have to go with like six different devices at which point it's kind of
+
+1454
+01:27:08,010 --> 01:27:11,720
+Speaker 19:  gonna add up to the cost of an ora ring. So, you know,
+
+1455
+01:27:11,920 --> 01:27:15,840
+Speaker 19:  I, I am gonna say right now your best option is the Ora ring until more
+
+1456
+01:27:15,840 --> 01:27:19,680
+Speaker 19:  people like you start complaining that screens are ruining their lives
+
+1457
+01:27:19,900 --> 01:27:23,640
+Speaker 19:  and then we can get our more simple fitness tracker blast
+
+1458
+01:27:23,640 --> 01:27:27,600
+Speaker 19:  from the past bands back. Which, you know, I would actually be really
+
+1459
+01:27:27,600 --> 01:27:30,360
+Speaker 19:  happy about. I miss, I miss the old Fitbit days sometimes.
+
+1460
+01:27:32,870 --> 01:27:33,360
+Speaker 1:  Alright,
+
+1461
+01:27:33,390 --> 01:27:36,720
+Speaker 2:  That is it for The Vergecast today. Thank you to everyone who came on the
+
+1462
+01:27:36,720 --> 01:27:40,320
+Speaker 2:  show and thank you as always for listening. There's lots more on everything
+
+1463
+01:27:40,320 --> 01:27:43,840
+Speaker 2:  we talked about from sleep tracking, buying guides to Worldcoin
+
+1464
+01:27:44,180 --> 01:27:47,680
+Speaker 2:  orb experiences on The Verge dot com. We'll put some links in the show notes.
+
+1465
+01:27:47,700 --> 01:27:51,200
+Speaker 2:  But as always, read the website, leave us a comment on the
+
+1466
+01:27:51,510 --> 01:27:55,440
+Speaker 2:  post about this episode. We'd love to hear everything you think and we do
+
+1467
+01:27:55,460 --> 01:27:59,000
+Speaker 2:  answer at least one hotline question every episode. So keep em coming.
+
+1468
+01:27:59,230 --> 01:28:02,640
+Speaker 2:  This show is produced by Andrew Marino and Liam James Brooke Mins is our
+
+1469
+01:28:02,640 --> 01:28:06,160
+Speaker 2:  editorial director of Audio The. Vergecast is Verge production and part of
+
+1470
+01:28:06,160 --> 01:28:09,760
+Speaker 2:  the Vox Media podcast network. Neli Alex, And I will be back on Friday to
+
+1471
+01:28:09,760 --> 01:28:13,640
+Speaker 2:  talk about probably more Samsung, the latest going on with the
+
+1472
+01:28:13,760 --> 01:28:17,480
+Speaker 2:  X sign on top of the Twitter building and lots more. See you then. Rock and
+
+1473
+01:28:17,480 --> 01:28:17,600
+Speaker 2:  roll.
+

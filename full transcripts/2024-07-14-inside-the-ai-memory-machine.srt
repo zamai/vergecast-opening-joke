@@ -1,0 +1,2518 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 0f8b4f85-65a0-4714-bc20-835241d1ccaa
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/-6594969455277047397/-8938191919512352717/s93290-US-2478s-1720952982.mp3
+Description: Humans are terrible at remembering things. On this episode of The Vergecast, we talk to one of the people who has been working on this problem for a very long time: Dan Siroker, the CEO of Limitless. We talk about what it takes to build a great memory aid, how we might use them in the future, and why it’s so tricky to get right.
+We also talk about the human side of it all — what does it change about our lives when we stop forgetting things? Is remembering your friend’s birthday different when it’s actually an AI model doing the remembering? And will these tools ever really work outside of work? Tools like Limitless are coming fast and improving quickly, and we’re going to have to figure out how to live with them.
+
+2
+00:01:14,495 --> 00:01:18,335
+Speaker 3:  I wanna talk about a use of AI that is suddenly everywhere it
+
+3
+00:01:18,335 --> 00:01:21,335
+Speaker 3:  goes by many names, Microsoft calls it recall,
+
+4
+00:01:21,685 --> 00:01:25,255
+Speaker 4:  With recall. We're gonna leverage the power of AI and the new system
+
+5
+00:01:25,255 --> 00:01:29,215
+Speaker 4:  performance to make it possible to access virtually anything you
+
+6
+00:01:29,215 --> 00:01:31,015
+Speaker 4:  have ever seen on your pc.
+
+7
+00:01:31,465 --> 00:01:33,575
+Speaker 3:  Apple calls it personal intelligence.
+
+8
+00:01:34,235 --> 00:01:38,215
+Speaker 5:  It understands who's in your photo library, so You can just ask photos to
+
+9
+00:01:38,215 --> 00:01:40,295
+Speaker 5:  create a movie about Leo learning to fish
+
+10
+00:01:40,955 --> 00:01:43,895
+Speaker 3:  For Google. It's one of the most important features of Gemini.
+
+11
+00:01:44,315 --> 00:01:45,895
+Speaker 5:  Do you remember where you saw my glasses?
+
+12
+00:01:47,075 --> 00:01:50,095
+Speaker 6:  Yes, I do. Your glasses. Were on the desk near a red apple.
+
+13
+00:01:50,785 --> 00:01:54,495
+Speaker 3:  There are also lots of startups, enterprise software companies and
+
+14
+00:01:54,495 --> 00:01:58,255
+Speaker 3:  everybody else You can think of working on something similar. Call this feature
+
+15
+00:01:58,775 --> 00:02:02,335
+Speaker 3:  whatever you want, but the goal of them is all the same. To remember
+
+16
+00:02:02,335 --> 00:02:06,135
+Speaker 3:  everything you need to remember and give it back to you at exactly the right
+
+17
+00:02:06,135 --> 00:02:09,735
+Speaker 3:  moment and in exactly the right way. As an idea. I find this
+
+18
+00:02:09,945 --> 00:02:13,935
+Speaker 3:  incredibly compelling. I think I find it more compelling than most
+
+19
+00:02:14,455 --> 00:02:18,335
+Speaker 3:  actually. See I have this thing called aphantasia, which essentially means
+
+20
+00:02:18,455 --> 00:02:22,375
+Speaker 3:  I don't see pictures in my head. Like if I tell you right now to picture
+
+21
+00:02:22,555 --> 00:02:26,215
+Speaker 3:  an apple, there's a wide range of things that you might be picturing. Maybe
+
+22
+00:02:26,215 --> 00:02:30,175
+Speaker 3:  you see a super crisp, detailed apple with colors
+
+23
+00:02:30,555 --> 00:02:34,295
+Speaker 3:  and leaves on the stem and there's a whole surrounding universe around it.
+
+24
+00:02:34,555 --> 00:02:38,215
+Speaker 3:  Or maybe you just see sort of a cartoony looking apple, like the
+
+25
+00:02:38,395 --> 00:02:42,295
+Speaker 3:  apples apple you've ever seen. Maybe you just see the rough shape of
+
+26
+00:02:42,295 --> 00:02:45,815
+Speaker 3:  an apple in your mind's eye. If you're like me, you don't see anything.
+
+27
+00:02:46,205 --> 00:02:49,975
+Speaker 3:  Nothing. Blackness, I can tell you what an apple
+
+28
+00:02:49,985 --> 00:02:53,815
+Speaker 3:  looks like. I know what an apple looks like, but I can't see it
+
+29
+00:02:53,815 --> 00:02:56,975
+Speaker 3:  there. I honestly always thought that when people talked about
+
+30
+00:02:57,205 --> 00:03:00,925
+Speaker 3:  visualizing stuff and their mind's eye, they didn't mean it
+
+31
+00:03:00,925 --> 00:03:04,285
+Speaker 3:  literally. It breaks my brain still to this day.
+
+32
+00:03:04,575 --> 00:03:08,205
+Speaker 3:  Every time I think about the fact that people can just conjure images in
+
+33
+00:03:08,205 --> 00:03:12,085
+Speaker 3:  their brain and they see them, I don't get it. And people who see it don't
+
+34
+00:03:12,085 --> 00:03:15,805
+Speaker 3:  get that I don't. Brains are weird. One thing that seems to be true about
+
+35
+00:03:15,805 --> 00:03:19,485
+Speaker 3:  people with aphantasia like me is that we don't necessarily have
+
+36
+00:03:19,485 --> 00:03:23,165
+Speaker 3:  particularly great visual memories. Like I can't just
+
+37
+00:03:23,195 --> 00:03:27,125
+Speaker 3:  conjure up a photo of my childhood home. You know, I remember lots
+
+38
+00:03:27,125 --> 00:03:31,005
+Speaker 3:  of things and to be clear, I don't think aphantasia is like a disability
+
+39
+00:03:31,065 --> 00:03:34,805
+Speaker 3:  so much as it is just a different way your brain works, but I just don't
+
+40
+00:03:34,805 --> 00:03:38,605
+Speaker 3:  have that kind of visual memory. So over the years, I've leaned
+
+41
+00:03:38,605 --> 00:03:42,525
+Speaker 3:  pretty hard on technology to help me fix that. I take a lot
+
+42
+00:03:42,525 --> 00:03:45,965
+Speaker 3:  of photos and I love all the on this day and
+
+43
+00:03:45,965 --> 00:03:49,365
+Speaker 3:  automatically generated albums that I get on my phone and in Google photos.
+
+44
+00:03:49,675 --> 00:03:53,645
+Speaker 3:  I've tried to journal much more over the years because going back to words
+
+45
+00:03:53,665 --> 00:03:57,485
+Speaker 3:  and pictures and videos does put me back in a place better than just
+
+46
+00:03:57,485 --> 00:04:01,005
+Speaker 3:  closing my eyes and trying to remember something. And anyone who knows me
+
+47
+00:04:01,005 --> 00:04:04,885
+Speaker 3:  will tell you that I am an obsessive note taker and list maker because it
+
+48
+00:04:04,885 --> 00:04:08,565
+Speaker 3:  just helps me keep my world in order. It's how I remember things and go back
+
+49
+00:04:08,565 --> 00:04:12,245
+Speaker 3:  to things. All of this is to say that a tool like the one these companies
+
+50
+00:04:12,245 --> 00:04:16,125
+Speaker 3:  are describing is kind of my dream. Something that can remember
+
+51
+00:04:16,125 --> 00:04:19,605
+Speaker 3:  every article I read, every message I receive, everything I need to do,
+
+52
+00:04:19,705 --> 00:04:23,645
+Speaker 3:  person I meet place, I go, everything else that happens in my life,
+
+53
+00:04:24,145 --> 00:04:27,925
+Speaker 3:  and then both store all of that for me to access and then actually
+
+54
+00:04:27,925 --> 00:04:31,645
+Speaker 3:  present it to me when I need it. That would literally change my
+
+55
+00:04:31,805 --> 00:04:35,525
+Speaker 3:  life. There are obviously huge complex privacy and data security
+
+56
+00:04:35,805 --> 00:04:39,565
+Speaker 3:  questions associated with how that all works and I want to get to that. But
+
+57
+00:04:39,565 --> 00:04:43,085
+Speaker 3:  this is one of the things AI is actually pretty good at. Just
+
+58
+00:04:43,445 --> 00:04:47,405
+Speaker 3:  storing, sorting and categorizing vast amounts of data. What if that data
+
+59
+00:04:47,405 --> 00:04:51,005
+Speaker 3:  could be my life? I wanted to get some perspective
+
+60
+00:04:51,185 --> 00:04:54,885
+Speaker 3:  on what it takes to actually pull this off. So I called up one of the people
+
+61
+00:04:54,895 --> 00:04:56,165
+Speaker 3:  who's been working on it the longest.
+
+62
+00:04:56,785 --> 00:04:59,805
+Speaker 7:  I'm Dan Roker, the co-founder and CEO of Limitless.
+
+63
+00:05:00,425 --> 00:05:04,125
+Speaker 3:  Here's Dan's story in a nutshell. He worked at Google out of school, then
+
+64
+00:05:04,125 --> 00:05:07,925
+Speaker 3:  started a company called Optimizely, which he sold in 2020 and
+
+65
+00:05:08,135 --> 00:05:11,925
+Speaker 3:  along the way he started to lose his hearing. The way he described it to
+
+66
+00:05:11,925 --> 00:05:15,765
+Speaker 3:  me, he had this really visceral experience the first time he tried on a
+
+67
+00:05:15,765 --> 00:05:19,685
+Speaker 3:  hearing aid, he told me it was like gaining a superpower and he started to
+
+68
+00:05:19,685 --> 00:05:22,965
+Speaker 3:  look for other ways to give himself and other people technological
+
+69
+00:05:23,035 --> 00:05:27,005
+Speaker 3:  superpowers like that. And he landed on memory. We
+
+70
+00:05:27,025 --> 00:05:30,885
+Speaker 3:  as Humans are terrible at remembering things. We forget things
+
+71
+00:05:30,915 --> 00:05:34,685
+Speaker 3:  over time. We forget things immediately because we just weren't paying attention
+
+72
+00:05:34,685 --> 00:05:38,245
+Speaker 3:  when we learned them. We remember things but misremember where they came
+
+73
+00:05:38,245 --> 00:05:41,965
+Speaker 3:  from. We remember things selectively because we come to everything with specific
+
+74
+00:05:41,965 --> 00:05:45,925
+Speaker 3:  biases. Some people have better memories than others, but nobody's memory
+
+75
+00:05:46,065 --> 00:05:49,645
+Speaker 3:  is perfect and Dan had this thought that maybe he could help fix that.
+
+76
+00:05:49,945 --> 00:05:50,165
+Speaker 3:  It
+
+77
+00:05:50,165 --> 00:05:52,525
+Speaker 7:  Started with this idea, well, if there's a hearing aid for hearing and glasses
+
+78
+00:05:52,665 --> 00:05:54,165
+Speaker 7:  for vision, what's the equivalent for memory?
+
+79
+00:05:54,705 --> 00:05:58,165
+Speaker 3:  The first version of Limitless was actually an app called Rewind, which you'd
+
+80
+00:05:58,165 --> 00:06:01,805
+Speaker 3:  install onto your Mac and it would immediately begin to capture audio
+
+81
+00:06:01,805 --> 00:06:05,365
+Speaker 3:  through your microphone and speakers and it would also take almost
+
+82
+00:06:05,805 --> 00:06:09,685
+Speaker 3:  constant screenshots of whatever you were doing on your screen. That basic
+
+83
+00:06:09,685 --> 00:06:12,845
+Speaker 3:  technology is pretty simple, right? Capture a bunch of audio, take a lot
+
+84
+00:06:12,845 --> 00:06:16,805
+Speaker 3:  of screenshots, and it gets you pretty far in terms of trying to figure
+
+85
+00:06:16,825 --> 00:06:20,645
+Speaker 3:  out what you're doing on your computer. The question then is what to do
+
+86
+00:06:20,715 --> 00:06:24,445
+Speaker 3:  with all of that? What does it actually mean to give someone a better memory
+
+87
+00:06:24,985 --> 00:06:27,645
+Speaker 3:  at the beginning? That was the big question for Rewind.
+
+88
+00:06:28,235 --> 00:06:31,845
+Speaker 7:  It's good to think about it as an analogy, like there are many things today
+
+89
+00:06:31,875 --> 00:06:35,165
+Speaker 7:  that you do not remember and you're very happy to have offloaded technology.
+
+90
+00:06:35,325 --> 00:06:37,805
+Speaker 7:  A good example is phone numbers, but probably, I'm not sure the last time
+
+91
+00:06:37,805 --> 00:06:40,485
+Speaker 7:  you had to type an actual phone number in your phone, pretty rare. Now you
+
+92
+00:06:40,485 --> 00:06:43,285
+Speaker 7:  just open up your phone and tap the person's name. There's a period of time
+
+93
+00:06:43,285 --> 00:06:45,525
+Speaker 7:  in my youth where I had to remember everyone's phone number and that's the
+
+94
+00:06:45,525 --> 00:06:48,765
+Speaker 7:  way I would call them. Similarly with getting from point A to point B. There
+
+95
+00:06:48,765 --> 00:06:51,925
+Speaker 7:  was a period of time in our life when we had to remember cross streets and
+
+96
+00:06:51,925 --> 00:06:55,005
+Speaker 7:  we had to remember how to navigate the world. Now we just tell the computer
+
+97
+00:06:55,005 --> 00:06:58,725
+Speaker 7:  this is where we wanna go and it gives us in time, real time the most
+
+98
+00:06:58,965 --> 00:07:02,565
+Speaker 7:  optimal route we can take. And like the memory of those things that sort
+
+99
+00:07:02,565 --> 00:07:06,285
+Speaker 7:  of, I'm using those as very basic examples. We don't miss at all. There are
+
+100
+00:07:06,285 --> 00:07:09,125
+Speaker 7:  other things in our lives that are like that that we don't even realize we're
+
+101
+00:07:09,125 --> 00:07:13,085
+Speaker 7:  forgetting because our memory is flawed. You know, a good example is how
+
+102
+00:07:13,085 --> 00:07:16,405
+Speaker 7:  I know a person or you know, that you know when you and I maybe reconnected
+
+103
+00:07:16,405 --> 00:07:19,765
+Speaker 7:  in a few months, how old was your, your young one? And you know those details
+
+104
+00:07:19,765 --> 00:07:23,485
+Speaker 7:  that actually help build connection and rapport make us feel more human to
+
+105
+00:07:23,485 --> 00:07:27,005
+Speaker 7:  one another. They may seem, you know, robotic to have your, your computer
+
+106
+00:07:27,285 --> 00:07:29,685
+Speaker 7:  remember before you, but they also create this amazing connection that if
+
+107
+00:07:29,925 --> 00:07:33,325
+Speaker 7:  you imagine, just imagine a world where if you had perfect memory, what you
+
+108
+00:07:33,325 --> 00:07:36,925
+Speaker 7:  could do both in terms of connection, in terms of productivity, in the same
+
+109
+00:07:36,925 --> 00:07:39,445
+Speaker 7:  way imagine, could you imagine if you wore glasses today or contact lenses,
+
+110
+00:07:39,445 --> 00:07:42,045
+Speaker 7:  could you imagine going a day without them? Like why would you live your
+
+111
+00:07:42,045 --> 00:07:45,005
+Speaker 7:  life blurry? And that same thing could be set of memory. Why would you live
+
+112
+00:07:45,005 --> 00:07:46,845
+Speaker 7:  your life with a blurry memory? That's
+
+113
+00:07:46,845 --> 00:07:50,005
+Speaker 3:  Such an interesting like philosophy question, right? Because I feel like
+
+114
+00:07:50,305 --> 00:07:54,045
+Speaker 3:  the way you think about that as opposed to something like hearing aids
+
+115
+00:07:54,145 --> 00:07:57,685
+Speaker 3:  is, is an interesting one because I think what you're saying is less kind
+
+116
+00:07:57,685 --> 00:08:01,645
+Speaker 3:  of let's solve for an issue that you're having, right? And and
+
+117
+00:08:01,645 --> 00:08:04,925
+Speaker 3:  kind of get something back to the level at which you had it or would like
+
+118
+00:08:04,925 --> 00:08:08,725
+Speaker 3:  it to be. and more saying like, how do we limitless pill this, right?
+
+119
+00:08:08,725 --> 00:08:11,645
+Speaker 3:  And it's like, what if instead of using 10% of your brain, you use a hundred
+
+120
+00:08:11,645 --> 00:08:14,085
+Speaker 3:  percent of your brain? And that's such an interesting, like what does it
+
+121
+00:08:14,085 --> 00:08:17,765
+Speaker 3:  mean to be a person when you have all of that stuff? It's like, have you
+
+122
+00:08:17,765 --> 00:08:20,645
+Speaker 3:  ever seen the, the reaction people have to like dating spreadsheets when
+
+123
+00:08:20,645 --> 00:08:24,485
+Speaker 3:  people have these, these really like intense databases with all
+
+124
+00:08:24,485 --> 00:08:27,525
+Speaker 3:  the people that are going out with, on the one hand makes total sense. But
+
+125
+00:08:27,525 --> 00:08:30,725
+Speaker 3:  on the other hand, I think it gives people this sort of like human ick in
+
+126
+00:08:30,725 --> 00:08:34,525
+Speaker 3:  a way that I've never really been able to describe. This is such a technological
+
+127
+00:08:34,885 --> 00:08:38,245
+Speaker 3:  question we're having to reckon with right now in so many ways that it's
+
+128
+00:08:38,245 --> 00:08:42,165
+Speaker 3:  like, if all of this stuff is just available to me, how do I
+
+129
+00:08:42,185 --> 00:08:46,005
+Speaker 3:  use it in a way that makes it still feel like me and feel human
+
+130
+00:08:46,025 --> 00:08:49,725
+Speaker 3:  and feel honest and feel real? And I don't know, it's not even really a question,
+
+131
+00:08:49,725 --> 00:08:53,085
+Speaker 3:  it's just, it just opens up these really complicated like philosophical
+
+132
+00:08:53,255 --> 00:08:56,365
+Speaker 3:  wanderings in a way that so much AI stuff does right now for me.
+
+133
+00:08:56,715 --> 00:09:00,365
+Speaker 7:  Yeah, I, I often imagine how will the future think of us today?
+
+134
+00:09:00,865 --> 00:09:04,645
+Speaker 7:  And one way to think about that question is to think about how we think about
+
+135
+00:09:04,665 --> 00:09:08,525
+Speaker 7:  people 50 or a hundred or 150 years ago and that feeling, you described that
+
+136
+00:09:08,805 --> 00:09:11,685
+Speaker 7:  ick of using computers to do a thing that you thought should just be, wanna
+
+137
+00:09:11,685 --> 00:09:15,405
+Speaker 7:  just go to a bar and meet somebody that ick actually in hindsight
+
+138
+00:09:15,415 --> 00:09:18,605
+Speaker 7:  seems silly. You know? It's like the same way that people had an ick toward
+
+139
+00:09:18,605 --> 00:09:21,805
+Speaker 7:  cars. Well I love my horse and they had an ick toward telephones. You know,
+
+140
+00:09:21,875 --> 00:09:25,365
+Speaker 7:  that feeling of newness, of novelty of difference.
+
+141
+00:09:25,545 --> 00:09:28,845
+Speaker 7:  People just as human beings are not wired well to respond to change. We are
+
+142
+00:09:28,845 --> 00:09:32,485
+Speaker 7:  just not, there are some people who are very excited about new, they buy
+
+143
+00:09:32,485 --> 00:09:34,805
+Speaker 7:  the newest gadget. I'm one of them. Like no matter what it is, no matter
+
+144
+00:09:34,805 --> 00:09:37,925
+Speaker 7:  how bad it is, just that it's new, it's good enough for me. There's others
+
+145
+00:09:37,945 --> 00:09:40,845
+Speaker 7:  for that would be the worst way to live life. They just wanna, they, they're
+
+146
+00:09:40,845 --> 00:09:43,525
+Speaker 7:  happy with the way things are and the world is changing faster than they
+
+147
+00:09:43,525 --> 00:09:46,245
+Speaker 7:  would like and it's changing faster than ever. And you know, the way I think
+
+148
+00:09:46,245 --> 00:09:49,605
+Speaker 7:  about it is five 50, a hundred years from now, people look back at today
+
+149
+00:09:49,905 --> 00:09:53,685
+Speaker 7:  and be shocked that we accepted the lives that we live, that we would forget
+
+150
+00:09:53,685 --> 00:09:56,885
+Speaker 7:  90% of what happens after a week. And that we thought that was okay. Sure,
+
+151
+00:09:56,885 --> 00:10:00,805
+Speaker 7:  yeah. This, this brilliant device that we have of our mind that is so precious,
+
+152
+00:10:00,995 --> 00:10:04,525
+Speaker 7:  this incredible machine. We just let it forget things and that's okay. No
+
+153
+00:10:04,525 --> 00:10:07,565
+Speaker 7:  big deal. That's just life. I think people will, will, will laugh at that.
+
+154
+00:10:07,565 --> 00:10:10,125
+Speaker 7:  You know, my grandkids will ask me, really Daddy, you just went through life
+
+155
+00:10:10,125 --> 00:10:11,725
+Speaker 7:  forgetting most of it and that was okay with you.
+
+156
+00:10:12,485 --> 00:10:15,845
+Speaker 3:  I don't know that I buy that theory of the future completely for whatever
+
+157
+00:10:15,845 --> 00:10:19,685
+Speaker 3:  it's worth, but it is a theory that I hear a lot in talking to AI
+
+158
+00:10:19,685 --> 00:10:23,645
+Speaker 3:  people. And it's largely true over time that as we found more ways
+
+159
+00:10:23,645 --> 00:10:27,445
+Speaker 3:  to augment our own capabilities, things have gotten better. I mean, look,
+
+160
+00:10:27,635 --> 00:10:31,525
+Speaker 3:  what is a computer, if not a way to just do math faster than writing it down
+
+161
+00:10:31,525 --> 00:10:35,485
+Speaker 3:  on paper, right? Offloading things that we don't do well to
+
+162
+00:10:35,485 --> 00:10:39,085
+Speaker 3:  technology that does do it well tends to be a pretty good
+
+163
+00:10:39,085 --> 00:10:42,805
+Speaker 3:  outcome in a lot of ways. We have to take a really quick break and then we're
+
+164
+00:10:42,805 --> 00:10:46,605
+Speaker 3:  gonna talk about what an app actually does when it tries to give you a better
+
+165
+00:10:46,605 --> 00:10:47,965
+Speaker 3:  memory. We'll be right back.
+
+166
+00:12:51,005 --> 00:12:54,245
+Speaker 7:  a problem that our users described. They love the idea of comprehensiveness,
+
+167
+00:12:54,245 --> 00:12:57,045
+Speaker 7:  they really wanted to capture more of their lives, not just these, you know,
+
+168
+00:12:57,045 --> 00:13:00,805
+Speaker 7:  zoom meetings they're having. And that led us to ideate around
+
+169
+00:13:00,865 --> 00:13:04,165
+Speaker 7:  how do you capture more than just meetings? And around that time the enabling
+
+170
+00:13:04,165 --> 00:13:08,045
+Speaker 7:  technology of Apple, silicon came around. Apple M1 came a chip
+
+171
+00:13:08,045 --> 00:13:11,565
+Speaker 7:  that allowed you to do a lot more things locally to offload a lot of the
+
+172
+00:13:11,565 --> 00:13:14,165
+Speaker 7:  things that would otherwise have to be done in the cloud. And that's when
+
+173
+00:13:14,165 --> 00:13:18,045
+Speaker 7:  we moved from Scribe was meeting bot to rewind the the Mac app. That
+
+174
+00:13:18,045 --> 00:13:21,965
+Speaker 7:  was again long before chat G-P-T-G-P-T 3 0 3 3 5, which is the model
+
+175
+00:13:21,965 --> 00:13:25,205
+Speaker 7:  that powered it. And I actually say we got more lucky than good there where
+
+176
+00:13:25,385 --> 00:13:29,045
+Speaker 7:  the data that we were actually already capturing with rewind just really
+
+177
+00:13:29,145 --> 00:13:32,725
+Speaker 7:  lended itself well to rag retrieve augmented generation. Like the ability
+
+178
+00:13:32,785 --> 00:13:36,245
+Speaker 7:  to use that data, you know, to ask a model like
+
+179
+00:13:36,365 --> 00:13:39,765
+Speaker 7:  GPT-3 five or four or four, oh now if you ask it to draft me an email to
+
+180
+00:13:39,765 --> 00:13:42,525
+Speaker 7:  Sam Altman, if you just ask it today without any context it doesn't okay
+
+181
+00:13:42,525 --> 00:13:45,205
+Speaker 7:  job and knows who Sam is, is certainly doesn't know who I am and doesn't
+
+182
+00:13:45,205 --> 00:13:48,685
+Speaker 7:  know our relationship. But if you augment it with the context of our relationship,
+
+183
+00:13:48,705 --> 00:13:51,485
+Speaker 7:  the fact that he invested four years ago and that you know, he, you know,
+
+184
+00:13:51,485 --> 00:13:55,205
+Speaker 7:  we've been working tirelessly in this migration revolution to limitless
+
+185
+00:13:55,465 --> 00:13:58,245
+Speaker 7:  all of that context. You provide a large change model, it drafts a perfect
+
+186
+00:13:58,245 --> 00:14:01,885
+Speaker 7:  email. In fact, an email I sent to Sam that an AI could have
+
+187
+00:14:01,885 --> 00:14:05,365
+Speaker 7:  drafted were great and we met and we connected. So like these things that,
+
+188
+00:14:05,365 --> 00:14:08,605
+Speaker 7:  you know, otherwise you have a blank piece of paper can easily be made easier
+
+189
+00:14:08,825 --> 00:14:11,565
+Speaker 7:  by having AI augmented with your context of your past.
+
+190
+00:14:11,995 --> 00:14:15,805
+Speaker 3:  What would you have done had this not happened? Like in this sort of
+
+191
+00:14:16,045 --> 00:14:19,565
+Speaker 3:  parallel universe where like chat GPT doesn't happen and we don't get this
+
+192
+00:14:19,755 --> 00:14:23,285
+Speaker 3:  kind of incredible run of stuff we've been on the last few years. It doesn't
+
+193
+00:14:23,285 --> 00:14:26,045
+Speaker 3:  sound like you were counting on that. You weren't saying like, we're gonna
+
+194
+00:14:26,105 --> 00:14:30,045
+Speaker 3:  bet on this foundational technology to be the thing. What is parallel universe
+
+195
+00:14:30,185 --> 00:14:32,685
+Speaker 3:  Dan building to make that stuff work? Yeah,
+
+196
+00:14:32,725 --> 00:14:35,245
+Speaker 7:  I would've been doing more of the same. I mean I would have, it was already
+
+197
+00:14:35,565 --> 00:14:38,285
+Speaker 7:  valuable enough to do search over the things you've seen, said or heard in
+
+198
+00:14:38,285 --> 00:14:42,125
+Speaker 7:  the past. The large things model just makes that search more useful
+
+199
+00:14:42,145 --> 00:14:45,965
+Speaker 7:  and more actionable and more, it sort of takes that, you know, the task you
+
+200
+00:14:45,965 --> 00:14:48,365
+Speaker 7:  would've had to do. Like lemme search through all my emails with Sam, now
+
+201
+00:14:48,365 --> 00:14:50,525
+Speaker 7:  we figure out, okay, when did we meet who introduced us instead of doing
+
+202
+00:14:50,525 --> 00:14:53,925
+Speaker 7:  that manual task, now you do it in an automatic way. And so it just, you
+
+203
+00:14:53,925 --> 00:14:56,845
+Speaker 7:  know, made me analogy to draws like before, you know, we were on this evolution
+
+204
+00:14:56,845 --> 00:15:00,605
+Speaker 7:  from horse and buggies to self-driving cars. Our evolution before
+
+205
+00:15:00,605 --> 00:15:03,885
+Speaker 7:  chat GBT was maybe we added a car with manual transmission way better than
+
+206
+00:15:04,005 --> 00:15:07,885
+Speaker 7:  a horse and buggy. But what chat GBT and the underlying API that we use
+
+207
+00:15:07,905 --> 00:15:10,645
+Speaker 7:  but enabled us to do is go to automatic transmission. So we're not quite
+
+208
+00:15:10,645 --> 00:15:13,965
+Speaker 7:  at self-driving cars. We're the, you know, autonomous AI simulations of your
+
+209
+00:15:13,965 --> 00:15:17,405
+Speaker 7:  mind doing things for you. Yeah. But we are able to actually save you time
+
+210
+00:15:17,505 --> 00:15:21,285
+Speaker 7:  and give you a lot of value through this sort of evolution. So that's what
+
+211
+00:15:21,285 --> 00:15:24,125
+Speaker 7:  we would've been doing. And by the way, now our focus is basically just banking
+
+212
+00:15:24,125 --> 00:15:26,965
+Speaker 7:  on the models, getting better. Like everything we do is under the premise
+
+213
+00:15:27,025 --> 00:15:29,445
+Speaker 7:  of just like the models are gonna get better. So like just, just collect
+
+214
+00:15:29,445 --> 00:15:33,325
+Speaker 7:  all the data in the best possible way to ride that wave. So our mindset has
+
+215
+00:15:33,325 --> 00:15:35,725
+Speaker 7:  definitely shifted. We're not sort of doggedly just pursuing what we've done
+
+216
+00:15:35,725 --> 00:15:39,525
+Speaker 7:  before. Now we realize, okay, there's this amazing wave of change where these
+
+217
+00:15:39,525 --> 00:15:42,285
+Speaker 7:  models are just gonna get better and better and ably, why not just ride that
+
+218
+00:15:42,285 --> 00:15:44,725
+Speaker 7:  wave and build a product that just gets better on its own, gets cheaper,
+
+219
+00:15:44,745 --> 00:15:47,045
+Speaker 7:  it gets better on its own as the model get better.
+
+220
+00:15:47,745 --> 00:15:51,525
+Speaker 3:  The car analogy there is a little messy, but it's an interesting way to think
+
+221
+00:15:51,525 --> 00:15:55,365
+Speaker 3:  about where we are with ai. We spent two decades or so with
+
+222
+00:15:55,365 --> 00:15:59,245
+Speaker 3:  products like Google and Facebook, which built very smart and sophisticated
+
+223
+00:15:59,245 --> 00:16:03,045
+Speaker 3:  systems for looking at a huge amount of stuff and ranking it a million
+
+224
+00:16:03,045 --> 00:16:06,725
+Speaker 3:  different ways. Those systems are by and large very good,
+
+225
+00:16:07,145 --> 00:16:10,965
+Speaker 3:  but the promise of AI is that it can take all that stuff and actually come
+
+226
+00:16:10,965 --> 00:16:14,525
+Speaker 3:  to understand it. Not just find you the thing you're looking for by putting
+
+227
+00:16:14,525 --> 00:16:18,045
+Speaker 3:  it at the top of the list, but by finding the perfect thing that you're not
+
+228
+00:16:18,045 --> 00:16:21,965
+Speaker 3:  looking for or by using everything that you already know to help you do
+
+229
+00:16:22,065 --> 00:16:25,765
+Speaker 3:  the next thing. We don't need AI to do Google searches.
+
+230
+00:16:25,985 --> 00:16:29,685
+Speaker 3:  We really don't even, Google is currently showing us how much we don't need
+
+231
+00:16:29,865 --> 00:16:33,845
+Speaker 3:  AI as it tries to put more AI into Google search. But if all
+
+232
+00:16:33,845 --> 00:16:37,365
+Speaker 3:  the AI boosters are right, we can use AI to not just
+
+233
+00:16:37,555 --> 00:16:41,525
+Speaker 3:  find things but build new things on top of them in a
+
+234
+00:16:41,645 --> 00:16:45,405
+Speaker 3:  personal context that brings up the central problem with all of these AI
+
+235
+00:16:45,405 --> 00:16:49,045
+Speaker 3:  systems. In order for an app like Rewind to know everything about you,
+
+236
+00:16:49,585 --> 00:16:53,365
+Speaker 3:  it needs to know everything about you. Do you want your computer
+
+237
+00:16:53,505 --> 00:16:56,965
+Speaker 3:  to store and save everything you do everything you click on all the words
+
+238
+00:16:56,965 --> 00:16:59,885
+Speaker 3:  you type, all the tiktoks, you scroll through all the pictures, you look
+
+239
+00:16:59,885 --> 00:17:03,805
+Speaker 3:  at every single thing that you do while you're at your computer.
+
+240
+00:17:04,225 --> 00:17:07,645
+Speaker 3:  Forget about the data security risks behind that for a second.
+
+241
+00:17:07,995 --> 00:17:11,685
+Speaker 3:  Just like as a human, how does it feel to know that all of that
+
+242
+00:17:11,735 --> 00:17:15,685
+Speaker 3:  stuff is being recorded and stored in perpetuity? And how
+
+243
+00:17:15,825 --> 00:17:19,765
+Speaker 3:  useful does your computer need to become, what does it need to do with
+
+244
+00:17:19,765 --> 00:17:23,645
+Speaker 3:  that data in order for it to be worth the trade? Dan has been
+
+245
+00:17:23,645 --> 00:17:27,365
+Speaker 3:  thinking about this for a long time and he calls it the personalized AI
+
+246
+00:17:27,365 --> 00:17:28,405
+Speaker 3:  privacy paradox.
+
+247
+00:17:28,865 --> 00:17:32,725
+Speaker 7:  And it goes something like this, in order to build a more useful personalized
+
+248
+00:17:32,945 --> 00:17:36,925
+Speaker 7:  ai, you want more context recorded but that raises more
+
+249
+00:17:36,925 --> 00:17:40,565
+Speaker 7:  privacy concerns, which requires more need for data protection, which makes
+
+250
+00:17:40,565 --> 00:17:44,365
+Speaker 7:  it harder to build a more personalized ai. So the desire of a personalized
+
+251
+00:17:44,505 --> 00:17:47,405
+Speaker 7:  ai, you know, part of it is this, okay, we wanna collect more things because
+
+252
+00:17:47,405 --> 00:17:50,365
+Speaker 7:  that context is gonna be useful, but inexorably you go down this path and
+
+253
+00:17:50,425 --> 00:17:53,605
+Speaker 7:  at some point that's gonna make the original goal harder to do. Then You
+
+254
+00:17:53,605 --> 00:17:56,165
+Speaker 7:  can see this paradox playing out in the world in, in two very different ways
+
+255
+00:17:56,165 --> 00:17:59,205
+Speaker 7:  with Microsoft, you know, they were pretty cavalier on privacy when they,
+
+256
+00:17:59,205 --> 00:18:02,765
+Speaker 7:  they launched Windows recall, lots of things to say on that, but let's say
+
+257
+00:18:02,765 --> 00:18:04,925
+Speaker 7:  they launched a product called Windows Recall, which looked very familiar,
+
+258
+00:18:05,605 --> 00:18:09,125
+Speaker 7:  but they took a very, very cavalier approach to privacy and that really
+
+259
+00:18:09,315 --> 00:18:13,285
+Speaker 7:  hurt them. On the flip side, apple intelligence seems to respect
+
+260
+00:18:13,285 --> 00:18:16,165
+Speaker 7:  privacy, but it actually is limiting what Apple can actually do in terms
+
+261
+00:18:16,165 --> 00:18:19,285
+Speaker 7:  of usefulness. So they're kind of on this both sides of this paradox. We've
+
+262
+00:18:19,405 --> 00:18:22,165
+Speaker 7:  actually made many mistakes in this space. I think the most recent evolution
+
+263
+00:18:22,345 --> 00:18:26,285
+Speaker 7:  of our thinking has really set us up well for the future. But
+
+264
+00:18:26,285 --> 00:18:28,325
+Speaker 7:  it's not obvious, it's not straightforward. It's one of those things you
+
+265
+00:18:28,325 --> 00:18:30,765
+Speaker 7:  have to kind of, you're, you're like tight roping between landmines, you
+
+266
+00:18:30,765 --> 00:18:34,445
+Speaker 7:  know, you're trying to find the right path that that respects privacy and
+
+267
+00:18:34,445 --> 00:18:37,125
+Speaker 7:  doesn't make it a choice between privacy and convenience at the same time.
+
+268
+00:18:37,125 --> 00:18:40,005
+Speaker 7:  Makes the product useful enough because you're able to use the data in a
+
+269
+00:18:40,005 --> 00:18:41,165
+Speaker 7:  way to offer a personalized ai.
+
+270
+00:18:41,605 --> 00:18:44,565
+Speaker 3:  I agree with that, but then you have to put that in front of users, right?
+
+271
+00:18:44,585 --> 00:18:48,445
+Speaker 3:  And I think even there's something about the idea of just like, here
+
+272
+00:18:48,625 --> 00:18:52,605
+Speaker 3:  is an app that shows a timeline of every webpage I've ever
+
+273
+00:18:52,605 --> 00:18:56,365
+Speaker 3:  been to feels instinctively weird to some people,
+
+274
+00:18:56,365 --> 00:18:58,965
+Speaker 3:  right? And I think it's, it's been very funny watching a lot of this because
+
+275
+00:18:58,995 --> 00:19:02,245
+Speaker 3:  like yeah, of course your browser knows all the webpages you've been to,
+
+276
+00:19:02,275 --> 00:19:06,205
+Speaker 3:  like that's your, it's your web. Like yes, that's how it works. But I think
+
+277
+00:19:06,405 --> 00:19:10,045
+Speaker 3:  a lot of what has been happening in these recent months is people
+
+278
+00:19:10,265 --> 00:19:13,725
+Speaker 3:  are slowly starting to understand kind of how much
+
+279
+00:19:14,115 --> 00:19:17,525
+Speaker 3:  awareness their technology has of what they're doing with it in a way that
+
+280
+00:19:17,525 --> 00:19:20,725
+Speaker 3:  everybody probably should have had before but didn't. And I feel like what,
+
+281
+00:19:20,725 --> 00:19:24,245
+Speaker 3:  what you did, especially with rewind in the early days, is like really speed
+
+282
+00:19:24,245 --> 00:19:27,805
+Speaker 3:  that process up, right? You're like, you're like, this app knows everything
+
+283
+00:19:27,805 --> 00:19:31,685
+Speaker 3:  and it's actually its job to know everything. And I wonder if to
+
+284
+00:19:31,685 --> 00:19:34,125
+Speaker 3:  some extent it, it helps because it's like a thing you have to download.
+
+285
+00:19:34,125 --> 00:19:36,525
+Speaker 3:  So by definition you're gonna get people who are more comfortable with it
+
+286
+00:19:36,525 --> 00:19:39,405
+Speaker 3:  rather than like building it into the operating system. But you have to do
+
+287
+00:19:39,405 --> 00:19:42,645
+Speaker 3:  this thing I I would think right away where you're like, okay, this is asking
+
+288
+00:19:42,845 --> 00:19:46,645
+Speaker 3:  a lot, it's going to know a lot about you. I have to sort of immediately
+
+289
+00:19:46,645 --> 00:19:50,405
+Speaker 3:  telegraph to you why it's worth it. And, and and I feel like that's a, that's
+
+290
+00:19:50,405 --> 00:19:52,565
+Speaker 3:  a pretty big hurdle to clear right away.
+
+291
+00:19:52,955 --> 00:19:56,845
+Speaker 7:  Yeah, I think we certainly paved the way there, but I wouldn't say we
+
+292
+00:19:56,985 --> 00:20:00,805
+Speaker 7:  didn't make any mistakes. I think showing a timeline of
+
+293
+00:20:00,805 --> 00:20:04,405
+Speaker 7:  everything you've seen is interesting. It's a cool party trick. Like it helps
+
+294
+00:20:04,425 --> 00:20:07,445
+Speaker 7:  create, you know, this magical moment of like, wow, I didn't realize I could.
+
+295
+00:20:07,445 --> 00:20:10,325
+Speaker 7:  And the people love that and that's partly why we named the first product
+
+296
+00:20:10,505 --> 00:20:14,365
+Speaker 7:  in this space. Rewind. But if, if I really had to be honest, like people
+
+297
+00:20:14,365 --> 00:20:17,005
+Speaker 7:  don't care about technology. They just care about their problems being solved.
+
+298
+00:20:17,105 --> 00:20:20,845
+Speaker 7:  The technology is the means to the end and this was too much of a cool, let's
+
+299
+00:20:20,845 --> 00:20:24,485
+Speaker 7:  see what the technology can do part of the product unless here's the
+
+300
+00:20:24,485 --> 00:20:27,845
+Speaker 7:  problem we're trying to solve for you. So I do think the right user experience
+
+301
+00:20:27,845 --> 00:20:31,645
+Speaker 7:  around personalized AI is to be very opinionated on the use cases. What is
+
+302
+00:20:31,645 --> 00:20:34,325
+Speaker 7:  it the problem? What are the problems in your life every day that we're trying
+
+303
+00:20:34,325 --> 00:20:37,765
+Speaker 7:  to solve for you? How do we give you time back? How do we make it so that
+
+304
+00:20:37,765 --> 00:20:41,285
+Speaker 7:  you're in time for dinner with your young kids at night? Those, those are
+
+305
+00:20:41,285 --> 00:20:44,045
+Speaker 7:  the kinds of problems people care about the technology and how sophisticated
+
+306
+00:20:44,045 --> 00:20:47,405
+Speaker 7:  is they could care less like that data, you know, the the architecture, you
+
+307
+00:20:47,405 --> 00:20:50,165
+Speaker 7:  know that it's important to us 'cause it's, it, it's, it's how we build a
+
+308
+00:20:50,165 --> 00:20:53,805
+Speaker 7:  product but to a user that's just implementation detail. So I do think
+
+309
+00:20:53,805 --> 00:20:56,725
+Speaker 7:  Limitless does a much better job of this. This is why we've kind of evolved
+
+310
+00:20:56,745 --> 00:21:00,365
+Speaker 7:  and even partly reason renamed the product because the core experience of
+
+311
+00:21:00,365 --> 00:21:04,085
+Speaker 7:  rewinding time isn't the core thing people want the job to be done is
+
+312
+00:21:04,215 --> 00:21:07,685
+Speaker 7:  gimme back more time, make me more productive, take things off my plate,
+
+313
+00:21:07,685 --> 00:21:10,405
+Speaker 7:  what are things I do every day that frankly I just don't need to do. And
+
+314
+00:21:10,405 --> 00:21:14,325
+Speaker 7:  a machine can do a better job of be more reliable and just gimme
+
+315
+00:21:14,325 --> 00:21:17,125
+Speaker 7:  back more time so I can do the things that I'm uniquely well suited to do.
+
+316
+00:21:17,145 --> 00:21:19,725
+Speaker 7:  So those are the kinds of things that, and the kinds of experiences that
+
+317
+00:21:19,725 --> 00:21:22,925
+Speaker 7:  I think will ultimately win in this world of personalized ai.
+
+318
+00:21:23,155 --> 00:21:27,085
+Speaker 3:  What are some of those things that you identified early on as solutions
+
+319
+00:21:27,305 --> 00:21:28,845
+Speaker 3:  to those problems that you're describing?
+
+320
+00:21:29,075 --> 00:21:32,965
+Speaker 7:  Yeah, I mean big one is a blank piece of paper. Very often as knowledge
+
+321
+00:21:32,965 --> 00:21:36,485
+Speaker 7:  workers you start with a blank piece of paper. Maybe it's a, an article you're
+
+322
+00:21:36,485 --> 00:21:39,205
+Speaker 7:  writing or an email you're sending or even a simple text message you're sending
+
+323
+00:21:39,205 --> 00:21:42,925
+Speaker 7:  to somebody. You know, it's writer's block is a, a big version of this problem.
+
+324
+00:21:42,945 --> 00:21:46,405
+Speaker 7:  But it's this idea that starting from zero is much harder. And part of what
+
+325
+00:21:46,405 --> 00:21:49,525
+Speaker 7:  a machine can do uniquely well is capture the context you might want when
+
+326
+00:21:49,525 --> 00:21:52,485
+Speaker 7:  you're starting from zero. A good example is drafting emails. You know, I
+
+327
+00:21:52,485 --> 00:21:55,285
+Speaker 7:  gave you an example of sort of drafting emails, Sam Altman, you know, starting
+
+328
+00:21:55,285 --> 00:21:58,405
+Speaker 7:  from scratch is a much, you know, why spend all that time and energy when
+
+329
+00:21:58,445 --> 00:22:01,565
+Speaker 7:  a machine can surface to you perfectly. The thing you might need and want
+
+330
+00:22:01,565 --> 00:22:04,485
+Speaker 7:  You can, a way You can think about is auto complete for your life. Why are,
+
+331
+00:22:04,505 --> 00:22:08,125
+Speaker 7:  why do so many times? You have to start with a, you know, empty line and
+
+332
+00:22:08,445 --> 00:22:11,525
+Speaker 7:  where a machine can and provide an option. It doesn't do it autonomously,
+
+333
+00:22:11,525 --> 00:22:15,005
+Speaker 7:  it just rides a draft. Something You can edit and tweak and change and delete.
+
+334
+00:22:15,185 --> 00:22:18,285
+Speaker 7:  That's like a perfect win between, you know, like I said before, a horse
+
+335
+00:22:18,285 --> 00:22:20,765
+Speaker 7:  and buggy and self-driving cars, you know, there's gonna be a day when AI
+
+336
+00:22:20,765 --> 00:22:23,765
+Speaker 7:  can do things autonomously. We trust it, it can book you a trip for you and
+
+337
+00:22:23,765 --> 00:22:26,285
+Speaker 7:  your wife to Italy in three months and you know it'll put the right seat
+
+338
+00:22:26,285 --> 00:22:29,365
+Speaker 7:  and everything right now the use cases I think the AI is well suited for
+
+339
+00:22:29,385 --> 00:22:32,605
+Speaker 7:  are these semi-autonomous use cases. Things like drafting notes. So that's
+
+340
+00:22:32,605 --> 00:22:35,445
+Speaker 7:  just one, I mean know there's many, many others. Is that memory though it,
+
+341
+00:22:35,505 --> 00:22:38,965
+Speaker 7:  it is in the sense that the things that, the context that's useful for those
+
+342
+00:22:39,115 --> 00:22:42,965
+Speaker 7:  moments are memories. They're things from your past, they're details around
+
+343
+00:22:43,035 --> 00:22:46,245
+Speaker 7:  your last conversation. If you think about this idea that we forget 90% of
+
+344
+00:22:46,245 --> 00:22:48,925
+Speaker 7:  what happens after week, you have a team, weekly team meeting. Many folks
+
+345
+00:22:49,205 --> 00:22:51,445
+Speaker 7:  probably listen to this, have a weekly team meeting with their team at work
+
+346
+00:22:51,545 --> 00:22:54,085
+Speaker 7:  and maybe it's an hour long meeting at best that people remember six minutes
+
+347
+00:22:54,085 --> 00:22:57,485
+Speaker 7:  of that last meeting. So, you know, simple things like following up with
+
+348
+00:22:57,485 --> 00:23:00,165
+Speaker 7:  a context of what was said in that decision in the last meeting, the set
+
+349
+00:23:00,165 --> 00:23:03,765
+Speaker 7:  of decisions, those kinds of use cases, meeting summaries, preparing you
+
+350
+00:23:03,765 --> 00:23:06,605
+Speaker 7:  for meetings, you know, live notes during meetings. All of these things are
+
+351
+00:23:06,605 --> 00:23:10,085
+Speaker 7:  incredibly well great sort of use cases that personalized AI can help you
+
+352
+00:23:10,085 --> 00:23:11,005
+Speaker 7:  solve. It seems to
+
+353
+00:23:11,005 --> 00:23:13,365
+Speaker 3:  Me there's almost two different things going on there. 'cause on the one
+
+354
+00:23:13,365 --> 00:23:15,845
+Speaker 3:  hand there's the thing that's like, okay, I'm gonna make it easier for you
+
+355
+00:23:15,845 --> 00:23:19,525
+Speaker 3:  to remember at least all the important bits of your
+
+356
+00:23:19,665 --> 00:23:23,285
+Speaker 3:  one hour long meeting last week, right? So that when you go to your next
+
+357
+00:23:23,285 --> 00:23:26,125
+Speaker 3:  meeting You can, You can very quickly call up all the things you talked about
+
+358
+00:23:26,125 --> 00:23:29,765
+Speaker 3:  last week. That is, I feel like I think a lot of AI companies are pursuing
+
+359
+00:23:29,765 --> 00:23:32,965
+Speaker 3:  right? This like take a bunch of notes or we'll take the notes for you. Yeah.
+
+360
+00:23:32,965 --> 00:23:36,325
+Speaker 3:  And then we're gonna give you sort of quick recall of those notes. But I
+
+361
+00:23:36,325 --> 00:23:40,285
+Speaker 3:  feel like you're also describing kind of a full step beyond that, which
+
+362
+00:23:40,285 --> 00:23:43,925
+Speaker 3:  is just instead of helping you sort of
+
+363
+00:23:44,245 --> 00:23:47,085
+Speaker 3:  actively remember something, we're going to use all the things that you forgot
+
+364
+00:23:47,305 --> 00:23:49,165
+Speaker 3:  to help you do new things. Yes.
+
+365
+00:23:49,415 --> 00:23:49,765
+Speaker 7:  Those
+
+366
+00:23:49,765 --> 00:23:51,445
+Speaker 3:  Feel like two different things to me. They,
+
+367
+00:23:51,445 --> 00:23:54,405
+Speaker 7:  They are two different things, but the analogy, the analogy I draws go back
+
+368
+00:23:54,425 --> 00:23:58,365
+Speaker 7:  to GPS or go back to phone numbers, like remembering somebody's
+
+369
+00:23:58,365 --> 00:24:00,725
+Speaker 7:  phone number was the means to the end of a conversation with that person.
+
+370
+00:24:01,065 --> 00:24:03,245
+Speaker 7:  If you don't have to remember the phone number and just go straight to the
+
+371
+00:24:03,245 --> 00:24:06,165
+Speaker 7:  conversation, that's a win. Understanding cross streets, that was the means
+
+372
+00:24:06,165 --> 00:24:08,205
+Speaker 7:  to the end of getting to someplace else. If You can just get to that other
+
+373
+00:24:08,205 --> 00:24:10,485
+Speaker 7:  place without having to think about it, that's the means to the end. When
+
+374
+00:24:10,485 --> 00:24:14,205
+Speaker 7:  people think about when, when, when we're solving memory and trying to help
+
+375
+00:24:14,205 --> 00:24:16,805
+Speaker 7:  you capture memories, it's not about the, the sheer fact that you have those
+
+376
+00:24:17,005 --> 00:24:19,845
+Speaker 7:  memories and it's a nice thing to clutch onto. It's the the goal of trying
+
+377
+00:24:19,845 --> 00:24:22,325
+Speaker 7:  to solve a problem for you, like drafting you an email to somebody using
+
+378
+00:24:22,325 --> 00:24:25,125
+Speaker 7:  the context of your relationship. So those are all the means to the end.
+
+379
+00:24:25,125 --> 00:24:27,645
+Speaker 7:  The ends are the things we focus on. What are the problems we can solve for
+
+380
+00:24:27,645 --> 00:24:30,405
+Speaker 7:  you? What are the things we can take off your plate that AI can do well and
+
+381
+00:24:30,405 --> 00:24:33,645
+Speaker 7:  the data and the capture that we capture in your memories is the means to
+
+382
+00:24:33,645 --> 00:24:33,925
+Speaker 7:  that end.
+
+383
+00:24:34,385 --> 00:24:38,165
+Speaker 3:  Do you think there's value in the means there? I think, you know, you mentioned
+
+384
+00:24:38,165 --> 00:24:41,565
+Speaker 3:  people don't actually spend a lot of time like scrubbing back through their
+
+385
+00:24:41,565 --> 00:24:45,285
+Speaker 3:  old stuff, but I think about like the, the whole sort of journaling community,
+
+386
+00:24:45,285 --> 00:24:48,685
+Speaker 3:  right? There's this real belief that like having these artifacts and reviewing
+
+387
+00:24:48,685 --> 00:24:51,765
+Speaker 3:  them periodically and and having them come back to you is there's, there's
+
+388
+00:24:51,765 --> 00:24:55,725
+Speaker 3:  real value in just the process of revisiting the past. Do
+
+389
+00:24:55,725 --> 00:24:57,085
+Speaker 3:  you think that matters in this context?
+
+390
+00:24:57,435 --> 00:25:00,565
+Speaker 7:  Yeah, I do. I do. I think that's just one of the many use cases. Like I think
+
+391
+00:25:00,565 --> 00:25:03,845
+Speaker 7:  many people can get value from limitless without doing any of that and then
+
+392
+00:25:03,845 --> 00:25:07,005
+Speaker 7:  others will also get additional value. A great example is getting insights
+
+393
+00:25:07,005 --> 00:25:10,605
+Speaker 7:  into your life. You know, when during the day are you the most excited? You
+
+394
+00:25:10,605 --> 00:25:13,285
+Speaker 7:  know, who in your life gives you energy? Who in your life drains energy?
+
+395
+00:25:13,285 --> 00:25:16,045
+Speaker 7:  Looking back at the conversations you have with people or is a great way
+
+396
+00:25:16,045 --> 00:25:19,285
+Speaker 7:  to answer those questions. You know, how many times are you interrupting
+
+397
+00:25:19,285 --> 00:25:22,165
+Speaker 7:  people? How many filler words are you using? When are you using them? You
+
+398
+00:25:22,165 --> 00:25:25,405
+Speaker 7:  know, all these things are sort of introspective, quantitative, self You
+
+399
+00:25:25,405 --> 00:25:28,365
+Speaker 7:  can think about, you know, sleep fitness, you know, eight sleep has sort
+
+400
+00:25:28,365 --> 00:25:31,245
+Speaker 7:  of introduce this whole concept of of sleep fitness. But there's a whole
+
+401
+00:25:31,305 --> 00:25:34,485
+Speaker 7:  set of that which is kind of mind fitness. Like how do I show up in the world
+
+402
+00:25:34,595 --> 00:25:38,445
+Speaker 7:  through my conversations I can get a window into and how do I improve
+
+403
+00:25:38,445 --> 00:25:41,765
+Speaker 7:  and how to get better. So I absolutely believe in that. I don't know if it
+
+404
+00:25:41,765 --> 00:25:43,845
+Speaker 7:  means you have to literally read every word. I think there's things again
+
+405
+00:25:43,945 --> 00:25:47,125
+Speaker 7:  AI can do well there in that space to help you reflect and improve based
+
+406
+00:25:47,125 --> 00:25:50,445
+Speaker 7:  off of your past. But that that's all just one example of all the things
+
+407
+00:25:50,445 --> 00:25:51,805
+Speaker 7:  we lose the moment we forget something.
+
+408
+00:25:53,255 --> 00:25:56,855
+Speaker 3:  Ultimately in talking to Dan and others about this stuff, it seems like there
+
+409
+00:25:56,855 --> 00:26:00,655
+Speaker 3:  are two huge challenges to solve with any kind of AI
+
+410
+00:26:00,655 --> 00:26:04,575
+Speaker 3:  memory product. The first one is the AI one, which I actually thought
+
+411
+00:26:04,575 --> 00:26:08,415
+Speaker 3:  would be the hard part but am increasingly convinced is the easy part.
+
+412
+00:26:08,725 --> 00:26:12,175
+Speaker 3:  It's just how do you figure out what's actually relevant in all the data
+
+413
+00:26:12,175 --> 00:26:16,055
+Speaker 3:  people are collecting. Like I sit down at my computer, I click 75
+
+414
+00:26:16,065 --> 00:26:19,735
+Speaker 3:  links, I watch 20 tiktoks, I send 300 Slack messages and I have four
+
+415
+00:26:19,735 --> 00:26:23,655
+Speaker 3:  meetings. How does rewind or recall or anything else make sense
+
+416
+00:26:23,655 --> 00:26:25,455
+Speaker 3:  of that for me? Most of the
+
+417
+00:28:34,235 --> 00:28:38,075
+Speaker 3:  right now in a business context where like a model can access your
+
+418
+00:28:38,075 --> 00:28:41,915
+Speaker 3:  company's internal wiki and nothing else. So it's more likely to find
+
+419
+00:28:41,935 --> 00:28:45,635
+Speaker 3:  the right answer. It's a little harder to apply that idea
+
+420
+00:28:45,735 --> 00:28:49,435
+Speaker 3:  to all the many varied things you do on a computer every day, but it's still
+
+421
+00:28:49,595 --> 00:28:53,515
+Speaker 3:  a big step in the right direction. The much harder problem is getting
+
+422
+00:28:53,515 --> 00:28:57,155
+Speaker 3:  all that data into the system in the first place. Screenshots and audio
+
+423
+00:28:57,415 --> 00:29:01,155
+Speaker 3:  are a decent approximation of what you do on your computer all day. But what
+
+424
+00:29:01,155 --> 00:29:05,035
+Speaker 3:  about when you're on your phone or in the car or watching TV or out
+
+425
+00:29:05,035 --> 00:29:08,595
+Speaker 3:  in the real world like where other humans are and not interacting with screens
+
+426
+00:29:08,615 --> 00:29:12,555
+Speaker 3:  at all. If you buy the idea that more data is good and that the
+
+427
+00:29:12,555 --> 00:29:16,435
+Speaker 3:  more You can collect, the more useful your AI tool can be. You need access
+
+428
+00:29:16,435 --> 00:29:20,115
+Speaker 3:  to everything that a human sees, touches, hears, tastes all their internal
+
+429
+00:29:20,435 --> 00:29:24,355
+Speaker 3:  biometrics and a million other things besides, we're not getting that
+
+430
+00:29:24,355 --> 00:29:28,115
+Speaker 3:  technology anytime soon, no matter what anyone in tech will tell you, it's
+
+431
+00:29:28,115 --> 00:29:32,075
+Speaker 3:  just not happening. And that's why most of these products are business focused
+
+432
+00:29:32,075 --> 00:29:35,355
+Speaker 3:  right now by the way. They're designed to help you remember what happened
+
+433
+00:29:35,375 --> 00:29:39,075
+Speaker 3:  in a meeting, which is the finite and containable thing that You can
+
+434
+00:29:39,075 --> 00:29:42,725
+Speaker 3:  record and summarize and it has a beginning and an ending and outcomes
+
+435
+00:29:43,175 --> 00:29:47,085
+Speaker 3:  we're a long way away from applying these ideas to the rest of your life
+
+436
+00:29:47,105 --> 00:29:51,045
+Speaker 3:  and the rest of your memory. The question in the meantime though is how much
+
+437
+00:29:51,055 --> 00:29:54,845
+Speaker 3:  these tools need in order to be useful at all. Like we
+
+438
+00:29:54,845 --> 00:29:58,485
+Speaker 3:  can't do the whole thing, but how do you do the next thing? The Apple
+
+439
+00:29:58,485 --> 00:30:01,805
+Speaker 3:  feature I mentioned up top is actually a good example here. It's not like
+
+440
+00:30:01,805 --> 00:30:05,285
+Speaker 3:  your iPhone is automatically taking pictures every time it senses something
+
+441
+00:30:05,485 --> 00:30:08,605
+Speaker 3:  interesting happening. It's just trying to take pictures that you already
+
+442
+00:30:08,675 --> 00:30:12,645
+Speaker 3:  have and put them together in the ways that you want that's
+
+443
+00:30:12,645 --> 00:30:16,405
+Speaker 3:  technically doable and still really useful. So how else can these
+
+444
+00:30:16,405 --> 00:30:20,325
+Speaker 3:  tools do just a little more like that? That question is
+
+445
+00:30:20,325 --> 00:30:24,165
+Speaker 3:  what led Dan and his team to rebrand their company from Rewinds to
+
+446
+00:30:24,165 --> 00:30:27,445
+Speaker 3:  Limitless and to build a gadget in addition to their app.
+
+447
+00:30:27,845 --> 00:30:31,365
+Speaker 7:  I think in particular conversations are the ones we found has been hugely
+
+448
+00:30:31,645 --> 00:30:34,805
+Speaker 7:  valuable where there's moments nothing being captured today. It's a very
+
+449
+00:30:34,855 --> 00:30:38,525
+Speaker 7:  human thing. It is so much low hanging fruit in terms of the value we can
+
+450
+00:30:38,525 --> 00:30:40,925
+Speaker 7:  create, especially in-person conversations. That's a big reason we built
+
+451
+00:30:40,925 --> 00:30:44,165
+Speaker 7:  the pendant is to capture more than just zoom meetings. But in-person conversations
+
+452
+00:30:44,185 --> 00:30:44,525
+Speaker 7:  as well,
+
+453
+00:30:45,065 --> 00:30:48,485
+Speaker 3:  The pendant he's talking about is called the limitless pendant. And it's
+
+454
+00:30:48,485 --> 00:30:52,005
+Speaker 3:  a $99 round clip that You can either wear on a lanyard or
+
+455
+00:30:52,405 --> 00:30:56,125
+Speaker 3:  attached to your clothes or backpack. It kind of looks like an old school
+
+456
+00:30:56,425 --> 00:31:00,125
+Speaker 3:  Fitbit to me. Whenever you activate the pendant, it starts recording audio.
+
+457
+00:31:00,465 --> 00:31:04,005
+Speaker 3:  And for Limitless, the hope is that by capturing more of what you say and
+
+458
+00:31:04,005 --> 00:31:07,285
+Speaker 3:  hear, you'll capture more of everything else too.
+
+459
+00:31:07,885 --> 00:31:10,645
+Speaker 7:  I think in particular the pendant is gonna be amazing for relationships.
+
+460
+00:31:11,345 --> 00:31:13,965
+Speaker 7:  You know, when I first conceived of this idea of something you'd wear that
+
+461
+00:31:13,965 --> 00:31:16,925
+Speaker 7:  might capture conversations, I was terrified to even mention it to my wife
+
+462
+00:31:17,125 --> 00:31:20,045
+Speaker 7:  'cause I thought, oh she's gonna hate it 'cause now finally Dan's gonna win
+
+463
+00:31:20,045 --> 00:31:23,805
+Speaker 7:  an argument. And now the truth was the opposite. She said, oh
+
+464
+00:31:23,805 --> 00:31:26,925
+Speaker 7:  perfect, now we have clarity on what was said and what wasn't. And a lot
+
+465
+00:31:26,925 --> 00:31:30,005
+Speaker 7:  of conflict comes from miscommunication, from misunderstanding, misremembering.
+
+466
+00:31:30,345 --> 00:31:33,845
+Speaker 7:  So I actually think from like that, from a, from a single player perspective
+
+467
+00:31:33,865 --> 00:31:37,765
+Speaker 7:  and maybe two player perspective, one-on-one relationships, spousal relationships
+
+468
+00:31:38,105 --> 00:31:40,325
+Speaker 7:  are actually going to be better. Actually it sounds weird, I have a couple
+
+469
+00:31:40,325 --> 00:31:43,445
+Speaker 7:  friends who do this, this thing that when I describe what our product does,
+
+470
+00:31:43,445 --> 00:31:45,485
+Speaker 7:  they mention this, they they, I think a lot of people do this. They don't
+
+471
+00:31:45,485 --> 00:31:47,525
+Speaker 7:  admit it 'cause it sounds weird. What they do is, at least two of my friends
+
+472
+00:31:47,525 --> 00:31:50,925
+Speaker 7:  that I know of when they are about to get into a fight with their partner,
+
+473
+00:31:51,355 --> 00:31:54,685
+Speaker 7:  they say, okay, let's start recording. They put out the phone and they start
+
+474
+00:31:54,685 --> 00:31:57,325
+Speaker 7:  record with the voice memo. They record the conversation 'cause they know
+
+475
+00:31:57,325 --> 00:32:00,045
+Speaker 7:  that things are gonna get heated. They know they want, that may need to go
+
+476
+00:32:00,045 --> 00:32:03,965
+Speaker 7:  back to it. And it's, and it has been a gift, not a curse to
+
+477
+00:32:03,965 --> 00:32:06,445
+Speaker 7:  the relationship to have kind of this impeccable memory of what was said.
+
+478
+00:32:06,665 --> 00:32:09,165
+Speaker 7:  And I think those are the kinds of things that once people feel it, it's
+
+479
+00:32:09,165 --> 00:32:11,805
+Speaker 7:  like, oh actually you know what? You see somebody better when in your mind
+
+480
+00:32:11,805 --> 00:32:14,485
+Speaker 7:  you are so sure you're right. Like no, you did not tell me to get eggs before
+
+481
+00:32:14,485 --> 00:32:17,845
+Speaker 7:  I went to go to Trader Joe's. Oh you did. And I just, I was in my mind somewhere
+
+482
+00:32:17,845 --> 00:32:21,365
+Speaker 7:  else. It sort of, it creates a of truth and authenticity and
+
+483
+00:32:21,725 --> 00:32:24,285
+Speaker 7:  a connection in the world that I think today because we forget so much, we
+
+484
+00:32:24,285 --> 00:32:27,045
+Speaker 7:  don't know what we forget. We, we have conflict needlessly.
+
+485
+00:32:27,345 --> 00:32:30,405
+Speaker 3:  That's such an interesting example and I love that because there, there is
+
+486
+00:32:30,405 --> 00:32:34,365
+Speaker 3:  immediately part of me that just recoils the idea of my wife
+
+487
+00:32:34,365 --> 00:32:37,245
+Speaker 3:  being like, Hey, I'm gonna start recording as soon as I start like being
+
+488
+00:32:37,245 --> 00:32:41,005
+Speaker 3:  an ass. But then I can, I can also totally see the point of that.
+
+489
+00:32:41,265 --> 00:32:44,285
+Speaker 3:  And this goes back to that same sort of philosophical question of like, how
+
+490
+00:32:44,285 --> 00:32:47,725
+Speaker 3:  much are we supposed to remember, right? And like, yeah, it would make my
+
+491
+00:32:47,725 --> 00:32:51,405
+Speaker 3:  life easier if I had a pendant on that was like, yeah, she did tell you to
+
+492
+00:32:51,405 --> 00:32:54,725
+Speaker 3:  go get eggs, but actually just reminded me to get eggs while I was out. Like
+
+493
+00:32:54,725 --> 00:32:58,245
+Speaker 3:  that's, that's where we go, right? Yeah. Like that, that's where we actually
+
+494
+00:32:58,245 --> 00:33:01,205
+Speaker 3:  get to something useful is I don't forget the eggs anymore.
+
+495
+00:33:01,515 --> 00:33:05,405
+Speaker 7:  Totally agree. And by the way, I think that this is a product that is
+
+496
+00:33:05,685 --> 00:33:08,205
+Speaker 7:  probably better suited for people who just want to do better and be better.
+
+497
+00:33:08,425 --> 00:33:11,165
+Speaker 7:  Not everyone wants that. Some people just, they wanna watch football, they
+
+498
+00:33:11,165 --> 00:33:14,725
+Speaker 7:  wanna be left alone, you know, and, and they don't have this idea that their
+
+499
+00:33:14,755 --> 00:33:17,885
+Speaker 7:  life could be better. But I actually think most people on this planet live
+
+500
+00:33:17,885 --> 00:33:21,045
+Speaker 7:  their lives as zombies. They go through the routines and habits of their
+
+501
+00:33:21,045 --> 00:33:24,565
+Speaker 7:  day. They never really ask themselves what they could be doing better for
+
+502
+00:33:24,565 --> 00:33:27,765
+Speaker 7:  themselves, for their, for their partners, for their families, for their
+
+503
+00:33:27,765 --> 00:33:31,685
+Speaker 7:  job. And this is a tool to give you a window into your past in a way that
+
+504
+00:33:31,685 --> 00:33:35,045
+Speaker 7:  helps you do better, be better, show up better, and do more. And I think
+
+505
+00:33:35,045 --> 00:33:37,685
+Speaker 7:  there's some people for whom that's what they want. And there there's not,
+
+506
+00:33:37,685 --> 00:33:38,685
+Speaker 7:  that's okay, wait, let me,
+
+507
+00:33:38,685 --> 00:33:41,445
+Speaker 3:  Let me put that slightly more charitably to some of those people, which is,
+
+508
+00:33:41,485 --> 00:33:45,045
+Speaker 3:  I think most people exist in both of those states some of the time, right?
+
+509
+00:33:45,145 --> 00:33:48,885
+Speaker 3:  And I think part of what is interesting about products like this
+
+510
+00:33:48,985 --> 00:33:52,765
+Speaker 3:  is I think about it the same way I think about like ar glasses, right? Sometimes
+
+511
+00:33:53,055 --> 00:33:57,005
+Speaker 3:  super useful and I want more information in my face and I wanna know
+
+512
+00:33:57,005 --> 00:33:59,045
+Speaker 3:  where I'm going and I wanna know all the information about all the coffee
+
+513
+00:33:59,045 --> 00:34:02,885
+Speaker 3:  shops around me. And sometimes that sounds awful. And, and the idea of having
+
+514
+00:34:02,885 --> 00:34:05,685
+Speaker 3:  something on my face all the time that is showing me that stuff, whether
+
+515
+00:34:05,765 --> 00:34:08,605
+Speaker 3:  I like it or not, is a problem. Even though sometimes it's useful. And I
+
+516
+00:34:08,605 --> 00:34:12,565
+Speaker 3:  feel like with something like this too, that is, that kind of knows me and
+
+517
+00:34:12,565 --> 00:34:15,525
+Speaker 3:  sees me and is recording everything and is giving it back to me, there are
+
+518
+00:34:15,525 --> 00:34:19,045
+Speaker 3:  times I'm gonna want that and get value from it and feel like it's useful
+
+519
+00:34:19,045 --> 00:34:22,565
+Speaker 3:  and there are times where that's gonna feel intrusive to me
+
+520
+00:34:22,635 --> 00:34:26,565
+Speaker 3:  potentially. And, and I guess what I wonder, both for you
+
+521
+00:34:26,565 --> 00:34:29,925
+Speaker 3:  as a product maker and just for kind of us as people is like, is this the
+
+522
+00:34:30,165 --> 00:34:33,845
+Speaker 3:  kind of thing that we're either going to learn to live with being there all
+
+523
+00:34:33,845 --> 00:34:37,325
+Speaker 3:  the time and we'll just ignore it? Or can these things be kind of
+
+524
+00:34:37,485 --> 00:34:41,445
+Speaker 3:  episodic and we can use them as tools rather than these
+
+525
+00:34:41,445 --> 00:34:45,205
+Speaker 3:  kind of ambient always on always aware things. Yeah.
+
+526
+00:34:45,285 --> 00:34:49,125
+Speaker 7:  I, I think people will decide and choose that path on their
+
+527
+00:34:49,125 --> 00:34:52,125
+Speaker 7:  own based off of where, what value they get. I'm gonna wear the pendant where
+
+528
+00:34:52,125 --> 00:34:54,205
+Speaker 7:  mostly I go, but sometimes I'm gonna take it off and put it in my pocket
+
+529
+00:34:54,305 --> 00:34:57,125
+Speaker 7:  and that's okay. We've designed it to work that way. You know, You can you,
+
+530
+00:34:57,125 --> 00:34:59,565
+Speaker 7:  you will turn off and you put it in your pocket, it won't, you know? And
+
+531
+00:34:59,565 --> 00:35:02,325
+Speaker 7:  so like that's I think important. You give people control and choice and
+
+532
+00:35:02,325 --> 00:35:05,285
+Speaker 7:  they will choose for themselves when it's valuable, when it's not with the
+
+533
+00:35:05,285 --> 00:35:07,925
+Speaker 7:  recognition that there's sometimes you may not know it might be valuable
+
+534
+00:35:07,925 --> 00:35:09,885
+Speaker 7:  later and you're, you know, it's a conversation with a friend like, you know,
+
+535
+00:35:10,045 --> 00:35:12,205
+Speaker 7:  actually they're gonna gimme some good advice. You mind if I wear this pendant
+
+536
+00:35:12,205 --> 00:35:14,245
+Speaker 7:  just so I can capture because you're, I really wanna remember what you're
+
+537
+00:35:14,245 --> 00:35:16,805
+Speaker 7:  gonna say. And, and they're like, sure, that's fine. And I think those, those
+
+538
+00:35:16,805 --> 00:35:19,885
+Speaker 7:  things will change slowly over time and people will, through their behavior
+
+539
+00:35:19,945 --> 00:35:22,605
+Speaker 7:  and through the trade-offs they make, we're not forcing anyone to use this
+
+540
+00:35:22,605 --> 00:35:26,365
+Speaker 7:  without wanting to use it. I think the ability to use and capture
+
+541
+00:35:26,795 --> 00:35:29,685
+Speaker 7:  more of their life is a choice. Just like wearing glasses the morning is
+
+542
+00:35:29,685 --> 00:35:32,485
+Speaker 7:  a choice. If you wanna see better for the day, You can, if for whatever reason
+
+543
+00:35:32,585 --> 00:35:35,325
+Speaker 7:  you don't wanna see the world, you don't have to. I think most people will
+
+544
+00:35:35,325 --> 00:35:38,005
+Speaker 7:  wear glasses most of the time. They like that. They'll realize that's what
+
+545
+00:35:38,005 --> 00:35:40,965
+Speaker 7:  they wanna do is they wanna see the world for what it is. Not the blurry
+
+546
+00:35:40,965 --> 00:35:43,725
+Speaker 7:  version that gets mangled up. 'cause their lenses aren't quite sharp.
+
+547
+00:35:44,465 --> 00:35:48,005
+Speaker 3:  I'm sure you've noticed this by now, but Dan is 100%
+
+548
+00:35:48,275 --> 00:35:51,565
+Speaker 3:  committed to the big memory AI theory here.
+
+549
+00:35:52,105 --> 00:35:55,525
+Speaker 3:  And in the last couple of years, even really the last couple of months, it
+
+550
+00:35:55,725 --> 00:35:58,845
+Speaker 3:  has started to seem like the rest of the tech industry has bought in just
+
+551
+00:35:58,845 --> 00:36:02,285
+Speaker 3:  as aggressively a bunch of the biggest companies on earth are now building
+
+552
+00:36:02,285 --> 00:36:06,165
+Speaker 3:  products that sound an awful lot like Rewind and Limitless. And when
+
+553
+00:36:06,205 --> 00:36:10,085
+Speaker 3:  I asked Dan about all this new stuff happening, he said what all CEOs say,
+
+554
+00:36:10,085 --> 00:36:12,565
+Speaker 3:  which is what I guess what you're supposed to say, which is that, you know,
+
+555
+00:36:12,635 --> 00:36:16,365
+Speaker 3:  it's validating to have competition and he's not worried and Limitless has
+
+556
+00:36:16,365 --> 00:36:20,085
+Speaker 3:  the right business model and imitation is the serious form of flattery, all
+
+557
+00:36:20,085 --> 00:36:23,565
+Speaker 3:  that good stuff. But what I found myself really wondering about all this
+
+558
+00:36:23,705 --> 00:36:27,565
+Speaker 3:  was whether all of Microsoft's problems with recall, which specifically
+
+559
+00:36:27,565 --> 00:36:30,605
+Speaker 3:  if you don't remember, was the fact that it was keeping all of your data
+
+560
+00:36:30,605 --> 00:36:34,565
+Speaker 3:  basically unprotected on your computer, which is just an incredible
+
+561
+00:36:34,965 --> 00:36:38,685
+Speaker 3:  security disaster waiting to happen. If that might make people even more
+
+562
+00:36:38,835 --> 00:36:42,605
+Speaker 3:  wary of a product that wants to store all of your data from everything forever.
+
+563
+00:36:43,265 --> 00:36:46,165
+Speaker 3:  And he said he actually thinks it's a win for Limitless.
+
+564
+00:36:46,745 --> 00:36:50,405
+Speaker 7:  We don't have to spend as much time or energy evangelizing this concept and
+
+565
+00:36:50,405 --> 00:36:54,005
+Speaker 7:  this problem. You know, if sat net de will do that and use my talking points
+
+566
+00:36:54,185 --> 00:36:57,405
+Speaker 7:  all for it, that's great, that's great free marketing for me. And ideally
+
+567
+00:36:57,405 --> 00:36:59,965
+Speaker 7:  they do it and they stumble and then people think, actually that was a cool
+
+568
+00:36:59,965 --> 00:37:02,485
+Speaker 7:  idea, but that, oh, I really don't like how they implemented it is they're
+
+569
+00:37:02,485 --> 00:37:04,965
+Speaker 7:  saying something else out there. And that just creates a bigger market for
+
+570
+00:37:04,965 --> 00:37:08,605
+Speaker 7:  me. So honestly I feel validated, I feel seen, I feel like it's a party in
+
+571
+00:37:08,605 --> 00:37:12,205
+Speaker 7:  the desert and now we're planting some trees and soon this will be a rainforest.
+
+572
+00:37:13,145 --> 00:37:16,715
+Speaker 3:  I've heard from Dan and others that there's probably a bunch of billion dollar
+
+573
+00:37:17,035 --> 00:37:20,955
+Speaker 3:  businesses to be built on AI memories, things that can collect and then
+
+574
+00:37:20,955 --> 00:37:24,635
+Speaker 3:  make use of all of the data associated with your life. I think he's probably
+
+575
+00:37:24,635 --> 00:37:28,555
+Speaker 3:  right and I think you'll see many more companies try and convince you to
+
+576
+00:37:28,555 --> 00:37:32,355
+Speaker 3:  store everything about yourself in their worlds. It's gonna get weird and
+
+577
+00:37:32,355 --> 00:37:35,995
+Speaker 3:  everybody should tread pretty carefully, but through this all, I'm still
+
+578
+00:37:35,995 --> 00:37:39,435
+Speaker 3:  thinking about the idea of getting in a fight with my wife and starting a
+
+579
+00:37:39,435 --> 00:37:43,235
+Speaker 3:  recording on my phone as soon as things get heated or sitting down at lunch
+
+580
+00:37:43,235 --> 00:37:47,035
+Speaker 3:  with a friend and asking them if I can record in case they say something
+
+581
+00:37:47,035 --> 00:37:50,955
+Speaker 3:  memorable. Sure, those things might make it easier to remember things
+
+582
+00:37:51,005 --> 00:37:54,235
+Speaker 3:  later. And while I could take notes or something at the end of the meal,
+
+583
+00:37:54,415 --> 00:37:58,195
+Speaker 3:  the real value might genuinely come from being able to recall
+
+584
+00:37:58,195 --> 00:38:01,555
+Speaker 3:  something I didn't think was important. But suddenly days or weeks later,
+
+585
+00:38:01,675 --> 00:38:05,635
+Speaker 3:  I realize actually matters a lot. But would recording those things
+
+586
+00:38:05,975 --> 00:38:09,875
+Speaker 3:  change those things? Would lunch with my friend or a fight with my
+
+587
+00:38:09,875 --> 00:38:13,835
+Speaker 3:  wife be different with the recorder on knowing that they would
+
+588
+00:38:13,835 --> 00:38:17,635
+Speaker 3:  be preserved for forever and for me to access for action items or whatever
+
+589
+00:38:17,635 --> 00:38:21,315
+Speaker 3:  else? Does that change the thing as it's happening? I think it does.
+
+590
+00:38:21,465 --> 00:38:25,275
+Speaker 3:  even though I can't always explain exactly how maybe Dan and
+
+591
+00:38:25,475 --> 00:38:28,715
+Speaker 3:  everyone else are right, that in a few years or a few decades it won't feel
+
+592
+00:38:28,715 --> 00:38:31,595
+Speaker 3:  different and we'll all be used to it just like we're used to, you know,
+
+593
+00:38:31,595 --> 00:38:35,455
+Speaker 3:  phone cameras being totally ubiquitous now, but I can't help but feel like
+
+594
+00:38:35,545 --> 00:38:39,375
+Speaker 3:  maybe having superpowers runs the risk of making us a little less human
+
+595
+00:38:39,595 --> 00:38:43,175
+Speaker 3:  in the process. Wait, is that what all the Marvel movies are actually about?
+
+596
+00:38:43,435 --> 00:38:47,015
+Speaker 3:  Having superpowers and being human at the same, anyway, sorry, that's a whole
+
+597
+00:38:47,055 --> 00:38:50,895
+Speaker 3:  nother podcast. Moving on. I'm fascinated by tools like Limitless and recall,
+
+598
+00:38:50,915 --> 00:38:54,655
+Speaker 3:  and I think they're gonna be really useful to a lot of people. I'm gonna
+
+599
+00:38:54,715 --> 00:38:58,335
+Speaker 3:  use all of them frankly, but I'm also increasingly excited about the less
+
+600
+00:38:58,335 --> 00:39:02,175
+Speaker 3:  ambitious versions of these apps where you get to decide what's important
+
+601
+00:39:02,395 --> 00:39:06,255
+Speaker 3:  but still let AI make sense of it. Like I use this app called My Mind
+
+602
+00:39:06,555 --> 00:39:10,135
+Speaker 3:  and it's basically just a repository of things that I like. That's how I
+
+603
+00:39:10,135 --> 00:39:14,095
+Speaker 3:  use it. Podcast episode, a TV show, a funny gif that I find, an
+
+604
+00:39:14,095 --> 00:39:18,055
+Speaker 3:  article, a photo I take. Anything that I like, I just save to my
+
+605
+00:39:18,055 --> 00:39:22,015
+Speaker 3:  mind and the app automatically categorizes them with AI
+
+606
+00:39:22,155 --> 00:39:25,895
+Speaker 3:  so that I can then search for sad movies or articles about
+
+607
+00:39:25,895 --> 00:39:29,695
+Speaker 3:  sports or things that are read and it'll show me stuff that
+
+608
+00:39:29,775 --> 00:39:33,455
+Speaker 3:  I like. I've also really loved the new Photos app in iOS
+
+609
+00:39:33,695 --> 00:39:37,615
+Speaker 3:  18, which really emphasizes those automatically generated albums of
+
+610
+00:39:37,615 --> 00:39:41,575
+Speaker 3:  people or things that you did or just particularly interesting days you've
+
+611
+00:39:41,575 --> 00:39:45,255
+Speaker 3:  had recently. Google similarly recently announced a feature I think is super
+
+612
+00:39:45,255 --> 00:39:48,855
+Speaker 3:  clever, where you just create a giant repository of screenshots
+
+613
+00:39:49,365 --> 00:39:52,735
+Speaker 3:  that Google's AI will look through and try to make sense of for you.
+
+614
+00:39:53,195 --> 00:39:56,655
+Speaker 3:  In all those cases, all you have to do is basically signal, this is something
+
+615
+00:39:56,655 --> 00:40:00,495
+Speaker 3:  I'd like to remember, this matters to me. And then the AI model
+
+616
+00:40:00,645 --> 00:40:04,295
+Speaker 3:  does the rest. I feel like that's gonna be a big win for my
+
+617
+00:40:04,655 --> 00:40:08,575
+Speaker 3:  memories. I won't be able to see the pictures in my head, but at least I'll
+
+618
+00:40:08,575 --> 00:40:10,655
+Speaker 3:  be able to find them again. That feels close enough.
+
+619
+00:40:12,605 --> 00:40:15,815
+Speaker 3:  Alright, that's it for The Vergecast today. Thanks to Dan for chatting with
+
+620
+00:40:15,815 --> 00:40:19,055
+Speaker 3:  me and thank you as always for listening as I set up top. This is the first
+
+621
+00:40:19,055 --> 00:40:22,695
+Speaker 3:  episode in our three part series on ai, so make sure you come back next Sunday
+
+622
+00:40:22,755 --> 00:40:26,055
+Speaker 3:  for the next installment. It's very different. It's a fun one. This show
+
+623
+00:40:26,055 --> 00:40:29,375
+Speaker 3:  is produced by Andrew Marino, Liam James, and Will Poor. The Vergecast is
+
+624
+00:40:29,375 --> 00:40:32,335
+Speaker 3:  a diverse production and part of the Vox Media podcast network. We'll be
+
+625
+00:40:32,335 --> 00:40:36,215
+Speaker 3:  back on Tuesday and Friday. We've got lots of gadgets to talk about. We'll
+
+626
+00:40:36,215 --> 00:40:37,335
+Speaker 3:  see you then. Rock and roll.
+
+627
+00:40:48,375 --> 00:40:49,425
+Speaker 1:  Have a question or
+
+628
+00:41:14,785 --> 00:41:16,505
+Speaker 1:  WhatsApp, Facebook, and Messenger.
+

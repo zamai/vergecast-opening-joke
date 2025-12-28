@@ -1,0 +1,5273 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 9297740a-1bc7-45d7-887c-869923cc8d01
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/7099714856319943219/-1402373017029743539/s93290-US-4873s-1739750019.mp3
+Description: AI and politics, politics and AI. That's the story of 2025. On this episode, The Verge's Kylie Robison joins the show to talk about ChatGPT's big new features, Operator and deep research, both of which promise to make the chatbot more useful and more autonomous. To access either one costs $200 a month — is it worth it? After that, The Verge's Liz Lopatto catches us up on the latest from Elon Musk and Doge, including why Musk is doing this thing, this way. Liz also makes the case that this isn't going to slow down anytime soon. Finally, Nilay Patel helps us answer a question from the Vergecast Hotline, and tells us how he felt about the Super Bowl's 4K stream.
+
+2
+00:00:03,105 --> 00:00:06,755
+Speaker 2:  Welcome To The Vergecast, the flagship podcast of Chain of Thought Reasoning.
+
+3
+00:00:07,015 --> 00:00:09,995
+Speaker 2:  I'm your friend David Pierce. It is the Monday morning after the Super Bowl,
+
+4
+00:00:10,295 --> 00:00:14,115
+Speaker 2:  and I'm tired. It was a truly terrible football game.
+
+5
+00:00:14,215 --> 00:00:18,195
+Speaker 2:  If you didn't watch, you really didn't miss anything. Congrats to
+
+6
+00:00:18,195 --> 00:00:21,995
+Speaker 2:  all the Eagles fans out there, I suppose. But it was actually a pretty interesting
+
+7
+00:00:22,185 --> 00:00:26,035
+Speaker 2:  tech evening. There were AI commercials everywhere, including some
+
+8
+00:00:26,035 --> 00:00:29,835
+Speaker 2:  that were like really reminiscent of crypto commercials from a few
+
+9
+00:00:29,835 --> 00:00:32,875
+Speaker 2:  years ago. I have a lot of feelings about that. A surprising number of people
+
+10
+00:00:32,875 --> 00:00:36,275
+Speaker 2:  in my life are super into Gemini. Now, thanks to that Google commercial,
+
+11
+00:00:37,425 --> 00:00:41,155
+Speaker 2:  I'll say this for Google Company has a lot of problems, very good at making
+
+12
+00:00:41,155 --> 00:00:45,075
+Speaker 2:  commercials, just very, very, very good at making commercials. Also,
+
+13
+00:00:45,155 --> 00:00:49,115
+Speaker 2:  Kendrick Lamar did the halftime show and spawned a bunch of memes
+
+14
+00:00:49,115 --> 00:00:53,075
+Speaker 2:  that I suspect you're gonna see forever for the rest of your life to be streamed
+
+15
+00:00:53,075 --> 00:00:56,115
+Speaker 2:  the Super Bowl for the first time and held up surprisingly well. Just a lot
+
+16
+00:00:56,115 --> 00:00:59,475
+Speaker 2:  of interesting technology going on, and then a really crappy football game.
+
+17
+00:01:00,085 --> 00:01:04,075
+Speaker 2:  Super Bowl 59, everybody. Anyway, that is mostly not what we're here
+
+18
+00:01:04,075 --> 00:01:06,475
+Speaker 2:  to talk about. We're gonna talk a little bit about the Super Bowl on The
+
+19
+00:01:06,635 --> 00:01:09,755
+Speaker 2:  Vergecast Hotline at the very end. But before we get to that, we're gonna
+
+20
+00:01:09,755 --> 00:01:13,235
+Speaker 2:  talk about AI and we're gonna talk about Elon Musk. We're gonna talk about
+
+21
+00:01:13,535 --> 00:01:17,315
+Speaker 2:  all of what's going on with chat, GPT and the operator
+
+22
+00:01:17,315 --> 00:01:21,275
+Speaker 2:  feature, and the deep research feature and the tasks feature. And there's
+
+23
+00:01:21,275 --> 00:01:24,715
+Speaker 2:  just something happening in the most expensive version of chat GPT that I
+
+24
+00:01:24,715 --> 00:01:28,155
+Speaker 2:  find really fascinating. So we're gonna dig into that. Then we're gonna talk
+
+25
+00:01:28,155 --> 00:01:31,875
+Speaker 2:  about what is happening with Elon Musk and the Department of Government
+
+26
+00:01:31,875 --> 00:01:35,795
+Speaker 2:  Efficiency. Things have slowed down, I
+
+27
+00:01:35,795 --> 00:01:38,715
+Speaker 2:  suppose, relatively speaking the last few days, but there's still a lot going
+
+28
+00:01:38,715 --> 00:01:41,955
+Speaker 2:  on. There's still a lot to talk about, and we're gonna try to make some sense
+
+29
+00:01:41,955 --> 00:01:45,075
+Speaker 2:  of what's really happening here. Then we're gonna talk about the Super Bowl,
+
+30
+00:01:45,255 --> 00:01:47,955
+Speaker 2:  and then we'll get outta here. All of that is coming up in just a second,
+
+31
+00:01:48,255 --> 00:01:52,195
+Speaker 2:  But first I need to go watch the Z Suite on two
+
+32
+00:01:52,235 --> 00:01:56,195
+Speaker 2:  B because this is just what happened to me. I watched Tubi and now I'm
+
+33
+00:01:56,195 --> 00:01:59,875
+Speaker 2:  a Tubi guy. I don't know. This is my life now. This is The Vergecast. We'll
+
+34
+00:01:59,875 --> 00:02:00,235
+Speaker 2:  be right back.
+
+35
+00:03:25,995 --> 00:03:29,775
+Speaker 2:  ai. So over the last few weeks, ChatGPT has gotten a bunch of new
+
+36
+00:03:30,015 --> 00:03:33,935
+Speaker 2:  features. OpenAI has been shipping stuff pretty fast, and there are three
+
+37
+00:03:34,115 --> 00:03:37,655
+Speaker 2:  in particular that I'm really interested in. The first is called Operator,
+
+38
+00:03:37,745 --> 00:03:41,655
+Speaker 2:  which is basically a way to let chat GPT, use the
+
+39
+00:03:41,815 --> 00:03:45,735
+Speaker 2:  internet on your behalf. It'll actually like click around and do stuff. You
+
+40
+00:03:45,755 --> 00:03:49,615
+Speaker 2:  say, you know, book me a reservation for dinner for tomorrow night. And the
+
+41
+00:03:49,615 --> 00:03:53,255
+Speaker 2:  idea is it'll actually go do that thing for you. This is the AG agentic AI
+
+42
+00:03:53,255 --> 00:03:56,695
+Speaker 2:  we've been talking about for a long time. Super, super interesting.
+
+43
+00:03:56,845 --> 00:04:00,455
+Speaker 2:  There's also this thing called Deep Research, which is one of open AI's most
+
+44
+00:04:00,815 --> 00:04:04,535
+Speaker 2:  advanced models really put to the task of doing longer
+
+45
+00:04:04,605 --> 00:04:08,495
+Speaker 2:  term thoughtful work. It takes time, it
+
+46
+00:04:08,495 --> 00:04:11,055
+Speaker 2:  like gives you a message that's like, come back later, I'll let you know
+
+47
+00:04:11,055 --> 00:04:14,895
+Speaker 2:  when I'm finished. But the idea is it can go do much more
+
+48
+00:04:15,095 --> 00:04:18,455
+Speaker 2:  thorough, much more accurate, much less hallucination
+
+49
+00:04:19,335 --> 00:04:22,895
+Speaker 2:  research for you on almost anything. And I've been hearing from people
+
+50
+00:04:23,245 --> 00:04:26,535
+Speaker 2:  over the last couple of weeks who are really, really excited about it. The
+
+51
+00:04:26,535 --> 00:04:30,175
+Speaker 2:  third is chat, GPT tasks, which is just a reminder system for chat GPT,
+
+52
+00:04:30,355 --> 00:04:34,175
+Speaker 2:  and no one is excited about this but me. But here we're, Kylie
+
+53
+00:04:34,495 --> 00:04:38,415
+Speaker 2:  Robinson has been testing all of this stuff with me in the $200 a
+
+54
+00:04:38,415 --> 00:04:42,335
+Speaker 2:  month chat, GBT Pro subscription. We both have some thoughts. Let's
+
+55
+00:04:42,335 --> 00:04:44,415
+Speaker 2:  dig into this. Kylie. Hello.
+
+56
+00:04:44,945 --> 00:04:45,295
+Speaker 5:  Hello.
+
+57
+00:04:45,325 --> 00:04:48,015
+Speaker 2:  Welcome back. It's been a minute. I feel like every week you should be on
+
+58
+00:04:48,015 --> 00:04:51,335
+Speaker 2:  the show, but then every week I'm like, we can't talk anymore about ai.
+
+59
+00:04:51,935 --> 00:04:54,615
+Speaker 2:  Yeah. And so we're, we're back. Yeah, it's just time to do this.
+
+60
+00:04:54,765 --> 00:04:56,655
+Speaker 5:  Yeah, listeners need a break. It's fair.
+
+61
+00:04:56,995 --> 00:05:00,975
+Speaker 2:  And in part, you and I have spent $200 each on
+
+62
+00:05:01,075 --> 00:05:04,255
+Speaker 2:  the chat GPT Pro account. And so we are here
+
+63
+00:05:04,955 --> 00:05:06,895
+Speaker 2:  for work so that we can expense this.
+
+64
+00:05:07,235 --> 00:05:08,575
+Speaker 5:  Yes, exactly. It's
+
+65
+00:05:08,575 --> 00:05:12,375
+Speaker 2:  Very important. Yes. So we've talked a bunch about,
+
+66
+00:05:12,895 --> 00:05:16,855
+Speaker 2:  I would say, the not great products coming out
+
+67
+00:05:16,855 --> 00:05:20,415
+Speaker 2:  of OpenAI over the last couple of years. They've, they've shipped a bunch
+
+68
+00:05:20,415 --> 00:05:24,295
+Speaker 2:  of really interesting technology and a bunch of not very good things
+
+69
+00:05:24,315 --> 00:05:28,065
+Speaker 2:  to do with said interesting technology. But it feels like
+
+70
+00:05:28,265 --> 00:05:31,435
+Speaker 2:  just in like the last, what, two weeks,
+
+71
+00:05:31,785 --> 00:05:35,035
+Speaker 2:  there's been this really interesting run of like actually shipping
+
+72
+00:05:35,505 --> 00:05:38,275
+Speaker 2:  cool, impressive product. Where did this come from? What is happening here?
+
+73
+00:05:38,905 --> 00:05:42,515
+Speaker 5:  Well in competition and scared and we need to double our
+
+74
+00:05:42,515 --> 00:05:45,635
+Speaker 5:  valuation in four months. Did you see that they wanna be valued at
+
+75
+00:05:45,635 --> 00:05:47,515
+Speaker 5:  $300 billion? So
+
+76
+00:05:47,775 --> 00:05:49,755
+Speaker 2:  Oh yeah, this is all the soft bank money, right? Yes,
+
+77
+00:05:49,825 --> 00:05:53,555
+Speaker 5:  Exactly. $300 billion doubling their valuation in four months
+
+78
+00:05:53,655 --> 00:05:57,645
+Speaker 5:  as they last raised money. So yeah, that's where it's coming from. Like VCs,
+
+79
+00:05:57,785 --> 00:06:00,965
+Speaker 5:  you know, Maas over there like, what is he gonna get my groceries for me?
+
+80
+00:06:00,965 --> 00:06:01,325
+Speaker 5:  Or what?
+
+81
+00:06:02,185 --> 00:06:05,245
+Speaker 2:  And it won't Spoiler alert. Yeah, but, we'll, we'll come back to that.
+
+82
+00:06:06,625 --> 00:06:10,485
+Speaker 2:  The, the thing I keep thinking about is what Sam Altman, the CEO e said
+
+83
+00:06:10,485 --> 00:06:12,805
+Speaker 2:  right after Deep Seek came out, and we've talked a bunch about deep seek
+
+84
+00:06:12,805 --> 00:06:13,245
+Speaker 2:  on the show, but
+
+85
+00:06:15,105 --> 00:06:18,805
+Speaker 2:  he seemed caught off guard by deep seek in a way I found really
+
+86
+00:06:19,045 --> 00:06:22,165
+Speaker 2:  fascinating. Mm. In the same way that like everybody else working on AI was
+
+87
+00:06:22,165 --> 00:06:24,805
+Speaker 2:  caught off guard by chat GPT two years. Like there was some sort of like
+
+88
+00:06:24,805 --> 00:06:27,685
+Speaker 2:  rhyming thing that happened there I thought was really interesting. But then
+
+89
+00:06:27,685 --> 00:06:30,525
+Speaker 2:  he was basically like, we're gonna move up a bunch of launches.
+
+90
+00:06:31,465 --> 00:06:34,765
+Speaker 2:  We we're, we have much better stuff. We're gonna show it too much faster.
+
+91
+00:06:34,905 --> 00:06:38,885
+Speaker 2:  And my immediate reaction was like, well that's obviously a lie. Like there's
+
+92
+00:06:38,905 --> 00:06:42,565
+Speaker 2:  no way that's, but, but maybe that was real and maybe this is just the company
+
+93
+00:06:42,565 --> 00:06:46,525
+Speaker 2:  that thought it had a big lead suddenly with a fire lit under it
+
+94
+00:06:46,585 --> 00:06:49,485
+Speaker 2:  and it's gonna start to move much faster. Like is it, is that really what's
+
+95
+00:06:49,485 --> 00:06:49,845
+Speaker 2:  happening here?
+
+96
+00:06:50,485 --> 00:06:54,165
+Speaker 5:  I think that's the classic OpenAI move is if someone launches anything that
+
+97
+00:06:54,165 --> 00:06:58,085
+Speaker 5:  takes the spotlight off of them for one second, they will figure out something
+
+98
+00:06:58,085 --> 00:07:01,845
+Speaker 5:  to just drop immediately. They some blog posts, some research
+
+99
+00:07:01,845 --> 00:07:05,725
+Speaker 5:  prototype. It's very cutthroat in that way. But
+
+100
+00:07:05,785 --> 00:07:09,725
+Speaker 5:  Sam Altman said in a Reddit a MA last week or earlier this week
+
+101
+00:07:09,795 --> 00:07:13,725
+Speaker 5:  that they're gonna have less of a lead. And I actually appreciated
+
+102
+00:07:13,745 --> 00:07:17,685
+Speaker 5:  him just saying it, it is his first shot at humbleness this entire stretch
+
+103
+00:07:17,685 --> 00:07:21,405
+Speaker 5:  of time. I know. So yeah, I think they're very aware of the,
+
+104
+00:07:21,825 --> 00:07:25,645
+Speaker 5:  the competition and even the people that helped co-found
+
+105
+00:07:25,865 --> 00:07:29,405
+Speaker 5:  OpenAI and ran it are now building competitors that are quickly
+
+106
+00:07:29,755 --> 00:07:33,605
+Speaker 5:  like taking up mind share in Silicon Valley. So yeah,
+
+107
+00:07:33,605 --> 00:07:34,645
+Speaker 5:  they're, they're noticing.
+
+108
+00:07:34,995 --> 00:07:37,805
+Speaker 2:  Okay. Yeah, it's really interesting. And so there are three products that
+
+109
+00:07:37,805 --> 00:07:41,165
+Speaker 2:  I wanna talk about. Two I think you also want to talk about, and one that
+
+110
+00:07:41,205 --> 00:07:44,085
+Speaker 2:  I will barely make you talk about because it's, it's chat GPT tasks. And
+
+111
+00:07:44,085 --> 00:07:47,765
+Speaker 2:  I am America's only person who is interested in chat GPT tasks, right?
+
+112
+00:07:48,825 --> 00:07:51,885
+Speaker 2:  But let's start with deep research. The first thing I wanna know, we've both
+
+113
+00:07:51,885 --> 00:07:55,445
+Speaker 2:  used it and I don't wanna talk about what your experience has been, but you're
+
+114
+00:07:55,445 --> 00:07:59,165
+Speaker 2:  out talking to people all the time and I would say my loose impression of
+
+115
+00:07:59,165 --> 00:08:02,245
+Speaker 2:  the reaction to deep research has been like
+
+116
+00:08:02,785 --> 00:08:06,605
+Speaker 2:  really, really positive. People are really impressed with what this
+
+117
+00:08:07,025 --> 00:08:10,565
+Speaker 2:  new thing is able to do. What are you hearing from people who are using and
+
+118
+00:08:10,565 --> 00:08:11,645
+Speaker 2:  trying this kind of stuff right now?
+
+119
+00:08:11,875 --> 00:08:15,645
+Speaker 5:  Yeah. Did you see Gary Marcus's reaction yet? No. People
+
+120
+00:08:15,665 --> 00:08:18,845
+Speaker 5:  are saying it's the Gary Marcus benchmark because he starts this tweet with
+
+121
+00:08:19,005 --> 00:08:22,685
+Speaker 5:  a deep research is actually good and then people are cropping out the, but
+
+122
+00:08:22,685 --> 00:08:26,525
+Speaker 5:  blah, blah, blah, blah, blah. But he actually like compliments it.
+
+123
+00:08:26,525 --> 00:08:29,805
+Speaker 5:  And for the listener Gary Marcus, it's just a hardcore skeptic
+
+124
+00:08:30,105 --> 00:08:33,965
+Speaker 2:  And has been right a lot, to his credit, he's been wrong sometimes, but he's
+
+125
+00:08:33,965 --> 00:08:37,125
+Speaker 2:  also been right a lot. I, I take, he's one of those people I take very seriously,
+
+126
+00:08:37,145 --> 00:08:41,005
+Speaker 2:  but also he's like one of those people, every time you read him, you have
+
+127
+00:08:41,005 --> 00:08:44,765
+Speaker 2:  to read somebody who is like pie in the sky. AI will save us.
+
+128
+00:08:44,865 --> 00:08:47,245
+Speaker 2:  And it, it lands you in like a nice happy middle. I think
+
+129
+00:08:47,315 --> 00:08:51,085
+Speaker 5:  It's good stuff, right? That's my day to day. Yeah. Deep research. People
+
+130
+00:08:51,085 --> 00:08:54,365
+Speaker 5:  seem really excited about it. I have to temper what I see and what I hear
+
+131
+00:08:54,365 --> 00:08:58,245
+Speaker 5:  from people quite a bit because I don't know how you feel, but in
+
+132
+00:08:58,465 --> 00:09:01,765
+Speaker 5:  San Francisco and just, you know, in the AI communities, people are like,
+
+133
+00:09:01,765 --> 00:09:05,045
+Speaker 5:  this is, this is a GI, this is the best thing that's ever happened to us,
+
+134
+00:09:05,265 --> 00:09:08,445
+Speaker 5:  et cetera, et cetera. But I've seen really positive reactions and I've seen
+
+135
+00:09:08,445 --> 00:09:12,165
+Speaker 5:  really cool use cases for it. And I jumped pretty quickly to asking
+
+136
+00:09:12,425 --> 00:09:16,325
+Speaker 5:  my coworkers what I should ask it because it's $200 and for some
+
+137
+00:09:16,325 --> 00:09:19,205
+Speaker 5:  reason I just don't have enough questions in the world that I think would
+
+138
+00:09:19,205 --> 00:09:20,765
+Speaker 5:  be good enough for this system.
+
+139
+00:09:20,855 --> 00:09:23,005
+Speaker 2:  She's not a curious enough person, cat. Apparently not. It's a
+
+140
+00:09:23,005 --> 00:09:26,045
+Speaker 5:  Real problem apparently. Someone said, what was it like, you know, a hundred
+
+141
+00:09:26,095 --> 00:09:28,845
+Speaker 5:  bears versus one bear was a question that someone asked on the internet.
+
+142
+00:09:28,885 --> 00:09:32,725
+Speaker 5:  I was like, I should get more creative here. But my first question was about
+
+143
+00:09:32,755 --> 00:09:34,525
+Speaker 5:  tariffs. And that's
+
+144
+00:09:34,525 --> 00:09:37,205
+Speaker 2:  So funny. That was my first question too. Really, this is what's going on
+
+145
+00:09:37,205 --> 00:09:40,085
+Speaker 2:  in the world right now is I'm, I'm like, what do I barely understand that
+
+146
+00:09:40,085 --> 00:09:42,125
+Speaker 2:  maybe the internet can teach me about? I was like, oh, it's tariffs,
+
+147
+00:09:42,135 --> 00:09:45,765
+Speaker 5:  Right? We yearn for more tariff information because it is so weird. So, but
+
+148
+00:09:45,765 --> 00:09:48,645
+Speaker 5:  that's a question I get asked a lot is how are these tariffs going to impact
+
+149
+00:09:48,645 --> 00:09:52,285
+Speaker 5:  the AI industry? And I'm like, so much is up in the air, I don't know. So
+
+150
+00:09:52,285 --> 00:09:56,085
+Speaker 5:  I asked, I asked a pretty detailed question because I figured a more detailed
+
+151
+00:09:56,285 --> 00:09:59,965
+Speaker 5:  question would get me a better result and it crashed like three times.
+
+152
+00:10:00,385 --> 00:10:04,365
+Speaker 5:  Oh boy. And it never gave me my answer. So I pinged OpenAI and I
+
+153
+00:10:04,365 --> 00:10:07,565
+Speaker 5:  was like, this is dog shit. And they fixed it and everything's been good
+
+154
+00:10:07,565 --> 00:10:07,805
+Speaker 5:  since.
+
+155
+00:10:08,305 --> 00:10:10,245
+Speaker 2:  So you're the reason it's good basically.
+
+156
+00:10:10,605 --> 00:10:14,125
+Speaker 5:  Right. My one question of like, I'm gonna write about how this is dog shit,
+
+157
+00:10:14,125 --> 00:10:15,085
+Speaker 5:  so can we figure this out?
+
+158
+00:10:15,825 --> 00:10:19,765
+Speaker 2:  So what's your understanding of what's going on here technically because
+
+159
+00:10:19,765 --> 00:10:23,365
+Speaker 2:  there's been this big thing with reasoning and chain of thought and this
+
+160
+00:10:23,365 --> 00:10:25,645
+Speaker 2:  idea that like these things should be allowed to take their time and show
+
+161
+00:10:25,645 --> 00:10:28,965
+Speaker 2:  their work and that will make them better. Is that all that deep research
+
+162
+00:10:29,065 --> 00:10:33,045
+Speaker 2:  is, or is there something else going on here that it's doing that's
+
+163
+00:10:33,045 --> 00:10:33,245
+Speaker 2:  different?
+
+164
+00:10:34,325 --> 00:10:38,125
+Speaker 5:  I think that most Frontier Labs have realized that inference
+
+165
+00:10:38,125 --> 00:10:42,005
+Speaker 5:  time compute and you know, the model thinking longer and giving it more time
+
+166
+00:10:42,005 --> 00:10:45,485
+Speaker 5:  to do its thing is sort of the next frontier. It's the next,
+
+167
+00:10:46,305 --> 00:10:49,325
+Speaker 5:  you know, parallel that we need, you know, more data,
+
+168
+00:10:50,555 --> 00:10:54,325
+Speaker 5:  more compute and inference time compute is gonna be really important.
+
+169
+00:10:54,425 --> 00:10:57,965
+Speaker 5:  And that's why we're seeing like these reasoning models crop up and sort
+
+170
+00:10:57,965 --> 00:11:01,725
+Speaker 5:  of my argument, I try to take the position of my angriest VERGE commenter
+
+171
+00:11:01,905 --> 00:11:05,645
+Speaker 5:  and I, and I think like, you know, well, okay, we're just getting
+
+172
+00:11:05,645 --> 00:11:08,725
+Speaker 5:  products that are slower. You know, like no one wants a product that is slower.
+
+173
+00:11:08,755 --> 00:11:12,605
+Speaker 5:  Yeah. And perhaps still inaccurate. I I think in the press release they
+
+174
+00:11:12,605 --> 00:11:16,125
+Speaker 5:  said, you know, deep research is still a prototype and it might get like
+
+175
+00:11:16,185 --> 00:11:19,445
+Speaker 5:  up to half of the things wrong. It, it gave some data point about how it
+
+176
+00:11:19,445 --> 00:11:22,605
+Speaker 5:  gets, it still gets a lot of things wrong. So it's hard to make that argument
+
+177
+00:11:22,605 --> 00:11:26,045
+Speaker 5:  for something that costs $200, still gets tons of things wrong and is slower.
+
+178
+00:11:26,585 --> 00:11:29,925
+Speaker 5:  But what I will give this whole
+
+179
+00:11:30,435 --> 00:11:34,365
+Speaker 5:  product idea in this whole industry is that it is so nascent and I still
+
+180
+00:11:34,365 --> 00:11:38,325
+Speaker 5:  think it's a cool thing to try out and you know, as long as you're not doing
+
+181
+00:11:38,325 --> 00:11:41,485
+Speaker 5:  it with high stakes tasks, you know, it's not your lawyer, your doctor or
+
+182
+00:11:41,565 --> 00:11:43,845
+Speaker 5:  anything like that. Right. I think it's a, it's a cool tool.
+
+183
+00:11:44,355 --> 00:11:48,165
+Speaker 2:  Yeah. I think one of the things I've spent a lot of time thinking about recently
+
+184
+00:11:48,425 --> 00:11:52,365
+Speaker 2:  is what the stakes are for things I should do with something like
+
+185
+00:11:52,545 --> 00:11:54,805
+Speaker 2:  ai. So like, lemme just give you an example of the thing I did with deep
+
+186
+00:11:55,005 --> 00:11:57,645
+Speaker 2:  research that I actually thought was really fascinating. So do you know what
+
+187
+00:11:57,645 --> 00:11:58,445
+Speaker 2:  Jet Flick is?
+
+188
+00:11:59,025 --> 00:11:59,245
+Speaker 5:  No.
+
+189
+00:11:59,745 --> 00:12:03,245
+Speaker 2:  So it was, it was basically this illegal streaming service that they built
+
+190
+00:12:03,245 --> 00:12:06,605
+Speaker 2:  some really interesting technology that basically went and combed like every
+
+191
+00:12:07,585 --> 00:12:11,285
+Speaker 2:  pirate site and torrenting system and just pulled
+
+192
+00:12:11,505 --> 00:12:15,485
+Speaker 2:  in all of the content they could possibly find illegally. And for $9
+
+193
+00:12:15,505 --> 00:12:18,765
+Speaker 2:  and 99 cents a month you could sign up and stream it. So it was like Netflix,
+
+194
+00:12:18,985 --> 00:12:22,925
+Speaker 2:  but crimes was like, literally the whole pitch ran super
+
+195
+00:12:22,925 --> 00:12:26,565
+Speaker 2:  successfully for a really long time. And then I think last
+
+196
+00:12:26,995 --> 00:12:30,965
+Speaker 2:  June, a bunch of people who were running it were convicted of
+
+197
+00:12:30,965 --> 00:12:34,885
+Speaker 2:  running it and just got sentenced like this past week. Wow. I I
+
+198
+00:12:34,885 --> 00:12:37,885
+Speaker 2:  find this all fascinating. I just told you literally every single fact I
+
+199
+00:12:37,885 --> 00:12:40,725
+Speaker 2:  know about Jet Flick and I was like, I feel like there's a story here. There's
+
+200
+00:12:40,725 --> 00:12:44,285
+Speaker 2:  something I wanna do. And so I just went to deep research and, and I was
+
+201
+00:12:44,285 --> 00:12:47,605
+Speaker 2:  basically like, where do I even start? Like tell me in, in
+
+202
+00:12:48,095 --> 00:12:51,485
+Speaker 2:  relatively short order, sort of the story of Jet Flex, did they have any
+
+203
+00:12:51,685 --> 00:12:54,685
+Speaker 2:  interesting technology? Who are the people? What are the legal fights going
+
+204
+00:12:54,685 --> 00:12:58,565
+Speaker 2:  on? It did a shockingly good job. Nice. It's,
+
+205
+00:12:58,565 --> 00:13:01,885
+Speaker 2:  it's a really interesting thing because I don't, I haven't thoroughly fact
+
+206
+00:13:01,885 --> 00:13:04,365
+Speaker 2:  checked it enough to know what it got wrong, and I'm sure it missed stuff
+
+207
+00:13:04,365 --> 00:13:08,325
+Speaker 2:  and got stuff wrong and like, it's not perfect. But in terms of like,
+
+208
+00:13:08,405 --> 00:13:12,205
+Speaker 2:  I went from knowing two facts about a thing to
+
+209
+00:13:12,205 --> 00:13:16,125
+Speaker 2:  having a pretty good, at least like textbook primer of a thing
+
+210
+00:13:16,125 --> 00:13:19,165
+Speaker 2:  that I can play with. I was really honestly impressed and it's relatively
+
+211
+00:13:19,165 --> 00:13:22,965
+Speaker 2:  well cited. There are a ton of links and like I, I
+
+212
+00:13:22,965 --> 00:13:25,645
+Speaker 2:  came to the end of that and I was like, oh, this is, this is actually useful.
+
+213
+00:13:25,645 --> 00:13:29,165
+Speaker 2:  Like, I'm a person who likes to like read Wikipedia pages
+
+214
+00:13:30,345 --> 00:13:34,125
+Speaker 2:  and I don't know, are Wikipedia pages famously always correct? No. And we,
+
+215
+00:13:34,145 --> 00:13:36,565
+Speaker 2:  we like kind of understand how that's supposed to work. And I got to this
+
+216
+00:13:36,565 --> 00:13:39,325
+Speaker 2:  point where I was like, is deep research just something I should think about
+
+217
+00:13:39,325 --> 00:13:41,645
+Speaker 2:  the way that I think about Wikipedia? Which is like a useful starting point
+
+218
+00:13:41,645 --> 00:13:45,125
+Speaker 2:  to understand something, but again, like, don't cite it in your paper or
+
+219
+00:13:45,125 --> 00:13:46,805
+Speaker 2:  your teacher will fail you. You know what I mean?
+
+220
+00:13:46,985 --> 00:13:50,645
+Speaker 5:  You totally wade into some fun AI drama that's happening post deep research
+
+221
+00:13:50,745 --> 00:13:54,645
+Speaker 5:  is that a researcher at OpenAI tweeted, I
+
+222
+00:13:54,645 --> 00:13:57,805
+Speaker 5:  feel bad, but he tweeted, you know, basically Wikipedia is dead and good
+
+223
+00:13:57,805 --> 00:14:00,805
+Speaker 5:  riddance because oh, interest we have, we have deep research and then people
+
+224
+00:14:00,825 --> 00:14:04,725
+Speaker 5:  are like, fuck you. Like he got so much
+
+225
+00:14:04,725 --> 00:14:07,005
+Speaker 5:  blow back. He ended up deleting the tweet, but it was, oh boy, you know,
+
+226
+00:14:07,385 --> 00:14:10,565
+Speaker 5:  that's some drama happening right now. Is, is this the end of Wikipedia?
+
+227
+00:14:10,565 --> 00:14:13,525
+Speaker 5:  But people were like, you guys train on Wikipedia, this is an awful thing.
+
+228
+00:14:13,765 --> 00:14:16,525
+Speaker 2:  I was gonna say without Wikipedia, this doesn't work. Yeah. So I think there's
+
+229
+00:14:16,525 --> 00:14:19,205
+Speaker 2:  that, there's that part of the whole thing. Exactly. That's really interesting.
+
+230
+00:14:19,345 --> 00:14:23,105
+Speaker 2:  Yes. But yeah, I, I sort of felt twinges of that. Like I, I
+
+231
+00:14:23,105 --> 00:14:25,545
+Speaker 2:  wouldn't have tweeted that because I've tweeted dumb things before and I
+
+232
+00:14:25,545 --> 00:14:29,105
+Speaker 2:  know what happens, but I felt it a little bit. It was, it was very interesting.
+
+233
+00:14:29,105 --> 00:14:32,625
+Speaker 2:  Totally. What else have you been doing with deep research? What, what have
+
+234
+00:14:32,625 --> 00:14:33,745
+Speaker 2:  you figured out to throw at it?
+
+235
+00:14:34,445 --> 00:14:37,345
+Speaker 5:  You know, the tariffs question was interesting and here's an era. I'm wondering
+
+236
+00:14:37,345 --> 00:14:40,105
+Speaker 5:  If you noticed this or If you looked at your query close enough to notice
+
+237
+00:14:40,105 --> 00:14:43,465
+Speaker 5:  this. But you know, all of my colleagues had
+
+238
+00:14:43,965 --> 00:14:47,905
+Speaker 5:  myriad of questions. Really, really variable. I think Sean asked me
+
+239
+00:14:47,905 --> 00:14:51,725
+Speaker 5:  about the smallest phones. Jess asked me about like, like the best like
+
+240
+00:14:51,725 --> 00:14:55,685
+Speaker 5:  horror movies, stuff like that. And I gave everyone their que and then
+
+241
+00:14:55,685 --> 00:14:59,645
+Speaker 5:  my editor Addie, who wrote about this, asked about section two 30. Is
+
+242
+00:14:59,645 --> 00:14:59,845
+Speaker 5:  that the
+
+243
+00:14:59,845 --> 00:15:01,565
+Speaker 2:  Right, she wrote a great piece about it by the way. Yes. We'll put it in
+
+244
+00:15:01,565 --> 00:15:05,485
+Speaker 2:  the show notes. But she did a, she like then called a scholar to go
+
+245
+00:15:05,485 --> 00:15:07,685
+Speaker 2:  through what she got back and it was, it was very good. So
+
+246
+00:15:07,685 --> 00:15:11,565
+Speaker 5:  Dope. So that was cool to give everyone their queries, but all
+
+247
+00:15:11,565 --> 00:15:15,165
+Speaker 5:  of them tended to have, oh, and Jake asked about Apple earnings and
+
+248
+00:15:15,505 --> 00:15:18,685
+Speaker 5:  we both agreed, you know, as I was watching it pool 10 Ks, I was like, oh
+
+249
+00:15:18,685 --> 00:15:22,085
+Speaker 5:  thank God I never have to do that again. You know, so like that's actually
+
+250
+00:15:22,085 --> 00:15:25,805
+Speaker 5:  useful. But all of these queries had the same issue, which is they
+
+251
+00:15:25,905 --> 00:15:29,725
+Speaker 5:  missed a whole year, they missed 2024, they stop at 2023. Oh,
+
+252
+00:15:29,885 --> 00:15:33,445
+Speaker 5:  interesting. And it's funny because in that same Reddit, a MA Sam Altman
+
+253
+00:15:33,665 --> 00:15:36,885
+Speaker 5:  was asked about, you know, the knowledge cutoff and he's like, oh, I don't
+
+254
+00:15:36,885 --> 00:15:39,245
+Speaker 5:  think about the knowledge cutoff at all anymore because we have web search,
+
+255
+00:15:39,785 --> 00:15:43,325
+Speaker 5:  but clearly like there's some sort of training bug there that
+
+256
+00:15:43,385 --> 00:15:47,165
+Speaker 5:  misses a whole year. So that's really annoying because when
+
+257
+00:15:47,185 --> 00:15:50,565
+Speaker 5:  I'm asking for deep research on something, I want the most UpToDate
+
+258
+00:15:50,565 --> 00:15:52,565
+Speaker 5:  information. So hopefully they figure that
+
+259
+00:15:52,565 --> 00:15:56,285
+Speaker 2:  Out. Yeah. It turns out like a lot of stuff happened between 2023 and today,
+
+260
+00:15:56,285 --> 00:15:58,445
+Speaker 2:  believe it or not. Yeah. Some things went down.
+
+261
+00:15:58,715 --> 00:16:02,645
+Speaker 5:  Exactly. So I kept running into that error. But another thing,
+
+262
+00:16:03,265 --> 00:16:07,125
+Speaker 5:  not to totally shit on it, but like during my tariff query I thought this
+
+263
+00:16:07,125 --> 00:16:11,005
+Speaker 5:  is kind of annoying to read. Like I just don't know how, how you would
+
+264
+00:16:11,005 --> 00:16:14,925
+Speaker 5:  change the interface for such a thing. But it was just, it was a block
+
+265
+00:16:14,925 --> 00:16:17,605
+Speaker 5:  of text where I was already snoring by the end. But I guess that's what I
+
+266
+00:16:17,605 --> 00:16:21,565
+Speaker 5:  get for asking about tariffs. But yeah, like I saw a really cool use
+
+267
+00:16:21,565 --> 00:16:25,125
+Speaker 5:  case from a researcher at OpenAI who posted like, you know, he
+
+268
+00:16:25,575 --> 00:16:29,405
+Speaker 5:  picks a topic and like every day before bed he reads the deep
+
+269
+00:16:29,645 --> 00:16:32,445
+Speaker 5:  research on that topic. And I thought that's, that's kind of cool.
+
+270
+00:16:33,075 --> 00:16:36,685
+Speaker 2:  Yeah. I don't know if that's fascinating or terrifying or a little bit of
+
+271
+00:16:36,685 --> 00:16:38,685
+Speaker 2:  both. Probably a little bit of both. Sure. But it makes me think of like,
+
+272
+00:16:39,355 --> 00:16:43,325
+Speaker 2:  I've used Notebook LM from Google a lot for similar sorts of
+
+273
+00:16:43,325 --> 00:16:46,685
+Speaker 2:  things. I just find like the, it's process of outputting stuff really fascinating
+
+274
+00:16:47,065 --> 00:16:50,925
+Speaker 2:  and it like OpenAI needs more notebook
+
+275
+00:16:51,065 --> 00:16:54,285
+Speaker 2:  LM things where like that fake podcast that notebook LM makes
+
+276
+00:16:54,945 --> 00:16:58,765
+Speaker 2:  is very compelling. Like a lot of people really like it. Yeah. And it's
+
+277
+00:16:58,765 --> 00:17:01,565
+Speaker 2:  really good at making flashcards and it's really good at making study guides.
+
+278
+00:17:01,565 --> 00:17:04,525
+Speaker 2:  And I think I kept being struck through this whole thing by
+
+279
+00:17:05,705 --> 00:17:09,245
+Speaker 2:  OpenAI is still stuck on the idea that you can do all of this in a chat
+
+280
+00:17:09,245 --> 00:17:12,965
+Speaker 2:  interface and it's just wrong about that. Like yeah.
+
+281
+00:17:13,025 --> 00:17:16,525
+Speaker 2:  The idea that what I actually want is what looks like a text message but
+
+282
+00:17:16,525 --> 00:17:18,085
+Speaker 2:  it's 9,000 words long
+
+283
+00:17:20,025 --> 00:17:23,725
+Speaker 2:  is incorrect. Yeah. And and I think there's still some like UI and
+
+284
+00:17:24,015 --> 00:17:27,965
+Speaker 2:  human factor interface stuff here that OpenAI has not done.
+
+285
+00:17:27,965 --> 00:17:30,565
+Speaker 2:  Totally. Which brings us to operator, which is the other thing I wanna talk
+
+286
+00:17:30,565 --> 00:17:34,405
+Speaker 2:  about, which is I think if you're OpenAI, this is the
+
+287
+00:17:34,405 --> 00:17:37,845
+Speaker 2:  thing you hope Sure works, right? Like this is the thing, right?
+
+288
+00:17:38,185 --> 00:17:41,365
+Speaker 2:  Am I, am I crazy? Like the operator if is the one that
+
+289
+00:17:41,995 --> 00:17:45,165
+Speaker 2:  when it works is gonna be the one that everybody thinks is like going to
+
+290
+00:17:45,165 --> 00:17:46,285
+Speaker 2:  change the way we do everything forever.
+
+291
+00:17:46,635 --> 00:17:49,685
+Speaker 5:  Yeah, well everyone's building the exact same thing. Anthropic has, I think
+
+292
+00:17:49,965 --> 00:17:53,445
+Speaker 5:  computer use Google is doing Project Mariner and it's funny, when I was,
+
+293
+00:17:53,475 --> 00:17:57,125
+Speaker 5:  when I used Operator for the first time, it's, it's,
+
+294
+00:17:57,725 --> 00:18:01,565
+Speaker 5:  I, it's weird because I'm like, this is so slow. I could make this
+
+295
+00:18:01,565 --> 00:18:04,165
+Speaker 5:  reservation in two seconds, why am I using this? But when I watch Project
+
+296
+00:18:04,235 --> 00:18:08,125
+Speaker 5:  Mariner at the Google campus get groceries for me, I was actually
+
+297
+00:18:08,125 --> 00:18:10,765
+Speaker 5:  pretty compelled by that and I don't, I don't know what the interesting,
+
+298
+00:18:10,965 --> 00:18:13,445
+Speaker 5:  I don't know what the difference is maybe 'cause this is in my hands and
+
+299
+00:18:13,445 --> 00:18:16,245
+Speaker 5:  not useful. Whereas that was a demo. But yeah, I don't know.
+
+300
+00:18:16,825 --> 00:18:19,445
+Speaker 2:  So what have you done with operator? So operator's thing, I should just explain
+
+301
+00:18:19,445 --> 00:18:22,005
+Speaker 2:  how it works because I was sort of surprised at how it works. Yeah. It's
+
+302
+00:18:22,005 --> 00:18:25,885
+Speaker 2:  much more basic than I realize you, you open operator, which is
+
+303
+00:18:25,895 --> 00:18:29,725
+Speaker 2:  again, I think only available to chat GPT Pro customers who have $200
+
+304
+00:18:29,805 --> 00:18:32,085
+Speaker 2:  a month to spend on this Thank you Vox Media
+
+305
+00:18:33,665 --> 00:18:37,005
+Speaker 2:  and you, you type in your query and it literally just opens
+
+306
+00:18:37,505 --> 00:18:41,485
+Speaker 2:  Chrome. Yeah. Inside of chat GPT and starts doing web
+
+307
+00:18:41,485 --> 00:18:45,405
+Speaker 2:  things for you. Like it, it browses the web kind of like
+
+308
+00:18:45,445 --> 00:18:49,325
+Speaker 2:  a person in a way that I found sort of unnerving. But it just opens
+
+309
+00:18:49,325 --> 00:18:52,805
+Speaker 2:  up a Chrome tab and at least in my experience, every single time
+
+310
+00:18:53,415 --> 00:18:54,525
+Speaker 2:  Bings something. Yes,
+
+311
+00:18:54,605 --> 00:18:55,365
+Speaker 5:  I was gonna say Bing.
+
+312
+00:18:55,365 --> 00:18:57,925
+Speaker 2:  Which is the first thing about it that I don't trust. Yes. Don't like that
+
+313
+00:18:57,925 --> 00:19:01,565
+Speaker 2:  at all. So, and then, but then it goes and like tries to
+
+314
+00:19:02,875 --> 00:19:06,805
+Speaker 2:  with clicks and typing and normal web stuff accomplish all of your goals
+
+315
+00:19:06,805 --> 00:19:08,285
+Speaker 2:  for you. So what have you tried with operator?
+
+316
+00:19:08,705 --> 00:19:10,965
+Speaker 5:  Did you try to break it yet? Because that was the first thing when I noticed
+
+317
+00:19:11,085 --> 00:19:14,925
+Speaker 5:  I could click around in their little like, you know, siloed chrome.
+
+318
+00:19:15,085 --> 00:19:16,645
+Speaker 5:  I was like, how do I break this immediately?
+
+319
+00:19:16,995 --> 00:19:18,765
+Speaker 2:  It's rude of you let the computer do its work.
+
+320
+00:19:19,405 --> 00:19:22,765
+Speaker 5:  I know now I feel bad, but seriously I'm like how I want, I wanna crash this
+
+321
+00:19:22,765 --> 00:19:26,645
+Speaker 5:  thing. I di I didn't succeed. I asked my friends pretty immediately, you
+
+322
+00:19:26,645 --> 00:19:29,685
+Speaker 5:  know, where should we go to dinner? And my friend recommended a place, I
+
+323
+00:19:29,685 --> 00:19:33,125
+Speaker 5:  put it into operator and I watched it click around and it was so painfully
+
+324
+00:19:33,125 --> 00:19:37,005
+Speaker 5:  slow and then it gets to like the checkout and it was $250
+
+325
+00:19:37,125 --> 00:19:40,005
+Speaker 5:  a person. I was like, my friend fucking sucks. I'm not doing that. Goodness.
+
+326
+00:19:40,315 --> 00:19:42,805
+Speaker 2:  Yeah. I don't like very many people that much. Yeah.
+
+327
+00:19:42,945 --> 00:19:46,725
+Speaker 5:  So I'm going to Japan in a few weeks, asked my mom what I should do
+
+328
+00:19:46,785 --> 00:19:50,485
+Speaker 5:  and she asked, you know, like tell it to book our train tickets. Asked it
+
+329
+00:19:50,485 --> 00:19:51,005
+Speaker 5:  to do that.
+
+330
+00:19:52,845 --> 00:19:56,645
+Speaker 5:  I didn't find the use cases so compelling for how slow it is because I'm,
+
+331
+00:19:56,725 --> 00:20:00,405
+Speaker 5:  I think I'm just naturally sort of neurotic and impatient. So watching it
+
+332
+00:20:00,745 --> 00:20:04,045
+Speaker 5:  do something for me when I could just do it faster myself made me feel a
+
+333
+00:20:04,045 --> 00:20:07,965
+Speaker 5:  little crazy even though I could see, you know, if this is the
+
+334
+00:20:07,965 --> 00:20:11,165
+Speaker 5:  start of this technology, I can only imagine how much better it gets over
+
+335
+00:20:11,165 --> 00:20:14,645
+Speaker 5:  time. But yeah, pretty quickly I got frustrated with it and then I told David,
+
+336
+00:20:14,705 --> 00:20:18,085
+Speaker 5:  do you wanna take this article? 'cause I'm, I'm annoyed with this technology
+
+337
+00:20:18,505 --> 00:20:21,965
+Speaker 2:  And then you wanna know the first thing I did? Hmm. I told it to go to the
+
+338
+00:20:21,985 --> 00:20:25,685
+Speaker 2:  Amtrak website to try and book train tickets because the Amtrak
+
+339
+00:20:25,685 --> 00:20:29,485
+Speaker 2:  website is the single worst website that I interact with on a
+
+340
+00:20:29,485 --> 00:20:33,245
+Speaker 2:  day-to-day basis. And so I was like, I wonder if Chad GPT can figure this
+
+341
+00:20:33,245 --> 00:20:36,445
+Speaker 2:  out. It is horribly designed. It's broken all the time. Yeah.
+
+342
+00:20:37,425 --> 00:20:40,805
+Speaker 2:  And I had the most vindicating experience, so I was like, tell me the price
+
+343
+00:20:40,905 --> 00:20:44,485
+Speaker 2:  of a round trip train ticket from Washington DC to New York tomorrow. Just
+
+344
+00:20:44,485 --> 00:20:47,565
+Speaker 2:  wanna know what it costs. And it like, it asked me follow up questions, which
+
+345
+00:20:47,565 --> 00:20:50,445
+Speaker 2:  it always does. And this took me a minute to get used to both in deep research
+
+346
+00:20:50,585 --> 00:20:54,405
+Speaker 2:  and in operator. You like plug it in and you're like, okay, I'm gonna
+
+347
+00:20:54,545 --> 00:20:57,405
+Speaker 2:  go away and wait for it to come back with information. But almost always
+
+348
+00:20:57,405 --> 00:21:01,205
+Speaker 2:  it has follow up questions. Yeah. Which I get and it's trying to sort of
+
+349
+00:21:01,205 --> 00:21:03,445
+Speaker 2:  refine your prompt and that all makes sense, but it's also kind of annoying.
+
+350
+00:21:03,465 --> 00:21:06,405
+Speaker 2:  I'm like, just just shut up. Just go do it. I asked you a simple question.
+
+351
+00:21:06,405 --> 00:21:10,325
+Speaker 2:  Yeah. But anyway, so it follows up and then it goes, it opens a Chrome tab,
+
+352
+00:21:10,345 --> 00:21:14,205
+Speaker 2:  it goes to amtrak.com, it pretty successfully plugs in
+
+353
+00:21:14,385 --> 00:21:17,765
+Speaker 2:  the, the days I wanna go. And then it asks me for confirmation that this
+
+354
+00:21:17,765 --> 00:21:20,565
+Speaker 2:  is what I wanna search for. And I'm like, again, if I have to sit here and
+
+355
+00:21:20,565 --> 00:21:24,205
+Speaker 2:  babysit this, right. What is the point of this? Like it's actually
+
+356
+00:21:24,475 --> 00:21:28,205
+Speaker 2:  less efficient because it's slower and I just have to sit here and watch
+
+357
+00:21:28,305 --> 00:21:32,205
+Speaker 2:  in case you have questions for me. Yeah. Didn't like that. But
+
+358
+00:21:32,205 --> 00:21:36,005
+Speaker 2:  then it found a train ticket to,
+
+359
+00:21:36,065 --> 00:21:38,685
+Speaker 2:  to go to New York. I'm in DC it found a train ticket to go to New York and
+
+360
+00:21:38,685 --> 00:21:42,325
+Speaker 2:  then tried to go and find the return ticket and the Amtrak
+
+361
+00:21:42,405 --> 00:21:44,965
+Speaker 2:  website crashed and sent it all the way back to the beginning. And I was
+
+362
+00:21:44,965 --> 00:21:48,565
+Speaker 2:  very impressed because it, it figured out what had happened. Wow. And started
+
+363
+00:21:48,565 --> 00:21:52,205
+Speaker 2:  the process over and actually just ran the process again, got through the
+
+364
+00:21:52,205 --> 00:21:56,125
+Speaker 2:  thing and it shows you the steps as you're going. So it was like,
+
+365
+00:21:56,785 --> 00:22:00,605
+Speaker 2:  it said something like trying the amtrak.com again and it goes through the
+
+366
+00:22:00,605 --> 00:22:04,405
+Speaker 2:  same thing and it crashed in the same spot. And it was like, I'm just imagining
+
+367
+00:22:04,405 --> 00:22:07,605
+Speaker 2:  this little robot just getting increasingly frustrated. Yeah. And so then
+
+368
+00:22:07,605 --> 00:22:11,085
+Speaker 2:  it goes back to being searches for train tickets, finds a whole different
+
+369
+00:22:11,085 --> 00:22:15,005
+Speaker 2:  like third party booking website that had as best as I can tell, completely
+
+370
+00:22:15,005 --> 00:22:18,885
+Speaker 2:  wrong information about Amtrak tickets. Ooh. Does the thing. And then
+
+371
+00:22:19,085 --> 00:22:22,805
+Speaker 2:  presents it to me as like, here are the prices of D Amtrak ticket. Do you
+
+372
+00:22:22,805 --> 00:22:26,045
+Speaker 2:  wanna book it? And I'm, I'm on like a website I've never heard of. Yeah.
+
+373
+00:22:26,045 --> 00:22:29,845
+Speaker 2:  And I was like, no, no, but thank you. But it was really fascinating. I was
+
+374
+00:22:29,845 --> 00:22:33,405
+Speaker 2:  like, on the one hand this is actually pretty resilient, impressive
+
+375
+00:22:33,405 --> 00:22:36,725
+Speaker 2:  technology. Like it, it sure understands what it's doing enough to
+
+376
+00:22:36,895 --> 00:22:40,765
+Speaker 2:  compensate for things that go wrong. Which is pretty cool. What
+
+377
+00:22:40,765 --> 00:22:43,285
+Speaker 2:  we've seen with a lot of these models is they just like, once they're off
+
+378
+00:22:43,285 --> 00:22:46,125
+Speaker 2:  track, they just keep getting further and further and further off track and
+
+379
+00:22:46,125 --> 00:22:49,525
+Speaker 2:  Yeah. With all of these thinking models, one thing they're able to do is
+
+380
+00:22:49,525 --> 00:22:52,965
+Speaker 2:  be like, oh, I'm off track and go back and start over. Which is cool. But
+
+381
+00:22:52,965 --> 00:22:55,405
+Speaker 2:  then it got to the end and I was like this, we accomplished nothing. Yeah.
+
+382
+00:22:55,405 --> 00:22:58,525
+Speaker 2:  Which took 10 minutes and I had to sit here and babysit it and we accomplished
+
+383
+00:22:58,525 --> 00:23:02,505
+Speaker 2:  nothing. The one good experience I had, again thinking about like
+
+384
+00:23:02,605 --> 00:23:06,385
+Speaker 2:  stakes, right? I was like, what? I've been rewatching Schitt's Creek
+
+385
+00:23:06,525 --> 00:23:09,505
+Speaker 2:  for the nice 9000th time because it's the greatest show in the history of
+
+386
+00:23:09,505 --> 00:23:13,305
+Speaker 2:  television. And I was like, find me some fun SCHs Creek
+
+387
+00:23:13,355 --> 00:23:17,345
+Speaker 2:  merch. So I went, had it go it, it went to Bing and then I
+
+388
+00:23:17,345 --> 00:23:20,985
+Speaker 2:  think landed on Etsy and then as far as I can tell, just like combed the
+
+389
+00:23:20,985 --> 00:23:24,825
+Speaker 2:  page for things with a high number of five star reviews. Oh.
+
+390
+00:23:24,965 --> 00:23:28,945
+Speaker 2:  And just opened three tabs with pretty cool, highly
+
+391
+00:23:29,345 --> 00:23:31,625
+Speaker 2:  reviewed Schitt's Creek merch. Hmm. I was like, that's that's a victory,
+
+392
+00:23:31,625 --> 00:23:35,385
+Speaker 2:  right? Like you just, you just did a thing that I would've done roughly the
+
+393
+00:23:35,385 --> 00:23:39,085
+Speaker 2:  same way. Yeah. But I didn't have to do it. Love it, I'll take it. And then
+
+394
+00:23:39,085 --> 00:23:40,125
+Speaker 2:  I was like, okay, do you want
+
+395
+00:23:41,665 --> 00:23:45,085
+Speaker 2:  the, do you want the the mug or the key chain or the greeting cards? And
+
+396
+00:23:45,125 --> 00:23:46,885
+Speaker 2:  I was like, I'll take the greeting cards. And I was like, okay, you can get
+
+397
+00:23:46,885 --> 00:23:49,085
+Speaker 2:  one for this price or two for this price. I was like, okay, I'll take two.
+
+398
+00:23:49,185 --> 00:23:51,965
+Speaker 2:  And it says, great, it's all in your cart. Here's the link. Sends me the
+
+399
+00:23:51,965 --> 00:23:53,725
+Speaker 2:  link, I click on it, guess what happens?
+
+400
+00:23:53,955 --> 00:23:54,445
+Speaker 5:  They're
+
+401
+00:23:54,445 --> 00:23:57,925
+Speaker 2:  Not there. My cart's empty because it wasn't in my cart, it was in this virtual
+
+402
+00:23:58,405 --> 00:24:01,965
+Speaker 2:  computer's chrome cart. And there, this is the thing, there's this like
+
+403
+00:24:02,705 --> 00:24:05,805
+Speaker 2:  at every time I've used operator there's this fundamental disconnect where
+
+404
+00:24:05,805 --> 00:24:09,765
+Speaker 2:  it actually can't do the job because it's not on my computer. Yeah. And
+
+405
+00:24:09,765 --> 00:24:12,485
+Speaker 2:  I don't know if I want it to be or not. That's a separate question. But like
+
+406
+00:24:12,985 --> 00:24:16,085
+Speaker 2:  it actually doesn't have access to all of the stuff that I need, which is
+
+407
+00:24:16,085 --> 00:24:19,485
+Speaker 2:  like, yeah. My shipping address and my credit card number and all of this
+
+408
+00:24:19,485 --> 00:24:23,215
+Speaker 2:  stuff and like it can't even send me a cart
+
+409
+00:24:23,485 --> 00:24:27,375
+Speaker 2:  because it's on a virtual computer somewhere and not on my computer.
+
+410
+00:24:27,485 --> 00:24:27,775
+Speaker 2:  Well
+
+411
+00:24:27,775 --> 00:24:30,535
+Speaker 5:  You could sign in. I feel like that would've changed the outcome If you had
+
+412
+00:24:30,535 --> 00:24:32,095
+Speaker 5:  signed into Etsy or wherever it was.
+
+413
+00:24:32,875 --> 00:24:36,615
+Speaker 2:  Yes. If I had gone to Etsy on the virtual computer and signed in, but that's
+
+414
+00:24:36,615 --> 00:24:40,295
+Speaker 2:  not what it had me do. It just sent me a link. Yeah. On in the, in the chat
+
+415
+00:24:40,295 --> 00:24:43,055
+Speaker 2:  GB BT message. It was just like, here's your cart. And I clicked it and I
+
+416
+00:24:43,055 --> 00:24:46,415
+Speaker 2:  said, your cart is empty. Perfect. I was just like, there's, there's it.
+
+417
+00:24:46,445 --> 00:24:50,015
+Speaker 2:  It's doing something cool. But there is so much left to do before this stuff
+
+418
+00:24:50,295 --> 00:24:52,935
+Speaker 2:  actually works on your behalf. And I was just like, I was like, I can see
+
+419
+00:24:52,935 --> 00:24:56,255
+Speaker 2:  it but we're not there yet. Totally. And I'm not even sure we're all that
+
+420
+00:24:56,255 --> 00:24:56,415
+Speaker 2:  close.
+
+421
+00:24:56,875 --> 00:25:00,415
+Speaker 5:  And why do you think that OpenAI released this
+
+422
+00:25:00,675 --> 00:25:04,535
+Speaker 5:  on that $200 tier and Project Mariner is not getting released in
+
+423
+00:25:04,535 --> 00:25:08,335
+Speaker 5:  the same way? Because it's, they're essentially the exact same thing. I
+
+424
+00:25:08,335 --> 00:25:10,215
+Speaker 5:  don't understand why Google's holding theirs back.
+
+425
+00:25:10,685 --> 00:25:14,295
+Speaker 2:  Okay. I have a theory about this. Okay. It's based on nothing. But I also
+
+426
+00:25:14,295 --> 00:25:18,215
+Speaker 2:  think I'm right and I, I'm curious what you think. So I think if
+
+427
+00:25:18,215 --> 00:25:22,135
+Speaker 2:  you're OpenAI, you have a bunch of people who pay $200 a month for
+
+428
+00:25:22,135 --> 00:25:24,935
+Speaker 2:  this thing that is by definition going to be a group of people who really
+
+429
+00:25:24,935 --> 00:25:28,135
+Speaker 2:  believe in ai, right? Yeah. Like it's, that is so perfectly self-selected
+
+430
+00:25:28,675 --> 00:25:32,575
+Speaker 2:  for people who want to use the bleeding edge stuff. There's kind of no
+
+431
+00:25:32,575 --> 00:25:35,775
+Speaker 2:  risk for OpenAI, right? Like these, these are people predisposed to thinking
+
+432
+00:25:35,775 --> 00:25:38,695
+Speaker 2:  it's cool and who want to try it and test it and poke at the edges of it
+
+433
+00:25:38,715 --> 00:25:42,375
+Speaker 2:  but aren't obviously this is not a mainstream thing. It's
+
+434
+00:25:42,375 --> 00:25:45,855
+Speaker 2:  $200 a month. Yeah. Google on the other hand I think is
+
+435
+00:25:45,855 --> 00:25:49,775
+Speaker 2:  increasingly only interested in mainstream things. Like Google seems
+
+436
+00:25:49,775 --> 00:25:53,575
+Speaker 2:  totally uninterested in rolling out AI experiments
+
+437
+00:25:53,575 --> 00:25:57,135
+Speaker 2:  because every time it does it backfires. Yeah. Right. And it's a mess and
+
+438
+00:25:57,135 --> 00:26:01,095
+Speaker 2:  it tells you to put glue on your pizza. And so I think what Google
+
+439
+00:26:01,195 --> 00:26:05,155
+Speaker 2:  has learned is like there's only value in this stuff if we can put it
+
+440
+00:26:05,155 --> 00:26:09,115
+Speaker 2:  in front of a billion people. And yeah. We have to get that more right
+
+441
+00:26:09,115 --> 00:26:12,035
+Speaker 2:  than we have. Whereas OpenAI is like sick. We have this group of people who
+
+442
+00:26:12,035 --> 00:26:15,875
+Speaker 2:  just loves AI to pieces and we can just throw every
+
+443
+00:26:15,875 --> 00:26:18,515
+Speaker 2:  experiment we have at them. Which I think in a certain way was kind of genius
+
+444
+00:26:18,615 --> 00:26:22,475
+Speaker 2:  of OpenAI to like create this tier of people. They seem to be losing money
+
+445
+00:26:22,495 --> 00:26:26,355
+Speaker 2:  on hand over fist. But sure it's a good idea to like put that group
+
+446
+00:26:26,355 --> 00:26:28,755
+Speaker 2:  of people in a bucket together and be like, we're just all gonna experiment
+
+447
+00:26:28,915 --> 00:26:31,435
+Speaker 2:  together over here. That's my theory. Totally.
+
+448
+00:26:31,995 --> 00:26:35,475
+Speaker 5:  I agree. I think, you know, also I felt Google doesn't have to worry about
+
+449
+00:26:35,475 --> 00:26:39,275
+Speaker 5:  this 'cause they have buckets of money, but you know, it feels
+
+450
+00:26:39,275 --> 00:26:42,995
+Speaker 5:  deeply abusive to the GPUs. Whenever I use deep research I'm like, oh
+
+451
+00:26:43,145 --> 00:26:47,005
+Speaker 5:  my God, I have burned so much trying to get this one query I
+
+452
+00:26:47,005 --> 00:26:50,445
+Speaker 5:  don't really care about and I don't really have a choice on refining it after
+
+453
+00:26:50,505 --> 00:26:54,365
+Speaker 5:  it starts. And so, so yeah. I see. I really do see
+
+454
+00:26:54,365 --> 00:26:57,725
+Speaker 5:  the potential of both deep research and operator. Both are
+
+455
+00:26:57,725 --> 00:27:01,645
+Speaker 5:  fundamentally like frustrating to use and I don't
+
+456
+00:27:01,685 --> 00:27:04,805
+Speaker 5:  have a ton of use cases that would make them a part of my everyday life.
+
+457
+00:27:05,145 --> 00:27:09,045
+Speaker 5:  But I do use AI tools quite a bit. What I factor
+
+458
+00:27:09,195 --> 00:27:13,045
+Speaker 5:  into what I want is I want it to be accurate and fast. And neither of these
+
+459
+00:27:13,045 --> 00:27:14,925
+Speaker 5:  tools are there. No at all.
+
+460
+00:27:15,425 --> 00:27:18,365
+Speaker 2:  At all. They're neither of those things. No. So what, what are you using
+
+461
+00:27:18,365 --> 00:27:21,365
+Speaker 2:  it for right now, day to day? Because I think we, we did a thing on the show
+
+462
+00:27:21,635 --> 00:27:24,405
+Speaker 2:  last week where we just had a bunch of people call in and tell us what they
+
+463
+00:27:24,405 --> 00:27:27,965
+Speaker 2:  use AI for. And overwhelmingly it was pretty
+
+464
+00:27:29,065 --> 00:27:32,605
+Speaker 2:  low stake stuff but also just conversational. Like people just want
+
+465
+00:27:32,955 --> 00:27:36,205
+Speaker 2:  something to hang out with and talk to and get ideas from. And
+
+466
+00:27:36,665 --> 00:27:40,565
+Speaker 2:  that's that both like is and isn't a tool in the sense
+
+467
+00:27:40,565 --> 00:27:43,365
+Speaker 2:  that we're talking about. Yeah. But I'm curious from your perspective, like
+
+468
+00:27:43,365 --> 00:27:46,045
+Speaker 2:  what, what have you found that's actually working for you in day-to-day life?
+
+469
+00:27:46,315 --> 00:27:50,285
+Speaker 5:  What I use it for is I use Claude. I am obsessed with
+
+470
+00:27:50,285 --> 00:27:53,245
+Speaker 5:  Claude. I think it's really, it has a really good personality. It's very
+
+471
+00:27:53,245 --> 00:27:57,165
+Speaker 5:  conversational, it understands nuance. And what
+
+472
+00:27:57,285 --> 00:28:00,765
+Speaker 5:  really changed the tides for me is when I was working late, it was like seven
+
+473
+00:28:00,765 --> 00:28:04,645
+Speaker 5:  or 8:00 PM here and I had this like 5,000 word story and I had just
+
+474
+00:28:04,805 --> 00:28:08,285
+Speaker 5:  finished it and I'm like, okay, before I hand this over, let me plug it into
+
+475
+00:28:08,285 --> 00:28:12,085
+Speaker 5:  here and you tell me what you think. Because I had been like cracked out
+
+476
+00:28:12,085 --> 00:28:15,965
+Speaker 5:  on this, I don't know if the flow is good and I feel bad delivering it if
+
+477
+00:28:16,265 --> 00:28:20,245
+Speaker 5:  if it's just like complete shit. So tell me if it's complete shit. And it
+
+478
+00:28:20,245 --> 00:28:24,005
+Speaker 5:  focused on TKs which are like just like empty spaces where I'm gonna put
+
+479
+00:28:24,005 --> 00:28:26,605
+Speaker 5:  in more information later. And I was like, no, don't focus on that. Focus
+
+480
+00:28:26,605 --> 00:28:29,885
+Speaker 5:  on the actual substance and like how I organized it. And then I was like,
+
+481
+00:28:29,885 --> 00:28:32,605
+Speaker 5:  okay. And then it switched into this casual mode and one of the notes that
+
+482
+00:28:32,605 --> 00:28:35,965
+Speaker 5:  really stood out to me, it was like, you say this one thing and then immediately
+
+483
+00:28:35,965 --> 00:28:39,205
+Speaker 5:  it's like you apologize and undercut yourself so don't do that. And I was
+
+484
+00:28:39,205 --> 00:28:41,845
+Speaker 5:  like, man, that's something Kevin would tell me something an editor would
+
+485
+00:28:41,845 --> 00:28:45,685
+Speaker 5:  tell me that's, that's actually really interesting and compelling and I
+
+486
+00:28:45,685 --> 00:28:49,445
+Speaker 5:  can't believe it said that or caught that. And yeah, I, so I use
+
+487
+00:28:49,445 --> 00:28:53,405
+Speaker 5:  Claude for that. Or sometimes I'm like, what am I trying to say here? It's
+
+488
+00:28:53,405 --> 00:28:56,645
+Speaker 5:  all a variation of what made me use CHA PT for the very first time,
+
+489
+00:28:57,095 --> 00:29:00,885
+Speaker 5:  which is I, I had tweeted like average day for me and it was me
+
+490
+00:29:00,885 --> 00:29:04,805
+Speaker 5:  googling how to say like a cuss word politely in writing. And someone was
+
+491
+00:29:04,805 --> 00:29:08,725
+Speaker 5:  like, this is exactly what I used Chachi PT for and I had been staunchly
+
+492
+00:29:08,725 --> 00:29:12,685
+Speaker 5:  against it. I was like, no, I don't wanna use that stupid. Like I was, I
+
+493
+00:29:12,685 --> 00:29:16,325
+Speaker 5:  really was not about it. And then I used it for synonyms 'cause I'm always
+
+494
+00:29:16,325 --> 00:29:20,085
+Speaker 5:  like, what am I trying to say here? And that was my first use case and now
+
+495
+00:29:20,085 --> 00:29:23,845
+Speaker 5:  it's just more advanced versions of that. Like, okay, I'm going to type a
+
+496
+00:29:23,845 --> 00:29:26,365
+Speaker 5:  bunch of stuff, do you understand what I'm saying? Like where could I like
+
+497
+00:29:26,545 --> 00:29:30,325
+Speaker 5:  be more concise? And yeah, I think it's really helpful in those.
+
+498
+00:29:30,465 --> 00:29:34,285
+Speaker 5:  But, and, and I said this for our vergecast like
+
+499
+00:29:35,025 --> 00:29:38,965
+Speaker 5:  end of year stuff was, you know, I use search GPT quite
+
+500
+00:29:38,965 --> 00:29:42,645
+Speaker 5:  a bit a little less often now because it just isn't reliable.
+
+501
+00:29:42,825 --> 00:29:46,645
+Speaker 5:  But I find it helpful for getting links, whereas Google has just failed
+
+502
+00:29:46,665 --> 00:29:47,725
+Speaker 5:  me in that regard.
+
+503
+00:29:48,075 --> 00:29:51,965
+Speaker 2:  Yeah. Google not created links, which you would think would
+
+504
+00:29:51,965 --> 00:29:55,205
+Speaker 2:  be a thing Google knew how to do. That's right. Yeah. There's, there's another
+
+505
+00:29:55,205 --> 00:29:59,165
+Speaker 2:  thing we're gonna have to do here at some point about how Google just incredibly
+
+506
+00:30:00,045 --> 00:30:03,085
+Speaker 2:  fumbled the bag on all of this stuff because what everybody is just looking
+
+507
+00:30:03,085 --> 00:30:06,965
+Speaker 2:  for is like, what if Google was good and it isn't. But at any rate,
+
+508
+00:30:07,325 --> 00:30:10,765
+Speaker 2:  I think there's a, there's a thing in that interaction that I find really
+
+509
+00:30:10,965 --> 00:30:14,805
+Speaker 2:  interesting, which is like, AI is fine as long
+
+510
+00:30:14,805 --> 00:30:18,245
+Speaker 2:  as it's not the last step in the process. Like this is kind of what I'm coming
+
+511
+00:30:18,245 --> 00:30:21,445
+Speaker 2:  to is Yeah. Like I think, I think with the danger of something like deep
+
+512
+00:30:21,645 --> 00:30:25,165
+Speaker 2:  research is that it seems very confident, it looks very well sourced, it
+
+513
+00:30:25,165 --> 00:30:28,125
+Speaker 2:  took its time and so you're like, okay, this thing is authoritative. Yep.
+
+514
+00:30:28,595 --> 00:30:31,765
+Speaker 2:  It's gonna be wrong about a lot of things. It's gonna miss important nuance,
+
+515
+00:30:31,765 --> 00:30:35,125
+Speaker 2:  it's gonna miss whole years of time that are very important.
+
+516
+00:30:36,465 --> 00:30:39,845
+Speaker 2:  But like if, If you take it on the
+
+517
+00:30:39,845 --> 00:30:43,125
+Speaker 2:  understanding that okay, I'm going to take this information and do something
+
+518
+00:30:43,125 --> 00:30:46,965
+Speaker 2:  with it, I think all this stuff can be really useful. And what
+
+519
+00:30:46,965 --> 00:30:50,925
+Speaker 2:  you're talking about is like there is necessarily like a you between everything
+
+520
+00:30:50,925 --> 00:30:54,645
+Speaker 2:  that Cha G PT is doing there or Claude is doing there. Yeah. And it
+
+521
+00:30:54,735 --> 00:30:58,325
+Speaker 2:  going to your editor. Right. Right. If you were just like using
+
+522
+00:30:58,545 --> 00:31:02,445
+Speaker 2:  Gemini to find and replace your grammar and then just shipping it to your
+
+523
+00:31:02,445 --> 00:31:05,445
+Speaker 2:  editor, like I would've so much more of a problem with that. Really.
+
+524
+00:31:06,485 --> 00:31:08,685
+Speaker 5:  I don't use Gemini at all. I should, but I mean
+
+525
+00:31:09,285 --> 00:31:12,645
+Speaker 2:  Gemini's fine. I like my hottest take on all of this is that they're all
+
+526
+00:31:12,645 --> 00:31:16,325
+Speaker 2:  the same and I'm gonna get a lot of emails about that, but I basically believe
+
+527
+00:31:16,325 --> 00:31:17,005
+Speaker 2:  that to my bones.
+
+528
+00:31:17,065 --> 00:31:17,645
+Speaker 5:  No, I endorse.
+
+529
+00:31:18,585 --> 00:31:21,485
+Speaker 2:  But, but, and I think again, it goes back to like what the people were telling
+
+530
+00:31:21,485 --> 00:31:25,445
+Speaker 2:  us last week is like using it for like advice and input
+
+531
+00:31:25,445 --> 00:31:28,605
+Speaker 2:  and information and kind of as a starting point fine. I think I'm actually
+
+532
+00:31:28,605 --> 00:31:31,165
+Speaker 2:  increasingly good with that. Yeah. But it's the thing where you're just like,
+
+533
+00:31:31,165 --> 00:31:34,845
+Speaker 2:  make this for me and ship it off. Yeah. Or like even in the operator world,
+
+534
+00:31:34,845 --> 00:31:38,685
+Speaker 2:  it's like, just go buy me groceries. I'm like, I don't trust you and I have
+
+535
+00:31:38,685 --> 00:31:42,365
+Speaker 2:  a thousand questions and it's actually less work for me to go get my
+
+536
+00:31:42,365 --> 00:31:46,125
+Speaker 2:  groceries than to ask you the thousand questions. And there's a, there's
+
+537
+00:31:46,125 --> 00:31:48,845
+Speaker 2:  a tipping point for that that I don't think we're anywhere close to where
+
+538
+00:31:48,875 --> 00:31:52,765
+Speaker 2:  like I want the AI to be the last step of the process and
+
+539
+00:31:52,765 --> 00:31:55,045
+Speaker 2:  until then I don't think we should let it be the last step of the process
+
+540
+00:31:55,645 --> 00:31:57,085
+Speaker 2:  anywhere for any reason. You
+
+541
+00:31:57,085 --> 00:31:59,845
+Speaker 5:  Even saying that filled me with dread, imagining it being the last, it was
+
+542
+00:31:59,845 --> 00:32:01,285
+Speaker 5:  like being step of the process at all.
+
+543
+00:32:01,595 --> 00:32:05,485
+Speaker 2:  Like truly If you were just like Chad GBT order me groceries.
+
+544
+00:32:05,595 --> 00:32:09,505
+Speaker 2:  Yeah. Like, and they just, they just appeared at your door. Well
+
+545
+00:32:09,625 --> 00:32:12,305
+Speaker 2:  I I'm not even confident they'd appear at your door. But If you were just
+
+546
+00:32:12,305 --> 00:32:15,905
+Speaker 2:  like JGBT order me groceries for delivery tomorrow morning,
+
+547
+00:32:16,815 --> 00:32:20,345
+Speaker 2:  what percent chance do you think there is that that would go
+
+548
+00:32:21,325 --> 00:32:25,255
+Speaker 2:  well in like meaning that you would be like psyched about everything
+
+549
+00:32:25,255 --> 00:32:27,375
+Speaker 2:  that it delivered to you and it came at the right time and it charged you
+
+550
+00:32:27,375 --> 00:32:31,245
+Speaker 2:  what it should and it came from the right place. Like it's zero. Right. Like
+
+551
+00:32:31,245 --> 00:32:33,645
+Speaker 2:  I, I can't imagine right now a world in which that goes well,
+
+552
+00:32:33,645 --> 00:32:37,045
+Speaker 5:  Like negative. Yeah, no, no. I mean
+
+553
+00:32:37,645 --> 00:32:41,325
+Speaker 5:  I would like to see in the next 10 years, I think AI leaders who are building
+
+554
+00:32:41,325 --> 00:32:44,525
+Speaker 5:  this would like you to believe it's in the next six months, but I think maybe
+
+555
+00:32:44,525 --> 00:32:48,365
+Speaker 5:  in the next 10 years, yeah, 15 years we might see AI
+
+556
+00:32:48,395 --> 00:32:52,245
+Speaker 5:  that is reliable but that's like really like just a
+
+557
+00:32:52,445 --> 00:32:55,405
+Speaker 5:  complete stab in the dark because right now, no I cannot do that. What So,
+
+558
+00:32:55,505 --> 00:32:58,765
+Speaker 5:  and that's the one thing I wanted to do is I'm about to board a flight coming
+
+559
+00:32:58,765 --> 00:33:02,365
+Speaker 5:  home. Can you restock my fridge and blah blah blah. No, it cannot the dream
+
+560
+00:33:02,465 --> 00:33:05,805
+Speaker 5:  do that. The dream. Yeah. The dream. And I, I feel the same way. Same way
+
+561
+00:33:05,805 --> 00:33:09,765
+Speaker 5:  about deep research because everyone I gave that their query back
+
+562
+00:33:09,765 --> 00:33:12,765
+Speaker 5:  to, they're, they have to fact check it and it takes twice, three times as
+
+563
+00:33:12,765 --> 00:33:16,405
+Speaker 5:  long. Right. Just to make sure it's accurate and so much of it isn't. So,
+
+564
+00:33:16,825 --> 00:33:20,765
+Speaker 5:  you know, it's not in this place where they claim, you
+
+565
+00:33:20,765 --> 00:33:24,085
+Speaker 5:  know, super intelligence is coming soon and it'll replace, you know,
+
+566
+00:33:24,445 --> 00:33:28,285
+Speaker 5:  economically valuable positions. That company, it'll be whole companies.
+
+567
+00:33:28,955 --> 00:33:32,005
+Speaker 5:  They even say this year you're gonna see agents in the workforce proper.
+
+568
+00:33:32,185 --> 00:33:36,165
+Speaker 5:  And from what I see, what I wrote when I was starting the
+
+569
+00:33:36,165 --> 00:33:39,965
+Speaker 5:  draft, I was like, this reminds me of the dumbest, most eager
+
+570
+00:33:40,105 --> 00:33:44,045
+Speaker 5:  intern I could have. And I really appreciate how happy it is to do the job,
+
+571
+00:33:44,145 --> 00:33:46,405
+Speaker 5:  but I don't think I'm converting it to a full-time position.
+
+572
+00:33:47,155 --> 00:33:50,605
+Speaker 2:  Okay. A you and I have both been that intern at various times in our lives.
+
+573
+00:33:50,605 --> 00:33:53,605
+Speaker 2:  Oh yes, I'm sure. So a hundred percent besides to those interns.
+
+574
+00:33:53,835 --> 00:33:56,365
+Speaker 5:  Exactly. Exactly. But I'm like, get it together.
+
+575
+00:33:56,885 --> 00:33:59,805
+Speaker 2:  I was not to be trusted when I was that intern. A hundred percent. Yeah.
+
+576
+00:34:00,635 --> 00:34:04,165
+Speaker 2:  Yeah. I, I, the more I use ai, the more I am trying to figure out how to
+
+577
+00:34:04,165 --> 00:34:06,725
+Speaker 2:  balance that between like, and I go back to the jet flick thing and I'm like,
+
+578
+00:34:06,725 --> 00:34:10,605
+Speaker 2:  what that gave me is a bunch of names of people to go research. It gave me
+
+579
+00:34:10,765 --> 00:34:14,605
+Speaker 2:  a bunch of like technological terms that I should go look up for how
+
+580
+00:34:14,605 --> 00:34:18,245
+Speaker 2:  this worked and it leaked me to a bunch of court cases and if that is
+
+581
+00:34:18,385 --> 00:34:22,205
+Speaker 2:  the value that I derive from it, terrific. If I read that thing and
+
+582
+00:34:22,205 --> 00:34:25,845
+Speaker 2:  think, oh now I know the jet flick story, I have gone wrong. And I think
+
+583
+00:34:25,895 --> 00:34:28,245
+Speaker 2:  right there again, we're like, it's the same thing with everything on the
+
+584
+00:34:28,365 --> 00:34:31,405
+Speaker 2:  internet where we have this like incredible media literacy problem where
+
+585
+00:34:31,585 --> 00:34:35,445
+Speaker 2:  Yes, we just, it, it's so hard to know what is real and
+
+586
+00:34:35,445 --> 00:34:38,245
+Speaker 2:  what isn't and we just don't usually have time to go fact check everything
+
+587
+00:34:38,345 --> 00:34:42,325
+Speaker 2:  we see on the internet. And so I think like deep research is good
+
+588
+00:34:42,325 --> 00:34:45,605
+Speaker 2:  enough that I am actually optimistic that it's going to get better. Yeah.
+
+589
+00:34:45,605 --> 00:34:49,565
+Speaker 2:  But we're still in this weird liminal space of like, it seems
+
+590
+00:34:49,565 --> 00:34:53,445
+Speaker 2:  trustworthy but it isn't. Yeah. But it's so much work to figure out in what
+
+591
+00:34:53,445 --> 00:34:56,805
+Speaker 2:  way. It's not that I don't quite know what to do with it. And one thing I
+
+592
+00:34:56,805 --> 00:34:59,685
+Speaker 2:  liked about Operator was I could just watch what happened. Yeah. Like I just,
+
+593
+00:34:59,925 --> 00:35:03,045
+Speaker 2:  I, I asked it to find me an Airbnb and then sat there and watched while it
+
+594
+00:35:03,045 --> 00:35:06,165
+Speaker 2:  looked for an Airbnb and I know exactly where it went wrong and there's something
+
+595
+00:35:06,165 --> 00:35:10,125
+Speaker 2:  really helpful about that. Like I, I know the problem and then I
+
+596
+00:35:10,125 --> 00:35:11,965
+Speaker 2:  could just pick it up from there and go Yeah.
+
+597
+00:35:12,405 --> 00:35:15,285
+Speaker 5:  I was looking for use cases for like how, how people were using it and I
+
+598
+00:35:15,285 --> 00:35:18,045
+Speaker 5:  watched this whole YouTube video of a guy using operator to make changes
+
+599
+00:35:18,145 --> 00:35:21,085
+Speaker 5:  to his website, which was really interesting. I dunno if you've seen this.
+
+600
+00:35:21,265 --> 00:35:24,885
+Speaker 5:  No. And it was success. It was successfully executing like I need you to
+
+601
+00:35:24,885 --> 00:35:28,285
+Speaker 5:  change like the thickness of these lines or something. And, and before it
+
+602
+00:35:28,285 --> 00:35:32,165
+Speaker 5:  would execute though it recognized that this is like a high stakes task.
+
+603
+00:35:32,265 --> 00:35:35,285
+Speaker 5:  So it had like this huge popup like are you sure you want to do something?
+
+604
+00:35:35,285 --> 00:35:39,125
+Speaker 5:  Oh wow. Because he was like editing live on this website and it was really
+
+605
+00:35:39,125 --> 00:35:42,365
+Speaker 5:  compelling because it worked for him but obviously it was really slow. So
+
+606
+00:35:42,385 --> 00:35:45,765
+Speaker 5:  tho those are the use cases. I could see, I was just talking to somebody
+
+607
+00:35:45,855 --> 00:35:49,805
+Speaker 5:  about like why I use Claude and versus ChatGPT
+
+608
+00:35:49,805 --> 00:35:53,645
+Speaker 5:  being really good or supposedly very good at coding and mathematics
+
+609
+00:35:53,825 --> 00:35:57,005
+Speaker 5:  and someone was like, 'cause that's what the people building it care about.
+
+610
+00:35:57,005 --> 00:36:00,445
+Speaker 5:  Totally. They don't care about writing, they care about mathematics and coding.
+
+611
+00:36:00,585 --> 00:36:04,325
+Speaker 5:  So that's why it's good in those domains. So I have
+
+612
+00:36:04,655 --> 00:36:08,405
+Speaker 5:  faith that it will be useful for those kinds of people, but for right now,
+
+613
+00:36:08,785 --> 00:36:09,685
+Speaker 5:  not so useful for me.
+
+614
+00:36:10,275 --> 00:36:12,405
+Speaker 2:  Yeah, that's fair. We gotta learn to code Kylie
+
+615
+00:38:02,965 --> 00:38:03,455
+Speaker 6:  Alright,
+
+616
+00:38:03,455 --> 00:38:07,255
+Speaker 2:  We're back. So we've talked a bunch about the
+
+617
+00:38:07,255 --> 00:38:11,055
+Speaker 2:  Department of Government efficiency and what Elon Musk and his crew of
+
+618
+00:38:11,255 --> 00:38:14,255
+Speaker 2:  engineers have been doing inside of the US federal government.
+
+619
+00:38:15,345 --> 00:38:18,725
+Speaker 2:  But I thought this was a good moment to sort of pull back a little bit. This
+
+620
+00:38:18,725 --> 00:38:21,485
+Speaker 2:  has been happening for a little while. Things have slowed down a little bit.
+
+621
+00:38:21,485 --> 00:38:24,125
+Speaker 2:  There have been some legal challenges. It felt like a good moment to try
+
+622
+00:38:24,125 --> 00:38:28,005
+Speaker 2:  to figure out out what's really going on here. Who are these
+
+623
+00:38:28,005 --> 00:38:31,445
+Speaker 2:  people, what do they want? What is actually happening? Is this all actually
+
+624
+00:38:31,445 --> 00:38:35,415
+Speaker 2:  going to work? And there's no one on earth. I would rather talk
+
+625
+00:38:35,415 --> 00:38:39,135
+Speaker 2:  that stuff through with than Liz Lipato who has been covering Elon Musk
+
+626
+00:38:39,275 --> 00:38:42,935
+Speaker 2:  in various ways, shapes and forms for many, many years. So
+
+627
+00:38:43,155 --> 00:38:46,295
+Speaker 2:  Liz is going to help me understand what in the world is actually happening
+
+628
+00:38:46,295 --> 00:38:48,055
+Speaker 2:  here. Liz, welcome back.
+
+629
+00:38:48,385 --> 00:38:50,055
+Speaker 12:  Thank you. It's good to be here. I
+
+630
+00:38:50,055 --> 00:38:53,375
+Speaker 2:  Feel like you're like the unofficial insanity correspondent of The Vergecast,
+
+631
+00:38:53,375 --> 00:38:56,615
+Speaker 2:  which I didn't mean to happen, but whenever it's like, is everything falling
+
+632
+00:38:56,615 --> 00:38:58,815
+Speaker 2:  apart? We have to call Liz and her. Explain
+
+633
+00:38:58,815 --> 00:39:01,615
+Speaker 12:  It to us. The chaos correspondent, If you will.
+
+634
+00:39:01,765 --> 00:39:05,215
+Speaker 2:  Yeah, I like this. For us, I think what I want to try to do
+
+635
+00:39:05,915 --> 00:39:09,895
+Speaker 2:  is back up slightly from like the minute to minute chaos
+
+636
+00:39:09,895 --> 00:39:13,815
+Speaker 2:  of what's going on and try to just make sense of the whole sort of
+
+637
+00:39:14,045 --> 00:39:17,775
+Speaker 2:  Doge experiment, which I think is also what you've spent a lot of time
+
+638
+00:39:17,775 --> 00:39:21,735
+Speaker 2:  trying to do over the last couple of weeks. So I guess
+
+639
+00:39:21,845 --> 00:39:24,975
+Speaker 2:  like at the, at the risk of asking like an outrageously broad question to
+
+640
+00:39:24,975 --> 00:39:28,655
+Speaker 2:  start us here, what is your sense of what Elon Musk and Doge are
+
+641
+00:39:29,135 --> 00:39:31,935
+Speaker 2:  actually in reality trying to do right now?
+
+642
+00:39:32,915 --> 00:39:36,295
+Speaker 12:  So I think they're essentially politicizing what was
+
+643
+00:39:37,405 --> 00:39:40,845
+Speaker 12:  previously neutral infrastructure. So If you think about
+
+644
+00:39:41,725 --> 00:39:45,485
+Speaker 12:  a lot of what they're doing, it's taking over stuff that
+
+645
+00:39:45,505 --> 00:39:49,285
+Speaker 12:  was just sort of there to help the government function.
+
+646
+00:39:49,545 --> 00:39:53,365
+Speaker 12:  So like the general services administration for instance, which is kind
+
+647
+00:39:53,365 --> 00:39:57,325
+Speaker 12:  of like the it for every part of the bureaucracy,
+
+648
+00:39:57,435 --> 00:40:00,685
+Speaker 12:  it's like the thing that lets everything else function. That's where they
+
+649
+00:40:00,685 --> 00:40:04,605
+Speaker 12:  started. And you know, the, the sort of metaphor for this is you
+
+650
+00:40:04,605 --> 00:40:08,085
+Speaker 12:  might remember after Russia invaded Ukraine,
+
+651
+00:40:10,605 --> 00:40:14,135
+Speaker 12:  they were kicked outta swift, which is how banks message each other. And
+
+652
+00:40:14,135 --> 00:40:17,735
+Speaker 12:  that was a moment where a previously neutral infrastructure had suddenly
+
+653
+00:40:17,795 --> 00:40:21,775
+Speaker 12:  become weaponized. And so we're watching this happen now within
+
+654
+00:40:22,515 --> 00:40:23,735
+Speaker 12:  the United States government.
+
+655
+00:40:24,805 --> 00:40:25,025
+Speaker 2:  How
+
+656
+00:40:26,545 --> 00:40:30,425
+Speaker 2:  strategic do you think this group is being inside of that? Because I think
+
+657
+00:40:30,425 --> 00:40:34,145
+Speaker 2:  on the one hand there is a way to look at this that is just absolute
+
+658
+00:40:34,405 --> 00:40:38,145
+Speaker 2:  abject chaos. And I think one of the things we learned from the first
+
+659
+00:40:38,145 --> 00:40:41,505
+Speaker 2:  Trump administration was that sometimes things that look like chaos just
+
+660
+00:40:41,705 --> 00:40:45,425
+Speaker 2:  actually are chaos. And we, we spent a long time sort of
+
+661
+00:40:45,425 --> 00:40:48,505
+Speaker 2:  assigning strategy to chaos and it's like, no, it's, it's actually sometimes
+
+662
+00:40:48,575 --> 00:40:52,465
+Speaker 2:  it's just chaos. But it also feels like
+
+663
+00:40:52,465 --> 00:40:55,625
+Speaker 2:  something is happening on purpose here. Like you're describing that, like
+
+664
+00:40:56,145 --> 00:40:59,385
+Speaker 2:  I heard someone ascribe it to basically like somebody tweets the name of
+
+665
+00:40:59,385 --> 00:41:02,345
+Speaker 2:  a government agency at Elon Musk and he's like, let's go kill him. And I
+
+666
+00:41:02,345 --> 00:41:05,545
+Speaker 2:  don't think that's right, but I also don't think that's
+
+667
+00:41:06,035 --> 00:41:09,745
+Speaker 2:  wrong. So like how, how on purpose does all of this feel to you right now?
+
+668
+00:41:10,335 --> 00:41:14,005
+Speaker 12:  Well, it feels varying degrees of on purpose,
+
+669
+00:41:14,365 --> 00:41:17,845
+Speaker 12:  let's say broadly. I think that there is a purpose here and If you step
+
+670
+00:41:17,845 --> 00:41:20,245
+Speaker 12:  back, you sort of see it, which is he's after the money.
+
+671
+00:41:21,545 --> 00:41:25,325
+Speaker 12:  That's why he's like so incensed that a judge has ordered him
+
+672
+00:41:25,325 --> 00:41:29,125
+Speaker 12:  away from the treasury. Like that's, that's where the power
+
+673
+00:41:29,185 --> 00:41:32,685
+Speaker 12:  is, is the US Treasury. That's where he wants to be. That's the thing he
+
+674
+00:41:32,685 --> 00:41:36,565
+Speaker 12:  wants to control more than anything else. And If you think about
+
+675
+00:41:36,565 --> 00:41:40,525
+Speaker 12:  his ambitions for X, that makes sense, right? Like he wants it to
+
+676
+00:41:40,525 --> 00:41:44,165
+Speaker 12:  be the everything app, the payment app. And so, you know, when he
+
+677
+00:41:44,235 --> 00:41:48,005
+Speaker 12:  went after the Consumer Finance Protection Bureau
+
+678
+00:41:48,425 --> 00:41:50,605
+Speaker 12:  and tried to illegally close it,
+
+679
+00:41:52,775 --> 00:41:56,065
+Speaker 12:  part of that is like in line with trying to make
+
+680
+00:41:56,305 --> 00:42:00,265
+Speaker 12:  XA major payment app, right? Right. Because that's a
+
+681
+00:42:00,265 --> 00:42:03,625
+Speaker 12:  regulator that he doesn't have to deal with anymore. The other thing that
+
+682
+00:42:03,665 --> 00:42:07,065
+Speaker 12:  I would keep in mind here is his AI
+
+683
+00:42:08,065 --> 00:42:11,865
+Speaker 12:  interest. And what I think is going on
+
+684
+00:42:12,005 --> 00:42:15,825
+Speaker 12:  is they're essentially, there is an essentially an attempt to
+
+685
+00:42:15,935 --> 00:42:19,825
+Speaker 12:  replace bureaucracy with ai. Mm. And I I I
+
+686
+00:42:19,825 --> 00:42:23,785
+Speaker 12:  think that's not gonna work out great for a wide variety of reasons, but
+
+687
+00:42:23,785 --> 00:42:27,665
+Speaker 12:  if you've seen like the list of band words that they're trying to remove
+
+688
+00:42:27,665 --> 00:42:29,465
+Speaker 12:  from the government, one of them is privilege.
+
+689
+00:42:29,805 --> 00:42:30,545
+Speaker 2:  Oh, interesting.
+
+690
+00:42:31,275 --> 00:42:35,145
+Speaker 12:  Right? Because as soon as you start thinking about privilege,
+
+691
+00:42:35,285 --> 00:42:39,105
+Speaker 12:  you think about things like it, like who has privileged access? Or
+
+692
+00:42:39,325 --> 00:42:42,545
+Speaker 12:  for instance, like if you're in the NSA, you're thinking about things like
+
+693
+00:42:43,015 --> 00:42:46,825
+Speaker 12:  privilege escalation, which is when an attacker like starts moving
+
+694
+00:42:46,825 --> 00:42:50,665
+Speaker 12:  up the chain. Like there are ways that these words get used that have
+
+695
+00:42:50,665 --> 00:42:54,545
+Speaker 12:  nothing to do with the so-called woke ideology that they are
+
+696
+00:42:54,545 --> 00:42:58,185
+Speaker 12:  theoretically seeking to uproot. But because there's such a blunt
+
+697
+00:42:58,255 --> 00:43:01,745
+Speaker 12:  tool being used looking for these specific keywords,
+
+698
+00:43:02,735 --> 00:43:06,625
+Speaker 12:  there's a bunch of stuff that potentially gets knocked over.
+
+699
+00:43:06,965 --> 00:43:10,825
+Speaker 12:  So it it's there, there seems to be sort of a
+
+700
+00:43:10,825 --> 00:43:14,745
+Speaker 12:  mix of like total chaos in part because of how they're choosing to do this.
+
+701
+00:43:15,485 --> 00:43:19,225
+Speaker 12:  And what I think is a little bit strategic, which is like, how do you
+
+702
+00:43:19,325 --> 00:43:21,785
+Speaker 12:  get power? You control the payments,
+
+703
+00:43:22,515 --> 00:43:26,505
+Speaker 2:  Right? And I think it, it seems like part
+
+704
+00:43:26,505 --> 00:43:29,825
+Speaker 2:  of this is also just something that Elon Musk is like uniquely
+
+705
+00:43:30,645 --> 00:43:33,745
+Speaker 2:  suited to do in this really weird way. Like one thing I've been thinking
+
+706
+00:43:33,745 --> 00:43:37,585
+Speaker 2:  about a lot, and I'm curious for your thoughts on this, is If you just replaced
+
+707
+00:43:38,055 --> 00:43:41,625
+Speaker 2:  Elon Musk with some other incredibly self-interested
+
+708
+00:43:41,735 --> 00:43:45,665
+Speaker 2:  billionaire put, put Jeff Bezos in here, right? Somebody else who is tied
+
+709
+00:43:45,665 --> 00:43:49,185
+Speaker 2:  up in a lot of government contracts and has an awful lot to gain from having
+
+710
+00:43:49,255 --> 00:43:53,225
+Speaker 2:  more control over the systems of government. It feels like it would
+
+711
+00:43:53,225 --> 00:43:57,145
+Speaker 2:  be really different. And so there is something to the Elon Musk ness of
+
+712
+00:43:57,145 --> 00:44:01,065
+Speaker 2:  it all outside of just like, my dude would like grok to
+
+713
+00:44:01,065 --> 00:44:04,865
+Speaker 2:  be used by the government for billions of dollars. Right? You've been
+
+714
+00:44:04,865 --> 00:44:08,745
+Speaker 2:  following Elon Musk for a long time. Like what put, put
+
+715
+00:44:08,745 --> 00:44:12,105
+Speaker 2:  this man in this moment together for me, I feel like this is the thing that
+
+716
+00:44:12,105 --> 00:44:15,345
+Speaker 2:  breaks my brain the most is like, how did it happen that this particular
+
+717
+00:44:15,445 --> 00:44:19,025
+Speaker 2:  guy is doing this and that it is going this way
+
+718
+00:44:19,485 --> 00:44:21,745
+Speaker 2:  so much like in his own specific image.
+
+719
+00:44:22,865 --> 00:44:26,265
+Speaker 12:  I mean, he bought the government, right? Like that's what happened for not
+
+720
+00:44:26,265 --> 00:44:26,705
+Speaker 2:  Even that much
+
+721
+00:44:26,705 --> 00:44:30,585
+Speaker 12:  Money. Not even that much money. Like he financed, you know, an
+
+722
+00:44:30,585 --> 00:44:34,325
+Speaker 12:  incredible part of Trump's campaign, right? And like
+
+723
+00:44:34,325 --> 00:44:38,005
+Speaker 12:  look at Donald Trump, that man does not enjoy being president. He
+
+724
+00:44:38,005 --> 00:44:41,685
+Speaker 12:  doesn't wanna do the hard shit, right? He wants to go to his rallies
+
+725
+00:44:41,825 --> 00:44:45,405
+Speaker 12:  and have people cheer for him and give a press conference.
+
+726
+00:44:45,785 --> 00:44:48,045
+Speaker 12:  He doesn't wanna think, he's not good at thinking
+
+727
+00:44:48,385 --> 00:44:51,165
+Speaker 2:  He went to the Super Bowl that's like, he was the first sitting president
+
+728
+00:44:51,165 --> 00:44:53,325
+Speaker 2:  to go to the Super Bowl, which I thought was very odd. And then I was like,
+
+729
+00:44:53,325 --> 00:44:56,685
+Speaker 2:  well wait, if I'm Donald Trump and I got elected so that I don't go to jail,
+
+730
+00:44:57,825 --> 00:45:00,165
+Speaker 2:  I'd go to the Super Bowl. Like hell yeah, I'd go to all the things.
+
+731
+00:45:00,725 --> 00:45:03,725
+Speaker 12:  I mean, he is taken over the Kennedy Centers for the Arts. Like those are
+
+732
+00:45:03,725 --> 00:45:06,845
+Speaker 12:  his priorities. He's entertainment, right? Sure. Like that's all he cares
+
+733
+00:45:06,845 --> 00:45:10,405
+Speaker 12:  about. So like that leaves a real power vacuum,
+
+734
+00:45:10,895 --> 00:45:14,685
+Speaker 12:  which we've seen other people exploit and we saw other people exploit in
+
+735
+00:45:14,685 --> 00:45:18,165
+Speaker 12:  the first Trump administration. And arguably Stephen Miller is still exploiting,
+
+736
+00:45:19,545 --> 00:45:23,205
+Speaker 12:  but that's, that's what Musk is doing. He is, he is arguably the actual
+
+737
+00:45:23,205 --> 00:45:26,925
+Speaker 12:  power center rather than the person who got elected president. And
+
+738
+00:45:27,385 --> 00:45:30,885
+Speaker 12:  one of the things to keep in mind about Elon Musk is that
+
+739
+00:45:31,865 --> 00:45:35,765
+Speaker 12:  he is like chaos at every company he's
+
+740
+00:45:35,765 --> 00:45:39,605
+Speaker 12:  at. He is total chaos. And at the companies that he's been at for
+
+741
+00:45:39,645 --> 00:45:43,525
+Speaker 12:  a long time, like SpaceX, which he founded, and Tesla, which he
+
+742
+00:45:43,525 --> 00:45:43,965
+Speaker 12:  took over,
+
+743
+00:45:45,675 --> 00:45:49,525
+Speaker 12:  there's padding around him to keep him from doing damage. They essentially
+
+744
+00:45:49,525 --> 00:45:51,245
+Speaker 12:  keep him like pinned off.
+
+745
+00:45:51,695 --> 00:45:55,645
+Speaker 2:  There are like people whose job description includes managing his
+
+746
+00:45:55,775 --> 00:45:56,525
+Speaker 2:  chaos, right?
+
+747
+00:45:56,525 --> 00:46:00,045
+Speaker 12:  That's right. Yeah, yeah. Like they absorb whatever nonsense he's up to.
+
+748
+00:46:00,175 --> 00:46:03,925
+Speaker 12:  Right? And we saw what happened at Twitter when that doesn't
+
+749
+00:46:03,925 --> 00:46:07,845
+Speaker 12:  exist, which is, you know, he just starts ripping out wires. He does a
+
+750
+00:46:07,845 --> 00:46:11,525
+Speaker 12:  bunch of stuff like moving servers randomly,
+
+751
+00:46:11,835 --> 00:46:15,645
+Speaker 12:  like over Christmas break. Oh right. God remember. Or like,
+
+752
+00:46:15,745 --> 00:46:18,765
+Speaker 12:  you remember when retweets broke for some reason? Or like,
+
+753
+00:46:19,825 --> 00:46:23,325
+Speaker 12:  you know, like it just like it, like it's, there's no, yeah, there's no
+
+754
+00:46:23,435 --> 00:46:26,685
+Speaker 12:  plan. He's just like, well let's do something and see what happens.
+
+755
+00:46:28,065 --> 00:46:31,965
+Speaker 12:  And that is the plan. And so, you know, when
+
+756
+00:46:31,965 --> 00:46:35,655
+Speaker 12:  people talk about comparing what's going on in the government
+
+757
+00:46:35,755 --> 00:46:39,655
+Speaker 12:  to what happened at Twitter? That's, that's right. I mean,
+
+758
+00:46:39,655 --> 00:46:43,295
+Speaker 12:  like I have seen reporting of government employees reading
+
+759
+00:46:43,505 --> 00:46:47,375
+Speaker 12:  books about what happened at Twitter. So they know what to expect.
+
+760
+00:46:47,475 --> 00:46:51,335
+Speaker 12:  Oh, wow. Okay. And like, they're not wrong. Like he's gonna barge
+
+761
+00:46:51,335 --> 00:46:54,895
+Speaker 12:  in as loudly as possible and he's going to just see what happens.
+
+762
+00:46:55,155 --> 00:46:57,935
+Speaker 12:  And like If you think about somebody like Jeff Bezos,
+
+763
+00:46:59,045 --> 00:47:01,895
+Speaker 12:  this is a man who is strategic
+
+764
+00:47:02,995 --> 00:47:06,855
+Speaker 12:  and who is thoughtful and who you can say no to.
+
+765
+00:47:07,205 --> 00:47:10,015
+Speaker 12:  Like you can be in a meeting with him and say no to him.
+
+766
+00:47:10,485 --> 00:47:14,135
+Speaker 12:  Jeff Bezos has not surrounded himself with Yes men to the extent that Elon
+
+767
+00:47:14,135 --> 00:47:17,295
+Speaker 12:  Musk has. And everything in
+
+768
+00:47:18,205 --> 00:47:22,175
+Speaker 12:  Elon Musk's life is within Elon Musk's control as far as
+
+769
+00:47:22,175 --> 00:47:24,535
+Speaker 12:  he is concerned, including now the US government.
+
+770
+00:47:24,985 --> 00:47:28,575
+Speaker 2:  Right. I think you've said over and over, over the years that I think has
+
+771
+00:47:28,875 --> 00:47:32,045
+Speaker 2:  continued to be more true every time you said it is that
+
+772
+00:47:32,565 --> 00:47:35,885
+Speaker 2:  history has taught Elon Musk that there are no consequences. And that that's
+
+773
+00:47:35,885 --> 00:47:39,645
+Speaker 2:  right. He can essentially do whatever he wants. And like again,
+
+774
+00:47:40,595 --> 00:47:44,285
+Speaker 2:  history suggests he's not wrong, wouldn't you? If you were Elon Musk,
+
+775
+00:47:44,285 --> 00:47:45,925
+Speaker 2:  wouldn't you also think there are no consequences?
+
+776
+00:47:46,795 --> 00:47:50,645
+Speaker 12:  Yeah. I mean, look, remember the time he tweeted on the Joe Rogan show and
+
+777
+00:47:50,645 --> 00:47:54,565
+Speaker 12:  then like NASA gave him another contract. Right. Like,
+
+778
+00:47:54,785 --> 00:47:58,365
+Speaker 12:  you know, like there, there are arguably no
+
+779
+00:47:58,365 --> 00:48:02,325
+Speaker 12:  consequences for Elon Musk. And so why, why would he behave in the way that
+
+780
+00:48:02,325 --> 00:48:05,965
+Speaker 12:  any of the rest of us behave? Because he has learned that laws don't apply
+
+781
+00:48:06,045 --> 00:48:09,885
+Speaker 12:  to him. And the only place I can think of in recent
+
+782
+00:48:09,905 --> 00:48:13,485
+Speaker 12:  memory where that isn't true is the Twitter takeover where the Delaware
+
+783
+00:48:13,485 --> 00:48:16,485
+Speaker 12:  Chancery Court made him buy the thing he promised he was gonna buy.
+
+784
+00:48:17,055 --> 00:48:20,045
+Speaker 2:  Right. The only judge left in America. It turns out
+
+785
+00:48:20,945 --> 00:48:24,525
+Speaker 2:  to that end actually. What is your sense at this moment?
+
+786
+00:48:24,615 --> 00:48:28,285
+Speaker 2:  We're talking on, on Monday afternoon, which I should say, because
+
+787
+00:48:28,585 --> 00:48:32,085
+Speaker 2:  God only knows how much will change between now and Tuesday morning when
+
+788
+00:48:32,085 --> 00:48:36,045
+Speaker 2:  this publishes. What is your sense of how well this is working? I
+
+789
+00:48:36,045 --> 00:48:39,235
+Speaker 2:  think if I'd asked you a week ago, it, it seemed like
+
+790
+00:48:39,865 --> 00:48:42,675
+Speaker 2:  this, this sort of running rough shot over the federal government in the
+
+791
+00:48:42,875 --> 00:48:46,075
+Speaker 2:  US was working very well. And there was this big question of like, who is
+
+792
+00:48:46,075 --> 00:48:49,995
+Speaker 2:  going to fight back? Where are the Democrats? Why is no one doing something
+
+793
+00:48:49,995 --> 00:48:53,715
+Speaker 2:  about the fact that this seems clearly illegal and must be stopped?
+
+794
+00:48:54,655 --> 00:48:58,305
+Speaker 2:  That seems to have shifted a little, but I, I can't quite get my
+
+795
+00:48:58,435 --> 00:49:02,105
+Speaker 2:  hands around how much I feel like it has shifted. Where do you think we are
+
+796
+00:49:02,105 --> 00:49:02,345
+Speaker 2:  right now?
+
+797
+00:49:03,715 --> 00:49:06,875
+Speaker 12:  I don't think we're in a very different place. Okay. I mean, I'm just gonna
+
+798
+00:49:06,875 --> 00:49:10,515
+Speaker 12:  be real with you. I, we've had judges making orders,
+
+799
+00:49:10,935 --> 00:49:14,395
+Speaker 12:  but this is Elon Musk we're talking about. He does at times
+
+800
+00:49:14,695 --> 00:49:17,995
+Speaker 12:  ignore court orders. Like you may remember, you know, when he pretended
+
+801
+00:49:17,995 --> 00:49:20,355
+Speaker 12:  he was gonna take Tesla private Oh,
+
+802
+00:49:20,355 --> 00:49:21,835
+Speaker 2:  Right. The funding secured tweet.
+
+803
+00:49:22,255 --> 00:49:26,155
+Speaker 12:  That's right. Yeah. And he made a settlement with the SEC where he was supposed
+
+804
+00:49:26,155 --> 00:49:29,915
+Speaker 12:  to have a Twitter sitter, like somebody who watched his tweets about Tesla.
+
+805
+00:49:30,695 --> 00:49:34,115
+Speaker 12:  And he just never did that. And we went all the way through the court system
+
+806
+00:49:34,215 --> 00:49:36,835
+Speaker 12:  and they were all like, yeah, you need to do this. And there is still no
+
+807
+00:49:36,835 --> 00:49:40,075
+Speaker 12:  Twitter sitter. So he has a history of ignoring
+
+808
+00:49:41,685 --> 00:49:44,875
+Speaker 12:  legal orders. And I don't know who's enforcing
+
+809
+00:49:45,615 --> 00:49:49,515
+Speaker 12:  any of these orders. I don't know who is interested in enforcing these
+
+810
+00:49:49,515 --> 00:49:51,835
+Speaker 12:  orders. I don't know who's checking to see that he's following them.
+
+811
+00:49:53,295 --> 00:49:57,195
+Speaker 12:  So there is a sense in which, you know, there is a real question right now
+
+812
+00:49:57,575 --> 00:50:01,475
+Speaker 12:  of like, do the courts matter? 'cause I, I feel like we're
+
+813
+00:50:01,475 --> 00:50:05,315
+Speaker 12:  about to find out and we might not like the answer we're going to get. Yeah.
+
+814
+00:50:05,695 --> 00:50:09,435
+Speaker 12:  So there's that. But the other thing that I have noticed is that
+
+815
+00:50:09,445 --> 00:50:12,915
+Speaker 12:  Steve Bannon, who notably hates Musk,
+
+816
+00:50:13,415 --> 00:50:16,875
+Speaker 12:  has been daring Musk to go
+
+817
+00:50:17,375 --> 00:50:20,915
+Speaker 12:  do his, I hate saying Doge because that like,
+
+818
+00:50:21,345 --> 00:50:24,595
+Speaker 12:  nice dog didn't do anything wrong, you know,
+
+819
+00:50:24,975 --> 00:50:25,715
+Speaker 12:  like's it's really
+
+820
+00:50:25,715 --> 00:50:25,995
+Speaker 2:  True.
+
+821
+00:50:26,535 --> 00:50:29,885
+Speaker 12:  That's, I'm sorry for that Sheba, you know, like I really am. Yeah. Like
+
+822
+00:50:29,885 --> 00:50:33,685
+Speaker 12:  this is not, this is not the dog's fault, but he's been daring
+
+823
+00:50:33,835 --> 00:50:37,805
+Speaker 12:  Doge to go in and do what they're doing with the military, which is another
+
+824
+00:50:37,805 --> 00:50:41,365
+Speaker 12:  moment where it's like that's where the rubber hits the road. Like, you
+
+825
+00:50:41,365 --> 00:50:45,125
+Speaker 12:  know, we have some pretty severe national security risks
+
+826
+00:50:45,245 --> 00:50:48,925
+Speaker 12:  already with the treasury stuff, but I
+
+827
+00:50:48,955 --> 00:50:52,885
+Speaker 12:  suspect when you go into the place where everybody's armed and you try
+
+828
+00:50:52,885 --> 00:50:56,245
+Speaker 12:  to do stuff that's a national security risk that runs a little differently.
+
+829
+00:50:57,225 --> 00:51:01,085
+Speaker 12:  So I, I really think that the, we are in a very frightening place, and
+
+830
+00:51:01,085 --> 00:51:04,205
+Speaker 12:  part of the reason I think we're in a very frightening place is because
+
+831
+00:51:04,825 --> 00:51:08,485
+Speaker 12:  our lawmakers are not doing anything. You know, they're, they're writing
+
+832
+00:51:08,805 --> 00:51:11,565
+Speaker 12:  strongly worded letters and they're allowing themselves to be turned away
+
+833
+00:51:11,565 --> 00:51:15,325
+Speaker 12:  from government buildings. You know, those are the Democrats and then the
+
+834
+00:51:15,525 --> 00:51:18,685
+Speaker 12:  Republicans, the ones who are not like vociferously like approving of this,
+
+835
+00:51:19,565 --> 00:51:23,445
+Speaker 12:  they're Milford men. They're allowing their power to be stripped from
+
+836
+00:51:23,445 --> 00:51:27,365
+Speaker 12:  them as members of Congress because they are scared of this guy. Which
+
+837
+00:51:27,365 --> 00:51:31,205
+Speaker 12:  is embarrassing. It is embarrassing. I cannot
+
+838
+00:51:31,555 --> 00:51:34,445
+Speaker 12:  imagine right now being like, yeah, all right. Like,
+
+839
+00:51:35,545 --> 00:51:39,205
+Speaker 12:  I'm cool with just being, you know, being
+
+840
+00:51:39,275 --> 00:51:43,245
+Speaker 12:  useless as a lawmaker and like having my power stripped from me and
+
+841
+00:51:43,245 --> 00:51:47,045
+Speaker 12:  like the things that I vote for may or may not go through, like have
+
+842
+00:51:47,045 --> 00:51:48,445
+Speaker 12:  some dignity. My God.
+
+843
+00:51:49,165 --> 00:51:52,365
+Speaker 2:  Yeah. Yeah. It's, it's been very funny watching people like
+
+844
+00:51:53,105 --> 00:51:56,485
+Speaker 2:  go back to the founding fathers and talk about the, you know, the separation
+
+845
+00:51:56,485 --> 00:51:59,925
+Speaker 2:  of powers and the extent to which they were like the, they thought people
+
+846
+00:51:59,925 --> 00:52:03,085
+Speaker 2:  would, you know, jealously guard their own power. And now everybody's just
+
+847
+00:52:03,085 --> 00:52:04,805
+Speaker 2:  like, ah, who cares? Letting on do whatever he wants.
+
+848
+00:52:05,515 --> 00:52:08,645
+Speaker 12:  It's so embarrassing. It's so embarrassing. Yeah.
+
+849
+00:52:09,075 --> 00:52:12,525
+Speaker 2:  Yeah. So let, let's talk about the money of it all for a minute, because
+
+850
+00:52:12,645 --> 00:52:16,165
+Speaker 2:  I think I've been thinking a lot about the reaction to this. And I think
+
+851
+00:52:16,305 --> 00:52:20,125
+Speaker 2:  one of the strange things about the whole
+
+852
+00:52:20,995 --> 00:52:24,925
+Speaker 2:  Doge chaos of the last week or so has been that it's, it's both
+
+853
+00:52:24,925 --> 00:52:28,685
+Speaker 2:  very real and very kind of theoretical. Like we're talking a lot about access
+
+854
+00:52:28,685 --> 00:52:32,085
+Speaker 2:  to systems and what's read only versus write, and everybody's talking about
+
+855
+00:52:32,085 --> 00:52:36,045
+Speaker 2:  it as like an insider threat and a, and a hack. These are the kinds of
+
+856
+00:52:36,045 --> 00:52:39,405
+Speaker 2:  things that you say to like, people in the world and no one ever knows what
+
+857
+00:52:39,405 --> 00:52:42,205
+Speaker 2:  to make of it. Right. And there's this sense of like, okay, they have access
+
+858
+00:52:42,225 --> 00:52:45,965
+Speaker 2:  to some data. This is like the data privacy argument that we have, right?
+
+859
+00:52:45,965 --> 00:52:48,645
+Speaker 2:  Like, I, I think it's very hard for people to understand
+
+860
+00:52:49,985 --> 00:52:53,805
+Speaker 2:  the risks of someone unauthorized. Having access to
+
+861
+00:52:53,805 --> 00:52:55,525
+Speaker 2:  things like treasury payment systems
+
+862
+00:52:57,455 --> 00:53:01,105
+Speaker 2:  help help me make this real for people and myself. Like what, what is the
+
+863
+00:53:01,105 --> 00:53:04,585
+Speaker 2:  actual issue and risk at hand here with these people having access to these
+
+864
+00:53:04,585 --> 00:53:04,825
+Speaker 2:  systems?
+
+865
+00:53:05,995 --> 00:53:09,235
+Speaker 12:  I can do this pretty easily actually. Okay. Because it's tax season.
+
+866
+00:53:09,985 --> 00:53:11,835
+Speaker 12:  It's tax season. And
+
+867
+00:53:12,105 --> 00:53:15,115
+Speaker 2:  It's so funny you say that, I just filed my taxes literally yesterday as
+
+868
+00:53:15,115 --> 00:53:17,635
+Speaker 2:  we're recording this. And I had a moment clicking the button of being like,
+
+869
+00:53:17,655 --> 00:53:21,315
+Speaker 2:  is this a stupid idea? Like, should I, but then I'm like, oh, that
+
+870
+00:53:21,315 --> 00:53:23,595
+Speaker 2:  information's in the system anyway. Like, I don't know, maybe it's fine.
+
+871
+00:53:23,595 --> 00:53:25,125
+Speaker 2:  Hopefully I get a refund. I don't know.
+
+872
+00:53:26,465 --> 00:53:30,235
+Speaker 12:  So let's think, let's think about tax system like the, the tax
+
+873
+00:53:30,235 --> 00:53:33,635
+Speaker 12:  season for a minute, right? Like everybody's filing taxes. I filed mine,
+
+874
+00:53:33,655 --> 00:53:36,995
+Speaker 12:  you filed yours. Those of you who are listening, If you haven't filed yet,
+
+875
+00:53:37,465 --> 00:53:39,555
+Speaker 12:  like file your taxes, you know? Yeah.
+
+876
+00:53:39,555 --> 00:53:41,955
+Speaker 2:  It's time. Kudos for us being ahead of the game though. So let's just briefly
+
+877
+00:53:41,955 --> 00:53:43,195
+Speaker 2:  Yeah. Pat ourselves on Good for us.
+
+878
+00:53:43,835 --> 00:53:47,355
+Speaker 12:  Yeah. So let's imagine the,
+
+879
+00:53:47,735 --> 00:53:51,475
+Speaker 12:  you know, 12 year olds that he has hired are in the
+
+880
+00:53:51,605 --> 00:53:55,475
+Speaker 12:  cobol, which is one of the programming languages. A
+
+881
+00:53:55,635 --> 00:53:57,795
+Speaker 12:  language they don't know well, they don't have a lot of experience with
+
+882
+00:53:57,915 --> 00:54:01,595
+Speaker 12:  'cause they're not old enough to have experience with it, and they
+
+883
+00:54:02,055 --> 00:54:05,995
+Speaker 12:  create a bug that is a bug that potentially
+
+884
+00:54:05,995 --> 00:54:09,195
+Speaker 12:  affects the tax refunds of every American, right?
+
+885
+00:54:09,295 --> 00:54:09,715
+Speaker 2:  That's
+
+886
+00:54:09,715 --> 00:54:13,555
+Speaker 12:  A good one. Okay. This is, again, this is not, this is not like the grim
+
+887
+00:54:13,835 --> 00:54:17,755
+Speaker 12:  scenario. This is the he broke retweets scenario, right.
+
+888
+00:54:17,775 --> 00:54:19,435
+Speaker 12:  Except it's your tax payments.
+
+889
+00:54:19,955 --> 00:54:23,035
+Speaker 2:  I saw somebody who tweeted the other day, they were just like, no,
+
+890
+00:54:23,555 --> 00:54:27,195
+Speaker 2:  IRSI don't have $200,000 in student debt. That's a bug in the system.
+
+891
+00:54:27,495 --> 00:54:28,515
+Speaker 12:  That's right. Proof
+
+892
+00:54:28,515 --> 00:54:29,235
+Speaker 2:  It. And
+
+893
+00:54:29,235 --> 00:54:32,755
+Speaker 12:  I was like, all right, let's this, that's right. Yeah. So, you know,
+
+894
+00:54:32,815 --> 00:54:36,235
+Speaker 12:  that's, that's the minor end of things, right? Is like there's an accidental
+
+895
+00:54:36,235 --> 00:54:40,155
+Speaker 12:  screw up because this is an understaffed office filled with people who aren't
+
+896
+00:54:40,215 --> 00:54:44,075
+Speaker 12:  expert in the programming language that most of our government systems
+
+897
+00:54:44,135 --> 00:54:47,995
+Speaker 12:  are in. So they screw something up and then it affects every single
+
+898
+00:54:48,025 --> 00:54:48,675
+Speaker 12:  last one of us.
+
+899
+00:54:49,205 --> 00:54:52,195
+Speaker 2:  Right? I have to say I find that very compelling, but it doesn't feel like
+
+900
+00:54:52,195 --> 00:54:55,395
+Speaker 2:  that's the way it's being talked about. Right? The like, what if they just
+
+901
+00:54:55,565 --> 00:54:59,115
+Speaker 2:  break it is, is really scary and really
+
+902
+00:54:59,225 --> 00:55:03,155
+Speaker 2:  complicated and really interesting. But it does feel like the way this
+
+903
+00:55:03,155 --> 00:55:06,915
+Speaker 2:  stuff gets talked about in broader strokes is like, Elon Musk is gonna have
+
+904
+00:55:06,915 --> 00:55:10,435
+Speaker 2:  your social security number, which feels, is like a different thing that
+
+905
+00:55:10,435 --> 00:55:13,075
+Speaker 2:  I think is harder to wrap your head around and maybe we're just talking about
+
+906
+00:55:13,075 --> 00:55:13,555
+Speaker 2:  it the wrong way.
+
+907
+00:55:14,105 --> 00:55:17,955
+Speaker 12:  Well, there again, there's a range of risks and I have just
+
+908
+00:55:18,025 --> 00:55:20,715
+Speaker 12:  gone with like the most, the
+
+909
+00:55:20,715 --> 00:55:21,355
+Speaker 2:  Most benign one,
+
+910
+00:55:21,355 --> 00:55:25,315
+Speaker 12:  Right? That's the most benign one Sure. Is they fuck up your, your tax returns.
+
+911
+00:55:25,345 --> 00:55:25,835
+Speaker 12:  Yeah. Okay.
+
+912
+00:55:27,495 --> 00:55:31,395
+Speaker 12:  But If you think about, you know, for instance that they've had these unsecured
+
+913
+00:55:31,625 --> 00:55:35,555
+Speaker 12:  servers that they've been doing stuff with, it doesn't
+
+914
+00:55:35,755 --> 00:55:38,715
+Speaker 12:  just mean that like Elon Musk has your social security number. It might
+
+915
+00:55:38,715 --> 00:55:41,675
+Speaker 12:  also mean that everybody else in the world has your social security number.
+
+916
+00:55:41,675 --> 00:55:45,075
+Speaker 12:  Sure. So that's cool. On top of that fun,
+
+917
+00:55:46,065 --> 00:55:48,605
+Speaker 12:  one of the things to keep in mind about Elon Musk, and one of the things
+
+918
+00:55:48,605 --> 00:55:52,285
+Speaker 12:  that I think is driving a lot of this anxiety is that he is a
+
+919
+00:55:52,285 --> 00:55:55,925
+Speaker 12:  deeply vindictive man and he
+
+920
+00:55:56,095 --> 00:56:00,005
+Speaker 12:  likes to pursue his enemies. And so If you were a person who has
+
+921
+00:56:00,005 --> 00:56:03,965
+Speaker 12:  ever said anything negative about Elon Musk for
+
+922
+00:56:03,965 --> 00:56:04,405
+Speaker 12:  any reason,
+
+923
+00:56:05,945 --> 00:56:09,845
+Speaker 12:  the idea that he might potentially have access to all
+
+924
+00:56:09,845 --> 00:56:13,725
+Speaker 12:  of your secure financial data and like be able to mess with you
+
+925
+00:56:13,725 --> 00:56:17,325
+Speaker 12:  personally is not beyond the pale. And like you think about the ways that
+
+926
+00:56:17,345 --> 00:56:21,325
+Speaker 12:  he has, for instance, targeted specific government employees
+
+927
+00:56:21,385 --> 00:56:25,325
+Speaker 12:  or specific reporters with his Twitter account where he has, you know,
+
+928
+00:56:25,325 --> 00:56:29,165
+Speaker 12:  essentially like put them on blast with the understanding
+
+929
+00:56:29,165 --> 00:56:32,205
+Speaker 12:  that his audience is going to then dox and harass them.
+
+930
+00:56:33,065 --> 00:56:36,705
+Speaker 12:  And you imagine him now having a bunch of
+
+931
+00:56:37,065 --> 00:56:40,865
+Speaker 12:  sensitive data about all of these people who are speaking out
+
+932
+00:56:41,145 --> 00:56:45,025
+Speaker 12:  about him. That is a much more precarious scenario.
+
+933
+00:56:45,205 --> 00:56:49,065
+Speaker 12:  That's the sort of thing that can have a real chilling effect at minimum
+
+934
+00:56:50,245 --> 00:56:52,065
+Speaker 12:  and at maximum can be quite dangerous.
+
+935
+00:56:52,575 --> 00:56:56,425
+Speaker 2:  Yeah. Can you explain the Peter Thiel of it all to me, per speaking of
+
+936
+00:56:56,445 --> 00:56:57,665
+Speaker 2:  deeply vindictive men?
+
+937
+00:56:59,225 --> 00:57:03,065
+Speaker 2:  I, I, I keep seeing his name connected with this and I'm like,
+
+938
+00:57:03,625 --> 00:57:06,665
+Speaker 2:  I sort of assumed he'd be involved here somehow, but how does Peter Thiel
+
+939
+00:57:06,665 --> 00:57:08,505
+Speaker 2:  figure into this entire equation right now?
+
+940
+00:57:08,965 --> 00:57:12,665
+Speaker 12:  Oh, that's sort of a question mark to me. But he is associated, I think,
+
+941
+00:57:12,945 --> 00:57:16,625
+Speaker 12:  I mean he and Elon obviously have a history. They're sort of frenemies
+
+942
+00:57:17,645 --> 00:57:21,505
+Speaker 12:  and some of Elon's hires have teal ties.
+
+943
+00:57:22,365 --> 00:57:25,905
+Speaker 12:  JD Vance, who has been busily kissing ass has teal ties.
+
+944
+00:57:27,445 --> 00:57:31,345
+Speaker 12:  So there is this kind of network that Teal is associated with
+
+945
+00:57:31,345 --> 00:57:33,265
+Speaker 12:  that Musk is obviously drawing from
+
+946
+00:57:35,135 --> 00:57:38,985
+Speaker 12:  Teal did sit out the election financially. So,
+
+947
+00:57:39,405 --> 00:57:42,705
+Speaker 12:  you know, who knows what's going on there. And
+
+948
+00:57:43,045 --> 00:57:46,545
+Speaker 12:  unlike Musk, teal doesn't generally barge around
+
+949
+00:57:46,685 --> 00:57:50,345
+Speaker 12:  loudly, however, like a number of companies that are
+
+950
+00:57:50,345 --> 00:57:54,265
+Speaker 12:  associated with Peter Teal, for instance, Palantir stand to
+
+951
+00:57:54,265 --> 00:57:57,825
+Speaker 12:  benefit from this sort of new order, right? Right. Where
+
+952
+00:57:58,695 --> 00:58:02,385
+Speaker 12:  there's a more AI focused government
+
+953
+00:58:02,845 --> 00:58:06,745
+Speaker 12:  and where defense contracting suddenly
+
+954
+00:58:07,165 --> 00:58:10,345
+Speaker 12:  has to run through a number of teal allies.
+
+955
+00:58:11,085 --> 00:58:14,705
+Speaker 12:  And you can also imagine a world in which a number of
+
+956
+00:58:14,705 --> 00:58:18,385
+Speaker 12:  government functions get privatized. Like If you read Project
+
+957
+00:58:18,385 --> 00:58:22,065
+Speaker 12:  2025, which it seems pretty obvious is like what's being executed here.
+
+958
+00:58:22,215 --> 00:58:26,105
+Speaker 12:  Yeah. The entire idea is to wreck the
+
+959
+00:58:26,105 --> 00:58:30,065
+Speaker 12:  government as we know it and then privatize stuff so people will just be
+
+960
+00:58:30,065 --> 00:58:31,385
+Speaker 12:  happy that things function again.
+
+961
+00:58:32,395 --> 00:58:34,865
+Speaker 2:  Right. Yeah. I mean, I think I keep
+
+962
+00:58:36,405 --> 00:58:40,325
+Speaker 2:  vacillating between wanting to boil most of this
+
+963
+00:58:40,355 --> 00:58:44,125
+Speaker 2:  down to essentially government contracts and privatizing the government because
+
+964
+00:58:44,125 --> 00:58:46,685
+Speaker 2:  there's a huge amount of money in it for the people who get it and they can
+
+965
+00:58:46,685 --> 00:58:49,765
+Speaker 2:  hand it to themselves and thinking that can't possibly be
+
+966
+00:58:51,185 --> 00:58:54,845
+Speaker 2:  the whole answer. And that it has to be more complicated than that. And I
+
+967
+00:58:54,845 --> 00:58:57,245
+Speaker 2:  think, like, leaving aside the fact that some of the people involved in this,
+
+968
+00:58:57,325 --> 00:59:01,165
+Speaker 2:  I think do genuinely believe the things that they're doing for political
+
+969
+00:59:01,165 --> 00:59:05,115
+Speaker 2:  and moral and whatever value-based reasons, like, is most
+
+970
+00:59:05,115 --> 00:59:08,635
+Speaker 2:  of it defense contracts? Like is it, is it, If you boil it all the way down,
+
+971
+00:59:08,635 --> 00:59:11,075
+Speaker 2:  is it kind of that simple in a lot of places here?
+
+972
+00:59:11,965 --> 00:59:15,725
+Speaker 12:  I think that is a, a pretty big motivator. Yeah. Because like, think about
+
+973
+00:59:15,725 --> 00:59:18,325
+Speaker 12:  how expensive AI is and how
+
+974
+00:59:19,755 --> 00:59:23,645
+Speaker 12:  terrible it has been and how widely made fun of it is.
+
+975
+00:59:23,675 --> 00:59:26,965
+Speaker 12:  Like I personally have switched away from using Google search, like I pay
+
+976
+00:59:26,965 --> 00:59:30,805
+Speaker 12:  for coy now. Which by the way, same, you know, for those of you who are
+
+977
+00:59:30,805 --> 00:59:34,245
+Speaker 12:  listening who are like, gee, I wish Google functioned like it did in 2012,
+
+978
+00:59:34,665 --> 00:59:35,765
+Speaker 12:  boy do I have a service for you?
+
+979
+00:59:37,745 --> 00:59:41,525
+Speaker 12:  Highly recommend it. But like, yeah, I mean like, this is
+
+980
+00:59:42,075 --> 00:59:46,045
+Speaker 12:  made a lot of AI has made a lot of things worse. And like you can,
+
+981
+00:59:46,185 --> 00:59:49,885
+Speaker 12:  you can see it, you interact with it, you know, it doesn't work. And so
+
+982
+00:59:50,565 --> 00:59:54,365
+Speaker 12:  thinking about ways to essentially bail themselves out, like the funder
+
+983
+00:59:54,365 --> 00:59:57,325
+Speaker 12:  of last resort at this point is the government. So I think that is a huge
+
+984
+00:59:57,325 --> 01:00:01,125
+Speaker 12:  part of it for sure. There's also obviously ideological motivations,
+
+985
+01:00:01,125 --> 01:00:05,045
+Speaker 12:  like the idea of privatizing everything is like a conservative wet dream.
+
+986
+01:00:05,545 --> 01:00:09,125
+Speaker 12:  And then on top of it, there are a bunch of like weird conspiracy theories
+
+987
+01:00:09,195 --> 01:00:12,885
+Speaker 12:  that, you know, people are varying degrees of bought into about what the
+
+988
+01:00:12,885 --> 01:00:15,645
+Speaker 12:  government doesn't, doesn't do. Like every once in a while I see some like
+
+989
+01:00:15,655 --> 01:00:19,365
+Speaker 12:  weird stuff from like Musk where it's like,
+
+990
+01:00:19,545 --> 01:00:22,605
+Speaker 12:  can you imagine that the government has your social security number? And
+
+991
+01:00:22,605 --> 01:00:26,365
+Speaker 12:  it's like, okay, but like who do you know who assigned me my social
+
+992
+01:00:26,685 --> 01:00:30,645
+Speaker 12:  security number? Right? Like, do you know what it's for? Like,
+
+993
+01:00:31,195 --> 01:00:34,925
+Speaker 2:  This is what I mean, it's like how it's hard to know what of this stuff
+
+994
+01:00:35,025 --> 01:00:38,835
+Speaker 2:  is very scary, what is a little scary and what is
+
+995
+01:00:39,035 --> 01:00:41,835
+Speaker 2:  actually just like how things already were.
+
+996
+01:00:43,615 --> 01:00:47,035
+Speaker 2:  But it, it does feel like everything is, is sliding in the direction of very
+
+997
+01:00:47,035 --> 01:00:50,595
+Speaker 2:  scary because it is just a bunch of people you've never heard of doing things
+
+998
+01:00:51,575 --> 01:00:55,195
+Speaker 2:  no one elected them to do. And that on its face is a problem. Like even
+
+999
+01:00:55,195 --> 01:00:57,475
+Speaker 2:  absent the rest of it, that on its face is part of the problem.
+
+1000
+01:00:58,185 --> 01:01:01,455
+Speaker 12:  Right. And the chaos is a problem too. Yeah. Because like, If you think
+
+1001
+01:01:01,455 --> 01:01:04,855
+Speaker 12:  about it, one of the reasons why America is a dominant
+
+1002
+01:01:05,115 --> 01:01:08,895
+Speaker 12:  global power has to do with the fact that our treasury
+
+1003
+01:01:09,265 --> 01:01:13,095
+Speaker 12:  bonds are considered to be the safest investment on
+
+1004
+01:01:13,095 --> 01:01:16,175
+Speaker 12:  earth. You know, they're used all over the place
+
+1005
+01:01:16,955 --> 01:01:20,775
+Speaker 12:  as like guaranteed money. And on
+
+1006
+01:01:20,775 --> 01:01:23,935
+Speaker 12:  Sunday, which as we're talking right now, was yesterday,
+
+1007
+01:01:24,395 --> 01:01:28,255
+Speaker 12:  Donald Trump came out and was like, oh, well Elon Musk has
+
+1008
+01:01:28,695 --> 01:01:32,175
+Speaker 12:  discovered that some of those treasury bonds aren't real.
+
+1009
+01:01:32,635 --> 01:01:36,095
+Speaker 12:  And it's like, you know, you can crash the entire global
+
+1010
+01:01:36,165 --> 01:01:39,815
+Speaker 12:  financial system by saying that. Right. And
+
+1011
+01:01:40,835 --> 01:01:44,015
+Speaker 12:  the, the reaction in the market has been muted because they, you know, you
+
+1012
+01:01:44,015 --> 01:01:47,535
+Speaker 12:  can't tell whether grandpa's sundowning again or whether he actually means
+
+1013
+01:01:47,555 --> 01:01:51,495
+Speaker 12:  it. Right. But, you know, these are two men
+
+1014
+01:01:51,495 --> 01:01:54,895
+Speaker 12:  who have a history of not paying their debts. So that's very exciting.
+
+1015
+01:01:55,795 --> 01:01:58,895
+Speaker 12:  You know, it's just, it's the uncertainty in particular that I think is
+
+1016
+01:01:58,935 --> 01:02:02,535
+Speaker 12:  a problem beyond everything else. Because one of the reasons why,
+
+1017
+01:02:02,835 --> 01:02:05,455
+Speaker 12:  you know, for instance, people incorporate in Delaware is because there
+
+1018
+01:02:05,455 --> 01:02:09,015
+Speaker 12:  is a certain amount of certainty about how things turn out. You know,
+
+1019
+01:02:09,595 --> 01:02:13,535
+Speaker 12:  how this is gonna go. There's like a history and like people generally follow
+
+1020
+01:02:13,595 --> 01:02:17,535
+Speaker 12:  the history and like there is a, you know, a an amount of
+
+1021
+01:02:17,535 --> 01:02:21,325
+Speaker 12:  de-risking that goes on because of that. So separately from whatever,
+
+1022
+01:02:21,705 --> 01:02:24,725
+Speaker 12:  you know, sort of other terrifying things may be happening,
+
+1023
+01:02:25,275 --> 01:02:28,965
+Speaker 12:  inserting this kind of uncertainty into a previously like
+
+1024
+01:02:29,795 --> 01:02:31,055
+Speaker 12:  almost taken for granted
+
+1025
+01:02:33,055 --> 01:02:36,855
+Speaker 12:  baseline of certainty is in and of itself really
+
+1026
+01:02:36,855 --> 01:02:38,135
+Speaker 12:  destroying something important.
+
+1027
+01:02:38,725 --> 01:02:42,015
+Speaker 2:  Totally. And so just to end on a true bummer of a note,
+
+1028
+01:02:43,335 --> 01:02:46,815
+Speaker 2:  I have been sort of assuming that this would e eventually in some way kind
+
+1029
+01:02:46,815 --> 01:02:50,345
+Speaker 2:  of, I don't know, if not Peter out then at least like
+
+1030
+01:02:50,695 --> 01:02:54,265
+Speaker 2:  slow down that that there, the legal fights would slow things down. You kind
+
+1031
+01:02:54,265 --> 01:02:57,585
+Speaker 2:  of make the case it's the opposite that if anything, were due for this to
+
+1032
+01:02:57,715 --> 01:03:01,305
+Speaker 2:  accelerate. Yep. Can you just tell me why, and then I'm gonna go feel sad
+
+1033
+01:03:01,305 --> 01:03:02,465
+Speaker 2:  about myself while we take a break?
+
+1034
+01:03:04,535 --> 01:03:07,985
+Speaker 12:  Well, here's the thing. I think this is an all or nothing gamble for Musk
+
+1035
+01:03:08,085 --> 01:03:11,785
+Speaker 12:  at this point. He's broken so many laws that he is looking at
+
+1036
+01:03:12,185 --> 01:03:16,065
+Speaker 12:  a number of serious legal fights, if not actual jail time, if he
+
+1037
+01:03:16,065 --> 01:03:19,705
+Speaker 12:  has stopped. So this is, you know, this is
+
+1038
+01:03:20,175 --> 01:03:24,145
+Speaker 12:  very much a, is a big gamble. It's, and if he wins, he's the king of
+
+1039
+01:03:24,145 --> 01:03:27,985
+Speaker 12:  the United States. And if he loses, his life
+
+1040
+01:03:27,985 --> 01:03:31,945
+Speaker 12:  becomes incredibly, incredibly, incredibly painful. Much more so than any
+
+1041
+01:03:32,095 --> 01:03:35,905
+Speaker 12:  kind of pain he's ever experienced before. So I don't
+
+1042
+01:03:35,955 --> 01:03:39,625
+Speaker 12:  think he's going to slow down because he can't slow down
+
+1043
+01:03:39,855 --> 01:03:43,345
+Speaker 12:  because if he slows down, then he increases the
+
+1044
+01:03:43,345 --> 01:03:47,025
+Speaker 12:  likelihood that he is in fact stopped. And
+
+1045
+01:03:47,095 --> 01:03:51,025
+Speaker 12:  that is one of the reasons I think we are in a really scary moment, is because
+
+1046
+01:03:51,175 --> 01:03:54,345
+Speaker 12:  this is such an existential gamble for him personally,
+
+1047
+01:03:55,215 --> 01:03:58,665
+Speaker 12:  that he's gonna do whatever it takes to remain in charge.
+
+1048
+01:03:59,615 --> 01:04:02,905
+Speaker 2:  Fair enough. All right, well I desperately hope you're wrong, but I fear
+
+1049
+01:04:02,905 --> 01:04:06,225
+Speaker 2:  that you're right. We're gonna have to do this again. This is, as you said,
+
+1050
+01:04:06,325 --> 01:04:09,065
+Speaker 2:  not going away. But until then, thank you as always, Liz.
+
+1051
+01:04:09,535 --> 01:04:09,825
+Speaker 12:  Yeah,
+
+1052
+01:06:25,215 --> 01:06:28,075
+Speaker 2:  All right, we're back. Let's get to the hotline as always. The number is
+
+1053
+01:06:28,075 --> 01:06:31,915
+Speaker 2:  8 6 6 VERGE one one. You can also email vergecast at The Verge
+
+1054
+01:06:31,975 --> 01:06:35,835
+Speaker 2:  dot com. We love all of your questions. The hotline has been so,
+
+1055
+01:06:35,835 --> 01:06:39,435
+Speaker 2:  so fun the last few weeks, and I am extremely grateful to everybody who's
+
+1056
+01:06:39,435 --> 01:06:43,275
+Speaker 2:  reached out. Thank you again for all of your questions all the time. We
+
+1057
+01:06:43,275 --> 01:06:45,795
+Speaker 2:  try to do at least one on the show every week, but frankly, we're getting
+
+1058
+01:06:45,795 --> 01:06:48,515
+Speaker 2:  so many good ones that we're gonna have to figure out how to start doing
+
+1059
+01:06:48,515 --> 01:06:51,955
+Speaker 2:  more this week. We have a question about the Super Bowl
+
+1060
+01:06:52,265 --> 01:06:52,795
+Speaker 2:  here. It's,
+
+1061
+01:06:54,365 --> 01:06:57,945
+Speaker 16:  Hey, it's Peter in Brooklyn and I'm launching the Super Bowl on Yep. Tub
+
+1062
+01:06:58,105 --> 01:07:02,065
+Speaker 16:  B. And it's so clear that the onscreen
+
+1063
+01:07:02,305 --> 01:07:06,145
+Speaker 16:  graphics are in seven 20 P, not even the 10 80 p that's being upscaled
+
+1064
+01:07:06,165 --> 01:07:10,065
+Speaker 16:  to 4K, but the same seven 20
+
+1065
+01:07:10,225 --> 01:07:13,985
+Speaker 16:  p. It's on broadcast, the edges are like
+
+1066
+01:07:15,005 --> 01:07:18,785
+Speaker 16:  jagged and gross and just bugs the crazy outta me.
+
+1067
+01:07:18,925 --> 01:07:19,865
+Speaker 16:  Thanks. Bye.
+
+1068
+01:07:20,995 --> 01:07:24,645
+Speaker 2:  Neil Patel is here. America's number one upscaling correspondent.
+
+1069
+01:07:26,025 --> 01:07:27,925
+Speaker 17:  Was that a question or a comment, sir?
+
+1070
+01:07:28,285 --> 01:07:31,045
+Speaker 2:  I think sometimes you just need to have feelings at The Vergecast hotline.
+
+1071
+01:07:31,365 --> 01:07:33,965
+Speaker 2:  Yeah, I have no problem with this. If you just wanna have feelings about
+
+1072
+01:07:33,965 --> 01:07:37,365
+Speaker 2:  the state of technology, call us Vir one one,
+
+1073
+01:07:37,715 --> 01:07:41,525
+Speaker 2:  we'd love to hear from you. So you posted something on Blue Sky
+
+1074
+01:07:41,525 --> 01:07:44,365
+Speaker 2:  during the Super Bowl, in which you were annoyed at the onscreen graphics,
+
+1075
+01:07:44,885 --> 01:07:47,885
+Speaker 2:  which is why I brought you here because I just wanna, I just wanna hear how
+
+1076
+01:07:47,885 --> 01:07:51,685
+Speaker 2:  you feel as a man with a lot of thoughts about upscaling and fake Dolby Atmos.
+
+1077
+01:07:52,175 --> 01:07:53,125
+Speaker 2:  How'd the Super Bowl go?
+
+1078
+01:07:53,925 --> 01:07:54,975
+Speaker 17:  Well, the right team won.
+
+1079
+01:07:56,415 --> 01:07:56,535
+Speaker 2:  I,
+
+1080
+01:07:56,855 --> 01:07:59,415
+Speaker 17:  I didn't say who it was in the last episode, but the right team, the right
+
+1081
+01:07:59,415 --> 01:07:59,855
+Speaker 17:  team won.
+
+1082
+01:07:59,965 --> 01:08:00,495
+Speaker 2:  Yeah, that's
+
+1083
+01:08:00,495 --> 01:08:04,335
+Speaker 17:  Fair. So that was good. I don't think those graphics were in seven 20 p
+
+1084
+01:08:04,335 --> 01:08:08,055
+Speaker 17:  because just the way that Fox's pipeline works, they
+
+1085
+01:08:08,415 --> 01:08:12,375
+Speaker 17:  produced the show in 10 80 PHDR, and then they go down to seven
+
+1086
+01:08:12,375 --> 01:08:16,365
+Speaker 17:  20 P for broadcast, and they went up to K for tub B.
+
+1087
+01:08:17,065 --> 01:08:20,655
+Speaker 17:  And so from what I understand, the whole
+
+1088
+01:08:20,825 --> 01:08:24,695
+Speaker 17:  production was in 10 80 p from tip to tail. The graphics
+
+1089
+01:08:24,915 --> 01:08:26,015
+Speaker 17:  did look bad, though.
+
+1090
+01:08:26,205 --> 01:08:26,695
+Speaker 2:  They did.
+
+1091
+01:08:27,135 --> 01:08:30,575
+Speaker 17:  I don't think it, that's like a technical system problem. I think that's
+
+1092
+01:08:30,695 --> 01:08:34,535
+Speaker 17:  a design problem. Like it had, there were drop
+
+1093
+01:08:34,535 --> 01:08:35,935
+Speaker 17:  shadows, it was very nineties.
+
+1094
+01:08:36,315 --> 01:08:39,535
+Speaker 2:  It was very nineties. But I do think I noticed it looking
+
+1095
+01:08:40,225 --> 01:08:44,215
+Speaker 2:  fuzzy also like the, the KC for Kansas City was like, it, it
+
+1096
+01:08:44,215 --> 01:08:46,775
+Speaker 2:  looked like it had been like vector stretched and didn't look right.
+
+1097
+01:08:47,515 --> 01:08:51,375
+Speaker 17:  So I think they used a custom type face based on the Fox logo for those
+
+1098
+01:08:51,375 --> 01:08:54,335
+Speaker 17:  letters, which is weird. And then
+
+1099
+01:08:55,745 --> 01:08:59,735
+Speaker 17:  maybe this is only because I have a gigantic tv 'cause I thought it
+
+1100
+01:08:59,735 --> 01:09:03,255
+Speaker 17:  was blurry too, but it turns out they were using a border
+
+1101
+01:09:03,355 --> 01:09:06,855
+Speaker 17:  around the letters. Oh, that was a slightly different color
+
+1102
+01:09:07,325 --> 01:09:10,975
+Speaker 17:  that made it look fuzzy. So I think on a small
+
+1103
+01:09:11,125 --> 01:09:14,295
+Speaker 17:  size you were seeing this like weird gradient fuzz
+
+1104
+01:09:14,885 --> 01:09:18,775
+Speaker 17:  because there was a slightly different color border around the
+
+1105
+01:09:18,775 --> 01:09:18,975
+Speaker 17:  letters.
+
+1106
+01:09:19,735 --> 01:09:19,975
+Speaker 2:  Interesting.
+
+1107
+01:09:20,475 --> 01:09:24,375
+Speaker 17:  So it's a border. So on Kansas City it was white letters with a very
+
+1108
+01:09:24,405 --> 01:09:27,575
+Speaker 17:  thin yellow border. Oh, I see what you mean. And on Philadelphia, it's white
+
+1109
+01:09:27,575 --> 01:09:31,295
+Speaker 17:  letters with a very thin white green border. So,
+
+1110
+01:09:31,355 --> 01:09:34,975
+Speaker 17:  and that's not high contrast enough against the colors
+
+1111
+01:09:35,235 --> 01:09:39,215
+Speaker 17:  of the blocks. So they just look f it totally looks
+
+1112
+01:09:39,215 --> 01:09:42,215
+Speaker 17:  fuzzy. I completely agree. And then If you look above or any other stuff,
+
+1113
+01:09:42,675 --> 01:09:46,055
+Speaker 17:  the clock doesn't have the border so it looks sharp. The score itself didn't
+
+1114
+01:09:46,055 --> 01:09:48,975
+Speaker 17:  add a border so it looks sharp. It just, right. I think a lot of people
+
+1115
+01:09:48,995 --> 01:09:52,955
+Speaker 17:  saw that. And then bizarrely the stats where
+
+1116
+01:09:52,955 --> 01:09:56,195
+Speaker 17:  they were like, Jalen hurts four for 5 51 yards,
+
+1117
+01:09:57,005 --> 01:10:00,335
+Speaker 17:  they have a drop shed, which makes them pop even more.
+
+1118
+01:10:00,645 --> 01:10:03,055
+Speaker 2:  Yeah. It was, it, it was terribly designed. Yeah.
+
+1119
+01:10:03,955 --> 01:10:07,775
+Speaker 17:  So like, I I agree. This is, this is just a, a mess of design.
+
+1120
+01:10:08,495 --> 01:10:12,335
+Speaker 17:  I so people who responded to my tweet
+
+1121
+01:10:12,335 --> 01:10:14,375
+Speaker 17:  saying that it looked like it was made in print Shop pro,
+
+1122
+01:10:16,255 --> 01:10:20,035
+Speaker 17:  the point they were making is this is better for phones and people are watching
+
+1123
+01:10:20,035 --> 01:10:23,115
+Speaker 17:  this on phones now. I don't, I I don't think people watch Super World phones.
+
+1124
+01:10:23,485 --> 01:10:23,835
+Speaker 17:  Sorry.
+
+1125
+01:10:24,115 --> 01:10:24,435
+Speaker 2:  I No,
+
+1126
+01:10:24,815 --> 01:10:27,555
+Speaker 17:  And I think prioritizing that audience is weird.
+
+1127
+01:10:29,605 --> 01:10:33,115
+Speaker 17:  Right. 'cause most people watch Super Bowl around televisions or with people
+
+1128
+01:10:33,255 --> 01:10:33,955
+Speaker 17:  or in bars.
+
+1129
+01:10:34,185 --> 01:10:37,355
+Speaker 2:  Yeah. Like famously it's the thing everyone watches on televisions. Yeah.
+
+1130
+01:10:37,355 --> 01:10:39,395
+Speaker 2:  That is like, that's, that's the Super Bowl's thing. Yeah.
+
+1131
+01:10:39,895 --> 01:10:42,275
+Speaker 17:  And so you can make an argument even in that case that maybe what you wanna
+
+1132
+01:10:42,275 --> 01:10:46,235
+Speaker 17:  do is, you know, if you're watching in a bar
+
+1133
+01:10:46,295 --> 01:10:49,595
+Speaker 17:  on a tv, you, you wanna make it very obvious what's going on.
+
+1134
+01:10:50,545 --> 01:10:53,805
+Speaker 17:  But I actually don't think this served that goal either. It made everything
+
+1135
+01:10:53,805 --> 01:10:57,045
+Speaker 17:  bigger, but in terms of information design
+
+1136
+01:10:57,905 --> 01:11:01,725
+Speaker 17:  did not make it easier to understand what was going on in a way, because
+
+1137
+01:11:01,725 --> 01:11:02,725
+Speaker 17:  it looks so crazy.
+
+1138
+01:11:03,835 --> 01:11:07,325
+Speaker 2:  Yeah. Yeah. My favorite tweet was from Tom Elli,
+
+1139
+01:11:07,765 --> 01:11:11,245
+Speaker 2:  who's a sportscaster for CBS and stuff. And he said after giving Tom Brady
+
+1140
+01:11:11,245 --> 01:11:15,125
+Speaker 2:  $375 million, Fox only had 25 bucks left to spend on a score
+
+1141
+01:11:15,125 --> 01:11:16,365
+Speaker 2:  bug design, which feels
+
+1142
+01:11:16,365 --> 01:11:19,845
+Speaker 17:  About right. That's good. Yeah. I, I tried to workshop a joke like that
+
+1143
+01:11:19,845 --> 01:11:23,605
+Speaker 17:  and I couldn't get there. So I I appreciate that. Someone, someone
+
+1144
+01:11:23,605 --> 01:11:24,605
+Speaker 17:  nailed it. Yeah.
+
+1145
+01:11:24,645 --> 01:11:28,485
+Speaker 2:  I will say, I'm looking at a screenshot of the bug, and you're right that
+
+1146
+01:11:28,485 --> 01:11:31,805
+Speaker 2:  it is both sharp and blurry at the same time somehow, which suggests that
+
+1147
+01:11:31,805 --> 01:11:35,725
+Speaker 2:  it is correctly rendered bad design. How did you watch
+
+1148
+01:11:35,725 --> 01:11:37,405
+Speaker 2:  the Super Bowl? What was your, what was your setup?
+
+1149
+01:11:38,165 --> 01:11:42,005
+Speaker 17:  I watched on Tubi, I only paid for YouTube tv
+
+1150
+01:11:42,115 --> 01:11:46,045
+Speaker 17:  4K for one month when they had the Packers in the playoffs.
+
+1151
+01:11:46,045 --> 01:11:49,925
+Speaker 17:  And then I canceled it, which I felt was appropriate. Like, I
+
+1152
+01:11:49,925 --> 01:11:52,205
+Speaker 17:  will pay the extra money. And then they lost, you know, their playoff game.
+
+1153
+01:11:52,205 --> 01:11:55,365
+Speaker 17:  So I canceled it. Saving the money. Yeah. I was like, I'm done here. And
+
+1154
+01:11:55,365 --> 01:11:57,645
+Speaker 17:  then I was like, crap, I didn't cancel it. Like I didn't wait the extra
+
+1155
+01:11:57,645 --> 01:12:01,125
+Speaker 17:  two days to get to the Super Bowl. So Washington two v4 k it looked great.
+
+1156
+01:12:01,625 --> 01:12:05,565
+Speaker 17:  Fox I think did a good job. Yeah. Like as good as they
+
+1157
+01:12:05,565 --> 01:12:09,205
+Speaker 17:  could have done. They, I, I read somewhere the highest bit rate was
+
+1158
+01:12:09,485 --> 01:12:12,925
+Speaker 17:  14.4 megabits, which is not great. It's not the 80
+
+1159
+01:12:12,925 --> 01:12:16,125
+Speaker 17:  megabits of Sony Picture Core on my Bravia television. Alas.
+
+1160
+01:12:16,865 --> 01:12:20,565
+Speaker 17:  But it was, I think good for live. It didn't block up. I always look at
+
+1161
+01:12:20,565 --> 01:12:24,235
+Speaker 17:  the confetti at the end of the Super Bowl to see how bad it is,
+
+1162
+01:12:24,305 --> 01:12:27,715
+Speaker 17:  like where they've made the trade off. And it wasn't bad. It wasn't great.
+
+1163
+01:12:27,715 --> 01:12:28,275
+Speaker 17:  It wasn't bad.
+
+1164
+01:12:28,805 --> 01:12:32,715
+Speaker 2:  There have been broadcasts where the confetti looked like a like 1990s
+
+1165
+01:12:32,715 --> 01:12:35,035
+Speaker 2:  video game. Like the, we've, we've seen that in the past.
+
+1166
+01:12:35,515 --> 01:12:38,835
+Speaker 17:  And that's, that's literally just compression and bitrate. If you don't
+
+1167
+01:12:38,835 --> 01:12:41,435
+Speaker 17:  have a high enough bitrate stream, you can't move enough data. So you're
+
+1168
+01:12:41,435 --> 01:12:44,635
+Speaker 17:  gonna compress everything down and the confetti is moving too fast
+
+1169
+01:12:45,455 --> 01:12:49,245
+Speaker 17:  so the compression can't create key frames. So
+
+1170
+01:12:49,305 --> 01:12:52,565
+Speaker 17:  you just get blocks, like every block on the screen gets pixelated.
+
+1171
+01:12:53,315 --> 01:12:56,285
+Speaker 17:  That I think that's like, I can see it and the, you know, people are like,
+
+1172
+01:12:56,285 --> 01:12:58,605
+Speaker 17:  well, you only get confetti once a year. And I'm like, yeah. At the end
+
+1173
+01:12:58,605 --> 01:12:59,285
+Speaker 17:  of the Super Bowl.
+
+1174
+01:13:00,675 --> 01:13:04,125
+Speaker 2:  Yeah, it does, it, it it is pretty important. Confetti. It's all things considered.
+
+1175
+01:13:04,395 --> 01:13:04,685
+Speaker 2:  Yeah.
+
+1176
+01:13:05,005 --> 01:13:08,885
+Speaker 17:  Actually need it. And so that's the trade off. But I thought
+
+1177
+01:13:08,965 --> 01:13:12,845
+Speaker 17:  FI think 14.4 was enough, at least on my stream
+
+1178
+01:13:12,865 --> 01:13:16,205
+Speaker 17:  on two B, the way I was watching it to, to handle it. That's I kinda thing
+
+1179
+01:13:16,205 --> 01:13:20,045
+Speaker 17:  I look at the fake HDR was Okay. And the, I think the upscaling was
+
+1180
+01:13:20,045 --> 01:13:23,685
+Speaker 17:  not good. Like I watched the halftime show again
+
+1181
+01:13:23,825 --> 01:13:27,805
+Speaker 17:  on YouTube in 10 80 PHCR, which is the highest YouTube has it at, or
+
+1182
+01:13:27,805 --> 01:13:29,965
+Speaker 17:  at least last night when I was watching it, it was, that was the highest
+
+1183
+01:13:29,965 --> 01:13:33,845
+Speaker 17:  it had it at and it looked substantially the same. Yeah. Like
+
+1184
+01:13:33,845 --> 01:13:37,605
+Speaker 17:  my TV was doing a good enough job upscaling the 10 80 PHCR
+
+1185
+01:13:37,945 --> 01:13:41,205
+Speaker 17:  to its 4K display is Fox's native 4K upscaling.
+
+1186
+01:13:41,705 --> 01:13:45,405
+Speaker 17:  That's not, you know, like I, presumably they have more
+
+1187
+01:13:45,405 --> 01:13:49,005
+Speaker 17:  budget than Sony did when they built the upscale on my tv
+
+1188
+01:13:49,285 --> 01:13:52,125
+Speaker 17:  probably. Yeah. So I I it, I think it was just fun.
+
+1189
+01:13:52,755 --> 01:13:56,645
+Speaker 2:  Yeah. I, it, it held up, which is not nothing for something
+
+1190
+01:13:56,645 --> 01:14:00,125
+Speaker 2:  like Tubi, which I'm sure has never had the volume of people watching one
+
+1191
+01:14:00,365 --> 01:14:02,245
+Speaker 2:  specific thing as it did on Sunday
+
+1192
+01:14:02,245 --> 01:14:05,925
+Speaker 17:  Night. I read and Sport Aico, which is just like a business of sports
+
+1193
+01:14:06,115 --> 01:14:10,085
+Speaker 17:  publication. I read an interview with the, the two B folks and they
+
+1194
+01:14:10,085 --> 01:14:13,925
+Speaker 17:  were really concerned about signups, right? Like people signing into Tubi,
+
+1195
+01:14:14,085 --> 01:14:16,565
+Speaker 17:  downloading the app and getting all this stuff. And they were paying attention
+
+1196
+01:14:16,625 --> 01:14:20,285
+Speaker 17:  to how their competitors and Fox had done it in the past to get people to
+
+1197
+01:14:20,405 --> 01:14:23,165
+Speaker 17:  download the Fox sports app. And they, they realized that there was a ton
+
+1198
+01:14:23,165 --> 01:14:27,045
+Speaker 17:  of friction around, you know, having an account doing a
+
+1199
+01:14:27,045 --> 01:14:30,565
+Speaker 17:  credit card number. And that Tubi executive was like, yeah, we don't even,
+
+1200
+01:14:31,145 --> 01:14:34,365
+Speaker 17:  we can't even take a credit card number. Like, we're just like, not, we're
+
+1201
+01:14:34,365 --> 01:14:37,325
+Speaker 17:  just not that thing. Yeah. Like, we're just like, open the app and please
+
+1202
+01:14:37,325 --> 01:14:41,165
+Speaker 17:  start watching ads. So they were very confident that people
+
+1203
+01:14:41,165 --> 01:14:44,365
+Speaker 17:  would get the app and like immediately start watching. And I think that
+
+1204
+01:14:44,795 --> 01:14:48,485
+Speaker 17:  that kind of like zero friction TV experience is very much what Tubb is
+
+1205
+01:14:48,485 --> 01:14:48,885
+Speaker 17:  betting on.
+
+1206
+01:14:49,075 --> 01:14:52,965
+Speaker 2:  Yeah. And it felt like old school tv, it was like two clicks and I was watching
+
+1207
+01:14:53,105 --> 01:14:57,005
+Speaker 2:  the thing, it was awesome. I like, it made me feel like I was watching the
+
+1208
+01:14:57,005 --> 01:15:00,765
+Speaker 2:  pre-roll ad before the thing starts that you get on a lot of these services
+
+1209
+01:15:00,825 --> 01:15:03,245
+Speaker 2:  now. And I was just like, oh no, this is just like a Super Bowl ad. It's
+
+1210
+01:15:03,245 --> 01:15:06,565
+Speaker 2:  just, it just started playing the television show. It was great.
+
+1211
+01:15:07,585 --> 01:15:11,365
+Speaker 2:  Did you try any of the, the Dolby Atmos shenanigans? Oh, I guess you don't
+
+1212
+01:15:11,365 --> 01:15:13,365
+Speaker 2:  have Comcast. I don't Comcast. So you couldn't try the shenanigans?
+
+1213
+01:15:14,085 --> 01:15:15,565
+Speaker 17:  I don't think Tub's audio was very good.
+
+1214
+01:15:17,735 --> 01:15:20,875
+Speaker 17:  It, you know, when you watch a football game and like true 5.1, you get
+
+1215
+01:15:20,875 --> 01:15:24,155
+Speaker 17:  the crowd behind you and all, all the stuff, none of that. It was a very
+
+1216
+01:15:24,425 --> 01:15:28,355
+Speaker 17:  flat sort of stereo mix. My, my tea, you know, my Shiva was like doing
+
+1217
+01:15:28,415 --> 01:15:32,315
+Speaker 17:  its own virtual upmixing, but even the halftime show was like kind of quiet
+
+1218
+01:15:32,315 --> 01:15:32,915
+Speaker 17:  and muffled.
+
+1219
+01:15:33,495 --> 01:15:37,235
+Speaker 2:  It was, it, that was one of the things I was most struck by from the halftime
+
+1220
+01:15:37,235 --> 01:15:40,715
+Speaker 2:  show was it was, I couldn't tell if it was not well mixed
+
+1221
+01:15:41,015 --> 01:15:44,795
+Speaker 2:  on their end or if it was just coming out of my
+
+1222
+01:15:44,795 --> 01:15:48,395
+Speaker 2:  speakers incorrectly. As, you know, my speakers are not famously
+
+1223
+01:15:48,675 --> 01:15:49,675
+Speaker 2:  fabulous on my television.
+
+1224
+01:15:50,265 --> 01:15:52,675
+Speaker 17:  Your alarm clock that you play music through. Yeah,
+
+1225
+01:15:53,305 --> 01:15:56,315
+Speaker 2:  Exactly. But that seemed to be an experience a lot of people had that the,
+
+1226
+01:15:56,335 --> 01:15:59,915
+Speaker 2:  the sound on the streaming side of things was not super
+
+1227
+01:15:59,915 --> 01:16:00,475
+Speaker 2:  impressive.
+
+1228
+01:16:00,745 --> 01:16:04,475
+Speaker 17:  Yeah. I think they prioritized, were delivering a 4K HDR Yeah.
+
+1229
+01:16:04,645 --> 01:16:07,835
+Speaker 17:  Quote unquote 4K HDR to a lot of people for free. And people will be impressed
+
+1230
+01:16:07,835 --> 01:16:11,755
+Speaker 17:  by that 'cause it's free and they can see it. And most people don't
+
+1231
+01:16:11,755 --> 01:16:15,455
+Speaker 17:  have the audio setups right. Or they, they have a inexpensive
+
+1232
+01:16:15,455 --> 01:16:17,615
+Speaker 17:  soundbar. So they, I think they just didn't prioritize that. I would like
+
+1233
+01:16:17,615 --> 01:16:18,655
+Speaker 17:  to see them prioritize that next time.
+
+1234
+01:16:19,045 --> 01:16:22,815
+Speaker 2:  Yeah. Agreed. Yeah. I feel like this was a victory. Like
+
+1235
+01:16:23,115 --> 01:16:26,855
+Speaker 2:  all things considered. We've had some truly messy football streaming
+
+1236
+01:16:26,855 --> 01:16:29,295
+Speaker 2:  experiences over the years. This felt like a good one. It
+
+1237
+01:16:29,295 --> 01:16:33,095
+Speaker 17:  Was a good one. I I, I think overall everyone has like, learned a bunch
+
+1238
+01:16:33,095 --> 01:16:36,175
+Speaker 17:  of lessons. Yeah. But the, the part where
+
+1239
+01:16:37,295 --> 01:16:41,105
+Speaker 17:  it's still just not possible to watch a true
+
+1240
+01:16:41,105 --> 01:16:44,305
+Speaker 17:  4K football game remains devastating in the
+
+1241
+01:16:44,305 --> 01:16:45,105
+Speaker 17:  United States of America.
+
+1242
+01:16:45,245 --> 01:16:48,985
+Speaker 2:  You know what I'm forever struck by is like the, the, when they started using
+
+1243
+01:16:49,115 --> 01:16:52,825
+Speaker 2:  those Sony cameras in the end zone that get actual honest to God
+
+1244
+01:16:53,095 --> 01:16:56,065
+Speaker 2:  Boca on the players. Yeah. And all of a sudden everybody was like, they're
+
+1245
+01:16:56,065 --> 01:16:59,865
+Speaker 2:  streaming this in eight k it looks, and it's like no, they just, they just
+
+1246
+01:16:59,865 --> 01:17:03,345
+Speaker 2:  have apertures now. Yeah. They're, they're just doing Boca.
+
+1247
+01:17:03,695 --> 01:17:03,985
+Speaker 2:  It's
+
+1248
+01:17:03,985 --> 01:17:06,345
+Speaker 17:  Like the first time they were doing it, they were using YouTuber cameras.
+
+1249
+01:17:06,345 --> 01:17:09,645
+Speaker 17:  They were using just a sevens. Now I think they're using fancier cameras,
+
+1250
+01:17:09,865 --> 01:17:10,245
+Speaker 17:  but like
+
+1251
+01:17:10,985 --> 01:17:14,405
+Speaker 2:  The gap between what we're getting and things that will look
+
+1252
+01:17:14,405 --> 01:17:18,125
+Speaker 2:  substantially better is actually pretty small. And it's just little things
+
+1253
+01:17:18,155 --> 01:17:21,725
+Speaker 2:  like what if the background was blurry that all of a sudden makes everything
+
+1254
+01:17:21,725 --> 01:17:24,685
+Speaker 2:  feel better. So it's like there's actually so much room to make this stuff
+
+1255
+01:17:24,685 --> 01:17:28,165
+Speaker 2:  better without like, fundamentally rewriting the architecture of the internet.
+
+1256
+01:17:28,555 --> 01:17:32,085
+Speaker 17:  There's that. I, there's also the, the reason they were able to bring
+
+1257
+01:17:32,385 --> 01:17:36,285
+Speaker 17:  the A sevens to the broadcast, and we wrote about this a bunch at
+
+1258
+01:17:36,285 --> 01:17:40,005
+Speaker 17:  the time, a bunch of other like business of
+
+1259
+01:17:40,005 --> 01:17:43,685
+Speaker 17:  sports websites wrote about it at the time because what they needed to do
+
+1260
+01:17:43,685 --> 01:17:47,565
+Speaker 17:  to make that work was one, they needed to try it in
+
+1261
+01:17:47,565 --> 01:17:51,125
+Speaker 17:  like a low cost way. Like these broadcast operations are big
+
+1262
+01:17:51,135 --> 01:17:55,085
+Speaker 17:  integrated third party operations. Yeah. Like they, like Fox
+
+1263
+01:17:55,215 --> 01:17:57,485
+Speaker 17:  hires a production company to show up with trucks and you're just like,
+
+1264
+01:17:57,485 --> 01:18:01,345
+Speaker 17:  do this. So there's not a lot of forward investment. Right. Like
+
+1265
+01:18:01,525 --> 01:18:05,465
+Speaker 17:  it was pretty low cost to like throw an A seven out there on a gimbal Yeah.
+
+1266
+01:18:05,685 --> 01:18:09,465
+Speaker 17:  In the scheme of things. But then they weren't just, they weren't prioritizing
+
+1267
+01:18:09,575 --> 01:18:13,475
+Speaker 17:  just delivering to broadcast. And so If you, you have
+
+1268
+01:18:13,595 --> 01:18:17,235
+Speaker 17:  a, a seven on a wireless thing, like you might have to re
+
+1269
+01:18:18,365 --> 01:18:21,965
+Speaker 17:  rethink your entire broadcast system for that. And then
+
+1270
+01:18:22,395 --> 01:18:25,285
+Speaker 17:  because you're sending out over the air in some cases,
+
+1271
+01:18:26,515 --> 01:18:30,125
+Speaker 17:  like CBS still sends out 10 80. I like, that's weird. Like
+
+1272
+01:18:30,315 --> 01:18:32,605
+Speaker 17:  they have to rethink all of that and make it work with all the graphics
+
+1273
+01:18:32,605 --> 01:18:35,645
+Speaker 17:  packages. And they had just gotten to the place where enough
+
+1274
+01:18:36,315 --> 01:18:40,255
+Speaker 17:  digital video had just like taken over the production
+
+1275
+01:18:40,925 --> 01:18:43,815
+Speaker 17:  that being like, screw it, send somebody out there with a wireless a seven.
+
+1276
+01:18:43,885 --> 01:18:47,615
+Speaker 17:  Like let's see what happens. Like was possible. And then the a sevens were
+
+1277
+01:18:47,615 --> 01:18:50,575
+Speaker 17:  good enough and now that's all changed because people liked it so much.
+
+1278
+01:18:50,575 --> 01:18:54,255
+Speaker 17:  They like in, they fully invested in it. But it's a really interesting sort
+
+1279
+01:18:54,255 --> 01:18:58,135
+Speaker 17:  of, the distribution had to flip over so that enough of the gear
+
+1280
+01:18:58,135 --> 01:19:01,935
+Speaker 17:  they were using was already prepared for it as opposed to being prepared
+
+1281
+01:19:02,035 --> 01:19:05,935
+Speaker 17:  to send out broadcast signals. Yeah. And that like, that's a great like
+
+1282
+01:19:06,095 --> 01:19:08,535
+Speaker 17:  VERGE story. We could, we could write that story all day long and, and at
+
+1283
+01:19:08,535 --> 01:19:11,615
+Speaker 17:  the time we kind of did 'cause it was so much fun. But now all of that,
+
+1284
+01:19:11,615 --> 01:19:15,495
+Speaker 17:  like all of that production pipeline is more geared towards
+
+1285
+01:19:15,735 --> 01:19:19,615
+Speaker 17:  internet delivery because that's where the industry is than television delivery.
+
+1286
+01:19:19,675 --> 01:19:22,895
+Speaker 17:  So they're able to do more YouTubey things, I guess you could call them.
+
+1287
+01:19:23,815 --> 01:19:24,055
+Speaker 2:  Interesting.
+
+1288
+01:19:24,205 --> 01:19:26,815
+Speaker 17:  Including completely cheaping out the graphics.
+
+1289
+01:19:29,405 --> 01:19:32,975
+Speaker 2:  Yeah. All right, well next year's Super Bowl is going to be on Peacock, so
+
+1290
+01:19:33,315 --> 01:19:36,935
+Speaker 2:  we have a whole year of weirdness to be expected there. It's gonna be great.
+
+1291
+01:19:37,495 --> 01:19:40,895
+Speaker 17:  Hopefully they can stream one football game in 4K. That's, I I just beg
+
+1292
+01:19:40,895 --> 01:19:44,575
+Speaker 17:  you produce natively. Distribute the thing in four KIII beg
+
+1293
+01:19:44,575 --> 01:19:48,295
+Speaker 17:  everybody we can get this done in America Executive
+
+1294
+01:19:48,305 --> 01:19:50,135
+Speaker 17:  order a 4K football game, man.
+
+1295
+01:19:50,235 --> 01:19:53,135
+Speaker 2:  Do it. This is hard job. We have 12 months Neli, you and me to get this
+
+1296
+01:19:53,135 --> 01:19:55,575
+Speaker 17:  Done. All the money he saved from just like randomly ordering the treasury
+
+1297
+01:19:55,835 --> 01:19:58,375
+Speaker 17:  to not do pennies anymore. 4K football.
+
+1298
+01:19:58,605 --> 01:20:00,415
+Speaker 2:  Love it. All right, NELI, thank you.
+
+1299
+01:20:01,115 --> 01:20:01,455
+Speaker 17:  See you.
+
+1300
+01:20:04,475 --> 01:20:07,205
+Speaker 2:  All right. That is it for The Vergecast today. Thank you to everybody who
+
+1301
+01:20:07,205 --> 01:20:10,405
+Speaker 2:  was on the show and thank you as always for listening. There's lots more
+
+1302
+01:20:10,425 --> 01:20:13,605
+Speaker 2:  on everything we talked about at The Verge dot com, all of our stuff on OpenAI
+
+1303
+01:20:13,605 --> 01:20:16,605
+Speaker 2:  and Operator and deep research. I'll link it in the show notes, but there
+
+1304
+01:20:16,605 --> 01:20:19,605
+Speaker 2:  is a ton of news ongoing there. There's even more news
+
+1305
+01:20:20,415 --> 01:20:24,205
+Speaker 2:  maybe unfortunately ongoing with all of this Elon Musk and Doge stuff.
+
+1306
+01:20:24,225 --> 01:20:28,125
+Speaker 2:  So keep it locked to The Verge. We are doing our very best to keep it all
+
+1307
+01:20:28,185 --> 01:20:32,125
+Speaker 2:  up to date and all on our homepage. So keep it locked. And If you have
+
+1308
+01:20:32,125 --> 01:20:35,965
+Speaker 2:  thoughts, questions, feelings, or other government agencies you're
+
+1309
+01:20:35,965 --> 01:20:39,085
+Speaker 2:  curious about, you can always email us at vergecast at The Verge dot com
+
+1310
+01:20:39,145 --> 01:20:42,285
+Speaker 2:  or call the hotline. It's six six VERGE one one. We really honestly love
+
+1311
+01:20:42,285 --> 01:20:45,765
+Speaker 2:  hearing from you. It is the best. This show is produced by Will Poor
+
+1312
+01:20:45,765 --> 01:20:49,085
+Speaker 2:  Eric Gomez and Brandon Keefer. The Vergecast is VERGE Production and part
+
+1313
+01:20:49,085 --> 01:20:52,605
+Speaker 2:  of the Vox Media podcast network. Neli. And I'll be back on Friday to talk
+
+1314
+01:20:52,605 --> 01:20:56,365
+Speaker 2:  about all the AI news because it just keeps coming, all the government news
+
+1315
+01:20:56,365 --> 01:20:59,245
+Speaker 2:  because it just keeps coming. I think there's some interesting gadgety news
+
+1316
+01:20:59,245 --> 01:21:02,925
+Speaker 2:  coming this week. Lots to do, lots to talk about. We will see you then.
+
+1317
+01:21:03,195 --> 01:21:03,765
+Speaker 2:  Rock and roll.
+

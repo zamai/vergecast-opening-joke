@@ -1,0 +1,5218 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: e16c27f0-d38b-11ed-a653-d747bb8dd039
+Status: Done
+Stage: Done
+Title: How to use Microsoft’s AI Copilot, laptop microphones, and Amazon Sidewalk
+Audio URL: https://jfe93e.s3.amazonaws.com/-1874375847886498894/-1414942641784700211/s93290-US-4489s-1680683323.mp3
+Description: Today on the flagship podcast of peer-to-peer wireless networking: 
+02:31 - David Pierce talks with smart home reviewer Jennifer Pattison Tuohy about Amazon’s network of smart home devices called Sidewalk and the state of Matter, the promised smart home standard. 
+Amazon just opened up its Sidewalk network for anyone to build connected gadgets on
+
+32:16- Monica Chin brings six laptops to Times Square in New York City to test out the microphones.
+48:47 - Tom Warren joins the show to explain how AI is being integrated into Microsoft’s products, which may be more promising than Bing’s chatbot.
+
+Microsoft’s new Copilot will change Office documents forever
+
+Microsoft Security Copilot is a new GPT-4 AI assistant for cybersecurity
+
+
+Email us at vergecast@theverge.com or call us at 866-VERGE11, we'd love to hear from you.
+
+Vote for us in the People’s Choice Webby Awards for Best Technology Podcast!
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Disabled
+
+2
+00:00:02,650 --> 00:00:06,440
+Speaker 2:  Welcome to the Vergecast, the flagship podcast of Peer-to-Peer wireless
+
+3
+00:00:06,440 --> 00:00:10,280
+Speaker 2:  networking. I'm your friend David Pierce and I am currently in my
+
+4
+00:00:10,480 --> 00:00:14,400
+Speaker 2:  basement, which is now technically also my home office. And I am
+
+5
+00:00:14,400 --> 00:00:18,280
+Speaker 2:  doing some cable organizing because it's April, it's spring cleaning
+
+6
+00:00:18,280 --> 00:00:21,400
+Speaker 2:  time. And I have reached the point where I now have four
+
+7
+00:00:21,760 --> 00:00:25,640
+Speaker 2:  large bins full of cables. Most of them are
+
+8
+00:00:25,640 --> 00:00:28,960
+Speaker 2:  u s BBC cables. So I tell myself that I need them all because u s BBC is
+
+9
+00:00:28,960 --> 00:00:32,240
+Speaker 2:  the future and you can never have too many. But I also have some that are
+
+10
+00:00:32,240 --> 00:00:36,080
+Speaker 2:  like printer cables from the nineties that I don't think I ever
+
+11
+00:00:36,080 --> 00:00:40,040
+Speaker 2:  used for anything. So the point is it's time to go through some stuff.
+
+12
+00:00:40,350 --> 00:00:44,000
+Speaker 2:  Anyway, once I finish, we have a great show coming up for you today. We're
+
+13
+00:00:44,000 --> 00:00:47,760
+Speaker 2:  gonna dig into two big things about the future of the Smart Home Amazon
+
+14
+00:00:48,040 --> 00:00:50,840
+Speaker 2:  Sidewalk Network and the matter standard. And we're gonna try to figure out
+
+15
+00:00:50,840 --> 00:00:54,680
+Speaker 2:  where both of those things stand now. Then we're gonna head out into New York
+
+16
+00:00:54,680 --> 00:00:58,600
+Speaker 2:  City and test some laptop microphones to see if the mic inside of
+
+17
+00:00:58,600 --> 00:01:02,440
+Speaker 2:  your laptop can hold up to calls and video chats. And lastly, we're gonna
+
+18
+00:01:02,440 --> 00:01:06,320
+Speaker 2:  talk about Microsoft's many adventures in AI and what
+
+19
+00:01:06,760 --> 00:01:10,560
+Speaker 2:  Microsoft is up to says about the future of G P T four
+
+20
+00:01:10,560 --> 00:01:14,520
+Speaker 2:  office windows and like what it means to use a
+
+21
+00:01:14,680 --> 00:01:18,560
+Speaker 2:  computer. All of that's coming up in just a second, but first I have to
+
+22
+00:01:18,560 --> 00:01:22,280
+Speaker 2:  find my headphone cables. So wish me luck on that. This is the Verge Cast
+
+23
+00:01:22,280 --> 00:01:23,040
+Speaker 2:  scene sec.
+
+24
+00:01:25,470 --> 00:01:29,130
+Speaker 3:  The H B O drama succession is in its fourth and final
+
+25
+00:01:29,130 --> 00:01:32,930
+Speaker 3:  season and for diehard fans, some of the characters have
+
+26
+00:01:32,930 --> 00:01:34,250
+Speaker 3:  achieved pop star status
+
+27
+00:01:34,480 --> 00:01:38,050
+Speaker 4:  That just feels like, so like you know, you're that bitch for you. Cause
+
+28
+00:01:38,050 --> 00:01:41,690
+Speaker 4:  of that conversation like that, like he's it.
+
+29
+00:01:42,120 --> 00:01:44,090
+Speaker 4:  I just kind of like, mm.
+
+30
+00:01:44,390 --> 00:01:46,450
+Speaker 3:  Did you just compare Logan Roy to Beyonce?
+
+31
+00:01:46,920 --> 00:01:50,090
+Speaker 4:  Well, I mean why not?
+
+32
+00:01:51,100 --> 00:01:54,850
+Speaker 3:  Oh, let's keep this going. We talk succession this week
+
+33
+00:01:54,940 --> 00:01:57,850
+Speaker 3:  on Intuit Vultures pop culture podcast.
+
+34
+00:02:03,670 --> 00:02:04,340
+Speaker 1:  Welcome
+
+35
+00:02:04,460 --> 00:02:07,820
+Speaker 2:  Back. Last week a sort of strange thing happened.
+
+36
+00:02:08,250 --> 00:02:12,100
+Speaker 2:  Amazon told millions of people that surprise we just turned
+
+37
+00:02:12,100 --> 00:02:16,060
+Speaker 2:  on a nationwide network of smart home devices to which millions
+
+38
+00:02:16,060 --> 00:02:18,300
+Speaker 2:  of people responded. I'm sorry, what?
+
+39
+00:02:19,790 --> 00:02:23,420
+Speaker 2:  It turns out that sidewalk or something like it could be a really
+
+40
+00:02:23,420 --> 00:02:27,260
+Speaker 2:  big deal for the smart home and the smart city and this
+
+41
+00:02:27,260 --> 00:02:30,940
+Speaker 2:  big connected world everybody's been telling us about for years. It
+
+42
+00:02:30,940 --> 00:02:34,780
+Speaker 2:  might even be as big a deal as matter, which is the universal smart home
+
+43
+00:02:35,020 --> 00:02:38,940
+Speaker 2:  standard that actually we're overdue for a check-in on. So here to dig
+
+44
+00:02:38,940 --> 00:02:42,700
+Speaker 2:  into both of those things is the verges Jen Pattison Tui. Hi Jen.
+
+45
+00:02:43,140 --> 00:02:45,500
+Speaker 5:  Hello. So happy to be back so soon.
+
+46
+00:02:45,830 --> 00:02:48,460
+Speaker 2:  We promised the people we were gonna talk about matter. I
+
+47
+00:02:48,460 --> 00:02:51,460
+Speaker 5:  Know, I bet there were a lot of angry people when we just glossed over it
+
+48
+00:02:51,460 --> 00:02:51,620
+Speaker 5:  there.
+
+49
+00:02:51,620 --> 00:02:55,140
+Speaker 2:  We're gonna do that second because I just like to make the people wait for
+
+50
+00:02:55,140 --> 00:02:58,340
+Speaker 2:  the matter talk. Fair enough. But first I wanna talk about, you wrote this
+
+51
+00:02:58,340 --> 00:03:02,280
+Speaker 2:  piece about Sidewalk, Amazon's network, which I
+
+52
+00:03:02,420 --> 00:03:05,600
+Speaker 2:  was shocked at how many people have read this story? It's like one, our most
+
+53
+00:03:05,600 --> 00:03:08,960
+Speaker 2:  popular story this week. People paid a lot of attention. It, it like sparked
+
+54
+00:03:08,960 --> 00:03:11,800
+Speaker 2:  a lot of thoughts and feelings about all this stuff. We should probably start
+
+55
+00:03:11,800 --> 00:03:15,760
+Speaker 2:  at the very beginning just because part of the story is that a lot of people
+
+56
+00:03:15,760 --> 00:03:19,680
+Speaker 2:  didn't know what this thing is or that it existed or
+
+57
+00:03:19,680 --> 00:03:23,200
+Speaker 2:  that they were part of it at all. So let's just rewind all the way to the
+
+58
+00:03:23,200 --> 00:03:27,040
+Speaker 2:  very beginning here. What is Amazon Sidewalk and how did it come
+
+59
+00:03:27,040 --> 00:03:29,040
+Speaker 2:  into the world without anybody really noticing?
+
+60
+00:03:29,270 --> 00:03:33,240
+Speaker 5:  Okay. Yes. So this does go back to 2019. Well
+
+61
+00:03:33,440 --> 00:03:35,760
+Speaker 5:  actually it began even earlier than that, which is something I only just
+
+62
+00:03:35,920 --> 00:03:39,040
+Speaker 5:  discovered. Amazon developed a local
+
+63
+00:03:39,040 --> 00:03:42,680
+Speaker 5:  connectivity protocol for its own devices.
+
+64
+00:03:42,770 --> 00:03:46,720
+Speaker 5:  So very early on it realized that ring devices like
+
+65
+00:03:46,920 --> 00:03:50,840
+Speaker 5:  doorbells and cameras were outside your house. Your wifi router was inside
+
+66
+00:03:50,840 --> 00:03:54,800
+Speaker 5:  your house and sometimes the connection between the two was very bad. And
+
+67
+00:03:54,800 --> 00:03:58,160
+Speaker 5:  no matter what they tried, they really struggled to get
+
+68
+00:03:58,350 --> 00:04:02,120
+Speaker 5:  some people's cameras to work the way they promised them. So they
+
+69
+00:04:02,320 --> 00:04:05,360
+Speaker 5:  actually developed internally a system that would send
+
+70
+00:04:05,940 --> 00:04:09,440
+Speaker 5:  low bandwidth, low power messages between
+
+71
+00:04:09,940 --> 00:04:13,880
+Speaker 5:  the router and the device so that you would still get a notification
+
+72
+00:04:13,890 --> 00:04:17,120
+Speaker 5:  if someone pressed your doorbell even if your wifi wasn't working.
+
+73
+00:04:17,760 --> 00:04:21,720
+Speaker 5:  Because you know if you have a doorbell and you press it and it doesn't work,
+
+74
+00:04:21,740 --> 00:04:22,560
+Speaker 5:  you get mad.
+
+75
+00:04:23,080 --> 00:04:25,560
+Speaker 2:  That is kind of a one job situation. Yeah,
+
+76
+00:04:25,560 --> 00:04:29,400
+Speaker 5:  Exactly. So it that's how Amazon Sidewalk started as
+
+77
+00:04:29,400 --> 00:04:33,240
+Speaker 5:  a way for Amazon to fix a problem it had for its customers. But what
+
+78
+00:04:33,240 --> 00:04:37,080
+Speaker 5:  it's developed into is something way bigger. It's
+
+79
+00:04:37,080 --> 00:04:40,400
+Speaker 5:  essentially a low bandwidth, long range wireless network
+
+80
+00:04:40,760 --> 00:04:44,400
+Speaker 5:  developed to support low power devices. And this is
+
+81
+00:04:44,400 --> 00:04:48,120
+Speaker 5:  perfect for the smart home because the smart home is full of sensors.
+
+82
+00:04:48,450 --> 00:04:52,000
+Speaker 5:  So basically what Amazon did was they developed this network, they just said,
+
+83
+00:04:52,000 --> 00:04:55,680
+Speaker 5:  okay, we're gonna go turn it on and it's actually inside all your devices
+
+84
+00:04:55,680 --> 00:04:59,520
+Speaker 5:  in your home, all your Amazon devices and some of your ring devices have
+
+85
+00:04:59,520 --> 00:05:03,360
+Speaker 5:  this secret network that we've been developing and we're just
+
+86
+00:05:03,360 --> 00:05:06,280
+Speaker 5:  gonna switch it on. And everyone was like, what?
+
+87
+00:05:07,150 --> 00:05:10,400
+Speaker 5:  What are you doing here? Why are you doing this? And the thing that really
+
+88
+00:05:10,400 --> 00:05:14,200
+Speaker 5:  upset a lot of people completely justifiably is it actually
+
+89
+00:05:14,200 --> 00:05:17,960
+Speaker 5:  uses some of your internet bandwidth. That's how Sidewalk works.
+
+90
+00:05:17,960 --> 00:05:21,440
+Speaker 5:  It uses these low power radios including
+
+91
+00:05:21,440 --> 00:05:25,280
+Speaker 5:  Laura and Bluetooth low energy and Laura is like a
+
+92
+00:05:25,280 --> 00:05:28,960
+Speaker 5:  900 megahertz frequency radio. But in order to communicate to the
+
+93
+00:05:29,160 --> 00:05:32,680
+Speaker 5:  internet, it actually needs the internet. So it uses a little bit of your
+
+94
+00:05:32,680 --> 00:05:36,280
+Speaker 5:  bandwidth. So when Amazon first turned on sidewalk, basically
+
+95
+00:05:36,600 --> 00:05:40,280
+Speaker 5:  everyone was opted in and that's never a good move. I mean tech
+
+96
+00:05:40,280 --> 00:05:44,200
+Speaker 5:  companies come on. Yeah, you know, just look at the history. Opt-in
+
+97
+00:05:44,450 --> 00:05:48,360
+Speaker 5:  is never the solution. The option has got to be for the customer. You
+
+98
+00:05:48,360 --> 00:05:52,000
+Speaker 5:  can't just automatically opt people in. And that's where it all went a little
+
+99
+00:05:52,000 --> 00:05:55,600
+Speaker 5:  sideways, but they did walk it back and now whenever you
+
+100
+00:05:55,600 --> 00:05:59,320
+Speaker 5:  buy a Ring device or a Amazon device, which is
+
+101
+00:05:59,600 --> 00:06:02,960
+Speaker 5:  sidewalk enabled, which is not all of them, but a large majority of them,
+
+102
+00:06:02,980 --> 00:06:06,440
+Speaker 5:  you do get to choose to turn it on. But that backlash is still
+
+103
+00:06:06,510 --> 00:06:10,320
+Speaker 5:  strong and people are still kind of mad about it because Sidewalk does use
+
+104
+00:06:10,320 --> 00:06:14,120
+Speaker 5:  your bandwidth. So basically it's kind of a toss up here between
+
+105
+00:06:14,340 --> 00:06:17,960
+Speaker 5:  are the benefits of what Sidewalk is offering something that you are interested
+
+106
+00:06:17,960 --> 00:06:21,640
+Speaker 5:  in and that you think is going to be good for you slash your community?
+
+107
+00:06:22,290 --> 00:06:26,280
+Speaker 5:  Or do you think this is Amazon just kind of making a power grab for
+
+108
+00:06:26,280 --> 00:06:28,360
+Speaker 5:  your internet and you just wanna switch it off?
+
+109
+00:06:28,590 --> 00:06:31,560
+Speaker 2:  Okay, so there's sort of two things going on here that I think are interesting.
+
+110
+00:06:31,560 --> 00:06:35,280
+Speaker 2:  One is that I feel like from that like first use case you described, right,
+
+111
+00:06:35,280 --> 00:06:39,160
+Speaker 2:  where it's like I need a way for my doorbell to connect to
+
+112
+00:06:39,160 --> 00:06:43,120
+Speaker 2:  my device when the wifi is not working is like a very
+
+113
+00:06:43,120 --> 00:06:46,640
+Speaker 2:  common thing. These are the sorts of things we're trying to fix. There's
+
+114
+00:06:46,640 --> 00:06:50,520
+Speaker 2:  also this bigger sort of community angle that I have a
+
+115
+00:06:50,640 --> 00:06:53,440
+Speaker 2:  slightly harder time wrapping my head around that it's like one of their,
+
+116
+00:06:53,440 --> 00:06:55,680
+Speaker 2:  the big announcement this week was Amazon is like, we're rolling this network
+
+117
+00:06:55,680 --> 00:06:59,560
+Speaker 2:  out completely. It covers 90% of US citizens. And to me it's like
+
+118
+00:06:59,560 --> 00:07:03,360
+Speaker 2:  who cares? Like why I don't need my doorbell to access my
+
+119
+00:07:03,480 --> 00:07:07,440
+Speaker 2:  neighbor's doorbell. I just wanted to access my phone. So what's the like
+
+120
+00:07:07,700 --> 00:07:11,600
+Speaker 2:  big network case here? Because part of me thinks if you wanna go sort
+
+121
+00:07:11,600 --> 00:07:15,520
+Speaker 2:  of full conspiracy brain, this is like Amazon, sort of
+
+122
+00:07:15,720 --> 00:07:19,360
+Speaker 2:  Trojan Hoing. Its way into essentially building like a national
+
+123
+00:07:19,360 --> 00:07:23,040
+Speaker 2:  network on which it can do anything and it's now an I S P and it doesn't
+
+124
+00:07:23,040 --> 00:07:26,000
+Speaker 2:  have to play anybody else's games. And it's like you can sort of spin out
+
+125
+00:07:26,000 --> 00:07:29,840
+Speaker 2:  in this if you want to. Is there a smaller version
+
+126
+00:07:29,930 --> 00:07:33,200
+Speaker 2:  of what Amazon is trying to do here? Like what, what's their argument for
+
+127
+00:07:33,200 --> 00:07:36,320
+Speaker 2:  why this needs to be a gigantic nationwide network instead of just existing
+
+128
+00:07:36,320 --> 00:07:37,360
+Speaker 2:  inside of your home?
+
+129
+00:07:37,520 --> 00:07:41,320
+Speaker 5:  Their argument is that there are already
+
+130
+00:07:41,350 --> 00:07:44,640
+Speaker 5:  billions of connected devices, but the future is
+
+131
+00:07:44,670 --> 00:07:48,480
+Speaker 5:  hundreds of billions of connected devices. That is a pretty
+
+132
+00:07:48,480 --> 00:07:51,560
+Speaker 5:  likely outcome. You know, the internet of things is not getting smaller.
+
+133
+00:07:52,600 --> 00:07:56,000
+Speaker 5:  There are sensors everywhere. Everything that anyone wants to connect to
+
+134
+00:07:56,000 --> 00:07:59,760
+Speaker 5:  the internet needs some form of a sensor. The problem right now is if you
+
+135
+00:07:59,760 --> 00:08:03,200
+Speaker 5:  are outside of wifi, so if you're outside your home or outside of business,
+
+136
+00:08:03,500 --> 00:08:07,440
+Speaker 5:  the only reliable connectivity you get is from
+
+137
+00:08:07,720 --> 00:08:11,480
+Speaker 5:  cellular, cellular data, be it lte, 4g,
+
+138
+00:08:11,850 --> 00:08:15,840
+Speaker 5:  5g, whatever we, whatever comes next is expensive. And most
+
+139
+00:08:15,840 --> 00:08:19,760
+Speaker 5:  of these sensors don't need the amount of data that a cellular
+
+140
+00:08:19,760 --> 00:08:23,120
+Speaker 5:  network provides. They only need really small
+
+141
+00:08:23,170 --> 00:08:27,040
+Speaker 5:  packets of data to send their signals, minuscule
+
+142
+00:08:27,040 --> 00:08:30,680
+Speaker 5:  amounts of data and very low power cellular radios
+
+143
+00:08:30,680 --> 00:08:34,600
+Speaker 5:  require more power. So their argument is we need to connect more
+
+144
+00:08:34,600 --> 00:08:38,520
+Speaker 5:  devices to the internet. We know there are more devices coming online, we
+
+145
+00:08:38,520 --> 00:08:42,320
+Speaker 5:  need an infrastructure and they're not wrong. We do need an infrastructure
+
+146
+00:08:42,510 --> 00:08:46,320
+Speaker 5:  that will connect devices outside of our homes and outside of our businesses.
+
+147
+00:08:46,410 --> 00:08:50,000
+Speaker 5:  Because ultimately if the Internet of things is going to bring everything
+
+148
+00:08:50,000 --> 00:08:53,920
+Speaker 5:  it's promised from, you know, decentralized power stations to
+
+149
+00:08:53,930 --> 00:08:57,520
+Speaker 5:  helping us find our lost dog, to
+
+150
+00:08:57,630 --> 00:09:01,120
+Speaker 5:  tracking packages, to keeping tabs on
+
+151
+00:09:01,550 --> 00:09:04,960
+Speaker 5:  food waste. I mean there's so many things that adding a sensor to
+
+152
+00:09:05,110 --> 00:09:08,840
+Speaker 5:  products or devices or people or
+
+153
+00:09:09,070 --> 00:09:13,040
+Speaker 5:  pets, there's so much that can be done. But you don't wanna spend $15
+
+154
+00:09:13,040 --> 00:09:16,800
+Speaker 5:  a month to track. For example, I've had a whistle dog
+
+155
+00:09:16,800 --> 00:09:20,280
+Speaker 5:  tracker for about five years to help keep track of my dog
+
+156
+00:09:20,500 --> 00:09:24,440
+Speaker 5:  and it costs $10 a month. That is a lot of money.
+
+157
+00:09:25,340 --> 00:09:29,320
+Speaker 5:  And there are so many use cases where we really need connectivity.
+
+158
+00:09:29,320 --> 00:09:33,120
+Speaker 5:  It's so embedded into our daily life now that when you leave your
+
+159
+00:09:33,120 --> 00:09:36,720
+Speaker 5:  house, you know you lose that connectivity with your home unless you have
+
+160
+00:09:36,720 --> 00:09:40,480
+Speaker 5:  a cell phone. So that's the argument. Their argument is
+
+161
+00:09:40,590 --> 00:09:44,480
+Speaker 5:  when you say, well why are you doing this? Because this is free. Let's not
+
+162
+00:09:44,480 --> 00:09:48,440
+Speaker 5:  forget, sidewalk is a free to connect network. So unlike at
+
+163
+00:09:48,720 --> 00:09:52,560
+Speaker 5:  t and Verizon, if you have a device that connects to a sidewalk network,
+
+164
+00:09:52,780 --> 00:09:56,440
+Speaker 5:  the user's not paying for it and neither is the developer. It's a free network.
+
+165
+00:09:56,610 --> 00:10:00,400
+Speaker 5:  So I asked Dave Limp, who is the VP of services and
+
+166
+00:10:00,400 --> 00:10:04,240
+Speaker 5:  devices at at Amazon, well why are you doing this? Because it's
+
+167
+00:10:04,240 --> 00:10:08,120
+Speaker 5:  kind of an, you know, a bit of a, is this altruistic? And they said,
+
+168
+00:10:08,120 --> 00:10:11,840
+Speaker 5:  well we need it. Dave said, you know, Amazon needs this. I mean
+
+169
+00:10:11,840 --> 00:10:15,680
+Speaker 5:  who has packages all over the country at any one minute?
+
+170
+00:10:16,270 --> 00:10:20,000
+Speaker 5:  Yeah, fair. So and also what's in it for them is
+
+171
+00:10:20,410 --> 00:10:24,120
+Speaker 5:  he, he explained that in theory some of the customers that are gonna use
+
+172
+00:10:24,120 --> 00:10:28,000
+Speaker 5:  the network, so like developers who build devices that are used on
+
+173
+00:10:28,000 --> 00:10:31,920
+Speaker 5:  the network potentially will use their cloud services aws.
+
+174
+00:10:31,920 --> 00:10:35,600
+Speaker 5:  So there's potential revenue stream there, right? Amazon sidewalk is
+
+175
+00:10:35,840 --> 00:10:39,400
+Speaker 5:  not the only option. Obviously there are other power wide area
+
+176
+00:10:39,510 --> 00:10:43,360
+Speaker 5:  networks out there. People mention, you know, apple air tags,
+
+177
+00:10:43,960 --> 00:10:46,160
+Speaker 5:  that's ecosystem is is one example
+
+178
+00:10:46,300 --> 00:10:49,120
+Speaker 2:  And functions basically exactly the same way, right? That is
+
+179
+00:10:49,390 --> 00:10:49,880
+Speaker 5:  Kind
+
+180
+00:10:49,880 --> 00:10:53,840
+Speaker 2:  Of a sneaky device to device thing that you don't necessarily know. And
+
+181
+00:10:53,840 --> 00:10:56,680
+Speaker 2:  if you think about it's sort of sketchy, but then if you think more about
+
+182
+00:10:56,680 --> 00:10:59,880
+Speaker 2:  it, it's really not that bad. Like I feel like that's the path a lot of these
+
+183
+00:10:59,880 --> 00:11:00,560
+Speaker 2:  are going down.
+
+184
+00:11:00,820 --> 00:11:04,520
+Speaker 5:  The really key thing here is use cases. Once it becomes
+
+185
+00:11:04,520 --> 00:11:08,480
+Speaker 5:  obvious how this benefits people, that's where you kind of reach tipping
+
+186
+00:11:08,480 --> 00:11:12,080
+Speaker 5:  point. And whether or not this is a good thing it that's when we will know.
+
+187
+00:11:12,080 --> 00:11:15,560
+Speaker 5:  And that's why Amazon announced this because they want
+
+188
+00:11:15,560 --> 00:11:19,120
+Speaker 5:  developers to build things. Once there are devices on the network,
+
+189
+00:11:19,310 --> 00:11:22,600
+Speaker 5:  then we can see is this worth what we are
+
+190
+00:11:23,040 --> 00:11:26,760
+Speaker 5:  sacrificing? I mean it's not entirely different from what from using Gmail.
+
+191
+00:11:26,910 --> 00:11:30,440
+Speaker 5:  Sure you get a great service but you are giving your data,
+
+192
+00:11:30,840 --> 00:11:34,480
+Speaker 5:  you know, nothing's free on the internet as we know. So you have to decide
+
+193
+00:11:34,480 --> 00:11:37,840
+Speaker 5:  is it worth it to you to be able to track your dog or
+
+194
+00:11:38,480 --> 00:11:42,200
+Speaker 5:  one example is Care Band is is on Sidewalk and so that's
+
+195
+00:11:42,200 --> 00:11:46,000
+Speaker 5:  a wearable tracker for elderly patients and it's sort of the
+
+196
+00:11:46,000 --> 00:11:49,920
+Speaker 5:  idea is used someone with dementia leaves their home and wanders off,
+
+197
+00:11:49,920 --> 00:11:53,640
+Speaker 5:  you're able to track them down rather than having to pay for one of these,
+
+198
+00:11:53,640 --> 00:11:57,080
+Speaker 5:  you know, cellular devices that would cost a lot of money in the long run.
+
+199
+00:11:57,100 --> 00:12:01,080
+Speaker 5:  You know, so use cases, and this is where the fall down has happened
+
+200
+00:12:01,080 --> 00:12:04,600
+Speaker 5:  with previous systems similar to Sidewalk. There's one called
+
+201
+00:12:04,600 --> 00:12:08,440
+Speaker 5:  Helium. Helium is exactly this and it is, it has very similar use
+
+202
+00:12:08,440 --> 00:12:12,360
+Speaker 5:  cases, it's very similar network, but where it sort of failed
+
+203
+00:12:12,360 --> 00:12:15,960
+Speaker 5:  is very few devices use it. So when you don't have the use cases
+
+204
+00:12:16,510 --> 00:12:20,280
+Speaker 5:  then things start to fall apart. So that's why you know, Amazon's
+
+205
+00:12:20,280 --> 00:12:22,920
+Speaker 5:  pushing this so aggressively to start, you know, they're giving it away for
+
+206
+00:12:22,920 --> 00:12:26,720
+Speaker 5:  free. They're giving away these little test kits for free. I had one and
+
+207
+00:12:26,720 --> 00:12:30,480
+Speaker 5:  I drove around my neighborhood to see what the signal
+
+208
+00:12:30,760 --> 00:12:34,600
+Speaker 5:  strength was and I live in the southeast in a corner of Charleston, which
+
+209
+00:12:34,600 --> 00:12:38,280
+Speaker 5:  is not a rural area, but there are rural areas near me. And I was actually
+
+210
+00:12:38,470 --> 00:12:42,360
+Speaker 5:  very impressed at how strong the coverage was considering,
+
+211
+00:12:42,380 --> 00:12:46,200
+Speaker 5:  you know, I am in the east, which is much more populated. If you look at
+
+212
+00:12:46,200 --> 00:12:50,040
+Speaker 5:  the map that they released once you start getting out west, there's definitely
+
+213
+00:12:50,280 --> 00:12:51,840
+Speaker 5:  large gaps in coverage.
+
+214
+00:12:52,140 --> 00:12:55,400
+Speaker 2:  The thing I've really been trying to sort through my feelings on this is
+
+215
+00:12:55,400 --> 00:12:57,640
+Speaker 2:  how I feel about the fact that it's Amazon
+
+216
+00:12:57,640 --> 00:12:58,480
+Speaker 5:  Doing Amazon
+
+217
+00:12:58,530 --> 00:13:02,480
+Speaker 2:  Because on the one hand you, you can sort of talk yourself into like Amazon's
+
+218
+00:13:02,480 --> 00:13:05,760
+Speaker 2:  as good a steward of it as anybody, right? Like I'm trusting Verizon with
+
+219
+00:13:05,760 --> 00:13:09,200
+Speaker 2:  all my data in one way. I'm trusting Comcast with it in another, like why
+
+220
+00:13:09,200 --> 00:13:13,160
+Speaker 2:  not Amazon? All that, all the internet goes through AWS anyway. So
+
+221
+00:13:13,160 --> 00:13:17,120
+Speaker 2:  like my life runs on Amazon's networks whether I
+
+222
+00:13:17,120 --> 00:13:21,040
+Speaker 2:  want it to or not regardless. So it's like I end up in that sort of position
+
+223
+00:13:21,040 --> 00:13:24,920
+Speaker 2:  of like eh, Amazon's as reasonable a steward of data as
+
+224
+00:13:24,920 --> 00:13:28,760
+Speaker 2:  anybody and has made as far as I can tell, pretty strong promises
+
+225
+00:13:28,760 --> 00:13:32,120
+Speaker 2:  and assurances about like the security of this network that seems to have
+
+226
+00:13:32,120 --> 00:13:33,920
+Speaker 2:  made most people feel pretty good, right?
+
+227
+00:13:34,140 --> 00:13:37,960
+Speaker 5:  Yes. Yes it has. It's published a white paper, it has you know,
+
+228
+00:13:38,000 --> 00:13:41,520
+Speaker 5:  three layers of encryption. None of the network traffic is visible to
+
+229
+00:13:41,520 --> 00:13:45,440
+Speaker 5:  Amazon. Devices that actually connect on via sidewalk
+
+230
+00:13:45,600 --> 00:13:48,840
+Speaker 5:  don't have internet access themselves. So it's not like they're coming into
+
+231
+00:13:48,840 --> 00:13:52,480
+Speaker 5:  your network. There are a lot of privacy
+
+232
+00:13:52,900 --> 00:13:56,760
+Speaker 5:  and security layers here. But as
+
+233
+00:13:56,760 --> 00:14:00,160
+Speaker 5:  with anything connected to the internet in any way, shape or form, there's
+
+234
+00:14:00,160 --> 00:14:03,960
+Speaker 5:  always potential for some kind of workaround or a hack. But in terms
+
+235
+00:14:03,960 --> 00:14:07,760
+Speaker 5:  of trusting Amazon from what they've presented and what we
+
+236
+00:14:07,760 --> 00:14:11,120
+Speaker 5:  know and obviously we haven't been able to test yet cuz this hasn't been
+
+237
+00:14:11,120 --> 00:14:15,040
+Speaker 5:  deployed at mass scale, whether you aren't giving your data
+
+238
+00:14:15,040 --> 00:14:18,840
+Speaker 5:  to Amazon by using sidewalk, unless you are using a
+
+239
+00:14:18,840 --> 00:14:22,160
+Speaker 5:  ring device to an Amazon Echo device, then you're just all in the Amazon
+
+240
+00:14:22,160 --> 00:14:22,640
+Speaker 5:  ecosystem
+
+241
+00:14:22,640 --> 00:14:25,440
+Speaker 2:  Anyway that you, you've, you know what you've signed up for at that point,
+
+242
+00:14:25,480 --> 00:14:29,440
+Speaker 5:  Right? So if you decide to enable sidewalk on any of your devices, you can
+
+243
+00:14:29,640 --> 00:14:33,600
+Speaker 5:  actually, you have the choice to show location or not. So
+
+244
+00:14:33,910 --> 00:14:37,440
+Speaker 5:  a device trying to connect to you can know where you are
+
+245
+00:14:37,770 --> 00:14:41,680
+Speaker 5:  or not. So there are tools that the user can control,
+
+246
+00:14:41,680 --> 00:14:44,720
+Speaker 5:  but as we know from going back to when this first started,
+
+247
+00:14:45,330 --> 00:14:49,160
+Speaker 5:  no one really knows about Sidewalk. So you know, people don't know
+
+248
+00:14:49,160 --> 00:14:52,880
+Speaker 5:  to go and turn this off if they're not not comfortable with it. But now going
+
+249
+00:14:52,880 --> 00:14:56,800
+Speaker 5:  forward and has been for about a year, maybe two years now, if you
+
+250
+00:14:56,800 --> 00:15:00,720
+Speaker 5:  buy an Echo on a ring device, it does make you opt in.
+
+251
+00:15:00,720 --> 00:15:04,440
+Speaker 5:  You c it's not on by default. Right? But looking at that map,
+
+252
+00:15:04,550 --> 00:15:08,480
+Speaker 5:  a lot of people have opted in. I mean there is a large coverage
+
+253
+00:15:08,480 --> 00:15:11,960
+Speaker 5:  across the country, 90% of the US population they say
+
+254
+00:15:12,140 --> 00:15:15,440
+Speaker 5:  and it's impressive. And it is a little scary though like, like we've just
+
+255
+00:15:15,440 --> 00:15:18,680
+Speaker 5:  turned this on and hey look yeah, we're everywhere.
+
+256
+00:15:19,250 --> 00:15:22,640
+Speaker 5:  So yes, I'm with you, I'm, I'm conflicted. I really
+
+257
+00:15:22,950 --> 00:15:26,400
+Speaker 5:  want the connectivity. I have no cell service in my house so when my wifi
+
+258
+00:15:26,400 --> 00:15:28,000
+Speaker 5:  goes down, nothing works.
+
+259
+00:15:29,780 --> 00:15:33,760
+Speaker 5:  And it's, it's frustrating and you know, if you live in big cities and you
+
+260
+00:15:33,760 --> 00:15:37,400
+Speaker 5:  have great cellular service, it's not so much of an issue but the rest of
+
+261
+00:15:37,400 --> 00:15:41,160
+Speaker 5:  the country it's an issue. But yes, having one company, whether it's
+
+262
+00:15:41,160 --> 00:15:45,000
+Speaker 5:  Amazon or Apple or anyone else that came up with this is concerning. Not
+
+263
+00:15:45,000 --> 00:15:48,960
+Speaker 5:  because necessarily there's nefarious intent but because they can
+
+264
+00:15:48,960 --> 00:15:52,320
+Speaker 5:  just change it like it's free now. But in a year's time
+
+265
+00:15:52,470 --> 00:15:56,000
+Speaker 5:  they might decide to charge and now you've been depending on this and
+
+266
+00:15:56,210 --> 00:15:57,440
+Speaker 5:  oh now what do I do?
+
+267
+00:15:57,840 --> 00:16:01,520
+Speaker 2:  Right? Yeah, I mean like welcome to the problem of how we've set all of this
+
+268
+00:16:01,520 --> 00:16:05,360
+Speaker 2:  stuff up in so many ways. But the other part of it I wonder is the
+
+269
+00:16:05,360 --> 00:16:09,160
+Speaker 2:  fact that it's Amazon, this is actually probably a good segue into the like
+
+270
+00:16:10,000 --> 00:16:13,520
+Speaker 2:  platform wars we're about to talk about in the like inter-operating
+
+271
+00:16:13,760 --> 00:16:17,400
+Speaker 2:  standards that we all wish would exist. It seems to me that since Sidewalk
+
+272
+00:16:17,400 --> 00:16:21,360
+Speaker 2:  exists, say Google is less likely to support Sidewalk than it is to
+
+273
+00:16:21,360 --> 00:16:25,000
+Speaker 2:  build something like Sidewalk out of its own devices, apple already has the
+
+274
+00:16:25,000 --> 00:16:28,280
+Speaker 2:  fine my ecosystem that it could pretty easily sort of flip into the way that
+
+275
+00:16:28,390 --> 00:16:32,280
+Speaker 2:  that it's home kit stuff works, Z-Wave exists, thread exists.
+
+276
+00:16:32,280 --> 00:16:35,360
+Speaker 2:  Like you, you could, I'm, I'm imagining a world where instead of having
+
+277
+00:16:35,940 --> 00:16:39,640
+Speaker 2:  one thing sipping off a little piece of my network for the common
+
+278
+00:16:39,640 --> 00:16:43,400
+Speaker 2:  good, I have 12 things sipping off of pieces of my network for the common
+
+279
+00:16:43,400 --> 00:16:47,040
+Speaker 2:  good and suddenly half of my bandwidth is used by my neighbor to make their
+
+280
+00:16:47,280 --> 00:16:50,360
+Speaker 2:  doorbell work. Like are we, are we headed down the road of like instead of
+
+281
+00:16:50,360 --> 00:16:53,720
+Speaker 2:  one good version of this network we're gonna have 50 just because Amazon
+
+282
+00:16:53,720 --> 00:16:57,320
+Speaker 2:  built the first one or is there a version of this that actually kind of
+
+283
+00:16:57,320 --> 00:16:58,440
+Speaker 2:  inter-operates for everybody?
+
+284
+00:16:58,970 --> 00:17:02,800
+Speaker 5:  So and and I think I said this in my article, Amazon feels like
+
+285
+00:17:02,800 --> 00:17:06,760
+Speaker 5:  at right now the only company that could have done it because as
+
+286
+00:17:06,760 --> 00:17:10,720
+Speaker 5:  much as we like to think they're not a monopoly, they have so many
+
+287
+00:17:10,720 --> 00:17:14,680
+Speaker 5:  devices out there, they gave away those echoes for free basically.
+
+288
+00:17:14,740 --> 00:17:17,240
+Speaker 2:  But there are more iPhones than there are Echos. No,
+
+289
+00:17:17,380 --> 00:17:21,080
+Speaker 5:  But an iPhone isn't gonna work as an always on powered little radio
+
+290
+00:17:21,170 --> 00:17:24,720
+Speaker 5:  in your home. That's true. Right? That's fair. That's that's the thing, this
+
+291
+00:17:24,720 --> 00:17:28,640
+Speaker 5:  is like a little mini cell tower in your home and if you have two or
+
+292
+00:17:28,640 --> 00:17:32,040
+Speaker 5:  three of them or if you have a Ring floodlight cameras on the side of your
+
+293
+00:17:32,040 --> 00:17:35,400
+Speaker 5:  house, you know, I don't see a way that Apple's gonna be able to do this.
+
+294
+00:17:35,400 --> 00:17:37,880
+Speaker 5:  There aren't enough HomePod minis out there or Apple TVs
+
+295
+00:17:38,200 --> 00:17:40,200
+Speaker 2:  Definitely not. Not even close.
+
+296
+00:17:40,650 --> 00:17:44,440
+Speaker 5:  No. And the same with Google Nest minis and hubs. I mean they gave 'em away
+
+297
+00:17:44,440 --> 00:17:48,400
+Speaker 5:  for free but you know, I think the orders of magnitude between what
+
+298
+00:17:48,400 --> 00:17:51,760
+Speaker 5:  Apples and Google have out there versus Amazon is
+
+299
+00:17:51,760 --> 00:17:55,520
+Speaker 5:  significantly different. So yes, I think there is a concern there though
+
+300
+00:17:55,520 --> 00:17:59,160
+Speaker 5:  that if Google and Apple don't want to jump on the Amazon
+
+301
+00:18:00,200 --> 00:18:03,840
+Speaker 5:  bandwagon, that we could end up with competing. We do have competing
+
+302
+00:18:03,840 --> 00:18:07,040
+Speaker 5:  networks. I mean there we mentioned Helium and then we've got the fine, my
+
+303
+00:18:07,320 --> 00:18:11,000
+Speaker 5:  Samsung has, it's also Samsung has a similar sort of tracking
+
+304
+00:18:11,600 --> 00:18:15,280
+Speaker 5:  protocol for its tags and then its Little Bridge is a
+
+305
+00:18:15,310 --> 00:18:19,120
+Speaker 5:  a hub for that in your home. So that we could have multiple ones.
+
+306
+00:18:19,230 --> 00:18:23,160
+Speaker 5:  I don't know that it's necessarily worth it for the other companies at this
+
+307
+00:18:23,160 --> 00:18:26,120
+Speaker 5:  point because there's a big difference and this is the difference I think
+
+308
+00:18:26,120 --> 00:18:29,560
+Speaker 5:  between say Sidewalk and wifi or Matter is
+
+309
+00:18:30,080 --> 00:18:34,040
+Speaker 5:  Sidewalk is about, and the way I see it's bridging the smart home
+
+310
+00:18:34,040 --> 00:18:38,000
+Speaker 5:  with like the smart city, it's taking your home, connecting
+
+311
+00:18:38,260 --> 00:18:42,040
+Speaker 5:  the gap between the two. Whereas most of these other protocols like
+
+312
+00:18:42,040 --> 00:18:45,960
+Speaker 5:  Z-Wave thread and design for the Smart Home itself. And what we need is,
+
+313
+00:18:46,010 --> 00:18:49,720
+Speaker 5:  is just that gap between once we step outside our home
+
+314
+00:18:49,720 --> 00:18:53,480
+Speaker 5:  and get into our business or wherever we are going, we need something to
+
+315
+00:18:53,480 --> 00:18:57,440
+Speaker 5:  cover that. And that's, that's why they called it Sidewalk. That's kind of
+
+316
+00:18:57,440 --> 00:19:00,960
+Speaker 5:  the purpose. Although the way it's been deployed initially,
+
+317
+00:19:01,290 --> 00:19:05,240
+Speaker 5:  it does seem more of a competitor to things like Thread and Z-Wave
+
+318
+00:19:05,240 --> 00:19:09,120
+Speaker 5:  because they at launch they have like smart locks and smart sensors
+
+319
+00:19:09,400 --> 00:19:13,200
+Speaker 5:  in your home. So it there is crossover there, which is what kind of
+
+320
+00:19:13,200 --> 00:19:16,480
+Speaker 5:  muddied the water a little bit for me. I'm like why? Why should this work
+
+321
+00:19:16,480 --> 00:19:20,360
+Speaker 5:  for Smart Locks? I get that it's gonna work for like a mailbox sensor or
+
+322
+00:19:20,360 --> 00:19:24,040
+Speaker 5:  for a dog tracker. But I think as we said at the beginning of this
+
+323
+00:19:24,040 --> 00:19:28,000
+Speaker 5:  conversation, Amazon just wants anyone and anything to start using this
+
+324
+00:19:28,000 --> 00:19:31,800
+Speaker 5:  network so that we can start seeing the benefits of helping, you know, of
+
+325
+00:19:31,800 --> 00:19:35,680
+Speaker 5:  helping our smart homes. Because a lot of these networks that are
+
+326
+00:19:35,680 --> 00:19:39,440
+Speaker 5:  already exist that we've discussed briefly are more industrially
+
+327
+00:19:39,440 --> 00:19:43,280
+Speaker 5:  iot. They're more about reading your smart meters or
+
+328
+00:19:43,280 --> 00:19:47,200
+Speaker 5:  they're being used for like wildfire tracking, for inventory management,
+
+329
+00:19:47,200 --> 00:19:51,040
+Speaker 5:  package tracking, a lot of industrial use cases. Sidewalk
+
+330
+00:19:51,040 --> 00:19:54,880
+Speaker 5:  is much more squarely focused at consumer use cases but we just don't,
+
+331
+00:19:54,880 --> 00:19:57,960
+Speaker 5:  we haven't seen a lot of them yet. So we are waiting, waiting to see what
+
+332
+00:19:57,960 --> 00:20:00,600
+Speaker 5:  developers come up with now that they've sort of opened this up.
+
+333
+00:20:00,870 --> 00:20:04,600
+Speaker 2:  Okay, fair enough. And that's a good segue into the second part of this I
+
+334
+00:20:04,600 --> 00:20:08,360
+Speaker 2:  wanna talk about, which is why nobody is building cool smart home stuff and
+
+335
+00:20:08,680 --> 00:20:12,200
+Speaker 2:  that's not actually what it is. It feels like that sometimes, but that's
+
+336
+00:20:12,200 --> 00:20:14,560
+Speaker 2:  not actually I talk about what I wanna talk about is matter because it feels
+
+337
+00:20:14,560 --> 00:20:18,360
+Speaker 2:  like we were here, I don't know, six months ago and it was like
+
+338
+00:20:18,390 --> 00:20:22,200
+Speaker 2:  Matter, matter is here, this is matter's moment. And then I went on
+
+339
+00:20:22,360 --> 00:20:25,480
+Speaker 2:  parental leave and forgot about Matter for a while and then lucky you, you
+
+340
+00:20:25,480 --> 00:20:28,200
+Speaker 2:  went to CES and everybody was talking about Matter and Matter was the thing
+
+341
+00:20:28,200 --> 00:20:32,120
+Speaker 2:  and Matter was like the story of CES and it felt like momentum was
+
+342
+00:20:32,120 --> 00:20:36,040
+Speaker 2:  really good. And then I feel like, and maybe this is just me over the last,
+
+343
+00:20:36,390 --> 00:20:40,040
+Speaker 2:  I don't know, three or four weeks, it feels like there have been cracks
+
+344
+00:20:40,130 --> 00:20:44,000
+Speaker 2:  in the the matter world that that it feels like it's losing
+
+345
+00:20:44,000 --> 00:20:47,040
+Speaker 2:  some of the momentum that some of the big players are starting to say, well
+
+346
+00:20:47,200 --> 00:20:51,160
+Speaker 2:  maybe, maybe either now is not the time or this is not the thing.
+
+347
+00:20:51,170 --> 00:20:55,000
+Speaker 2:  Or some combination thereof. So am I reading the
+
+348
+00:20:55,000 --> 00:20:57,880
+Speaker 2:  vibes correctly there? What are the vibes around matter right now?
+
+349
+00:20:58,610 --> 00:21:02,560
+Speaker 5:  So as my esteemed former colleague at, I used to
+
+350
+00:21:02,560 --> 00:21:05,840
+Speaker 5:  work for a website called The Ambient that covered the smart Home
+
+351
+00:21:06,150 --> 00:21:09,960
+Speaker 5:  very succinctly put it, he posted this week all the
+
+352
+00:21:09,960 --> 00:21:13,880
+Speaker 5:  major matter players are singing the same song but in their own key at
+
+353
+00:21:13,880 --> 00:21:17,760
+Speaker 5:  different times and with vastly different words. And that's
+
+354
+00:21:17,760 --> 00:21:21,480
+Speaker 5:  essentially that's good. What he says is so true.
+
+355
+00:21:22,040 --> 00:21:25,720
+Speaker 5:  Everyone is on board, everyone is still working towards a solution
+
+356
+00:21:25,720 --> 00:21:29,600
+Speaker 5:  that was promised, which is buy a smart home device, plug it
+
+357
+00:21:29,600 --> 00:21:33,200
+Speaker 5:  in, it just works, right? That was the big promise. Yep. But
+
+358
+00:21:33,410 --> 00:21:37,360
+Speaker 5:  we are still a really long way until we're in
+
+359
+00:21:37,360 --> 00:21:40,880
+Speaker 5:  the Albert Hall with a concert and everyone's singing a beautiful song together.
+
+360
+00:21:41,730 --> 00:21:45,600
+Speaker 5:  It is a bit of a mess right now. Nothing is working to
+
+361
+00:21:45,600 --> 00:21:49,200
+Speaker 5:  go back to, originally we talked about it how matter is an
+
+362
+00:21:49,200 --> 00:21:52,880
+Speaker 5:  infrastructure, it's the plumbing, right? It's the roads for the smart home,
+
+363
+00:21:52,880 --> 00:21:56,760
+Speaker 5:  it's something we can build on. The problem is plumbing doesn't work when
+
+364
+00:21:56,760 --> 00:22:00,120
+Speaker 5:  you don't have a toilet and the highways fall apart when there's no bridges.
+
+365
+00:22:00,740 --> 00:22:04,080
+Speaker 5:  And that's where we are at right now. We have all these pieces and parts,
+
+366
+00:22:04,460 --> 00:22:08,080
+Speaker 5:  but then crucial bits are missing. So
+
+367
+00:22:08,180 --> 00:22:12,120
+Speaker 5:  the connections are not working. For example, Amazon doesn't
+
+368
+00:22:12,120 --> 00:22:15,520
+Speaker 5:  support thread. So thread devices will only work with
+
+369
+00:22:15,670 --> 00:22:19,600
+Speaker 5:  Google, Samsung, and Apple. So if you go buy thread devices that work
+
+370
+00:22:19,600 --> 00:22:23,520
+Speaker 5:  with Matter and you use Amazon Smart Home system, it's not gonna
+
+371
+00:22:23,520 --> 00:22:26,880
+Speaker 5:  work. That's a big missing chunk. We've got no
+
+372
+00:22:27,610 --> 00:22:31,560
+Speaker 5:  support for Google Home or Amazon Alexa on iPhones
+
+373
+00:22:31,560 --> 00:22:35,400
+Speaker 5:  right now. So you can use, obviously you can use Alexa app and
+
+374
+00:22:35,400 --> 00:22:39,320
+Speaker 5:  the Google Home app on iOS but not with matter devices. So again,
+
+375
+00:22:39,320 --> 00:22:43,240
+Speaker 5:  these major pieces of the infrastructure are missing. Once they are
+
+376
+00:22:43,240 --> 00:22:47,080
+Speaker 5:  there things will should proceed as promised. I think
+
+377
+00:22:47,080 --> 00:22:50,560
+Speaker 5:  essentially to boil it all down, they should have waited another six months
+
+378
+00:22:50,560 --> 00:22:53,400
+Speaker 5:  to launch Matter Matter should have come out this summer, but
+
+379
+00:22:53,400 --> 00:22:57,120
+Speaker 2:  It also seems like it needs like a flagship thing
+
+380
+00:22:57,120 --> 00:22:59,760
+Speaker 2:  that it doesn't have. Because one of the things that really jumped out to
+
+381
+00:22:59,760 --> 00:23:03,160
+Speaker 2:  me was the Hugh announcement and basically like the Hugh lights are, I feel
+
+382
+00:23:03,160 --> 00:23:05,600
+Speaker 2:  like one of the great success stories of the smart home. Like they're, they're
+
+383
+00:23:05,600 --> 00:23:09,280
+Speaker 2:  very good, they're very successful, lots of people have them. And Hugh was
+
+384
+00:23:09,280 --> 00:23:12,400
+Speaker 2:  basically, if I'm remembering the announcement correctly, basically like
+
+385
+00:23:12,560 --> 00:23:16,400
+Speaker 2:  we're still probably gonna do this but not right now and we're
+
+386
+00:23:16,400 --> 00:23:20,120
+Speaker 2:  suddenly not feeling the need to be in a giant hurry to turn this on because
+
+387
+00:23:20,120 --> 00:23:22,720
+Speaker 2:  there's really nothing that people gain from it. And I read that and it's
+
+388
+00:23:22,720 --> 00:23:26,480
+Speaker 2:  like, well you're kind of right. Like there's nothing that I as a Hugh user
+
+389
+00:23:26,630 --> 00:23:30,520
+Speaker 2:  seem to be standing to gain from them
+
+390
+00:23:30,520 --> 00:23:33,680
+Speaker 2:  doing all of this work to support matter right this minute. So you're either
+
+391
+00:23:33,680 --> 00:23:36,680
+Speaker 2:  relying on somebody just like out of the, the goodness of their heart and
+
+392
+00:23:36,680 --> 00:23:39,520
+Speaker 2:  the belief in the future to build in a bunch of stuff that doesn't really
+
+393
+00:23:39,520 --> 00:23:43,360
+Speaker 2:  work yet or there needs to be a thing like somebody needs
+
+394
+00:23:43,360 --> 00:23:47,160
+Speaker 2:  to make something that is matter specific and it just doesn't seem like that
+
+395
+00:23:47,160 --> 00:23:47,920
+Speaker 2:  thing is coming.
+
+396
+00:23:48,210 --> 00:23:52,120
+Speaker 5:  No, I don't think it is. The biggest issue with matter right now is
+
+397
+00:23:52,270 --> 00:23:56,080
+Speaker 5:  what is the benefit that is the problem. The consumer can't see the benefit.
+
+398
+00:23:56,380 --> 00:24:00,360
+Speaker 5:  The manufacturers are struggling to see the benefit other than this
+
+399
+00:24:00,360 --> 00:24:03,880
+Speaker 5:  is for the greater good and we need to have a great strong infrastructure
+
+400
+00:24:04,080 --> 00:24:07,920
+Speaker 5:  to build on. But the problem is the smart home is about experiences
+
+401
+00:24:08,020 --> 00:24:11,560
+Speaker 5:  and there are many experiences that companies like Hugh and Nano
+
+402
+00:24:11,560 --> 00:24:15,200
+Speaker 5:  Leaf and door lock manufacturers like Yale and August
+
+403
+00:24:15,280 --> 00:24:18,800
+Speaker 5:  offer to their users like auto unlock when you approach your door,
+
+404
+00:24:18,800 --> 00:24:22,600
+Speaker 5:  that's a neat smart home use case. Having your lights automatically
+
+405
+00:24:22,600 --> 00:24:26,560
+Speaker 5:  change with the sun during the day. That's a great smart home
+
+406
+00:24:26,560 --> 00:24:30,400
+Speaker 5:  use case matter doesn't support any of those features Matter is just very
+
+407
+00:24:30,400 --> 00:24:34,240
+Speaker 5:  basic. And this is intentionally the way it was created
+
+408
+00:24:34,650 --> 00:24:38,200
+Speaker 5:  because companies, manufacturers want to be able to distinguish
+
+409
+00:24:38,320 --> 00:24:42,240
+Speaker 5:  their products and this was where Bekin comes in. If you
+
+410
+00:24:42,240 --> 00:24:45,800
+Speaker 5:  recall a few weeks ago, Belkin who produces Wemo
+
+411
+00:24:45,800 --> 00:24:49,320
+Speaker 5:  products said we're not gonna make matter stuff anymore.
+
+412
+00:24:49,810 --> 00:24:53,480
+Speaker 5:  We said we would now we've changed our mind. And essentially they said we
+
+413
+00:24:53,480 --> 00:24:57,280
+Speaker 5:  changed our mind because our products don't have anything that
+
+414
+00:24:57,280 --> 00:25:00,840
+Speaker 5:  necessarily makes and stand out in the new matter landscape. Right?
+
+415
+00:25:00,970 --> 00:25:04,520
+Speaker 5:  So this is where there's a big tension right now. We're trying to,
+
+416
+00:25:04,740 --> 00:25:07,680
+Speaker 5:  you know, cause you still don't, we were promised we weren't gonna have to
+
+417
+00:25:07,680 --> 00:25:11,320
+Speaker 5:  use like seven different apps or have five different bridges right when
+
+418
+00:25:11,320 --> 00:25:15,120
+Speaker 5:  Masha arrived. And right now we do matter doesn't cha doesn't
+
+419
+00:25:15,120 --> 00:25:19,040
+Speaker 5:  fix those problems. So this is where the companies you know, are still need
+
+420
+00:25:19,040 --> 00:25:22,480
+Speaker 5:  to work together and figure out how they're gonna make these experiences
+
+421
+00:25:22,480 --> 00:25:26,240
+Speaker 5:  work. The way it's likely to happen is it's gonna come down to the platforms
+
+422
+00:25:26,240 --> 00:25:30,120
+Speaker 5:  again, which means, again, you're gonna still have to be stuck
+
+423
+00:25:30,370 --> 00:25:34,320
+Speaker 5:  in ecosystems like in little Ward Gardens if you want certain
+
+424
+00:25:34,320 --> 00:25:38,240
+Speaker 5:  features, but matter will mean that you can easily
+
+425
+00:25:38,240 --> 00:25:42,080
+Speaker 5:  switch between them. So just like you have to choose a cell phone carrier,
+
+426
+00:25:42,260 --> 00:25:46,200
+Speaker 5:  you have to choose an ecosystem, but it should be pretty easy to
+
+427
+00:25:46,200 --> 00:25:46,440
+Speaker 5:  switch.
+
+428
+00:25:46,630 --> 00:25:49,960
+Speaker 2:  Yeah, and I think the, the Bekin thing is so funny to me because I, I read
+
+429
+00:25:49,960 --> 00:25:53,520
+Speaker 2:  that whole announcement and it, it just comes off like the most
+
+430
+00:25:53,550 --> 00:25:57,320
+Speaker 2:  epic self own of all time where it's just Bekin being like, well
+
+431
+00:25:57,490 --> 00:26:00,920
+Speaker 2:  we can't figure out how to make good interesting products that are better
+
+432
+00:26:00,920 --> 00:26:04,280
+Speaker 2:  than anybody else. So we're just gonna, we're just gonna stop and we're gonna
+
+433
+00:26:04,280 --> 00:26:08,080
+Speaker 2:  force you to buy our products because we have like pretty
+
+434
+00:26:08,080 --> 00:26:11,200
+Speaker 2:  good distribution and we sell our stuff in Apple stores so we're just gonna
+
+435
+00:26:11,200 --> 00:26:14,480
+Speaker 2:  con you into buying our crap that doesn't work with anybody else because
+
+436
+00:26:14,690 --> 00:26:18,040
+Speaker 2:  if we did the thing everybody else is doing, you would just buy cheaper versions
+
+437
+00:26:18,040 --> 00:26:21,720
+Speaker 2:  of it on Amazon. I still think it's mostly a cell phone, but I do see at
+
+438
+00:26:21,720 --> 00:26:23,880
+Speaker 2:  least a little bit of Belkin's point here.
+
+439
+00:26:24,310 --> 00:26:28,200
+Speaker 5:  I mean the initial reaction was, oh bad Belkin, but it was
+
+440
+00:26:28,200 --> 00:26:31,920
+Speaker 5:  kind of brave and kind of like, okay yeah we, we
+
+441
+00:26:31,920 --> 00:26:34,880
+Speaker 5:  we're kind of in a rock and a hard place and we don't really know what to
+
+442
+00:26:34,880 --> 00:26:38,840
+Speaker 5:  do so we're just gonna stop. These companies in the smart home are scared
+
+443
+00:26:38,840 --> 00:26:42,640
+Speaker 5:  of commodification. That was always gonna be an issue with matter like from
+
+444
+00:26:42,640 --> 00:26:46,480
+Speaker 5:  the beginning. But commodification is actually what we as
+
+445
+00:26:46,720 --> 00:26:47,360
+Speaker 5:  consumers want.
+
+446
+00:26:47,360 --> 00:26:48,480
+Speaker 2:  Yeah, it's great news.
+
+447
+00:26:48,630 --> 00:26:52,520
+Speaker 5:  It's good. Yes. Yeah, we want, I would like Belkin to produce Wemo
+
+448
+00:26:52,520 --> 00:26:56,000
+Speaker 5:  products that work with everyone and only cost $5.
+
+449
+00:26:56,480 --> 00:27:00,000
+Speaker 5:  Yes. But just turn on and off and just give me the basic features that I
+
+450
+00:27:00,000 --> 00:27:03,760
+Speaker 5:  need. I mean the smart home is a natural evolution of the home. So eventually
+
+451
+00:27:03,760 --> 00:27:07,720
+Speaker 5:  when you go into a Home Depot or you go to Amazon to buy your light
+
+452
+00:27:07,720 --> 00:27:11,400
+Speaker 5:  bulb, you don't need to see whether it works with one voice assistant or
+
+453
+00:27:11,400 --> 00:27:15,280
+Speaker 5:  this protocol. You just buy it like you would any light bulb and
+
+454
+00:27:15,280 --> 00:27:17,920
+Speaker 5:  it will be connected to your home. That's where we need to go.
+
+455
+00:27:18,500 --> 00:27:22,320
+Speaker 2:  One undercurrent of the stories you've been writing about this stuff is that
+
+456
+00:27:22,360 --> 00:27:26,280
+Speaker 2:  Apple seems to be, if not the holdout then at least like
+
+457
+00:27:26,280 --> 00:27:29,640
+Speaker 2:  one of the more sort of complicated parts of this
+
+458
+00:27:30,200 --> 00:27:34,080
+Speaker 2:  strategy that Apple obviously has this big focus on security that has
+
+459
+00:27:34,110 --> 00:27:37,760
+Speaker 2:  made a, made it harder for companies to work with other stuff and also home
+
+460
+00:27:37,760 --> 00:27:41,440
+Speaker 2:  kit over time. And Apple also I think has a, a long history and
+
+461
+00:27:41,440 --> 00:27:45,360
+Speaker 2:  vested interest in things not being super interoperable. What is
+
+462
+00:27:45,360 --> 00:27:49,280
+Speaker 2:  Apple's role in kind of this moment as we're making
+
+463
+00:27:49,280 --> 00:27:52,800
+Speaker 2:  this transition? Like is it, is it the stick in the mud, is it moving stuff
+
+464
+00:27:52,800 --> 00:27:54,360
+Speaker 2:  along? How is Apple doing here?
+
+465
+00:27:54,590 --> 00:27:58,560
+Speaker 5:  I think it's been very interesting. Apple is probably the most
+
+466
+00:27:58,560 --> 00:28:02,080
+Speaker 5:  vocal supporter of matter of all of the
+
+467
+00:28:02,080 --> 00:28:06,040
+Speaker 5:  ecosystems. Okay. But vocal in Apple's way in that they never actually say
+
+468
+00:28:06,200 --> 00:28:06,360
+Speaker 5:  anything,
+
+469
+00:28:06,360 --> 00:28:06,760
+Speaker 2:  Right?
+
+470
+00:28:08,130 --> 00:28:12,120
+Speaker 5:  So that's why it's been kind of hard to pass. But from talking to people
+
+471
+00:28:12,500 --> 00:28:16,360
+Speaker 5:  who sort of are in the discussions and, and sort of know what's going on
+
+472
+00:28:16,360 --> 00:28:20,320
+Speaker 5:  behind the scenes, basically Home Kit was not really a success
+
+473
+00:28:20,320 --> 00:28:24,240
+Speaker 5:  for Apple. It was complicated. It was hard. So to them matter
+
+474
+00:28:24,240 --> 00:28:28,000
+Speaker 5:  is the solution for the smart home for them. That's why they, they're sort
+
+475
+00:28:28,000 --> 00:28:30,920
+Speaker 5:  of phasing out home kit. They've rebranded themselves, they're now Apple
+
+476
+00:28:30,920 --> 00:28:34,840
+Speaker 5:  Home, right? And they want everyone to work with Matter so that they can
+
+477
+00:28:34,840 --> 00:28:38,800
+Speaker 5:  work with Apple. They don't want to have to deal with this separate ecosystem
+
+478
+00:28:38,800 --> 00:28:41,680
+Speaker 5:  anymore, but they're, they're a stick in the mud in that they keep their
+
+479
+00:28:41,720 --> 00:28:44,920
+Speaker 5:  cards close to their chest and matter requires
+
+480
+00:28:45,030 --> 00:28:48,520
+Speaker 5:  openness so that developers can figure out how to
+
+481
+00:28:48,520 --> 00:28:52,400
+Speaker 5:  connect. And this is, from what I understand, one of the holdups with the
+
+482
+00:28:52,400 --> 00:28:56,080
+Speaker 5:  Google Home and the Amazon Alexa apps coming to iOS.
+
+483
+00:28:56,130 --> 00:29:00,080
+Speaker 5:  Mm. Apple has changed things every time they release a new
+
+484
+00:29:00,500 --> 00:29:04,360
+Speaker 5:  iOS update. And then there's also some struggles as we've
+
+485
+00:29:04,600 --> 00:29:07,840
+Speaker 5:  seen with 16.4 that just came out, which is the first time they've brought
+
+486
+00:29:07,840 --> 00:29:09,400
+Speaker 5:  back the new home kit architecture,
+
+487
+00:29:09,400 --> 00:29:12,560
+Speaker 2:  Right? There was the new architecture and then the old architecture and then
+
+488
+00:29:12,560 --> 00:29:13,480
+Speaker 2:  now it's the new architecture.
+
+489
+00:29:13,660 --> 00:29:17,520
+Speaker 5:  Now we're back to the new one because the, the rollout of the first one was
+
+490
+00:29:17,520 --> 00:29:21,400
+Speaker 5:  kind of a mess. That's a holdup. So I don't think Apple is stonewalling
+
+491
+00:29:21,560 --> 00:29:24,960
+Speaker 5:  anything here. Certainly not on purpose. I think
+
+492
+00:29:25,240 --> 00:29:29,160
+Speaker 5:  it's a complicated process for them to kind of untangle themselves from home
+
+493
+00:29:29,160 --> 00:29:33,120
+Speaker 5:  kit and reopen their platform to matter. And that's what they're
+
+494
+00:29:33,120 --> 00:29:36,960
+Speaker 5:  trying to do. And again, this is why all of this is taking so long crucial
+
+495
+00:29:36,960 --> 00:29:40,560
+Speaker 5:  parts of the infrastructure just have not connected again
+
+496
+00:29:40,580 --> 00:29:44,280
+Speaker 5:  six months. They launched in November matter, they probably should have launched
+
+497
+00:29:44,280 --> 00:29:48,240
+Speaker 5:  it this summer or next November. It is going to be a long time
+
+498
+00:29:48,240 --> 00:29:51,720
+Speaker 5:  until I come back on the Vergecast and say, Hey Matt just works.
+
+499
+00:29:52,630 --> 00:29:56,080
+Speaker 2:  It's gonna be a great day. That will be a great, great day on the Vergecast.
+
+500
+00:29:56,520 --> 00:30:00,400
+Speaker 2:  All right, we gotta move on Jen. Thank you. Appreciate it as always.
+
+501
+00:30:00,440 --> 00:30:02,480
+Speaker 2:  We'll see you again to yell about manner six months.
+
+502
+00:30:02,480 --> 00:30:03,280
+Speaker 5:  Sounds good.
+
+503
+00:30:04,120 --> 00:30:07,160
+Speaker 2:  We're gonna take a really quick break and then we are gonna come back and
+
+504
+00:30:07,160 --> 00:30:10,840
+Speaker 2:  we're gonna go into New York City and test some laptop mics with Monica
+
+505
+00:30:10,840 --> 00:30:12,040
+Speaker 2:  Gin. We'll be right back.
+
+506
+00:30:23,910 --> 00:30:27,820
+Speaker 6:  Support for this podcast comes from Slack. Some of you might remember work
+
+507
+00:30:27,820 --> 00:30:31,660
+Speaker 6:  before the internet. Some of you might not. Either way, work today relies
+
+508
+00:30:31,660 --> 00:30:35,180
+Speaker 6:  on the internet and if your team hasn't made the switch to Slack, you might
+
+509
+00:30:35,180 --> 00:30:38,500
+Speaker 6:  find it just as vital a tool for staying connected and getting work done.
+
+510
+00:30:38,650 --> 00:30:42,380
+Speaker 6:  It's built to make work simpler and more connected. Not to mention
+
+511
+00:30:42,380 --> 00:30:46,180
+Speaker 6:  more pleasant. Slack is a productivity platform that connects all your team
+
+512
+00:30:46,180 --> 00:30:50,140
+Speaker 6:  members together instantly. It's built to help your team with a host of features
+
+513
+00:30:50,140 --> 00:30:53,980
+Speaker 6:  like huddles for quick check-ins and clips for recording and sharing video.
+
+514
+00:30:54,180 --> 00:30:58,020
+Speaker 6:  Slack also makes it easy to search and find the right information you need.
+
+515
+00:30:58,040 --> 00:31:01,740
+Speaker 6:  You can even integrate the apps you use in your normal workflow
+
+516
+00:31:01,740 --> 00:31:05,340
+Speaker 6:  like your calendar or project management tools so you can stay focused on
+
+517
+00:31:05,340 --> 00:31:09,020
+Speaker 6:  the work that matters and get more done. So if you wanna make sure your team
+
+518
+00:31:09,020 --> 00:31:12,900
+Speaker 6:  has all the tools they need to work well then check out Slack. Learn more
+
+519
+00:31:12,900 --> 00:31:14,980
+Speaker 6:  at slack.com/productivity.
+
+520
+00:31:18,060 --> 00:31:21,590
+Speaker 7:  Well folks, here we are, former president Donald Trump
+
+521
+00:31:21,970 --> 00:31:25,830
+Speaker 7:  has been indicted by a Manhattan grand jury. I'm Preet
+
+522
+00:31:25,830 --> 00:31:29,470
+Speaker 7:  Barara, the former US attorney in Manhattan. My podcast
+
+523
+00:31:29,660 --> 00:31:33,550
+Speaker 7:  stay tuned is about law, justice, power and democracy.
+
+524
+00:31:34,590 --> 00:31:37,710
+Speaker 7:  Recently I broke down the indictment with a group of former federal prosecutors
+
+525
+00:31:37,890 --> 00:31:40,630
+Speaker 7:  who understand how the justice system really works.
+
+526
+00:31:40,910 --> 00:31:44,470
+Speaker 7:  Joyce Vance, Barb McQuaid and Eli Hoig.
+
+527
+00:31:44,840 --> 00:31:47,750
+Speaker 7:  We discuss the questions on everyone's mind like
+
+528
+00:31:48,250 --> 00:31:51,790
+Speaker 8:  Can you directly tie Donald Trump to the way these
+
+529
+00:31:51,790 --> 00:31:53,590
+Speaker 8:  payments were booked and logged?
+
+530
+00:31:53,850 --> 00:31:57,630
+Speaker 9:  Are prosecutors considering additional defendants or additional charges?
+
+531
+00:31:57,840 --> 00:32:01,270
+Speaker 7:  Is this the kind of conduct that merits a charge of a former president of
+
+532
+00:32:01,270 --> 00:32:02,390
+Speaker 7:  the United States? I
+
+533
+00:32:02,390 --> 00:32:05,510
+Speaker 10:  Think this is a serious crime freak and I think it's one that I would charge.
+
+534
+00:32:05,930 --> 00:32:07,350
+Speaker 7:  And where do we go from here?
+
+535
+00:32:07,810 --> 00:32:11,350
+Speaker 9:  The presidency from prison, right? I mean add to the crazy
+
+536
+00:32:11,910 --> 00:32:15,670
+Speaker 7:  Add to the crazy to listen. Just search. Stay tuned
+
+537
+00:32:15,870 --> 00:32:19,110
+Speaker 7:  wherever you get your podcasts. New episodes drop every Thursday.
+
+538
+00:32:20,740 --> 00:32:21,590
+Speaker 7:  Stay tuned.
+
+539
+00:32:26,030 --> 00:32:29,900
+Speaker 2:  Welcome back every now and then on this show we like to do a microphone
+
+540
+00:32:29,900 --> 00:32:33,460
+Speaker 2:  test because we spend a lot of time worrying about our headphones
+
+541
+00:32:33,480 --> 00:32:37,260
+Speaker 2:  and how things sound to us, but not enough time testing
+
+542
+00:32:37,260 --> 00:32:40,960
+Speaker 2:  our microphones and how we sound to others. Last year we stress
+
+543
+00:32:40,960 --> 00:32:44,760
+Speaker 2:  tested the microphones on a bunch of flagship wireless earbuds to
+
+544
+00:32:44,760 --> 00:32:48,600
+Speaker 2:  see which sounded the best for voice calls. You should go listen, it's all
+
+545
+00:32:48,600 --> 00:32:52,360
+Speaker 2:  over the vergecast last year. But the short version is this, the Sony Link
+
+546
+00:32:52,360 --> 00:32:56,200
+Speaker 2:  Buds, apple AirPods and Google Pixel Buds Pro are all pretty good. The
+
+547
+00:32:56,200 --> 00:32:59,760
+Speaker 2:  $20 Apple EarPods, the ones that actually plug in are amazing.
+
+548
+00:32:59,760 --> 00:33:03,640
+Speaker 2:  Everything else we've tested is less good. But the thing
+
+549
+00:33:03,640 --> 00:33:07,240
+Speaker 2:  is not everyone uses earbuds for Zoom and meet and teams
+
+550
+00:33:07,370 --> 00:33:11,320
+Speaker 2:  or whatever else you use for calls and video chats. So for this
+
+551
+00:33:11,320 --> 00:33:14,920
+Speaker 2:  test we're checking out how the microphones on a bunch of laptops sound to
+
+552
+00:33:14,920 --> 00:33:18,560
+Speaker 2:  figure out which is the best for taking calls, meetings, and even just
+
+553
+00:33:18,560 --> 00:33:22,440
+Speaker 2:  recording audio with the built-in mic. You might remember that when
+
+554
+00:33:22,440 --> 00:33:26,200
+Speaker 2:  we tested earbud microphones with Chris Welch last year, we sampled what
+
+555
+00:33:26,200 --> 00:33:29,880
+Speaker 2:  the laptop mic sounded like too and it, well it sounded like
+
+556
+00:33:29,880 --> 00:33:30,440
+Speaker 2:  trash.
+
+557
+00:33:30,860 --> 00:33:32,560
+Speaker 11:  You hear everything, the whole world,
+
+558
+00:33:35,650 --> 00:33:36,880
+Speaker 11:  there's, there's a truck
+
+559
+00:33:37,580 --> 00:33:41,440
+Speaker 2:  But things change fast. So we head to see can laptops handle
+
+560
+00:33:41,590 --> 00:33:44,840
+Speaker 2:  a voice call? Can you get away with no extra gear
+
+561
+00:33:44,840 --> 00:33:48,720
+Speaker 2:  whatsoever? The next time you get on Zoom or meet Monica Chin is
+
+562
+00:33:48,720 --> 00:33:52,320
+Speaker 2:  the verges laptop reviewer and she helped us stress test a few of these laptop
+
+563
+00:33:52,320 --> 00:33:55,920
+Speaker 2:  microphones. So while I sit comfortably at my desk at home in Virginia,
+
+564
+00:33:56,090 --> 00:33:59,640
+Speaker 2:  we sent Monica with our producer Andrew Marino, to the single
+
+565
+00:33:59,710 --> 00:34:02,320
+Speaker 2:  most chaotic spot we could think of in New York City.
+
+566
+00:34:03,080 --> 00:34:07,040
+Speaker 12:  So we are walking through the middle of Times Square, which is
+
+567
+00:34:07,560 --> 00:34:10,880
+Speaker 12:  probably the loudest place in New York City that you can go besides a concert.
+
+568
+00:34:11,430 --> 00:34:15,400
+Speaker 2:  What you're hearing there is the 2021 MacBook Pro. It's the 16
+
+569
+00:34:15,400 --> 00:34:17,240
+Speaker 2:  inch one, the one with the Mpro chip.
+
+570
+00:34:17,310 --> 00:34:21,040
+Speaker 12:  This is like the laptop that our video team
+
+571
+00:34:21,230 --> 00:34:25,160
+Speaker 12:  really loves to record stuff on. The mics are pretty good, I
+
+572
+00:34:25,160 --> 00:34:26,680
+Speaker 12:  would say. How does it sound?
+
+573
+00:34:27,150 --> 00:34:30,520
+Speaker 2:  I cannot believe how good you sound. This is blowing my mind
+
+574
+00:34:30,520 --> 00:34:31,200
+Speaker 12:  Right now. Really?
+
+575
+00:34:31,200 --> 00:34:34,880
+Speaker 2:  Well I'm used to say these microphones being like really good but they catch
+
+576
+00:34:34,880 --> 00:34:37,840
+Speaker 2:  everything, right? So you get tons of background noise, you get tons of everything.
+
+577
+00:34:37,930 --> 00:34:40,640
+Speaker 2:  We could just have a video call with you doing this.
+
+578
+00:34:40,770 --> 00:34:43,320
+Speaker 12:  We could, except that I can barely hear you. But that
+
+579
+00:34:44,250 --> 00:34:48,000
+Speaker 2:  There's that. An important detail I should mention here is that Monica
+
+580
+00:34:48,180 --> 00:34:51,920
+Speaker 2:  did not wear headphones for this test. We found that a lot of people don't
+
+581
+00:34:51,920 --> 00:34:55,000
+Speaker 2:  have wired headphones with them when they're outta their house. So you're
+
+582
+00:34:55,000 --> 00:34:58,800
+Speaker 2:  going to hear a lot of my voice being picked up in the laptop's microphone,
+
+583
+00:34:58,800 --> 00:35:02,560
+Speaker 2:  which spoiler alert is actually one of the biggest takeaways
+
+584
+00:35:02,560 --> 00:35:06,040
+Speaker 2:  here. Mics are getting better, but echo cancellation mostly
+
+585
+00:35:06,040 --> 00:35:09,720
+Speaker 2:  still sucks and causes a lot of problems for the mics themselves
+
+586
+00:35:09,720 --> 00:35:13,280
+Speaker 2:  though. The biggest problem we came across with basically all laptop
+
+587
+00:35:13,280 --> 00:35:16,680
+Speaker 2:  microphones is when the wind picks up. Really no surprise there.
+
+588
+00:35:16,870 --> 00:35:20,640
+Speaker 12:  Okay, so we're getting to the most iconic part, which is the big
+
+589
+00:35:20,950 --> 00:35:22,560
+Speaker 12:  pkts booth where everyone hangs out.
+
+590
+00:35:23,270 --> 00:35:27,080
+Speaker 2:  Look, this is probably the least realistic test we've
+
+591
+00:35:27,080 --> 00:35:30,760
+Speaker 2:  ever done. Not many of you are walking through Times Square holding your
+
+592
+00:35:30,760 --> 00:35:34,720
+Speaker 2:  laptop in front of you. If you are, I have like a lot of follow up
+
+593
+00:35:34,880 --> 00:35:38,640
+Speaker 2:  questions for you and feel like we would be very good friends, but I
+
+594
+00:35:38,640 --> 00:35:42,400
+Speaker 2:  am sure that you've tried to take a call in a crowded coffee shop or
+
+595
+00:35:42,400 --> 00:35:46,160
+Speaker 2:  at a park in a city or in your backyard with airplanes
+
+596
+00:35:46,160 --> 00:35:50,040
+Speaker 2:  flying over. Not that long ago, I would've told you that. Doing
+
+597
+00:35:50,040 --> 00:35:54,000
+Speaker 2:  that and trying to talk into your laptop Mike was a horrible idea and
+
+598
+00:35:54,000 --> 00:35:57,520
+Speaker 2:  you're gonna hurt the ears of whoever you're talking to. But I kind of
+
+599
+00:35:57,520 --> 00:36:01,400
+Speaker 2:  couldn't believe how easy it was for me to hear Monica. So clearly
+
+600
+00:36:01,630 --> 00:36:05,600
+Speaker 2:  it's not amazing but it works. Now tell
+
+601
+00:36:05,600 --> 00:36:06,680
+Speaker 2:  me what you had for breakfast this morning.
+
+602
+00:36:06,830 --> 00:36:10,760
+Speaker 12:  This morning I had a K-pop from Starbucks on the way
+
+603
+00:36:10,760 --> 00:36:11,080
+Speaker 12:  to work.
+
+604
+00:36:11,190 --> 00:36:12,720
+Speaker 2:  Part of this balanced breakfast?
+
+605
+00:36:12,790 --> 00:36:16,680
+Speaker 12:  Yeah, exactly. I'm not a breakfast eater really usually. So that was
+
+606
+00:36:16,680 --> 00:36:19,120
+Speaker 12:  like a, I guess like my dessert from the night before basically.
+
+607
+00:36:20,110 --> 00:36:24,040
+Speaker 2:  Okay, so that's the MacBook. Next up Monica pulled out the Dell XPS
+
+608
+00:36:24,400 --> 00:36:28,240
+Speaker 2:  13, which has long been our go-to Windows laptop recommendation and it
+
+609
+00:36:28,240 --> 00:36:29,640
+Speaker 2:  held up pretty well here too.
+
+610
+00:36:30,110 --> 00:36:34,080
+Speaker 12:  This is one of the best Windows laptops you can get, but
+
+611
+00:36:34,080 --> 00:36:38,000
+Speaker 12:  it's obviously a good bit smaller than the MacBook Pro
+
+612
+00:36:38,000 --> 00:36:41,720
+Speaker 12:  16. We got an Intel processor inside, we got a
+
+613
+00:36:41,720 --> 00:36:45,600
+Speaker 12:  teeny little webcam on the top. We got downward firing speakers
+
+614
+00:36:45,600 --> 00:36:49,360
+Speaker 12:  on the bottom. It's a, it's a much smaller, much smaller little deal.
+
+615
+00:36:49,590 --> 00:36:53,200
+Speaker 2:  Yeah, so I'm hearing more and more detailed
+
+616
+00:36:53,200 --> 00:36:56,560
+Speaker 2:  background noise. Like I can sort of pick out individual people talking instead
+
+617
+00:36:56,560 --> 00:37:00,240
+Speaker 2:  of just like the Whooshing background sound that was in the MacBook
+
+618
+00:37:00,300 --> 00:37:03,320
+Speaker 2:  but even still your voice is coming through pretty well. I can pick you up
+
+619
+00:37:03,320 --> 00:37:07,120
+Speaker 2:  fine. It's definitely more processed than the MacBook. Interesting. But even
+
+620
+00:37:07,120 --> 00:37:10,960
+Speaker 2:  still I would, I would rank this in like mid-range headphones to be using
+
+621
+00:37:11,520 --> 00:37:14,280
+Speaker 2:  Interesting. In a crowd of people. Yeah, I'm like blown away by how good
+
+622
+00:37:14,280 --> 00:37:15,400
+Speaker 2:  this is in all cases.
+
+623
+00:37:15,820 --> 00:37:19,760
+Speaker 12:  One of the big things with Intel's 12th generation, which is
+
+624
+00:37:19,760 --> 00:37:23,400
+Speaker 12:  what's in this and the 13th judge, well which just came out, is like they
+
+625
+00:37:23,400 --> 00:37:27,160
+Speaker 12:  make a big deal out of AI noise processing.
+
+626
+00:37:27,490 --> 00:37:30,200
+Speaker 12:  So it makes, it makes sense that it would sound more processed I
+
+627
+00:37:30,200 --> 00:37:33,280
+Speaker 2:  Think. Yeah, it's definitely working hard to do it but it's doing a pretty
+
+628
+00:37:33,280 --> 00:37:37,060
+Speaker 2:  good job. Okay. Prepare herself for this one. The next laptop
+
+629
+00:37:37,060 --> 00:37:41,020
+Speaker 2:  Monica pulled out. She didn't tell me about before we sent her to Times Square
+
+630
+00:37:41,020 --> 00:37:44,900
+Speaker 2:  and when she joined our video call, it just had a sketchy name like surprise
+
+631
+00:37:44,900 --> 00:37:46,900
+Speaker 2:  laptop. It definitely surprised me.
+
+632
+00:37:49,410 --> 00:37:49,900
+Speaker 13:  Okay,
+
+633
+00:37:49,900 --> 00:37:52,020
+Speaker 2:  That was literally you just caused physical pain
+
+634
+00:37:52,020 --> 00:37:53,700
+Speaker 13:  In my headphones when you did that.
+
+635
+00:37:55,410 --> 00:37:56,340
+Speaker 2:  I hear everything.
+
+636
+00:37:57,930 --> 00:38:01,900
+Speaker 13:  Okay, so this is the Gateway 14. It is a
+
+637
+00:38:01,900 --> 00:38:05,860
+Speaker 13:  $400 laptop that I picked up at Walmart because I was
+
+638
+00:38:05,860 --> 00:38:07,700
+Speaker 13:  curious if it would work at all.
+
+639
+00:38:08,890 --> 00:38:12,740
+Speaker 2:  That was the first one in all of these tests that we've done that was
+
+640
+00:38:12,740 --> 00:38:16,300
+Speaker 2:  like actually physically painful. As soon as
+
+641
+00:38:16,300 --> 00:38:20,100
+Speaker 2:  Monica entered our chat here and I started hearing sound,
+
+642
+00:38:20,290 --> 00:38:23,540
+Speaker 2:  I like literally did the thing where you have to go like ah and just pull
+
+643
+00:38:23,540 --> 00:38:26,900
+Speaker 2:  your headphones off because that's what happened. That was awful.
+
+644
+00:38:27,290 --> 00:38:31,100
+Speaker 2:  Before we go any further, I should say that the way we recorded this was
+
+645
+00:38:31,100 --> 00:38:34,780
+Speaker 2:  the same as our other tests. We use an app called Riverside FM and we like
+
+646
+00:38:34,780 --> 00:38:38,480
+Speaker 2:  it. It because it records your local audio and then uploads it so you don't
+
+647
+00:38:38,480 --> 00:38:42,120
+Speaker 2:  get any of that internet artifacting or echoes. It does mean
+
+648
+00:38:42,120 --> 00:38:45,440
+Speaker 2:  these tests are gonna sound slightly different from what you'll sound like
+
+649
+00:38:45,650 --> 00:38:49,640
+Speaker 2:  on Zoom or Meet or Teams because those apps all apply their
+
+650
+00:38:49,640 --> 00:38:53,160
+Speaker 2:  own kind of filtering and noise canceling. This is much closer to like
+
+651
+00:38:53,440 --> 00:38:57,400
+Speaker 2:  the pure audio coming out of the microphones that said that Gateway
+
+652
+00:38:57,400 --> 00:39:01,240
+Speaker 2:  laptop was worse than just the microphones. In addition to sounding like
+
+653
+00:39:01,240 --> 00:39:05,040
+Speaker 2:  a metal band playing inside a scratchy tin can, while a
+
+654
+00:39:05,040 --> 00:39:08,600
+Speaker 2:  lawnmower goes full blast right next to my head, the computer itself
+
+655
+00:39:08,600 --> 00:39:12,520
+Speaker 2:  could barely even keep up with having that one Chrome tab open right
+
+656
+00:39:12,520 --> 00:39:16,280
+Speaker 2:  out of the box and it initially lost the recording because the
+
+657
+00:39:16,400 --> 00:39:19,960
+Speaker 2:  computer literally couldn't keep up. The point is it's not a very good computer.
+
+658
+00:39:20,030 --> 00:39:23,360
+Speaker 2:  I wouldn't use it for this or anything if you have another option.
+
+659
+00:39:23,550 --> 00:39:27,040
+Speaker 2:  Okay, let's get back to better sounding things. The next laptop we tested
+
+660
+00:39:27,040 --> 00:39:31,000
+Speaker 2:  out was a Chromebook. The Lenovo idea Pad five I gaming Chromebook. To
+
+661
+00:39:31,000 --> 00:39:34,560
+Speaker 2:  be specific, lots of people use Chromebooks, especially in education and
+
+662
+00:39:34,800 --> 00:39:38,640
+Speaker 2:  we live in a remote world and lots of people take classes online and this
+
+663
+00:39:38,840 --> 00:39:42,080
+Speaker 2:  actually seems like something you'd hope Chromebooks specifically would be
+
+664
+00:39:42,080 --> 00:39:42,440
+Speaker 2:  good at.
+
+665
+00:39:42,780 --> 00:39:44,440
+Speaker 12:  All right, we are here. Ugh,
+
+666
+00:39:44,630 --> 00:39:45,800
+Speaker 2:  This is so much better.
+
+667
+00:39:46,330 --> 00:39:48,760
+Speaker 12:  We are on a 15 inch gaming Chromebook.
+
+668
+00:39:48,760 --> 00:39:51,080
+Speaker 2:  Where does this fall in like the range of Chromebooks?
+
+669
+00:39:51,270 --> 00:39:54,920
+Speaker 12:  I mean it's not terrible, it's got a little bit of a plasticy build but
+
+670
+00:39:54,920 --> 00:39:58,720
+Speaker 12:  you know it's got a big screen, it's got a nice little numb pad
+
+671
+00:39:58,720 --> 00:40:02,320
+Speaker 12:  here on the right side of the keyboard. The audio is way too quiet to be
+
+672
+00:40:02,320 --> 00:40:04,600
+Speaker 12:  using a Times Square, but you know if you're gonna be using headphones all
+
+673
+00:40:04,600 --> 00:40:06,960
+Speaker 12:  the time then maybe that doesn't matter so much to you.
+
+674
+00:40:07,030 --> 00:40:10,400
+Speaker 2:  This is a good middle ground of like the good ones that we heard at the beginning
+
+675
+00:40:10,400 --> 00:40:13,920
+Speaker 2:  and the horrible garbage one that we heard before. This one is like I can
+
+676
+00:40:13,920 --> 00:40:17,800
+Speaker 2:  hear a bunch of background noise, there's definitely more wind and
+
+677
+00:40:17,800 --> 00:40:20,880
+Speaker 2:  stuff coming into the mic than before, but I can still hear you and if we
+
+678
+00:40:20,880 --> 00:40:24,280
+Speaker 2:  had a call like this, I would not hate your guts. Whereas like three minutes
+
+679
+00:40:24,280 --> 00:40:26,840
+Speaker 2:  of that last one and like I don't wanna be friends with you anymore,
+
+680
+00:40:26,840 --> 00:40:29,800
+Speaker 12:  Could you hear, there was a man wrapping in front of me just now, but it
+
+681
+00:40:29,800 --> 00:40:31,960
+Speaker 12:  sounds like it wasn't. No that wasn't quite coming through.
+
+682
+00:40:32,760 --> 00:40:36,560
+Speaker 2:  It does seem like I'm picking up a lot more behind you
+
+683
+00:40:36,830 --> 00:40:38,920
+Speaker 2:  than behind the computer, which is interesting
+
+684
+00:40:39,070 --> 00:40:41,320
+Speaker 12:  I guess. Yeah, the microphones are facing that way.
+
+685
+00:40:41,770 --> 00:40:45,200
+Speaker 2:  So this is actually a good example cuz as I'm looking at you, a crowd of
+
+686
+00:40:45,200 --> 00:40:48,760
+Speaker 2:  people just walked up behind you and I could hear all of them talking,
+
+687
+00:40:48,900 --> 00:40:51,560
+Speaker 2:  but then when somebody walked right in front of you behind the computer,
+
+688
+00:40:51,560 --> 00:40:53,200
+Speaker 2:  I didn't hear that at all. That's very
+
+689
+00:40:53,400 --> 00:40:55,760
+Speaker 12:  Interesting. Interesting. So I guess if I'm doing call in Time Square, I
+
+690
+00:40:55,760 --> 00:40:58,880
+Speaker 12:  want to be sitting at the back of Times Square facing
+
+691
+00:40:59,020 --> 00:41:02,560
+Speaker 2:  The X face your back to a building or something. Exactly,
+
+692
+00:41:02,560 --> 00:41:02,880
+Speaker 12:  Yeah.
+
+693
+00:41:03,470 --> 00:41:07,400
+Speaker 2:  Laptop number five also falls into the, probably ought to be good at
+
+694
+00:41:07,400 --> 00:41:11,240
+Speaker 2:  this category. It's the Lenovo ThinkPad X 13. It's kind of a classic business
+
+695
+00:41:11,240 --> 00:41:15,000
+Speaker 2:  laptop, but this one is actually built with mobility in mind, which is all
+
+696
+00:41:15,000 --> 00:41:17,120
+Speaker 2:  the more reason that the mic should be good.
+
+697
+00:41:17,470 --> 00:41:21,440
+Speaker 12:  This is a Lenovo thing pad. It's super, super light and it actually
+
+698
+00:41:21,440 --> 00:41:25,360
+Speaker 12:  is a Snap Dragon chip inside. It's powered byd, snap Dragon eight, CX
+
+699
+00:41:25,360 --> 00:41:25,920
+Speaker 12:  gen three.
+
+700
+00:41:26,070 --> 00:41:29,960
+Speaker 2:  This is one of those computers that's like trying to kind of be a tablet
+
+701
+00:41:29,960 --> 00:41:32,720
+Speaker 2:  and it's like very mobile on purpose. Correct. Right. So it should be good
+
+702
+00:41:32,720 --> 00:41:33,240
+Speaker 2:  at this. It's
+
+703
+00:41:33,240 --> 00:41:37,000
+Speaker 12:  Super, super thin. It's like, it feels like it weighs nothing, but
+
+704
+00:41:37,520 --> 00:41:40,080
+Speaker 12:  I don't know how good the speakers are. It's very, very thin. So there's
+
+705
+00:41:40,080 --> 00:41:43,200
+Speaker 12:  not a ton of room for great great microphones necessarily.
+
+706
+00:41:43,630 --> 00:41:47,480
+Speaker 2:  It's doing less processing than most. So like your
+
+707
+00:41:47,480 --> 00:41:50,520
+Speaker 2:  voice actually sounds really good. Oh, okay. I'm also picking up a lot more
+
+708
+00:41:50,520 --> 00:41:51,400
+Speaker 2:  background noise.
+
+709
+00:41:51,860 --> 00:41:55,800
+Speaker 12:  Can you hear, there's like a, there's like a party happening down and a
+
+710
+00:41:55,800 --> 00:41:58,520
+Speaker 12:  bunch of people cheering I think. Oh, people are screaming at Mickey Mouse
+
+711
+00:41:58,520 --> 00:41:59,880
+Speaker 12:  down the block. Can you hear
+
+712
+00:41:59,880 --> 00:42:02,040
+Speaker 2:  That? No. Spin me around. Let's see if we can hear.
+
+713
+00:42:02,090 --> 00:42:05,960
+Speaker 12:  Oh I think Mickey Mouse. There he is. Yeah, Mickey Mouse and
+
+714
+00:42:05,960 --> 00:42:09,760
+Speaker 12:  Sonic are walking into the levees store and people are very excited
+
+715
+00:42:09,760 --> 00:42:13,720
+Speaker 12:  about it, but I can hear you much better as well, which is, this is
+
+716
+00:42:13,720 --> 00:42:14,160
+Speaker 12:  a big relief.
+
+717
+00:42:15,660 --> 00:42:19,110
+Speaker 2:  Okay, let's wrap this up. One more test subject. Let's go back to Apple.
+
+718
+00:42:19,340 --> 00:42:23,070
+Speaker 2:  That first one we tested, we kind of knew was gonna be the best
+
+719
+00:42:23,070 --> 00:42:26,990
+Speaker 2:  mic of the group, but this one's probably the most common laptop
+
+720
+00:42:26,990 --> 00:42:30,510
+Speaker 2:  you're gonna see out there. This is the newest MacBook error with the M two
+
+721
+00:42:30,510 --> 00:42:33,670
+Speaker 2:  chip. It's the laptop. I just tell everyone to buy it because it's great
+
+722
+00:42:33,670 --> 00:42:37,510
+Speaker 2:  and you'll like it fine, but it turns out having a better mic array in the
+
+723
+00:42:37,510 --> 00:42:38,950
+Speaker 2:  pro really does make a difference.
+
+724
+00:42:39,320 --> 00:42:43,030
+Speaker 12:  We are here with the M two MacBook Air, tiny little,
+
+725
+00:42:43,380 --> 00:42:47,270
+Speaker 12:  tiny little guy and it is about to get a lot louder cuz we're gonna walk
+
+726
+00:42:47,280 --> 00:42:49,870
+Speaker 12:  to the subway station. How are we sounding on this one?
+
+727
+00:42:50,300 --> 00:42:53,870
+Speaker 2:  This is, I would put like right in line with the
+
+728
+00:42:53,870 --> 00:42:57,830
+Speaker 2:  ThinkPad in Dell, like that first really MacBook is clearly better than everything
+
+729
+00:42:57,830 --> 00:42:57,950
+Speaker 2:  else.
+
+730
+00:42:58,000 --> 00:43:00,790
+Speaker 12:  Oh, interesting. Because that's one of the things that, you know, sometimes
+
+731
+00:43:00,790 --> 00:43:04,350
+Speaker 12:  you wonder like how much of the microphone performance
+
+732
+00:43:04,560 --> 00:43:08,430
+Speaker 12:  is the physical hardware and how much of it is the software, and
+
+733
+00:43:08,430 --> 00:43:11,470
+Speaker 12:  presumably these are using the same software. So it sounds like the hardware
+
+734
+00:43:11,470 --> 00:43:12,590
+Speaker 12:  does make a difference. In this case
+
+735
+00:43:12,760 --> 00:43:16,550
+Speaker 2:  It must because that one is, is like a one order of
+
+736
+00:43:16,750 --> 00:43:20,590
+Speaker 2:  magnitude better than this. Like this is pretty good. It's kind of like
+
+737
+00:43:20,590 --> 00:43:24,190
+Speaker 2:  the think pad we were just on in the sense that it's like not a ton of
+
+738
+00:43:24,190 --> 00:43:26,670
+Speaker 2:  processing, which means I'm getting a little more background than usual.
+
+739
+00:43:27,180 --> 00:43:30,710
+Speaker 12:  Yeah, this one is definitely harder to hear than the 16 as well. The 16,
+
+740
+00:43:30,770 --> 00:43:33,710
+Speaker 12:  the MacPro 16 was the one where I really didn't have to lean in at all.
+
+741
+00:43:34,280 --> 00:43:38,150
+Speaker 12:  It is impressive to me being in an environment that's so loud
+
+742
+00:43:38,450 --> 00:43:42,310
+Speaker 12:  and knowing that these tiny things are filtering
+
+743
+00:43:42,310 --> 00:43:46,190
+Speaker 12:  out all that noise around me. Like I would not expect it's
+
+744
+00:43:46,190 --> 00:43:47,270
+Speaker 12:  technology, man.
+
+745
+00:43:48,360 --> 00:43:51,550
+Speaker 2:  We should say, as a general rule, don't do
+
+746
+00:43:51,550 --> 00:43:55,310
+Speaker 2:  conference calls from the middle of Times Square, but I guess it's encouraging
+
+747
+00:43:55,310 --> 00:43:58,430
+Speaker 2:  to know that this is a thing you can pull off if you absolutely need to.
+
+748
+00:43:58,720 --> 00:44:01,750
+Speaker 12:  It sounds like if you're on the 16, you can probably do it. Just don't do
+
+749
+00:44:01,750 --> 00:44:05,470
+Speaker 12:  them on the, don't do them on something that only costs $400 that you picked
+
+750
+00:44:05,470 --> 00:44:06,590
+Speaker 12:  up at Walmart and is
+
+751
+00:44:06,590 --> 00:44:09,870
+Speaker 2:  Blue and is and is called Gateway, which is a brand I legitimately did not
+
+752
+00:44:09,870 --> 00:44:11,030
+Speaker 2:  know still existed. Definitely
+
+753
+00:44:11,030 --> 00:44:14,710
+Speaker 12:  Don't do them when you're walking through Times Square to the subway
+
+754
+00:44:15,020 --> 00:44:18,750
+Speaker 12:  like I am because Andrew has had to shepherd
+
+755
+00:44:18,750 --> 00:44:21,710
+Speaker 12:  me across the crosswalk several times. But
+
+756
+00:44:22,570 --> 00:44:26,190
+Speaker 2:  All right, well you guys go don't, don't die, don't become, we'll try not
+
+757
+00:44:26,190 --> 00:44:29,550
+Speaker 2:  to the new spectacle in Times Square. But thank you for doing this, this
+
+758
+00:44:29,550 --> 00:44:29,830
+Speaker 2:  was great.
+
+759
+00:44:29,870 --> 00:44:31,480
+Speaker 14:  Thank you. This was really fun.
+
+760
+00:44:33,150 --> 00:44:36,720
+Speaker 2:  Okay, three thoughts on this before we go. First, I'm still kind of
+
+761
+00:44:36,720 --> 00:44:40,360
+Speaker 2:  amazed at how good these sound. I've typically told people to
+
+762
+00:44:40,360 --> 00:44:44,080
+Speaker 2:  avoid their built-in mics except in really quiet spaces
+
+763
+00:44:44,290 --> 00:44:47,720
+Speaker 2:  because even when they're decent mics, they're made to pick up audio from
+
+764
+00:44:47,720 --> 00:44:51,520
+Speaker 2:  a much larger area. So they tend to get much more background noise
+
+765
+00:44:51,520 --> 00:44:54,560
+Speaker 2:  than your average headphones because those can just point their mics right
+
+766
+00:44:54,560 --> 00:44:58,200
+Speaker 2:  at your mouth because they're always situated in the same place. That's still
+
+767
+00:44:58,200 --> 00:45:01,720
+Speaker 2:  true. A good pair of headphones will sound better than any of the laptops
+
+768
+00:45:01,720 --> 00:45:05,600
+Speaker 2:  we just tested, but it's much less true than it used to be. And most of
+
+769
+00:45:05,600 --> 00:45:09,040
+Speaker 2:  these at least fall into the totally usable in a pinch
+
+770
+00:45:09,560 --> 00:45:13,520
+Speaker 2:  category. Second thing, my rule is that you should always, always, always,
+
+771
+00:45:13,520 --> 00:45:17,000
+Speaker 2:  always, always wear headphones on a call and that rule still holds
+
+772
+00:45:17,050 --> 00:45:20,520
+Speaker 2:  without echo cancellation. If you're not wearing headphones, you're gonna
+
+773
+00:45:20,520 --> 00:45:24,480
+Speaker 2:  hear your own voice a ton with it. The computer has to
+
+774
+00:45:24,480 --> 00:45:28,160
+Speaker 2:  do a lot more processing so audio gets worse and you get that thing where
+
+775
+00:45:28,160 --> 00:45:31,720
+Speaker 2:  you can only talk one at a time, it's just a lot worse.
+
+776
+00:45:31,970 --> 00:45:35,800
+Speaker 2:  So even if you're using the built-in mic, you should still use headphones
+
+777
+00:45:36,150 --> 00:45:40,000
+Speaker 2:  also for like basic human etiquette reasons. You don't want
+
+778
+00:45:40,000 --> 00:45:43,200
+Speaker 2:  the world to listen to your phone calls. Another reason to wear headphones,
+
+779
+00:45:43,200 --> 00:45:46,120
+Speaker 2:  by the way, is that one of the most interesting things about our testing
+
+780
+00:45:46,120 --> 00:45:49,680
+Speaker 2:  was that Monica could barely ever hear me. I could hear her
+
+781
+00:45:49,790 --> 00:45:53,480
+Speaker 2:  okay through the mic, but even with the volume all the way up,
+
+782
+00:45:53,480 --> 00:45:57,040
+Speaker 2:  she was always having to hold her head right down by the speakers.
+
+783
+00:45:57,060 --> 00:46:00,800
+Speaker 2:  And even then she could barely hear me. So again, for so many
+
+784
+00:46:00,800 --> 00:46:04,320
+Speaker 2:  reasons, wear headphones whenever humanly possible. And third,
+
+785
+00:46:04,380 --> 00:46:08,200
+Speaker 2:  the hardware really does matter here. It's not an accident that the max,
+
+786
+00:46:08,200 --> 00:46:11,720
+Speaker 2:  which have three mics and are set up to do noise cancellation, sounded better
+
+787
+00:46:11,720 --> 00:46:14,960
+Speaker 2:  than the other ones, which mostly have two, or in some cases even just one
+
+788
+00:46:14,960 --> 00:46:18,880
+Speaker 2:  mic. But there is also a fair amount of software work here, which you can
+
+789
+00:46:18,880 --> 00:46:22,240
+Speaker 2:  hear in some of the audio processing, especially on the Dell and the Lenovo.
+
+790
+00:46:22,300 --> 00:46:25,920
+Speaker 2:  And that's really good news actually over the last couple of years. It looks
+
+791
+00:46:25,920 --> 00:46:29,400
+Speaker 2:  like laptop manufacturers started to care about the quality of their
+
+792
+00:46:29,400 --> 00:46:33,360
+Speaker 2:  microphones for basically the first time ever. So things have
+
+793
+00:46:33,360 --> 00:46:37,160
+Speaker 2:  gotten a lot better really quickly. Maybe someday I'll ditch this fancy
+
+794
+00:46:37,160 --> 00:46:41,080
+Speaker 2:  mic and just make a podcast by yelling at my computer. But here's
+
+795
+00:46:41,080 --> 00:46:45,040
+Speaker 2:  what that sounds like right now. So yeah, maybe not yet. Anyway,
+
+796
+00:46:45,040 --> 00:46:48,240
+Speaker 2:  we gotta take a break and then we're gonna come back and talk about Microsoft's
+
+797
+00:46:48,240 --> 00:46:50,320
+Speaker 2:  many adventures in ai. We'll be right back
+
+798
+00:46:55,600 --> 00:46:59,250
+Speaker 14:  Over the past several weeks today, explained has been going
+
+799
+00:46:59,610 --> 00:47:02,290
+Speaker 14:  downtown, downtown Seattle drug
+
+800
+00:47:02,530 --> 00:47:06,130
+Speaker 15:  Activity, like when spring and summer, you know, when they hang out all
+
+801
+00:47:06,130 --> 00:47:06,810
+Speaker 15:  night, it's
+
+802
+00:47:06,810 --> 00:47:09,090
+Speaker 14:  Worse downtown Chicago now.
+
+803
+00:47:09,090 --> 00:47:12,330
+Speaker 16:  It just happens anywhere, anytime of day, morning, night. Like it's just
+
+804
+00:47:12,330 --> 00:47:12,850
+Speaker 16:  way worse.
+
+805
+00:47:12,910 --> 00:47:13,890
+Speaker 14:  Philadelphia,
+
+806
+00:47:14,350 --> 00:47:17,370
+Speaker 17:  Lot more violence, more homeless
+
+807
+00:47:17,370 --> 00:47:18,970
+Speaker 14:  People. And New York City,
+
+808
+00:47:19,040 --> 00:47:22,890
+Speaker 18:  I see a lot of people just going and grabbing people's bags,
+
+809
+00:47:23,170 --> 00:47:24,890
+Speaker 18:  hitting them, they, it's like they don't
+
+810
+00:47:24,890 --> 00:47:28,690
+Speaker 14:  Care one through line in all these cities. Crime, the number one
+
+811
+00:47:28,690 --> 00:47:32,440
+Speaker 19:  Barrier that we heard from people was that fear of crime
+
+812
+00:47:32,440 --> 00:47:36,200
+Speaker 19:  was what was preventing them from going downtown, particularly within the
+
+813
+00:47:36,200 --> 00:47:39,600
+Speaker 19:  central business district itself. And on their commutes there.
+
+814
+00:47:39,680 --> 00:47:43,240
+Speaker 14:  Americans are scared of their downtowns, but should they be,
+
+815
+00:47:43,240 --> 00:47:46,760
+Speaker 14:  we're gonna find out in our city limit series on today,
+
+816
+00:47:47,210 --> 00:47:47,880
+Speaker 14:  explain
+
+817
+00:47:54,670 --> 00:47:58,640
+Speaker 20:  From New York Magazine in the Box Media Podcast network. This is the Joe
+
+818
+00:47:58,640 --> 00:48:02,000
+Speaker 20:  Rogan experience with a thousand percent more experience.
+
+819
+00:48:03,250 --> 00:48:07,000
+Speaker 20:  Or is it the Don Lemon Show with a hundred percent more understanding of
+
+820
+00:48:07,000 --> 00:48:10,960
+Speaker 20:  women in their prime. Just kidding. This is
+
+821
+00:48:10,960 --> 00:48:14,640
+Speaker 20:  on with Kara Swisher. And I'm Kara Swisher. Every Monday and Thursday I
+
+822
+00:48:14,640 --> 00:48:18,440
+Speaker 20:  take on big names in tech, media and politics to understand what makes
+
+823
+00:48:18,440 --> 00:48:22,240
+Speaker 20:  them tick and to hold their feet to the fire. A bit on
+
+824
+00:48:22,240 --> 00:48:25,320
+Speaker 20:  with Kara Swisher. Listen wherever you get your podcasts,
+
+825
+00:48:34,370 --> 00:48:37,920
+Speaker 2:  Welcome back. One of the questions I'm personally
+
+826
+00:48:37,920 --> 00:48:41,480
+Speaker 2:  most interested in in tech right now is, what is AI
+
+827
+00:48:42,040 --> 00:48:45,840
+Speaker 2:  actually good for? We've talked a ton about G P T four and chat,
+
+828
+00:48:45,840 --> 00:48:49,800
+Speaker 2:  G p T and Bing and Bard, but a lot of the things that we talk about are
+
+829
+00:48:49,870 --> 00:48:53,840
+Speaker 2:  neat novelties or there are glimpses at like a far out future
+
+830
+00:48:53,840 --> 00:48:57,640
+Speaker 2:  for when these products get a lot better. But the truth is AI
+
+831
+00:48:57,650 --> 00:49:01,640
+Speaker 2:  is much more than chatbots and Microsoft is being much
+
+832
+00:49:01,640 --> 00:49:05,480
+Speaker 2:  more aggressive than most in figuring out how exactly to
+
+833
+00:49:05,480 --> 00:49:09,400
+Speaker 2:  put AI into all of its products. The verges Tom Warren has been
+
+834
+00:49:09,400 --> 00:49:12,920
+Speaker 2:  writing about and testing as much of it as he can get his hands on over the
+
+835
+00:49:12,920 --> 00:49:16,880
+Speaker 2:  last several months. So he's here to tell us how AI is going to change the
+
+836
+00:49:16,880 --> 00:49:20,640
+Speaker 2:  way we do everything, at least the way Microsoft sees it. Hi
+
+837
+00:49:20,640 --> 00:49:20,920
+Speaker 2:  Tom.
+
+838
+00:49:21,000 --> 00:49:21,560
+Speaker 21:  Hello.
+
+839
+00:49:21,570 --> 00:49:23,120
+Speaker 2:  Welcome back. It's been a while.
+
+840
+00:49:23,310 --> 00:49:25,640
+Speaker 21:  Yeah, it has. There's a lot happening right now.
+
+841
+00:49:25,640 --> 00:49:29,560
+Speaker 2:  This is why I wanted to do this cuz it feels like Bing has gotten tons of
+
+842
+00:49:29,800 --> 00:49:32,240
+Speaker 2:  coverage and we've talked about it a lot and it's like really interesting.
+
+843
+00:49:32,420 --> 00:49:36,120
+Speaker 2:  But if the question is what is AI actually good for? I feel like it's all
+
+844
+00:49:36,120 --> 00:49:38,600
+Speaker 2:  the other stuff that Microsoft has done, which we have not talked enough
+
+845
+00:49:38,600 --> 00:49:38,840
+Speaker 2:  about.
+
+846
+00:49:38,840 --> 00:49:42,160
+Speaker 21:  Yeah, it's, that's the promising stuff. The search engine stuff is cool,
+
+847
+00:49:42,260 --> 00:49:44,080
+Speaker 21:  but having it everywhere is cooler.
+
+848
+00:49:44,190 --> 00:49:47,880
+Speaker 2:  Okay, so let's, let's start with co-pilot, which I think is probably the
+
+849
+00:49:47,880 --> 00:49:51,640
+Speaker 2:  sort of biggest version of what Microsoft is thinking about here. And I was
+
+850
+00:49:51,640 --> 00:49:54,640
+Speaker 2:  reading a bunch of stories and realized I have a hard trouble figuring out
+
+851
+00:49:54,640 --> 00:49:58,560
+Speaker 2:  exactly what copilot is. It's kind of a chatbot, but it's not totally
+
+852
+00:49:58,560 --> 00:50:01,960
+Speaker 2:  a chatbot. It's different things in different apps, but it's kind of one
+
+853
+00:50:01,960 --> 00:50:04,320
+Speaker 2:  thing like frame copilot for me. What is this thing?
+
+854
+00:50:04,470 --> 00:50:08,400
+Speaker 21:  Yeah, so it is essentially think of like clippy or like
+
+855
+00:50:08,400 --> 00:50:12,200
+Speaker 21:  you call all the promises of Cortana. Sure. It's like basically an
+
+856
+00:50:12,200 --> 00:50:16,080
+Speaker 21:  assistant, so a virtual assistant. So yes, it can spring
+
+857
+00:50:16,080 --> 00:50:19,480
+Speaker 21:  up and be a chat bar and you can, you know, converse with it and stuff.
+
+858
+00:50:19,480 --> 00:50:22,960
+Speaker 21:  But it can also just sort of like magically appear
+
+859
+00:50:22,960 --> 00:50:26,800
+Speaker 21:  almost with AI magic it documents and like say,
+
+860
+00:50:26,800 --> 00:50:30,720
+Speaker 21:  say you highlight a paragraph and you're like, Hmm, I wanna rewrite that
+
+861
+00:50:30,720 --> 00:50:34,600
+Speaker 21:  or reword it or whatever. Then it'll just sort of like hint in
+
+862
+00:50:34,600 --> 00:50:37,320
+Speaker 21:  a way that, you know, you know when you, you goof up and you get a typo
+
+863
+00:50:37,800 --> 00:50:41,120
+Speaker 21:  and word comes along and underlines it, that sort of thing, it'll just sort
+
+864
+00:50:41,120 --> 00:50:44,840
+Speaker 21:  of gently appear and be like, I can rewrite this for you. So that's kind
+
+865
+00:50:44,840 --> 00:50:48,360
+Speaker 21:  of the interesting way that co-pilot works. So you can say, you know, create
+
+866
+00:50:48,360 --> 00:50:52,040
+Speaker 21:  a document, create a PowerPoint, create an Excel based on a bunch of
+
+867
+00:50:52,040 --> 00:50:55,840
+Speaker 21:  prompts, or you can drag a file into a PowerPoint or a Word
+
+868
+00:50:55,840 --> 00:50:59,040
+Speaker 21:  file. And then based on that, all that text, it'll generate a bunch of slides
+
+869
+00:50:59,040 --> 00:51:01,760
+Speaker 21:  so you can do that sort of stuff. But I think the interesting part is where
+
+870
+00:51:01,760 --> 00:51:05,640
+Speaker 21:  it just shows up or like in Excel, let's say it does something like you
+
+871
+00:51:05,640 --> 00:51:09,320
+Speaker 21:  say, here's a bunch of data, here's you know, financial earnings for this
+
+872
+00:51:09,320 --> 00:51:13,200
+Speaker 21:  company in the past six months. Put it into a table or pivot table
+
+873
+00:51:13,200 --> 00:51:16,840
+Speaker 21:  or whatever, or something you don't really know how to do. It'll then tell
+
+874
+00:51:16,840 --> 00:51:20,320
+Speaker 21:  you how it did it and show you how it did it. So it's like training you
+
+875
+00:51:20,320 --> 00:51:24,280
+Speaker 21:  as well. So it's like, it's an assistant but it's also a tutor I guess
+
+876
+00:51:24,410 --> 00:51:27,000
+Speaker 21:  as well. So it's like there there's a bunch to it really.
+
+877
+00:51:27,030 --> 00:51:30,520
+Speaker 2:  That's actually really clever cuz I think one of the things I, I was looking
+
+878
+00:51:30,520 --> 00:51:33,840
+Speaker 2:  at as I was reading your story is like the sort of famous office problem
+
+879
+00:51:33,840 --> 00:51:37,480
+Speaker 2:  over the years is that office is this like hideous mishmash of
+
+880
+00:51:37,480 --> 00:51:40,720
+Speaker 2:  menus because there's so much that all these apps can do that it's impossible
+
+881
+00:51:40,720 --> 00:51:43,600
+Speaker 2:  to figure out how they work. And Microsoft is like, we made the ribbon better
+
+882
+00:51:43,600 --> 00:51:47,440
+Speaker 2:  and everybody's like, all my buttons are gone. And like it's just, it's an
+
+883
+00:51:47,440 --> 00:51:50,920
+Speaker 2:  impossible problem and it feels like if they can get this right, like there's
+
+884
+00:51:51,080 --> 00:51:54,400
+Speaker 2:  somebody at Microsoft being like we can finally get rid of the ribbon, right?
+
+885
+00:51:54,400 --> 00:51:56,040
+Speaker 2:  Like that's has to be what's happening here.
+
+886
+00:51:56,150 --> 00:51:59,560
+Speaker 21:  It's the complexity of the the interface, right? And just
+
+887
+00:51:59,710 --> 00:52:02,840
+Speaker 21:  excels the worst for this because it's just like you can open it up and
+
+888
+00:52:02,840 --> 00:52:05,960
+Speaker 21:  it looks relatively simple but the stuff you can do with it, like the difference
+
+889
+00:52:05,960 --> 00:52:09,600
+Speaker 21:  between me using Excel and like some power user is like you know, massive
+
+890
+00:52:09,700 --> 00:52:13,680
+Speaker 21:  and it's just reducing that complexity and making it more available to people
+
+891
+00:52:13,680 --> 00:52:17,440
+Speaker 21:  and, and just easier to use. I think that's kind of like half the story
+
+892
+00:52:17,440 --> 00:52:21,240
+Speaker 21:  behind Copart and the other half is like, yeah you can chat to this thing,
+
+893
+00:52:21,390 --> 00:52:25,080
+Speaker 21:  have a back and forth, get it to do stuff and you can say to it
+
+894
+00:52:25,080 --> 00:52:28,960
+Speaker 21:  like you really chat G B T really. And then Bing and stuff you could
+
+895
+00:52:28,960 --> 00:52:32,480
+Speaker 21:  say like write this and you know, you could prompt it afterwards to, to
+
+896
+00:52:32,480 --> 00:52:36,160
+Speaker 21:  tweak it and make it better or make it into a list and all that sort of
+
+897
+00:52:36,160 --> 00:52:40,040
+Speaker 21:  basic stuff. But it's really interesting where it takes that complexity
+
+898
+00:52:40,040 --> 00:52:43,800
+Speaker 21:  out of office apps and then you know, just surfaces it in really interesting
+
+899
+00:52:43,800 --> 00:52:46,680
+Speaker 21:  ways and I think they're really at the beginning of that so there's not
+
+900
+00:52:46,680 --> 00:52:50,320
+Speaker 21:  like a ton of examples yet. So I was trying to like kind of get that out
+
+901
+00:52:50,320 --> 00:52:53,600
+Speaker 21:  of them like you know, where is this heading? But I think for me it's like,
+
+902
+00:52:53,600 --> 00:52:57,040
+Speaker 21:  it sounds like it's just gonna be the virtual assistant they've always promised
+
+903
+00:52:57,600 --> 00:53:00,600
+Speaker 21:  or the beginnings of it at least because they tried, they said that Cortana
+
+904
+00:53:00,600 --> 00:53:01,480
+Speaker 21:  would do this stuff. Right.
+
+905
+00:53:01,480 --> 00:53:04,280
+Speaker 2:  Well that's part of what I think is so interesting here cuz there's, I mean
+
+906
+00:53:04,280 --> 00:53:07,200
+Speaker 2:  you go back and like you mentioned Clippy and there's Cortana and there's
+
+907
+00:53:07,200 --> 00:53:10,920
+Speaker 2:  like one of two things that's happening here. Either Microsoft has
+
+908
+00:53:10,920 --> 00:53:14,720
+Speaker 2:  been right all along and finally the technology is starting to catch up to
+
+909
+00:53:14,720 --> 00:53:18,600
+Speaker 2:  kind of this thing that they want to build or Microsoft has been wrong all
+
+910
+00:53:18,600 --> 00:53:22,360
+Speaker 2:  along and just refuses to acknowledge that like, this sucks and nobody wants
+
+911
+00:53:22,360 --> 00:53:26,240
+Speaker 2:  it. And Clippy was either a great idea that it was too
+
+912
+00:53:26,240 --> 00:53:29,480
+Speaker 2:  early, Cortana was either a great idea that was too early or a total disaster
+
+913
+00:53:29,480 --> 00:53:33,240
+Speaker 2:  of an idea. And this feels like the same. Like why can't Microsoft let go
+
+914
+00:53:33,240 --> 00:53:34,160
+Speaker 2:  of this idea?
+
+915
+00:53:35,230 --> 00:53:37,960
+Speaker 21:  They they just all love as an assistant, don't they? I
+
+916
+00:53:37,960 --> 00:53:38,120
+Speaker 2:  Guess.
+
+917
+00:53:38,120 --> 00:53:41,560
+Speaker 21:  So it's kind of interesting cuz obviously Clippy was, it was interesting
+
+918
+00:53:41,560 --> 00:53:44,200
+Speaker 21:  at the time but then it got annoying cuz it would pop up when you didn't
+
+919
+00:53:44,200 --> 00:53:47,360
+Speaker 21:  want it to and that was obviously the meme and then Cortana was like supposed
+
+920
+00:53:47,360 --> 00:53:51,160
+Speaker 21:  to be this thing that would do everything for you and it just failed over.
+
+921
+00:53:51,180 --> 00:53:54,880
+Speaker 21:  And I think Satin Adela recently said it was dumb as a rock, right? And,
+
+922
+00:53:54,880 --> 00:53:58,240
+Speaker 21:  and, and all of them like, you know, Alexa and the rest, so they, they they
+
+923
+00:53:58,240 --> 00:54:01,320
+Speaker 21:  obviously and they, they went, they went down the route of going for bots
+
+924
+00:54:01,320 --> 00:54:05,000
+Speaker 21:  as well. Chatbots initially a few years ago, obviously before
+
+925
+00:54:05,070 --> 00:54:08,600
+Speaker 21:  Open AI models were ready. So there's always been this promise and they've
+
+926
+00:54:08,600 --> 00:54:12,560
+Speaker 21:  always been obsessed with it, but it does kind of feel like, okay, now's
+
+927
+00:54:12,560 --> 00:54:16,240
+Speaker 21:  the time where it might actually work. It's just they have to be careful
+
+928
+00:54:16,240 --> 00:54:20,160
+Speaker 21:  they don't go down the sort of clippy route where it pops up annoyingly,
+
+929
+00:54:20,160 --> 00:54:23,960
+Speaker 21:  right? And just kind of gets in the way and it's more like actually a useful
+
+930
+00:54:23,960 --> 00:54:27,600
+Speaker 21:  assistant that you call upon when you need stuff. But it's also like
+
+931
+00:54:27,600 --> 00:54:31,160
+Speaker 21:  what's the interaction model there? Like when do you call on the assistant
+
+932
+00:54:31,160 --> 00:54:34,120
+Speaker 21:  or the assistant appears rather you just click a button to bold something
+
+933
+00:54:34,120 --> 00:54:38,000
+Speaker 21:  or you know, like the user interface is still there. Like how do they lean
+
+934
+00:54:38,000 --> 00:54:41,920
+Speaker 21:  back from that basic user interface into this, into the complexity?
+
+935
+00:54:41,920 --> 00:54:45,720
+Speaker 21:  So it's a bunch of different challenges and they like customize it per
+
+936
+00:54:45,720 --> 00:54:49,440
+Speaker 21:  app so it doesn't do everything you'd expect in each app. So that's another
+
+937
+00:54:49,440 --> 00:54:52,960
+Speaker 21:  kind of like learning curve to it almost, is that you might think it's gonna
+
+938
+00:54:52,960 --> 00:54:55,840
+Speaker 21:  do something in this app, but then it's obviously being customized heavily
+
+939
+00:54:55,840 --> 00:54:59,120
+Speaker 21:  for like PowerPoint and because PowerPoint's completely different to Word.
+
+940
+00:54:59,170 --> 00:55:02,600
+Speaker 21:  So Yeah. So they, they have to manage a bunch of a bunch of that as well.
+
+941
+00:55:02,600 --> 00:55:06,560
+Speaker 21:  But from what they showed me and I have played around with it on my
+
+942
+00:55:06,560 --> 00:55:10,520
+Speaker 21:  own PC in Word, but it's very basic now. But from what I can see
+
+943
+00:55:10,670 --> 00:55:14,040
+Speaker 21:  what they've shown is it does, it is pretty impressive. I was kind of impressed
+
+944
+00:55:14,040 --> 00:55:17,680
+Speaker 21:  with it and I don't, and I'm old now and you know, I
+
+945
+00:55:17,830 --> 00:55:19,120
+Speaker 21:  I don't get excited about things.
+
+946
+00:55:19,440 --> 00:55:19,560
+Speaker 2:  Yeah.
+
+947
+00:55:19,970 --> 00:55:23,760
+Speaker 21:  So like this stuff is like, oh okay, this is actually interesting. So it's
+
+948
+00:55:23,760 --> 00:55:26,920
+Speaker 21:  not like it's not one of the city fu future vision things, it's like oh
+
+949
+00:55:26,920 --> 00:55:27,520
+Speaker 21:  it's actually working.
+
+950
+00:55:27,590 --> 00:55:30,800
+Speaker 2:  Yeah. How does it give me a sense of kind of what those demos are like? Because
+
+951
+00:55:30,800 --> 00:55:33,920
+Speaker 2:  I think one of the things you mentioned that jumps out to me the most is
+
+952
+00:55:33,920 --> 00:55:37,440
+Speaker 2:  the thing where it's like it pops up when you write a paragraph and it's
+
+953
+00:55:37,440 --> 00:55:40,800
+Speaker 2:  like you did this thing wrong. And I think honestly even tools like
+
+954
+00:55:40,920 --> 00:55:44,440
+Speaker 2:  Grammarly go too hard in a space like that. Yeah. Where it's like I'm writing
+
+955
+00:55:44,850 --> 00:55:48,640
+Speaker 2:  an email that I'm like deliberately writing like a person because
+
+956
+00:55:48,640 --> 00:55:51,920
+Speaker 2:  I'm a person and it's like, you should potentially use more formal language
+
+957
+00:55:51,920 --> 00:55:54,760
+Speaker 2:  in this email. And I'm like, no, Grammarly like shut up, leave me alone.
+
+958
+00:55:55,160 --> 00:55:59,000
+Speaker 2:  And I can imagine with all of this stuff tuning that thing between like
+
+959
+00:55:59,000 --> 00:56:02,240
+Speaker 2:  how do you sort of get involved and be helpful and how do you avoid being
+
+960
+00:56:02,240 --> 00:56:05,000
+Speaker 2:  clippy just popping up every two seconds being like, look at this thing that
+
+961
+00:56:05,000 --> 00:56:08,280
+Speaker 2:  you're doing. Can I help? That's a super hard line to walk and Microsoft
+
+962
+00:56:08,280 --> 00:56:12,160
+Speaker 2:  is going ham, doing all of this stuff. I can imagine,
+
+963
+00:56:12,160 --> 00:56:16,080
+Speaker 2:  yeah. A world in which they would kind of way overshoot and have to pull
+
+964
+00:56:16,080 --> 00:56:17,840
+Speaker 2:  it back over time. But what have you seen so far?
+
+965
+00:56:17,840 --> 00:56:21,600
+Speaker 21:  Yeah, so the, the basic stuff that I've seen so far is that like you highlight
+
+966
+00:56:21,600 --> 00:56:25,080
+Speaker 21:  a paragraph and then it kind kind of like, it does like a purple sort of
+
+967
+00:56:25,080 --> 00:56:28,640
+Speaker 21:  outline to the paragraph and then you, you kind of go to that purple
+
+968
+00:56:28,640 --> 00:56:32,320
+Speaker 21:  outline and then it's like copilot sort of like gradually appears almost
+
+969
+00:56:32,320 --> 00:56:35,800
+Speaker 21:  Okay. It appears like as like a prompt that you can click and then it obviously
+
+970
+00:56:35,840 --> 00:56:39,120
+Speaker 21:  comes into the sidebar from there and you, you know, you interact with it
+
+971
+00:56:39,120 --> 00:56:43,080
+Speaker 21:  and tell it how you want to rewrite the paragraph. Or it might even
+
+972
+00:56:43,560 --> 00:56:46,920
+Speaker 21:  actually, I think in that particular instance it comes up and says like,
+
+973
+00:56:46,920 --> 00:56:50,160
+Speaker 21:  here's 12 examples or whatever, I've rewritten this paragraph for you and
+
+974
+00:56:50,160 --> 00:56:52,440
+Speaker 21:  you can just flick through them and you can just see them, you know, the
+
+975
+00:56:52,440 --> 00:56:56,360
+Speaker 21:  text. So that's like, okay, because you have to take action on it. It's
+
+976
+00:56:56,360 --> 00:57:00,040
+Speaker 21:  there like, it's always kind of in the background so it's not like trying
+
+977
+00:57:00,040 --> 00:57:03,720
+Speaker 21:  to jump out or it's not trying to like suggest, you know, text to you
+
+978
+00:57:03,720 --> 00:57:07,600
+Speaker 21:  without you, you know, prompting it to do that. So I think that's probably
+
+979
+00:57:07,600 --> 00:57:10,840
+Speaker 21:  the way they will go about it, that that's the, the main one that I saw
+
+980
+00:57:10,890 --> 00:57:14,720
+Speaker 21:  of that sort of use case that they showed. There's some other stuff
+
+981
+00:57:14,720 --> 00:57:18,600
+Speaker 21:  like PowerPoint where you can add a file and then it will say,
+
+982
+00:57:18,600 --> 00:57:21,960
+Speaker 21:  you know, do you wanna match the colors across the slides and stuff like
+
+983
+00:57:21,960 --> 00:57:25,880
+Speaker 21:  that, which is kind of useful but I think right now it's like, it's less
+
+984
+00:57:25,950 --> 00:57:29,840
+Speaker 21:  trying to jump out at you and, and and trying to interact with you and
+
+985
+00:57:29,840 --> 00:57:33,520
+Speaker 21:  more like you call upon it, you know, for example, if you wanted to in
+
+986
+00:57:33,520 --> 00:57:36,880
+Speaker 21:  PowerPoint you wanna create a file based on that Word document you were
+
+987
+00:57:36,880 --> 00:57:40,320
+Speaker 21:  working earlier, it'll know what you had recently. So it'll kind of suggest
+
+988
+00:57:40,320 --> 00:57:44,000
+Speaker 21:  that, oh do you wanna pick this file? And you go, yeah, okay. And then it'll
+
+989
+00:57:44,000 --> 00:57:47,320
+Speaker 21:  take a few seconds to do that and then you, and then it'll sort of have,
+
+990
+00:57:47,320 --> 00:57:51,200
+Speaker 21:  you know, like in Bing where it says suggested responses after you've, you've
+
+991
+00:57:51,200 --> 00:57:54,280
+Speaker 21:  started talking it does that, it's oh do you wanna, you know, customize
+
+992
+00:57:54,280 --> 00:57:57,680
+Speaker 21:  this based on that? And the way that they're doing it right now seems to
+
+993
+00:57:57,680 --> 00:58:01,120
+Speaker 21:  be very, you know, baby step, step by step being careful with it. So I think
+
+994
+00:58:01,120 --> 00:58:05,080
+Speaker 21:  they're obviously cautious of the whole clippy stuff. So Yeah, because
+
+995
+00:58:05,080 --> 00:58:08,160
+Speaker 21:  did they mention Clippy on the, on the stream? I don't think they did but
+
+996
+00:58:08,270 --> 00:58:11,360
+Speaker 21:  I definitely asked them about that and they said, you know, they're proud
+
+997
+00:58:11,360 --> 00:58:14,480
+Speaker 21:  of the fact that they've tried this stuff of like helping people in the
+
+998
+00:58:14,480 --> 00:58:17,600
+Speaker 21:  past but yeah it to, to me it looks like they're being cautious.
+
+999
+00:58:17,630 --> 00:58:21,560
+Speaker 2:  Yeah and it does seem like if I'm Microsoft this is a tough spot
+
+1000
+00:58:21,560 --> 00:58:25,440
+Speaker 2:  to be in cuz on the one hand I did get the sense reading your stories that
+
+1001
+00:58:25,440 --> 00:58:28,520
+Speaker 2:  they think this is the moment, right? That like all the stuff we've been
+
+1002
+00:58:28,520 --> 00:58:31,520
+Speaker 2:  trying to do, this idea of like how do we bake in these sort of helpful additional
+
+1003
+00:58:31,520 --> 00:58:35,400
+Speaker 2:  tools. Like they're, they're not shy about how sort of big a moment they
+
+1004
+00:58:35,400 --> 00:58:38,320
+Speaker 2:  feel like this is. I mean obviously you don't invest 10 billion in open AI
+
+1005
+00:58:38,320 --> 00:58:41,360
+Speaker 2:  if you don't think this is the moment, right? But then on the flip side,
+
+1006
+00:58:41,360 --> 00:58:44,760
+Speaker 2:  like the long history of Microsoft says most people
+
+1007
+00:58:45,000 --> 00:58:48,920
+Speaker 2:  don't wanna change their workflows. People who do these things all
+
+1008
+00:58:48,920 --> 00:58:52,760
+Speaker 2:  day every day don't want help. And yeah, what they
+
+1009
+00:58:52,760 --> 00:58:56,160
+Speaker 2:  want is for you to like leave them alone so they can do your job. And that
+
+1010
+00:58:56,160 --> 00:58:59,280
+Speaker 2:  has making it really hard to, you know, change the interface to change how
+
+1011
+00:58:59,280 --> 00:59:02,640
+Speaker 2:  things work. To even add things like collaborative features has been tough
+
+1012
+00:59:02,640 --> 00:59:05,000
+Speaker 2:  because it just screws with the way that people have been doing for things
+
+1013
+00:59:05,000 --> 00:59:08,960
+Speaker 2:  for 30 years. Is Microsoft wary of that or is this
+
+1014
+00:59:08,960 --> 00:59:11,560
+Speaker 2:  just kind of a like we're just gonna push through the pain because this is
+
+1015
+00:59:11,560 --> 00:59:12,320
+Speaker 2:  the future moment?
+
+1016
+00:59:12,830 --> 00:59:16,080
+Speaker 21:  I think they are because the way that it shows up right now is it's, it's
+
+1017
+00:59:16,080 --> 00:59:19,360
+Speaker 21:  literally a button in the ribbon so it's not like trying to replace that
+
+1018
+00:59:19,360 --> 00:59:22,960
+Speaker 21:  ribbon, it's just another command that you kind of summon almost for now
+
+1019
+00:59:22,960 --> 00:59:26,000
+Speaker 21:  anyway and it comes up in a sidebar and it's been a, you know, sidebar in
+
+1020
+00:59:26,000 --> 00:59:29,760
+Speaker 21:  office for years. So, so none of that is completely different to what
+
+1021
+00:59:29,760 --> 00:59:32,880
+Speaker 21:  you'd expect in office. Whereas if they'd gone, you know, pulled out the
+
+1022
+00:59:32,880 --> 00:59:36,200
+Speaker 21:  ribbon and said this is how you're gonna use it. Like they do like the exports
+
+1023
+00:59:36,200 --> 00:59:40,000
+Speaker 21:  one with Connect, they were like, you've gotta talk to your Xbox and then
+
+1024
+00:59:40,000 --> 00:59:43,200
+Speaker 21:  they had to like walk that all back and make it work for a controller. Yeah.
+
+1025
+00:59:43,250 --> 00:59:46,680
+Speaker 21:  So like they haven't gone that drastic with it. So I think they're definitely
+
+1026
+00:59:46,680 --> 00:59:50,120
+Speaker 21:  aware of that. But I think like you said, it is the moment for them, you
+
+1027
+00:59:50,120 --> 00:59:54,000
+Speaker 21:  get a sense that they feel like they're ahead of Google right ahead of
+
+1028
+00:59:54,000 --> 00:59:56,960
+Speaker 21:  competitors that, that are trying to do similar stuff in this, in this space
+
+1029
+00:59:56,980 --> 01:00:00,640
+Speaker 21:  and that they're poised to sort of, you know, take on that
+
+1030
+01:00:00,640 --> 01:00:04,120
+Speaker 21:  across everywhere. They've done a co-pilot in, they've had it in GitHub
+
+1031
+01:00:04,120 --> 01:00:06,640
+Speaker 21:  for like a year or so now, right? Yeah. Which obviously wasn't quite as
+
+1032
+01:00:06,800 --> 01:00:09,480
+Speaker 21:  powerful as what they showed, but then they, you know, a week later they
+
+1033
+01:00:09,480 --> 01:00:13,160
+Speaker 21:  were like here's GitHub, Kai X or whatever. So they're going fast
+
+1034
+01:00:13,160 --> 01:00:16,720
+Speaker 21:  everywhere and I'm sure and they announced the security co-pilot as well.
+
+1035
+01:00:16,750 --> 01:00:17,240
+Speaker 21:  Well,
+
+1036
+01:00:17,240 --> 01:00:19,640
+Speaker 2:  So this is what I'm trying to figure out. There's the, there's the security
+
+1037
+01:00:19,640 --> 01:00:23,360
+Speaker 2:  co-pilot, there's co-pilot on all the apps, co-pilot exists in teams,
+
+1038
+01:00:23,450 --> 01:00:27,240
+Speaker 2:  there's like business chat, which is kind of co-pilot kind of not
+
+1039
+01:00:27,240 --> 01:00:30,320
+Speaker 2:  is like, is the big vision that there's this like one
+
+1040
+01:00:30,440 --> 01:00:34,080
+Speaker 2:  assistant that you sort of interact with everywhere or is it like lots of
+
+1041
+01:00:34,080 --> 01:00:37,440
+Speaker 2:  different little AI things across your different apps? Like how does, how
+
+1042
+01:00:37,440 --> 01:00:38,320
+Speaker 2:  does Microsoft see it?
+
+1043
+01:00:38,350 --> 01:00:42,200
+Speaker 21:  Yeah, I, I did ask that and I think that the basic sort of gist of the,
+
+1044
+01:00:42,200 --> 01:00:45,360
+Speaker 21:  the co-pilots is that they're, they're tailored to each sort of instance.
+
+1045
+01:00:45,430 --> 01:00:49,400
+Speaker 21:  Like in Word for example, it's obviously customized for, for writing and
+
+1046
+01:00:49,400 --> 01:00:52,880
+Speaker 21:  you know, in certain imagery and stuff and PowerPoints obviously a bunch
+
+1047
+01:00:52,880 --> 01:00:56,240
+Speaker 21:  of commands to make your slide decks look nicer and, and you can pull in
+
+1048
+01:00:56,240 --> 01:00:59,480
+Speaker 21:  sort of, they're gonna pull in like Dali images and stuff into there and,
+
+1049
+01:00:59,700 --> 01:01:03,640
+Speaker 21:  and Excels obviously very command driven. So it is very different per
+
+1050
+01:01:03,640 --> 01:01:06,920
+Speaker 21:  app. And then obviously GitHub you don't want, like they, they don't have
+
+1051
+01:01:06,920 --> 01:01:10,800
+Speaker 21:  like the G PT four chatbot sort of interface where you are
+
+1052
+01:01:10,800 --> 01:01:14,400
+Speaker 21:  in line in your code because that's slow, you know, the, the latency there
+
+1053
+01:01:14,400 --> 01:01:18,200
+Speaker 21:  would be too slow for them to do those automatic suggestions that they
+
+1054
+01:01:18,200 --> 01:01:22,080
+Speaker 21:  do with the GitHub co-pilot there. So like they, they're tweaking it and
+
+1055
+01:01:22,080 --> 01:01:25,840
+Speaker 21:  customizing it where it makes sense. Which, which I think does make sense
+
+1056
+01:01:25,840 --> 01:01:29,520
+Speaker 21:  right now because we're still in the early phases, this stuff is still a
+
+1057
+01:01:29,520 --> 01:01:32,840
+Speaker 21:  little bit slow for you know, that rapid response stuff that you might want
+
+1058
+01:01:32,840 --> 01:01:36,520
+Speaker 21:  in certain scenarios but who knows long term will it
+
+1059
+01:01:36,520 --> 01:01:40,440
+Speaker 21:  become this sort of corino sort of assistant? I think it probably will but
+
+1060
+01:01:40,440 --> 01:01:44,400
+Speaker 21:  I think that's probably a ways off from the initial stuff that they're
+
+1061
+01:01:44,400 --> 01:01:47,960
+Speaker 21:  adding over the next couple of years. But yeah, it makes sense
+
+1062
+01:01:48,260 --> 01:01:52,000
+Speaker 21:  cuz like the, like you said the business chat stuff that is co-pilot but
+
+1063
+01:01:52,000 --> 01:01:55,560
+Speaker 21:  it's only in teams. So you go to that and it sort of
+
+1064
+01:01:55,560 --> 01:01:59,280
+Speaker 21:  scours across your whole M 365 stuff. So all your documents.
+
+1065
+01:01:59,330 --> 01:02:02,720
+Speaker 21:  So it kind of can take actions all those individual
+
+1066
+01:02:03,010 --> 01:02:06,920
+Speaker 21:  copilot actions in that interface. Let's say you said, oh I
+
+1067
+01:02:06,920 --> 01:02:09,840
+Speaker 21:  wanna find this Word document, can we make it into a PowerPoint? You could
+
+1068
+01:02:09,840 --> 01:02:13,760
+Speaker 21:  do that there. Whereas if you said that in the word copilot, it
+
+1069
+01:02:13,760 --> 01:02:17,360
+Speaker 21:  doesn't have that broad view cuz it's very tailored. That's kind of a hint
+
+1070
+01:02:17,360 --> 01:02:19,920
+Speaker 21:  of where they will go and I, I think there, there probably will be, you
+
+1071
+01:02:19,920 --> 01:02:22,720
+Speaker 21:  know, 10 years there'll be a co-pilot that's, that can do all your personal
+
+1072
+01:02:22,720 --> 01:02:25,960
+Speaker 21:  stuff and help you out, all that sort of stuff and then it just switches
+
+1073
+01:02:25,960 --> 01:02:29,800
+Speaker 21:  over to work mode and does all that sort of stuff. So I mean that's, they
+
+1074
+01:02:29,800 --> 01:02:32,520
+Speaker 21:  haven't quite laid out as a vision but it seems like that would be the way
+
+1075
+01:02:32,520 --> 01:02:32,800
+Speaker 21:  Right.
+
+1076
+01:02:32,800 --> 01:02:36,440
+Speaker 2:  Yeah. I wonder even if that's why it's called co-pilot and not like,
+
+1077
+01:02:36,540 --> 01:02:40,400
+Speaker 2:  you know, John the co-pilot, like it seems very obvious to me that
+
+1078
+01:02:40,600 --> 01:02:44,160
+Speaker 2:  Microsoft has been like deeply burned by having too many sort of silly
+
+1079
+01:02:44,160 --> 01:02:47,640
+Speaker 2:  characters that everybody grows to hate. And it's like whether it was Cortana
+
+1080
+01:02:47,640 --> 01:02:51,040
+Speaker 2:  or Clippy or like Tey, it's like Microsoft has done this thing where it's
+
+1081
+01:02:51,040 --> 01:02:53,400
+Speaker 2:  like interact with the machine like it's a person and everybody's like, this
+
+1082
+01:02:53,400 --> 01:02:57,280
+Speaker 2:  person sucks and I hate them, get them out of my face. And co-pilot
+
+1083
+01:02:57,280 --> 01:03:01,080
+Speaker 2:  is just much more of like a, it's a, it's a set of tools rather than
+
+1084
+01:03:01,080 --> 01:03:04,120
+Speaker 2:  your new best friend and I feel like that's probably a much saner way to
+
+1085
+01:03:04,120 --> 01:03:04,960
+Speaker 2:  go about the future.
+
+1086
+01:03:05,230 --> 01:03:08,960
+Speaker 21:  Yeah and it's also then it doesn't also feel like it's replacing you right?
+
+1087
+01:03:09,240 --> 01:03:13,080
+Speaker 21:  True. Yeah like as a Cortana. So I think that's definitely part of it
+
+1088
+01:03:13,080 --> 01:03:17,040
+Speaker 21:  and the co-pilot name kind of lend to what it's, you know, the
+
+1089
+01:03:17,040 --> 01:03:20,800
+Speaker 21:  way they've designed it so it is there alongside you to help you rather
+
+1090
+01:03:20,800 --> 01:03:24,760
+Speaker 21:  than again replace you. So yeah, like it, I think they've
+
+1091
+01:03:24,760 --> 01:03:27,160
+Speaker 21:  been very careful with that and apparent, apparently Satya loves the name
+
+1092
+01:03:27,160 --> 01:03:30,920
+Speaker 21:  co-pilot so there go which obviously GitHub kind of started using initially.
+
+1093
+01:03:30,950 --> 01:03:34,440
+Speaker 2:  Yeah, so you mentioned business chat, which I think if, if I were to pick
+
+1094
+01:03:34,440 --> 01:03:37,760
+Speaker 2:  like one thing that feels like the sort of big picture,
+
+1095
+01:03:38,070 --> 01:03:42,040
+Speaker 2:  like if I'm, if I rewind you know, a few years and it's like this is when
+
+1096
+01:03:42,600 --> 01:03:45,440
+Speaker 2:  Microsoft really got interested in what OpenAI is up to, like business chat
+
+1097
+01:03:45,440 --> 01:03:48,560
+Speaker 2:  feels like that thing, right? Where it's like plug all of your company data
+
+1098
+01:03:48,560 --> 01:03:52,520
+Speaker 2:  in and use this model to essentially like query
+
+1099
+01:03:52,520 --> 01:03:56,440
+Speaker 2:  and talk to your company's information. And for Microsoft it's like
+
+1100
+01:03:56,470 --> 01:04:00,200
+Speaker 2:  it's been, it's experimented with you know, a million different ways
+
+1101
+01:04:00,250 --> 01:04:03,800
+Speaker 2:  of storing company information. SharePoint Yeah. OneDrive and
+
+1102
+01:04:03,950 --> 01:04:07,920
+Speaker 2:  Yammer and there's just a billion ways to communicate and share stuff and
+
+1103
+01:04:07,920 --> 01:04:11,280
+Speaker 2:  never quite gotten it right. But it feels like business chat, especially
+
+1104
+01:04:11,280 --> 01:04:14,400
+Speaker 2:  with coming with this like redesign of teams that's coming out now and it
+
+1105
+01:04:14,400 --> 01:04:18,240
+Speaker 2:  seems like Teams is very clearly working. Like is is that combination
+
+1106
+01:04:18,570 --> 01:04:22,480
+Speaker 2:  as central to the future of Microsoft is it seems like
+
+1107
+01:04:22,480 --> 01:04:22,880
+Speaker 2:  it is to
+
+1108
+01:04:22,880 --> 01:04:26,800
+Speaker 21:  Me. I dunno if it's necessarily like essential to to the future, but I
+
+1109
+01:04:26,800 --> 01:04:30,560
+Speaker 21:  definitely with teams they've always viewed that as like the work hub do
+
+1110
+01:04:30,560 --> 01:04:33,240
+Speaker 21:  you know, like where you sort of start your day essentially and then then
+
+1111
+01:04:33,240 --> 01:04:36,360
+Speaker 21:  you go into your office. So it kind of makes sense while they've done business
+
+1112
+01:04:36,360 --> 01:04:39,640
+Speaker 21:  chat there but the yeah, they're like the redesign teams, they're definitely
+
+1113
+01:04:39,640 --> 01:04:43,520
+Speaker 21:  like, they've gone head on into like fully being just web
+
+1114
+01:04:43,690 --> 01:04:47,480
+Speaker 21:  on that. Like it's just a web, like it was Electron anyway but now like
+
+1115
+01:04:47,480 --> 01:04:50,400
+Speaker 21:  they, they they could have gone to a native app, you know, they haven't,
+
+1116
+01:04:50,400 --> 01:04:53,880
+Speaker 21:  so you can tell that they're gonna fill that with loads of AI experiments
+
+1117
+01:04:53,880 --> 01:04:56,680
+Speaker 21:  and there already is a bunch in there anyway. So they, they're definitely
+
+1118
+01:04:56,680 --> 01:05:00,400
+Speaker 21:  prepping that as the platform that perhaps they'll push more of this stuff
+
+1119
+01:05:00,640 --> 01:05:03,600
+Speaker 21:  too. Cause everyone's, if everyone's spending their time more in that and
+
+1120
+01:05:03,600 --> 01:05:06,920
+Speaker 21:  then jumping in and out of these office apps, that would probably be the
+
+1121
+01:05:06,920 --> 01:05:09,560
+Speaker 21:  hub where they can experiment more with this AR stuff like that. Yeah, that
+
+1122
+01:05:09,560 --> 01:05:10,480
+Speaker 21:  makes sense. That definitely feels
+
+1123
+01:05:10,480 --> 01:05:13,920
+Speaker 2:  Like it and probably the safest place to do that just because fewer people,
+
+1124
+01:05:13,920 --> 01:05:17,760
+Speaker 2:  like we were talking about before have nobody has a 20 year history of how
+
+1125
+01:05:17,760 --> 01:05:21,360
+Speaker 2:  to use teams in the way that people are like really married to how Excel
+
+1126
+01:05:21,360 --> 01:05:24,360
+Speaker 2:  works. So you can kind of, you can have your cake and eat it too a little
+
+1127
+01:05:24,360 --> 01:05:24,680
+Speaker 2:  bit there.
+
+1128
+01:05:24,710 --> 01:05:27,920
+Speaker 21:  Yeah. You can play around with with it there. And they, they have done a
+
+1129
+01:05:27,920 --> 01:05:30,760
+Speaker 21:  bunch of that, like they've done a bunch of features in teams over the years
+
+1130
+01:05:30,990 --> 01:05:34,200
+Speaker 21:  that they've added in pretty rapidly. Especially when since the pandemic
+
+1131
+01:05:34,200 --> 01:05:37,280
+Speaker 21:  kicked off they really started adding stuff to teams then they were like,
+
+1132
+01:05:37,350 --> 01:05:38,600
+Speaker 21:  zoom can't beat us.
+
+1133
+01:05:39,040 --> 01:05:39,840
+Speaker 2:  Right? Yeah, totally.
+
+1134
+01:05:39,840 --> 01:05:43,800
+Speaker 21:  They just, they just went crazy with that sort of stuff. So Yeah, like I
+
+1135
+01:05:43,800 --> 01:05:47,560
+Speaker 21:  I, if they move stuff around there like moving people's cheese, I
+
+1136
+01:05:47,560 --> 01:05:51,440
+Speaker 21:  think that's less of an issue with teams. Cause I think it's, that interface
+
+1137
+01:05:51,440 --> 01:05:54,920
+Speaker 21:  is pretty, pretty basic, you know, you can move the buttons around.
+
+1138
+01:05:54,920 --> 01:05:57,960
+Speaker 2:  Yeah, it feels like that app has changed every few months for like three
+
+1139
+01:05:57,960 --> 01:06:00,760
+Speaker 2:  years now. Yeah and it seems to be fine. Yeah, it does. People are over it.
+
+1140
+01:06:00,760 --> 01:06:01,600
+Speaker 21:  Yeah, exactly.
+
+1141
+01:06:01,630 --> 01:06:05,600
+Speaker 2:  Okay. What do you make of the, the security stuff around all of
+
+1142
+01:06:05,600 --> 01:06:08,560
+Speaker 2:  this? Because obviously I think one of the interesting trends of the last
+
+1143
+01:06:08,560 --> 01:06:12,040
+Speaker 2:  few years for Microsoft has been it's doing like the, the work analytics
+
+1144
+01:06:12,040 --> 01:06:15,240
+Speaker 2:  and it's just showing people sort of more of the information it has about
+
+1145
+01:06:15,240 --> 01:06:18,520
+Speaker 2:  them and all of their information and making use of all their documents and
+
+1146
+01:06:18,520 --> 01:06:21,800
+Speaker 2:  all this stuff and now to say, you know, pour all of your
+
+1147
+01:06:22,270 --> 01:06:26,040
+Speaker 2:  most sensitive data into this large language model
+
+1148
+01:06:26,230 --> 01:06:30,160
+Speaker 2:  that will spit information back to you, that is like sometimes true and sometimes
+
+1149
+01:06:30,160 --> 01:06:33,920
+Speaker 2:  a lie. And I think the idea of like telling chat G p T to make
+
+1150
+01:06:33,920 --> 01:06:37,800
+Speaker 2:  sense of my company's financials is like a great idea in theory, but it's
+
+1151
+01:06:37,800 --> 01:06:40,560
+Speaker 2:  gonna be wrong half the time. And it's like, are we just gonna tank the stock
+
+1152
+01:06:40,560 --> 01:06:44,160
+Speaker 2:  market by letting chat G P T look at people's Excel spreadsheets? I know
+
+1153
+01:06:44,400 --> 01:06:47,120
+Speaker 2:  Microsoft's answer to this seems to be like, oh we're taking it slow, whatever.
+
+1154
+01:06:47,120 --> 01:06:50,640
+Speaker 2:  But what is your sense of how they're thinking this stuff through right now?
+
+1155
+01:06:50,950 --> 01:06:54,840
+Speaker 21:  Yeah, like my personal opinion on this is that I think the Bing stuff is
+
+1156
+01:06:54,840 --> 01:06:58,240
+Speaker 21:  more dangerous because you go to being you to a search engine, you want
+
+1157
+01:06:58,240 --> 01:07:01,120
+Speaker 21:  to find answers that are accurate, right? Like you, you, you don't have
+
+1158
+01:07:01,120 --> 01:07:04,920
+Speaker 21:  that feedback loop there available for it to go wrong. Like it
+
+1159
+01:07:04,920 --> 01:07:08,240
+Speaker 21:  needs to be right most of the time, right? If that's wrong, you are putting
+
+1160
+01:07:08,240 --> 01:07:11,640
+Speaker 21:  misinformation out into the world, right? Whereas if I generate a document
+
+1161
+01:07:11,770 --> 01:07:15,720
+Speaker 21:  at work, I use this co-pilot thing, if it's wrong, that's not me.
+
+1162
+01:07:16,420 --> 01:07:19,880
+Speaker 21:  You know, that's not like I'm putting the, essentially the misinformation
+
+1163
+01:07:19,940 --> 01:07:22,960
+Speaker 21:  and it's my name on that document when I submit it to my boss or whatever,
+
+1164
+01:07:22,960 --> 01:07:26,840
+Speaker 21:  right? So it's up to me to fact check it and it's less, it's less
+
+1165
+01:07:26,840 --> 01:07:30,720
+Speaker 21:  of an issue I think in that context. But financial data, if it
+
+1166
+01:07:30,720 --> 01:07:34,160
+Speaker 21:  screws that up, there's some dangerous scenarios where this could go very
+
+1167
+01:07:34,160 --> 01:07:37,760
+Speaker 21:  wrong. So they have to be obviously very careful there. And I did ask them
+
+1168
+01:07:37,760 --> 01:07:41,440
+Speaker 21:  like, is Excel like a case where you are, you know, treading carefully
+
+1169
+01:07:41,680 --> 01:07:44,840
+Speaker 21:  considering it powers the world's economy but they, they gave the, the general,
+
+1170
+01:07:44,860 --> 01:07:48,800
+Speaker 21:  you know, we're being careful in preview that sort of thing. Which
+
+1171
+01:07:48,800 --> 01:07:51,920
+Speaker 21:  is like yeah but then they must be right, they must be going careful there
+
+1172
+01:07:51,920 --> 01:07:54,440
+Speaker 21:  with, with the features that they go in certain apps
+
+1173
+01:07:54,500 --> 01:07:57,120
+Speaker 2:  And they're doing the thing that Google is doing too, right? Which is just
+
+1174
+01:07:57,120 --> 01:08:00,880
+Speaker 2:  like have constant banners that are like this thing will lie to you.
+
+1175
+01:08:01,200 --> 01:08:03,320
+Speaker 2:  Like do not trust anything this thing says.
+
+1176
+01:08:03,410 --> 01:08:06,760
+Speaker 21:  Exactly. Yeah. And it's like, yeah this is your confidential information
+
+1177
+01:08:06,760 --> 01:08:10,600
+Speaker 21:  going. It says make sure you fact check it and those warnings only go so
+
+1178
+01:08:10,600 --> 01:08:13,240
+Speaker 21:  far, right? Like cuz you, you see them and then you ignore 'em after a while.
+
+1179
+01:08:13,290 --> 01:08:17,040
+Speaker 21:  So they're kind of, those warnings are kind of irrelevant but
+
+1180
+01:08:17,040 --> 01:08:20,840
+Speaker 21:  it is definitely dangerous I think. Well I think the speed because
+
+1181
+01:08:20,840 --> 01:08:24,040
+Speaker 21:  now we've got Microsoft going up against Google, those two biting heads
+
+1182
+01:08:24,040 --> 01:08:27,920
+Speaker 21:  over this stuff, it just keeps pushing. So until there will be like some
+
+1183
+01:08:28,120 --> 01:08:31,840
+Speaker 21:  disaster scenario that that will happen where it screws up like some big
+
+1184
+01:08:31,840 --> 01:08:35,600
+Speaker 21:  bangs data or something like that and then, you know, that will be a,
+
+1185
+01:08:35,830 --> 01:08:39,200
+Speaker 21:  a lesson to be learned sort of thing. Yeah. Where they need to slow down.
+
+1186
+01:08:39,200 --> 01:08:41,880
+Speaker 21:  But I think it's very different to the search stuff, like the search stuff.
+
+1187
+01:08:41,880 --> 01:08:45,440
+Speaker 21:  I think I'm personally not happy that they're going so fast with that stuff
+
+1188
+01:08:45,440 --> 01:08:49,320
+Speaker 21:  because that stuff is can do real wor world harm outside
+
+1189
+01:08:49,320 --> 01:08:52,440
+Speaker 21:  of your organization. Yeah. Like it's, it's really down to people
+
+1190
+01:08:52,760 --> 01:08:56,600
+Speaker 21:  using the co-pilot stuff alongside there. It's,
+
+1191
+01:08:56,600 --> 01:08:59,200
+Speaker 21:  it's like it should be a tool, right? You shouldn't rely on it to write
+
+1192
+01:08:59,200 --> 01:09:01,800
+Speaker 21:  your whole document for you cuz that's, that ain't gonna be accurate.
+
+1193
+01:09:02,200 --> 01:09:05,040
+Speaker 2:  Right? Yeah. And I think the question of kind of where one ends and the other
+
+1194
+01:09:05,040 --> 01:09:08,640
+Speaker 2:  begins is for Microsoft and for everybody gonna be really interesting, right?
+
+1195
+01:09:08,640 --> 01:09:12,200
+Speaker 2:  Because I think like take this document and turn it into a
+
+1196
+01:09:12,200 --> 01:09:15,760
+Speaker 2:  PowerPoint or like you use the example in one of your articles of like, I
+
+1197
+01:09:15,760 --> 01:09:19,560
+Speaker 2:  have blue titles on every slide in my deck and I would like them all
+
+1198
+01:09:19,560 --> 01:09:23,440
+Speaker 2:  to be orange is like, yeah that's the kind of thing that takes a long time
+
+1199
+01:09:23,440 --> 01:09:26,840
+Speaker 2:  and is like a lot of people essentially do that for a living and then
+
+1200
+01:09:27,100 --> 01:09:31,000
+Speaker 2:  you can make that a just a simple command that I think is like universal
+
+1201
+01:09:31,000 --> 01:09:34,960
+Speaker 2:  victory. Like let's let's solve the interface by asking questions of technology,
+
+1202
+01:09:35,160 --> 01:09:38,320
+Speaker 2:  right? Like into that love that sold. I don't know that it's great at all
+
+1203
+01:09:38,320 --> 01:09:40,920
+Speaker 2:  that yet, but I'm very excited about the path that all that is on. Yeah.
+
+1204
+01:09:40,920 --> 01:09:44,320
+Speaker 2:  But then this question of like how much information
+
+1205
+01:09:44,620 --> 01:09:48,560
+Speaker 2:  can it give me? How much should I rely on it and how much should
+
+1206
+01:09:48,560 --> 01:09:52,360
+Speaker 2:  I allow it to make? Stuff for me is just a mess. There's
+
+1207
+01:09:52,360 --> 01:09:55,960
+Speaker 2:  the lowest stake stuff there is all I think fine the highest stake stuff
+
+1208
+01:09:55,960 --> 01:09:59,720
+Speaker 2:  there. Like if you, if anyone ever reports AI generated earnings
+
+1209
+01:09:59,720 --> 01:10:03,640
+Speaker 2:  from their company, like we're hosed but somewhere in the middle is
+
+1210
+01:10:03,640 --> 01:10:06,640
+Speaker 2:  that cutoff. And I wonder if there's gonna have to be things that it's like
+
+1211
+01:10:07,200 --> 01:10:10,840
+Speaker 2:  Microsoft is sort of artificially, you know, dumbing down some of the stuff
+
+1212
+01:10:10,840 --> 01:10:14,800
+Speaker 2:  these systems can do until they're much, much better than they currently
+
+1213
+01:10:14,800 --> 01:10:17,840
+Speaker 2:  are. Or if we're just gonna get into a place where it's like the data lies
+
+1214
+01:10:17,840 --> 01:10:20,760
+Speaker 2:  sometimes do with it, which you will. And in that case I think you're right
+
+1215
+01:10:20,760 --> 01:10:21,360
+Speaker 2:  that we're in trouble.
+
+1216
+01:10:21,750 --> 01:10:25,320
+Speaker 21:  Yeah. I think it's, it's also whether we get to the point where it like
+
+1217
+01:10:25,520 --> 01:10:29,200
+Speaker 21:  makes so little mistakes where it's almost like making human
+
+1218
+01:10:29,200 --> 01:10:32,640
+Speaker 21:  mistakes. Like when it gets to that level, which is far away,
+
+1219
+01:10:33,320 --> 01:10:37,240
+Speaker 21:  but then do we accept that cuz we, we can't, you can't expect the machine
+
+1220
+01:10:37,240 --> 01:10:40,400
+Speaker 21:  to be a hundred percent like you wouldn't expect a human to be. So it's
+
+1221
+01:10:40,400 --> 01:10:43,960
+Speaker 21:  like when does it get to that level as well, which I think is some interesting
+
+1222
+01:10:44,120 --> 01:10:47,480
+Speaker 21:  questions around it. But it's definitely like that blurred line between
+
+1223
+01:10:47,510 --> 01:10:51,200
+Speaker 21:  what is acceptable and in what context and in what app and
+
+1224
+01:10:51,680 --> 01:10:54,400
+Speaker 21:  wherever you're using it and how you're using that data as well because
+
+1225
+01:10:54,400 --> 01:10:57,200
+Speaker 21:  it's, it's some of this stuff could be a bit freaky as well where it starts
+
+1226
+01:10:57,350 --> 01:11:00,760
+Speaker 21:  like, you know, like all the AI tools we have right now, sometimes they're
+
+1227
+01:11:00,760 --> 01:11:04,200
+Speaker 21:  a bit like alarming. You can look yourself up on Bing and it's like it pulls
+
+1228
+01:11:04,200 --> 01:11:06,480
+Speaker 21:  out so much data you can kind of forget that's out there.
+
+1229
+01:11:06,480 --> 01:11:09,840
+Speaker 2:  Right. Bing thinks I'm four different people, which I enjoy very much. This
+
+1230
+01:11:09,840 --> 01:11:12,640
+Speaker 2:  is the delightful thing about having an incredibly common name is it thinks
+
+1231
+01:11:12,640 --> 01:11:16,120
+Speaker 2:  I'm, I'm the Texas, the University of Texas baseball coach.
+
+1232
+01:11:16,840 --> 01:11:20,280
+Speaker 2:  I'm an actor who was on Frazier. I think I'm like an attorney in Phoenix
+
+1233
+01:11:21,240 --> 01:11:22,360
+Speaker 2:  and I'm the editor at large at the
+
+1234
+01:11:22,360 --> 01:11:25,800
+Speaker 21:  Verge, like a Marvel superhero or something different backstory.
+
+1235
+01:11:25,910 --> 01:11:26,400
+Speaker 2:  It's,
+
+1236
+01:11:26,400 --> 01:11:29,360
+Speaker 21:  Yeah, that's, that's what I don't like about this being stuff. It is just,
+
+1237
+01:11:29,360 --> 01:11:33,120
+Speaker 21:  it pulls out so much information. Like I, I put up my girlfriend's
+
+1238
+01:11:33,120 --> 01:11:36,840
+Speaker 21:  name on it and it's like, it just lifts off so much stuff and even like
+
+1239
+01:11:37,070 --> 01:11:40,000
+Speaker 21:  gets to the point where it's about to give out her like mobile number. Oh
+
+1240
+01:11:40,000 --> 01:11:43,280
+Speaker 21:  wow. Whoever, because obviously she's had her CV out and Sure, yeah. Like
+
+1241
+01:11:43,280 --> 01:11:46,080
+Speaker 21:  Cashs and that stuff. But it's just like, I think for normal people, like
+
+1242
+01:11:46,080 --> 01:11:49,720
+Speaker 21:  she's not, you know, in the public eye for having normal people's
+
+1243
+01:11:49,720 --> 01:11:53,680
+Speaker 21:  data out on it. It is, yeah. It's gonna get strange.
+
+1244
+01:11:53,850 --> 01:11:54,200
+Speaker 21:  So
+
+1245
+01:11:54,680 --> 01:11:58,360
+Speaker 2:  Yeah. Agreed. So last thing before I let you go here is, in the stuff you've
+
+1246
+01:11:58,360 --> 01:12:00,680
+Speaker 2:  been writing over the last few months, there have been like little sort of
+
+1247
+01:12:00,840 --> 01:12:04,600
+Speaker 2:  glimmers of what all of this might look like on Windows
+
+1248
+01:12:04,740 --> 01:12:07,920
+Speaker 2:  and there's like, there's the new Bing button Yes. In the task bar, but I
+
+1249
+01:12:07,920 --> 01:12:10,640
+Speaker 2:  had this moment of reading this story of like, is the future of Windows that
+
+1250
+01:12:10,640 --> 01:12:14,200
+Speaker 2:  you just hit the Windows key and just up pops a
+
+1251
+01:12:14,200 --> 01:12:17,800
+Speaker 2:  chatbot and that's like how you use your computer from now on? Like is that,
+
+1252
+01:12:17,800 --> 01:12:19,200
+Speaker 2:  is that where we're headed? What's your sense?
+
+1253
+01:12:19,310 --> 01:12:22,720
+Speaker 21:  Yeah, I think so because I think like they have the search stuff, right?
+
+1254
+01:12:22,720 --> 01:12:25,480
+Speaker 21:  Like you just mentioned, but it's, it's just basically a link that just
+
+1255
+01:12:25,480 --> 01:12:26,840
+Speaker 21:  froze you into Edge and into
+
+1256
+01:12:26,840 --> 01:12:28,560
+Speaker 2:  Bing. Yeah. Like opens edge. Yeah. That's not that,
+
+1257
+01:12:28,560 --> 01:12:31,480
+Speaker 21:  Yeah. So it's not like even really integrating into the search experience.
+
+1258
+01:12:31,480 --> 01:12:35,280
+Speaker 21:  So I think obviously the logical next step is to fully integrate that into
+
+1259
+01:12:35,280 --> 01:12:39,160
+Speaker 21:  the search experience and into File Explorer and all the sort of like touchpoints
+
+1260
+01:12:39,160 --> 01:12:42,760
+Speaker 21:  that you use daily. The start menu, which has some AI stuff already,
+
+1261
+01:12:42,980 --> 01:12:46,800
+Speaker 21:  but yeah, like I, it wouldn't be surprised me if like if they did
+
+1262
+01:12:46,800 --> 01:12:50,640
+Speaker 21:  something like Alfred for Windows, but it was just like the chat
+
+1263
+01:12:50,640 --> 01:12:53,320
+Speaker 21:  button, you know, pulled out to everywhere. Oh
+
+1264
+01:12:53,560 --> 01:12:57,160
+Speaker 2:  Man, that's the dream. That just made me very excited. That would be awesome.
+
+1265
+01:12:57,160 --> 01:12:57,480
+Speaker 2:  Yeah,
+
+1266
+01:12:57,760 --> 01:13:01,360
+Speaker 21:  That would be awesome. Right, like an actual search interface that was universal.
+
+1267
+01:13:01,360 --> 01:13:04,760
+Speaker 21:  I know what a world and could just, yeah, you don't have to worry like where
+
+1268
+01:13:04,760 --> 01:13:08,600
+Speaker 21:  your favorites are or like your app links, any of that stuff. All of that
+
+1269
+01:13:08,600 --> 01:13:11,640
+Speaker 21:  uni user interface stuff just goes out the window. You just have the search
+
+1270
+01:13:11,640 --> 01:13:12,160
+Speaker 21:  prompt.
+
+1271
+01:13:12,160 --> 01:13:15,800
+Speaker 2:  That's another one where I would assume Microsoft is gonna have to tread
+
+1272
+01:13:15,800 --> 01:13:19,000
+Speaker 2:  pretty carefully, although, I don't know, they've fully redesigned the start
+
+1273
+01:13:19,000 --> 01:13:22,280
+Speaker 2:  menu like 16 times in the last decade. So like what's one more?
+
+1274
+01:13:22,280 --> 01:13:24,960
+Speaker 21:  Yeah, they could do a Windows, couldn't they again? Yeah, just have a full
+
+1275
+01:13:24,960 --> 01:13:26,520
+Speaker 21:  screen chat in their face
+
+1276
+01:13:26,520 --> 01:13:28,200
+Speaker 2:  That went so great the last time. Like what
+
+1277
+01:13:28,200 --> 01:13:31,520
+Speaker 21:  Could go wrong? Yeah, as long as they make it mouse and keyboard friendly,
+
+1278
+01:13:31,690 --> 01:13:32,440
+Speaker 21:  it could work.
+
+1279
+01:13:32,470 --> 01:13:35,680
+Speaker 2:  This is what I'm saying, Microsoft, you heard it here first. Just forget
+
+1280
+01:13:35,680 --> 01:13:37,760
+Speaker 2:  Windows. Just one, it just boots to a chatbot.
+
+1281
+01:13:37,760 --> 01:13:40,160
+Speaker 21:  It's, it's like going back in time. Like a command prompt.
+
+1282
+01:13:40,560 --> 01:13:44,400
+Speaker 2:  Exactly. Yeah. This is, it's everything from the 1970s is is new again.
+
+1283
+01:13:44,400 --> 01:13:48,200
+Speaker 2:  It's just like the screens are better now. That's all that's changed. Awesome.
+
+1284
+01:13:48,220 --> 01:13:51,800
+Speaker 2:  Tom, thank you. I appreciate it. This is not over anytime soon, so we'll
+
+1285
+01:13:51,800 --> 01:13:52,440
+Speaker 2:  have you back shortly.
+
+1286
+01:13:52,510 --> 01:13:53,680
+Speaker 21:  Okay. Thanks for me.
+
+1287
+01:13:54,940 --> 01:13:58,640
+Speaker 2:  All right, that's it for the Vergecast today. Thanks to Monica, Tom and Jen
+
+1288
+01:13:58,640 --> 01:14:02,600
+Speaker 2:  for being on the show. And thank you as always for listening. There's a whole
+
+1289
+01:14:02,600 --> 01:14:05,960
+Speaker 2:  lot more from all of these conversations@theverge.com. There are a bunch
+
+1290
+01:14:05,960 --> 01:14:09,080
+Speaker 2:  links in the show notes, but also lots more on the website. It's good website
+
+1291
+01:14:09,220 --> 01:14:12,920
+Speaker 2:  and if you have thoughts, feedback, feedback, feelings, or Taylor Swift tickets
+
+1292
+01:14:12,920 --> 01:14:16,880
+Speaker 2:  you wanna sell me, you can always email us@vergecasttheverge.com or
+
+1293
+01:14:16,880 --> 01:14:20,760
+Speaker 2:  call the hotline eight six six Verge 11. Send us all of your
+
+1294
+01:14:20,960 --> 01:14:24,000
+Speaker 2:  questions, all of your thoughts. We love hearing from you. This show is produced
+
+1295
+01:14:24,000 --> 01:14:27,480
+Speaker 2:  by Andrew Moreno and Liam James. Brooke Min is our editorial director of
+
+1296
+01:14:27,480 --> 01:14:31,000
+Speaker 2:  Audio. The Vergecast is a Verge production and part of the Vox Media podcast
+
+1297
+01:14:31,000 --> 01:14:34,680
+Speaker 2:  network. We'll be back on Friday with Alex and Eli to talk about
+
+1298
+01:14:34,750 --> 01:14:38,320
+Speaker 2:  Elon Musk, Twitter's chaos, and everything else happening at Tech.
+
+1299
+01:14:38,340 --> 01:14:39,640
+Speaker 2:  See you then. Rock and roll.
+

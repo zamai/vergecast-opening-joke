@@ -1,0 +1,4316 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 6ffd12f5-b7ef-4b67-95e4-328e63ffe7ab
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/5118939435036343506/5951356495111222957/s93290-US-4599s-1752571987.mp3
+Description: On this episode of The Vergecast, we’re going to dive deep into why accessible design is universal design. First, guest host Victoria Song will chat with Jason Valley, a visually impaired Verge reader. Jason initially reached out to Victoria after her Live AI hands-on, challenging the notion that the feature was a “solution looking for a problem to solve.” Jason shares how the tech has helped him live a more independent life, what he’s hoping to see improve, and how the blind and low-vision community has enthusiastically embraced the technology. 
+
+After that, Victoria sits down with Be My Eyes CEO Mike Buckley. Be My Eyes is an app that pairs blind and low-vision users with sighted volunteers to help them go about their day. Buckley gives his thoughts about how accessible tech design benefits everyone, why smart glasses and AI are a natural combo, and what challenges and opportunities in this space remain. 
+
+And finally, we have features reporter Mia Sato on to answer a spicy question about smart glasses from the Vergecast Hotline (call 866-VERGE11 or email vergecast@theverge.com). Specifically, do smart glasses belong in the bedroom? 
+
+
+
+
+2
+00:00:03,395 --> 00:00:07,285
+Speaker 2:  Welcome to The Vergecast, the flagship podcast of what AI smart glasses
+
+3
+00:00:07,505 --> 00:00:11,365
+Speaker 2:  are actually good for. I'm your friend v and we are in week
+
+4
+00:00:11,425 --> 00:00:15,405
+Speaker 2:  two of Hot Girl Vergecast Summer, eh. Anyway,
+
+5
+00:00:15,595 --> 00:00:19,125
+Speaker 2:  today's show is really exciting and quite personal for me.
+
+6
+00:00:19,525 --> 00:00:23,245
+Speaker 2:  Actually, a few months ago I was reviewing the Meta Smart Glasses
+
+7
+00:00:23,665 --> 00:00:27,565
+Speaker 2:  And I kind of flippantly commented that I didn't understand why anyone would
+
+8
+00:00:27,565 --> 00:00:31,405
+Speaker 2:  need AI to give a really obvious description of
+
+9
+00:00:31,405 --> 00:00:35,005
+Speaker 2:  something that they're looking at. Well, a bunch of visually
+
+10
+00:00:35,445 --> 00:00:39,125
+Speaker 2:  impaired VERGE cast listeners and VERGE readers wrote in and said,
+
+11
+00:00:39,525 --> 00:00:43,445
+Speaker 2:  actually, me, me. I am the person that this helps. And so
+
+12
+00:00:43,805 --> 00:00:47,645
+Speaker 2:  a few of them actually challenged me to rethink my framing. And I said, you
+
+13
+00:00:47,645 --> 00:00:51,525
+Speaker 2:  know what? You're right because here at The Verge we do love good feedback.
+
+14
+00:00:52,065 --> 00:00:55,645
+Speaker 2:  So today we are talking about smart glasses and
+
+15
+00:00:55,675 --> 00:00:59,525
+Speaker 2:  accessibility. And first we'll hear from one of the listeners who
+
+16
+00:00:59,525 --> 00:01:03,125
+Speaker 2:  wrote into me and he's going to tell us how the Meta glasses has changed
+
+17
+00:01:03,185 --> 00:01:07,165
+Speaker 2:  his life for the better. And then I'll talk to the CEO of Be My
+
+18
+00:01:07,165 --> 00:01:10,765
+Speaker 2:  Eyes. That's a company that provides AI and live
+
+19
+00:01:10,765 --> 00:01:14,325
+Speaker 2:  volunteer services for people with visual impairments. They're integrated
+
+20
+00:01:14,325 --> 00:01:18,085
+Speaker 2:  into those smart glasses and we'll hear about how they're thinking about
+
+21
+00:01:18,145 --> 00:01:21,925
+Speaker 2:  how this technology can help the visually impaired going forward. And finally,
+
+22
+00:01:22,225 --> 00:01:25,605
+Speaker 2:  my colleague Mia Sato will be joining me to answer a very spicy,
+
+23
+00:01:26,035 --> 00:01:29,965
+Speaker 2:  potentially not safe for work. Question about smart glasses, all
+
+24
+00:01:29,965 --> 00:01:33,885
+Speaker 2:  that coming up right after the break. This is The Vergecast. We'll be right
+
+25
+00:01:33,885 --> 00:01:34,045
+Speaker 2:  back.
+
+26
+00:03:17,975 --> 00:03:21,945
+Speaker 2:  Welcome back. Our first guest is Jason Vallie. He is one of
+
+27
+00:03:21,945 --> 00:03:25,745
+Speaker 2:  the listeners who wrote into me about how AI smart glasses changed his
+
+28
+00:03:25,745 --> 00:03:29,705
+Speaker 2:  life. He also sent me a picture of his guide dog Noelle, who is cute
+
+29
+00:03:29,725 --> 00:03:33,665
+Speaker 2:  as a button and we'll put a picture of her into the show notes. Let's
+
+30
+00:03:33,665 --> 00:03:37,525
+Speaker 2:  get into it. So Jason, this is kind of a really
+
+31
+00:03:38,475 --> 00:03:42,405
+Speaker 2:  special for me interview because I do read
+
+32
+00:03:43,425 --> 00:03:47,245
+Speaker 2:  all the reader feedback we get, maybe not the comments sometimes, but usually
+
+33
+00:03:47,245 --> 00:03:50,605
+Speaker 2:  if it comes into my email I I definitely try and take time to read it.
+
+34
+00:03:51,305 --> 00:03:55,125
+Speaker 2:  So when you reached out to me it was because I had done
+
+35
+00:03:55,565 --> 00:03:59,525
+Speaker 2:  a hands-on of the Meta AI live AI feature
+
+36
+00:04:00,185 --> 00:04:03,965
+Speaker 2:  And I, I sort of just kind of posed it in the framing as
+
+37
+00:04:04,245 --> 00:04:08,165
+Speaker 2:  a, a solution in search of a problem. I was kind of
+
+38
+00:04:08,165 --> 00:04:11,125
+Speaker 2:  asking like, who, who is asking for this? And you sent such a thoughtful
+
+39
+00:04:11,125 --> 00:04:14,925
+Speaker 2:  email about like, Hey, I use this
+
+40
+00:04:14,955 --> 00:04:18,245
+Speaker 2:  tech, this tech actually dramatically impacts my life.
+
+41
+00:04:18,905 --> 00:04:22,685
+Speaker 2:  So I guess what I wanted to ask you is like what
+
+42
+00:04:22,875 --> 00:04:26,765
+Speaker 2:  drew you to the Meta ray bands in the first place and like can
+
+43
+00:04:26,765 --> 00:04:30,685
+Speaker 2:  you explain the appeal of live AI for
+
+44
+00:04:30,685 --> 00:04:31,205
+Speaker 2:  your life?
+
+45
+00:04:32,325 --> 00:04:36,165
+Speaker 6:  Live AI is a visual interpreter for me in my
+
+46
+00:04:36,165 --> 00:04:39,965
+Speaker 6:  life. If it's not something that I can perceive with my remaining vision,
+
+47
+00:04:39,965 --> 00:04:43,925
+Speaker 6:  clearly I need to ask somebody, Hey, do you mind telling me what this
+
+48
+00:04:43,925 --> 00:04:47,645
+Speaker 6:  is? Sometimes that can be a challenge. Not everybody
+
+49
+00:04:47,705 --> 00:04:51,485
+Speaker 6:  is capable of saying, Hey, you know, this is such and such,
+
+50
+00:04:51,515 --> 00:04:55,325
+Speaker 6:  this is a widget, it's blue, it's round, it's this or
+
+51
+00:04:55,325 --> 00:04:58,925
+Speaker 6:  it's that. Having the live ai, I can go into
+
+52
+00:04:58,925 --> 00:05:02,725
+Speaker 6:  environments where I would need a chaperone. That could
+
+53
+00:05:02,725 --> 00:05:06,685
+Speaker 6:  be a Dollar Tree, it could be going to a restaurant And I can
+
+54
+00:05:07,105 --> 00:05:11,045
+Speaker 6:  engage live AI and ask it to read the menu or tell me
+
+55
+00:05:11,045 --> 00:05:14,565
+Speaker 6:  what's in front of me so that I'm not inconveniencing my
+
+56
+00:05:14,565 --> 00:05:18,525
+Speaker 6:  companions and I'm getting on in a normal life. I'm enjoying my
+
+57
+00:05:18,525 --> 00:05:22,365
+Speaker 6:  lunch, I have a menu that's in front of me that I can actually do something
+
+58
+00:05:22,365 --> 00:05:26,205
+Speaker 6:  with. It's not just a, I guess a fan in front of
+
+59
+00:05:26,205 --> 00:05:30,045
+Speaker 6:  me while everybody else is picking out their stuff. I know what I want. I
+
+60
+00:05:30,045 --> 00:05:33,685
+Speaker 6:  can decide for myself and that's kind of a powerful thing.
+
+61
+00:05:34,845 --> 00:05:38,815
+Speaker 2:  Yeah, that's, you know, that's definitely not something that I as
+
+62
+00:05:38,895 --> 00:05:42,575
+Speaker 2:  a sighted person would think about because me using that
+
+63
+00:05:42,575 --> 00:05:46,095
+Speaker 2:  feature, it was very much like a, well, yeah, I, I can read
+
+64
+00:05:46,715 --> 00:05:50,695
+Speaker 2:  the thing in front of me, but I think when we talk about blind and low
+
+65
+00:05:50,695 --> 00:05:54,615
+Speaker 2:  vision people, that is a wide spectrum of
+
+66
+00:05:54,795 --> 00:05:57,965
+Speaker 2:  you know, the ability to see. So could you maybe describe
+
+67
+00:05:58,515 --> 00:06:02,125
+Speaker 2:  what your condition is most like so that our listeners understand?
+
+68
+00:06:02,645 --> 00:06:06,605
+Speaker 2:  'cause I think when us cited people hear blind and low
+
+69
+00:06:06,605 --> 00:06:10,445
+Speaker 2:  vision, we just think of the main image that most people think
+
+70
+00:06:10,445 --> 00:06:12,005
+Speaker 2:  of, which is someone who can't see it all.
+
+71
+00:06:12,805 --> 00:06:16,615
+Speaker 6:  Correct. Vision loss in general affects a
+
+72
+00:06:16,615 --> 00:06:20,455
+Speaker 6:  wide variety of people from no light perception at all
+
+73
+00:06:20,635 --> 00:06:24,495
+Speaker 6:  to somebody who has low vision, which I
+
+74
+00:06:24,495 --> 00:06:28,415
+Speaker 6:  believe is defined as 2060. And that's
+
+75
+00:06:28,415 --> 00:06:32,255
+Speaker 6:  at a point where a person can no longer drive. In my particular
+
+76
+00:06:32,405 --> 00:06:36,295
+Speaker 6:  case, I contracted a staph infection in 2015
+
+77
+00:06:36,755 --> 00:06:40,735
+Speaker 6:  and it affected my blood pressure. I had two emergency surgeries
+
+78
+00:06:40,755 --> 00:06:44,535
+Speaker 6:  to correct it and it essentially damaged
+
+79
+00:06:44,755 --> 00:06:48,695
+Speaker 6:  the retina in the back of my eyes and three separate
+
+80
+00:06:49,255 --> 00:06:53,215
+Speaker 6:  injuries that occurred over the course of a year. And the official
+
+81
+00:06:53,535 --> 00:06:57,375
+Speaker 6:  diagnosis that I got was N na ION, which stands for
+
+82
+00:06:57,755 --> 00:07:00,655
+Speaker 6:  non alytic ischemic optic neuropathy.
+
+83
+00:07:01,685 --> 00:07:05,295
+Speaker 6:  What that means to the average person is an optic nerve
+
+84
+00:07:05,355 --> 00:07:09,295
+Speaker 6:  stroke and my retinas, which
+
+85
+00:07:09,295 --> 00:07:13,215
+Speaker 6:  would normally be in the shape of a volcano, where
+
+86
+00:07:13,215 --> 00:07:17,055
+Speaker 6:  your central vision is a very tightly compacted group of nerve
+
+87
+00:07:17,055 --> 00:07:21,015
+Speaker 6:  cells in the middle, mine are entirely flat. So what that
+
+88
+00:07:21,105 --> 00:07:25,055
+Speaker 6:  translates for me is in my left eye I have no light
+
+89
+00:07:25,055 --> 00:07:28,775
+Speaker 6:  perception from about 11 o'clock to about four o'clock. And then
+
+90
+00:07:28,805 --> 00:07:31,575
+Speaker 6:  from four o'clock to seven o'clock in my left eye
+
+91
+00:07:32,815 --> 00:07:36,495
+Speaker 6:  I can look at things. If I look at it directly, it disappears. If I look
+
+92
+00:07:36,525 --> 00:07:40,415
+Speaker 6:  past it with my eccentric vision, I can still perceive it, I can still
+
+93
+00:07:40,445 --> 00:07:44,175
+Speaker 6:  read things if the text is large enough, if I have it
+
+94
+00:07:44,185 --> 00:07:48,015
+Speaker 6:  white text on black, it makes it easier to see in my
+
+95
+00:07:48,015 --> 00:07:51,855
+Speaker 6:  right eye. I have no central vision. I have just the
+
+96
+00:07:51,855 --> 00:07:55,015
+Speaker 6:  periphery and again, when I look at something it disappears. But if I look
+
+97
+00:07:55,165 --> 00:07:58,575
+Speaker 6:  past it with my eccentric vision, eccentric vision,
+
+98
+00:07:59,455 --> 00:08:02,735
+Speaker 6:  I can see something there. And then everything else,
+
+99
+00:08:03,235 --> 00:08:06,455
+Speaker 6:  for lack of a better term, is looking through a plastic
+
+100
+00:08:06,905 --> 00:08:10,655
+Speaker 6:  baggy. Everybody agrees that it's clear, but if you fold it, you really
+
+101
+00:08:10,665 --> 00:08:14,625
+Speaker 6:  can't see through it at any distance. So for me, I have
+
+102
+00:08:14,625 --> 00:08:18,505
+Speaker 6:  to be about eight to 10 inches from a screen with large text for
+
+103
+00:08:18,525 --> 00:08:22,345
+Speaker 6:  it to be useful to me in the wild.
+
+104
+00:08:22,405 --> 00:08:26,065
+Speaker 6:  If I go to a restaurant, let's say a buffet, I really
+
+105
+00:08:26,185 --> 00:08:29,865
+Speaker 6:  don't wanna get my face eight to 10 inches from the food to see what's there,
+
+106
+00:08:30,355 --> 00:08:34,105
+Speaker 6:  right? I think that's kind of disgusting. And there's a reason the
+
+107
+00:08:34,185 --> 00:08:37,225
+Speaker 6:  sneeze hoods are there to keep human contact from your food.
+
+108
+00:08:38,165 --> 00:08:42,065
+Speaker 6:  So having the glasses, if I go into this buffet, I
+
+109
+00:08:42,065 --> 00:08:45,185
+Speaker 6:  can ask it what's in front of me? Can you read the sign? And it'll tell me,
+
+110
+00:08:45,185 --> 00:08:47,705
+Speaker 6:  okay, well you have this option in front of you.
+
+111
+00:08:49,135 --> 00:08:52,905
+Speaker 6:  So I don't have to rely on people with my
+
+112
+00:08:53,345 --> 00:08:57,125
+Speaker 6:  residual vision in the wild I can do things for myself. I
+
+113
+00:08:57,125 --> 00:09:01,085
+Speaker 6:  travel independently with a guide dog, we have a walking lifestyle in
+
+114
+00:09:01,085 --> 00:09:04,645
+Speaker 6:  my neighborhood and I have some great friends which will take me out to do
+
+115
+00:09:04,645 --> 00:09:08,605
+Speaker 6:  my shopping. That could be at Lowe's to get supplies
+
+116
+00:09:08,605 --> 00:09:12,485
+Speaker 6:  that I use for my crafting. It could be a trip to Dollar
+
+117
+00:09:12,515 --> 00:09:16,285
+Speaker 6:  Tree to get some things that I need. It could be to
+
+118
+00:09:16,845 --> 00:09:20,805
+Speaker 6:  Aldi's. That place is easy to shop for. Everything is insane
+
+119
+00:09:20,865 --> 00:09:24,565
+Speaker 6:  in all the stores. So getting
+
+120
+00:09:24,635 --> 00:09:28,405
+Speaker 6:  back to the vision part, these places are a challenge for anybody
+
+121
+00:09:28,435 --> 00:09:32,325
+Speaker 6:  with any level of vision loss. So having
+
+122
+00:09:32,335 --> 00:09:36,325
+Speaker 6:  these glasses, having a visual interpreter quietly telling me the
+
+123
+00:09:36,325 --> 00:09:40,005
+Speaker 6:  things that I need is absolutely a game changer
+
+124
+00:09:40,225 --> 00:09:44,085
+Speaker 6:  for independence. What brought me to them is
+
+125
+00:09:44,115 --> 00:09:47,565
+Speaker 6:  some years ago, I'm on my, I guess 10th year vision loss
+
+126
+00:09:48,465 --> 00:09:52,305
+Speaker 6:  is there's a device out there called OrCam. That device
+
+127
+00:09:52,305 --> 00:09:55,745
+Speaker 6:  starts about $3,500. That's rather
+
+128
+00:09:55,935 --> 00:09:59,385
+Speaker 6:  expensive for a blind person who's on disability
+
+129
+00:10:00,935 --> 00:10:04,665
+Speaker 6:  looking at the price tag for the Meta. When they came out last
+
+130
+00:10:04,775 --> 00:10:08,505
+Speaker 6:  July, I was able to snag a pair of refurbed ones with a double
+
+131
+00:10:09,065 --> 00:10:12,905
+Speaker 6:  warranty for $200. I was able to slip in
+
+132
+00:10:12,905 --> 00:10:16,785
+Speaker 6:  some custom lenses for 65. And I have myself a great working
+
+133
+00:10:16,895 --> 00:10:18,225
+Speaker 6:  pair of Meta glasses.
+
+134
+00:10:19,325 --> 00:10:23,145
+Speaker 2:  So that's a huge example of cost And
+
+135
+00:10:23,145 --> 00:10:26,785
+Speaker 2:  something that I think we don't necessarily think of because you're right,
+
+136
+00:10:26,785 --> 00:10:30,265
+Speaker 2:  $3,500, that's a, that's an Apple vision pro
+
+137
+00:10:30,435 --> 00:10:33,945
+Speaker 2:  level area of price. So you know
+
+138
+00:10:34,255 --> 00:10:37,865
+Speaker 2:  something like the Orbi versus the Metas, like
+
+139
+00:10:38,285 --> 00:10:42,225
+Speaker 2:  was this something that to you was immediately obvious like yes, I
+
+140
+00:10:42,225 --> 00:10:46,105
+Speaker 2:  need to try this. Yes, this is absolutely worth the investment
+
+141
+00:10:46,765 --> 00:10:50,385
+Speaker 2:  no matter, you know, it, it can be kind of tough with
+
+142
+00:10:50,705 --> 00:10:54,145
+Speaker 2:  emerging technology where you haven't tried it yourself. You're kind of relying
+
+143
+00:10:54,405 --> 00:10:58,185
+Speaker 2:  on, for the large part, cited reviewers impressions of
+
+144
+00:10:58,185 --> 00:11:01,985
+Speaker 2:  this technology. And I think one thing that as tech reviewers
+
+145
+00:11:01,985 --> 00:11:05,865
+Speaker 2:  could do better is to think of accessibility needs
+
+146
+00:11:06,325 --> 00:11:09,945
+Speaker 2:  to the ability that we are able to, when we are reviewing these products.
+
+147
+00:11:09,965 --> 00:11:12,745
+Speaker 2:  And I, I'll admit that was something that I was not
+
+148
+00:11:13,335 --> 00:11:17,025
+Speaker 2:  necessarily aware of or thinking of when I first
+
+149
+00:11:17,305 --> 00:11:20,785
+Speaker 2:  reviewed the Meadow Ray band. So I think if blind or low vision person
+
+150
+00:11:21,325 --> 00:11:25,065
+Speaker 2:  was reading my review, they wouldn't get a sense of how this could help them.
+
+151
+00:11:25,165 --> 00:11:29,105
+Speaker 2:  So I, I'm curious in your process of knowing
+
+152
+00:11:29,135 --> 00:11:32,785
+Speaker 2:  what was available to you before and then reading about this
+
+153
+00:11:33,125 --> 00:11:36,745
+Speaker 2:  new technology that was coming out, was it immediately apparent to you that
+
+154
+00:11:36,975 --> 00:11:38,065
+Speaker 2:  this could be a game changer?
+
+155
+00:11:39,425 --> 00:11:42,925
+Speaker 6:  The packaging I guess you could say on what was being
+
+156
+00:11:42,995 --> 00:11:45,705
+Speaker 6:  pitched offered a lot of wonderful,
+
+157
+00:11:47,265 --> 00:11:51,025
+Speaker 6:  I started doing some research looking online, looking at the different
+
+158
+00:11:51,025 --> 00:11:54,645
+Speaker 6:  options that were there And I realized, realized that this was the first
+
+159
+00:11:54,705 --> 00:11:58,605
+Speaker 6:  option that actually had the AI enabled on it.
+
+160
+00:11:59,505 --> 00:12:03,485
+Speaker 6:  And I started before a lot of the current options became
+
+161
+00:12:03,485 --> 00:12:06,645
+Speaker 6:  available. There's been a lot of updates over the last year that have, that
+
+162
+00:12:06,645 --> 00:12:09,885
+Speaker 6:  have been amazing And I part of the early access program on that.
+
+163
+00:12:11,035 --> 00:12:14,725
+Speaker 6:  Part of my research involves social media. I'm part of
+
+164
+00:12:14,725 --> 00:12:18,485
+Speaker 6:  several blind visually impaired groups and these
+
+165
+00:12:18,485 --> 00:12:22,165
+Speaker 6:  started to show up on the radar and people started talking about 'em
+
+166
+00:12:22,705 --> 00:12:26,645
+Speaker 6:  and what it can do and what it can offer. And I've always been
+
+167
+00:12:26,645 --> 00:12:30,445
+Speaker 6:  an early adopter of technology and it's like, okay, this is looking like
+
+168
+00:12:30,505 --> 00:12:33,925
+Speaker 6:  it really wants to fit what I would like it to do.
+
+169
+00:12:35,105 --> 00:12:39,005
+Speaker 6:  So I started making a plan to get it into my budget and got it into
+
+170
+00:12:39,005 --> 00:12:42,845
+Speaker 6:  my hands in July of last year and it's
+
+171
+00:12:42,995 --> 00:12:44,405
+Speaker 6:  been a game changer since then.
+
+172
+00:12:45,055 --> 00:12:48,845
+Speaker 2:  Right. So you know, you mentioned that it
+
+173
+00:12:48,985 --> 00:12:52,565
+Speaker 2:  has enabled you to live and work more
+
+174
+00:12:53,005 --> 00:12:56,805
+Speaker 2:  independently. I'm curious if you were ever a user of
+
+175
+00:12:56,805 --> 00:13:00,685
+Speaker 2:  something like Be My Eyes, that's kind of another example that's come
+
+176
+00:13:00,685 --> 00:13:04,405
+Speaker 2:  up primarily through smartphones and it does have an integration with the
+
+177
+00:13:04,915 --> 00:13:08,765
+Speaker 2:  Meta Ray bands as a type of technology that also
+
+178
+00:13:08,765 --> 00:13:12,005
+Speaker 2:  helps other people live and work more
+
+179
+00:13:12,405 --> 00:13:15,925
+Speaker 2:  independently. So I'm curious like how does this experience compare to you?
+
+180
+00:13:16,065 --> 00:13:20,005
+Speaker 2:  Is it complimentary? Do you use Be My Eyes on on the
+
+181
+00:13:20,005 --> 00:13:20,725
+Speaker 2:  glasses itself,
+
+182
+00:13:21,525 --> 00:13:25,335
+Speaker 6:  I use Be My Eyes on my phone a an iOS
+
+183
+00:13:25,335 --> 00:13:29,255
+Speaker 6:  user. My primary use of Be My Eyes is
+
+184
+00:13:29,255 --> 00:13:32,535
+Speaker 6:  to describe images that I can't pick out the details on.
+
+185
+00:13:33,355 --> 00:13:37,295
+Speaker 6:  So I can see a rough image of something. If you look at it,
+
+186
+00:13:37,295 --> 00:13:40,575
+Speaker 6:  it's very blurry. So I can run it through the AI and tell me
+
+187
+00:13:41,355 --> 00:13:45,215
+Speaker 6:  in detail what it is that I'm looking at and pick up the nuances that
+
+188
+00:13:45,215 --> 00:13:48,695
+Speaker 6:  are there. I haven't really used the volunteer
+
+189
+00:13:49,155 --> 00:13:53,015
+Speaker 6:  aspect of things to reach out. I'm a little less comfortable talking
+
+190
+00:13:53,045 --> 00:13:56,615
+Speaker 6:  with somebody about my medications or some of my day-to-day
+
+191
+00:13:56,705 --> 00:14:00,535
+Speaker 6:  stuff. Having the AI gives me that privacy. So
+
+192
+00:14:00,755 --> 00:14:04,695
+Speaker 6:  I'm a, I guess you could say a hybrid user of Be My
+
+193
+00:14:04,695 --> 00:14:08,575
+Speaker 6:  Eyes, but I do have it enabled that if I need to contact a volunteer I
+
+194
+00:14:08,575 --> 00:14:10,775
+Speaker 6:  can enable it with a voice command.
+
+195
+00:14:11,795 --> 00:14:15,575
+Speaker 2:  That's like a really interesting example 'cause I think
+
+196
+00:14:15,605 --> 00:14:19,415
+Speaker 2:  when people talk about AI from skeptics, at least
+
+197
+00:14:19,895 --> 00:14:23,855
+Speaker 2:  a common refrain I hear is like who is this for? Why would you
+
+198
+00:14:23,855 --> 00:14:27,375
+Speaker 2:  want this? And this idea that maybe the AI
+
+199
+00:14:28,405 --> 00:14:32,025
+Speaker 2:  can afford you at least a sense. 'cause we don't know what all these companies
+
+200
+00:14:32,025 --> 00:14:35,265
+Speaker 2:  do with their data per se, but like it can at least afford you a sense in
+
+201
+00:14:35,265 --> 00:14:38,905
+Speaker 2:  your daily life a feeling of like, oh I don't have to have another person
+
+202
+00:14:39,125 --> 00:14:42,985
+Speaker 2:  see my medication. Is that kind of the main
+
+203
+00:14:42,985 --> 00:14:46,145
+Speaker 2:  appeal for you for AI versus
+
+204
+00:14:47,065 --> 00:14:51,025
+Speaker 2:  a volunteer? Are there certain situations where you might wanna talk to
+
+205
+00:14:51,125 --> 00:14:55,085
+Speaker 2:  a volunteer more than a ai and how have
+
+206
+00:14:55,085 --> 00:14:58,365
+Speaker 2:  you found the AI in general when you are in those situations?
+
+207
+00:14:59,225 --> 00:15:03,045
+Speaker 6:  AI is a bit more concise with the information that I'd
+
+208
+00:15:03,045 --> 00:15:06,045
+Speaker 6:  like to get with the Meta ai,
+
+209
+00:15:07,025 --> 00:15:10,765
+Speaker 6:  I'm not able to do some things because of their safety guardrails that
+
+210
+00:15:10,765 --> 00:15:13,725
+Speaker 6:  they've put on. So I can't discuss
+
+211
+00:15:14,805 --> 00:15:18,765
+Speaker 6:  a lot of my medications up close with it. I can simply get information
+
+212
+00:15:18,765 --> 00:15:22,085
+Speaker 6:  off the bottle of the name and that's about it and then it'll tell me I can't
+
+213
+00:15:22,085 --> 00:15:26,045
+Speaker 6:  proceed with the rest of the information. I can't describe it. So
+
+214
+00:15:26,045 --> 00:15:28,925
+Speaker 6:  that is a frustrating point. But in other things,
+
+215
+00:15:30,545 --> 00:15:34,125
+Speaker 6:  if I need to get instructions for something
+
+216
+00:15:34,885 --> 00:15:38,805
+Speaker 6:  I guess less dangerous if you will, something that doesn't have a
+
+217
+00:15:38,805 --> 00:15:42,645
+Speaker 6:  life and safety, it really streamlines my day to get
+
+218
+00:15:42,645 --> 00:15:46,325
+Speaker 6:  through it. So instead of waiting for somebody else to
+
+219
+00:15:46,485 --> 00:15:50,365
+Speaker 6:  become available to me that can say, Hey Jason, you know this is
+
+220
+00:15:51,515 --> 00:15:55,285
+Speaker 6:  your electric bill and it says that you owe X amount,
+
+221
+00:15:56,245 --> 00:15:59,725
+Speaker 6:  I can ask Meta to, Hey look at this and
+
+222
+00:16:00,165 --> 00:16:04,045
+Speaker 6:  describe it. And it'll go through and give me the juicy bits, it'll tell
+
+223
+00:16:04,045 --> 00:16:07,085
+Speaker 6:  me how much I owe who it's for and when it's due,
+
+224
+00:16:07,705 --> 00:16:11,445
+Speaker 6:  rather than giving me a complete spit out of everything top to bottom
+
+225
+00:16:11,545 --> 00:16:15,165
+Speaker 6:  and all the information that I don't need with a human
+
+226
+00:16:15,215 --> 00:16:18,805
+Speaker 6:  being. I can get that personal touch, but not
+
+227
+00:16:18,805 --> 00:16:22,045
+Speaker 6:  everybody is capable of describing something
+
+228
+00:16:23,105 --> 00:16:26,925
+Speaker 6:  in the way that's useful for me. People can
+
+229
+00:16:26,985 --> 00:16:30,685
+Speaker 6:  do it in a general sense, but if I really need information,
+
+230
+00:16:30,875 --> 00:16:34,705
+Speaker 6:  some people will say, well it's over there to
+
+231
+00:16:34,785 --> 00:16:38,265
+Speaker 6:  a blind person over there is a really open concept,
+
+232
+00:16:38,355 --> 00:16:41,865
+Speaker 6:  especially when somebody's pointing and making use of those hand
+
+233
+00:16:41,985 --> 00:16:45,865
+Speaker 6:  gestures. So I'll ask somebody, you know,
+
+234
+00:16:45,885 --> 00:16:49,785
+Speaker 6:  Hey could you be a little more specific? Oh yeah, it's
+
+235
+00:16:49,785 --> 00:16:53,305
+Speaker 6:  over to your left over there and you know, sometimes I'm
+
+236
+00:16:53,625 --> 00:16:57,385
+Speaker 6:  slapping my forehead, you know, and frustration and having
+
+237
+00:16:57,485 --> 00:17:01,305
+Speaker 6:  an ai I can kind of drill down on the
+
+238
+00:17:01,305 --> 00:17:04,905
+Speaker 6:  information that I need so I can ask it,
+
+239
+00:17:04,925 --> 00:17:08,825
+Speaker 6:  please look and describe and it'll tell me, okay, it is
+
+240
+00:17:09,135 --> 00:17:12,465
+Speaker 6:  such and such. Okay, well I'd like to know a little bit more. What is the
+
+241
+00:17:12,465 --> 00:17:16,185
+Speaker 6:  information on it, what text is off there? And it'll get into more
+
+242
+00:17:16,245 --> 00:17:20,105
+Speaker 6:  detail. And if it's still not enough, I can ask it and it's
+
+243
+00:17:20,135 --> 00:17:24,105
+Speaker 6:  significantly more concise. So I'm
+
+244
+00:17:24,105 --> 00:17:27,985
+Speaker 6:  getting the information that I need. If I'm in a place I'm not
+
+245
+00:17:28,385 --> 00:17:32,265
+Speaker 6:  familiar with, I can ask it to read the sign on a bathroom and tell
+
+246
+00:17:32,265 --> 00:17:36,065
+Speaker 6:  me if it's for male or female. That avoids a little bit of
+
+247
+00:17:36,065 --> 00:17:40,025
+Speaker 6:  embarrassment. If I'm looking at an elevator pad, I can tell
+
+248
+00:17:40,025 --> 00:17:43,865
+Speaker 6:  which way the buttons are supposed to be going. If I need to go
+
+249
+00:17:43,865 --> 00:17:47,305
+Speaker 6:  to my doctor's office, I can look at the directory and find out what suite
+
+250
+00:17:47,305 --> 00:17:48,345
+Speaker 6:  number it is.
+
+251
+00:17:49,945 --> 00:17:53,085
+Speaker 6:  So having the AI on demand
+
+252
+00:17:54,095 --> 00:17:58,085
+Speaker 6:  saves me a lot of time and not having to wait. It gives me precise
+
+253
+00:17:58,545 --> 00:18:02,485
+Speaker 6:  and concise information to get through my day so
+
+254
+00:18:02,485 --> 00:18:06,405
+Speaker 6:  that I'm not inconveniencing somebody else. And when you're visually
+
+255
+00:18:06,765 --> 00:18:10,605
+Speaker 6:  impaired it really feels like you're inconveniencing others to
+
+256
+00:18:10,745 --> 00:18:10,965
+Speaker 6:  ask.
+
+257
+00:18:11,835 --> 00:18:15,675
+Speaker 2:  Yeah, you know that. Thank you so much because
+
+258
+00:18:15,785 --> 00:18:19,355
+Speaker 2:  this is kind of a thing that I don't necessarily always think about,
+
+259
+00:18:20,135 --> 00:18:23,915
+Speaker 2:  but I, you know, it hurts my heart a little bit to hear that you, you feel
+
+260
+00:18:23,915 --> 00:18:27,235
+Speaker 2:  like you're inconveniencing other people to be quite honest.
+
+261
+00:18:27,855 --> 00:18:31,715
+Speaker 2:  But I appreciate that AI is at least giving you a greater
+
+262
+00:18:31,725 --> 00:18:35,715
+Speaker 2:  sense of independence. You know, when my mom was sick, the, the thing that
+
+263
+00:18:35,715 --> 00:18:38,875
+Speaker 2:  she told me all the time was that she just wanted to feel independent and
+
+264
+00:18:38,895 --> 00:18:42,315
+Speaker 2:  to not have to ask me. Even though, you know, for me I was like, I, I would
+
+265
+00:18:42,345 --> 00:18:46,275
+Speaker 2:  love to help you. I would love to do anything for you. So, you know,
+
+266
+00:18:46,515 --> 00:18:50,315
+Speaker 2:  it does hurt my heart a little bit to hear that, but I am kind of
+
+267
+00:18:51,555 --> 00:18:55,035
+Speaker 2:  sitting with the thought and absorbing the idea that, you know,
+
+268
+00:18:55,685 --> 00:18:59,435
+Speaker 2:  maybe one really beautiful takeaway is helping
+
+269
+00:18:59,435 --> 00:19:03,115
+Speaker 2:  people feel independent in this. I'm curious what hopes you
+
+270
+00:19:03,315 --> 00:19:06,995
+Speaker 2:  have for this technology going forward. And you know, we do have
+
+271
+00:19:07,065 --> 00:19:10,955
+Speaker 2:  some Meta people listening to this podcast, so you know,
+
+272
+00:19:10,955 --> 00:19:14,795
+Speaker 2:  if you could speak to them directly and you know, some improvements
+
+273
+00:19:14,795 --> 00:19:18,155
+Speaker 2:  that you'd like to see in this text and pain points that you've had, like
+
+274
+00:19:18,445 --> 00:19:19,515
+Speaker 2:  would love to hear them.
+
+275
+00:19:20,185 --> 00:19:23,795
+Speaker 6:  Some of the pain points that I've experienced with a live AI
+
+276
+00:19:24,215 --> 00:19:27,995
+Speaker 6:  is it's a battery drain. I get about
+
+277
+00:19:28,065 --> 00:19:32,035
+Speaker 6:  four hours of average use before I have to recharge my battery.
+
+278
+00:19:32,175 --> 00:19:36,035
+Speaker 6:  If I'm not using the live ai, as soon as I kick that in, I could
+
+279
+00:19:36,035 --> 00:19:38,955
+Speaker 6:  get about 20 minutes to a half hour on a full charge
+
+280
+00:19:40,495 --> 00:19:44,435
+Speaker 6:  and then I have to recharge my glasses, then I have to go analog and
+
+281
+00:19:44,495 --> 00:19:48,435
+Speaker 6:  that's kind of an inconvenience. So having a more
+
+282
+00:19:48,635 --> 00:19:52,355
+Speaker 6:  efficient battery would be nice. I
+
+283
+00:19:52,355 --> 00:19:55,835
+Speaker 6:  also notice that unless I'm on a really fast data
+
+284
+00:19:55,885 --> 00:19:59,635
+Speaker 6:  connection, that sometimes a live AI isn't as
+
+285
+00:19:59,635 --> 00:20:03,495
+Speaker 6:  fast and responsive. So I don't know if there's a way
+
+286
+00:20:03,895 --> 00:20:07,695
+Speaker 6:  to kind of tweak that for the information that it's getting from the user.
+
+287
+00:20:08,395 --> 00:20:12,135
+Speaker 6:  But definitely the battery would be helpful
+
+288
+00:20:12,275 --> 00:20:16,175
+Speaker 6:  to have something along the, the live ai. Something
+
+289
+00:20:16,175 --> 00:20:19,495
+Speaker 6:  that I've noticed and I've compared notes with some other friends
+
+290
+00:20:19,955 --> 00:20:23,615
+Speaker 6:  is I'll ask the live AI to please let me know when it
+
+291
+00:20:23,645 --> 00:20:27,455
+Speaker 6:  notices something that I'm looking for. And in
+
+292
+00:20:27,455 --> 00:20:31,015
+Speaker 6:  my case, let's say I go to Dollar Tree and I'm looking for a
+
+293
+00:20:31,255 --> 00:20:35,215
+Speaker 6:  specific item And I know that I'm in the area, I
+
+294
+00:20:35,215 --> 00:20:38,415
+Speaker 6:  ask Meta to find it and it says, okay, I'll locate that for you.
+
+295
+00:20:39,155 --> 00:20:42,695
+Speaker 6:  We go past it and I'll say, did you find it? Oh yes, I found it.
+
+296
+00:20:43,075 --> 00:20:46,935
+Speaker 6:  And it's like, why didn't you tell me? Wow. I asked a friend of mine
+
+297
+00:20:47,255 --> 00:20:51,245
+Speaker 6:  who's also visually impaired and in his case
+
+298
+00:20:51,385 --> 00:20:54,765
+Speaker 6:  he asked it to tell him, okay, let me know when I'm at my greenhouse.
+
+299
+00:20:55,725 --> 00:20:59,425
+Speaker 6:  And he knows he is getting close and he asks
+
+300
+00:20:59,435 --> 00:21:02,905
+Speaker 6:  again and Oh yeah, we're we're there. And it's like, well you said you were
+
+301
+00:21:02,905 --> 00:21:06,425
+Speaker 6:  gonna tell me. Okay, I'll remember that for next time. And it doesn't seem
+
+302
+00:21:06,485 --> 00:21:10,465
+Speaker 6:  to remember that going forward. So I'm not
+
+303
+00:21:10,465 --> 00:21:14,345
+Speaker 6:  sure if that's necessarily a, a pain point or growing
+
+304
+00:21:14,415 --> 00:21:18,065
+Speaker 6:  pain of training in AI model.
+
+305
+00:21:18,765 --> 00:21:22,745
+Speaker 6:  You know, it's not necessarily a a blind thing, but it would be incredibly
+
+306
+00:21:22,745 --> 00:21:24,185
+Speaker 6:  helpful for that.
+
+307
+00:21:25,285 --> 00:21:28,895
+Speaker 2:  Yeah, I would agree with you. I also would like something like that
+
+308
+00:21:28,895 --> 00:21:32,775
+Speaker 2:  because I am super A DHD And I constantly
+
+309
+00:21:33,435 --> 00:21:37,175
+Speaker 2:  forget the things that I'm looking for all the time and then start looking
+
+310
+00:21:37,195 --> 00:21:41,095
+Speaker 2:  for other stuff. So I think that would help everybody, not just people who
+
+311
+00:21:41,195 --> 00:21:45,095
+Speaker 2:  are visually impaired. You mentioned that you are
+
+312
+00:21:45,285 --> 00:21:48,535
+Speaker 2:  part of a bunch of communities and that part of
+
+313
+00:21:49,355 --> 00:21:52,615
+Speaker 2:  you finding out about this tech was hearing about it from word of mouth.
+
+314
+00:21:53,595 --> 00:21:57,495
+Speaker 2:  I'm curious, have you seen the metas getting adopted by
+
+315
+00:21:57,495 --> 00:22:00,815
+Speaker 2:  your community in ways that maybe were unexpected
+
+316
+00:22:01,355 --> 00:22:04,855
+Speaker 2:  or, you know, are are, is the community kind of
+
+317
+00:22:05,945 --> 00:22:09,905
+Speaker 2:  adapting to the fact that this tech is largely accessible, widely available?
+
+318
+00:22:10,695 --> 00:22:14,625
+Speaker 2:  Yeah, I, I think you mentioned something in an email about your guide dog
+
+319
+00:22:14,925 --> 00:22:18,565
+Speaker 2:  and maybe thinking about ways the glasses
+
+320
+00:22:18,785 --> 00:22:20,165
+Speaker 2:  can interact with guide dogs
+
+321
+00:22:21,945 --> 00:22:24,965
+Speaker 6:  In my community, these are spreading like wildfire.
+
+322
+00:22:25,905 --> 00:22:29,645
+Speaker 6:  One Facebook community that I'm part of is Blind Buddies and
+
+323
+00:22:29,955 --> 00:22:33,925
+Speaker 6:  it's like every third post somebody is asking for the
+
+324
+00:22:33,925 --> 00:22:37,685
+Speaker 6:  impression of getting the Met Raybans and
+
+325
+00:22:37,905 --> 00:22:41,685
+Speaker 6:  you read the posts of people coming down and how they use it
+
+326
+00:22:41,705 --> 00:22:45,565
+Speaker 6:  for sorting their mail, sorting the medication, getting through their
+
+327
+00:22:45,565 --> 00:22:49,525
+Speaker 6:  daily life. It's accessible. People are being
+
+328
+00:22:49,705 --> 00:22:53,565
+Speaker 6:  gifted pairs, people are saving up to get a pair. These are
+
+329
+00:22:53,965 --> 00:22:57,925
+Speaker 6:  becoming a must have in the blank community when,
+
+330
+00:22:57,925 --> 00:23:01,245
+Speaker 6:  when people are responding back, there is so much
+
+331
+00:23:01,725 --> 00:23:04,765
+Speaker 6:  positive for the visually impaired.
+
+332
+00:23:06,275 --> 00:23:10,005
+Speaker 6:  It's a wonderful example of how mainstream technology
+
+333
+00:23:10,645 --> 00:23:14,325
+Speaker 6:  benefits everybody. Rather than just being a niche group,
+
+334
+00:23:14,415 --> 00:23:17,805
+Speaker 6:  which is very expensive to develop and work in.
+
+335
+00:23:18,505 --> 00:23:20,525
+Speaker 6:  We have access to something
+
+336
+00:23:22,075 --> 00:23:25,925
+Speaker 6:  that is just phenomenal at a very economical price.
+
+337
+00:23:26,945 --> 00:23:30,765
+Speaker 6:  And something that also is beneficial to our
+
+338
+00:23:31,205 --> 00:23:35,165
+Speaker 6:  families is the visual interpreter fatigue. When
+
+339
+00:23:35,165 --> 00:23:38,965
+Speaker 6:  you're constantly asking somebody to describe something for you,
+
+340
+00:23:39,675 --> 00:23:43,085
+Speaker 6:  that creates a lot of stress on family members, whether it's your spouse
+
+341
+00:23:43,225 --> 00:23:47,005
+Speaker 6:  or your kids or whoever is helping you on your day-to-day.
+
+342
+00:23:47,785 --> 00:23:51,565
+Speaker 6:  So that's a, that's a lot of value that gets put into the day-to-day
+
+343
+00:23:51,565 --> 00:23:54,365
+Speaker 6:  within our community as well. Increasing our
+
+344
+00:23:55,315 --> 00:23:58,645
+Speaker 6:  cont contentment and happiness in the family by not being so reliant.
+
+345
+00:23:59,185 --> 00:24:03,045
+Speaker 2:  So tell me about how your AI glasses kind
+
+346
+00:24:03,165 --> 00:24:05,725
+Speaker 2:  of integrate with your Guide dog school that you're in.
+
+347
+00:24:06,225 --> 00:24:08,885
+Speaker 6:  I'm a student at the Seeing Eye in Northtown, New Jersey
+
+348
+00:24:10,165 --> 00:24:14,145
+Speaker 6:  And I lost my guide dog link back in December And
+
+349
+00:24:14,385 --> 00:24:18,265
+Speaker 6:  I was paired with a new guide dog Noel. And this
+
+350
+00:24:18,265 --> 00:24:21,545
+Speaker 6:  guide dog school is a hundred percent donation based
+
+351
+00:24:22,165 --> 00:24:25,625
+Speaker 6:  and they've been considering adding a small module
+
+352
+00:24:25,965 --> 00:24:29,065
+Speaker 6:  to guide dog training in how guide dog handlers
+
+353
+00:24:29,535 --> 00:24:33,385
+Speaker 6:  integrate their ai. And something that
+
+354
+00:24:34,015 --> 00:24:37,225
+Speaker 6:  came up was introducing it at the right time.
+
+355
+00:24:38,045 --> 00:24:41,985
+Speaker 6:  AI for every visually impaired person is not
+
+356
+00:24:41,985 --> 00:24:45,705
+Speaker 6:  appropriate at every level. It's a great augmentation
+
+357
+00:24:45,805 --> 00:24:49,465
+Speaker 6:  to get through your day, but it's also important to have the basic
+
+358
+00:24:49,645 --> 00:24:53,625
+Speaker 6:  skills so that if this technology isn't available to
+
+359
+00:24:53,625 --> 00:24:57,185
+Speaker 6:  you, you still have your basic skills and then from there you can only do
+
+360
+00:24:57,185 --> 00:24:58,145
+Speaker 6:  better when you have it.
+
+361
+00:24:58,525 --> 00:25:00,345
+Speaker 2:  That's a really beautiful point.
+
+362
+00:25:01,325 --> 00:25:05,195
+Speaker 6:  One instance we had talked about in the
+
+363
+00:25:05,195 --> 00:25:09,155
+Speaker 6:  email how it benefited me getting to and from Guide Dog School,
+
+364
+00:25:09,475 --> 00:25:13,235
+Speaker 6:  I use an app called Soundscape on my phone. I
+
+365
+00:25:13,255 --> 00:25:17,195
+Speaker 6:  use that when I travel in unknown locations and it gives me an
+
+366
+00:25:17,585 --> 00:25:21,435
+Speaker 6:  audible description of what's around me as far as a
+
+367
+00:25:21,515 --> 00:25:25,115
+Speaker 6:  GPS and having the wonderful audio
+
+368
+00:25:25,175 --> 00:25:28,395
+Speaker 6:  coming above my ear. It's subtle,
+
+369
+00:25:28,975 --> 00:25:32,835
+Speaker 6:  it doesn't take away from my awareness around me.
+
+370
+00:25:33,575 --> 00:25:37,475
+Speaker 6:  So I can use that to get into the airport. I can interface
+
+371
+00:25:37,625 --> 00:25:41,435
+Speaker 6:  with an escort to get me to the ticketing counter. When I
+
+372
+00:25:41,435 --> 00:25:45,035
+Speaker 6:  landed in Newark, I didn't know who was picking me up
+
+373
+00:25:45,415 --> 00:25:49,315
+Speaker 6:  and it was easy just to tap on my glasses and answer the call coming
+
+374
+00:25:49,415 --> 00:25:53,155
+Speaker 6:  in rather than put all of my luggage down and answer.
+
+375
+00:25:53,395 --> 00:25:57,155
+Speaker 6:  I could just accept the call and connect
+
+376
+00:25:57,155 --> 00:26:00,875
+Speaker 6:  with the people. And when I got on campus, we have the
+
+377
+00:26:01,065 --> 00:26:04,995
+Speaker 6:  legendary coffee machine, it's in Braille
+
+378
+00:26:05,095 --> 00:26:08,995
+Speaker 6:  and it's also in text And I can't really read either. So using
+
+379
+00:26:09,015 --> 00:26:12,675
+Speaker 6:  the glasses to find out which brand of
+
+380
+00:26:12,995 --> 00:26:16,635
+Speaker 6:  caffeine I wanted for the morning made guide dog school a lot easier.
+
+381
+00:26:16,955 --> 00:26:20,755
+Speaker 6:  'cause we're 18 days of up at 5:00 AM
+
+382
+00:26:20,895 --> 00:26:24,595
+Speaker 6:  and going to bed at 10:00 PM and we're walking five, six miles
+
+383
+00:26:24,795 --> 00:26:28,115
+Speaker 6:  a day. Kind of need that energy and need the right energy.
+
+384
+00:26:29,345 --> 00:26:32,755
+Speaker 2:  Yeah, yeah. You know, caffeine should be
+
+385
+00:26:32,755 --> 00:26:36,315
+Speaker 2:  accessible to everybody who needs it regardless.
+
+386
+00:26:36,775 --> 00:26:40,755
+Speaker 2:  So what would you like for those of us who are
+
+387
+00:26:40,885 --> 00:26:44,725
+Speaker 2:  cited or perhaps skeptical of AI to better understand
+
+388
+00:26:44,895 --> 00:26:48,325
+Speaker 2:  about the experience that you've had? Like what is something that
+
+389
+00:26:49,045 --> 00:26:52,325
+Speaker 2:  everyone listening to this show should walk away and maybe
+
+390
+00:26:52,915 --> 00:26:54,925
+Speaker 2:  file away in their brains to, to think about?
+
+391
+00:26:56,125 --> 00:26:59,725
+Speaker 6:  I think with ai, people are looking for the negatives
+
+392
+00:26:59,935 --> 00:27:03,805
+Speaker 6:  right now. And I think we need to be open-minded to the
+
+393
+00:27:04,435 --> 00:27:08,245
+Speaker 6:  amazing things that it can offer us to improve
+
+394
+00:27:08,245 --> 00:27:11,805
+Speaker 6:  the human condition. I mean, if you look at what
+
+395
+00:27:11,975 --> 00:27:15,565
+Speaker 6:  Blind Life was like a hundred years ago or 150 years ago
+
+396
+00:27:15,705 --> 00:27:18,485
+Speaker 6:  before braille really became a thing,
+
+397
+00:27:19,655 --> 00:27:23,285
+Speaker 6:  being visually impaired meant a life of isolation and
+
+398
+00:27:23,285 --> 00:27:23,925
+Speaker 6:  loneliness.
+
+399
+00:27:25,885 --> 00:27:28,965
+Speaker 6:  I mean, having access to this evolving technology
+
+400
+00:27:29,865 --> 00:27:33,845
+Speaker 6:  allows us to be normal, to
+
+401
+00:27:33,845 --> 00:27:37,645
+Speaker 6:  live a life like everybody else, having access to
+
+402
+00:27:37,985 --> 00:27:41,645
+Speaker 6:  the same tech that everybody else has without it being special
+
+403
+00:27:42,105 --> 00:27:45,885
+Speaker 6:  or being something that sticks out like a sore
+
+404
+00:27:45,885 --> 00:27:49,725
+Speaker 6:  thumb. These are amazing things for us. I mean, to have
+
+405
+00:27:49,765 --> 00:27:52,685
+Speaker 6:  a visual interpreter that sits above my ears,
+
+406
+00:27:53,785 --> 00:27:57,445
+Speaker 6:  that's kind of a game changer. I mean, to
+
+407
+00:27:57,445 --> 00:28:00,525
+Speaker 6:  dismiss that as as a bad thing,
+
+408
+00:28:01,445 --> 00:28:05,125
+Speaker 6:  I, I'd really have to rethink that. I mean, there's so much wonderful that
+
+409
+00:28:05,265 --> 00:28:09,125
+Speaker 6:  can be harnessed from ai for those of us that don't have all
+
+410
+00:28:09,125 --> 00:28:12,845
+Speaker 6:  of our senses. I mean, you take the hearing
+
+411
+00:28:13,205 --> 00:28:14,485
+Speaker 6:  impaired community, having
+
+412
+00:28:16,005 --> 00:28:19,925
+Speaker 6:  somebody or having an AI interpret visually what somebody
+
+413
+00:28:19,925 --> 00:28:22,725
+Speaker 6:  is saying without sign language, that's also another
+
+414
+00:28:23,675 --> 00:28:27,565
+Speaker 6:  opportunity for AI to advance. So there's a lot of things
+
+415
+00:28:27,625 --> 00:28:31,365
+Speaker 6:  for the human condition to improve with AI rather than it being the
+
+416
+00:28:31,365 --> 00:28:32,205
+Speaker 6:  doomsday device.
+
+417
+00:28:33,125 --> 00:28:36,735
+Speaker 2:  Yeah, I, you know, I can also fall a little guilty
+
+418
+00:28:37,085 --> 00:28:41,015
+Speaker 2:  into the AI doism. I think it's good to hear about
+
+419
+00:28:41,875 --> 00:28:45,735
+Speaker 2:  the positive use cases because one thing that we're all having
+
+420
+00:28:45,735 --> 00:28:49,375
+Speaker 2:  trouble with is parsing what the AI tech
+
+421
+00:28:49,555 --> 00:28:53,495
+Speaker 2:  people or the, you know, Andy Jassy out here
+
+422
+00:28:53,495 --> 00:28:57,015
+Speaker 2:  with Amazon saying like, oh, you know, we're gonna reduce the workforce.
+
+423
+00:28:57,295 --> 00:29:00,895
+Speaker 2:  I mean that's, that's not a great thing for the CEO of Amazon to come out
+
+424
+00:29:00,895 --> 00:29:04,735
+Speaker 2:  and say, but I think sometimes it's hard to imagine how it fits
+
+425
+00:29:04,735 --> 00:29:08,535
+Speaker 2:  into our daily life. So I really wanna thank you for taking the time
+
+426
+00:29:08,755 --> 00:29:12,375
+Speaker 2:  not only to like call me out to think in a different way. I deeply
+
+427
+00:29:12,405 --> 00:29:16,375
+Speaker 2:  appreciated that, but also just to like challenge us all to think
+
+428
+00:29:16,375 --> 00:29:20,055
+Speaker 2:  about how it can fit into to daily life. And
+
+429
+00:29:20,455 --> 00:29:23,895
+Speaker 2:  I am so deeply thankful that, you know, you were able to share
+
+430
+00:29:24,365 --> 00:29:28,335
+Speaker 2:  your slice of, of this experience with us and so that we can maybe
+
+431
+00:29:28,335 --> 00:29:31,935
+Speaker 2:  think more creatively because it is very popular
+
+432
+00:29:32,275 --> 00:29:36,215
+Speaker 2:  and sometimes very funny to make jokes about how AI is going to
+
+433
+00:29:36,215 --> 00:29:39,975
+Speaker 2:  kill us all or steal up our job. So, you know, I think this is an important
+
+434
+00:29:39,975 --> 00:29:41,525
+Speaker 2:  conversation to have too.
+
+435
+00:29:42,115 --> 00:29:42,405
+Speaker 4:  It's
+
+436
+00:29:42,405 --> 00:29:46,245
+Speaker 6:  Also funny to joke around with the ai, we have two dogs in
+
+437
+00:29:46,245 --> 00:29:49,805
+Speaker 6:  our home. One is a nine pound black and white chihuahua.
+
+438
+00:29:50,345 --> 00:29:54,205
+Speaker 6:  And I asked my AI to describe it and it described him as a cat.
+
+439
+00:29:54,425 --> 00:29:58,245
+Speaker 6:  And I tried to describe to my AI that in fact the
+
+440
+00:29:58,345 --> 00:30:02,205
+Speaker 6:  dog and my AI was arguing with me that says, it's obviously a cat,
+
+441
+00:30:02,225 --> 00:30:03,445
+Speaker 6:  you can tell by its ears.
+
+442
+00:33:24,645 --> 00:33:28,355
+Speaker 2:  We're back with Mike Buckley. He's the CEO of Be My Eyes. It's a service
+
+443
+00:33:28,355 --> 00:33:31,875
+Speaker 2:  that uses AI and live volunteers along with smart glasses and phones
+
+444
+00:33:32,335 --> 00:33:35,795
+Speaker 2:  to provide assistance to users who are blind or visually impaired.
+
+445
+00:33:36,685 --> 00:33:40,595
+Speaker 2:  Thank you so much for joining us here on The Vergecast. And
+
+446
+00:33:40,815 --> 00:33:44,755
+Speaker 2:  one of the reasons why I wanted to talk to you was smart glasses are a
+
+447
+00:33:45,025 --> 00:33:48,915
+Speaker 2:  huge rising trend in tech, wearable tech especially, And I
+
+448
+00:33:48,915 --> 00:33:52,835
+Speaker 2:  cover wearable tech, but one of the things we don't talk all
+
+449
+00:33:52,835 --> 00:33:56,675
+Speaker 2:  that much about is how it could be an assistive technology
+
+450
+00:33:56,735 --> 00:34:00,715
+Speaker 2:  as well. So was wondering if you could give our listeners kind
+
+451
+00:34:00,715 --> 00:34:04,395
+Speaker 2:  of a brief introduction into what Be My Eyes is and
+
+452
+00:34:04,575 --> 00:34:06,475
+Speaker 2:  how you found yourself with the company.
+
+453
+00:34:07,095 --> 00:34:10,905
+Speaker 7:  Awesome. Thanks for having me. So Be My Eyes was started by a
+
+454
+00:34:10,905 --> 00:34:14,785
+Speaker 7:  Danish furniture craftsman who was losing his eyesight and he was
+
+455
+00:34:14,785 --> 00:34:18,625
+Speaker 7:  pissed off because there were times when his family and
+
+456
+00:34:18,625 --> 00:34:22,185
+Speaker 7:  friends weren't around to kind of help him with sight needs as his
+
+457
+00:34:22,185 --> 00:34:25,705
+Speaker 7:  eyesight was deteriorating. So he invented this app
+
+458
+00:34:26,015 --> 00:34:29,745
+Speaker 7:  whereby through one touch of a button, someone who's blind or low
+
+459
+00:34:29,745 --> 00:34:33,585
+Speaker 7:  vision can be seamlessly connected to a sighted
+
+460
+00:34:33,585 --> 00:34:37,425
+Speaker 7:  volunteer on a one-way video, two-way audio call,
+
+461
+00:34:37,425 --> 00:34:41,265
+Speaker 7:  right? So the sighted volunteer can see outside the back of
+
+462
+00:34:41,265 --> 00:34:44,825
+Speaker 7:  your smartphone and that volunteer can help with anything like,
+
+463
+00:34:45,205 --> 00:34:49,185
+Speaker 7:  is this the tomato soup? Does this shirt match my pants? Am I at the
+
+464
+00:34:49,185 --> 00:34:52,905
+Speaker 7:  right airport gate? And after the first week of the apps launch, there were
+
+465
+00:34:52,925 --> 00:34:56,625
+Speaker 7:  10,000 people on it. And if you fast forward to today,
+
+466
+00:34:57,195 --> 00:35:00,745
+Speaker 7:  there are about 900,000 blind and low vision users
+
+467
+00:35:01,165 --> 00:35:05,025
+Speaker 7:  and astonishing 8.8 million volunteers, which
+
+468
+00:35:05,065 --> 00:35:08,785
+Speaker 7:  I think is the largest online volunteer army in the world and the second
+
+469
+00:35:08,785 --> 00:35:12,385
+Speaker 7:  largest volunteer army period after the Red Cross.
+
+470
+00:35:12,965 --> 00:35:16,585
+Speaker 7:  And we operate in 150 countries in 180 languages.
+
+471
+00:35:16,885 --> 00:35:20,625
+Speaker 7:  And what I like to say about this is hands our founder,
+
+472
+00:35:21,285 --> 00:35:24,505
+Speaker 7:  he successfully merged technology with human kindness
+
+473
+00:35:25,035 --> 00:35:29,025
+Speaker 7:  right to solve a societal need. And if you
+
+474
+00:35:29,025 --> 00:35:32,265
+Speaker 7:  fast forward from the inception in 2015 to about
+
+475
+00:35:32,285 --> 00:35:36,025
+Speaker 7:  2022, we started talking a lot about artificial
+
+476
+00:35:36,025 --> 00:35:39,965
+Speaker 7:  intelligence under a belief that AI could have very
+
+477
+00:35:39,995 --> 00:35:43,965
+Speaker 7:  serious benefit for people who are blind or have low vision in
+
+478
+00:35:43,965 --> 00:35:47,605
+Speaker 7:  terms of visual interpretation. And so we were an alpha launch
+
+479
+00:35:47,605 --> 00:35:51,445
+Speaker 7:  partner of Open AI way back in, in the
+
+480
+00:35:51,445 --> 00:35:55,205
+Speaker 7:  spring of 2023, which seems like 10 years ago at this point, given
+
+481
+00:35:55,305 --> 00:35:56,445
+Speaker 7:  all the AI developments.
+
+482
+00:35:56,625 --> 00:35:57,365
+Speaker 2:  Oh it really does.
+
+483
+00:35:57,745 --> 00:36:01,445
+Speaker 7:  But now we do more than 3 million AI sessions a month
+
+484
+00:36:01,785 --> 00:36:05,005
+Speaker 7:  of visual interpretation where the blind or low vision consumer
+
+485
+00:36:05,585 --> 00:36:08,925
+Speaker 7:  can literally take a picture of just about anything and get very fast
+
+486
+00:36:09,105 --> 00:36:12,925
+Speaker 7:  interpretation. Fascinatingly, even though
+
+487
+00:36:12,945 --> 00:36:16,845
+Speaker 7:  the AI sessions have gone through the roof, we've also seen that
+
+488
+00:36:16,845 --> 00:36:20,565
+Speaker 7:  the calls to human volunteers have also gone up. And So
+
+489
+00:36:20,815 --> 00:36:24,365
+Speaker 7:  there is this thirst, I think still for human connection
+
+490
+00:36:25,065 --> 00:36:29,005
+Speaker 7:  as well as a thirst for consumption under an AI model. And, and as
+
+491
+00:36:29,005 --> 00:36:32,485
+Speaker 7:  long as the user kind of has a choice of either, either kind, we like that.
+
+492
+00:36:32,665 --> 00:36:36,605
+Speaker 7:  But that's what be My Eyes is, and all of that is free for the blind
+
+493
+00:36:36,605 --> 00:36:40,485
+Speaker 7:  or low vision consumer. And we pay the bills by using this product
+
+494
+00:36:41,025 --> 00:36:44,965
+Speaker 7:  and selling it to enterprises for great customer service, for blind and low
+
+495
+00:36:44,965 --> 00:36:48,565
+Speaker 7:  vision consumers and for workplace accessibility. So people can use Be My
+
+496
+00:36:48,565 --> 00:36:52,525
+Speaker 7:  Eyes at work or people through our app can call a bunch of
+
+497
+00:36:52,525 --> 00:36:56,325
+Speaker 7:  our customers through one touch of a button and get seamlessly connected
+
+498
+00:36:56,325 --> 00:37:00,165
+Speaker 7:  to customer service, but with the benefits of AI or enhanced
+
+499
+00:37:00,175 --> 00:37:02,205
+Speaker 7:  video. So that's how we pay the bills.
+
+500
+00:37:03,025 --> 00:37:07,005
+Speaker 2:  That's pretty fascinating that users can choose between whether they wanna
+
+501
+00:37:07,365 --> 00:37:11,045
+Speaker 2:  interact with an AI in a particular circumstances or with humans.
+
+502
+00:37:11,195 --> 00:37:15,005
+Speaker 2:  Have you gotten any feedback about like what scenarios
+
+503
+00:37:15,005 --> 00:37:16,725
+Speaker 2:  they might prefer? One or the other?
+
+504
+00:37:17,345 --> 00:37:21,205
+Speaker 7:  You know, it's, it, it varies. It's very individual based, but there are
+
+505
+00:37:21,285 --> 00:37:24,885
+Speaker 7:  a couple of common themes. Like I talked to a woman who
+
+506
+00:37:25,515 --> 00:37:29,125
+Speaker 7:  said she's using the AI in our house more often
+
+507
+00:37:29,435 --> 00:37:32,805
+Speaker 7:  when she hasn't cleaned up, right? Because she doesn't want someone to see
+
+508
+00:37:32,805 --> 00:37:36,565
+Speaker 7:  like that her kitchen's messy. You know, I think that there's also
+
+509
+00:37:36,685 --> 00:37:40,325
+Speaker 7:  a repo, you know, a group of people who are blind and low vision who just
+
+510
+00:37:40,325 --> 00:37:44,085
+Speaker 7:  appreciate the human interaction. One of the unfortunate realities of people
+
+511
+00:37:44,085 --> 00:37:47,965
+Speaker 7:  with sight loss is that there are higher rates of loneliness and
+
+512
+00:37:47,965 --> 00:37:51,525
+Speaker 7:  higher rates of depression and higher rates of mental health. And so having
+
+513
+00:37:51,525 --> 00:37:55,325
+Speaker 7:  that human connection can be quite meaningful for people sometimes.
+
+514
+00:37:56,125 --> 00:37:59,925
+Speaker 7:  I think there is also, like sometimes people can be better than ai and
+
+515
+00:37:59,925 --> 00:38:03,605
+Speaker 7:  other times AI can be better than people, right? Like if you call me up
+
+516
+00:38:04,105 --> 00:38:07,885
+Speaker 7:  and ask me about, you know, something super technical,
+
+517
+00:38:08,105 --> 00:38:11,685
+Speaker 7:  you know, a router's broken, I'm probably not gonna be very effective.
+
+518
+00:38:11,985 --> 00:38:15,485
+Speaker 7:  But the AI will probably have an answer really quickly. And so I think that
+
+519
+00:38:15,485 --> 00:38:19,085
+Speaker 7:  there's a lot of trial and error going on and most consumers
+
+520
+00:38:19,265 --> 00:38:20,005
+Speaker 7:  are using both.
+
+521
+00:38:20,595 --> 00:38:24,125
+Speaker 2:  It's very nice to hear actually that the volunteers are still
+
+522
+00:38:24,715 --> 00:38:28,525
+Speaker 2:  requested and wanted because the narrative with AI
+
+523
+00:38:28,775 --> 00:38:32,485
+Speaker 2:  often is that it's one scary two, that it's going to take jobs
+
+524
+00:38:32,595 --> 00:38:36,325
+Speaker 2:  away. And I mean, these are volunteers, but it's still people who
+
+525
+00:38:36,325 --> 00:38:39,925
+Speaker 2:  meaningfully are giving up their time to do something nice. So
+
+526
+00:38:40,435 --> 00:38:44,245
+Speaker 2:  it's very kind of reassuring to hear that this isn't maybe
+
+527
+00:38:44,565 --> 00:38:48,485
+Speaker 2:  a case where it's either or, it's either and is that
+
+528
+00:38:48,485 --> 00:38:52,045
+Speaker 2:  the right way to say it? Like it's, it's an and situation, not an OR situation
+
+529
+00:38:53,105 --> 00:38:56,205
+Speaker 7:  As of right now, yes. I mean, who knows really what the future
+
+530
+00:38:56,895 --> 00:39:00,285
+Speaker 7:  holds for us, right? As these systems become more sophisticated. And
+
+531
+00:39:01,325 --> 00:39:04,645
+Speaker 7:  I think it's just about every day now where we hear about someone
+
+532
+00:39:05,165 --> 00:39:08,485
+Speaker 7:  interacting with AI as though it was human. And that's, you know, good or
+
+533
+00:39:08,485 --> 00:39:11,485
+Speaker 7:  bad, I'm, I'm gonna weave the value judgments to somebody else at the moment.
+
+534
+00:39:12,105 --> 00:39:15,325
+Speaker 7:  But we did, like I remember telling our board of directors that
+
+535
+00:39:16,025 --> 00:39:19,885
+Speaker 7:  we may put the kind of volunteer product out of business through the adoption
+
+536
+00:39:19,885 --> 00:39:23,525
+Speaker 7:  of AI hasn't happened. But as of right now, it is an and
+
+537
+00:39:23,585 --> 00:39:24,645
+Speaker 7:  rather than an or.
+
+538
+00:39:25,635 --> 00:39:29,205
+Speaker 2:  Yeah. I mean, to be fair, if I wanted to ask someone if something matches,
+
+539
+00:39:29,205 --> 00:39:33,045
+Speaker 2:  like if my shirt matches my pants, I think I would trust a human a
+
+540
+00:39:33,045 --> 00:39:36,525
+Speaker 2:  little bit more than an ai, but, well, I guess we'll see how that
+
+541
+00:39:36,555 --> 00:39:39,725
+Speaker 2:  evolves. But, so one thing I've, I I
+
+542
+00:39:39,915 --> 00:39:43,205
+Speaker 7:  Just, as long as you're not asking me me about fashion, because I, I'll,
+
+543
+00:39:43,745 --> 00:39:47,565
+Speaker 2:  You know what, fair, but let's say, you know, this really
+
+544
+00:39:47,565 --> 00:39:51,485
+Speaker 2:  kind of depends on a camera, right? So I'm just curious, you mentioned
+
+545
+00:39:51,485 --> 00:39:55,085
+Speaker 2:  that obviously this works with a smartphone, that's a pretty mobile
+
+546
+00:39:55,825 --> 00:39:59,805
+Speaker 2:  device that's easy for people to carry around. It's super ubiquitous. Are
+
+547
+00:39:59,805 --> 00:40:02,645
+Speaker 2:  there any other types of gadgets that this works on?
+
+548
+00:40:03,075 --> 00:40:06,925
+Speaker 7:  Look, of course, you know, smart glasses, right? Right, right.
+
+549
+00:40:07,035 --> 00:40:10,845
+Speaker 7:  It's a huge and growing market for us. And think about this
+
+550
+00:40:10,845 --> 00:40:14,125
+Speaker 7:  from the perspective of the blind or low vision consumer.
+
+551
+00:40:14,745 --> 00:40:18,285
+Speaker 7:  If I have to interact with my world just to get basic visual
+
+552
+00:40:18,315 --> 00:40:22,005
+Speaker 7:  information that's very different than using glasses. What are the glasses?
+
+553
+00:40:22,835 --> 00:40:26,235
+Speaker 7:  It's hands free, right? That's power,
+
+554
+00:40:26,725 --> 00:40:30,515
+Speaker 7:  right? That's power for the blinder low vision consumer. Imagine
+
+555
+00:40:30,575 --> 00:40:34,075
+Speaker 7:  if you're going to an airport and you have a piece of luggage in one hand
+
+556
+00:40:34,375 --> 00:40:38,325
+Speaker 7:  and a guide dog or a cane in the other hand as a blinder low vision,
+
+557
+00:40:39,075 --> 00:40:42,805
+Speaker 7:  what the hell do you do with your phone? Right? That's not a good
+
+558
+00:40:42,805 --> 00:40:46,605
+Speaker 7:  experience. So using glasses or a wearable of any
+
+559
+00:40:46,605 --> 00:40:50,445
+Speaker 7:  kind, but obviously The Ray Band Meta glasses have been a, a, a complete
+
+560
+00:40:50,555 --> 00:40:54,085
+Speaker 7:  game changer for so many members of the blind and low vision community. Those
+
+561
+00:40:54,085 --> 00:40:57,485
+Speaker 7:  glasses are power and freedom, independence,
+
+562
+00:40:57,935 --> 00:41:01,845
+Speaker 7:  speed, right? For a large section of humanity. And by the way,
+
+563
+00:41:02,105 --> 00:41:06,045
+Speaker 7:  the second you think about, you know, oh, you hear blind and low vision,
+
+564
+00:41:06,155 --> 00:41:10,125
+Speaker 7:  it's not about you, it's about all of us, right? There are over
+
+565
+00:41:10,125 --> 00:41:13,765
+Speaker 7:  300 million people globally who are blind or have low vision. And the World
+
+566
+00:41:13,765 --> 00:41:17,645
+Speaker 7:  Health Organization indicates that this number may double by 2050 because
+
+567
+00:41:17,705 --> 00:41:20,925
+Speaker 7:  of macular degeneration, increased rates of diabetes,
+
+568
+00:41:21,725 --> 00:41:25,685
+Speaker 7:  aging population, growing populations generally. And so the fact that you
+
+569
+00:41:25,685 --> 00:41:29,525
+Speaker 7:  can have a wearable that frees up your hands is a, a
+
+570
+00:41:29,635 --> 00:41:33,565
+Speaker 7:  true game changing step function, right? So we have
+
+571
+00:41:33,645 --> 00:41:37,205
+Speaker 7:  a very strong belief that smart glasses
+
+572
+00:41:37,585 --> 00:41:41,365
+Speaker 7:  and, and working with Meta will not only help for sort of personal and
+
+573
+00:41:41,365 --> 00:41:44,485
+Speaker 7:  human use cases, but also for employment use cases. And
+
+574
+00:41:45,335 --> 00:41:48,965
+Speaker 7:  we're about to start a pilot with a Fortune 20 company on this front very
+
+575
+00:41:48,965 --> 00:41:50,685
+Speaker 7:  soon. I cannot use their name yet though.
+
+576
+00:41:51,275 --> 00:41:55,165
+Speaker 2:  Okay. Well, you know, thank you for the hint. We'll keep an eye out for
+
+577
+00:41:55,165 --> 00:41:58,885
+Speaker 2:  that. But you know, I actually am someone with very
+
+578
+00:41:59,075 --> 00:42:03,005
+Speaker 2:  poor eyesight like thanks parents and genetics, but like
+
+579
+00:42:03,165 --> 00:42:06,525
+Speaker 2:  I have extreme astigmatism and even I am at the point where I'm starting
+
+580
+00:42:06,525 --> 00:42:10,485
+Speaker 2:  to use accessibility settings on my phone just so I can read things
+
+581
+00:42:10,485 --> 00:42:14,405
+Speaker 2:  easier. So I don't, I don't remember a life without glasses. To me
+
+582
+00:42:14,625 --> 00:42:17,485
+Speaker 2:  having smart glasses seems like a very natural
+
+583
+00:42:18,395 --> 00:42:22,325
+Speaker 2:  evolution about it. So I guess one question I have was, was it
+
+584
+00:42:22,325 --> 00:42:25,485
+Speaker 2:  always obvious to you that Smart Glasses was kind of the next
+
+585
+00:42:26,115 --> 00:42:29,645
+Speaker 2:  kind of frontier for your product and your service? Because,
+
+586
+00:42:30,225 --> 00:42:34,045
+Speaker 2:  you know, we, we tried Smart Glasses 10, 12 years ago with Google Glass
+
+587
+00:42:34,105 --> 00:42:37,685
+Speaker 2:  and that was, that was a big no-no for a lot of people. So just curious,
+
+588
+00:42:38,035 --> 00:42:41,925
+Speaker 2:  with the Meta Ray bands, was that a really obvious partnership to you where
+
+589
+00:42:41,925 --> 00:42:45,525
+Speaker 2:  you guys like, Hey, we heard you're making this, why, why haven't you
+
+590
+00:42:45,525 --> 00:42:46,285
+Speaker 2:  contacted us?
+
+591
+00:42:46,885 --> 00:42:50,205
+Speaker 7:  I can't say it was obvious because you And I lived through
+
+592
+00:42:50,535 --> 00:42:54,125
+Speaker 7:  glass holes, right? We, we, we remember that like
+
+593
+00:42:54,425 --> 00:42:58,045
+Speaker 7:  at a certain point though, we kind of saw people in our
+
+594
+00:42:58,075 --> 00:43:01,925
+Speaker 7:  community starting to use these things before we even
+
+595
+00:43:01,925 --> 00:43:05,645
+Speaker 7:  had an integration and there was some Hope Express. So
+
+596
+00:43:06,465 --> 00:43:09,565
+Speaker 7:  no, it wasn't obvious, but it became apparent over time.
+
+597
+00:43:10,265 --> 00:43:13,805
+Speaker 7:  And how the partnership came about was is, you know, I contacted Meta
+
+598
+00:43:14,545 --> 00:43:18,405
+Speaker 7:  And I was not really having success. And then, but then finally I
+
+599
+00:43:18,405 --> 00:43:21,765
+Speaker 7:  got through to Andrew Bosworth, the Meta CTO,
+
+600
+00:43:22,305 --> 00:43:26,285
+Speaker 7:  and he got it immediately and he helped make it happen. And so
+
+601
+00:43:27,065 --> 00:43:30,605
+Speaker 7:  we contacted them, but to his credit, Andrew Boz
+
+602
+00:43:31,155 --> 00:43:34,405
+Speaker 7:  said, yeah, we have to do this. And it's, it's been a great partnership ever
+
+603
+00:43:34,405 --> 00:43:34,685
+Speaker 7:  since.
+
+604
+00:43:35,425 --> 00:43:37,165
+Speaker 2:  So how does the integration work?
+
+605
+00:43:38,265 --> 00:43:41,205
+Speaker 7:  So we basically have built things on the backend
+
+606
+00:43:42,125 --> 00:43:45,965
+Speaker 7:  engineer to engineer at both companies where you can actually call
+
+607
+00:43:46,245 --> 00:43:49,925
+Speaker 7:  a human volunteer through the Meta glasses. And we're talking about more
+
+608
+00:43:50,125 --> 00:43:53,485
+Speaker 7:  advanced integration now of AI functionality, customer service
+
+609
+00:43:53,935 --> 00:43:57,845
+Speaker 7:  group calling a whole bunch of other things. Again, under that belief that
+
+610
+00:43:57,955 --> 00:44:01,845
+Speaker 7:  this is power for the community, number one, right? And independence.
+
+611
+00:44:02,105 --> 00:44:05,965
+Speaker 7:  And second, that the consumer needs to be given a choice as to
+
+612
+00:44:06,025 --> 00:44:09,685
+Speaker 7:  how they want to access visual information. That may be AI sometimes,
+
+613
+00:44:10,065 --> 00:44:13,685
+Speaker 7:  or it may be a human sometimes. So we're, we're looking at enabling both.
+
+614
+00:44:14,185 --> 00:44:18,125
+Speaker 2:  That's pretty cool. So fun factor, it wasn't necessarily
+
+615
+00:44:18,305 --> 00:44:22,085
+Speaker 2:  an obvious use case for me either. I was actually testing
+
+616
+00:44:22,985 --> 00:44:26,925
+Speaker 2:  the live AI and the multimodal AI beta when it came
+
+617
+00:44:26,985 --> 00:44:30,605
+Speaker 2:  out earlier this year. And I was kind of, I have to admit I was a little
+
+618
+00:44:30,605 --> 00:44:34,405
+Speaker 2:  flippant. I, I said something along the lines in my writeup
+
+619
+00:44:34,535 --> 00:44:38,165
+Speaker 2:  about how like, okay, who, who needs this caption obvious
+
+620
+00:44:38,435 --> 00:44:42,285
+Speaker 2:  description? 'cause even though my eyes are bad, I can still see
+
+621
+00:44:43,195 --> 00:44:47,165
+Speaker 2:  with corrective very strong corrective lenses. And I actually heard
+
+622
+00:44:47,405 --> 00:44:51,205
+Speaker 2:  a lot from our readers and people in the blind and
+
+623
+00:44:51,205 --> 00:44:55,045
+Speaker 2:  low vision community, which is one reason why I'm reaching out now to be
+
+624
+00:44:55,045 --> 00:44:58,925
+Speaker 2:  like, actually this is life changing for us. This is game changing for us.
+
+625
+00:44:58,975 --> 00:45:02,845
+Speaker 2:  Don't discount us here. So this is my penance talking to you guys.
+
+626
+00:45:03,545 --> 00:45:07,045
+Speaker 2:  I'm just curious like how you view something like
+
+627
+00:45:08,215 --> 00:45:11,925
+Speaker 2:  multimodal AI from the sense of like, it creates
+
+628
+00:45:12,025 --> 00:45:15,925
+Speaker 2:  its own challenges, right? It's very power intensive, it's
+
+629
+00:45:15,925 --> 00:45:19,845
+Speaker 2:  very draining on the battery. Have you guys put
+
+630
+00:45:19,845 --> 00:45:23,765
+Speaker 2:  any thought as to how you're gonna adapt your particular services to
+
+631
+00:45:23,795 --> 00:45:27,725
+Speaker 2:  accommodate something that's so new and so power hungry and
+
+632
+00:45:28,305 --> 00:45:32,005
+Speaker 2:  you know, is possibly prone to hallucinating things? Like
+
+633
+00:45:32,305 --> 00:45:34,405
+Speaker 2:  how, how do you approach that challenge as well?
+
+634
+00:45:35,975 --> 00:45:39,375
+Speaker 7:  I look full speed ahead and you have to give the consumer the choice, right?
+
+635
+00:45:39,405 --> 00:45:42,775
+Speaker 7:  Like there's no doubt that live interpretation
+
+636
+00:45:43,435 --> 00:45:47,135
+Speaker 7:  of one's environment is powerful, important and
+
+637
+00:45:47,135 --> 00:45:51,055
+Speaker 7:  necessary. That doesn't mean it's perfect, right? And whether
+
+638
+00:45:51,055 --> 00:45:55,015
+Speaker 7:  it's a hallucination or whether it's my favorite test to do with
+
+639
+00:45:55,015 --> 00:45:58,855
+Speaker 7:  live AI is if you hold your hand out and then count your fingers down and
+
+640
+00:45:58,855 --> 00:46:02,455
+Speaker 7:  ask it to tell you what's going on, it doesn't tell you it's counting. So
+
+641
+00:46:02,455 --> 00:46:06,415
+Speaker 7:  there's still latency, right? There's a, there's a lag between what the camera
+
+642
+00:46:06,875 --> 00:46:10,695
+Speaker 7:  is able to interpret and what the AI is able to interpret in, in terms
+
+643
+00:46:10,695 --> 00:46:14,575
+Speaker 7:  of what's going on. But the future is really, really
+
+644
+00:46:14,595 --> 00:46:17,735
+Speaker 7:  bright here, right? Real time will eventually become
+
+645
+00:46:18,615 --> 00:46:22,215
+Speaker 7:  actually real time, which will have transformative power
+
+646
+00:46:22,515 --> 00:46:26,375
+Speaker 7:  in terms of use cases. Like think about navigation, right? Think about
+
+647
+00:46:26,375 --> 00:46:30,215
+Speaker 7:  getting around an airport, think about obstacles right as you walk
+
+648
+00:46:30,215 --> 00:46:33,975
+Speaker 7:  along in the street, all of that is coming. I mean, Meta is already
+
+649
+00:46:34,075 --> 00:46:37,855
+Speaker 7:  demoed. Orion glasses, which is a whole separate and wild
+
+650
+00:46:38,265 --> 00:46:41,855
+Speaker 7:  capability, but combining that with kind of live AI
+
+651
+00:46:42,615 --> 00:46:46,055
+Speaker 7:  I think is again, potentially transformative. I would also say that
+
+652
+00:46:46,985 --> 00:46:50,885
+Speaker 7:  as a a, a sighted person, I had the same initial reaction
+
+653
+00:46:50,885 --> 00:46:54,245
+Speaker 7:  you did about, oh, what do I need? Kind of the live interpretation. And then
+
+654
+00:46:54,725 --> 00:46:58,445
+Speaker 7:  I was wearing my Meta glasses when I was walking around to city
+
+655
+00:46:58,805 --> 00:47:02,485
+Speaker 7:  with a bunch of historical landmarks And I just kept saying, Hey Meta,
+
+656
+00:47:03,075 --> 00:47:06,405
+Speaker 7:  what is this? You know? And it told me what it was And I said, what's the
+
+657
+00:47:06,405 --> 00:47:10,125
+Speaker 7:  historical significance? Tell me more about the year or the, the architect
+
+658
+00:47:10,145 --> 00:47:14,125
+Speaker 7:  or the artist. And it was, it was like lovely, right? And it
+
+659
+00:47:14,125 --> 00:47:17,885
+Speaker 7:  was lovely to have my phone in my pocket and not be searching
+
+660
+00:47:17,885 --> 00:47:21,565
+Speaker 7:  around for information that way. And so I do think that we're
+
+661
+00:47:21,565 --> 00:47:25,245
+Speaker 7:  literally at the cusp the very early stages of
+
+662
+00:47:25,355 --> 00:47:27,925
+Speaker 7:  exploring the utility of this technology.
+
+663
+00:47:28,355 --> 00:47:31,485
+Speaker 2:  Yeah, for sure. Sure. And like, it seems like there's a lot of different
+
+664
+00:47:31,485 --> 00:47:34,685
+Speaker 2:  takes on smart glasses, obviously. I think for
+
+665
+00:47:35,555 --> 00:47:38,965
+Speaker 2:  your service to work it requires a camera. But
+
+666
+00:47:39,645 --> 00:47:43,525
+Speaker 2:  I guess, yes. Do you think that the smart glasses
+
+667
+00:47:43,785 --> 00:47:47,405
+Speaker 2:  in general, provided they have a camera in there that could be the
+
+668
+00:47:47,645 --> 00:47:50,805
+Speaker 2:  kind of ideal form factor for
+
+669
+00:47:51,395 --> 00:47:55,165
+Speaker 2:  your tech? And are there other companies you're kind of
+
+670
+00:47:55,165 --> 00:47:57,925
+Speaker 2:  thinking about working with that you can talk about? Yeah,
+
+671
+00:47:58,235 --> 00:48:02,125
+Speaker 7:  Look, yeah, it, it, it's certainly plausible that this will be the
+
+672
+00:48:02,125 --> 00:48:05,805
+Speaker 7:  form factor of wearable that wins, right? Who knows.
+
+673
+00:48:05,985 --> 00:48:09,405
+Speaker 7:  But like, you know, what if I have a necklace
+
+674
+00:48:09,995 --> 00:48:13,525
+Speaker 7:  that can do the same thing And I don't wanna wear glasses all the time, like
+
+675
+00:48:13,525 --> 00:48:17,165
+Speaker 7:  maybe that's gonna win. Like, you know, you know, there were all these rumors
+
+676
+00:48:17,175 --> 00:48:20,685
+Speaker 7:  about wood, apple or somebody else put a camera in the
+
+677
+00:48:20,715 --> 00:48:24,285
+Speaker 7:  earbuds. I don't think that's happening anytime soon, but it's kind of
+
+678
+00:48:24,765 --> 00:48:27,565
+Speaker 7:  interesting conceptually, right? But then I have to have something in my
+
+679
+00:48:27,565 --> 00:48:31,445
+Speaker 7:  ears all day. Is that what I wanna do? So I I don't think we really know,
+
+680
+00:48:32,265 --> 00:48:36,165
+Speaker 7:  you know, the form factor that's gonna win out at the end. I will say that
+
+681
+00:48:36,165 --> 00:48:39,925
+Speaker 7:  in the current market, glasses are the best, right? And,
+
+682
+00:48:40,025 --> 00:48:43,885
+Speaker 7:  and Meta has the best product. Now is Google gonna come?
+
+683
+00:48:44,185 --> 00:48:48,125
+Speaker 7:  Is Apple gonna come? Are there like eight startups that are
+
+684
+00:48:48,125 --> 00:48:52,035
+Speaker 7:  working on this too? Sure. And who knows what, like Joni, ive
+
+685
+00:48:52,035 --> 00:48:55,555
+Speaker 7:  and Sam are gonna build over at OpenAI, right? Although people are
+
+686
+00:48:55,555 --> 00:48:58,755
+Speaker 7:  suggesting they don't think it's glasses, but who knows? I do think that
+
+687
+00:48:58,815 --> 00:49:02,755
+Speaker 7:  in the near term, the market for the people in, in
+
+688
+00:49:02,755 --> 00:49:05,755
+Speaker 7:  the community that we represent the blind and low vision, it's certainly
+
+689
+00:49:05,755 --> 00:49:09,555
+Speaker 7:  the best form factor and, and has a incredible potential.
+
+690
+00:49:09,935 --> 00:49:13,915
+Speaker 7:  And, and of course, you know, we're willing to work with just about anybody
+
+691
+00:49:13,915 --> 00:49:16,955
+Speaker 7:  and everybody, but I, I will always have a soft spot for Meta because
+
+692
+00:49:17,945 --> 00:49:21,835
+Speaker 7:  Meta said yes to us and, and they worked with us. And,
+
+693
+00:49:21,935 --> 00:49:25,795
+Speaker 7:  and by the way they did that, you know, without asking for a lot of credit
+
+694
+00:49:26,095 --> 00:49:29,755
+Speaker 7:  and without like trumpeting it in, in a, in a way that was kind of
+
+695
+00:49:30,115 --> 00:49:34,075
+Speaker 7:  artificial or let, let's just say Meta put in a lot of human hours
+
+696
+00:49:34,175 --> 00:49:36,435
+Speaker 7:  in doing this while no one was looking.
+
+697
+00:49:37,475 --> 00:49:41,355
+Speaker 2:  I feel like you are right that it was pretty a low key in
+
+698
+00:49:41,355 --> 00:49:45,115
+Speaker 2:  terms of the overall overarching messaging
+
+699
+00:49:45,115 --> 00:49:48,995
+Speaker 2:  because for better or worse we are always kind of
+
+700
+00:49:49,235 --> 00:49:52,995
+Speaker 2:  catering to the mass market. And this kind of feels a little bit
+
+701
+00:49:53,505 --> 00:49:56,595
+Speaker 2:  like an oversight. But I do think,
+
+702
+00:49:57,335 --> 00:50:01,035
+Speaker 2:  you know, this was kind of a use case that I saw mentioned for Android
+
+703
+00:50:01,295 --> 00:50:05,115
+Speaker 2:  XR in the Google IO keynote. Was that something that you
+
+704
+00:50:05,425 --> 00:50:08,675
+Speaker 2:  gued to, have you seen like other
+
+705
+00:50:09,235 --> 00:50:12,595
+Speaker 2:  companies talking about this to you guys? Have you seen like any increase
+
+706
+00:50:12,615 --> 00:50:16,235
+Speaker 2:  in outreach from people interested in this technology? Or is it just
+
+707
+00:50:16,335 --> 00:50:18,835
+Speaker 2:  mostly been this one main partnership so far?
+
+708
+00:50:19,735 --> 00:50:23,475
+Speaker 7:  No, I mean it's a growing market and we've been contacted by everybody
+
+709
+00:50:23,535 --> 00:50:27,035
+Speaker 7:  on some level, you know, and so of course we've talked with Google and
+
+710
+00:50:27,415 --> 00:50:30,525
+Speaker 7:  we've talked with Apple for years about a whole host of things and there
+
+711
+00:50:30,525 --> 00:50:34,205
+Speaker 7:  are some integrations that we have on the, you know, apple Vision Pro.
+
+712
+00:50:34,585 --> 00:50:38,325
+Speaker 7:  And it suffice it to say like, we're getting more calls than ever,
+
+713
+00:50:38,735 --> 00:50:42,405
+Speaker 7:  which is great. I think it's gonna be interesting to see if what company
+
+714
+00:50:42,545 --> 00:50:46,045
+Speaker 7:  or group of companies solve some of the problems that you're talking about,
+
+715
+00:50:46,045 --> 00:50:49,645
+Speaker 7:  right? Whether it's battery life, right? Whether it's, you know,
+
+716
+00:50:49,735 --> 00:50:53,525
+Speaker 7:  small form factor getting the cost down to a point like, like where
+
+717
+00:50:53,525 --> 00:50:56,965
+Speaker 7:  it's really great, like part of the, the remarkable thing
+
+718
+00:50:57,615 --> 00:51:01,605
+Speaker 7:  about the Met Raybans is that the price point is not
+
+719
+00:51:01,985 --> 00:51:05,805
+Speaker 7:  absurd, right? Right. Relative to a phone. And if you
+
+720
+00:51:05,805 --> 00:51:09,765
+Speaker 7:  look at like other assistive technology, you know, even the Google
+
+721
+00:51:09,765 --> 00:51:13,365
+Speaker 7:  glasses back in the day, there were thou they're often thousands of dollars.
+
+722
+00:51:13,945 --> 00:51:17,605
+Speaker 7:  And here's the reality, 70% of people who are blind or have low vision
+
+723
+00:51:17,945 --> 00:51:21,925
+Speaker 7:  are either unemployed or underemployed. So when you start talking
+
+724
+00:51:21,925 --> 00:51:25,685
+Speaker 7:  about $2,000 or $2,500 for a device, it's over,
+
+725
+00:51:25,815 --> 00:51:29,645
+Speaker 7:  right? It's not gonna work. But if you have a $300 device
+
+726
+00:51:29,645 --> 00:51:33,565
+Speaker 7:  or a $330 device that also doesn't charge you
+
+727
+00:51:33,565 --> 00:51:37,445
+Speaker 7:  monthly for kind of AI costs, that's a big
+
+728
+00:51:37,445 --> 00:51:41,245
+Speaker 7:  deal, right? And I can foresee a future in a not too distant
+
+729
+00:51:41,265 --> 00:51:45,165
+Speaker 7:  future where a government or a social service will
+
+730
+00:51:45,405 --> 00:51:49,085
+Speaker 7:  subsidize the cost of that hardware because they know it provides
+
+731
+00:51:49,085 --> 00:51:52,645
+Speaker 7:  substantive value to its citizens or to help facilitate
+
+732
+00:51:52,645 --> 00:51:56,245
+Speaker 7:  employment and power and independence that we've talked about before. And
+
+733
+00:51:56,245 --> 00:51:57,725
+Speaker 7:  so I think it's coming.
+
+734
+00:51:58,845 --> 00:52:02,375
+Speaker 2:  Yeah, I mean that would be wonderful if that that's the case. Like even I
+
+735
+00:52:02,375 --> 00:52:06,015
+Speaker 2:  know in a bunch of wearable tech, sometimes they are HSA or
+
+736
+00:52:06,055 --> 00:52:09,935
+Speaker 2:  FSA eligible and that really just helps with the accessibility and
+
+737
+00:52:10,115 --> 00:52:13,975
+Speaker 2:  for people who might need it. But along that thought process, you know, I
+
+738
+00:52:13,975 --> 00:52:17,855
+Speaker 2:  always say that accessible design is universal design because like, it's
+
+739
+00:52:17,855 --> 00:52:21,255
+Speaker 2:  a really important thing. I think we as tech reviewers could be a lot more
+
+740
+00:52:21,255 --> 00:52:25,095
+Speaker 2:  thoughtful about that when we evaluate products. But from
+
+741
+00:52:25,095 --> 00:52:29,015
+Speaker 2:  someone who is deeply in that space of, of kind
+
+742
+00:52:29,015 --> 00:52:32,775
+Speaker 2:  of developing accessible tech, thinking about how accessible tech needs to
+
+743
+00:52:32,775 --> 00:52:36,575
+Speaker 2:  go into the future as well. I'm wondering like what would you like
+
+744
+00:52:36,875 --> 00:52:40,535
+Speaker 2:  to see improved? We do, we do happen to have a lot of people who
+
+745
+00:52:40,675 --> 00:52:44,535
+Speaker 2:  are in the right rooms and the right spaces to make those improvements. Listening
+
+746
+00:52:44,535 --> 00:52:47,855
+Speaker 2:  to this podcast, I should think. So like what, what do you think
+
+747
+00:52:48,305 --> 00:52:51,935
+Speaker 2:  would be like massive areas of improvement that could
+
+748
+00:52:51,995 --> 00:52:55,655
+Speaker 2:  really make a huge benefit? Like whether it be design
+
+749
+00:52:56,175 --> 00:52:59,855
+Speaker 2:  engineering, just like how we're thinking about developing like smart glasses
+
+750
+00:53:00,075 --> 00:53:03,935
+Speaker 2:  or any other type of wearable device with a camera for this particular type
+
+751
+00:53:03,935 --> 00:53:04,535
+Speaker 2:  of technology.
+
+752
+00:53:05,655 --> 00:53:09,535
+Speaker 7:  I think it's, the thing that you alluded to is that like it
+
+753
+00:53:09,595 --> 00:53:13,495
+Speaker 7:  has to happen at the design stage. Like I'll give you
+
+754
+00:53:13,535 --> 00:53:17,375
+Speaker 7:  a perfect example of this. Years ago, whether it was
+
+755
+00:53:17,625 --> 00:53:21,495
+Speaker 7:  malls or banks or airports, everybody rolled out
+
+756
+00:53:21,525 --> 00:53:25,400
+Speaker 7:  some like touchscreen kiosk, right? Whether it, it was
+
+757
+00:53:25,400 --> 00:53:29,045
+Speaker 7:  an ATM or a hotel thing. Do you know who that sucks for
+
+758
+00:53:29,675 --> 00:53:33,245
+Speaker 7:  someone who's blind or low vision, it's completely useless.
+
+759
+00:53:33,665 --> 00:53:34,725
+Speaker 2:  Ah, yeah, yeah.
+
+760
+00:53:34,985 --> 00:53:38,125
+Speaker 7:  To do that. And now we're gonna solve a lot of these challenges in the near
+
+761
+00:53:38,125 --> 00:53:41,965
+Speaker 7:  term through voice interaction, right? Which has huge power and
+
+762
+00:53:41,965 --> 00:53:45,765
+Speaker 7:  potential, but like the design stage is really important. And
+
+763
+00:53:45,765 --> 00:53:49,525
+Speaker 7:  making that very small, modest investment in the design stage
+
+764
+00:53:49,945 --> 00:53:53,725
+Speaker 7:  to make sure your product is accessible and adaptable to broader
+
+765
+00:53:53,755 --> 00:53:57,605
+Speaker 7:  communities, not only pays dividends in capturing the market
+
+766
+00:53:57,945 --> 00:54:01,885
+Speaker 7:  of disabled consumers, but it also makes your product better for
+
+767
+00:54:02,125 --> 00:54:05,765
+Speaker 7:  everyone. And I'll give you an example of this. When we were an early partner
+
+768
+00:54:05,835 --> 00:54:09,805
+Speaker 7:  with OpenAI on the first GPT models, we
+
+769
+00:54:09,805 --> 00:54:13,045
+Speaker 7:  brought 19,000 blind and low vision beta testers
+
+770
+00:54:13,795 --> 00:54:17,335
+Speaker 7:  to that effort who gave constant feedback and
+
+771
+00:54:17,335 --> 00:54:20,695
+Speaker 7:  iteration on the descriptions that they were getting
+
+772
+00:54:21,245 --> 00:54:24,375
+Speaker 7:  from the models, which helped the open AI
+
+773
+00:54:25,135 --> 00:54:28,935
+Speaker 7:  scientists and engineers further refine how those models
+
+774
+00:54:29,045 --> 00:54:32,895
+Speaker 7:  work, making them better for everybody. So I think those investments pay
+
+775
+00:54:32,895 --> 00:54:36,455
+Speaker 7:  off not only in trying to capture the market of the disabled consumers, but
+
+776
+00:54:36,455 --> 00:54:40,335
+Speaker 7:  also making the product better holistically for a broader segment of society.
+
+777
+00:54:40,885 --> 00:54:44,455
+Speaker 2:  Yeah, I think I was talking with my Meta contact recently and they mentioned
+
+778
+00:54:44,455 --> 00:54:48,135
+Speaker 2:  that one of the options now that's possible, I, I still have to test it
+
+779
+00:54:48,245 --> 00:54:51,975
+Speaker 2:  with the Meta glasses, is that you can now opt into much more
+
+780
+00:54:51,975 --> 00:54:55,855
+Speaker 2:  descriptive descriptions from the ai. So like, maybe me as a sighted person,
+
+781
+00:54:56,215 --> 00:55:00,135
+Speaker 2:  I don't need super detailed descriptions, but
+
+782
+00:55:00,195 --> 00:55:04,015
+Speaker 2:  if I am part of the blind or low vision community, I can opt
+
+783
+00:55:04,075 --> 00:55:07,855
+Speaker 2:  for really detailed descriptions of that. And I think that,
+
+784
+00:55:08,075 --> 00:55:11,135
+Speaker 2:  you know, that's like a, a really small tweak that
+
+785
+00:55:12,115 --> 00:55:14,915
+Speaker 2:  I know I wouldn't have thought of if I didn't invite
+
+786
+00:55:15,545 --> 00:55:18,595
+Speaker 2:  underserved communities into the room while talking about design.
+
+787
+00:55:19,255 --> 00:55:22,675
+Speaker 7:  But to think about what you just said, like that could be really useful for
+
+788
+00:55:22,755 --> 00:55:26,435
+Speaker 7:  a sighted consumer as well, like having a toggle switch that
+
+789
+00:55:26,555 --> 00:55:30,515
+Speaker 7:  controls the depth of information that I get. Like how much, like
+
+790
+00:55:30,615 --> 00:55:34,435
+Speaker 7:  if, if I'm out and about, I might want like a three second answer to questions,
+
+791
+00:55:35,255 --> 00:55:38,755
+Speaker 7:  but if I'm on vacation or I'm touring a museum or whatever else, I might
+
+792
+00:55:38,755 --> 00:55:42,315
+Speaker 7:  want to switch all the way on the other side 'cause I want robust information.
+
+793
+00:55:42,335 --> 00:55:46,115
+Speaker 7:  And so that's a really great example of how thinking about
+
+794
+00:55:46,215 --> 00:55:50,195
+Speaker 7:  the design elements of the robustness of description and
+
+795
+00:55:50,195 --> 00:55:53,915
+Speaker 7:  characterization can benefit not only the blind or low vision consumer, but
+
+796
+00:55:53,915 --> 00:55:54,235
+Speaker 7:  anybody.
+
+797
+00:55:55,035 --> 00:55:58,875
+Speaker 2:  I guess I'm curious if there's any parting thoughts from
+
+798
+00:55:58,875 --> 00:56:02,515
+Speaker 2:  your experience or stories that have been shared with you from
+
+799
+00:56:02,695 --> 00:56:06,675
+Speaker 2:  actual people using this technology that, you know, I think the vast
+
+800
+00:56:06,915 --> 00:56:10,595
+Speaker 2:  majority of our listeners, myself included, are sighted people. So like what
+
+801
+00:56:10,595 --> 00:56:14,475
+Speaker 2:  are some things that we should be thinking about when we are
+
+802
+00:56:14,475 --> 00:56:18,315
+Speaker 2:  thinking about how we evaluate this tech in our daily
+
+803
+00:56:18,315 --> 00:56:18,635
+Speaker 2:  lives?
+
+804
+00:56:19,455 --> 00:56:22,995
+Speaker 7:  You know, everybody comes at a consumer product or anything from their own
+
+805
+00:56:23,075 --> 00:56:26,845
+Speaker 7:  lens, but I mean, in terms of the, the people you know that, that you reach
+
+806
+00:56:26,855 --> 00:56:30,725
+Speaker 7:  every day, like I think it's good for everybody to think about, you know,
+
+807
+00:56:31,105 --> 00:56:35,045
+Speaker 7:  the fact that the world and the people within it and the, and their
+
+808
+00:56:35,045 --> 00:56:39,005
+Speaker 7:  needs are pretty diverse, right? And so it's sometimes hard to think
+
+809
+00:56:39,275 --> 00:56:42,725
+Speaker 7:  outside of our own little bubbles. I know I'm guilty of it, but I can tell
+
+810
+00:56:42,725 --> 00:56:46,565
+Speaker 7:  you that from the perspective of the community that we work with,
+
+811
+00:56:46,585 --> 00:56:50,365
+Speaker 7:  the blind and low vision consumer, I try to avoid hyperbole
+
+812
+00:56:50,435 --> 00:56:54,205
+Speaker 7:  because there's plenty of that in the AI world going around right now, right?
+
+813
+00:56:54,205 --> 00:56:57,735
+Speaker 7:  Without me adding to it. But I get two
+
+814
+00:56:57,795 --> 00:57:01,495
+Speaker 7:  emails a day anytime I run into someone at a
+
+815
+00:57:01,495 --> 00:57:05,375
+Speaker 7:  conference talking about the fact that, that the
+
+816
+00:57:05,375 --> 00:57:08,975
+Speaker 7:  glasses and the experience of be my eyes and AI
+
+817
+00:57:09,295 --> 00:57:12,535
+Speaker 7:  combined with those Meta glasses is literally life changing.
+
+818
+00:57:12,985 --> 00:57:16,135
+Speaker 7:  Don't take my word for that, talk to the blind or low vision consumer, but
+
+819
+00:57:16,895 --> 00:57:20,855
+Speaker 7:  I have stories about like, people taking the train for the first time on
+
+820
+00:57:20,855 --> 00:57:24,695
+Speaker 7:  their own or getting, you know, getting around an airport. There was
+
+821
+00:57:24,735 --> 00:57:28,495
+Speaker 7:  a story, actually, there's a guy named Robbie and he posted about it
+
+822
+00:57:28,655 --> 00:57:31,255
+Speaker 7:  publicly, so I don't feel like I'm outing him. Who, who, right? He works
+
+823
+00:57:31,255 --> 00:57:35,235
+Speaker 7:  for the BBC and he read a book to his
+
+824
+00:57:35,415 --> 00:57:39,395
+Speaker 7:  2-year-old daughter for the first time using those glasses and
+
+825
+00:57:39,395 --> 00:57:42,735
+Speaker 7:  be my eyes, like, how cool is that? So
+
+826
+00:57:43,825 --> 00:57:47,575
+Speaker 7:  think about the things that we all take for granted and then think about
+
+827
+00:57:47,715 --> 00:57:51,175
+Speaker 7:  Robbie for the first time as a dad, as a blind father
+
+828
+00:57:51,485 --> 00:57:55,165
+Speaker 7:  reading to his daughter. I, I, I just, I don't,
+
+829
+00:57:55,625 --> 00:57:59,405
+Speaker 7:  it doesn't get any better than that when you think about like kind of
+
+830
+00:57:59,405 --> 00:58:03,045
+Speaker 7:  human impact, right? And the benefits of this technology, like
+
+831
+00:58:03,115 --> 00:58:06,965
+Speaker 7:  there's a million reasons to be wary of ai right? And be fearful
+
+832
+00:58:07,065 --> 00:58:10,725
+Speaker 7:  of it, but like I'm pretty sure that there are a bunch of reasons
+
+833
+00:58:10,875 --> 00:58:14,605
+Speaker 7:  also to embrace it and champion it. And that, that
+
+834
+00:58:14,725 --> 00:58:17,565
+Speaker 7:  story of Robbie reading to his daughter is probably my favorite.
+
+835
+00:58:18,605 --> 00:58:22,365
+Speaker 2:  I, that's a really lovely story and honestly I
+
+836
+00:58:22,365 --> 00:58:26,005
+Speaker 2:  test a lot of AI stuff and some of it can feel very
+
+837
+00:58:26,195 --> 00:58:29,885
+Speaker 2:  dystopian, so thank you. Yeah. Honestly for the reminder that,
+
+838
+00:58:30,025 --> 00:58:33,725
+Speaker 2:  you know, there are creative uses that can help people
+
+839
+00:58:33,955 --> 00:58:37,725
+Speaker 2:  genuinely lead better lives. That maybe to your point, are
+
+840
+00:58:37,785 --> 00:58:41,445
+Speaker 2:  not steeped in the hyperbole of this is going to change
+
+841
+00:58:41,655 --> 00:58:45,125
+Speaker 2:  everything but not give concrete examples of
+
+842
+01:01:47,355 --> 01:01:51,205
+Speaker 2:  Alright, we are back. Let's get to the hotline as
+
+843
+01:01:51,205 --> 01:01:54,645
+Speaker 2:  always. The number is 8 6 6 VERGE 11 and the email is
+
+844
+01:01:54,845 --> 01:01:58,645
+Speaker 2:  vergecast at The Verge dot com. We love all your questions and we try to
+
+845
+01:01:58,645 --> 01:02:02,365
+Speaker 2:  answer at least one on the show every week. So let's get into this week's
+
+846
+01:02:02,505 --> 01:02:06,325
+Speaker 2:  and for this week I have my lovely colleague Mia Sato on, and
+
+847
+01:02:06,545 --> 01:02:10,485
+Speaker 2:  we are going to answer a little bit of a spicy question about
+
+848
+01:02:10,495 --> 01:02:12,645
+Speaker 2:  smart glasses roll clip.
+
+849
+01:02:14,065 --> 01:02:17,925
+Speaker 13:  Hey David, I've got a question about smart glasses. I
+
+850
+01:02:17,925 --> 01:02:21,845
+Speaker 13:  haven't heard y'all talk about this yet in this way. I know that
+
+851
+01:02:21,845 --> 01:02:25,565
+Speaker 13:  with like the wristband or like the necklace that like listens to you,
+
+852
+01:02:25,565 --> 01:02:28,805
+Speaker 13:  there's ways to be like, oh no, I'm gonna mute it so don't hear
+
+853
+01:02:29,315 --> 01:02:30,645
+Speaker 13:  this private conversation,
+
+854
+01:02:32,385 --> 01:02:36,045
+Speaker 13:  but like the glasses seating, but also I need the
+
+855
+01:02:36,045 --> 01:02:39,845
+Speaker 13:  glasses to see. So I don't know,
+
+856
+01:02:39,845 --> 01:02:43,565
+Speaker 13:  maybe this is too sensitive for The Verge cap,
+
+857
+01:02:44,065 --> 01:02:47,965
+Speaker 13:  but I have a wife and sometimes she And I
+
+858
+01:02:47,965 --> 01:02:51,845
+Speaker 13:  like doing things And I like being able to see her when I do
+
+859
+01:02:51,845 --> 01:02:53,885
+Speaker 13:  those things. But if
+
+860
+01:02:56,385 --> 01:02:59,685
+Speaker 13:  she wanna have sex with me, if I've got my camera glasses on,
+
+861
+01:03:00,265 --> 01:03:03,245
+Speaker 13:  but if I take 'em off then I can't see her. Huh?
+
+862
+01:03:04,305 --> 01:03:08,165
+Speaker 13:  So like, are we gonna live in a world where if
+
+863
+01:03:08,165 --> 01:03:12,125
+Speaker 13:  you have smart glasses you have to have a pair of
+
+864
+01:03:12,125 --> 01:03:16,085
+Speaker 13:  normal glasses or your wife won't have sex with you?
+
+865
+01:03:16,155 --> 01:03:19,965
+Speaker 13:  Like I don't know what that world looks like and at that point, why have
+
+866
+01:03:19,965 --> 01:03:23,925
+Speaker 13:  the glasses in the first place anyway? I cannot
+
+867
+01:03:24,025 --> 01:03:27,525
+Speaker 13:  be the only person I have thought about this. But also like
+
+868
+01:03:27,955 --> 01:03:31,845
+Speaker 13:  when I go to the bathroom is Meta, it's gonna have like a
+
+869
+01:03:31,845 --> 01:03:35,405
+Speaker 13:  bunch of pictures of like me going to the bathroom.
+
+870
+01:03:36,445 --> 01:03:39,485
+Speaker 13:  I don't like that. And if Neli Patel hears this, he's gonna say, well you
+
+871
+01:03:39,485 --> 01:03:43,325
+Speaker 13:  do take four cameras into the bathroom with you every time. And I say, yeah,
+
+872
+01:03:43,325 --> 01:03:46,525
+Speaker 13:  that's true. Like an AI is training on it, right?
+
+873
+01:03:47,075 --> 01:03:47,365
+Speaker 13:  Like
+
+874
+01:03:49,395 --> 01:03:52,015
+Speaker 13:  my phone camera's not on all the time, right?
+
+875
+01:03:53,075 --> 01:03:56,975
+Speaker 13:  Anyway, please help me. I wanna get smart glasses, but I
+
+876
+01:03:56,975 --> 01:03:58,055
+Speaker 13:  also like having sex
+
+877
+01:03:59,645 --> 01:04:00,255
+Speaker 13:  rock and roll.
+
+878
+01:04:01,085 --> 01:04:03,055
+Speaker 14:  Amazing. It's an incredible question.
+
+879
+01:04:03,055 --> 01:04:06,815
+Speaker 2:  An amazing question. Anyway, I asked you to be my, my, my
+
+880
+01:04:07,165 --> 01:04:11,015
+Speaker 2:  partner answering this question because you've write so many
+
+881
+01:04:11,015 --> 01:04:14,855
+Speaker 2:  smart things about how technology shapes culture And I feel like
+
+882
+01:04:14,855 --> 01:04:18,695
+Speaker 2:  this is directly on that intersection and you know, this is my
+
+883
+01:04:18,695 --> 01:04:22,015
+Speaker 2:  beat and I've written some stuff about wear wearable etiquette as well. So
+
+884
+01:04:22,965 --> 01:04:26,815
+Speaker 2:  yeah, I, I feel like we are the most equipped people at The Verge to answer
+
+885
+01:04:26,845 --> 01:04:30,815
+Speaker 2:  this question with loving, kind empathy.
+
+886
+01:04:31,075 --> 01:04:32,695
+Speaker 2:  Yes. So yeah,
+
+887
+01:04:33,045 --> 01:04:37,015
+Speaker 14:  Yeah, yeah. So listener, I, I dunno your name,
+
+888
+01:04:37,375 --> 01:04:41,215
+Speaker 14:  maybe that's better for the best, but I guess I'm curious,
+
+889
+01:04:41,265 --> 01:04:45,255
+Speaker 14:  first of all, what your wife thinks. Like is this a conversation that
+
+890
+01:04:45,255 --> 01:04:48,935
+Speaker 14:  y'all have had about where in the house is
+
+891
+01:04:48,935 --> 01:04:52,855
+Speaker 14:  appropriate to wear the glasses versus where isn't? That would be
+
+892
+01:04:52,855 --> 01:04:55,215
+Speaker 14:  my first thing is just like, get a temperature check.
+
+893
+01:04:56,485 --> 01:05:00,175
+Speaker 14:  Because I do think that there are some things that are intimate
+
+894
+01:05:00,175 --> 01:05:03,575
+Speaker 14:  enough that like you might want a disconnected life
+
+895
+01:05:03,945 --> 01:05:06,895
+Speaker 14:  there, right? Like, like you said, going to the bathroom
+
+896
+01:05:07,625 --> 01:05:09,775
+Speaker 14:  maybe when you have sex with your wife
+
+897
+01:05:12,585 --> 01:05:15,895
+Speaker 14:  other times. Yeah. Because
+
+898
+01:05:16,565 --> 01:05:20,285
+Speaker 14:  like, I think like the reality is that even when
+
+899
+01:05:20,565 --> 01:05:24,125
+Speaker 14:  companies say like, we have these great security protocols, your
+
+900
+01:05:24,275 --> 01:05:27,765
+Speaker 14:  data is safe. There have been instances where
+
+901
+01:05:28,035 --> 01:05:31,765
+Speaker 14:  moments that you wouldn't want a stranger to see are
+
+902
+01:05:32,105 --> 01:05:35,365
+Speaker 14:  leaked or revealed in some ways. And we can get into that and talk about
+
+903
+01:05:35,365 --> 01:05:39,245
+Speaker 14:  those examples. Yeah. But to me, one is like, ask your wife
+
+904
+01:05:39,355 --> 01:05:42,965
+Speaker 14:  what she thinks. But also I feel like smart classes are not for the bedroom.
+
+905
+01:05:44,125 --> 01:05:44,325
+Speaker 2:  I think
+
+906
+01:05:44,325 --> 01:05:46,045
+Speaker 14:  That's just point blank period. That's super
+
+907
+01:05:46,045 --> 01:05:49,565
+Speaker 2:  Fair. So like last year when the smart classes and the Vision Pro
+
+908
+01:05:49,755 --> 01:05:53,525
+Speaker 2:  were, were getting kind of some buzz. I wrote a piece about like
+
+909
+01:05:53,805 --> 01:05:57,685
+Speaker 2:  a wearables primer etiquette And I interviewed Emily
+
+910
+01:05:57,865 --> 01:06:01,685
+Speaker 2:  post's grandson about it. And one of the things that he mentioned is
+
+911
+01:06:01,685 --> 01:06:04,565
+Speaker 2:  exactly what you're touching on, which is like having these conversations,
+
+912
+01:06:04,715 --> 01:06:08,285
+Speaker 2:  like this is definitely a conversation you need to broach with the wife and
+
+913
+01:06:08,285 --> 01:06:11,685
+Speaker 2:  like talk about what boundaries they're comfortable with
+
+914
+01:06:12,115 --> 01:06:15,645
+Speaker 2:  from like a gadget perspective. I can tell you there's an off button
+
+915
+01:06:16,065 --> 01:06:20,005
+Speaker 2:  on the Meta ray bands specifically, so you can just turn it
+
+916
+01:06:20,465 --> 01:06:24,365
+Speaker 2:  off. But like the, the interesting thing about these
+
+917
+01:06:24,365 --> 01:06:27,805
+Speaker 2:  glasses and how they signal privacy when there's video
+
+918
+01:06:27,835 --> 01:06:28,965
+Speaker 2:  recording or
+
+919
+01:06:30,775 --> 01:06:33,925
+Speaker 2:  photo taking is that there's a little LED light,
+
+920
+01:06:34,625 --> 01:06:38,565
+Speaker 2:  so you'll see the LED light when that's happening. So that is a visual cue
+
+921
+01:06:38,625 --> 01:06:42,565
+Speaker 2:  and a signal. But maybe I, you know, I, I
+
+922
+01:06:42,565 --> 01:06:44,005
+Speaker 2:  don't wanna kink shame people do
+
+923
+01:06:44,475 --> 01:06:44,765
+Speaker 14:  True
+
+924
+01:06:45,125 --> 01:06:48,965
+Speaker 2:  A, a number of acrobatics in the, in the, in the bedroom. I don't know
+
+925
+01:06:48,965 --> 01:06:52,365
+Speaker 2:  where hands are being put. There could be ostensibly
+
+926
+01:06:53,045 --> 01:06:56,805
+Speaker 2:  a situation if they're on that they could accidentally take a picture
+
+927
+01:06:57,105 --> 01:06:59,965
+Speaker 2:  or start video. You know, there's, or like you
+
+928
+01:06:59,965 --> 01:07:01,165
+Speaker 14:  Forget to turn
+
+929
+01:07:01,165 --> 01:07:05,045
+Speaker 2:  Them off or forget or you forget to turn them off before it's happening.
+
+930
+01:07:05,475 --> 01:07:09,405
+Speaker 2:  There's Meta AI in there. If you say anything that sounds
+
+931
+01:07:09,435 --> 01:07:12,845
+Speaker 2:  like, hey Meta, I don't know what your wife's name is, but what if it's Greta
+
+932
+01:07:14,505 --> 01:07:18,445
+Speaker 2:  and you trigger the AI and the AI just starts doing something like,
+
+933
+01:07:18,465 --> 01:07:22,285
+Speaker 2:  you know, one, you need to have the conversation. And two, I also agree
+
+934
+01:07:22,285 --> 01:07:25,965
+Speaker 2:  that there are just certain spaces, public versus
+
+935
+01:07:25,965 --> 01:07:29,925
+Speaker 2:  private where maybe you, you wanna like consciously draw
+
+936
+01:07:30,085 --> 01:07:33,845
+Speaker 2:  a line between the technology and, and your life.
+
+937
+01:07:33,995 --> 01:07:37,965
+Speaker 2:  Like I just think that's healthy digital hygiene in general and
+
+938
+01:07:38,105 --> 01:07:41,605
+Speaker 2:  you know, you don't have to throw away your old glasses. Yeah. When you get
+
+939
+01:07:41,605 --> 01:07:44,205
+Speaker 2:  the smart glasses. Yeah. You could just keep them. Well
+
+940
+01:07:44,205 --> 01:07:47,285
+Speaker 14:  Yeah. Another part of this question that I wanted to pick up on was like
+
+941
+01:07:47,345 --> 01:07:50,965
+Speaker 14:  the idea that you shouldn't have two pairs of glasses, which I completely
+
+942
+01:07:51,325 --> 01:07:54,445
+Speaker 14:  disagree with. Like, you actually actively should have multiple pairs of
+
+943
+01:07:54,445 --> 01:07:58,165
+Speaker 14:  glasses because like what if you break some, what if you just want to switch
+
+944
+01:07:58,165 --> 01:08:01,805
+Speaker 14:  up your look Like I am a recent glasses wearer. I'm not wearing glasses
+
+945
+01:08:01,805 --> 01:08:04,965
+Speaker 14:  right now, but like I have like four pairs of glasses because
+
+946
+01:08:05,195 --> 01:08:08,845
+Speaker 14:  sometimes one pair looks better with what I'm wearing or like
+
+947
+01:08:09,155 --> 01:08:12,885
+Speaker 14:  some like fit on my head differently And I need something different,
+
+948
+01:08:13,465 --> 01:08:16,805
+Speaker 14:  you know, depending on the day or depending on the activity. So I would
+
+949
+01:08:16,805 --> 01:08:20,085
+Speaker 14:  say like, it's totally fine to have two pairs of glasses. I get that it
+
+950
+01:08:20,085 --> 01:08:22,885
+Speaker 14:  might be annoying to switch back and forth, but like maybe you just leave
+
+951
+01:08:23,245 --> 01:08:27,005
+Speaker 14:  a pair of normal glasses on your nightstand or you know, in the drawer or
+
+952
+01:08:27,205 --> 01:08:27,325
+Speaker 14:  whatever.
+
+953
+01:08:29,125 --> 01:08:30,765
+Speaker 14:  I think it's fine to have two pairs of
+
+954
+01:08:30,765 --> 01:08:34,165
+Speaker 2:  Glasses. Glasses. It's totally, I am a lifelong glasses wear. I got my first,
+
+955
+01:08:34,375 --> 01:08:37,685
+Speaker 2:  again, I'm also wearing contacts right now, but I got my first pair when
+
+956
+01:08:37,725 --> 01:08:41,685
+Speaker 2:  I was four and the first thing that I real, I, I learned was you must
+
+957
+01:08:41,685 --> 01:08:45,085
+Speaker 2:  always have a backup pair of glasses. Yeah. Because you don't know when when's
+
+958
+01:08:45,085 --> 01:08:48,925
+Speaker 2:  gonna break. And the thing about these Meta glasses is that they, you do
+
+959
+01:08:48,925 --> 01:08:52,245
+Speaker 2:  have to put them in a case to charge. So it's not like you can wear them
+
+960
+01:08:52,705 --> 01:08:56,165
+Speaker 2:  24 7 anyway. Not that you would want to. So
+
+961
+01:08:56,435 --> 01:08:59,925
+Speaker 2:  also if it's just gonna affect your performance 'cause you got them on, they're
+
+962
+01:08:59,925 --> 01:09:02,325
+Speaker 2:  heavier than normal glasses as well. So
+
+963
+01:09:02,885 --> 01:09:04,125
+Speaker 14:  I not as aerodynamic.
+
+964
+01:09:04,285 --> 01:09:07,205
+Speaker 2:  They're not as aerodynamic. And again, no king shaming. I don't know what
+
+965
+01:09:07,205 --> 01:09:10,125
+Speaker 2:  you're doing in, in there. I don't know what acrobatics are required
+
+966
+01:09:11,105 --> 01:09:15,045
+Speaker 2:  or whatnot. So have a second pair of glasses. Always
+
+967
+01:09:15,465 --> 01:09:18,565
+Speaker 2:  let Yeah. And I, you know, I would actually say that to anyone who's thinking
+
+968
+01:09:18,565 --> 01:09:22,165
+Speaker 2:  about smart glasses have a pair of dumb glasses on hand. Like you don't Yeah.
+
+969
+01:09:22,625 --> 01:09:26,405
+Speaker 2:  You don't always want to have an ai Yeah. Coming with you
+
+970
+01:09:26,405 --> 01:09:28,565
+Speaker 2:  everywhere for everything. Right.
+
+971
+01:09:28,595 --> 01:09:31,485
+Speaker 14:  Yeah. And I feel like this example in this question is like,
+
+972
+01:09:32,425 --> 01:09:35,845
+Speaker 14:  in my opinion, too intimate to even like risk. It,
+
+973
+01:09:36,495 --> 01:09:40,445
+Speaker 14:  there have been cases where like Roombas have recorded people in their homes
+
+974
+01:09:41,755 --> 01:09:44,645
+Speaker 14:  without them realizing like on the toilet. Like that's like a real thing
+
+975
+01:09:44,645 --> 01:09:48,445
+Speaker 14:  that has happened. And then I don't think that in that case it was like
+
+976
+01:09:48,725 --> 01:09:52,405
+Speaker 14:  publicly released, but people working for Roomba or working, you know,
+
+977
+01:09:52,405 --> 01:09:55,845
+Speaker 14:  contractors or whatever did have access to those images. Like this is a
+
+978
+01:09:55,845 --> 01:09:59,565
+Speaker 14:  thing that happens and in my opinion, like there are places
+
+979
+01:09:59,635 --> 01:10:03,125
+Speaker 14:  that are just a little too intimate for tech
+
+980
+01:10:03,485 --> 01:10:07,325
+Speaker 14:  companies to have a seat at the table. Like, you know, for example, like
+
+981
+01:10:07,345 --> 01:10:10,805
+Speaker 14:  for me, I don't do any digital journaling
+
+982
+01:10:11,315 --> 01:10:12,365
+Speaker 14:  that is like pen
+
+983
+01:10:12,955 --> 01:10:15,965
+Speaker 2:  Hundred percent. I'm with you on that. Right? Like, I also don't do any digital
+
+984
+01:10:15,965 --> 01:10:16,565
+Speaker 2:  journaling
+
+985
+01:10:16,565 --> 01:10:19,725
+Speaker 14:  At all. Yeah. I'm not doing the Apple Journal thing. I don't want them to
+
+986
+01:10:19,725 --> 01:10:23,285
+Speaker 14:  know my thoughts. I want there to be one copy of it and if I want to destroy
+
+987
+01:10:23,285 --> 01:10:24,965
+Speaker 14:  it, I can burn it in the backyard.
+
+988
+01:10:25,195 --> 01:10:28,965
+Speaker 2:  Yeah. Not that 100%. I am, I'm on, I used to do digital
+
+989
+01:10:28,965 --> 01:10:32,885
+Speaker 2:  journaling and those have all since been deleted. Yeah. And my pen and paper,
+
+990
+01:10:33,275 --> 01:10:36,685
+Speaker 2:  like, it's just nice. Yeah. Sometimes to do things analog. Yeah. Not everything
+
+991
+01:10:36,745 --> 01:10:39,685
+Speaker 2:  has to be this way, but you know, why
+
+992
+01:10:39,685 --> 01:10:40,085
+Speaker 14:  Take the risk?
+
+993
+01:10:40,225 --> 01:10:44,005
+Speaker 2:  Why take the risk? And also to, to your point, even if
+
+994
+01:10:44,005 --> 01:10:47,325
+Speaker 2:  there's an off switch and even if you're really diligent about the off switch,
+
+995
+01:10:47,465 --> 01:10:51,245
+Speaker 2:  you are human, you are going to forget. I was testing the Bee, which was
+
+996
+01:10:51,245 --> 01:10:55,125
+Speaker 2:  a wearable AI thing that listened to everything you did.
+
+997
+01:10:55,685 --> 01:10:56,485
+Speaker 2:  I went to the bathroom,
+
+998
+01:10:58,625 --> 01:11:02,455
+Speaker 2:  it heard everything including me.
+
+999
+01:11:02,745 --> 01:11:04,935
+Speaker 2:  Exclaiming. Oh shit. That was a shit.
+
+1000
+01:11:06,675 --> 01:11:10,175
+Speaker 2:  And then the AI recommended that I get back on lactate because it was like,
+
+1001
+01:11:10,175 --> 01:11:10,455
+Speaker 2:  girl, ooh,
+
+1002
+01:11:10,505 --> 01:11:11,015
+Speaker 14:  Don't like that.
+
+1003
+01:11:11,375 --> 01:11:15,045
+Speaker 2:  I don't like that. That was the, the most humiliating thing of my life. And
+
+1004
+01:11:15,045 --> 01:11:18,245
+Speaker 2:  it was, it was literally I went, oh shit, that was a shit. Oh shit, this
+
+1005
+01:11:18,245 --> 01:11:20,885
+Speaker 2:  thing is listening to me. Shit. A lot of shit's in
+
+1006
+01:11:20,885 --> 01:11:21,725
+Speaker 14:  A row. A lot of shits.
+
+1007
+01:11:21,865 --> 01:11:25,645
+Speaker 2:  And it recorded all of that. And you know, that company, it was like, everything
+
+1008
+01:11:25,645 --> 01:11:28,845
+Speaker 2:  is private. We don't record the audio recordings, but there's a transcript.
+
+1009
+01:11:29,035 --> 01:11:32,525
+Speaker 2:  Yeah. There's, there's like a, there's a trail of a thing that was said.
+
+1010
+01:11:32,665 --> 01:11:32,885
+Speaker 2:  So
+
+1011
+01:11:32,885 --> 01:11:36,005
+Speaker 14:  Yeah, also like terms and conditions are subject to change at any time.
+
+1012
+01:11:36,405 --> 01:11:39,325
+Speaker 14:  Absolutely. Right. Are I feel like we have all learned that lesson many
+
+1013
+01:11:39,325 --> 01:11:43,285
+Speaker 14:  times over to the point where like, I'm not wearing the
+
+1014
+01:11:43,285 --> 01:11:45,605
+Speaker 14:  smart glasses to have sex. I think that's, yeah.
+
+1015
+01:11:46,165 --> 01:11:46,725
+Speaker 2:  Bedrooms,
+
+1016
+01:11:46,945 --> 01:11:47,165
+Speaker 14:  No
+
+1017
+01:11:47,805 --> 01:11:50,845
+Speaker 2:  Bathrooms. I'm sure there's another thing that starts with ep
+
+1018
+01:11:50,845 --> 01:11:54,325
+Speaker 14:  Even just, even just like being around your house sometimes, like
+
+1019
+01:11:54,835 --> 01:11:58,125
+Speaker 14:  that is a private space. And
+
+1020
+01:11:59,045 --> 01:12:01,805
+Speaker 14:  I don't know, I feel like most people, like you walk around in your underwear,
+
+1021
+01:12:01,865 --> 01:12:05,485
+Speaker 14:  you, you do forget your bathrobe in the bedroom, so you need to like
+
+1022
+01:12:05,745 --> 01:12:09,365
+Speaker 14:  do the naked dash through the house. Like there are lots of
+
+1023
+01:12:09,365 --> 01:12:13,205
+Speaker 14:  instances where it's not just relegated to like only in the bedroom, only
+
+1024
+01:12:13,205 --> 01:12:17,005
+Speaker 14:  in the bathroom, only in the closet. So yeah. I, I feel also,
+
+1025
+01:12:17,005 --> 01:12:20,685
+Speaker 14:  like, I will say I'm, there's probably like zero
+
+1026
+01:12:20,915 --> 01:12:24,725
+Speaker 14:  instances where I could be convinced to get smart glasses for all the
+
+1027
+01:12:24,725 --> 01:12:28,685
+Speaker 14:  reasons that we've talked about. Like, I'm very forgetful. I kind of just
+
+1028
+01:12:28,685 --> 01:12:32,645
+Speaker 14:  like do what I need to do when I need to do it. So it's a no for me.
+
+1029
+01:12:33,185 --> 01:12:36,405
+Speaker 14:  But maybe you're, you, you have a happy balance.
+
+1030
+01:12:36,965 --> 01:12:40,765
+Speaker 2:  I am, I'm more of a, of a kind of a middle ground where
+
+1031
+01:12:40,765 --> 01:12:44,365
+Speaker 2:  obviously I'm testing these things. Obviously I'm a gadget girly. But I do
+
+1032
+01:12:44,365 --> 01:12:47,725
+Speaker 2:  think you have to be really thoughtful and intentional about when you're
+
+1033
+01:12:47,725 --> 01:12:50,885
+Speaker 2:  using this tech before this tech like rules you. So
+
+1034
+01:12:51,765 --> 01:12:55,485
+Speaker 2:  I think have this conversation with your wife and she gets final say. Yeah.
+
+1035
+01:12:55,485 --> 01:12:59,005
+Speaker 2:  Because the, the thing about this new technology is that we are navigating
+
+1036
+01:12:59,025 --> 01:13:02,885
+Speaker 2:  new privacy, like comfort zones and
+
+1037
+01:13:02,885 --> 01:13:06,325
+Speaker 2:  levels with it. And you know, with the new, the new
+
+1038
+01:13:06,745 --> 01:13:10,725
+Speaker 2:  era of smart glasses, privacy hasn't come up quite as much. 'cause I think
+
+1039
+01:13:10,735 --> 01:13:14,045
+Speaker 2:  we're a lot more comfortable just everyone doing like a, oh my God, this
+
+1040
+01:13:14,045 --> 01:13:17,125
+Speaker 2:  is my TikTok in public. Wow. So we're much more comfortable
+
+1041
+01:13:17,435 --> 01:13:21,325
+Speaker 2:  theoretically with cameras being around all the time, but this is a
+
+1042
+01:13:21,325 --> 01:13:25,245
+Speaker 2:  very private, intimate space. This is a very private, intimate act.
+
+1043
+01:13:26,585 --> 01:13:30,365
+Speaker 2:  You gotta have the conversation first and it has to be something that you
+
+1044
+01:13:30,365 --> 01:13:34,285
+Speaker 2:  both agree on and that you both consent to it because oh, you,
+
+1045
+01:13:34,495 --> 01:13:37,925
+Speaker 2:  she's not gonna, I, I can tell you she's not gonna be happy if you just buy
+
+1046
+01:13:37,925 --> 01:13:39,565
+Speaker 2:  them and wear that. Don't
+
+1047
+01:13:39,875 --> 01:13:40,525
+Speaker 14:  Explain it.
+
+1048
+01:13:40,935 --> 01:13:41,765
+Speaker 2:  Don't explain it.
+
+1049
+01:13:42,035 --> 01:13:43,725
+Speaker 14:  Yeah. That's not good. As
+
+1050
+01:13:44,295 --> 01:13:47,365
+Speaker 2:  There will be no sex having if that happens. So
+
+1051
+01:13:49,065 --> 01:13:52,565
+Speaker 14:  Yes. Yeah. Yeah. Just think of it as an opportunity to kind of like expand
+
+1052
+01:13:52,565 --> 01:13:54,885
+Speaker 14:  your glasses. Look. Yeah.
+
+1053
+01:13:55,035 --> 01:13:56,045
+Speaker 2:  Have more than Yeah.
+
+1054
+01:13:56,195 --> 01:13:57,485
+Speaker 14:  Take away. Have a couple. Have a couple pair.
+
+1055
+01:13:57,945 --> 01:14:01,605
+Speaker 2:  The the takeaway is have more than one pair of glasses. You can have more
+
+1056
+01:14:01,605 --> 01:14:03,765
+Speaker 2:  than one pair. Treat yourself. Treat
+
+1057
+01:14:03,965 --> 01:14:04,125
+Speaker 14:  Yourself.
+
+1058
+01:14:05,315 --> 01:14:07,525
+Speaker 2:  Yeah. So I think, I think hopefully
+
+1059
+01:14:07,525 --> 01:14:10,245
+Speaker 14:  This is helpful and have your wife call in too, if she has additional
+
+1060
+01:14:10,245 --> 01:14:13,165
+Speaker 2:  Thoughts. Yes. I would love to hear from her if she has her thoughts, like
+
+1061
+01:14:13,725 --> 01:14:15,445
+Speaker 2:  I would love to hear it. Yeah, we could do a follow up.
+
+1062
+01:14:15,475 --> 01:14:15,765
+Speaker 15:  Yeah.
+
+1063
+01:14:17,475 --> 01:14:21,285
+Speaker 2:  Okay. So that's it for The Vergecast today. Thanks Mia. Thanks
+
+1064
+01:14:21,355 --> 01:14:25,285
+Speaker 2:  anonymous listener. Thanks for everyone on the show today and thank you for
+
+1065
+01:14:25,285 --> 01:14:29,125
+Speaker 2:  listening. So there's a whole lot more from this conversation at The Verge
+
+1066
+01:14:29,265 --> 01:14:33,005
+Speaker 2:  dot com. We'll put links in the show notes, but also read The Verge dot com,
+
+1067
+01:14:33,115 --> 01:14:36,765
+Speaker 2:  find our bylines. You guys are internet savvy. I know you know how to do
+
+1068
+01:14:36,765 --> 01:14:40,365
+Speaker 2:  it. As always, if you have thoughts, questions, feelings, you can always
+
+1069
+01:14:40,375 --> 01:14:44,125
+Speaker 2:  email us at vergecast at The Verge dot com or keep
+
+1070
+01:14:44,125 --> 01:14:47,605
+Speaker 2:  calling the hotline. 8 6 6 VERGE 11. We love hearing from you.
+
+1071
+01:14:48,035 --> 01:14:51,485
+Speaker 2:  Send us all your thoughts and we do mean all your thoughts and questions
+
+1072
+01:14:51,505 --> 01:14:55,445
+Speaker 2:  and ideas for what we should do on the show. We do a hotline question every
+
+1073
+01:14:55,445 --> 01:14:59,325
+Speaker 2:  week, so keep them coming. This show is produced by Eric Gomez,
+
+1074
+01:14:59,325 --> 01:15:03,205
+Speaker 2:  Brandon Kiefer, Travis Uck and Andrew Marino. The Vergecast is The
+
+1075
+01:15:03,285 --> 01:15:07,205
+Speaker 2:  Verge production and part of the Vox Media podcast network. Jake will be
+
+1076
+01:15:07,205 --> 01:15:10,565
+Speaker 2:  back on Friday to discuss all the news from this week and goodbye.
+

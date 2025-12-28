@@ -1,0 +1,5334 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: cb2241f1-e43b-4be7-9835-a52e88bb4f2b
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/-1179399351783661498/7541536882794034865/s93290-US-5053s-1747132118.mp3
+Description: The Verge's Will Poor recently came home from vacation and discovered he had an insect problem. More specifically, his Sonos speaker had an insect problem. Will brings us the story of what really happened there, and what he discovered about how the animal kingdom — and the electronics world — works. After that, The Verge's Andru Marino tells us about his research on all things AI podcasts. He tells us why people are so hooked on NotebookLM's Audio Overviews, where these generated shows fall short, and what all us human podcasters could learn from the bots. Finally, The Verge's Jennifer Pattison Tuohy helps us answer a question on the Vergecast Hotline (call 866-VERGE11 or email vergecast@theverge.com!) all about smart lights. Which get complicated faster than you think.
+
+
+2
+00:00:03,335 --> 00:00:06,705
+Speaker 2:  Welcome to The Vergecast, the flagship podcast of a very
+
+3
+00:00:07,265 --> 00:00:11,065
+Speaker 2:  specific kind of pest control. I'm your friend David Pierce, and I am sitting
+
+4
+00:00:11,065 --> 00:00:14,985
+Speaker 2:  here doing a project I've been putting off for years, which
+
+5
+00:00:14,985 --> 00:00:18,585
+Speaker 2:  is going through my surprisingly enormous collection of sports cards
+
+6
+00:00:19,605 --> 00:00:22,265
+Speaker 2:  to see if any of them are worth anything. They've just been sitting in a
+
+7
+00:00:22,265 --> 00:00:25,785
+Speaker 2:  box. I really loved collecting them as a kid, and now I just have binders
+
+8
+00:00:25,785 --> 00:00:29,745
+Speaker 2:  and binders full of them sitting around. I don't know if any of 'em are worth
+
+9
+00:00:29,945 --> 00:00:33,585
+Speaker 2:  anything, but I found this app, thank you, technology that lets you just
+
+10
+00:00:33,655 --> 00:00:37,625
+Speaker 2:  scan the front of the card and it'll immediately identify it
+
+11
+00:00:37,845 --> 00:00:41,025
+Speaker 2:  and tell you if it's worth anything. The app's called Ldx
+
+12
+00:00:41,645 --> 00:00:44,745
+Speaker 2:  and I have no idea if it's legit, but so far it's told me all of the cards
+
+13
+00:00:44,825 --> 00:00:48,665
+Speaker 2:  I have are essentially worthless. We'll, see, I got a lot of them to go
+
+14
+00:00:48,665 --> 00:00:52,025
+Speaker 2:  through. All you need is one, right? Anyway, that's not what we're here to
+
+15
+00:00:52,025 --> 00:00:55,785
+Speaker 2:  talk about. We are gonna do two things on the show today. First, I'm gonna
+
+16
+00:00:55,785 --> 00:00:59,545
+Speaker 2:  talk to Will Poor about a very strange adventure he had after
+
+17
+00:00:59,545 --> 00:01:03,425
+Speaker 2:  getting home from vacation and discovering what was going on inside of his
+
+18
+00:01:03,555 --> 00:01:07,265
+Speaker 2:  Sonos. Then I'm gonna talk to Andrew Marino about an adventure
+
+19
+00:01:07,415 --> 00:01:11,305
+Speaker 2:  he's been on, trying to figure out whether all of these AI generated
+
+20
+00:01:11,345 --> 00:01:15,105
+Speaker 2:  podcasts are actually up to something. Lots of fun stuff.
+
+21
+00:01:15,285 --> 00:01:18,345
+Speaker 2:  We have a Hotline question about smart lates. Lots to do, lots to get to.
+
+22
+00:01:18,685 --> 00:01:22,505
+Speaker 2:  All that is coming up in just a sec. But first I've decided I'm gonna scan
+
+23
+00:01:22,505 --> 00:01:25,825
+Speaker 2:  these cards until I find one that is worth $20.
+
+24
+00:01:26,455 --> 00:01:29,745
+Speaker 2:  That that doesn't seem like too much to ask. $20. We're going for it. This
+
+25
+00:01:29,745 --> 00:01:31,105
+Speaker 2:  is The Vergecast. We'll be right back.
+
+26
+00:03:11,625 --> 00:03:15,445
+Speaker 7:  and I'm figuring out how to be a podcast producer again, so
+
+27
+00:03:15,495 --> 00:03:19,445
+Speaker 7:  we'll see if this is coherent in any way, but I think It is like
+
+28
+00:03:19,445 --> 00:03:20,005
+Speaker 7:  riding a bike.
+
+29
+00:03:20,355 --> 00:03:23,205
+Speaker 2:  Well, so one of the things we've been looking forward to in you coming back
+
+30
+00:03:23,265 --> 00:03:26,965
+Speaker 2:  is you are a person with like lots of ideas and thoughts about stuff we should
+
+31
+00:03:26,965 --> 00:03:30,645
+Speaker 2:  do, and you and I, you and I overlap in some ways and also think really
+
+32
+00:03:30,645 --> 00:03:32,645
+Speaker 2:  differently in some ways. So it's like, it's very fun to get to work with
+
+33
+00:03:32,645 --> 00:03:33,045
+Speaker 2:  you on stuff.
+
+34
+00:03:34,905 --> 00:03:38,805
+Speaker 2:  You came back just like a house on fire being like, I have
+
+35
+00:03:38,805 --> 00:03:42,125
+Speaker 2:  to talk about ants and Sonos. So
+
+36
+00:03:42,915 --> 00:03:46,285
+Speaker 2:  with, I just, I don't even wanna wind this up for anybody. Like let's just,
+
+37
+00:03:46,705 --> 00:03:49,365
+Speaker 2:  you, you literally came in and you're like, I have a story about ants and
+
+38
+00:03:49,415 --> 00:03:50,125
+Speaker 2:  Sonos. Well, yeah.
+
+39
+00:03:50,165 --> 00:03:53,805
+Speaker 7:  I came back and, and I was like, a thing happened to me.
+
+40
+00:03:54,035 --> 00:03:57,765
+Speaker 7:  Yeah. And I need to tell you about it. And the more I think about it,
+
+41
+00:03:57,925 --> 00:03:59,525
+Speaker 7:  I think I need to tell the world about it. This
+
+42
+00:03:59,525 --> 00:04:00,125
+Speaker 2:  Is what we're here for.
+
+43
+00:04:00,545 --> 00:04:03,405
+Speaker 7:  So, so here we are. Yeah, I love it. That's, that's basically the setup.
+
+44
+00:04:04,445 --> 00:04:08,165
+Speaker 7:  I do have a story about ants and my sono speaker,
+
+45
+00:04:08,525 --> 00:04:12,355
+Speaker 7:  I should say. I've told a few people the story
+
+46
+00:04:12,375 --> 00:04:16,235
+Speaker 7:  and they've been beyond grossed out about it. So if you are a person
+
+47
+00:04:16,295 --> 00:04:20,115
+Speaker 7:  who doesn't like bugs, who is squid out about that kind of thing, this is
+
+48
+00:04:20,115 --> 00:04:21,355
+Speaker 7:  maybe not the story for you.
+
+49
+00:04:23,195 --> 00:04:25,915
+Speaker 7:  I don't know. How does that disclaimer hit you personally, David?
+
+50
+00:04:26,475 --> 00:04:30,035
+Speaker 2:  I think that's good. I would say I'm like, as long as it's not about
+
+51
+00:04:30,465 --> 00:04:32,835
+Speaker 2:  spiders that can jump. I'm cool.
+
+52
+00:04:33,475 --> 00:04:34,435
+Speaker 7:  Crawling is fine.
+
+53
+00:04:34,555 --> 00:04:37,675
+Speaker 2:  Crawling is fine as long as, as long as they are floor bound.
+
+54
+00:04:38,415 --> 00:04:41,395
+Speaker 2:  But if, if they, if something can leap, we have a problem.
+
+55
+00:04:41,795 --> 00:04:44,475
+Speaker 7:  I think this might be borderline for you, but we're gonna see how it goes.
+
+56
+00:04:44,755 --> 00:04:47,595
+Speaker 2:  Alright, we'll see. I'm gonna, I'm gonna go with you as far as I can, but
+
+57
+00:04:47,595 --> 00:04:49,835
+Speaker 2:  I may suddenly disappear from Okay, yeah.
+
+58
+00:04:49,835 --> 00:04:51,155
+Speaker 7:  I'll just take it from there. Alright,
+
+59
+00:04:51,155 --> 00:04:51,675
+Speaker 2:  Sounds good.
+
+60
+00:04:51,945 --> 00:04:55,795
+Speaker 7:  Okay. So the, the story in brief is that before my leave ended,
+
+61
+00:04:55,975 --> 00:04:59,675
+Speaker 7:  we, we took a trip with the whole family for a week. So we were gone from
+
+62
+00:04:59,675 --> 00:05:03,435
+Speaker 7:  the house for about a week and the day we got back, we walk in the front
+
+63
+00:05:03,435 --> 00:05:06,915
+Speaker 7:  door and there's this little line of ants marching across our living room.
+
+64
+00:05:07,505 --> 00:05:11,435
+Speaker 7:  This in of itself, not an unusual thing. We're dealing with ants all
+
+65
+00:05:11,435 --> 00:05:15,315
+Speaker 7:  the time. I recognize these particular ants specifically, they're,
+
+66
+00:05:15,425 --> 00:05:19,315
+Speaker 7:  they're like an eighth of an inch. They're really small. They come up
+
+67
+00:05:19,315 --> 00:05:22,955
+Speaker 7:  through our floorboards. They find snacks in the kitchen.
+
+68
+00:05:23,135 --> 00:05:25,995
+Speaker 7:  We have to keep the house super clean because they're always, we're always
+
+69
+00:05:25,995 --> 00:05:29,715
+Speaker 7:  kind of playing whack-a-mole with them. So we were like, ah, the answer
+
+70
+00:05:29,715 --> 00:05:33,625
+Speaker 7:  back and I could see that they were headed to some dog kibble
+
+71
+00:05:33,625 --> 00:05:35,505
+Speaker 7:  that we had left in the front closet. Yeah,
+
+72
+00:05:35,505 --> 00:05:38,425
+Speaker 2:  I feel like you have, you have pets and you have kids and so like answer
+
+73
+00:05:38,425 --> 00:05:39,785
+Speaker 2:  just sort of a fact of Yeah,
+
+74
+00:05:39,785 --> 00:05:42,865
+Speaker 7:  This is like we are the, the best house on the block. Yeah. For the ants.
+
+75
+00:05:42,865 --> 00:05:46,785
+Speaker 7:  Like bar none. So none of this was shocking until
+
+76
+00:05:46,985 --> 00:05:50,665
+Speaker 7:  I followed the little ant trail. Usually it just disappears into a crack
+
+77
+00:05:50,665 --> 00:05:54,265
+Speaker 7:  in the molding or something. But this time it went across the living room
+
+78
+00:05:54,765 --> 00:05:58,725
+Speaker 7:  and up onto this bench where we have these three big house plants. So I was
+
+79
+00:05:58,725 --> 00:06:01,605
+Speaker 7:  like, Ugh, God. They found the house plants. I guess they, maybe they're
+
+80
+00:06:01,605 --> 00:06:05,085
+Speaker 7:  like nesting in the dirt. This is, this could be worse than I thought.
+
+81
+00:06:05,865 --> 00:06:09,285
+Speaker 7:  But then I kept following the trail and it didn't go into any of the house
+
+82
+00:06:09,285 --> 00:06:13,045
+Speaker 7:  plants. It went underneath our sono speaker,
+
+83
+00:06:13,895 --> 00:06:17,765
+Speaker 7:  which is sitting right between two of the house plants. And I was like, why
+
+84
+00:06:17,765 --> 00:06:21,685
+Speaker 7:  is it disappearing into the speaker? And I walk over and I lift up
+
+85
+00:06:21,685 --> 00:06:25,525
+Speaker 7:  the speaker and just ant explosion. Oh
+
+86
+00:06:25,625 --> 00:06:25,845
+Speaker 8:  No,
+
+87
+00:06:26,235 --> 00:06:29,725
+Speaker 7:  Just hundreds, thousands. I don't know how to judge when
+
+88
+00:06:30,025 --> 00:06:33,645
+Speaker 7:  all of a sudden, like every, every surface is moving with ants.
+
+89
+00:06:34,145 --> 00:06:37,605
+Speaker 7:  Too many, too many, yeah. Eggs, the whole nine yards.
+
+90
+00:06:38,365 --> 00:06:42,205
+Speaker 7:  I pick up the speaker and start running around with it
+
+91
+00:06:42,205 --> 00:06:46,045
+Speaker 7:  like I'm holding something that's on fire. I don't wanna
+
+92
+00:06:46,105 --> 00:06:49,365
+Speaker 7:  set it down because there will just be ants wherever I put it. But at the
+
+93
+00:06:49,365 --> 00:06:53,205
+Speaker 7:  same time, I can feel ants like crawling up my arms as I run around
+
+94
+00:06:53,205 --> 00:06:57,005
+Speaker 7:  with this thing. Oh, my wife is freaking out. My four month old
+
+95
+00:06:57,005 --> 00:07:00,925
+Speaker 7:  baby is starting to fuss. My 3-year-old is like playing with trains or whatever.
+
+96
+00:07:01,025 --> 00:07:04,885
+Speaker 7:  He doesn't care, but it's, it's bedlam. So
+
+97
+00:07:05,145 --> 00:07:08,485
+Speaker 7:  the closest thing I could think of to do is just sprint out the back door
+
+98
+00:07:08,485 --> 00:07:12,405
+Speaker 7:  with it. So I go outside, I put it outside, I brush
+
+99
+00:07:12,405 --> 00:07:16,165
+Speaker 7:  myself off, I walk in, we finish coming back from our
+
+100
+00:07:16,365 --> 00:07:17,645
+Speaker 7:  vacation, a little scarred.
+
+101
+00:07:18,325 --> 00:07:19,165
+Speaker 8:  I would just, I would
+
+102
+00:07:19,165 --> 00:07:23,085
+Speaker 7:  Dispute the idea that this is like problem solved, but like, no, this
+
+103
+00:07:23,085 --> 00:07:26,645
+Speaker 7:  is problem deferred. Yeah, sure. This is very much like, let's put pause
+
+104
+00:07:26,665 --> 00:07:30,565
+Speaker 7:  on this and deal with the kids. My wife incidentally
+
+105
+00:07:30,565 --> 00:07:34,285
+Speaker 7:  is, is one of the people who is unbelievably grossed out by
+
+106
+00:07:34,425 --> 00:07:37,685
+Speaker 7:  any ants. So this is like a very traumatic moment for her fair.
+
+107
+00:07:38,065 --> 00:07:41,745
+Speaker 7:  Anyway, that all happened. I came back a day later,
+
+108
+00:07:42,625 --> 00:07:45,855
+Speaker 7:  blood pressure was down. I had the wherewithal to attach a microphone to
+
+109
+00:07:45,855 --> 00:07:49,735
+Speaker 7:  myself this time and I brought the speaker into my garage to try
+
+110
+00:07:49,735 --> 00:07:51,735
+Speaker 7:  to take it apart and see what was going on.
+
+111
+00:07:53,125 --> 00:07:56,215
+Speaker 8:  Okay, so now the screen, oh,
+
+112
+00:07:57,235 --> 00:08:01,055
+Speaker 8:  should just slide right up. Ah. Oh god.
+
+113
+00:08:01,055 --> 00:08:04,735
+Speaker 8:  There's more. Oh god. Oh god. There's
+
+114
+00:08:04,765 --> 00:08:05,455
+Speaker 8:  eggs, there's
+
+115
+00:08:08,405 --> 00:08:11,295
+Speaker 8:  Okay. Going outside, going outside, going outside, going outside, going outside.
+
+116
+00:08:12,715 --> 00:08:12,935
+Speaker 8:  Oh
+
+117
+00:08:15,915 --> 00:08:17,575
+Speaker 8:  god damn it.
+
+118
+00:08:19,195 --> 00:08:19,415
+Speaker 8:  Ugh.
+
+119
+00:08:21,645 --> 00:08:21,935
+Speaker 7:  Okay.
+
+120
+00:08:23,475 --> 00:08:25,895
+Speaker 8:  I'm opening it up underneath the
+
+121
+00:08:25,895 --> 00:08:26,135
+Speaker 7:  Case.
+
+122
+00:08:27,225 --> 00:08:28,175
+Speaker 8:  There are still,
+
+123
+00:08:30,235 --> 00:08:31,455
+Speaker 8:  oh, there's so many ants.
+
+124
+00:08:32,565 --> 00:08:36,305
+Speaker 7:  That's tough. There were still a lot of ants. It was not great. Many,
+
+125
+00:08:36,305 --> 00:08:39,865
+Speaker 7:  many more ants, many, many more eggs. It was still,
+
+126
+00:08:40,125 --> 00:08:44,025
+Speaker 7:  it was still just a whole ecosystem. So I left it outside for
+
+127
+00:08:44,265 --> 00:08:47,825
+Speaker 7:  another week. I literal, I just extended the problem and forgot about it.
+
+128
+00:08:48,365 --> 00:08:52,025
+Speaker 7:  Did it not occur to you to just throw this thing in the trash? I was still
+
+129
+00:08:52,025 --> 00:08:54,905
+Speaker 7:  like, there was still a part of me that was like, I can save this speaker.
+
+130
+00:08:55,355 --> 00:08:57,605
+Speaker 7:  Okay. I don's wanna let go of the speaker. I like the
+
+131
+00:08:57,605 --> 00:08:59,045
+Speaker 2:  Speaker. Sono stuff is expensive. I
+
+132
+00:08:59,045 --> 00:09:01,245
+Speaker 7:  Get it. Yeah. Yeah. It's, and it's, yeah, we've got two of them in the living
+
+133
+00:09:01,245 --> 00:09:05,205
+Speaker 7:  room. It's, it's a whole thing. So I, I came back to
+
+134
+00:09:05,205 --> 00:09:08,605
+Speaker 7:  it a week later and I like fully took it apart because I
+
+135
+00:09:08,685 --> 00:09:11,725
+Speaker 7:  couldn't just assume that it was ant free.
+
+136
+00:09:13,285 --> 00:09:17,245
+Speaker 7:  I probably broke it in the course of taking it apart. I haven't
+
+137
+00:09:17,245 --> 00:09:20,765
+Speaker 7:  tried to put it back together, but I, I may have lost the Sonos after all,
+
+138
+00:09:21,665 --> 00:09:25,285
+Speaker 7:  but the answer gone. So that is at least the end
+
+139
+00:09:25,505 --> 00:09:28,525
+Speaker 7:  of that story and that speaker probably.
+
+140
+00:09:29,075 --> 00:09:29,765
+Speaker 2:  Sure. Yeah.
+
+141
+00:09:30,505 --> 00:09:30,725
+Speaker 7:  So
+
+142
+00:09:33,325 --> 00:09:37,125
+Speaker 7:  I, that happened, time passed, but I couldn't get it outta my head. I,
+
+143
+00:09:37,325 --> 00:09:41,205
+Speaker 7:  I needed to know what the heck was going on. I,
+
+144
+00:09:41,265 --> 00:09:45,045
+Speaker 7:  in my head, the weird thing not being an ant was that the
+
+145
+00:09:45,045 --> 00:09:48,085
+Speaker 7:  speaker was sitting next to all of these lovely house plans. It just seemed
+
+146
+00:09:48,085 --> 00:09:51,805
+Speaker 7:  like ants like nature, look at all this nature. Why did they choose
+
+147
+00:09:52,305 --> 00:09:55,365
+Speaker 7:  the Sonos out of all of these places to nest?
+
+148
+00:09:55,555 --> 00:09:58,045
+Speaker 2:  Well, and it sounds like from the sound of the way you're describing it,
+
+149
+00:09:58,045 --> 00:10:01,805
+Speaker 2:  it's not just like I had a bunch of ants in my speakers. It's like
+
+150
+00:10:02,465 --> 00:10:06,165
+Speaker 2:  the ants of the neighborhood decided to move into my speakers. Yes.
+
+151
+00:10:06,375 --> 00:10:08,725
+Speaker 2:  Which feels different, right? Because if you were just like, I had some ants,
+
+152
+00:10:08,765 --> 00:10:12,645
+Speaker 2:  I have questions, I'd be like, why ants everywhere. Yeah. But this is like
+
+153
+00:10:12,825 --> 00:10:15,885
+Speaker 2:  the ants as a group, like got together and decided
+
+154
+00:10:16,725 --> 00:10:17,625
+Speaker 2:  to be in your speaker.
+
+155
+00:10:17,845 --> 00:10:21,065
+Speaker 7:  It was a different thing. Yeah. It was different from the, like the answer
+
+156
+00:10:21,065 --> 00:10:22,625
+Speaker 7:  back that we've experienced before.
+
+157
+00:10:22,625 --> 00:10:25,545
+Speaker 2:  Yeah. There was a meeting about it in which the ants picture speaker and
+
+158
+00:10:25,545 --> 00:10:25,745
+Speaker 2:  we're
+
+159
+00:10:25,745 --> 00:10:29,545
+Speaker 7:  Like, this is the place. Yeah. Okay. Yeah, absolutely. So I got curious and
+
+160
+00:10:29,545 --> 00:10:33,225
+Speaker 7:  I just googled ants in Sonos and I've,
+
+161
+00:10:33,295 --> 00:10:35,145
+Speaker 7:  it's the internet. I found stuff, good
+
+162
+00:10:35,145 --> 00:10:35,905
+Speaker 2:  Reporting tactic.
+
+163
+00:10:36,105 --> 00:10:39,985
+Speaker 7:  I found a lot of stuff. There are all these forum posts on
+
+164
+00:10:39,985 --> 00:10:43,545
+Speaker 7:  the Sonos website with people with the exact same problem.
+
+165
+00:10:43,965 --> 00:10:47,865
+Speaker 7:  And in many times, my exact model, the Sonos play one, like
+
+166
+00:10:47,865 --> 00:10:51,705
+Speaker 7:  there are many Sonos play one customers with
+
+167
+00:10:51,885 --> 00:10:55,865
+Speaker 7:  ant problems over the past few years. Weird other stuff on Reddit.
+
+168
+00:10:55,865 --> 00:10:59,625
+Speaker 7:  Like it's a thing. And all of these forum posters are just
+
+169
+00:10:59,625 --> 00:11:03,185
+Speaker 7:  sitting on these sites trading theories about
+
+170
+00:11:03,335 --> 00:11:07,305
+Speaker 7:  what is going on. Some people thought there might be a glue in
+
+171
+00:11:07,305 --> 00:11:11,025
+Speaker 7:  the electronics that they like, they thought the electronics could generate
+
+172
+00:11:11,215 --> 00:11:14,985
+Speaker 7:  heat and maybe the ants like that. There's this theory bouncing around that
+
+173
+00:11:15,265 --> 00:11:19,105
+Speaker 7:  ants might be attracted to magnetic fields for some reason. Ooh. Like
+
+174
+00:11:19,975 --> 00:11:23,715
+Speaker 7:  it was going places. Everyone was also trading a lot of theories about
+
+175
+00:11:23,875 --> 00:11:27,555
+Speaker 7:  how to get rid of them. 'cause they, you know, someone suggested
+
+176
+00:11:27,555 --> 00:11:31,275
+Speaker 7:  they've just put the Sonos in a freezer for a while, but people
+
+177
+00:11:31,345 --> 00:11:35,235
+Speaker 7:  also don't want a speaker full of dead ants. Right. Like, that's not
+
+178
+00:11:35,275 --> 00:11:36,235
+Speaker 7:  a great solution either.
+
+179
+00:11:36,615 --> 00:11:39,795
+Speaker 2:  If you want to get rid of the ants and also destroy your speaker. Like that's
+
+180
+00:11:39,795 --> 00:11:41,755
+Speaker 2:  a, that's an easier problem to solve. Yeah.
+
+181
+00:11:42,025 --> 00:11:45,635
+Speaker 7:  Yeah, exactly. So there's, there's a lot of talk about how to maybe
+
+182
+00:11:45,805 --> 00:11:49,555
+Speaker 7:  bully the ants out of the speakers with, with an air conditioner
+
+183
+00:11:49,695 --> 00:11:52,755
+Speaker 7:  or a heater or a fan yell
+
+184
+00:11:52,755 --> 00:11:54,485
+Speaker 2:  Offensive things at them through the speaker
+
+185
+00:11:55,355 --> 00:11:59,165
+Speaker 7:  Play. Playing Ed Sheeran through the speaker was one suggestion that got
+
+186
+00:11:59,165 --> 00:11:59,645
+Speaker 7:  some traction.
+
+187
+00:12:01,225 --> 00:12:04,725
+Speaker 7:  The zaniest one was, for some reason people thought that maybe if you
+
+188
+00:12:04,795 --> 00:12:08,405
+Speaker 7:  suspend the speakers over a bucket of water, but provide a bridge
+
+189
+00:12:09,075 --> 00:12:12,845
+Speaker 7:  away from the speaker. There's something about that setup that ants might
+
+190
+00:12:12,845 --> 00:12:16,125
+Speaker 7:  not like. It's, It is people just doing their best.
+
+191
+00:12:16,315 --> 00:12:16,605
+Speaker 2:  Yeah.
+
+192
+00:12:16,755 --> 00:12:20,485
+Speaker 7:  With not a ton of information and a speaker full of ants. So
+
+193
+00:12:21,365 --> 00:12:25,085
+Speaker 7:  I set out to answer this question for myself, for the people on the internet,
+
+194
+00:12:25,905 --> 00:12:29,685
+Speaker 7:  the two questions I had, one was just kind
+
+195
+00:12:29,845 --> 00:12:33,605
+Speaker 7:  of, how specific is this problem? Like if you google
+
+196
+00:12:33,665 --> 00:12:37,605
+Speaker 7:  around, you can find lots of examples of ants getting into electronics.
+
+197
+00:12:37,825 --> 00:12:41,765
+Speaker 7:  So my question is, is this a problem with electronics
+
+198
+00:12:41,765 --> 00:12:45,325
+Speaker 7:  and bugs? Is this a problem with ants and speakers, or is this a problem
+
+199
+00:12:45,325 --> 00:12:49,125
+Speaker 7:  with this kind of ant and this kind of speaker? Like what
+
+200
+00:12:49,125 --> 00:12:50,885
+Speaker 7:  scale of problem are we dealing with here?
+
+201
+00:12:51,545 --> 00:12:55,125
+Speaker 2:  I'm trying to imagine where you even start on this. 'cause I, I like, I like
+
+202
+00:12:55,125 --> 00:12:57,365
+Speaker 2:  that the place you go is like, am I the only person this has ever happened
+
+203
+00:12:57,365 --> 00:13:01,015
+Speaker 2:  to? Yes. And you, you determine No, but I can't imagine there's like
+
+204
+00:13:01,455 --> 00:13:05,295
+Speaker 2:  a, a copious body of scientific research on the ant qualities
+
+205
+00:13:05,395 --> 00:13:09,055
+Speaker 2:  of, and I can't imagine like Sonos has thought about this particular, like,
+
+206
+00:13:09,055 --> 00:13:09,655
+Speaker 2:  where do you start?
+
+207
+00:13:09,955 --> 00:13:13,535
+Speaker 7:  No, Sonos did respond to a couple of the forum posts with basically just
+
+208
+00:13:13,535 --> 00:13:17,495
+Speaker 7:  like, try your home warranty like this, this, this cannot be
+
+209
+00:13:17,495 --> 00:13:20,495
+Speaker 7:  a Sonos problem. Like, we refuse to make this a Sonos problem.
+
+210
+00:13:22,675 --> 00:13:26,535
+Speaker 7:  So I, I also just really wanted to know what to do
+
+211
+00:13:26,535 --> 00:13:30,095
+Speaker 7:  about it. Like, this was such an escalation from the ant
+
+212
+00:13:30,095 --> 00:13:33,975
+Speaker 7:  situations that I've dealt with in my house. I all of a sudden start
+
+213
+00:13:33,975 --> 00:13:37,815
+Speaker 7:  looking around at my like Roku box on the tv.
+
+214
+00:13:38,135 --> 00:13:41,495
+Speaker 7:  The TV itself, I just felt like nothing was safe anymore. Oh yeah.
+
+215
+00:13:41,495 --> 00:13:45,135
+Speaker 2:  You're like every, everything closed is like crawling with ants inside. Ugh.
+
+216
+00:13:45,135 --> 00:13:45,415
+Speaker 2:  Right.
+
+217
+00:13:45,415 --> 00:13:48,775
+Speaker 7:  And if and if there is something specific to electronics, then like, yeah.
+
+218
+00:13:48,805 --> 00:13:50,895
+Speaker 7:  This, this could go a lot of bad places. Ugh.
+
+219
+00:13:50,925 --> 00:13:54,015
+Speaker 2:  This officially just became my least favorite segment we've ever done. Like,
+
+220
+00:13:54,035 --> 00:13:55,735
+Speaker 2:  now I'm thinking about all the things. Yeah, you're still
+
+221
+00:13:55,735 --> 00:13:59,615
+Speaker 7:  Here, but Yeah, I can feel your mouse sort of like hovering over the exit
+
+222
+00:13:59,615 --> 00:14:00,255
+Speaker 7:  box. All
+
+223
+00:14:00,255 --> 00:14:02,375
+Speaker 2:  Right, we're coming back. I'm ready. Okay. I'm back in. All right.
+
+224
+00:14:02,635 --> 00:14:05,375
+Speaker 7:  So we're gonna, we're gonna learn some things. It's gonna be fun. All right.
+
+225
+00:14:05,915 --> 00:14:09,895
+Speaker 7:  The, the place that I started, which turned out to be really fruitful
+
+226
+00:14:10,315 --> 00:14:14,095
+Speaker 7:  was entomologists. I, I live in the Seattle area,
+
+227
+00:14:14,235 --> 00:14:18,015
+Speaker 7:  so I, I reached out to the entomology department at Washington State
+
+228
+00:14:18,015 --> 00:14:21,775
+Speaker 7:  University. I figured someone regional might have a good sense of
+
+229
+00:14:22,105 --> 00:14:25,735
+Speaker 7:  local ad populations. So I emailed the
+
+230
+00:14:25,735 --> 00:14:27,815
+Speaker 7:  department. What
+
+231
+00:14:27,815 --> 00:14:28,935
+Speaker 2:  Does that cold email say?
+
+232
+00:14:29,855 --> 00:14:32,655
+Speaker 7:  I mean, it was really straightforward. This is the, the, the best thing about
+
+233
+00:14:32,655 --> 00:14:36,375
+Speaker 7:  doing my job is I can just send insane emails as if they're
+
+234
+00:14:36,375 --> 00:14:39,975
+Speaker 7:  completely normal as, hi, I am a technology journalist and I have a bunch
+
+235
+00:14:39,975 --> 00:14:43,575
+Speaker 7:  of ants in my speakers and I was wondering if an entomologist could
+
+236
+00:14:43,925 --> 00:14:47,895
+Speaker 7:  give me some tips about that. And true to form, they
+
+237
+00:14:47,895 --> 00:14:51,525
+Speaker 7:  were like, absolutely. They put me in touch with a
+
+238
+00:14:51,525 --> 00:14:54,365
+Speaker 7:  master's student that had just graduated named Sam Dday.
+
+239
+00:14:55,785 --> 00:14:59,325
+Speaker 7:  She specializes in, in what they call you social
+
+240
+00:14:59,515 --> 00:15:03,165
+Speaker 7:  insects. These are insects like bees and ants that have queens
+
+241
+00:15:03,305 --> 00:15:06,325
+Speaker 7:  and casts and colonies and that kind of social structure.
+
+242
+00:15:07,185 --> 00:15:10,605
+Speaker 7:  She was super into the question. She had some
+
+243
+00:15:11,495 --> 00:15:15,405
+Speaker 7:  experience with this kind of thing. And her first
+
+244
+00:15:15,435 --> 00:15:19,285
+Speaker 7:  step with me was identifying the species of ant. It
+
+245
+00:15:19,285 --> 00:15:23,005
+Speaker 7:  was like, let's figure out what kind of ant this is and that'll tell us a
+
+246
+00:15:23,005 --> 00:15:26,325
+Speaker 7:  bunch about why they went and did this thing to you. Okay.
+
+247
+00:15:27,025 --> 00:15:27,245
+Speaker 7:  How,
+
+248
+00:15:27,245 --> 00:15:29,165
+Speaker 2:  How does one identify a species of, and
+
+249
+00:15:29,395 --> 00:15:32,205
+Speaker 7:  Well, a bunch of different ways. Okay. She had some suspicions just based
+
+250
+00:15:32,205 --> 00:15:35,845
+Speaker 7:  on where I live and the story that I told. Basically their
+
+251
+00:15:36,045 --> 00:15:39,805
+Speaker 7:  behavior. She also asked for a closeup photo. So I got as, as
+
+252
+00:15:39,805 --> 00:15:43,765
+Speaker 7:  macro a photo as I could Nice of, of a dead one and sent them along to her
+
+253
+00:15:45,145 --> 00:15:48,605
+Speaker 7:  and then she suggested that I crush some of them up and smell them.
+
+254
+00:15:49,985 --> 00:15:51,005
+Speaker 7:  My god. Which,
+
+255
+00:15:51,285 --> 00:15:52,485
+Speaker 2:  Speaking of bullying, the ants,
+
+256
+00:15:53,605 --> 00:15:57,445
+Speaker 7:  I found a bunch of dead ones. Okay. I collect, I just, I just shook the
+
+257
+00:15:57,445 --> 00:16:01,285
+Speaker 7:  speaker out onto a piece of paper, collected a bunch of dead ones.
+
+258
+00:16:01,785 --> 00:16:05,725
+Speaker 7:  The trouble is I have a condition called a nasia. I
+
+259
+00:16:05,725 --> 00:16:09,125
+Speaker 7:  basically have no sense of smell. This is a fun fact about me. So I was out
+
+260
+00:16:09,125 --> 00:16:12,925
+Speaker 7:  of the running to perform this particular experiment. So
+
+261
+00:16:13,025 --> 00:16:15,845
+Speaker 7:  the next best person was my already traumatized wife,
+
+262
+00:16:16,885 --> 00:16:20,605
+Speaker 7:  Caroline, who was a real champ when I got a bunch of ant
+
+263
+00:16:20,605 --> 00:16:23,245
+Speaker 7:  carcasses and asked her to smell them.
+
+264
+00:16:23,915 --> 00:16:27,685
+Speaker 9:  Okay. I'm just gonna crush them with the back of the spoon. And then
+
+265
+00:16:27,685 --> 00:16:30,805
+Speaker 9:  you're gonna take a big sniff and tell me if you smell anything.
+
+266
+00:16:31,555 --> 00:16:31,845
+Speaker 10:  Okay.
+
+267
+00:16:32,475 --> 00:16:33,005
+Speaker 9:  Okay. Ready?
+
+268
+00:16:34,985 --> 00:16:38,845
+Speaker 10:  Oh, it's not a bad smell,
+
+269
+00:16:38,865 --> 00:16:40,765
+Speaker 10:  but I do smell a thing.
+
+270
+00:16:40,995 --> 00:16:42,165
+Speaker 9:  What does it smell like?
+
+271
+00:16:43,205 --> 00:16:45,405
+Speaker 10:  I will need a second sniff. Get
+
+272
+00:16:45,405 --> 00:16:45,605
+Speaker 9:  In there.
+
+273
+00:16:46,915 --> 00:16:50,565
+Speaker 10:  It's kind of lemony. Oh, is that,
+
+274
+00:16:51,325 --> 00:16:54,005
+Speaker 9:  I don't know. I don't know what they're supposed to smell like.
+
+275
+00:16:55,105 --> 00:16:56,645
+Speaker 10:  Oh God. Did I get Ed on my nose?
+
+276
+00:16:59,505 --> 00:17:00,275
+Speaker 2:  Your poor wife?
+
+277
+00:17:00,855 --> 00:17:01,555
+Speaker 7:  My poor wife
+
+278
+00:17:01,915 --> 00:17:02,995
+Speaker 2:  Caroline. Thank you. We're all
+
+279
+00:17:03,235 --> 00:17:05,875
+Speaker 7:  Grateful of all the debuts for to The Vergecast
+
+280
+00:17:07,575 --> 00:17:08,715
+Speaker 7:  for the science. Okay. So
+
+281
+00:17:08,715 --> 00:17:11,195
+Speaker 2:  We have some evidence though. We have, we have a lemony smell,
+
+282
+00:17:11,535 --> 00:17:15,235
+Speaker 7:  We have a lemony smell, we have a photo, we have behavior.
+
+283
+00:17:15,655 --> 00:17:18,995
+Speaker 7:  We have a lot. Yeah. So I sort of collated all of that and finally
+
+284
+00:17:19,575 --> 00:17:23,535
+Speaker 7:  called Sam up on the phone to talk about it. She got like a
+
+285
+00:17:24,125 --> 00:17:27,775
+Speaker 7:  citrusy lemony smell. Hmm. Does that track with your
+
+286
+00:17:27,775 --> 00:17:28,335
+Speaker 7:  experience?
+
+287
+00:17:28,915 --> 00:17:32,055
+Speaker 11:  You know, everyone smells something different. Oh,
+
+288
+00:17:32,875 --> 00:17:36,735
+Speaker 11:  the smell that people reference a lot is rotten coconut.
+
+289
+00:17:37,435 --> 00:17:39,055
+Speaker 11:  Oh. Or blue cheese.
+
+290
+00:17:39,885 --> 00:17:42,415
+Speaker 7:  Okay. That's different than lemons. Yeah.
+
+291
+00:17:42,415 --> 00:17:43,935
+Speaker 11:  That is very different than lemons.
+
+292
+00:17:45,655 --> 00:17:47,495
+Speaker 11:  I think it almost smells like turpentine.
+
+293
+00:17:48,485 --> 00:17:52,255
+Speaker 7:  So based on the story, the behavior, the description, the photo,
+
+294
+00:17:52,715 --> 00:17:56,415
+Speaker 7:  the fact that there was a smell, even if it wasn't the most expected one,
+
+295
+00:17:56,835 --> 00:18:00,255
+Speaker 7:  all of this made Sam really confident that we were dealing with something
+
+296
+00:18:00,255 --> 00:18:04,015
+Speaker 7:  called Theodorus house Ant or Oja, OHA.
+
+297
+00:18:04,445 --> 00:18:08,375
+Speaker 2:  Okay. Is that like when I think of an ant, is that the ant I'm thinking
+
+298
+00:18:08,415 --> 00:18:10,775
+Speaker 2:  of? Do you know what I mean? It's like everybody has like the ant in their
+
+299
+00:18:10,775 --> 00:18:11,815
+Speaker 2:  house. Is this that ant?
+
+300
+00:18:12,015 --> 00:18:15,455
+Speaker 7:  I think it depends. Okay. I think there's a really good chance that if it's
+
+301
+00:18:15,615 --> 00:18:19,535
+Speaker 7:  a really small ant that is constantly annoying you in your
+
+302
+00:18:19,535 --> 00:18:23,095
+Speaker 7:  house, there's a good chance that it's an Noha. Okay. 'cause they're native
+
+303
+00:18:23,155 --> 00:18:27,055
+Speaker 7:  to North America, they're found all over the continent. They're very
+
+304
+00:18:27,055 --> 00:18:30,655
+Speaker 7:  common. There are other ants that get confused with uhhas, but
+
+305
+00:18:30,805 --> 00:18:34,695
+Speaker 7:  this is a really common one. They live the, like I
+
+306
+00:18:34,695 --> 00:18:38,655
+Speaker 7:  said, they're, they're these social creatures. They live in really big colonies
+
+307
+00:18:38,655 --> 00:18:42,535
+Speaker 7:  with a few queens and thousands and thousands of workers that run all over
+
+308
+00:18:42,535 --> 00:18:44,855
+Speaker 7:  the place and do cooperative colony things.
+
+309
+00:18:46,045 --> 00:18:49,935
+Speaker 7:  They're super, super common in homes, hence the name. And
+
+310
+00:18:49,935 --> 00:18:53,895
+Speaker 7:  they're really interesting to entomologists right now because in North
+
+311
+00:18:53,895 --> 00:18:56,415
+Speaker 7:  America they're undergoing this kind of mysterious shift
+
+312
+00:18:57,335 --> 00:18:59,335
+Speaker 11:  Odors, haans in their natural
+
+313
+00:19:00,725 --> 00:19:03,735
+Speaker 11:  environment, which is in wooded areas.
+
+314
+00:19:04,445 --> 00:19:08,095
+Speaker 11:  They usually will only have one, maybe a handful
+
+315
+00:19:08,235 --> 00:19:12,055
+Speaker 11:  of queens, very small colonies. And what
+
+316
+00:19:12,055 --> 00:19:15,575
+Speaker 11:  we've seen in the last 10 or 15 years is that
+
+317
+00:19:16,315 --> 00:19:20,215
+Speaker 11:  in urban environments, the ris Haan starts kind
+
+318
+00:19:20,215 --> 00:19:23,655
+Speaker 11:  of changing how it reacts. So our
+
+319
+00:19:23,905 --> 00:19:27,535
+Speaker 11:  nests are now made up of hundreds of thousands
+
+320
+00:19:27,755 --> 00:19:31,415
+Speaker 11:  of queens and hundreds and hundreds of thousands of, of
+
+321
+00:19:31,415 --> 00:19:35,255
+Speaker 11:  workers in these urban environments. So
+
+322
+00:19:35,255 --> 00:19:38,735
+Speaker 11:  that's part of what makes them so difficult to treat. It's just the size
+
+323
+00:19:38,735 --> 00:19:42,415
+Speaker 11:  of them. And it's not just one single nest that
+
+324
+00:19:42,415 --> 00:19:46,215
+Speaker 11:  they're staying in. It's multiple interconnected super colonies
+
+325
+00:19:46,565 --> 00:19:50,175
+Speaker 11:  that are forming in your backyard, in your neighbor's backyard,
+
+326
+00:19:50,355 --> 00:19:54,215
+Speaker 11:  in your neighbor's neighbor's backyard. Yeah. Pretty much just
+
+327
+00:19:54,735 --> 00:19:58,615
+Speaker 11:  entrenching a whole area in a cooperative nest, which is
+
+328
+00:19:58,935 --> 00:20:00,175
+Speaker 11:  crazy. Very interesting.
+
+329
+00:20:00,955 --> 00:20:04,775
+Speaker 7:  So that's all kind of a mystery. What we do know is
+
+330
+00:20:04,805 --> 00:20:08,615
+Speaker 7:  that they just have a lot of reasons to like suburban or urban
+
+331
+00:20:08,665 --> 00:20:12,535
+Speaker 7:  areas. There's human food and pet food all over the place. Toddler
+
+332
+00:20:12,895 --> 00:20:16,615
+Speaker 7:  crumbs, nice heated homes. And then homes have all these
+
+333
+00:20:16,805 --> 00:20:20,095
+Speaker 7:  nice little nooks and crannies inside to, to live.
+
+334
+00:20:20,755 --> 00:20:24,295
+Speaker 11:  If you can think of a house in your basement and your kitchen
+
+335
+00:20:24,635 --> 00:20:28,335
+Speaker 11:  and your bathrooms, those are ideal spots for our
+
+336
+00:20:28,595 --> 00:20:32,335
+Speaker 11:  ods house sand. They want to live there just as much as we do.
+
+337
+00:20:32,775 --> 00:20:33,975
+Speaker 11:  They find it just as nice.
+
+338
+00:20:35,195 --> 00:20:39,135
+Speaker 7:  So knowing what Sam knows about Ojas, she was
+
+339
+00:20:39,135 --> 00:20:42,095
+Speaker 7:  not remotely surprised about this story that I told her.
+
+340
+00:20:43,165 --> 00:20:46,485
+Speaker 11:  I mean, this is the calling card of Ris
+
+341
+00:20:46,815 --> 00:20:50,725
+Speaker 11:  Haans is that they seem to just appear
+
+342
+00:20:51,065 --> 00:20:54,525
+Speaker 11:  one day and it's because they are so transient
+
+343
+00:20:54,935 --> 00:20:58,445
+Speaker 11:  about every two weeks they are constantly moving their nests.
+
+344
+00:20:59,025 --> 00:21:02,565
+Speaker 11:  And unlike other ants that will find the food source,
+
+345
+00:21:03,195 --> 00:21:06,165
+Speaker 11:  take bits of it, bring it back to the nest for
+
+346
+00:21:06,925 --> 00:21:10,765
+Speaker 11:  distributing, haws don't do that. They don't take the food to
+
+347
+00:21:10,765 --> 00:21:14,725
+Speaker 11:  the brood. They take the brood to the food. The
+
+348
+00:21:14,725 --> 00:21:18,525
+Speaker 11:  speaker is situated in a perfect place that they can easily
+
+349
+00:21:18,665 --> 00:21:21,165
+Speaker 11:  get to the dog food in your, in your closet
+
+350
+00:21:22,385 --> 00:21:25,965
+Speaker 11:  scraps in the, the kitchen. So they just
+
+351
+00:21:26,105 --> 00:21:30,045
+Speaker 11:  really found this one place and were like, this is perfect. And
+
+352
+00:21:30,185 --> 00:21:34,165
+Speaker 11:  you say that it took you about a week for them to move. And that's on
+
+353
+00:21:34,175 --> 00:21:38,045
+Speaker 11:  brand. I don't know if it rained before or during that time
+
+354
+00:21:38,275 --> 00:21:42,205
+Speaker 11:  when you were gone, but rain is, It is definitely one of those that
+
+355
+00:21:42,555 --> 00:21:46,085
+Speaker 11:  elicits them wanting to, to move around. And Seattle
+
+356
+00:21:46,335 --> 00:21:48,245
+Speaker 11:  being one of the wettest places out there
+
+357
+00:21:48,905 --> 00:21:52,605
+Speaker 7:  All the time. Yeah, yeah. So they're, that might be constantly sort of
+
+358
+00:21:52,605 --> 00:21:53,445
+Speaker 7:  scrambling them.
+
+359
+00:21:53,915 --> 00:21:56,885
+Speaker 11:  Exactly. So weather, food, resources,
+
+360
+00:21:57,985 --> 00:22:00,965
+Speaker 11:  and also just the seasons as well.
+
+361
+00:22:01,815 --> 00:22:05,765
+Speaker 11:  March is when they, everything is coming to life. It's
+
+362
+00:22:05,995 --> 00:22:09,405
+Speaker 11:  when we're getting out and stretching our legs. And it's the same with our
+
+363
+00:22:09,535 --> 00:22:13,285
+Speaker 11:  aunts. They're, those little ladies are, are trying to find new
+
+364
+00:22:13,295 --> 00:22:17,165
+Speaker 11:  homes and they're trying to expand their numbers while
+
+365
+00:22:17,165 --> 00:22:19,325
+Speaker 11:  the weather's nice and the resources are available.
+
+366
+00:22:20,385 --> 00:22:24,045
+Speaker 2:  So I feel like this explains why they're around,
+
+367
+00:22:24,155 --> 00:22:27,965
+Speaker 2:  like sort of why they'd show up at all. But have we answered yet
+
+368
+00:22:27,965 --> 00:22:31,525
+Speaker 2:  why they would pick a speaker or I guess More specifically a
+
+369
+00:22:31,615 --> 00:22:35,445
+Speaker 2:  Sonos play one? I really hope this mystery ends with some
+
+370
+00:22:35,835 --> 00:22:39,405
+Speaker 2:  play one specific stuff. But it does feel like I, I get it,
+
+371
+00:22:39,995 --> 00:22:41,375
+Speaker 2:  but do we know the speaker bit yet?
+
+372
+00:22:41,955 --> 00:22:44,455
+Speaker 7:  We, we have not gotten to the speaker bit yet, but okay,
+
+373
+00:22:44,525 --> 00:22:45,055
+Speaker 2:  Here we go.
+
+374
+00:22:45,085 --> 00:22:46,375
+Speaker 7:  Okay. Here's the speaker bit.
+
+375
+00:22:47,195 --> 00:22:51,115
+Speaker 11:  I did see a bunch of of people having the same problem with that
+
+376
+00:22:51,605 --> 00:22:54,475
+Speaker 11:  exact speaker. Really? And yes. And
+
+377
+00:22:55,455 --> 00:22:59,395
+Speaker 11:  you know, if I put on my, my ant glasses and look at things
+
+378
+00:22:59,535 --> 00:23:00,635
+Speaker 11:  as if I were a worker,
+
+379
+00:23:00,975 --> 00:23:02,715
+Speaker 7:  Please, this is exactly what I need.
+
+380
+00:23:03,505 --> 00:23:06,875
+Speaker 11:  That is the perfect housing. Is that speaker
+
+381
+00:23:07,585 --> 00:23:11,355
+Speaker 7:  What? Tell me everything. What like you the ant, why is this seventh
+
+382
+00:23:11,355 --> 00:23:14,755
+Speaker 7:  heaven for you when you like discover a Sonos? Yeah. Play one.
+
+383
+00:23:15,465 --> 00:23:19,235
+Speaker 11:  Well, as I'm looking at it and, and when you were pulling it apart, it has
+
+384
+00:23:19,275 --> 00:23:22,755
+Speaker 11:  a lot of crevices in it. It had a lot of little spaces where
+
+385
+00:23:23,295 --> 00:23:27,115
+Speaker 11:  as an aunt I would be happy to place a bunch of brood in there,
+
+386
+00:23:27,465 --> 00:23:31,355
+Speaker 11:  make sure it's nice and moist in there for them. It's easy to climate control.
+
+387
+00:23:31,745 --> 00:23:35,595
+Speaker 11:  It's a dark color. So if the sun is hitting it, it's gonna
+
+388
+00:23:35,595 --> 00:23:39,555
+Speaker 11:  warm it up inside there. Make it nice and like tropical for
+
+389
+00:23:39,555 --> 00:23:42,195
+Speaker 11:  me. That's perfect. That's seventh heaven To me.
+
+390
+00:23:42,985 --> 00:23:46,125
+Speaker 7:  The thing that I realized after learning all this is, is I think the reason
+
+391
+00:23:46,185 --> 00:23:50,085
+Speaker 7:  the Sonos made no sense for me as a human for
+
+392
+00:23:50,085 --> 00:23:53,925
+Speaker 7:  an ant colony was because I picture ants digging
+
+393
+00:23:54,035 --> 00:23:57,805
+Speaker 7:  tunnels and building nest. Like I, I think I was thinking about ant farm
+
+394
+00:23:58,205 --> 00:24:01,845
+Speaker 7:  ants. Same. And that's just not ojas, that's just not their
+
+395
+00:24:02,125 --> 00:24:05,885
+Speaker 7:  behavior. They don't build their own extensive nests. They look for
+
+396
+00:24:05,985 --> 00:24:09,685
+Speaker 7:  spaces that just work for them. They look for confined protected
+
+397
+00:24:09,815 --> 00:24:13,685
+Speaker 7:  spots and they just go to town. So the
+
+398
+00:24:13,685 --> 00:24:17,525
+Speaker 7:  inside of a speaker is great for them. They also, in
+
+399
+00:24:17,525 --> 00:24:21,405
+Speaker 7:  your house love the voids between walls. They love the little spaces inside
+
+400
+00:24:21,495 --> 00:24:24,965
+Speaker 7:  power outlets. They like little crevices around water pipes.
+
+401
+00:24:25,595 --> 00:24:29,485
+Speaker 11:  I've heard stories of people coming back from the weekend and finding
+
+402
+00:24:29,965 --> 00:24:33,045
+Speaker 11:  odor alsan colonies underneath their calculator at work.
+
+403
+00:24:34,025 --> 00:24:38,015
+Speaker 7:  There was another thing though, that Sam really zeroed in on
+
+404
+00:24:38,385 --> 00:24:42,175
+Speaker 7:  about this specific Sonos speaker. Nice. And, and others
+
+405
+00:24:42,405 --> 00:24:43,175
+Speaker 7:  that are like it.
+
+406
+00:24:43,975 --> 00:24:47,895
+Speaker 11:  I noticed that there's some speakers that have like the fabric
+
+407
+00:24:48,395 --> 00:24:52,335
+Speaker 11:  that's over the speaker head. This one doesn't, this one has
+
+408
+00:24:52,335 --> 00:24:54,215
+Speaker 11:  those tiny little holes and they look,
+
+409
+00:24:54,215 --> 00:24:55,455
+Speaker 7:  It's got a little metal grill. Yeah.
+
+410
+00:24:55,825 --> 00:24:59,655
+Speaker 11:  Those are perfect size for me. That is an entrance to
+
+411
+00:24:59,955 --> 00:25:03,895
+Speaker 11:  the lobby, you know, that that was made for me to enter.
+
+412
+00:25:04,955 --> 00:25:08,655
+Speaker 11:  So the, those answers seeing this tiny crevice and they're seeing
+
+413
+00:25:08,795 --> 00:25:11,655
+Speaker 11:  the, the warmth in there and the electricity.
+
+414
+00:25:12,535 --> 00:25:16,355
+Speaker 2:  So the electricity is part, I honestly like of all the crackpot
+
+415
+00:25:16,355 --> 00:25:19,555
+Speaker 2:  theories you described at the top, this sounded like the most crackpot of
+
+416
+00:25:19,555 --> 00:25:22,155
+Speaker 2:  the crackpot theories. And you're telling me the electricity is real.
+
+417
+00:25:22,665 --> 00:25:26,515
+Speaker 7:  Same. I I was completely skeptical that there was
+
+418
+00:25:26,515 --> 00:25:30,395
+Speaker 7:  something like about the magnetic fields and insects. It
+
+419
+00:25:30,395 --> 00:25:34,315
+Speaker 7:  just seemed like totally outta left field. But Sam
+
+420
+00:25:34,415 --> 00:25:35,235
+Speaker 7:  had thoughts on that.
+
+421
+00:25:36,225 --> 00:25:40,085
+Speaker 11:  It hasn't been looked at specifically in ojas, but it has
+
+422
+00:25:40,085 --> 00:25:43,685
+Speaker 11:  been looked at in other ant species where they are
+
+423
+00:25:45,085 --> 00:25:48,645
+Speaker 11:  actually attracted to magnetic fields
+
+424
+00:25:49,025 --> 00:25:53,005
+Speaker 11:  or the voltage. There's a couple of different trains of thought when it
+
+425
+00:25:53,005 --> 00:25:56,645
+Speaker 11:  comes to that one with the electricity, there's a
+
+426
+00:25:56,645 --> 00:26:00,605
+Speaker 11:  slight heat increase. So some ants might
+
+427
+00:26:00,605 --> 00:26:03,405
+Speaker 11:  be perceiving it as a slightly warmer environment.
+
+428
+00:26:04,195 --> 00:26:07,885
+Speaker 11:  There's also some evidence that should suggests when
+
+429
+00:26:08,245 --> 00:26:11,925
+Speaker 11:  ants get into electronics, they're more likely to get shocked.
+
+430
+00:26:12,545 --> 00:26:16,285
+Speaker 11:  And when they get shocked, they released a pheromone. And that
+
+431
+00:26:16,315 --> 00:26:20,005
+Speaker 11:  pheromone is then attracting more ants. Those
+
+432
+00:26:20,285 --> 00:26:23,925
+Speaker 11:  ants are more likely gonna get shocked and they're gonna release the
+
+433
+00:26:23,925 --> 00:26:27,685
+Speaker 11:  pheromone that's going to attract even more ants. And it's a vicious cycle.
+
+434
+00:26:28,345 --> 00:26:31,805
+Speaker 11:  And so it's this pheromone that's being released, that's making this behavior
+
+435
+00:26:33,145 --> 00:26:37,125
+Speaker 11:  to say, come here, come here. But it's an interesting thing and, and it's
+
+436
+00:26:37,125 --> 00:26:41,005
+Speaker 11:  only been looked at in a couple of studies about what is it? And they
+
+437
+00:26:41,065 --> 00:26:44,685
+Speaker 11:  did see an increase in attractiveness
+
+438
+00:26:44,905 --> 00:26:46,765
+Speaker 11:  as the voltage increased.
+
+439
+00:26:47,225 --> 00:26:50,845
+Speaker 7:  Gotcha. So they're noticing an attraction to electricity. And the,
+
+440
+00:26:51,545 --> 00:26:54,765
+Speaker 7:  the, the possible reasons for that are the heat,
+
+441
+00:26:55,545 --> 00:26:57,885
+Speaker 7:  the, the, the shocking.
+
+442
+00:26:59,105 --> 00:27:02,885
+Speaker 11:  Or a third thing, like I, they're, they could be picking up on a magnetic
+
+443
+00:27:02,975 --> 00:27:06,805
+Speaker 11:  field that is eliciting some kind of response that we
+
+444
+00:27:06,805 --> 00:27:07,565
+Speaker 11:  don't understand.
+
+445
+00:27:09,185 --> 00:27:13,165
+Speaker 11:  You know, I'm, I'm not an ant I I'm an ant person, but I
+
+446
+00:27:13,175 --> 00:27:17,085
+Speaker 11:  can't necessarily think exactly like an ant. So there could be some third
+
+447
+00:27:17,145 --> 00:27:18,965
+Speaker 11:  reason behind this.
+
+448
+00:27:19,885 --> 00:27:23,565
+Speaker 2:  I wonder if Sam frequently has to remind herself that she's not an aunt.
+
+449
+00:27:23,755 --> 00:27:26,245
+Speaker 2:  That seems like the kind of thing that as an entomologist, you every once
+
+450
+00:27:26,245 --> 00:27:30,085
+Speaker 2:  in a while have to be like, It is true. I'm not an an like she says that
+
+451
+00:27:30,515 --> 00:27:32,965
+Speaker 2:  sort of reminding you, but also sort of reminding herself. You know what
+
+452
+00:27:32,965 --> 00:27:33,365
+Speaker 2:  I mean? Yeah.
+
+453
+00:27:33,365 --> 00:27:36,205
+Speaker 7:  Well she kinda went back and forth between, well I'm not an aunt, but if
+
+454
+00:27:36,325 --> 00:27:40,165
+Speaker 7:  I were an aunt in a way that you really felt like
+
+455
+00:27:40,185 --> 00:27:42,845
+Speaker 7:  she was in inhabiting this position. Yeah.
+
+456
+00:27:43,345 --> 00:27:47,205
+Speaker 2:  So is this satisfying to you? Like do you feel like this
+
+457
+00:27:47,205 --> 00:27:50,885
+Speaker 2:  is, this is sort of the, the complete answer. It, it feels like,
+
+458
+00:27:51,525 --> 00:27:54,085
+Speaker 2:  I understand now why they might pick your speaker in particular,
+
+459
+00:27:55,785 --> 00:27:58,925
+Speaker 2:  but does it feel like you've gotten all the way to the end of the answer?
+
+460
+00:27:59,545 --> 00:28:03,485
+Speaker 7:  It kind of did. Yeah. I honestly wasn't expecting to get quite this far.
+
+461
+00:28:03,745 --> 00:28:07,605
+Speaker 7:  But it, after talking to Sam, it felt like yes
+
+462
+00:28:07,625 --> 00:28:10,845
+Speaker 7:  It is these specific ants that are doing this.
+
+463
+00:28:11,585 --> 00:28:15,125
+Speaker 7:  And this specific speaker definitely has some
+
+464
+00:28:15,225 --> 00:28:19,045
+Speaker 7:  traits that they love. So I don't, to me it really
+
+465
+00:28:19,045 --> 00:28:22,805
+Speaker 7:  does explain all of those forum posts on the Sonos website.
+
+466
+00:28:22,805 --> 00:28:26,485
+Speaker 7:  Like it's, it's not just this speaker. There's all kinds of
+
+467
+00:28:26,485 --> 00:28:30,445
+Speaker 7:  electronics that have grills and little cubbies and are, you know, have magnetic
+
+468
+00:28:30,445 --> 00:28:34,005
+Speaker 7:  fields. But this speaker of mine definitely
+
+469
+00:28:34,215 --> 00:28:37,245
+Speaker 7:  ticks all of these different boxes for the ants.
+
+470
+00:28:37,555 --> 00:28:41,365
+Speaker 2:  Yeah. It's kind of the, it's like the perfect storm for ant
+
+471
+00:28:41,365 --> 00:28:44,485
+Speaker 2:  attraction where the kids Absolutely. Lots of electronics do sort of one
+
+472
+00:28:44,485 --> 00:28:47,845
+Speaker 2:  or two of the things you just described, but the, the play one is sort of
+
+473
+00:28:48,145 --> 00:28:51,485
+Speaker 2:  the perfect center of the Venn diagram of all the things that those ants
+
+474
+00:28:51,485 --> 00:28:51,885
+Speaker 2:  like deliver.
+
+475
+00:28:51,955 --> 00:28:55,365
+Speaker 7:  Exactly. And so that's the thing that just completely flipped my thinking
+
+476
+00:28:55,405 --> 00:28:59,205
+Speaker 7:  180 degrees from like of all the places. Why the Sonos to like,
+
+477
+00:28:59,545 --> 00:29:00,965
+Speaker 7:  oh yeah, no, it would be the Sonos.
+
+478
+00:29:03,625 --> 00:29:07,485
+Speaker 2:  So you destroyed your play one, we think. I'm very curious
+
+479
+00:29:07,485 --> 00:29:09,325
+Speaker 2:  to know when you put it back together, how it goes. Yeah,
+
+480
+00:29:09,325 --> 00:29:12,765
+Speaker 7:  I'll, I'll follow up with that, but I don't have high hopes. It, it was done
+
+481
+00:29:12,765 --> 00:29:14,925
+Speaker 7:  sort of in a, a fit of mania. Yeah.
+
+482
+00:29:14,985 --> 00:29:18,845
+Speaker 2:  But knowing what you know now, outside of full
+
+483
+00:29:18,845 --> 00:29:22,725
+Speaker 2:  panic, heaved the thing into the yard, what would you do? What, like for
+
+484
+00:29:22,725 --> 00:29:25,445
+Speaker 2:  all the people who are on these forums trying to figure it out, what is the
+
+485
+00:29:25,445 --> 00:29:26,565
+Speaker 2:  right answer? How do you get the answer out?
+
+486
+00:29:26,905 --> 00:29:30,765
+Speaker 7:  So it turns out I, in my own panic, I was kind of on the right
+
+487
+00:29:30,765 --> 00:29:34,725
+Speaker 7:  track. Well, so let's talk about getting them out. Yes. I think I might
+
+488
+00:29:34,755 --> 00:29:38,525
+Speaker 7:  have lucked into a solution, but if someone came to you
+
+489
+00:29:38,985 --> 00:29:42,865
+Speaker 7:  and said, my speaker is full of ants, what would you tell
+
+490
+00:29:42,865 --> 00:29:43,265
+Speaker 7:  them to do?
+
+491
+00:29:44,065 --> 00:29:47,545
+Speaker 11:  I think you, you did the right thing. You got them outta your house and
+
+492
+00:29:47,545 --> 00:29:50,385
+Speaker 11:  gave them time to move all their brood out.
+
+493
+00:29:51,445 --> 00:29:55,425
+Speaker 11:  You just have made it an environment that's not what they want
+
+494
+00:29:55,425 --> 00:29:55,785
+Speaker 11:  anymore.
+
+495
+00:29:56,565 --> 00:30:00,435
+Speaker 7:  So I mean, basically the advice is leverage that
+
+496
+00:30:00,435 --> 00:30:04,395
+Speaker 7:  fact that we learned that they move around pretty regularly anyway. Just
+
+497
+00:30:04,545 --> 00:30:07,715
+Speaker 7:  move the nest outside and wait for them to just wander off.
+
+498
+00:30:08,455 --> 00:30:12,395
+Speaker 7:  If you can't move the nest, then you're in kind of ant trap territory or
+
+499
+00:30:12,395 --> 00:30:14,595
+Speaker 7:  calling in a professional or something like that.
+
+500
+00:30:16,135 --> 00:30:20,035
+Speaker 7:  As for all those other ideas in the forum, San said that trying to
+
+501
+00:30:20,035 --> 00:30:23,755
+Speaker 7:  bully them out with heat and cold is kind of tricky because
+
+502
+00:30:23,755 --> 00:30:27,515
+Speaker 7:  they're just so resilient. Like, she told me this story about
+
+503
+00:30:27,575 --> 00:30:31,195
+Speaker 7:  how the thermostat in her lab went haywire one weekend
+
+504
+00:30:31,775 --> 00:30:35,555
+Speaker 7:  and just cooked her whole lab at like a hundred plus degrees Whoa. A weekend.
+
+505
+00:30:35,575 --> 00:30:39,355
+Speaker 7:  And she came back and all of her aunt colonies were dead except for the
+
+506
+00:30:39,465 --> 00:30:43,435
+Speaker 7:  ohas, which were just, oh my gosh. Chugging along. So you might have
+
+507
+00:30:43,435 --> 00:30:46,275
+Speaker 7:  a hard time with extreme temperatures with them specifically.
+
+508
+00:30:46,705 --> 00:30:47,235
+Speaker 2:  Fair enough.
+
+509
+00:30:47,455 --> 00:30:50,875
+Speaker 7:  And she did not know what to make of the bucket of water trick. That is just
+
+510
+00:30:50,875 --> 00:30:54,155
+Speaker 7:  gonna be the, the last enduring mystery of this story. So the, the
+
+511
+00:30:54,475 --> 00:30:57,955
+Speaker 2:  Electricity theorists are gonna be unbearable on these forums now is what
+
+512
+00:30:57,955 --> 00:30:58,275
+Speaker 2:  I'm hearing.
+
+513
+00:30:58,385 --> 00:31:00,275
+Speaker 7:  Yeah, yeah. We just added a lot of fuel to that.
+
+514
+00:31:00,345 --> 00:31:03,595
+Speaker 2:  What about, can you just play really loud music, like my immediate instinct
+
+515
+00:31:03,615 --> 00:31:07,275
+Speaker 2:  was just like, put on something bassy, turn it up to a hundred
+
+516
+00:31:07,775 --> 00:31:10,915
+Speaker 2:  and see if you can just like bounce them out of the speaker. Did you ask
+
+517
+00:31:10,915 --> 00:31:11,875
+Speaker 2:  Sam about this? I
+
+518
+00:31:11,875 --> 00:31:15,795
+Speaker 7:  Did. And the answer is maybe like, just,
+
+519
+00:31:15,825 --> 00:31:19,555
+Speaker 7:  just walk it outside and leave it alone is the easiest thing to do. But she
+
+520
+00:31:19,555 --> 00:31:23,275
+Speaker 7:  got really curious about all these options and she thought that that
+
+521
+00:31:23,325 --> 00:31:27,235
+Speaker 7:  might bother them because it turns out that these ants communicate via
+
+522
+00:31:27,285 --> 00:31:30,915
+Speaker 7:  sound themselves. They rub little parts of their ant bodies together to talk
+
+523
+00:31:30,915 --> 00:31:34,875
+Speaker 7:  to each other. And so a whole bunch of vibrations from the speaker
+
+524
+00:31:34,875 --> 00:31:37,955
+Speaker 7:  might interfere with that. And it might piss them off enough that they would
+
+525
+00:31:37,955 --> 00:31:41,395
+Speaker 7:  just give up and leave. So that's a real possibility too. She got really
+
+526
+00:31:41,395 --> 00:31:45,315
+Speaker 7:  into the idea of, of further testing of speakers and ants.
+
+527
+00:31:45,875 --> 00:31:49,155
+Speaker 7:  So I, I really think I might have accidentally inspired like a PhD thesis
+
+528
+00:31:49,215 --> 00:31:49,595
+Speaker 7:  in her,
+
+529
+00:31:51,405 --> 00:31:55,275
+Speaker 2:  Which genre of music most repels ants is a thing I
+
+530
+00:31:55,275 --> 00:31:56,355
+Speaker 2:  very much look forward to reading.
+
+531
+00:31:58,695 --> 00:32:02,555
+Speaker 7:  So that was sort of the rundown of all of the theories.
+
+532
+00:32:02,895 --> 00:32:06,555
+Speaker 7:  She also just gave me a bunch of an 1 0 1 kind of tips
+
+533
+00:32:06,735 --> 00:32:10,115
+Speaker 7:  to keep ants from getting into my house in the first place
+
+534
+00:32:10,615 --> 00:32:13,795
+Speaker 7:  so that I'm not playing whack-a-mole with the colonies once they're in there.
+
+535
+00:32:13,825 --> 00:32:14,995
+Speaker 7:  Just basic prevention.
+
+536
+00:32:15,955 --> 00:32:19,875
+Speaker 2:  Probably the best strategy. Yeah. But, okay. Do you know what I keep
+
+537
+00:32:19,875 --> 00:32:23,555
+Speaker 2:  thinking about here? This whole time is as soon as you said the, the, the
+
+538
+00:32:23,555 --> 00:32:27,355
+Speaker 2:  cubbies and the grill and the, the mesh of the play one. I just keep sitting
+
+539
+00:32:27,355 --> 00:32:31,115
+Speaker 2:  here being like, there's gonna be some Sonos designer who is sitting there
+
+540
+00:32:31,115 --> 00:32:34,915
+Speaker 2:  listening to this being like, oh my God, do I have to add ant colony
+
+541
+00:32:34,915 --> 00:32:38,795
+Speaker 2:  habitability to my like design checklist the next time I make
+
+542
+00:32:39,005 --> 00:32:42,845
+Speaker 2:  a speaker? Like, do you have advice? Did Sam have advice for Sonos on
+
+543
+00:32:42,845 --> 00:32:44,925
+Speaker 2:  how to solve this? Clearly very real problem.
+
+544
+00:32:45,715 --> 00:32:49,445
+Speaker 7:  Well, I wanted to ask Sonos these questions like, my first stop
+
+545
+00:32:49,585 --> 00:32:52,965
+Speaker 7:  was gonna be Sonos. 'cause I had to know, I don't know, they, there's a lot
+
+546
+00:32:52,965 --> 00:32:56,045
+Speaker 7:  of people that keep their speakers outside on patios and things like that.
+
+547
+00:32:56,045 --> 00:32:59,845
+Speaker 7:  Sure. And after this happened to me, I was like, is there a, a designer at
+
+548
+00:33:00,015 --> 00:33:03,725
+Speaker 7:  Sonos somewhere that is asking ant infestation
+
+549
+00:33:04,005 --> 00:33:07,285
+Speaker 7:  questions about the design of these speakers? So I got in touch with them.
+
+550
+00:33:07,675 --> 00:33:11,285
+Speaker 7:  They were very polite. They said no very firmly two times
+
+551
+00:33:12,015 --> 00:33:15,845
+Speaker 7:  about participating. I was still very curious. So I
+
+552
+00:33:15,845 --> 00:33:18,605
+Speaker 7:  emailed a bunch of other speaker companies because I figured a lot of them
+
+553
+00:33:18,605 --> 00:33:22,465
+Speaker 7:  would be dealing with a similar question, all
+
+554
+00:33:22,605 --> 00:33:26,225
+Speaker 7:  nos or non responses from them. I, I think I'm just creating
+
+555
+00:33:26,355 --> 00:33:30,345
+Speaker 7:  small panics on comms teams around the speaker industry. I,
+
+556
+00:33:30,425 --> 00:33:33,625
+Speaker 2:  I can guarantee you that somewhere there has been a meeting
+
+557
+00:33:34,155 --> 00:33:38,145
+Speaker 2:  about the ant infestations over the last week. And if that's not impact journalism,
+
+558
+00:33:38,425 --> 00:33:39,145
+Speaker 2:  I don't know what it's,
+
+559
+00:33:39,345 --> 00:33:42,865
+Speaker 7:  I just, I want to be, to be an ant on the wall in one of those meetings.
+
+560
+00:33:43,305 --> 00:33:45,905
+Speaker 7:  I just, I just want to know. But we may never know.
+
+561
+00:33:47,485 --> 00:33:51,385
+Speaker 7:  But like I said, I think I really inspired Sam to look into this more.
+
+562
+00:33:52,575 --> 00:33:56,455
+Speaker 11:  I would love to do an experiment where I had a bunch of these
+
+563
+00:33:56,495 --> 00:34:00,055
+Speaker 11:  speakers and I could have them in different environments and,
+
+564
+00:34:00,355 --> 00:34:03,815
+Speaker 11:  and have some that are plugged in and some aren't to see if it's the, the,
+
+565
+00:34:04,435 --> 00:34:07,575
+Speaker 11:  the magnetism. So I'd love to do an experiment like this.
+
+566
+00:34:08,125 --> 00:34:11,455
+Speaker 7:  Well, I guess my last question is, any advice for
+
+567
+00:34:11,785 --> 00:34:15,695
+Speaker 7:  Sonos on making speakers that ants might not be as attracted
+
+568
+00:34:15,755 --> 00:34:15,975
+Speaker 7:  to?
+
+569
+00:34:17,495 --> 00:34:21,455
+Speaker 11:  I think that they should switch businesses and start making ant
+
+570
+00:34:21,455 --> 00:34:23,015
+Speaker 11:  homes. They're really good at that.
+
+571
+00:34:24,805 --> 00:34:27,775
+Speaker 7:  They're just, they're accidentally really, really good at this. They're
+
+572
+00:34:27,975 --> 00:34:28,655
+Speaker 11:  Accidentally really good.
+
+573
+00:34:29,995 --> 00:34:33,885
+Speaker 2:  Look, I'm just saying Sonos tried headphones that didn't really work.
+
+574
+00:34:34,035 --> 00:34:38,005
+Speaker 2:  They were gonna do set top boxes. They canceled that. It's,
+
+575
+00:34:38,285 --> 00:34:42,085
+Speaker 2:  there might be a straighter line from speakers to ant homes than from
+
+576
+00:34:42,085 --> 00:34:45,085
+Speaker 2:  speakers to any of that other stuff. They've done all the hard work already.
+
+577
+00:34:45,195 --> 00:34:45,685
+Speaker 2:  They've
+
+578
+00:34:45,685 --> 00:34:46,325
+Speaker 7:  Got this and
+
+579
+00:34:46,325 --> 00:34:48,245
+Speaker 2:  Just start selling it at PetSmart. You're good to go.
+
+580
+00:34:48,505 --> 00:34:52,365
+Speaker 7:  Ask the ants. Dozens of colonies of ants in speakers can't be
+
+581
+00:34:52,365 --> 00:34:54,805
+Speaker 7:  wrong. They're, they're onto something. I
+
+582
+00:34:54,805 --> 00:34:58,645
+Speaker 2:  Love it. So you, you, this story for you started in the best possible way,
+
+583
+00:34:58,645 --> 00:35:02,125
+Speaker 2:  which is just like a, a reporter staring at a mystery trying to figure it
+
+584
+00:35:02,125 --> 00:35:05,685
+Speaker 2:  out. I feel like you, I feel like you a hundred percented this mystery. You
+
+585
+00:35:05,685 --> 00:35:06,045
+Speaker 2:  solved it.
+
+586
+00:35:06,505 --> 00:35:10,205
+Speaker 7:  I'm giving myself, yeah. I'm giving myself full points. Yeah. I, I feel good.
+
+587
+00:35:10,435 --> 00:35:13,645
+Speaker 7:  I've, I don't feel good about my Sonos, but I feel good about everything
+
+588
+00:35:13,645 --> 00:35:13,725
+Speaker 7:  else.
+
+589
+00:35:13,875 --> 00:35:17,205
+Speaker 2:  This was gonna be the last question I asked you. Has it changed how you think
+
+590
+00:35:17,205 --> 00:35:20,005
+Speaker 2:  about speakers? Like, are you looking at your speaker placement in your house
+
+591
+00:35:20,005 --> 00:35:22,405
+Speaker 2:  differently now knowing what you know?
+
+592
+00:35:22,965 --> 00:35:26,725
+Speaker 7:  I am looking at all of my electronics differently. I will say that
+
+593
+00:35:26,755 --> 00:35:30,605
+Speaker 7:  because I, it did completely invert my thinking around
+
+594
+00:35:31,075 --> 00:35:34,845
+Speaker 7:  what ants want. And we're still gonna be dealing with these
+
+595
+00:35:35,165 --> 00:35:38,805
+Speaker 7:  ants seasonally forever. And it's a little
+
+596
+00:35:38,835 --> 00:35:42,605
+Speaker 7:  ominous. I it's, it's a little bit of a burden of knowledge situation.
+
+597
+00:35:43,365 --> 00:35:47,165
+Speaker 7:  'cause like you said, I look at my Roku now and
+
+598
+00:35:47,265 --> 00:35:50,965
+Speaker 7:  all I can think of are the, the tiny little cubbies inside of it. And that's
+
+599
+00:35:50,965 --> 00:35:54,885
+Speaker 7:  a weird thing to think about when you're looking at your Roku, but here
+
+600
+00:35:54,885 --> 00:35:55,605
+Speaker 7:  I am. Yeah.
+
+601
+00:35:55,605 --> 00:35:58,925
+Speaker 2:  If you're, if you're watching or listening to this, my advice is just, just
+
+602
+00:35:58,925 --> 00:36:02,805
+Speaker 2:  forget all of this. Just, it's, it don't look, ignorance is
+
+603
+00:36:02,935 --> 00:36:05,125
+Speaker 2:  bliss. Everything's probably fine.
+
+604
+00:36:05,545 --> 00:36:09,205
+Speaker 7:  You all shouldn't have listened to This is basically the
+
+605
+00:36:09,405 --> 00:36:09,605
+Speaker 7:  takeaway.
+
+606
+00:36:09,875 --> 00:36:13,445
+Speaker 2:  Yeah. But if you, if you find a bunch of ants now you know what to do.
+
+607
+00:36:13,705 --> 00:36:17,205
+Speaker 2:  And if you don't see them, don't go looking and everything will probably
+
+608
+00:36:17,205 --> 00:36:17,565
+Speaker 2:  be fine.
+
+609
+00:36:18,065 --> 00:36:22,045
+Speaker 7:  And join the, the Sonos user forums. That's a, that's a fun time. I'm
+
+610
+00:36:22,045 --> 00:36:23,605
+Speaker 7:  gonna go post a few things. Yeah.
+
+611
+00:36:23,605 --> 00:36:25,045
+Speaker 2:  You've got, you've got answers for people.
+
+612
+00:36:25,395 --> 00:36:28,765
+Speaker 7:  Yeah. I need to like go back, conquer and be the conquering hero. Exactly.
+
+613
+00:36:29,475 --> 00:36:31,325
+Speaker 7:  It's time that the people knew. Yeah.
+
+614
+00:36:32,265 --> 00:36:34,845
+Speaker 2:  All right, we gotta take a break and then we're gonna come back and we're
+
+615
+00:36:34,845 --> 00:36:38,605
+Speaker 2:  gonna talk about podcasts, specifically AI generated podcasts.
+
+616
+00:36:38,775 --> 00:36:39,445
+Speaker 2:  We'll be right back.
+
+617
+00:40:17,905 --> 00:40:21,835
+Speaker 14:  funny gag, but also like thinking of stuff I wouldn't want to
+
+618
+00:40:21,835 --> 00:40:25,555
+Speaker 14:  read and maybe an easier way to understand something.
+
+619
+00:40:26,745 --> 00:40:30,355
+Speaker 14:  It's such a novelty that I think that's initially where I was going,
+
+620
+00:40:30,575 --> 00:40:33,835
+Speaker 14:  but yeah, there's actually some interesting use cases for it.
+
+621
+00:40:34,225 --> 00:40:37,075
+Speaker 2:  Yeah, talk me through that a little bit and I'm, I'm curious how you think
+
+622
+00:40:37,075 --> 00:40:40,675
+Speaker 2:  about this as somebody who has been making podcasts for a long time. I think
+
+623
+00:40:41,555 --> 00:40:45,395
+Speaker 2:  'cause the sort of obvious step one is like stereo instructions is
+
+624
+00:40:45,515 --> 00:40:49,355
+Speaker 2:  a good example, right? I, I have this giant document that is full
+
+625
+00:40:49,355 --> 00:40:52,595
+Speaker 2:  of technical information that I don't wanna read. Right? And for years
+
+626
+00:40:53,255 --> 00:40:57,235
+Speaker 2:  the step was just have something read the document to you, right? And
+
+627
+00:40:57,235 --> 00:40:59,515
+Speaker 2:  there there are just lots of people who learn better that way. Who rather
+
+628
+00:40:59,515 --> 00:41:02,915
+Speaker 2:  than reading something, you hear something. And that is a, a better learning
+
+629
+00:41:02,915 --> 00:41:06,435
+Speaker 2:  tool for lots of people. That's very straightforward, right? This is
+
+630
+00:41:06,435 --> 00:41:09,715
+Speaker 2:  something different. The idea of like, we're, we're gonna,
+
+631
+00:41:10,085 --> 00:41:13,555
+Speaker 2:  we're gonna not read the thing to you, but we're gonna talk about the thing
+
+632
+00:41:14,655 --> 00:41:18,355
+Speaker 2:  It is is both sort of in that same line but also just a very
+
+633
+00:41:18,355 --> 00:41:20,635
+Speaker 2:  different proposition for like how to learn and information.
+
+634
+00:41:21,735 --> 00:41:25,435
+Speaker 14:  Yes. So I have realized from
+
+635
+00:41:25,435 --> 00:41:29,315
+Speaker 14:  listening to a bunch of these, how much easier It is to
+
+636
+00:41:29,315 --> 00:41:32,995
+Speaker 14:  understand something when it's a lot more casual and
+
+637
+00:41:33,085 --> 00:41:36,845
+Speaker 14:  there's a lot more space between sentences and
+
+638
+00:41:37,555 --> 00:41:41,485
+Speaker 14:  kind of breathing a little bit between topics. I just
+
+639
+00:41:41,485 --> 00:41:45,365
+Speaker 14:  wanna play a clip and you can kind of understand what this is sounding like
+
+640
+00:41:45,465 --> 00:41:48,005
+Speaker 14:  and what it's trying to mimic. That's okay. Yeah.
+
+641
+00:41:48,765 --> 00:41:52,575
+Speaker 15:  Okay. Get this. Imagine a world where like every
+
+642
+00:41:52,605 --> 00:41:56,575
+Speaker 15:  website you go to starts charging robots to access it. Oh wow.
+
+643
+00:41:56,875 --> 00:42:00,335
+Speaker 15:  And, and smart home still can't even make us a decent cup of coffee.
+
+644
+00:42:00,845 --> 00:42:01,135
+Speaker 15:  Okay.
+
+645
+00:42:03,315 --> 00:42:07,055
+Speaker 14:  So there, there's like space between each phrase and
+
+646
+00:42:07,055 --> 00:42:09,975
+Speaker 14:  there's the other host is like commenting back
+
+647
+00:42:10,915 --> 00:42:14,735
+Speaker 14:  and you kind of like take a second to digest
+
+648
+00:42:14,735 --> 00:42:18,575
+Speaker 14:  what that last sentence was. Versus sometimes when I read a
+
+649
+00:42:19,035 --> 00:42:23,015
+Speaker 14:  person reading straight text, you kind of forget what the
+
+650
+00:42:23,015 --> 00:42:26,935
+Speaker 14:  last paragraph was about. Or you weren't paying attention closely. I
+
+651
+00:42:27,215 --> 00:42:30,495
+Speaker 14:  realized that podcast actually is great for listening
+
+652
+00:42:31,155 --> 00:42:34,415
+Speaker 14:  in the background because it does move really slowly
+
+653
+00:42:35,475 --> 00:42:39,335
+Speaker 14:  and helps you still grasp what they're talking about without
+
+654
+00:42:39,335 --> 00:42:40,615
+Speaker 14:  paying super close attention.
+
+655
+00:42:41,155 --> 00:42:44,415
+Speaker 2:  So as you listen to something like that, what do you, like, I I always think
+
+656
+00:42:44,415 --> 00:42:47,815
+Speaker 2:  about the training data with something like this. Like what's, what are these
+
+657
+00:42:47,905 --> 00:42:50,135
+Speaker 2:  being trained to sound like, do you think?
+
+658
+00:42:50,845 --> 00:42:54,175
+Speaker 14:  Yeah, so I talked to the director of product Simon
+
+659
+00:42:55,155 --> 00:42:59,055
+Speaker 14:  at a notebook, lm and he was saying that like a lot of this
+
+660
+00:42:59,195 --> 00:43:02,975
+Speaker 14:  was, they got two people whose voices you're hearing
+
+661
+00:43:03,235 --> 00:43:07,055
+Speaker 14:  in those notebook LM pieces to
+
+662
+00:43:07,055 --> 00:43:10,935
+Speaker 14:  just riff in a studio for a long period of time. Oh, interesting. He said
+
+663
+00:43:10,955 --> 00:43:14,615
+Speaker 14:  one of the things they did was just give them a picture and just like
+
+664
+00:43:14,935 --> 00:43:18,855
+Speaker 14:  describe to each other what's in the picture. So you can hear a lot of
+
+665
+00:43:18,905 --> 00:43:22,895
+Speaker 14:  stuff within these generative podcasts that we're
+
+666
+00:43:23,255 --> 00:43:26,335
+Speaker 14:  probably picked up over time in these recordings.
+
+667
+00:43:26,875 --> 00:43:30,815
+Speaker 2:  That's fascinating. Like how do you mimic a podcast
+
+668
+00:43:30,845 --> 00:43:34,655
+Speaker 2:  without making a podcast is such a mind bending exercise. That's very fun
+
+669
+00:43:34,655 --> 00:43:35,055
+Speaker 2:  to think about.
+
+670
+00:43:35,365 --> 00:43:39,215
+Speaker 14:  Yeah. Yeah. There's moments where I've listened to these audio
+
+671
+00:43:39,495 --> 00:43:40,895
+Speaker 14:  overviews where they toss to a break
+
+672
+00:43:41,635 --> 00:43:45,415
+Speaker 16:  As we navigate this crazy ever evolving tech
+
+673
+00:43:45,765 --> 00:43:46,895
+Speaker 16:  landscape. Couldn't
+
+674
+00:43:46,895 --> 00:43:47,815
+Speaker 15:  Have said it better myself.
+
+675
+00:43:48,185 --> 00:43:50,975
+Speaker 16:  Right. So let's take a quick break and then we'll be back to explore some
+
+676
+00:43:50,975 --> 00:43:54,855
+Speaker 16:  of the other Okay. Intriguing details from the verges review. Sounds good.
+
+677
+00:43:55,125 --> 00:43:55,695
+Speaker 16:  Stay tuned.
+
+678
+00:43:58,915 --> 00:44:02,615
+Speaker 14:  That's amazing. And it's just, there's no need for that at all. But that
+
+679
+00:44:02,615 --> 00:44:05,735
+Speaker 14:  was, you know, probably over time that's what this
+
+680
+00:44:06,405 --> 00:44:10,015
+Speaker 14:  tool was gathering. And also there's probably a lot of other like
+
+681
+00:44:10,135 --> 00:44:13,935
+Speaker 14:  podcasts that Gemini was, had been trained on, which, you know,
+
+682
+00:44:13,935 --> 00:44:16,175
+Speaker 14:  obviously this uses Google's Gemini as well.
+
+683
+00:44:16,845 --> 00:44:20,655
+Speaker 2:  Okay. So take me through your research process a little bit. I I think part
+
+684
+00:44:20,655 --> 00:44:22,695
+Speaker 2:  of what I'm curious about on this one is like what you even
+
+685
+00:44:24,295 --> 00:44:28,235
+Speaker 2:  decide to upload to test how something like this can be used. What
+
+686
+00:44:28,235 --> 00:44:30,555
+Speaker 2:  did you, what did you feed into the audio overview system?
+
+687
+00:44:31,155 --> 00:44:35,005
+Speaker 14:  Yeah, so there's different things you can feed in. Like you can link your
+
+688
+00:44:35,005 --> 00:44:38,645
+Speaker 14:  Google drive right up to it. So any document that's in your Google Drive,
+
+689
+00:44:38,665 --> 00:44:42,085
+Speaker 14:  It is pretty easy to add any text, audio,
+
+690
+00:44:43,225 --> 00:44:47,165
+Speaker 14:  any link for like a website and YouTube. So
+
+691
+00:44:47,165 --> 00:44:51,085
+Speaker 14:  YouTube it will just grab the transcript basically from the
+
+692
+00:44:51,085 --> 00:44:54,445
+Speaker 14:  video and turn that into a summarization.
+
+693
+00:44:55,465 --> 00:44:59,365
+Speaker 14:  So what I was trying to do was figure out what you
+
+694
+00:44:59,365 --> 00:45:03,125
+Speaker 14:  can actually get from adding a mult bunch of
+
+695
+00:45:03,125 --> 00:45:06,565
+Speaker 14:  different sources together. So like a YouTube video, just putting one of
+
+696
+00:45:06,565 --> 00:45:10,245
+Speaker 14:  YouTube video I don't think is a great way of, of using this, but it's like
+
+697
+00:45:10,325 --> 00:45:14,245
+Speaker 14:  a YouTube video and some notes that you took and recording of a meeting
+
+698
+00:45:14,425 --> 00:45:14,925
+Speaker 14:  and like
+
+699
+00:45:16,565 --> 00:45:20,525
+Speaker 14:  a PDF of something, like combining all that stuff together and then turning
+
+700
+00:45:20,525 --> 00:45:24,445
+Speaker 14:  it into an overview or just whatever you wanna do with the notebook. Like
+
+701
+00:45:24,875 --> 00:45:28,725
+Speaker 14:  take notes and, and ask it questions and all that. That was
+
+702
+00:45:28,725 --> 00:45:31,845
+Speaker 14:  the most useful and I thought that was like a, just a great way
+
+703
+00:45:32,585 --> 00:45:34,845
+Speaker 14:  of researching and studying for something.
+
+704
+00:45:35,475 --> 00:45:38,645
+Speaker 2:  Yeah, I think that's, I mean that's kind of the notebook lm pitch in general
+
+705
+00:45:39,045 --> 00:45:41,405
+Speaker 2:  and I think makes a lot of sense. I am curious though, about the, if you
+
+706
+00:45:41,405 --> 00:45:45,285
+Speaker 2:  just feed it one YouTube link, what do you get back like a, a
+
+707
+00:45:45,285 --> 00:45:48,765
+Speaker 2:  podcast about a YouTube video? Did they just describe the YouTube video?
+
+708
+00:45:49,865 --> 00:45:53,805
+Speaker 14:  Yes, so I uploaded the verges iPhone
+
+709
+00:45:53,805 --> 00:45:57,605
+Speaker 14:  16 Pro review. Okay. And it kind of just went through all the points
+
+710
+00:45:58,185 --> 00:46:01,805
+Speaker 14:  of the video. So the video was 22 minutes and it
+
+711
+00:46:01,995 --> 00:46:05,965
+Speaker 14:  made it into a 20 minute podcast. So it's not
+
+712
+00:46:05,965 --> 00:46:08,605
+Speaker 14:  really something that, like you could have just listened to the YouTube
+
+713
+00:46:08,605 --> 00:46:12,445
+Speaker 14:  video, you know, so it doesn't really translate that
+
+714
+00:46:12,445 --> 00:46:16,365
+Speaker 14:  well. But if you upload maybe a bunch of iPhone 16
+
+715
+00:46:16,385 --> 00:46:20,285
+Speaker 14:  pro reviews and you kind of get a summarization of all these
+
+716
+00:46:20,595 --> 00:46:24,085
+Speaker 14:  different takes on the phone. Right. Maybe that's more useful.
+
+717
+00:46:24,305 --> 00:46:27,765
+Speaker 2:  But, so okay. So walk me through, let, let's start on the good side. What,
+
+718
+00:46:27,795 --> 00:46:31,405
+Speaker 2:  what have you, what did you try that sort of worked for you that you were
+
+719
+00:46:31,405 --> 00:46:35,285
+Speaker 2:  like, okay, this is a, this is a real useful or interesting
+
+720
+00:46:35,415 --> 00:46:37,325
+Speaker 2:  thing that is coming out of this whole process?
+
+721
+00:46:37,795 --> 00:46:41,725
+Speaker 14:  Yeah, like I said, instruction manuals, like the, the stereo receiver.
+
+722
+00:46:43,045 --> 00:46:46,525
+Speaker 14:  I recently came across an ibo, original IBO
+
+723
+00:46:46,985 --> 00:46:50,525
+Speaker 14:  dog Robot. Yeah. And there's a pretty long instruction manual and I just
+
+724
+00:46:51,125 --> 00:46:54,965
+Speaker 14:  uploaded that PDF to kind of just, I can listen to on my commute or something
+
+725
+00:46:55,505 --> 00:46:56,605
+Speaker 14:  to understand how that works.
+
+726
+00:46:57,365 --> 00:47:00,925
+Speaker 15:  A robot with moods, that's pretty wild. For the early two
+
+727
+00:47:01,165 --> 00:47:01,405
+Speaker 15:  thousands
+
+728
+00:47:01,585 --> 00:47:04,965
+Speaker 16:  It really was ambitious and you could still interact pad its head sensor
+
+729
+00:47:05,155 --> 00:47:07,725
+Speaker 16:  show with the ball or maybe colors. It had learned to like,
+
+730
+00:47:08,495 --> 00:47:12,465
+Speaker 14:  That thing worked pretty well. The other one is, I'm trying to
+
+731
+00:47:12,465 --> 00:47:15,745
+Speaker 14:  get my drone pilot's license. Ooh. So
+
+732
+00:47:16,865 --> 00:47:20,665
+Speaker 14:  Notebook EL has this tool called Discover where you can
+
+733
+00:47:20,775 --> 00:47:24,745
+Speaker 14:  just type into it. I want, you know, drone license
+
+734
+00:47:25,385 --> 00:47:28,985
+Speaker 14:  tutorial and it will pull up a bunch of stuff from the internet that is
+
+735
+00:47:29,355 --> 00:47:33,165
+Speaker 14:  related to that and you can check off boxes of which source
+
+736
+00:47:33,265 --> 00:47:36,685
+Speaker 14:  you want to use to put into the notebook. So you can really
+
+737
+00:47:37,145 --> 00:47:40,205
+Speaker 14:  use it as Google and then input those links
+
+738
+00:47:40,895 --> 00:47:44,825
+Speaker 14:  into your notebook and turn that into a podcast or whatever. So like
+
+739
+00:47:45,585 --> 00:47:49,465
+Speaker 14:  I wanted to read all these different tutorials about how to get my drone
+
+740
+00:47:49,575 --> 00:47:53,345
+Speaker 14:  pilot's license and I put all that, all those different sources,
+
+741
+00:47:53,745 --> 00:47:57,425
+Speaker 14:  a YouTube video, A-P-D-F-A website and that
+
+742
+00:47:57,495 --> 00:48:01,265
+Speaker 14:  kind of took all the stuff maybe that they're all, there's some stuff that
+
+743
+00:48:01,265 --> 00:48:05,145
+Speaker 14:  they're all saying similarly and then some stuff you grab from different
+
+744
+00:48:05,145 --> 00:48:08,705
+Speaker 14:  sources that might help better than others. Give
+
+745
+00:48:08,705 --> 00:48:11,465
+Speaker 2:  Me a sense of what that sounds like. I'm, I'm, I'm just trying to figure
+
+746
+00:48:11,465 --> 00:48:14,705
+Speaker 2:  out, 'cause you, you know, again, you don't want it to read you the instructions
+
+747
+00:48:15,085 --> 00:48:18,625
+Speaker 2:  for the robot or your stereo or whatever, but I also feel like
+
+748
+00:48:19,855 --> 00:48:23,665
+Speaker 2:  them talking about instructions without giving me the
+
+749
+00:48:23,665 --> 00:48:27,105
+Speaker 2:  instructions is not quite the right answer either. So like what, what, what
+
+750
+00:48:27,105 --> 00:48:29,425
+Speaker 2:  does this actually sort of come out sounding like when you feed something
+
+751
+00:48:29,425 --> 00:48:29,865
+Speaker 2:  like this in
+
+752
+00:48:30,095 --> 00:48:33,545
+Speaker 14:  Yeah, I'll share what the stereo instructions sound like, which is like
+
+753
+00:48:33,545 --> 00:48:34,505
+Speaker 14:  pretty useful here.
+
+754
+00:48:35,185 --> 00:48:36,705
+Speaker 16:  Phono inputs and a ground screw
+
+755
+00:48:37,125 --> 00:48:39,945
+Speaker 15:  For your turntable. Yeah. But only if your turntable doesn't have its own
+
+756
+00:48:39,945 --> 00:48:41,625
+Speaker 15:  built-in phono preamp. Right.
+
+757
+00:48:42,005 --> 00:48:44,425
+Speaker 16:  If it does use a regular analog input
+
+758
+00:48:44,425 --> 00:48:47,705
+Speaker 15:  Instead. Correct. And don't forget that MMMC switch we mentioned earlier,
+
+759
+00:48:47,795 --> 00:48:49,865
+Speaker 15:  needs to match your turntables cartridge type.
+
+760
+00:48:51,605 --> 00:48:54,705
+Speaker 14:  So like out of context, this is kind of silly and you don't really know
+
+761
+00:48:54,705 --> 00:48:57,025
+Speaker 14:  what they're talking about, but when you're listening to the whole thing,
+
+762
+00:48:57,025 --> 00:49:00,505
+Speaker 14:  like they do go into each thing and it's not just they're talking about,
+
+763
+00:49:00,845 --> 00:49:04,545
+Speaker 14:  so this is a PDF of the stereo manual and like
+
+764
+00:49:04,675 --> 00:49:08,585
+Speaker 14:  gives through a bunch of these different options. Like this is
+
+765
+00:49:08,825 --> 00:49:11,785
+Speaker 14:  probably actually better if you just wanna know how do I do this on the
+
+766
+00:49:11,785 --> 00:49:15,505
+Speaker 14:  stereo and you just type to it. Mm. Or you can ask the
+
+767
+00:49:15,505 --> 00:49:16,905
+Speaker 14:  podcast a question.
+
+768
+00:49:17,655 --> 00:49:21,585
+Speaker 2:  Well, you can ask the podcast a que like, like, it's like a call in
+
+769
+00:49:21,585 --> 00:49:25,465
+Speaker 2:  show. Like you can, you can actually stop the hosts and tell them
+
+770
+00:49:25,525 --> 00:49:26,385
+Speaker 2:  you have questions.
+
+771
+00:49:26,765 --> 00:49:30,345
+Speaker 14:  Yes. Within the notebook LM interface,
+
+772
+00:49:30,475 --> 00:49:34,145
+Speaker 14:  there is a interactive mode which you can
+
+773
+00:49:34,975 --> 00:49:38,705
+Speaker 14:  basically join the discussion. Like while they're talking you can,
+
+774
+00:49:38,945 --> 00:49:40,825
+Speaker 14:  they'll be like, oh hey, what's up? So
+
+775
+00:49:40,825 --> 00:49:43,665
+Speaker 2:  You've just like barged into the studio while they're recording and you're
+
+776
+00:49:43,665 --> 00:49:44,745
+Speaker 2:  like, I I have something to say.
+
+777
+00:49:45,165 --> 00:49:45,745
+Speaker 14:  Yes, totally.
+
+778
+00:49:46,565 --> 00:49:48,025
+Speaker 15:  Is it to move production back?
+
+779
+00:49:48,215 --> 00:49:52,185
+Speaker 16:  Good point. Apple's preemptive shipment of that volumes. Yep.
+
+780
+00:49:52,445 --> 00:49:53,545
+Speaker 16:  Go on. Can
+
+781
+00:49:53,545 --> 00:49:56,545
+Speaker 17:  We skip to the lightning round on ai?
+
+782
+00:49:57,285 --> 00:49:58,745
+Speaker 15:  You know what? Absolutely.
+
+783
+00:49:58,745 --> 00:50:01,905
+Speaker 16:  Sounds like you're eager to dive into the world of artificial intelligence.
+
+784
+00:50:02,035 --> 00:50:05,105
+Speaker 15:  Let's do it. We were just about to wrap up our initial look at the tariffs
+
+785
+00:50:05,105 --> 00:50:05,305
+Speaker 15:  anyway.
+
+786
+00:50:05,375 --> 00:50:07,265
+Speaker 16:  Exactly. So without further ado,
+
+787
+00:50:07,395 --> 00:50:09,385
+Speaker 15:  Let's jump right into that AI lightning round.
+
+788
+00:50:09,395 --> 00:50:13,265
+Speaker 16:  First up we saw that meta was apparently caught doing some
+
+789
+00:50:13,585 --> 00:50:14,065
+Speaker 16:  interesting things
+
+790
+00:50:14,975 --> 00:50:17,435
+Speaker 14:  And then we'll get back to the rest of the show and be like, anyways.
+
+791
+00:50:17,455 --> 00:50:20,955
+Speaker 2:  Oh, okay. So you can't, you can't sort of right. Turn the whole thing, but
+
+792
+00:50:20,955 --> 00:50:23,475
+Speaker 2:  you can just, you can kind of pop your head in and be like, oh, but what
+
+793
+00:50:23,475 --> 00:50:24,555
+Speaker 2:  about, and then they'll get back to work.
+
+794
+00:50:24,785 --> 00:50:28,365
+Speaker 14:  Okay. Yes. There are like prompts you can kind of do when you generate
+
+795
+00:50:28,585 --> 00:50:32,445
+Speaker 14:  to be like, focus on this topic or make this topic shorter
+
+796
+00:50:32,625 --> 00:50:36,485
+Speaker 14:  or, you know, I only want this amount of time to listen to this.
+
+797
+00:50:37,185 --> 00:50:40,525
+Speaker 2:  Got it. Okay. One thing I know you tried that I'm, I'm very curious about
+
+798
+00:50:40,585 --> 00:50:44,045
+Speaker 2:  is recipes because I think this is one thing,
+
+799
+00:50:44,375 --> 00:50:48,325
+Speaker 2:  audio recipes to me strike me as potentially a very good idea. Okay.
+
+800
+00:50:48,345 --> 00:50:51,645
+Speaker 2:  You know, in a way that is weird, right? 'cause it's like I use, I use an
+
+801
+00:50:51,645 --> 00:50:55,525
+Speaker 2:  app that I'm like checking on my phone a hundred thousand times while I'm
+
+802
+00:50:55,525 --> 00:50:59,045
+Speaker 2:  cooking. And the idea of like just somebody in my ear sort of talking me
+
+803
+00:50:59,045 --> 00:51:01,525
+Speaker 2:  through the process as I'm cooking seems very cool
+
+804
+00:51:02,945 --> 00:51:06,115
+Speaker 2:  complicated, right? Like, you can't make a 20 minute podcast that like perfectly
+
+805
+00:51:06,115 --> 00:51:08,875
+Speaker 2:  matches everything that I'm doing. But it does seem like there's something
+
+806
+00:51:08,875 --> 00:51:12,715
+Speaker 2:  to, like, you could make a fun cooking show recipe by recipe
+
+807
+00:51:12,785 --> 00:51:15,395
+Speaker 2:  that is actually kind of instructional if this really works. So I feel like
+
+808
+00:51:15,835 --> 00:51:18,435
+Speaker 2:  I went from thinking this is a totally silly version of it to thinking maybe
+
+809
+00:51:18,435 --> 00:51:20,315
+Speaker 2:  there's something here. What did you find?
+
+810
+00:51:21,465 --> 00:51:25,275
+Speaker 14:  Yeah, I I was real, someone on the team suggested
+
+811
+00:51:25,375 --> 00:51:29,115
+Speaker 14:  we upload some recipes to it to see how it would do and
+
+812
+00:51:30,235 --> 00:51:34,195
+Speaker 14:  I didn't feel like it was something I could follow along with while cooking.
+
+813
+00:51:34,975 --> 00:51:38,955
+Speaker 14:  And also like in podcast fashion, it took like way
+
+814
+00:51:38,955 --> 00:51:42,835
+Speaker 14:  too long to get to the point of the conversation. Now
+
+815
+00:51:42,835 --> 00:51:46,475
+Speaker 14:  lemme play you a clip I got from this honey lemon chicken recipe. Okay.
+
+816
+00:51:46,735 --> 00:51:49,795
+Speaker 16:  But the thing is we're not just gonna like read out the ingredients and
+
+817
+00:51:49,795 --> 00:51:53,435
+Speaker 16:  call it a day. Right. We're gonna try to figure out why this
+
+818
+00:51:53,435 --> 00:51:57,035
+Speaker 16:  particular approach and it's got like a 4.7 star rating, by the way.
+
+819
+00:51:57,215 --> 00:52:00,715
+Speaker 16:  Why? Yeah. Pretty solid, right? So we're gonna figure out why this approach
+
+820
+00:52:00,715 --> 00:52:04,515
+Speaker 16:  is so popular and what we can learn from it, even if we're not, you know,
+
+821
+00:52:04,875 --> 00:52:06,875
+Speaker 16:  planning on cooking anytime soon. Absolutely.
+
+822
+00:52:08,275 --> 00:52:10,755
+Speaker 2:  I love so much that they're like, no, no, no, we're not gonna tell you about
+
+823
+00:52:10,755 --> 00:52:13,355
+Speaker 2:  the recipe. You uploaded a recipe, we're not gonna tell you about the recipe,
+
+824
+00:52:13,365 --> 00:52:14,315
+Speaker 2:  we're gonna talk about other stuff.
+
+825
+00:52:14,525 --> 00:52:17,915
+Speaker 14:  Right. So eventually it does get to like what you do, what the ingredients
+
+826
+00:52:17,915 --> 00:52:21,875
+Speaker 14:  are, but it was like, let's speak to the power of why
+
+827
+00:52:21,875 --> 00:52:25,435
+Speaker 14:  this honey lemon chicken is so popular. And It is like, I don't really wanna
+
+828
+00:52:25,435 --> 00:52:29,235
+Speaker 14:  know that. I just wanna get to the points. There may be a,
+
+829
+00:52:29,355 --> 00:52:32,755
+Speaker 14:  a world in the future where it's like, all right, now you're going to do
+
+830
+00:52:32,755 --> 00:52:36,195
+Speaker 14:  this. Let me know when you're done and I'll get to the next thing. This
+
+831
+00:52:36,195 --> 00:52:36,555
+Speaker 14:  does sort
+
+832
+00:52:36,795 --> 00:52:40,235
+Speaker 2:  Of neatly map to everything wrong with recipe sites on the internet. Right.
+
+833
+00:52:40,235 --> 00:52:42,835
+Speaker 2:  That's the thing where you, you open a recipe webpage and you're like, I
+
+834
+00:52:42,835 --> 00:52:45,355
+Speaker 2:  would just like to see the recipe. And they're like, first, how about 2000
+
+835
+00:52:45,355 --> 00:52:49,155
+Speaker 2:  words about my life and all of my thoughts about honey chicken and
+
+836
+00:52:49,155 --> 00:52:52,995
+Speaker 2:  everything that's happening to me right now. And then way down the page after
+
+837
+00:52:52,995 --> 00:52:56,755
+Speaker 2:  some ads and videos, we'll get to the recipe. It's like they're, they're
+
+838
+00:52:56,755 --> 00:52:58,115
+Speaker 2:  just making the podcast version of
+
+839
+00:52:58,115 --> 00:53:01,755
+Speaker 14:  That. Oh my gosh. And it, when I mentioned about how they toss to a break,
+
+840
+00:53:01,985 --> 00:53:05,275
+Speaker 14:  like there's a world where maybe like they wanna start monetizing these
+
+841
+00:53:05,295 --> 00:53:08,555
+Speaker 14:  and when you Sure. You generate a honey lemon chicken recipe, there's like,
+
+842
+00:53:08,555 --> 00:53:11,435
+Speaker 14:  all right, let's get to a break before we get into the ingredients and it
+
+843
+00:53:11,435 --> 00:53:14,115
+Speaker 14:  just plays an ad or something like that.
+
+844
+00:53:14,555 --> 00:53:18,475
+Speaker 2:  Yeah. That's, that's, that's super interesting. Did you
+
+845
+00:53:18,475 --> 00:53:21,875
+Speaker 2:  test this with podcasts? Like you, you, I know you did YouTube videos,
+
+846
+00:53:22,375 --> 00:53:25,350
+Speaker 2:  but like, can you put a podcast in here and it'll make a podcast about the
+
+847
+00:53:25,350 --> 00:53:25,550
+Speaker 2:  podcast?
+
+848
+00:53:26,265 --> 00:53:29,925
+Speaker 14:  Yes. Someone suggested putting like a four hour Joe Rogan podcast
+
+849
+00:53:30,155 --> 00:53:33,045
+Speaker 14:  into it Sure. To generate, you know, a 20 minute summary.
+
+850
+00:53:34,155 --> 00:53:36,805
+Speaker 2:  It's basically like a, it's like a meta podcast. Yeah. Like I'm gonna make
+
+851
+00:53:36,805 --> 00:53:37,885
+Speaker 2:  a podcast about your podcast.
+
+852
+00:53:38,705 --> 00:53:42,605
+Speaker 14:  Yes. We did try a scenario where we uploaded
+
+853
+00:53:43,025 --> 00:53:46,205
+Speaker 14:  pre-production documents from our own podcasts
+
+854
+00:53:46,945 --> 00:53:50,445
+Speaker 14:  and made them into a podcast and compare to how we
+
+855
+00:53:50,915 --> 00:53:51,365
+Speaker 14:  made them.
+
+856
+00:53:52,065 --> 00:53:52,965
+Speaker 2:  Oh, interesting. Okay.
+
+857
+00:53:53,065 --> 00:53:56,965
+Speaker 14:  So decoder with Neli Patel, they have like
+
+858
+00:53:57,045 --> 00:54:00,645
+Speaker 14:  a nice pre-production document with questions, topics, guest
+
+859
+00:54:00,955 --> 00:54:04,805
+Speaker 14:  bios, and a lot of relevant links and all that stuff. So I
+
+860
+00:54:05,005 --> 00:54:08,525
+Speaker 14:  uploaded that to NotebookLM and it
+
+861
+00:54:08,525 --> 00:54:12,205
+Speaker 14:  generated a podcast of that discussion.
+
+862
+00:54:12,965 --> 00:54:16,805
+Speaker 14:  I made one with, from an episode about EVs that Neli and
+
+863
+00:54:17,275 --> 00:54:19,965
+Speaker 14:  Andy Hawkins from The Verge talked about. But it
+
+864
+00:54:19,965 --> 00:54:23,205
+Speaker 2:  Didn't have, it didn't, you didn't upload the actual finished podcast? Just
+
+865
+00:54:23,205 --> 00:54:24,565
+Speaker 2:  the, the pre-production documents?
+
+866
+00:54:24,675 --> 00:54:27,965
+Speaker 14:  Yeah. Yeah. Oh, thats so fun. I wanted to see how it worked compared to
+
+867
+00:54:27,985 --> 00:54:31,965
+Speaker 14:  how we ended up making the show. Obviously you don't get enough
+
+868
+00:54:32,305 --> 00:54:36,245
+Speaker 14:  of it because you don't have Neli, you don't have Andy. But it like did
+
+869
+00:54:36,285 --> 00:54:36,565
+Speaker 14:  a pretty,
+
+870
+00:54:38,225 --> 00:54:42,125
+Speaker 14:  it did a pretty impressive job of like taking all these points and like
+
+871
+00:54:42,125 --> 00:54:45,045
+Speaker 14:  going through them all. But it was more just like
+
+872
+00:54:46,095 --> 00:54:49,995
+Speaker 14:  how you would do it if you just wanted to get the information for a research
+
+873
+00:54:50,045 --> 00:54:53,595
+Speaker 14:  paper or something like that. Okay. It wasn't like going to break down
+
+874
+00:54:54,085 --> 00:54:58,035
+Speaker 14:  these topics and what they mean and like, what are these questions that
+
+875
+00:54:58,255 --> 00:55:02,155
+Speaker 14:  unfold because of these news things. Much like
+
+876
+00:55:02,155 --> 00:55:05,755
+Speaker 14:  The Vergecast, we uploaded a rundown from The
+
+877
+00:55:05,915 --> 00:55:09,875
+Speaker 14:  Vergecast, which is just a, a lot of links to stuff on The Verge. Oh
+
+878
+00:55:09,875 --> 00:55:13,555
+Speaker 2:  Yeah. That's really interesting because that's like the, the decoder rundown
+
+879
+00:55:13,555 --> 00:55:17,075
+Speaker 2:  you described is full of like information and clues and
+
+880
+00:55:17,395 --> 00:55:21,315
+Speaker 2:  hints about what's interesting and has some real structure. The Friday
+
+881
+00:55:21,595 --> 00:55:24,675
+Speaker 2:  Vergecast rundown is just, I mean, it's just like a hundred links in a Google
+
+882
+00:55:24,695 --> 00:55:27,075
+Speaker 2:  doc. Yeah. And that's, that's the entirety of the prep doc.
+
+883
+00:55:27,815 --> 00:55:31,795
+Speaker 14:  Yes. So when you listen to that audio overview of a
+
+884
+00:55:31,955 --> 00:55:35,395
+Speaker 14:  Vergecast rundown, you quickly learn that it cannot open
+
+885
+00:55:35,395 --> 00:55:38,435
+Speaker 14:  hyperlinks and that It is just reading
+
+886
+00:55:39,535 --> 00:55:43,475
+Speaker 14:  the headlines and making some kind of generic
+
+887
+00:55:43,485 --> 00:55:45,475
+Speaker 14:  takes about what that means.
+
+888
+00:55:45,975 --> 00:55:49,115
+Speaker 2:  So it's, it's experiencing the world like the way people who just scroll
+
+889
+00:55:49,115 --> 00:55:50,835
+Speaker 2:  really fast through like their Facebook feed do.
+
+890
+00:55:51,305 --> 00:55:55,075
+Speaker 14:  Yeah. Yeah. So here's a clip from it about the framework
+
+891
+00:55:55,215 --> 00:55:55,635
+Speaker 14:  laptop,
+
+892
+00:55:56,135 --> 00:55:58,275
+Speaker 15:  And then there's framework, the laptop company,
+
+893
+00:55:58,495 --> 00:56:00,155
+Speaker 16:  Ah, the modular laptop folks,
+
+894
+00:56:00,155 --> 00:56:03,515
+Speaker 15:  That's them. They actually had to stop selling some of their more affordable
+
+895
+00:56:03,515 --> 00:56:05,755
+Speaker 15:  laptops, experienced order delays because of
+
+896
+00:56:05,755 --> 00:56:06,315
+Speaker 16:  The tariffs.
+
+897
+00:56:06,425 --> 00:56:10,355
+Speaker 15:  Yeah. And even briefly raised and then lowered their prices because of the
+
+898
+00:56:10,355 --> 00:56:13,315
+Speaker 15:  tariffs. It just sounds incredibly volatile for them.
+
+899
+00:56:13,705 --> 00:56:17,515
+Speaker 16:  That really underscores the immediate disruption, the instability that
+
+900
+00:56:17,515 --> 00:56:20,715
+Speaker 16:  tariffs can inject into supply chains and pricing strategies.
+
+901
+00:56:20,725 --> 00:56:22,195
+Speaker 15:  Total chaos seems like the
+
+902
+00:56:22,195 --> 00:56:25,525
+Speaker 16:  Fact that they had to make such rapid adjustments reflects the realtime
+
+903
+00:56:25,965 --> 00:56:27,245
+Speaker 16:  pressures businesses are under.
+
+904
+00:56:28,625 --> 00:56:32,205
+Speaker 14:  So you can tell, like all it's doing is just seeing that
+
+905
+00:56:32,445 --> 00:56:36,405
+Speaker 14:  headline in adding it to context of the world, which it
+
+906
+00:56:36,405 --> 00:56:40,245
+Speaker 14:  does have from Gemini a little bit. There was another one where I asked
+
+907
+00:56:40,245 --> 00:56:44,045
+Speaker 14:  about a Sony Bravia TV from a headline. I actually asked it
+
+908
+00:56:44,045 --> 00:56:47,565
+Speaker 14:  like, what is the model of that tv? And it didn't know because it wasn't
+
+909
+00:56:47,565 --> 00:56:48,045
+Speaker 14:  in the headline.
+
+910
+00:56:48,075 --> 00:56:51,525
+Speaker 2:  Okay. Yeah. That's an interesting one. Like I, I can even hear they're mentioning
+
+911
+00:56:51,525 --> 00:56:55,405
+Speaker 2:  in there, you know, that they, they raised and then lowered the, the, the
+
+912
+00:56:55,405 --> 00:56:58,485
+Speaker 2:  prices very quickly and literally the headline we had in that document is
+
+913
+00:56:58,715 --> 00:57:02,205
+Speaker 2:  framework raised prices and then unraised them an hour later because of Trump.
+
+914
+00:57:02,275 --> 00:57:06,125
+Speaker 2:  Like, yep. It's just, it, it said all those words in a slightly different
+
+915
+00:57:06,125 --> 00:57:10,005
+Speaker 2:  order again. But again, like that, that was all
+
+916
+00:57:10,005 --> 00:57:13,725
+Speaker 2:  right. I don't know that that was like good or thoughtful, but it was, it
+
+917
+00:57:13,725 --> 00:57:17,245
+Speaker 2:  was right. You sent me a big chunk of one of these, and my,
+
+918
+00:57:17,585 --> 00:57:21,365
+Speaker 2:  my memory of listening to it was that there are a bunch of things that got
+
+919
+00:57:22,195 --> 00:57:24,005
+Speaker 2:  sort of flatly wrong,
+
+920
+00:57:26,145 --> 00:57:28,525
+Speaker 2:  all for sort of understandable reasons, which I thought was interesting.
+
+921
+00:57:28,525 --> 00:57:32,405
+Speaker 2:  Like at at least there is absolutely we should say potential for
+
+922
+00:57:32,405 --> 00:57:34,885
+Speaker 2:  these things to just completely make things up out of absolutely nowhere.
+
+923
+00:57:35,825 --> 00:57:38,485
+Speaker 2:  And I'm curious if you had that experience, but at least in the one that
+
+924
+00:57:38,605 --> 00:57:42,525
+Speaker 2:  I heard, there were a bunch of things that it just kind of whiffed
+
+925
+00:57:42,525 --> 00:57:46,205
+Speaker 2:  on making connections between, or made connections that are wrong and
+
+926
+00:57:46,515 --> 00:57:50,365
+Speaker 2:  like misread a headline or something. But I, in every single case, I, I could
+
+927
+00:57:50,365 --> 00:57:53,685
+Speaker 2:  figure out where it was getting the wrong information from,
+
+928
+00:57:54,405 --> 00:57:56,365
+Speaker 2:  which I thought was really interesting. And it's like, okay, this thing is
+
+929
+00:57:56,365 --> 00:58:00,165
+Speaker 2:  making a lot of mistakes, but I can trace the mistakes most
+
+930
+00:58:00,165 --> 00:58:03,605
+Speaker 2:  people wouldn't. Right. Which is like, why this is dangerous. I like, I had,
+
+931
+00:58:03,685 --> 00:58:06,605
+Speaker 2:  I had also made this podcast that it was trying to make, so like I knew the
+
+932
+00:58:06,605 --> 00:58:07,405
+Speaker 2:  stuff it was talking about,
+
+933
+00:58:08,985 --> 00:58:12,085
+Speaker 2:  but so there, but it does just very confidently get things wrong
+
+934
+00:58:13,265 --> 00:58:16,835
+Speaker 2:  without telling you anything about sort of where it's coming from.
+
+935
+00:58:17,815 --> 00:58:21,555
+Speaker 14:  Yes. So I uploaded some notes from a podcast I was working
+
+936
+00:58:21,695 --> 00:58:25,555
+Speaker 14:  on and it's had some of the people I talked to in the
+
+937
+00:58:25,715 --> 00:58:29,595
+Speaker 14:  document, but not any quotes or anything. And when I put it in notebook
+
+938
+00:58:29,675 --> 00:58:33,315
+Speaker 14:  l the audio overviews just kind of made up quotes that the people
+
+939
+00:58:33,385 --> 00:58:33,675
+Speaker 14:  said
+
+940
+00:58:33,985 --> 00:58:36,555
+Speaker 2:  Like, attributed to these people. Yes. Oh my gosh.
+
+941
+00:58:37,295 --> 00:58:40,515
+Speaker 14:  So that is just made up like that's really bad. They just made that up.
+
+942
+00:58:40,705 --> 00:58:44,515
+Speaker 14:  Yeah, that's really bad. Yeah. Luckily it was only about
+
+943
+00:58:44,515 --> 00:58:47,075
+Speaker 14:  salad dressing, but like you can imagine this could be serious.
+
+944
+00:58:47,545 --> 00:58:51,425
+Speaker 2:  Yeah. I mean, and this is like, that's the thing with all of this stuff,
+
+945
+00:58:51,505 --> 00:58:54,345
+Speaker 2:  right? And I, and so many of these tools are like, it's, it's the, it's the
+
+946
+00:58:54,345 --> 00:58:58,305
+Speaker 2:  glue on pizza in Google, right? Some of this stuff you can
+
+947
+00:58:58,305 --> 00:59:02,145
+Speaker 2:  see where it comes from. Some of It is just being purely hallucinated by
+
+948
+00:59:02,145 --> 00:59:05,105
+Speaker 2:  these tools that have been taught to have answers even when no answers are
+
+949
+00:59:05,105 --> 00:59:07,425
+Speaker 2:  available. Yeah. Like this is the thing a lot of these have been through,
+
+950
+00:59:07,425 --> 00:59:11,225
+Speaker 2:  right? Where they, they will go and they will, they are asked for
+
+951
+00:59:11,225 --> 00:59:14,865
+Speaker 2:  information that they don't have and so they will fabricate it and that is
+
+952
+00:59:14,885 --> 00:59:18,385
+Speaker 2:  the wrong outcome. But with something like this where like it, it would be
+
+953
+00:59:18,465 --> 00:59:22,245
+Speaker 2:  a bad version of an audio overview for it to just
+
+954
+00:59:22,425 --> 00:59:25,005
+Speaker 2:  10 times in 20 minutes be like, we don't really know anything about that,
+
+955
+00:59:25,105 --> 00:59:29,005
+Speaker 2:  so let's move on. And so that, that tension feels
+
+956
+00:59:29,105 --> 00:59:32,805
+Speaker 2:  so, so real to me in a way that even Notebook LM in general
+
+957
+00:59:32,985 --> 00:59:36,845
+Speaker 2:  has done a good job of citing its sources pretty aggressively
+
+958
+00:59:36,865 --> 00:59:39,885
+Speaker 2:  and it'll point you to the thing it's talking about in all of the different
+
+959
+00:59:40,085 --> 00:59:44,045
+Speaker 2:  documents. And it It is pretty thoughtful in that way. You
+
+960
+00:59:44,045 --> 00:59:46,885
+Speaker 2:  can't do that with audio. You just can't, like you, you, if you are constantly
+
+961
+00:59:46,885 --> 00:59:49,725
+Speaker 2:  like referencing the name of your source for every single thing that you
+
+962
+00:59:49,725 --> 00:59:52,125
+Speaker 2:  say that's bad podcast and it's a problem.
+
+963
+00:59:52,675 --> 00:59:56,645
+Speaker 14:  Yeah. That and also in the interactive mode you can try to
+
+964
+00:59:56,645 --> 01:00:00,525
+Speaker 14:  correct the podcast host and maybe it will learn that and put it
+
+965
+01:00:00,525 --> 01:00:03,965
+Speaker 14:  in some bank or something, but no, it doesn't work like that. The iPhone
+
+966
+01:00:03,965 --> 01:00:07,805
+Speaker 14:  16 review it kept referring to Neli as Nelly and
+
+967
+01:00:08,035 --> 01:00:10,165
+Speaker 14:  calling him her and she,
+
+968
+01:00:10,555 --> 01:00:12,845
+Speaker 16:  Okay, so Nelly Patel from The Verge reviewed this, so
+
+969
+01:00:12,915 --> 01:00:16,205
+Speaker 15:  Exactly. And she brings a really interesting perspective, doesn't she? Oh
+
+970
+01:00:16,205 --> 01:00:16,405
+Speaker 15:  yeah,
+
+971
+01:00:17,065 --> 01:00:20,685
+Speaker 14:  The host is Neely Patel and his pronouns are he him.
+
+972
+01:00:21,465 --> 01:00:23,085
+Speaker 15:  Oh, that's an interesting question. You
+
+973
+01:00:23,085 --> 01:00:24,365
+Speaker 16:  Know, it's easy to make assumptions
+
+974
+01:00:24,615 --> 01:00:26,485
+Speaker 15:  Based on what we've seen and heard, but
+
+975
+01:00:26,805 --> 01:00:29,125
+Speaker 16:  Actually Nelly Patel uses she her pronouns.
+
+976
+01:00:29,125 --> 01:00:30,845
+Speaker 15:  Thanks for pointing that out. It's good to be accurate.
+
+977
+01:00:31,205 --> 01:00:32,565
+Speaker 16:  Absolutely. Thanks for keeping us on her toes.
+
+978
+01:00:32,985 --> 01:00:34,965
+Speaker 15:  So getting back to Neely's review,
+
+979
+01:00:38,185 --> 01:00:39,205
+Speaker 14:  She wrote the review, so
+
+980
+01:00:39,475 --> 01:00:43,245
+Speaker 2:  Poor Neli Neli, I have, I've known Neli a long time and, and that, that man
+
+981
+01:00:43,245 --> 01:00:45,725
+Speaker 2:  has had his name mispronounced every way you possibly could,
+
+982
+01:00:47,185 --> 01:00:51,125
+Speaker 2:  but Nelly, she her is, is a tough beat for, for
+
+983
+01:00:51,125 --> 01:00:54,765
+Speaker 2:  Neli Patel. So what, what does that make you think as a consumer
+
+984
+01:00:54,905 --> 01:00:58,605
+Speaker 2:  of this stuff? I mean, I think you've now done the research to know that
+
+985
+01:00:58,605 --> 01:01:02,485
+Speaker 2:  like there is, there is something that works about this kind of thing for
+
+986
+01:01:02,485 --> 01:01:06,295
+Speaker 2:  certain kinds of information, but is there that thing in your brain that's
+
+987
+01:01:06,295 --> 01:01:08,935
+Speaker 2:  like, okay, this is giving me stereo instructions even or like information
+
+988
+01:01:08,935 --> 01:01:12,815
+Speaker 2:  about a recipe and I don't know if I should completely trust it and by the
+
+989
+01:01:12,895 --> 01:01:15,495
+Speaker 2:  time I have to pull out my phone to fact check this podcast, what am I doing
+
+990
+01:01:15,495 --> 01:01:15,735
+Speaker 2:  here?
+
+991
+01:01:15,845 --> 01:01:19,655
+Speaker 14:  Yeah. Yeah. I think it's like low stake stuff. I,
+
+992
+01:01:19,775 --> 01:01:23,455
+Speaker 14:  I, I think like really if you want to get the most out of notebook lm I
+
+993
+01:01:23,455 --> 01:01:26,455
+Speaker 14:  think it's more useful to just be typing to it and asking you questions
+
+994
+01:01:26,455 --> 01:01:30,255
+Speaker 14:  about the sources. The audio overviews is interesting. Like maybe
+
+995
+01:01:30,255 --> 01:01:33,175
+Speaker 14:  it's just some people will just like, that's the way they can learn and
+
+996
+01:01:33,175 --> 01:01:36,895
+Speaker 14:  that's the way they wanna do it and I know they're gonna have more
+
+997
+01:01:37,035 --> 01:01:40,815
+Speaker 14:  voices. If you get tired of those voices, there's gonna be more personas
+
+998
+01:01:40,815 --> 01:01:44,695
+Speaker 14:  they call it. So I think the future's gonna get better. It's gonna
+
+999
+01:01:44,695 --> 01:01:48,575
+Speaker 14:  be hard to see like how much It is actually improving as far as
+
+1000
+01:01:49,415 --> 01:01:50,135
+Speaker 14:  accuracy goes.
+
+1001
+01:01:50,325 --> 01:01:54,215
+Speaker 2:  Yeah. Yeah. I think the, the way I have always thought
+
+1002
+01:01:54,215 --> 01:01:57,295
+Speaker 2:  about AI is like I, I treat it like I treat
+
+1003
+01:01:58,045 --> 01:02:01,495
+Speaker 2:  Wikipedia in a certain sense and I, I actually, I would argue Wikipedia is
+
+1004
+01:02:01,495 --> 01:02:05,375
+Speaker 2:  in many ways a more trustworthy source, but in the same sense that like I
+
+1005
+01:02:05,375 --> 01:02:09,335
+Speaker 2:  wouldn't, I wouldn't take anything I read on Wikipedia and then
+
+1006
+01:02:09,335 --> 01:02:13,095
+Speaker 2:  like submit it as professional work or
+
+1007
+01:02:13,625 --> 01:02:17,535
+Speaker 2:  swear to it under oath or like bet my life on anything that I read
+
+1008
+01:02:17,535 --> 01:02:21,205
+Speaker 2:  on Wikipedia. Do you know what I mean? But it's like in terms of going from,
+
+1009
+01:02:21,445 --> 01:02:25,365
+Speaker 2:  I don't know, something about this to, I now kind of know something about
+
+1010
+01:02:25,365 --> 01:02:28,925
+Speaker 2:  this, it tends to work and, and as long as the
+
+1011
+01:02:28,925 --> 01:02:32,285
+Speaker 2:  requirement is not that I be an expert with a hundred percent correct knowledge,
+
+1012
+01:02:33,155 --> 01:02:36,085
+Speaker 2:  fine. Right. But I'm like, I was, I was looking it up this morning,
+
+1013
+01:02:37,185 --> 01:02:40,725
+Speaker 2:  we were watching Mulan because my son is home from daycare this week and
+
+1014
+01:02:40,725 --> 01:02:44,525
+Speaker 2:  we have watched Mulan 250 times and it was like, who is that that's
+
+1015
+01:02:44,525 --> 01:02:47,925
+Speaker 2:  singing this song? That voice sounds kind of familiar. That is information
+
+1016
+01:02:48,795 --> 01:02:52,725
+Speaker 2:  that both AI and Wikipedia are well equipped to have and find and give
+
+1017
+01:02:52,725 --> 01:02:56,605
+Speaker 2:  to me. And also if it's wrong, the world will not end. And so
+
+1018
+01:02:56,605 --> 01:03:00,525
+Speaker 2:  for the stuff at the bottom of that pyramid, I'm like, go nuts. Listen to
+
+1019
+01:03:00,525 --> 01:03:04,445
+Speaker 2:  the audio podcast about the Mulan singer and and
+
+1020
+01:03:04,495 --> 01:03:08,365
+Speaker 2:  enjoy the next 20 minutes of your life. Anything above that, I think like
+
+1021
+01:03:08,595 --> 01:03:12,005
+Speaker 2:  real skepticism becomes very important. Yeah.
+
+1022
+01:03:12,425 --> 01:03:15,965
+Speaker 2:  But it's so hard because these are like the, the thing that has amazed me,
+
+1023
+01:03:15,965 --> 01:03:19,285
+Speaker 2:  and I'm curious if this has been your experience too, is how quickly I came
+
+1024
+01:03:19,345 --> 01:03:22,845
+Speaker 2:  to listen to these hosts as if they were people.
+
+1025
+01:03:23,235 --> 01:03:26,485
+Speaker 2:  Like I've made a lot of podcasts and so I'm like editing their podcast in
+
+1026
+01:03:26,485 --> 01:03:29,245
+Speaker 2:  my mind as I'm going, which makes me realize I'm producing this thing like
+
+1027
+01:03:29,245 --> 01:03:32,765
+Speaker 2:  I'm producing people. And that was sort of alarming.
+
+1028
+01:03:34,235 --> 01:03:38,005
+Speaker 14:  Yeah. After a while I do get sick of the host, to be honest. Yeah.
+
+1029
+01:03:38,365 --> 01:03:41,045
+Speaker 14:  I just like, I don't, I'm sick of these people. I don't wanna listen to
+
+1030
+01:03:41,125 --> 01:03:44,365
+Speaker 14:  'em anymore. They make too many puns. There's too many metaphors.
+
+1031
+01:03:44,635 --> 01:03:47,285
+Speaker 2:  They do. What have you learned about like podcast tropes? 'cause I feel like
+
+1032
+01:03:47,285 --> 01:03:50,965
+Speaker 2:  this would teach you every, all the bad habits that every podcaster has
+
+1033
+01:03:51,705 --> 01:03:54,805
+Speaker 2:  are like boiled into this. What have you learned about being a podcast producer?
+
+1034
+01:03:55,275 --> 01:03:59,085
+Speaker 14:  Yeah, like I said, like the ums actually might do something,
+
+1035
+01:03:59,495 --> 01:04:02,885
+Speaker 14:  might help, but yeah, no, the tropes of like, let's unpack this.
+
+1036
+01:04:03,465 --> 01:04:07,245
+Speaker 14:  It really speaks to the power of that kind of stuff is like,
+
+1037
+01:04:07,245 --> 01:04:10,965
+Speaker 14:  yeah. Oh my gosh, I can't, I'm I'm never using those
+
+1038
+01:04:10,965 --> 01:04:12,005
+Speaker 14:  phrases ever again. They
+
+1039
+01:04:12,005 --> 01:04:15,325
+Speaker 2:  Start like every episode by being like, let's do a deep dive. And I just
+
+1040
+01:04:15,345 --> 01:04:18,365
+Speaker 2:  now deep dive is like on the list of corporate jargon that I'm just like,
+
+1041
+01:04:18,405 --> 01:04:20,605
+Speaker 2:  I can't hear it without wanting to leap out of a window anymore.
+
+1042
+01:04:20,995 --> 01:04:24,285
+Speaker 14:  Yeah. Simon took Amin a from Notebook El
+
+1043
+01:04:24,395 --> 01:04:28,045
+Speaker 14:  mentioned that he heard some other podcasts saying
+
+1044
+01:04:28,055 --> 01:04:31,685
+Speaker 14:  stuff that he noticed in Notebook LM first. Like,
+
+1045
+01:04:31,905 --> 01:04:35,725
+Speaker 14:  oh, that's the million dollar question. I don't know. I don't know.
+
+1046
+01:04:35,845 --> 01:04:38,605
+Speaker 14:  I think that's just, that's just a podcast he phrased.
+
+1047
+01:04:38,605 --> 01:04:40,605
+Speaker 2:  Yeah. I don't think he gets credit for million dollar questions. I don't
+
+1048
+01:04:40,605 --> 01:04:42,245
+Speaker 2:  think so. I think, I think that one's been around,
+
+1049
+01:04:42,825 --> 01:04:46,725
+Speaker 14:  But like you can see like now you're already like they're sounding
+
+1050
+01:04:46,725 --> 01:04:47,525
+Speaker 14:  the same. Right?
+
+1051
+01:04:47,555 --> 01:04:51,525
+Speaker 2:  Totally. Yeah. And I'm, I'm going to be deep in my head about not sounding
+
+1052
+01:04:51,525 --> 01:04:55,405
+Speaker 2:  like notebook lm it's like there was that thing going around not that long
+
+1053
+01:04:55,405 --> 01:04:59,285
+Speaker 2:  ago where everybody was talking about the, the M dash and
+
+1054
+01:04:59,285 --> 01:05:03,045
+Speaker 2:  chat G PT is like the Yeah, the the how, you know, it's chat GT is when there's
+
+1055
+01:05:03,165 --> 01:05:06,645
+Speaker 2:  M dashes. I'm like, no, I love M dashes. I write with M dashes all the time.
+
+1056
+01:05:06,925 --> 01:05:08,405
+Speaker 2:  I write with fewer M dashes now.
+
+1057
+01:05:08,605 --> 01:05:09,885
+Speaker 14:  Yeah, yeah. Right. Like
+
+1058
+01:05:09,885 --> 01:05:12,525
+Speaker 2:  Consciously, I'm like, I don't wanna sound like chey pt, I have to not use
+
+1059
+01:05:12,685 --> 01:05:13,685
+Speaker 2:  M dashes. Totally.
+
+1060
+01:05:14,145 --> 01:05:17,500
+Speaker 14:  The more we see of all this artificial stuff online is like, like the more
+
+1061
+01:05:17,500 --> 01:05:21,405
+Speaker 14:  you appreciate stuff humans make and the more like, maybe we are
+
+1062
+01:05:21,405 --> 01:05:25,365
+Speaker 14:  making better stuff now because we see like how boring
+
+1063
+01:05:25,545 --> 01:05:29,125
+Speaker 14:  or uncreative AI can be. And like maybe that's like
+
+1064
+01:05:30,385 --> 01:05:33,845
+Speaker 14:  we always talk about competition on The Vergecast. Like what if humans are
+
+1065
+01:05:33,845 --> 01:05:37,085
+Speaker 14:  now competing with AI and now humans are just gonna be better because of
+
+1066
+01:05:37,085 --> 01:05:37,885
+Speaker 14:  what AI is.
+
+1067
+01:05:38,595 --> 01:05:42,245
+Speaker 2:  I'll, I'll take it. That's, that's an okay outcome. I think the, the
+
+1068
+01:05:42,435 --> 01:05:46,335
+Speaker 2:  last question I keep thinking about with this is I, I
+
+1069
+01:05:46,335 --> 01:05:50,255
+Speaker 2:  can see it as a tool for learning things, right?
+
+1070
+01:05:50,255 --> 01:05:53,975
+Speaker 2:  Like in, in a sort of deliberate, I need to acquire this information
+
+1071
+01:05:54,245 --> 01:05:57,655
+Speaker 2:  kind of way. And I think the, the feedback you we've gotten so far in the
+
+1072
+01:05:57,655 --> 01:06:00,095
+Speaker 2:  video suggests that there are people who are using it that way that are like,
+
+1073
+01:06:00,095 --> 01:06:03,775
+Speaker 2:  this is just a way that I absorb information better. And that's great. But
+
+1074
+01:06:03,775 --> 01:06:07,295
+Speaker 2:  another thing, podcasts are for a lot of people It is just pure entertainment.
+
+1075
+01:06:07,295 --> 01:06:11,215
+Speaker 2:  Yeah. It's just, it's like a fun and interesting and and valuable
+
+1076
+01:06:11,215 --> 01:06:15,155
+Speaker 2:  way to spend your time hanging out with people. Do you see any
+
+1077
+01:06:15,155 --> 01:06:18,995
+Speaker 2:  of this ever getting there? Like can these hosts ever be so fun to listen
+
+1078
+01:06:18,995 --> 01:06:20,715
+Speaker 2:  to that you don't even really care what they're talking about?
+
+1079
+01:06:21,595 --> 01:06:25,075
+Speaker 14:  I think the only thing is the interactive mode that really
+
+1080
+01:06:25,485 --> 01:06:28,835
+Speaker 14:  takes it another level. 'cause you can't call into The Vergecast whenever
+
+1081
+01:06:28,835 --> 01:06:32,475
+Speaker 14:  you're listening to it and ask the hosts a question. Like,
+
+1082
+01:06:32,695 --> 01:06:36,515
+Speaker 14:  you can do that with this. You're not getting, like,
+
+1083
+01:06:37,155 --> 01:06:39,875
+Speaker 14:  I don't think people are gonna have a parasocial relationship with these
+
+1084
+01:06:39,875 --> 01:06:42,915
+Speaker 14:  two AI hosts. So you, you don't get a lot of that.
+
+1085
+01:06:43,415 --> 01:06:45,275
+Speaker 2:  The, the history of AI suggest we the
+
+1086
+01:06:45,275 --> 01:06:49,195
+Speaker 14:  Point we we don't know. Yeah. But there is
+
+1087
+01:06:49,195 --> 01:06:53,075
+Speaker 14:  something to that where like I know that a Notebook album is developing
+
+1088
+01:06:53,075 --> 01:06:57,035
+Speaker 14:  an app or they're gonna release an app and that is like, if I'm on
+
+1089
+01:06:57,035 --> 01:06:59,995
+Speaker 14:  my phone and I have the app and I'm just listening to the podcast saying
+
+1090
+01:06:59,995 --> 01:07:03,875
+Speaker 14:  it just be like, oh hey, can you take that again? Or what
+
+1091
+01:07:03,875 --> 01:07:07,475
+Speaker 14:  is that? Can you explain more about this thing that
+
+1092
+01:07:07,575 --> 01:07:09,515
+Speaker 14:  that's actually like pretty useful.
+
+1093
+01:07:10,065 --> 01:07:13,635
+Speaker 2:  Yeah, it makes sense. And I think I like, I wanna see the version of this
+
+1094
+01:07:13,635 --> 01:07:17,615
+Speaker 2:  that is just like two dudes shooting the shit
+
+1095
+01:07:17,615 --> 01:07:21,135
+Speaker 2:  about sports, which is like a lot of the podcasts I listen to just to sort
+
+1096
+01:07:21,135 --> 01:07:25,075
+Speaker 2:  of zone out while I'm walking the dog or whatever. And in a
+
+1097
+01:07:25,075 --> 01:07:28,995
+Speaker 2:  way, that kind of stuff is sort of replicable. We we've, we
+
+1098
+01:07:28,995 --> 01:07:32,795
+Speaker 2:  have a lot of data of it in, in a certain way. It's like, it
+
+1099
+01:07:32,795 --> 01:07:35,875
+Speaker 2:  doesn't require all that much like true information. It's just kind of a
+
+1100
+01:07:35,875 --> 01:07:39,755
+Speaker 2:  hang. Yeah. And people are are
+
+1101
+01:07:39,755 --> 01:07:43,075
+Speaker 2:  talking to the voice modes of these assistants that way. Like it, it both
+
+1102
+01:07:43,075 --> 01:07:46,875
+Speaker 2:  seems totally implausible to me that it might just be fun to listen
+
+1103
+01:07:46,895 --> 01:07:50,795
+Speaker 2:  to this for an hour, but also seems like maybe we're closer to that than
+
+1104
+01:07:50,795 --> 01:07:52,075
+Speaker 2:  I'm giving it credit for. I don't
+
+1105
+01:07:52,075 --> 01:07:55,795
+Speaker 14:  Know, maybe. Yeah. I was given an example that someone who
+
+1106
+01:07:55,795 --> 01:07:59,075
+Speaker 14:  really likes one of the Real Housewives shows
+
+1107
+01:07:59,775 --> 01:08:03,315
+Speaker 14:  did not have anyone to talk to about it and just wanted to listen to some
+
+1108
+01:08:03,575 --> 01:08:06,635
+Speaker 14:  two people talking about it on the podcast. And like,
+
+1109
+01:08:07,475 --> 01:08:10,915
+Speaker 14:  I think there's a lot of examples of like sports and stuff that there's
+
+1110
+01:08:10,915 --> 01:08:14,395
+Speaker 14:  like just thousands of podcasts that do this, but maybe something like
+
+1111
+01:08:14,685 --> 01:08:18,645
+Speaker 14:  super niche, like maybe it's like high school football
+
+1112
+01:08:18,675 --> 01:08:21,925
+Speaker 14:  team of your hometown or something like that and you're just feeding all
+
+1113
+01:08:21,925 --> 01:08:25,045
+Speaker 14:  that information to it and like no one's gonna be doing a podcast about
+
+1114
+01:08:25,045 --> 01:08:26,725
+Speaker 14:  that. That could be useful.
+
+1115
+01:08:27,155 --> 01:08:31,045
+Speaker 2:  Yeah, I like that idea. Super niche podcasts is, is a
+
+1116
+01:08:31,045 --> 01:08:32,685
+Speaker 2:  thing I would like to see more of in the world in general.
+
+1117
+01:08:33,265 --> 01:08:37,085
+Speaker 14:  Yes. Yes. Yeah. Particularly I would prefer it more from people,
+
+1118
+01:08:37,305 --> 01:08:38,365
+Speaker 14:  but Yeah. Yeah.
+
+1119
+01:08:38,435 --> 01:08:41,885
+Speaker 2:  I'll, I'll take what I can get. All right Andrew, this is very fun. Thank
+
+1120
+01:08:41,885 --> 01:08:44,165
+Speaker 2:  you for doing this with us. All right, we gotta take a break and then we're
+
+1121
+01:08:44,165 --> 01:08:47,165
+Speaker 2:  gonna do a question from the first cast. Hot night Andrew. Thanks buddy.
+
+1122
+01:08:47,375 --> 01:08:47,725
+Speaker 2:  Thank
+
+1123
+01:08:47,725 --> 01:08:47,805
+Speaker 14:  You.
+
+1124
+01:11:35,165 --> 01:11:39,085
+Speaker 22:  nicely with Apple HomeKit. I see all these influencers on socials with the
+
+1125
+01:11:39,245 --> 01:11:43,005
+Speaker 22:  magazine lighting setups and I get a little jealous. Thanks in advance.
+
+1126
+01:11:43,235 --> 01:11:46,965
+Speaker 22:  Keep up the great work. PS David, I went and bought a pair of
+
+1127
+01:11:47,285 --> 01:11:51,045
+Speaker 22:  $19 US BBC apple ear pods just to record this voicemail
+
+1128
+01:11:51,105 --> 01:11:54,925
+Speaker 22:  on your recommendation. Your efforts have not been in vain. Take care.
+
+1129
+01:11:56,015 --> 01:11:59,805
+Speaker 2:  First of all, Sean gets it. Great job Sean. Second of all, gen two is here.
+
+1130
+01:11:59,825 --> 01:12:00,245
+Speaker 2:  Hi Jen.
+
+1131
+01:12:00,495 --> 01:12:02,765
+Speaker 23:  Hello. Hello. Happy to be here. The
+
+1132
+01:12:02,765 --> 01:12:05,965
+Speaker 2:  First time I heard this question I was like, oh, this is simple and there
+
+1133
+01:12:05,965 --> 01:12:08,645
+Speaker 2:  are lots of options and we can go through a bunch of them. And then listening
+
+1134
+01:12:08,645 --> 01:12:12,485
+Speaker 2:  to that again, I'm actually like, this is kind of a complex thing to
+
+1135
+01:12:12,665 --> 01:12:13,445
+Speaker 2:  try and do.
+
+1136
+01:12:14,615 --> 01:12:18,245
+Speaker 23:  Sadly it's, you know what, it made it tricky
+
+1137
+01:12:19,265 --> 01:12:22,895
+Speaker 23:  color changing. Soon as you said that is when it got complicated.
+
+1138
+01:12:23,405 --> 01:12:26,095
+Speaker 2:  Okay, interesting. So if you didn't want color changing,
+
+1139
+01:12:26,355 --> 01:12:27,655
+Speaker 23:  It would be so much easier. Yes.
+
+1140
+01:12:27,735 --> 01:12:28,775
+Speaker 2:  Really? Oh, okay. Yes.
+
+1141
+01:12:29,175 --> 01:12:29,415
+Speaker 23:  Well,
+
+1142
+01:12:29,475 --> 01:12:32,495
+Speaker 2:  So all right, well, so let's, let's start there. 'cause I think the sort
+
+1143
+01:12:32,495 --> 01:12:35,335
+Speaker 2:  of bones of what he's describing I think is actually a question a lot of
+
+1144
+01:12:35,335 --> 01:12:37,975
+Speaker 2:  people go through. Yeah. And then the color changing is a wrinkle, but, so
+
+1145
+01:12:37,975 --> 01:12:41,495
+Speaker 2:  let's, let's start without the wrinkle. Okay. What would you, where, where's
+
+1146
+01:12:41,495 --> 01:12:42,255
+Speaker 2:  a good place to start for that?
+
+1147
+01:12:42,795 --> 01:12:46,255
+Speaker 23:  So, well I, whenever anyone asks me a question about
+
+1148
+01:12:46,815 --> 01:12:50,295
+Speaker 23:  existing smart home setups and how and expanding, I would always start with
+
+1149
+01:12:50,295 --> 01:12:53,975
+Speaker 23:  what they have and build on that. So he said, I have Hugh and Casser
+
+1150
+01:12:54,995 --> 01:12:58,695
+Speaker 23:  and Lutron Casser is, I assume what he's referring to. And those are smart
+
+1151
+01:12:59,015 --> 01:13:02,935
+Speaker 23:  switches. Number one rule about smart lighting is that
+
+1152
+01:13:02,935 --> 01:13:06,495
+Speaker 23:  smart light switches do not work with smart bulbs.
+
+1153
+01:13:07,395 --> 01:13:11,215
+Speaker 23:  And this is complicated. And I do have an
+
+1154
+01:13:11,215 --> 01:13:15,055
+Speaker 23:  article explaining this, which we can link to, but there are some exceptions
+
+1155
+01:13:15,055 --> 01:13:18,575
+Speaker 23:  which I'll get into. But you, if you ha, you cannot put a Phillips hu light
+
+1156
+01:13:18,575 --> 01:13:22,535
+Speaker 23:  bulb in a socket controlled by a casser smart switch. If it's just
+
+1157
+01:13:22,635 --> 01:13:26,295
+Speaker 23:  on and off, you might be okay. But if you have Phillips U bulbs, you want
+
+1158
+01:13:26,295 --> 01:13:30,175
+Speaker 23:  dimming and dimming, they go crazy. I've done it and I've
+
+1159
+01:13:30,425 --> 01:13:34,415
+Speaker 23:  burnt light switches and I've blown bulbs doing it. So
+
+1160
+01:13:34,415 --> 01:13:38,255
+Speaker 23:  it's not good. And this is the problem. So if he didn't want color
+
+1161
+01:13:38,455 --> 01:13:42,335
+Speaker 23:  lighting, I would just say get some decent quality dumb, I
+
+1162
+01:13:42,455 --> 01:13:46,295
+Speaker 23:  hate that word, but LED light bulbs or light
+
+1163
+01:13:46,295 --> 01:13:49,735
+Speaker 23:  fixtures and cas smart switches because they're rock solid,
+
+1164
+01:13:50,175 --> 01:13:53,935
+Speaker 23:  reliable. They work with apple home. You can use fixtures
+
+1165
+01:13:53,955 --> 01:13:57,135
+Speaker 23:  and as opposed to just bulbs. So you can have something nice in your guest
+
+1166
+01:13:57,135 --> 01:14:00,855
+Speaker 23:  room slash but that room has got a lot of
+
+1167
+01:14:00,855 --> 01:14:04,375
+Speaker 23:  purposes. It does and that also makes it slightly complicated. Yeah.
+
+1168
+01:14:04,835 --> 01:14:07,855
+Speaker 23:  So yeah, a nice fixture that you can control with light switches,
+
+1169
+01:14:08,505 --> 01:14:12,445
+Speaker 23:  caers great, love them. But when you throw in color
+
+1170
+01:14:12,685 --> 01:14:16,165
+Speaker 23:  changing and you already have Phillips Hu, then I would definitely consider
+
+1171
+01:14:16,745 --> 01:14:20,725
+Speaker 23:  Philip Hu. Then you need to deal with a different switch
+
+1172
+01:14:21,085 --> 01:14:24,765
+Speaker 23:  scenario because you cannot use casser. You mentioned wanting a
+
+1173
+01:14:24,925 --> 01:14:28,525
+Speaker 23:  physical switch because you can't don't want to have to use an app.
+
+1174
+01:14:29,145 --> 01:14:32,605
+Speaker 23:  I'm guessing that means that in-laws probably aren't gonna use voice control
+
+1175
+01:14:32,605 --> 01:14:34,405
+Speaker 23:  either, because that would be another option.
+
+1176
+01:14:34,885 --> 01:14:38,285
+Speaker 2:  I will say for this particular setup, like you're describing a room with
+
+1177
+01:14:38,285 --> 01:14:41,645
+Speaker 2:  lots of different people and lots of different uses. I think requiring
+
+1178
+01:14:42,085 --> 01:14:45,485
+Speaker 2:  physical switches feels like the right call. Like this is just not everyone
+
+1179
+01:14:45,485 --> 01:14:48,405
+Speaker 2:  who comes into your house should not have to download an app to use your
+
+1180
+01:14:48,405 --> 01:14:52,325
+Speaker 23:  Lights. You should always have physical switches. I agree. And, and
+
+1181
+01:14:52,325 --> 01:14:55,445
+Speaker 23:  you're wiring it from the grand up. See this is the other, this is the fun
+
+1182
+01:14:55,445 --> 01:14:58,965
+Speaker 23:  part for me. If I was building a brand new house right now, I would not
+
+1183
+01:14:58,965 --> 01:15:02,845
+Speaker 23:  hardwire switches into my house. Interesting. Because all smart bulbs can
+
+1184
+01:15:02,845 --> 01:15:06,685
+Speaker 23:  be controlled by wireless switches, which give you placement
+
+1185
+01:15:06,805 --> 01:15:09,645
+Speaker 23:  option. So you can move them around if you just don't like where your light
+
+1186
+01:15:09,645 --> 01:15:12,405
+Speaker 23:  switch is. But that could make resale tricky
+
+1187
+01:15:14,045 --> 01:15:17,165
+Speaker 23:  'cause it's not expected. But for Phillips hu,
+
+1188
+01:15:17,825 --> 01:15:21,805
+Speaker 23:  that's an option. So they do have their own wireless switches that you can
+
+1189
+01:15:21,865 --> 01:15:25,805
+Speaker 23:  use. Their smart button wall-mounted dimmer switches and then
+
+1190
+01:15:25,805 --> 01:15:29,765
+Speaker 23:  their hue, tap dial switch would all control every light in the home in
+
+1191
+01:15:29,765 --> 01:15:33,605
+Speaker 23:  the room. Plus hue has a great selection of light fixtures
+
+1192
+01:15:33,605 --> 01:15:37,405
+Speaker 23:  if you don't wanna just use bulbs, because you know, especially in
+
+1193
+01:15:37,405 --> 01:15:40,965
+Speaker 23:  more modern homes, just having light bulbs is the way people are going there
+
+1194
+01:15:40,965 --> 01:15:44,885
+Speaker 23:  looking for nice light fixtures that add to the aesthetic of the home.
+
+1195
+01:15:45,825 --> 01:15:48,645
+Speaker 23:  And a lot of those are gonna be LE Ds. So they're permanently sealed so
+
+1196
+01:15:48,645 --> 01:15:52,485
+Speaker 23:  you're not replacing bulbs. So that's, that's one option and you
+
+1197
+01:15:52,485 --> 01:15:56,285
+Speaker 23:  wouldn't actually need wires for that. But in terms of code
+
+1198
+01:15:57,145 --> 01:16:00,125
+Speaker 23:  or resale value, you know, you'd probably wanna wire 'em up the switches
+
+1199
+01:16:00,125 --> 01:16:04,085
+Speaker 23:  and then you could just put the Phillips hue option whether you use
+
+1200
+01:16:04,085 --> 01:16:07,725
+Speaker 23:  the dimmer switch, the smart button or the tap switch over the wall plate.
+
+1201
+01:16:07,725 --> 01:16:10,845
+Speaker 23:  So in future you could go back to wire if you wanted. Sure.
+
+1202
+01:16:11,205 --> 01:16:14,845
+Speaker 2:  I feel like I'm even seeing more and more people just have the
+
+1203
+01:16:15,165 --> 01:16:19,045
+Speaker 2:  existing switches for existing lights and then just stick the, the
+
+1204
+01:16:19,185 --> 01:16:22,005
+Speaker 2:  hue switch or whatever just on the wall right next to it next as if it's
+
+1205
+01:16:22,005 --> 01:16:25,685
+Speaker 2:  another switch. It's not like a perfect strategy but it, that seems simple
+
+1206
+01:16:25,685 --> 01:16:26,045
+Speaker 2:  enough.
+
+1207
+01:16:26,305 --> 01:16:30,165
+Speaker 23:  It is, It is. And that that would be the most straightforward. You
+
+1208
+01:16:30,165 --> 01:16:33,245
+Speaker 23:  stay in one ecosystem with Hugh or Caer,
+
+1209
+01:16:34,145 --> 01:16:36,405
+Speaker 23:  but there is good news and this is something that's changed.
+
+1210
+01:16:37,065 --> 01:16:39,205
+Speaker 2:  Jen, if you're about to say matter, I'm gonna hang up on you.
+
+1211
+01:16:39,585 --> 01:16:39,805
+Speaker 23:  No,
+
+1212
+01:16:43,375 --> 01:16:47,205
+Speaker 23:  there is the matter does play a part in this answer. Okay. But no,
+
+1213
+01:16:47,315 --> 01:16:50,845
+Speaker 23:  this is that there are now smart switches with something called
+
+1214
+01:16:51,015 --> 01:16:54,965
+Speaker 23:  smart bulb mode. Hmm. So you can now buy smart switches
+
+1215
+01:16:55,035 --> 01:16:59,005
+Speaker 23:  that work with smart bulbs. And basically the problem here is
+
+1216
+01:16:59,225 --> 01:17:03,005
+Speaker 23:  if you wire up any switch to a smart bulb, there is gonna be a point when
+
+1217
+01:17:03,005 --> 01:17:05,845
+Speaker 23:  you flip the switch off and it's designed to cut the power to the bulb and
+
+1218
+01:17:05,845 --> 01:17:09,605
+Speaker 23:  then your smart bulb doesn't work. Also there can be power
+
+1219
+01:17:10,145 --> 01:17:13,885
+Speaker 23:  levels with dimming. 'cause the whole point of dimming, what dimming
+
+1220
+01:17:14,085 --> 01:17:17,685
+Speaker 23:  actually does is just reduce the power to the bulb and that's where they,
+
+1221
+01:17:17,785 --> 01:17:21,645
+Speaker 23:  you get into issues with casser because it starts flickering. That's what
+
+1222
+01:17:21,925 --> 01:17:24,525
+Speaker 23:  happened to my bulbs. So your smart bulbs will start flickering and that's
+
+1223
+01:17:24,525 --> 01:17:27,605
+Speaker 23:  not fun. Got anyway. So these new bulbs
+
+1224
+01:17:28,635 --> 01:17:32,605
+Speaker 23:  sort of trick the energy flow and they always keep
+
+1225
+01:17:32,605 --> 01:17:36,485
+Speaker 23:  the bulb with a a minimum amount of power. And there's a couple
+
+1226
+01:17:36,485 --> 01:17:40,205
+Speaker 23:  people that make these. One is a company called Inve. They're really lovely
+
+1227
+01:17:40,295 --> 01:17:43,725
+Speaker 23:  smart switches. This is the other thing you want probably want ones that
+
+1228
+01:17:43,725 --> 01:17:47,685
+Speaker 23:  look nice because there are some cheaper ones out there. But if
+
+1229
+01:17:47,685 --> 01:17:51,205
+Speaker 23:  you want, you know, if you're building a new room, you're gonna want some
+
+1230
+01:17:51,205 --> 01:17:54,005
+Speaker 23:  nice looking switches. They have them in different colors, they're really
+
+1231
+01:17:54,005 --> 01:17:57,765
+Speaker 23:  nice, they work with Matter, they have thread over matter
+
+1232
+01:17:58,145 --> 01:18:01,485
+Speaker 23:  and hopefully you're gonna have good wifi out in your garage. But this could
+
+1233
+01:18:01,485 --> 01:18:05,285
+Speaker 23:  help if that's gonna be a problem. But there's $70 each, which is
+
+1234
+01:18:05,285 --> 01:18:09,045
+Speaker 23:  also about how much the Casser switches are. So right switch smart switches
+
+1235
+01:18:09,065 --> 01:18:13,005
+Speaker 23:  are expensive. That is the big downside. And the other downside within inve
+
+1236
+01:18:13,025 --> 01:18:16,845
+Speaker 23:  is that they always seem to be out of stock. So they
+
+1237
+01:18:16,865 --> 01:18:20,365
+Speaker 23:  may not work in this scenario, but you, this way you could have Phillips
+
+1238
+01:18:20,565 --> 01:18:24,485
+Speaker 23:  U bulbs and physical switches in your garage. So I think
+
+1239
+01:18:24,485 --> 01:18:28,365
+Speaker 23:  that could work pretty well for you if you can get, if you can get these
+
+1240
+01:18:28,365 --> 01:18:32,325
+Speaker 23:  ones in stock. Yeah, I think they're sold primarily through in Valley's
+
+1241
+01:18:32,325 --> 01:18:36,245
+Speaker 23:  website. Full disclosure, I have not tested any of Inovelli smart switches
+
+1242
+01:18:36,245 --> 01:18:39,565
+Speaker 23:  myself, but I've always heard good things about them. They have a whole
+
+1243
+01:18:39,565 --> 01:18:43,405
+Speaker 23:  line. They also have ZigBee ones Z-Wave ones. So if you
+
+1244
+01:18:43,405 --> 01:18:46,365
+Speaker 23:  have ZigBee or Z-Wave in your smart home, you could go with that option
+
+1245
+01:18:46,365 --> 01:18:50,325
+Speaker 23:  too. There are a couple other choices though, but this
+
+1246
+01:18:50,325 --> 01:18:53,325
+Speaker 23:  would lock you into an ecosystem which,
+
+1247
+01:18:54,145 --> 01:18:57,485
+Speaker 23:  you know, you've already got two ecosystems in your home. You've got Casita
+
+1248
+01:18:57,485 --> 01:19:00,965
+Speaker 23:  and Hue, although they all work with Apple Home, but a Cara
+
+1249
+01:19:01,785 --> 01:19:05,725
+Speaker 23:  has now really expanded its smart lighting options and they
+
+1250
+01:19:05,725 --> 01:19:09,605
+Speaker 23:  have a smart switch with smart bulb mode, but they only work with
+
+1251
+01:19:09,685 --> 01:19:13,565
+Speaker 23:  a Cara product. So you'd have to buy a Cara Light bulbs, a Cara
+
+1252
+01:19:13,575 --> 01:19:17,445
+Speaker 23:  light strips and they also have the A car ceiling light and they're
+
+1253
+01:19:17,445 --> 01:19:21,045
+Speaker 23:  much less expensive. We're talking like 20 or $30 instead of 70.
+
+1254
+01:19:22,025 --> 01:19:25,925
+Speaker 23:  So that, that would be one other option. There are obviously lots of great
+
+1255
+01:19:25,925 --> 01:19:29,405
+Speaker 23:  options in smart lighting. You mentioned YouTubers with wonderful backgrounds.
+
+1256
+01:19:30,265 --> 01:19:33,485
+Speaker 23:  I'm gonna guess a lot of those are gonna be using Nano Leaf. I was gonna
+
+1257
+01:19:33,505 --> 01:19:37,005
+Speaker 23:  say, which would be an option here too. Works with Apple Home,
+
+1258
+01:19:37,175 --> 01:19:40,165
+Speaker 23:  works with Matter. They just came out with a new
+
+1259
+01:19:41,125 --> 01:19:45,045
+Speaker 23:  wireless switch, their wireless sense switch, which I've been testing recently
+
+1260
+01:19:45,065 --> 01:19:48,565
+Speaker 23:  and it's, it's really interesting. It has a lot of great features
+
+1261
+01:19:49,025 --> 01:19:52,845
+Speaker 23:  but I I, I hesitate for you to throw another brand in
+
+1262
+01:19:52,845 --> 01:19:56,645
+Speaker 23:  the mix right now. I think Hugh is probably your best bet if you're gonna
+
+1263
+01:19:56,645 --> 01:19:59,765
+Speaker 23:  go with wireless switches. But that is an option if you were thinking like,
+
+1264
+01:19:59,885 --> 01:20:03,685
+Speaker 23:  I wanna move away from Hue, you could could look at Nano Leaf Life X is
+
+1265
+01:20:03,685 --> 01:20:07,445
+Speaker 23:  another one. They don't have any good switch solutions though. It's,
+
+1266
+01:20:07,635 --> 01:20:11,565
+Speaker 23:  it's so odd that it's taken a really long time for us to get a good
+
+1267
+01:20:11,885 --> 01:20:15,565
+Speaker 23:  solution to the smart bulb, smart switch conundrum because
+
+1268
+01:20:15,665 --> 01:20:18,805
+Speaker 23:  whilst the white lighting with smart lighting is great, especially when
+
+1269
+01:20:18,805 --> 01:20:22,005
+Speaker 23:  you have tunable white lighting, so you can sort of change the tone throughout
+
+1270
+01:20:22,005 --> 01:20:25,925
+Speaker 23:  the day. But It is fun to be able to throw in colored lighting,
+
+1271
+01:20:25,925 --> 01:20:29,685
+Speaker 23:  especially in a room that's gonna maybe used for fun teenage activities
+
+1272
+01:20:29,825 --> 01:20:33,085
+Speaker 23:  or maybe doing some spin classes and you want some
+
+1273
+01:20:33,925 --> 01:20:37,845
+Speaker 23:  pulsing lights to go along with the music. If you, if it's gonna be, I think
+
+1274
+01:20:37,845 --> 01:20:40,925
+Speaker 23:  you said it was gonna be a workout room, Sean, but yeah, I'd like to see
+
+1275
+01:20:40,925 --> 01:20:44,765
+Speaker 23:  more solutions here and we're beginning to, but they all tend to
+
+1276
+01:20:44,765 --> 01:20:48,445
+Speaker 23:  stay within the same ecosystem and this is where Matter might
+
+1277
+01:20:48,475 --> 01:20:48,765
+Speaker 23:  help.
+
+1278
+01:20:49,635 --> 01:20:52,685
+Speaker 2:  Yeah, in theory It is, It is actually, this is a perfect
+
+1279
+01:20:53,505 --> 01:20:55,005
+Speaker 2:  reason for matter to exist.
+
+1280
+01:20:55,325 --> 01:20:59,205
+Speaker 23:  Something I have been looking for since Matter came like how can I
+
+1281
+01:20:59,205 --> 01:21:03,165
+Speaker 23:  make, 'cause I have a Frankenstein selection of smart lights and switches
+
+1282
+01:21:03,165 --> 01:21:06,325
+Speaker 23:  in my home and I cannot, it's been a struggle to get them all to work together
+
+1283
+01:21:07,585 --> 01:21:11,325
+Speaker 23:  and that's where I, you know, sort of, to me the ultimate matter
+
+1284
+01:21:11,765 --> 01:21:15,525
+Speaker 23:  actually has worked Moment will be when every light in my home
+
+1285
+01:21:15,705 --> 01:21:19,485
+Speaker 23:  can all work in one app. Not there yet. Dream
+
+1286
+01:21:19,985 --> 01:21:21,805
+Speaker 2:  How many apps is it right now, would you say?
+
+1287
+01:21:21,885 --> 01:21:25,005
+Speaker 23:  I, I, I, I, I dunno that I could actually count
+
+1288
+01:21:25,485 --> 01:21:26,605
+Speaker 2:  That's, that's too many.
+
+1289
+01:21:26,605 --> 01:21:30,485
+Speaker 23:  Yeah, there's a lot of good solutions but for this case I would say
+
+1290
+01:21:31,685 --> 01:21:35,445
+Speaker 23:  probably Skip Caer goes to Philip Hu and use the Philip
+
+1291
+01:21:35,625 --> 01:21:39,205
+Speaker 23:  Hu smart button or more mounted dimmer switches or these
+
+1292
+01:21:39,785 --> 01:21:43,725
+Speaker 23:  Vly smart Bulb mode switches. I would say go with ER
+
+1293
+01:21:44,105 --> 01:21:47,805
+Speaker 23:  if they supported matter, but they don't, Lutron
+
+1294
+01:21:47,905 --> 01:21:51,485
+Speaker 23:  has not gotten the matter bandwagon. They're great rock solid as I said.
+
+1295
+01:21:51,505 --> 01:21:55,325
+Speaker 23:  But again, you know, for future proofing, I think I would,
+
+1296
+01:21:55,485 --> 01:21:58,685
+Speaker 23:  I would definitely stick with products that work with Matter.
+
+1297
+01:21:59,265 --> 01:22:00,845
+Speaker 23:  That's, I'm definitely at that stage now.
+
+1298
+01:22:01,315 --> 01:22:05,005
+Speaker 2:  Yeah. Yeah, I think that's the right call and I like that's like the, the
+
+1299
+01:22:05,145 --> 01:22:08,525
+Speaker 2:  Hue solution is a little less elegant
+
+1300
+01:22:08,985 --> 01:22:12,325
+Speaker 2:  but probably a lot simpler to actually put in your house and the NFL one
+
+1301
+01:22:12,325 --> 01:22:16,125
+Speaker 2:  is like gonna be more work to get right. But then
+
+1302
+01:22:16,225 --> 01:22:20,125
+Speaker 2:  is the thing that gives you kind of the most seamless version of
+
+1303
+01:22:20,125 --> 01:22:22,805
+Speaker 2:  the experience you're looking for. So I think definitely, I think one of
+
+1304
+01:22:22,805 --> 01:22:23,965
+Speaker 2:  those two things is probably Right. That
+
+1305
+01:22:23,965 --> 01:22:27,525
+Speaker 23:  Makes sense. Yeah. And there are the run less wire switches too, if you've
+
+1306
+01:22:27,525 --> 01:22:31,365
+Speaker 23:  come across those which are like kinetic switches that work
+
+1307
+01:22:31,365 --> 01:22:35,125
+Speaker 23:  with Hu Bobs. Again, I've not used them myself, but I feel like if you're
+
+1308
+01:22:35,405 --> 01:22:39,045
+Speaker 23:  gonna go with a wireless solution, go with Hughes Wireless solution because
+
+1309
+01:22:39,065 --> 01:22:42,965
+Speaker 23:  the Hughes system just really works well together. Yeah. But if
+
+1310
+01:22:42,965 --> 01:22:46,885
+Speaker 23:  you do want Wired, I think in Ave could be a good option. You just may
+
+1311
+01:22:46,885 --> 01:22:50,645
+Speaker 23:  have to wait. I'm not sure when they're gonna be back in stock, but
+
+1312
+01:22:50,715 --> 01:22:54,525
+Speaker 23:  yeah. And if you do get this all set up, I would love to hear
+
+1313
+01:22:54,605 --> 01:22:57,805
+Speaker 23:  a report and what it looks like and send us some pictures and tell us how
+
+1314
+01:22:57,805 --> 01:22:58,205
+Speaker 23:  it all went.
+
+1315
+01:22:58,595 --> 01:23:02,405
+Speaker 2:  Yeah, Sean, whenever, whenever you do decide, hit us back.
+
+1316
+01:23:02,465 --> 01:23:05,605
+Speaker 2:  We, we want to hear it, we'll play it on the show and we'll, we'll judge
+
+1317
+01:23:05,625 --> 01:23:08,845
+Speaker 2:  all of your decisions and I very much look force it. All right Sean, I hope
+
+1318
+01:23:08,845 --> 01:23:11,045
+Speaker 2:  that helps Jen. Thank you as always. You're welcome.
+
+1319
+01:23:13,875 --> 01:23:17,445
+Speaker 2:  Alright, that is it for the show. Thank you to everyone who is on this episode
+
+1320
+01:23:17,505 --> 01:23:21,245
+Speaker 2:  and thank you as always for listening as ever. If there are questions you
+
+1321
+01:23:21,245 --> 01:23:25,005
+Speaker 2:  have or thoughts or feelings or you just want to yell at us
+
+1322
+01:23:25,005 --> 01:23:28,605
+Speaker 2:  about the fact that we just did an entire segment about creepy crawly things
+
+1323
+01:23:28,605 --> 01:23:32,165
+Speaker 2:  inside of your gadgets, trust me. I understand. And also
+
+1324
+01:23:32,705 --> 01:23:36,125
+Speaker 2:  we deserve it. Email Vergecast to The Verge dot com. Call the Hotline
+
+1325
+01:23:36,125 --> 01:23:39,205
+Speaker 2:  eight six six VERGE one one with all of your thoughts and questions and feelings.
+
+1326
+01:23:39,225 --> 01:23:42,565
+Speaker 2:  We love hearing all of them. This show is produced by
+
+1327
+01:23:42,565 --> 01:23:46,205
+Speaker 2:  Eric Gomez, Brandon Keefer and Will Poor. The Vergecast is The Verge
+
+1328
+01:23:46,205 --> 01:23:49,605
+Speaker 2:  production and part of the Vox Media podcast network. Nila and I will be
+
+1329
+01:23:49,605 --> 01:23:53,365
+Speaker 2:  back on Friday to talk about all of the news that's going on. The antitrust
+
+1330
+01:23:53,365 --> 01:23:56,925
+Speaker 2:  stuff continues, lots of fun, new gadgets. We're getting into developer conference
+
+1331
+01:23:56,925 --> 01:24:00,725
+Speaker 2:  season and there is just a lot of interesting tech news happening right now
+
+1332
+01:24:00,745 --> 01:24:03,605
+Speaker 2:  and we're gonna get into all of it. We'll see you then. Rock and roll.
+

@@ -1,0 +1,4939 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 2106f450-7883-49b6-8ecf-44b4a08c0fbf
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/-8975917554762748280/-5716198595045912385/s93290-US-4751s-1721737163.mp3
+Description: Today on the flagship podcast of configuration changes:
+The Verge's Tom Warren joins the show to to talk about the story and legacy of the CrowdStrike crash. 
+
+CrowdStrike and Microsoft: all the latest news on the global IT outage
+
+Major Windows BSOD issue hits banks, airlines, and TV broadcasters
+
+What is CrowdStrike, and what happened?
+
+CrowdStrike’s faulty update crashed 8.5 million Windows devices, says Microsoft
+
+CrowdStrike outage: Photos, videos, and tales of IT workers fixing BSODs
+
+
+Then we talk with The Verge's Victoria Song and Zombies, Run creator Adrian Hon about making exercising fun without making it competitive and awful.
+
+Zombies, Run
+
+Adrian Hon’s Substack
+
+Finally, the Apple Watch will let you rest
+
+This walking app let me whack my co-workers with a baseball bat
+
+Ignore your fitness tracker and walk to Mordor instead
+
+
+Finally, we answer a hotline question about handheld gadgets for new parents — because there's a lot of time to kill when there's a baby around.
+
+Backbone One review: the best mobile gaming controller yet
+
+Handheld consoles are the future of gaming
+
+Holedown
+
+
+Email us at vergecast@theverge.com or call us at 866-VERGE11, we love hearing from you.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Enabled (18 ads detected)
+
+2
+00:00:02,515 --> 00:00:06,125
+Speaker 2:  Welcome To, The Vergecast, the flagship podcast of Configuration Changes.
+
+3
+00:00:06,545 --> 00:00:09,765
+Speaker 2:  I'm your friend David Pierce and I am in my basement as always
+
+4
+00:00:10,335 --> 00:00:14,125
+Speaker 2:  doing a shipping day. So I'm going on vacation at the end of this week. I'm
+
+5
+00:00:14,125 --> 00:00:17,605
+Speaker 2:  gonna spend two weeks in the outdoors just like staring at trees
+
+6
+00:00:17,945 --> 00:00:21,925
+Speaker 2:  and not screens. It's gonna be amazing. Can't wait. But what I always try
+
+7
+00:00:21,925 --> 00:00:25,085
+Speaker 2:  to do before I go on vacation is just like kind of get stuff together. There's
+
+8
+00:00:25,085 --> 00:00:29,045
+Speaker 2:  nothing worse than coming home to like mess. So trying to
+
+9
+00:00:29,265 --> 00:00:32,525
+Speaker 2:  get everything cleaned off. And mostly what that means in my particular line
+
+10
+00:00:32,525 --> 00:00:36,405
+Speaker 2:  of work is just shipping things. One of the great things about this
+
+11
+00:00:36,405 --> 00:00:40,165
+Speaker 2:  job is you accumulate a lot of gadgets and one of the annoying things about
+
+12
+00:00:40,165 --> 00:00:43,645
+Speaker 2:  this job is you have to ship them all back. So right now I have like, I have
+
+13
+00:00:43,645 --> 00:00:47,605
+Speaker 2:  a bunch of tablets on my desk. I have a case for a thing.
+
+14
+00:00:47,645 --> 00:00:51,205
+Speaker 2:  I don't even know what the thing is. I have, I have a bunch of watch boxes
+
+15
+00:00:51,275 --> 00:00:52,925
+Speaker 2:  that I have to go back. I see
+
+16
+00:00:53,145 --> 00:00:57,045
+Speaker 2:  one, two, three, four, five phones that I have
+
+17
+00:00:57,045 --> 00:01:00,805
+Speaker 2:  to do something with. I have some AR glasses, I have these Amazon
+
+18
+00:01:00,915 --> 00:01:04,405
+Speaker 2:  Echo frames. I have a camera and I have a Vision Pro
+
+19
+00:01:04,905 --> 00:01:08,085
+Speaker 2:  and I have, oh, that's another phone. So that's six phones. I have the humane
+
+20
+00:01:08,185 --> 00:01:12,165
+Speaker 2:  AI pin that I keep meaning to send back. I have two rabbits. They sent me
+
+21
+00:01:12,165 --> 00:01:16,085
+Speaker 2:  two for some reason. I don't know why. I don't want either one of them. So
+
+22
+00:01:16,085 --> 00:01:19,805
+Speaker 2:  basically what has going to happen here is I have a very carefully organized
+
+23
+00:01:19,805 --> 00:01:23,685
+Speaker 2:  thing of packing tape in the utility room over there and I'm going
+
+24
+00:01:23,685 --> 00:01:27,565
+Speaker 2:  to spend all day shoving things into boxes and then I'm gonna
+
+25
+00:01:27,565 --> 00:01:31,325
+Speaker 2:  load my car and as I do four or five times a year, I'm going to
+
+26
+00:01:31,325 --> 00:01:34,805
+Speaker 2:  dump thousands of things into the UPS office
+
+27
+00:01:35,145 --> 00:01:38,285
+Speaker 2:  all at once. And then it's going to feel like a gigantic weight has lifted
+
+28
+00:01:38,305 --> 00:01:42,285
+Speaker 2:  off my shoulders. I both hate this and kind of love how it feels at the
+
+29
+00:01:42,285 --> 00:01:45,925
+Speaker 2:  very end. Anyway, lots to do on The Vergecast. Today
+
+30
+00:01:46,185 --> 00:01:50,125
+Speaker 2:  we are gonna talk about the crazy thing that happened on Friday when
+
+31
+00:01:50,265 --> 00:01:53,605
+Speaker 2:  thanks to something happening with CrowdStrike and Windows
+
+32
+00:01:54,605 --> 00:01:58,405
+Speaker 2:  computers all over the world just went down and broke and it felt
+
+33
+00:01:58,405 --> 00:02:02,325
+Speaker 2:  like everything from airlines to banks just fell apart all at once. We're
+
+34
+00:02:02,325 --> 00:02:06,005
+Speaker 2:  gonna talk about what happened, what it means that that can happen, and where
+
+35
+00:02:06,005 --> 00:02:09,845
+Speaker 2:  we go from here. We're also gonna talk about one of my all time favorite
+
+36
+00:02:10,155 --> 00:02:14,085
+Speaker 2:  apps called Zombies Run. And we're gonna talk about what that app means
+
+37
+00:02:14,145 --> 00:02:17,165
+Speaker 2:  for fitness and what it gets right about how we think about
+
+38
+00:02:17,725 --> 00:02:21,165
+Speaker 2:  quantifying ourselves and tracking things and gamification and
+
+39
+00:02:21,215 --> 00:02:25,085
+Speaker 2:  everything that feels toxic and wrong with the
+
+40
+00:02:25,085 --> 00:02:29,005
+Speaker 2:  way that our devices work. Now, why that app feels like
+
+41
+00:02:29,005 --> 00:02:32,125
+Speaker 2:  none of it, we had a super fun time talking to one of the creators. It's
+
+42
+00:02:32,125 --> 00:02:35,165
+Speaker 2:  a really good interview. We also have a fun hotline question about handheld
+
+43
+00:02:35,165 --> 00:02:38,405
+Speaker 2:  gaming, which we've been talking a lot about on this show recently. So lots
+
+44
+00:02:38,405 --> 00:02:42,165
+Speaker 2:  to get to. All that is coming up in just a second. But I just this
+
+45
+00:02:42,165 --> 00:02:45,725
+Speaker 2:  second realized that I don't have anywhere near enough actual boxes,
+
+46
+00:02:46,375 --> 00:02:50,325
+Speaker 2:  which means I have to go, I think to like Home Depot and pay a bunch
+
+47
+00:02:50,325 --> 00:02:54,165
+Speaker 2:  of money for a bunch of boxes to then pay a bunch of money to ship
+
+48
+00:02:54,165 --> 00:02:58,085
+Speaker 2:  to someone else. It's a process. Anyway, this is The Vergecast.
+
+49
+00:02:58,135 --> 00:02:58,685
+Speaker 2:  We'll be right
+
+50
+00:04:13,955 --> 00:04:17,955
+Speaker 2:  computers that didn't work. Banks were having trouble, airlines were having
+
+51
+00:04:17,955 --> 00:04:21,835
+Speaker 2:  trouble. It felt like all at once, the whole world just kind of
+
+52
+00:04:22,145 --> 00:04:26,075
+Speaker 2:  crashed. and it turns out this was something that happened because of a company
+
+53
+00:04:26,075 --> 00:04:29,995
+Speaker 2:  called CrowdStrike on Windows computers. and it, it has made a lot
+
+54
+00:04:29,995 --> 00:04:33,915
+Speaker 2:  of people feel a lot of feelings about what it means that
+
+55
+00:04:33,915 --> 00:04:37,435
+Speaker 2:  we are so reliant on technology and not just technology, but very
+
+56
+00:04:38,395 --> 00:04:42,235
+Speaker 2:  specific things from very specific companies. And all of it
+
+57
+00:04:42,245 --> 00:04:46,035
+Speaker 2:  feels so important and infrastructural, but it all also feels fragile.
+
+58
+00:04:46,695 --> 00:04:50,315
+Speaker 2:  So I wanna talk about what has happened over the last few days, what we've
+
+59
+00:04:50,315 --> 00:04:54,155
+Speaker 2:  learned and where we might go forward in how we think about
+
+60
+00:04:54,755 --> 00:04:58,195
+Speaker 2:  computers and how we use them for the most important things going on in the
+
+61
+00:04:58,195 --> 00:05:01,595
+Speaker 2:  world. Tom Warren on our team has been covering all of this all weekend,
+
+62
+00:05:01,755 --> 00:05:05,235
+Speaker 2:  I think didn't have a weekend by the sounds of things, so we're gonna get
+
+63
+00:05:05,235 --> 00:05:06,075
+Speaker 2:  into it. Hi Tom.
+
+64
+00:05:06,255 --> 00:05:07,755
+Speaker 4:  Hey, good to be back. So
+
+65
+00:05:07,935 --> 00:05:11,515
+Speaker 2:  You have like an ITish background a little bit. Is this like the confluence
+
+66
+00:05:11,515 --> 00:05:13,315
+Speaker 2:  of all of your interests these last few days?
+
+67
+00:05:13,315 --> 00:05:17,195
+Speaker 4:  Yeah, this, this is like, I'm so glad I got out of it more
+
+68
+00:05:17,195 --> 00:05:20,715
+Speaker 4:  than a decade ago, kind of a incident. Yeah, definitely.
+
+69
+00:05:20,905 --> 00:05:21,195
+Speaker 4:  Yeah,
+
+70
+00:05:21,215 --> 00:05:25,195
+Speaker 2:  It seems right. So let's rewind back to Friday morning. You're in the
+
+71
+00:05:25,295 --> 00:05:29,155
+Speaker 2:  uk, I'm in the us So you woke up a few hours earlier
+
+72
+00:05:29,185 --> 00:05:33,115
+Speaker 2:  than I did and got online. Like describe to me the scenes
+
+73
+00:05:33,255 --> 00:05:35,915
+Speaker 2:  of Friday morning as you were getting up and getting online
+
+74
+00:05:36,125 --> 00:05:40,075
+Speaker 4:  Chaos. No, so I woke up late around about 7:00 AM and I
+
+75
+00:05:40,075 --> 00:05:43,115
+Speaker 4:  had like a couple of people, one I used to work with and then just a good
+
+76
+00:05:43,115 --> 00:05:46,955
+Speaker 4:  friend who's like very technical messaged me saying, have you seen this
+
+77
+00:05:46,955 --> 00:05:50,555
+Speaker 4:  in Australia? Like, what, what's going on out there? And I was like, huh,
+
+78
+00:05:50,605 --> 00:05:53,315
+Speaker 4:  we'll all this. And I, I looked at like the Reddit thread. There was like
+
+79
+00:05:53,315 --> 00:05:57,160
+Speaker 4:  loads of cis admins complaining and usually that's a good sign of, of
+
+80
+00:05:57,160 --> 00:06:00,765
+Speaker 4:  any sort of major sort of Windows outages or, or anything
+
+81
+00:06:00,765 --> 00:06:04,605
+Speaker 4:  related to that is is Reddit, people getting angry essentially.
+
+82
+00:06:04,835 --> 00:06:08,725
+Speaker 4:  It's a good flags. Yeah. So I saw that. And then there's
+
+83
+00:06:08,725 --> 00:06:12,525
+Speaker 4:  some like media reports out of Australia about banks being
+
+84
+00:06:12,765 --> 00:06:16,085
+Speaker 4:  affected, the supermarkets, airlines, you know, all the us the stuff that
+
+85
+00:06:16,085 --> 00:06:20,005
+Speaker 4:  we've seen. But then it started to spread, right? So I turned
+
+86
+00:06:20,025 --> 00:06:24,005
+Speaker 4:  on like the tv, you know, quarter past seven to watch like Sky News and,
+
+87
+00:06:24,005 --> 00:06:27,845
+Speaker 4:  and they weren't running the news and I was like, Hmm, this is weird,
+
+88
+00:06:27,985 --> 00:06:31,925
+Speaker 4:  huh. And then it came like one of their tech persons had tweeted saying
+
+89
+00:06:31,925 --> 00:06:35,525
+Speaker 4:  they were offline because some tech issues and then it started to like escalate.
+
+90
+00:06:35,525 --> 00:06:39,085
+Speaker 4:  It was like some of the airports warning of the initial flights that started
+
+91
+00:06:39,085 --> 00:06:42,165
+Speaker 4:  around about that time of the day, like 7:00 AM is kinda like the early flights
+
+92
+00:06:43,025 --> 00:06:45,925
+Speaker 4:  of delays and stuff. And I was like, okay, right, I've gotta figure out what's
+
+93
+00:06:45,925 --> 00:06:49,205
+Speaker 4:  going on here. And then obviously we saw the CrowdStrike thing and then it
+
+94
+00:06:49,205 --> 00:06:53,085
+Speaker 4:  all kind of just started spiraling, like you just saw more
+
+95
+00:06:53,085 --> 00:06:56,605
+Speaker 4:  and more. But at the same time there was a Microsoft Azure
+
+96
+00:06:56,855 --> 00:07:00,245
+Speaker 4:  cloud outage going on. Oh God, I didn't even know that. It wasn't a huge
+
+97
+00:07:00,245 --> 00:07:03,405
+Speaker 4:  one. Yeah, it wasn't a huge one, but it was kind of small. So it started
+
+98
+00:07:03,465 --> 00:07:07,205
+Speaker 4:  out with like everyone blaming Microsoft basically for this outage
+
+99
+00:07:08,105 --> 00:07:09,285
+Speaker 4:  to start off. Yeah.
+
+100
+00:07:09,285 --> 00:07:12,245
+Speaker 2:  How quickly did, by the time I was online,
+
+101
+00:07:12,835 --> 00:07:16,445
+Speaker 2:  CrowdStrike was kind of already in the conversation. It was, yeah, there
+
+102
+00:07:16,445 --> 00:07:19,565
+Speaker 2:  was a lot of like, right when I became aware of the story, it was kind of
+
+103
+00:07:19,565 --> 00:07:22,765
+Speaker 2:  at that moment where it was like, okay, this is, this is a CrowdStrike thing.
+
+104
+00:07:23,105 --> 00:07:26,685
+Speaker 2:  We hadn't quite gotten to, here's what's going on yet. But how did, how did
+
+105
+00:07:26,735 --> 00:07:30,045
+Speaker 2:  folks figure out that CrowdStrike was the issue here?
+
+106
+00:07:30,755 --> 00:07:34,565
+Speaker 4:  Yeah, I think mainly because on Reddit, the people that were posting there,
+
+107
+00:07:34,565 --> 00:07:38,285
+Speaker 4:  the CIS admins were posting the stuff from CrowdStrike's support,
+
+108
+00:07:38,605 --> 00:07:41,805
+Speaker 4:  which obviously had to be a CrowdStrike customer to access. It wasn't available
+
+109
+00:07:42,125 --> 00:07:45,965
+Speaker 4:  publicly. So then it was like, okay, this is what's actually caused it. It's
+
+110
+00:07:45,965 --> 00:07:49,445
+Speaker 4:  obviously not a Windows problem because not everyone's waking up with this,
+
+111
+00:07:49,515 --> 00:07:53,485
+Speaker 4:  it's like a select amount of machines, but enough to obviously be
+
+112
+00:07:53,485 --> 00:07:57,405
+Speaker 4:  causing a problem. and it obviously they issued this update, I think
+
+113
+00:07:57,405 --> 00:08:01,205
+Speaker 4:  it was like around about like 5:00 AM UK time and then I think it was like
+
+114
+00:08:01,545 --> 00:08:05,245
+Speaker 4:  an hour and 20 minutes or so near enough when they pulled it.
+
+115
+00:08:05,545 --> 00:08:09,445
+Speaker 4:  But that was that time when it was like middle of the afternoon or something
+
+116
+00:08:09,445 --> 00:08:12,765
+Speaker 4:  in Australia, like the peak time for people to all have their machines on
+
+117
+00:08:13,035 --> 00:08:16,365
+Speaker 4:  with CrowdStrike installed. And they obviously have a quite a big install
+
+118
+00:08:16,365 --> 00:08:20,045
+Speaker 4:  base there, I guess in Australia. So they got hit the hardest, like initially.
+
+119
+00:08:20,365 --> 00:08:20,485
+Speaker 4:  I,
+
+120
+00:08:20,565 --> 00:08:23,925
+Speaker 2:  I think about that with like you, you see the companies that do maintenance
+
+121
+00:08:23,945 --> 00:08:26,885
+Speaker 2:  or software updates or whatever and they always do them. It's, it's almost
+
+122
+00:08:26,885 --> 00:08:30,245
+Speaker 2:  always overnight in the us right? So the thing you're describing like 5:00 AM
+
+123
+00:08:30,905 --> 00:08:34,645
+Speaker 2:  UK time, that's middle of the night in the us Yeah. I
+
+124
+00:08:35,165 --> 00:08:37,965
+Speaker 2:  I, it had never occurred to me before this, but that's gotta suck if you
+
+125
+00:08:37,965 --> 00:08:40,685
+Speaker 2:  live in one of these timelines that is like opposite the US and all of these
+
+126
+00:08:40,685 --> 00:08:44,085
+Speaker 2:  things are happening in the middle of your workday. Yeah. All the time over
+
+127
+00:08:44,085 --> 00:08:47,525
+Speaker 2:  and over again. So like Australia just getting screwed by software updates
+
+128
+00:08:47,595 --> 00:08:50,285
+Speaker 2:  left and right here. I never really thought about that for, I'm sorry, Australia,
+
+129
+00:08:50,845 --> 00:08:54,285
+Speaker 4:  I think they got hit the hardest because I think just all the machines were
+
+130
+00:08:54,285 --> 00:08:57,965
+Speaker 4:  online right. To, to get this update. So if, and then obviously the
+
+131
+00:08:58,445 --> 00:09:01,365
+Speaker 4:  European machines a a lot of these machines will be just, you know, people
+
+132
+00:09:01,365 --> 00:09:04,805
+Speaker 4:  leave the office, they don't turn 'em off for example. These are also
+
+133
+00:09:05,205 --> 00:09:08,245
+Speaker 4:  critical systems that this is usually installed on. So they're probably pretty
+
+134
+00:09:08,245 --> 00:09:11,925
+Speaker 4:  much always online. So that's why there was like 8.5 million
+
+135
+00:09:12,005 --> 00:09:15,965
+Speaker 4:  machines in total affected. We saw some, I feel like there was less in
+
+136
+00:09:15,965 --> 00:09:19,645
+Speaker 4:  the US affected in terms of like the stuff that we saw in Australia, like
+
+137
+00:09:19,645 --> 00:09:23,125
+Speaker 4:  the supermarkets and people not being able to get groceries and you know,
+
+138
+00:09:23,385 --> 00:09:26,445
+Speaker 4:  all those like affecting hospital appointments and stuff. I think there was
+
+139
+00:09:26,565 --> 00:09:29,125
+Speaker 4:  a little bit less of that in the us The
+
+140
+00:09:29,125 --> 00:09:32,525
+Speaker 2:  Biggest thing that happened in the US at least anecdotally was the airline
+
+141
+00:09:32,575 --> 00:09:32,925
+Speaker 2:  stuff.
+
+142
+00:09:32,995 --> 00:09:33,965
+Speaker 4:  Yeah, yeah. And then
+
+143
+00:09:33,965 --> 00:09:36,365
+Speaker 2:  There was, and that's still ongoing. The graphs that you could see of the
+
+144
+00:09:36,365 --> 00:09:39,565
+Speaker 2:  planes in the sky was pretty Yeah. Incredible for a few hours,
+
+145
+00:09:39,735 --> 00:09:43,685
+Speaker 4:  Which usually only happens like they grind. Yeah, they ground, sorry, that
+
+146
+00:09:43,685 --> 00:09:46,965
+Speaker 4:  many flights usually when it's less something terrible happens, right?
+
+147
+00:09:47,915 --> 00:09:51,725
+Speaker 4:  Yeah. But that's still ongoing. I think Delta actually said
+
+148
+00:09:51,795 --> 00:09:55,125
+Speaker 4:  yesterday they're still canceling flights Oh wow. And canceling some today.
+
+149
+00:09:55,745 --> 00:09:59,725
+Speaker 4:  So that's, I think they've been particularly like worse hit than, than
+
+150
+00:09:59,725 --> 00:10:03,205
+Speaker 4:  the other major sort of airlines in the US but Okay. Yeah. So that's still,
+
+151
+00:10:03,205 --> 00:10:04,765
+Speaker 4:  there's still a bit of a fallout going on there. Yeah.
+
+152
+00:10:04,945 --> 00:10:08,245
+Speaker 2:  So with a few days of hindsight, it seems like we have a pretty clear sense
+
+153
+00:10:08,245 --> 00:10:11,565
+Speaker 2:  of what happened. So just back all the way up, like what, what happened here?
+
+154
+00:10:11,565 --> 00:10:14,925
+Speaker 2:  What broke? And I guess start with who is CrowdStrike because I think most
+
+155
+00:10:14,925 --> 00:10:18,685
+Speaker 2:  people reasonably do not and should not have to know Yeah, sure. Who
+
+156
+00:10:18,685 --> 00:10:20,885
+Speaker 2:  CrowdStrike is. So like start all the way at the beginning, what went wrong
+
+157
+00:10:20,885 --> 00:10:21,045
+Speaker 2:  here?
+
+158
+00:10:21,235 --> 00:10:23,645
+Speaker 4:  Yeah. They're probably, the only time you've ever heard of CrowdStrike is,
+
+159
+00:10:23,665 --> 00:10:27,485
+Speaker 4:  is that they sponsor Mercedes s like you watch Formula One then
+
+160
+00:10:27,565 --> 00:10:28,165
+Speaker 4:  maybe, wait,
+
+161
+00:10:28,285 --> 00:10:31,285
+Speaker 2:  I knew I had heard that name before. That's so funny. Okay. That's right.
+
+162
+00:10:31,285 --> 00:10:31,765
+Speaker 2:  That, yeah,
+
+163
+00:10:31,785 --> 00:10:35,565
+Speaker 4:  Go. and it was that picture of the, the Windows machines that had crashed
+
+164
+00:10:35,565 --> 00:10:38,925
+Speaker 4:  at the Mercedes F1 garage. Yep. When they, when they're doing the testing
+
+165
+00:10:38,985 --> 00:10:42,165
+Speaker 4:  and they had CrowdStrike on the T-shirts, it's like, it's just perfect. But
+
+166
+00:10:42,165 --> 00:10:45,765
+Speaker 4:  yeah, on Friday morning CrowdStrike issued what they call
+
+167
+00:10:45,875 --> 00:10:49,805
+Speaker 4:  like a content update to their protection system. And CrowdStrike is
+
+168
+00:10:49,885 --> 00:10:53,645
+Speaker 4:  a third party security firm that just think of it
+
+169
+00:10:53,645 --> 00:10:56,965
+Speaker 4:  basically as antivirus essentially. It's a lot more sophisticated than that
+
+170
+00:10:57,205 --> 00:11:00,805
+Speaker 4:  because obviously cybersecurity these days is, is advanced further, but it's,
+
+171
+00:11:00,805 --> 00:11:04,605
+Speaker 4:  it's a cloud-based solution that pushes updates to machines
+
+172
+00:11:05,245 --> 00:11:08,085
+Speaker 4:  that pay for this software. And I think it's around about 50 bucks a machine.
+
+173
+00:11:08,085 --> 00:11:11,605
+Speaker 4:  So it's not cheap like to, to protect your, your system with, with this stuff.
+
+174
+00:11:12,225 --> 00:11:15,645
+Speaker 4:  So it's usually on critical systems. So that's why
+
+175
+00:11:16,265 --> 00:11:18,885
+Speaker 4:  you saw such an impact, but yeah. And do you mean
+
+176
+00:11:19,085 --> 00:11:22,605
+Speaker 2:  Critical systems in the sense of like super secure government
+
+177
+00:11:22,845 --> 00:11:26,205
+Speaker 2:  computers or just like computers that can't afford to go down or I guess
+
+178
+00:11:26,205 --> 00:11:26,485
+Speaker 2:  both.
+
+179
+00:11:26,635 --> 00:11:30,165
+Speaker 4:  Yeah. More, more, more computers that can't really afford to go down. Okay.
+
+180
+00:11:30,355 --> 00:11:34,285
+Speaker 4:  Like you see in the, all the airport screens were all Windows machines and
+
+181
+00:11:34,595 --> 00:11:38,245
+Speaker 4:  they're kind of critical for communications to passengers and stuff. So it's
+
+182
+00:11:38,245 --> 00:11:42,005
+Speaker 4:  not, not critical in the security side potentially, but
+
+183
+00:11:42,315 --> 00:11:46,205
+Speaker 4:  more the infrastructure side. Got it. Of of things. Yeah. So
+
+184
+00:11:46,205 --> 00:11:49,805
+Speaker 4:  yeah, they issued a, a regular update, I think it was about 5:00 AM
+
+185
+00:11:49,985 --> 00:11:53,965
+Speaker 4:  UK time around about then, which is about midnight eastern.
+
+186
+00:11:54,265 --> 00:11:57,965
+Speaker 4:  And then all the machines started collecting that update because
+
+187
+00:11:58,195 --> 00:12:01,845
+Speaker 4:  that is the way that this system is designed so that you get these
+
+188
+00:12:01,845 --> 00:12:05,725
+Speaker 4:  updates so you are protected against any emerging threats. Right. Like
+
+189
+00:12:05,725 --> 00:12:06,245
+Speaker 4:  you'll get Right.
+
+190
+00:12:06,245 --> 00:12:08,685
+Speaker 2:  And it's not like a button you have to click on the computer to update. Like,
+
+191
+00:12:08,715 --> 00:12:11,525
+Speaker 2:  this is one thing I think I've, I've heard some folks having trouble understanding
+
+192
+00:12:11,525 --> 00:12:15,445
+Speaker 2:  like, this is not an update that appears and you click a thing and
+
+193
+00:12:15,445 --> 00:12:19,005
+Speaker 2:  your computer reboots No, this is like, and it's designed to happen in the
+
+194
+00:12:19,005 --> 00:12:21,605
+Speaker 2:  background all the time, right? Yeah. Like this is the kind of update CrowdStrike
+
+195
+00:12:21,605 --> 00:12:23,525
+Speaker 2:  does constantly, if I understand. Yeah.
+
+196
+00:12:23,525 --> 00:12:26,965
+Speaker 4:  It does these like if not hourly, like daily. Okay. You know, like
+
+197
+00:12:27,455 --> 00:12:31,285
+Speaker 4:  these are pre frequent updates. So the way that the system works,
+
+198
+00:12:31,335 --> 00:12:35,005
+Speaker 4:  let's explain that first is that it runs at the very like highest level
+
+199
+00:12:35,185 --> 00:12:39,045
+Speaker 4:  of windows. So basically in the kernel, which is like a privileged area of
+
+200
+00:12:39,045 --> 00:12:42,845
+Speaker 4:  Windows that most apps don't touch or, or go near, it's like your
+
+201
+00:12:42,845 --> 00:12:46,725
+Speaker 4:  anti sheet systems for PC games or, or see this
+
+202
+00:12:46,795 --> 00:12:50,605
+Speaker 4:  sort of security scanning software is allowed in there. And, and
+
+203
+00:12:50,805 --> 00:12:54,685
+Speaker 4:  Microsoft allows that. And so they have a driver that
+
+204
+00:12:54,685 --> 00:12:57,845
+Speaker 4:  runs at the boot of Windows to protect the system.
+
+205
+00:12:58,505 --> 00:13:01,685
+Speaker 4:  And then they have these content delivery updates that are sort of like the
+
+206
+00:13:01,685 --> 00:13:05,525
+Speaker 4:  rules and regulations around how this driver functions and
+
+207
+00:13:05,525 --> 00:13:09,125
+Speaker 4:  how it detects stuff. And it's that sort of update, not the driver
+
+208
+00:13:09,435 --> 00:13:12,685
+Speaker 4:  that caused the issues. and it was basically a corruption in the update.
+
+209
+00:13:13,005 --> 00:13:16,805
+Speaker 4:  And then the, the driver's obviously gone, oh no, what's happening? Crashed.
+
+210
+00:13:16,805 --> 00:13:20,525
+Speaker 4:  And then Windows has gone, oh no, what's happening Blue screen and then
+
+211
+00:13:21,045 --> 00:13:24,405
+Speaker 4:  reboot. And then it keeps doing that every time because it keeps reading
+
+212
+00:13:24,405 --> 00:13:28,365
+Speaker 4:  that the latest content update. And so they, they, they've managed to fix
+
+213
+00:13:28,365 --> 00:13:32,325
+Speaker 4:  it on some machines because You can keep rebooting the machine and
+
+214
+00:13:32,325 --> 00:13:36,045
+Speaker 4:  if you're lucky the network stack will initialize in Windows before
+
+215
+00:13:36,075 --> 00:13:39,805
+Speaker 4:  CrowdStrike does. And then you get the update or CrowdStrike starts, its
+
+216
+00:13:39,805 --> 00:13:43,365
+Speaker 4:  like scanning. So you get the update the latest like dictionary
+
+217
+00:13:43,365 --> 00:13:46,725
+Speaker 4:  definitions essentially before it crashes. So,
+
+218
+00:13:47,145 --> 00:13:49,845
+Speaker 4:  so some have been able to recover from that. I'm not, I'm not sure what the
+
+219
+00:13:49,845 --> 00:13:53,805
+Speaker 4:  percentage is 'cause CrowdStrike haven't really sort of detailed that and
+
+220
+00:13:53,805 --> 00:13:57,725
+Speaker 4:  they're also working on some sort of other remediation, some mysterious
+
+221
+00:13:57,725 --> 00:14:01,325
+Speaker 4:  remediation that they've been testing apparently over the last 24 hours.
+
+222
+00:14:01,665 --> 00:14:04,725
+Speaker 4:  So may maybe we get some more details about that. But that's essentially
+
+223
+00:14:04,725 --> 00:14:07,685
+Speaker 4:  what happened. It was like 78 minutes of
+
+224
+00:14:08,435 --> 00:14:11,645
+Speaker 4:  push this faulty update out to machines and obviously there was a bunch of
+
+225
+00:14:11,645 --> 00:14:14,965
+Speaker 4:  them that are virtual machines. There's servers, there's just machines that
+
+226
+00:14:14,965 --> 00:14:17,485
+Speaker 4:  are always on, like we were talking about the airport and stuff. So they
+
+227
+00:14:17,485 --> 00:14:20,685
+Speaker 4:  were just sort of grabbed it. If you obviously had a machine that you turned
+
+228
+00:14:20,745 --> 00:14:24,005
+Speaker 4:  on once they pulled the bad update, you wouldn't have been affected. But
+
+229
+00:14:24,005 --> 00:14:27,885
+Speaker 4:  it still hit 8.5 million devices, which sounds like a lot as well.
+
+230
+00:14:27,885 --> 00:14:31,645
+Speaker 4:  and it is, but Microsoft's point is like, it's one less than 1%
+
+231
+00:14:31,785 --> 00:14:35,645
+Speaker 4:  of Windows machines. But but it's the, it's the important part of
+
+232
+00:14:35,645 --> 00:14:36,325
+Speaker 4:  Windows machines. Yeah.
+
+233
+00:14:36,325 --> 00:14:38,925
+Speaker 2:  Let's let's talk through that. Yeah. That's the thing, right? I think it's
+
+234
+00:14:38,925 --> 00:14:42,685
+Speaker 2:  like the percentage of Microsoft
+
+235
+00:14:42,925 --> 00:14:46,845
+Speaker 2:  computers that have CrowdStrike is by definition going to be a very low important
+
+236
+00:14:46,845 --> 00:14:50,565
+Speaker 2:  percentage of Microsoft PCs. Right. And those matter
+
+237
+00:14:50,725 --> 00:14:54,565
+Speaker 2:  a lot that they keep running. So this idea that like, you know, the the surface
+
+238
+00:14:54,785 --> 00:14:58,725
+Speaker 2:  laptop my wife has in her office upstairs didn't crash. It's like, I
+
+239
+00:14:58,725 --> 00:15:01,285
+Speaker 2:  don't know if that's the victory for Microsoft that we're hoping for. No,
+
+240
+00:15:01,305 --> 00:15:05,005
+Speaker 2:  but it is useful perspective. It didn't Yeah. And I think Microsoft is trying
+
+241
+00:15:05,005 --> 00:15:07,805
+Speaker 2:  desperately to say like, this isn't Windows. Like we didn't, this is not
+
+242
+00:15:07,805 --> 00:15:09,845
+Speaker 2:  a Windows problem. We didn't do it. Yeah,
+
+243
+00:15:09,845 --> 00:15:13,605
+Speaker 4:  Definitely. But can you imagine if it had been 10%, like
+
+244
+00:15:14,085 --> 00:15:14,405
+Speaker 2:  I know
+
+245
+00:15:14,705 --> 00:15:18,365
+Speaker 4:  It, it could have been like even like a lot, a lot, lot worse. Yeah,
+
+246
+00:15:18,585 --> 00:15:22,125
+Speaker 4:  it was obviously very bad, but yeah, I'm just, yeah, it's,
+
+247
+00:15:22,425 --> 00:15:25,805
+Speaker 4:  it, it could have been really bad. So, and it just kind of shows you
+
+248
+00:15:26,195 --> 00:15:28,405
+Speaker 4:  like the reliance on this stuff. So
+
+249
+00:15:28,705 --> 00:15:31,925
+Speaker 2:  You've been tracking kind of the different versions of the fix that have
+
+250
+00:15:31,925 --> 00:15:34,805
+Speaker 2:  been going on here because I think Yes. Walk me through kind of where we've
+
+251
+00:15:34,805 --> 00:15:37,645
+Speaker 2:  been. 'cause at the very beginning, if I remember right, one of the big problems
+
+252
+00:15:37,825 --> 00:15:41,645
+Speaker 2:  was the fix was super manual. You had to like go into every
+
+253
+00:15:41,645 --> 00:15:45,485
+Speaker 2:  airport, kiosk, computer, reboot it in safe mode,
+
+254
+00:15:45,865 --> 00:15:49,325
+Speaker 2:  do a thing, do another thing, and then it would work again. And it's like,
+
+255
+00:15:50,195 --> 00:15:53,645
+Speaker 2:  fine for your computer at home, but that doesn't work for every
+
+256
+00:15:53,715 --> 00:15:57,005
+Speaker 2:  airline and airport and bank around the world. Like that's just not a good,
+
+257
+00:15:57,005 --> 00:15:59,965
+Speaker 2:  yeah. So, but it seems like it, even just a few days later, there's a much
+
+258
+00:15:59,965 --> 00:16:02,845
+Speaker 2:  better track for getting this stuff fixed. So walk me through that a little
+
+259
+00:16:02,845 --> 00:16:02,965
+Speaker 2:  bit.
+
+260
+00:16:03,475 --> 00:16:06,645
+Speaker 4:  Yeah. Kind of yes and no because obviously we talked about the reboot thing
+
+261
+00:16:07,225 --> 00:16:09,965
+Speaker 4:  is what CrowdStrike's been recommended and that's, that's, that's working
+
+262
+00:16:09,985 --> 00:16:10,485
+Speaker 4:  on some,
+
+263
+00:16:10,515 --> 00:16:13,685
+Speaker 2:  What were you saying up to 15 times you wrote? Right. Just basically keep
+
+264
+00:16:13,685 --> 00:16:14,605
+Speaker 2:  turning it off and on again until
+
+265
+00:16:14,605 --> 00:16:16,565
+Speaker 4:  Something it happens. Apparently you just keep rebooting and that's, that's
+
+266
+00:16:16,565 --> 00:16:19,245
+Speaker 4:  working for some people. It's not working for everyone. So there's still
+
+267
+00:16:19,245 --> 00:16:22,965
+Speaker 4:  a lot of manual intervention going on. So you still have the option
+
+268
+00:16:23,065 --> 00:16:26,365
+Speaker 4:  of doing it manually where you, you'd have to start the machine in safe mode,
+
+269
+00:16:26,365 --> 00:16:30,085
+Speaker 4:  which requires physical access and a keyboard to to, to, you know, get this
+
+270
+00:16:30,085 --> 00:16:33,445
+Speaker 4:  machine to, to go in safe mode and then you need admin rights to actually
+
+271
+00:16:33,445 --> 00:16:37,365
+Speaker 4:  delete the 40 file. So there's quite a lot of, you know, a
+
+272
+00:16:37,365 --> 00:16:40,805
+Speaker 4:  lot of intervention there. It's not like just send an update, click, click
+
+273
+00:16:40,805 --> 00:16:44,245
+Speaker 4:  a button and update is, is there. The other option is Microsoft
+
+274
+00:16:44,665 --> 00:16:48,645
+Speaker 4:  create a recovery tool which can sort of automate that process.
+
+275
+00:16:49,305 --> 00:16:52,125
+Speaker 4:  But the only problem is a lot of these machines, 'cause they're critical
+
+276
+00:16:52,225 --> 00:16:56,085
+Speaker 4:  and, and, and they're out sort of in airports and stuff, they, they,
+
+277
+00:16:56,085 --> 00:16:59,325
+Speaker 4:  they might be locked, locked down by BitLocker, which is disc encryption.
+
+278
+00:16:59,825 --> 00:17:03,645
+Speaker 4:  So then that tool can't do that without you having a recovery key,
+
+279
+00:17:04,215 --> 00:17:07,485
+Speaker 4:  which are unique for every machine. And then you have to type this long,
+
+280
+00:17:07,715 --> 00:17:11,125
+Speaker 4:  it's long, it's like a Windows key
+
+281
+00:17:11,245 --> 00:17:15,125
+Speaker 4:  product key that you put in that sort of length to then allow
+
+282
+00:17:15,125 --> 00:17:18,005
+Speaker 4:  you access. So there's a lot of, there's still a lot of manual intervention
+
+283
+00:17:18,005 --> 00:17:21,805
+Speaker 4:  going along. We, we've seen videos and pictures of like people
+
+284
+00:17:21,805 --> 00:17:25,565
+Speaker 4:  scaling ladders in airports and stuff just to literally plug
+
+285
+00:17:25,875 --> 00:17:29,685
+Speaker 4:  USBs into like these machines. It's just like, it's, yeah,
+
+286
+00:17:30,035 --> 00:17:33,245
+Speaker 4:  there's a lot that's still going on. So I didn't, I, I'd love to know what
+
+287
+00:17:33,245 --> 00:17:37,005
+Speaker 4:  the percentage of ones that were fixed by rebooting multiple times
+
+288
+00:17:37,145 --> 00:17:40,725
+Speaker 4:  versus, you know, man manual intervention and also just
+
+289
+00:17:41,785 --> 00:17:45,525
+Speaker 4:  do ITM means just go and just blast this thing away and, and
+
+290
+00:17:45,635 --> 00:17:49,005
+Speaker 4:  make sure that machine's fixed moved on to next. You know, like it's a choice
+
+291
+00:17:49,085 --> 00:17:51,565
+Speaker 4:  isn't it, for, for every business as well. Do you wanna sit there trying
+
+292
+00:17:51,565 --> 00:17:55,325
+Speaker 4:  to reboot it or do you just wanna fix it in the amount of time that you could
+
+293
+00:17:55,325 --> 00:17:59,125
+Speaker 4:  have sat there rebooting it sort of 20 times? So I think it's a choice, but
+
+294
+00:17:59,125 --> 00:18:02,965
+Speaker 4:  yeah, there's some more tools and in like we said, CrowdStrike's potentially
+
+295
+00:18:02,965 --> 00:18:05,805
+Speaker 4:  doing something that, I can't remember the exact wording they've put on it,
+
+296
+00:18:05,805 --> 00:18:09,725
+Speaker 4:  but it's like some cloud-based solution
+
+297
+00:18:09,725 --> 00:18:13,485
+Speaker 4:  that they think they might have got this fixed somehow, but
+
+298
+00:18:13,505 --> 00:18:14,805
+Speaker 4:  I'm not sure how that's gonna work.
+
+299
+00:18:15,105 --> 00:18:19,005
+Speaker 2:  You cover Microsoft for us. Yes. I feel like over the last 72
+
+300
+00:18:19,005 --> 00:18:22,605
+Speaker 2:  hours this has gone from being a Microsoft disaster
+
+301
+00:18:23,425 --> 00:18:27,405
+Speaker 2:  to not really being a Microsoft disaster. This is, it's kind of a Microsoft
+
+302
+00:18:27,645 --> 00:18:31,565
+Speaker 2:  adjacent disaster I would say. Yeah. But what is your sense of, of
+
+303
+00:18:31,755 --> 00:18:35,685
+Speaker 2:  what a, kind of how this looks for Microsoft and B like if
+
+304
+00:18:35,685 --> 00:18:39,205
+Speaker 2:  you're Microsoft and you're, you're a company that obviously is responsible
+
+305
+00:18:39,205 --> 00:18:43,125
+Speaker 2:  in some ways for Yeah. These kinds of crucial machines and the
+
+306
+00:18:43,125 --> 00:18:46,485
+Speaker 2:  way that these systems work. Is your sense that anything, anything changes
+
+307
+00:18:46,515 --> 00:18:49,325
+Speaker 2:  here? Is this just like a bad thing that happened and we all recover and
+
+308
+00:18:49,325 --> 00:18:51,605
+Speaker 2:  move on? Or does this feel like it might change things?
+
+309
+00:18:52,035 --> 00:18:55,405
+Speaker 4:  Yeah, I feel like it might change things. I mean, because there, there's
+
+310
+00:18:55,405 --> 00:18:58,085
+Speaker 4:  a lot going on here. It is obviously CrowdStrike, which is a third party
+
+311
+00:18:58,145 --> 00:19:02,005
+Speaker 4:  vendor, they get privileged access to, to be able to, to
+
+312
+00:19:02,005 --> 00:19:04,085
+Speaker 4:  run this software in the way they do. Right. Which
+
+313
+00:19:04,085 --> 00:19:06,645
+Speaker 2:  Is not normal, we should say. Like it's a pretty, it's normal, it's a big
+
+314
+00:19:06,645 --> 00:19:10,045
+Speaker 2:  thing to give somebody essentially that kind of access. Yeah. It's it's like
+
+315
+00:19:10,045 --> 00:19:11,965
+Speaker 2:  being inside of your computer in a very real way.
+
+316
+00:19:12,115 --> 00:19:16,085
+Speaker 4:  Yeah. And Microsoft allows it. And I
+
+317
+00:19:16,085 --> 00:19:20,005
+Speaker 4:  think that there was a statement where Microsoft said that essentially
+
+318
+00:19:20,275 --> 00:19:24,085
+Speaker 4:  that they have to give this access because of a ruling by the European Commission
+
+319
+00:19:24,745 --> 00:19:28,485
+Speaker 4:  in 2009, which I think is like yes,
+
+320
+00:19:28,675 --> 00:19:32,365
+Speaker 4:  true. But also, you know, they, they could, they could
+
+321
+00:19:32,765 --> 00:19:35,845
+Speaker 4:  possibly do what Apple have done and and create, create an architecture where
+
+322
+00:19:35,845 --> 00:19:39,325
+Speaker 4:  they have their own API set and then vendors plug into that.
+
+323
+00:19:40,065 --> 00:19:43,245
+Speaker 4:  But yeah, I, I don't know, I need to look into that more fully to see that,
+
+324
+00:19:43,305 --> 00:19:46,645
+Speaker 4:  the legalities on that. But yes, they do have to keep their kernel open
+
+325
+00:19:47,345 --> 00:19:50,925
+Speaker 4:  and it's essentially, it's not necessarily that they have to keep the kernel
+
+326
+00:19:50,925 --> 00:19:54,445
+Speaker 4:  open, it's just that they can't privilege their own security software over
+
+327
+00:19:54,445 --> 00:19:57,765
+Speaker 4:  other vendors seen as anti-competitive. And they've tried to lock down Windows
+
+328
+00:19:58,405 --> 00:20:01,565
+Speaker 4:  a bunch over the years Got it. To sort of secure things up. And they always
+
+329
+00:20:01,565 --> 00:20:05,525
+Speaker 4:  do get accused of being, you know, anti-competitive, whether it's like through
+
+330
+00:20:05,525 --> 00:20:09,485
+Speaker 4:  really dumb ways like ESS mode for sure. Or you know, some
+
+331
+00:20:09,515 --> 00:20:13,245
+Speaker 4:  more ways like TPM chips on Windows 11. Like there's always,
+
+332
+00:20:13,245 --> 00:20:16,885
+Speaker 4:  there's always gonna be a pushback because people see Windows
+
+333
+00:20:17,025 --> 00:20:20,525
+Speaker 4:  as this open system and they do not like it when Microsoft tries to lock
+
+334
+00:20:20,525 --> 00:20:24,445
+Speaker 4:  it down for whatever reasons they might be doing it. But I feel like this
+
+335
+00:20:24,445 --> 00:20:28,245
+Speaker 4:  might trigger some sort of change. The only thing is that
+
+336
+00:20:28,245 --> 00:20:31,605
+Speaker 4:  the Mac like way of doing it, it hasn't been perfect. It actually, sometimes
+
+337
+00:20:31,705 --> 00:20:35,285
+Speaker 4:  the security software that runs there does cause panic errors on,
+
+338
+00:20:35,585 --> 00:20:39,565
+Speaker 4:  on Macs. So there's no like perfect way
+
+339
+00:20:39,565 --> 00:20:43,005
+Speaker 4:  of doing this. And I think Microsoft was kind of stuck in this weird situation
+
+340
+00:20:43,005 --> 00:20:46,445
+Speaker 4:  where it's like they kind of should take some of the blame here because
+
+341
+00:20:47,065 --> 00:20:50,845
+Speaker 4:  should we say if there's a driver that's faulty and it's
+
+342
+00:20:51,085 --> 00:20:55,005
+Speaker 4:  stopping windows from booting or or crashing it at boot, why does Windows
+
+343
+00:20:55,185 --> 00:20:58,685
+Speaker 4:  not unload that after it's done that, like five times or whatever, however
+
+344
+00:20:58,875 --> 00:21:02,205
+Speaker 4:  long you wanna say. But it should be intelligent enough to be like
+
+345
+00:21:02,355 --> 00:21:06,085
+Speaker 4:  something weird's going on here, right? because there as a human, if something
+
+346
+00:21:06,105 --> 00:21:09,445
+Speaker 4:  was crashing, you just stop it, wouldn't you? And be like, let's see what's
+
+347
+00:21:09,445 --> 00:21:12,805
+Speaker 4:  going on here. Right? But it just allows that behavior to to happen.
+
+348
+00:21:13,425 --> 00:21:17,405
+Speaker 4:  So I feel like they need to address some of that to, to stop this sort
+
+349
+00:21:17,405 --> 00:21:20,805
+Speaker 4:  of thing happening in the future as well. But again, it's not their update
+
+350
+00:21:20,825 --> 00:21:24,565
+Speaker 4:  so that it wasn't their fault, but they couldn't help
+
+351
+00:21:24,905 --> 00:21:28,645
+Speaker 4:  if you know what I mean? So Yeah. But I think it's, it's gonna trigger a
+
+352
+00:21:28,645 --> 00:21:31,965
+Speaker 4:  lot of conversations around this and it's just interesting because
+
+353
+00:21:31,995 --> 00:21:35,685
+Speaker 4:  CrowdStrike obviously competes with Microsoft and Microsoft has its own endpoint
+
+354
+00:21:35,685 --> 00:21:39,365
+Speaker 4:  stuff like Intune that it sells to customers and competes with CrowdStrike
+
+355
+00:21:39,705 --> 00:21:43,565
+Speaker 4:  on the sales teams and the CEO of CrowdStrike regularly goes on
+
+356
+00:21:43,565 --> 00:21:47,525
+Speaker 4:  TV broadcasts and interviews and bashes Microsoft security record,
+
+357
+00:21:47,855 --> 00:21:51,845
+Speaker 4:  which obviously has not been great Yeah. Over the past few years. So
+
+358
+00:21:51,845 --> 00:21:55,405
+Speaker 4:  it's all, there's a lot of stuff going on here and, and I think there was
+
+359
+00:21:55,405 --> 00:21:57,805
+Speaker 4:  something about how, there was an incident that happened, I think it was
+
+360
+00:21:57,805 --> 00:22:01,645
+Speaker 4:  in 2010 when McAfee sent out an update similar to this and it
+
+361
+00:22:01,645 --> 00:22:05,605
+Speaker 4:  crashed a bunch of Windows XP machines and the CrowdStrike CEO was
+
+362
+00:22:05,605 --> 00:22:09,405
+Speaker 4:  the CTO at McAfee at the time. So it's like, yeah, there's, there's,
+
+363
+00:22:09,405 --> 00:22:13,085
+Speaker 4:  there's a lot of history between security vendors and Microsoft and
+
+364
+00:22:13,505 --> 00:22:17,325
+Speaker 4:  all this stuff where they, they want it to be open. Microsoft's like, yeah,
+
+365
+00:22:17,745 --> 00:22:21,205
+Speaker 4:  but you should trust us. I mean, everyone's like, well look what's happened,
+
+366
+00:22:21,495 --> 00:22:24,965
+Speaker 4:  we've trust trusted you for the past couple of decades. You know, like, so
+
+367
+00:22:25,085 --> 00:22:26,925
+Speaker 4:  I think there's gonna be a lot of conversations around that.
+
+368
+00:22:27,395 --> 00:22:31,125
+Speaker 2:  Yeah, I mean it's such an interesting microcosm of
+
+369
+00:22:31,195 --> 00:22:34,165
+Speaker 2:  both sides of the debate here, right? Because like, if you wanna argue for
+
+370
+00:22:34,665 --> 00:22:38,445
+Speaker 2:  the closed ecosystem, it's so that things like this don't happen
+
+371
+00:22:38,945 --> 00:22:42,725
+Speaker 2:  And if you wanna argue for the open ecosystem, it's that mostly things like
+
+372
+00:22:42,725 --> 00:22:45,885
+Speaker 2:  this don't happen, right? Like Yeah. Part of what's so interesting about
+
+373
+00:22:45,885 --> 00:22:49,485
+Speaker 2:  this to me is it's, it is on the one hand sort of
+
+374
+00:22:49,725 --> 00:22:52,805
+Speaker 2:  remarkable that like the McAfee thing was in 2010 and this is this year.
+
+375
+00:22:52,805 --> 00:22:56,325
+Speaker 2:  Yeah. And these things don't actually happen all that often, and yet when
+
+376
+00:22:56,525 --> 00:22:56,885
+Speaker 2:  they do,
+
+377
+00:22:58,395 --> 00:23:02,245
+Speaker 2:  they literally like set the world on fire, right? Like
+
+378
+00:23:02,245 --> 00:23:02,405
+Speaker 2:  it
+
+379
+00:23:02,555 --> 00:23:03,965
+Speaker 4:  Yeah. It's, it's catastrophic,
+
+380
+00:23:03,975 --> 00:23:07,925
+Speaker 2:  Right? And we're, we're so reliant on this stuff now, and I
+
+381
+00:23:07,925 --> 00:23:10,925
+Speaker 2:  think it, it comes to a point where, and like you said, nobody is perfect.
+
+382
+00:23:11,085 --> 00:23:14,765
+Speaker 2:  I don't think there is a version of this that is perfect and it just makes
+
+383
+00:23:14,765 --> 00:23:18,005
+Speaker 2:  you wonder like, okay, how do we, how do we even think about
+
+384
+00:23:18,905 --> 00:23:22,405
+Speaker 2:  our reliance on this stuff as people, as
+
+385
+00:23:22,725 --> 00:23:26,685
+Speaker 2:  businesses, as like society? Like the fact that a a what it
+
+386
+00:23:26,685 --> 00:23:30,125
+Speaker 2:  amounts to like a security update to your computer could prevent you from
+
+387
+00:23:30,125 --> 00:23:33,845
+Speaker 2:  flying to your vacation is just like a weird thing nobody
+
+388
+00:23:33,845 --> 00:23:37,485
+Speaker 2:  thinks about. And I, I, I have spent now a lot of time thinking about it
+
+389
+00:23:37,505 --> 00:23:40,445
+Speaker 2:  and I still don't know how to sort through it because it's not like, get
+
+390
+00:23:40,445 --> 00:23:43,165
+Speaker 2:  rid of all the computers, pen and paper will fix it. It's like that's clearly
+
+391
+00:23:43,265 --> 00:23:43,845
+Speaker 2:  not the answer.
+
+392
+00:23:44,265 --> 00:23:47,685
+Speaker 4:  But yeah. And I've seen seen some people tweet like
+
+393
+00:23:48,735 --> 00:23:52,645
+Speaker 4:  maybe people should, should use end points in, in like point of
+
+394
+00:23:52,645 --> 00:23:56,565
+Speaker 4:  sales devices in supermarkets should be iPads. You know, it's like
+
+395
+00:23:56,675 --> 00:23:59,925
+Speaker 4:  Yeah, but that's, that's expensive for supermarkets. They, they can't afford
+
+396
+00:23:59,925 --> 00:24:00,125
+Speaker 4:  that.
+
+397
+00:24:00,315 --> 00:24:04,205
+Speaker 2:  Well, and I, I dunno that iPads are like famously perfect technology.
+
+398
+00:24:04,605 --> 00:24:07,885
+Speaker 4:  Yeah. Like there's, there's so many different solutions, but I think,
+
+399
+00:24:08,565 --> 00:24:12,125
+Speaker 4:  I think really what it should highlight is that these companies like CrowdStrike
+
+400
+00:24:12,125 --> 00:24:14,925
+Speaker 4:  and Microsoft need to definitely work a lot closer together
+
+401
+00:24:16,185 --> 00:24:19,725
+Speaker 4:  rather than be in this competitive force against each other because
+
+402
+00:24:20,635 --> 00:24:24,245
+Speaker 4:  it's no good going on TV and bashing your competitors and stuff. And they
+
+403
+00:24:24,245 --> 00:24:27,965
+Speaker 4:  both do it. So it's like that, I think in cybersecurity in general at the
+
+404
+00:24:27,965 --> 00:24:31,085
+Speaker 4:  moment, there needs to just def definitely be a larger focus on the joint
+
+405
+00:24:31,325 --> 00:24:35,205
+Speaker 4:  customers. Who knows whether that happened, but yeah, the, the fact
+
+406
+00:24:35,205 --> 00:24:38,485
+Speaker 4:  that this sort of stuff can take down so much stuff and it was only less
+
+407
+00:24:38,485 --> 00:24:42,365
+Speaker 4:  than 1% of Windows machines, that that should be a major red flag. Like
+
+408
+00:24:42,365 --> 00:24:46,085
+Speaker 4:  if this was 10% upwards, it, it'd be, you know,
+
+409
+00:24:46,985 --> 00:24:50,725
+Speaker 4:  who knows, like if if it was a Windows update they'd done this as well. Like
+
+410
+00:24:50,875 --> 00:24:51,525
+Speaker 4:  Yeah, well
+
+411
+00:24:51,525 --> 00:24:54,165
+Speaker 2:  I was just gonna say, like you, you talk about nobody's security record is
+
+412
+00:24:54,165 --> 00:24:57,285
+Speaker 2:  perfect. Like if, if this is something Microsoft had pushed
+
+413
+00:24:58,025 --> 00:25:01,765
+Speaker 2:  and, and there's not necessarily a good reason, it couldn't have been
+
+414
+00:25:02,005 --> 00:25:05,885
+Speaker 2:  Microsoft that pushed it. No, the scale would've been dramatically
+
+415
+00:25:05,885 --> 00:25:09,685
+Speaker 2:  different. Like part of what I, I think, and you, you've probably seen more
+
+416
+00:25:09,685 --> 00:25:13,405
+Speaker 2:  of this than I have, but to me at least it seems like the question of what
+
+417
+00:25:13,405 --> 00:25:17,205
+Speaker 2:  went wrong at CrowdStrike that allowed this to happen is gonna be
+
+418
+00:25:17,405 --> 00:25:18,085
+Speaker 2:  the big question.
+
+419
+00:25:18,585 --> 00:25:20,325
+Speaker 4:  Why wasn't it tested right. Like that,
+
+420
+00:25:20,415 --> 00:25:24,285
+Speaker 2:  Right? Or like, was this the kind of thing that they do
+
+421
+00:25:24,325 --> 00:25:27,965
+Speaker 2:  a million times a day and so somebody got sloppy, was this a failure of process?
+
+422
+00:25:28,265 --> 00:25:31,805
+Speaker 2:  Was this, did it follow the process? And you know, sometimes bad things happen.
+
+423
+00:25:31,805 --> 00:25:35,365
+Speaker 2:  Like that to me feels like the kind of core piece of this that we still
+
+424
+00:25:35,555 --> 00:25:39,325
+Speaker 2:  haven't really seen is like what, what or who
+
+425
+00:25:39,915 --> 00:25:43,205
+Speaker 2:  screwed up that this could happen and is it a thing we can fix or is this
+
+426
+00:25:43,205 --> 00:25:45,605
+Speaker 2:  just like a thing that's gonna happen every once in a while and we have to
+
+427
+00:25:45,605 --> 00:25:46,525
+Speaker 2:  figure out how to live with it?
+
+428
+00:25:47,235 --> 00:25:50,485
+Speaker 4:  Yeah, I think what it, what it created was like a, a basically a sort of
+
+429
+00:25:50,485 --> 00:25:54,405
+Speaker 4:  memory panic. So it was like this file calls the
+
+430
+00:25:54,405 --> 00:25:58,045
+Speaker 4:  driver to be like, try to write to a part of memory that it shouldn't be.
+
+431
+00:25:59,105 --> 00:26:02,925
+Speaker 4:  And then Windows is obviously like, no, you can't do that. Let's kill
+
+432
+00:26:02,925 --> 00:26:06,765
+Speaker 4:  this driver. Or, or the driver crashed and killed Windows with it.
+
+433
+00:26:07,245 --> 00:26:10,125
+Speaker 4:  I think when it comes to like, there's gonna be obviously a lot of pointing
+
+434
+00:26:10,125 --> 00:26:14,085
+Speaker 4:  fingers and who, who takes the blame for it. But I think there's definitely
+
+435
+00:26:14,595 --> 00:26:18,285
+Speaker 4:  Windows should do a better job at this, but there's also, CrowdStrike should
+
+436
+00:26:18,285 --> 00:26:21,405
+Speaker 4:  do a better job at testing its update. Like how has that gone out to
+
+437
+00:26:21,405 --> 00:26:25,085
+Speaker 4:  8.5 million devices and not being spotted?
+
+438
+00:26:25,115 --> 00:26:28,565
+Speaker 4:  Like why, why don't they automate that testing or something like short,
+
+439
+00:26:29,155 --> 00:26:33,125
+Speaker 4:  there's gonna be questions about how that actually happened. But yeah, like
+
+440
+00:26:33,235 --> 00:26:36,845
+Speaker 4:  they, I think Microsoft takes probably like, I dunno, 10 to
+
+441
+00:26:36,845 --> 00:26:40,365
+Speaker 4:  20% of the blame here or something. And I just hope that they both look at
+
+442
+00:26:40,365 --> 00:26:44,005
+Speaker 4:  it and come up with a solution that stops this from ever happening again,
+
+443
+00:26:44,005 --> 00:26:47,005
+Speaker 4:  because I don't think the solution is rip these guys out the kernel because
+
+444
+00:26:47,845 --> 00:26:51,205
+Speaker 4:  Microsoft doesn't do a ton of innovative stuff with Windows at the moment.
+
+445
+00:26:51,385 --> 00:26:55,245
+Speaker 4:  So allowing people to have kernel access allows for some of that innovation
+
+446
+00:26:55,705 --> 00:26:59,325
+Speaker 4:  and some like CrowdStrike pushes that security innovation where Microsoft
+
+447
+00:26:59,325 --> 00:27:03,245
+Speaker 4:  might not take it like Internet Explorer back in the day, if we just let
+
+448
+00:27:03,525 --> 00:27:06,965
+Speaker 4:  Microsoft define the web, we wouldn't have had Chrome, we wouldn't have had
+
+449
+00:27:06,965 --> 00:27:10,005
+Speaker 4:  all that competition. So it's like, I don't wanna see it swing one way or
+
+450
+00:27:10,005 --> 00:27:13,965
+Speaker 4:  the other. I just wanna see cooperation. Really. Yeah. This never
+
+451
+00:27:13,965 --> 00:27:14,445
+Speaker 4:  happens again.
+
+452
+00:27:14,715 --> 00:27:18,605
+Speaker 2:  Well and especially in these moments where these things are
+
+453
+00:27:18,605 --> 00:27:22,525
+Speaker 2:  not allowed to fail. Right. I think part of what was so
+
+454
+00:27:22,525 --> 00:27:25,925
+Speaker 2:  eyeopening, I think about this whole thing was just realizing how much of
+
+455
+00:27:25,925 --> 00:27:29,605
+Speaker 2:  the world runs on Windows computers. Yeah. And not,
+
+456
+00:27:29,745 --> 00:27:33,685
+Speaker 2:  not even different Windows computers, just Windows computers that like
+
+457
+00:27:33,715 --> 00:27:37,165
+Speaker 2:  Yeah. The, the signs you see at the mall are just Windows computers
+
+458
+00:27:37,625 --> 00:27:38,605
+Speaker 2:  and, and I think you
+
+459
+00:27:38,605 --> 00:27:41,565
+Speaker 4:  Go to an ATM and take out cash, it's probably Windows. Yeah.
+
+460
+00:27:41,595 --> 00:27:45,485
+Speaker 2:  Yeah. And so I think to me the this question of, okay,
+
+461
+00:27:45,625 --> 00:27:49,005
+Speaker 2:  we have, we have these operating systems, we have this software,
+
+462
+00:27:50,105 --> 00:27:53,925
+Speaker 2:  do we need to think really differently about the ones that are like modern
+
+463
+00:27:53,925 --> 00:27:57,085
+Speaker 2:  infrastructure in a way that isn't just
+
+464
+00:27:58,325 --> 00:28:01,845
+Speaker 2:  functionally a Windows computer? Like, I don't know, it just the fact that
+
+465
+00:28:01,845 --> 00:28:05,605
+Speaker 2:  it's basically just a bunch of like crappy little PC boxes that keep our
+
+466
+00:28:05,605 --> 00:28:09,285
+Speaker 2:  banks running is one of those things I think a lot of people sort of intellectually
+
+467
+00:28:09,285 --> 00:28:13,005
+Speaker 2:  know, but it's actually probably not how it should work. And I don't know,
+
+468
+00:28:13,005 --> 00:28:15,845
+Speaker 2:  this is where I get in like way over my head on how all the technology of
+
+469
+00:28:15,845 --> 00:28:19,165
+Speaker 2:  this actually works, but it does feel like we are at a point where there
+
+470
+00:28:19,165 --> 00:28:22,765
+Speaker 2:  is a set of computers in the world that just cannot fail. Yeah. And that
+
+471
+00:28:22,765 --> 00:28:26,685
+Speaker 2:  maybe having them be just computers is not the
+
+472
+00:28:26,685 --> 00:28:27,725
+Speaker 2:  right way to think
+
+473
+00:28:27,725 --> 00:28:30,725
+Speaker 4:  About it. Yeah. I dunno what the alternative is, but that's
+
+474
+00:28:30,725 --> 00:28:31,405
+Speaker 2:  The thing. I don't either,
+
+475
+00:28:31,425 --> 00:28:34,645
+Speaker 4:  That's the thing is that it, they're just cheap, right? It's, it's cheaper
+
+476
+00:28:34,665 --> 00:28:38,205
+Speaker 4:  for them to, what is the alternative really? Like they're not gonna go Mac
+
+477
+00:28:38,265 --> 00:28:41,845
+Speaker 4:  os they, they could do Linux, but then that could be complicated. Like it's
+
+478
+00:28:41,845 --> 00:28:42,125
+Speaker 4:  Yeah.
+
+479
+00:28:42,125 --> 00:28:43,565
+Speaker 2:  That has its own mess. Yeah.
+
+480
+00:28:43,825 --> 00:28:47,045
+Speaker 4:  So it's like, I, I don't know. There's no, I think that's the biggest problem
+
+481
+00:28:47,145 --> 00:28:50,805
+Speaker 4:  is that there is actually a monopoly here right? At play with, with Windows.
+
+482
+00:28:50,825 --> 00:28:54,325
+Speaker 4:  and it was has been, and it's like there isn't really a good
+
+483
+00:28:54,325 --> 00:28:58,165
+Speaker 4:  alternative and the alternative to securities things are now causing
+
+484
+00:28:58,165 --> 00:29:02,085
+Speaker 4:  issues. It's like, yeah, like where do you,
+
+485
+00:29:02,085 --> 00:29:05,285
+Speaker 4:  where do you stop at this? But I mean, maybe the alternative is Microsoft
+
+486
+00:29:05,285 --> 00:29:07,765
+Speaker 4:  creates a lockdown version windows for these sort of devices. I think they've
+
+487
+00:29:07,765 --> 00:29:09,565
+Speaker 4:  done similar sort of stuff in the past, but
+
+488
+00:29:11,225 --> 00:29:15,205
+Speaker 4:  the, the problem there is that then you get complicated apps that wanna do
+
+489
+00:29:15,205 --> 00:29:19,005
+Speaker 4:  stuff on these and then you have that, the same thing
+
+490
+00:29:19,005 --> 00:29:21,525
+Speaker 4:  is like, okay, well we just need to give them windows. So,
+
+491
+00:29:21,665 --> 00:29:24,925
+Speaker 2:  And you get to the point where there's only two people on earth and one vendor
+
+492
+00:29:24,955 --> 00:29:27,965
+Speaker 2:  that know how to service these things and that causes its own problems. And
+
+493
+00:29:28,155 --> 00:29:31,405
+Speaker 2:  it's, it's a tough thing, but it feels like, I, I wonder
+
+494
+00:29:32,065 --> 00:29:36,005
+Speaker 2:  if this moment ends up being a kind of a blip on the radar or if
+
+495
+00:29:36,625 --> 00:29:39,565
+Speaker 2:  people start to talk seriously about like, okay, how do we make these things
+
+496
+00:29:39,995 --> 00:29:42,965
+Speaker 2:  work the way that we need them to going forward? And I have no idea what
+
+497
+00:29:42,965 --> 00:29:44,885
+Speaker 2:  that'll look like, but I think it'll be fascinating to watch. And,
+
+498
+00:29:44,885 --> 00:29:47,765
+Speaker 4:  And the fragility of this situation just reminds me of like, when I used
+
+499
+00:29:47,765 --> 00:29:51,725
+Speaker 4:  to be an IT admin, we, we literally had like a ticker that would go
+
+500
+00:29:51,785 --> 00:29:55,725
+Speaker 4:  around in, in Canary Wolf and it was powered by spreadsheet, an Excel
+
+501
+00:29:55,725 --> 00:29:59,125
+Speaker 4:  spreadsheet, and I'd input data into it myself and maintain it. And if I
+
+502
+00:29:59,325 --> 00:30:02,165
+Speaker 4:  put in something wrong, it would crash the whole ticket. It'd be like flashing
+
+503
+00:30:02,165 --> 00:30:06,005
+Speaker 4:  and going crazy. Like that's just, you know, that's just like
+
+504
+00:30:06,005 --> 00:30:09,925
+Speaker 4:  the perfect example of how you see this stuff out in the world, like the
+
+505
+00:30:09,925 --> 00:30:13,805
+Speaker 4:  screens at airports and you just don't realize that usually it's some
+
+506
+00:30:13,805 --> 00:30:17,565
+Speaker 4:  crappy software. Just the most basic stuff
+
+507
+00:30:17,725 --> 00:30:20,805
+Speaker 4:  powering that thing. Yeah. Probably from like 10, 20 years ago.
+
+508
+00:30:21,325 --> 00:30:25,005
+Speaker 2:  I ju I keep thinking about for whatever reason the, I think it was when
+
+509
+00:30:25,365 --> 00:30:28,205
+Speaker 2:  Oppenheimer was out and there was that picture of somebody posted of the
+
+510
+00:30:28,275 --> 00:30:31,725
+Speaker 2:  IMAX theater with a, with a palm pilot powering it.
+
+511
+00:30:32,425 --> 00:30:35,285
+Speaker 2:  Oh yeah. And we went and found somebody who ran the theater and they were
+
+512
+00:30:35,285 --> 00:30:39,205
+Speaker 2:  like, look, it works. Nobody touches it. It's been there for years. Like
+
+513
+00:30:39,385 --> 00:30:42,125
+Speaker 2:  no one understands it. It's just this weird little thing that keeps the plate
+
+514
+00:30:42,125 --> 00:30:45,165
+Speaker 2:  spinning. So we, we, we keep it running and I feel like yeah, that's good.
+
+515
+00:30:45,195 --> 00:30:48,045
+Speaker 2:  More of the world works like that than any of us would like
+
+516
+00:30:48,345 --> 00:30:51,165
+Speaker 4:  To do. Definitely. Oh yeah. It's all like held to give it by string and that,
+
+517
+00:30:51,275 --> 00:30:53,245
+Speaker 4:  that strings started going apart on Friday.
+
+518
+00:30:53,565 --> 00:30:57,525
+Speaker 2:  Exactly. So it seems like most of the worst of
+
+519
+00:30:57,525 --> 00:31:01,045
+Speaker 2:  this is if not over then kind of on the way to recovery.
+
+520
+00:31:01,595 --> 00:31:04,965
+Speaker 4:  Yeah, I think so. I think 'cause it, if you're an it TM and in a business,
+
+521
+00:31:04,965 --> 00:31:08,765
+Speaker 4:  you're gonna prioritize your, the people and systems that matter the most
+
+522
+00:31:08,855 --> 00:31:10,605
+Speaker 4:  first of all, and get those back up and running and
+
+523
+00:31:10,615 --> 00:31:12,965
+Speaker 2:  Stuff. Yeah. There are a lot of people who worked all weekend, I suspect.
+
+524
+00:31:12,985 --> 00:31:16,965
+Speaker 2:  Yes. So to to all of you it folks listening, we, we we love you.
+
+525
+00:31:17,675 --> 00:31:20,565
+Speaker 4:  Yeah. That's the, that's, that's a tough one, especially when on Friday when
+
+526
+00:31:20,565 --> 00:31:22,565
+Speaker 4:  you think, ah, nice chill Friday, did you feel to the weekend
+
+527
+00:31:22,715 --> 00:31:25,565
+Speaker 2:  What fallout is left here? What are you keeping an eye on this week?
+
+528
+00:31:25,905 --> 00:31:28,805
+Speaker 4:  I'm definitely keeping an eye on the Delta situation because they seem to
+
+529
+00:31:28,805 --> 00:31:31,965
+Speaker 4:  be the most impacted by this in terms of airlines,
+
+530
+00:31:33,005 --> 00:31:36,965
+Speaker 4:  hospitals, because we've seen people like not being able to get their
+
+531
+00:31:36,965 --> 00:31:40,925
+Speaker 4:  appointments and stuff to see 'cause in schools, I guess
+
+532
+00:31:40,945 --> 00:31:44,565
+Speaker 4:  as well though in, certainly in Europe and the uk like a lot of kids are
+
+533
+00:31:44,565 --> 00:31:48,365
+Speaker 4:  outta school now for the summer holidays. So we will see it is
+
+534
+00:31:48,365 --> 00:31:51,125
+Speaker 4:  where there's typically less investment
+
+535
+00:31:52,225 --> 00:31:56,165
+Speaker 4:  in infrastructure where, where it kind of matters like schools and, and,
+
+536
+00:31:56,465 --> 00:31:59,525
+Speaker 4:  and hospitals and stuff where they just don't have the budget. So it'd be
+
+537
+00:31:59,685 --> 00:32:03,005
+Speaker 4:  interesting to see where those go and, and where there's still some sort
+
+538
+00:32:03,005 --> 00:32:06,885
+Speaker 4:  of lingering issues to today and tomorrow, but I feel like we'll hear
+
+539
+00:32:06,885 --> 00:32:10,565
+Speaker 4:  less about this as as the week goes on for sure. It's it's definitely,
+
+540
+00:32:11,075 --> 00:32:12,485
+Speaker 4:  yeah. It's getting better out
+
+541
+00:32:12,485 --> 00:32:15,725
+Speaker 2:  There in some sense. Like thank God it happened on a Friday and not on like
+
+542
+00:32:15,805 --> 00:32:18,805
+Speaker 2:  a Tuesday morning. Yeah. And we would've felt the full effects of this for
+
+543
+00:32:18,805 --> 00:32:21,005
+Speaker 2:  like a couple of days in the middle of the week. Yeah,
+
+544
+00:32:21,055 --> 00:32:24,005
+Speaker 4:  We'll see. Yeah. Yeah, that's good. It's on its way to being, being fixed
+
+545
+00:32:24,005 --> 00:32:24,965
+Speaker 4:  now anyway. That's good.
+
+546
+00:32:24,995 --> 00:32:28,485
+Speaker 2:  Well, yeah, here as always, computers are
+
+547
+00:32:28,485 --> 00:32:29,725
+Speaker 2:  terrifying, fragile things.
+
+548
+00:32:30,385 --> 00:32:33,445
+Speaker 4:  The funniest thing about it though was like one, one of Microsoft's fixes
+
+549
+00:32:33,445 --> 00:32:36,085
+Speaker 4:  was like literally have you turned it off and on 15 times.
+
+550
+00:32:36,945 --> 00:32:37,365
+Speaker 2:  Unreal.
+
+551
+00:32:37,435 --> 00:32:38,685
+Speaker 4:  It's like, it's the meme coming
+
+552
+00:32:38,685 --> 00:32:42,485
+Speaker 2:  True. It really, like, it is astounding how much of the world is just unplug
+
+553
+00:32:42,485 --> 00:32:45,165
+Speaker 2:  it and plug it back in again. And it's, I mean it goes back to the same thing,
+
+554
+00:32:45,165 --> 00:32:48,845
+Speaker 2:  right? Like the these things are are fragile and simple
+
+555
+00:32:49,105 --> 00:32:52,645
+Speaker 2:  in, in so, so many ways that we would Yeah. Like maybe it's scary that they're
+
+556
+00:32:52,645 --> 00:32:54,965
+Speaker 2:  that fragile and that simple. But that is, that is where we are. It definitely
+
+557
+00:32:54,965 --> 00:32:58,285
+Speaker 2:  is. Yeah. Yeah. All right, Tom, thank you as always.
+
+558
+00:32:58,825 --> 00:33:01,765
+Speaker 2:  No worries. Thanks for having me. All right, we gotta take a break and then
+
+559
+00:33:01,765 --> 00:33:05,365
+Speaker 2:  we're gonna come back, talk about fitness, but like in a, in a fun way,
+
+560
+00:33:05,575 --> 00:33:06,285
+Speaker 2:  we'll be right back.
+
+561
+00:35:08,965 --> 00:35:12,905
+Speaker 2:  to exercise more, do better, get in better shape, keep
+
+562
+00:35:12,905 --> 00:35:16,545
+Speaker 2:  track of how you're doing without all of the stuff that feels
+
+563
+00:35:17,385 --> 00:35:21,305
+Speaker 2:  gamified and toxic and like it's always pushing you to do more and
+
+564
+00:35:21,305 --> 00:35:25,225
+Speaker 2:  incentivizing you to go do crazy things when it might hurt you or you're
+
+565
+00:35:25,225 --> 00:35:29,065
+Speaker 2:  sick. Or like, if I just have the Apple Watch yell at me
+
+566
+00:35:29,065 --> 00:35:32,905
+Speaker 2:  for not closing my rings when I'm sick one more time, I'm gonna lose my
+
+567
+00:35:32,905 --> 00:35:36,665
+Speaker 2:  mind. You know what I mean? So to kick off our discussions about the
+
+568
+00:35:36,675 --> 00:35:40,245
+Speaker 2:  Super Chill exercise system, real name pending, we'll see,
+
+569
+00:35:41,085 --> 00:35:45,045
+Speaker 2:  I wanted to talk to the person who made Zombies Run. So v and I called up
+
+570
+00:35:45,045 --> 00:35:48,685
+Speaker 2:  Adrian Hanh, who is a writer and developer and
+
+571
+00:35:48,685 --> 00:35:52,645
+Speaker 2:  storyteller and worked on Zombies Run from the very beginning until
+
+572
+00:35:52,645 --> 00:35:56,285
+Speaker 2:  very recently. He spent more than a decade writing this game.
+
+573
+00:35:56,465 --> 00:36:00,045
+Speaker 2:  And Zombies Run if you've never Played It is, I don't know how
+
+574
+00:36:00,305 --> 00:36:04,005
+Speaker 2:  to describe it exactly, it's an exercise fitness app
+
+575
+00:36:04,555 --> 00:36:08,205
+Speaker 2:  that is also narrative. So when you're running,
+
+576
+00:36:08,755 --> 00:36:12,005
+Speaker 2:  it's tracking you and it's aware of what you're doing, but it weaves a story
+
+577
+00:36:12,105 --> 00:36:16,085
+Speaker 2:  in, basically it's a zombie apocalypse. You're in a place called Able
+
+578
+00:36:16,085 --> 00:36:19,845
+Speaker 2:  Township and you are a runner. That's your job, right? You,
+
+579
+00:36:19,905 --> 00:36:23,885
+Speaker 2:  you go out into the barren wasteland of the post
+
+580
+00:36:23,915 --> 00:36:27,845
+Speaker 2:  apocalyptic world and you do quests, you have to go find something or
+
+581
+00:36:27,845 --> 00:36:30,685
+Speaker 2:  you have to go rescue somebody or you have to go to another place and learn
+
+582
+00:36:30,685 --> 00:36:33,965
+Speaker 2:  about something. And it's all incentivizing you to run
+
+583
+00:36:34,545 --> 00:36:38,445
+Speaker 2:  and be active and be out. But the idea is to make
+
+584
+00:36:38,445 --> 00:36:42,325
+Speaker 2:  it fun with story, right? You're, you're picking it up every morning to see
+
+585
+00:36:42,325 --> 00:36:45,685
+Speaker 2:  what happens next. Not to not break some streak.
+
+586
+00:36:46,075 --> 00:36:49,605
+Speaker 2:  This app worked really well for me. Just having a thing that
+
+587
+00:36:49,865 --> 00:36:53,565
+Speaker 2:  pushed me out, that gave me something fun to do while I was running. Sometimes
+
+588
+00:36:53,575 --> 00:36:57,125
+Speaker 2:  it'll just be like, oh no zombies and you have to run faster. It was awesome.
+
+589
+00:36:57,435 --> 00:37:01,405
+Speaker 2:  Like, I've always been a a person who likes sports more than I like
+
+590
+00:37:01,755 --> 00:37:04,845
+Speaker 2:  just running because in sports, like there's something to do. I have a purpose
+
+591
+00:37:04,905 --> 00:37:08,365
+Speaker 2:  for why I'm moving fast. This felt like that. and it,
+
+592
+00:37:08,715 --> 00:37:12,685
+Speaker 2:  it's kind of like immersive in the way that listening to podcasts is
+
+593
+00:37:12,685 --> 00:37:16,325
+Speaker 2:  immersive. It sort of distracts you from running while also having you run
+
+594
+00:37:16,385 --> 00:37:19,885
+Speaker 2:  The story is great. You get to know the characters, there's just something
+
+595
+00:37:20,725 --> 00:37:23,365
+Speaker 2:  terrific about this game, but I haven't really seen replicated elsewhere.
+
+596
+00:37:23,625 --> 00:37:27,525
+Speaker 2:  And Adrian was one of the people who built this thing from the very beginning.
+
+597
+00:37:27,825 --> 00:37:31,725
+Speaker 2:  So v and I called up Adrian to get a sense of how a game
+
+598
+00:37:31,725 --> 00:37:35,485
+Speaker 2:  like this comes together, why it's hard to do and
+
+599
+00:37:36,155 --> 00:37:39,485
+Speaker 2:  what it took to really pull it off. And we just started at the beginning.
+
+600
+00:37:39,785 --> 00:37:43,245
+Speaker 2:  We asked him basically, you know, over a decade ago,
+
+601
+00:37:43,625 --> 00:37:47,525
+Speaker 2:  you're thinking about building a fitness game. This is like in the early
+
+602
+00:37:47,555 --> 00:37:50,405
+Speaker 2:  days of the iPhone. Where do you even start?
+
+603
+00:37:51,465 --> 00:37:55,165
+Speaker 5:  I'm Adrian Hahn. I ran Six Start and
+
+604
+00:37:55,165 --> 00:37:58,925
+Speaker 5:  Co-founded it for 17 years. And so we made Zombies Run.
+
+605
+00:37:59,045 --> 00:38:02,885
+Speaker 5:  I left about three months ago, four months ago. So that's
+
+606
+00:38:03,125 --> 00:38:05,805
+Speaker 5:  probably the most well-known thing that I've done,
+
+607
+00:38:06,875 --> 00:38:10,685
+Speaker 5:  made Zombies Run and also wrote a book critiquing gamification
+
+608
+00:38:10,825 --> 00:38:14,685
+Speaker 5:  called You've Been Played. So that's fun. So
+
+609
+00:38:14,905 --> 00:38:18,405
+Speaker 5:  you know, when we came up with the idea for Zombies Run, it was myself and
+
+610
+00:38:18,765 --> 00:38:22,205
+Speaker 5:  novelist, Naomi Alderman. And I had just
+
+611
+00:38:22,555 --> 00:38:26,205
+Speaker 5:  kind of like really gotten into running at that time. And I had a
+
+612
+00:38:26,305 --> 00:38:30,125
+Speaker 5:  Garmin Forerunner 2 0 5, 2 0 1. So if, if you
+
+613
+00:38:30,445 --> 00:38:33,845
+Speaker 5:  remember this, this is a massive, like chunky, it's not a watch. I mean it's
+
+614
+00:38:33,845 --> 00:38:37,725
+Speaker 5:  like a forearm bracelet and it could
+
+615
+00:38:37,725 --> 00:38:41,685
+Speaker 5:  track you by GPS. And I got this as a kind of way to
+
+616
+00:38:41,685 --> 00:38:45,405
+Speaker 5:  make myself run more. and it actually did work because it was cool
+
+617
+00:38:45,505 --> 00:38:49,205
+Speaker 5:  to see like numbers and to see that I was getting better every,
+
+618
+00:38:49,205 --> 00:38:53,005
+Speaker 5:  every day, every time I ran. And it had this thing called,
+
+619
+00:38:53,285 --> 00:38:57,205
+Speaker 5:  I think it was like the virtual racer or virtual runner, which is like
+
+620
+00:38:57,205 --> 00:39:00,405
+Speaker 5:  what it sounds like, it's like ghost racing in, in Mario Kart where you're
+
+621
+00:39:00,405 --> 00:39:04,285
+Speaker 5:  racing against yourself. So You can go and go out for a run and it will
+
+622
+00:39:04,285 --> 00:39:07,485
+Speaker 5:  show you yourself versus yesterday's self.
+
+623
+00:39:08,105 --> 00:39:11,805
+Speaker 5:  and it was kind of really cool to see myself like in this very
+
+624
+00:39:11,975 --> 00:39:15,805
+Speaker 5:  proto gamification thing, getting better each time. But
+
+625
+00:39:15,805 --> 00:39:19,445
+Speaker 5:  then there was a moment where I stopped getting better and I started getting
+
+626
+00:39:19,445 --> 00:39:23,365
+Speaker 5:  worse and like my past self started beating myself. And I
+
+627
+00:39:23,365 --> 00:39:26,845
+Speaker 5:  was like, this sucks. Like this is not motivating anymore because
+
+628
+00:39:27,715 --> 00:39:31,165
+Speaker 5:  that only works on the way up. Like it, it doesn't work on the way down or
+
+629
+00:39:31,165 --> 00:39:35,085
+Speaker 5:  when you plateau or if you're ill. And so then
+
+630
+00:39:35,085 --> 00:39:38,765
+Speaker 5:  the iPhone came out and then the app store came out and we had Runkeeper,
+
+631
+00:39:39,535 --> 00:39:43,485
+Speaker 5:  there were even some smartphone running games, actually there was one
+
+632
+00:39:43,485 --> 00:39:46,565
+Speaker 5:  called Cash and Seek made by Korean
+
+633
+00:39:47,075 --> 00:39:50,885
+Speaker 5:  developer, I think. And the ideas that you'd run around your neighborhood
+
+634
+00:39:50,905 --> 00:39:53,485
+Speaker 5:  and you'd see a map and there'd be like little treasure there and it was
+
+635
+00:39:53,685 --> 00:39:56,605
+Speaker 5:  actually like multiplayer 'cause other people could leave treasure for you.
+
+636
+00:39:57,345 --> 00:40:00,925
+Speaker 5:  And I started playing that and I was like, I actually just don't want to
+
+637
+00:40:00,925 --> 00:40:04,325
+Speaker 5:  run to these places. It's telling me to run to 'cause it's like not very
+
+638
+00:40:04,475 --> 00:40:06,365
+Speaker 5:  safe or it, it doesn't look nice.
+
+639
+00:40:08,425 --> 00:40:11,645
+Speaker 5:  And so we started thinking about like, well how could we make
+
+640
+00:40:12,685 --> 00:40:16,645
+Speaker 5:  a good running game because people are trying to make these running
+
+641
+00:40:16,645 --> 00:40:20,485
+Speaker 5:  games. I mean, one of the problems of a lot of them actually
+
+642
+00:40:20,825 --> 00:40:24,525
+Speaker 5:  was you have to look at the screen when you're running, which I think
+
+643
+00:40:24,745 --> 00:40:28,685
+Speaker 5:  for people who have not run before, that
+
+644
+00:40:28,685 --> 00:40:32,445
+Speaker 5:  sounds cool. Like, that sounds like a good idea. And if you've ever run
+
+645
+00:40:32,755 --> 00:40:36,605
+Speaker 5:  then you, you're like, this is not just terrible from a kind of safety point
+
+646
+00:40:36,605 --> 00:40:39,685
+Speaker 5:  of view, but also if you stop every like two minutes to look at your phone
+
+647
+00:40:39,865 --> 00:40:43,285
+Speaker 5:  and then start running again, like, how are you really gonna do that? Like
+
+648
+00:40:43,285 --> 00:40:47,165
+Speaker 5:  that, that's not really practical. So the idea kind
+
+649
+00:40:47,165 --> 00:40:50,805
+Speaker 5:  of came from, look, we have this amazing piece of technology, which is like
+
+650
+00:40:50,845 --> 00:40:54,605
+Speaker 5:  a sort of like handheld computer, which is brand new really. It's got
+
+651
+00:40:54,805 --> 00:40:58,605
+Speaker 5:  internet connection, it's got GPS, it's got sound, people
+
+652
+00:40:58,605 --> 00:41:02,565
+Speaker 5:  are used to using their headphones. What can we do of this to make a
+
+653
+00:41:02,565 --> 00:41:05,805
+Speaker 5:  game? And so that's a lot of constraints, but it was also like really interesting
+
+654
+00:41:05,805 --> 00:41:07,125
+Speaker 5:  from a game design point of view.
+
+655
+00:41:07,475 --> 00:41:10,605
+Speaker 2:  Well, and I think somewhere in there you're also having to make a lot of
+
+656
+00:41:10,725 --> 00:41:14,245
+Speaker 2:  decisions about like the mechanics of the game, right? Because you're, you're
+
+657
+00:41:14,245 --> 00:41:16,525
+Speaker 2:  talking about like, I think about all those early games and there were, or
+
+658
+00:41:16,525 --> 00:41:20,405
+Speaker 2:  all those early running apps and a lot of them were just like, track your
+
+659
+00:41:20,505 --> 00:41:23,045
+Speaker 2:  run, right? Like there's a, there's a subset of people who just like wanna
+
+660
+00:41:23,045 --> 00:41:25,565
+Speaker 2:  know how far they run. But then like you're saying, there were others that
+
+661
+00:41:25,565 --> 00:41:28,965
+Speaker 2:  were starting to play with this. Like, how do we get you
+
+662
+00:41:29,425 --> 00:41:32,605
+Speaker 2:  to run more? And this is when everybody was starting to experiment with all
+
+663
+00:41:32,605 --> 00:41:35,605
+Speaker 2:  these new ways of, ways of gamification and leaderboards and all these different
+
+664
+00:41:35,605 --> 00:41:39,445
+Speaker 2:  things. And I feel like from the very beginning you kind of went the other
+
+665
+00:41:39,475 --> 00:41:40,885
+Speaker 2:  direction of a lot of that
+
+666
+00:41:40,885 --> 00:41:44,765
+Speaker 5:  Stuff. Yeah, the, the, there was a lot of, you know, to the extent that
+
+667
+00:41:44,765 --> 00:41:47,885
+Speaker 5:  they really thought about motivation, I think it was basically competition,
+
+668
+00:41:48,015 --> 00:41:51,965
+Speaker 5:  right? So it was like, we have a leaderboard and can you get to the top
+
+669
+00:41:51,965 --> 00:41:55,005
+Speaker 5:  of the leaderboard? So like I was using the Fitbit at the time and everyone
+
+670
+00:41:55,005 --> 00:41:58,325
+Speaker 5:  was trying to get to the top of the leaderboard and then the leaderboard
+
+671
+00:41:58,325 --> 00:42:01,525
+Speaker 5:  would never move each week because you'd have the people who like are in
+
+672
+00:42:01,525 --> 00:42:04,285
+Speaker 5:  Europe and they walk everywhere and you'd have the people in America at the
+
+673
+00:42:04,285 --> 00:42:06,845
+Speaker 5:  bottom who drive everywhere and, and they don't, they don't climb. And so
+
+674
+00:42:06,845 --> 00:42:09,605
+Speaker 5:  it's just like, this is not really motivating anyone. Actually,
+
+675
+00:42:11,195 --> 00:42:14,765
+Speaker 5:  another aspect of that kind of parallel to that, there'd be these
+
+676
+00:42:15,085 --> 00:42:18,405
+Speaker 5:  territory capture games where you'd have like, you divide the world up into
+
+677
+00:42:18,405 --> 00:42:22,165
+Speaker 5:  hexagons or squares and it'd be like, can you go and capture enough
+
+678
+00:42:22,165 --> 00:42:25,485
+Speaker 5:  space? And that's kind of like a leaderboard where it's just whoever runs
+
+679
+00:42:25,545 --> 00:42:29,085
+Speaker 5:  the most, you know, or has the most free time wins.
+
+680
+00:42:29,865 --> 00:42:33,725
+Speaker 5:  And again, for some people that's really motivating. I don't really
+
+681
+00:42:33,725 --> 00:42:37,445
+Speaker 5:  think there was anything beyond that, not even kind of exploration.
+
+682
+00:42:38,105 --> 00:42:41,805
+Speaker 5:  And so we want to do something completely different, which was
+
+683
+00:42:42,485 --> 00:42:46,445
+Speaker 5:  storytelling basically. It was like role play, which I didn't think had been
+
+684
+00:42:46,445 --> 00:42:50,325
+Speaker 5:  done before in, in that aspect, but it really came
+
+685
+00:42:50,715 --> 00:42:54,325
+Speaker 5:  from the idea that people were already like listening to podcasts and
+
+686
+00:42:54,325 --> 00:42:57,085
+Speaker 5:  audiobooks when they're running. So we weren't asking people to do anything
+
+687
+00:42:57,085 --> 00:43:00,885
+Speaker 5:  new. And I think I still have this idea for a game,
+
+688
+00:43:00,985 --> 00:43:04,925
+Speaker 5:  so feel free to steal it if you want. Which was, there's a, the
+
+689
+00:43:04,925 --> 00:43:08,845
+Speaker 5:  bit in the born ultimatum when Jason Bourne
+
+690
+00:43:08,845 --> 00:43:12,605
+Speaker 5:  is guiding this person through Waterloo Station and
+
+691
+00:43:12,635 --> 00:43:16,045
+Speaker 5:  he's like, okay, turn right now, turn left here. Okay, pause for five seconds
+
+692
+00:43:16,185 --> 00:43:19,765
+Speaker 5:  and Bne goes and murders him. And I'm like, oh, that's kind of like a really,
+
+693
+00:43:19,765 --> 00:43:23,605
+Speaker 5:  that's a, that's a very like interesting like dramatic thing, which
+
+694
+00:43:23,605 --> 00:43:27,445
+Speaker 5:  is just entirely voice-based basically. And it's like, oh,
+
+695
+00:43:27,585 --> 00:43:31,565
+Speaker 5:  we could do something like that where, where you have this audio story, which
+
+696
+00:43:31,565 --> 00:43:35,445
+Speaker 5:  is telling you basically to run. And when you're
+
+697
+00:43:35,445 --> 00:43:38,405
+Speaker 5:  running crucially, you don't look at the screen, you don't tap on anything.
+
+698
+00:43:38,405 --> 00:43:42,365
+Speaker 5:  So it's not, it's not really interactive game. You're
+
+699
+00:43:42,365 --> 00:43:46,285
+Speaker 5:  just choosing or, or able to run fast or slower. And the
+
+700
+00:43:46,285 --> 00:43:50,165
+Speaker 5:  story and the game kind of adapts to that. The zombies came into
+
+701
+00:43:50,165 --> 00:43:51,325
+Speaker 5:  it because
+
+702
+00:43:53,015 --> 00:43:56,885
+Speaker 5:  Naomi, my co-creator, she had just joined this running club
+
+703
+00:43:57,385 --> 00:44:01,125
+Speaker 5:  and they'd said, why do you want to run? And some people wanted to lose weight
+
+704
+00:44:01,425 --> 00:44:05,165
+Speaker 5:  and other people wanted to get fit. And one woman said she
+
+705
+00:44:05,165 --> 00:44:08,845
+Speaker 5:  wanted to survive the zombie apocalypse. And
+
+706
+00:44:09,345 --> 00:44:13,045
+Speaker 5:  and I was like, oh yeah, that's funny. But then I was kind of like sick of
+
+707
+00:44:13,155 --> 00:44:16,845
+Speaker 5:  zombies at that point. This was like 2011, 2012, and
+
+708
+00:44:16,945 --> 00:44:20,445
+Speaker 5:  we had the Walking Dead and we had, you know,
+
+709
+00:44:20,705 --> 00:44:24,405
+Speaker 5:  28 days later and I kind of thought zombies were over, which, which was
+
+710
+00:44:24,415 --> 00:44:27,925
+Speaker 5:  wrong. They're, they're still here. But from a
+
+711
+00:44:27,925 --> 00:44:30,845
+Speaker 5:  storytelling point of view and from a gameplay point of view, especially
+
+712
+00:44:30,865 --> 00:44:34,605
+Speaker 5:  for a running game, that there's actually really nothing better that we found
+
+713
+00:44:34,715 --> 00:44:38,525
+Speaker 5:  because zombies, everyone knows how they work. You, you
+
+714
+00:44:38,525 --> 00:44:41,765
+Speaker 5:  just have to kind of move faster than 'em. But also the great thing about
+
+715
+00:44:41,765 --> 00:44:45,285
+Speaker 5:  zombies is that they, most zombies don't actually run. So,
+
+716
+00:44:45,905 --> 00:44:49,725
+Speaker 5:  you know, your classic zombies, your non 28 days later zombies,
+
+717
+00:44:49,835 --> 00:44:53,765
+Speaker 5:  they just walk or they shamble. And so that was kind of a
+
+718
+00:44:53,765 --> 00:44:57,445
+Speaker 5:  really clear thing for us, which was you don't actually have to run in
+
+719
+00:44:57,445 --> 00:45:01,285
+Speaker 5:  zombies run, You can just walk if you want and the game will
+
+720
+00:45:01,305 --> 00:45:05,285
+Speaker 5:  not give you a hard time for that. Like there is nothing gated in
+
+721
+00:45:05,475 --> 00:45:09,205
+Speaker 5:  zombies run based on your distance or your pace.
+
+722
+00:45:09,745 --> 00:45:13,525
+Speaker 5:  So if you even want to do it sitting on a couch, You can do that. Like,
+
+723
+00:45:13,585 --> 00:45:16,365
+Speaker 5:  and some people do it like doing chores or whatever, and then most people
+
+724
+00:45:16,385 --> 00:45:20,165
+Speaker 5:  do run or jog. And so the crucial thing there was
+
+725
+00:45:20,335 --> 00:45:24,245
+Speaker 5:  we're not measuring your performance. Like You can measure your performance.
+
+726
+00:45:24,345 --> 00:45:27,845
+Speaker 5:  We give you stats and things like that, but actually we're not rewarding
+
+727
+00:45:27,845 --> 00:45:31,805
+Speaker 5:  that in a way what we're doing is we're saying we're just gonna make
+
+728
+00:45:31,805 --> 00:45:35,045
+Speaker 5:  it more fun. Like, you know, we don't wanna make it like we, we don't wanna
+
+729
+00:45:35,045 --> 00:45:38,325
+Speaker 5:  reward you for doing a run. We want you to be rewarded while running,
+
+730
+00:45:38,735 --> 00:45:42,645
+Speaker 5:  which is a really important difference. And I think gets
+
+731
+00:45:42,645 --> 00:45:46,605
+Speaker 5:  to like what makes for good gamification. Like good gamification
+
+732
+00:45:46,615 --> 00:45:50,445
+Speaker 5:  means where you are having fun while you're doing it, not after you've done
+
+733
+00:45:50,445 --> 00:45:52,045
+Speaker 5:  it, which is really hard to do.
+
+734
+00:45:52,605 --> 00:45:56,125
+Speaker 6:  I actually, this is my, my running journey began with
+
+735
+00:45:56,235 --> 00:46:00,165
+Speaker 6:  Zombies Run. Oh wow. 'cause I, I, you know, I've been running for a
+
+736
+00:46:00,165 --> 00:46:04,045
+Speaker 6:  long time, but I was not a natural runner in
+
+737
+00:46:04,105 --> 00:46:07,845
+Speaker 6:  any form. I was the person who is very much like my natural
+
+738
+00:46:07,875 --> 00:46:11,805
+Speaker 6:  form is a couch potato. You could, you would have to be chasing
+
+739
+00:46:11,905 --> 00:46:15,845
+Speaker 6:  me basically for me to run. But it was a, it was a type of thing where
+
+740
+00:46:15,845 --> 00:46:19,805
+Speaker 6:  I was like, oh, I have like a metabolic thing I need to actually
+
+741
+00:46:20,785 --> 00:46:24,565
+Speaker 6:  run. Running is one of the cheapest ways that You can exercise, but it is
+
+742
+00:46:24,575 --> 00:46:28,045
+Speaker 6:  quite miserable when you're starting out. Yeah. So
+
+743
+00:46:28,355 --> 00:46:31,605
+Speaker 6:  like, I think the thing that really resonates with me here in terms of like,
+
+744
+00:46:31,605 --> 00:46:35,485
+Speaker 6:  just talking about the chillness of things is like actually having fun
+
+745
+00:46:35,615 --> 00:46:39,445
+Speaker 6:  while you exercise. Because I think with fitness tech and like with the
+
+746
+00:46:39,445 --> 00:46:43,165
+Speaker 6:  gamification of it, I don't know why, but we just decide to
+
+747
+00:46:43,165 --> 00:46:46,845
+Speaker 6:  invite so much anxiety into the process. Like leaderboard,
+
+748
+00:46:47,345 --> 00:46:51,245
+Speaker 6:  oh, well I feel terrible about myself because I'm not number one. And then
+
+749
+00:46:51,245 --> 00:46:55,165
+Speaker 6:  if I am number one, I have this intense pressure to stay number one.
+
+750
+00:46:55,545 --> 00:46:59,525
+Speaker 6:  And so then that's, that's not fun anymore. I've turned the, the exercise
+
+751
+00:46:59,755 --> 00:47:03,485
+Speaker 6:  into work. And then also just as you said, like it really kind of
+
+752
+00:47:03,485 --> 00:47:07,285
+Speaker 6:  resonated with the whole idea of the virtual runner and you're
+
+753
+00:47:07,285 --> 00:47:10,925
+Speaker 6:  running against your past self who is better than you? I am at that stage
+
+754
+00:47:10,925 --> 00:47:14,045
+Speaker 6:  because if you do it long enough, if you do it long enough, you are going
+
+755
+00:47:14,045 --> 00:47:18,005
+Speaker 6:  to plateau. You are gonna have a slump. You're just not, you're just
+
+756
+00:47:18,505 --> 00:47:22,365
+Speaker 6:  you age, you know, as you get older, you're not gonna be quite as fast
+
+757
+00:47:22,385 --> 00:47:26,365
+Speaker 6:  as you were when you were younger. So I think with the game
+
+758
+00:47:26,505 --> 00:47:29,725
+Speaker 6:  you want people to keep playing. So how, how, like what were some of the
+
+759
+00:47:29,725 --> 00:47:33,165
+Speaker 6:  things that you tried that you just realized was like, oh,
+
+760
+00:47:34,075 --> 00:47:37,805
+Speaker 6:  this is actually making the game less fun, or Oh this is making the game
+
+761
+00:47:37,835 --> 00:47:38,365
+Speaker 6:  more fun?
+
+762
+00:47:39,435 --> 00:47:43,285
+Speaker 5:  Yeah, I mean, you know, people come into it with different like motivations
+
+763
+00:47:43,545 --> 00:47:47,525
+Speaker 5:  and different expectations. So we did this Kickstarter right
+
+764
+00:47:47,605 --> 00:47:51,245
+Speaker 5:  at the beginning and there were kind of two strands to it. One was there's
+
+765
+00:47:51,245 --> 00:47:54,645
+Speaker 5:  gonna be an amazing story by an amazing storyteller. And
+
+766
+00:47:55,425 --> 00:47:59,205
+Speaker 5:  for a lot of people, possibly even most people, that's like the big motivation,
+
+767
+00:47:59,215 --> 00:48:03,125
+Speaker 5:  which is I go out for a run. It, it's kind of told like in
+
+768
+00:48:03,135 --> 00:48:07,085
+Speaker 5:  first person. So they're talking to you as if you are like, you know, a real
+
+769
+00:48:07,085 --> 00:48:10,725
+Speaker 5:  person. It's not like an audio book. and it has amazing characters.
+
+770
+00:48:10,795 --> 00:48:14,285
+Speaker 5:  It's got like cliffhangers at the end of every mission. So, so you kind of
+
+771
+00:48:14,285 --> 00:48:18,005
+Speaker 5:  want to know what happens next. And for us that's a big thing
+
+772
+00:48:18,095 --> 00:48:22,045
+Speaker 5:  where it was always, you know, we want you to get up on a rainy
+
+773
+00:48:22,045 --> 00:48:25,845
+Speaker 5:  Sunday morning and actually be excited to find out what's gonna happen next
+
+774
+00:48:25,845 --> 00:48:29,485
+Speaker 5:  rather than be like, is there any excuse I can use not to go to rock.
+
+775
+00:48:30,025 --> 00:48:33,365
+Speaker 2:  So I just, I just wanna push back on one piece of that that I think is really
+
+776
+00:48:33,565 --> 00:48:36,805
+Speaker 2:  interesting that you said, which is the, the idea that You can like, it,
+
+777
+00:48:36,805 --> 00:48:39,325
+Speaker 2:  it, you could just sit on your couch and play the game and it would still
+
+778
+00:48:39,325 --> 00:48:42,805
+Speaker 2:  be very fun, right? Yeah. I think that there's, there's probably some truth
+
+779
+00:48:42,825 --> 00:48:46,765
+Speaker 2:  to that, but also if, if that were true, you would've just made a game
+
+780
+00:48:46,765 --> 00:48:49,285
+Speaker 2:  that You can play sitting on your couch, right? Yeah. So, and, and part of
+
+781
+00:48:49,285 --> 00:48:52,765
+Speaker 2:  the reason I think this is the thing v and I keep talking about is like gamification.
+
+782
+00:48:52,765 --> 00:48:56,325
+Speaker 2:  When it's like monopoly go trying to get your money. I have pretty
+
+783
+00:48:56,485 --> 00:49:00,005
+Speaker 2:  unconflicted problematic feelings about, but this one is so different, right?
+
+784
+00:49:00,005 --> 00:49:03,845
+Speaker 2:  Because the thing that you're doing, creepy things to incentivize
+
+785
+00:49:03,845 --> 00:49:07,485
+Speaker 2:  people to do is like ostensibly a good and healthy thing. And so
+
+786
+00:49:07,705 --> 00:49:10,405
+Speaker 2:  you're in a position of saying like, okay, we built this cool game that people
+
+787
+00:49:10,475 --> 00:49:13,565
+Speaker 2:  like because it's a game, but they also like it because it makes them exercise
+
+788
+00:49:13,565 --> 00:49:15,845
+Speaker 2:  and because it makes them do a thing that is good for them and it makes that
+
+789
+00:49:15,845 --> 00:49:19,805
+Speaker 2:  thing more bearable. Like, does that change the balance of just
+
+790
+00:49:19,805 --> 00:49:23,685
+Speaker 2:  like if the goal was to just get more micro transactions from people,
+
+791
+00:49:23,985 --> 00:49:27,125
+Speaker 2:  you would play it one way, but when it's like, okay, we actually want to
+
+792
+00:49:27,635 --> 00:49:31,085
+Speaker 2:  have you do something that in moderation even at greater
+
+793
+00:49:31,685 --> 00:49:34,325
+Speaker 2:  intervals than you're currently doing, it is a good thing. Like does that
+
+794
+00:49:34,325 --> 00:49:35,365
+Speaker 2:  change the way you think about that balance?
+
+795
+00:49:36,395 --> 00:49:40,165
+Speaker 5:  Yeah, I mean I, I think that, you know, by, by trying to
+
+796
+00:49:40,165 --> 00:49:43,965
+Speaker 5:  design it in the way we did, we left money on the table. Like, you know,
+
+797
+00:49:43,965 --> 00:49:47,445
+Speaker 5:  we could have had more engagement if we sent people notifications saying,
+
+798
+00:49:47,445 --> 00:49:50,845
+Speaker 5:  you're gonna, everyone in your base is gonna die if you don't give a run
+
+799
+00:49:51,005 --> 00:49:53,525
+Speaker 5:  tomorrow, right? I mean, that, that's what like most games that have done,
+
+800
+00:49:53,665 --> 00:49:57,365
+Speaker 5:  you know, or we would say like if you go and do like a three mile run now,
+
+801
+00:49:57,955 --> 00:50:01,925
+Speaker 5:  then you'll get double like, you know, supplies, right? Duolingo style
+
+802
+00:50:01,925 --> 00:50:05,205
+Speaker 5:  stuff and, and that all this stuff is like really well documented and it
+
+803
+00:50:05,205 --> 00:50:08,685
+Speaker 5:  does work like in terms of increasing engagement and, and
+
+804
+00:50:08,685 --> 00:50:12,485
+Speaker 5:  conversions. But I think that that's the
+
+805
+00:50:12,485 --> 00:50:15,765
+Speaker 5:  nice thing about owning your company and having, having a small company is
+
+806
+00:50:15,765 --> 00:50:19,365
+Speaker 5:  that You can just say, we're not gonna do that because we don't think that's
+
+807
+00:50:19,365 --> 00:50:23,325
+Speaker 5:  gonna be a good experience for people in the long term. So we
+
+808
+00:50:23,325 --> 00:50:26,765
+Speaker 5:  would get people saying, oh, but like, can't people just cheat? And it's
+
+809
+00:50:26,765 --> 00:50:29,405
+Speaker 5:  like, yeah, people can cheat about anything. Like people can cheat in dance,
+
+810
+00:50:29,405 --> 00:50:32,725
+Speaker 5:  dance revolution, right? You can cheat a guitar hero, You can cheat all these
+
+811
+00:50:32,725 --> 00:50:35,765
+Speaker 5:  things. And it's like, if you're gonna cheat a dance dance revolution, don't
+
+812
+00:50:35,765 --> 00:50:39,045
+Speaker 5:  play dance dance revolution. Like no one's making you do that. It doesn't
+
+813
+00:50:39,045 --> 00:50:42,845
+Speaker 5:  really bother me as a designer because it just shows
+
+814
+00:50:42,845 --> 00:50:46,165
+Speaker 5:  that you, you kind of need to do it a little bit differently. And, and I
+
+815
+00:50:46,165 --> 00:50:49,485
+Speaker 5:  think that, you know, the other thing is I see it as a kind of accessibility
+
+816
+00:50:49,555 --> 00:50:52,485
+Speaker 5:  mode mostly, rather than like, people cheating. So,
+
+817
+00:50:53,385 --> 00:50:57,205
+Speaker 5:  you know, we don't know what situations people are in in terms of their ability
+
+818
+00:50:57,265 --> 00:51:00,485
+Speaker 5:  to move. We call it like simulate running when we do this.
+
+819
+00:51:01,105 --> 00:51:02,965
+Speaker 5:  It might be that you
+
+820
+00:51:04,495 --> 00:51:08,005
+Speaker 5:  can't use your legs, you know, then you're going to do another exercise while
+
+821
+00:51:08,005 --> 00:51:11,565
+Speaker 5:  you're doing this. And so we've had, you know, people
+
+822
+00:51:11,945 --> 00:51:15,805
+Speaker 5:  say, you know, they'd like it that we offer these options. So having
+
+823
+00:51:15,805 --> 00:51:19,125
+Speaker 5:  said that, like most people do actually run. So, so, so it's fine.
+
+824
+00:51:19,915 --> 00:51:23,525
+Speaker 6:  It's a, it's a really interesting thing to me because I,
+
+825
+00:51:23,985 --> 00:51:27,765
+Speaker 6:  it really just hits home with the whole one size does not fit all, but
+
+826
+00:51:27,765 --> 00:51:31,165
+Speaker 6:  especially with fitness, because we all have different capabilities, as you
+
+827
+00:51:31,165 --> 00:51:34,965
+Speaker 6:  mentioned with our bodies. We have different skill levels, different circumstances,
+
+828
+00:51:35,225 --> 00:51:38,645
+Speaker 6:  but I find a lot of times I burn out when testing
+
+829
+00:51:38,645 --> 00:51:42,565
+Speaker 6:  wearables and fitness tech because they are just
+
+830
+00:51:42,875 --> 00:51:46,725
+Speaker 6:  kind of pushing you towards more. and it sometimes does feel
+
+831
+00:51:46,725 --> 00:51:49,725
+Speaker 6:  like part of this is late stage capitalism. Yeah. Because they need to make
+
+832
+00:51:49,725 --> 00:51:53,045
+Speaker 6:  money off of this thing and they need to keep user bases. So they need to
+
+833
+00:51:53,045 --> 00:51:57,005
+Speaker 6:  get us addicted to these platforms, like keep your streaks going. Sometimes
+
+834
+00:51:57,005 --> 00:52:00,925
+Speaker 6:  it really does feel like streaks can be insidious just
+
+835
+00:52:00,925 --> 00:52:04,765
+Speaker 6:  because like, oh, I know you're getting me addicted to this, but actually
+
+836
+00:52:04,765 --> 00:52:08,205
+Speaker 6:  what my body is saying is I need to rest. I actually,
+
+837
+00:52:08,745 --> 00:52:12,285
+Speaker 6:  so like, it's a tricky thing, right? Because if you wanna stay
+
+838
+00:52:12,385 --> 00:52:16,285
+Speaker 6:  injury free, you can't constantly do more. You do have to
+
+839
+00:52:16,285 --> 00:52:20,085
+Speaker 6:  take days off and that's good for you as well.
+
+840
+00:52:20,825 --> 00:52:24,045
+Speaker 6:  So I think the big metric with
+
+841
+00:52:24,045 --> 00:52:27,885
+Speaker 6:  gamification and fitness is streaks. And
+
+842
+00:52:27,925 --> 00:52:31,645
+Speaker 6:  I was just curious like what your thought process was
+
+843
+00:52:31,645 --> 00:52:35,565
+Speaker 6:  towards streaks and like, do you have feelings towards it? I hate them
+
+844
+00:52:35,815 --> 00:52:36,485
+Speaker 6:  personally.
+
+845
+00:52:37,075 --> 00:52:41,045
+Speaker 5:  Just look, I, I hate them. I don't like them. I, I
+
+846
+00:52:41,045 --> 00:52:44,805
+Speaker 5:  mean, you know, you, you will see people talk about how it
+
+847
+00:52:45,085 --> 00:52:48,245
+Speaker 5:  motivates 'em to sort of go and ha if they're doing like nano rmo national,
+
+848
+00:52:48,305 --> 00:52:51,325
+Speaker 5:  you know, novel writing month, it, it's like nice to have a streak where
+
+849
+00:52:51,325 --> 00:52:55,045
+Speaker 5:  you're writing for 30 days in a row, right? Or you've got
+
+850
+00:52:55,165 --> 00:52:58,565
+Speaker 5:  like a calendar and you like mark it with an X every time you, you know,
+
+851
+00:52:58,905 --> 00:53:02,765
+Speaker 5:  do something useful. And so I always kind of think it's about
+
+852
+00:53:02,765 --> 00:53:06,285
+Speaker 5:  like, how can you get the incentives aligned
+
+853
+00:53:06,285 --> 00:53:09,165
+Speaker 5:  correctly, right? And so I think that
+
+854
+00:53:10,185 --> 00:53:14,165
+Speaker 5:  the issue with like fitness is that, you know, you see this
+
+855
+00:53:14,165 --> 00:53:16,845
+Speaker 5:  with the Apple watch, you see it with Peloton in particular. There are a
+
+856
+00:53:16,845 --> 00:53:19,965
+Speaker 5:  lot of stories about Peloton where people were just completely burning out
+
+857
+00:53:20,505 --> 00:53:24,405
+Speaker 5:  and like really injuring themselves. I just don't think this is like
+
+858
+00:53:25,145 --> 00:53:29,085
+Speaker 5:  the way to like good health and fitness actually a lot of
+
+859
+00:53:29,085 --> 00:53:32,965
+Speaker 5:  these companies along with like, trying to get you addicted, they're trying
+
+860
+00:53:32,965 --> 00:53:36,845
+Speaker 5:  to sell this idea of you becoming a, like an a literal elite athlete.
+
+861
+00:53:37,035 --> 00:53:40,925
+Speaker 5:  Like, as if like, that is like a good thing to be, like, if you want to be
+
+862
+00:53:40,925 --> 00:53:44,045
+Speaker 5:  elite athlete, that that's fine. But like, it's not really
+
+863
+00:53:45,565 --> 00:53:48,645
+Speaker 5:  a good idea frankly for, for, for most people. Like, you know, most people
+
+864
+00:53:48,645 --> 00:53:51,885
+Speaker 5:  have got jobs and they've got families and, and it's very hard to like maintain
+
+865
+00:53:51,885 --> 00:53:55,765
+Speaker 5:  that, you know, it can be, it can actually be quite, quite damaging. And
+
+866
+00:53:55,805 --> 00:53:59,725
+Speaker 5:  I see that with a lot of the marketing. I mean they've changed it a bit now,
+
+867
+00:53:59,725 --> 00:54:03,485
+Speaker 5:  but like Nike and a lot of these other apps were like made by people who
+
+868
+00:54:04,435 --> 00:54:07,845
+Speaker 5:  used to be athletes or, or who, who just like incredibly fit, right? And
+
+869
+00:54:07,845 --> 00:54:10,725
+Speaker 5:  so they'd be like, wow, you've gotta go and break through the pain barrier.
+
+870
+00:54:10,725 --> 00:54:13,685
+Speaker 5:  You've gotta go and do all this stuff. It's like, you don't, you don't actually
+
+871
+00:54:13,685 --> 00:54:17,205
+Speaker 5:  need to do that. Like you are just saying you have to do that. So I don't,
+
+872
+00:54:17,325 --> 00:54:20,965
+Speaker 5:  I don't like streaks. It can be done in a way that's like less
+
+873
+00:54:21,105 --> 00:54:24,965
+Speaker 5:  bad, right? But I think that when I look at the
+
+874
+00:54:24,965 --> 00:54:28,605
+Speaker 5:  best games and the best apps out there, like a Nintendo doesn't like,
+
+875
+00:54:30,005 --> 00:54:33,325
+Speaker 5:  I mean, Nintendo does actually have streaks and animal crossing, but like,
+
+876
+00:54:33,325 --> 00:54:36,765
+Speaker 5:  it's very small. It's really small stuff and it, it doesn't, it's not punishing
+
+877
+00:54:36,765 --> 00:54:40,285
+Speaker 5:  at all if you don't, if you don't match it. Like, you know, there are streaks
+
+878
+00:54:40,285 --> 00:54:44,045
+Speaker 5:  in some video games, but like you play elder ring or you play, you know,
+
+879
+00:54:44,115 --> 00:54:47,605
+Speaker 5:  like legends as elder, that's not like a streak for playing it two days in
+
+880
+00:54:47,605 --> 00:54:51,165
+Speaker 5:  a row. They don't need that because it's a really good game, right? And so
+
+881
+00:54:51,965 --> 00:54:55,925
+Speaker 5:  I think it's just, it, you know, it it's an excuse it for
+
+882
+00:54:56,145 --> 00:55:00,085
+Speaker 5:  not making something that is as targeted or is interesting for
+
+883
+00:55:00,085 --> 00:55:03,725
+Speaker 5:  people. It's very difficult because, you know, if you're running a company,
+
+884
+00:55:03,755 --> 00:55:07,125
+Speaker 5:  like I do have a lot of sympathy for people. Like we, we didn't take investment
+
+885
+00:55:07,235 --> 00:55:10,765
+Speaker 5:  when we started and so like, or we have very little investment, so they were
+
+886
+00:55:10,765 --> 00:55:14,245
+Speaker 5:  like really patient and they were not giving us a hard time. You know, people
+
+887
+00:55:14,245 --> 00:55:17,885
+Speaker 5:  would call us like a lifestyle business I guess. But it does mean
+
+888
+00:55:18,195 --> 00:55:21,925
+Speaker 5:  that if you take investment and you kind of have to take
+
+889
+00:55:21,925 --> 00:55:25,165
+Speaker 5:  investment if you're a startup. 'cause otherwise you'll just be outgunned
+
+890
+00:55:25,385 --> 00:55:28,725
+Speaker 5:  by all the other startups who take investment, right? You don't really have
+
+891
+00:55:28,725 --> 00:55:32,325
+Speaker 5:  a choice. They need to see the line go up. And one of the easiest ways of
+
+892
+00:55:32,325 --> 00:55:36,285
+Speaker 5:  getting the line to go up is by adding in streaks, is by adding in notifications
+
+893
+00:55:36,305 --> 00:55:39,445
+Speaker 5:  and, and making people feel bad about not using it. So,
+
+894
+00:55:40,585 --> 00:55:44,245
+Speaker 5:  you know, I I can blame individual like, you know, designers here, but it's,
+
+895
+00:55:44,315 --> 00:55:46,125
+Speaker 5:  it's like they're in an arm's race.
+
+896
+00:55:46,785 --> 00:55:50,045
+Speaker 2:  It does feel like a much harder bar to set for yourself though, because essentially
+
+897
+00:55:50,045 --> 00:55:53,645
+Speaker 2:  what you're describing is that instead of punishing me for not doing the
+
+898
+00:55:53,645 --> 00:55:56,365
+Speaker 2:  thing that you've already given me, you have to keep giving me new things,
+
+899
+00:55:56,895 --> 00:56:00,885
+Speaker 2:  which is a lot of work for you. Yes. Like it's, it's much easier to
+
+900
+00:56:00,885 --> 00:56:04,605
+Speaker 2:  just yell at me for not closing my rings than it is to like, like you, you,
+
+901
+00:56:04,605 --> 00:56:06,965
+Speaker 2:  you mentioned Elden ring, like people play Elden ring because it's a great
+
+902
+00:56:06,965 --> 00:56:10,005
+Speaker 2:  game. Like it's really hard to make a great game and it's much easier
+
+903
+00:56:11,025 --> 00:56:15,005
+Speaker 2:  to build a mechanic that requires me to open the app every day or my
+
+904
+00:56:15,005 --> 00:56:18,285
+Speaker 2:  little character dies than it is to keep building a great game for 11 years.
+
+905
+00:56:18,435 --> 00:56:22,325
+Speaker 5:  Yeah. That, that's, that's really true. Yeah. It, it's
+
+906
+00:56:22,325 --> 00:56:26,085
+Speaker 5:  definitely not easy. I mean, when you make a a a a fitness game
+
+907
+00:56:26,085 --> 00:56:29,005
+Speaker 5:  that's based around like narrative, you just need to keep on making more
+
+908
+00:56:29,005 --> 00:56:32,965
+Speaker 5:  narrative, right? And so we turn from being
+
+909
+00:56:33,405 --> 00:56:37,005
+Speaker 5:  a, a sort of tech company almost into like a content company, And, if you
+
+910
+00:56:37,005 --> 00:56:40,725
+Speaker 5:  open up like Zombies Run or ZX now it kind of looks a bit like Netflix, like
+
+911
+00:56:40,725 --> 00:56:44,045
+Speaker 5:  it has these carousels of Rose and you know, You can like, choose different
+
+912
+00:56:44,045 --> 00:56:47,805
+Speaker 5:  stories, which is shows how the
+
+913
+00:56:47,805 --> 00:56:51,485
+Speaker 5:  company kind of evolved over time from like triangle, all these different
+
+914
+00:56:51,485 --> 00:56:55,205
+Speaker 5:  like gameplay mechanics, some of which worked and some of which didn't into
+
+915
+00:56:55,205 --> 00:56:59,165
+Speaker 5:  like, okay, what we are doing is we're creating a
+
+916
+00:56:59,165 --> 00:57:02,925
+Speaker 5:  process to try and make as many like consistently
+
+917
+00:57:02,925 --> 00:57:06,885
+Speaker 5:  good stories as possible. Like every week, multiple, multiple stories a week.
+
+918
+00:57:07,305 --> 00:57:10,565
+Speaker 5:  And so you, we ended up with like writer's rooms and, and just
+
+919
+00:57:11,095 --> 00:57:15,045
+Speaker 5:  sound designers and you know, like it's games as a service, as
+
+920
+00:57:15,205 --> 00:57:19,045
+Speaker 5:  software, as a service. And a lot of companies try and transition from
+
+921
+00:57:19,045 --> 00:57:22,605
+Speaker 5:  making like a one-off game or one-off tech product into making constant,
+
+922
+00:57:22,825 --> 00:57:26,405
+Speaker 5:  you know, content and it's just really difficult to do, especially when you're
+
+923
+00:57:26,405 --> 00:57:30,045
+Speaker 5:  making like specialized stories that are like about you running,
+
+924
+00:57:30,625 --> 00:57:34,285
+Speaker 5:  you know, like that's, that's a different kind of storytelling
+
+925
+00:57:35,225 --> 00:57:39,045
+Speaker 5:  and you know, the team did it really well, but I think that
+
+926
+00:57:39,185 --> 00:57:41,725
+Speaker 5:  that's actually not something that tech companies are really set up to do.
+
+927
+00:57:42,025 --> 00:57:45,925
+Speaker 6:  It reminds me of Peloton because they too have become a media
+
+928
+00:57:45,925 --> 00:57:49,645
+Speaker 6:  company without I think necessarily intending that. Yeah.
+
+929
+00:57:49,825 --> 00:57:53,765
+Speaker 6:  So, you know, is, is this just then the challenge of
+
+930
+00:57:54,595 --> 00:57:58,525
+Speaker 6:  gamifying fitness because I, I don't know, like I
+
+931
+00:57:58,525 --> 00:58:02,445
+Speaker 6:  don't have an answer, but it's just like I constantly have to find
+
+932
+00:58:02,665 --> 00:58:06,245
+Speaker 6:  new ways to motivate myself or sometimes just like
+
+933
+00:58:06,625 --> 00:58:09,965
+Speaker 6:  let myself have permission to be bad at fitness,
+
+934
+00:58:10,455 --> 00:58:14,165
+Speaker 6:  which is opposite to what all these devices
+
+935
+00:58:14,345 --> 00:58:18,125
+Speaker 6:  are doing, which is to optimize yourself to be the best version
+
+936
+00:58:18,145 --> 00:58:21,685
+Speaker 6:  of yourself. I feel like there's conflicting narratives here where like,
+
+937
+00:58:22,405 --> 00:58:25,845
+Speaker 6:  I think David and I just wanna like be slightly healthier and
+
+938
+00:58:26,225 --> 00:58:30,085
+Speaker 6:  not beat ourselves while doing it. But then, you know, these
+
+939
+00:58:30,085 --> 00:58:33,845
+Speaker 6:  watches, these rings, these games, not yours, but
+
+940
+00:58:33,955 --> 00:58:37,685
+Speaker 6:  some of these games are just like, here's how to be the best version of yourself
+
+941
+00:58:37,715 --> 00:58:41,085
+Speaker 6:  with metrics and numbers and get you addicted to it. So how do you like,
+
+942
+00:58:41,565 --> 00:58:44,565
+Speaker 5:  I mean they're sort of creating goals for you that maybe you didn't have
+
+943
+00:58:44,565 --> 00:58:48,365
+Speaker 5:  when you began, right? Which is like, you know, the, the longest I've ever
+
+944
+00:58:48,365 --> 00:58:52,045
+Speaker 5:  run is a half marathon and everyone's like, oh, so why, why didn't you do
+
+945
+00:58:52,045 --> 00:58:55,085
+Speaker 5:  like a marathon? I'm like, why would I do a marathon? I I don't want to do
+
+946
+00:58:55,085 --> 00:58:58,565
+Speaker 5:  a marathon. Yes. That, that seems like You can reach that. That seems like
+
+947
+00:58:58,565 --> 00:59:02,285
+Speaker 5:  a bad time for me. I'm I love it. I'm glad for you if you've done a
+
+948
+00:59:02,445 --> 00:59:05,725
+Speaker 5:  marathon, you know, I know someone who did like an ultra marathon, you know,
+
+949
+00:59:05,815 --> 00:59:09,485
+Speaker 5:  she's great, but like it's, it's not for me. And so
+
+950
+00:59:10,325 --> 00:59:13,965
+Speaker 5:  I think when you start, you know, these applications, it's all games. It's
+
+951
+00:59:13,965 --> 00:59:16,445
+Speaker 5:  always like, so what's your goal? And you've just got these like massive
+
+952
+00:59:16,455 --> 00:59:20,005
+Speaker 5:  goals, right? You know, and like, oh, do I really wanna do that or do I just
+
+953
+00:59:20,005 --> 00:59:23,605
+Speaker 5:  want to do something else? Just be a little bit healthier. So
+
+954
+00:59:24,245 --> 00:59:28,045
+Speaker 5:  a big part of it is, you know, again, I just
+
+955
+00:59:28,045 --> 00:59:31,165
+Speaker 5:  come back to like, how can we make it fun? How can we make it a little bit
+
+956
+00:59:31,165 --> 00:59:34,645
+Speaker 5:  more bearable? You know, you mentioned the, like when you start out running,
+
+957
+00:59:35,305 --> 00:59:38,965
+Speaker 5:  you know, it was the same for me. It's just horrible. It like, it's so painful,
+
+958
+00:59:39,475 --> 00:59:43,445
+Speaker 5:  like sweaty, it's just like, you know, you get a stitch, I just can't
+
+959
+00:59:43,475 --> 00:59:47,365
+Speaker 5:  like bear it. But then, you know, the thing is when you've done
+
+960
+00:59:47,365 --> 00:59:51,205
+Speaker 5:  it a lot, you get good at running and now I don't need like a
+
+961
+00:59:51,205 --> 00:59:54,725
+Speaker 5:  game to go running. Like I just go out running to music or
+
+962
+00:59:54,765 --> 00:59:58,205
+Speaker 5:  podcasts and it's actually pretty easy for me, right? And so like,
+
+963
+00:59:58,745 --> 01:00:02,565
+Speaker 5:  can we get people into that situation where they
+
+964
+01:00:02,565 --> 01:00:05,605
+Speaker 5:  don't need us anymore? Of course, like from a business point of view, you
+
+965
+01:00:05,605 --> 01:00:08,365
+Speaker 5:  know, you, you want people to keep on paying and, and hopefully you're fun
+
+966
+01:00:08,365 --> 01:00:12,165
+Speaker 5:  enough, but that's where you want to get people to because it's the same
+
+967
+01:00:12,165 --> 01:00:14,885
+Speaker 5:  with like a lot of stuff. When you get to a good enough point, it actually
+
+968
+01:00:14,885 --> 01:00:18,565
+Speaker 5:  becomes way easier to, to maintain it. I do think
+
+969
+01:00:19,635 --> 01:00:23,245
+Speaker 5:  it's gonna be a challenge for a lot of gamified fitness apps. Like, because
+
+970
+01:00:23,245 --> 01:00:27,165
+Speaker 5:  you, you just need to keep on providing the content. Like some of
+
+971
+01:00:27,165 --> 01:00:30,805
+Speaker 5:  them, you know, will just become basically gym instructor classes
+
+972
+01:00:30,955 --> 01:00:34,165
+Speaker 5:  like, like Peloton, you know, or like a lot of VR staff,
+
+973
+01:00:34,905 --> 01:00:38,645
+Speaker 5:  you know, some of them will just be constant competition, like the
+
+974
+01:00:38,645 --> 01:00:42,125
+Speaker 5:  cycling, you know, things and Strava and that's fine. You know, they, if
+
+975
+01:00:42,125 --> 01:00:45,525
+Speaker 5:  you like that sort of thing, you should do it. I do think there's still more
+
+976
+01:00:45,525 --> 01:00:48,965
+Speaker 5:  room for companies especially there's ar like becomes more of a thing
+
+977
+01:00:49,345 --> 01:00:53,205
+Speaker 5:  to do. Like even more fun ways of making
+
+978
+01:00:53,475 --> 01:00:57,325
+Speaker 5:  like sports and like competitive sports and cooperative sports. I, I really
+
+979
+01:00:57,325 --> 01:01:00,525
+Speaker 5:  wanna make like a cooperative fitness game. I think it'd be like so fun to
+
+980
+01:01:00,525 --> 01:01:04,245
+Speaker 5:  do that. So yeah, like I think there's a lot we can do there. Like the kind
+
+981
+01:01:04,245 --> 01:01:08,005
+Speaker 5:  of original gamified fitness is just playing like soccer, so like,
+
+982
+01:01:08,065 --> 01:01:10,645
+Speaker 5:  you know, maybe we just do more of that, but I can make it bit more convenient.
+
+983
+01:01:11,545 --> 01:01:15,205
+Speaker 6:  Are there any fitness apps or just like services
+
+984
+01:01:15,385 --> 01:01:19,245
+Speaker 6:  out there that you see and you're like, oh, I kind of dig what they're
+
+985
+01:01:19,245 --> 01:01:23,165
+Speaker 6:  doing then because we have seen so many of them just kind of take the
+
+986
+01:01:23,165 --> 01:01:26,965
+Speaker 6:  same leaderboard and competition approach to it. So is there
+
+987
+01:01:26,965 --> 01:01:30,925
+Speaker 6:  anyone out there that's doing it in a way that you're like, oh, that,
+
+988
+01:01:31,075 --> 01:01:34,525
+Speaker 6:  that actually seems like that's a cool way for us
+
+989
+01:01:35,075 --> 01:01:38,725
+Speaker 6:  anxious people out here? I have my list, but like us
+
+990
+01:01:38,725 --> 01:01:42,645
+Speaker 6:  anxious people out here to actually take a step back and like build
+
+991
+01:01:42,645 --> 01:01:45,485
+Speaker 6:  the foundational habits and get to the point where you're saying like, you
+
+992
+01:01:45,685 --> 01:01:48,805
+Speaker 6:  actually don't need it. Because I too am at the place where I'm like, oh,
+
+993
+01:01:49,465 --> 01:01:53,405
+Speaker 6:  I'm a week without a run. I feel bad I need to like actually
+
+994
+01:01:53,865 --> 01:01:54,645
+Speaker 6:  go out and do it.
+
+995
+01:01:55,205 --> 01:01:58,725
+Speaker 5:  I actually just use like the apple like fitness app and the health app a
+
+996
+01:01:58,725 --> 01:02:01,765
+Speaker 5:  lot to go and track my stuff, you know, like particularly things like sleep
+
+997
+01:02:01,945 --> 01:02:05,845
+Speaker 5:  and like heart rate recovery. So these are like more, more kind of technical
+
+998
+01:02:05,955 --> 01:02:09,805
+Speaker 5:  like things I, I don't like have like a third party app that I
+
+999
+01:02:09,805 --> 01:02:13,445
+Speaker 5:  use to track that. But it, it is useful because I've noticed it does
+
+1000
+01:02:13,445 --> 01:02:17,325
+Speaker 5:  correlate actually with like when I've got more energy and I
+
+1001
+01:02:17,325 --> 01:02:21,125
+Speaker 5:  do use, I use like the platform stuff because it just like
+
+1002
+01:02:21,125 --> 01:02:24,405
+Speaker 5:  integrates the best. So if I'm going for a run or for a swim, I just use
+
+1003
+01:02:24,645 --> 01:02:28,325
+Speaker 5:  whatever's on the Apple watch, which is boring, but I, I
+
+1004
+01:02:28,355 --> 01:02:32,325
+Speaker 5:  kind of don't want to, I've sort of seen
+
+1005
+01:02:32,395 --> 01:02:35,885
+Speaker 5:  pass a curtain I guess for a lot of the stuff and I kind of a bit, I'm a
+
+1006
+01:02:35,885 --> 01:02:39,725
+Speaker 5:  bit worried about what people would try and do to my experience if
+
+1007
+01:02:39,805 --> 01:02:42,805
+Speaker 5:  I let them, you know, I, I'm quite vulnerable to gamification.
+
+1008
+01:02:43,725 --> 01:02:46,565
+Speaker 5:  I like, I like extended streaks, you know, if you, if you'd let me do it,
+
+1009
+01:02:46,865 --> 01:02:50,725
+Speaker 5:  but even though I know it's not good for me and so I try and actually stay
+
+1010
+01:02:50,725 --> 01:02:54,685
+Speaker 5:  away from, from a lot of that stuff. So going for the more vanilla
+
+1011
+01:02:54,695 --> 01:02:57,685
+Speaker 5:  Apple watch stuff is, is what I tend to stay on.
+
+1012
+01:02:58,425 --> 01:03:02,165
+Speaker 2:  Do you think about things like sleep tracking and we're getting
+
+1013
+01:03:02,265 --> 01:03:05,045
+Speaker 2:  to these smart rings and all this stuff and we're, we're getting to a point
+
+1014
+01:03:05,045 --> 01:03:08,845
+Speaker 2:  where there is this kind of like second by second 24
+
+1015
+01:03:08,845 --> 01:03:12,165
+Speaker 2:  hour long ability to understand how you're doing and I'm like, somebody is
+
+1016
+01:03:12,165 --> 01:03:15,685
+Speaker 2:  gonna make the next version of Zombies Run that is not like an episodic thing
+
+1017
+01:03:15,685 --> 01:03:18,885
+Speaker 2:  that you put on headphones and listen to while you go exercise. It's going
+
+1018
+01:03:18,885 --> 01:03:22,605
+Speaker 2:  to be like a lifestyle game. And part of me wonders if that is
+
+1019
+01:03:22,935 --> 01:03:26,805
+Speaker 2:  super cool or totally dystopian and, and the idea
+
+1020
+01:03:26,805 --> 01:03:30,085
+Speaker 2:  of like, I'm gonna get a thing at, you know, 2:00 AM that's just like zombies
+
+1021
+01:03:30,195 --> 01:03:34,045
+Speaker 2:  because it it understood that I'm like in the right sleep zone for it
+
+1022
+01:03:34,045 --> 01:03:37,045
+Speaker 2:  and like this is coming, we have the data to do this now and it, it feels
+
+1023
+01:03:37,045 --> 01:03:38,925
+Speaker 2:  like it's coming and I can't decide if that's good or bad.
+
+1024
+01:03:40,585 --> 01:03:44,325
+Speaker 5:  People keep on trying to do this and we, we tried to do it with a, with a
+
+1025
+01:03:44,325 --> 01:03:47,405
+Speaker 5:  game called the Walk, which was kinda like a all day like, you know, walking
+
+1026
+01:03:47,675 --> 01:03:51,645
+Speaker 5:  pedometer kind of thing. And I think
+
+1027
+01:03:52,665 --> 01:03:55,765
+Speaker 5:  in practice it's quite hard to do because
+
+1028
+01:03:57,425 --> 01:04:01,365
+Speaker 5:  people we found don't really like to be interrupted with like
+
+1029
+01:04:01,365 --> 01:04:05,045
+Speaker 5:  gameplay and story. It, it, it's kind of annoying and, and so
+
+1030
+01:04:05,545 --> 01:04:09,165
+Speaker 5:  the issue is that like third party developers generally do not have enough
+
+1031
+01:04:09,175 --> 01:04:12,445
+Speaker 5:  contextual information about like what the person is doing
+
+1032
+01:04:12,985 --> 01:04:16,485
+Speaker 5:  to like make sure that the interruptions work. But of course you want to
+
+1033
+01:04:16,485 --> 01:04:20,125
+Speaker 5:  interrupt people. Like if you are like a line goes up business person, so,
+
+1034
+01:04:20,145 --> 01:04:24,005
+Speaker 5:  so, but then that usually gets too annoying. So we did
+
+1035
+01:04:24,105 --> 01:04:27,805
+Speaker 5:  try and and make like two or three times to go and make these these games
+
+1036
+01:04:27,805 --> 01:04:31,685
+Speaker 5:  which would be kind of ambient. And I think at the point
+
+1037
+01:04:31,985 --> 01:04:35,965
+Speaker 5:  at which using AI or using just more sensors, devs
+
+1038
+01:04:36,275 --> 01:04:40,045
+Speaker 5:  have that ability then you will see more of that stuff and I think it will
+
+1039
+01:04:40,285 --> 01:04:43,325
+Speaker 5:  actually end up looking really interesting and looking more
+
+1040
+01:04:44,065 --> 01:04:47,525
+Speaker 5:  almost like role playing, right? It'll be like an even richer experience
+
+1041
+01:04:47,745 --> 01:04:51,485
+Speaker 5:  and I know that people actually want to play these sorts of games where they're
+
+1042
+01:04:51,485 --> 01:04:54,965
+Speaker 5:  kind of more into it at the same time. I think people probably be a little
+
+1043
+01:04:54,965 --> 01:04:58,245
+Speaker 5:  bit like nervous about what that means. 'cause you know that if it's really
+
+1044
+01:04:58,245 --> 01:05:01,805
+Speaker 5:  good it just actually takes over your life, right? And so do people really
+
+1045
+01:05:01,805 --> 01:05:03,765
+Speaker 5:  want that just to get fit? I don't know.
+
+1046
+01:05:04,585 --> 01:05:08,165
+Speaker 2:  As you look around this space right now, do you see any other things that,
+
+1047
+01:05:08,165 --> 01:05:12,045
+Speaker 2:  that feel kind of spiritually similar to Zombie's Run? I think about
+
+1048
+01:05:12,045 --> 01:05:15,445
+Speaker 2:  like we, we've all at the Virgin using this app called Stompers, which is
+
+1049
+01:05:15,445 --> 01:05:19,165
+Speaker 2:  basically, it's like a, it's a sort of silly pedometer game and I think it
+
+1050
+01:05:19,165 --> 01:05:23,045
+Speaker 2:  has hooked a lot of people in the same way that it's, it's not
+
+1051
+01:05:23,045 --> 01:05:26,925
+Speaker 2:  even accurate, but being accurate is not the point. Like do you, do you
+
+1052
+01:05:26,925 --> 01:05:30,205
+Speaker 2:  see anything that feels like it's sort of doing the same thing that the a
+
+1053
+01:05:30,205 --> 01:05:30,725
+Speaker 2:  similar way,
+
+1054
+01:05:31,845 --> 01:05:35,605
+Speaker 5:  I mean like one of the other things which I know vis written about w was
+
+1055
+01:05:35,605 --> 01:05:39,325
+Speaker 5:  a whole fantasy hike thing where oh, and, and like, you know, and and like
+
+1056
+01:05:39,325 --> 01:05:42,885
+Speaker 5:  before that it, it was just a direct rip off, you know, Lord of the Rings
+
+1057
+01:05:42,885 --> 01:05:46,805
+Speaker 5:  where you're like walking from the Shire to like Moreor and I think
+
+1058
+01:05:47,045 --> 01:05:49,925
+Speaker 5:  actually at the start you would just type in like how far you'd walked into
+
+1059
+01:05:49,925 --> 01:05:53,205
+Speaker 5:  like a webpage and then it work it out and it got slowly more, more interesting
+
+1060
+01:05:53,345 --> 01:05:56,965
+Speaker 5:  and that's cool. Like that's a fun thing. People have done various things
+
+1061
+01:05:56,965 --> 01:06:00,925
+Speaker 5:  like that. There's a, a website or or an app called The Beautiful
+
+1062
+01:06:00,955 --> 01:06:04,165
+Speaker 5:  Walk, which was kind of synced up to, to your,
+
+1063
+01:06:04,745 --> 01:06:08,205
+Speaker 5:  you know, fitness apps and, and would do that like spiritually,
+
+1064
+01:06:08,795 --> 01:06:12,525
+Speaker 5:  like a lot of the VR staff and ar stuff I
+
+1065
+01:06:12,805 --> 01:06:16,565
+Speaker 5:  think is interesting in the sense of, you know, I
+
+1066
+01:06:16,765 --> 01:06:20,725
+Speaker 5:  I come back to I want people to be having fun when they exercise. And
+
+1067
+01:06:20,725 --> 01:06:24,245
+Speaker 5:  so I used to play like Hollow Point a lot,
+
+1068
+01:06:24,855 --> 01:06:25,885
+Speaker 5:  which was this old
+
+1069
+01:06:27,415 --> 01:06:30,765
+Speaker 5:  steam like five game and it was like an archery game
+
+1070
+01:06:31,265 --> 01:06:35,125
+Speaker 5:  and basically you, you were just shooting, you're just using at, you know,
+
+1071
+01:06:35,125 --> 01:06:38,805
+Speaker 5:  enemies in virtual reality, you know, arena with archery.
+
+1072
+01:06:39,465 --> 01:06:43,325
+Speaker 5:  And the core thing was because the arrows
+
+1073
+01:06:43,325 --> 01:06:47,205
+Speaker 5:  kind of like move slowly then you could dodge them. Like you can't dodge
+
+1074
+01:06:47,205 --> 01:06:50,645
+Speaker 5:  bullets in real life, right? But like in super hot with other games you You
+
+1075
+01:06:50,645 --> 01:06:53,845
+Speaker 5:  can dodge these and so you're always just like rolling around the floor and
+
+1076
+01:06:53,845 --> 01:06:57,685
+Speaker 5:  jumping up and down and, and like it's just so energetic in a way
+
+1077
+01:06:57,685 --> 01:07:00,605
+Speaker 5:  that like you could never get me to do that in real life. Like if you told
+
+1078
+01:07:00,605 --> 01:07:04,245
+Speaker 5:  me, okay, go and go and fall over sideways and then go and scramble and roll
+
+1079
+01:07:04,245 --> 01:07:07,685
+Speaker 5:  back and jump up. It's like I, no, I'm not doing that. But like you go and
+
+1080
+01:07:07,925 --> 01:07:11,645
+Speaker 5:  put me in VR and there's like arrows coming at me and I'm like shooting people
+
+1081
+01:07:11,645 --> 01:07:15,565
+Speaker 5:  of arrows. I'm like, this is the most fun I've ever had, but I don't
+
+1082
+01:07:15,565 --> 01:07:19,165
+Speaker 5:  have room for it so I can't play that anymore. So that's kind of the problem,
+
+1083
+01:07:19,315 --> 01:07:23,085
+Speaker 5:  like what I, I think and I, and I do see like the, you know, beat Saber
+
+1084
+01:07:23,105 --> 01:07:27,045
+Speaker 5:  and Fit XR and things like that and I'm like, seems a bit boring
+
+1085
+01:07:27,105 --> 01:07:30,405
+Speaker 5:  to me, you know, I want something a bit more involved than that. So
+
+1086
+01:07:30,405 --> 01:07:32,045
+Speaker 2:  First of all, how dare you? Super
+
+1087
+01:07:32,045 --> 01:07:32,485
+Speaker 5:  Is amazing.
+
+1088
+01:07:33,425 --> 01:07:37,125
+Speaker 2:  Yes. This is, that's that was outrageous. But no, I I I'm glad you actually
+
+1089
+01:07:37,125 --> 01:07:39,525
+Speaker 2:  mentioned super hot because Super Hot is one of those games that I found
+
+1090
+01:07:39,525 --> 01:07:43,445
+Speaker 2:  to be like accidentally a surprisingly good workout. It's
+
+1091
+01:07:43,445 --> 01:07:46,565
+Speaker 2:  like time only moves when you do. So I'm doing a ton of like very
+
+1092
+01:07:46,775 --> 01:07:50,685
+Speaker 2:  deliberate, intense movement and I'm like, I'm sweating at the end and it's
+
+1093
+01:07:50,685 --> 01:07:53,485
+Speaker 2:  like, all right, this is what I'm going for. This is like a fun thing that
+
+1094
+01:07:53,515 --> 01:07:57,125
+Speaker 2:  made me sweat. Not a thing that bullied me into exercising,
+
+1095
+01:07:57,445 --> 01:07:58,525
+Speaker 2:  which feels very different
+
+1096
+01:07:58,925 --> 01:08:01,885
+Speaker 5:  I think when we get the glasses, you know, which we all want and not the
+
+1097
+01:08:01,885 --> 01:08:05,485
+Speaker 5:  head, you know, the the VR headset, this is gonna be the way people exercise.
+
+1098
+01:08:05,595 --> 01:08:09,525
+Speaker 5:  It's gonna be amazing. Like it's so cool but like it's just not there
+
+1099
+01:08:09,525 --> 01:08:13,445
+Speaker 5:  at the moment. Like it's just too like, I don't know, it's like sweaty, like
+
+1100
+01:08:13,645 --> 01:08:17,485
+Speaker 5:  I know people do use these things, but it, it's, it's for like for
+
+1101
+01:08:17,485 --> 01:08:20,925
+Speaker 5:  most people it's it, you know, it doesn't seem to be a good experience. So
+
+1102
+01:08:21,845 --> 01:08:24,725
+Speaker 5:  I think that's gonna be great. I think, you know, make believe and like role
+
+1103
+01:08:24,725 --> 01:08:27,925
+Speaker 5:  play and sports, like that's one of the best ways of getting fit.
+
+1104
+01:08:28,725 --> 01:08:32,445
+Speaker 6:  I think giving my per self permission to do the fantasy stuff, fantasy hike
+
+1105
+01:08:32,465 --> 01:08:35,805
+Speaker 6:  to whack my editors with baseball bats and Stompers
+
+1106
+01:08:36,505 --> 01:08:40,285
+Speaker 6:  has really just kind of made it easier to be like, oh
+
+1107
+01:08:40,315 --> 01:08:44,125
+Speaker 6:  it's okay if I'm not so fast. It's okay, you know what, just give
+
+1108
+01:08:44,325 --> 01:08:48,165
+Speaker 6:  yourself the participation trophy. That's the only real badge that you need.
+
+1109
+01:08:48,315 --> 01:08:51,965
+Speaker 6:  It's okay, maybe it's 'cause I'm a millennial, but the participation trophy
+
+1110
+01:08:52,185 --> 01:08:52,805
+Speaker 6:  is good enough.
+
+1111
+01:08:53,355 --> 01:08:57,205
+Speaker 5:  Well it, I mean, you know, the way we put it in Zombies Run is as
+
+1112
+01:08:57,205 --> 01:09:00,405
+Speaker 5:  long as You can boo faster than a slow shamble, then you know you're good
+
+1113
+01:09:00,405 --> 01:09:04,245
+Speaker 5:  with us. So keep on trying things until you find
+
+1114
+01:09:04,245 --> 01:09:06,325
+Speaker 5:  something that's fun and, and if it's
+
+1115
+01:11:24,385 --> 01:11:28,045
+Speaker 7:  an advantage to having a handheld over that situation if I've already got
+
+1116
+01:11:28,045 --> 01:11:31,645
+Speaker 7:  something like a game pass subscription? Thanks, appreciate it.
+
+1117
+01:11:31,945 --> 01:11:32,165
+Speaker 7:  Bye.
+
+1118
+01:11:32,765 --> 01:11:35,245
+Speaker 2:  I should say by the way, before we get started, thank you to everybody who
+
+1119
+01:11:35,245 --> 01:11:39,085
+Speaker 2:  responded about our segment last week about gaming handhelds. I got
+
+1120
+01:11:39,125 --> 01:11:42,125
+Speaker 2:  a ton of good ideas from people. I got a lot of people who just like felt
+
+1121
+01:11:42,185 --> 01:11:46,165
+Speaker 2:  my pain about wanting to play FIFA and
+
+1122
+01:11:46,305 --> 01:11:50,085
+Speaker 2:  not having a good device to do it on. People are mad at ea, I'm also mad
+
+1123
+01:11:50,085 --> 01:11:53,885
+Speaker 2:  at ea thank you to everybody who reached out. I have a lot of gadgets to
+
+1124
+01:11:53,885 --> 01:11:57,285
+Speaker 2:  try. I haven't bought anything yet, but I'm committed to answering this question
+
+1125
+01:11:57,305 --> 01:12:01,285
+Speaker 2:  for real at some point very soon and I'll get back in touch. But thank you
+
+1126
+01:12:01,285 --> 01:12:04,365
+Speaker 2:  to everybody who reached out with suggestions and ideas and commiseration,
+
+1127
+01:12:04,805 --> 01:12:08,525
+Speaker 2:  I appreciate it. My answer for this question is actually
+
+1128
+01:12:08,765 --> 01:12:12,525
+Speaker 2:  pretty simple. I just went through this recently and I
+
+1129
+01:12:12,715 --> 01:12:16,645
+Speaker 2:  initially, I just went through this recently. My kid is about a year and
+
+1130
+01:12:16,645 --> 01:12:20,085
+Speaker 2:  a half old at the beginning of 2023. I was in that like
+
+1131
+01:12:20,515 --> 01:12:23,565
+Speaker 2:  sitting up at night for four hours while a small child
+
+1132
+01:12:24,145 --> 01:12:28,005
+Speaker 2:  sleeps on my lap vibes and you're like, what do I do with myself? I tried
+
+1133
+01:12:28,005 --> 01:12:31,925
+Speaker 2:  all the things for a while. I was carrying a switch around with me that
+
+1134
+01:12:31,965 --> 01:12:35,885
+Speaker 2:  I would use in those moments. I had a couple of like tester
+
+1135
+01:12:35,885 --> 01:12:39,725
+Speaker 2:  things. I got one of the slightly sketchy things from
+
+1136
+01:12:39,825 --> 01:12:43,125
+Speaker 2:  Amazon that You can buy that have a million retro games on them.
+
+1137
+01:12:44,005 --> 01:12:47,885
+Speaker 2:  I think the answer is just your phone. And I
+
+1138
+01:12:47,885 --> 01:12:51,085
+Speaker 2:  think this for a couple of reasons. One, and this is the key one,
+
+1139
+01:12:51,795 --> 01:12:55,045
+Speaker 2:  your phone is just there with you all the time. One of the things that happens
+
+1140
+01:12:55,075 --> 01:12:58,925
+Speaker 2:  when you're a new parent is that you just suddenly find yourself frozen to
+
+1141
+01:12:58,965 --> 01:13:02,605
+Speaker 2:  a place because your child just fell asleep. And You can
+
+1142
+01:13:02,915 --> 01:13:06,165
+Speaker 2:  plan ahead to some extent and say like, okay, I'm gonna leave the switch
+
+1143
+01:13:06,305 --> 01:13:10,005
+Speaker 2:  in the room with the chair where I'm probably gonna be while the kid is sleeping
+
+1144
+01:13:10,105 --> 01:13:13,965
+Speaker 2:  or whatever. But your phone is just dramatically more likely
+
+1145
+01:13:14,065 --> 01:13:17,885
+Speaker 2:  to be in your pocket, right? and it also has a lot
+
+1146
+01:13:17,885 --> 01:13:21,045
+Speaker 2:  of retro games now especially, which are really great to play
+
+1147
+01:13:22,005 --> 01:13:25,925
+Speaker 2:  A on silent and B for a couple of minutes at a time. When you're in those
+
+1148
+01:13:25,925 --> 01:13:28,445
+Speaker 2:  moments where you're like, I don't know how long I'm gonna have to do this.
+
+1149
+01:13:28,985 --> 01:13:32,725
+Speaker 2:  You can just quickly fire up Delta or one of the other emulators. And I
+
+1150
+01:13:32,725 --> 01:13:36,445
+Speaker 2:  played, I would say maybe an alarming amount of like
+
+1151
+01:13:36,505 --> 01:13:40,205
+Speaker 2:  old Mario games, a few minutes at a time with one thumb on
+
+1152
+01:13:40,345 --> 01:13:44,285
+Speaker 2:  the joystick and one thumb on the buttons kind of wrapped
+
+1153
+01:13:44,385 --> 01:13:47,925
+Speaker 2:  my arms around the, it was, it's, it's a, it's a scene but it works.
+
+1154
+01:13:48,545 --> 01:13:52,205
+Speaker 2:  The other thing is it's really malleable, which I like, right? So I have
+
+1155
+01:13:52,205 --> 01:13:56,045
+Speaker 2:  a backbone controller, which I like very much and when I was able to
+
+1156
+01:13:56,155 --> 01:14:00,125
+Speaker 2:  sort of plan for it, I would use the backbone, I would bring the backbone
+
+1157
+01:14:00,125 --> 01:14:03,325
+Speaker 2:  with me, I would plug it in, I would have the full better controller. And
+
+1158
+01:14:03,325 --> 01:14:07,205
+Speaker 2:  that worked great. Works really well with a lot of games on
+
+1159
+01:14:07,545 --> 01:14:11,445
+Speaker 2:  iOS and Android. Highly recommend a backbone as a sort of addition
+
+1160
+01:14:11,445 --> 01:14:15,325
+Speaker 2:  to all of this. But when you don't have that, You can just use your phone,
+
+1161
+01:14:15,325 --> 01:14:18,845
+Speaker 2:  right? And so having something that you're not stuck
+
+1162
+01:14:18,875 --> 01:14:21,845
+Speaker 2:  because you forgot one piece of it is really helpful.
+
+1163
+01:14:22,745 --> 01:14:26,445
+Speaker 2:  The other piece of it is that you will find yourself needing your phone for
+
+1164
+01:14:26,585 --> 01:14:30,485
+Speaker 2:  all kinds of other things, right? Maybe you're gonna be one of those parents
+
+1165
+01:14:30,795 --> 01:14:34,685
+Speaker 2:  like I was who has a spreadsheet of like every time your kid eats and sleeps
+
+1166
+01:14:34,685 --> 01:14:38,605
+Speaker 2:  and goes to the bathroom and having that with you at the same time
+
+1167
+01:14:38,605 --> 01:14:41,965
+Speaker 2:  that you have your like thing you wanna play games on. Super helpful.
+
+1168
+01:14:42,545 --> 01:14:46,285
+Speaker 2:  If you are the type of parent who is going to be like texting your partner
+
+1169
+01:14:46,385 --> 01:14:50,205
+Speaker 2:  or taking lots of pictures or whatever, again your phone just
+
+1170
+01:14:50,205 --> 01:14:54,045
+Speaker 2:  becomes like the center of your baby universe in a very real way. And
+
+1171
+01:14:54,065 --> 01:14:58,005
+Speaker 2:  so not adding another device to the equation is
+
+1172
+01:14:58,005 --> 01:15:01,965
+Speaker 2:  sort of useful. There are good reasons to get a dedicated
+
+1173
+01:15:02,065 --> 01:15:05,245
+Speaker 2:  device. Like I've, I've talked to a lot of people who bought a switch,
+
+1174
+01:15:06,265 --> 01:15:10,085
+Speaker 2:  put like Zelda on it and then left it in the baby's room
+
+1175
+01:15:10,265 --> 01:15:13,725
+Speaker 2:  and that becomes the like I am in the baby's room, this is the thing I'm
+
+1176
+01:15:13,725 --> 01:15:17,645
+Speaker 2:  gonna play. There's something to that. But I think for me having fewer
+
+1177
+01:15:18,005 --> 01:15:21,125
+Speaker 2:  batteries to worry about having the thing that's probably in my pocket be
+
+1178
+01:15:21,125 --> 01:15:24,445
+Speaker 2:  the thing that works and having kind of the one device to rule them all
+
+1179
+01:15:25,135 --> 01:15:28,765
+Speaker 2:  wound up being really helpful. Also, there are
+
+1180
+01:15:29,085 --> 01:15:32,205
+Speaker 2:  a lot of games that I played that I would call like deeply
+
+1181
+01:15:33,145 --> 01:15:37,085
+Speaker 2:  boring, repetitive games that are actually perfect for mobile. 'cause
+
+1182
+01:15:37,085 --> 01:15:39,725
+Speaker 2:  you're in this headspace when you have a newborn where you're just exhausted
+
+1183
+01:15:39,945 --> 01:15:42,885
+Speaker 2:  and you're like, okay, I wanna play a game. I don't wanna use my brain at
+
+1184
+01:15:42,885 --> 01:15:46,005
+Speaker 2:  all and I'm gonna need to play this game for somewhere between one minute
+
+1185
+01:15:46,025 --> 01:15:50,005
+Speaker 2:  and five hours. Games like hole down, which is basically a, it's, it's
+
+1186
+01:15:50,005 --> 01:15:53,645
+Speaker 2:  like reverse snoo. You shoot a ball downward and you try to
+
+1187
+01:15:53,865 --> 01:15:56,965
+Speaker 2:  remove all the stuff down at the bottom and the further you go down, the
+
+1188
+01:15:56,965 --> 01:16:00,405
+Speaker 2:  more points you get endlessly repeatable games. I
+
+1189
+01:16:00,845 --> 01:16:04,645
+Speaker 2:  probably played a hundred hours of that game and it's a perfect little mobile
+
+1190
+01:16:04,645 --> 01:16:08,485
+Speaker 2:  game. You can play it with one hand, which is another victory given
+
+1191
+01:16:08,905 --> 01:16:12,045
+Speaker 2:  baby's sleep situations. Having something You can do with one hand is pretty
+
+1192
+01:16:12,045 --> 01:16:15,885
+Speaker 2:  helpful. I did a lot of like cross wordy kinds of
+
+1193
+01:16:15,885 --> 01:16:19,205
+Speaker 2:  things when I was like, okay, I actually need to use my brain a little bit.
+
+1194
+01:16:19,805 --> 01:16:23,365
+Speaker 2:  I did a lot of those like Temple
+
+1195
+01:16:23,665 --> 01:16:27,325
+Speaker 2:  Run kind of endless runner games because again, super easy, super
+
+1196
+01:16:27,565 --> 01:16:31,285
+Speaker 2:  repetitive, doesn't require any brain power. Those are the kinds of games
+
+1197
+01:16:31,395 --> 01:16:35,045
+Speaker 2:  that I ended up playing way more than I expected. I was like, oh, I'm gonna
+
+1198
+01:16:35,045 --> 01:16:38,685
+Speaker 2:  play a lot of like fun old PS two
+
+1199
+01:16:38,695 --> 01:16:41,925
+Speaker 2:  games because now I have all this time to kill and I ended up playing like
+
+1200
+01:16:42,285 --> 01:16:46,085
+Speaker 2:  infinite hours of hold down because it's just what happens in those
+
+1201
+01:16:46,085 --> 01:16:49,565
+Speaker 2:  moments. You're tired, you have one hand des spare while there's a human
+
+1202
+01:16:50,085 --> 01:16:53,885
+Speaker 2:  sleeping on top of you and that just is what it's, so I think the
+
+1203
+01:16:53,885 --> 01:16:57,485
+Speaker 2:  answer is probably either a switch for the games or
+
+1204
+01:16:57,835 --> 01:17:01,765
+Speaker 2:  your phone with a backbone or some other kind of controller. But
+
+1205
+01:17:01,805 --> 01:17:05,365
+Speaker 2:  I would, I would start with your phone because there's a lot of games. It's
+
+1206
+01:17:05,365 --> 01:17:09,205
+Speaker 2:  super easy, it's super accessible and odds are it's gonna be right there
+
+1207
+01:17:09,315 --> 01:17:13,245
+Speaker 2:  with you, which is pretty important. I hope that helps. Let me know. And
+
+1208
+01:17:13,245 --> 01:17:17,005
+Speaker 2:  again, I've gotten tons of really good handheld recommendations over the
+
+1209
+01:17:17,005 --> 01:17:20,445
+Speaker 2:  last couple of weeks. And, if you have good ones for me or for Keaton here,
+
+1210
+01:17:20,505 --> 01:17:23,685
+Speaker 2:  please let me know. Alright, that's it for The Verge Cast today. Thank you
+
+1211
+01:17:23,745 --> 01:17:27,405
+Speaker 2:  to everyone who's on the show and thank you as always for listening. There's
+
+1212
+01:17:27,405 --> 01:17:30,845
+Speaker 2:  lots more on everything we talked about from the Microsoft CrowdStrike chaos
+
+1213
+01:17:31,025 --> 01:17:34,565
+Speaker 2:  to V's. Great reporting on wearables and rest days in the Apple Watch
+
+1214
+01:17:34,945 --> 01:17:38,285
+Speaker 2:  to lots of stuff on gaming handhelds on The Verge dot com.
+
+1215
+01:17:38,795 --> 01:17:41,605
+Speaker 2:  I'll put some links in the show notes, but also read The Verge dot com. There
+
+1216
+01:17:41,605 --> 01:17:45,205
+Speaker 2:  is a shocking amount going on right now for it being like late July.
+
+1217
+01:17:45,705 --> 01:17:49,485
+Speaker 2:  So keep an eye on the website and as always, if you have thoughts, questions,
+
+1218
+01:17:49,525 --> 01:17:53,485
+Speaker 2:  feelings or gaming handheld you think I should buy, email us at vergecast
+
+1219
+01:17:53,485 --> 01:17:57,285
+Speaker 2:  at The Verge dot com or call the hotline eight six six Verge one one. Keep
+
+1220
+01:17:57,285 --> 01:17:59,965
+Speaker 2:  sending us questions. We've got lots more stuff to talk about this summer.
+
+1221
+01:18:00,345 --> 01:18:03,285
+Speaker 2:  Please keep all of your questions coming. And like I mentioned last week,
+
+1222
+01:18:03,925 --> 01:18:07,845
+Speaker 2:  I want more like teeny tiny weird tech mysteries. So if you have a
+
+1223
+01:18:07,845 --> 01:18:11,445
+Speaker 2:  teeny tiny weird tech mystery, send it to us. Can't wait to hear it.
+
+1224
+01:18:11,675 --> 01:18:13,325
+Speaker 2:  This show is produced by Andrew Marino,
+

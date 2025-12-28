@@ -1,0 +1,6088 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 4a3aae09-06c2-492e-929b-2c2b27c32cd7
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/4312448293311856560/7581912277480098832/s93290-US-6125s-1756085369.mp3
+Description: This week on The Vergecast, the co-founder and former CEO of iRobot, Colin Angle, joins The Verge’s smart home reviewer, Jennifer Pattison Tuohy, to discuss what the ideal home robot is. Are we close to creating a Rosie the Robot — an all-in-one humanoid robot that can take care of our homes, or should we take an entirely different approach to home robotics? They dive into the advances in technology powering this shift and ponder what purpose robotics in the home should really serve.
+
+Then, Jen takes a journey back into smart home history to help us understand its future. Grant Erickson, Principal of Nuovations, a former Apple, Nest, and Google engineer who was part of the team that developed Thread, joins the show.
+
+He shares the story of how and why, back in 2011, the Nest team, led by Tony Faddell and Matt Rogers, decided to create a smart home protocol. It involves a thermostat, fragmented ecosystems, and one of the best smart home products ever made.
+
+They discuss how Thread became the foundation of the Matter smart home standard — an unprecedented industry collaboration with a herculean task — to make the smart home simpler.
+
+To close out the show, Grant sticks around to help answer a Vergecast hotline question (call 866-VERGE11 or email vergecast@theverge.com) about how Matter manages your data.
+
+
+
+
+2
+00:00:03,305 --> 00:00:07,235
+Speaker 2:  Welcome to The Vergecast, the flagship podcast of Why Matter Matters.
+
+3
+00:00:07,855 --> 00:00:11,675
+Speaker 2:  No matter what David Pierce has to say about it. I'm your friend, Jen
+
+4
+00:00:11,875 --> 00:00:15,155
+Speaker 2:  Tuey, the Verges senior smart home reviewer, and today
+
+5
+00:00:15,525 --> 00:00:19,195
+Speaker 2:  we're talking about the future. First, the founder of
+
+6
+00:00:19,735 --> 00:00:23,675
+Speaker 2:  iRobot joins me to talk about how close we're to an all
+
+7
+00:00:23,675 --> 00:00:27,195
+Speaker 2:  in one robot that will take care of all our household needs,
+
+8
+00:00:27,695 --> 00:00:31,275
+Speaker 2:  but more importantly, whether that's what we really want. Then
+
+9
+00:00:31,365 --> 00:00:35,195
+Speaker 2:  we'll turn to the future of the Smart Home Grant. Erickson, a
+
+10
+00:00:35,195 --> 00:00:39,075
+Speaker 2:  former Apple Nest and Google engineer joins me to talk
+
+11
+00:00:39,075 --> 00:00:42,595
+Speaker 2:  about how and really why they decided to build
+
+12
+00:00:42,935 --> 00:00:46,835
+Speaker 2:  yet another Smart Home Protocol Thread. This is
+
+13
+00:00:46,835 --> 00:00:48,475
+Speaker 2:  The Vergecast Stay tuned
+
+14
+00:02:31,805 --> 00:02:34,805
+Speaker 2:  futuristic version of the Flintstones Set. In
+
+15
+00:02:34,905 --> 00:02:38,845
+Speaker 2:  2060s, there were flying cars that folded
+
+16
+00:02:38,845 --> 00:02:42,365
+Speaker 2:  up into briefcases 3D food printers, and my favorite,
+
+17
+00:02:43,005 --> 00:02:45,365
+Speaker 2:  a robot made named Rosie. It's
+
+18
+00:02:45,365 --> 00:02:49,285
+Speaker 6:  Time to blast off for dreamland. Well, okay, if Rosie
+
+19
+00:02:49,455 --> 00:02:53,205
+Speaker 6:  tucks me in and tells me about the cow that they gravitated over the moon,
+
+20
+00:02:53,595 --> 00:02:57,285
+Speaker 6:  miss, I got it here too. Will you, Rosie? Yes, ma'am.
+
+21
+00:02:58,015 --> 00:03:00,965
+Speaker 6:  Thank you, ma'am. Goodnight ma'am.
+
+22
+00:03:01,535 --> 00:03:05,285
+Speaker 2:  Rosie was a big blue metal robot that rolled around on wheels.
+
+23
+00:03:05,505 --> 00:03:09,205
+Speaker 2:  She had dials for eyes and claws for hands, and a pretty little
+
+24
+00:03:09,335 --> 00:03:13,165
+Speaker 2:  apron. She cleaned the house, took care of the kids, and even
+
+25
+00:03:13,485 --> 00:03:17,045
+Speaker 2:  functioned as a security system. Now Rosie inspired a
+
+26
+00:03:17,285 --> 00:03:20,885
+Speaker 2:  generation of roboticists to create home robots.
+
+27
+00:03:21,415 --> 00:03:25,205
+Speaker 2:  Today we have robots that vacuum your floor. We have ones that scoop
+
+28
+00:03:25,205 --> 00:03:28,525
+Speaker 2:  your kitty litter, mow your lawn, even wash your windows.
+
+29
+00:03:28,985 --> 00:03:32,085
+Speaker 2:  But we don't have a rosy, at least not yet.
+
+30
+00:03:32,865 --> 00:03:36,765
+Speaker 2:  So is a humanoid helper robot something we
+
+31
+00:03:36,765 --> 00:03:40,445
+Speaker 2:  could actually achieve? And maybe more importantly,
+
+32
+00:03:40,665 --> 00:03:44,445
+Speaker 2:  is it something we actually want to answer these questions? I
+
+33
+00:03:44,445 --> 00:03:47,645
+Speaker 2:  invited a leading expert on home robotics to join me.
+
+34
+00:03:48,255 --> 00:03:52,005
+Speaker 2:  Colin Angle is the co-founder and former CEO of one of the world's
+
+35
+00:03:52,015 --> 00:03:56,005
+Speaker 2:  first robotics companies, iRobot. And while
+
+36
+00:03:56,065 --> 00:03:59,925
+Speaker 2:  it became known best for its Roomba robot vacuums, iRobot
+
+37
+00:03:59,925 --> 00:04:03,485
+Speaker 2:  was originally founded to develop robots for all sorts of applications.
+
+38
+00:04:03,875 --> 00:04:07,645
+Speaker 2:  From exploring Mars to building stair climbing robots for the military,
+
+39
+00:04:07,875 --> 00:04:11,605
+Speaker 2:  essentially angle in his co-founders, all MIT
+
+40
+00:04:11,675 --> 00:04:15,525
+Speaker 2:  roboticists laid the foundation for the robotic future we
+
+41
+00:04:15,625 --> 00:04:19,555
+Speaker 2:  may all be living in one day. Hello, Colin, thank you so much
+
+42
+00:04:19,575 --> 00:04:21,275
+Speaker 2:  for joining me. It's great to see you.
+
+43
+00:04:22,015 --> 00:04:23,995
+Speaker 7:  I'm happy to be chatting once again with you.
+
+44
+00:04:24,865 --> 00:04:28,595
+Speaker 2:  It's been a while since we talked. You've been under the radar
+
+45
+00:04:28,875 --> 00:04:32,675
+Speaker 2:  a bit since stepping down from iRobot last year, following this sale to
+
+46
+00:04:32,695 --> 00:04:36,635
+Speaker 2:  Amazon, falling through. But I understand you're still working in robotics
+
+47
+00:04:37,195 --> 00:04:40,875
+Speaker 2:  with a new startup called Familiar Machines and Magic.
+
+48
+00:04:41,255 --> 00:04:44,115
+Speaker 2:  How much can you tell us right now about what, what you're working on?
+
+49
+00:04:45,145 --> 00:04:49,085
+Speaker 7:  Not very much. I mean, darn, we're, we're, we're still in, in stealth mode,
+
+50
+00:04:49,305 --> 00:04:53,085
+Speaker 7:  but I think that it'll be fun to be
+
+51
+00:04:53,085 --> 00:04:57,005
+Speaker 7:  able to sort of pull back the veil, you know, as we get
+
+52
+00:04:57,005 --> 00:05:00,925
+Speaker 7:  toward the end of this year into the next year. And I think that if the name
+
+53
+00:05:00,945 --> 00:05:04,685
+Speaker 7:  is a bit intriguing, what we're doing will be even more so.
+
+54
+00:05:05,145 --> 00:05:05,365
+Speaker 7:  Ooh,
+
+55
+00:05:05,915 --> 00:05:09,285
+Speaker 2:  Good tease for the future. We'll definitely have you back on when we can
+
+56
+00:05:09,285 --> 00:05:13,085
+Speaker 2:  talk more, but today we wanna, we wanna talk about what's going on now, right.
+
+57
+00:05:13,085 --> 00:05:16,805
+Speaker 2:  Today in the state of home robotics. So just to sort of kick us off,
+
+58
+00:05:17,325 --> 00:05:21,205
+Speaker 2:  I kind of wanted to start by getting your thoughts on, on the, the current
+
+59
+00:05:21,275 --> 00:05:25,245
+Speaker 2:  home robotics field, you know, what's good in the space today, what's
+
+60
+00:05:25,425 --> 00:05:28,605
+Speaker 2:  bad, and, you know, what is the potential here to be
+
+61
+00:05:29,065 --> 00:05:31,245
+Speaker 2:  really game changing in home robotics?
+
+62
+00:05:32,555 --> 00:05:35,935
+Speaker 7:  So, you know, a a, you know, Wiley
+
+63
+00:05:36,275 --> 00:05:39,895
+Speaker 7:  Coyote Acme robotics kit was just dropped
+
+64
+00:05:40,085 --> 00:05:43,975
+Speaker 7:  from the heavens on us, so, you know, a year or two ago. And, and
+
+65
+00:05:43,975 --> 00:05:47,735
+Speaker 7:  that obviously was generative AI and
+
+66
+00:05:48,035 --> 00:05:51,695
+Speaker 7:  its remarkable ability to impact
+
+67
+00:05:52,235 --> 00:05:56,095
+Speaker 7:  the entire field of robotics. But even before generative
+
+68
+00:05:56,195 --> 00:06:00,165
+Speaker 7:  ai, I think that the, the industry wr large has been,
+
+69
+00:06:00,885 --> 00:06:04,045
+Speaker 7:  you know, struggled with what is the role
+
+70
+00:06:05,025 --> 00:06:08,925
+Speaker 7:  of robotics in our home, in our everyday
+
+71
+00:06:08,925 --> 00:06:12,885
+Speaker 7:  lives. You know, I I, you know, back when we founded iRobot, if you say,
+
+72
+00:06:12,885 --> 00:06:16,365
+Speaker 7:  okay, 35 years would go by and
+
+73
+00:06:17,665 --> 00:06:19,445
+Speaker 7:  the best we had was
+
+74
+00:06:21,215 --> 00:06:24,285
+Speaker 7:  mainstream floor care. I think that
+
+75
+00:06:25,265 --> 00:06:28,065
+Speaker 7:  I and everyone else who heard that answer would be up in arms
+
+76
+00:06:29,085 --> 00:06:32,385
+Speaker 7:  in violent disappointment that we couldn't do more,
+
+77
+00:06:33,215 --> 00:06:36,585
+Speaker 7:  more rapidly. Yeah, I think we're still learning,
+
+78
+00:06:37,365 --> 00:06:40,945
+Speaker 7:  and even though we have great new tools, we
+
+79
+00:06:41,055 --> 00:06:44,665
+Speaker 7:  shouldn't forget that we hadn't finished learning the first set of
+
+80
+00:06:44,735 --> 00:06:48,415
+Speaker 7:  lessons even prior to getting these new tools.
+
+81
+00:06:49,085 --> 00:06:52,935
+Speaker 2:  Yeah. And now obviously generative AI seems like it's gonna be a big game
+
+82
+00:06:52,935 --> 00:06:56,655
+Speaker 2:  changer for robotics, And I definitely wanna dive a little
+
+83
+00:06:56,655 --> 00:07:00,575
+Speaker 2:  deeper into that or a lot deeper into that. But just in terms of like the
+
+84
+00:07:00,575 --> 00:07:04,295
+Speaker 2:  space today, where do you feel like
+
+85
+00:07:05,165 --> 00:07:09,135
+Speaker 2:  most people have embraced home robotics? I think, I think a
+
+86
+00:07:09,135 --> 00:07:12,535
+Speaker 2:  lot of people don't really realize how many robots they actually have
+
+87
+00:07:12,995 --> 00:07:14,535
+Speaker 2:  in their home today. Yeah. I mean,
+
+88
+00:07:14,595 --> 00:07:18,455
+Speaker 7:  It, it, it gets at what is your definition of a robot, obviously.
+
+89
+00:07:18,675 --> 00:07:20,375
+Speaker 2:  Yes, exactly. What is yours?
+
+90
+00:07:21,795 --> 00:07:24,215
+Speaker 7:  You know, I, I've gone through many different
+
+91
+00:07:25,125 --> 00:07:28,935
+Speaker 7:  generations of, of answering of that question. You know, it, it started out
+
+92
+00:07:28,935 --> 00:07:32,815
+Speaker 7:  with a robot is something that can perceive its environment. Think about
+
+93
+00:07:32,815 --> 00:07:36,615
+Speaker 7:  it, what's it has perceived, and then take in an
+
+94
+00:07:36,615 --> 00:07:40,255
+Speaker 7:  action based on that thinking. But by that definition,
+
+95
+00:07:40,365 --> 00:07:43,855
+Speaker 7:  virtually every device that we have in our world is a robot.
+
+96
+00:07:44,435 --> 00:07:48,295
+Speaker 7:  And I was forced to say, okay, that doesn't quite work anymore. At least
+
+97
+00:07:49,075 --> 00:07:52,895
+Speaker 7:  it doesn't fit with my gut definition. And,
+
+98
+00:07:52,995 --> 00:07:56,895
+Speaker 7:  and evolve to, you know, a robot is
+
+99
+00:07:56,935 --> 00:08:00,855
+Speaker 7:  a machine you name as a imperfect but
+
+100
+00:08:01,695 --> 00:08:05,465
+Speaker 7:  more accurate description of, of what a robot
+
+101
+00:08:05,475 --> 00:08:09,225
+Speaker 7:  might mean. Because I think that there's an
+
+102
+00:08:09,285 --> 00:08:13,065
+Speaker 7:  aspect of the, of my interpretation of what robot
+
+103
+00:08:13,555 --> 00:08:17,235
+Speaker 7:  means that involves a human connection of
+
+104
+00:08:17,265 --> 00:08:20,875
+Speaker 7:  some sort. And the, that human
+
+105
+00:08:20,885 --> 00:08:24,075
+Speaker 7:  connection is crucial
+
+106
+00:08:25,095 --> 00:08:28,715
+Speaker 7:  in a class of machine, which goes
+
+107
+00:08:28,815 --> 00:08:32,795
+Speaker 7:  beyond pure function into support
+
+108
+00:08:32,815 --> 00:08:36,355
+Speaker 7:  and relationship. And so by that
+
+109
+00:08:36,355 --> 00:08:40,315
+Speaker 7:  definition, there's a lot fewer robots out there, and there
+
+110
+00:08:40,315 --> 00:08:43,155
+Speaker 7:  may be some things that are technologically
+
+111
+00:08:44,255 --> 00:08:47,665
+Speaker 7:  simple and yet fit the definition.
+
+112
+00:08:48,165 --> 00:08:50,625
+Speaker 2:  Thi this is something that I've been struggling with and one of the reasons
+
+113
+00:08:50,705 --> 00:08:54,265
+Speaker 2:  I wanted to have you on to really dive into this. So I've spent a lot of
+
+114
+00:08:54,265 --> 00:08:57,725
+Speaker 2:  time with the robots that you were originally describing, not the ones that
+
+115
+00:08:57,765 --> 00:09:01,685
+Speaker 2:  I necessarily named. So like the vacuums, the robot lawn mowers, the
+
+116
+00:09:01,695 --> 00:09:05,405
+Speaker 2:  robot kitty litter, things that have a purpose and have some
+
+117
+00:09:05,405 --> 00:09:08,405
+Speaker 2:  intelligence because they know to do something at a certain time or when
+
+118
+00:09:08,405 --> 00:09:12,325
+Speaker 2:  something happens, rather than me having to direct it, then we've,
+
+119
+00:09:12,505 --> 00:09:16,005
+Speaker 2:  you know, anyone that's been in the smart home at all, the dream that's sort
+
+120
+00:09:16,005 --> 00:09:19,885
+Speaker 2:  of been forced on us has always been this rosy, the robot, she
+
+121
+00:09:19,945 --> 00:09:23,605
+Speaker 2:  was a character in a cartoon, the Jetsons from the sixties
+
+122
+00:09:23,835 --> 00:09:27,405
+Speaker 2:  that has sort of long been held up, not so much as what we
+
+123
+00:09:27,645 --> 00:09:30,925
+Speaker 2:  ultimately want in a robot, but sort of an inspirational
+
+124
+00:09:31,745 --> 00:09:35,245
+Speaker 2:  device for what we may see in our home. A
+
+125
+00:09:36,015 --> 00:09:39,965
+Speaker 2:  multimodal humanoid robot that can do
+
+126
+00:09:39,985 --> 00:09:43,725
+Speaker 2:  chores for us, that can do the laundry, that can wash the windows, that can
+
+127
+00:09:43,725 --> 00:09:47,165
+Speaker 2:  make dinner, that can play with the kid, that can do, do these
+
+128
+00:09:47,345 --> 00:09:51,085
+Speaker 2:  chores. And, and, and then as you say, and in, in the Jetsons, this is
+
+129
+00:09:51,085 --> 00:09:54,925
+Speaker 2:  very, very much part of the character becomes part of the
+
+130
+00:09:54,925 --> 00:09:57,925
+Speaker 2:  family. And that's, you know, that's an, that's an area where it starts to
+
+131
+00:09:57,925 --> 00:10:01,325
+Speaker 2:  obviously get to another level. But in terms of the actual
+
+132
+00:10:01,435 --> 00:10:05,005
+Speaker 2:  technical achievement that we are looking at towards getting
+
+133
+00:10:06,005 --> 00:10:09,405
+Speaker 2:  a humanoid robot in our home, a rosy, the robot
+
+134
+00:10:10,205 --> 00:10:13,605
+Speaker 2:  inspired robot, do you feel like we are close to that?
+
+135
+00:10:14,025 --> 00:10:17,845
+Speaker 2:  And if, if yes, if not, what is the tech that's kind of
+
+136
+00:10:17,845 --> 00:10:20,165
+Speaker 2:  pushing us to that? And do we want that?
+
+137
+00:10:21,355 --> 00:10:25,245
+Speaker 7:  Well, I think that the, do we want that or when do we want
+
+138
+00:10:25,245 --> 00:10:28,965
+Speaker 7:  that is maybe the more interesting question
+
+139
+00:10:29,275 --> 00:10:32,045
+Speaker 7:  from the can we
+
+140
+00:10:32,635 --> 00:10:32,925
+Speaker 2:  Yeah.
+
+141
+00:10:33,755 --> 00:10:36,655
+Speaker 7:  Because you know, it is certainly
+
+142
+00:10:37,355 --> 00:10:41,215
+Speaker 7:  within the realm of technology that exists today
+
+143
+00:10:41,315 --> 00:10:44,975
+Speaker 7:  to do something rosy. Like, could we build
+
+144
+00:10:45,085 --> 00:10:45,735
+Speaker 7:  such a thing?
+
+145
+00:10:46,245 --> 00:10:46,535
+Speaker 2:  Yeah,
+
+146
+00:10:47,605 --> 00:10:51,435
+Speaker 7:  Yeah. You could build that. Is there a demand for it or is it
+
+147
+00:10:51,665 --> 00:10:55,645
+Speaker 7:  what we really want today? No, not at all.
+
+148
+00:10:56,645 --> 00:11:00,605
+Speaker 7:  Humanity has a long way to go before Rosie
+
+149
+00:11:01,465 --> 00:11:05,285
+Speaker 7:  is what we really want. In fact, one of my
+
+150
+00:11:05,285 --> 00:11:08,845
+Speaker 7:  journey, my journey at, in, at iRobot, the question of
+
+151
+00:11:09,535 --> 00:11:12,565
+Speaker 7:  after vacuuming, what do people want?
+
+152
+00:11:13,625 --> 00:11:17,605
+Speaker 7:  And even within the realm of floor care, what did it
+
+153
+00:11:17,605 --> 00:11:21,485
+Speaker 7:  take to grow to the point we are today
+
+154
+00:11:21,575 --> 00:11:25,165
+Speaker 7:  where robot vacuuming is generally
+
+155
+00:11:25,525 --> 00:11:29,325
+Speaker 7:  accepted as a mainstream alternative to upright
+
+156
+00:11:29,355 --> 00:11:32,845
+Speaker 7:  vacuuming? One of the things that I got most wrong
+
+157
+00:11:33,345 --> 00:11:37,045
+Speaker 7:  in the early days of Roomba was imagining
+
+158
+00:11:37,675 --> 00:11:41,645
+Speaker 7:  that the perfect Roomba was a Roomba. You never saw, you never touched,
+
+159
+00:11:41,705 --> 00:11:45,005
+Speaker 7:  you just came home every day to a perfectly clean home.
+
+160
+00:11:45,665 --> 00:11:49,525
+Speaker 7:  And that was completely wrong. The perfect Roomba was the
+
+161
+00:11:49,525 --> 00:11:53,285
+Speaker 7:  Roomba that cleaned around your kitchen table, did a great
+
+162
+00:11:53,345 --> 00:11:57,185
+Speaker 7:  job eventually earning your trust that it
+
+163
+00:11:57,185 --> 00:12:00,625
+Speaker 7:  could actually do that job, at which point you would give it
+
+164
+00:12:00,625 --> 00:12:04,265
+Speaker 7:  permission to clean the rest of the kitchen, at which point,
+
+165
+00:12:04,315 --> 00:12:07,705
+Speaker 7:  after proving that it could successfully clean the kitchen,
+
+166
+00:12:08,765 --> 00:12:12,585
+Speaker 7:  you would give it permission to do more. And so that
+
+167
+00:12:13,125 --> 00:12:16,625
+Speaker 7:  people don't instantly trust technology.
+
+168
+00:12:17,365 --> 00:12:18,225
+Speaker 2:  That's very true.
+
+169
+00:12:18,685 --> 00:12:22,585
+Speaker 7:  And so that this fundamental disconnect between what is technologically easy
+
+170
+00:12:22,685 --> 00:12:25,625
+Speaker 7:  and what do people want their technology to do,
+
+171
+00:12:26,845 --> 00:12:30,465
+Speaker 7:  create real barriers to progressing
+
+172
+00:12:31,095 --> 00:12:33,665
+Speaker 7:  down the path of customer acceptance.
+
+173
+00:12:34,575 --> 00:12:38,305
+Speaker 2:  Yeah. I mean, your example there of saying, well, I, I'll try one thing and
+
+174
+00:12:38,305 --> 00:12:41,465
+Speaker 2:  if it does it well, I might let it do the next thing that I can see that
+
+175
+00:12:41,635 --> 00:12:45,465
+Speaker 2:  logic. And, but we are seeing companies with
+
+176
+00:12:45,465 --> 00:12:48,985
+Speaker 2:  these humanoid robots, In fact just recently figure,
+
+177
+00:12:49,295 --> 00:12:52,625
+Speaker 2:  they're really all really pushing hard on
+
+178
+00:12:53,025 --> 00:12:56,705
+Speaker 2:  their own generative AI models that use vision,
+
+179
+00:12:57,105 --> 00:13:01,025
+Speaker 2:  language action to create these humanoid robots. They have a video
+
+180
+00:13:01,275 --> 00:13:05,185
+Speaker 2:  where gentlemen is told these two robots to put the groceries away and
+
+181
+00:13:05,185 --> 00:13:08,825
+Speaker 2:  they, you we see these humanoid robots actually sorting the
+
+182
+00:13:08,825 --> 00:13:12,625
+Speaker 2:  groceries, passing them back and forth to each other, putting them
+
+183
+00:13:12,685 --> 00:13:16,345
+Speaker 2:  in, you know, the fridge or in the pantry. If these
+
+184
+00:13:16,345 --> 00:13:20,305
+Speaker 2:  humanoid robots could really do so much more for people in their homes,
+
+185
+00:13:21,065 --> 00:13:24,825
+Speaker 2:  I think I could see where people might be drawn to them. Right now
+
+186
+00:13:24,955 --> 00:13:28,945
+Speaker 2:  we're not spending $10,000 for, for a robot to
+
+187
+00:13:28,945 --> 00:13:32,625
+Speaker 2:  do this, but this kind of is the, you know, the future Rosie,
+
+188
+00:13:32,805 --> 00:13:35,945
+Speaker 2:  the Rosie that, I guess when we're talking about the science fiction of the
+
+189
+00:13:35,945 --> 00:13:39,505
+Speaker 2:  humanoid robot, this is probably what people envision. What do you think
+
+190
+00:13:39,505 --> 00:13:43,305
+Speaker 2:  about this type of robot? I mean there's the Tesla Optimus, there's Boston
+
+191
+00:13:43,345 --> 00:13:47,225
+Speaker 2:  Dynamics Atlas. I mean, we've seen these being developed and
+
+192
+00:13:47,785 --> 00:13:51,585
+Speaker 2:  although mostly for industrial applications, you know,
+
+193
+00:13:51,765 --> 00:13:55,705
+Speaker 2:  figure and Tesla have very much expressed their desire
+
+194
+00:13:55,705 --> 00:13:57,225
+Speaker 2:  to push into the home. So
+
+195
+00:13:58,185 --> 00:14:01,985
+Speaker 7:  I mean, technologically, this is a marvel. I mean this is
+
+196
+00:14:02,425 --> 00:14:06,265
+Speaker 7:  incredibly exciting, but is it a product
+
+197
+00:14:06,775 --> 00:14:10,605
+Speaker 7:  that people want? Yeah. And if so, why?
+
+198
+00:14:11,705 --> 00:14:15,685
+Speaker 7:  You know, it's, that's a completely different question. And and forgetting
+
+199
+00:14:15,785 --> 00:14:19,325
+Speaker 7:  to get good answers to that question can lead you to,
+
+200
+00:14:20,825 --> 00:14:24,805
+Speaker 7:  you know, making some mistakes as far as where you put
+
+201
+00:14:24,805 --> 00:14:28,125
+Speaker 7:  your energy. Yeah. So I mean I'm, I think that is a
+
+202
+00:14:28,235 --> 00:14:31,965
+Speaker 7:  magnificent video of robotic competence.
+
+203
+00:14:32,765 --> 00:14:36,525
+Speaker 7:  I think it is irrelevant from the perspective of
+
+204
+00:14:37,505 --> 00:14:41,485
+Speaker 7:  any kind of realistic vision for robots in
+
+205
+00:14:41,485 --> 00:14:45,245
+Speaker 7:  the home. Yeah. Because it's, is that really
+
+206
+00:14:45,405 --> 00:14:45,725
+Speaker 7:  a problem?
+
+207
+00:14:46,815 --> 00:14:50,245
+Speaker 2:  Right. Most of us could put our groceries away relatively easily.
+
+208
+00:14:52,825 --> 00:14:56,605
+Speaker 7:  You know, at iRobot we would create a graph where
+
+209
+00:14:56,785 --> 00:15:00,245
+Speaker 7:  on one axis of the graph it was activities,
+
+210
+00:15:00,905 --> 00:15:04,685
+Speaker 7:  the frequency with which an activity was done in the home.
+
+211
+00:15:05,305 --> 00:15:08,885
+Speaker 7:  And then on the other graph was how much was that activity
+
+212
+00:15:09,655 --> 00:15:10,005
+Speaker 7:  hated,
+
+213
+00:15:12,025 --> 00:15:13,045
+Speaker 7:  you know? And so that if
+
+214
+00:15:13,325 --> 00:15:14,605
+Speaker 2:  Emptying the dishwasher,
+
+215
+00:15:16,195 --> 00:15:19,645
+Speaker 7:  Well, I mean, so emptying the dishwasher, okay, there's something that's
+
+216
+00:15:19,805 --> 00:15:20,365
+Speaker 7:  disliked
+
+217
+00:15:20,665 --> 00:15:21,645
+Speaker 2:  And done frequently.
+
+218
+00:15:22,555 --> 00:15:26,165
+Speaker 7:  Okay. And, you know, vacuuming
+
+219
+00:15:27,185 --> 00:15:30,765
+Speaker 7:  was done also frequently and
+
+220
+00:15:30,845 --> 00:15:34,805
+Speaker 7:  disliked mopping was disliked so much that
+
+221
+00:15:34,805 --> 00:15:38,045
+Speaker 7:  it wasn't done frequently. And people would
+
+222
+00:15:38,815 --> 00:15:42,245
+Speaker 7:  value the mopping robot far, far less
+
+223
+00:15:42,995 --> 00:15:46,765
+Speaker 7:  than the vacuuming robot, simply because they had trained
+
+224
+00:15:46,765 --> 00:15:49,965
+Speaker 7:  themselves to be okay without mopping
+
+225
+00:15:50,415 --> 00:15:53,365
+Speaker 7:  every day. And so that they, they sort of mentally
+
+226
+00:15:53,745 --> 00:15:56,245
+Speaker 2:  Didn't have to be done. It didn't feel like it had to be done.
+
+227
+00:15:56,245 --> 00:16:00,205
+Speaker 7:  It had to be done so that, you know, and ultimately mopping as a standalone
+
+228
+00:16:00,495 --> 00:16:03,765
+Speaker 7:  robot failed, it became at best
+
+229
+00:16:04,965 --> 00:16:08,165
+Speaker 7:  differentiator if you could buy a vacuum that mopped two
+
+230
+00:16:08,755 --> 00:16:12,685
+Speaker 7:  that was better than a vacuum that didn't mop. And so it was a
+
+231
+00:16:12,685 --> 00:16:15,845
+Speaker 7:  secondary feature that had some differentiating benefit.
+
+232
+00:16:16,625 --> 00:16:20,165
+Speaker 7:  And you know, you, you talk about emptying the dishwasher. I mean, I think
+
+233
+00:16:20,165 --> 00:16:24,005
+Speaker 7:  that's interesting because it is done frequently and it is
+
+234
+00:16:24,245 --> 00:16:27,405
+Speaker 7:  disliked, in which case you say, okay, well how much
+
+235
+00:16:28,195 --> 00:16:32,065
+Speaker 7:  would you be willing to pay to not have
+
+236
+00:16:32,065 --> 00:16:32,665
+Speaker 7:  to do that?
+
+237
+00:16:34,445 --> 00:16:34,665
+Speaker 7:  And
+
+238
+00:16:35,085 --> 00:16:37,505
+Speaker 2:  $20, that's how much I pay my daughter a month,
+
+239
+00:16:38,485 --> 00:16:41,305
+Speaker 7:  $20 a month to empty the
+
+240
+00:16:41,305 --> 00:16:44,425
+Speaker 2:  Dishwash. Not the same as buying a humanoid robot from Tesla.
+
+241
+00:16:45,145 --> 00:16:46,625
+Speaker 7:  I mean, this is where it gets hard.
+
+242
+00:16:47,015 --> 00:16:47,305
+Speaker 2:  Yeah.
+
+243
+00:16:48,205 --> 00:16:51,955
+Speaker 7:  You know, and, and trying, you know, I think that it makes
+
+244
+00:16:51,955 --> 00:16:55,755
+Speaker 7:  sense to me that so much energy is going into sort of
+
+245
+00:16:55,915 --> 00:16:59,875
+Speaker 7:  B2B applications. Yeah. Because you can sit down
+
+246
+00:16:59,875 --> 00:17:02,595
+Speaker 7:  with a spreadsheet and you can decide
+
+247
+00:17:03,945 --> 00:17:07,835
+Speaker 7:  what needs to be true in order for your
+
+248
+00:17:08,045 --> 00:17:11,955
+Speaker 7:  robot to be economically viable. Now you may not like
+
+249
+00:17:11,955 --> 00:17:15,555
+Speaker 7:  that math, but at least it's doable math.
+
+250
+00:17:15,865 --> 00:17:19,745
+Speaker 7:  Yeah. You know, and when you start to say,
+
+251
+00:17:19,775 --> 00:17:23,185
+Speaker 7:  okay, let's just vision cast into the home
+
+252
+00:17:23,875 --> 00:17:27,865
+Speaker 7:  where we can make some holy cow, that's ridiculously
+
+253
+00:17:27,865 --> 00:17:31,625
+Speaker 7:  awesome kinds of videos, but does that translate
+
+254
+00:17:31,935 --> 00:17:35,625
+Speaker 7:  into people opening their wallet for it? Yeah.
+
+255
+00:17:35,925 --> 00:17:39,625
+Speaker 7:  You know, that's a whole different world that
+
+256
+00:17:40,415 --> 00:17:44,115
+Speaker 7:  the industry of physical AI is going to have to be very careful of
+
+257
+00:17:44,855 --> 00:17:48,835
+Speaker 7:  or else, you know, we're going to be sitting, you
+
+258
+00:17:48,835 --> 00:17:52,045
+Speaker 7:  know, 10, 20 years from now feeling like,
+
+259
+00:17:52,785 --> 00:17:56,325
+Speaker 7:  gee, not much progress has been made because
+
+260
+00:17:57,265 --> 00:18:01,125
+Speaker 7:  not many of these robots have been sold. And the other thing that
+
+261
+00:18:01,185 --> 00:18:05,125
+Speaker 7:  is, you know, I've been on both sides of, but I sort of had
+
+262
+00:18:05,125 --> 00:18:08,765
+Speaker 7:  to based on brutal experience,
+
+263
+00:18:08,905 --> 00:18:12,765
+Speaker 7:  except the fact that general purpose robotics
+
+264
+00:18:13,955 --> 00:18:17,485
+Speaker 7:  doesn't translate well into product.
+
+265
+00:18:18,235 --> 00:18:18,525
+Speaker 2:  Yeah.
+
+266
+00:18:18,915 --> 00:18:22,725
+Speaker 7:  Meaning that if you said, well, putting away the dishes is worth $20
+
+267
+00:18:22,845 --> 00:18:26,765
+Speaker 7:  a month, folding the laundry is worth $30 a month, pushing
+
+268
+00:18:26,925 --> 00:18:30,845
+Speaker 7:  a vacuum cleaner is worth $5 a month. And so that the
+
+269
+00:18:30,845 --> 00:18:33,885
+Speaker 7:  value of this robot is the sum of all those values
+
+270
+00:18:35,515 --> 00:18:39,405
+Speaker 7:  doesn't actually work, at least not in traditional
+
+271
+00:18:40,005 --> 00:18:43,925
+Speaker 7:  consumer behavior. And so that it's more like add up all the applications
+
+272
+00:18:44,065 --> 00:18:47,165
+Speaker 7:  and if five of them then divide by five
+
+273
+00:18:47,905 --> 00:18:51,725
+Speaker 7:  or pick the one that the consumer's gonna actually
+
+274
+00:18:51,795 --> 00:18:55,725
+Speaker 7:  want, and then that's the value. And So if you had all these things, one
+
+275
+00:18:55,725 --> 00:18:59,325
+Speaker 7:  of them was the, the $5 push of vacuum, then It could be
+
+276
+00:18:59,665 --> 00:19:03,565
+Speaker 7:  the $5 is the perceived value. And people don't do
+
+277
+00:19:04,315 --> 00:19:07,885
+Speaker 7:  summation of benefit math in their head very
+
+278
+00:19:08,755 --> 00:19:09,045
+Speaker 7:  well.
+
+279
+00:19:09,865 --> 00:19:13,765
+Speaker 2:  You know, you're talking here about how we should focus on the use case,
+
+280
+00:19:14,305 --> 00:19:18,205
+Speaker 2:  but there is a lot of interest in some type of
+
+281
+00:19:18,885 --> 00:19:22,685
+Speaker 2:  sentient robot in our homes. I mean we have seen
+
+282
+00:19:22,745 --> 00:19:26,285
+Speaker 2:  in the last five or six years more recently,
+
+283
+00:19:26,995 --> 00:19:30,845
+Speaker 2:  Samsung, lg, Amazon, all coming up with their
+
+284
+00:19:30,845 --> 00:19:34,245
+Speaker 2:  own home robot that doesn't really do anything
+
+285
+00:19:35,705 --> 00:19:39,685
+Speaker 2:  but does have a position in the home. And, and what
+
+286
+00:19:39,685 --> 00:19:43,485
+Speaker 2:  that position in the home is is still very fuzzy.
+
+287
+00:19:44,055 --> 00:19:47,845
+Speaker 2:  We've got Samsung's barley and then Amazon's
+
+288
+00:19:47,855 --> 00:19:51,765
+Speaker 2:  Astro, which I actually tested in my home and it was very cute and it had
+
+289
+00:19:51,765 --> 00:19:54,805
+Speaker 2:  a lot of personality. To your point earlier about having something in your
+
+290
+00:19:54,805 --> 00:19:58,005
+Speaker 2:  home that you have a connection with.
+
+291
+00:19:58,625 --> 00:20:02,205
+Speaker 2:  Our former deputy editor, Dan Seaford, actually described that
+
+292
+00:20:02,335 --> 00:20:06,205
+Speaker 2:  astro as a love child between a Roomba and an Echo show smart display,
+
+293
+00:20:06,205 --> 00:20:09,805
+Speaker 2:  which I think was the best way of suming summarizing that creature,
+
+294
+00:20:09,825 --> 00:20:13,325
+Speaker 2:  except for it couldn't vacuum, it didn't have an actual
+
+295
+00:20:13,715 --> 00:20:17,525
+Speaker 2:  obvious purpose. We've seen Apple has been working on
+
+296
+00:20:18,105 --> 00:20:21,565
+Speaker 2:  as a tabletop robot with sort of
+
+297
+00:20:21,635 --> 00:20:24,885
+Speaker 2:  personality, they did a whole sort of white paper on
+
+298
+00:20:26,085 --> 00:20:29,805
+Speaker 2:  investigating the value of having sort of a connection to the
+
+299
+00:20:29,895 --> 00:20:33,125
+Speaker 2:  robot. Yeah. And when you were a iRobot, you And I talked about
+
+300
+00:20:33,675 --> 00:20:37,525
+Speaker 2:  this a few times, you were developing something called an iRobot os, which
+
+301
+00:20:37,525 --> 00:20:40,965
+Speaker 2:  was, which is still, you know, something that the robots have rumors have
+
+302
+00:20:40,965 --> 00:20:44,645
+Speaker 2:  worked on for the last few years, an operating system. And it gives the
+
+303
+00:20:44,785 --> 00:20:47,510
+Speaker 2:  robots, and these were your words at the time, I think like, like a deeper
+
+304
+00:20:47,510 --> 00:20:51,285
+Speaker 2:  understanding of your home and your habits so that they can clean harder
+
+305
+00:20:51,385 --> 00:20:55,285
+Speaker 2:  and smarter. So, and at the time, I think when this happened, I
+
+306
+00:20:55,285 --> 00:20:58,845
+Speaker 2:  surmised that this was one of the reasons that Amazon wanted to buy
+
+307
+00:20:59,145 --> 00:21:02,845
+Speaker 2:  iRobot because it was creating this kind of purpose
+
+308
+00:21:03,745 --> 00:21:07,565
+Speaker 2:  for robotics in the home. Like a central intelligence,
+
+309
+00:21:07,805 --> 00:21:11,605
+Speaker 2:  I suppose, of your smart home, a robot that knew what was
+
+310
+00:21:11,605 --> 00:21:15,445
+Speaker 2:  happening in your home. So do you think that kind of central
+
+311
+00:21:15,445 --> 00:21:19,005
+Speaker 2:  intelligent device in the home is kind of the key to
+
+312
+00:21:19,005 --> 00:21:22,845
+Speaker 2:  unlocking that value of the domestic robot? Is that what l LG and
+
+313
+00:21:22,845 --> 00:21:26,765
+Speaker 2:  Samsung and Amazon are sort of working towards and what's
+
+314
+00:21:26,765 --> 00:21:28,165
+Speaker 2:  that gonna look like when we get it?
+
+315
+00:21:29,115 --> 00:21:32,885
+Speaker 7:  It's a great question And I have many
+
+316
+00:21:32,885 --> 00:21:36,605
+Speaker 7:  opinions, but the, you know, to try to
+
+317
+00:21:36,705 --> 00:21:40,325
+Speaker 7:  unpack the question down to, you know, what was
+
+318
+00:21:41,025 --> 00:21:44,165
+Speaker 7:  iRobot os about, what might the smart home be?
+
+319
+00:21:44,825 --> 00:21:47,845
+Speaker 7:  You know, you brought up Rosie and, and if you talk to anyone
+
+320
+00:21:48,745 --> 00:21:52,365
+Speaker 7:  who has been living the smart home challenge,
+
+321
+00:21:54,515 --> 00:21:58,365
+Speaker 7:  there's a, a first question in approach. And that is,
+
+322
+00:21:58,505 --> 00:22:01,885
+Speaker 7:  are you trying to build Rosie the robot or the Starship Enterprise?
+
+323
+00:22:02,705 --> 00:22:05,965
+Speaker 2:  Yes. Well, and you know, that's what Amazon's trying to build with Alexa.
+
+324
+00:22:06,115 --> 00:22:08,125
+Speaker 2:  It's like these two things coming together. Right.
+
+325
+00:22:08,835 --> 00:22:12,725
+Speaker 7:  Well obviously, you know, Rosie, the robot would be the general
+
+326
+00:22:12,725 --> 00:22:14,485
+Speaker 7:  purpose robot that does everything in your home.
+
+327
+00:22:14,715 --> 00:22:15,005
+Speaker 2:  Yeah.
+
+328
+00:22:15,465 --> 00:22:19,365
+Speaker 7:  The Starship Enterprise is the home is the robot.
+
+329
+00:22:19,905 --> 00:22:23,885
+Speaker 7:  And so, you know, the Roomba is a, a white blood cell.
+
+330
+00:22:24,265 --> 00:22:28,245
+Speaker 7:  The thing that changes the thermostat is, is you know, a a, you know, a
+
+331
+00:22:28,245 --> 00:22:32,005
+Speaker 7:  control system in, in the body and, and you know, maybe the
+
+332
+00:22:32,035 --> 00:22:35,645
+Speaker 7:  eyelids or the opening and closing of the shades in your home. And the,
+
+333
+00:22:35,985 --> 00:22:39,765
+Speaker 7:  if you can think about the home as the
+
+334
+00:22:39,895 --> 00:22:43,675
+Speaker 7:  robot, then it leads you down a very
+
+335
+00:22:44,035 --> 00:22:47,475
+Speaker 7:  interesting path, which to date,
+
+336
+00:22:47,905 --> 00:22:51,755
+Speaker 7:  there's been a one of these barrier tapes across
+
+337
+00:22:52,165 --> 00:22:56,115
+Speaker 7:  after you take the first three steps and the barrier tape across
+
+338
+00:22:56,335 --> 00:23:00,115
+Speaker 7:  the journey toward building the Starship Enterprise is
+
+339
+00:23:01,085 --> 00:23:04,825
+Speaker 7:  complexity overload. Right. I mean the Right, the you.
+
+340
+00:23:05,015 --> 00:23:08,465
+Speaker 7:  Okay, I love this idea. I'm just gonna go incrementally add things to my
+
+341
+00:23:08,465 --> 00:23:12,425
+Speaker 7:  home and when I have enough things, I'll be able
+
+342
+00:23:12,425 --> 00:23:16,025
+Speaker 7:  to say computer make my housework and
+
+343
+00:23:16,355 --> 00:23:19,985
+Speaker 7:  everything will, will magically happen. And I'll feel like I'm living
+
+344
+00:23:20,085 --> 00:23:23,625
+Speaker 7:  inside a caring dwelling that looks after me,
+
+345
+00:23:24,165 --> 00:23:27,825
+Speaker 7:  except for it doesn't work. The maintenance of
+
+346
+00:23:28,215 --> 00:23:31,895
+Speaker 7:  this home of the I as the robot concept
+
+347
+00:23:32,835 --> 00:23:36,815
+Speaker 7:  has been blocked by complexity. So Acme
+
+348
+00:23:36,815 --> 00:23:40,575
+Speaker 7:  toolkit comes down, you need to have an
+
+349
+00:23:40,605 --> 00:23:42,655
+Speaker 7:  architect willing to
+
+350
+00:23:44,075 --> 00:23:47,285
+Speaker 7:  prioritize consumer experience over
+
+351
+00:23:47,635 --> 00:23:51,125
+Speaker 7:  inclusiveness and force
+
+352
+00:23:51,675 --> 00:23:55,485
+Speaker 7:  some of the, you know, that usability
+
+353
+00:23:55,655 --> 00:23:59,085
+Speaker 7:  magic that made the iPhone such a success.
+
+354
+00:24:00,265 --> 00:24:03,565
+Speaker 7:  And, you know, we can start to see
+
+355
+00:24:04,065 --> 00:24:07,605
+Speaker 7:  the Starship Enterprise take shape. And I think applying
+
+356
+00:24:08,055 --> 00:24:11,525
+Speaker 7:  generative ai, the, the ability to
+
+357
+00:24:11,785 --> 00:24:15,645
+Speaker 7:  unlock perception, to extract user
+
+358
+00:24:15,865 --> 00:24:19,445
+Speaker 7:  intent without burdening the user with complexity,
+
+359
+00:24:20,535 --> 00:24:23,625
+Speaker 7:  that is a very interesting journey.
+
+360
+00:24:24,565 --> 00:24:28,345
+Speaker 7:  And the cool thing about the home is the robot or the Starship
+
+361
+00:24:28,345 --> 00:24:32,305
+Speaker 7:  Enterprise metaphor is you already own the Starship Enterprise. And so
+
+362
+00:24:32,305 --> 00:24:36,185
+Speaker 7:  that you're just adding little things and so that some of the investment
+
+363
+00:24:36,295 --> 00:24:40,225
+Speaker 7:  dollars required can be minimized and, and
+
+364
+00:24:40,965 --> 00:24:44,465
+Speaker 7:  you can go buy the thing, the function you want to add your home and it just,
+
+365
+00:24:44,685 --> 00:24:47,945
+Speaker 7:  it can sort of incrementally do what you
+
+366
+00:24:48,445 --> 00:24:52,425
+Speaker 7:  expect. And so I feel like, you know, I'm not sure these
+
+367
+00:24:52,425 --> 00:24:56,185
+Speaker 7:  attempts at rolling something down the middle of the,
+
+368
+00:24:56,205 --> 00:24:59,585
+Speaker 7:  of Rosie and, and the Starship Enterprise are, are
+
+369
+00:24:59,835 --> 00:25:03,745
+Speaker 7:  strategies that I would advocate, you know, once you have the, the Starship
+
+370
+00:25:03,745 --> 00:25:07,545
+Speaker 7:  Enterprise, maybe there's a GS the butler that
+
+371
+00:25:08,005 --> 00:25:11,825
+Speaker 7:  has a role, but it's, its role is to interact with people.
+
+372
+00:25:11,825 --> 00:25:15,785
+Speaker 7:  And so go build it in a way that interacts with people. If that has
+
+373
+00:25:16,455 --> 00:25:19,785
+Speaker 7:  emerged as something being sufficiently valuable that people would pay
+
+374
+00:25:20,345 --> 00:25:23,865
+Speaker 7:  X thousand dollars to have that. And maybe that's the humanoid Yeah. 'cause
+
+375
+00:25:23,865 --> 00:25:27,705
+Speaker 7:  then it's the humanoid being used for its core
+
+376
+00:25:28,105 --> 00:25:31,705
+Speaker 7:  functionality. Yeah. And I think that that's an in very interesting
+
+377
+00:25:31,705 --> 00:25:35,465
+Speaker 7:  direction that I think the smart home
+
+378
+00:25:36,035 --> 00:25:39,385
+Speaker 7:  would go, but the common trip up
+
+379
+00:25:39,925 --> 00:25:43,345
+Speaker 7:  is everyone thinks they can run through that yellow barrier tape and it's
+
+380
+00:25:43,345 --> 00:25:46,985
+Speaker 7:  just gonna be okay. And they get tangled and nearly
+
+381
+00:25:47,135 --> 00:25:50,945
+Speaker 7:  decapitated as a result of ignoring that being
+
+382
+00:25:51,055 --> 00:25:53,945
+Speaker 7:  fundamental problem of the Starship enterprise. The
+
+383
+00:25:54,305 --> 00:25:54,745
+Speaker 2:  Complexity
+
+384
+00:25:54,815 --> 00:25:56,265
+Speaker 7:  Complex. The complexity, yeah.
+
+385
+00:25:56,415 --> 00:26:00,065
+Speaker 2:  Well, and now the Starship Enterprise was run by a central computer.
+
+386
+00:26:00,405 --> 00:26:03,905
+Speaker 2:  So for this home as a computer to work, we need that central
+
+387
+00:26:04,425 --> 00:26:05,225
+Speaker 2:  intelligence.
+
+388
+00:26:05,705 --> 00:26:08,305
+Speaker 7:  I mean, and that, and that's another benefit of the Starship Enterprise.
+
+389
+00:26:08,465 --> 00:26:11,305
+Speaker 7:  'cause that could be up in the cloud and be very
+
+390
+00:26:12,345 --> 00:26:15,625
+Speaker 7:  efficient. You know, it, you know, the most expensive possible thing to do
+
+391
+00:26:15,625 --> 00:26:19,465
+Speaker 7:  with that compute is put it on a wheeled platform or something. I mean
+
+392
+00:26:19,495 --> 00:26:21,065
+Speaker 7:  it's why would you do that?
+
+393
+00:26:21,405 --> 00:26:24,865
+Speaker 2:  Making it in. Yeah. But, but what we do have today already are voice
+
+394
+00:26:24,865 --> 00:26:28,825
+Speaker 2:  assistants and we are seeing the slow painful shift
+
+395
+00:26:29,325 --> 00:26:32,985
+Speaker 2:  of the voice assistant from the command and control device
+
+396
+00:26:33,055 --> 00:26:36,265
+Speaker 2:  like, like a robot command and control to the generative AI
+
+397
+00:26:36,625 --> 00:26:40,265
+Speaker 2:  intelligence infused voice assistant like Alexa Plus, which has
+
+398
+00:26:40,505 --> 00:26:44,205
+Speaker 2:  recently launched to some, and Google assistant and
+
+399
+00:26:44,265 --> 00:26:48,045
+Speaker 2:  Amazon, I mean, Apple's Siri is supposedly undergoing a transformation.
+
+400
+00:26:48,105 --> 00:26:51,885
+Speaker 2:  So is that really the rosy of the future? Like this sort of sentient
+
+401
+00:26:51,975 --> 00:26:53,485
+Speaker 2:  being in the home
+
+402
+00:26:54,185 --> 00:26:57,685
+Speaker 7:  If you buy into building the Starship enterprise? Yeah.
+
+403
+00:26:58,315 --> 00:27:02,085
+Speaker 7:  Then one of the best parts of the acne toolkit
+
+404
+00:27:03,265 --> 00:27:07,205
+Speaker 7:  is speaker independent natural language command and interface with
+
+405
+00:27:07,595 --> 00:27:09,965
+Speaker 7:  with the enterprise. Yes. Because
+
+406
+00:27:10,625 --> 00:27:11,445
+Speaker 2:  That's what I want.
+
+407
+00:27:12,175 --> 00:27:15,365
+Speaker 7:  Right. Right. I mean it's the, you know, we had
+
+408
+00:27:16,015 --> 00:27:19,525
+Speaker 7:  voice connection with Roomba for
+
+409
+00:27:20,285 --> 00:27:24,125
+Speaker 7:  a very, very long time and it was unfortunately
+
+410
+00:27:24,125 --> 00:27:27,245
+Speaker 7:  disappointing how rarely that got used.
+
+411
+00:27:27,515 --> 00:27:31,205
+Speaker 2:  Yeah. It had to be so precise. You had to remember the
+
+412
+00:27:31,255 --> 00:27:34,925
+Speaker 2:  exact phrasing. And I remember, I mean, Roomba had like, what, like 600
+
+413
+00:27:34,965 --> 00:27:38,485
+Speaker 2:  commands you could use, but no one can remember all of those.
+
+414
+00:27:38,785 --> 00:27:39,125
+Speaker 2:  So they
+
+415
+00:27:39,125 --> 00:27:41,765
+Speaker 7:  Would Well it was actually much, much, much larger than that because we,
+
+416
+00:27:41,825 --> 00:27:45,685
+Speaker 7:  we tried to imagine every possible way that you
+
+417
+00:27:45,685 --> 00:27:47,805
+Speaker 7:  could say, go clean the kitchen
+
+418
+00:27:49,385 --> 00:27:52,645
+Speaker 7:  and we thought we did a pretty good job, but you know,
+
+419
+00:27:52,785 --> 00:27:56,365
+Speaker 7:  98% accurate isn't good enough. Yeah.
+
+420
+00:27:57,145 --> 00:28:00,965
+Speaker 7:  And it only takes a couple of failures before you never
+
+421
+00:28:00,965 --> 00:28:04,765
+Speaker 7:  do it again. Yeah. And so that this idea that with
+
+422
+00:28:04,765 --> 00:28:08,525
+Speaker 7:  generative ai, we can start having natural
+
+423
+00:28:08,885 --> 00:28:12,525
+Speaker 7:  language interfaces that actually work is going to unlock
+
+424
+00:28:13,355 --> 00:28:14,925
+Speaker 7:  usability. Yeah.
+
+425
+00:28:14,925 --> 00:28:17,685
+Speaker 2:  Breakthrough that yellow tape of complexity.
+
+426
+00:28:17,685 --> 00:28:20,485
+Speaker 7:  Yeah. I mean the difference between 98% and
+
+427
+00:28:21,065 --> 00:28:24,845
+Speaker 7:  99.99% sounds little,
+
+428
+00:28:25,465 --> 00:28:26,805
+Speaker 7:  but it's transformational,
+
+429
+00:28:27,215 --> 00:28:28,885
+Speaker 2:  Especially in a home environment.
+
+430
+00:28:29,305 --> 00:28:32,725
+Speaker 7:  You know, I I think that all of the lessons I'm voice
+
+431
+00:28:33,345 --> 00:28:36,205
+Speaker 7:  should be thrown out and we should start again
+
+432
+00:28:37,475 --> 00:28:40,505
+Speaker 7:  with the power of
+
+433
+00:28:41,165 --> 00:28:44,425
+Speaker 7:  actual natural language comprehension. Yeah.
+
+434
+00:28:44,935 --> 00:28:48,785
+Speaker 7:  Because there's, there's so many, well that didn't work well now they will.
+
+435
+00:28:49,165 --> 00:28:53,065
+Speaker 7:  And a lot of conviction around the limitations of
+
+436
+00:28:53,185 --> 00:28:56,945
+Speaker 7:  voice as interface needs to be completely rethought
+
+437
+00:28:57,685 --> 00:29:01,425
+Speaker 7:  as it comes to how do humans and, and machines interact.
+
+438
+00:29:01,625 --> 00:29:05,265
+Speaker 7:  I think that's one of the exciting things to see. Yeah. And then translate
+
+439
+00:29:05,265 --> 00:29:08,665
+Speaker 7:  that over to machine vision and the amount of
+
+440
+00:29:08,665 --> 00:29:12,465
+Speaker 7:  perception that is capable, machines are capable now
+
+441
+00:29:12,525 --> 00:29:16,345
+Speaker 7:  is is a little night and day as well. Yeah. Okay. Now
+
+442
+00:29:16,345 --> 00:29:17,585
+Speaker 7:  go find the right application
+
+443
+00:29:17,895 --> 00:29:21,545
+Speaker 2:  That Well, and this comes back to the application And I get I that and that's,
+
+444
+00:29:21,615 --> 00:29:24,505
+Speaker 2:  it's a very good point. And I guess, I guess I have two more questions around
+
+445
+00:29:24,505 --> 00:29:28,425
+Speaker 2:  this for you before we let you go. So there's one that I wanna wrap
+
+446
+00:29:28,425 --> 00:29:31,345
+Speaker 2:  up with, but then there's one that I, I don't think my, any of the listeners
+
+447
+00:29:31,345 --> 00:29:34,745
+Speaker 2:  or my readers would forgive me if I didn't ask you about. Okay.
+
+448
+00:29:35,125 --> 00:29:39,065
+Speaker 2:  Is appendages robots with arms and legs,
+
+449
+00:29:39,155 --> 00:29:43,085
+Speaker 2:  we've already seen a robot vacuum manufacturers come out with an arm
+
+450
+00:29:43,385 --> 00:29:47,005
+Speaker 2:  to pick things up. Yep. That, I know you've told me in the past that you
+
+451
+00:29:47,005 --> 00:29:50,165
+Speaker 2:  guys, and you did actually develop a stair climbing robot, not for the home,
+
+452
+00:29:50,265 --> 00:29:54,245
+Speaker 2:  but for military applications. So if whether we are
+
+453
+00:29:54,245 --> 00:29:58,005
+Speaker 2:  talking about humanized robot or a computer like Star Trek enterprise,
+
+454
+00:29:58,465 --> 00:30:02,325
+Speaker 2:  we are still going to want our robots to do a bit more than they do
+
+455
+00:30:02,325 --> 00:30:06,085
+Speaker 2:  today. So what's the next step there? Where do you think that we're going
+
+456
+00:30:06,105 --> 00:30:09,925
+Speaker 2:  to be able to get more utility out of current
+
+457
+00:30:10,065 --> 00:30:13,565
+Speaker 2:  robots without getting to the humanoid necessarily going to the humanoid
+
+458
+00:30:13,565 --> 00:30:13,805
+Speaker 2:  level?
+
+459
+00:30:14,275 --> 00:30:17,725
+Speaker 7:  Yeah, I think generalizing appendages is, is is
+
+460
+00:30:17,925 --> 00:30:21,845
+Speaker 7:  mistake because I think legs and arms are completely
+
+461
+00:30:21,845 --> 00:30:25,205
+Speaker 7:  different. Yeah. Yeah. I think arms with
+
+462
+00:30:25,905 --> 00:30:29,885
+Speaker 7:  our favorite gen AI acme toolkit are about
+
+463
+00:30:29,885 --> 00:30:32,765
+Speaker 7:  to become spectacularly useful.
+
+464
+00:30:33,605 --> 00:30:34,285
+Speaker 2:  Interesting. Yeah.
+
+465
+00:30:34,545 --> 00:30:38,165
+Speaker 7:  And so that, you know what you can do with a single arm, dual arm manipulators,
+
+466
+00:30:39,165 --> 00:30:42,605
+Speaker 7:  I think that the costs of high performance
+
+467
+00:30:42,995 --> 00:30:46,765
+Speaker 7:  dual arm manipulators are coming down very quickly. And so putting an arm
+
+468
+00:30:46,785 --> 00:30:50,725
+Speaker 7:  on something is suddenly wildly
+
+469
+00:30:50,725 --> 00:30:54,565
+Speaker 7:  more useful than it used to be because we
+
+470
+00:30:54,765 --> 00:30:58,525
+Speaker 7:  can grasp organically shape objects, we can recognize where they are.
+
+471
+00:30:58,625 --> 00:31:02,325
+Speaker 7:  We understand this, this visual perception that I was alluding to earlier
+
+472
+00:31:03,625 --> 00:31:07,565
+Speaker 7:  is, is suddenly made the fact that once I'm holding this, putting
+
+473
+00:31:07,565 --> 00:31:10,645
+Speaker 7:  it away is now, now is something that I can do because I actually understand
+
+474
+00:31:10,645 --> 00:31:14,565
+Speaker 7:  where stuff can go And I understand, you know, I can, I can, you
+
+475
+00:31:14,565 --> 00:31:18,445
+Speaker 7:  know, go get me a beer suddenly makes sense because I know where the kitchen
+
+476
+00:31:18,505 --> 00:31:22,165
+Speaker 7:  is, I know where the fri I can recognize the refrigerator, I can open it
+
+477
+00:31:22,165 --> 00:31:26,005
+Speaker 7:  up and so now I can pick up a beer. And those were all really, really,
+
+478
+00:31:26,005 --> 00:31:29,725
+Speaker 7:  really, really hard problems prior to, you know, gen AI
+
+479
+00:31:30,445 --> 00:31:34,405
+Speaker 7:  changing the rules. I think that the idea, if, you know, if I was
+
+480
+00:31:34,565 --> 00:31:37,765
+Speaker 7:  building a warehouse robot, I would put arms on it
+
+481
+00:31:37,915 --> 00:31:41,045
+Speaker 7:  immediately, but I wouldn't put legs on it
+
+482
+00:31:42,155 --> 00:31:46,125
+Speaker 7:  because warehouses are flat wheels worked
+
+483
+00:31:46,125 --> 00:31:47,925
+Speaker 7:  really, really good on flat. So
+
+484
+00:31:47,935 --> 00:31:50,845
+Speaker 2:  Rosie had it right. I mean she was arms and no legs.
+
+485
+00:31:51,435 --> 00:31:55,165
+Speaker 7:  Yeah. I think Rosie did have it right, honestly. And, and if she wanted to
+
+486
+00:31:55,165 --> 00:31:58,005
+Speaker 7:  go upstairs, she just hovered, which was like the, you know,
+
+487
+00:31:58,915 --> 00:32:02,565
+Speaker 7:  just like RD two could magically make itself upstairs until
+
+488
+00:32:02,875 --> 00:32:06,445
+Speaker 7:  they put rockets on it, which really wouldn't work very well in a home
+
+489
+00:32:06,445 --> 00:32:09,805
+Speaker 7:  environment. But, you know,
+
+490
+00:32:10,345 --> 00:32:14,165
+Speaker 7:  but I think the legs are hard. You know, the amount of force
+
+491
+00:32:14,795 --> 00:32:18,525
+Speaker 7:  that needs to be stored in the knee of a leg in order
+
+492
+00:32:18,665 --> 00:32:22,485
+Speaker 7:  for it to do the types of things, lifting moves and
+
+493
+00:32:23,065 --> 00:32:26,725
+Speaker 7:  if that, that that amount of energy in the knee is
+
+494
+00:32:26,945 --> 00:32:30,925
+Speaker 7:  not necessarily something you want people near. And
+
+495
+00:32:30,925 --> 00:32:34,845
+Speaker 7:  so that there's some physics that need to be figured out a
+
+496
+00:32:34,845 --> 00:32:38,645
+Speaker 7:  little bit as we think about the realities of
+
+497
+00:32:39,295 --> 00:32:42,645
+Speaker 7:  thoughtful Rosie the robot design.
+
+498
+00:32:43,035 --> 00:32:46,765
+Speaker 7:  Yeah. So that we can get all of the good minimized cost
+
+499
+00:32:46,825 --> 00:32:50,765
+Speaker 7:  and maximize safety and, and that will require letting go of some of the
+
+500
+00:32:51,185 --> 00:32:53,885
+Speaker 7:  preconceptions of how things need to be.
+
+501
+00:32:54,505 --> 00:32:58,165
+Speaker 2:  No, that makes a lot of sense. I see an arm being much more useful.
+
+502
+00:32:58,365 --> 00:33:01,805
+Speaker 2:  Although to date, the arm that I've tried in my house has not
+
+503
+00:33:02,165 --> 00:33:05,845
+Speaker 2:  really been very useful, but I can, but the potential's there and we getting
+
+504
+00:33:05,845 --> 00:33:08,885
+Speaker 2:  the potential is there and that's, we've seen. Yeah. Yeah. And that's, that's
+
+505
+00:33:09,085 --> 00:33:12,485
+Speaker 2:  exciting. It is exciting. But just to sort of wrap up and to bring us sort
+
+506
+00:33:12,485 --> 00:33:16,125
+Speaker 2:  of full circle to when you first talked at the beginning of the, of the chat
+
+507
+00:33:16,215 --> 00:33:19,485
+Speaker 2:  about where you feel, I think you mentioned like
+
+508
+00:33:19,485 --> 00:33:23,165
+Speaker 2:  companionship and bringing like robots that have a connection
+
+509
+00:33:23,355 --> 00:33:26,805
+Speaker 2:  with people in the home. This is something that I've been
+
+510
+00:33:26,805 --> 00:33:30,525
+Speaker 2:  struggling with in my mind. It's like the idea of anthropomorphizing appliances
+
+511
+00:33:30,705 --> 00:33:34,125
+Speaker 2:  is sort of brings with it to like a whole host of complicated
+
+512
+00:33:34,605 --> 00:33:38,085
+Speaker 2:  challenges to me around like the nature of consciousness and the boundaries
+
+513
+00:33:38,085 --> 00:33:41,925
+Speaker 2:  of humanity. And we don't have to dive into all of that now, but I would
+
+514
+00:33:41,925 --> 00:33:45,525
+Speaker 2:  love to just sort of ask you if you think, if you, if as you said
+
+515
+00:33:45,525 --> 00:33:49,205
+Speaker 2:  generative AI and this sort of more true intelligence
+
+516
+00:33:49,385 --> 00:33:52,965
+Speaker 2:  in robots is going to be, become very much part
+
+517
+00:33:53,225 --> 00:33:57,045
+Speaker 2:  of the future of home robots. And if we are building something
+
+518
+00:33:57,045 --> 00:34:00,965
+Speaker 2:  that we're looking to have a connection with that is perhaps part
+
+519
+00:34:00,985 --> 00:34:04,485
+Speaker 2:  of our life or our family, not just a machine.
+
+520
+00:34:05,075 --> 00:34:06,045
+Speaker 2:  What, what is that?
+
+521
+00:34:06,865 --> 00:34:10,805
+Speaker 7:  You know, like everything robotics, it's complicated, right?
+
+522
+00:34:11,785 --> 00:34:12,365
+Speaker 7:  You know, the,
+
+523
+00:34:13,885 --> 00:34:17,455
+Speaker 7:  I think that what is true is
+
+524
+00:34:18,615 --> 00:34:22,095
+Speaker 7:  humanity is desperately isolated and lonely and,
+
+525
+00:34:22,435 --> 00:34:26,135
+Speaker 7:  you know, 50% of Americans would
+
+526
+00:34:26,445 --> 00:34:30,295
+Speaker 7:  self-identify as feeling isolated
+
+527
+00:34:30,515 --> 00:34:33,935
+Speaker 7:  and lonely. And the, the health impact of feeling self
+
+528
+00:34:34,615 --> 00:34:38,575
+Speaker 7:  isolated and lonely has been well documented as you know, a
+
+529
+00:34:38,835 --> 00:34:42,215
+Speaker 7:  US surgeon general number of years ago said it was the same as
+
+530
+00:34:42,405 --> 00:34:45,895
+Speaker 7:  smoking 15 cigarettes a day in
+
+531
+00:34:46,475 --> 00:34:50,175
+Speaker 7:  its negative impact. And so this is a
+
+532
+00:34:51,215 --> 00:34:55,175
+Speaker 7:  epidemic level challenge that society is
+
+533
+00:34:55,175 --> 00:34:57,455
+Speaker 7:  facing. Where do robots come into this?
+
+534
+00:34:57,965 --> 00:34:58,255
+Speaker 2:  Yeah.
+
+535
+00:34:58,915 --> 00:35:02,775
+Speaker 7:  And I would argue that building, whether it
+
+536
+00:35:02,775 --> 00:35:06,175
+Speaker 7:  be Rosie the robot or the Starship enterprise,
+
+537
+00:35:07,365 --> 00:35:10,535
+Speaker 7:  without considering the fact that
+
+538
+00:35:11,085 --> 00:35:14,875
+Speaker 7:  what you're doing is creating an
+
+539
+00:35:14,875 --> 00:35:18,395
+Speaker 7:  opportunity for real human connection is a mistake.
+
+540
+00:35:19,175 --> 00:35:23,155
+Speaker 7:  Now once you've realized, and once you've committed yourself to the
+
+541
+00:35:23,155 --> 00:35:26,675
+Speaker 7:  fact that human connection is an important
+
+542
+00:35:26,865 --> 00:35:30,315
+Speaker 7:  part of what the world needs,
+
+543
+00:35:31,185 --> 00:35:35,155
+Speaker 7:  then there's a question of, okay, where are the challenges that
+
+544
+00:35:35,155 --> 00:35:39,125
+Speaker 7:  we need to make sure that we're very aware of what metaphors can be
+
+545
+00:35:39,125 --> 00:35:43,005
+Speaker 7:  healthfully imposed? Is it recognized that
+
+546
+00:35:43,005 --> 00:35:46,925
+Speaker 7:  the goal of your smart home is this
+
+547
+00:35:47,245 --> 00:35:50,685
+Speaker 7:  occasionally motivate you to get out of the home and go do something
+
+548
+00:35:51,075 --> 00:35:54,845
+Speaker 7:  that would drive additional human connection? Or
+
+549
+00:35:54,905 --> 00:35:58,205
+Speaker 7:  how do you become part of the solution as opposed to
+
+550
+00:35:58,865 --> 00:36:02,365
+Speaker 7:  an increasing part of the problem? But it begins with a recognition
+
+551
+00:36:02,955 --> 00:36:06,725
+Speaker 7:  that this is a important challenge
+
+552
+00:36:07,545 --> 00:36:11,165
+Speaker 7:  and generative ai, without taking on
+
+553
+00:36:11,785 --> 00:36:15,645
+Speaker 7:  at a very fundamental level, the opportunity
+
+554
+00:36:15,745 --> 00:36:19,565
+Speaker 7:  and challenge of human connection is not going
+
+555
+00:36:19,585 --> 00:36:21,925
+Speaker 7:  to succeed in the long term.
+
+556
+00:36:22,675 --> 00:36:26,365
+Speaker 2:  Yeah, yeah. Wow. Yeah, it's interesting. I mean, it's there, it's
+
+557
+00:36:26,365 --> 00:36:28,325
+Speaker 2:  happening. Do, how do we make sure we do it right?
+
+558
+00:36:28,865 --> 00:36:32,645
+Speaker 7:  And part of doing it right is having it be just
+
+559
+00:36:32,805 --> 00:36:36,485
+Speaker 7:  a wonderful and healthy experience and not just a wonderful
+
+560
+00:36:36,615 --> 00:36:37,285
+Speaker 7:  experience.
+
+561
+00:36:38,035 --> 00:36:41,845
+Speaker 2:  Well, And I know you can't tell us much, but I'm, I'm just guessing from
+
+562
+00:36:41,845 --> 00:36:43,325
+Speaker 2:  the name of your new business
+
+563
+00:36:45,085 --> 00:36:48,605
+Speaker 2:  Familiar Ma Machines and Magic that maybe this is something we might be hearing
+
+564
+00:36:48,605 --> 00:36:52,485
+Speaker 2:  more about from you later. And I'm excited one
+
+565
+00:36:52,485 --> 00:36:56,325
+Speaker 2:  day hopefully to hear more, but I really appreciate your time chatting
+
+566
+00:36:56,325 --> 00:36:59,965
+Speaker 2:  with me today, walking me through this and helping me sort of figure out
+
+567
+00:36:59,965 --> 00:37:03,845
+Speaker 2:  what, what I actually want from my home robotics. It's been very,
+
+568
+00:37:03,955 --> 00:37:07,365
+Speaker 2:  very illuminating and really interesting And I very much appreciate you sharing
+
+569
+00:37:07,365 --> 00:37:09,165
+Speaker 2:  your time with us today, Colin. Thank you.
+
+570
+00:37:09,985 --> 00:37:10,565
+Speaker 7:  My pleasure.
+
+571
+00:37:11,055 --> 00:37:14,245
+Speaker 2:  Thank you very much. And we are gonna take another ad break and when we come
+
+572
+00:37:14,245 --> 00:37:18,005
+Speaker 2:  back we're going to be talking about the Thread, no, not meta social
+
+573
+00:37:18,005 --> 00:37:21,925
+Speaker 2:  network, but the Thread protocol and how one goes about creating
+
+574
+00:37:22,285 --> 00:37:24,765
+Speaker 2:  a smart home protocol. We'll be right back.
+
+575
+00:40:42,235 --> 00:40:45,795
+Speaker 2:  Internet of things, the IOT, they've all used
+
+576
+00:40:45,825 --> 00:40:49,635
+Speaker 2:  different protocols and created different walled gardens,
+
+577
+00:40:50,695 --> 00:40:54,355
+Speaker 2:  ZigBee Z-Wave Home Kit, Bluetooth, wifi Thread
+
+578
+00:40:54,605 --> 00:40:58,395
+Speaker 2:  Weave and more. I could go on and on. It's been a
+
+579
+00:40:58,555 --> 00:41:02,475
+Speaker 2:  frustrating experience for consumers. Do I need a hub? Will it work with
+
+580
+00:41:02,475 --> 00:41:06,195
+Speaker 2:  my Android and my spouse's iPhone? Am I locked
+
+581
+00:41:06,265 --> 00:41:10,195
+Speaker 2:  into one manufacturer ecosystem if I just want to turn my lights
+
+582
+00:41:10,255 --> 00:41:14,035
+Speaker 2:  on with a voice command? So to fix all of this,
+
+583
+00:41:14,405 --> 00:41:17,955
+Speaker 2:  about five years ago, apple, Google, Amazon, and Samsung
+
+584
+00:41:18,375 --> 00:41:21,075
+Speaker 2:  and a bunch of manufacturers but not all
+
+585
+00:41:22,315 --> 00:41:25,235
+Speaker 2:  rallied together to create a solution matter.
+
+586
+00:41:26,645 --> 00:41:30,355
+Speaker 2:  Think of matter as a shared language for your smart home devices so that
+
+587
+00:41:30,355 --> 00:41:33,955
+Speaker 2:  they can talk to each other no matter where they came from.
+
+588
+00:41:34,695 --> 00:41:38,595
+Speaker 2:  But for them to talk, they need a way to do that. They need
+
+589
+00:41:38,595 --> 00:41:41,675
+Speaker 2:  like telephone lines or a network infrastructure
+
+590
+00:41:42,375 --> 00:41:46,075
+Speaker 2:  And Matter works with two. One is wifi and it's
+
+591
+00:41:46,075 --> 00:41:49,715
+Speaker 2:  hardwired Sibling ethernet. And the other one you may be
+
+592
+00:41:49,715 --> 00:41:52,395
+Speaker 2:  unfamiliar with, it's called Thread.
+
+593
+00:41:53,295 --> 00:41:57,195
+Speaker 2:  Thread is a low power, low bandwidth mesh networking protocol.
+
+594
+00:41:57,455 --> 00:42:00,995
+Speaker 2:  Vat. Unlike all those other protocols, was
+
+595
+00:42:01,435 --> 00:42:05,355
+Speaker 2:  specifically designed for smart home devices. It's super fast,
+
+596
+00:42:05,525 --> 00:42:09,315
+Speaker 2:  works locally and doesn't need an internet connection to turn on your lights.
+
+597
+00:42:10,165 --> 00:42:13,995
+Speaker 2:  Today we're going to do a deep dive into Thread, how it came
+
+598
+00:42:13,995 --> 00:42:17,715
+Speaker 2:  to be, what makes it stand out, and then explore why
+
+599
+00:42:17,715 --> 00:42:21,475
+Speaker 2:  matter and Thread haven't yet seen the widespread
+
+600
+00:42:21,715 --> 00:42:25,635
+Speaker 2:  adoption that some were hoping for. To do this, I've invited someone who's
+
+601
+00:42:26,115 --> 00:42:29,915
+Speaker 2:  probably forgotten more about Thread than most people know. Grant Erickson
+
+602
+00:42:30,015 --> 00:42:33,835
+Speaker 2:  is an engineer who actually developed Thread while working on nests
+
+603
+00:42:33,835 --> 00:42:37,675
+Speaker 2:  early smart home products. He then helped grow the protocol as
+
+604
+00:42:37,675 --> 00:42:41,475
+Speaker 2:  president of the Thread group and was instrumental in bringing together
+
+605
+00:42:41,495 --> 00:42:45,475
+Speaker 2:  Google, apple and Amazon to form the matter. Smart Home Standard.
+
+606
+00:42:46,255 --> 00:42:49,475
+Speaker 2:  Hi Grant, welcome and thank you so much for joining me.
+
+607
+00:42:49,705 --> 00:42:52,435
+Speaker 9:  Good morning Jennifer. It's a pleasure to be here and a pleasure to finally
+
+608
+00:42:52,455 --> 00:42:53,875
+Speaker 9:  be able to chat live.
+
+609
+00:42:54,385 --> 00:42:58,035
+Speaker 2:  Wonderful. Great. Yes, we've communicated over the years over email and this
+
+610
+00:42:58,035 --> 00:43:01,875
+Speaker 2:  is our first time face-to-face, so it's exciting for me. Can't
+
+611
+00:43:01,875 --> 00:43:05,595
+Speaker 2:  wait to get some more insight here. And just to kick us off, can you just
+
+612
+00:43:05,595 --> 00:43:08,715
+Speaker 2:  give us kind of a brief overview of what is Thread?
+
+613
+00:43:09,435 --> 00:43:13,155
+Speaker 9:  Absolutely. So in order to really or er yourself to
+
+614
+00:43:13,265 --> 00:43:16,755
+Speaker 9:  what Thread is and where it fits, I think the best peer that you can think
+
+615
+00:43:16,755 --> 00:43:20,555
+Speaker 9:  of is wifi. We love wifi. It's on our phones, it's on our tablets,
+
+616
+00:43:20,555 --> 00:43:23,475
+Speaker 9:  it's on our laptops, it's on our computers at home. It allows us to do things
+
+617
+00:43:23,585 --> 00:43:27,475
+Speaker 9:  like stream Netflix or look at Facebook or do
+
+618
+00:43:27,475 --> 00:43:30,755
+Speaker 9:  all the things that sort of the killer app of of the internet and the web
+
+619
+00:43:30,865 --> 00:43:34,635
+Speaker 9:  have become. But wifi is in addition to providing a lot of
+
+620
+00:43:34,635 --> 00:43:38,155
+Speaker 9:  bandwidth, it needs a lot of power to do what it does. And for
+
+621
+00:43:38,155 --> 00:43:42,075
+Speaker 9:  constrained devices that either need to be small and tiny or need to run
+
+622
+00:43:42,075 --> 00:43:45,875
+Speaker 9:  on a very tiny battery, wifi can be made to work. But it's not
+
+623
+00:43:45,875 --> 00:43:48,875
+Speaker 9:  ideal because you're often gonna replace batteries very frequently. You're
+
+624
+00:43:48,875 --> 00:43:51,795
+Speaker 9:  gonna have to figure out how to plug the thing into a wall. And Thread is
+
+625
+00:43:51,795 --> 00:43:55,675
+Speaker 9:  really the low power sort of constrained wireless network peer
+
+626
+00:43:55,695 --> 00:43:59,595
+Speaker 9:  to wifi. It allows you to sort of bring internet connectivity to things
+
+627
+00:43:59,815 --> 00:44:03,755
+Speaker 9:  for which it was either previously impossible or expensive or
+
+628
+00:44:04,295 --> 00:44:08,035
+Speaker 9:  as people in the biz love to acknowledge required gateways
+
+629
+00:44:08,135 --> 00:44:11,955
+Speaker 9:  and coordinators and and bridges and all these other types of technology
+
+630
+00:44:11,955 --> 00:44:15,675
+Speaker 9:  that consumers really hubs Exactly. Consumers don't care about or don't want.
+
+631
+00:44:15,695 --> 00:44:19,555
+Speaker 9:  But there's sort of little necessary evils that we have to bring in when
+
+632
+00:44:19,555 --> 00:44:22,995
+Speaker 9:  the technology doesn't get us to the internet end to end. So in summary,
+
+633
+00:44:23,375 --> 00:44:26,955
+Speaker 9:  really think of Thread as a super low power compliment to wifi
+
+634
+00:44:27,495 --> 00:44:30,955
+Speaker 9:  for bringing devices that previously couldn't connect to the internet, to
+
+635
+00:44:31,045 --> 00:44:34,325
+Speaker 9:  connect to the internet and other wireless devices or wired devices.
+
+636
+00:44:35,325 --> 00:44:38,605
+Speaker 2:  Excellent. But one of the main things I wanted to talk to you about, because
+
+637
+00:44:38,885 --> 00:44:42,805
+Speaker 2:  I think it's fascinating that you created a new, a new smart home
+
+638
+00:44:43,045 --> 00:44:46,965
+Speaker 2:  protocol. So we're gonna go back in time and do a bit of smart home law
+
+639
+00:44:46,965 --> 00:44:50,005
+Speaker 2:  here. And this is for the Smart Home Geeks alum here. And I hope you guys
+
+640
+00:44:50,005 --> 00:44:53,605
+Speaker 2:  will enjoy this. But Thread began way back in 2011
+
+641
+00:44:54,195 --> 00:44:57,765
+Speaker 2:  with the original Nest Learning thermostat and you were involved in
+
+642
+00:44:57,765 --> 00:45:01,285
+Speaker 2:  developing that, having worked with Tony Fadell and Matt Rogers at Apple
+
+643
+00:45:01,385 --> 00:45:05,365
+Speaker 2:  before joining them when they founded Nest. So can you tell
+
+644
+00:45:05,365 --> 00:45:09,165
+Speaker 2:  us why you guys decided to create your very
+
+645
+00:45:09,185 --> 00:45:13,005
+Speaker 2:  own smart home protocol, considering there were already a
+
+646
+00:45:13,005 --> 00:45:14,765
+Speaker 2:  few of them, why create Thread?
+
+647
+00:45:15,425 --> 00:45:19,365
+Speaker 9:  So back when I got the call from Matt Rogers to join getting the
+
+648
+00:45:19,365 --> 00:45:22,845
+Speaker 9:  band back together was with my wife at the Space Needle in Seattle.
+
+649
+00:45:23,345 --> 00:45:27,205
+Speaker 9:  And even at the moment that he had called, there was already a prototype
+
+650
+00:45:27,205 --> 00:45:31,085
+Speaker 9:  and even before I joined of the Nest Learning thermostat and it had what
+
+651
+00:45:31,085 --> 00:45:34,845
+Speaker 9:  we call some dark silicon in it. And I think it was the TICC
+
+652
+00:45:34,845 --> 00:45:38,725
+Speaker 9:  something or another 8 0 2 15 4 radio. For those in the audience that aren't
+
+653
+00:45:38,725 --> 00:45:42,685
+Speaker 9:  aware, your thermostat fundamentally controls one of the largest energy
+
+654
+00:45:42,735 --> 00:45:46,445
+Speaker 9:  loads in your home. And the ZigBee Alliance of course at the time had
+
+655
+00:45:46,725 --> 00:45:50,645
+Speaker 9:  a standard called Smart Energy profile and the idea was that the
+
+656
+00:45:50,645 --> 00:45:54,525
+Speaker 9:  Nest Learning thermostat was gonna participate with your energy meter in
+
+657
+00:45:54,525 --> 00:45:58,365
+Speaker 9:  your home through the smart energy profile. And by the time I joined I was
+
+658
+00:45:58,365 --> 00:46:01,125
+Speaker 9:  sort of helping lead the charge with some other engineers on how we were
+
+659
+00:46:01,125 --> 00:46:04,885
+Speaker 9:  gonna make this work. And we found something very interesting and that is,
+
+660
+00:46:04,885 --> 00:46:08,605
+Speaker 9:  even though there was a smart energy profile and standard as we
+
+661
+00:46:08,805 --> 00:46:11,805
+Speaker 9:  approached, for example Pacific Gas and Electric or
+
+662
+00:46:12,655 --> 00:46:16,005
+Speaker 9:  ConEd, all the different energy companies, even though there was a standard
+
+663
+00:46:16,425 --> 00:46:19,925
+Speaker 9:  at the top of that standard, each energy company had a special sauce in terms
+
+664
+00:46:19,925 --> 00:46:23,605
+Speaker 9:  of onboarding and security in terms of how the device
+
+665
+00:46:23,615 --> 00:46:27,085
+Speaker 9:  would get involved on their platform, on their network and participate.
+
+666
+00:46:27,425 --> 00:46:31,045
+Speaker 9:  And what we quickly realized is, wait, we're a small startup, we only have,
+
+667
+00:46:31,065 --> 00:46:35,045
+Speaker 9:  you know, less than 50 employees, there are 20 energy major energy companies.
+
+668
+00:46:35,105 --> 00:46:38,725
+Speaker 9:  We are gonna have to have effectively 20 different firmware loads for our
+
+669
+00:46:38,725 --> 00:46:42,645
+Speaker 9:  thermostat to deploy this across the country. And we're like, disaster.
+
+670
+00:46:42,785 --> 00:46:46,485
+Speaker 9:  That's not gonna work, that's not scalable. We, we just simply can't support
+
+671
+00:46:46,485 --> 00:46:50,245
+Speaker 9:  this. And so we basically said, let's stop, let's retrench, let's re-figure
+
+672
+00:46:50,245 --> 00:46:53,125
+Speaker 9:  this out. And what we ultimately did, which I think was the right choice,
+
+673
+00:46:53,305 --> 00:46:56,445
+Speaker 9:  is of course all these energy providers had cloud platforms. And what we
+
+674
+00:46:56,765 --> 00:47:00,565
+Speaker 9:  realized is we could integrate at the cloud level where software and resources
+
+675
+00:47:00,625 --> 00:47:04,485
+Speaker 9:  are are much more fungible and and easily changed and redeployed.
+
+676
+00:47:04,945 --> 00:47:07,885
+Speaker 9:  And so we did cloud to cloud integrations with all the energy providers.
+
+677
+00:47:07,945 --> 00:47:11,485
+Speaker 9:  And so what that meant is we now had this radio that we thought we knew what
+
+678
+00:47:11,485 --> 00:47:14,445
+Speaker 9:  we wanted to use it for, but suddenly we didn't have a use for it that we
+
+679
+00:47:14,445 --> 00:47:18,325
+Speaker 9:  thought we did. So that kind of brings us to the next part of
+
+680
+00:47:18,325 --> 00:47:22,285
+Speaker 9:  the journey and that is, it's important to understand the company was called
+
+681
+00:47:22,285 --> 00:47:25,365
+Speaker 9:  Nest. It wasn't called the Nest Learning Thermostat Company, it wasn't called
+
+682
+00:47:25,365 --> 00:47:28,965
+Speaker 9:  the Nest Security Company. There was always a vision for an ecosystem
+
+683
+00:47:29,145 --> 00:47:32,925
+Speaker 9:  of connected products and services, not just within the walls of Nest, but
+
+684
+00:47:32,925 --> 00:47:36,805
+Speaker 9:  outside to other partners and and products and services outside of Nest.
+
+685
+00:47:37,385 --> 00:47:41,245
+Speaker 2:  And Nest presumably being like the home, like nesting in your home.
+
+686
+00:47:41,315 --> 00:47:41,805
+Speaker 2:  Exactly.
+
+687
+00:47:41,875 --> 00:47:45,285
+Speaker 9:  Exactly. And so there was always this vision for more than just the
+
+688
+00:47:45,285 --> 00:47:48,205
+Speaker 9:  thermostat and there was always a vision for
+
+689
+00:47:48,645 --> 00:47:51,685
+Speaker 9:  connectivity, both outside the home, you're outside the home, you want to
+
+690
+00:47:51,685 --> 00:47:54,405
+Speaker 9:  have awareness of what's going on in your home, how do you connect through
+
+691
+00:47:54,555 --> 00:47:58,005
+Speaker 9:  back to your products and back to your home. There's a notion of I'm in the
+
+692
+00:47:58,005 --> 00:48:01,565
+Speaker 9:  home, I wanna control my thermostat from the bed, maybe not going all the
+
+693
+00:48:01,565 --> 00:48:04,165
+Speaker 9:  way up through the cloud. As a lot of early smart home integrations were,
+
+694
+00:48:04,835 --> 00:48:08,365
+Speaker 9:  what would this need to look like? And In fact, even before the fact we were
+
+695
+00:48:08,365 --> 00:48:11,925
+Speaker 9:  of course many of us Apple alumni, but we knew that Apple was not the
+
+696
+00:48:12,015 --> 00:48:15,645
+Speaker 9:  start and the end of mobile platforms and tablets. And so we were thinking
+
+697
+00:48:15,645 --> 00:48:19,485
+Speaker 9:  about again, Android and Google and other ecosystems. And so we asked
+
+698
+00:48:19,485 --> 00:48:23,365
+Speaker 9:  ourselves, what technologies do we need to bring to bear to bring
+
+699
+00:48:23,365 --> 00:48:27,125
+Speaker 9:  this vision to life? Hey, we've got this 15 four radio, what could we do
+
+700
+00:48:27,125 --> 00:48:30,525
+Speaker 9:  with that? And the real key moment for us was,
+
+701
+00:48:30,905 --> 00:48:34,205
+Speaker 9:  and this sort of Wayne Gretzky moment skate to where the puck is going, not
+
+702
+00:48:34,205 --> 00:48:38,125
+Speaker 9:  where the puck is. We bet on ip. We said yeah, there's all these protocols.
+
+703
+00:48:38,315 --> 00:48:41,925
+Speaker 9:  Yeah, they're, they've got some market traction. But ultimately if we want
+
+704
+00:48:41,925 --> 00:48:45,205
+Speaker 9:  people to start with a particular product in our ecosystem,
+
+705
+00:48:45,745 --> 00:48:48,885
+Speaker 9:  we don't want them to have to start with that product plus, oh you need to
+
+706
+00:48:48,885 --> 00:48:52,685
+Speaker 9:  buy a gateway or a hub or Oh I have the product but I want connectivity.
+
+707
+00:48:52,885 --> 00:48:56,645
+Speaker 9:  I can't do it until I get this hub. And so we really wanted to make the
+
+708
+00:48:56,645 --> 00:48:59,605
+Speaker 9:  ability for consumers to choose the product in our ecosystem they wanted
+
+709
+00:48:59,605 --> 00:49:02,965
+Speaker 9:  to start with and be able to incrementally grow from there without having
+
+710
+00:49:02,965 --> 00:49:06,405
+Speaker 9:  to be networking engineers or without having to buy additional pieces of
+
+711
+00:49:06,405 --> 00:49:09,925
+Speaker 9:  just sort of network only hardware to make the whole ecosystem work. And
+
+712
+00:49:10,085 --> 00:49:12,205
+Speaker 9:  ultimately we decided we needed to build something ourselves.
+
+713
+00:49:13,185 --> 00:49:16,925
+Speaker 2:  But building yourself, I mean you mentioned earlier you're a 50 person company
+
+714
+00:49:17,125 --> 00:49:21,045
+Speaker 2:  I think you said, right? Yeah. And that was an already taking on
+
+715
+00:49:21,685 --> 00:49:25,525
+Speaker 2:  a large project, launching essentially the first smart
+
+716
+00:49:25,525 --> 00:49:28,925
+Speaker 2:  thermostat. I think It could be was there just before you guys, but
+
+717
+00:49:30,435 --> 00:49:34,085
+Speaker 2:  what made you think, okay, let's, let's create a whole new smart home protocol
+
+718
+00:49:34,105 --> 00:49:37,805
+Speaker 2:  and and how did you then decide to develop
+
+719
+00:49:37,905 --> 00:49:38,325
+Speaker 2:  Thread?
+
+720
+00:49:39,265 --> 00:49:43,045
+Speaker 9:  So the actual genesis for Thread didn't actually start
+
+721
+00:49:43,045 --> 00:49:45,805
+Speaker 9:  with a thermostat. The thermostat was the thing that kind of triggered the
+
+722
+00:49:45,805 --> 00:49:49,525
+Speaker 9:  vision. But by time we released the thermostat, the first generation,
+
+723
+00:49:49,985 --> 00:49:53,005
+Speaker 9:  we already had our second product in the pipeline and engineering development.
+
+724
+00:49:53,005 --> 00:49:56,285
+Speaker 9:  And that was Nest Protect. And Nest Protect had this interesting problem
+
+725
+00:49:56,745 --> 00:50:00,525
+Speaker 9:  of a regulatory perspective having to be interconnected.
+
+726
+00:50:00,835 --> 00:50:04,525
+Speaker 2:  Just to clarify for everyone, that is the amazing smoke alarm
+
+727
+00:50:05,675 --> 00:50:09,045
+Speaker 2:  that was the first smart smoke alarm? Yes. Which
+
+728
+00:50:09,045 --> 00:50:12,765
+Speaker 2:  unfortunately has recently been discontinued, but I still have two in my
+
+729
+00:50:12,765 --> 00:50:15,845
+Speaker 2:  home. I'm hanging on, I think my, my next expire this month.
+
+730
+00:50:16,325 --> 00:50:20,165
+Speaker 9:  Ah, okay. Yeah, it's, it's really a fantastic product. One of it is one of
+
+731
+00:50:20,165 --> 00:50:23,685
+Speaker 9:  the best I've worked on in my career. So yes, that is the smoke and co alarm.
+
+732
+00:50:23,685 --> 00:50:27,445
+Speaker 9:  And of course it's not just enough to detect Smoke and Co where
+
+733
+00:50:27,465 --> 00:50:30,805
+Speaker 9:  you detect it, you have to broadcast that alarm to every other
+
+734
+00:50:31,075 --> 00:50:34,965
+Speaker 9:  connected alarm that's in the home. And so we had a challenge of,
+
+735
+00:50:35,075 --> 00:50:38,725
+Speaker 9:  okay, we have these connectivity requirements for people, for end users for
+
+736
+00:50:38,725 --> 00:50:42,205
+Speaker 9:  the cloud, but we also need these smoke detectors to connect to one another.
+
+737
+00:50:43,005 --> 00:50:46,245
+Speaker 9:  Hmm, okay, what does, what does that need to look like? How, what do we need
+
+738
+00:50:46,245 --> 00:50:50,045
+Speaker 9:  to design to make that happen? And that was really where the genesis of Thread
+
+739
+00:50:50,115 --> 00:50:53,845
+Speaker 9:  started to come to the fore. Again, we looked at all sorts of different
+
+740
+00:50:53,845 --> 00:50:57,485
+Speaker 9:  technologies, proprietary radios from different vendors that we could have
+
+741
+00:50:57,485 --> 00:51:01,125
+Speaker 9:  done other network types. And ultimately we said, okay, we could do this
+
+742
+00:51:01,125 --> 00:51:04,605
+Speaker 9:  with this particular technology. Like, okay, well now we need to have that
+
+743
+00:51:04,605 --> 00:51:08,485
+Speaker 9:  radio plus we need to have connectivity to the cloud that increases our
+
+744
+00:51:08,485 --> 00:51:12,445
+Speaker 9:  product costs. What can we do with just one radio, one network stack
+
+745
+00:51:12,895 --> 00:51:16,725
+Speaker 9:  being interconnected alarm and do all of this and still
+
+746
+00:51:16,725 --> 00:51:19,725
+Speaker 9:  achieve the vision of, okay, let's say people just start in their home with
+
+747
+00:51:19,725 --> 00:51:23,285
+Speaker 9:  Nest Protect and wanna grow from there. What would that look like? And
+
+748
+00:51:23,485 --> 00:51:27,365
+Speaker 9:  ultimately that was sort of the seeds to get us to Thread. And again, we
+
+749
+00:51:27,365 --> 00:51:31,085
+Speaker 9:  went back to that North Star, which is this has all gotta be ip, it's gotta
+
+750
+00:51:31,085 --> 00:51:34,525
+Speaker 9:  be mobile connected, it's gotta be cloud connected, these things have to
+
+751
+00:51:34,525 --> 00:51:38,405
+Speaker 9:  be connected to each other. We need something that can carry IP but can
+
+752
+00:51:38,405 --> 00:51:42,205
+Speaker 9:  also talk to each other when the internet is down, broadcast,
+
+753
+00:51:42,205 --> 00:51:45,885
+Speaker 9:  these alarms, all that. And that really was the genesis of,
+
+754
+00:51:45,955 --> 00:51:49,845
+Speaker 9:  okay, we need an IP based wireless mesh network that's low power. Because
+
+755
+00:51:49,865 --> 00:51:53,845
+Speaker 9:  yes, some homes have connected powered smoke and co detectors, they've
+
+756
+00:51:53,845 --> 00:51:57,165
+Speaker 9:  got line voltage in the the box behind them, but some don't. Some just have
+
+757
+00:51:57,165 --> 00:52:00,525
+Speaker 9:  to run on batteries and those batteries have to last for a couple of years.
+
+758
+00:52:01,025 --> 00:52:04,925
+Speaker 9:  And so how do we do that? How do we meet that multi-year AA battery
+
+759
+00:52:05,365 --> 00:52:09,125
+Speaker 9:  lifetime with an interconnected wireless alarm and, and meet those
+
+760
+00:52:09,125 --> 00:52:12,965
+Speaker 9:  product costs and technology constraints? And so Thread was born and
+
+761
+00:52:12,965 --> 00:52:14,805
+Speaker 9:  that was, that was the genesis. And
+
+762
+00:52:14,805 --> 00:52:18,605
+Speaker 2:  What was the vision then, like in this was we, in 2012,
+
+763
+00:52:18,725 --> 00:52:21,645
+Speaker 2:  I think you said 20 12, 20 13. So what was the vision then? What was coming
+
+764
+00:52:21,675 --> 00:52:21,965
+Speaker 2:  next?
+
+765
+00:52:22,365 --> 00:52:26,285
+Speaker 9:  I mean, again, at that point we already knew that there was the thermostats
+
+766
+00:52:26,285 --> 00:52:29,765
+Speaker 9:  even with the first generation, the second generation was already on the
+
+767
+00:52:29,765 --> 00:52:33,445
+Speaker 9:  drawing boards. We had Nest Protect already in flight. Nest Guard
+
+768
+00:52:33,585 --> 00:52:36,325
+Speaker 9:  was already on the drawing board. We already knew we were gonna be building
+
+769
+00:52:36,485 --> 00:52:40,045
+Speaker 9:  eventually a security system. We had, you know, ideas of
+
+770
+00:52:40,325 --> 00:52:44,285
+Speaker 9:  additional sensors. We had the Nest Yale Lock was already in
+
+771
+00:52:44,285 --> 00:52:47,645
+Speaker 9:  flight at that point. So we already had a first party
+
+772
+00:52:47,755 --> 00:52:51,685
+Speaker 9:  ecosystem that we had a roadmap for and we had different points on that roadmap
+
+773
+00:52:51,685 --> 00:52:53,605
+Speaker 9:  for here's what we're gonna do this and here's what we're gonna do that.
+
+774
+00:52:53,705 --> 00:52:57,525
+Speaker 9:  So as we were building that first product, we already had, you know,
+
+775
+00:52:57,525 --> 00:53:00,805
+Speaker 9:  points on the horizon that we knew we needed to get to. So as we were making
+
+776
+00:53:01,045 --> 00:53:04,885
+Speaker 9:  decisions, again, we already kind of had needles that we needed
+
+777
+00:53:04,885 --> 00:53:07,725
+Speaker 9:  to Thread to make sure off we make this decision, we need to make sure that
+
+778
+00:53:07,725 --> 00:53:10,965
+Speaker 9:  we're enabling that. And even at that time we also had the Works with Nest
+
+779
+00:53:10,965 --> 00:53:14,005
+Speaker 9:  program that was getting off the ground and that was of course a cloud-based
+
+780
+00:53:14,005 --> 00:53:17,525
+Speaker 9:  integration. But we always had it in mind that in addition to cloud-based
+
+781
+00:53:17,525 --> 00:53:21,205
+Speaker 9:  integrations, we wanted to have local integrations. We wanted to bring weave
+
+782
+00:53:21,225 --> 00:53:24,725
+Speaker 9:  and Thread to other first party, second party, third party partners
+
+783
+00:53:25,145 --> 00:53:28,405
+Speaker 9:  for doing integrations within the home outside the cloud. So again, all this
+
+784
+00:53:28,405 --> 00:53:32,285
+Speaker 9:  stuff was even as early as 20 11, 20 12 stuff that we
+
+785
+00:53:32,285 --> 00:53:35,765
+Speaker 9:  needed, we knew we needed to get done and, and we needed to Thread that needle
+
+786
+00:53:35,765 --> 00:53:37,405
+Speaker 9:  correctly to make sure we got there.
+
+787
+00:53:37,995 --> 00:53:41,645
+Speaker 2:  Well, and then something happened, Google bought Nest
+
+788
+00:53:42,185 --> 00:53:45,965
+Speaker 2:  in 2014. What specifically happened to the technology of threat
+
+789
+00:53:45,995 --> 00:53:46,805
+Speaker 2:  when that happened?
+
+790
+00:53:47,355 --> 00:53:51,165
+Speaker 9:  Yeah, it's an excellent question and I'll do a, an unofficial
+
+791
+00:53:51,165 --> 00:53:54,725
+Speaker 9:  plug for those in the audience that haven't read it. Tony Fidel's excellent
+
+792
+00:53:54,725 --> 00:53:58,685
+Speaker 9:  book build really covers a lot of detail that we probably won't cover
+
+793
+00:53:58,685 --> 00:54:02,565
+Speaker 9:  today about that relationship and that acquisition. But
+
+794
+00:54:02,565 --> 00:54:06,245
+Speaker 9:  there sort of was an interesting, I don't wanna say cultural clash, but
+
+795
+00:54:06,505 --> 00:54:10,485
+Speaker 9:  an interesting clash of sort of agendas and goals. Of course, Nest at
+
+796
+00:54:10,485 --> 00:54:13,645
+Speaker 9:  the time we required was probably a hundred seventy five, a hundred fifty
+
+797
+00:54:13,925 --> 00:54:16,925
+Speaker 9:  employees, very small, still laser focused on what we were doing.
+
+798
+00:54:17,725 --> 00:54:21,245
+Speaker 9:  Google of course at that time was a multi-billion dollar international company
+
+799
+00:54:21,275 --> 00:54:24,925
+Speaker 9:  with many divisions, many different initiatives. And
+
+800
+00:54:25,145 --> 00:54:28,885
+Speaker 9:  of course schools famous for sort of controlled chaos and, and not
+
+801
+00:54:28,885 --> 00:54:32,365
+Speaker 9:  top-down decision making. So one of the interesting things that that happened,
+
+802
+00:54:32,365 --> 00:54:36,245
+Speaker 9:  of course, is IO OT and Smart Home was sort of getting off the ground but
+
+803
+00:54:36,505 --> 00:54:39,685
+Speaker 9:  had not been acquired. And that was sort of a, a, a, you know, a match in
+
+804
+00:54:39,685 --> 00:54:42,685
+Speaker 9:  the haystack for igniting interest in that space.
+
+805
+00:54:43,465 --> 00:54:46,565
+Speaker 9:  But it was interesting when the day we acquired, one of the founders of Google
+
+806
+00:54:46,675 --> 00:54:49,965
+Speaker 9:  sort of said, you know, to the extent that we are doing other things related
+
+807
+00:54:49,965 --> 00:54:53,485
+Speaker 9:  to IOT within Google today, we are gonna stop doing those and we're focused
+
+808
+00:54:53,485 --> 00:54:57,205
+Speaker 9:  on Nest. And that was kind of sort of true. There was initiative within
+
+809
+00:54:57,205 --> 00:55:00,925
+Speaker 9:  Google called Android at home and within a week
+
+810
+00:55:01,105 --> 00:55:04,165
+Speaker 9:  of, of that acquisition, Android at Home was shut down.
+
+811
+00:55:04,885 --> 00:55:07,925
+Speaker 9:  There was an opportunity for those teams to, you know, come together and
+
+812
+00:55:07,925 --> 00:55:11,685
+Speaker 9:  work together with Nest. But what was interesting and what we learned
+
+813
+00:55:11,685 --> 00:55:15,165
+Speaker 9:  shortly thereafter is I'd say within a month of that acquisition,
+
+814
+00:55:15,745 --> 00:55:18,365
+Speaker 9:  we, many of us would start getting meeting requests for, Hey, I'm working
+
+815
+00:55:18,365 --> 00:55:21,805
+Speaker 9:  on this little IO OT project and how can Nest help me in my I OT project?
+
+816
+00:55:21,905 --> 00:55:25,765
+Speaker 9:  And there literally was, was tens if not hundreds of iot initiatives within
+
+817
+00:55:25,765 --> 00:55:29,725
+Speaker 9:  Google. And so how do we make Thread and weave move forward?
+
+818
+00:55:29,745 --> 00:55:32,965
+Speaker 9:  Of course it was, it was abundantly clear that we needed to do what we needed
+
+819
+00:55:32,985 --> 00:55:36,525
+Speaker 9:  to do to achieve our roadmap, but there was a lot of, I would say,
+
+820
+00:55:36,755 --> 00:55:40,325
+Speaker 9:  competing interests within Google that were not aligned and convinced that
+
+821
+00:55:40,325 --> 00:55:44,205
+Speaker 9:  what we were doing was the right choice. And so a lot of us spent a lot of
+
+822
+00:55:44,205 --> 00:55:47,725
+Speaker 9:  time and energy trying to convince Google what we were doing was the right
+
+823
+00:55:47,725 --> 00:55:50,965
+Speaker 9:  choice. And, and that wasn't obvious to them, even though it maybe seemed,
+
+824
+00:55:51,265 --> 00:55:54,685
+Speaker 9:  you know, apparent to us based on what we were doing and our vision. But
+
+825
+00:55:54,885 --> 00:55:57,685
+Speaker 9:  ultimately, you know, the, the people that needed to be were supportive and
+
+826
+00:55:57,685 --> 00:56:01,245
+Speaker 9:  we kept moving forward and kept doing what we were doing. But certainly there
+
+827
+00:56:01,245 --> 00:56:04,685
+Speaker 9:  was I think a lot of confusing competing initiatives
+
+828
+00:56:05,085 --> 00:56:08,285
+Speaker 9:  within Google with their partner ecosystem and what they were doing with
+
+829
+00:56:08,505 --> 00:56:12,165
+Speaker 9:  IOT that made it beyond the challenges that we've talked about already.
+
+830
+00:56:13,175 --> 00:56:16,205
+Speaker 9:  There was a lot of internal challenges that again, just made that journey
+
+831
+00:56:16,285 --> 00:56:19,045
+Speaker 9:  a lot more difficult than probably otherwise could have been or should have
+
+832
+00:56:19,045 --> 00:56:19,165
+Speaker 9:  been.
+
+833
+00:56:19,875 --> 00:56:23,725
+Speaker 2:  Well, and then in 2016, Google open sourced Thread,
+
+834
+00:56:23,755 --> 00:56:24,245
+Speaker 2:  correct?
+
+835
+00:56:24,915 --> 00:56:28,205
+Speaker 9:  Yeah, that was, that was an interesting moment. Open Thread is really another
+
+836
+00:56:28,525 --> 00:56:32,165
+Speaker 9:  interesting part of this journey. What you typically see a lot
+
+837
+00:56:32,525 --> 00:56:35,845
+Speaker 9:  historically in the world of standards is sort of what I call leading with
+
+838
+00:56:35,845 --> 00:56:39,765
+Speaker 9:  paper. You sort of have multiple companies coming together with an idea.
+
+839
+00:56:40,185 --> 00:56:43,205
+Speaker 9:  And the idea is that we're gonna write a specification, we're gonna write
+
+840
+00:56:43,245 --> 00:56:46,925
+Speaker 9:  a standard, and eventually to the extent that standard and that that
+
+841
+00:56:47,165 --> 00:56:50,685
+Speaker 9:  document generates excitement, you get multiple takers, multiple,
+
+842
+00:56:51,165 --> 00:56:54,445
+Speaker 9:  multiple comers on that say we're gonna write a, a software to that standard.
+
+843
+00:56:55,425 --> 00:56:59,085
+Speaker 9:  And different standards bodies have different thresholds. Some require one
+
+844
+00:56:59,235 --> 00:57:03,165
+Speaker 9:  implementer, some require two, some require three. But the idea is
+
+845
+00:57:03,165 --> 00:57:06,765
+Speaker 9:  we're gonna get some number of implementers and we're gonna have a race to
+
+846
+00:57:06,765 --> 00:57:09,765
+Speaker 9:  have them all implement this. And then we're gonna do an interop fest to
+
+847
+00:57:09,765 --> 00:57:12,725
+Speaker 9:  make sure they all work together. And when we get sort of the right level
+
+848
+00:57:12,745 --> 00:57:15,765
+Speaker 9:  of convergence and interoperability, we're gonna laugh and clap and say,
+
+849
+00:57:15,825 --> 00:57:18,845
+Speaker 9:  the standard is complete. We have this many implementations and it's done.
+
+850
+00:57:19,665 --> 00:57:23,605
+Speaker 9:  And that is an okay of way of working, but we needed to move faster.
+
+851
+00:57:23,785 --> 00:57:27,165
+Speaker 9:  As you knew, as you heard earlier, we had a lot of products, we had a lot
+
+852
+00:57:27,165 --> 00:57:30,805
+Speaker 9:  of ambition, we had a lot of vision we needed to get done and we needed to
+
+853
+00:57:30,805 --> 00:57:34,725
+Speaker 9:  get done quickly. And so as, as that process was happening within the
+
+854
+00:57:34,725 --> 00:57:38,605
+Speaker 9:  Thread group and was not necessarily happening at the speed and the quality
+
+855
+00:57:38,605 --> 00:57:42,485
+Speaker 9:  that we wanted it to happen, we had a unique opportunity. We had a, a brilliant
+
+856
+00:57:42,485 --> 00:57:45,845
+Speaker 9:  hire in the industry. Jonathan Way we picked up from Cisco.
+
+857
+00:57:46,605 --> 00:57:50,445
+Speaker 9:  Jonathan had a ton of experience in this space and he and
+
+858
+00:57:50,465 --> 00:57:53,885
+Speaker 9:  the rest of the team suggested, Hey, I think I could write a, a Thread stack
+
+859
+00:57:53,885 --> 00:57:57,285
+Speaker 9:  and we could open source it and really unlock and scale this market in a
+
+860
+00:57:57,285 --> 00:58:00,925
+Speaker 9:  way that's different from the way this industry works in the past. And Open
+
+861
+00:58:00,925 --> 00:58:04,685
+Speaker 9:  Thread was born and we approached some partners and we said, Hey, we're
+
+862
+00:58:04,685 --> 00:58:07,125
+Speaker 9:  we're doing this. And they're like, oh my God, this has never been done before.
+
+863
+00:58:07,475 --> 00:58:10,165
+Speaker 9:  Like, this is fantastic. Can you really do this? I'm like, yep, we're doing
+
+864
+00:58:10,165 --> 00:58:13,685
+Speaker 9:  it. And Jonathan got it done and we we went and did it. And
+
+865
+00:58:14,125 --> 00:58:18,005
+Speaker 9:  it really, again, took Thread from sort of in terms of silicon
+
+866
+00:58:18,005 --> 00:58:21,285
+Speaker 9:  vendors and stacks and availability from very small number
+
+867
+00:58:21,715 --> 00:58:25,125
+Speaker 9:  till we literally had 15 partners overnight with Open Thread. It was, it
+
+868
+00:58:25,125 --> 00:58:27,045
+Speaker 9:  was truly a watershed moment for, for Thread.
+
+869
+00:58:27,765 --> 00:58:30,305
+Speaker 2:  And Jonathan is, is Google correct? He's, I mean, he's still,
+
+870
+00:58:30,585 --> 00:58:33,825
+Speaker 9:  Jonathan is still at Google. He is actually also VP of Technology of Thread
+
+871
+00:58:33,825 --> 00:58:34,305
+Speaker 9:  Group as well
+
+872
+00:58:34,755 --> 00:58:38,225
+Speaker 2:  Right now. So you mentioned Thread Group. Now, when did that develop
+
+873
+00:58:39,265 --> 00:58:43,145
+Speaker 2:  because that came in. So you, so Nest was bought by
+
+874
+00:58:43,145 --> 00:58:46,945
+Speaker 2:  Google and then Open Source Thread. Somewhere in the, the
+
+875
+00:58:46,945 --> 00:58:50,465
+Speaker 2:  point here, this becomes Thread becomes a small industry
+
+876
+00:58:50,705 --> 00:58:53,745
+Speaker 2:  collaboration, right? With Thread Group, I think Nest, you mentioned Yale,
+
+877
+00:58:54,585 --> 00:58:58,185
+Speaker 2:  I believe Silicon Labs. How did all these guys come together and what was
+
+878
+00:58:58,185 --> 00:58:59,905
+Speaker 2:  the sort of impetus of creating Thread group?
+
+879
+00:59:00,285 --> 00:59:04,225
+Speaker 9:  So we talked about Winter 2011 kicking off the Nest Protect
+
+880
+00:59:04,225 --> 00:59:08,105
+Speaker 9:  program. Again, when you sort of think about things from
+
+881
+00:59:08,185 --> 00:59:12,025
+Speaker 9:  a supply chain perspective, thinking about Apple levels of scale of
+
+882
+00:59:12,025 --> 00:59:15,665
+Speaker 9:  producing something, one of the worst things you can do in the
+
+883
+00:59:15,865 --> 00:59:19,185
+Speaker 9:  industry is have single source suppliers. Like, oh wait, we've got a production
+
+884
+00:59:19,185 --> 00:59:22,845
+Speaker 9:  problem. We can't move forward because we're, we're locked into the single
+
+885
+00:59:23,165 --> 00:59:27,085
+Speaker 9:  supplier. And so, as I mentioned, choosing 8 0 2 15 4 was a
+
+886
+00:59:27,105 --> 00:59:29,925
+Speaker 9:  key choice to make sure, one, we didn't have to spin up that Silicon program,
+
+887
+00:59:30,425 --> 00:59:33,805
+Speaker 9:  but two, there was already a wide range of silicon vendors that were all
+
+888
+00:59:33,805 --> 00:59:37,685
+Speaker 9:  making 8 0 2 15 4 solutions. And so as we launched
+
+889
+00:59:37,705 --> 00:59:41,685
+Speaker 9:  the Nest Protect program, we were out looking for who is gonna
+
+890
+00:59:41,685 --> 00:59:45,525
+Speaker 9:  be our supplier for 15 four solutions in the Nest Protect. And
+
+891
+00:59:45,525 --> 00:59:49,005
+Speaker 9:  we went and talked to all the major players and we talked about our vision,
+
+892
+00:59:49,065 --> 00:59:52,525
+Speaker 9:  we talked about the problems, and they said, Hey, we actually believe in
+
+893
+00:59:52,525 --> 00:59:56,045
+Speaker 9:  this. We have been hearing from our customers a lot of the same things. We
+
+894
+00:59:56,045 --> 00:59:59,685
+Speaker 9:  think you Nest have the right vision. We're we're on board with this.
+
+895
+00:59:59,905 --> 01:00:03,805
+Speaker 9:  And so we started to sort of think to ourselves, maybe the
+
+896
+01:00:03,805 --> 01:00:07,365
+Speaker 9:  right way to do this is not just a sort of a, a vendor to vendor relationship.
+
+897
+01:00:07,365 --> 01:00:10,485
+Speaker 9:  Maybe there's an industry collaboration here. And so we had a meeting even
+
+898
+01:00:10,485 --> 01:00:14,045
+Speaker 9:  before the Nest Protect program was fully kicked off, and
+
+899
+01:00:14,555 --> 01:00:18,125
+Speaker 9:  Tony and Matt said, no, we are going to make this an industry initiative.
+
+900
+01:00:18,225 --> 01:00:21,445
+Speaker 9:  And so we got all the different silicon suppliers we were talking to together,
+
+901
+01:00:21,685 --> 01:00:25,565
+Speaker 9:  NXP, Silicon Labs, et cetera, Texas Instruments, so
+
+902
+01:00:25,565 --> 01:00:28,165
+Speaker 9:  on and so forth, and said, Hey, we're gonna create an industry. Do you guys,
+
+903
+01:00:28,225 --> 01:00:31,605
+Speaker 9:  you know, wanna be a part of this? And they were like, yep, absolutely. And
+
+904
+01:00:31,605 --> 01:00:35,205
+Speaker 9:  at that point, my predecessor as the Thread group president, Chris Boros
+
+905
+01:00:35,305 --> 01:00:39,285
+Speaker 9:  was actually our first partnership lead. He was already working with the
+
+906
+01:00:39,285 --> 01:00:42,725
+Speaker 9:  likes of big ass fans and Yale, et cetera, on the Nest Lock and, and other
+
+907
+01:00:42,725 --> 01:00:45,925
+Speaker 9:  programs. And we got them together and said, Hey, we're thinking about doing
+
+908
+01:00:45,925 --> 01:00:48,605
+Speaker 9:  this thing and here's the vision and here's the idea. And they're like, yes,
+
+909
+01:00:48,965 --> 01:00:52,045
+Speaker 9:  absolutely. How do we be part of this? And so we got sort of this core group
+
+910
+01:00:52,045 --> 01:00:55,845
+Speaker 9:  of, I think it was 11 or 13 companies together up and down the
+
+911
+01:00:55,845 --> 01:00:59,685
+Speaker 9:  supply chain and Thread group was born even before we started
+
+912
+01:00:59,865 --> 01:01:00,765
+Speaker 9:  on the Nest Protect.
+
+913
+01:01:01,705 --> 01:01:03,645
+Speaker 2:  So sounds very familiar
+
+914
+01:01:05,625 --> 01:01:09,605
+Speaker 2:  to something that's happened more recently. It's very much, I mean, I went,
+
+915
+01:01:09,635 --> 01:01:13,325
+Speaker 2:  went back and read the first press release from Thread Group and it
+
+916
+01:01:13,325 --> 01:01:16,845
+Speaker 2:  basically sounds exactly what, like the idea was what matter
+
+917
+01:01:16,845 --> 01:01:20,765
+Speaker 2:  eventually became. I think the quote that caught me was the Thread protocol
+
+918
+01:01:20,765 --> 01:01:24,605
+Speaker 2:  takes existing technologies and combines the best parts of each to provide
+
+919
+01:01:24,685 --> 01:01:28,565
+Speaker 2:  a better way to connect products in the home. But then this was 20,
+
+920
+01:01:28,995 --> 01:01:32,285
+Speaker 2:  what is this, 20 13, 20 12. Now
+
+921
+01:01:32,795 --> 01:01:36,005
+Speaker 2:  that was a, that's a long time ago. Matter came in
+
+922
+01:01:36,005 --> 01:01:39,645
+Speaker 2:  2019. Just for some of our listeners who maybe
+
+923
+01:01:39,705 --> 01:01:43,685
+Speaker 2:  aren't super keyed in to the smart home space, what is
+
+924
+01:01:43,685 --> 01:01:43,965
+Speaker 2:  matter?
+
+925
+01:01:44,765 --> 01:01:48,685
+Speaker 9:  Absolutely. So we talked about with wifi that there's a killer
+
+926
+01:01:48,745 --> 01:01:52,725
+Speaker 9:  app and the killer app for wifi ultimately became the web and all the different
+
+927
+01:01:52,785 --> 01:01:56,525
+Speaker 9:  web properties and applications ultimately matter, like its peers,
+
+928
+01:01:56,555 --> 01:02:00,125
+Speaker 9:  home kits or Open Weave or ZigBee is an IOT
+
+929
+01:02:00,125 --> 01:02:03,885
+Speaker 9:  application layer. But what really was critical for matter is matter is based
+
+930
+01:02:03,885 --> 01:02:07,605
+Speaker 9:  on the internet protocol or ip. And because Thread is ip, just like
+
+931
+01:02:07,805 --> 01:02:11,725
+Speaker 9:  wifi is IP and ethernet is ip, you suddenly have a singular
+
+932
+01:02:11,795 --> 01:02:15,765
+Speaker 9:  application layer that can connect devices that are on any of these IP
+
+933
+01:02:16,125 --> 01:02:19,485
+Speaker 9:  together to connect to interoperate with one another and, and work together
+
+934
+01:02:19,585 --> 01:02:21,965
+Speaker 9:  to provide features and services in the home.
+
+935
+01:02:22,535 --> 01:02:26,525
+Speaker 2:  Right. So Thread is like the, the plumbing and matter is
+
+936
+01:02:26,525 --> 01:02:30,405
+Speaker 2:  like the fun stuff, the showers and the taps. And I mean, not a great
+
+937
+01:02:30,405 --> 01:02:31,365
+Speaker 2:  analogy, I'm sorry.
+
+938
+01:02:31,645 --> 01:02:32,045
+Speaker 9:  Exactly.
+
+939
+01:02:32,825 --> 01:02:36,805
+Speaker 2:  But for the smart home it's cre it's helping run, do
+
+940
+01:02:36,805 --> 01:02:40,325
+Speaker 2:  the fun things that we see and Thread is the is working
+
+941
+01:02:40,865 --> 01:02:43,605
+Speaker 2:  behind the scenes to make sure everything connects with each other.
+
+942
+01:02:43,875 --> 01:02:47,285
+Speaker 9:  Exactly. To borrow a popular metaphor from Linis Torvalds
+
+943
+01:02:47,565 --> 01:02:50,565
+Speaker 9:  Thread is the plumbing matter is the porcelain. Right?
+
+944
+01:02:50,565 --> 01:02:54,285
+Speaker 2:  So the the main, the key here is that interoperability, right? Exactly.
+
+945
+01:02:54,585 --> 01:02:58,405
+Speaker 2:  Any, any device can work with any platform. And that's something that's
+
+946
+01:02:58,405 --> 01:03:01,325
+Speaker 2:  really been a struggle in the smart home to date
+
+947
+01:03:02,055 --> 01:03:05,605
+Speaker 2:  silos and walled gardens. And now
+
+948
+01:03:05,845 --> 01:03:08,405
+Speaker 2:  everyone's coming together, all the big companies, everyone's involved in
+
+949
+01:03:08,405 --> 01:03:12,005
+Speaker 2:  matter, right? Apple, Google, Samsung, most of smart home
+
+950
+01:03:12,005 --> 01:03:15,605
+Speaker 2:  manufacturers, the chip makers, everyone's come together and said like, this
+
+951
+01:03:15,745 --> 01:03:19,445
+Speaker 2:  is what we need. And Thread along with wifi are the sort of
+
+952
+01:03:19,445 --> 01:03:21,565
+Speaker 2:  underpinnings of matter today
+
+953
+01:03:21,835 --> 01:03:25,685
+Speaker 9:  Exactly. To have, you know, a a a home that you want to
+
+954
+01:03:25,685 --> 01:03:28,725
+Speaker 9:  invite people into a a hotel you wanna invite people into, like they're not
+
+955
+01:03:28,725 --> 01:03:31,485
+Speaker 9:  looking under the cabinets. They don't necessarily care what the plumbing
+
+956
+01:03:31,485 --> 01:03:34,365
+Speaker 9:  is. The engineers do, the people making the products do the people building
+
+957
+01:03:34,365 --> 01:03:37,925
+Speaker 9:  the building do. But what people interact with is the porcelain. And so
+
+958
+01:03:38,265 --> 01:03:41,445
+Speaker 9:  an application layer, that killer app that has the right
+
+959
+01:03:42,035 --> 01:03:45,245
+Speaker 9:  ingredients, the right special sauce to bring all this stuff together, to
+
+960
+01:03:45,245 --> 01:03:48,925
+Speaker 9:  bring the vision alive was what we ultimately needed for this whole industry
+
+961
+01:03:48,945 --> 01:03:52,685
+Speaker 9:  to really take off. I can imagine our colleagues and peers
+
+962
+01:03:52,685 --> 01:03:55,965
+Speaker 9:  over at Apple thought they were doing the same thing with HomeKit and Truth
+
+963
+01:03:56,035 --> 01:03:59,885
+Speaker 9:  told, I think Apple was really doing a fantastic job with
+
+964
+01:04:00,045 --> 01:04:03,485
+Speaker 9:  building out as there want to do with made for iPod, made for iPhone, a really
+
+965
+01:04:03,515 --> 01:04:07,245
+Speaker 9:  rich, vibrant partner ecosystem with HomeKit, of course the
+
+966
+01:04:07,245 --> 01:04:10,525
+Speaker 9:  ZigBee Alliance had been doing this long ago since roughly, you know, the
+
+967
+01:04:10,525 --> 01:04:14,245
+Speaker 9:  early aughts. And so we were all kind of doing our thing in
+
+968
+01:04:14,305 --> 01:04:18,125
+Speaker 9:  our silos to try to bring this vision to life, but ultimately
+
+969
+01:04:18,265 --> 01:04:21,965
+Speaker 9:  to make the plumbing valuable. People needed a killer app. And you know,
+
+970
+01:04:21,965 --> 01:04:25,325
+Speaker 9:  let's be candid, most companies aren't as insane as Nest to say here's this
+
+971
+01:04:25,325 --> 01:04:29,045
+Speaker 9:  super ambitions vision and we're gonna go do this with a limited
+
+972
+01:04:29,045 --> 01:04:33,005
+Speaker 9:  number of people. Most companies are fast followers. They just say,
+
+973
+01:04:33,025 --> 01:04:36,085
+Speaker 9:  you know, tell me what to do, tell me what to adopt and then we'll go make
+
+974
+01:04:36,085 --> 01:04:39,765
+Speaker 9:  product based around that. They're not necessarily technology creation companies,
+
+975
+01:04:39,765 --> 01:04:43,605
+Speaker 9:  they're product creation companies. So we're all kind of doing our thing
+
+976
+01:04:43,605 --> 01:04:46,845
+Speaker 9:  in our silos trying to figure out a way to be successful in this market.
+
+977
+01:04:47,635 --> 01:04:51,405
+Speaker 2:  Yeah. Well and and you mentioned Apple there, they did
+
+978
+01:04:51,405 --> 01:04:55,005
+Speaker 2:  adopt Thread, right? In 2018 They did. So how did that happen?
+
+979
+01:04:55,705 --> 01:04:59,605
+Speaker 9:  So we talk about plumbing and choosing the right plumbing for the smart home
+
+980
+01:04:59,625 --> 01:05:03,205
+Speaker 9:  or the smart building and one of the sort of elbows, pipe
+
+981
+01:05:03,205 --> 01:05:06,925
+Speaker 9:  fittings, et cetera, sitting on the table is Bluetooth. And you might think,
+
+982
+01:05:06,925 --> 01:05:10,645
+Speaker 9:  Hey, Bluetooth is everywhere. It's in my car, it's in my phone. Maybe you
+
+983
+01:05:10,645 --> 01:05:14,525
+Speaker 9:  think I'm gonna build an IOT solution out of Bluetooth. Bluetooth is
+
+984
+01:05:14,525 --> 01:05:18,125
+Speaker 9:  great, love Bluetooth, but ultimately the best way to think about Bluetooth
+
+985
+01:05:18,345 --> 01:05:22,285
+Speaker 9:  is sort of a wireless USB. What are the applications that really
+
+986
+01:05:22,395 --> 01:05:26,245
+Speaker 9:  made Bluetooth prevalent? It was telephony, it was headsets
+
+987
+01:05:26,245 --> 01:05:30,005
+Speaker 9:  and audio, it was human input devices, keyboards,
+
+988
+01:05:30,165 --> 01:05:33,725
+Speaker 9:  mice, et cetera. If you put a USB cable between any of those two devices,
+
+989
+01:05:33,775 --> 01:05:36,925
+Speaker 9:  you'd be like, oh, okay. It's a point-to-point connection. It's, it's not
+
+990
+01:05:37,025 --> 01:05:41,005
+Speaker 9:  nec it's networking, but it's not a network in and of itself. Yeah.
+
+991
+01:05:41,185 --> 01:05:44,605
+Speaker 9:  And so, you know, you translate that, and again, I'm, I'm speculating here.
+
+992
+01:05:44,685 --> 01:05:47,765
+Speaker 9:  I, I don't have an official line since I wasn't involved in their product
+
+993
+01:05:47,765 --> 01:05:49,165
+Speaker 9:  development plans. Oh,
+
+994
+01:05:49,185 --> 01:05:50,525
+Speaker 2:  The Apple guy's still in you there
+
+995
+01:05:53,465 --> 01:05:54,485
+Speaker 2:  not speaking for Apple,
+
+996
+01:05:55,585 --> 01:05:59,405
+Speaker 9:  But you can imagine a Bluetooth home kit door lock on your front door,
+
+997
+01:05:59,575 --> 01:06:03,485
+Speaker 9:  right? And now I happen to be upstairs in the
+
+998
+01:06:03,485 --> 01:06:07,405
+Speaker 9:  bedroom And I wanna unlock my front door because my kid has come home
+
+999
+01:06:07,435 --> 01:06:10,525
+Speaker 9:  late. Somebody's come, the dog walker's come whenever it is And I wanna open
+
+1000
+01:06:10,525 --> 01:06:14,285
+Speaker 9:  the front door. Ooh. But wait, guess what? The bedroom and the front door
+
+1001
+01:06:14,345 --> 01:06:17,525
+Speaker 9:  are too far apart. Too far away. They can't talk to each other. Yeah. And
+
+1002
+01:06:17,525 --> 01:06:20,565
+Speaker 9:  now the question is how do I solve that? Well, I can move closer to the door
+
+1003
+01:06:20,565 --> 01:06:20,805
+Speaker 9:  lock,
+
+1004
+01:06:21,185 --> 01:06:22,925
+Speaker 2:  But then I may as well open it manually.
+
+1005
+01:06:23,245 --> 01:06:27,125
+Speaker 9:  Exactly. But because Bluetooth isn't a network, there is
+
+1006
+01:06:27,125 --> 01:06:30,845
+Speaker 9:  no repeater, there is no router, there is no additional
+
+1007
+01:06:31,045 --> 01:06:34,685
+Speaker 9:  devices or things I can put between me and the front door
+
+1008
+01:06:35,105 --> 01:06:38,925
+Speaker 9:  to make that experience better. And so my suspicion
+
+1009
+01:06:39,265 --> 01:06:43,045
+Speaker 9:  is that like many companies that were building their IOT strategy
+
+1010
+01:06:43,045 --> 01:06:46,925
+Speaker 9:  around Bluetooth was we need to do something different to
+
+1011
+01:06:46,925 --> 01:06:50,525
+Speaker 9:  make this experience better for customers. We need a network.
+
+1012
+01:06:51,345 --> 01:06:55,205
+Speaker 9:  And I think, you know, I love Apple and, and, and they're great because
+
+1013
+01:06:55,685 --> 01:06:59,565
+Speaker 9:  ultimately as we were at Nest, they were believers in IP of, again, Gretzky
+
+1014
+01:06:59,565 --> 01:07:02,525
+Speaker 9:  skating to where that puck is going. And I think they reached the conclusion
+
+1015
+01:07:02,555 --> 01:07:06,085
+Speaker 9:  like many companies in the ecosystem, did we need something beyond
+
+1016
+01:07:06,085 --> 01:07:10,045
+Speaker 9:  Bluetooth to make this in-home networking experience for iot better? We
+
+1017
+01:07:10,045 --> 01:07:13,325
+Speaker 9:  need to be able to have a home pod, for example, sitting between me and the
+
+1018
+01:07:13,325 --> 01:07:17,205
+Speaker 9:  bedroom on my iPhone and the door lock and hey, now they're all Thread, they're
+
+1019
+01:07:17,205 --> 01:07:20,645
+Speaker 9:  all meshed together. My request to open the door jumps to the home pod, the
+
+1020
+01:07:20,645 --> 01:07:24,005
+Speaker 9:  home pod jumps to the front door, great, I've got a Nest Protect sitting
+
+1021
+01:07:24,005 --> 01:07:27,565
+Speaker 9:  somewhere between those. I jump from my phone to the Nest Protect to the
+
+1022
+01:07:27,565 --> 01:07:31,005
+Speaker 9:  home pod to the front door. Again, it's just sort of a network that grows
+
+1023
+01:07:31,005 --> 01:07:34,325
+Speaker 9:  as you add devices, customers don't have to think about it. And so I again,
+
+1024
+01:07:34,325 --> 01:07:38,205
+Speaker 9:  think Thread was a natural way for them to expand HomeKit
+
+1025
+01:07:38,225 --> 01:07:41,245
+Speaker 9:  and sort of solve some of those customer experience problems that I imagine
+
+1026
+01:07:41,245 --> 01:07:44,805
+Speaker 9:  they were having. And again, HomeKit already worked over
+
+1027
+01:07:45,105 --> 01:07:48,885
+Speaker 9:  IP because they had a cloud component of HomeKit. And so for them to adapt
+
+1028
+01:07:49,285 --> 01:07:53,125
+Speaker 9:  that HomeKit over the cloud component to Thread was I suspect
+
+1029
+01:07:53,205 --> 01:07:55,245
+Speaker 9:  a pretty easy exercise for them to do.
+
+1030
+01:07:55,835 --> 01:07:59,485
+Speaker 2:  Okay. Right. So we've, we've now got Thread quite established,
+
+1031
+01:07:59,535 --> 01:08:03,525
+Speaker 2:  right? And we've got HomeKit using it, we've got, we've
+
+1032
+01:08:03,525 --> 01:08:07,045
+Speaker 2:  using it, we've got Google and Apple. I think Samsung was also involved in
+
+1033
+01:08:07,045 --> 01:08:09,325
+Speaker 2:  the Thread group here at some point. So they were interested,
+
+1034
+01:08:09,325 --> 01:08:10,165
+Speaker 9:  They were also very early.
+
+1035
+01:08:10,635 --> 01:08:14,605
+Speaker 2:  Yeah. So, but we still have these ecosystems. We still have these
+
+1036
+01:08:14,735 --> 01:08:18,645
+Speaker 2:  silos of the smart home. The smart home is stalling out to some extent at
+
+1037
+01:08:18,645 --> 01:08:22,205
+Speaker 2:  this point because people are confused, tearing their hair out, trying to
+
+1038
+01:08:22,205 --> 01:08:25,965
+Speaker 2:  make things work. I've spoken to a few people about this in my time
+
+1039
+01:08:25,965 --> 01:08:28,765
+Speaker 2:  reporting on matter, but I understand there was a moment,
+
+1040
+01:08:30,005 --> 01:08:33,685
+Speaker 2:  Michelle Turner and yourself from Google, apple, Amazon
+
+1041
+01:08:33,685 --> 01:08:37,565
+Speaker 2:  counterparts and the ZigBee Alliance all came together to
+
+1042
+01:08:37,565 --> 01:08:41,245
+Speaker 2:  figure this out. Was this kind of a watershed moment like Apple,
+
+1043
+01:08:41,505 --> 01:08:45,085
+Speaker 2:  Amazon, Google, ZigBee, all sitting down together and being like,
+
+1044
+01:08:45,295 --> 01:08:46,445
+Speaker 2:  we're gonna work together on this?
+
+1045
+01:08:48,165 --> 01:08:52,005
+Speaker 9:  I think so. I think all the players had reached a point where we
+
+1046
+01:08:52,005 --> 01:08:55,805
+Speaker 9:  sort of had figured out what we need to do to get to the vision of
+
+1047
+01:08:55,805 --> 01:08:59,765
+Speaker 9:  where we need to go. We think we can make a bigger market, we think
+
+1048
+01:08:59,765 --> 01:09:03,525
+Speaker 9:  we can make it better for consumers. We think we can improve all of this.
+
+1049
+01:09:03,585 --> 01:09:07,485
+Speaker 9:  And so with that, the team started working together, figuring out what the
+
+1050
+01:09:07,485 --> 01:09:10,805
+Speaker 9:  best of each of these things was and how we were gonna bring it all together.
+
+1051
+01:09:11,065 --> 01:09:14,205
+Speaker 9:  And as somebody who's been using it, certainly it's, it's got warts, but
+
+1052
+01:09:14,365 --> 01:09:17,645
+Speaker 9:  I think relative to where it was say 10 years ago, 20 years ago,
+
+1053
+01:09:18,155 --> 01:09:19,525
+Speaker 9:  it's getting there. It's getting to the vision,
+
+1054
+01:09:20,105 --> 01:09:23,765
+Speaker 2:  Why was it Thread and wifi and why not ZigBee or
+
+1055
+01:09:23,905 --> 01:09:27,645
+Speaker 2:  Z-Wave or, I mean Bluetooth mesh was an option that some
+
+1056
+01:09:27,965 --> 01:09:31,805
+Speaker 2:  companies used. There were other things out there. Was this
+
+1057
+01:09:31,885 --> 01:09:35,845
+Speaker 2:  a political move to some extent? I mean I know with protocols there's
+
+1058
+01:09:35,845 --> 01:09:39,725
+Speaker 2:  a lot of politics or was it very much based on the
+
+1059
+01:09:39,725 --> 01:09:42,205
+Speaker 2:  technology? Like was it a mix of the two?
+
+1060
+01:09:42,505 --> 01:09:45,205
+Speaker 9:  No, it was absolutely technology. We really, again,
+
+1061
+01:09:46,335 --> 01:09:49,805
+Speaker 9:  we're putting the consumer first and in order to have the consumer
+
+1062
+01:09:49,805 --> 01:09:53,685
+Speaker 9:  experience that those of us who were in product wanted to have, which is,
+
+1063
+01:09:53,865 --> 01:09:56,445
+Speaker 9:  you know, you start with this product, you start with this product, you start
+
+1064
+01:09:56,445 --> 01:10:00,045
+Speaker 9:  with this product and, and add incrementally over time and things just
+
+1065
+01:10:00,045 --> 01:10:03,685
+Speaker 9:  evolve and get better as as you add those products to the mix. We
+
+1066
+01:10:03,695 --> 01:10:07,525
+Speaker 9:  again had a very fine line on the horizon that
+
+1067
+01:10:07,525 --> 01:10:11,165
+Speaker 9:  said we don't want people to have to acquire gateways, converters,
+
+1068
+01:10:11,435 --> 01:10:14,645
+Speaker 9:  bridges, et cetera, just for the sake of converting one protocol to another.
+
+1069
+01:10:14,985 --> 01:10:18,525
+Speaker 9:  But there was another practical reason for all that. Another North Star
+
+1070
+01:10:18,865 --> 01:10:22,285
+Speaker 9:  was, you know, at Nest we had the Nest detect window door sensor.
+
+1071
+01:10:22,705 --> 01:10:23,045
+Speaker 9:  Oh, I
+
+1072
+01:10:23,045 --> 01:10:26,765
+Speaker 2:  Love that Fink so much. I'm so sad.
+
+1073
+01:10:26,795 --> 01:10:27,285
+Speaker 2:  It's gone.
+
+1074
+01:10:27,745 --> 01:10:31,725
+Speaker 9:  The resources on that were mindbogglingly small and
+
+1075
+01:10:31,725 --> 01:10:34,925
+Speaker 9:  the fact that we packed Bluetooth and Thread
+
+1076
+01:10:35,435 --> 01:10:38,965
+Speaker 9:  into that thing and it could connect directly to the Nest cloud. Yeah, it
+
+1077
+01:10:38,965 --> 01:10:42,605
+Speaker 9:  could connect directly to the security system and to do all that in the form
+
+1078
+01:10:42,605 --> 01:10:45,805
+Speaker 9:  factor that we did and to have it last as long as it tiny little better.
+
+1079
+01:10:45,805 --> 01:10:49,085
+Speaker 9:  Tiny. Tiny, exactly. Yeah. Was incredible. Mm. And so what you, what you
+
+1080
+01:10:49,085 --> 01:10:51,565
+Speaker 9:  learn from an engineering perspective when you're building these products
+
+1081
+01:10:51,625 --> 01:10:54,605
+Speaker 9:  is every protocol you add is call it another
+
+1082
+01:10:55,085 --> 01:10:59,005
+Speaker 9:  128 K of Ram and flash you need. Mm. And so to add this
+
+1083
+01:10:59,005 --> 01:11:02,485
+Speaker 9:  thing that isn't an ip, great, there's another chunk of space we need to
+
+1084
+01:11:02,485 --> 01:11:05,285
+Speaker 9:  find and now you need to add this thing, another chunk of space you need
+
+1085
+01:11:05,285 --> 01:11:08,605
+Speaker 9:  to find. And so we already had IP and Bluetooth in there, there just was
+
+1086
+01:11:08,605 --> 01:11:12,485
+Speaker 9:  no room for anything else. And so between the, the customer vision
+
+1087
+01:11:12,585 --> 01:11:16,125
+Speaker 9:  of all this stuff connected without gateways, bridges, and, and converters
+
+1088
+01:11:16,625 --> 01:11:19,685
+Speaker 9:  and the engineering constraints of this all has to fit in window and door
+
+1089
+01:11:19,685 --> 01:11:23,325
+Speaker 9:  sensors. It really had to be as simple as possible. And again, IP was, we
+
+1090
+01:11:23,325 --> 01:11:25,765
+Speaker 9:  knew where where we needed to go because we knew we needed to connect to
+
+1091
+01:11:25,765 --> 01:11:28,565
+Speaker 9:  the cloud. We knew we needed to connect to mobiles, we knew we needed to
+
+1092
+01:11:28,565 --> 01:11:32,365
+Speaker 9:  connect to other devices that was key. And so we didn't
+
+1093
+01:11:32,365 --> 01:11:35,565
+Speaker 9:  say no, you couldn't have these other protocols. But ultimately
+
+1094
+01:11:36,265 --> 01:11:40,085
+Speaker 9:  the way matter brings those into the fore is you sort of virtualize them
+
+1095
+01:11:40,155 --> 01:11:43,925
+Speaker 9:  into the matter ecosystem. You have hubs or things that sort of say, oh
+
+1096
+01:11:44,145 --> 01:11:47,285
+Speaker 9:  the ZigBee light bulb over here is actually a matter light. And so you interact
+
+1097
+01:11:47,285 --> 01:11:51,205
+Speaker 9:  with it from the matter perspective and then that thing reflects that off
+
+1098
+01:11:51,205 --> 01:11:54,245
+Speaker 9:  into the ZigBee world or the Z-Wave world or whatever it happens to be.
+
+1099
+01:11:54,555 --> 01:11:58,165
+Speaker 2:  Okay. Well you brought it up. So I, this is a, I love the story,
+
+1100
+01:11:58,315 --> 01:12:02,005
+Speaker 2:  this is wonderful. It's great to ha and it was a really interesting and exciting
+
+1101
+01:12:02,075 --> 01:12:05,885
+Speaker 2:  like moment it sounds like for everyone in the industry to see
+
+1102
+01:12:05,885 --> 01:12:09,685
+Speaker 2:  this sort of north star. Okay, we can, we can get there, but I'm gonna kind
+
+1103
+01:12:09,685 --> 01:12:11,645
+Speaker 2:  of bring us slightly crashing back down to earth because
+
+1104
+01:12:13,665 --> 01:12:17,325
+Speaker 2:  you were going, you were mentioning there that this big selling point here
+
+1105
+01:12:17,385 --> 01:12:21,085
+Speaker 2:  is we don't need proprietary hubs, bridges and gateways. You know, like to
+
+1106
+01:12:21,085 --> 01:12:24,805
+Speaker 2:  this point, anyone in the smart home has maybe a HU Bridge, a Lutron Bridge,
+
+1107
+01:12:25,385 --> 01:12:28,365
+Speaker 2:  an Apple Home Hub, maybe an echo device,
+
+1108
+01:12:29,255 --> 01:12:33,245
+Speaker 2:  maybe a smart things hub. There's also so many hubs. My, if I showed
+
+1109
+01:12:33,245 --> 01:12:36,565
+Speaker 2:  you my hub closet, you might have a heart attack. So this is a big selling
+
+1110
+01:12:36,565 --> 01:12:40,445
+Speaker 2:  point, but it really wasn't true, was it? Because Matter does need
+
+1111
+01:12:40,485 --> 01:12:44,405
+Speaker 2:  a hub and Thread needs a hub Thread, border router.
+
+1112
+01:12:44,755 --> 01:12:48,485
+Speaker 2:  Okay, maybe nomenclature is a little, you know, we, we
+
+1113
+01:12:48,955 --> 01:12:52,645
+Speaker 2:  some marketing speak the word hub kind of disappeared.
+
+1114
+01:12:52,745 --> 01:12:56,565
+Speaker 2:  But can you dive in a little bit there just briefly, like what
+
+1115
+01:12:56,565 --> 01:13:00,445
+Speaker 2:  is it about Matter and Thread that makes it different from what the hub
+
+1116
+01:13:00,575 --> 01:13:03,565
+Speaker 2:  world we were coming from to today?
+
+1117
+01:13:04,475 --> 01:13:08,445
+Speaker 9:  Yeah, absolutely. So from a Thread perspective, you have
+
+1118
+01:13:08,475 --> 01:13:12,445
+Speaker 9:  different roles in the network just as you have in, in the world
+
+1119
+01:13:12,445 --> 01:13:16,245
+Speaker 9:  of IP or or wifi. In fact you, you know, have access points and
+
+1120
+01:13:16,245 --> 01:13:19,525
+Speaker 9:  you've got stations and you've got repeaters et cetera. You've got routers
+
+1121
+01:13:19,525 --> 01:13:23,405
+Speaker 9:  and switches and and hubs, et cetera. So from a Thread perspective,
+
+1122
+01:13:23,405 --> 01:13:27,285
+Speaker 9:  from this plumbing perspective, these different roles are are Networky
+
+1123
+01:13:27,685 --> 01:13:31,485
+Speaker 9:  plumbing bits. But the cool thing with from a Thread perspective is their
+
+1124
+01:13:31,485 --> 01:13:35,365
+Speaker 9:  application agnostic. So if I've got a Thread border router or I've got
+
+1125
+01:13:35,365 --> 01:13:39,125
+Speaker 9:  a Thread router, I could be running HomeKit over, it doesn't matter,
+
+1126
+01:13:39,125 --> 01:13:42,325
+Speaker 9:  doesn't care. I could be running matter over it doesn't know, doesn't care.
+
+1127
+01:13:42,745 --> 01:13:45,765
+Speaker 9:  So these aren't necessarily sort of proprietary
+
+1128
+01:13:46,195 --> 01:13:50,165
+Speaker 9:  ecosystem, vertical silo specific bits of networking. They're
+
+1129
+01:13:50,165 --> 01:13:53,525
+Speaker 9:  just functionalities that you can build into other products. They could be
+
+1130
+01:13:53,525 --> 01:13:56,605
+Speaker 9:  dedicated if they need to be. But again, going back to the Nest Protect,
+
+1131
+01:13:57,105 --> 01:14:00,885
+Speaker 9:  we had wifi in the Nest Protect and we had Thread in the Nest Protect. So
+
+1132
+01:14:00,885 --> 01:14:04,125
+Speaker 9:  we already knew AP priori that if you had a house full of Nest protects,
+
+1133
+01:14:04,265 --> 01:14:07,965
+Speaker 9:  you already had 2, 3, 4, 5 border routers and that and Thread
+
+1134
+01:14:07,965 --> 01:14:10,925
+Speaker 9:  routers in your home and that you didn't have to think about it, you weren't
+
+1135
+01:14:11,005 --> 01:14:14,485
+Speaker 9:  thinking about I need to buy these things. Additionally, you just suddenly,
+
+1136
+01:14:14,705 --> 01:14:18,285
+Speaker 9:  you know, built out these Nest smoke and co detectors and suddenly you had
+
+1137
+01:14:18,285 --> 01:14:21,045
+Speaker 9:  a Thread network that you didn't even know you had. And so that's really
+
+1138
+01:14:21,045 --> 01:14:24,325
+Speaker 9:  the key to understanding Thread is it's, it's just networking, it's just
+
+1139
+01:14:24,485 --> 01:14:27,445
+Speaker 9:  plumbing, it's just infrastructure. Again, no different from the stuff that
+
+1140
+01:14:27,445 --> 01:14:30,325
+Speaker 9:  you have with your wifi network. You need to have that access point,
+
+1141
+01:14:30,655 --> 01:14:32,765
+Speaker 2:  Right? And that's the Thread border router,
+
+1142
+01:14:33,325 --> 01:14:35,885
+Speaker 9:  The Thread border router of course is the thing that gets you from the Thread
+
+1143
+01:14:35,885 --> 01:14:39,845
+Speaker 9:  network to other networks like wifi or Ethernet or DOCSIS or
+
+1144
+01:14:39,965 --> 01:14:43,525
+Speaker 9:  DSL or whatever it happens to be. And then of course the Thread router is
+
+1145
+01:14:43,525 --> 01:14:46,725
+Speaker 9:  the thing within the network that gets you ho to hop across the mesh,
+
+1146
+01:14:46,935 --> 01:14:50,005
+Speaker 2:  Right? So you have the Thread water routers, which can be anything which
+
+1147
+01:14:50,005 --> 01:14:53,965
+Speaker 2:  is kind of cool and then matter, you need a hub, which would be
+
+1148
+01:14:53,965 --> 01:14:57,685
+Speaker 2:  from your ecosystem. But when this all rolled
+
+1149
+01:14:57,745 --> 01:15:01,565
+Speaker 2:  out, I mean everyone was excited. I think the smart home community users,
+
+1150
+01:15:01,745 --> 01:15:05,045
+Speaker 2:  not just, you know, as well as manufacturers and companies were, were excited,
+
+1151
+01:15:05,435 --> 01:15:08,685
+Speaker 2:  were very sort of bullish on Thread because on paper it checks all the boxes.
+
+1152
+01:15:09,065 --> 01:15:12,965
+Speaker 2:  And some of the first Thread devices I tested were super responsive and really
+
+1153
+01:15:12,995 --> 01:15:16,845
+Speaker 2:  fast. But then when Matter did launch eventually, which took a
+
+1154
+01:15:16,845 --> 01:15:20,165
+Speaker 2:  while, I know in the scheme of things maybe not that long, but it felt like
+
+1155
+01:15:20,205 --> 01:15:24,125
+Speaker 2:  a while for us as we were waiting for it, there were problems like only
+
+1156
+01:15:24,325 --> 01:15:28,005
+Speaker 2:  a few companies had Thread products available. The infrastructure wasn't
+
+1157
+01:15:28,005 --> 01:15:31,765
+Speaker 2:  really there to support the protocol, not at least not in the way that
+
+1158
+01:15:31,765 --> 01:15:35,405
+Speaker 2:  perhaps matter promised. There were only a handful of Thread border
+
+1159
+01:15:35,405 --> 01:15:39,205
+Speaker 2:  routers. Amazon and Samsung were kind of slow to adopt
+
+1160
+01:15:39,395 --> 01:15:43,205
+Speaker 2:  that protocol even though Samsung had been involved with Thread
+
+1161
+01:15:43,205 --> 01:15:46,485
+Speaker 2:  from the early days. And it really was Apple and Google that seemed to be
+
+1162
+01:15:46,485 --> 01:15:49,885
+Speaker 2:  pushing it. And we ended up with these weird scenarios where companies had
+
+1163
+01:15:49,885 --> 01:15:53,445
+Speaker 2:  to print like long lists of, on the sides of their boxes of what you wouldn't
+
+1164
+01:15:53,505 --> 01:15:57,205
+Speaker 2:  you could use to use this product in your home. And it felt like, ah, tearing
+
+1165
+01:15:57,205 --> 01:16:01,125
+Speaker 2:  my hair out. We're just back to what it was like before. So
+
+1166
+01:16:01,425 --> 01:16:05,365
+Speaker 2:  do you think there should have maybe been a bit more focus on
+
+1167
+01:16:05,365 --> 01:16:09,045
+Speaker 2:  infrastructure rollout before the launch of Matter and Thread?
+
+1168
+01:16:09,185 --> 01:16:13,005
+Speaker 2:  You know, was was that a big misstep or or am I
+
+1169
+01:16:13,005 --> 01:16:13,845
+Speaker 2:  over egging it?
+
+1170
+01:16:15,165 --> 01:16:18,685
+Speaker 9:  I think you can look at it both ways. I think there's sort of,
+
+1171
+01:16:19,185 --> 01:16:22,725
+Speaker 9:  you know, how would you done it retrospectively from a perfect execution
+
+1172
+01:16:22,725 --> 01:16:26,365
+Speaker 9:  perspective. But I think given the state of the market, perfect
+
+1173
+01:16:26,505 --> 01:16:30,405
+Speaker 9:  was the enemy of of good. And to me, proving things out in the market is
+
+1174
+01:16:30,405 --> 01:16:33,085
+Speaker 9:  the best feedback that you can get about what actually works and what doesn't.
+
+1175
+01:16:33,145 --> 01:16:37,045
+Speaker 9:  So I think there was value in sort of having the vision,
+
+1176
+01:16:37,095 --> 01:16:40,645
+Speaker 9:  right, sort of stepping and iterating your way to the product.
+
+1177
+01:16:40,985 --> 01:16:44,805
+Speaker 9:  And, and again, I think missteps have happened, some experiences from a
+
+1178
+01:16:44,965 --> 01:16:47,805
+Speaker 9:  customer perspective maybe not been quite as ideal as they could have been.
+
+1179
+01:16:48,145 --> 01:16:51,205
+Speaker 9:  Not quite to where the vision was. But again, I think getting that market
+
+1180
+01:16:51,565 --> 01:16:55,285
+Speaker 9:  feedback early and often was good in terms of providing real time feedback
+
+1181
+01:16:55,285 --> 01:16:58,645
+Speaker 9:  to make things better. And of course you can always do that within one company
+
+1182
+01:16:58,645 --> 01:17:02,045
+Speaker 9:  in the lab internally, but when you're collaborating across the industry,
+
+1183
+01:17:02,195 --> 01:17:06,125
+Speaker 9:  it's kind of hard to to keep all that as, as behind closed doors as you might
+
+1184
+01:17:06,125 --> 01:17:09,805
+Speaker 9:  like. Yeah. And so it, it, it happens maybe a a little bit more out in the
+
+1185
+01:17:09,805 --> 01:17:11,725
+Speaker 9:  open than, than we would ideally like it to be.
+
+1186
+01:17:12,675 --> 01:17:16,365
+Speaker 2:  Well, and then the other issue I've seen here since the rollout is
+
+1187
+01:17:16,625 --> 01:17:19,605
+Speaker 2:  you mentioned at the beginning that wifi and Thread are kind of, you know,
+
+1188
+01:17:19,725 --> 01:17:23,485
+Speaker 2:  partners. They, they, they do similar things but for different applications.
+
+1189
+01:17:23,545 --> 01:17:27,165
+Speaker 2:  So wifi is good for high bandwidth, high power
+
+1190
+01:17:27,465 --> 01:17:30,685
+Speaker 2:  use, low power, low bandwidth is great for Thread
+
+1191
+01:17:31,265 --> 01:17:35,085
+Speaker 2:  and matter works over both wifi and Thread and everyone has
+
+1192
+01:17:35,155 --> 01:17:38,805
+Speaker 2:  wifi. So the infrastructure really wasn't an issue there for people
+
+1193
+01:17:38,995 --> 01:17:42,205
+Speaker 2:  when a company came out with a matter product that works over wifi. They
+
+1194
+01:17:42,205 --> 01:17:45,725
+Speaker 2:  don't have to worry if there's a Thread border router in the house. So
+
+1195
+01:17:46,225 --> 01:17:49,765
+Speaker 2:  one of the things we started to see I think is a lot of companies launching
+
+1196
+01:17:50,225 --> 01:17:54,165
+Speaker 2:  matter over wifi products that potentially would make more sense
+
+1197
+01:17:54,225 --> 01:17:57,925
+Speaker 2:  as a matter over Thread product like light switches, some, you know, light
+
+1198
+01:17:58,015 --> 01:18:01,445
+Speaker 2:  bulbs. And, and we also started to sort of see some
+
+1199
+01:18:01,925 --> 01:18:05,805
+Speaker 2:  companies start sort of to pull away from Thread because of some of
+
+1200
+01:18:05,805 --> 01:18:09,485
+Speaker 2:  this confusion and and issues early on.
+
+1201
+01:18:10,915 --> 01:18:14,045
+Speaker 2:  Nano Leaf is one company that was very bullish on Thread but then recently
+
+1202
+01:18:14,205 --> 01:18:18,005
+Speaker 2:  launched its own protocol called LightWave. A
+
+1203
+01:18:18,015 --> 01:18:21,685
+Speaker 2:  carer is one company that offers both dual, now offers dual Thread and
+
+1204
+01:18:21,865 --> 01:18:25,805
+Speaker 2:  ZigBee devices because it's easier for the, I think one of the
+
+1205
+01:18:25,805 --> 01:18:28,925
+Speaker 2:  reasons they've said to me is it's easier for their consumers if they don't
+
+1206
+01:18:28,925 --> 01:18:31,685
+Speaker 2:  end up having a Thread border router, they're gonna be able to work with
+
+1207
+01:18:31,685 --> 01:18:35,645
+Speaker 2:  their ZigBee hub. So I guess it sort of seems a little bit like
+
+1208
+01:18:35,645 --> 01:18:39,525
+Speaker 2:  the future that some of these manufacturers were building for didn't necessarily
+
+1209
+01:18:39,705 --> 01:18:43,605
+Speaker 2:  arrive when they were, as you've pointed out, we know it was
+
+1210
+01:18:43,645 --> 01:18:47,005
+Speaker 2:  a work in progress, but why do you think that that has been
+
+1211
+01:18:47,505 --> 01:18:51,445
+Speaker 2:  the adoption of Thread among manufacturers has been
+
+1212
+01:18:51,705 --> 01:18:55,405
+Speaker 2:  slower perhaps or struggle for some than perhaps you
+
+1213
+01:18:55,405 --> 01:18:56,285
+Speaker 2:  would've wanted it to be?
+
+1214
+01:18:57,085 --> 01:19:00,805
+Speaker 9:  I think as you, you stand in the home and you look out various windows,
+
+1215
+01:19:00,945 --> 01:19:04,685
+Speaker 9:  you see different views of what are ultimately the same environment. So I
+
+1216
+01:19:04,685 --> 01:19:07,405
+Speaker 9:  think you can sort of stand on one side of the house and look out one window
+
+1217
+01:19:07,745 --> 01:19:10,845
+Speaker 9:  and you see that, oh wow, there's, you know, now 220
+
+1218
+01:19:11,525 --> 01:19:15,125
+Speaker 9:  Thread group member companies, there's now over 600 certified
+
+1219
+01:19:15,125 --> 01:19:19,085
+Speaker 9:  products and solutions. IKEA just came out and said going
+
+1220
+01:19:19,085 --> 01:19:23,005
+Speaker 9:  forward they're, they're a Thread only. So I think different
+
+1221
+01:19:23,285 --> 01:19:26,725
+Speaker 9:  companies sort of are at different places and positions in their journey,
+
+1222
+01:19:26,905 --> 01:19:30,645
+Speaker 9:  but ultimately I think if you've either got a greenfield and you don't have
+
+1223
+01:19:30,645 --> 01:19:34,485
+Speaker 9:  to think about the past and and legacy or legacy customers, there's sort
+
+1224
+01:19:34,485 --> 01:19:38,165
+Speaker 9:  of one way to approach and engage with the market and and bet on the market.
+
+1225
+01:19:38,665 --> 01:19:41,685
+Speaker 9:  But as you move across the house and look out a different window in the environment,
+
+1226
+01:19:42,265 --> 01:19:45,245
+Speaker 9:  you still ultimately are seeing the same landscape but a different part of
+
+1227
+01:19:45,245 --> 01:19:48,565
+Speaker 9:  it with a different view. And I think as you look at some players
+
+1228
+01:19:49,125 --> 01:19:52,885
+Speaker 9:  that do have legacy do have existing markets, existing customers to
+
+1229
+01:19:53,085 --> 01:19:56,165
+Speaker 9:  consider, there's a different set of constraints. And I know one of those,
+
+1230
+01:19:56,235 --> 01:20:00,125
+Speaker 9:  yeah, constraints in particular is if you had a huge ZigBee
+
+1231
+01:20:00,125 --> 01:20:03,965
+Speaker 9:  installed base and you had 1 8 0 2 15 4 radio in your
+
+1232
+01:20:03,965 --> 01:20:07,405
+Speaker 9:  product, but you suddenly wanna make that product not only ZigBee compatible
+
+1233
+01:20:07,745 --> 01:20:11,565
+Speaker 9:  but Thread and matter compatible, you now have this challenge in
+
+1234
+01:20:11,565 --> 01:20:15,125
+Speaker 9:  that to share that 15 four radio across those two
+
+1235
+01:20:15,405 --> 01:20:18,965
+Speaker 9:  protocols is actually a bit more of an engineering trick than it would
+
+1236
+01:20:18,965 --> 01:20:21,845
+Speaker 9:  initially seem to be. And if you say that you wanna support both those at
+
+1237
+01:20:21,845 --> 01:20:25,805
+Speaker 9:  the same time, that's a really challenging engineering problem to solve.
+
+1238
+01:20:25,865 --> 01:20:28,845
+Speaker 9:  And and ultimately I think they're gonna solve those. But those are tough
+
+1239
+01:20:28,845 --> 01:20:32,445
+Speaker 9:  things to, to make work And I think that maybe explains some of the,
+
+1240
+01:20:32,665 --> 01:20:34,685
+Speaker 9:  the challenges that those players have had.
+
+1241
+01:20:35,305 --> 01:20:39,045
+Speaker 2:  So what do you think needs to happen in the near term
+
+1242
+01:20:39,045 --> 01:20:43,005
+Speaker 2:  future to make Thread a success for everyone? To make it
+
+1243
+01:20:43,075 --> 01:20:45,965
+Speaker 2:  easy for everyone to jump onto that green playing field?
+
+1244
+01:20:47,245 --> 01:20:50,885
+Speaker 9:  I mean I think really we've got the key components today. I think there's
+
+1245
+01:20:50,905 --> 01:20:54,205
+Speaker 9:  one issue that probably warrants a bit more
+
+1246
+01:20:54,565 --> 01:20:58,405
+Speaker 9:  standardization and refining to really make things as good as they can be.
+
+1247
+01:20:58,805 --> 01:21:02,205
+Speaker 9:  I think Apple and Google have done some really fantastic work on their mobile
+
+1248
+01:21:02,525 --> 01:21:06,205
+Speaker 9:  platforms, but Thread credential sharing is of course a challenge that comes
+
+1249
+01:21:06,205 --> 01:21:10,125
+Speaker 9:  up a lot in in your content with your audience. Others,
+
+1250
+01:21:10,715 --> 01:21:13,245
+Speaker 2:  Will you explain just briefly what that issue is?
+
+1251
+01:21:13,635 --> 01:21:17,325
+Speaker 9:  Yeah, absolutely. So like any secure wireless network,
+
+1252
+01:21:17,765 --> 01:21:21,525
+Speaker 9:  ultimately there's a number of different security credentials for securing
+
+1253
+01:21:21,585 --> 01:21:25,325
+Speaker 9:  actors on that network to make sure that they have permission to be there
+
+1254
+01:21:25,325 --> 01:21:28,685
+Speaker 9:  or that they have permission to, to act on that network. And one of those
+
+1255
+01:21:28,705 --> 01:21:32,245
+Speaker 9:  is sort of the Thread administrative credential and it's just sort of like
+
+1256
+01:21:32,245 --> 01:21:36,165
+Speaker 9:  your wifi password that you share or if you're an iOS user and or
+
+1257
+01:21:36,165 --> 01:21:39,245
+Speaker 9:  next to another iOS user like hey would you like to share the wifi network
+
+1258
+01:21:40,005 --> 01:21:43,765
+Speaker 9:  password with this other person? It's sort of synonymous with,
+
+1259
+01:21:43,765 --> 01:21:47,365
+Speaker 9:  with a Thread administrative credential. In the early days of Thread
+
+1260
+01:21:47,635 --> 01:21:51,045
+Speaker 9:  that part of the spec was probably retrospectively
+
+1261
+01:21:51,045 --> 01:21:54,485
+Speaker 9:  underspecified, but how do we share that credential
+
+1262
+01:21:55,385 --> 01:21:58,645
+Speaker 9:  was not something, again, we standardized and we didn't, didn't think about
+
+1263
+01:21:58,645 --> 01:22:02,405
+Speaker 9:  how that would happen. But fast forward to where we are today and matter
+
+1264
+01:22:02,465 --> 01:22:06,285
+Speaker 9:  and everything else, the question then becomes, well I created this
+
+1265
+01:22:06,285 --> 01:22:09,725
+Speaker 9:  Thread network in my home or my business and now I want to add other devices
+
+1266
+01:22:10,025 --> 01:22:13,805
+Speaker 9:  and maybe they're not in my application ecosystem. How do we give
+
+1267
+01:22:13,805 --> 01:22:17,205
+Speaker 9:  people permission to add devices and share this credential in the way that
+
+1268
+01:22:17,205 --> 01:22:20,685
+Speaker 9:  we do with wifi? And so that's ultimately the problem is how do you
+
+1269
+01:22:20,855 --> 01:22:23,925
+Speaker 9:  share in a trustworthy, secure manner this wifi
+
+1270
+01:22:24,415 --> 01:22:28,045
+Speaker 9:  equivalent to the wifi password, the Thread network administrative password
+
+1271
+01:22:28,305 --> 01:22:30,605
+Speaker 9:  to other entities, other people, other ecosystems.
+
+1272
+01:22:30,865 --> 01:22:34,805
+Speaker 2:  So Apple sharing with Amazon and Samsung sharing with Google, and this
+
+1273
+01:22:35,135 --> 01:22:39,005
+Speaker 2:  comes back to the whole, all these guys are working together, but
+
+1274
+01:22:39,185 --> 01:22:40,205
+Speaker 2:  how is that really going?
+
+1275
+01:22:40,725 --> 01:22:44,605
+Speaker 9:  Yeah. So again, it's going as well as it could. And again, ku kudos to
+
+1276
+01:22:44,605 --> 01:22:48,445
+Speaker 9:  Apple and Google for really saying the first place most people discover
+
+1277
+01:22:48,475 --> 01:22:51,725
+Speaker 9:  this pain point is the mobile to mobile. Like I've got iOS in my family,
+
+1278
+01:22:51,795 --> 01:22:55,005
+Speaker 9:  I've got Android. How does that happen across those two platforms? And again,
+
+1279
+01:22:55,005 --> 01:22:57,885
+Speaker 9:  apple and Google did a great job of collaborating to make that experience
+
+1280
+01:22:57,885 --> 01:23:01,685
+Speaker 9:  great, but now we need to say, okay, it's not an a mobile
+
+1281
+01:23:02,005 --> 01:23:05,245
+Speaker 9:  platform, it's not Android, it's not iOS. How do we again standardize that?
+
+1282
+01:23:05,345 --> 01:23:09,005
+Speaker 9:  So It could be something else, another device, another you know, controller
+
+1283
+01:23:09,005 --> 01:23:12,445
+Speaker 9:  device, a cloud service, whatever that might be. How do we share that?
+
+1284
+01:23:13,115 --> 01:23:16,925
+Speaker 2:  Yeah, And I mean when I remember when Matter launched in 2022
+
+1285
+01:23:16,945 --> 01:23:20,205
+Speaker 2:  at the launch event, we, you could already see this could be an issue because
+
+1286
+01:23:20,205 --> 01:23:23,845
+Speaker 2:  the issue that it's created is that people end up with multiple Thread networks
+
+1287
+01:23:23,845 --> 01:23:27,685
+Speaker 2:  in their home. In theory, that shouldn't be a huge problem for
+
+1288
+01:23:27,685 --> 01:23:31,245
+Speaker 2:  someone who's new to the smart home. But it is something that I've already,
+
+1289
+01:23:31,315 --> 01:23:34,925
+Speaker 2:  I've seen from readers having issues with this. Like, so one device can't
+
+1290
+01:23:34,925 --> 01:23:38,685
+Speaker 2:  necessarily communicate to the other device, it's, it can get messy. And
+
+1291
+01:23:38,765 --> 01:23:42,125
+Speaker 2:  I asked all the ecosystems right at the launch, like how are you gonna solve
+
+1292
+01:23:42,125 --> 01:23:46,085
+Speaker 2:  this? And they all said we're working on it, but like two years later they
+
+1293
+01:23:46,085 --> 01:23:50,045
+Speaker 2:  still, you said Apple and Google work together, but everyone needs to
+
+1294
+01:23:50,045 --> 01:23:53,445
+Speaker 2:  work together. And I guess one of the things that sort of exemplifies for
+
+1295
+01:23:53,445 --> 01:23:57,085
+Speaker 2:  me this issue, even though it feels like perhaps a small niche, one that
+
+1296
+01:23:57,085 --> 01:23:59,885
+Speaker 2:  wouldn't necessarily affect a lot of users, but it
+
+1297
+01:24:00,925 --> 01:24:04,685
+Speaker 2:  required everyone to work together to solve a so
+
+1298
+01:24:04,685 --> 01:24:08,525
+Speaker 2:  this solution and they weren't able to do it in the end, the Thread group
+
+1299
+01:24:08,585 --> 01:24:12,405
+Speaker 2:  had to come out and say this is how you're going to do it. So I guess one
+
+1300
+01:24:12,405 --> 01:24:15,445
+Speaker 2:  of my concerns, And I think a lot of concerns from people in the, in the
+
+1301
+01:24:15,685 --> 01:24:19,285
+Speaker 2:  industry and users is this is an industry collaboration
+
+1302
+01:24:19,505 --> 01:24:23,085
+Speaker 2:  matter and Thread is supposed to be about these major ecosystems and
+
+1303
+01:24:23,085 --> 01:24:26,965
+Speaker 2:  manufacturers all playing nicely together. But are they really, is
+
+1304
+01:24:26,965 --> 01:24:30,565
+Speaker 2:  this sustainable or could this all still implode from the
+
+1305
+01:24:30,705 --> 01:24:31,125
+Speaker 2:  inside?
+
+1306
+01:24:32,465 --> 01:24:36,285
+Speaker 9:  Is it sustainable? I think absolutely, yes. Could it implode
+
+1307
+01:24:36,285 --> 01:24:39,645
+Speaker 9:  from the inside? I think if you look at any one company,
+
+1308
+01:24:40,385 --> 01:24:44,245
+Speaker 9:  the answer is for that specific company, yes, companies
+
+1309
+01:24:44,245 --> 01:24:47,725
+Speaker 9:  are constantly shifting their priorities where they're investing. I think
+
+1310
+01:24:47,725 --> 01:24:51,605
+Speaker 9:  if you looked back, you know, in the heydays of, of Nest and Google And I
+
+1311
+01:24:51,805 --> 01:24:55,765
+Speaker 9:  OT and you said what's the next big thing? What have we predicted ai?
+
+1312
+01:24:55,985 --> 01:24:59,085
+Speaker 9:  And the answer is probably not. We wouldn't have predicted that watershed
+
+1313
+01:24:59,085 --> 01:25:03,005
+Speaker 9:  moment when Sha GBT came out and suddenly all this energy and investment
+
+1314
+01:25:03,145 --> 01:25:07,045
+Speaker 9:  and money came flooding into ai. And so it, it may be that some
+
+1315
+01:25:07,485 --> 01:25:09,965
+Speaker 9:  companies, one of these companies decides that, you know what Smart Home
+
+1316
+01:25:09,965 --> 01:25:12,965
+Speaker 9:  is is not where it's at. We're gonna double down on AI and that's where we're
+
+1317
+01:25:12,965 --> 01:25:16,525
+Speaker 9:  pumping all of our engineering and our money and our cash and, and we're
+
+1318
+01:25:16,525 --> 01:25:20,365
+Speaker 9:  gonna de-emphasize. But I think the use cases for the smart building
+
+1319
+01:25:20,415 --> 01:25:24,365
+Speaker 9:  space, the use cases for Smart Home remain. You talk to builders,
+
+1320
+01:25:24,365 --> 01:25:27,645
+Speaker 9:  builders still see a tremendous amount of interest in people that wanna buy
+
+1321
+01:25:27,745 --> 01:25:31,445
+Speaker 9:  new homes that have some level of smart home technology in it. As
+
+1322
+01:25:31,775 --> 01:25:35,565
+Speaker 9:  again, things are shifting with post pandemic and return to office. And so
+
+1323
+01:25:35,565 --> 01:25:39,165
+Speaker 9:  it's hard to say what the office of the future exactly looks like, but regardless,
+
+1324
+01:25:39,385 --> 01:25:42,845
+Speaker 9:  people that are owning those properties still wanna optimize resource usage,
+
+1325
+01:25:42,865 --> 01:25:46,725
+Speaker 9:  energy usage, occupancy usage, et cetera. Ultimately that demands
+
+1326
+01:25:46,725 --> 01:25:50,485
+Speaker 9:  technology to help make those decisions and and run those resources
+
+1327
+01:25:50,505 --> 01:25:54,245
+Speaker 9:  and optimize those resources. So I think again, short answer, it
+
+1328
+01:25:54,565 --> 01:25:57,885
+Speaker 9:  continues, it, it has momentum on its own but individual companies may make
+
+1329
+01:25:57,885 --> 01:26:00,685
+Speaker 9:  the decisions to say, you know, this isn't as important as we thought it
+
+1330
+01:26:00,685 --> 01:26:04,235
+Speaker 9:  was. We're we're out. That certainly may happen And I suspect will happen.
+
+1331
+01:26:05,345 --> 01:26:09,235
+Speaker 2:  Well yes, speaking of, of companies that might want to devalue the smart
+
+1332
+01:26:09,235 --> 01:26:12,755
+Speaker 2:  home side and focus their efforts much more on ai.
+
+1333
+01:26:13,495 --> 01:26:17,035
+Speaker 2:  Not to make too obvious of a jump here, but I would like to close things
+
+1334
+01:26:17,095 --> 01:26:20,875
+Speaker 2:  out by come full circle by coming back to Google and
+
+1335
+01:26:21,105 --> 01:26:24,915
+Speaker 2:  Nest and get your thoughts on how Google is
+
+1336
+01:26:24,915 --> 01:26:28,795
+Speaker 2:  implementing Thread in its Nest hardware today. I was
+
+1337
+01:26:28,985 --> 01:26:32,395
+Speaker 2:  very vocal about how sad I was when the fourth Gen Nest Learning
+
+1338
+01:26:32,485 --> 01:26:36,435
+Speaker 2:  thermostat was launched with no sign of Thread. So
+
+1339
+01:26:36,485 --> 01:26:40,035
+Speaker 2:  would you be able to share just a few of your thoughts slash hopes
+
+1340
+01:26:40,335 --> 01:26:44,315
+Speaker 2:  on what Google might be doing with its Nest hardware and where you
+
+1341
+01:26:44,315 --> 01:26:46,355
+Speaker 2:  see the future there when it comes to Thread?
+
+1342
+01:26:46,905 --> 01:26:50,355
+Speaker 9:  Yeah, absolutely. I'm not affiliated with any particular partner or company
+
+1343
+01:26:50,355 --> 01:26:53,715
+Speaker 9:  anymore, including Google who is my, my happy employer for
+
+1344
+01:26:54,225 --> 01:26:58,075
+Speaker 9:  many, many, many years. So I can only speculate and and project.
+
+1345
+01:26:58,295 --> 01:27:01,875
+Speaker 9:  But I think to give you a short, concise, immediate answer,
+
+1346
+01:27:02,835 --> 01:27:06,155
+Speaker 9:  I think the, the Google products graveyard killed by
+
+1347
+01:27:06,155 --> 01:27:09,915
+Speaker 9:  google.com is a very popular, well-known
+
+1348
+01:27:10,275 --> 01:27:13,275
+Speaker 9:  property. And you know, over the years, for one reason or another, Google
+
+1349
+01:27:13,415 --> 01:27:16,915
+Speaker 9:  has a lot of initiatives that they decide are, are no longer important for
+
+1350
+01:27:17,115 --> 01:27:20,795
+Speaker 9:  one reason or another. So that's sort of one way that we can maybe approach
+
+1351
+01:27:20,795 --> 01:27:24,555
+Speaker 9:  and answer to the question and say maybe hard to say things change.
+
+1352
+01:27:24,585 --> 01:27:28,355
+Speaker 9:  Yeah. But I think if you sort of look at some of the organizational
+
+1353
+01:27:28,575 --> 01:27:32,475
+Speaker 9:  and product choices that have been made certainly would seem to me that there
+
+1354
+01:27:32,495 --> 01:27:35,875
+Speaker 9:  is emphasis doubling down on platform.
+
+1355
+01:27:36,415 --> 01:27:39,715
+Speaker 9:  So I know that the people at Google that I still have relationships with
+
+1356
+01:27:40,075 --> 01:27:43,955
+Speaker 9:  doing Thread are still very active, very well supported. The
+
+1357
+01:27:43,955 --> 01:27:47,395
+Speaker 9:  people at Google doing Matter are still very active, very well supported.
+
+1358
+01:27:47,855 --> 01:27:51,835
+Speaker 9:  So what I see happening is Google's sort of saying we're a real believer
+
+1359
+01:27:51,855 --> 01:27:55,395
+Speaker 9:  in the platform and the infrastructure and that's the thing that we can do
+
+1360
+01:27:55,395 --> 01:27:59,115
+Speaker 9:  best, but as it concerns products, maybe
+
+1361
+01:27:59,405 --> 01:28:03,395
+Speaker 9:  ecosystems and partners. So you saw that there was a transition of security
+
+1362
+01:28:03,545 --> 01:28:07,315
+Speaker 9:  from Nest Guard and and Nest detect off to a DT.
+
+1363
+01:28:07,455 --> 01:28:11,115
+Speaker 9:  And so now as you see a DT trucks rolling around, you see a DT powered by
+
+1364
+01:28:11,115 --> 01:28:15,035
+Speaker 9:  Google. And so that was a partnership relationship you
+
+1365
+01:28:15,055 --> 01:28:18,915
+Speaker 9:  saw with the Sun setting. Sad as it was of Nest Protect that
+
+1366
+01:28:19,275 --> 01:28:22,595
+Speaker 9:  a actually Google invested effort to make sure that first alert and the,
+
+1367
+01:28:22,635 --> 01:28:26,355
+Speaker 9:  I think what is the SC five follow on product actually is interoperable
+
+1368
+01:28:26,355 --> 01:28:29,555
+Speaker 9:  with the Nest Protect. Yeah, they didn't, they didn't need to do that. But
+
+1369
+01:28:29,555 --> 01:28:32,555
+Speaker 9:  that I think was a really important investment in the customer and making
+
+1370
+01:28:32,555 --> 01:28:35,955
+Speaker 9:  sure that there was a seamless transition there. But again, the signal is,
+
+1371
+01:28:36,475 --> 01:28:39,195
+Speaker 9:  hmm, we're not doubling down in that cat product category that's that's partner
+
+1372
+01:28:39,495 --> 01:28:43,275
+Speaker 9:  as far as I can see. Speakers, displays, thermostats, cameras
+
+1373
+01:28:44,125 --> 01:28:47,995
+Speaker 9:  still seem to be invested in those well that remain forever. Hard to say.
+
+1374
+01:28:48,375 --> 01:28:52,195
+Speaker 9:  It seems like speakers with the the locus of AI and an AI interaction
+
+1375
+01:28:52,195 --> 01:28:56,035
+Speaker 9:  surface, it seems reasonable that they'll continue to do that. I suspect
+
+1376
+01:28:56,065 --> 01:28:59,915
+Speaker 9:  cameras and the awareness service model that goes with cameras are
+
+1377
+01:29:00,075 --> 01:29:03,685
+Speaker 9:  probably a a big revenue driver. Yeah. So maybe cameras will continue because
+
+1378
+01:29:03,685 --> 01:29:07,645
+Speaker 9:  that's a lot of high margin service revenue. But as you And I know in the
+
+1379
+01:29:07,645 --> 01:29:10,565
+Speaker 9:  actual hardware only business in which there isn't a service backing that
+
+1380
+01:29:11,265 --> 01:29:14,005
+Speaker 9:  you know, you're either a premium product or it's a race to the bottom and
+
+1381
+01:29:14,005 --> 01:29:17,325
+Speaker 9:  there's not a whole lot in between. So what happens with thermostats?
+
+1382
+01:29:17,755 --> 01:29:21,605
+Speaker 9:  Hard to say. I mean again, I know just from how big that market
+
+1383
+01:29:21,665 --> 01:29:24,765
+Speaker 9:  is, literally hundreds of millions of thermostats have been shipped around
+
+1384
+01:29:24,765 --> 01:29:28,565
+Speaker 9:  the world. That's a big business. That's a big installed base. My my
+
+1385
+01:29:28,565 --> 01:29:31,405
+Speaker 9:  gut tells me they'll continue to invest in that but it's hard to say.
+
+1386
+01:29:32,245 --> 01:29:35,045
+Speaker 2:  Excellent. Well that's really interesting insight. Grant, can I get you to
+
+1387
+01:29:35,045 --> 01:29:39,005
+Speaker 2:  stay around 'cause just for a few minutes because I have a really interesting
+
+1388
+01:29:39,245 --> 01:29:43,165
+Speaker 2:  Vergecast hotline question that I think you would be is right up your alley.
+
+1389
+01:29:43,165 --> 01:29:44,845
+Speaker 2:  Would you be willing to help me out with that one?
+
+1390
+01:29:44,975 --> 01:29:47,285
+Speaker 9:  Happy to take a look. No promises, but happy to take a look.
+
+1391
+01:29:48,075 --> 01:29:51,405
+Speaker 2:  Wonderful. Okay, so we're gonna take one more break and then we'll come back
+
+1392
+01:29:51,405 --> 01:29:51,965
+Speaker 2:  with that question.
+
+1393
+01:32:56,865 --> 01:33:00,565
+Speaker 2:  All right, we are back. Let's get to a question from The Vergecast
+
+1394
+01:33:00,635 --> 01:33:04,325
+Speaker 2:  hotline as always. The number is 8 6 6 VERGE
+
+1395
+01:33:04,545 --> 01:33:08,125
+Speaker 2:  one one and the email is vergecast at The Verge dot com.
+
+1396
+01:33:08,425 --> 01:33:11,645
+Speaker 2:  We love all of your questions and we try to answer at least one on the show
+
+1397
+01:33:11,645 --> 01:33:15,525
+Speaker 2:  every week. This week. It's a question from John
+
+1398
+01:33:15,555 --> 01:33:19,325
+Speaker 2:  from Massachusetts who had a surprisingly great experience
+
+1399
+01:33:19,325 --> 01:33:23,085
+Speaker 2:  with a matter compatible device that he bought having previously had no
+
+1400
+01:33:23,115 --> 01:33:26,805
+Speaker 2:  idea what that matter was even a thing and it got him to thinking about
+
+1401
+01:33:27,045 --> 01:33:30,845
+Speaker 2:  a very important question in the smart home. Who gets your data?
+
+1402
+01:33:31,615 --> 01:33:32,405
+Speaker 2:  Let's have a listen.
+
+1403
+01:33:34,025 --> 01:33:37,085
+Speaker 13:  Hey R Cast team, this is John from Massachusetts
+
+1404
+01:33:38,435 --> 01:33:42,325
+Speaker 13:  last night I unboxed a new air conditioner
+
+1405
+01:33:42,505 --> 01:33:46,485
+Speaker 13:  And I immediately opened up my phone and had
+
+1406
+01:33:46,525 --> 01:33:50,405
+Speaker 13:  a matter notification saying that this device was ready to set up with
+
+1407
+01:33:50,425 --> 01:33:54,045
+Speaker 13:  matter. I just scanned the code on the side of the air
+
+1408
+01:33:54,045 --> 01:33:57,125
+Speaker 13:  conditioner and it was in my Google Home instantly.
+
+1409
+01:33:57,825 --> 01:34:01,485
+Speaker 13:  Who knew that was even a thing? Air conditioners with matter support. I
+
+1410
+01:34:01,485 --> 01:34:05,245
+Speaker 13:  was surprised by this because there's this little symbol on the box that
+
+1411
+01:34:05,245 --> 01:34:08,855
+Speaker 13:  says it works with the smart home app. There was
+
+1412
+01:34:08,855 --> 01:34:11,575
+Speaker 13:  literally an app called Smart Home. How original,
+
+1413
+01:34:12,565 --> 01:34:15,975
+Speaker 13:  this got me thinking when I'm setting up with Matter,
+
+1414
+01:34:16,325 --> 01:34:20,135
+Speaker 13:  does the manufacturer get any data, like any user data, any
+
+1415
+01:34:20,225 --> 01:34:24,095
+Speaker 13:  usage data? Is there a reason why a company might
+
+1416
+01:34:24,095 --> 01:34:28,055
+Speaker 13:  not want to do matter? Like how they don't like it
+
+1417
+01:34:28,055 --> 01:34:31,655
+Speaker 13:  when you use CarPlay in a car because they're not getting data they can
+
+1418
+01:34:31,655 --> 01:34:35,415
+Speaker 13:  work off of? And is that why matter adoption is slowing?
+
+1419
+01:34:36,005 --> 01:34:37,775
+Speaker 13:  Kind of curious on this. Thanks.
+
+1420
+01:34:39,135 --> 01:34:41,775
+Speaker 2:  Excellent, thank you John. Yeah, this is a great question. It's actually
+
+1421
+01:34:41,775 --> 01:34:44,895
+Speaker 2:  something Grant And I have talked about in the past because there have been
+
+1422
+01:34:45,125 --> 01:34:49,015
+Speaker 2:  some companies that have pulled back from Matter, we don't
+
+1423
+01:34:49,015 --> 01:34:52,775
+Speaker 2:  necessarily know why. There is actually a competing organization or
+
+1424
+01:34:52,775 --> 01:34:56,215
+Speaker 2:  competing slash potentially symbiotic organization called the Home
+
+1425
+01:34:56,215 --> 01:34:59,525
+Speaker 2:  Connectivity Alliance, which is specifically for appliance
+
+1426
+01:34:59,525 --> 01:35:03,365
+Speaker 2:  manufacturers and it uses all cloud-based
+
+1427
+01:35:03,365 --> 01:35:07,045
+Speaker 2:  integrations, which on the surface of it allows each
+
+1428
+01:35:07,045 --> 01:35:10,685
+Speaker 2:  manufacturer to keep much more control over the
+
+1429
+01:35:10,885 --> 01:35:14,245
+Speaker 2:  customer's data when using their apps. And In theory
+
+1430
+01:35:14,635 --> 01:35:18,485
+Speaker 2:  with Matter you can set everything up in Google Home or Apple Home and
+
+1431
+01:35:18,485 --> 01:35:22,285
+Speaker 2:  never touch the manufacturer app. So it does seem to
+
+1432
+01:35:22,285 --> 01:35:26,125
+Speaker 2:  most people that that means that I no longer have a relationship directly
+
+1433
+01:35:26,125 --> 01:35:29,845
+Speaker 2:  with that manufacturer and perhaps that may be turning some companies
+
+1434
+01:35:29,905 --> 01:35:33,845
+Speaker 2:  off from going to matter. So Grant, how
+
+1435
+01:35:33,845 --> 01:35:37,565
+Speaker 2:  would you answer that question? Is that a reason for companies
+
+1436
+01:35:37,665 --> 01:35:41,645
+Speaker 2:  not to go with matter or is there a way for them to continue
+
+1437
+01:35:41,645 --> 01:35:43,245
+Speaker 2:  that data sharing if they want to?
+
+1438
+01:35:43,945 --> 01:35:47,925
+Speaker 9:  It isn't fundamentally a limitation. One of the precepts, sort of North
+
+1439
+01:35:47,925 --> 01:35:51,685
+Speaker 9:  Stars about creating matter from the get go was local
+
+1440
+01:35:51,915 --> 01:35:55,685
+Speaker 9:  only. And in particular everyone is very sensitive about data
+
+1441
+01:35:55,825 --> 01:35:59,805
+Speaker 9:  and data sharing for that reason as well as performance and making sure that
+
+1442
+01:35:59,805 --> 01:36:02,085
+Speaker 9:  everything still works when the internet's down, all those kind of things.
+
+1443
+01:36:02,665 --> 01:36:06,565
+Speaker 9:  So fundamentally matter sets forth the precept that your
+
+1444
+01:36:06,565 --> 01:36:09,885
+Speaker 9:  data is important, your security is important, and keeping that all in the
+
+1445
+01:36:09,885 --> 01:36:13,645
+Speaker 9:  home by default is important. Now that's sort of the
+
+1446
+01:36:13,645 --> 01:36:17,405
+Speaker 9:  default answer, but we talked to the, the Nest detect window and door sensor.
+
+1447
+01:36:17,505 --> 01:36:20,325
+Speaker 9:  We talked about how that sensor, in addition to being connected on the local
+
+1448
+01:36:20,325 --> 01:36:24,085
+Speaker 9:  Thread network, also had the capability for a border router to talk
+
+1449
+01:36:24,365 --> 01:36:27,725
+Speaker 9:  directly to Nest cloud services. So you talked about the instance in which
+
+1450
+01:36:27,785 --> 01:36:31,765
+Speaker 9:  you've got this smart home, I'm using Apple's home kit app, I'm using Google
+
+1451
+01:36:31,765 --> 01:36:35,245
+Speaker 9:  Smart Home app, I'm interacting in John's case, the air conditioner.
+
+1452
+01:36:36,025 --> 01:36:39,845
+Speaker 9:  Now let's say that air conditioner has wifi, could that air
+
+1453
+01:36:39,845 --> 01:36:43,085
+Speaker 9:  conditioner talk directly through the wifi network to the air conditioner's
+
+1454
+01:36:43,085 --> 01:36:46,325
+Speaker 9:  manufacturer? Absolutely. A matter has no prohibition against that.
+
+1455
+01:36:47,005 --> 01:36:50,685
+Speaker 9:  That's absolutely allowed. So if the vendor is saying, the only way I can
+
+1456
+01:36:50,755 --> 01:36:54,525
+Speaker 9:  sort of get insight into customer interactions is through a mobile app, okay,
+
+1457
+01:36:54,525 --> 01:36:57,525
+Speaker 9:  that's a, that's a particular design and engineering product choice, but
+
+1458
+01:36:57,525 --> 01:37:01,125
+Speaker 9:  there's no reason to say that that air conditioner can't again still be connected
+
+1459
+01:37:01,125 --> 01:37:04,765
+Speaker 9:  to the vendor's cloud sending telemetry diagnostic data. How many cycles,
+
+1460
+01:37:04,905 --> 01:37:07,805
+Speaker 9:  you know, what year was the average temperature? Any of that kind of stuff
+
+1461
+01:37:08,565 --> 01:37:11,405
+Speaker 9:  directly through the cloud, through the air conditioner. Let's say that air
+
+1462
+01:37:11,405 --> 01:37:14,965
+Speaker 9:  conditioner also implemented Thread because again, Thread is IP connected
+
+1463
+01:37:14,965 --> 01:37:18,205
+Speaker 9:  just like the Nest detect window door sensor. It could also connect through
+
+1464
+01:37:18,205 --> 01:37:21,525
+Speaker 9:  a border router to the provider's cloud. Again, share that data. So
+
+1465
+01:37:22,235 --> 01:37:25,885
+Speaker 9:  data sharing and matter are sort of orthogonal issues. They're not
+
+1466
+01:37:26,245 --> 01:37:29,805
+Speaker 9:  absolutely related, but matter says by default, within matter itself,
+
+1467
+01:37:30,635 --> 01:37:34,405
+Speaker 9:  data stays in the home, interactions stay within the home. But again, let's
+
+1468
+01:37:34,405 --> 01:37:38,205
+Speaker 9:  say your control surface is a Amazon Alexa or
+
+1469
+01:37:38,325 --> 01:37:41,525
+Speaker 9:  a Google speaker device, there's nothing to say that those
+
+1470
+01:37:41,975 --> 01:37:45,685
+Speaker 9:  can't interact with matter within the home, but then couldn't share those
+
+1471
+01:37:45,955 --> 01:37:49,725
+Speaker 9:  bits of data up to the clouds of those providers. And there couldn't be relationships
+
+1472
+01:37:49,785 --> 01:37:53,405
+Speaker 9:  to say Google and you know, works with Google Cloud interactions with, you
+
+1473
+01:37:53,405 --> 01:37:56,685
+Speaker 9:  know, whoever the provider is. So there's all sorts of different opportunities
+
+1474
+01:37:56,745 --> 01:38:00,365
+Speaker 9:  for data sharing to still occur and matter. Neither prohibits it nor
+
+1475
+01:38:00,395 --> 01:38:04,325
+Speaker 9:  enables it. It's just, it's not part of what matter is about is data sharing.
+
+1476
+01:38:04,435 --> 01:38:06,405
+Speaker 9:  Does that answer the question? Hopefully?
+
+1477
+01:38:06,755 --> 01:38:10,205
+Speaker 2:  Well, yeah, And I guess so for, especially for our listeners, a lot of them
+
+1478
+01:38:10,205 --> 01:38:13,685
+Speaker 2:  are interested in a smart home that does not share their data with anyone,
+
+1479
+01:38:14,025 --> 01:38:17,805
+Speaker 2:  but with matter and Thread and even wifi like it, it
+
+1480
+01:38:17,985 --> 01:38:21,685
+Speaker 2:  can all be working locally in your home without a dependent internet
+
+1481
+01:38:21,685 --> 01:38:24,325
+Speaker 2:  connection. Right? Absolutely. Ly it's all working over your local network.
+
+1482
+01:38:24,845 --> 01:38:28,325
+Speaker 2:  Absolutely. And you can control that as you say, you mentioned from ero or
+
+1483
+01:38:28,505 --> 01:38:32,405
+Speaker 2:  you can actually control that point of connection with the
+
+1484
+01:38:32,565 --> 01:38:36,405
+Speaker 2:  internet, but each device within the matter ecosystem is
+
+1485
+01:38:36,405 --> 01:38:40,285
+Speaker 2:  only going to communicate with the matter ecosystem. You choose be
+
+1486
+01:38:40,285 --> 01:38:43,725
+Speaker 2:  that Apple Home or Home Assistant or Alexa or Google
+
+1487
+01:38:44,225 --> 01:38:47,285
+Speaker 2:  or any of the other companies that are starting to sort of, we've seen quite
+
+1488
+01:38:47,285 --> 01:38:51,245
+Speaker 2:  a few platforms now that work with Matter. So there's a lot
+
+1489
+01:38:51,245 --> 01:38:55,165
+Speaker 2:  of choice here. So I guess the answer really is your data is going
+
+1490
+01:38:55,185 --> 01:38:58,245
+Speaker 2:  to be shared with whichever platform you use
+
+1491
+01:38:58,985 --> 01:39:02,805
+Speaker 2:  and look at what their data sharing policies are in terms
+
+1492
+01:39:02,805 --> 01:39:06,005
+Speaker 2:  of what might leave your home and what can stay locally. And if you're very
+
+1493
+01:39:06,245 --> 01:39:09,565
+Speaker 2:  advanced, you can make sure no one can talk to the internet at all.
+
+1494
+01:39:09,905 --> 01:39:10,565
+Speaker 9:  Yep, exactly.
+
+1495
+01:39:11,065 --> 01:39:14,885
+Speaker 2:  But of course there are benefits of connecting to the web, to the ip.
+
+1496
+01:39:15,345 --> 01:39:18,085
+Speaker 9:  Yep, absolutely. Yeah, you really brought home an important point, which
+
+1497
+01:39:18,085 --> 01:39:21,965
+Speaker 9:  is with matter, you as the consumer get to choose. Yes. And it's
+
+1498
+01:39:21,965 --> 01:39:25,525
+Speaker 9:  your conscious choice that you are choosing what gets shared and what doesn't.
+
+1499
+01:39:25,585 --> 01:39:28,405
+Speaker 9:  And So if you're not comfortable with that sharing then you, you get to say,
+
+1500
+01:39:28,485 --> 01:39:31,685
+Speaker 9:  I don't want to do that. Of course, as we said, that means things can happen
+
+1501
+01:39:31,705 --> 01:39:34,525
+Speaker 9:  on the side channel, But that is outside of matter,
+
+1502
+01:39:35,095 --> 01:39:38,805
+Speaker 2:  Right? So then you just, it's, it's about which companies, which air conditioner
+
+1503
+01:39:38,805 --> 01:39:41,885
+Speaker 2:  you bought. We don't know which brand you went with, so we can't answer that
+
+1504
+01:39:41,885 --> 01:39:45,285
+Speaker 2:  one. But yes, that's where you have to keep an eye on if you are concerned
+
+1505
+01:39:45,285 --> 01:39:49,085
+Speaker 2:  about data sharing. So hopefully that answered your question. John,
+
+1506
+01:39:49,495 --> 01:39:53,285
+Speaker 2:  thank you Grant again for your extra time hanging out with us at the end
+
+1507
+01:39:53,285 --> 01:39:56,765
+Speaker 2:  here and I appreciate it and hopefully we'll talk soon.
+
+1508
+01:39:57,405 --> 01:39:59,765
+Speaker 9:  Absolutely. The pleasure's been an all mine. Such a pleasure, Jen to be here
+
+1509
+01:39:59,765 --> 01:40:00,045
+Speaker 9:  this morning.
+
+1510
+01:40:02,185 --> 01:40:05,525
+Speaker 2:  That's it for The Vergecast and that's the end of the gen era.
+
+1511
+01:40:06,065 --> 01:40:09,925
+Speaker 2:  For now, to read more about today's topics, check out the links in the
+
+1512
+01:40:09,925 --> 01:40:13,525
+Speaker 2:  show notes or go to The Verge dot com and while you are there, why not buy
+
+1513
+01:40:13,605 --> 01:40:17,205
+Speaker 2:  a paid subscription? This show is produced by Eric Gomez,
+
+1514
+01:40:17,205 --> 01:40:21,125
+Speaker 2:  Brandon Keefer, Travis Laak, and Andrew Marino. The
+
+1515
+01:40:21,285 --> 01:40:25,205
+Speaker 2:  Vergecast is The Verge production and part of the Vox Media podcast network.
+
+1516
+01:40:25,835 --> 01:40:29,805
+Speaker 2:  Jake Kakis and the team will be here Friday to talk about the news. And
+
+1517
+01:40:29,805 --> 01:40:33,405
+Speaker 2:  next Tuesday, senior smartphone reviewer, Alison Johnson
+
+1518
+01:40:33,575 --> 01:40:36,325
+Speaker 2:  takes the guest host chair. Thanks for listening.
+

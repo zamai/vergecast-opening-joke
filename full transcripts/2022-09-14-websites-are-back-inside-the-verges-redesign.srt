@@ -1,0 +1,4665 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 5650b930-33ed-11ed-9a7f-3fa463c053a4
+Status: Done
+Stage: Done
+Title: Websites are back: inside The Verge's redesign
+Audio URL: https://jfe93e.s3.amazonaws.com/-808058508291357046/3394783188819406238/s93290-US-3967s-1663132916.mp3
+Description: David Pierce and Nilay Patel discuss the ideas behind The Verge's brand new redesigned website, which officially launched on September 13th.
+David also chats with senior product manager Tara Kalmanson and senior engineer Matt Crider, who worked on the redesign, about what went into implementing those ideas.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Disabled
+
+2
+00:00:03,370 --> 00:00:07,280
+Speaker 2:  Welcome to the Vergecast the flagship podcast of Sarah fonts. I'm your
+
+3
+00:00:07,280 --> 00:00:11,160
+Speaker 2:  friend, David Pierce. And it is currently 5 51 in the morning on
+
+4
+00:00:11,160 --> 00:00:15,000
+Speaker 2:  Tuesday, September 13th, which means that a, I have to be quiet cuz
+
+5
+00:00:15,000 --> 00:00:18,760
+Speaker 2:  no one else is awake yet. And B it means we're about nine
+
+6
+00:00:18,760 --> 00:00:22,120
+Speaker 2:  minutes away from the launch of the new verge.com. We've been working on
+
+7
+00:00:22,120 --> 00:00:26,040
+Speaker 2:  this for two years. It's a redesign. We have a new logo. It's
+
+8
+00:00:26,040 --> 00:00:29,720
+Speaker 2:  a totally new way of thinking about how the verge actually works.
+
+9
+00:00:29,860 --> 00:00:33,240
+Speaker 2:  And so that's actually what this episode is gonna be about. We spent two
+
+10
+00:00:33,240 --> 00:00:36,960
+Speaker 2:  years on this, like I said, and it made us think some pretty philosophical
+
+11
+00:00:37,070 --> 00:00:40,960
+Speaker 2:  thoughts about how the internet works and how platforms work and
+
+12
+00:00:40,960 --> 00:00:44,880
+Speaker 2:  what it means to just be a person on the internet. Now I will
+
+13
+00:00:44,880 --> 00:00:48,320
+Speaker 2:  warn you. This episode is very Naval gazey. We talk a lot about the verge
+
+14
+00:00:48,320 --> 00:00:50,960
+Speaker 2:  and a lot about our feelings about the verge, but I think it's really interesting
+
+15
+00:00:50,960 --> 00:00:54,200
+Speaker 2:  and it was cool to go through the same kind of stuff that a lot of the companies
+
+16
+00:00:54,200 --> 00:00:57,200
+Speaker 2:  we cover are going through all the time. So we're gonna get to all of that
+
+17
+00:00:57,200 --> 00:01:01,160
+Speaker 2:  in just a second, but first I'm gonna go refresh our website about 300 times.
+
+18
+00:01:01,160 --> 00:01:03,080
+Speaker 2:  Cause I can't wait to see it. See, in a sec,
+
+19
+00:01:09,310 --> 00:01:12,740
+Speaker 2:  Renting a car can be an expensive hassle, but it doesn't have to be
+
+20
+00:01:13,140 --> 00:01:16,660
+Speaker 2:  TRO is the world's largest car sharing marketplace. They have a wide
+
+21
+00:01:16,660 --> 00:01:20,340
+Speaker 2:  selection of vehicles ready for you to browse available across the UK,
+
+22
+00:01:20,340 --> 00:01:24,180
+Speaker 2:  Canada and the us perfect for a variety of budgets
+
+23
+00:01:24,180 --> 00:01:27,900
+Speaker 2:  and needs. And many, two row hosts can even deliver your car
+
+24
+00:01:27,900 --> 00:01:31,620
+Speaker 2:  right to your location, whether your road tripping or your everyday car is
+
+25
+00:01:31,620 --> 00:01:35,060
+Speaker 2:  just out of commission. Every two road trip is backed by liability insurance
+
+26
+00:01:35,210 --> 00:01:39,100
+Speaker 2:  term conditions and exclusions apply ditch boring rental cars and find your
+
+27
+00:01:39,100 --> 00:01:40,540
+Speaker 2:  drive@tworow.com
+
+28
+00:01:43,490 --> 00:01:47,420
+Speaker 4:  With no fees or minimums banking with capital. One is the easiest decision
+
+29
+00:01:47,420 --> 00:01:51,300
+Speaker 4:  in the history of decisions. Even easier than deciding to listen to another
+
+30
+00:01:51,300 --> 00:01:55,140
+Speaker 4:  episode of your favorite podcast with no overdraft fees is an
+
+31
+00:01:55,140 --> 00:01:59,020
+Speaker 4:  even a decision that's banking reimagine what's in your wallet terms
+
+32
+00:01:59,020 --> 00:02:02,900
+Speaker 4:  supply, see capital one.com/bank capital one, a member
+
+33
+00:02:02,930 --> 00:02:03,660
+Speaker 4:  F D I C.
+
+34
+00:02:07,460 --> 00:02:11,290
+Speaker 2:  Welcome back. So before we get into the show, just a quick
+
+35
+00:02:11,290 --> 00:02:14,930
+Speaker 2:  heads up next week, we're gonna be answering all of your questions about
+
+36
+00:02:14,930 --> 00:02:18,370
+Speaker 2:  Apple's new stuff, all the new phones, new watches, new software,
+
+37
+00:02:18,970 --> 00:02:21,890
+Speaker 2:  anything you wanna know, all you have to do is call in to the verge hotline,
+
+38
+00:02:21,890 --> 00:02:25,770
+Speaker 2:  which is 8 66 verge one one, and ask us any of
+
+39
+00:02:25,770 --> 00:02:29,170
+Speaker 2:  your most burning questions, the weirder, the better, and we will do as many
+
+40
+00:02:29,170 --> 00:02:32,090
+Speaker 2:  as we can on the show next week. Okay, let's get into it.
+
+41
+00:02:33,620 --> 00:02:37,570
+Speaker 2:  As I mentioned today, we're gonna focus on websites, mostly one
+
+42
+00:02:37,570 --> 00:02:41,370
+Speaker 2:  that we made and have spent the last two years, making the new verge, just
+
+43
+00:02:41,370 --> 00:02:45,210
+Speaker 2:  launched it's new and exciting. And in the process of launching
+
+44
+00:02:45,210 --> 00:02:49,170
+Speaker 2:  this, I learned a surprising amount about how web CAEs work turns out.
+
+45
+00:02:49,170 --> 00:02:52,650
+Speaker 2:  They're very complicated. I just came back to the verge in April when the
+
+46
+00:02:52,650 --> 00:02:56,530
+Speaker 2:  new website was already deep in progress. So I wanted to know where
+
+47
+00:02:56,530 --> 00:03:00,400
+Speaker 2:  it started, where it came from and why it felt like this
+
+48
+00:03:00,400 --> 00:03:04,200
+Speaker 2:  was the future of the verge. So I grabbed who else? NEI Patel
+
+49
+00:03:04,200 --> 00:03:07,960
+Speaker 2:  to talk about it. He's been thinking about this forever. He's been literally
+
+50
+00:03:07,960 --> 00:03:11,760
+Speaker 2:  like running around V media, talking about revolutionizing the media
+
+51
+00:03:11,760 --> 00:03:15,440
+Speaker 2:  with blog posts and over the course of his career and the verge
+
+52
+00:03:15,440 --> 00:03:19,360
+Speaker 2:  we've seen the future of the internet seem like it's changed a hundred
+
+53
+00:03:19,360 --> 00:03:23,280
+Speaker 2:  times. So we have a lot to talk about here, especially as we look at the
+
+54
+00:03:23,280 --> 00:03:24,680
+Speaker 2:  next decade, let's get into it.
+
+55
+00:03:28,020 --> 00:03:28,840
+Speaker 2:  Eli. Hello?
+
+56
+00:03:29,020 --> 00:03:30,000
+Speaker 6:  Hey man, how's it going?
+
+57
+00:03:30,010 --> 00:03:31,000
+Speaker 2:  We have a new website.
+
+58
+00:03:31,170 --> 00:03:34,680
+Speaker 6:  We have a new website. It is two years in the making. I could not be more
+
+59
+00:03:34,680 --> 00:03:35,200
+Speaker 6:  excited about it.
+
+60
+00:03:35,200 --> 00:03:38,960
+Speaker 2:  Yeah. So I wanna talk about like what it is and all the implications and
+
+61
+00:03:38,960 --> 00:03:42,320
+Speaker 2:  the like taglines you've been using obsessively for like as long as I've
+
+62
+00:03:42,320 --> 00:03:45,720
+Speaker 2:  been here, but this redesign predates me. So I think like I wanna know the
+
+63
+00:03:45,720 --> 00:03:49,160
+Speaker 2:  story and I think people will too, cuz it's an interesting story. Like start
+
+64
+00:03:49,160 --> 00:03:52,480
+Speaker 2:  at the beginning. How do we decide to redesign the verge.com? Well,
+
+65
+00:03:52,480 --> 00:03:55,160
+Speaker 6:  First I just wanna point out that I recruited you back to the verge by showing
+
+66
+00:03:55,160 --> 00:03:57,800
+Speaker 6:  you the redesign and you quit your job the next day and came to work
+
+67
+00:03:57,800 --> 00:03:59,760
+Speaker 2:  Here. That is precisely correct. Yes.
+
+68
+00:04:00,040 --> 00:04:03,320
+Speaker 6:  Which is very good. And that's how I knew it was gonna work. So the redesign
+
+69
+00:04:03,320 --> 00:04:07,240
+Speaker 6:  it's very simple. Actually our last redesign was six
+
+70
+00:04:07,240 --> 00:04:11,120
+Speaker 6:  years ago, five years ago. And we did that redesign for
+
+71
+00:04:11,120 --> 00:04:14,480
+Speaker 6:  what we thought was the era of what you might call distributed publishing
+
+72
+00:04:14,480 --> 00:04:18,120
+Speaker 6:  Google amp and Facebook instant articles. So we tried to make this thing
+
+73
+00:04:18,270 --> 00:04:21,520
+Speaker 6:  that could travel everywhere and we put a lot of our emphasis
+
+74
+00:04:22,150 --> 00:04:26,120
+Speaker 6:  into elements that would say the verge or feel like the verge, no matter
+
+75
+00:04:26,120 --> 00:04:29,760
+Speaker 6:  where they were. So that's where you got like bright pink pull
+
+76
+00:04:29,760 --> 00:04:32,040
+Speaker 6:  quotes. That's where you got a lot of our photo styles.
+
+77
+00:04:32,050 --> 00:04:35,400
+Speaker 2:  So you're saying like, how do we let people share screenshots or videos?
+
+78
+00:04:35,400 --> 00:04:38,520
+Speaker 2:  And like, have it still be the verge? Like how do we look like the verge
+
+79
+00:04:38,520 --> 00:04:40,280
+Speaker 2:  even when you're not on the verse.com?
+
+80
+00:04:40,310 --> 00:04:44,200
+Speaker 6:  Yeah. And I think that was really the prevailing wisdom in media
+
+81
+00:04:44,270 --> 00:04:44,760
+Speaker 6:  back
+
+82
+00:04:44,760 --> 00:04:46,160
+Speaker 2:  Then websites were dying, that
+
+83
+00:04:46,160 --> 00:04:49,200
+Speaker 6:  Websites were dying and that Facebook, instant articles take over the media.
+
+84
+00:04:49,400 --> 00:04:52,320
+Speaker 6:  There was a lot of writing about it, which I won't go into, but there was
+
+85
+00:04:52,320 --> 00:04:55,800
+Speaker 6:  just a, that was the conventional wisdom of the industry was that the platforms
+
+86
+00:04:55,800 --> 00:04:59,480
+Speaker 6:  would suck all media into them and we would never open safari
+
+87
+00:04:59,480 --> 00:05:03,280
+Speaker 6:  again. And we would just read everything in apple news. And to some
+
+88
+00:05:03,280 --> 00:05:06,600
+Speaker 6:  extent that happened, like it really happened to a lot of publishers.
+
+89
+00:05:07,110 --> 00:05:10,880
+Speaker 6:  I just think that era is kind of over in one way. If you just look at our
+
+90
+00:05:10,880 --> 00:05:13,880
+Speaker 6:  traffic, like Facebook, instant articles doesn't exist anymore. Apple news
+
+91
+00:05:13,880 --> 00:05:17,720
+Speaker 6:  is big, but like we can't feel it. A lot of our stories like hit huge
+
+92
+00:05:17,720 --> 00:05:21,240
+Speaker 6:  in apple news, but we just like, don't see it. We don't feel it. Like we
+
+93
+00:05:21,240 --> 00:05:22,320
+Speaker 6:  don't have a community there.
+
+94
+00:05:22,390 --> 00:05:25,800
+Speaker 2:  I think of apple news as like the print newspaper of 2022 where it's like,
+
+95
+00:05:25,800 --> 00:05:29,560
+Speaker 2:  I know it's there and I know people consume it. I just don't know
+
+96
+00:05:30,040 --> 00:05:33,680
+Speaker 2:  anything about what happens there. It's just like a magical other place where
+
+97
+00:05:33,680 --> 00:05:34,400
+Speaker 2:  people read news.
+
+98
+00:05:34,670 --> 00:05:38,160
+Speaker 6:  Yeah. And I think the most important piece is there's no feedback loop from
+
+99
+00:05:38,160 --> 00:05:41,520
+Speaker 6:  that platform in particular people read it. They can't talk to you.
+
+100
+00:05:41,740 --> 00:05:44,200
+Speaker 6:  And then you just look at the other broader trends, where do people talk
+
+101
+00:05:44,200 --> 00:05:47,240
+Speaker 6:  to us? Like I think the verge has, is a really important part of the verge.
+
+102
+00:05:47,240 --> 00:05:50,720
+Speaker 6:  It's what we started with. Yeah. I think old time listeners will, will know
+
+103
+00:05:50,720 --> 00:05:54,560
+Speaker 6:  this. We started the whole site with a podcast was
+
+104
+00:05:54,560 --> 00:05:57,280
+Speaker 6:  called, this is my next podcast. Cuz we had left in gadget. We, we needed
+
+105
+00:05:57,280 --> 00:05:59,880
+Speaker 6:  a new podcast and that was the name. Then the site was called, this is my
+
+106
+00:05:59,880 --> 00:06:02,400
+Speaker 6:  next. And then the first thing to launch with the verge was the Vergecast.
+
+107
+00:06:02,730 --> 00:06:06,640
+Speaker 6:  So we knew that our success was built on a community of
+
+108
+00:06:06,640 --> 00:06:09,840
+Speaker 6:  our, our readers and our listeners. And I just was
+
+109
+00:06:10,110 --> 00:06:14,040
+Speaker 6:  thinking really hard. Like how do I get that back instead of
+
+110
+00:06:14,040 --> 00:06:17,800
+Speaker 6:  giving it to Twitter or giving it to YouTube or giving it
+
+111
+00:06:17,800 --> 00:06:20,800
+Speaker 6:  to Reddit or Twitch or discord, all the other things people are doing, which
+
+112
+00:06:20,800 --> 00:06:24,560
+Speaker 6:  are smart and good, but we happen to have a gigantic website.
+
+113
+00:06:25,090 --> 00:06:27,960
+Speaker 6:  So we should probably build on our own platform in some way.
+
+114
+00:06:28,020 --> 00:06:30,680
+Speaker 2:  One of the things I think is really interesting about this moment of time
+
+115
+00:06:30,680 --> 00:06:33,960
+Speaker 2:  that we're in is like a lot of people are looking at that exact same thing
+
+116
+00:06:33,960 --> 00:06:37,600
+Speaker 2:  you just described and saying, oh, the thing I need to do is lean deeper
+
+117
+00:06:37,600 --> 00:06:40,680
+Speaker 2:  into those platforms to say like, this is where this is happening. Like,
+
+118
+00:06:40,680 --> 00:06:43,800
+Speaker 2:  what I actually need to do is start a discord and try to get people in there
+
+119
+00:06:43,800 --> 00:06:47,680
+Speaker 2:  or like become a editor. Like you see the, the Washington post strategy is
+
+120
+00:06:47,680 --> 00:06:50,840
+Speaker 2:  like, how do we build full communities in all of these places? Right. And
+
+121
+00:06:50,840 --> 00:06:54,000
+Speaker 2:  I think it's very interesting to me that you and the team looked at this
+
+122
+00:06:54,000 --> 00:06:57,880
+Speaker 2:  and said like, okay, how do we pull some of this back towards us rather than
+
+123
+00:06:57,880 --> 00:07:00,000
+Speaker 2:  falling into those holes again, for
+
+124
+00:07:00,000 --> 00:07:02,840
+Speaker 6:  Sure. And I, I think those strategies are actually smart. It's not that we're
+
+125
+00:07:02,840 --> 00:07:05,600
+Speaker 6:  not gonna do it. You know, we've started publishing this show as a series
+
+126
+00:07:05,600 --> 00:07:08,720
+Speaker 6:  of talks, right? Like we know that there's audience on those platforms, you
+
+127
+00:07:08,720 --> 00:07:12,280
+Speaker 6:  have to go to those audiences. I just think the big move
+
+128
+00:07:12,690 --> 00:07:15,760
+Speaker 6:  is where are you gonna bring those audiences back to? Where are they gonna
+
+129
+00:07:15,760 --> 00:07:19,560
+Speaker 6:  find you first? And I, we have an asset at the verge that we really
+
+130
+00:07:19,560 --> 00:07:22,040
+Speaker 6:  haven't taken advantage of in some time, which is our homepage. Our homepage,
+
+131
+00:07:22,040 --> 00:07:25,760
+Speaker 6:  right, is the single most popular page at V media. The most popular
+
+132
+00:07:25,760 --> 00:07:29,640
+Speaker 6:  webpage at Vox media on any given day is the verge homepage. So a lot
+
+133
+00:07:29,640 --> 00:07:32,520
+Speaker 6:  of this was how do I make that page really, really valuable for more people.
+
+134
+00:07:32,780 --> 00:07:36,480
+Speaker 6:  And then what we coupled that with was de and I were
+
+135
+00:07:36,480 --> 00:07:40,400
+Speaker 6:  routinely frustrated that we weren't on our own homepage enough. We
+
+136
+00:07:40,400 --> 00:07:44,240
+Speaker 6:  were both busy. We were running the site, we were making podcasts,
+
+137
+00:07:44,240 --> 00:07:48,000
+Speaker 6:  we were off shooting videos. And so when the barrier to
+
+138
+00:07:48,000 --> 00:07:51,400
+Speaker 6:  entry to our own homepage was a 500 word article
+
+139
+00:07:51,600 --> 00:07:55,240
+Speaker 6:  about something we had seen. It was too high. Like we weren't publishing
+
+140
+00:07:55,240 --> 00:07:58,400
+Speaker 6:  enough and we were driving ourselves crazy. And we found ourselves using
+
+141
+00:07:58,400 --> 00:08:02,160
+Speaker 6:  Twitter, which is someone else's platform. Yep. And a good platform. Lots
+
+142
+00:08:02,160 --> 00:08:04,920
+Speaker 6:  of people use Twitter. They build great communities around themselves. But
+
+143
+00:08:04,920 --> 00:08:07,640
+Speaker 6:  if you look at what they tend to do with those communities, they convert
+
+144
+00:08:07,640 --> 00:08:11,400
+Speaker 6:  them to something else that makes them money. And we were like not doing
+
+145
+00:08:11,400 --> 00:08:12,200
+Speaker 6:  a great job with that.
+
+146
+00:08:12,450 --> 00:08:15,720
+Speaker 2:  Or they just let them languish and nothing ever happens to them is generally
+
+147
+00:08:15,720 --> 00:08:16,360
+Speaker 2:  Twitter's move.
+
+148
+00:08:16,390 --> 00:08:20,280
+Speaker 6:  Yeah. You know, I think a lot of the sub stack writers, right. Their
+
+149
+00:08:20,280 --> 00:08:24,120
+Speaker 6:  audiences on Twitter and they convert them into paying subst customers. I
+
+150
+00:08:24,120 --> 00:08:27,280
+Speaker 6:  think that's great. I have no beef with that whatsoever. I just, I'm looking
+
+151
+00:08:27,280 --> 00:08:30,680
+Speaker 6:  at the gigantic website we run and saying, why am I finding it easier to
+
+152
+00:08:30,680 --> 00:08:33,560
+Speaker 6:  publish on someone else's platform instead of my own, I'm the boss,
+
+153
+00:08:34,110 --> 00:08:37,840
+Speaker 6:  that's a weird outcome. Right. But then it's like, you get into
+
+154
+00:08:37,840 --> 00:08:41,800
+Speaker 6:  what, what a 500 word article or a thousand word article or 10,000
+
+155
+00:08:41,800 --> 00:08:45,640
+Speaker 6:  word review means to people and you have to deliver the quality
+
+156
+00:08:45,660 --> 00:08:49,520
+Speaker 6:  bar. So if I was like, I'm just excusing myself from the
+
+157
+00:08:49,520 --> 00:08:53,160
+Speaker 6:  publishing process or our standards or whatever. So I can just yellow
+
+158
+00:08:53,160 --> 00:08:57,040
+Speaker 6:  out things that look like tweets in our, our article page one. I think that
+
+159
+00:08:57,040 --> 00:09:00,640
+Speaker 6:  staff would mute me. I think I would very quickly stop being the boss. I
+
+160
+00:09:00,640 --> 00:09:03,880
+Speaker 6:  think that's just the end of that. And two, I think we would do disservice
+
+161
+00:09:03,880 --> 00:09:06,640
+Speaker 6:  to our audience, right? We would, right. We would be sending them the signal
+
+162
+00:09:06,770 --> 00:09:10,120
+Speaker 6:  of what a product looked like a journalism product looked like, but then
+
+163
+00:09:10,120 --> 00:09:12,640
+Speaker 6:  not actually over delivering on the product, which is what you wanna do.
+
+164
+00:09:12,970 --> 00:09:16,480
+Speaker 6:  So we just started having the deed and I were talking to this for a long
+
+165
+00:09:16,480 --> 00:09:20,360
+Speaker 6:  time and we came up with a phrase which actually I think is too
+
+166
+00:09:20,360 --> 00:09:23,720
+Speaker 6:  reductive for what our new site is, but we just wanna be able to tweet onto
+
+167
+00:09:23,720 --> 00:09:27,040
+Speaker 6:  our own website. Right. That was like the first thing we said to our designers
+
+168
+00:09:27,040 --> 00:09:30,120
+Speaker 6:  and what had happened was Vox media had just merged with New York magazine.
+
+169
+00:09:30,130 --> 00:09:34,080
+Speaker 6:  So we got all these new designers onto our design team that were the
+
+170
+00:09:34,240 --> 00:09:37,400
+Speaker 6:  great New York magazine designers. And so we had our existing great design
+
+171
+00:09:37,400 --> 00:09:40,040
+Speaker 6:  team that we loved. We had these new New York mag designers and we just got
+
+172
+00:09:40,040 --> 00:09:43,760
+Speaker 6:  to think from a clean sheet, what unearth does tweet
+
+173
+00:09:43,760 --> 00:09:47,480
+Speaker 6:  onto the website mean? And our first prototype dealer. And I made it
+
+174
+00:09:47,530 --> 00:09:51,400
+Speaker 6:  in the same life blog tool that we use for apple events. Right. We just
+
+175
+00:09:51,400 --> 00:09:54,120
+Speaker 6:  were like, we're not gonna think about our technology product. We're just
+
+176
+00:09:54,120 --> 00:09:57,640
+Speaker 6:  gonna blog the news for ourselves for a day and just see what it feels like.
+
+177
+00:09:57,710 --> 00:10:01,600
+Speaker 6:  Even that was too much. So we made another prototype in Google docs.
+
+178
+00:10:01,970 --> 00:10:05,280
+Speaker 6:  So we weren't thinking about other people's software at all. And we were
+
+179
+00:10:05,280 --> 00:10:08,200
+Speaker 6:  just kind of like figuring it out. And we gave those prototypes over and
+
+180
+00:10:08,200 --> 00:10:11,360
+Speaker 6:  we ended up with our site where we kind of solved a bunch of problems at
+
+181
+00:10:11,360 --> 00:10:15,280
+Speaker 6:  once. Like how do most people experience the news in a
+
+182
+00:10:15,280 --> 00:10:18,880
+Speaker 6:  newsfeed? So our site should just look like a newsfeed.
+
+183
+00:10:19,100 --> 00:10:22,760
+Speaker 6:  How do we make it easier for our reporters to talk to the audience? Well,
+
+184
+00:10:22,760 --> 00:10:25,400
+Speaker 6:  you give them the tool they're already used to using to do that, which is
+
+185
+00:10:25,400 --> 00:10:28,920
+Speaker 6:  something that looks like posting to a newsfeed, like a Twitter or our Facebook.
+
+186
+00:10:29,060 --> 00:10:32,760
+Speaker 6:  And then how do you, re-promote our own stories without just doing the boring
+
+187
+00:10:32,760 --> 00:10:35,640
+Speaker 6:  thing that we do now, which is like pin them to the top. You let us write
+
+188
+00:10:35,720 --> 00:10:39,360
+Speaker 6:  about them like human beings. And then you get to, we turn the next
+
+189
+00:10:39,360 --> 00:10:42,560
+Speaker 6:  corner, which was, oh, we should be able to embed anything from anywhere.
+
+190
+00:10:42,810 --> 00:10:45,520
+Speaker 6:  So there's a cool TikTok. We don't have to write a whole article about it.
+
+191
+00:10:45,520 --> 00:10:48,600
+Speaker 6:  We can literally just say, here's our cool TikTok. It turns out our video
+
+192
+00:10:48,600 --> 00:10:51,560
+Speaker 6:  team makes a lot of cool talks and they had no access to our own homepage.
+
+193
+00:10:51,770 --> 00:10:55,120
+Speaker 6:  So now our video team has access to our homepage in something that looks
+
+194
+00:10:55,120 --> 00:10:57,840
+Speaker 6:  exactly a good news feed. It's familiar. We don't have to like teach anybody
+
+195
+00:10:57,840 --> 00:11:01,720
+Speaker 6:  how to use it and you just keep stacking it up. And then you get to
+
+196
+00:11:01,720 --> 00:11:04,640
+Speaker 6:  me saying, I'm gonna revolutionize the media with blog post, which I think
+
+197
+00:11:04,640 --> 00:11:05,120
+Speaker 6:  we're gonna do.
+
+198
+00:11:05,230 --> 00:11:08,280
+Speaker 2:  Part of me has wondered through this whole process. If the thing that we're
+
+199
+00:11:08,280 --> 00:11:12,240
+Speaker 2:  doing is just reinventing the internet circa like 2004
+
+200
+00:11:12,630 --> 00:11:16,600
+Speaker 2:  back when everybody's theory was like, I'm gonna have my own
+
+201
+00:11:16,600 --> 00:11:19,720
+Speaker 2:  site and we're, I'm gonna have a blog role and we're all gonna come to each
+
+202
+00:11:19,720 --> 00:11:23,280
+Speaker 2:  other's websites. And you know, you're gonna sit on my homepage and refresh
+
+203
+00:11:23,280 --> 00:11:25,760
+Speaker 2:  it a hundred times a day. And there's like a, there's a subset of people
+
+204
+00:11:25,760 --> 00:11:28,560
+Speaker 2:  who I think like really missed those days. And that was like when RSS readers
+
+205
+00:11:28,560 --> 00:11:31,240
+Speaker 2:  were big and that was great. And then there's a subset of people who are
+
+206
+00:11:31,240 --> 00:11:34,280
+Speaker 2:  like, you know, actually Twitter and Facebook are like pretty successful
+
+207
+00:11:34,720 --> 00:11:38,560
+Speaker 2:  platforms at showing me stuff that I'm interested in and care about.
+
+208
+00:11:38,620 --> 00:11:41,840
+Speaker 2:  And I think, I don't know, I'm, I'm torn between those two worlds. Like I
+
+209
+00:11:41,840 --> 00:11:45,680
+Speaker 2:  got started in this world at like the middle of that transition
+
+210
+00:11:45,680 --> 00:11:49,080
+Speaker 2:  between like the blogging world and the like digital news
+
+211
+00:11:49,280 --> 00:11:53,120
+Speaker 2:  world. I don't know. Is it like, is this just you wishing it was, was
+
+212
+00:11:53,120 --> 00:11:56,040
+Speaker 2:  2005 again and you were just like writing a million posts a day.
+
+213
+00:11:56,270 --> 00:12:00,200
+Speaker 6:  A little bit. Okay. I can't, I can't say no. You know,
+
+214
+00:12:00,200 --> 00:12:03,280
+Speaker 6:  I got my start in all this when I was sitting in law school and I would refresh
+
+215
+00:12:03,280 --> 00:12:06,240
+Speaker 6:  the end gadget homepage a hundred times a day. And then I quickly realized
+
+216
+00:12:06,240 --> 00:12:09,080
+Speaker 6:  like I should get an RS reader. And then I would refresh the RS reader a
+
+217
+00:12:09,080 --> 00:12:12,480
+Speaker 6:  hundred times a day. And I remember my friends and I used to say,
+
+218
+00:12:12,680 --> 00:12:15,480
+Speaker 6:  we've run out of the internet. We have to like start paying attention in
+
+219
+00:12:15,480 --> 00:12:18,920
+Speaker 6:  class because we, we had like read all the blog posts that day. Right.
+
+220
+00:12:19,100 --> 00:12:22,200
+Speaker 6:  And that feeling was actually like, fine, like looking back on it, that feeling
+
+221
+00:12:22,200 --> 00:12:25,600
+Speaker 6:  was fine. And now we live in this like world of infinity. Right. And I, I
+
+222
+00:12:25,600 --> 00:12:28,000
+Speaker 6:  think a lot of people would like the internet to come to an end every day.
+
+223
+00:12:28,290 --> 00:12:31,840
+Speaker 6:  So yeah, there's a part of it. That's just what I want to feel like
+
+224
+00:12:32,010 --> 00:12:36,000
+Speaker 6:  is that our site is a conversation that's ongoing and you can come join
+
+225
+00:12:36,000 --> 00:12:39,600
+Speaker 6:  it. And it does not have the toxicity of a Twitter
+
+226
+00:12:39,710 --> 00:12:43,680
+Speaker 6:  associated with it. It does not have the chaos of a Facebook
+
+227
+00:12:43,680 --> 00:12:47,640
+Speaker 6:  newsfeed associated with it. It's where we are. And just like, I,
+
+228
+00:12:47,640 --> 00:12:51,480
+Speaker 6:  I think the Vergecast audience feels about our show. Our site should feel
+
+229
+00:12:51,480 --> 00:12:55,280
+Speaker 6:  like you're hanging out with us. It just so happens that we
+
+230
+00:12:55,280 --> 00:12:58,560
+Speaker 6:  are really excellent journalists who are smart and know, know what we're
+
+231
+00:12:58,560 --> 00:13:02,200
+Speaker 6:  talking about, but like what, the way it should feel is that it's a
+
+232
+00:13:02,200 --> 00:13:05,920
+Speaker 6:  community. Right. And that, that I think is missing from so many places on
+
+233
+00:13:05,920 --> 00:13:06,280
+Speaker 6:  the internet.
+
+234
+00:13:06,590 --> 00:13:09,120
+Speaker 2:  I think that's right. And I think the thing to me that really jumped out,
+
+235
+00:13:09,120 --> 00:13:12,360
+Speaker 2:  like when you first showed me, I think it was just a bunch of like Figma
+
+236
+00:13:12,360 --> 00:13:15,800
+Speaker 2:  pages that you were just like, look, here's, here's some things it was like
+
+237
+00:13:16,010 --> 00:13:20,000
+Speaker 2:  to me, the internet is so uncurated now in really crappy
+
+238
+00:13:20,030 --> 00:13:23,440
+Speaker 2:  unpleasant ways where like I go, I was thinking about this the other day,
+
+239
+00:13:23,440 --> 00:13:26,600
+Speaker 2:  like when you have five minutes to kill, where do you go? Right. And I like,
+
+240
+00:13:26,600 --> 00:13:29,520
+Speaker 2:  I go to Twitter and it makes me angry or I go to TikTok and then it's been
+
+241
+00:13:29,520 --> 00:13:32,840
+Speaker 2:  like 50 minutes and I'm still in the bathroom and that's awkward. And then
+
+242
+00:13:32,840 --> 00:13:36,680
+Speaker 2:  I say, that's not any good, like Instagram is just the same thing.
+
+243
+00:13:36,680 --> 00:13:39,840
+Speaker 2:  Now, YouTube, all the videos are too long. I don't know. So it's like, there
+
+244
+00:13:39,840 --> 00:13:43,440
+Speaker 2:  just, isn't like a, a place to go and find stuff that I'm interested
+
+245
+00:13:43,490 --> 00:13:46,440
+Speaker 2:  in. And even news websites, like there's tons of them. Lots of them are very
+
+246
+00:13:46,440 --> 00:13:49,360
+Speaker 2:  good, but they all just like have their own stuff and pretends like the rest
+
+247
+00:13:49,360 --> 00:13:51,600
+Speaker 2:  of the world doesn't exist. And one thing I've always liked about the verge
+
+248
+00:13:51,610 --> 00:13:55,000
+Speaker 2:  is that it like acknowledges that the internet is a large place full of people
+
+249
+00:13:55,000 --> 00:13:57,520
+Speaker 2:  who don't work at the verge and that sometimes they do interesting things
+
+250
+00:13:57,780 --> 00:14:01,400
+Speaker 2:  and that's all well and good. But I feel like the cool thing about the thing
+
+251
+00:14:01,400 --> 00:14:05,040
+Speaker 2:  that we're trying to do is like, we're just gonna tell you about all the
+
+252
+00:14:05,040 --> 00:14:08,920
+Speaker 2:  stuff you should know about and not in like a businessy sound
+
+253
+00:14:08,920 --> 00:14:12,800
+Speaker 2:  smart in your first meeting way, but like a, the, Internet's like a
+
+254
+00:14:12,800 --> 00:14:16,120
+Speaker 2:  cool, interesting place and we're good at finding it cause we do it for a
+
+255
+00:14:16,120 --> 00:14:19,080
+Speaker 2:  living. And there's just not a lot of that. Like I used to spend a lot of
+
+256
+00:14:19,080 --> 00:14:23,000
+Speaker 2:  time on long form and like old dig and Reddit is still very good at
+
+257
+00:14:23,000 --> 00:14:25,360
+Speaker 2:  this, but there's just like, not that many places where I'm just like, I
+
+258
+00:14:25,360 --> 00:14:28,960
+Speaker 2:  have five minutes to kill, show me some cool stuff from people I like and
+
+259
+00:14:28,960 --> 00:14:31,840
+Speaker 2:  trust. And that's like, I wish more of the internet felt like that.
+
+260
+00:14:31,910 --> 00:14:35,480
+Speaker 6:  Yeah. And I, I do think there's an element of that. That was that old
+
+261
+00:14:35,480 --> 00:14:39,440
+Speaker 6:  blogging experience. Yeah. I'll give great credit to our friend, John Gruber,
+
+262
+00:14:39,440 --> 00:14:43,200
+Speaker 6:  daring fireball during fireball, is that still he's built an entire
+
+263
+00:14:43,200 --> 00:14:46,880
+Speaker 6:  career doing that. Certainly there's some inspiration from that in our site.
+
+264
+00:14:47,100 --> 00:14:51,040
+Speaker 6:  But I think there's also just another turn of it, which is you've gotta,
+
+265
+00:14:51,080 --> 00:14:54,600
+Speaker 6:  gotta actually reconceptualize that into the product that people are familiar
+
+266
+00:14:54,600 --> 00:14:58,200
+Speaker 6:  with, which is a newsfeed. There's a little bit of the old blog ideas in
+
+267
+00:14:58,200 --> 00:15:01,960
+Speaker 6:  there, but we didn't inherit all of them. Right. This isn't in gadget from
+
+268
+00:15:01,960 --> 00:15:05,880
+Speaker 6:  2006 or whatever, where we used to say like read more after the jump,
+
+269
+00:15:05,880 --> 00:15:09,800
+Speaker 6:  like there's a whole set of moves. We could glue back
+
+270
+00:15:09,800 --> 00:15:13,720
+Speaker 6:  onto this product. But really I think the audience
+
+271
+00:15:13,720 --> 00:15:17,560
+Speaker 6:  now is just like used to newsfeed. So we actually made it more like a newsfeed
+
+272
+00:15:17,820 --> 00:15:21,480
+Speaker 6:  and more like, Hey, we're just pointing you at other stuff instead of,
+
+273
+00:15:21,480 --> 00:15:25,360
+Speaker 6:  Hey, there's more here. And one of my biggest goals, like one of our, the
+
+274
+00:15:25,360 --> 00:15:29,240
+Speaker 6:  big number that I'm looking at is how much traffic we send out. I
+
+275
+00:15:29,240 --> 00:15:32,440
+Speaker 6:  think we will be a huge success if we are sending a meaningful amount of
+
+276
+00:15:32,440 --> 00:15:36,160
+Speaker 6:  traffic to other people, right. And they can see it and we can see it cuz
+
+277
+00:15:36,160 --> 00:15:40,040
+Speaker 6:  that relationship between publishers and platforms has
+
+278
+00:15:40,040 --> 00:15:42,920
+Speaker 6:  gotten totally outta whack. Most publishers get their traffic from Google
+
+279
+00:15:43,140 --> 00:15:45,880
+Speaker 6:  and their newsrooms are paying attention to Twitter, which actually sends
+
+280
+00:15:45,880 --> 00:15:49,160
+Speaker 6:  nobody any traffic. We can very quickly send a lot of people more traffic
+
+281
+00:15:49,160 --> 00:15:53,040
+Speaker 6:  than Twitter. I think. So if we can just get back in the game where we're
+
+282
+00:15:53,040 --> 00:15:56,800
+Speaker 6:  like, Hey, you can build your own communities on your own
+
+283
+00:15:57,040 --> 00:16:00,760
+Speaker 6:  platforms. Once again, in a format that feels both very modern
+
+284
+00:16:00,760 --> 00:16:04,560
+Speaker 6:  because it's a newsfeed, but inherits the best parts of what people
+
+285
+00:16:04,560 --> 00:16:08,000
+Speaker 6:  loved about blogging. And you're like a good citizen of the internet
+
+286
+00:16:08,010 --> 00:16:11,960
+Speaker 6:  because you're sharing the wealth. I think that let lets you
+
+287
+00:16:11,960 --> 00:16:15,800
+Speaker 6:  kind of reset that whole relationship a little bit and then potentially build
+
+288
+00:16:16,040 --> 00:16:19,040
+Speaker 6:  whatever the next things are without constantly scrambling against whatever
+
+289
+00:16:19,040 --> 00:16:22,880
+Speaker 6:  algorithm update, whatever platform is gonna roll out to up or down
+
+290
+00:16:22,880 --> 00:16:23,760
+Speaker 6:  rank, whatever content.
+
+291
+00:16:23,910 --> 00:16:27,280
+Speaker 2:  Yeah. Well, okay. So I wanna come back to Google because you have mad spicy
+
+292
+00:16:27,280 --> 00:16:29,720
+Speaker 2:  takes about Google that we're gonna get to in a second. But I think the,
+
+293
+00:16:29,720 --> 00:16:33,600
+Speaker 2:  the community aspect of this is I suspect gonna be a thing. A lot
+
+294
+00:16:33,600 --> 00:16:36,720
+Speaker 2:  of people like press against and try to figure out, especially cuz like the
+
+295
+00:16:36,720 --> 00:16:40,560
+Speaker 2:  first version of the feed that we have, doesn't have comments
+
+296
+00:16:40,700 --> 00:16:43,160
+Speaker 2:  and it's, it's a thing I know you've been thinking about for a long time
+
+297
+00:16:43,340 --> 00:16:46,680
+Speaker 2:  and like, are we gonna have like retweets, but they're called like
+
+298
+00:16:46,690 --> 00:16:50,440
+Speaker 2:  refuges and something happens there and you can like super verge
+
+299
+00:16:50,440 --> 00:16:54,120
+Speaker 2:  something for 9 99 a month. And like, I don't know, do we end up like
+
+300
+00:16:54,140 --> 00:16:57,720
+Speaker 2:  algorithmically personalizing these newsfeed, right? There's just like, when
+
+301
+00:16:57,720 --> 00:17:01,080
+Speaker 2:  you call something a newsfeed, there's this like long road you can trip down
+
+302
+00:17:01,190 --> 00:17:05,040
+Speaker 2:  into good, but also like deeply weird stuff. And then like
+
+303
+00:17:05,040 --> 00:17:08,280
+Speaker 2:  three years from now, the verge is just like vertical scrolling video on
+
+304
+00:17:08,280 --> 00:17:11,160
+Speaker 2:  the homepage. And that's all that we are. This is how it goes. Like we've
+
+305
+00:17:11,160 --> 00:17:12,480
+Speaker 2:  seen this over and over and over again,
+
+306
+00:17:12,560 --> 00:17:16,120
+Speaker 6:  Here are all of David Spears. I would like to get to the point where the
+
+307
+00:17:16,120 --> 00:17:18,720
+Speaker 6:  verge is responsible for the outcome of American democracy. I think we'd
+
+308
+00:17:18,720 --> 00:17:21,960
+Speaker 6:  be excellent stewards of it. Just to be honest, like we, if we have a goal,
+
+309
+00:17:21,960 --> 00:17:22,320
+Speaker 6:  that's
+
+310
+00:17:22,320 --> 00:17:23,920
+Speaker 2:  It I'll take that on. I'm ready for it.
+
+311
+00:17:23,920 --> 00:17:26,120
+Speaker 6:  You know, I don't know what we're gonna do next. The reason we don't, we,
+
+312
+00:17:26,120 --> 00:17:28,960
+Speaker 6:  we want to have comments. The reason we don't have comments now is because
+
+313
+00:17:28,960 --> 00:17:32,600
+Speaker 6:  we are very good at covering platforms and content moderation and we should
+
+314
+00:17:32,800 --> 00:17:36,480
+Speaker 6:  have a plan for how to grow a healthy community. Before we just light up
+
+315
+00:17:36,480 --> 00:17:38,840
+Speaker 6:  comments on a hundred more posts today,
+
+316
+00:17:38,840 --> 00:17:41,920
+Speaker 2:  We've written the like, what if they had thought about this ahead of time,
+
+317
+00:17:41,920 --> 00:17:45,000
+Speaker 2:  story enough that we should probably think about it ahead of time.
+
+318
+00:17:45,000 --> 00:17:48,720
+Speaker 6:  Right? And I, I wanna flip it on and see if it works. I want, you know, I
+
+319
+00:17:48,720 --> 00:17:52,440
+Speaker 6:  I think think the best place to be is for other people to
+
+320
+00:17:52,590 --> 00:17:56,280
+Speaker 6:  tell us what things they think are obvious, right? Here's this product.
+
+321
+00:17:56,280 --> 00:17:59,640
+Speaker 6:  And here's what we think is the obvious next step for you. And then you deliver
+
+322
+00:17:59,640 --> 00:18:02,840
+Speaker 6:  the thing that's obvious to a lot of people that makes them happy. Right?
+
+323
+00:18:02,840 --> 00:18:06,000
+Speaker 6:  And like, I think there's a relationship with our community there where we
+
+324
+00:18:06,000 --> 00:18:09,480
+Speaker 6:  want to build that thing together. Just like I, again, I think there's a,
+
+325
+00:18:09,480 --> 00:18:12,760
+Speaker 6:  the success of the verge in one tiny way
+
+326
+00:18:13,250 --> 00:18:17,120
+Speaker 6:  is that the verge cast audience is a community, right? And that
+
+327
+00:18:17,120 --> 00:18:20,720
+Speaker 6:  community for better or worse wants us to take
+
+328
+00:18:21,040 --> 00:18:24,680
+Speaker 6:  interesting shots at how to cover tech. And so we can take some risks that
+
+329
+00:18:24,680 --> 00:18:28,520
+Speaker 6:  maybe a more traditional brand, like the times or whatever we can't
+
+330
+00:18:28,520 --> 00:18:31,920
+Speaker 6:  take. I think we can do that with our website too. I just want, I just wanna
+
+331
+00:18:31,920 --> 00:18:35,880
+Speaker 6:  make sure that, you know, we have enough moderators or they're sufficiently
+
+332
+00:18:36,200 --> 00:18:40,080
+Speaker 6:  prepared for the influx of new content or we have a new commenting
+
+333
+00:18:40,280 --> 00:18:43,800
+Speaker 6:  platform it's called coral, which is very cool. It's part of the V media,
+
+334
+00:18:43,800 --> 00:18:47,200
+Speaker 6:  but it's powers comments on all kinds of sites all over the world. I wanna
+
+335
+00:18:47,200 --> 00:18:50,600
+Speaker 6:  make sure people are initiated into coral the correct way. And they're they
+
+336
+00:18:50,600 --> 00:18:53,840
+Speaker 6:  know how to use the tool and it feels empowering. I can see us getting to
+
+337
+00:18:53,840 --> 00:18:57,600
+Speaker 6:  a place where in our newsfeed, we might have top commenters.
+
+338
+00:18:57,610 --> 00:19:01,440
+Speaker 6:  We might be able to promote comments into the newsfeed and say, here's a
+
+339
+00:19:01,440 --> 00:19:04,280
+Speaker 6:  great comment from a story. You can see all the things we might be able to
+
+340
+00:19:04,280 --> 00:19:08,040
+Speaker 6:  do. I think we just have to be very judicious at how we
+
+341
+00:19:08,040 --> 00:19:11,720
+Speaker 6:  grow that and how we do it step by step. Because if we get it wrong,
+
+342
+00:19:11,830 --> 00:19:15,520
+Speaker 6:  like we know what happens. Like we're really good at covering that story.
+
+343
+00:19:16,040 --> 00:19:19,600
+Speaker 2:  Well, and I think to me, honestly, the comment side of this is one of the
+
+344
+00:19:19,600 --> 00:19:22,040
+Speaker 2:  things that's gonna be most interesting to watch because like again, to,
+
+345
+00:19:22,040 --> 00:19:25,720
+Speaker 2:  you know, rewind a generation of internet media, don't read the comments
+
+346
+00:19:25,720 --> 00:19:29,600
+Speaker 2:  just became like a truism of anyone who writes online, right? Like the comments
+
+347
+00:19:29,600 --> 00:19:33,440
+Speaker 2:  was either a thing you got rid of, or just like a cesspool where people
+
+348
+00:19:33,440 --> 00:19:37,400
+Speaker 2:  were horrible that you were trained to ignore and that no good came of reading
+
+349
+00:19:37,400 --> 00:19:39,920
+Speaker 2:  the comments. And then eventually everybody sort of outsourced the comments
+
+350
+00:19:39,920 --> 00:19:42,920
+Speaker 2:  to Twitter and that has its own messy problems.
+
+351
+00:19:42,920 --> 00:19:46,240
+Speaker 6:  And then they all got addicted to reading Twitter. Right? It's like, it's
+
+352
+00:19:46,240 --> 00:19:48,440
+Speaker 6:  a weird cycle that happened there. So
+
+353
+00:19:48,440 --> 00:19:52,000
+Speaker 2:  I guess like the, the thing that I'm curious about is to see like the,
+
+354
+00:19:52,000 --> 00:19:55,320
+Speaker 2:  obviously the content moderation thing is crucial. And as we've seen over
+
+355
+00:19:55,320 --> 00:19:58,960
+Speaker 2:  and over anyone who does that at any size beyond like six people, it's a
+
+356
+00:19:58,960 --> 00:20:02,720
+Speaker 2:  lot of work and it's hard to get. Right. But can we start to solve some of
+
+357
+00:20:02,720 --> 00:20:06,560
+Speaker 2:  this stuff with product, like as a person on the internet? I think it's fascinating,
+
+358
+00:20:06,560 --> 00:20:10,160
+Speaker 2:  but especially like to get to watch it within the place that I work is gonna
+
+359
+00:20:10,280 --> 00:20:11,680
+Speaker 2:  be really, really interesting. Yeah.
+
+360
+00:20:11,680 --> 00:20:15,160
+Speaker 6:  I mean, people can go check out coral, it's a product you can just use. It's
+
+361
+00:20:15,160 --> 00:20:18,480
+Speaker 6:  there for you. That team is amazing. They have lots of ideas on how product
+
+362
+00:20:18,480 --> 00:20:19,960
+Speaker 6:  might build healthier communities.
+
+363
+00:20:20,020 --> 00:20:23,760
+Speaker 2:  The team at explanation, we should say with all the team blogs, they use
+
+364
+00:20:23,760 --> 00:20:26,160
+Speaker 2:  the hell outta coral and do some really interesting stuff. Yeah.
+
+365
+00:20:26,160 --> 00:20:29,840
+Speaker 6:  That all just runs in coral. Polygon uses coral for its comments, like lots
+
+366
+00:20:29,840 --> 00:20:32,960
+Speaker 6:  and lots of sites outside of oxygen. You use coral, coral is a product, right?
+
+367
+00:20:32,960 --> 00:20:36,880
+Speaker 6:  It's a product that you can go sign up for and use on your site. So you
+
+368
+00:20:36,880 --> 00:20:39,840
+Speaker 6:  know, that team has a lot of ideas. I think we have a lot of ideas. I've
+
+369
+00:20:39,840 --> 00:20:43,080
+Speaker 6:  said content moderation. And you said content moderation. Now I, the game
+
+370
+00:20:43,080 --> 00:20:46,000
+Speaker 6:  here is not, we're gonna have a bunch of keywords that are bad and then delete
+
+371
+00:20:46,000 --> 00:20:49,560
+Speaker 6:  the comments. The game actually is how do you build a community?
+
+372
+00:20:49,580 --> 00:20:53,240
+Speaker 6:  How do you make that space worthwhile? And the reason most publishers were
+
+373
+00:20:53,240 --> 00:20:56,080
+Speaker 6:  like, don't read the comments, whatever we'll, we'll just turn 'em off. Just
+
+374
+00:20:56,080 --> 00:20:59,840
+Speaker 6:  cause you have to invest a lot into it to make that good. And it turns out
+
+375
+00:20:59,840 --> 00:21:03,720
+Speaker 6:  just the math of every publisher is the people who comment are
+
+376
+00:21:03,720 --> 00:21:07,360
+Speaker 6:  the tiniest fraction of your audience. So you're, you're pointing the most
+
+377
+00:21:07,360 --> 00:21:10,920
+Speaker 6:  dollars at like the smallest segment of the audience. Right? I think that's
+
+378
+00:21:11,040 --> 00:21:14,600
+Speaker 6:  actually still valuable to do because hopefully that section of the audience
+
+379
+00:21:14,600 --> 00:21:17,520
+Speaker 6:  is one that loves you the most. So I, I think we just need a, we need a good
+
+380
+00:21:17,520 --> 00:21:21,080
+Speaker 6:  plan for how we're gonna grow these communities and how we're gonna make
+
+381
+00:21:21,080 --> 00:21:24,640
+Speaker 6:  it valuable. I will tell you right now, I know that the women on our staff,
+
+382
+00:21:24,640 --> 00:21:28,240
+Speaker 6:  the people of color on our staff, the non-binary folks on our staff, social,
+
+383
+00:21:28,240 --> 00:21:31,800
+Speaker 6:  media's not great for them. Yeah. You know, like we launched with a big feature
+
+384
+00:21:31,800 --> 00:21:34,800
+Speaker 6:  on star base and you should read it. Lauren Gresh wrote it for us before
+
+385
+00:21:34,800 --> 00:21:37,240
+Speaker 6:  she went off to Bloomberg. And just like in the middle, she's like being
+
+386
+00:21:37,240 --> 00:21:39,800
+Speaker 6:  a woman covering star base means people on the internet call me a bitch a
+
+387
+00:21:39,800 --> 00:21:43,680
+Speaker 6:  lot. Just a fact for her in her life. Well, I think our community should
+
+388
+00:21:43,680 --> 00:21:46,640
+Speaker 6:  have a higher standard of that. And so our writers, the reason you don't
+
+389
+00:21:46,640 --> 00:21:49,400
+Speaker 6:  pay attention to comments is like, it's still this, it has the same dynamics
+
+390
+00:21:49,400 --> 00:21:52,520
+Speaker 6:  of the internet on the comments of the New York times, which is weird. It
+
+391
+00:21:52,520 --> 00:21:55,040
+Speaker 6:  is weird. And I think we should be able to build a healthier community where
+
+392
+00:21:55,040 --> 00:21:57,560
+Speaker 6:  we actually get a closer relationship to our writers and our writers are
+
+393
+00:21:57,560 --> 00:22:01,320
+Speaker 6:  more incentivized to participate because it's a good place to be.
+
+394
+00:22:01,320 --> 00:22:04,560
+Speaker 6:  That's hard. Right. We had to like ship the first thing first
+
+395
+00:22:04,900 --> 00:22:07,600
+Speaker 6:  and get to a place where people are telling us what the next obvious thing
+
+396
+00:22:07,600 --> 00:22:10,720
+Speaker 6:  is. And then put as much thought into that and then ship that.
+
+397
+00:22:10,950 --> 00:22:14,760
+Speaker 2:  Yeah. I buy that. Okay. We need to take a break
+
+398
+00:22:14,780 --> 00:22:18,680
+Speaker 2:  and actually you and I, and Eli are gonna take a quick pause because
+
+399
+00:22:18,680 --> 00:22:22,120
+Speaker 2:  I wanna dig into a few of the things about the state of the internet that
+
+400
+00:22:22,120 --> 00:22:24,920
+Speaker 2:  you've been talking about. So I'm gonna grab a couple of folks on our product
+
+401
+00:22:24,920 --> 00:22:28,200
+Speaker 2:  team and dig into that. And then you and I will pick back up in a few minutes,
+
+402
+00:22:28,400 --> 00:22:29,320
+Speaker 2:  we'll be right back.
+
+403
+00:22:38,190 --> 00:22:41,740
+Speaker 2:  If you run an e-commerce business, you might be laser focused on
+
+404
+00:22:41,740 --> 00:22:45,260
+Speaker 2:  acquiring new customers, which makes sense at face value until you realize
+
+405
+00:22:45,260 --> 00:22:48,900
+Speaker 2:  that this isn't necessarily the best business model. According to a Harvard
+
+406
+00:22:48,900 --> 00:22:52,220
+Speaker 2:  study, acquiring new customers can be anywhere from five to
+
+407
+00:22:52,220 --> 00:22:56,180
+Speaker 2:  25 times more expensive than retaining existing ones. That
+
+408
+00:22:56,180 --> 00:23:00,060
+Speaker 2:  same study also found that increasing customer retention rates by 5%
+
+409
+00:23:00,580 --> 00:23:04,380
+Speaker 2:  increases profits by up to 95%, keeping your customer base engaged
+
+410
+00:23:04,380 --> 00:23:07,980
+Speaker 2:  and happy is a good way to grow, which is what the Clavio platform can help
+
+411
+00:23:07,980 --> 00:23:11,820
+Speaker 2:  you achieve. Clavio's email and SMS marketing platform brings all your
+
+412
+00:23:12,020 --> 00:23:15,780
+Speaker 2:  customer data into one place. Over a hundred thousand e-commerce brands
+
+413
+00:23:15,780 --> 00:23:19,620
+Speaker 2:  grow their businesses and drive revenue with real time, data segmentation
+
+414
+00:23:19,620 --> 00:23:23,340
+Speaker 2:  and automations that the Clavio platform offers. So you can now
+
+415
+00:23:23,340 --> 00:23:27,220
+Speaker 2:  know what your customers want and when they want it. Plus Clavio allows you
+
+416
+00:23:27,220 --> 00:23:30,900
+Speaker 2:  to drive successful marketing campaigns with pre-built behavior triggered
+
+417
+00:23:30,980 --> 00:23:34,700
+Speaker 2:  automations. So you can develop long-term customer relationships. It's time
+
+418
+00:23:34,700 --> 00:23:37,980
+Speaker 2:  to talk to your customers like you know them because you do with Clavio,
+
+419
+00:23:37,980 --> 00:23:41,740
+Speaker 2:  learn more@clavio.com. That's K L a V I
+
+420
+00:23:41,770 --> 00:23:43,060
+Speaker 2:  Y o.com.
+
+421
+00:23:49,060 --> 00:23:52,840
+Speaker 7:  Any job at Amazon can turn into a high paying career for
+
+422
+00:23:53,040 --> 00:23:56,760
+Speaker 7:  employees looking for security today, Amazon offers good pay and healthcare
+
+423
+00:23:56,760 --> 00:24:00,680
+Speaker 7:  on day one, new parents also get up to 20 weeks of fully paid leave.
+
+424
+00:24:00,850 --> 00:24:04,720
+Speaker 7:  So they have the flexibility to spend time with family while making a living
+
+425
+00:24:05,220 --> 00:24:08,720
+Speaker 7:  for opportunity. Tomorrow, Amazon is investing 1.2 billion
+
+426
+00:24:09,150 --> 00:24:13,040
+Speaker 7:  into free technical training. That's available to over 750,000
+
+427
+00:24:13,040 --> 00:24:16,640
+Speaker 7:  associates across the country. With these programs, hourly
+
+428
+00:24:16,840 --> 00:24:20,160
+Speaker 7:  employees have the opportunity to move into higher paying highly skilled
+
+429
+00:24:20,160 --> 00:24:23,960
+Speaker 7:  jobs in fields like software engineering and robotics learn
+
+430
+00:24:23,960 --> 00:24:25,960
+Speaker 7:  more@aboutamazon.com.
+
+431
+00:24:35,380 --> 00:24:39,250
+Speaker 2:  Welcome back. Like we've been talking about building a new website in
+
+432
+00:24:39,250 --> 00:24:43,090
+Speaker 2:  2022 is a complicated thing, but like
+
+433
+00:24:43,090 --> 00:24:47,010
+Speaker 2:  I know that, but I really have no idea what that means
+
+434
+00:24:47,220 --> 00:24:50,970
+Speaker 2:  or what it entails. And also after weeks of testing
+
+435
+00:24:50,970 --> 00:24:54,610
+Speaker 2:  our new site, I'm desperate to know specifically why TikTok
+
+436
+00:24:54,610 --> 00:24:58,210
+Speaker 2:  embeds are so terrible. This just keeps coming up over and over again. So
+
+437
+00:24:58,210 --> 00:25:01,050
+Speaker 2:  I grabbed two people on our product team who know Matt Kreider.
+
+438
+00:25:01,230 --> 00:25:03,890
+Speaker 8:  I'm a senior engineer working on the verge right
+
+439
+00:25:03,890 --> 00:25:05,650
+Speaker 2:  Now. And Tara Cosson,
+
+440
+00:25:05,650 --> 00:25:09,450
+Speaker 9:  I'm a senior product manager in charge of the verge redesign and
+
+441
+00:25:09,770 --> 00:25:11,530
+Speaker 9:  platform launch for the front end of the website
+
+442
+00:25:11,660 --> 00:25:12,730
+Speaker 2:  To help me figure it out.
+
+443
+00:25:15,360 --> 00:25:19,250
+Speaker 2:  What is it like to develop on the web right now with all of the things
+
+444
+00:25:19,250 --> 00:25:22,130
+Speaker 2:  that the web is? And all of the things we were trying to like pull into this
+
+445
+00:25:22,330 --> 00:25:26,290
+Speaker 2:  platform is the open web, a good place to develop for right
+
+446
+00:25:26,290 --> 00:25:27,370
+Speaker 2:  now. How does that feel?
+
+447
+00:25:27,370 --> 00:25:31,170
+Speaker 8:  Developing on the web is complicated these days I've been
+
+448
+00:25:31,610 --> 00:25:35,290
+Speaker 8:  building websites since like the Geocity days and professionally
+
+449
+00:25:35,290 --> 00:25:38,930
+Speaker 8:  for, I don't know, 15 years or so. And it used to be, yeah, just a
+
+450
+00:25:39,110 --> 00:25:42,890
+Speaker 8:  PHP server, maybe you're running WordPress or ju or something. And
+
+451
+00:25:42,890 --> 00:25:46,410
+Speaker 8:  there wasn't too much complexity, especially on the front end right now.
+
+452
+00:25:46,620 --> 00:25:50,570
+Speaker 8:  So much complexities on the front ends in the browser. And there's so many
+
+453
+00:25:50,570 --> 00:25:54,530
+Speaker 8:  options for what sort of tools you use and people battling
+
+454
+00:25:54,530 --> 00:25:58,290
+Speaker 8:  which, which one is the right tool to use, to use react or view
+
+455
+00:25:58,340 --> 00:26:02,210
+Speaker 8:  or whatnot. So there's lots of opinions out there and lots of complexity
+
+456
+00:26:02,260 --> 00:26:05,690
+Speaker 8:  in deciding what the right tool for the job is. So
+
+457
+00:26:05,690 --> 00:26:09,650
+Speaker 8:  there's a lot gonna have to keep yourself up to date all the time.
+
+458
+00:26:09,650 --> 00:26:12,970
+Speaker 8:  And it's, it's a lot, lot of work to be on the cutting edge of, you know,
+
+459
+00:26:12,970 --> 00:26:16,570
+Speaker 8:  what's good on the web right now. And I think our platform for the verge
+
+460
+00:26:16,570 --> 00:26:20,530
+Speaker 8:  is a lot of cutting edge stuff. So it's really exciting to kinda work
+
+461
+00:26:20,530 --> 00:26:23,850
+Speaker 8:  with these new tools, but you're constantly having to learn new things.
+
+462
+00:26:24,120 --> 00:26:26,290
+Speaker 2:  Give me an example, cuz that's actually one of the things I was gonna ask
+
+463
+00:26:26,290 --> 00:26:29,210
+Speaker 2:  about, which is like, you guys have been doing this for a long time and I
+
+464
+00:26:29,210 --> 00:26:33,170
+Speaker 2:  can imagine a world in which like a, a bunch of new stuff crops up as you're
+
+465
+00:26:33,170 --> 00:26:34,890
+Speaker 2:  working on it. And you're like, no, no, no, we don't. We don't have time
+
+466
+00:26:34,890 --> 00:26:37,050
+Speaker 2:  to deal with this. We've we know what we're gonna build based on the stuff
+
+467
+00:26:37,050 --> 00:26:40,530
+Speaker 2:  that we decided to build it with two years ago, or I can imagine there's
+
+468
+00:26:40,530 --> 00:26:43,480
+Speaker 2:  like a shiny object syndrome where like, somebody's like, like loading a
+
+469
+00:26:43,480 --> 00:26:46,520
+Speaker 2:  GitHub page, being like, look at this crazy new thing I found every meeting
+
+470
+00:26:46,520 --> 00:26:49,560
+Speaker 2:  that you possibly have and Tara's laughing like I'm like maybe a little bit
+
+471
+00:26:49,560 --> 00:26:52,760
+Speaker 2:  right on that one a hundred percent. Right. Is there a right answer on that,
+
+472
+00:26:52,760 --> 00:26:54,800
+Speaker 2:  on the spectrum between those things? Definitely
+
+473
+00:26:54,800 --> 00:26:57,840
+Speaker 8:  A spectrum, cuz there are shiny things out there that I'm looking at like,
+
+474
+00:26:57,840 --> 00:27:01,080
+Speaker 8:  oh this will be really great, but there's so much risk with, you know, technology,
+
+475
+00:27:01,080 --> 00:27:01,440
+Speaker 8:  right?
+
+476
+00:27:01,660 --> 00:27:05,320
+Speaker 9:  The beauty of websites in general is, you know, if you're a product manager
+
+477
+00:27:05,320 --> 00:27:09,000
+Speaker 9:  working on an app or software, you know, you release inversions
+
+478
+00:27:09,000 --> 00:27:12,480
+Speaker 9:  and it's kind of a serious waterfall process
+
+479
+00:27:12,580 --> 00:27:15,960
+Speaker 9:  and you cut off at some point. And then all of a sudden, if a feature wasn't
+
+480
+00:27:15,960 --> 00:27:18,880
+Speaker 9:  included, you're, it's like you're never getting it back. Whereas the web
+
+481
+00:27:18,880 --> 00:27:22,640
+Speaker 9:  has a short memory and you can at any given moment kind of stare at staging
+
+482
+00:27:22,640 --> 00:27:25,080
+Speaker 9:  and stare at production. And if staging is better than what's on production,
+
+483
+00:27:25,080 --> 00:27:28,600
+Speaker 9:  you can choose to ship it and continue to do that every day forever, which
+
+484
+00:27:28,600 --> 00:27:31,800
+Speaker 9:  is why it's, in my opinion, at least so much more fun than working on an
+
+485
+00:27:31,800 --> 00:27:35,680
+Speaker 9:  app or software. And it's a little easier then to maybe hedge with your
+
+486
+00:27:35,680 --> 00:27:39,560
+Speaker 9:  stakeholders to say like, okay, maybe we wanna prioritize
+
+487
+00:27:39,760 --> 00:27:43,560
+Speaker 9:  shipping faster. And you know, some of these shiny new features can come
+
+488
+00:27:43,560 --> 00:27:47,520
+Speaker 9:  later and we can test as we release them and iteratively do so.
+
+489
+00:27:47,520 --> 00:27:50,480
+Speaker 9:  And it kind of gives us a little bit more freedom in that respect.
+
+490
+00:27:50,630 --> 00:27:54,360
+Speaker 2:  What are some of the shiny things behind the scenes at the verge for, for
+
+491
+00:27:54,360 --> 00:27:57,880
+Speaker 2:  like the web dev nerds who are gonna be poking around the verge, trying to
+
+492
+00:27:57,880 --> 00:28:00,720
+Speaker 2:  figure out what's new, what are, what are the shiniest things? I
+
+493
+00:28:00,720 --> 00:28:04,480
+Speaker 9:  Don't know if it's web dev nerds so much as editor nerds, but some
+
+494
+00:28:04,480 --> 00:28:08,240
+Speaker 9:  there's some new article leads and article formats that we'd love to
+
+495
+00:28:08,240 --> 00:28:12,000
+Speaker 9:  introduce, especially in the age of podcasting. And you know, some of our
+
+496
+00:28:12,000 --> 00:28:15,400
+Speaker 9:  third party tools are not as flexible as we'd like them to be, to really
+
+497
+00:28:15,400 --> 00:28:19,360
+Speaker 9:  get creative with embeds and things like that. But the way that we tell stories,
+
+498
+00:28:19,390 --> 00:28:23,240
+Speaker 9:  I think there's a limit to how creative people want the article
+
+499
+00:28:23,240 --> 00:28:26,960
+Speaker 9:  to be that they're reading. But at some point we can still create
+
+500
+00:28:26,960 --> 00:28:28,240
+Speaker 9:  something fun on a webpage.
+
+501
+00:28:28,510 --> 00:28:31,080
+Speaker 2:  Yeah. Is that a tricky balance? Cause I was actually thinking about this
+
+502
+00:28:31,080 --> 00:28:33,840
+Speaker 2:  the other day cuz we, where it was like that brief moment, like when snowfall
+
+503
+00:28:34,080 --> 00:28:37,400
+Speaker 2:  happened at the York times where everybody was like, the future of news on
+
+504
+00:28:37,400 --> 00:28:41,360
+Speaker 2:  the internet is like massive bespoke design and everything is
+
+505
+00:28:41,360 --> 00:28:45,200
+Speaker 2:  gonna feel new and weird and crazy. And that is, I
+
+506
+00:28:45,200 --> 00:28:48,560
+Speaker 2:  would say mercifully not where we landed generally speaking, there's still
+
+507
+00:28:48,560 --> 00:28:51,680
+Speaker 2:  some room for some of that. And like we do a lot of really cool bespoke design
+
+508
+00:28:51,680 --> 00:28:55,480
+Speaker 2:  on the verge, but this idea that like most people on the internet, we, they
+
+509
+00:28:55,480 --> 00:28:58,800
+Speaker 2:  have like come to expect a certain thing when they come to a site like ours.
+
+510
+00:28:58,800 --> 00:29:02,760
+Speaker 2:  And part of the job is to like deliver some of that as you guys are building
+
+511
+00:29:02,760 --> 00:29:06,080
+Speaker 2:  this, like, is that useful constraint? Is it annoying? Is there, is there
+
+512
+00:29:06,080 --> 00:29:09,040
+Speaker 2:  a tendency to just say like what if we blew up everything and all the texts
+
+513
+00:29:09,040 --> 00:29:12,040
+Speaker 2:  went like bottom to top just to, just to change things cuz we want to,
+
+514
+00:29:12,350 --> 00:29:15,440
+Speaker 9:  I think the product and engineering answers are gonna be different for this,
+
+515
+00:29:15,440 --> 00:29:19,040
+Speaker 9:  but on the product side, it's, it's hugely beneficial because I think
+
+516
+00:29:19,110 --> 00:29:22,680
+Speaker 9:  most of our readers prefer a simple experience that loads really fast.
+
+517
+00:29:22,820 --> 00:29:26,440
+Speaker 9:  And I think the Virgin particular does a great job of designing something
+
+518
+00:29:26,440 --> 00:29:29,440
+Speaker 9:  that facilitates the storytelling and allows the page to still load fast.
+
+519
+00:29:29,470 --> 00:29:33,240
+Speaker 9:  I think when design becomes a part of storytelling, you know, the magic happens
+
+520
+00:29:33,410 --> 00:29:36,800
+Speaker 9:  at, at that intersection, but the whole trend of Google amp and Facebook
+
+521
+00:29:36,800 --> 00:29:40,040
+Speaker 9:  instant and apple news, they're not necessarily going away. They are a different
+
+522
+00:29:40,040 --> 00:29:43,280
+Speaker 9:  form now than they, they were when they started, but they still rest on the
+
+523
+00:29:43,280 --> 00:29:46,960
+Speaker 9:  same hypothesis that users want faster loading webpages that have less
+
+524
+00:29:46,960 --> 00:29:50,480
+Speaker 9:  JavaScript and just are a lot simpler and Google still prioritizes
+
+525
+00:29:50,730 --> 00:29:54,680
+Speaker 9:  or ranks better. All of those sites that kind of fit that same
+
+526
+00:29:54,680 --> 00:29:58,640
+Speaker 9:  philosophy. And so it's forced us to think a lot more
+
+527
+00:29:58,640 --> 00:30:02,360
+Speaker 9:  seriously about page speed and the trade offs with, you know,
+
+528
+00:30:02,360 --> 00:30:05,680
+Speaker 9:  the really fancy design stuff and the animations and stuff shooting across
+
+529
+00:30:05,680 --> 00:30:09,040
+Speaker 9:  the page. You know, that's, it's really not easy to prioritize things like
+
+530
+00:30:09,040 --> 00:30:09,560
+Speaker 9:  that anymore.
+
+531
+00:30:09,790 --> 00:30:13,360
+Speaker 8:  I think there's a time and a place for those snowfall que articles. I mean
+
+532
+00:30:13,360 --> 00:30:17,240
+Speaker 8:  the verge does some really great ones. That was my job before I came to boxes,
+
+533
+00:30:17,440 --> 00:30:20,760
+Speaker 8:  building those sorts of articles. But yeah, I think in general when people
+
+534
+00:30:20,760 --> 00:30:24,400
+Speaker 8:  want the news, they don't always want, you know, an insane interaction.
+
+535
+00:30:24,400 --> 00:30:25,800
+Speaker 8:  They just wanna read some content.
+
+536
+00:30:26,150 --> 00:30:29,320
+Speaker 2:  Yeah. That's very fair. Terry, you just brought up speed, which is a thing
+
+537
+00:30:29,320 --> 00:30:33,240
+Speaker 2:  I think is really interesting that like it does seem like you can do a
+
+538
+00:30:33,240 --> 00:30:36,120
+Speaker 2:  lot of stuff on the web. There are sort of lots of options for how to do
+
+539
+00:30:36,320 --> 00:30:38,560
+Speaker 2:  anything, but the like single most important thing you have to get right
+
+540
+00:30:38,560 --> 00:30:42,320
+Speaker 2:  as your website has to be fast. And if your website is not fast, users will
+
+541
+00:30:42,320 --> 00:30:45,560
+Speaker 2:  hate you and Google will hate you and you will fail. I'm like oversimplifying
+
+542
+00:30:45,560 --> 00:30:49,280
+Speaker 2:  it. But I think like only slightly, is there anything else in the process
+
+543
+00:30:49,390 --> 00:30:52,560
+Speaker 2:  that is as important as like making the website fast?
+
+544
+00:30:52,560 --> 00:30:56,240
+Speaker 9:  Definitely the content and as much as the product and engineering teams don't
+
+545
+00:30:56,240 --> 00:31:00,160
+Speaker 9:  own that that is like 100% more important than speed. I think the quality
+
+546
+00:31:00,160 --> 00:31:04,080
+Speaker 9:  of the content is the most exciting thing as like on our side to be able
+
+547
+00:31:04,080 --> 00:31:07,120
+Speaker 9:  to build a site that has quality content is awesome. But aside from that,
+
+548
+00:31:07,120 --> 00:31:10,480
+Speaker 9:  I think that's kind of the trifecta is content speed and
+
+549
+00:31:10,510 --> 00:31:14,360
+Speaker 9:  design or usability. I feel like if we get those three things, right, we're
+
+550
+00:31:14,360 --> 00:31:17,880
+Speaker 9:  in really good shape, but users will excuse speed. If the content is that
+
+551
+00:31:17,880 --> 00:31:21,720
+Speaker 9:  good and vice versa, you know, it's not a totally gloss cause if you have
+
+552
+00:31:21,720 --> 00:31:25,240
+Speaker 9:  slow website, but it definitely helps. And that's like one metric that we
+
+553
+00:31:25,240 --> 00:31:28,720
+Speaker 9:  can affect. So very much our job to like make that, make that happen.
+
+554
+00:31:28,950 --> 00:31:32,720
+Speaker 8:  Yeah. I dunno. Content is king and that's the most important thing for Google
+
+555
+00:31:32,720 --> 00:31:36,640
+Speaker 8:  too. So that knows you have good content. Maybe it's pick two content design
+
+556
+00:31:36,640 --> 00:31:39,480
+Speaker 8:  or speed. They're all important. There's certainly like, you know, great
+
+557
+00:31:39,480 --> 00:31:42,560
+Speaker 8:  websites out there and that are terribly designed, but yeah, they all kind
+
+558
+00:31:42,560 --> 00:31:43,760
+Speaker 8:  of were contented on those three
+
+559
+00:31:43,760 --> 00:31:47,480
+Speaker 2:  Things. Yeah. The fact that Dr. Report is successful means there are a lot
+
+560
+00:31:47,480 --> 00:31:49,240
+Speaker 2:  of ways to do this stuff correctly, I suppose.
+
+561
+00:31:49,770 --> 00:31:51,120
+Speaker 8:  Totally. But let,
+
+562
+00:31:51,120 --> 00:31:54,520
+Speaker 2:  Let's talk about the sort of embed code internet, which is like how I've
+
+563
+00:31:54,520 --> 00:31:57,320
+Speaker 2:  come to think about it. Cuz part of what I think is an interesting challenge
+
+564
+00:31:57,320 --> 00:32:00,040
+Speaker 2:  and it comes back to kind of the building for the open web thing is like
+
+565
+00:32:00,040 --> 00:32:04,000
+Speaker 2:  one of the things you all set out to do is build a site that can sort
+
+566
+00:32:04,000 --> 00:32:07,600
+Speaker 2:  of consume and display all these other things. And like
+
+567
+00:32:07,650 --> 00:32:10,640
+Speaker 2:  YouTube is famous for having very good and bed codes and making that process
+
+568
+00:32:10,640 --> 00:32:14,360
+Speaker 2:  very easy for people to like bring other content onto your platform. I don't
+
+569
+00:32:14,360 --> 00:32:18,200
+Speaker 2:  know that any other platform is like well known for being sort of
+
+570
+00:32:18,200 --> 00:32:22,080
+Speaker 2:  famous to tap into and use this way. But we also live in a time where like
+
+571
+00:32:22,080 --> 00:32:25,920
+Speaker 2:  everything is APIs and you can start to call APIs and sort of integrate
+
+572
+00:32:25,920 --> 00:32:29,200
+Speaker 2:  other stuff into your own platforms. And I don't know, there's a lot of things
+
+573
+00:32:29,200 --> 00:32:32,480
+Speaker 2:  kind of all happening simultaneously. Like is it as hard as I would think
+
+574
+00:32:32,480 --> 00:32:35,920
+Speaker 2:  to build a thing that can sort of be a responsible
+
+575
+00:32:35,920 --> 00:32:38,880
+Speaker 2:  displayer of all of these different things all over the internet,
+
+576
+00:32:39,430 --> 00:32:43,240
+Speaker 8:  It's super easy to build it. It's super hard to build
+
+577
+00:32:43,240 --> 00:32:47,160
+Speaker 8:  it well. Okay. There's so many platforms that provide an
+
+578
+00:32:47,160 --> 00:32:50,680
+Speaker 8:  API or some sort of way of embedding their content into your site.
+
+579
+00:32:50,740 --> 00:32:54,320
+Speaker 8:  And it's pretty easy to kind of to figure that out.
+
+580
+00:32:54,350 --> 00:32:58,160
+Speaker 8:  Most of them use an open standard called oh embed, which
+
+581
+00:32:58,210 --> 00:33:02,120
+Speaker 8:  is basically you can put in a URL and the service will respond with like,
+
+582
+00:33:02,120 --> 00:33:05,520
+Speaker 8:  this is how you should embed me to your site, but once you get it in there,
+
+583
+00:33:05,520 --> 00:33:09,480
+Speaker 8:  there's so many problems as far as performance. And
+
+584
+00:33:09,480 --> 00:33:13,120
+Speaker 8:  then you gotta ask yourself like why is the service allowing their
+
+585
+00:33:13,520 --> 00:33:17,000
+Speaker 8:  platform to be used outside of, you know, where they can make money off of
+
+586
+00:33:17,000 --> 00:33:20,880
+Speaker 8:  it? So there's definitely some risk involved in putting in these
+
+587
+00:33:20,880 --> 00:33:24,800
+Speaker 8:  third party services, but just generally doing it in a performance
+
+588
+00:33:24,800 --> 00:33:26,240
+Speaker 8:  way is pretty tricky.
+
+589
+00:33:26,650 --> 00:33:30,280
+Speaker 9:  In addition to performance and speed. There's also the design question. Like
+
+590
+00:33:30,280 --> 00:33:32,600
+Speaker 9:  these things are really not that flexible. And so if you're trying to do
+
+591
+00:33:32,600 --> 00:33:35,640
+Speaker 9:  something really creative, it can be really hard to help them play well.
+
+592
+00:33:35,640 --> 00:33:39,480
+Speaker 9:  And then there's privacy concerns which Matt was alluding to. And you know,
+
+593
+00:33:39,480 --> 00:33:43,200
+Speaker 9:  if these embeds are trying to track their users on other sites on the internet
+
+594
+00:33:43,260 --> 00:33:46,680
+Speaker 9:  and dropping cookies on our site, you know, with the increasingly
+
+595
+00:33:46,800 --> 00:33:50,680
+Speaker 9:  expansive GDPR, CCPA and privacy laws all over the world,
+
+596
+00:33:50,830 --> 00:33:54,640
+Speaker 9:  that's just a lot of cookies to find, identify and treat properly.
+
+597
+00:33:54,670 --> 00:33:57,760
+Speaker 2:  Yeah, I was, I was actually gonna ask about that cuz I do think one of the
+
+598
+00:33:57,760 --> 00:34:00,880
+Speaker 2:  things that people are increasingly sensitive to largely thanks to Facebook
+
+599
+00:34:00,880 --> 00:34:04,840
+Speaker 2:  is the idea that like wherever Facebook appears in my web
+
+600
+00:34:04,840 --> 00:34:08,560
+Speaker 2:  browsing universe, Facebook gets data about me. And it's obviously not just
+
+601
+00:34:08,560 --> 00:34:11,480
+Speaker 2:  true about Facebook. It's true of lots of these platforms. Have you guys
+
+602
+00:34:11,480 --> 00:34:15,440
+Speaker 2:  thought through kind of what our job is and what it means like as the
+
+603
+00:34:15,440 --> 00:34:19,200
+Speaker 2:  verge to be a, to handle that the correct way, what is the right answer there?
+
+604
+00:34:19,310 --> 00:34:22,840
+Speaker 9:  It's a little bit binary. If the ed appears they can track you
+
+605
+00:34:22,970 --> 00:34:26,800
+Speaker 9:  so users can, should, and legally should be in many
+
+606
+00:34:26,800 --> 00:34:30,200
+Speaker 9:  places allowed to opt out, but it often means that we can't display the ed.
+
+607
+00:34:30,200 --> 00:34:33,520
+Speaker 9:  And a lot of times that is a huge part of the storytelling or the content.
+
+608
+00:34:33,570 --> 00:34:37,320
+Speaker 9:  So it's the user's choice, but it comes with a, a trade off for them, which
+
+609
+00:34:37,320 --> 00:34:40,680
+Speaker 9:  is unfortunate. A lot of times the reporting will say something about what
+
+610
+00:34:40,680 --> 00:34:43,800
+Speaker 9:  the tweet said, which can be hard when someone then deletes the tweet and
+
+611
+00:34:43,800 --> 00:34:47,640
+Speaker 9:  legally we're supposed to delete a tweet, but it's pretty binary, which,
+
+612
+00:34:47,640 --> 00:34:48,480
+Speaker 9:  which sucks a little
+
+613
+00:34:48,480 --> 00:34:52,080
+Speaker 8:  Bit. I think that's an interesting concept that is worth exploring. I mean
+
+614
+00:34:52,080 --> 00:34:56,000
+Speaker 8:  you can opt out of ads like with the CCPA laws in
+
+615
+00:34:56,000 --> 00:34:59,760
+Speaker 8:  California, you're legally supposed to be allowed to opt out of an ad. We
+
+616
+00:34:59,760 --> 00:35:03,000
+Speaker 8:  may have to do the same thing for end embeds because I mean, I'm no expert
+
+617
+00:35:03,000 --> 00:35:06,880
+Speaker 8:  on each platform and what sort of tracking they use, but the major ones like
+
+618
+00:35:06,880 --> 00:35:10,760
+Speaker 8:  Twitter, Facebook, Instagram, TikTok, they inject like third party
+
+619
+00:35:10,760 --> 00:35:14,720
+Speaker 8:  Java script on onto your page, which can be like, they have a lot of
+
+620
+00:35:14,720 --> 00:35:18,520
+Speaker 8:  power through that little end embed window. They, they have one ability to
+
+621
+00:35:18,520 --> 00:35:22,040
+Speaker 8:  do tracking if they so choose. So I think, yeah, that's kind of a,
+
+622
+00:35:22,040 --> 00:35:25,800
+Speaker 8:  kind of a privacy gray area that is worth exploring more
+
+623
+00:35:26,050 --> 00:35:29,800
+Speaker 9:  As a user. You can reject ad tracking and personalized ads, but you
+
+624
+00:35:29,800 --> 00:35:33,640
+Speaker 9:  can't necessarily reject the ability to like see an ad unless it's through
+
+625
+00:35:33,640 --> 00:35:36,080
+Speaker 9:  an ad blocker. I dunno it would be nice if embeds were the same.
+
+626
+00:35:36,110 --> 00:35:39,080
+Speaker 2:  Well, and I think it's, it's part of, what's interesting about it is like
+
+627
+00:35:39,080 --> 00:35:42,640
+Speaker 2:  we all had this, you know, long sort of internet wide debate about like the
+
+628
+00:35:42,840 --> 00:35:45,120
+Speaker 2:  Facebook tracking pixel that was in everybody's site. And then there was
+
+629
+00:35:45,120 --> 00:35:48,800
+Speaker 2:  the like, is it worth having the sign in with Google thing in
+
+630
+00:35:49,000 --> 00:35:51,720
+Speaker 2:  exchange for, you know, the data that you're giving? And it feels like embeds
+
+631
+00:35:51,720 --> 00:35:55,520
+Speaker 2:  in a certain way are like the most complicated version of that. Because even
+
+632
+00:35:55,520 --> 00:35:58,480
+Speaker 2:  if I don't want access to the platform, like if there's a video I wanna watch,
+
+633
+00:35:58,480 --> 00:36:01,560
+Speaker 2:  I wanna watch the video. And I sort of understand why YouTube is like, well,
+
+634
+00:36:01,560 --> 00:36:03,920
+Speaker 2:  if you wanna watch the video, you have to like engage with all the pieces
+
+635
+00:36:03,920 --> 00:36:07,840
+Speaker 2:  of our platform, but then on the, on the flip side, like that sucks. And
+
+636
+00:36:07,840 --> 00:36:11,640
+Speaker 2:  so I just like where all of that is supposed to shake out and will,
+
+637
+00:36:11,640 --> 00:36:14,960
+Speaker 2:  I think is really complicated and interesting. And is the kind of thing that
+
+638
+00:36:14,960 --> 00:36:18,320
+Speaker 2:  is just like not put in front of users. Like I don't know that most people
+
+639
+00:36:18,320 --> 00:36:21,720
+Speaker 2:  think about the fact that like when I see an embedded tweet on a website
+
+640
+00:36:21,790 --> 00:36:25,280
+Speaker 2:  like that is in a certain way, I am now engaging with Twitter, the platform,
+
+641
+00:36:25,550 --> 00:36:28,800
+Speaker 2:  it's just a thing that is happening. And I think most people are like, just
+
+642
+00:36:28,800 --> 00:36:32,760
+Speaker 2:  not even aware of that or sort of thinking about what that interaction
+
+643
+00:36:33,040 --> 00:36:34,280
+Speaker 2:  actually looks like, which is really interesting.
+
+644
+00:36:34,500 --> 00:36:38,240
+Speaker 8:  And you don't even have to be a Twitter user or like a Facebook user, like
+
+645
+00:36:38,240 --> 00:36:42,080
+Speaker 8:  they're able to, to track you through the entire internet
+
+646
+00:36:42,080 --> 00:36:45,360
+Speaker 8:  regardless of your log in or not. I always wonder what the motivations are
+
+647
+00:36:45,360 --> 00:36:49,200
+Speaker 8:  for companies to open up these platforms. And like, it's pretty clear, like
+
+648
+00:36:49,200 --> 00:36:51,720
+Speaker 8:  they're getting some really useful data from folks
+
+649
+00:36:52,050 --> 00:36:55,600
+Speaker 2:  To that point. Actually, one of the things that has surprised me in the course
+
+650
+00:36:55,600 --> 00:36:59,400
+Speaker 2:  of testing our new site before it went live is how awful some of these embed
+
+651
+00:36:59,400 --> 00:37:02,320
+Speaker 2:  codes are. Because to your point, a lot of these companies have like a really
+
+652
+00:37:02,320 --> 00:37:05,840
+Speaker 2:  large incentive to do this really well, especially with video, which is this
+
+653
+00:37:05,840 --> 00:37:09,680
+Speaker 2:  like massively competitive space. And everybody's trying to get you to
+
+654
+00:37:09,680 --> 00:37:13,000
+Speaker 2:  post on reels instead of shorts, instead of TikTok, whatever you would think
+
+655
+00:37:13,000 --> 00:37:16,760
+Speaker 2:  everybody would be competing to like make the best, most
+
+656
+00:37:16,920 --> 00:37:20,520
+Speaker 2:  shareable thing. But then we put a TikTok in bed on our site and it's like
+
+657
+00:37:20,520 --> 00:37:24,440
+Speaker 2:  400,000 pixels tall and just randomly breaks. And autoplay is when
+
+658
+00:37:24,440 --> 00:37:28,360
+Speaker 2:  it feels like it, are these things getting better over time? Or is this just
+
+659
+00:37:28,390 --> 00:37:31,960
+Speaker 2:  a crappy thing that everybody seems to have kind of forgotten to make better
+
+660
+00:37:31,960 --> 00:37:32,440
+Speaker 2:  in the process?
+
+661
+00:37:32,780 --> 00:37:36,760
+Speaker 8:  Historically they, everything has been getting worse. I
+
+662
+00:37:36,760 --> 00:37:40,640
+Speaker 8:  mean, it's kind of risky to depend on a third party in
+
+663
+00:37:40,640 --> 00:37:44,440
+Speaker 8:  be because there's been so many examples of something of a platform
+
+664
+00:37:44,440 --> 00:37:48,280
+Speaker 8:  opening up their service to developers and then completely changing
+
+665
+00:37:48,280 --> 00:37:52,120
+Speaker 8:  how it works or shutting down. I mean, I have plenty of old websites
+
+666
+00:37:52,120 --> 00:37:56,080
+Speaker 8:  around that had a Google map embedded in it or, you know, an
+
+667
+00:37:56,080 --> 00:37:59,440
+Speaker 8:  Instagram feed and they just don't work anymore because they changed the
+
+668
+00:37:59,440 --> 00:38:03,360
+Speaker 8:  rules of their API. Do you all remember Vinny? Yeah.
+
+669
+00:38:03,580 --> 00:38:04,000
+Speaker 2:  Wow.
+
+670
+00:38:04,000 --> 00:38:07,920
+Speaker 8:  Video embedding service. I won't get too deep into that, but
+
+671
+00:38:07,920 --> 00:38:11,640
+Speaker 8:  like some other company bought it and completely changed what videos were
+
+672
+00:38:11,640 --> 00:38:15,600
+Speaker 8:  being accomplished on a lot of major media outlets. So there's
+
+673
+00:38:15,600 --> 00:38:19,520
+Speaker 8:  a lot of risk with embedding third party scripts or embeds.
+
+674
+00:38:19,710 --> 00:38:23,680
+Speaker 8:  A lot of like benefits, like Neil said that he's, we want to use the
+
+675
+00:38:23,680 --> 00:38:27,600
+Speaker 8:  entire web as a CMS, a content management system, which is really, really
+
+676
+00:38:27,600 --> 00:38:31,360
+Speaker 8:  cool. But as a developer has seen a lot of these things go bad.
+
+677
+00:38:31,360 --> 00:38:34,840
+Speaker 8:  It's, it's a little scary. Sometimes there's, there's a bit of re to throw
+
+678
+00:38:34,840 --> 00:38:38,800
+Speaker 9:  A bone to the poor product managers who are in charge of embeds at like Instagram
+
+679
+00:38:38,800 --> 00:38:42,200
+Speaker 9:  and Facebook. I feel like they're evaluated on probably two things. And one
+
+680
+00:38:42,200 --> 00:38:46,080
+Speaker 9:  of them is how much traffic are they driving back to their own feeds and
+
+681
+00:38:46,080 --> 00:38:49,760
+Speaker 9:  their own sticky experiences or retention based experiences. And then the
+
+682
+00:38:49,760 --> 00:38:53,000
+Speaker 9:  second is how much data are they collecting, which then also enables them
+
+683
+00:38:53,000 --> 00:38:56,560
+Speaker 9:  to increase signups or increase retention or whatever their other metrics
+
+684
+00:38:56,560 --> 00:39:00,280
+Speaker 9:  are. So by those respects, I'm sure that they're doing great. And I think
+
+685
+00:39:00,760 --> 00:39:04,280
+Speaker 9:  probably the, you know, our use of embeds for the redesign is probably an
+
+686
+00:39:04,280 --> 00:39:07,360
+Speaker 9:  edge case. Like it's a lot more creative than your average, you know, drop
+
+687
+00:39:07,360 --> 00:39:11,200
+Speaker 9:  an Instagram post in a, a story and, and let it take over the
+
+688
+00:39:11,200 --> 00:39:15,120
+Speaker 9:  whole width of the column and, and be a little annoying. So in defense
+
+689
+00:39:15,120 --> 00:39:18,480
+Speaker 9:  of those product managers, I'm sure that they're hitting their metrics, but
+
+690
+00:39:18,530 --> 00:39:22,080
+Speaker 9:  it would be really nice if there were just a couple more options
+
+691
+00:39:22,220 --> 00:39:25,920
+Speaker 9:  for like max widths that you could set that were a little bit smaller.
+
+692
+00:39:25,990 --> 00:39:29,960
+Speaker 9:  Ah-huh any product managers listening. I will happily send you a really
+
+693
+00:39:29,960 --> 00:39:33,640
+Speaker 9:  fancy, fancy gift basket. If in the next year you can
+
+694
+00:39:33,640 --> 00:39:37,200
+Speaker 9:  ship something like that for us would be awesome. The poor
+
+695
+00:39:37,200 --> 00:39:38,520
+Speaker 9:  publishers need some help.
+
+696
+00:39:38,520 --> 00:39:40,440
+Speaker 8:  Dark Mo toggle would be good. Ooh.
+
+697
+00:39:40,660 --> 00:39:44,160
+Speaker 2:  Yes. Dark Mo toggle. Okay. This is good. We're just gonna, we'll end this
+
+698
+00:39:44,160 --> 00:39:46,760
+Speaker 2:  with just like a long list of things that we'd like people to build for us.
+
+699
+00:39:46,760 --> 00:39:49,160
+Speaker 2:  That seems, that seems like it'd be good. No, the last thing I wanna talk
+
+700
+00:39:49,160 --> 00:39:52,480
+Speaker 2:  about before I let you go, is the future proofing kinda like you, you were
+
+701
+00:39:52,480 --> 00:39:56,280
+Speaker 2:  talking about Matt, because I think one of the interesting moments that we're
+
+702
+00:39:56,280 --> 00:39:59,360
+Speaker 2:  at right now, like you guys are saying is like the web is changing really
+
+703
+00:39:59,360 --> 00:40:03,200
+Speaker 2:  fast. The platforms are changing really fast. The odds that all
+
+704
+00:40:03,200 --> 00:40:07,040
+Speaker 2:  the platforms we're using and embedding right now are gonna be here or
+
+705
+00:40:07,240 --> 00:40:11,120
+Speaker 2:  relevant in 10 years when we do this again is like vanishingly small. So
+
+706
+00:40:11,120 --> 00:40:15,080
+Speaker 2:  as you guys are going through this process, I guess a how far out
+
+707
+00:40:15,080 --> 00:40:18,840
+Speaker 2:  into the future, is it even sort of useful to think given how quickly
+
+708
+00:40:18,840 --> 00:40:22,720
+Speaker 2:  everything changes and then also like, is there stuff you can do in this
+
+709
+00:40:22,720 --> 00:40:26,560
+Speaker 2:  process to sort of give it the longest possible shelf
+
+710
+00:40:26,560 --> 00:40:30,360
+Speaker 2:  life? Part of developing for tech to me just seems like you just have to
+
+711
+00:40:30,360 --> 00:40:32,680
+Speaker 2:  get comfortable with the idea that every two years you're gonna have to throw
+
+712
+00:40:32,680 --> 00:40:34,960
+Speaker 2:  everything out and start over because everything just seems to change all
+
+713
+00:40:34,960 --> 00:40:38,680
+Speaker 2:  the time. Is there stuff that you can and have done to mitigate any of that?
+
+714
+00:40:38,820 --> 00:40:42,720
+Speaker 8:  The short term problem is kind of working with some of the performance issues
+
+715
+00:40:42,720 --> 00:40:46,520
+Speaker 8:  that are coming with embedding lots and lots of third party content onto
+
+716
+00:40:46,520 --> 00:40:50,320
+Speaker 8:  site long term. It's a really interesting question. One of the recommendations
+
+717
+00:40:50,320 --> 00:40:53,840
+Speaker 8:  like by, by Google is to use an image of
+
+718
+00:40:54,010 --> 00:40:57,480
+Speaker 8:  DM embed. So like an image of a tweet, they call it, I think they call it
+
+719
+00:40:57,480 --> 00:41:01,440
+Speaker 8:  a facet. And only when you interact with that image, like hover over,
+
+720
+00:41:01,440 --> 00:41:05,280
+Speaker 8:  it will actually load the content. So that's kind of a best
+
+721
+00:41:05,560 --> 00:41:09,320
+Speaker 8:  practice that is really hard to do, but I think is really worth looking
+
+722
+00:41:09,320 --> 00:41:13,200
+Speaker 8:  into with the side effect that third party ed stopped
+
+723
+00:41:13,200 --> 00:41:15,360
+Speaker 8:  working in a couple years. You still have that image,
+
+724
+00:41:15,360 --> 00:41:18,880
+Speaker 9:  Which is definitely illegal and you can definitely get sued for that.
+
+725
+00:41:19,630 --> 00:41:21,400
+Speaker 9:  I definitely don't speak from experience.
+
+726
+00:41:21,710 --> 00:41:22,960
+Speaker 8:  I don't worry about that part.
+
+727
+00:41:24,190 --> 00:41:26,880
+Speaker 2:  Tara, what about you? What are you thinking about as, as you think about
+
+728
+00:41:26,880 --> 00:41:30,760
+Speaker 2:  like the next 1, 2, 5 years of this project, like has, have you
+
+729
+00:41:30,760 --> 00:41:33,080
+Speaker 2:  had to think about that stuff over the last couple of years?
+
+730
+00:41:33,240 --> 00:41:36,720
+Speaker 9:  Definitely. And I'll kind of answer your question with a question, which
+
+731
+00:41:36,720 --> 00:41:40,640
+Speaker 9:  is how long should some of this stuff live anyway. And I
+
+732
+00:41:40,640 --> 00:41:44,480
+Speaker 9:  think in, in one respect to play a part in the public record, it it's important.
+
+733
+00:41:44,480 --> 00:41:47,680
+Speaker 9:  And it's important that this stuff live forever, at least in some way,
+
+734
+00:41:48,320 --> 00:41:51,200
+Speaker 9:  but it doesn't mean that like every Instagram post should live forever. Every
+
+735
+00:41:51,200 --> 00:41:54,240
+Speaker 9:  TikTok should live forever. I think the law maybe made the right call that
+
+736
+00:41:54,240 --> 00:41:56,960
+Speaker 9:  people should be able to take down their Instagram posts and actually disappear
+
+737
+00:41:56,960 --> 00:42:00,120
+Speaker 9:  from the internet instead of having like screenshots of things everywhere.
+
+738
+00:42:00,440 --> 00:42:03,560
+Speaker 9:  Although I really still to this day, I don't know how lawyers like find these
+
+739
+00:42:03,560 --> 00:42:06,960
+Speaker 9:  screenshots sprinkled everywhere, but two years feels like a great shelf
+
+740
+00:42:06,960 --> 00:42:10,840
+Speaker 9:  life for like the end embeds in an article. And if people take them down,
+
+741
+00:42:10,840 --> 00:42:14,800
+Speaker 9:  I feel like that's totally fair. And, and it makes some sense. And by then,
+
+742
+00:42:14,800 --> 00:42:18,320
+Speaker 9:  hopefully we've moved on to newer and better things and people can,
+
+743
+00:42:18,680 --> 00:42:19,960
+Speaker 9:  whatever the next social network is.
+
+744
+00:42:20,230 --> 00:42:23,000
+Speaker 8:  I don't think there's a technological answer to this because otherwise all
+
+745
+00:42:23,000 --> 00:42:26,760
+Speaker 8:  these, all my old websites would still be working, but content people
+
+746
+00:42:26,760 --> 00:42:30,600
+Speaker 8:  exist without this ed, you know, images all have out text for
+
+747
+00:42:30,600 --> 00:42:34,480
+Speaker 8:  screen readers. So maybe this, the text surrounding the, the VE
+
+748
+00:42:34,480 --> 00:42:38,200
+Speaker 8:  should be able to describe what it was because it probably
+
+749
+00:42:38,200 --> 00:42:39,240
+Speaker 8:  will go away one day.
+
+750
+00:42:39,470 --> 00:42:43,160
+Speaker 2:  Then the sort of the job for us as the verge is to like
+
+751
+00:42:43,360 --> 00:42:47,080
+Speaker 2:  preserve the stuff that we make in a way that stands the sense of time, rather
+
+752
+00:42:47,080 --> 00:42:51,040
+Speaker 2:  than sort of worry about trying to like archive the
+
+753
+00:42:51,040 --> 00:42:53,560
+Speaker 2:  entire internet into our own servers.
+
+754
+00:42:53,690 --> 00:42:57,200
+Speaker 9:  So many products and especially social products are skewing ephemeral. Not
+
+755
+00:42:57,200 --> 00:43:00,680
+Speaker 9:  that that's a hip word anymore, but you know, it makes sense that, you know,
+
+756
+00:43:00,680 --> 00:43:04,240
+Speaker 9:  news is ephemeral too. It just has a bit of a longer shelf life. And thinking
+
+757
+00:43:04,240 --> 00:43:08,080
+Speaker 9:  of it that way gives me a little bit of peace with the trash embeds that
+
+758
+00:43:08,080 --> 00:43:09,360
+Speaker 9:  we find on our site sometimes.
+
+759
+00:43:10,350 --> 00:43:13,840
+Speaker 2:  Yeah. And listen, we have stuff on our site from 10 years ago that it's just
+
+760
+00:43:13,950 --> 00:43:17,640
+Speaker 2:  horribly broken and it, I still enjoy it every time I land on it. So it's,
+
+761
+00:43:17,640 --> 00:43:18,000
+Speaker 2:  it's all right.
+
+762
+00:43:18,070 --> 00:43:20,960
+Speaker 9:  I don't know if vine and embed still work, but it would be cool if
+
+763
+00:43:20,960 --> 00:43:24,720
+Speaker 2:  They did somebody find a VI, me ed, and, and tweeted at us
+
+764
+00:43:24,740 --> 00:43:26,920
+Speaker 2:  and we'll see if it works. I'm very excited about
+
+765
+00:43:26,920 --> 00:43:30,480
+Speaker 9:  It. You know, nothing lives forever. And it, it makes sense that you know,
+
+766
+00:43:30,480 --> 00:43:34,240
+Speaker 9:  every now and then it makes sense to start from scratch and build a new platform
+
+767
+00:43:34,240 --> 00:43:38,000
+Speaker 9:  in whatever the latest programming languages are. It's like helpful for attracting
+
+768
+00:43:38,000 --> 00:43:41,680
+Speaker 9:  great engineering talent. Like Matt, it's helpful for making sure that we
+
+769
+00:43:41,680 --> 00:43:45,160
+Speaker 9:  can reevaluate and cut out features that we're not using anymore. It's a
+
+770
+00:43:45,160 --> 00:43:48,560
+Speaker 9:  good opportunity to take advantage of site speed or whatever other things
+
+771
+00:43:48,560 --> 00:43:52,040
+Speaker 9:  can like help us create a more performant website. So it's
+
+772
+00:43:52,140 --> 00:43:55,960
+Speaker 9:  bittersweet to launch a new stack sometimes because so much work
+
+773
+00:43:55,960 --> 00:43:59,920
+Speaker 9:  and so many beautiful features went into the old one. But you know, that's
+
+774
+00:43:59,920 --> 00:44:00,840
+Speaker 9:  ephemeral too, I guess.
+
+775
+00:44:01,470 --> 00:44:05,440
+Speaker 2:  Well, thank you both for doing this congrats on, you know, the end of not
+
+776
+00:44:05,440 --> 00:44:07,880
+Speaker 2:  the end, but the end of two years of work in the beginning of I'm sure many
+
+777
+00:44:07,880 --> 00:44:08,760
+Speaker 2:  more years of work,
+
+778
+00:44:09,160 --> 00:44:10,120
+Speaker 9:  It's only the beginning.
+
+779
+00:44:10,690 --> 00:44:11,240
+Speaker 8:  Oh yeah.
+
+780
+00:44:12,620 --> 00:44:15,880
+Speaker 2:  All right. We're gonna take a quick break. And when we get back, we're gonna
+
+781
+00:44:15,880 --> 00:44:19,600
+Speaker 2:  get back to Eli and get real big picture and philosophical
+
+782
+00:44:19,600 --> 00:44:23,520
+Speaker 2:  about the future of Google, the future of search and the relationship
+
+783
+00:44:23,520 --> 00:44:27,160
+Speaker 2:  with the verge and digital media and the future of everything. We'll
+
+784
+00:44:36,600 --> 00:44:40,570
+Speaker 10:  People love what's next, the big new thing that everyone has to
+
+785
+00:44:40,570 --> 00:44:44,250
+Speaker 10:  have, but how do you fight through the idea ending silos, barriers and
+
+786
+00:44:44,250 --> 00:44:47,930
+Speaker 10:  endless meetings with Smartsheet? Just lay out the perfect process
+
+787
+00:44:48,040 --> 00:44:51,530
+Speaker 10:  then grab the best people and resources, automate tasks
+
+788
+00:44:51,710 --> 00:44:55,330
+Speaker 10:  and meet every change with flexibility, everybody together,
+
+789
+00:44:55,330 --> 00:44:59,050
+Speaker 10:  delivering great work and ready for what's next. Visit
+
+790
+00:44:59,050 --> 00:45:02,090
+Speaker 10:  smartsheet.com/power. Your process.
+
+791
+00:45:04,820 --> 00:45:08,330
+Speaker 11:  Hi, I'm Kara Swisher for decades. I've covered Silicon valley, Washington
+
+792
+00:45:08,330 --> 00:45:12,010
+Speaker 11:  and Hollywood making sense of those worlds by talking directly to the
+
+793
+00:45:12,130 --> 00:45:16,050
+Speaker 11:  people who shape them. Elon Musk, Barack Obama, Tony Fauci,
+
+794
+00:45:16,050 --> 00:45:19,290
+Speaker 11:  Kim Kardashian. I've had the pleasure of grilling them all.
+
+795
+00:45:19,710 --> 00:45:23,490
+Speaker 11:  Now I'm launching a new show called the Joe Rogan experience with Kara
+
+796
+00:45:23,490 --> 00:45:27,180
+Speaker 11:  Swisher. Just kidding. It's actually called on with Kara
+
+797
+00:45:27,180 --> 00:45:30,900
+Speaker 11:  Swisher. And let me tell you it is on no holds
+
+798
+00:45:30,900 --> 00:45:34,660
+Speaker 11:  barred on the tough questions or on my opinions on with Kara
+
+799
+00:45:34,660 --> 00:45:38,420
+Speaker 11:  Swisher launches September 26th from New York magazine and the Vox media
+
+800
+00:45:38,420 --> 00:45:42,060
+Speaker 11:  podcast network. Just look for on with Kara Swisher in your podcast
+
+801
+00:45:42,120 --> 00:45:44,300
+Speaker 11:  app and hit, follow or subscribe.
+
+802
+00:45:51,490 --> 00:45:55,480
+Speaker 2:  Welcome back. And Eli, welcome back. Hey buddy, let's talk about
+
+803
+00:45:55,480 --> 00:45:59,240
+Speaker 2:  Google, because my sense is that a big part of the future of
+
+804
+00:45:59,240 --> 00:46:03,000
+Speaker 2:  media thinking that led to this redesign was that basically
+
+805
+00:46:03,050 --> 00:46:06,920
+Speaker 2:  we wanna be less reliant on Google as a thing. We've talked
+
+806
+00:46:06,920 --> 00:46:10,840
+Speaker 2:  about platforms we've talked about video, but the honest reality is that
+
+807
+00:46:10,840 --> 00:46:14,720
+Speaker 2:  Google is the main driving force behind most publishers traffic, I
+
+808
+00:46:14,720 --> 00:46:18,560
+Speaker 2:  assume, including our, so what is the bet here on the
+
+809
+00:46:18,560 --> 00:46:20,280
+Speaker 2:  future of Google and the verge?
+
+810
+00:46:20,530 --> 00:46:24,200
+Speaker 6:  Oh man, that is a spicy question. So lemme just put that whole thing into
+
+811
+00:46:24,200 --> 00:46:27,600
+Speaker 6:  context. So I think a lot of people are very familiar with
+
+812
+00:46:27,880 --> 00:46:31,440
+Speaker 6:  Facebook's relationship to the media, right? There was a point I think in
+
+813
+00:46:31,440 --> 00:46:35,240
+Speaker 6:  early 2013 or 2014, where Facebook just started firing
+
+814
+00:46:35,240 --> 00:46:38,840
+Speaker 6:  traffic in the media sites like news on Facebook took off, everyone realized
+
+815
+00:46:38,840 --> 00:46:42,320
+Speaker 6:  it, there was a land grab of like, can we make kitty video
+
+816
+00:46:42,750 --> 00:46:46,360
+Speaker 6:  webpages for Facebook? Right? And some publishers were massively successful.
+
+817
+00:46:46,360 --> 00:46:49,040
+Speaker 6:  Then Facebook was like, we're turning that off. And they turned it off. And
+
+818
+00:46:49,040 --> 00:46:50,080
+Speaker 6:  a lot of publishers collapsed.
+
+819
+00:46:50,080 --> 00:46:53,400
+Speaker 2:  There's literally like a knob in Menlo park that they were just like, nevermind.
+
+820
+00:46:53,430 --> 00:46:53,920
+Speaker 2:  Yeah,
+
+821
+00:46:53,920 --> 00:46:57,600
+Speaker 6:  They were, they were done newsfeed update, you know, number seven. And then
+
+822
+00:46:57,600 --> 00:47:00,760
+Speaker 6:  that traffic went away for publishers, right? Because it was dicey for Facebook,
+
+823
+00:47:00,760 --> 00:47:03,800
+Speaker 6:  right? They were promoting some content, not promoting some content, the
+
+824
+00:47:03,800 --> 00:47:07,160
+Speaker 6:  politics. So that got tortured. That's a long story. I'll just stop it there.
+
+825
+00:47:07,710 --> 00:47:11,680
+Speaker 6:  Then Facebook was like, video is gonna be the thing. And they published a
+
+826
+00:47:11,680 --> 00:47:15,360
+Speaker 6:  bunch of inflated inaccurate video numbers. They've since copped to it many
+
+827
+00:47:15,360 --> 00:47:19,320
+Speaker 6:  times, a bunch of publishers pivoted to video, right? They shut down
+
+828
+00:47:19,320 --> 00:47:23,040
+Speaker 6:  their newsrooms made everybody make videos. Buzzfeed put rubber bands around
+
+829
+00:47:23,040 --> 00:47:25,760
+Speaker 6:  a watermelon until they exploded. You might remember. And everyone thought
+
+830
+00:47:25,960 --> 00:47:28,720
+Speaker 6:  Facebook video was gonna be business. And then Facebook turned it off and
+
+831
+00:47:28,720 --> 00:47:31,440
+Speaker 6:  their businesses collapsed. And a bunch of people got laid off. That cycle
+
+832
+00:47:31,760 --> 00:47:34,840
+Speaker 6:  actually repeats outside of Facebook all the time. So our first big traffic
+
+833
+00:47:34,840 --> 00:47:38,480
+Speaker 6:  fire hose, when we, when launched the verge in 2011 was Yahoo. Yep.
+
+834
+00:47:38,480 --> 00:47:41,160
+Speaker 6:  Yahoo would just send us floods of traffic. And we would, we would not know
+
+835
+00:47:41,160 --> 00:47:41,360
+Speaker 6:  why
+
+836
+00:47:41,360 --> 00:47:43,960
+Speaker 2:  You've told the Phish stories story on the podcast. Right.
+
+837
+00:47:44,360 --> 00:47:47,160
+Speaker 6:  I don't know if I told about this, but yes, we, we like did the analysis
+
+838
+00:47:47,160 --> 00:47:49,520
+Speaker 6:  of where the Yahoo traffic came from and we're like, Yahoo loves stories
+
+839
+00:47:49,520 --> 00:47:53,400
+Speaker 6:  about Phish. So on like very slow Fridays, we would just Google Phish
+
+840
+00:47:53,400 --> 00:47:57,240
+Speaker 6:  technology. There's a great story. Josh, ER, wrote a story about
+
+841
+00:47:57,240 --> 00:48:00,960
+Speaker 6:  the whoosh fish cannon that like repopulates salmon by like shooting them
+
+842
+00:48:00,960 --> 00:48:04,880
+Speaker 6:  off of ramp. It's ridiculous. Yahoo loves the story. That's like
+
+843
+00:48:04,880 --> 00:48:07,440
+Speaker 6:  the worst incentive. Right? Right. You're like, here's what the algorithm
+
+844
+00:48:07,440 --> 00:48:10,080
+Speaker 6:  wants. Now. The verge is about fish. Like it makes no sense the audience
+
+845
+00:48:10,080 --> 00:48:13,280
+Speaker 6:  except for the apparently massive Yahoo fish audience. But you, you just
+
+846
+00:48:13,280 --> 00:48:16,720
+Speaker 6:  kind of like get buffeted around by other people's algorithms. The reason
+
+847
+00:48:16,720 --> 00:48:19,880
+Speaker 6:  we don't talk about Google that way is cuz Google for years has basically
+
+848
+00:48:19,880 --> 00:48:23,720
+Speaker 6:  been stable. Right? And Google's algorithm is essentially the most transparent.
+
+849
+00:48:23,720 --> 00:48:27,040
+Speaker 6:  It's not actually transparent, but the input in the output is understood.
+
+850
+00:48:27,310 --> 00:48:30,880
+Speaker 6:  A lot of people are searching for what time the super bowl is. So if you
+
+851
+00:48:30,880 --> 00:48:34,440
+Speaker 6:  publish a page that says, what time is the super bowl, Google will efficiently
+
+852
+00:48:34,440 --> 00:48:35,760
+Speaker 6:  match supply and demand.
+
+853
+00:48:35,760 --> 00:48:38,760
+Speaker 2:  Right? And the difference is just to put a point on that, like this is, I
+
+854
+00:48:38,760 --> 00:48:40,800
+Speaker 2:  think you actually said this to me a while ago that like the difference is
+
+855
+00:48:40,800 --> 00:48:44,680
+Speaker 2:  there's at least an input to Google that like the one way to understand the
+
+856
+00:48:44,680 --> 00:48:48,000
+Speaker 2:  output is, is as a function of the input. Whereas on like Facebook and other
+
+857
+00:48:48,000 --> 00:48:51,640
+Speaker 2:  stuff, the input is just like magical, unknown, special sauce.
+
+858
+00:48:51,640 --> 00:48:52,040
+Speaker 2:  Yeah.
+
+859
+00:48:52,040 --> 00:48:53,960
+Speaker 6:  You just open Facebook and stuff happens to you.
+
+860
+00:48:53,960 --> 00:48:57,440
+Speaker 2:  Right? You don't tell Facebook. I would like to watch videos about Phish,
+
+861
+00:48:58,040 --> 00:49:00,840
+Speaker 2:  Facebook just figures out that you would like Phish. So at least Google is
+
+862
+00:49:00,840 --> 00:49:04,040
+Speaker 2:  like, the line is not perfectly straight, but there is at least a line from
+
+863
+00:49:04,040 --> 00:49:05,560
+Speaker 2:  the beginning to the end. Yeah.
+
+864
+00:49:05,560 --> 00:49:09,440
+Speaker 6:  It it's in there somewhere. And so like most publishers have a Google stride.
+
+865
+00:49:09,440 --> 00:49:13,120
+Speaker 6:  We were very lucky. We, we published a lot of reviews, people search for
+
+866
+00:49:13,120 --> 00:49:16,440
+Speaker 6:  reviews. You know, we published a lot of explainers about tech, which is,
+
+867
+00:49:16,470 --> 00:49:20,440
+Speaker 6:  I think a good audience service people search for explainers. So just like
+
+868
+00:49:20,440 --> 00:49:22,720
+Speaker 6:  everybody, we get a lot of Google traffic. We get a lot of traffic from the
+
+869
+00:49:22,720 --> 00:49:26,280
+Speaker 6:  Google news box, but our homepage right up there, it's the second source
+
+870
+00:49:26,280 --> 00:49:28,360
+Speaker 6:  of our own traffic. Right. People come to our home page, they click on something
+
+871
+00:49:28,360 --> 00:49:32,160
+Speaker 6:  else. So we had this opportunity that most publishers don't have, which is
+
+872
+00:49:32,160 --> 00:49:35,760
+Speaker 6:  that our own website drives us a lot of traffic. That's where the opportunity
+
+873
+00:49:35,760 --> 00:49:38,720
+Speaker 6:  comes from. If we had all bailed and tried to start a new site, we, I think
+
+874
+00:49:38,720 --> 00:49:41,920
+Speaker 6:  this would've failed. We, we don't have that huge asset, which is the verge
+
+875
+00:49:42,160 --> 00:49:45,400
+Speaker 6:  audience. So we can deliver a better product to like, it's the easiest sale
+
+876
+00:49:45,400 --> 00:49:49,080
+Speaker 6:  in the game? Like how do you double the revenue of
+
+877
+00:49:49,220 --> 00:49:52,560
+Speaker 6:  Chick-fil-A you just open it on Sundays? Like you just like,
+
+878
+00:49:53,510 --> 00:49:57,240
+Speaker 6:  it's like the easiest proposition in business. So like ours is we just take
+
+879
+00:49:57,240 --> 00:49:59,640
+Speaker 6:  this thing that people already are telling us. They like by clicking all
+
+880
+00:49:59,640 --> 00:50:03,200
+Speaker 6:  day and just like make it better, more useful. But I just think I look at
+
+881
+00:50:03,200 --> 00:50:06,400
+Speaker 6:  Google and I look at this dependency that no one talks about cuz it does
+
+882
+00:50:06,400 --> 00:50:10,240
+Speaker 6:  feel stable. It does feel understandable. Google is generally
+
+883
+00:50:10,240 --> 00:50:13,040
+Speaker 6:  honest with publishers. That's what the business side of our business tells
+
+884
+00:50:13,040 --> 00:50:16,600
+Speaker 6:  me. And I said, well Google, what if it goes away? Right? Like
+
+885
+00:50:16,600 --> 00:50:20,480
+Speaker 6:  everything else in my career in publishing has gone away. I should have some
+
+886
+00:50:20,480 --> 00:50:23,800
+Speaker 6:  hedge against whether this thing goes away and maybe it won't maybe, you
+
+887
+00:50:23,800 --> 00:50:26,320
+Speaker 6:  know, people will search forever and Google will send them to us forever.
+
+888
+00:50:26,320 --> 00:50:30,240
+Speaker 6:  Like that would be great. I'm not saying I, I absolutely 100%
+
+889
+00:50:30,240 --> 00:50:33,280
+Speaker 6:  think it's gonna go away. But I feel like we should all be hedged against
+
+890
+00:50:33,280 --> 00:50:37,040
+Speaker 6:  what if the thing goes away because the history of digital media is that
+
+891
+00:50:37,040 --> 00:50:39,840
+Speaker 6:  the thing goes away. So the one hand it's okay, how do I hedge it? And then
+
+892
+00:50:39,840 --> 00:50:42,960
+Speaker 6:  it's on the other hand, it's like, how do you become the thing? Right? So
+
+893
+00:50:42,960 --> 00:50:46,040
+Speaker 6:  Ben Thompson, who we talk about in the show, lot, he became famous for what
+
+894
+00:50:46,040 --> 00:50:49,200
+Speaker 6:  he calls aggregation theory, which can go read and he's like power on the
+
+895
+00:50:49,360 --> 00:50:52,160
+Speaker 6:  internet. Doesn't come from having the supply. It doesn't come from having
+
+896
+00:50:52,160 --> 00:50:55,880
+Speaker 6:  the product. It comes from owning the demand. And so Google owns the demand
+
+897
+00:50:55,880 --> 00:50:59,560
+Speaker 6:  and they people tell Google what they want. And Google sends you someplace
+
+898
+00:50:59,560 --> 00:51:03,400
+Speaker 6:  to fulfill your demand. And that puts Google in an enormous position of power.
+
+899
+00:51:03,710 --> 00:51:07,440
+Speaker 6:  I think our new site can solve some that, right? Like I think we can say
+
+900
+00:51:07,440 --> 00:51:10,240
+Speaker 6:  to people, come here, if you are interested in what's cool on the internet
+
+901
+00:51:10,240 --> 00:51:12,840
+Speaker 6:  or what's interesting in tech and we'll send you to those places,
+
+902
+00:51:13,900 --> 00:51:16,480
+Speaker 6:  are we, are we gonna be the size of Google? We are not, but are we gonna
+
+903
+00:51:16,480 --> 00:51:20,280
+Speaker 6:  change our relationship to the audience as opposed to just providing
+
+904
+00:51:20,280 --> 00:51:22,600
+Speaker 6:  things to Google? I hope so. Yeah.
+
+905
+00:51:22,600 --> 00:51:25,200
+Speaker 2:  And I think, I mean the, the what time does the super bowl start thing is
+
+906
+00:51:25,200 --> 00:51:28,560
+Speaker 2:  an interesting one, right? Cuz it's like, that is both sort of like all the
+
+907
+00:51:28,560 --> 00:51:31,080
+Speaker 2:  people who write that it's like naked internet cynicism where it's like,
+
+908
+00:51:31,080 --> 00:51:33,240
+Speaker 2:  okay, people wanna know this, I'm gonna write something with that exact headline,
+
+909
+00:51:33,800 --> 00:51:36,280
+Speaker 2:  but it's also audience service. People wanna know when the Superbowl starts,
+
+910
+00:51:36,300 --> 00:51:40,040
+Speaker 2:  but the thing that Google will do and if it hasn't yet, I'd be honestly
+
+911
+00:51:40,040 --> 00:51:42,440
+Speaker 2:  surprised that I'm sure that it will is just put up one of those knowledge
+
+912
+00:51:42,440 --> 00:51:46,320
+Speaker 2:  boxes that says the Superbowl starts at 6:30 PM. And like we
+
+913
+00:51:46,320 --> 00:51:50,120
+Speaker 2:  we've seen a lot of data recently about like the zero click Google search
+
+914
+00:51:50,120 --> 00:51:54,080
+Speaker 2:  and how much Google is adding to search results in such a
+
+915
+00:51:54,080 --> 00:51:57,360
+Speaker 2:  way that a there's a hundred thousand ads before you get to any actual search
+
+916
+00:51:57,360 --> 00:52:01,080
+Speaker 2:  results. And B Google has more and more incentive to a keep
+
+917
+00:52:01,080 --> 00:52:05,000
+Speaker 2:  you within Google so that you don't leave and B to send you
+
+918
+00:52:05,000 --> 00:52:08,800
+Speaker 2:  to its own stuff. So like Google is really happy to send you to
+
+919
+00:52:08,800 --> 00:52:12,640
+Speaker 2:  YouTube and really happy to just answer your questions rather than
+
+920
+00:52:12,710 --> 00:52:16,480
+Speaker 2:  sort of be the like neutral arbiter of everything that it once
+
+921
+00:52:16,480 --> 00:52:20,400
+Speaker 2:  was. And I haven't totally decided how much I buy
+
+922
+00:52:20,400 --> 00:52:24,040
+Speaker 2:  the, the sort of conspiracy theory around Google's end game there, whether
+
+923
+00:52:24,040 --> 00:52:27,760
+Speaker 2:  it's to like capture all of that for itself forever or what, but
+
+924
+00:52:28,130 --> 00:52:32,000
+Speaker 2:  it does seem like the trend there is Google is like closing at
+
+925
+00:52:32,000 --> 00:52:35,520
+Speaker 2:  least ever so slightly. And a lot of people are gonna have to reckon, I think,
+
+926
+00:52:35,520 --> 00:52:36,960
+Speaker 2:  with what that means over time.
+
+927
+00:52:37,190 --> 00:52:40,400
+Speaker 6:  Yeah. If you just step back and you're like, what would make the best search
+
+928
+00:52:40,400 --> 00:52:43,440
+Speaker 6:  experience? It's like you ask Google a question, it tells you the answer.
+
+929
+00:52:44,270 --> 00:52:47,240
+Speaker 6:  I don't think that's controversial. Like if you ask it what time something
+
+930
+00:52:47,240 --> 00:52:51,160
+Speaker 6:  is, just tell you like that's commodity information, the idea that you have
+
+931
+00:52:51,160 --> 00:52:54,080
+Speaker 6:  to click onto someone else's website and load their like that's, that's like
+
+932
+00:52:54,080 --> 00:52:57,680
+Speaker 6:  nonsensical, like, you know, like, should Google have a built-in stopwatch
+
+933
+00:52:57,680 --> 00:53:01,000
+Speaker 6:  or should it send traffic to stopwatch companies? Like, I that's it's like
+
+934
+00:53:01,000 --> 00:53:04,440
+Speaker 6:  fundamentally at some point it's just ridiculous. Right. But it is true that
+
+935
+00:53:04,440 --> 00:53:08,320
+Speaker 6:  Google's money is search. Like that's still where they make all the
+
+936
+00:53:08,320 --> 00:53:11,920
+Speaker 6:  money. They make a money on YouTube and nothing else makes money.
+
+937
+00:53:12,820 --> 00:53:16,600
+Speaker 6:  And like that's weird, right? Yeah. Like their ads network and they own the
+
+938
+00:53:16,600 --> 00:53:20,080
+Speaker 6:  entire ad tech stack they're in the first or second position of every layer
+
+939
+00:53:20,080 --> 00:53:23,640
+Speaker 6:  of the ad tech stack with one of their divisions. So like Google monetizes,
+
+940
+00:53:23,640 --> 00:53:27,600
+Speaker 6:  the internet, but like really the money is in surgery. Yep. Okay. Well, if
+
+941
+00:53:27,600 --> 00:53:31,320
+Speaker 6:  you want to make more money, is Google in an uncertain economic
+
+942
+00:53:31,320 --> 00:53:35,040
+Speaker 6:  time? What lever might you pull? You might keep more search. Like,
+
+943
+00:53:35,110 --> 00:53:38,800
+Speaker 6:  I don't know. It's not like a, I don't know it for sure. It's not an
+
+944
+00:53:38,800 --> 00:53:42,600
+Speaker 6:  accusation I'm making. It's just, when I think about the future of our website,
+
+945
+00:53:42,780 --> 00:53:46,640
+Speaker 6:  how do I build a hedge against the thing that always happens, which is the
+
+946
+00:53:46,640 --> 00:53:50,560
+Speaker 6:  thing goes away and might I understand a mechanism of this
+
+947
+00:53:50,560 --> 00:53:54,000
+Speaker 6:  thing going away and like you can see one that exists and then on top of
+
+948
+00:53:54,000 --> 00:53:56,920
+Speaker 6:  it, like what's the real goal. The verge should be fun is hell to read. So
+
+949
+00:53:56,920 --> 00:54:00,520
+Speaker 6:  if I can solve like this weird business problem with a cool
+
+950
+00:54:00,520 --> 00:54:02,920
+Speaker 6:  thing, we should just make the coolest thing.
+
+951
+00:54:03,190 --> 00:54:05,960
+Speaker 2:  Yeah. If we can make a place, people wanna hang out, that's a pretty easy
+
+952
+00:54:05,960 --> 00:54:07,120
+Speaker 2:  win that solves a lot of problems.
+
+953
+00:54:07,230 --> 00:54:11,080
+Speaker 6:  Yeah. And hang out at scale, that's the verge, right? It, I always say
+
+954
+00:54:11,080 --> 00:54:14,440
+Speaker 6:  it's a big thing that feels really small. I, I hope it feels really small
+
+955
+00:54:14,440 --> 00:54:18,320
+Speaker 6:  to people. And I think actually for Vergecast listeners, the verge feels
+
+956
+00:54:18,320 --> 00:54:21,400
+Speaker 6:  smallest of all right. It's like this tiny group of people that they hang
+
+957
+00:54:21,400 --> 00:54:23,920
+Speaker 6:  out with, they tell, well, get emails. It feels like I'm hanging out with
+
+958
+00:54:23,920 --> 00:54:27,400
+Speaker 6:  you guys. Our home, our whole homepage should feel like that to everybody.
+
+959
+00:54:27,690 --> 00:54:30,520
+Speaker 2:  If we were starting the verge right now, like the verge is 11 years old.
+
+960
+00:54:30,520 --> 00:54:33,720
+Speaker 2:  And like you said, we have this, this longstanding homepage
+
+961
+00:54:33,720 --> 00:54:37,680
+Speaker 2:  first.com. It's very good website that people go to on purpose. If that
+
+962
+00:54:37,680 --> 00:54:40,920
+Speaker 2:  wasn't the case and we were starting from nothing, would we have done it
+
+963
+00:54:40,920 --> 00:54:44,320
+Speaker 2:  the same way? Like do you think you can build that
+
+964
+00:54:44,320 --> 00:54:47,720
+Speaker 2:  direct audience from nothing in 20, 22?
+
+965
+00:54:48,090 --> 00:54:51,680
+Speaker 2:  Or can we only even try this because of like the
+
+966
+00:54:51,680 --> 00:54:53,720
+Speaker 2:  history and credibility that we have with people.
+
+967
+00:54:54,130 --> 00:54:57,840
+Speaker 6:  So I think that's a really good question. I think we have seen a lot of activity
+
+968
+00:54:57,840 --> 00:55:01,560
+Speaker 6:  around this question in ways that maybe is not expressed in the form of websites.
+
+969
+00:55:02,040 --> 00:55:05,880
+Speaker 6:  Hmm. So why do people start newsletters instead of websites
+
+970
+00:55:05,880 --> 00:55:09,200
+Speaker 6:  now? Because they can send the newsletter right. To you and what does our
+
+971
+00:55:09,200 --> 00:55:12,320
+Speaker 6:  homepage really look like? Right. Like part of it looks like a newsfeed.
+
+972
+00:55:12,320 --> 00:55:14,640
+Speaker 6:  Part of it looks like Twitter. Part of it looks like we're just live writing
+
+973
+00:55:14,640 --> 00:55:18,600
+Speaker 6:  a newsletter every day. Like most great newsletters platform are by Casey
+
+974
+00:55:18,960 --> 00:55:22,680
+Speaker 6:  Hotpod by Ariel. Like if you just abstract them into what they are, it's
+
+975
+00:55:22,680 --> 00:55:26,440
+Speaker 6:  a, an essay and then a bunch of blurbs about
+
+976
+00:55:26,470 --> 00:55:30,360
+Speaker 6:  news. Like there's a curation function. That's built into all the best
+
+977
+00:55:30,360 --> 00:55:34,320
+Speaker 6:  newsletters. Well, that's our homepage now. Right? It's a bunch of cool
+
+978
+00:55:34,320 --> 00:55:38,120
+Speaker 6:  curation and then a lot of columns and essays and reports and features and
+
+979
+00:55:38,240 --> 00:55:41,400
+Speaker 6:  whatever else. Yep. There's similarities there to how people are building
+
+980
+00:55:41,400 --> 00:55:44,960
+Speaker 6:  direct audiences. I just think getting people to come to your
+
+981
+00:55:44,960 --> 00:55:48,760
+Speaker 6:  website is an ever increasing ask, getting people to
+
+982
+00:55:48,760 --> 00:55:51,800
+Speaker 6:  sign up for your newsletter is actually way easier. So I think you see people
+
+983
+00:55:51,800 --> 00:55:52,720
+Speaker 6:  doing that way faster.
+
+984
+00:55:52,950 --> 00:55:56,920
+Speaker 2:  Okay. Yeah. I mean, it makes sense. And I think the, how do people come to
+
+985
+00:55:56,920 --> 00:55:59,120
+Speaker 2:  you? Thing is forever interesting, right? Cause it's like if I have a newsletter,
+
+986
+00:55:59,120 --> 00:56:01,640
+Speaker 2:  I have to open my email app, which I'm already conditioned to do all the
+
+987
+00:56:01,640 --> 00:56:04,240
+Speaker 2:  time. Like if you're in my YouTube subscriptions, you're just, you're just
+
+988
+00:56:04,240 --> 00:56:08,200
+Speaker 2:  in places I already am. And like, I think your point that even if
+
+989
+00:56:08,200 --> 00:56:11,080
+Speaker 2:  I'm already in my browser, that activity of like opening a new tab and typing
+
+990
+00:56:11,080 --> 00:56:14,880
+Speaker 2:  in the verge.com and hitting enter is like a not small thing
+
+991
+00:56:14,880 --> 00:56:18,240
+Speaker 2:  to ask of people. And I, I do wonder if that's like a learned behavior that
+
+992
+00:56:18,240 --> 00:56:21,840
+Speaker 2:  people who have it have it and people who don't are never gonna learn it.
+
+993
+00:56:21,840 --> 00:56:22,200
+Speaker 2:  Yeah.
+
+994
+00:56:22,200 --> 00:56:25,680
+Speaker 6:  I'll give you an example of some like homepages I go to, I have the muscle
+
+995
+00:56:25,680 --> 00:56:29,600
+Speaker 6:  memory of just typing cnn.com three times a day. Sure.
+
+996
+00:56:29,600 --> 00:56:33,120
+Speaker 6:  There's a reason for that. It's because of CNN, they know they have one of
+
+997
+00:56:33,120 --> 00:56:36,440
+Speaker 6:  the biggest homepages in all of media and they're just constantly rotating
+
+998
+00:56:36,440 --> 00:56:39,240
+Speaker 6:  stuff out. Yep. Right? Like, unless something huge is happening, the CNN
+
+999
+00:56:39,240 --> 00:56:42,520
+Speaker 6:  homepage is always changing. There's a homepage editor. Like they are moving
+
+1000
+00:56:42,520 --> 00:56:46,200
+Speaker 6:  that page to make it valuable for you. Every time you come back to it,
+
+1001
+00:56:46,430 --> 00:56:50,160
+Speaker 6:  most places don't care about their homepage anymore. You I'm sure anybody
+
+1002
+00:56:50,160 --> 00:56:53,440
+Speaker 6:  listening to this who works in media or ads or marketing, whatever has heard
+
+1003
+00:56:53,440 --> 00:56:56,520
+Speaker 6:  this inter conversation with something called side doors, which basically
+
+1004
+00:56:56,520 --> 00:57:00,120
+Speaker 6:  means everybody comes to you on your article page, through a platform instead
+
+1005
+00:57:00,120 --> 00:57:04,080
+Speaker 6:  of ever going to your homepage, which is why article pages are fast
+
+1006
+00:57:04,080 --> 00:57:07,680
+Speaker 6:  tuned with garbage, right? They're everyone tries to make their article page,
+
+1007
+00:57:07,680 --> 00:57:11,560
+Speaker 6:  do the jobs of a homepage and get you to click on one more story or
+
+1008
+00:57:11,560 --> 00:57:14,320
+Speaker 6:  get you to sign up for something else. We all have the same feelings about
+
+1009
+00:57:14,320 --> 00:57:17,280
+Speaker 6:  that. If you can just make the homepage valuable every time people open it,
+
+1010
+00:57:17,280 --> 00:57:20,600
+Speaker 6:  which you can do with a newsfeed, you can, I hope we can build some of that
+
+1011
+00:57:20,600 --> 00:57:23,680
+Speaker 6:  muscle memory where reward people for actually coming to our website.
+
+1012
+00:57:23,950 --> 00:57:27,920
+Speaker 2:  Okay. All right. And then last thing is like, just talk to
+
+1013
+00:57:27,920 --> 00:57:31,320
+Speaker 2:  me about web design. This is like a, a thing we at the verge care deeply
+
+1014
+00:57:31,320 --> 00:57:33,720
+Speaker 2:  about. And I feel like it's an interesting moment again, as you're talking
+
+1015
+00:57:33,720 --> 00:57:37,560
+Speaker 2:  about to like, think how should a website look like the last time we
+
+1016
+00:57:37,560 --> 00:57:41,200
+Speaker 2:  did this, I wasn't here, but I'm assuming having been through like similar
+
+1017
+00:57:41,200 --> 00:57:44,200
+Speaker 2:  things at different places, there's this question of like, back then, it
+
+1018
+00:57:44,200 --> 00:57:47,040
+Speaker 2:  was like, okay, we have a desktop audience and we have a mobile audience.
+
+1019
+00:57:47,040 --> 00:57:50,400
+Speaker 2:  And the, the like responsive web was a thing that everybody talked about.
+
+1020
+00:57:50,400 --> 00:57:53,000
+Speaker 2:  Right. And now it's just like, if you don't start with phones, you're blowing
+
+1021
+00:57:53,000 --> 00:57:56,120
+Speaker 2:  it because that's how most people will experience you at all times. And like
+
+1022
+00:57:56,120 --> 00:57:59,600
+Speaker 2:  the version com looks very different now than it did in the past.
+
+1023
+00:57:59,750 --> 00:58:02,760
+Speaker 2:  Yeah. But I wouldn't say it's like structurally
+
+1024
+00:58:02,960 --> 00:58:06,920
+Speaker 2:  completely overhauled. It's not like, you're like the internet doesn't
+
+1025
+00:58:06,920 --> 00:58:09,400
+Speaker 2:  need headlines and we're gonna put the images at the bottom.
+
+1026
+00:58:09,490 --> 00:58:11,640
+Speaker 6:  We should do that. I don't know like where, where have you been?
+
+1027
+00:58:12,820 --> 00:58:16,520
+Speaker 2:  But like, was there ever a moment where it was like, is there a
+
+1028
+00:58:16,520 --> 00:58:19,880
+Speaker 2:  blow up in how we think about what a news website could look like
+
+1029
+00:58:19,970 --> 00:58:23,400
+Speaker 2:  process? Like how far down that road did we go? Pretty
+
+1030
+00:58:23,400 --> 00:58:27,200
+Speaker 6:  Far. Okay. I think one thing maybe people should take note of
+
+1031
+00:58:27,200 --> 00:58:31,160
+Speaker 6:  here is we've mostly talked about how the site works. Yep. We have
+
+1032
+00:58:31,160 --> 00:58:34,640
+Speaker 6:  not talked about how it looks, but it looks totally different. It's beautiful.
+
+1033
+00:58:34,930 --> 00:58:38,000
+Speaker 6:  We have a new logo. We haven't talked about the new logo for one second,
+
+1034
+00:58:38,000 --> 00:58:41,920
+Speaker 6:  right? Like at the core of this, what we, what we spent all of our
+
+1035
+00:58:41,920 --> 00:58:45,880
+Speaker 6:  time thinking about is how does this site work? What is the software product
+
+1036
+00:58:45,880 --> 00:58:49,200
+Speaker 6:  that we are shipping to millions of people a day? How does it operate? And
+
+1037
+00:58:49,200 --> 00:58:52,960
+Speaker 6:  then how does our team run it? Right. We changed where all the
+
+1038
+00:58:52,960 --> 00:58:56,360
+Speaker 6:  buttons are. Like we have to assign people to push the buttons. So we had
+
+1039
+00:58:56,360 --> 00:59:00,120
+Speaker 6:  to like restructure our team a little bit to support this task that said
+
+1040
+00:59:00,120 --> 00:59:03,600
+Speaker 6:  the site looks way different. Right. And we have thought really long and
+
+1041
+00:59:03,600 --> 00:59:07,440
+Speaker 6:  hard about how it looks on mobile, of course, but also just like, how
+
+1042
+00:59:07,440 --> 00:59:10,600
+Speaker 6:  does a news page work? What should that experience be?
+
+1043
+00:59:11,200 --> 00:59:14,320
+Speaker 6:  I'll give you this really dumb example. So we actually launched the verge
+
+1044
+00:59:14,320 --> 00:59:17,920
+Speaker 6:  without a great mobile site. All of our readers were on desktop in 2011.
+
+1045
+00:59:17,920 --> 00:59:21,080
+Speaker 6:  And if you'll remember, we had like 95 apps. We had like a windows phone
+
+1046
+00:59:21,200 --> 00:59:22,000
+Speaker 6:  app. Oh
+
+1047
+00:59:22,000 --> 00:59:22,360
+Speaker 2:  Yeah.
+
+1048
+00:59:22,700 --> 00:59:25,680
+Speaker 6:  And somewhere along the way, we're like this and what are we doing? So we
+
+1049
+00:59:25,680 --> 00:59:28,720
+Speaker 6:  shut down all these apps. So it cost so much to maintain. And it was really
+
+1050
+00:59:28,720 --> 00:59:32,200
+Speaker 6:  hard to ship the web into apps back then for a variety of reasons.
+
+1051
+00:59:32,350 --> 00:59:35,560
+Speaker 6:  That's a lot easier. Maybe we'll have an app today, not today, tell the CEO
+
+1052
+00:59:35,560 --> 00:59:39,360
+Speaker 6:  I want an app. So then we shut that all down. We added a mobile page to the
+
+1053
+00:59:39,360 --> 00:59:42,880
+Speaker 6:  old design. And then when we redesign the verge, if you just look at that
+
+1054
+00:59:43,040 --> 00:59:45,880
+Speaker 6:  redesign, yep. We had a bunch of new elements, but we just cleaned it up
+
+1055
+00:59:45,880 --> 00:59:49,080
+Speaker 6:  for mobile. Right. That was like the big thrust of that redesign. When you
+
+1056
+00:59:49,080 --> 00:59:52,720
+Speaker 6:  talk about distributed publishing is we've gotta pair this thing down
+
+1057
+00:59:53,130 --> 00:59:56,160
+Speaker 6:  to its most essential elements so that when
+
+1058
+00:59:57,040 --> 01:00:00,960
+Speaker 6:  Facebook instant articles like re constitutes a webpage, it still looks like
+
+1059
+01:00:00,960 --> 01:00:04,360
+Speaker 6:  us. That whole redesign was just about refinement and like
+
+1060
+01:00:04,630 --> 01:00:08,600
+Speaker 6:  minimizing what we needed to convey that we were the verge. And that really
+
+1061
+01:00:08,600 --> 01:00:12,360
+Speaker 6:  is where neon colors came from. These are bright pink.
+
+1062
+01:00:12,360 --> 01:00:16,040
+Speaker 6:  You see it that's us like that. We were like dead on with that.
+
+1063
+01:00:16,450 --> 01:00:19,600
+Speaker 6:  We had all those like laser lines everywhere. Why? Because we wanted people
+
+1064
+01:00:19,600 --> 01:00:23,520
+Speaker 6:  to see the laser line and know that was us. This redesign
+
+1065
+01:00:23,530 --> 01:00:26,680
+Speaker 6:  carries a lot of that through, right. We know people are gonna mostly see
+
+1066
+01:00:26,680 --> 01:00:30,160
+Speaker 6:  us on phones, but a lot of it is the phones are huge. Now.
+
+1067
+01:00:30,230 --> 01:00:33,960
+Speaker 6:  Like the screens are really big so we can do. And the, everybody has a retina
+
+1068
+01:00:33,960 --> 01:00:36,760
+Speaker 6:  screen. Now that wasn't necessarily true when we last redesign the site.
+
+1069
+01:00:37,320 --> 01:00:41,240
+Speaker 6:  So we can go to things, likes fonts. We can have different kinds
+
+1070
+01:00:41,320 --> 01:00:44,920
+Speaker 6:  of images on the page. We can make the images bigger. In some cases we can
+
+1071
+01:00:44,920 --> 01:00:48,280
+Speaker 6:  make the images smaller actually, cuz they're still big. So there's just
+
+1072
+01:00:48,280 --> 01:00:52,160
+Speaker 6:  a lot of that tweaking for like the modern era. And then there's also just
+
+1073
+01:00:52,160 --> 01:00:56,120
+Speaker 6:  the recognition. This is like some real verge stuff. That image
+
+1074
+01:00:56,120 --> 01:00:59,920
+Speaker 6:  aspect ratios are all over the place now. Yep. So the first
+
+1075
+01:00:59,920 --> 01:01:03,400
+Speaker 6:  verge was a 16 by nine website. Like
+
+1076
+01:01:03,470 --> 01:01:07,360
+Speaker 6:  that's what it was. And it was designed to produce 16 by nine images
+
+1077
+01:01:07,360 --> 01:01:10,800
+Speaker 6:  on a landscape desktop display. This is like, we have to be
+
+1078
+01:01:10,800 --> 01:01:14,200
+Speaker 6:  comfortable with portrait images. We have to be comfortable with square images.
+
+1079
+01:01:14,200 --> 01:01:17,960
+Speaker 6:  So there's actually a lot of backend work to just support and deliver
+
+1080
+01:01:17,960 --> 01:01:20,920
+Speaker 6:  the right aspect, ratio of image in the right article at the right time.
+
+1081
+01:01:21,100 --> 01:01:24,320
+Speaker 6:  And it's not, the headlines are at the bottom like level
+
+1082
+01:01:24,740 --> 01:01:28,680
+Speaker 6:  web redesign thinking. It's more like actually a mobile article
+
+1083
+01:01:28,680 --> 01:01:32,640
+Speaker 6:  page has to deliver to a phone with assets or a phone
+
+1084
+01:01:32,640 --> 01:01:35,080
+Speaker 6:  native and maybe the desktop version should look totally different.
+
+1085
+01:01:35,080 --> 01:01:38,520
+Speaker 2:  Yeah. I mean that, that to me, like, even as we've been, you know, beta testing,
+
+1086
+01:01:38,520 --> 01:01:42,160
+Speaker 2:  this thing like discovering what a TikTok in embed looks like
+
+1087
+01:01:42,190 --> 01:01:46,080
+Speaker 2:  when you just make it, its own thing is deeply hilarious and trying
+
+1088
+01:01:46,080 --> 01:01:49,960
+Speaker 2:  to figure out how to like pull all of that stuff into one place in a
+
+1089
+01:01:49,960 --> 01:01:53,440
+Speaker 2:  way that they all make sense next to all of the other stuff that we all do
+
+1090
+01:01:53,470 --> 01:01:56,520
+Speaker 2:  turned out to be way harder than I expected. And is the kind of thing that
+
+1091
+01:01:56,650 --> 01:02:00,320
+Speaker 2:  no one has ever really done. Right? Like most news websites are
+
+1092
+01:02:00,320 --> 01:02:04,280
+Speaker 2:  text, right? Like it is, it is overwhelmingly paragraphs of text and
+
+1093
+01:02:04,280 --> 01:02:06,840
+Speaker 2:  images. And we we've been through this a million times when you try to build
+
+1094
+01:02:06,840 --> 01:02:09,400
+Speaker 2:  something else, you have to like build a sort of bespoke thing that can contain
+
+1095
+01:02:09,400 --> 01:02:12,840
+Speaker 2:  it. And then you go to the video apps and they support video. And then even
+
+1096
+01:02:12,840 --> 01:02:15,520
+Speaker 2:  when you get like the landscape video and the vertical video app, it looks
+
+1097
+01:02:15,520 --> 01:02:19,440
+Speaker 2:  bad. And this task of figuring out how to sort of, of be
+
+1098
+01:02:19,440 --> 01:02:23,320
+Speaker 2:  all things to all people with all media is
+
+1099
+01:02:23,320 --> 01:02:26,760
+Speaker 2:  fascinating and it's gonna be like, we definitely have not fully solved that
+
+1100
+01:02:26,760 --> 01:02:30,200
+Speaker 2:  problem. And no one has, and there's a lot left to do. But I think like that's
+
+1101
+01:02:30,200 --> 01:02:33,480
+Speaker 2:  where all of this has to go because this stuff just is so multimedia now.
+
+1102
+01:02:33,550 --> 01:02:37,280
+Speaker 6:  Yeah. You sound like a 1990s, Cedar rom under. I
+
+1103
+01:02:37,480 --> 01:02:38,080
+Speaker 2:  Know I love it.
+
+1104
+01:02:38,630 --> 01:02:41,600
+Speaker 6:  What we've shipped here today is Microsoft and cartel. We hope you like it
+
+1105
+01:02:41,600 --> 01:02:45,360
+Speaker 6:  you'll need at least a four X speed CD rom drive to make it work in a 3 86,
+
+1106
+01:02:45,360 --> 01:02:46,840
+Speaker 2:  It comes on 11 CD,
+
+1107
+01:02:48,180 --> 01:02:51,520
+Speaker 6:  But a beautiful leather binder. You know, it's like, I'll just end on this
+
+1108
+01:02:51,520 --> 01:02:55,240
+Speaker 6:  story. Like we, we have inte all these EDS and you realize like very
+
+1109
+01:02:55,240 --> 01:02:59,160
+Speaker 6:  little thought goes into EDS for anyone but YouTube, YouTube
+
+1110
+01:02:59,160 --> 01:03:03,040
+Speaker 6:  gold standard of EDS. Like the ed is the size of the
+
+1111
+01:03:03,040 --> 01:03:07,000
+Speaker 6:  video. All of the necessary controls and layouts
+
+1112
+01:03:07,000 --> 01:03:10,440
+Speaker 6:  of the ed are contained in the frame. Everyone knows what a YouTube video
+
+1113
+01:03:10,440 --> 01:03:13,840
+Speaker 6:  is. The play button conveys all the branding they need to, they don't send
+
+1114
+01:03:13,840 --> 01:03:17,440
+Speaker 6:  you the comments with it or you can't like, it's like,
+
+1115
+01:03:17,610 --> 01:03:21,080
+Speaker 6:  they're just like, here's our video. Like, we're so confident in ourselves
+
+1116
+01:03:21,090 --> 01:03:24,360
+Speaker 6:  as YouTube that like here's the video. And if people wanna read the comments
+
+1117
+01:03:24,360 --> 01:03:27,320
+Speaker 6:  on YouTube video, they damn well know to like click on the top and go to
+
+1118
+01:03:27,320 --> 01:03:30,960
+Speaker 6:  YouTube and read it. Instagram is like, here's 5,000 vertical
+
+1119
+01:03:30,960 --> 01:03:31,400
+Speaker 6:  pixels.
+
+1120
+01:03:31,510 --> 01:03:32,440
+Speaker 2:  It's so tall.
+
+1121
+01:03:32,440 --> 01:03:36,240
+Speaker 6:  Here is all of Instagram in an ed, right? TikTok
+
+1122
+01:03:36,240 --> 01:03:39,800
+Speaker 6:  is the same way. And Twitter, the embeds are getting bigger and you just
+
+1123
+01:03:39,800 --> 01:03:43,560
+Speaker 6:  see the platform. Companies don't care about the web. Like
+
+1124
+01:03:43,870 --> 01:03:47,800
+Speaker 6:  I will make that accusation like that is not meaningful to them that
+
+1125
+01:03:47,800 --> 01:03:51,640
+Speaker 6:  their content travels outside of their walls. And when it does, they're like
+
+1126
+01:03:51,640 --> 01:03:55,040
+Speaker 6:  we have now colonized you in like the most direct way we can by
+
+1127
+01:03:55,040 --> 01:03:58,360
+Speaker 6:  effectively embedding our whole platform onto your page. Whereas YouTube,
+
+1128
+01:03:58,360 --> 01:04:02,120
+Speaker 6:  I think because it is like infrastructure of the web in some
+
+1129
+01:04:02,120 --> 01:04:05,760
+Speaker 6:  serious way, the embed is like respectful because
+
+1130
+01:04:05,760 --> 01:04:09,480
+Speaker 6:  YouTube knows that everyone will just go back to YouTube in a way that I
+
+1131
+01:04:09,480 --> 01:04:13,320
+Speaker 6:  think Instagram and TikTok and Twitter, like lack of the confidence of
+
+1132
+01:04:13,320 --> 01:04:14,600
+Speaker 6:  knowing that people will go back to
+
+1133
+01:04:14,600 --> 01:04:18,200
+Speaker 2:  Them. When you embed the verge on your website, you just get every story
+
+1134
+01:04:18,200 --> 01:04:19,560
+Speaker 2:  we've ever published. Oh
+
+1135
+01:04:19,560 --> 01:04:22,720
+Speaker 6:  Dude, we're gonna, art posts are gonna get in. Embedable I think that that'll
+
+1136
+01:04:22,720 --> 01:04:24,200
+Speaker 6:  be like one of the fun turns here in the
+
+1137
+01:04:24,200 --> 01:04:27,920
+Speaker 2:  End. I like it. So any, any product stuff to tease for people who are
+
+1138
+01:04:27,920 --> 01:04:29,840
+Speaker 2:  listening what's next? I don't even know the answer to this
+
+1139
+01:04:30,000 --> 01:04:33,800
+Speaker 6:  Question. So we we're gonna ship this version. Our product team keeps
+
+1140
+01:04:33,800 --> 01:04:36,800
+Speaker 6:  falling at verge 2.0 in my head. It's like verge 12, you know, whatever.
+
+1141
+01:04:37,080 --> 01:04:40,680
+Speaker 6:  We're gonna ship a 0.1 pretty soon. We are currently
+
+1142
+01:04:40,680 --> 01:04:44,560
+Speaker 6:  prioritizing what goes on 0.1. I've got one big idea, which
+
+1143
+01:04:44,560 --> 01:04:47,720
+Speaker 6:  I will tease a little bit. I think we now have the tools to do much better
+
+1144
+01:04:47,720 --> 01:04:51,600
+Speaker 6:  event coverage. So that's first on my list is how do we kind of remix
+
+1145
+01:04:51,600 --> 01:04:55,240
+Speaker 6:  what we've built here into a much better experience for an apple event or
+
+1146
+01:04:55,240 --> 01:04:57,960
+Speaker 6:  something like that. And then I really want to focus on some of this community
+
+1147
+01:04:57,960 --> 01:05:01,920
+Speaker 6:  stuff, but I really want the community to tell us what you would like so
+
+1148
+01:05:01,920 --> 01:05:02,720
+Speaker 6:  we can build the right stuff.
+
+1149
+01:05:02,770 --> 01:05:06,520
+Speaker 2:  Awesome. Yeah. Get at us. Call the verge hotline, send us emails. Tell us
+
+1150
+01:05:06,520 --> 01:05:09,240
+Speaker 2:  everything you want from the verge.com. It's a website
+
+1151
+01:05:09,240 --> 01:05:10,840
+Speaker 6:  We're gonna revolutionize the media with podcast.
+
+1152
+01:05:12,300 --> 01:05:16,160
+Speaker 2:  All right. Thanks man. Appreciate it. Thanks. All right. That's it for the
+
+1153
+01:05:16,160 --> 01:05:19,840
+Speaker 2:  Vergecast today. Thank you. As always for listening, you can check out our
+
+1154
+01:05:19,840 --> 01:05:23,800
+Speaker 2:  brand new website, the verge.com right now and forever refresh the
+
+1155
+01:05:23,800 --> 01:05:27,520
+Speaker 2:  page million times. We'll thank you later. We'll be doing a lot of fun stuff
+
+1156
+01:05:27,520 --> 01:05:30,800
+Speaker 2:  there too. So keep it bookmarked and refresh it. Often. This show is produced
+
+1157
+01:05:30,800 --> 01:05:34,400
+Speaker 2:  by Andrew Marino and Liam James Nori. Donovan is our executive producer and
+
+1158
+01:05:34,400 --> 01:05:38,120
+Speaker 2:  Brook mins is our editorial director of audio. The Vergecast is a
+
+1159
+01:05:38,120 --> 01:05:41,680
+Speaker 2:  verge production and part of the V media podcast network. If you have thoughts,
+
+1160
+01:05:42,120 --> 01:05:46,080
+Speaker 2:  feedback, feelings, letters to the editor, thoughts about the website, thoughts
+
+1161
+01:05:46,080 --> 01:05:49,640
+Speaker 2:  about websites in general, you can always email vergecast@theverge.com
+
+1162
+01:05:49,750 --> 01:05:53,640
+Speaker 2:  Alex NELA. Be back on Friday to talk about all the apple reviews which are
+
+1163
+01:05:53,640 --> 01:05:56,800
+Speaker 2:  coming. And I know you'll want to hear about them. We'll see you then rock
+
+1164
+01:05:56,800 --> 01:05:57,080
+Speaker 2:  and roll.
+

@@ -1,0 +1,2177 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 003c62b1-f4b9-4509-8021-efdd38aada6a
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/-7359223559985313355/4697606428174303419/s93290-US-2323s-1722166062.mp3
+Description: On this episode of The Vergecast, we look at why TV and movie recommendations are so complicated, and whether AI might be able to make them better. If Spotify can build infinite playlists of music you’ll like, and YouTube and TikTok always seem to have the perfect thing ready to go, why can’t Netflix or Hulu or Max seem to get it right?
+If you want to know more about everything we discuss in this episode, here are a few links to get you started:
+
+Movievanders
+
+Reelgood
+
+The internet is a constant recommendations machine — but it needs you to make it work
+
+Netflix’s Greg Peters on a new culture memo and where ads, AI, and games fit in
+
+From Scientific America: How Recommendation Algorithms Work—And Why They May Miss the Mark
+
+
+From Google: Multimodal prompting with a 44-minute movie
+
+
+
+Email us at vergecast@theverge.com or call us at 866-VERGE11, we love hearing from you.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Enabled (16 ads detected)
+
+2
+00:01:14,215 --> 00:01:18,175
+Speaker 3:  movies and more specifically why it's so hard to figure out
+
+3
+00:01:18,365 --> 00:01:21,935
+Speaker 3:  what to watch. This is a problem, incredibly familiar to
+
+4
+00:01:22,035 --> 00:01:25,415
+Speaker 3:  anyone who gets their entertainment through streaming, right? You sit down,
+
+5
+00:01:25,715 --> 00:01:29,495
+Speaker 3:  you turn on the tv, and then you spend somewhere between two and 2000 minutes
+
+6
+00:01:29,495 --> 00:01:33,095
+Speaker 3:  looking for something to watch no matter where you look,
+
+7
+00:01:33,725 --> 00:01:37,655
+Speaker 3:  it's just stuff all the way down. So I open the Netflix app and the
+
+8
+00:01:37,655 --> 00:01:41,415
+Speaker 3:  first thing it shows me is Muo Mocho Amor, the legend of Walter Mercado,
+
+9
+00:01:41,545 --> 00:01:45,455
+Speaker 3:  which I feel like no thanks, probably not for me. No offense
+
+10
+00:01:45,455 --> 00:01:49,375
+Speaker 3:  to Walter Mercado. I just, I don't know who that is. Then we get my continue
+
+11
+00:01:49,575 --> 00:01:53,495
+Speaker 3:  watching lists, some new stuff on Netflix Top 10 shows because I watched
+
+12
+00:01:53,495 --> 00:01:57,375
+Speaker 3:  Girls Five ever into that binge-worthy TV shows. Today's top picks
+
+13
+00:01:57,395 --> 00:02:00,975
+Speaker 3:  for me like eight rows down. It's giving me personalized
+
+14
+00:02:00,975 --> 00:02:04,175
+Speaker 3:  recommendations. Then we get some romantic favorites. My list
+
+15
+00:02:04,635 --> 00:02:07,815
+Speaker 3:  quirky TV shows, goofy sitcoms, your next watch, critically acclaimed TV
+
+16
+00:02:07,815 --> 00:02:10,895
+Speaker 3:  shows. These all sound like the same thing. What are we doing here? I don't
+
+17
+00:02:10,895 --> 00:02:14,845
+Speaker 3:  get it. Let's try something else. Okay. We go to Hulu and
+
+18
+00:02:15,115 --> 00:02:18,965
+Speaker 3:  Hulu starts by taking a long time to
+
+19
+00:02:18,965 --> 00:02:22,565
+Speaker 3:  load and then we get Dress My Tour. No chance. That's for me.
+
+20
+00:02:23,085 --> 00:02:26,405
+Speaker 3:  We get a bunch of live stuff. I don't really care TV for me, which dress
+
+21
+00:02:26,405 --> 00:02:30,285
+Speaker 3:  my tour again. Bunch of crime documentaries, that's my wife
+
+22
+00:02:30,895 --> 00:02:34,525
+Speaker 3:  house shows. Sure. Then movies for me.
+
+23
+00:02:35,245 --> 00:02:38,685
+Speaker 3:  Continue watching Emmy nominees because I watched How I Met Your Mother Top
+
+24
+00:02:38,685 --> 00:02:42,605
+Speaker 3:  shows Another recommendation for the same top show Trending, newly added
+
+25
+00:02:42,705 --> 00:02:45,765
+Speaker 3:  tv, full series comedies, newly added movies. These are like
+
+26
+00:02:46,475 --> 00:02:50,045
+Speaker 3:  just things that Hulu has. None of this really feels like it's actually directed
+
+27
+00:02:50,045 --> 00:02:53,965
+Speaker 3:  towards me at all. Okay, now we try Max. Max first
+
+28
+00:02:54,055 --> 00:02:58,045
+Speaker 3:  shows me a CNN show and then hard knocks with the New York Giants
+
+29
+00:02:58,045 --> 00:03:02,005
+Speaker 3:  that I will watch and we'll be very into recommended for me is up top.
+
+30
+00:03:02,005 --> 00:03:05,845
+Speaker 3:  Appreciate that. Continue watching Today's Picks, which is actually
+
+31
+00:03:06,035 --> 00:03:09,445
+Speaker 3:  Game of Thrones and Justice League and Kite Man and a
+
+32
+00:03:10,245 --> 00:03:13,965
+Speaker 3:  spy documentary. This feels like me than a bunch of top tens live. True
+
+33
+00:03:13,975 --> 00:03:17,925
+Speaker 3:  crime designing Home just added, okay, this feels closer
+
+34
+00:03:18,225 --> 00:03:22,085
+Speaker 3:  to being me, but it's still just kind of like, here's a bunch of stuff
+
+35
+00:03:22,085 --> 00:03:26,005
+Speaker 3:  that we have on Max. That's the vibe here. Like do you wanna watch this?
+
+36
+00:03:26,145 --> 00:03:26,885
+Speaker 3:  Here's some things,
+
+37
+00:03:29,195 --> 00:03:32,965
+Speaker 3:  like I said, it's all a lot of stuff, but it doesn't feel like anything
+
+38
+00:03:32,965 --> 00:03:36,605
+Speaker 3:  here is just telling me what to watch and
+
+39
+00:03:36,845 --> 00:03:40,725
+Speaker 3:  actually this seems to me like the kind of thing AI ought to be able to do
+
+40
+00:03:40,725 --> 00:03:44,645
+Speaker 3:  really well. It's low stakes in the sense that if the model
+
+41
+00:03:44,645 --> 00:03:48,405
+Speaker 3:  doesn't recommend the objectively perfect thing, or
+
+42
+00:03:48,505 --> 00:03:51,445
+Speaker 3:  if it even makes up a movie, because these systems tend to make things up
+
+43
+00:03:51,485 --> 00:03:55,285
+Speaker 3:  a lot, that's not a huge deal, right? I just want to be able to
+
+44
+00:03:55,285 --> 00:03:58,325
+Speaker 3:  tell a chat bot what I want and get some recommendations.
+
+45
+00:03:59,225 --> 00:04:02,605
+Speaker 3:  To be fair. There are actually lots of ways to do this already.
+
+46
+00:04:03,065 --> 00:04:07,005
+Speaker 3:  You can do it with chat GPT, what's a good movie that's
+
+47
+00:04:07,005 --> 00:04:10,925
+Speaker 3:  kind of like Mission Impossible or The Born Identity, but isn't either one
+
+48
+00:04:10,925 --> 00:04:11,325
+Speaker 3:  of those movies
+
+49
+00:04:12,905 --> 00:04:16,005
+Speaker 4:  You might like Skyfall, it's a James Bond film.
+
+50
+00:04:16,435 --> 00:04:17,925
+Speaker 3:  I've seen all the Bond movies. What else
+
+51
+00:04:19,185 --> 00:04:23,165
+Speaker 4:  In that case you might enjoy the Man from U-N-C-L-E. It's a
+
+52
+00:04:23,165 --> 00:04:26,805
+Speaker 4:  stylish spy film with plenty of action and a good sense of humor similar
+
+53
+00:04:26,865 --> 00:04:29,485
+Speaker 4:  to Mission I Pop Possible and The Born Identity.
+
+54
+00:04:30,015 --> 00:04:33,245
+Speaker 3:  There are also a bunch of plugins in Chat GPT, the Custom
+
+55
+00:04:33,795 --> 00:04:37,565
+Speaker 3:  GPTs that are explicitly designed for this though they're mostly just kind
+
+56
+00:04:37,565 --> 00:04:41,405
+Speaker 3:  of better formatting on top of the same answers. All right, I'm in movies,
+
+57
+00:04:41,885 --> 00:04:45,565
+Speaker 3:  GPT, which calls itself a Go-to movie encyclopedia,
+
+58
+00:04:46,305 --> 00:04:49,405
+Speaker 3:  so I'll just do. I just watched Crazy
+
+59
+00:04:50,105 --> 00:04:54,045
+Speaker 3:  Stupid Love and loved it. What's
+
+60
+00:04:54,165 --> 00:04:57,285
+Speaker 3:  a similar movie I probably haven't seen
+
+61
+00:05:00,885 --> 00:05:04,095
+Speaker 3:  says, if you enjoyed Crazy Stupid Love, you might like the five year Engagement.
+
+62
+00:05:04,285 --> 00:05:07,695
+Speaker 3:  This romantic comedy drama directed by Nicholas Stoller stars, Jason Siegel
+
+63
+00:05:07,695 --> 00:05:10,895
+Speaker 3:  and Emily Blunt follows the ups and downs of a couple's prolonged engagement,
+
+64
+00:05:10,895 --> 00:05:14,055
+Speaker 3:  blending humor with heartfelt moments. The film explores relationship dynamics
+
+65
+00:05:14,055 --> 00:05:18,015
+Speaker 3:  in a way that's both touching and funny, similar to crazy stupid love. It's
+
+66
+00:05:18,015 --> 00:05:21,855
+Speaker 3:  a pretty good answer. I'll take that. You can also use other AI systems like
+
+67
+00:05:21,855 --> 00:05:25,575
+Speaker 3:  Google's Gemini. What are some classic 1980s action movies
+
+68
+00:05:25,725 --> 00:05:26,775
+Speaker 3:  that I need to see?
+
+69
+00:05:28,275 --> 00:05:32,255
+Speaker 5:  The 1980s was a golden age for action movies, churning out some of
+
+70
+00:05:32,255 --> 00:05:35,455
+Speaker 5:  the most iconic characters in quotable lines in cinema history.
+
+71
+00:05:36,215 --> 00:05:39,185
+Speaker 5:  Here are a few classics you can't miss Die Hard.
+
+72
+00:05:39,705 --> 00:05:43,585
+Speaker 5:  1988, Bruce Willis redefined the Action Hero with this game change.
+
+73
+00:05:43,775 --> 00:05:46,985
+Speaker 3:  Okay, yeah, we don't need to hear all that, but it recommends Die Hard. Raiders
+
+74
+00:05:46,985 --> 00:05:50,945
+Speaker 3:  of the Lost Arc, Terminator Predator, Beverly Hills cop, and then
+
+75
+00:05:50,945 --> 00:05:53,945
+Speaker 3:  it says, this is just a small sampling of the many great action movies from
+
+76
+00:05:53,945 --> 00:05:57,805
+Speaker 3:  the 1980s. Still not bad. I don't know that I like learned any
+
+77
+00:05:57,825 --> 00:06:01,325
+Speaker 3:  new movies from that, but it's a decent start. These models will happily
+
+78
+00:06:01,475 --> 00:06:05,325
+Speaker 3:  give you movie recommendations and You can ask for them in pretty natural
+
+79
+00:06:05,845 --> 00:06:09,485
+Speaker 3:  language, which is cool. So you don't have to just search for a movie or
+
+80
+00:06:09,485 --> 00:06:13,365
+Speaker 3:  like a genre. You can actually say, I want a romantic movie that's
+
+81
+00:06:13,365 --> 00:06:16,485
+Speaker 3:  under two hours that is funny and not sad and you get,
+
+82
+00:06:16,705 --> 00:06:20,165
+Speaker 4:  How about Crazy Stupid Love? It's a romantic comedy that's funny
+
+83
+00:06:20,505 --> 00:06:22,285
+Speaker 4:  and heartwarming without being sad.
+
+84
+00:06:22,645 --> 00:06:25,525
+Speaker 3:  I just watched that great recommendation, but can you gimme a different one?
+
+85
+00:06:26,635 --> 00:06:30,485
+Speaker 4:  Sure. How about 10 things I Hate About You? It's a funny
+
+86
+00:06:30,585 --> 00:06:34,245
+Speaker 4:  and charming romantic comedy and it's just under two hours long.
+
+87
+00:06:34,715 --> 00:06:38,645
+Speaker 4:  It's a modern take on Shakespeare's the Taming of the Shrew and has
+
+88
+00:06:38,645 --> 00:06:39,445
+Speaker 4:  a lot of great moments.
+
+89
+00:06:40,465 --> 00:06:44,245
+Speaker 3:  Not bad, right? It's not exactly groundbreaking new title ideas
+
+90
+00:06:44,245 --> 00:06:47,845
+Speaker 3:  there like Crazy stupid Love and 10 Things I Hate About You You'd find in
+
+91
+00:06:47,845 --> 00:06:51,805
+Speaker 3:  One Google, but they're good recommendations and there's something important
+
+92
+00:06:51,985 --> 00:06:55,485
+Speaker 3:  in that interaction. I think that is actually a signal of why
+
+93
+00:06:55,785 --> 00:06:59,645
+Speaker 3:  AI might be a big deal here. So for years I've been
+
+94
+00:06:59,645 --> 00:07:03,445
+Speaker 3:  asking people about recommendations and for years I've gotten roughly
+
+95
+00:07:03,585 --> 00:07:07,085
+Speaker 3:  the same answers. Recommendations are hard to do really well,
+
+96
+00:07:07,225 --> 00:07:11,005
+Speaker 3:  really, really hard, and the most effective way we've found over time
+
+97
+00:07:11,385 --> 00:07:15,365
+Speaker 3:  is to basically say, okay, you like this set of things, which we know
+
+98
+00:07:15,365 --> 00:07:18,045
+Speaker 3:  because you've either rated them highly or watched them a bunch of times
+
+99
+00:07:18,345 --> 00:07:21,605
+Speaker 3:  or done something else that makes us confident that you like them. Maybe
+
+100
+00:07:21,605 --> 00:07:25,005
+Speaker 3:  you gave it a five star review. There are some other people out there who
+
+101
+00:07:25,005 --> 00:07:28,765
+Speaker 3:  also like that same set of things, oh, and they also like this other thing
+
+102
+00:07:28,765 --> 00:07:32,645
+Speaker 3:  that you haven't seen, so we bet that you will like that thing too.
+
+103
+00:07:33,475 --> 00:07:36,925
+Speaker 3:  It's simple, it's how recommendations have worked forever, but it does kind
+
+104
+00:07:36,925 --> 00:07:40,845
+Speaker 3:  of work. But AI has the potential to approach the
+
+105
+00:07:40,845 --> 00:07:42,165
+Speaker 3:  problem really differently.
+
+106
+00:07:42,705 --> 00:07:46,525
+Speaker 6:  So there are two components that generally AI seems
+
+107
+00:07:46,525 --> 00:07:48,525
+Speaker 6:  to be like a good tool to solve, right?
+
+108
+00:07:48,745 --> 00:07:52,485
+Speaker 3:  That's Diana Papas QA developer and entrepreneur who recently
+
+109
+00:07:52,485 --> 00:07:56,125
+Speaker 3:  started an AI movie recommendations tool called Movie Vander.
+
+110
+00:07:56,705 --> 00:08:00,485
+Speaker 6:  We are pretty fans of Harry Potter after this, right?
+
+111
+00:08:00,945 --> 00:08:04,885
+Speaker 6:  And we said like we were joking saying, you know, the
+
+112
+00:08:04,885 --> 00:08:08,525
+Speaker 6:  movie has to choose you. It's not only that you are choosing a movie, right?
+
+113
+00:08:09,105 --> 00:08:12,885
+Speaker 6:  You know, so we said, oh, that sounds like the Avens
+
+114
+00:08:12,955 --> 00:08:16,565
+Speaker 6:  from, you know, the the, the wound is choosing you as a, as a wizard.
+
+115
+00:08:16,745 --> 00:08:19,885
+Speaker 6:  So we said, okay, magic plus that kind of concept.
+
+116
+00:08:20,815 --> 00:08:24,565
+Speaker 6:  Movie wonders sounds really good. This is how the name show up.
+
+117
+00:08:25,245 --> 00:08:28,925
+Speaker 3:  I love a Harry Potter name, but back to the two components. The first thing
+
+118
+00:08:29,105 --> 00:08:33,045
+Speaker 3:  AI does really well is just ingest and organize data. So,
+
+119
+00:08:33,225 --> 00:08:37,165
+Speaker 3:  so, so much data, all the genres and actor names and everything
+
+120
+00:08:37,165 --> 00:08:40,445
+Speaker 3:  that you'd normally associate with a movie, but also all kinds of other stuff.
+
+121
+00:08:40,975 --> 00:08:44,965
+Speaker 6:  Every feedback that people is maybe giving in, I don't
+
+122
+00:08:44,965 --> 00:08:48,725
+Speaker 6:  know, Reddit, Twitter, Facebook, whatever, like you know, social
+
+123
+00:08:48,975 --> 00:08:52,765
+Speaker 6:  media. We give more information than we think, right? Every click
+
+124
+00:08:52,785 --> 00:08:56,530
+Speaker 6:  we are, we are doing it's, it's, it's information that goes somewhere and
+
+125
+00:08:56,530 --> 00:09:00,245
+Speaker 6:  it's somehow interacting with other information and producing
+
+126
+00:09:00,435 --> 00:09:04,405
+Speaker 6:  some kind of behavior that could easily be incorporated into an
+
+127
+00:09:04,645 --> 00:09:06,045
+Speaker 6:  artificial intelligence to learn from.
+
+128
+00:09:06,305 --> 00:09:09,805
+Speaker 3:  The second component is that AI can begin to structure that data for you
+
+129
+00:09:10,185 --> 00:09:14,045
+Speaker 3:  and turn all those articles and reviews and tweets and Reddit
+
+130
+00:09:14,045 --> 00:09:17,965
+Speaker 3:  posts and everything else into something kind of like a
+
+131
+00:09:18,105 --> 00:09:19,925
+Speaker 3:  usable database of information.
+
+132
+00:09:20,305 --> 00:09:24,165
+Speaker 6:  So if I'm saying I wanna see a movie that has a dog and
+
+133
+00:09:24,475 --> 00:09:28,445
+Speaker 6:  it's not sad, please because I'm like very sensitive person and, and
+
+134
+00:09:28,445 --> 00:09:32,165
+Speaker 6:  all these things somehow that is interacting with the
+
+135
+00:09:32,205 --> 00:09:36,165
+Speaker 6:  information that is already sort of flying in internet and how
+
+136
+00:09:36,165 --> 00:09:40,005
+Speaker 6:  those, those generative ais are working, we are not
+
+137
+00:09:40,005 --> 00:09:40,765
+Speaker 6:  exactly sure.
+
+138
+00:09:41,225 --> 00:09:44,845
+Speaker 3:  The reason Diana and others are excited about AI for making sense of all
+
+139
+00:09:44,845 --> 00:09:48,445
+Speaker 3:  this information about movies and shows is that otherwise it doesn't
+
+140
+00:09:48,545 --> 00:09:52,365
+Speaker 3:  really exist. And to explain what I mean, we have to talk a little
+
+141
+00:09:52,365 --> 00:09:56,325
+Speaker 3:  bit about data and metadata. As I've talked to folks in
+
+142
+00:09:56,325 --> 00:09:59,965
+Speaker 3:  this space over the years, I've learned that there are basically four useful
+
+143
+00:10:00,015 --> 00:10:03,685
+Speaker 3:  kinds of information about a show or a movie. The first is the
+
+144
+00:10:03,685 --> 00:10:07,165
+Speaker 3:  metadata, which is just information about the thing itself, it's name,
+
+145
+00:10:07,535 --> 00:10:11,485
+Speaker 3:  who's in it, who directed it, the poster. That's the sort of
+
+146
+00:10:11,485 --> 00:10:15,245
+Speaker 3:  stuff You can find on a search with IMDB. The second thing is
+
+147
+00:10:15,255 --> 00:10:19,165
+Speaker 3:  watch data. The single best signal someone can give you about
+
+148
+00:10:19,165 --> 00:10:23,005
+Speaker 3:  how they felt about something is how they watched it, did they watch it all
+
+149
+00:10:23,005 --> 00:10:25,925
+Speaker 3:  the way through? Did they turn it off right away? Did they watch it every
+
+150
+00:10:25,925 --> 00:10:29,485
+Speaker 3:  night, 12 nights in a row, did they get halfway in and then bail?
+
+151
+00:10:29,865 --> 00:10:33,805
+Speaker 3:  That's all really, really useful information, but that information
+
+152
+00:10:33,805 --> 00:10:37,525
+Speaker 3:  doesn't exist at any real scale, at least not for streaming services
+
+153
+00:10:37,585 --> 00:10:41,485
+Speaker 3:  and it definitely doesn't exist publicly. Netflix knows what you do on Netflix,
+
+154
+00:10:41,875 --> 00:10:45,725
+Speaker 3:  Hulu on Hulu, max on Max Peacock on Peacock, but they
+
+155
+00:10:45,725 --> 00:10:49,645
+Speaker 3:  don't know about all the others and watch data.
+
+156
+00:10:49,835 --> 00:10:53,245
+Speaker 3:  Even those lists of most popular titles that you see from these services
+
+157
+00:10:53,245 --> 00:10:56,805
+Speaker 3:  sometimes is as a result a very closely guarded secret.
+
+158
+00:10:57,315 --> 00:11:01,165
+Speaker 3:  It's crucial data and no one wants to share it. The third thing
+
+159
+00:11:01,385 --> 00:11:05,325
+Speaker 3:  is just stuff to recommend. This is sort of an underrated one honestly and
+
+160
+00:11:05,325 --> 00:11:09,125
+Speaker 3:  not really an AI story at all, but the recommendations you get
+
+161
+00:11:09,225 --> 00:11:12,685
+Speaker 3:  are only gonna be as good as the stuff there is to recommend, right?
+
+162
+00:11:13,275 --> 00:11:17,205
+Speaker 3:  Even if you know exactly what I'll like, it only matters
+
+163
+00:11:17,305 --> 00:11:21,205
+Speaker 3:  if you have that thing to offer me. And most streaming services have a
+
+164
+00:11:21,205 --> 00:11:24,565
+Speaker 3:  few thousand shows and a few thousand movies and honestly sometimes not even
+
+165
+00:11:24,595 --> 00:11:28,365
+Speaker 3:  that and in theory, even if someone did have
+
+166
+00:11:28,385 --> 00:11:32,245
+Speaker 3:  the whole available library of TV and movies ever, it's not
+
+167
+00:11:32,285 --> 00:11:35,485
+Speaker 3:  a very big library. IMDBs library includes
+
+168
+00:11:35,545 --> 00:11:39,165
+Speaker 3:  685,000 movies and 265,000 TV shows,
+
+169
+00:11:39,375 --> 00:11:43,205
+Speaker 3:  which is a lot. It's more than you'll ever watch in your life, but it is
+
+170
+00:11:43,205 --> 00:11:46,965
+Speaker 3:  nothing compared to the amount of content being uploaded to TikTok and
+
+171
+00:11:46,965 --> 00:11:50,885
+Speaker 3:  YouTube and Instagram reels every single day. The fourth piece of
+
+172
+00:11:50,885 --> 00:11:54,805
+Speaker 3:  information about movies and shows that matters and maybe the hardest and
+
+173
+00:11:54,805 --> 00:11:58,525
+Speaker 3:  maybe the most interesting for AI is what you might call traits
+
+174
+00:11:58,955 --> 00:12:02,845
+Speaker 3:  deep information about the thing itself, not just who's in it
+
+175
+00:12:02,905 --> 00:12:06,805
+Speaker 3:  or whether it's a comedy or a thriller, but one or two or three levels
+
+176
+00:12:06,865 --> 00:12:10,845
+Speaker 3:  deeper than that. Is it a sad movie or a happy movie? Does
+
+177
+00:12:10,845 --> 00:12:14,725
+Speaker 3:  it move fast or does it move slow? Does it take a while to get into or
+
+178
+00:12:14,725 --> 00:12:18,045
+Speaker 3:  does it capture you right away? Is the soundtrack awesome or does the soundtrack
+
+179
+00:12:18,045 --> 00:12:21,565
+Speaker 3:  kind of suck? Is it a good movie to watch while you're looking at your phone?
+
+180
+00:12:21,705 --> 00:12:25,245
+Speaker 3:  Is it a good movie to fall asleep to on the couch? Is it a movie you should
+
+181
+00:12:25,245 --> 00:12:29,125
+Speaker 3:  only see in theaters? This stuff really matters and it's information about
+
+182
+00:12:29,225 --> 00:12:33,085
+Speaker 3:  the title that is hard to know unless you really understand the thing
+
+183
+00:12:33,085 --> 00:12:36,925
+Speaker 3:  itself. I think the easiest way to understand what that might look like
+
+184
+00:12:37,065 --> 00:12:40,565
+Speaker 3:  in practice is through music, which has actually gotten a lot of this stuff
+
+185
+00:12:40,565 --> 00:12:43,965
+Speaker 3:  really right. Back in 2021 I interviewed Gustav
+
+186
+00:12:43,965 --> 00:12:47,725
+Speaker 3:  Soderstrom who is now the co-president of Spotify about the company's
+
+187
+00:12:47,865 --> 00:12:51,845
+Speaker 3:  recommendation system. He actually described the whole idea of
+
+188
+00:12:51,845 --> 00:12:53,005
+Speaker 3:  it kind of perfectly,
+
+189
+00:12:53,385 --> 00:12:56,765
+Speaker 7:  But if you actually have non real time, if you have, you know, time shifted
+
+190
+00:12:56,825 --> 00:13:00,365
+Speaker 7:  on demand content, then you have the benefit of actually being able to machine
+
+191
+00:13:00,365 --> 00:13:03,725
+Speaker 7:  listen to the content, transcribe it and understand it. Then the problem
+
+192
+00:13:03,725 --> 00:13:06,445
+Speaker 7:  is actually quite similar to text recommendation. If you think about it,
+
+193
+00:13:06,875 --> 00:13:10,485
+Speaker 7:  then you have a few things. One big difference from music, in music, we had
+
+194
+00:13:10,485 --> 00:13:13,645
+Speaker 7:  these, you know, four and a half billion playlists where people had sat and
+
+195
+00:13:13,885 --> 00:13:17,325
+Speaker 7:  manually organized the world's 70 million tracks into like how they go together.
+
+196
+00:13:17,935 --> 00:13:21,645
+Speaker 7:  There is nothing like that for podcasts and not even on the competitive
+
+197
+00:13:21,845 --> 00:13:24,845
+Speaker 7:  platforms, right? So we kind of had to bootstrap it somehow.
+
+198
+00:13:25,805 --> 00:13:28,905
+Speaker 7:  And so what we started with was to build a what is called a knowledge graph,
+
+199
+00:13:29,235 --> 00:13:32,945
+Speaker 7:  quite similar to an artist graph. Like this artist has this discography of
+
+200
+00:13:32,945 --> 00:13:36,785
+Speaker 7:  these albums with these songs and you know, belong to these Shauna. So
+
+201
+00:13:36,785 --> 00:13:39,905
+Speaker 7:  we started building a knowledge graph, a traditional knowledge graph quite
+
+202
+00:13:39,905 --> 00:13:43,465
+Speaker 7:  early on before we had any listening data to bootstrap it
+
+203
+00:13:43,965 --> 00:13:47,305
+Speaker 7:  and then we started adding listening data to that so we could see that people
+
+204
+00:13:47,305 --> 00:13:51,065
+Speaker 7:  that listen to this also listened to that. So we started with actually a
+
+205
+00:13:51,065 --> 00:13:54,905
+Speaker 7:  pretty simple system of a sort of hardcoded graph. And
+
+206
+00:13:54,905 --> 00:13:57,785
+Speaker 7:  then after a while, now that we have lots of listening data, we started inferring
+
+207
+00:13:57,785 --> 00:14:01,705
+Speaker 7:  with more machine learning based techniques, both the quote unquote
+
+208
+00:14:01,705 --> 00:14:05,625
+Speaker 7:  traditional collaborative filtering. People listen to this, also listen
+
+209
+00:14:05,625 --> 00:14:08,745
+Speaker 7:  to that, which is kind of what the playlist were about, people who playlist
+
+210
+00:14:08,745 --> 00:14:12,735
+Speaker 7:  this also playlist that. But we also started adding much more
+
+211
+00:14:12,935 --> 00:14:16,415
+Speaker 7:  advanced techniques, like actually machine listening to the context
+
+212
+00:14:17,195 --> 00:14:20,535
+Speaker 7:  and summarizing them so that we can do things like podcast
+
+213
+00:14:21,105 --> 00:14:24,815
+Speaker 7:  topic search and, and there we're actually just, we're not just looking at
+
+214
+00:14:24,815 --> 00:14:28,295
+Speaker 7:  the headline, we're actually listening to the content or listening, we're
+
+215
+00:14:28,295 --> 00:14:32,255
+Speaker 7:  reading the content is transcribed, summarizing it, and
+
+216
+00:14:32,255 --> 00:14:36,135
+Speaker 7:  then we put it into one of these embedding spaces after as they're often
+
+217
+00:14:36,135 --> 00:14:38,655
+Speaker 7:  called to understand how it's similar to other things.
+
+218
+00:14:39,155 --> 00:14:43,095
+Speaker 3:  That's the magic right there. That combination is where everyone seems to
+
+219
+00:14:43,095 --> 00:14:46,935
+Speaker 3:  agree the best stuff happens. And when Gustav
+
+220
+00:14:46,935 --> 00:14:50,015
+Speaker 3:  talks about machine listening, by the way, he's talking about technology
+
+221
+00:14:50,015 --> 00:14:53,885
+Speaker 3:  that Spotify has that can actually break a song into its
+
+222
+00:14:53,885 --> 00:14:57,365
+Speaker 3:  component parts automatically. So with that technology,
+
+223
+00:14:57,715 --> 00:15:01,565
+Speaker 3:  Spotify's computers can recognize that the song is 110 beats per minute,
+
+224
+00:15:01,745 --> 00:15:05,405
+Speaker 3:  it has a driving guitar line, there's a violin, a female
+
+225
+00:15:05,515 --> 00:15:09,165
+Speaker 3:  lead singer, angsty vibes and lots of other things, tons
+
+226
+00:15:09,385 --> 00:15:12,925
+Speaker 3:  and tons of different categories and classifiers for what this song
+
+227
+00:15:13,285 --> 00:15:17,045
+Speaker 3:  actually is. And that actual understanding of what something is
+
+228
+00:15:17,145 --> 00:15:20,525
+Speaker 3:  at a content level is really important in getting
+
+229
+00:15:20,525 --> 00:15:24,245
+Speaker 3:  recommendations, right? And that just hasn't existed in video before.
+
+230
+00:15:24,585 --> 00:15:28,365
+Speaker 3:  It hasn't really even been possible. But then just
+
+231
+00:15:28,685 --> 00:15:31,885
+Speaker 3:  recently something changed. We gotta take a break and then I'll tell you
+
+232
+00:15:31,885 --> 00:15:32,965
+Speaker 3:  about it. We'll be right back.
+
+233
+00:16:14,465 --> 00:16:17,585
+Speaker 1:  part is You can find meta ai right in the apps you already have
+
+234
+00:16:18,175 --> 00:16:21,425
+Speaker 1:  Instagram, WhatsApp, Facebook and Messenger.
+
+235
+00:16:22,055 --> 00:16:22,345
+Speaker 1:  Just
+
+236
+00:17:36,095 --> 00:17:40,015
+Speaker 8:  from the person's pocket and tell me some key information on it with
+
+237
+00:17:40,015 --> 00:17:40,655
+Speaker 8:  the time code.
+
+238
+00:17:40,925 --> 00:17:44,735
+Speaker 3:  Then the whole thing processes for a minute, 57 seconds to be exact
+
+239
+00:17:45,115 --> 00:17:46,255
+Speaker 3:  and it answers the
+
+240
+00:17:46,255 --> 00:17:50,165
+Speaker 8:  Model gave us this response explaining that the piece of of paper is a pawn
+
+241
+00:17:50,165 --> 00:17:53,845
+Speaker 8:  ticket from Goldman and company pawn brokers with the date and cost
+
+242
+00:17:54,425 --> 00:17:58,325
+Speaker 8:  and it gave us this time code 1201 when we
+
+243
+00:17:58,325 --> 00:18:02,245
+Speaker 8:  pulled up that time code, we found it was correct, the model had found
+
+244
+00:18:02,265 --> 00:18:06,245
+Speaker 8:  the exact moment the piece of paper is removed from the person's pocket and
+
+245
+00:18:06,305 --> 00:18:08,125
+Speaker 8:  it extracted text accurately.
+
+246
+00:18:08,725 --> 00:18:12,485
+Speaker 3:  I remember the first time I saw this demo and being totally blown away
+
+247
+00:18:12,505 --> 00:18:16,405
+Speaker 3:  by it. This is an AI model processing an entire movie
+
+248
+00:18:16,505 --> 00:18:20,485
+Speaker 3:  for the first time and identifying one thing inside of it in under
+
+249
+00:18:20,565 --> 00:18:23,005
+Speaker 3:  a minute. There was one other demo in there also.
+
+250
+00:18:23,515 --> 00:18:27,085
+Speaker 8:  Next we gave it this drawing of a scene we were thinking of and asked
+
+251
+00:18:27,435 --> 00:18:29,285
+Speaker 8:  what is the time code when this happens?
+
+252
+00:18:29,985 --> 00:18:33,885
+Speaker 3:  The drawing is like a crude stick figure drawing of what I think is a water
+
+253
+00:18:33,895 --> 00:18:37,885
+Speaker 3:  tower big round thing on two legs, person below getting sprayed
+
+254
+00:18:37,885 --> 00:18:41,725
+Speaker 3:  by water. It's either a UFO abducting someone or a water tower.
+
+255
+00:18:42,425 --> 00:18:43,565
+Speaker 3:  Anyway, here's how it goes.
+
+256
+00:18:44,065 --> 00:18:48,005
+Speaker 8:  The model returned this time code 1534. We
+
+257
+00:18:48,005 --> 00:18:51,845
+Speaker 8:  pulled that up and found that it was the correct scene. Like all
+
+258
+00:18:51,845 --> 00:18:55,805
+Speaker 8:  generative models responses vary and won't always be perfect, but
+
+259
+00:18:55,805 --> 00:18:59,405
+Speaker 8:  notice how we didn't have to explain what was happening in the drawing. Simple
+
+260
+00:18:59,405 --> 00:19:03,125
+Speaker 8:  drawings like this are a good way to test if the model can find something
+
+261
+00:19:03,295 --> 00:19:06,405
+Speaker 8:  based on just a few abstract details like it did here.
+
+262
+00:19:06,835 --> 00:19:10,685
+Speaker 3:  This is obviously just a tech demo and most things are not this
+
+263
+00:19:10,685 --> 00:19:14,565
+Speaker 3:  easy and this perfect, but the possibilities with that idea are
+
+264
+00:19:14,755 --> 00:19:18,205
+Speaker 3:  huge. Suddenly we're heading towards a world in which You can upload a movie
+
+265
+00:19:18,205 --> 00:19:22,165
+Speaker 3:  to an AI model and that model can start to understand things about it.
+
+266
+00:19:22,475 --> 00:19:26,445
+Speaker 3:  Granted, identifying a water tower is easier than figuring out the
+
+267
+00:19:26,555 --> 00:19:30,525
+Speaker 3:  mood and vibe and pace of a movie, but this is still a big leap
+
+268
+00:19:30,595 --> 00:19:34,405
+Speaker 3:  down that path. It is by the way a leap filled with
+
+269
+00:19:34,405 --> 00:19:38,365
+Speaker 3:  copyright violations and complicated legal issues. But just for the
+
+270
+00:19:38,365 --> 00:19:42,125
+Speaker 3:  sake of our episode today, I'm gonna leave those to the side for right now.
+
+271
+00:19:42,785 --> 00:19:46,525
+Speaker 3:  So much of what's coming in AI is gonna be decided in court, but until that
+
+272
+00:19:46,525 --> 00:19:50,365
+Speaker 3:  happens, this is what we're gonna get and this is where we come to
+
+273
+00:19:50,385 --> 00:19:54,045
+Speaker 3:  the biggest maybe thorniest question in the whole AI
+
+274
+00:19:54,045 --> 00:19:58,005
+Speaker 3:  recommendations universe, what actually makes a good
+
+275
+00:19:58,165 --> 00:20:02,125
+Speaker 3:  recommendation? And actually no there's a question even bigger. Why do
+
+276
+00:20:02,125 --> 00:20:03,485
+Speaker 3:  you like what you like?
+
+277
+00:20:03,635 --> 00:20:07,405
+Speaker 9:  There's an example I always give for that one, which is the crown. Like
+
+278
+00:20:07,705 --> 00:20:10,725
+Speaker 9:  the first couple seasons of that like was it, it was a great, I don't know
+
+279
+00:20:10,725 --> 00:20:14,645
+Speaker 9:  why, but I loved it. It was great. But then like you know I noticed on
+
+280
+00:20:14,645 --> 00:20:17,525
+Speaker 9:  like whatever streaming service it was on, like it started to recommend like
+
+281
+00:20:17,525 --> 00:20:20,805
+Speaker 9:  British shows to me, which like or British royalty, which like I have no
+
+282
+00:20:21,005 --> 00:20:24,125
+Speaker 9:  interest in British royalty shows. There was something intangible. I don't
+
+283
+00:20:24,125 --> 00:20:28,045
+Speaker 9:  know what about the first couple students of the crown that caught me? That's
+
+284
+00:20:28,045 --> 00:20:29,605
+Speaker 9:  where it's trickier.
+
+285
+00:20:29,785 --> 00:20:33,445
+Speaker 3:  That's David Sanderson, he's the CEO of a company called Real Good. Real
+
+286
+00:20:33,445 --> 00:20:37,045
+Speaker 3:  Good is one of those products that tells you where You can stream a given
+
+287
+00:20:37,075 --> 00:20:40,845
+Speaker 3:  show or a movie, but it's also becoming a really important data
+
+288
+00:20:41,125 --> 00:20:44,325
+Speaker 3:  provider in the streaming industry. Like I mentioned earlier, there just
+
+289
+00:20:44,465 --> 00:20:48,205
+Speaker 3:  is no good universal source of data about TV shows and movies,
+
+290
+00:20:48,355 --> 00:20:51,765
+Speaker 3:  what they are, who's in them, who made them, and where You can find them.
+
+291
+00:20:52,245 --> 00:20:56,005
+Speaker 3:  I know that sounds nuts and it is, but it's true that data just doesn't
+
+292
+00:20:56,005 --> 00:20:59,605
+Speaker 3:  exist. So Real good has its own consumer product that You can use,
+
+293
+00:20:59,865 --> 00:21:03,485
+Speaker 3:  but it's also the database behind a lot of the other streaming search
+
+294
+00:21:03,725 --> 00:21:07,605
+Speaker 3:  providers out there. But think about that example, the Crown or any
+
+295
+00:21:07,605 --> 00:21:11,525
+Speaker 3:  other show or movie you like. Do you like it because of the
+
+296
+00:21:11,595 --> 00:21:15,485
+Speaker 3:  star maybe? And maybe that means you'll watch anything with that person in
+
+297
+00:21:15,485 --> 00:21:19,445
+Speaker 3:  it. That is an easy recommendation problem. But how do you account for
+
+298
+00:21:19,445 --> 00:21:23,285
+Speaker 3:  someone liking Breaking Bad but not better Call Saul or being
+
+299
+00:21:23,285 --> 00:21:26,645
+Speaker 3:  super into selling Sunset but really only liking the first season.
+
+300
+00:21:27,505 --> 00:21:30,645
+Speaker 3:  If you liked Game of Thrones, does that mean you'll like House of the Dragon
+
+301
+00:21:30,945 --> 00:21:34,725
+Speaker 3:  or any other show that has dragons or was it the palace intrigue that you
+
+302
+00:21:34,725 --> 00:21:37,725
+Speaker 3:  liked or just the naked people or one of the actors but not any of the other
+
+303
+00:21:37,725 --> 00:21:41,285
+Speaker 3:  actors? Or did the thing with the Starbucks Cup make you like it or something
+
+304
+00:21:41,285 --> 00:21:45,045
+Speaker 3:  else into ly? Like they say there is no accounting for taste
+
+305
+00:21:45,785 --> 00:21:49,645
+Speaker 3:  but frankly I hate that and I want AI to fix it for me. So
+
+306
+00:21:49,675 --> 00:21:52,965
+Speaker 3:  real good has been experimenting with AI a lot recently,
+
+307
+00:21:53,305 --> 00:21:57,005
+Speaker 3:  mostly as a way to try and explain whether you might like
+
+308
+00:21:57,005 --> 00:22:00,685
+Speaker 3:  something it's less proactive recommendations and more a way
+
+309
+00:22:00,965 --> 00:22:04,245
+Speaker 3:  of you saying, I'm interested in this, do you think I'm gonna like it in
+
+310
+00:22:04,245 --> 00:22:07,645
+Speaker 3:  their app, you go to a title and you tap on the icon and it takes a couple
+
+311
+00:22:07,645 --> 00:22:11,405
+Speaker 3:  of seconds based on what it knows about you to analyze whether you're likely
+
+312
+00:22:11,405 --> 00:22:15,165
+Speaker 3:  to enjoy it, right? So I'm in the real good app and
+
+313
+00:22:16,305 --> 00:22:20,205
+Speaker 3:  one of the recommendations it has for me is Eric,
+
+314
+00:22:20,535 --> 00:22:24,525
+Speaker 3:  which I've never heard of before. Vincent, a grief stricken
+
+315
+00:22:24,525 --> 00:22:27,325
+Speaker 3:  father whose son goes missing find solace through his friendship with Eric,
+
+316
+00:22:27,425 --> 00:22:30,765
+Speaker 3:  the monster that lives under Edgar's bed. Sure, that's something
+
+317
+00:22:31,245 --> 00:22:34,805
+Speaker 3:  it looks like Benedict Cumberbatch is in this. Anyway, I hit the button that
+
+318
+00:22:34,805 --> 00:22:38,285
+Speaker 3:  says should I watch this? and it says it's analyzing it just for me
+
+319
+00:22:39,245 --> 00:22:43,205
+Speaker 3:  and it says with its low IMDB audience score of 6.9 outta 10 and real
+
+320
+00:22:43,205 --> 00:22:46,765
+Speaker 3:  good score of 79 out of a hundred Eric May not be the best fit for you.
+
+321
+00:22:46,795 --> 00:22:50,005
+Speaker 3:  However, this shows crime and drama genres align with your interests and
+
+322
+00:22:50,005 --> 00:22:53,085
+Speaker 3:  mystery and drama. This show's suspenseful storyline about a father's search
+
+323
+00:22:53,085 --> 00:22:56,445
+Speaker 3:  for his missing son could keep you engaged but the monster under the bed
+
+324
+00:22:56,565 --> 00:22:59,925
+Speaker 3:  element might not be to your liking. And then if I hit a button that says
+
+325
+00:22:59,925 --> 00:23:03,485
+Speaker 3:  suggest similar, it just shows me a bunch of other things
+
+326
+00:23:04,115 --> 00:23:07,405
+Speaker 3:  that I may or may not like, including the Bear and Presumed Innocent and
+
+327
+00:23:07,405 --> 00:23:10,365
+Speaker 3:  Sunny and House of the Dragon, all of which I very much do like. So maybe
+
+328
+00:23:10,405 --> 00:23:13,765
+Speaker 3:  I need to watch Eric, when you think about the four parts of recommendations,
+
+329
+00:23:13,965 --> 00:23:17,885
+Speaker 3:  metadata, watch, data, stuff to watch and traits real good is
+
+330
+00:23:17,885 --> 00:23:21,565
+Speaker 3:  a really interesting one. It has lots of metadata. That's the database it's
+
+331
+00:23:21,565 --> 00:23:25,365
+Speaker 3:  been building for years. It has very little watch data because Netflix
+
+332
+00:23:25,585 --> 00:23:29,205
+Speaker 3:  and the others don't share that real good and every other platform like it
+
+333
+00:23:29,205 --> 00:23:32,805
+Speaker 3:  just watch and likewise and all these other recommendation systems are desperate
+
+334
+00:23:32,985 --> 00:23:36,725
+Speaker 3:  for you to tell them which shows you like and which ones you've seen so that
+
+335
+00:23:36,725 --> 00:23:40,285
+Speaker 3:  they can try and back into some of that watch data but they'll just never
+
+336
+00:23:40,285 --> 00:23:44,245
+Speaker 3:  have it like Netflix has it. On the flip side, real good has way
+
+337
+00:23:44,245 --> 00:23:47,605
+Speaker 3:  more stuff to watch and more things to offer you because its library
+
+338
+00:23:47,685 --> 00:23:51,205
+Speaker 3:  includes lots of streaming services and when it comes to traits
+
+339
+00:23:51,805 --> 00:23:55,125
+Speaker 3:  actually understanding the content itself, well that's complicated.
+
+340
+00:23:55,505 --> 00:23:58,725
+Speaker 3:  Here's Pablo Alessia who runs engineering and data for real good.
+
+341
+00:23:59,035 --> 00:24:02,885
+Speaker 10:  It's not the same thing as looking at a genre or a tag, right? It's a completely
+
+342
+00:24:02,885 --> 00:24:06,205
+Speaker 10:  different problem. It's a way more holistic view of looking at, okay, what
+
+343
+00:24:06,205 --> 00:24:09,125
+Speaker 10:  are the archetypes? For example, I've seen some analysis like that's like
+
+344
+00:24:09,125 --> 00:24:12,285
+Speaker 10:  made by actual people like analysis of movies and shows where they're like
+
+345
+00:24:12,285 --> 00:24:15,165
+Speaker 10:  looking at the archetypes and like the psychology of them and that's really
+
+346
+00:24:15,165 --> 00:24:19,005
+Speaker 10:  maybe the the reason why we like movies. We like the archetypes of the characters.
+
+347
+00:24:19,125 --> 00:24:22,755
+Speaker 10:  I mean I would say LMS are probably the best
+
+348
+00:24:23,075 --> 00:24:25,955
+Speaker 10:  equipped at looking at problems like that because you would need to look
+
+349
+00:24:25,955 --> 00:24:29,915
+Speaker 10:  at such a breadth of like knowledge at the same time to be able to
+
+350
+00:24:29,915 --> 00:24:32,595
+Speaker 10:  like do that analysis that humans do. But I would say that we're pretty
+
+351
+00:24:32,595 --> 00:24:34,955
+Speaker 10:  far away from getting to that level of analysis
+
+352
+00:24:35,465 --> 00:24:39,315
+Speaker 3:  Even in the best, most powerful scenario Publicis,
+
+353
+00:24:39,315 --> 00:24:43,235
+Speaker 3:  he's skeptical that we're gonna be able to teach LLMs to
+
+354
+00:24:43,235 --> 00:24:46,315
+Speaker 3:  completely deeply understand movies and shows
+
+355
+00:24:47,175 --> 00:24:49,115
+Speaker 3:  and also understand why people like them.
+
+356
+00:24:49,675 --> 00:24:53,315
+Speaker 10:  I know people that do like LMS are the way humans think. I don't think that's
+
+357
+00:24:53,315 --> 00:24:55,555
+Speaker 10:  the case, but let's say it's, let's assume that for a second, we're still
+
+358
+00:24:55,555 --> 00:24:59,395
+Speaker 10:  not like LLMs don't have, don't perceive the world in any
+
+359
+00:24:59,395 --> 00:25:01,955
+Speaker 10:  way, shape or form close to the way humans do because we're giving them
+
+360
+00:25:01,955 --> 00:25:05,795
+Speaker 10:  data in such a different way and also the data that we give them is so
+
+361
+00:25:05,795 --> 00:25:09,555
+Speaker 10:  limited and lacks so much context. Even if you give them a
+
+362
+00:25:09,715 --> 00:25:12,195
+Speaker 10:  thousand people, they're still individual a thousand piece of people. Like
+
+363
+00:25:12,195 --> 00:25:15,715
+Speaker 10:  just imagine the like think of the way you watch movies and shows, right?
+
+364
+00:25:15,865 --> 00:25:19,555
+Speaker 10:  It's such an emotional undertaking, right? You're like going through feelings
+
+365
+00:25:19,555 --> 00:25:21,955
+Speaker 10:  as you're looking. It also depends on who you're watching the movie with
+
+366
+00:25:21,955 --> 00:25:25,355
+Speaker 10:  and all this criteria that the LLM is not like,
+
+367
+00:25:25,785 --> 00:25:29,475
+Speaker 10:  it's not that it needs to be smarter, it's just like lives in a box, right?
+
+368
+00:25:29,575 --> 00:25:32,475
+Speaker 10:  Versus us who live in the actual world, right? So there's that part of the
+
+369
+00:25:32,475 --> 00:25:36,395
+Speaker 10:  problem as well that makes a lot harder for for us to get
+
+370
+00:25:36,435 --> 00:25:36,835
+Speaker 10:  to that point.
+
+371
+00:25:37,365 --> 00:25:40,955
+Speaker 3:  Pablo also said he wonders how deep it's actually useful to go
+
+372
+00:25:41,145 --> 00:25:45,115
+Speaker 3:  down that rabbit hole. Like if a model knows that you like a movie
+
+373
+00:25:45,335 --> 00:25:49,115
+Speaker 3:  and there happens to be a bird in the shot four minutes and six seconds into
+
+374
+00:25:49,115 --> 00:25:52,915
+Speaker 3:  the movie, is that why you like the movie? No, obviously it's not why you
+
+375
+00:25:52,915 --> 00:25:56,595
+Speaker 3:  like the movie. That level of detail is basically
+
+376
+00:25:56,595 --> 00:26:00,435
+Speaker 3:  totally irrelevant for our purposes here. That is such a solution in
+
+377
+00:26:00,435 --> 00:26:04,355
+Speaker 3:  search of a problem. But if level one of understanding is
+
+378
+00:26:04,355 --> 00:26:07,915
+Speaker 3:  just title and genre and cast, there's maybe a level
+
+379
+00:26:08,135 --> 00:26:10,755
+Speaker 3:  two that might be just as useful.
+
+380
+00:26:10,985 --> 00:26:14,315
+Speaker 10:  There's, there's no right answer here, right? This is like the one we use,
+
+381
+00:26:14,655 --> 00:26:17,595
+Speaker 10:  but the one that we're looking at and I think is the second level is the
+
+382
+00:26:17,615 --> 00:26:21,595
+Speaker 10:  the mood of the piece of content. So if this is like in what mood
+
+383
+00:26:21,735 --> 00:26:24,475
+Speaker 10:  the person is in when they wanna watch this piece of content, that would
+
+384
+00:26:24,475 --> 00:26:28,035
+Speaker 10:  be the second dimension and the one that we're most actively looking at
+
+385
+00:26:28,035 --> 00:26:31,985
+Speaker 10:  right now because it's, I mean somewhat solvable, right? Like You can
+
+386
+00:26:32,145 --> 00:26:35,905
+Speaker 10:  go down the rabbit hole of like the archetypes of each character, but are
+
+387
+00:26:35,905 --> 00:26:38,905
+Speaker 10:  we in a place where we can solve that quickly? Not all versus mood, obviously
+
+388
+00:26:39,335 --> 00:26:41,505
+Speaker 10:  it's something much easier to actually tackle, so,
+
+389
+00:26:43,060 --> 00:26:46,565
+Speaker 10:  so you go genres and tags, each of the ones we all know like drama
+
+390
+00:26:46,785 --> 00:26:49,805
+Speaker 10:  serial killer, that sort of thing. So one genre ones attacking them. The
+
+391
+00:26:49,805 --> 00:26:52,485
+Speaker 10:  next one would be the mood the person is in when they're watching that piece
+
+392
+00:26:52,485 --> 00:26:52,765
+Speaker 10:  of content.
+
+393
+00:26:53,185 --> 00:26:56,965
+Speaker 3:  Notice that that's both about the mood of the content itself and
+
+394
+00:26:56,995 --> 00:27:00,885
+Speaker 3:  your mood when you watch it. I hadn't really thought about it until Pablo
+
+395
+00:27:00,885 --> 00:27:04,805
+Speaker 3:  mentioned it, but so much of the equation here and really the
+
+396
+00:27:04,805 --> 00:27:08,365
+Speaker 3:  reason recommendations are so hard in general is that whenever I sit down
+
+397
+00:27:08,365 --> 00:27:11,605
+Speaker 3:  on the couch to watch something, my mood changes everything.
+
+398
+00:27:12,225 --> 00:27:16,045
+Speaker 3:  Yes, I like spy movies, but I don't always want a spy movie. And yes, I
+
+399
+00:27:16,045 --> 00:27:19,885
+Speaker 3:  like historical documentaries and silly romcoms, but God
+
+400
+00:27:19,885 --> 00:27:23,485
+Speaker 3:  help you if you try to get me to watch a World War II documentary on like
+
+401
+00:27:23,485 --> 00:27:24,125
+Speaker 3:  a Tuesday night
+
+402
+00:28:21,865 --> 00:28:25,425
+Speaker 1:  ingredients you have in your fridge. Meta AI can also
+
+403
+00:28:25,705 --> 00:28:29,265
+Speaker 1:  summarize your class notes, visualize your ideas and so much more.
+
+404
+00:28:29,885 --> 00:28:33,425
+Speaker 1:  The best part is You can find meta ai right in the apps you already have
+
+405
+00:28:34,095 --> 00:28:37,665
+Speaker 1:  Instagram, WhatsApp, Facebook and Messenger.
+
+406
+00:28:38,295 --> 00:28:42,225
+Speaker 1:  Just tag meta AI in your chat or tap the icon in the search
+
+407
+00:28:42,245 --> 00:28:45,905
+Speaker 1:  bar to get started. It's the most advanced AI
+
+408
+00:28:46,445 --> 00:28:50,145
+Speaker 1:  at your fingertips. Expand your world with meta
+
+409
+00:28:50,405 --> 00:28:50,625
+Speaker 1:  ai.
+
+410
+00:29:41,745 --> 00:29:45,645
+Speaker 6:  the name, et cetera. So that will be the find me option and then there is
+
+411
+00:29:45,685 --> 00:29:49,085
+Speaker 6:  a recommender is like, I don't know exactly what
+
+412
+00:29:49,665 --> 00:29:53,245
+Speaker 6:  I'm looking for. There's no specific movie that I need, I wanna see,
+
+413
+00:29:53,825 --> 00:29:57,725
+Speaker 6:  but I would like to have certain elements in it. You can be as deep as you
+
+414
+00:29:57,725 --> 00:30:01,565
+Speaker 6:  want, right? You can give. The better you formulate your
+
+415
+00:30:02,195 --> 00:30:06,065
+Speaker 6:  request, the more specific it's going to be that request,
+
+416
+00:30:06,845 --> 00:30:10,105
+Speaker 6:  the better it's going to be the outcome. So you don't have to fear that if
+
+417
+00:30:10,105 --> 00:30:14,025
+Speaker 6:  I'm giving too many details, I'm not going to find anything because
+
+418
+00:30:14,025 --> 00:30:17,745
+Speaker 6:  eventually you are going to be more accurate if that exists. Of course, I
+
+419
+00:30:17,745 --> 00:30:21,505
+Speaker 6:  mean You can search for some, like for instance myself I love because I have
+
+420
+00:30:21,585 --> 00:30:25,545
+Speaker 6:  a small kid and I like a cars movie, so I was thinking I
+
+421
+00:30:25,545 --> 00:30:29,425
+Speaker 6:  like cars stories like pretty good, but I don't like the fact
+
+422
+00:30:29,425 --> 00:30:33,265
+Speaker 6:  that the characters are cars is is there any any movie
+
+423
+00:30:33,265 --> 00:30:37,025
+Speaker 6:  that has that kind of story but without
+
+424
+00:30:37,095 --> 00:30:40,825
+Speaker 6:  cars like with people and and actually the outcome
+
+425
+00:30:40,935 --> 00:30:44,865
+Speaker 6:  from from movie vendors was pretty good, you know, I was like, oh yeah, yeah,
+
+426
+00:30:44,865 --> 00:30:47,865
+Speaker 6:  yeah sure, I wanna see all those movies. They were explaining like what's
+
+427
+00:30:47,865 --> 00:30:51,745
+Speaker 6:  the plot and and it was like, hmm, that's true, it is indeed. So that's
+
+428
+00:30:51,785 --> 00:30:55,585
+Speaker 6:  a very deep type of question, like I want this
+
+429
+00:30:55,755 --> 00:30:59,625
+Speaker 6:  story but not with cars, with people. And I
+
+430
+00:30:59,625 --> 00:31:03,065
+Speaker 6:  was surprised to see like that level of understanding of the
+
+431
+00:31:03,345 --> 00:31:07,225
+Speaker 6:  artificial intelligence to the point where, I don't know, it did some
+
+432
+00:31:07,225 --> 00:31:10,265
+Speaker 6:  comparison between plots and said, oh there are common elements between these
+
+433
+00:31:10,265 --> 00:31:11,825
+Speaker 6:  two movies. That
+
+434
+00:31:11,825 --> 00:31:15,625
+Speaker 3:  Last thing is pretty impressive actually and very telling. If you go to
+
+435
+00:31:15,625 --> 00:31:18,865
+Speaker 3:  Google right now and you just say what are some movies like cars, but with
+
+436
+00:31:18,865 --> 00:31:22,825
+Speaker 3:  people you're either gonna get nothing useful or like a link to the
+
+437
+00:31:22,825 --> 00:31:26,505
+Speaker 3:  movie cars. It'll probably be the movie cars, but the idea of
+
+438
+00:31:26,685 --> 00:31:30,345
+Speaker 3:  AI is that it can comb through all the reviews, all the synopsis, all the
+
+439
+00:31:30,345 --> 00:31:33,505
+Speaker 3:  tweets and say, oh this movie is talked about
+
+440
+00:31:33,855 --> 00:31:37,305
+Speaker 3:  similarly to the way that people talk about cars, but it doesn't seem to
+
+441
+00:31:37,305 --> 00:31:40,665
+Speaker 3:  have any cars in it. Maybe that'll work. That's the kind of thing
+
+442
+00:31:41,215 --> 00:31:45,105
+Speaker 3:  that no system other than AI can do really well and do at scale.
+
+443
+00:31:45,885 --> 00:31:49,665
+Speaker 3:  In the first case Diana mentioned AI models are already actually pretty
+
+444
+00:31:49,755 --> 00:31:53,705
+Speaker 3:  great, frankly for the same reason because they've ingested all
+
+445
+00:31:53,705 --> 00:31:57,665
+Speaker 3:  these recaps reviews and tweets and more. They can do a good job of
+
+446
+00:31:57,665 --> 00:32:01,625
+Speaker 3:  guessing what you're looking for just by synthesizing information from all
+
+447
+00:32:01,625 --> 00:32:05,385
+Speaker 3:  over the web. So when you're like, what's the Jim Carrey movie with the boat
+
+448
+00:32:05,405 --> 00:32:08,945
+Speaker 3:  and the TV show, it gets to the Truman show really fast.
+
+449
+00:32:09,565 --> 00:32:13,545
+Speaker 3:  That's not recommendations so much, but it is pretty handy. Personally,
+
+450
+00:32:13,735 --> 00:32:17,105
+Speaker 3:  I've been using these AI tools for more than a year to try and find stuff
+
+451
+00:32:17,105 --> 00:32:20,905
+Speaker 3:  to watch and I found a few tricks that really work. The first is
+
+452
+00:32:20,925 --> 00:32:24,785
+Speaker 3:  the show me stuff like option. I'll add three movies I like and
+
+453
+00:32:24,785 --> 00:32:28,545
+Speaker 3:  tell the model to find other ones like it that works great, which actually
+
+454
+00:32:28,545 --> 00:32:32,265
+Speaker 3:  makes sense. These models have ingested all those lists of best
+
+455
+00:32:32,425 --> 00:32:36,225
+Speaker 3:  spy movies or whatever and can easily compare the summaries that you find
+
+456
+00:32:36,225 --> 00:32:40,125
+Speaker 3:  on IMDB. So matching things to like things is actually
+
+457
+00:32:40,125 --> 00:32:43,845
+Speaker 3:  pretty easy, but the problem is it'll usually spit back really
+
+458
+00:32:43,845 --> 00:32:47,485
+Speaker 3:  obvious examples if I like Back to the future, everything
+
+459
+00:32:47,485 --> 00:32:51,445
+Speaker 3:  everywhere, all at once and so I married an ax murderer, what other
+
+460
+00:32:51,445 --> 00:32:52,485
+Speaker 3:  movies do you think I might like?
+
+461
+00:32:53,585 --> 00:32:57,365
+Speaker 4:  You might enjoy Bill and Ted's excellent adventure hot Tub Time Machine
+
+462
+00:32:57,705 --> 00:32:59,285
+Speaker 4:  and Scott Pilgrim versus the World.
+
+463
+00:32:59,865 --> 00:33:03,685
+Speaker 3:  So in that case what I'll do is add but only recommend lesser known
+
+464
+00:33:03,705 --> 00:33:07,365
+Speaker 3:  titles or I'll ask only for underrated ones and that usually
+
+465
+00:33:07,535 --> 00:33:11,525
+Speaker 3:  weeds out some of the most obvious answers. If I like Oceans
+
+466
+00:33:11,525 --> 00:33:15,365
+Speaker 3:  11, the Gentleman and Heap, what are
+
+467
+00:33:15,365 --> 00:33:17,965
+Speaker 3:  some underrated movies that you think I might like?
+
+468
+00:33:19,465 --> 00:33:23,245
+Speaker 4:  You might enjoy Layer Cake Inside Man and the Town. These
+
+469
+00:33:23,245 --> 00:33:24,445
+Speaker 4:  films have strong high,
+
+470
+00:33:25,035 --> 00:33:27,965
+Speaker 3:  I've seen all those. Give me more underrated examples.
+
+471
+00:33:29,395 --> 00:33:33,005
+Speaker 4:  Sure. How about a simple plan, the bank job and the way of the gun.
+
+472
+00:33:34,335 --> 00:33:38,285
+Speaker 4:  These movies have gripping stories and clever twists that should appeal to
+
+473
+00:33:38,285 --> 00:33:38,405
+Speaker 4:  you.
+
+474
+00:33:39,615 --> 00:33:43,445
+Speaker 3:  Those are good. Thank you. The other thing I do now is try and ask
+
+475
+00:33:43,445 --> 00:33:47,285
+Speaker 3:  just for the vibes that I'm looking for, like here's one of my Go-to
+
+476
+00:33:47,285 --> 00:33:50,925
+Speaker 3:  prompts these days. Can you recommend a good rom-com that's
+
+477
+00:33:51,235 --> 00:33:55,165
+Speaker 3:  ideally under 90 minutes and doesn't require much brain power?
+
+478
+00:33:57,245 --> 00:34:00,925
+Speaker 5:  Absolutely. Here's a perfect rom-com for you. Win a date with Tad
+
+479
+00:34:01,125 --> 00:34:05,045
+Speaker 5:  Hamilton 2004. It clocks in at a breezy 84
+
+480
+00:34:05,045 --> 00:34:08,925
+Speaker 5:  minutes and is a lighthearted watch. It follows Rosalie Kate
+
+481
+00:34:08,925 --> 00:34:12,725
+Speaker 5:  Bosworth, a small town video store clerk who enters a contest to
+
+482
+00:34:12,725 --> 00:34:15,765
+Speaker 5:  win a date with the megastar. Tad Hamilton, Josh DeMel.
+
+483
+00:34:16,855 --> 00:34:17,595
+Speaker 3:  Is it any good?
+
+484
+00:34:18,975 --> 00:34:22,795
+Speaker 5:  Win a date with Tad Hamilton is a classic rom-com that's more about
+
+485
+00:34:22,995 --> 00:34:26,835
+Speaker 5:  charm than plot. It has predictable elements but is still enjoyable for
+
+486
+00:34:26,835 --> 00:34:30,795
+Speaker 5:  its lighthearted humor and performances by Kate Bosworth and Topher Grace.
+
+487
+00:34:31,615 --> 00:34:35,355
+Speaker 3:  It kind of works. I don't know if these are like the platonic ideal
+
+488
+00:34:35,575 --> 00:34:39,235
+Speaker 3:  of perfect recommendations and a lot of these have been terrible movies,
+
+489
+00:34:39,575 --> 00:34:43,435
+Speaker 3:  but I've had good luck with this so far. And as I said earlier, I like this
+
+490
+00:34:43,435 --> 00:34:47,355
+Speaker 3:  use of AI because it's so low stakes. If it recommends a movie I've
+
+491
+00:34:47,355 --> 00:34:50,795
+Speaker 3:  seen, I just tell it I've seen it and ask for another one. And actually adding
+
+492
+00:34:50,825 --> 00:34:54,075
+Speaker 3:  that data to my search often gets better results
+
+493
+00:34:54,815 --> 00:34:58,195
+Speaker 3:  If it recommends a movie that doesn't exist, which to be fair has only ever
+
+494
+00:34:58,395 --> 00:35:01,635
+Speaker 3:  happened to me once or twice in the last year or so, that becomes obvious
+
+495
+00:35:01,635 --> 00:35:05,395
+Speaker 3:  very quickly and I just move on. I found a lot of good stuff to
+
+496
+00:35:05,395 --> 00:35:09,115
+Speaker 3:  watch this way and it's taken a lot of the aimless browsing out of my
+
+497
+00:35:09,115 --> 00:35:12,955
+Speaker 3:  evenings and I really appreciate it just for that alone. What
+
+498
+00:35:12,955 --> 00:35:16,875
+Speaker 3:  it doesn't do well is match to the just watches and real goods and this like
+
+499
+00:35:16,875 --> 00:35:20,675
+Speaker 3:  what service can I do it on piece of things. So I have to get a recommendation
+
+500
+00:35:20,675 --> 00:35:24,635
+Speaker 3:  and then go do another thing to find where I can actually watch it. But those
+
+501
+00:35:24,695 --> 00:35:27,755
+Speaker 3:  are easy problems to solve and things like movie Vander are actually starting
+
+502
+00:35:27,755 --> 00:35:31,515
+Speaker 3:  to put those two pieces together. But after talking to lots of people about
+
+503
+00:35:31,515 --> 00:35:35,155
+Speaker 3:  this, do you wanna know my number one best recommendations
+
+504
+00:35:35,155 --> 00:35:39,045
+Speaker 3:  recommendation? It's to do as much of your watching as possible
+
+505
+00:35:39,225 --> 00:35:43,125
+Speaker 3:  on as few services as possible because the thing I heard from every single
+
+506
+00:35:43,125 --> 00:35:46,725
+Speaker 3:  person that I talk to is that the best predictor of what you're going to
+
+507
+00:35:46,725 --> 00:35:50,645
+Speaker 3:  watch next is what you've watched before. If you want great recommendations,
+
+508
+00:35:50,645 --> 00:35:54,365
+Speaker 3:  you need a watch history. This is why YouTube and TikTok have
+
+509
+00:35:54,755 --> 00:35:58,325
+Speaker 3:  such better recommendations because they know what you've watched. You watch
+
+510
+00:35:58,405 --> 00:36:01,805
+Speaker 3:  a lot, you watch it very quickly, and these systems are able to just build
+
+511
+00:36:01,805 --> 00:36:05,485
+Speaker 3:  this internal flywheel of what you do and don't like in a way that is much
+
+512
+00:36:05,485 --> 00:36:09,405
+Speaker 3:  harder when you're sprinkling viewing across 10 different streaming services.
+
+513
+00:36:10,145 --> 00:36:13,645
+Speaker 3:  If you have the energy and diligence, which I frankly don't,
+
+514
+00:36:14,285 --> 00:36:17,605
+Speaker 3:  maintaining your profile on something like real good or just watched or letterbox
+
+515
+00:36:17,695 --> 00:36:21,485
+Speaker 3:  where You can keep track of everything you've watched everywhere is also
+
+516
+00:36:21,545 --> 00:36:25,405
+Speaker 3:  an excellent path towards good recommendations. That stuff serves itself.
+
+517
+00:36:25,465 --> 00:36:29,085
+Speaker 3:  The more data you put in, especially with these strong signals of high reviews
+
+518
+00:36:29,105 --> 00:36:32,965
+Speaker 3:  and saying you loved something and all that stuff, that matters a
+
+519
+00:36:32,965 --> 00:36:36,685
+Speaker 3:  lot. I think eventually we might get AI that understands us
+
+520
+00:36:36,785 --> 00:36:40,645
+Speaker 3:  as people and understands movies and shows in a deep and rich
+
+521
+00:36:40,705 --> 00:36:44,565
+Speaker 3:  way and does in fact recommend the perfect thing or at least
+
+522
+00:36:44,625 --> 00:36:48,605
+Speaker 3:  the perfect handful of things every time we turn on the tv. But I
+
+523
+00:36:48,605 --> 00:36:52,245
+Speaker 3:  get the sense that that's still a wave off the, the Gemini
+
+524
+00:36:52,245 --> 00:36:56,205
+Speaker 3:  1.5 demo is a demo. That's not how we're gonna start
+
+525
+00:36:56,525 --> 00:37:00,165
+Speaker 3:  querying movies anytime soon, I don't think. For now.
+
+526
+00:37:00,305 --> 00:37:04,005
+Speaker 3:  If you want Netflix or Peacock or whoever to find you something great,
+
+527
+00:37:04,425 --> 00:37:08,405
+Speaker 3:  the best thing You can do on those services is watch stuff you like all the
+
+528
+00:37:08,405 --> 00:37:11,445
+Speaker 3:  way through, over and over and over and over again.
+
+529
+00:37:12,265 --> 00:37:15,645
+Speaker 3:  It, it sounds pretty low tech, but I gotta say it's not the worst homework
+
+530
+00:37:15,645 --> 00:37:16,005
+Speaker 3:  in the world.
+
+531
+00:37:17,635 --> 00:37:21,165
+Speaker 3:  Alright, that is it for The Vergecast today, and that is it for our AI
+
+532
+00:37:21,165 --> 00:37:24,285
+Speaker 3:  miniseries. Thanks to everyone who is on the show, and thank you as always
+
+533
+00:37:24,465 --> 00:37:28,085
+Speaker 3:  for listening. As always, if you have thoughts, questions, feelings, or movies
+
+534
+00:37:28,085 --> 00:37:31,165
+Speaker 3:  that you want me to watch because that is still the best recommendation system
+
+535
+00:37:31,185 --> 00:37:35,005
+Speaker 3:  out there, You can always email us at vergecast at The Verge dot com or
+
+536
+00:37:35,075 --> 00:37:38,605
+Speaker 3:  call the hotline eight six six VERGE one one. We truly, truly love hearing
+
+537
+00:37:38,605 --> 00:37:42,085
+Speaker 3:  from you. This show is produced by Andrew Marino, Liam James, and Will Poor,
+
+538
+00:37:42,085 --> 00:37:45,165
+Speaker 3:  and this episode was edited by Xander Adams. The Vergecast is The
+

@@ -1,0 +1,4131 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: b603e971-b518-4efc-b4c7-19e9e6010b8b
+Status: Done
+Stage: Done
+Title: Can AI make a hit song?
+Audio URL: https://jfe93e.s3.amazonaws.com/-437098082491250407/-4712198776586149341/s93290-US-3600s-1695031564.mp3
+Description: In episode two of The Vergecast's AI mini series, David Pierce sits down with Switched on Pop's Charlie Harding and music producer Ian Kimmel to share how they made an entire song from scratch using a bunch of AI tools.
+Later, Nilay Patel joins the discussion to talk about the future of AI in the music industry.
+
+Email us at vergecast@theverge.com or call us at 866-VERGE11, we'd love to hear from you.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Enabled (3 ads detected)
+
+2
+00:00:43,970 --> 00:00:47,820
+Speaker 3:  Welcome to The Vergecast, the flagship podcast of procedurally generated
+
+3
+00:00:47,820 --> 00:00:50,980
+Speaker 3:  four on the floor. I'm your friend, David Pierce, and this is the second
+
+4
+00:00:51,050 --> 00:00:54,980
+Speaker 3:  episode in our three-part series about ai. What we're trying to do in these
+
+5
+00:00:54,980 --> 00:00:58,820
+Speaker 3:  episodes is not just talk about AI as a theory or
+
+6
+00:00:58,970 --> 00:01:02,820
+Speaker 3:  fast forward a dozen or a hundred years to when AI takes over the world
+
+7
+00:01:02,820 --> 00:01:06,740
+Speaker 3:  and kills us all, but actually look at what AI is really doing
+
+8
+00:01:06,920 --> 00:01:10,900
+Speaker 3:  in our lives right now. This week we're gonna talk about how AI is
+
+9
+00:01:11,020 --> 00:01:14,420
+Speaker 3:  changing music, and we actually got started down this
+
+10
+00:01:14,820 --> 00:01:18,660
+Speaker 3:  particular rabbit hole while we were making last week's episode about cloning
+
+11
+00:01:18,660 --> 00:01:22,300
+Speaker 3:  your voice because in the making of that episode, we discovered this tool
+
+12
+00:01:22,300 --> 00:01:26,180
+Speaker 3:  called sify.ai that claims to be able to train a model to
+
+13
+00:01:26,180 --> 00:01:29,180
+Speaker 3:  sound not like your speaking voice, but your singing voice.
+
+14
+00:01:30,320 --> 00:01:33,980
+Speaker 3:  As far as I can tell, SIFY isn't really a production
+
+15
+00:01:34,130 --> 00:01:37,860
+Speaker 3:  tool so much as it is sort of a silly tool to let you make songs using
+
+16
+00:01:37,860 --> 00:01:40,020
+Speaker 3:  voices like, I don't know, SpongeBob Squarepants,
+
+17
+00:01:46,250 --> 00:01:46,940
+Speaker 3:  Michael Jackson.
+
+18
+00:01:55,560 --> 00:01:55,780
+Speaker 1:  But
+
+19
+00:01:55,780 --> 00:01:59,540
+Speaker 3:  You can also train it with your own. So obviously I had to test that.
+
+20
+00:01:59,960 --> 00:02:03,660
+Speaker 3:  So I got out my mic, put on some headphones, and I spent about an hour
+
+21
+00:02:03,690 --> 00:02:07,620
+Speaker 3:  singing a few of my favorite songs into a recorder. I'm not going to play
+
+22
+00:02:07,620 --> 00:02:11,540
+Speaker 3:  those recordings for reasons of my own embarrassment, but also because trust
+
+23
+00:02:11,540 --> 00:02:15,180
+Speaker 3:  me, literally no one needs to hear that. But the thing is,
+
+24
+00:02:15,200 --> 00:02:18,420
+Speaker 3:  you're kind of about to hear my voice anyway,
+
+25
+00:02:18,960 --> 00:02:21,940
+Speaker 3:  or@leastwhatsify.ai thinks. I sound like
+
+26
+00:02:23,680 --> 00:02:27,300
+Speaker 3:  The process is kind of weird. You upload a bunch of stuff, it processes your
+
+27
+00:02:27,300 --> 00:02:31,260
+Speaker 3:  voice, and then you just plug in a YouTube U R l, it tries
+
+28
+00:02:31,260 --> 00:02:35,220
+Speaker 3:  to extract the vocals, then sort of paste yours back in
+
+29
+00:02:35,520 --> 00:02:39,340
+Speaker 3:  and then rewrite the song using your voice. It's wonky, but it's
+
+30
+00:02:39,340 --> 00:02:43,140
+Speaker 3:  super fun and pretty quick. So without further ado, please welcome
+
+31
+00:02:43,140 --> 00:02:47,100
+Speaker 3:  to the stage AI David Pierce singing. I Wanna Hold Your Hand by the
+
+32
+00:02:47,100 --> 00:02:47,580
+Speaker 3:  Beatles.
+
+33
+00:02:57,730 --> 00:02:58,420
+Speaker 3:  It's actually not
+
+34
+00:02:58,520 --> 00:02:58,740
+Speaker 5:  Bad.
+
+35
+00:02:59,310 --> 00:02:59,600
+Speaker 1:  Like
+
+36
+00:02:59,760 --> 00:03:03,640
+Speaker 3:  I cannot stand the sound of my own singing voice, but that does kind of
+
+37
+00:03:03,650 --> 00:03:07,640
+Speaker 3:  sound like me, I think at least until you get a little further into the
+
+38
+00:03:07,640 --> 00:03:10,040
+Speaker 3:  song and then it all just completely falls apart
+
+39
+00:03:13,700 --> 00:03:14,640
+Speaker 5:  And when,
+
+40
+00:03:17,790 --> 00:03:20,120
+Speaker 3:  Okay, I feel happy. Okay, I could do this forever. We made a lot of songs,
+
+41
+00:03:20,180 --> 00:03:23,960
+Speaker 3:  but I'll only do one more here. This is Suspicious Minds by Elvis
+
+42
+00:03:23,960 --> 00:03:25,760
+Speaker 3:  Presley, by ai. David Pierce.
+
+43
+00:03:29,620 --> 00:03:29,840
+Speaker 5:  We,
+
+44
+00:03:33,880 --> 00:03:34,960
+Speaker 5:  I can walk out.
+
+45
+00:03:45,020 --> 00:03:45,440
+Speaker 1:  Oh, Lori.
+
+46
+00:03:45,550 --> 00:03:48,840
+Speaker 3:  Okay. Let's just move on. Before this goes any further off the rails, or
+
+47
+00:03:49,080 --> 00:03:52,240
+Speaker 3:  everyone stops listening because of my voice, let's bring in a couple of
+
+48
+00:03:52,420 --> 00:03:56,200
+Speaker 3:  actual musicians to talk about how AI is changing the way we make
+
+49
+00:03:56,200 --> 00:03:59,720
+Speaker 3:  music. My guests today are Charlie Harding, a songwriter and the co-host
+
+50
+00:03:59,720 --> 00:04:03,160
+Speaker 3:  of the wonderful podcast Switched on Pop, who has been on this show before.
+
+51
+00:04:03,180 --> 00:04:04,920
+Speaker 3:  He is responsible for Laser Bong
+
+52
+00:04:05,100 --> 00:04:05,320
+Speaker 6:  It
+
+53
+00:04:09,380 --> 00:04:12,960
+Speaker 3:  And Ian Kimmel, a producer and songwriter who has worked with everyone from
+
+54
+00:04:13,360 --> 00:04:17,200
+Speaker 3:  B T S to Mary j Blige to Netflix. And the N B A Ian also
+
+55
+00:04:17,200 --> 00:04:20,760
+Speaker 3:  runs a company called Biscuit Head Collective, which works with artists of
+
+56
+00:04:20,760 --> 00:04:24,600
+Speaker 3:  all sizes to make songs. So you could say AI is very important
+
+57
+00:04:24,740 --> 00:04:28,560
+Speaker 3:  to both of these people and their livelihood going forward, and I wanna
+
+58
+00:04:28,560 --> 00:04:31,640
+Speaker 3:  know how they're thinking about it right now and how it fits in
+
+59
+00:04:33,190 --> 00:04:35,840
+Speaker 3:  Charlie. Harding, welcome back to The Vergecast. Thank you for having me.
+
+60
+00:04:36,150 --> 00:04:38,800
+Speaker 3:  This is, it's just delightful having you back. It always gets weird when
+
+61
+00:04:38,800 --> 00:04:41,160
+Speaker 3:  you're here, which is my favorite thing about having you here. It's gonna
+
+62
+00:04:41,160 --> 00:04:41,680
+Speaker 7:  Get weird today.
+
+63
+00:04:42,600 --> 00:04:43,720
+Speaker 3:  Ian Kibble, welcome to the show. Thanks for,
+
+64
+00:04:43,720 --> 00:04:45,080
+Speaker 5:  Thank you so much for having me as well.
+
+65
+00:04:45,270 --> 00:04:49,080
+Speaker 3:  Okay. So I wanna do this episode in two parts. Sure. Talking about AI is
+
+66
+00:04:49,080 --> 00:04:52,360
+Speaker 3:  very complicated because you end up having to talk about like the cool things
+
+67
+00:04:52,380 --> 00:04:55,280
+Speaker 3:  it can be and then the terrifying things about it. And then we're all gonna
+
+68
+00:04:55,300 --> 00:04:58,640
+Speaker 3:  die and it's illegal all at the same time. So we're just gonna split those
+
+69
+00:04:58,640 --> 00:05:01,760
+Speaker 3:  things apart. Yeah. So for the first half of the show, I want to talk like
+
+70
+00:05:01,930 --> 00:05:05,880
+Speaker 3:  super practical, how this stuff actually works, what you can do with it.
+
+71
+00:05:05,880 --> 00:05:09,000
+Speaker 3:  You're both professional musicians. I wanna talk about like how this actually
+
+72
+00:05:09,000 --> 00:05:12,160
+Speaker 3:  works like in the world. And then we're going to take a break, we're gonna
+
+73
+00:05:12,160 --> 00:05:15,160
+Speaker 3:  collect ourselves, and then we're gonna talk about our feelings. Yeah. Does
+
+74
+00:05:15,160 --> 00:05:17,880
+Speaker 3:  that sound good? Sounds great. Go. You guys good with that? Yeah. Okay. So
+
+75
+00:05:18,200 --> 00:05:20,960
+Speaker 3:  I gave you guys some homework and we're gonna get to it in a minute and it's
+
+76
+00:05:20,960 --> 00:05:23,680
+Speaker 3:  very exciting. But I think the first place I wanna start is like, if you're
+
+77
+00:05:23,720 --> 00:05:27,240
+Speaker 3:  a working musician today in September of 2023,
+
+78
+00:05:27,780 --> 00:05:31,760
+Speaker 3:  are you thinking about AI in your day-to-day, like at all? Right now,
+
+79
+00:05:32,400 --> 00:05:35,680
+Speaker 7:  I am as a music reporter. Sure. But in terms of making music,
+
+80
+00:05:36,400 --> 00:05:40,240
+Speaker 7:  I think we probably share this. The only tool I've really used to assist
+
+81
+00:05:40,240 --> 00:05:43,440
+Speaker 7:  in any part of the creative process, it's been chat pt. But even that is
+
+82
+00:05:43,440 --> 00:05:43,840
+Speaker 7:  quite limited.
+
+83
+00:05:44,440 --> 00:05:47,160
+Speaker 3:  Interesting. That's not at all what I would've guessed. Oh yeah. So how are
+
+84
+00:05:47,160 --> 00:05:49,840
+Speaker 3:  you using it right now? Like where would chat g p t fit in? You
+
+85
+00:05:49,840 --> 00:05:53,040
+Speaker 7:  Can use it as a rhyming dictionary. Ooh, okay. But it hasn't come into my
+
+86
+00:05:53,070 --> 00:05:56,080
+Speaker 7:  life very much. I mean, I, I wanted to bring Ian into this conversation because
+
+87
+00:05:56,160 --> 00:05:58,520
+Speaker 7:  I feel like he kind of has of has, I think he has the most skin in the game.
+
+88
+00:05:58,630 --> 00:06:02,560
+Speaker 7:  Sure. Because on top of being a record producer, he's got
+
+89
+00:06:02,580 --> 00:06:06,440
+Speaker 7:  You know Platinum Records, Grammy nominations. He also runs a
+
+90
+00:06:06,560 --> 00:06:10,200
+Speaker 7:  business where he will help you take your indie track and make it a like
+
+91
+00:06:10,220 --> 00:06:14,120
+Speaker 7:  top 40 professional style song. So if there's anyone who probably cares
+
+92
+00:06:14,120 --> 00:06:17,920
+Speaker 7:  about the world of AI replacing musical things, like, I mean, he's
+
+93
+00:06:18,200 --> 00:06:21,120
+Speaker 7:  directly invested in it. So I'm curious. Yeah. Has, how has AI been in your
+
+94
+00:06:21,120 --> 00:06:21,280
+Speaker 7:  life?
+
+95
+00:06:21,680 --> 00:06:24,400
+Speaker 8:  I mean, the number one thing to think about, at least when I'm jumping into
+
+96
+00:06:24,400 --> 00:06:28,320
+Speaker 8:  it is generally You know we we, we go back a couple decades
+
+97
+00:06:28,420 --> 00:06:31,640
+Speaker 8:  and we're looking at people like going to tape and that kind of thing. And
+
+98
+00:06:31,640 --> 00:06:35,200
+Speaker 8:  Then, we have things like vsts, the plugins, replacing all that.
+
+99
+00:06:35,660 --> 00:06:39,600
+Speaker 8:  So now we're getting into this new era of AI and like all these
+
+100
+00:06:39,660 --> 00:06:42,920
+Speaker 8:  new technologies coming out that the number one thing I'm paying attention
+
+101
+00:06:42,920 --> 00:06:45,960
+Speaker 8:  to is just trying to be current. I'm young, I'm in my twenties. But at the
+
+102
+00:06:45,960 --> 00:06:49,720
+Speaker 8:  same time, with all this technology we have to do, like it has to, we always
+
+103
+00:06:49,720 --> 00:06:53,320
+Speaker 8:  have to keep up with the times, otherwise we're gonna get left behind. But
+
+104
+00:06:53,450 --> 00:06:57,280
+Speaker 8:  there is so many amazing functions going on inside of it. And
+
+105
+00:06:57,300 --> 00:07:01,080
+Speaker 8:  me being a music professional who is a musician that can play multiple
+
+106
+00:07:01,080 --> 00:07:04,360
+Speaker 8:  instruments and program drums and all that kind of stuff, it doesn't come
+
+107
+00:07:04,430 --> 00:07:08,400
+Speaker 8:  into my world as often as like a new music producer would. Okay. Just
+
+108
+00:07:08,400 --> 00:07:10,000
+Speaker 8:  because there's so many season. So you think
+
+109
+00:07:10,000 --> 00:07:13,280
+Speaker 3:  If you were starting fresh right now trying to get in the game, you think
+
+110
+00:07:13,280 --> 00:07:16,240
+Speaker 3:  you would be maybe more invested in figuring out some of the AI stuff?
+
+111
+00:07:16,240 --> 00:07:18,960
+Speaker 8:  Definitely. Yeah. Interesting. If I didn't know how to program drums, there's,
+
+112
+00:07:19,220 --> 00:07:22,960
+Speaker 8:  you can just pull up this one V S T that allows you to program
+
+113
+00:07:23,210 --> 00:07:26,960
+Speaker 8:  drums with a hit of a button. It automatically reads your tempo. You can
+
+114
+00:07:26,980 --> 00:07:29,920
+Speaker 8:  set the vibe that you want and then you got drums and then you click the
+
+115
+00:07:29,920 --> 00:07:33,000
+Speaker 8:  button again and then you have a variation of that. And it just, there's
+
+116
+00:07:33,000 --> 00:07:36,800
+Speaker 8:  so many tools that it's creating to really save time. And also
+
+117
+00:07:37,140 --> 00:07:41,040
+Speaker 8:  in the learning process, it's a bigger jump, it's a lot quicker. So it's
+
+118
+00:07:41,120 --> 00:07:45,000
+Speaker 8:  allowing new music producers to be able to jump on way quicker. But that
+
+119
+00:07:45,000 --> 00:07:48,640
+Speaker 8:  being said, the thing I only really use in my professional life would be
+
+120
+00:07:48,640 --> 00:07:49,440
+Speaker 8:  chat G P T
+
+121
+00:07:49,540 --> 00:07:51,760
+Speaker 3:  For the same reasoning, dictionaries, all that stuff.
+
+122
+00:07:52,220 --> 00:07:56,120
+Speaker 8:  Not as much for me. Sometimes lyric editing. Okay. To see if
+
+123
+00:07:56,120 --> 00:08:00,000
+Speaker 8:  I can like pull something better out of it. Not as often, but the most
+
+124
+00:08:00,100 --> 00:08:03,360
+Speaker 8:  I'm actually using it for is writing well converting business emails.
+
+125
+00:08:04,150 --> 00:08:04,440
+Speaker 3:  Like
+
+126
+00:08:04,500 --> 00:08:06,440
+Speaker 8:  That's the top thing I've using Chat for.
+
+127
+00:08:06,640 --> 00:08:09,200
+Speaker 3:  That's your, your hit album. Well, converting business emails, right?
+
+128
+00:08:09,360 --> 00:08:10,240
+Speaker 8:  Yeah, exactly. Yeah, exactly.
+
+129
+00:08:10,460 --> 00:08:13,320
+Speaker 7:  Sounds like a great vapor wave album. Let's make that.
+
+130
+00:08:13,740 --> 00:08:17,400
+Speaker 8:  But yeah, that's the top thing I've using it for as this time. It's You know,
+
+131
+00:08:17,510 --> 00:08:20,680
+Speaker 8:  it's the sidebar of the music industry is the business of the music industry.
+
+132
+00:08:20,780 --> 00:08:24,240
+Speaker 8:  But it's something that's very important for somebody like me who's trying
+
+133
+00:08:24,240 --> 00:08:26,080
+Speaker 8:  to afford to live in New York, You know. Yeah,
+
+134
+00:08:26,140 --> 00:08:30,080
+Speaker 3:  For sure. So is there, is there anything that feels like you
+
+135
+00:08:30,080 --> 00:08:34,000
+Speaker 3:  would love to offload part of the process to ai? Where I feel
+
+136
+00:08:34,000 --> 00:08:37,960
+Speaker 3:  like You know everybody in who does sort of normal desk jobs is
+
+137
+00:08:37,960 --> 00:08:40,240
+Speaker 3:  like loves AI because it can write their emails, right? Yeah. And that feels
+
+138
+00:08:40,240 --> 00:08:42,920
+Speaker 3:  like the kind of thing that it's like, this isn't really my job, but it's
+
+139
+00:08:42,920 --> 00:08:46,040
+Speaker 3:  a thing I have to do as part of my job. So like terrific. If I can offload
+
+140
+00:08:46,040 --> 00:08:47,600
+Speaker 3:  that. Amazing. I mean we were,
+
+141
+00:08:47,620 --> 00:08:49,920
+Speaker 7:  We were talking about this just yesterday. I'm very jealous of Ian because
+
+142
+00:08:49,940 --> 00:08:53,800
+Speaker 7:  he has a team of people that work with him to help him do all the prep
+
+143
+00:08:53,800 --> 00:08:57,520
+Speaker 7:  work, which is really boring. Mm. Sloppy. So prepping a mix session takes
+
+144
+00:08:57,520 --> 00:09:00,600
+Speaker 7:  forever. You have to cut out all the silences, you have to get everything
+
+145
+00:09:00,600 --> 00:09:03,880
+Speaker 7:  in the right order, you have to color the tracks, tuning vocals,
+
+146
+00:09:04,120 --> 00:09:07,880
+Speaker 7:  aligning things. A lot of things do have creative choices that happen in
+
+147
+00:09:07,880 --> 00:09:11,760
+Speaker 7:  them, but there can be just dozens of hours a week of prep work
+
+148
+00:09:11,910 --> 00:09:15,760
+Speaker 7:  that usually is handled by an assistant or an engineer. And
+
+149
+00:09:16,320 --> 00:09:20,280
+Speaker 7:  I don't finish songs often because I'm like, I don't wanna spend my entire
+
+150
+00:09:20,420 --> 00:09:24,400
+Speaker 7:  day doing all this prep work, which not only slows me down, but
+
+151
+00:09:24,400 --> 00:09:28,240
+Speaker 7:  it also, it drags me down as well. Like it puts me in a creative
+
+152
+00:09:28,390 --> 00:09:32,240
+Speaker 7:  hole where what I need to do is just like get right into my creative
+
+153
+00:09:32,400 --> 00:09:36,160
+Speaker 7:  state, but I have to do that five hours into staring at my computer. So there's
+
+154
+00:09:36,160 --> 00:09:38,000
+Speaker 7:  a lot of things that I would love for it to automate.
+
+155
+00:09:38,220 --> 00:09:42,200
+Speaker 8:  And at this point, it's not replacing anything I'm doing or my assistants
+
+156
+00:09:42,200 --> 00:09:45,840
+Speaker 8:  are doing, but there is technology now coming out that is helping with it.
+
+157
+00:09:45,840 --> 00:09:49,640
+Speaker 8:  But I think we're just on The Verge of that. I saw one last week that
+
+158
+00:09:50,020 --> 00:09:52,960
+Speaker 8:  So, we talk about the stems of a song, all the different instruments and
+
+159
+00:09:53,020 --> 00:09:56,480
+Speaker 8:  vocals and everything. And if someone You know, a lot of times will get it
+
+160
+00:09:56,480 --> 00:09:59,520
+Speaker 8:  from the producer or the artist and nothing will be labeled So. we have to
+
+161
+00:09:59,520 --> 00:10:02,600
+Speaker 8:  go through and listen to every single one. Right. And now there's a new technology
+
+162
+00:10:02,600 --> 00:10:05,480
+Speaker 8:  where you can enter in your stems and it can name exactly what they are and
+
+163
+00:10:05,480 --> 00:10:09,040
+Speaker 8:  you can choose how they're named and everything like that. So at this point
+
+164
+00:10:09,040 --> 00:10:12,720
+Speaker 8:  there is new technology coming up that can really save us a lot of time.
+
+165
+00:10:12,830 --> 00:10:16,440
+Speaker 8:  Save my assistants in particular a lot of time. But it we're just on The
+
+166
+00:10:16,520 --> 00:10:19,000
+Speaker 8:  Verge of that, which is personally really exciting for me. Yeah.
+
+167
+00:10:19,000 --> 00:10:22,760
+Speaker 7:  And, and it's important because like if you were to mix the artist, Jacob Collier,
+
+168
+00:10:22,850 --> 00:10:26,680
+Speaker 7:  who's Grammy winning artist, what is a, a small session of his like 400,
+
+169
+00:10:27,030 --> 00:10:30,800
+Speaker 7:  500 tracks definitely good Ford. Right? So if those haven't been labeled,
+
+170
+00:10:31,100 --> 00:10:34,920
+Speaker 7:  you got 400 to 500 tracks, I, apple literally expanded the number of
+
+171
+00:10:34,920 --> 00:10:38,880
+Speaker 7:  tracks that their d a w logic can have because he was feeling like he
+
+172
+00:10:38,880 --> 00:10:41,560
+Speaker 7:  was hamstrung by the number of tracks they could have. Yep. So you can have
+
+173
+00:10:41,560 --> 00:10:45,280
+Speaker 7:  these huge sessions if things are unlabeled. I mean, it could take an entire
+
+174
+00:10:45,420 --> 00:10:48,280
+Speaker 7:  day just to get things set up properly so you can make it. That
+
+175
+00:10:48,280 --> 00:10:48,800
+Speaker 8:  Makes time. Yeah.
+
+176
+00:10:48,800 --> 00:10:51,440
+Speaker 3:  Yeah, that's a really good example. I mean it's, it is kind of the, the like
+
+177
+00:10:51,440 --> 00:10:54,360
+Speaker 3:  the work about the work and that's so much of ai. Like we talk about this
+
+178
+00:10:54,360 --> 00:10:57,920
+Speaker 3:  even with like what Google and Microsoft are doing, where it's like you can't
+
+179
+00:10:57,980 --> 00:11:01,960
+Speaker 3:  do your actual sort of meaningful work better, but you
+
+180
+00:11:01,980 --> 00:11:05,720
+Speaker 3:  can turn an Excel spreadsheet into a PowerPoint deck more quickly.
+
+181
+00:11:06,060 --> 00:11:08,880
+Speaker 3:  And that's where we are with AI in a lot of places, I think. And that's,
+
+182
+00:11:09,060 --> 00:11:12,200
+Speaker 3:  that's fine and good. But yeah, it does feel like there's a, there's a leap
+
+183
+00:11:12,230 --> 00:11:16,200
+Speaker 3:  away before it starts being more than that. Like do you feel like you're
+
+184
+00:11:16,200 --> 00:11:20,120
+Speaker 3:  in a moment of existential business questions about like, how do I
+
+185
+00:11:20,120 --> 00:11:22,400
+Speaker 3:  do this job? We're gonna get to much more of that later
+
+186
+00:11:22,780 --> 00:11:26,080
+Speaker 8:  For sure. Preview it for us now. No, the toes in the water. Yeah. No, it's
+
+187
+00:11:26,080 --> 00:11:29,880
+Speaker 8:  definitely, I'm, I am not worried at all, nor
+
+188
+00:11:29,880 --> 00:11:33,720
+Speaker 8:  should anybody in my company be worried about like You know for,
+
+189
+00:11:33,950 --> 00:11:37,920
+Speaker 8:  it's just minuscule tasks at this point. There is You know, there's things
+
+190
+00:11:37,920 --> 00:11:40,520
+Speaker 8:  rolling through my head like, okay, we have this STEM technology to read
+
+191
+00:11:40,520 --> 00:11:44,400
+Speaker 8:  the stems, so that means You know that AI can't hear
+
+192
+00:11:44,800 --> 00:11:48,160
+Speaker 8:  critically, but it can like read waves and all that kind of stuff to really
+
+193
+00:11:48,160 --> 00:11:51,760
+Speaker 8:  understand what's going on. So it can tell what different elements are.
+
+194
+00:11:52,100 --> 00:11:55,920
+Speaker 8:  You can reference things that sound good and then it could like mix your
+
+195
+00:11:55,920 --> 00:11:59,800
+Speaker 8:  song in a way that sounds good. And You know it's, that is not at a point
+
+196
+00:11:59,800 --> 00:12:02,760
+Speaker 8:  we are at right now, that technology hasn't been made. But I see it in the
+
+197
+00:12:02,760 --> 00:12:06,400
+Speaker 8:  future for possibly being able to automate some of the bigger jobs that we
+
+198
+00:12:06,400 --> 00:12:09,640
+Speaker 8:  have. But just the data set that you would need in order to create that would
+
+199
+00:12:09,640 --> 00:12:12,120
+Speaker 8:  be incredible. You know. Totally. Yeah.
+
+200
+00:12:12,380 --> 00:12:16,240
+Speaker 7:  So I mean, music is music creation though. A big business is often
+
+201
+00:12:16,680 --> 00:12:20,320
+Speaker 7:  a lot of, a lot of the companies that serve the music professionals,
+
+202
+00:12:20,510 --> 00:12:23,920
+Speaker 7:  they're small businesses. I mean, some of them are multimillion dollar businesses,
+
+203
+00:12:23,920 --> 00:12:26,400
+Speaker 7:  but You know, if you look at like the synthesizer companies, they're like
+
+204
+00:12:26,440 --> 00:12:30,400
+Speaker 7:  a dozen people. They're using really old technology from the seventies. Often.
+
+205
+00:12:30,690 --> 00:12:33,840
+Speaker 7:  There are a handful of You know, certainly music technology companies that
+
+206
+00:12:33,840 --> 00:12:37,760
+Speaker 7:  are working in ai, but they don't have the resources of Google. Right. In
+
+207
+00:12:37,760 --> 00:12:41,360
+Speaker 7:  fact, some of the tools that we've used for fun have been created by Google
+
+208
+00:12:41,380 --> 00:12:45,040
+Speaker 7:  as sort of like side throwaway projects. And so one of the big problems I
+
+209
+00:12:45,040 --> 00:12:48,800
+Speaker 7:  think in servicing music professionals is large
+
+210
+00:12:48,950 --> 00:12:52,840
+Speaker 7:  good data sets that might exist for You know, helping us
+
+211
+00:12:52,840 --> 00:12:55,840
+Speaker 7:  make PowerPoints 'cause how many PowerPoints exist. Totally. But getting
+
+212
+00:12:55,840 --> 00:12:59,360
+Speaker 7:  access to good data. I mean, I remember The Verge had an amazing article
+
+213
+00:12:59,360 --> 00:13:02,720
+Speaker 7:  written by a You, know a former journalist here at Danny Deal who talked
+
+214
+00:13:02,720 --> 00:13:06,560
+Speaker 7:  about the metadata problem within music. And just like people don't submit
+
+215
+00:13:06,800 --> 00:13:10,760
+Speaker 7:  the metadata to the streaming services for you
+
+216
+00:13:10,760 --> 00:13:14,560
+Speaker 7:  to then know how to get paid. So there's just like, the data problem
+
+217
+00:13:14,580 --> 00:13:17,600
+Speaker 7:  is already such a significant problem throughout the music industry. More
+
+218
+00:13:17,600 --> 00:13:21,200
+Speaker 7:  broadly making tools that are built off of that training data
+
+219
+00:13:21,420 --> 00:13:25,360
+Speaker 7:  for our subset, fairly niche industry, I'm You know,
+
+220
+00:13:25,880 --> 00:13:29,680
+Speaker 7:  skeptical and expect the best tools probably being things that are
+
+221
+00:13:30,040 --> 00:13:31,520
+Speaker 7:  appropriated from the larger tech companies.
+
+222
+00:13:31,700 --> 00:13:35,120
+Speaker 3:  Got it. Okay. Alright. So the, the super primitive nature of all of this
+
+223
+00:13:35,120 --> 00:13:38,680
+Speaker 3:  makes me very excited for what's about to happen, which is
+
+224
+00:13:38,910 --> 00:13:42,320
+Speaker 3:  that I basically told you I wanted to talk about some of the specific tools
+
+225
+00:13:42,320 --> 00:13:45,080
+Speaker 3:  that are out there and how they're using 'em. And the two of you went like
+
+226
+00:13:45,080 --> 00:13:48,480
+Speaker 3:  several orders of magnitude beyond that. And you just made AI music
+
+227
+00:13:48,940 --> 00:13:50,920
+Speaker 3:  is essentially my understanding of what happened here.
+
+228
+00:13:51,180 --> 00:13:54,160
+Speaker 7:  We made music, you made using only AI tools.
+
+229
+00:13:54,350 --> 00:13:54,640
+Speaker 8:  Okay.
+
+230
+00:13:54,880 --> 00:13:57,160
+Speaker 3:  I wanna walk through this whole process. I wanna hear the thing that you
+
+231
+00:13:57,160 --> 00:13:59,600
+Speaker 3:  made. I have not heard any of this. I'm very excited. But before you get
+
+232
+00:13:59,600 --> 00:14:03,280
+Speaker 3:  into it, how was this process? You did this with like very little notice
+
+233
+00:14:03,380 --> 00:14:07,000
+Speaker 3:  or time. Has this, was this like, was this fun? Was this awful?
+
+234
+00:14:07,220 --> 00:14:09,880
+Speaker 3:  Was this, did you make the worst thing you've ever made in your lives and
+
+235
+00:14:09,880 --> 00:14:11,560
+Speaker 3:  you hate it forever? Like how did it feel?
+
+236
+00:14:11,880 --> 00:14:15,440
+Speaker 7:  I feel like Ian, you make stuff just every single day. How is this different
+
+237
+00:14:15,440 --> 00:14:17,440
+Speaker 7:  for you? I'm curious. I'm
+
+238
+00:14:17,540 --> 00:14:21,440
+Speaker 8:  So happy I was doing it with him, first of all, like a lot of other people,
+
+239
+00:14:21,440 --> 00:14:25,280
+Speaker 8:  this would've been so frustrating, but I felt like I had a broken leg the
+
+240
+00:14:25,280 --> 00:14:29,080
+Speaker 8:  whole time. It slowed down the process and it's not just like figuring
+
+241
+00:14:29,180 --> 00:14:32,640
+Speaker 8:  out these tools and how to use them, it's how to, like, we had to restart
+
+242
+00:14:32,640 --> 00:14:36,400
+Speaker 8:  and manipulate audio in a way after using the AI to
+
+243
+00:14:36,640 --> 00:14:40,120
+Speaker 8:  actually get it to fit in correctly, which was You know. So time
+
+244
+00:14:40,120 --> 00:14:43,840
+Speaker 8:  consuming when it's like, one of the tools we used was just to create a simple
+
+245
+00:14:43,910 --> 00:14:47,800
+Speaker 8:  base, which was just a sine wave. And I could have pulled up a plugin
+
+246
+00:14:47,800 --> 00:14:51,600
+Speaker 8:  and done it in 30 seconds, but in order to try and create
+
+247
+00:14:51,760 --> 00:14:54,680
+Speaker 8:  a sine wave using some of these things, it took us 10 minutes. You know.
+
+248
+00:14:54,980 --> 00:14:58,960
+Speaker 8:  So it was just a slow process just going through the entire
+
+249
+00:14:58,960 --> 00:15:02,640
+Speaker 8:  thing. And You know, it's really fun getting starter ideas and little things
+
+250
+00:15:02,640 --> 00:15:06,400
+Speaker 8:  that I personally wouldn't think of and pulling those in, but using it
+
+251
+00:15:06,460 --> 00:15:09,440
+Speaker 8:  for the entire process was very inhibiting.
+
+252
+00:15:10,000 --> 00:15:13,120
+Speaker 7:  I believe that. Yeah, I mean, learning any new tool is always gonna slow
+
+253
+00:15:13,120 --> 00:15:16,160
+Speaker 7:  you down, like with any studio tool as well. Like if you get new equipment
+
+254
+00:15:16,160 --> 00:15:18,880
+Speaker 7:  in the studio, you gotta kind of spend an hour learning it. So there definitely,
+
+255
+00:15:19,060 --> 00:15:22,960
+Speaker 7:  we, we were held back by using new things while trying to be
+
+256
+00:15:23,040 --> 00:15:26,600
+Speaker 7:  creative at the same time. That said, most of the material that we put together
+
+257
+00:15:26,600 --> 00:15:29,840
+Speaker 7:  would've been a lot easier if we could have just used the existing tool sets
+
+258
+00:15:29,840 --> 00:15:33,480
+Speaker 7:  that we already have. So it was a fun exercise, a set of
+
+259
+00:15:33,480 --> 00:15:37,080
+Speaker 7:  constraints and a fun excuse to hang out and make a song together. Love it.
+
+260
+00:15:37,090 --> 00:15:37,560
+Speaker 8:  Let's, so
+
+261
+00:15:37,560 --> 00:15:40,640
+Speaker 3:  Let's, let's do it. Walk me through like, okay, you, you sit down to do this.
+
+262
+00:15:40,640 --> 00:15:41,800
+Speaker 3:  Where do you even, where do you start?
+
+263
+00:15:42,270 --> 00:15:45,680
+Speaker 7:  Well, I had done a little bit of research the night before to make sure and
+
+264
+00:15:45,680 --> 00:15:49,240
+Speaker 7:  You know, I I, I cover music. And so I had a list of things I
+
+265
+00:15:49,460 --> 00:15:53,000
+Speaker 7:  was curious about exploring and we thought that we should probably begin
+
+266
+00:15:53,000 --> 00:15:56,880
+Speaker 7:  with an idea, right? Like typically a good song is gonna
+
+267
+00:15:56,880 --> 00:16:00,200
+Speaker 7:  have some kind of hook, some kind of core idea that's gonna guide it so that
+
+268
+00:16:00,200 --> 00:16:03,760
+Speaker 7:  we'd know which direction to go in. And we figured we could
+
+269
+00:16:03,980 --> 00:16:07,120
+Speaker 7:  use chat G P T, which is the You, know that that would be the top of the
+
+270
+00:16:07,120 --> 00:16:09,480
+Speaker 7:  funnel. Everyone knows it. Let's see if we can love it. Use that for some
+
+271
+00:16:09,480 --> 00:16:11,840
+Speaker 7:  sort of creative purpose. And so I came into the room and I had been talking
+
+272
+00:16:11,840 --> 00:16:15,160
+Speaker 7:  about, I've just started a, a teaching position, which I is really fun for
+
+273
+00:16:15,160 --> 00:16:18,600
+Speaker 7:  me, I'm teaching a, a, a music school and I actually didn't finish my music
+
+274
+00:16:18,600 --> 00:16:22,160
+Speaker 7:  major. So there's kind of this like imposter syndrome that I have of going
+
+275
+00:16:22,190 --> 00:16:24,840
+Speaker 7:  into class every day and teaching something where I, I kind of dropped that
+
+276
+00:16:24,840 --> 00:16:28,080
+Speaker 7:  major. And so I thought, well let's, let's go with that idea. And then I
+
+277
+00:16:28,080 --> 00:16:30,320
+Speaker 7:  think you went a little further and like, how about, let's, let's take it
+
+278
+00:16:30,320 --> 00:16:33,960
+Speaker 7:  to like a, just the feeling of like not belonging. And so you
+
+279
+00:16:34,270 --> 00:16:37,960
+Speaker 7:  made an amma, you have a way of prompting chat, g p t Ian that is
+
+280
+00:16:38,070 --> 00:16:41,360
+Speaker 7:  sophisticated and re results in some lyrics. I don't
+
+281
+00:16:41,360 --> 00:16:45,160
+Speaker 8:  Find it sophisticated, but thank you. Yeah. So essentially he had the
+
+282
+00:16:45,160 --> 00:16:47,920
+Speaker 8:  imposter syndrome idea and I was thinking like, okay, what can we make this
+
+283
+00:16:47,920 --> 00:16:51,520
+Speaker 8:  more standard song core lyrical content
+
+284
+00:16:52,230 --> 00:16:55,960
+Speaker 8:  wise? And so what we, what I thought it was like, okay, I have
+
+285
+00:16:55,960 --> 00:16:59,000
+Speaker 8:  imposter syndrome, but imposter syndrome was somebody else. It'd be really
+
+286
+00:16:59,000 --> 00:17:02,760
+Speaker 8:  easy to jump into a relationship. So I prompted a little bit of relationship
+
+287
+00:17:02,980 --> 00:17:06,880
+Speaker 8:  and then I also prompted it with, I have imposter syndrome being in
+
+288
+00:17:06,880 --> 00:17:10,760
+Speaker 8:  this musical or in any world with ai also there I feel like
+
+289
+00:17:10,760 --> 00:17:14,080
+Speaker 8:  it's better than me. I feel like it can do better than me. So a lot of You
+
+290
+00:17:14,080 --> 00:17:17,840
+Speaker 8:  know the nouns and things like that that we're verbs and everything were
+
+291
+00:17:17,840 --> 00:17:20,800
+Speaker 8:  like electrical techie, stuff like that, which is really
+
+292
+00:17:21,000 --> 00:17:24,360
+Speaker 7:  Interesting. Ian basically writes like a multi-paragraph long prompt that
+
+293
+00:17:24,360 --> 00:17:27,360
+Speaker 7:  is just like, you have this way of just kind of like it's stream vomiting,
+
+294
+00:17:27,360 --> 00:17:29,480
+Speaker 7:  word consciousness, stream of consciousness. Like maybe that will prompt
+
+295
+00:17:29,760 --> 00:17:32,280
+Speaker 7:  interesting and creative things. And, and we, we, I think we came to the
+
+296
+00:17:32,280 --> 00:17:34,400
+Speaker 7:  idea that like, we would like this song to be maybe from the perspective
+
+297
+00:17:34,400 --> 00:17:38,320
+Speaker 7:  of an AI that has imposter syndrome trying to exist in the world. Ian
+
+298
+00:17:38,320 --> 00:17:42,280
+Speaker 7:  has this amazing studio in midtown that, that has the, they're on the
+
+299
+00:17:42,280 --> 00:17:46,080
+Speaker 7:  eighth floor with this giant window that overlooks the Empire State Building.
+
+300
+00:17:46,220 --> 00:17:49,720
+Speaker 7:  So, we had to make it also set in New York. Sure. So, we sent that prompt
+
+301
+00:17:49,740 --> 00:17:52,960
+Speaker 7:  in and we got back garbage. Yep.
+
+302
+00:17:53,980 --> 00:17:55,880
+Speaker 7:  He used chat G P T 3.5. Yeah.
+
+303
+00:17:55,880 --> 00:17:56,400
+Speaker 8:  He used four. Okay.
+
+304
+00:17:56,600 --> 00:17:59,040
+Speaker 7:  I used four. I think four is supposed to be the more creative. Yeah. And
+
+305
+00:17:59,040 --> 00:18:02,840
+Speaker 7:  so this is what we got from our just first verse. After this big prompt
+
+306
+00:18:03,110 --> 00:18:06,760
+Speaker 7:  woke up today in a world so bright but shadows formed beneath the city lights,
+
+307
+00:18:06,900 --> 00:18:10,360
+Speaker 7:  you're soaring high. While I remain tied to the ground by invisible
+
+308
+00:18:10,500 --> 00:18:14,230
+Speaker 7:  chains, starting a song with woke up today has got to be the most
+
+309
+00:18:15,130 --> 00:18:16,790
+Speaker 7:  cliche way of beginning a song.
+
+310
+00:18:17,180 --> 00:18:19,070
+Speaker 8:  It's like an off, off, off Broadway show. That,
+
+311
+00:18:21,010 --> 00:18:24,950
+Speaker 7:  And so the real challenge here is it does write Yeah.
+
+312
+00:18:24,950 --> 00:18:28,390
+Speaker 7:  The most cliche kind of lyrics, very obvious end rhymes,
+
+313
+00:18:29,010 --> 00:18:32,870
+Speaker 7:  bright lights, remain chains. Oh, that's kind of nice. It
+
+314
+00:18:33,030 --> 00:18:35,790
+Speaker 7:  actually made a slant rhyme. Sure. But it's, it's really bad at like multi
+
+315
+00:18:36,030 --> 00:18:39,830
+Speaker 7:  syllabic rhymes, which is what makes You know a great verse, strange
+
+316
+00:18:39,840 --> 00:18:43,110
+Speaker 7:  rhyme schemes and things like that. We were also upset that it was kind of
+
+317
+00:18:43,120 --> 00:18:46,670
+Speaker 7:  vague. Good songs are gonna have some specifics. Like you want the Red scarf
+
+318
+00:18:46,670 --> 00:18:48,990
+Speaker 7:  and a Taylor Swift song. Sure. That's gonna guide you through the entire
+
+319
+00:18:48,990 --> 00:18:52,710
+Speaker 7:  narrative. And So, we, we tried a different approach. I I borrowed
+
+320
+00:18:52,740 --> 00:18:56,390
+Speaker 7:  this songwriting tool from Jeff Tweedy of Wilco
+
+321
+00:18:56,690 --> 00:18:59,590
+Speaker 7:  and he's got this idea where you wanna hack your brain and put together
+
+322
+00:19:00,550 --> 00:19:04,110
+Speaker 7:  unlikely pairings of words are often where you find interesting new meaning.
+
+323
+00:19:04,610 --> 00:19:08,510
+Speaker 7:  So I said, give me, this is one of his exercises. Give me
+
+324
+00:19:08,930 --> 00:19:12,790
+Speaker 7:  10 verbs that are about imposter syndrome and then
+
+325
+00:19:13,100 --> 00:19:16,950
+Speaker 7:  give me 10 nouns that are objects in New York City. And it
+
+326
+00:19:16,950 --> 00:19:20,910
+Speaker 7:  started giving me more interesting Okay. Poetic things, including intruding
+
+327
+00:19:21,260 --> 00:19:24,750
+Speaker 7:  skyscrapers, shattering street lamps, looting
+
+328
+00:19:24,800 --> 00:19:28,630
+Speaker 7:  newsstands, tampering, taxis. I said, okay, well take some of those
+
+329
+00:19:28,690 --> 00:19:32,190
+Speaker 7:  and try to write some lyrics. So it gave me this verse,
+
+330
+00:19:32,340 --> 00:19:36,070
+Speaker 7:  intruding skyscrapers piercing the night in their looming shadows. We tried
+
+331
+00:19:36,070 --> 00:19:39,790
+Speaker 7:  to find the light Sneaking subways silent cries. They echo
+
+332
+00:19:40,280 --> 00:19:43,270
+Speaker 7:  We're in different lanes waiting for the metro. Now
+
+333
+00:19:43,570 --> 00:19:45,430
+Speaker 8:  Better, not better. Better.
+
+334
+00:19:46,010 --> 00:19:49,710
+Speaker 7:  We liked Metro, although clearly nobody in New York City calls
+
+335
+00:19:49,970 --> 00:19:50,710
+Speaker 7:  the subway, the metro
+
+336
+00:19:50,830 --> 00:19:52,750
+Speaker 8:  Sneaking subways kind of works for me. Yeah. I
+
+337
+00:19:52,750 --> 00:19:55,510
+Speaker 7:  Like sneaking subways. And then, so then I was like, wait, we need more specific
+
+338
+00:19:55,510 --> 00:19:58,350
+Speaker 7:  things. So I then prompted it further and was like, but can you give me some
+
+339
+00:19:58,750 --> 00:20:00,190
+Speaker 7:  specific places in New York City now
+
+340
+00:20:00,190 --> 00:20:01,550
+Speaker 8:  We go down the rabbit hole and,
+
+341
+00:20:01,810 --> 00:20:05,710
+Speaker 7:  And, and it updated it to intruding skyscrapers. The empires might by the
+
+342
+00:20:05,710 --> 00:20:09,190
+Speaker 7:  Flat Iron building. We first saw the light Sneaking Subways beneath the Central
+
+343
+00:20:09,220 --> 00:20:12,870
+Speaker 7:  Park by the Bethesda Terrace. We lost our spark. And you immediately start
+
+344
+00:20:12,870 --> 00:20:14,150
+Speaker 7:  singing. Do you
+
+345
+00:20:14,310 --> 00:20:15,190
+Speaker 8:  Remember No, no.
+
+346
+00:20:16,010 --> 00:20:17,670
+Speaker 7:  The the Alicia Keys song.
+
+347
+00:20:17,770 --> 00:20:21,230
+Speaker 8:  Oh yeah. In New York. It was just so like
+
+348
+00:20:21,230 --> 00:20:25,070
+Speaker 8:  incredibly specific or like gave You know I i I
+
+349
+00:20:25,100 --> 00:20:28,750
+Speaker 8:  love an actual place, something tangible. Sure. You know. Like I put the
+
+350
+00:20:28,820 --> 00:20:32,350
+Speaker 8:  word Bowery in so many of my songs. It's ridiculous. But
+
+351
+00:20:32,810 --> 00:20:35,230
+Speaker 8:  not every line. Yeah. It's, it's, yeah. So we kept
+
+352
+00:20:35,230 --> 00:20:37,910
+Speaker 7:  Prompting and kept prompting and trying to get better material out of it
+
+353
+00:20:37,910 --> 00:20:41,390
+Speaker 7:  and it just wasn't working. And So, we decided to go with sort of the, the,
+
+354
+00:20:41,470 --> 00:20:44,350
+Speaker 7:  I think what was the second prompt? The one that used that sort of noun verb
+
+355
+00:20:44,590 --> 00:20:48,360
+Speaker 7:  exercise. Sure. And Ian is really good at reducing
+
+356
+00:20:48,860 --> 00:20:52,760
+Speaker 7:  bad lyrics that's been submitted to him and make them You know more Singable
+
+357
+00:20:53,300 --> 00:20:57,240
+Speaker 7:  So. we knew we had something he could work with. I think my favorite
+
+358
+00:20:57,540 --> 00:21:01,000
+Speaker 7:  AI tool actually that we used the entire time, I'm assuming it's ai, I don't
+
+359
+00:21:01,000 --> 00:21:04,560
+Speaker 7:  know, was he took a picture of my computer screen
+
+360
+00:21:04,910 --> 00:21:08,560
+Speaker 7:  with the lyrics on it and Apple automatically can
+
+361
+00:21:08,800 --> 00:21:11,200
+Speaker 7:  identify the text. Oh sure. And he can copy and paste the text from the picture
+
+362
+00:21:11,270 --> 00:21:14,000
+Speaker 7:  into an Apple note and edit it. I think most of,
+
+363
+00:21:14,120 --> 00:21:15,360
+Speaker 3:  I love that that's the best ai
+
+364
+00:21:15,790 --> 00:21:17,240
+Speaker 7:  That was, that was the best thing that
+
+365
+00:21:17,240 --> 00:21:18,000
+Speaker 3:  We used. That is so telling
+
+366
+00:21:18,460 --> 00:21:21,520
+Speaker 7:  And I, I think Mo, the tools that I had the most fun with are the things
+
+367
+00:21:21,520 --> 00:21:25,240
+Speaker 7:  that often market their AI the least. Interesting.
+
+368
+00:21:25,460 --> 00:21:28,480
+Speaker 7:  So I don't know if there's some sort of You know machine learning in, in
+
+369
+00:21:28,480 --> 00:21:29,160
+Speaker 7:  that tool. Yeah, no,
+
+370
+00:21:29,160 --> 00:21:30,640
+Speaker 3:  That counts. I'm, that's ai. Okay. Yeah, we're good.
+
+371
+00:21:30,640 --> 00:21:33,240
+Speaker 7:  Okay, great. Great, great. Alright, we got an idea. We've got some rough
+
+372
+00:21:33,440 --> 00:21:37,120
+Speaker 7:  lyrics. We need a vibe and So, we went hunting for sounds and
+
+373
+00:21:37,540 --> 00:21:41,200
+Speaker 7:  the first place we went was a, a website called Suno. Suno is kind of like
+
+374
+00:21:41,200 --> 00:21:44,720
+Speaker 7:  the mid journey for music. They have a Discord server
+
+375
+00:21:44,930 --> 00:21:48,160
+Speaker 7:  where you can enter a prompt and it's gonna spit out rather than a picture
+
+376
+00:21:48,160 --> 00:21:52,080
+Speaker 7:  like mid journey. It's gonna, it's gonna spit out music and it's, I believe
+
+377
+00:21:52,170 --> 00:21:56,120
+Speaker 7:  fully synthesized music including lyrics and and vocals.
+
+378
+00:21:56,540 --> 00:22:00,240
+Speaker 7:  So can I play you what we got please? Okay. We're just gonna do a smattering
+
+379
+00:22:00,240 --> 00:22:04,080
+Speaker 7:  of sounds for now. We entered the first verse that intruding skyscrapers
+
+380
+00:22:04,080 --> 00:22:05,120
+Speaker 7:  verse, and this is what it gave us.
+
+381
+00:22:09,430 --> 00:22:11,200
+Speaker 9:  Intruding skyscrapers.
+
+382
+00:22:20,620 --> 00:22:21,800
+Speaker 9:  Try to find the light.
+
+383
+00:22:22,400 --> 00:22:25,560
+Speaker 7:  I was like, okay, I like the Nokia ringtone. Yep. We're gonna use that. Yep.
+
+384
+00:22:25,700 --> 00:22:27,280
+Speaker 7:  And we've got some vocals like,
+
+385
+00:22:27,280 --> 00:22:29,800
+Speaker 3:  So all of that was synthesized. That was also because you fed a text and
+
+386
+00:22:29,800 --> 00:22:30,600
+Speaker 3:  it came back with that. That's right.
+
+387
+00:22:30,710 --> 00:22:34,240
+Speaker 8:  Also, this is the full audio quality, like to be told to
+
+388
+00:22:34,240 --> 00:22:34,760
+Speaker 7:  Oh yeah. It's like
+
+389
+00:22:34,760 --> 00:22:38,240
+Speaker 8:  A this, this isn't being degraded at all through the listening process here.
+
+390
+00:22:38,510 --> 00:22:40,480
+Speaker 8:  This is the full auto audio qualities
+
+391
+00:22:40,660 --> 00:22:43,040
+Speaker 3:  It came out. It's basically Nokia ringtone quality. Yeah,
+
+392
+00:22:43,040 --> 00:22:46,360
+Speaker 7:  Yeah, exactly. Okay. And then actually just like mid journey, it will give
+
+393
+00:22:46,360 --> 00:22:48,720
+Speaker 7:  you alternatives. So it gave us this other track as well.
+
+394
+00:22:53,020 --> 00:22:55,720
+Speaker 7:  And this one we thought was kind of trash, but it has this Yeah.
+
+395
+00:22:55,950 --> 00:22:58,560
+Speaker 3:  Getting like bad country song vibes from this.
+
+396
+00:22:58,560 --> 00:23:00,840
+Speaker 7:  Yeah, yeah. But we like this little sort of piano we syn thing.
+
+397
+00:23:02,380 --> 00:23:05,920
+Speaker 7:  Now we have the problem that we want these individual pieces of material
+
+398
+00:23:05,980 --> 00:23:09,400
+Speaker 7:  to play with So. we go to a website called Audio
+
+399
+00:23:09,530 --> 00:23:12,680
+Speaker 7:  shake.ai and they will stem your
+
+400
+00:23:12,920 --> 00:23:16,320
+Speaker 7:  pre-existing music for you. Right. So, we need it all separated. Audios shape
+
+401
+00:23:16,390 --> 00:23:20,120
+Speaker 7:  will take that track and it gives us the vocals, the little
+
+402
+00:23:20,120 --> 00:23:23,600
+Speaker 7:  piano riff we liked from the first one and, and some of like other stuff.
+
+403
+00:23:23,700 --> 00:23:26,160
+Speaker 7:  And then you can You know, listen to 'em individually. So
+
+404
+00:23:26,160 --> 00:23:28,640
+Speaker 3:  This seems like the kind of thing that I could see being useful for lots
+
+405
+00:23:28,640 --> 00:23:31,640
+Speaker 3:  of things in the world, but not really in the music making process. Like
+
+406
+00:23:32,060 --> 00:23:35,880
+Speaker 3:  are you often pulling stems out of existing things when you're making music?
+
+407
+00:23:35,990 --> 00:23:36,400
+Speaker 3:  Well, I
+
+408
+00:23:36,400 --> 00:23:38,560
+Speaker 8:  Mean generally that's against copyright So we can't, well,
+
+409
+00:23:38,560 --> 00:23:39,520
+Speaker 3:  Yeah, exactly. Yeah.
+
+410
+00:23:40,020 --> 00:23:43,960
+Speaker 7:  People use it for remixing so, sure. So especially when, when like it's a
+
+411
+00:23:43,960 --> 00:23:47,600
+Speaker 7:  really old song and so you do have the rights for it. Big name artists
+
+412
+00:23:48,040 --> 00:23:50,960
+Speaker 7:  actually using this tool to be able to get the stem spiel to remix. Right.
+
+413
+00:23:50,960 --> 00:23:53,200
+Speaker 3:  Yeah. You also see it all over TikTok and stuff. They're using it to like
+
+414
+00:23:53,200 --> 00:23:54,560
+Speaker 3:  isolate the vocals and stuff like that. For
+
+415
+00:23:54,560 --> 00:23:57,000
+Speaker 7:  Sure. Kinda stuff. Yeah. Yeah. Right. Okay. So isolating vocals, shooting
+
+416
+00:23:57,680 --> 00:23:58,240
+Speaker 9:  Scrapers.
+
+417
+00:23:58,380 --> 00:24:01,920
+Speaker 7:  We now have isolated vocals. Okay. Right. And we have a little fun riff,
+
+418
+00:24:02,030 --> 00:24:03,240
+Speaker 7:  this little senty thing.
+
+419
+00:24:05,160 --> 00:24:08,640
+Speaker 7:  I do like that my, my my noke, my Nokia ringtone. The ringtone is nice. Okay.
+
+420
+00:24:08,820 --> 00:24:12,360
+Speaker 7:  So that's the first sound we assemble. We've got Suno, we also
+
+421
+00:24:12,500 --> 00:24:12,920
+Speaker 7:  pulled
+
+422
+00:24:13,250 --> 00:24:14,640
+Speaker 3:  Piano riffs. Yeah.
+
+423
+00:24:15,030 --> 00:24:18,200
+Speaker 7:  That thing from the Bad Country song. Yeah, we got that as well. Alright.
+
+424
+00:24:18,380 --> 00:24:22,000
+Speaker 7:  So, we got those sounds. I then just went to like a ton of other,
+
+425
+00:24:22,420 --> 00:24:25,920
+Speaker 7:  we will make music for you AI sites thinking maybe I can just keep stemming
+
+426
+00:24:25,920 --> 00:24:29,880
+Speaker 7:  stuff. And a lot of them are really bad. The quality of music that we
+
+427
+00:24:29,880 --> 00:24:33,560
+Speaker 7:  were getting back would not fit like top 40 pop
+
+428
+00:24:33,710 --> 00:24:37,400
+Speaker 7:  kind of vibe. They're much more like background advertisement,
+
+429
+00:24:37,590 --> 00:24:41,280
+Speaker 7:  sort of mood music. But we figured maybe we could You know Get
+
+430
+00:24:41,520 --> 00:24:45,480
+Speaker 7:  Inspired by One. And So, we went to a place called Sound Full and heard this
+
+431
+00:24:45,480 --> 00:24:47,600
+Speaker 7:  music, which I think sounds like a pharma ad
+
+432
+00:24:51,790 --> 00:24:55,160
+Speaker 3:  Side effects include try out. Yeah, yeah,
+
+433
+00:24:55,310 --> 00:24:59,080
+Speaker 7:  Exactly. And we're like, okay, So, we, we took this to Audio
+
+434
+00:24:59,080 --> 00:25:00,960
+Speaker 7:  Shake and we got the piano,
+
+435
+00:25:03,450 --> 00:25:04,080
+Speaker 3:  Which okay,
+
+436
+00:25:04,820 --> 00:25:08,280
+Speaker 7:  The quality is not great, but
+
+437
+00:25:08,790 --> 00:25:12,600
+Speaker 7:  this guy's a wizard. I, we knew he could do something with it. When we play
+
+438
+00:25:12,600 --> 00:25:15,760
+Speaker 7:  with it, we got a few more sounds. We went to
+
+439
+00:25:16,520 --> 00:25:19,840
+Speaker 7:  Splice is one of the biggest libraries of samples
+
+440
+00:25:20,340 --> 00:25:24,320
+Speaker 7:  and they have a new tool that will automatically pair different samples together
+
+441
+00:25:24,380 --> 00:25:27,760
+Speaker 7:  for you as sort of like a starter. Okay. And we went to their
+
+442
+00:25:28,430 --> 00:25:32,320
+Speaker 7:  beta AI tool and they made this sound for us.
+
+443
+00:25:35,570 --> 00:25:35,920
+Speaker 1:  These
+
+444
+00:25:35,920 --> 00:25:38,640
+Speaker 7:  Are four different samples that splice just kind of randomly put together.
+
+445
+00:25:40,180 --> 00:25:43,960
+Speaker 7:  And we thought sounded kind of like a really bad phone call again.
+
+446
+00:25:44,550 --> 00:25:44,840
+Speaker 3:  Yeah.
+
+447
+00:25:45,070 --> 00:25:49,000
+Speaker 7:  Like you're on waiting. It's like, but we liked the kick drum So.
+
+448
+00:25:49,000 --> 00:25:50,520
+Speaker 7:  we, we, we got the kick drum. Okay. Full
+
+449
+00:25:50,530 --> 00:25:52,480
+Speaker 8:  Drums. Yeah. The snare too. You
+
+450
+00:25:52,740 --> 00:25:56,400
+Speaker 7:  Had a sample of your own. Ian has has a You know
+
+451
+00:25:56,400 --> 00:26:00,200
+Speaker 7:  professional producer has a bunch of starter sounds that he can bring to
+
+452
+00:26:00,220 --> 00:26:03,640
+Speaker 7:  any session and just like get things going creatively. But we had to figure
+
+453
+00:26:03,640 --> 00:26:07,240
+Speaker 7:  out how to process something he'd already made through ai. Sure. And so there
+
+454
+00:26:07,240 --> 00:26:11,200
+Speaker 7:  was a tool by a company called Output called Arcade that will automatically
+
+455
+00:26:11,200 --> 00:26:15,080
+Speaker 7:  take your sample and play it back to you with some kind of AI tool
+
+456
+00:26:15,190 --> 00:26:17,160
+Speaker 7:  that will make some creative choices with that
+
+457
+00:26:17,160 --> 00:26:20,520
+Speaker 8:  Sample. It's essentially the listening and chopping arcade also does a creative
+
+458
+00:26:20,880 --> 00:26:23,960
+Speaker 8:  function where you can set the key and it looks at the tempo. Okay. And then
+
+459
+00:26:23,960 --> 00:26:27,360
+Speaker 8:  it will give you sounds that could work. It's not using any kind of learning
+
+460
+00:26:27,360 --> 00:26:30,440
+Speaker 8:  technology in this case, but they have a new portion where you can input
+
+461
+00:26:30,560 --> 00:26:34,160
+Speaker 8:  a sample. It learns that sample, figures out where to chop it and then
+
+462
+00:26:34,210 --> 00:26:36,760
+Speaker 8:  plays it back to you in creative chops. I see.
+
+463
+00:26:36,760 --> 00:26:38,280
+Speaker 7:  Okay. So here's the chops that it gave us
+
+464
+00:26:44,940 --> 00:26:48,200
+Speaker 7:  all. Now we have a selection of sounds like basically we have lyrics, we
+
+465
+00:26:48,200 --> 00:26:51,920
+Speaker 7:  have collected our paints, we gotta now put something together. Right. And
+
+466
+00:26:52,300 --> 00:26:54,280
+Speaker 8:  All in different keys, all in different tempos.
+
+467
+00:26:54,760 --> 00:26:57,960
+Speaker 7:  I think that whole process took us like two and a half hours of getting all
+
+468
+00:26:57,960 --> 00:27:01,240
+Speaker 7:  that material and just like getting something to work with. And we have
+
+469
+00:27:01,240 --> 00:27:02,440
+Speaker 3:  A lot of piano tracks, a
+
+470
+00:27:02,440 --> 00:27:03,400
+Speaker 7:  Lot of piano tracks that we're
+
+471
+00:27:03,400 --> 00:27:04,160
+Speaker 3:  Keeping track. Yeah. Yeah.
+
+472
+00:27:04,420 --> 00:27:04,640
+Speaker 7:  I'm
+
+473
+00:27:04,640 --> 00:27:06,000
+Speaker 3:  Feeling this is gonna be a very moody song.
+
+474
+00:27:06,140 --> 00:27:08,920
+Speaker 7:  We were thinking moody. Yeah. I mean like, because we actually made a, I
+
+475
+00:27:08,920 --> 00:27:12,200
+Speaker 7:  didn't say we did make a little reference playlist of, of artists that maybe
+
+476
+00:27:12,290 --> 00:27:15,640
+Speaker 7:  could inspire the vibe. We, we definitely wanted Moody Piano was on there.
+
+477
+00:27:15,940 --> 00:27:19,320
+Speaker 7:  We wanted a sort of mid tempo, happy, sad
+
+478
+00:27:20,160 --> 00:27:23,400
+Speaker 7:  walking through New York in the rain kind of thing at night. Yeah. But it's
+
+479
+00:27:23,400 --> 00:27:27,080
+Speaker 7:  like neon all around. All right. So that's, that's the vibe. Yeah. And with
+
+480
+00:27:27,080 --> 00:27:30,080
+Speaker 7:  all of that prompt, we probably could have written a song war two in the
+
+481
+00:27:30,080 --> 00:27:32,560
+Speaker 7:  amount of time that it took us to collect these sounds, which are very sure
+
+482
+00:27:32,890 --> 00:27:36,600
+Speaker 7:  lo-fi and need a lot of processes make sound good. So Ian
+
+483
+00:27:36,890 --> 00:27:40,680
+Speaker 7:  takes first the piano and gives us
+
+484
+00:27:40,990 --> 00:27:44,240
+Speaker 7:  this riff. The, the piano from Suno,
+
+485
+00:27:50,900 --> 00:27:52,240
+Speaker 7:  the piano from Sound, actually,
+
+486
+00:27:58,740 --> 00:28:01,530
+Speaker 7:  which You know sounds a whole lot better than
+
+487
+00:28:04,510 --> 00:28:04,730
+Speaker 1:  Oof.
+
+488
+00:28:04,840 --> 00:28:07,490
+Speaker 3:  Yeah. That's where we started. Yeah. So that's
+
+489
+00:28:07,490 --> 00:28:10,250
+Speaker 7:  Where we start. And then I think we had these like interesting, we, we had
+
+490
+00:28:10,250 --> 00:28:11,250
+Speaker 7:  those like sparkly sound effects
+
+491
+00:28:13,950 --> 00:28:14,930
+Speaker 8:  That's no. Yeah, yeah.
+
+492
+00:28:15,310 --> 00:28:16,210
+Speaker 7:  We piled 'em together
+
+493
+00:28:22,030 --> 00:28:23,370
+Speaker 7:  and Then, we had that kick drum.
+
+494
+00:28:31,050 --> 00:28:34,990
+Speaker 7:  It took us probably half hour to process the sounds to actually sound better
+
+495
+00:28:35,060 --> 00:28:38,910
+Speaker 7:  than they initially did. We thought, okay, that's sort of like a
+
+496
+00:28:38,910 --> 00:28:42,550
+Speaker 7:  pre chorus chorus. Now let's use some of our other sounds. Let's make a verse.
+
+497
+00:28:42,930 --> 00:28:46,870
+Speaker 7:  And one of the issues is we didn't have a base and we were trying to
+
+498
+00:28:46,870 --> 00:28:50,710
+Speaker 7:  limit ourselves to only the sounds that we had at our disposal. So. we
+
+499
+00:28:50,710 --> 00:28:54,350
+Speaker 7:  took this tiny little sample from Suno
+
+500
+00:28:54,360 --> 00:28:57,630
+Speaker 7:  again, SUNO the sort of mid journey like right app
+
+501
+00:28:59,060 --> 00:28:59,350
+Speaker 7:  that
+
+502
+00:28:59,660 --> 00:29:00,390
+Speaker 3:  Just that Okay.
+
+503
+00:29:00,390 --> 00:29:03,230
+Speaker 7:  That and I turned that into a bass sound
+
+504
+00:29:06,330 --> 00:29:09,110
+Speaker 3:  That's like a space base space. Okay. By like
+
+505
+00:29:09,220 --> 00:29:12,510
+Speaker 7:  Staring and fiddling a basically I put that into a sampler. I process it,
+
+506
+00:29:12,510 --> 00:29:15,190
+Speaker 7:  I do a bunch of different things to it to give us some kind of base something.
+
+507
+00:29:15,450 --> 00:29:18,750
+Speaker 7:  And I think it, I used the same sample. And to make this as well,
+
+508
+00:29:22,130 --> 00:29:25,550
+Speaker 8:  It just took so long to long get from that one to another one. We just had
+
+509
+00:29:25,550 --> 00:29:28,470
+Speaker 8:  to run it through like three plugins and yeah, it was, okay.
+
+510
+00:29:28,690 --> 00:29:31,830
+Speaker 7:  So, and we have one more sound, which was this,
+
+511
+00:29:34,510 --> 00:29:36,230
+Speaker 7:  I can't even remember which one this came from. That
+
+512
+00:29:36,230 --> 00:29:36,750
+Speaker 8:  Was from my loop.
+
+513
+00:29:36,980 --> 00:29:37,670
+Speaker 7:  That was your, this is your
+
+514
+00:29:37,670 --> 00:29:39,150
+Speaker 8:  Loop from the arcade. Yeah. Got it. This is the
+
+515
+00:29:39,150 --> 00:29:43,120
+Speaker 7:  Arcade loop. Okay. And so kind of all those things together, give us a verse
+
+516
+00:29:43,270 --> 00:29:43,560
+Speaker 7:  vibe.
+
+517
+00:29:49,420 --> 00:29:51,520
+Speaker 7:  And then I think there's just other little chirpy sound
+
+518
+00:29:54,460 --> 00:29:55,120
+Speaker 10:  As the piano
+
+519
+00:29:58,540 --> 00:30:01,360
+Speaker 7:  And the sounds are like, they're a little, they're they're, they've got a
+
+520
+00:30:01,360 --> 00:30:04,840
+Speaker 7:  lot of texture we'll say. I think they sound kind of like the Nokia ringtone
+
+521
+00:30:04,840 --> 00:30:08,640
+Speaker 7:  is probably the best metaphor, but for me it's like those really bad MP
+
+522
+00:30:08,640 --> 00:30:11,840
+Speaker 7:  threes that you definitely didn't download off of Kaza or Napster You know
+
+523
+00:30:11,840 --> 00:30:14,360
+Speaker 7:  20 years ago. That's kind of the quality that they came in. Yeah.
+
+524
+00:30:14,790 --> 00:30:18,200
+Speaker 3:  Yeah. There's that one that it kind of makes you wanna like peel your headphone
+
+525
+00:30:18,240 --> 00:30:21,280
+Speaker 3:  off just to make sure it's like not you didn't blow your speakers. Yep. Yeah.
+
+526
+00:30:21,460 --> 00:30:24,960
+Speaker 7:  So the next thing is, okay, we have, now we have a vibe, we have some lyrics.
+
+527
+00:30:24,960 --> 00:30:28,880
+Speaker 7:  We've got to put together some kind of, we'll call top line. We need a melody
+
+528
+00:30:28,940 --> 00:30:32,720
+Speaker 7:  that's gonna go on top. This is where I think we gave up on
+
+529
+00:30:32,720 --> 00:30:36,480
+Speaker 7:  trying to use an AI to write a melody. I was just like, Ian get in the booth.
+
+530
+00:30:36,830 --> 00:30:37,120
+Speaker 7:  Sure.
+
+531
+00:30:37,160 --> 00:30:38,960
+Speaker 3:  I, I just start riffing and see what
+
+532
+00:30:38,960 --> 00:30:41,600
+Speaker 7:  Work. And he puts on some autotune. Here's what he gives us
+
+533
+00:30:43,030 --> 00:30:45,280
+Speaker 11:  Skyscrapers here through the night
+
+534
+00:30:47,310 --> 00:30:49,800
+Speaker 11:  shadows under the city lights.
+
+535
+00:30:51,020 --> 00:30:54,160
+Speaker 7:  Now Betty, he, he kind of has massaged the lyrics.
+
+536
+00:30:55,160 --> 00:30:58,880
+Speaker 7:  I will say that I think intruding skyscrapers is a terrible opener to a song.
+
+537
+00:30:59,080 --> 00:31:02,520
+Speaker 7:  It's very wordy. Yeah. Intruding skyscrapers.
+
+538
+00:31:03,150 --> 00:31:05,760
+Speaker 3:  It's a lot of syllables to say at the very beginning. Yeah. Doesn't,
+
+539
+00:31:05,760 --> 00:31:09,720
+Speaker 7:  Doesn't roll off easily. No. So, we build a whole bunch of melodic ideas,
+
+540
+00:31:10,230 --> 00:31:13,520
+Speaker 7:  pair them with these lyrics. Ian puts down a whole set of vocals to the entire
+
+541
+00:31:13,630 --> 00:31:17,320
+Speaker 7:  song. The more interesting thing though is we can't use his voice. We have
+
+542
+00:31:17,320 --> 00:31:20,080
+Speaker 7:  to use someone else's voice. So, we send this through voice
+
+543
+00:31:20,190 --> 00:31:24,160
+Speaker 7:  swap.ai. If you wanna release a track with them, they
+
+544
+00:31:24,160 --> 00:31:27,200
+Speaker 7:  will actually allow you to license their professional singers. This is one
+
+545
+00:31:27,200 --> 00:31:30,360
+Speaker 7:  of the few tools that has actually made pretty high quality tools specifically
+
+546
+00:31:30,360 --> 00:31:31,320
+Speaker 7:  for musicians. So
+
+547
+00:31:31,320 --> 00:31:34,840
+Speaker 3:  They're actually generating models like with specific musicians. That's right.
+
+548
+00:31:34,840 --> 00:31:38,160
+Speaker 3:  Yeah. And then you can plug your own stuff in and get their generated stuff
+
+549
+00:31:38,160 --> 00:31:38,280
+Speaker 3:  out.
+
+550
+00:31:38,360 --> 00:31:42,000
+Speaker 7:  I i if you license it for a couple hundred dollars basically. So this is
+
+551
+00:31:42,000 --> 00:31:45,800
+Speaker 7:  for journalistic demo purposes only. Of course we're not releasing this
+
+552
+00:31:45,800 --> 00:31:46,840
+Speaker 7:  song. And So, we, we've
+
+553
+00:31:46,840 --> 00:31:49,240
+Speaker 3:  Been named for this song, by the way, have we titled it yet at this point
+
+554
+00:31:49,240 --> 00:31:50,320
+Speaker 3:  in the process? Absolute. I
+
+555
+00:31:50,320 --> 00:31:53,000
+Speaker 7:  Don't belong probably. Yeah. Okay. You haven't heard the chorus yet? Oh,
+
+556
+00:31:53,000 --> 00:31:56,000
+Speaker 3:  You're right. I apologize. All right. I don't belong. Parentheses, intruding
+
+557
+00:31:56,000 --> 00:31:57,120
+Speaker 3:  skyscrapers. Yeah, exactly.
+
+558
+00:31:57,540 --> 00:32:01,280
+Speaker 7:  That's it. Perfect. Alright. So, we send his
+
+559
+00:32:01,330 --> 00:32:02,880
+Speaker 7:  voice through the voice model
+
+560
+00:32:03,630 --> 00:32:05,000
+Speaker 12:  Intruding skyscraper.
+
+561
+00:32:12,260 --> 00:32:16,160
+Speaker 7:  Now it sounds very process and affected because we intentionally took
+
+562
+00:32:16,180 --> 00:32:19,360
+Speaker 7:  his auto-tune vocal and sent it through the, the, the, the model. We want
+
+563
+00:32:19,360 --> 00:32:21,800
+Speaker 7:  this to sound like it might be an AI singing to us, say So.
+
+564
+00:32:21,800 --> 00:32:24,240
+Speaker 3:  We did not, it sounds more robotic in a good way. Yeah. We
+
+565
+00:32:24,240 --> 00:32:27,120
+Speaker 7:  Didn't want it to sound natural. That was the goal. I probably voice swap
+
+566
+00:32:27,120 --> 00:32:30,680
+Speaker 7:  is supposedly the best at doing this. But we tried to hack their thing to
+
+567
+00:32:30,680 --> 00:32:33,880
+Speaker 7:  give us bad quality Sure. Material back. There were a few other small tools
+
+568
+00:32:33,880 --> 00:32:37,800
+Speaker 7:  we used at this point. I mentioned that Google Law has a handful of
+
+569
+00:32:37,800 --> 00:32:41,440
+Speaker 7:  projects, one called Magenta where they will edit midi data.
+
+570
+00:32:41,440 --> 00:32:44,920
+Speaker 7:  That's basically You know the programming language that musicians use to
+
+571
+00:32:44,920 --> 00:32:48,240
+Speaker 7:  input music into their, their software. And we had
+
+572
+00:32:48,630 --> 00:32:50,520
+Speaker 7:  made this little rhythm on our own.
+
+573
+00:32:54,310 --> 00:32:58,160
+Speaker 7:  Just that. And what Magenta would do is it will give
+
+574
+00:32:58,160 --> 00:33:01,200
+Speaker 7:  you variations on your rhythm. So it gave us this.
+
+575
+00:33:04,390 --> 00:33:04,680
+Speaker 3:  Okay.
+
+576
+00:33:05,160 --> 00:33:07,920
+Speaker 7:  I mean one of us could have done this, but we just figured all right that
+
+577
+00:33:07,920 --> 00:33:09,000
+Speaker 7:  there's one nice it ation, it
+
+578
+00:33:09,000 --> 00:33:11,360
+Speaker 3:  Seems like how many of these tools are doing kind of roughly the same thing
+
+579
+00:33:11,360 --> 00:33:14,200
+Speaker 3:  where you, it's like, I mean, they're basically all chat g p T, right? Like
+
+580
+00:33:14,380 --> 00:33:17,920
+Speaker 3:  you say like, here's a thing, give me other versions of this thing. Yeah.
+
+581
+00:33:17,920 --> 00:33:21,400
+Speaker 3:  And it's, it's able to do that with sort of some level of competence. Yeah.
+
+582
+00:33:21,460 --> 00:33:24,640
+Speaker 3:  But there's so many moments in this process it seems like, where you've said
+
+583
+00:33:24,640 --> 00:33:28,360
+Speaker 3:  like, okay, we need to put all these pieces together or we need to
+
+584
+00:33:28,390 --> 00:33:30,680
+Speaker 3:  Yeah. Start from scratch and get somewhere. And these tools are just, they
+
+585
+00:33:30,680 --> 00:33:31,320
+Speaker 3:  have nothing to Yeah. I
+
+586
+00:33:31,320 --> 00:33:34,200
+Speaker 7:  Mean, 'cause like I, like I just need one little percussion idea and I honestly
+
+587
+00:33:34,200 --> 00:33:37,480
+Speaker 7:  don't, there's probably some tool somewhere, but if you ask me, can you like
+
+588
+00:33:37,620 --> 00:33:41,400
+Speaker 7:  go interpolate and make me an interesting little top percussion moment,
+
+589
+00:33:41,670 --> 00:33:45,120
+Speaker 7:  like it would've been faster to program. But anyways, I used Magenta to make
+
+590
+00:33:45,120 --> 00:33:45,440
+Speaker 7:  this little,
+
+591
+00:33:50,870 --> 00:33:54,120
+Speaker 7:  It's intentionally buried in the back of the track and there's a
+
+592
+00:33:54,880 --> 00:33:58,440
+Speaker 7:  artificial tape plugin to sound like, like a tape machine. Sure. That's trained
+
+593
+00:33:58,440 --> 00:34:01,720
+Speaker 7:  off of a neural net that we put in here to, to process made by baby audio.
+
+594
+00:34:01,950 --> 00:34:05,200
+Speaker 7:  Finally, I'm gonna play the whole thing in just a second. Love it. We put
+
+595
+00:34:05,200 --> 00:34:08,800
+Speaker 7:  the whole song together and there's a company called Isotope that
+
+596
+00:34:09,340 --> 00:34:12,920
+Speaker 7:  has a mix and master assistant tool.
+
+597
+00:34:13,600 --> 00:34:17,440
+Speaker 7:  Their mixing tool is called Neutron. And that will go on every single track
+
+598
+00:34:17,440 --> 00:34:20,680
+Speaker 7:  and you can basically say, Hey, mix this track for me. And at the end on,
+
+599
+00:34:20,820 --> 00:34:24,720
+Speaker 7:  on the the the full master track, you put ozone. And
+
+600
+00:34:24,830 --> 00:34:27,520
+Speaker 7:  same thing, rather than mixing and mastering the song ourselves, we just
+
+601
+00:34:27,520 --> 00:34:31,440
+Speaker 7:  hit the master assist with a license that Ozone gave, that isotope gave
+
+602
+00:34:31,440 --> 00:34:32,680
+Speaker 7:  us for to make this song. And
+
+603
+00:34:32,680 --> 00:34:35,560
+Speaker 3:  Isotope specifically is pretty widely used. Right? I don't know how much
+
+604
+00:34:35,700 --> 00:34:37,480
+Speaker 3:  the AI stuff is, but the isotope thing
+
+605
+00:34:37,480 --> 00:34:40,880
+Speaker 7:  Is, is pretty well actually, and this is a great example of like the AI marketing
+
+606
+00:34:40,940 --> 00:34:44,600
+Speaker 7:  around isotope and ozone is just like a tiny little slice of what that's
+
+607
+00:34:44,620 --> 00:34:46,400
+Speaker 7:  for sure. Being used for. I think, I
+
+608
+00:34:46,400 --> 00:34:49,800
+Speaker 8:  Think they're mostly chasing after the people who are doing the top of the
+
+609
+00:34:49,800 --> 00:34:53,280
+Speaker 8:  top work and know the sounds so well and just wanna make a really big help
+
+610
+00:34:53,310 --> 00:34:56,760
+Speaker 8:  tool in order to jump on. They don't want to necessarily necessarily take
+
+611
+00:34:56,760 --> 00:35:00,080
+Speaker 8:  someone from like 0% to 10%. It's more for sure. Yeah. Yeah, that makes
+
+612
+00:35:00,080 --> 00:35:02,760
+Speaker 7:  Sense. So anyway, do wanna hear the track? Yeah. Here's what we got.
+
+613
+00:35:02,910 --> 00:35:06,000
+Speaker 3:  This is I don't belong parentheses, intruding skyscrapers.
+
+614
+00:35:06,750 --> 00:35:09,920
+Speaker 12:  Intruding skyscrapers, Pierce through night
+
+615
+00:35:11,500 --> 00:35:14,520
+Speaker 12:  ing, shadows under the city lights
+
+616
+00:35:15,400 --> 00:35:17,480
+Speaker 12:  sneaking through the silent.
+
+617
+00:35:19,930 --> 00:35:22,240
+Speaker 12:  We're in different lanes for
+
+618
+00:35:25,260 --> 00:35:25,680
+Speaker 12:  dreams.
+
+619
+00:35:27,370 --> 00:35:30,760
+Speaker 12:  Intertwine t escapes
+
+620
+00:35:30,980 --> 00:35:33,320
+Speaker 12:  trying to make you mind, but with,
+
+621
+00:36:03,060 --> 00:36:05,480
+Speaker 3:  All right, we're gonna take a quick break and then we're gonna come back
+
+622
+00:36:05,480 --> 00:36:07,440
+Speaker 3:  and talk more about this. But we're gonna let this play us out.
+
+623
+00:37:16,710 --> 00:37:20,410
+Speaker 3:  All right, we're back. We brought in Eli Patel. Hi Eli. Hey, what's up? It's
+
+624
+00:37:20,410 --> 00:37:22,450
+Speaker 3:  time to talk about our feelings, but first I wanna know, you were sitting
+
+625
+00:37:22,450 --> 00:37:25,250
+Speaker 3:  in the control room listening to the song. What do you think? Is it a song?
+
+626
+00:37:25,250 --> 00:37:26,170
+Speaker 3:  Do we have a banger on our hands?
+
+627
+00:37:27,450 --> 00:37:30,690
+Speaker 14:  I think someone needs to go in and move those drums into the pocket.
+
+628
+00:37:31,240 --> 00:37:35,130
+Speaker 14:  They're, they're early. The snare was early. That's like, I can't hear anything
+
+629
+00:37:35,130 --> 00:37:37,730
+Speaker 14:  beyond that. And that's just, that's just me. Okay. That's
+
+630
+00:37:37,750 --> 00:37:38,290
+Speaker 3:  The first thing I listen
+
+631
+00:37:38,290 --> 00:37:39,490
+Speaker 8:  To. You should have so many more critiques.
+
+632
+00:37:39,970 --> 00:37:42,330
+Speaker 14:  I I'm confident there are more critiques to be had.
+
+633
+00:37:42,330 --> 00:37:46,210
+Speaker 8:  Yeah. It it, it's really hard for like my musical representation on this
+
+634
+00:37:46,210 --> 00:37:46,730
+Speaker 8:  show to be.
+
+635
+00:37:47,060 --> 00:37:47,410
+Speaker 3:  Sorry.
+
+636
+00:37:49,000 --> 00:37:50,210
+Speaker 8:  It's very difficult for
+
+637
+00:37:50,210 --> 00:37:54,130
+Speaker 3:  Me. So do you, do you listen to that and think, like, is there anything in
+
+638
+00:37:54,130 --> 00:37:56,370
+Speaker 3:  that that's interesting to you as a musician?
+
+639
+00:37:56,390 --> 00:37:59,690
+Speaker 8:  So the, the, the more I've done this, the more I produce music for like so
+
+640
+00:37:59,690 --> 00:38:02,890
+Speaker 8:  many different people, the more I've realized that I do make bad music and
+
+641
+00:38:02,890 --> 00:38:05,810
+Speaker 8:  that's okay. And that's gonna go right into the trashcan and that is just
+
+642
+00:38:05,810 --> 00:38:09,530
+Speaker 8:  fine. I'll make a better one tomorrow. And You know is really fun using
+
+643
+00:38:09,690 --> 00:38:13,250
+Speaker 8:  all of these tools, but it would take me more time to go into this and try
+
+644
+00:38:13,250 --> 00:38:16,010
+Speaker 8:  and save stuff from it than it would just be to make a new song.
+
+645
+00:38:16,360 --> 00:38:19,890
+Speaker 14:  Yeah. Yeah. That's fair. My my old feeling about AI in general is it is
+
+646
+00:38:19,970 --> 00:38:23,850
+Speaker 14:  a canon of c plus content. Yeah. And if you point a canon of
+
+647
+00:38:23,930 --> 00:38:27,890
+Speaker 14:  c plus content Yeah. At any business model, something happens. And
+
+648
+00:38:28,130 --> 00:38:32,090
+Speaker 14:  that song, like it's a, that song is like a canon blast of
+
+649
+00:38:32,170 --> 00:38:33,290
+Speaker 14:  c plus content. Right.
+
+650
+00:38:33,370 --> 00:38:34,770
+Speaker 8:  I I I think the biggest problem
+
+651
+00:38:35,300 --> 00:38:39,160
+Speaker 7:  Was that we used that piano, which came from what sounded like a pharma
+
+652
+00:38:39,340 --> 00:38:43,240
+Speaker 7:  ad. Yeah. And So, we, we started it from a terrible source material.
+
+653
+00:38:43,360 --> 00:38:45,720
+Speaker 7:  I remember when we were, when you were working with it, we're like, we're
+
+654
+00:38:45,720 --> 00:38:48,960
+Speaker 7:  not going in the right direction. What are we gonna do? And I was like, we
+
+655
+00:38:48,960 --> 00:38:52,120
+Speaker 7:  gotta make the, the verses gotta be minor because it's too happy. And it
+
+656
+00:38:52,120 --> 00:38:55,360
+Speaker 7:  just like, we ended up making like slightly better remixed pharma music.
+
+657
+00:38:55,430 --> 00:38:58,040
+Speaker 7:  Yeah. So, I don't know. I mean, look, have you
+
+658
+00:38:58,160 --> 00:39:02,000
+Speaker 3:  Listened to the radio lately? It's, it's not, not what the kids are
+
+659
+00:39:02,000 --> 00:39:02,360
+Speaker 3:  listening to.
+
+660
+00:39:04,070 --> 00:39:07,600
+Speaker 3:  Okay. So the piece of this that I think is left to talk about is the, like
+
+661
+00:39:07,830 --> 00:39:11,720
+Speaker 3:  what this means, like the capital F feelings about
+
+662
+00:39:11,740 --> 00:39:14,520
+Speaker 3:  all of this. Right. And I think Neli, I, we've spent a lot of time in the
+
+663
+00:39:14,520 --> 00:39:17,800
+Speaker 3:  show talking about like what AI does to these industries and how we use them.
+
+664
+00:39:17,860 --> 00:39:20,640
+Speaker 3:  But I'm especially curious like, and we talked a little bit about this at
+
+665
+00:39:20,640 --> 00:39:24,280
+Speaker 3:  the beginning, but like as people who make PU music professionally, we're
+
+666
+00:39:24,280 --> 00:39:27,640
+Speaker 3:  in this moment where I think most of these tools are not very good. Many
+
+667
+00:39:27,640 --> 00:39:30,920
+Speaker 3:  of these tools are useless as we were talking about at the beginning. But
+
+668
+00:39:30,920 --> 00:39:34,000
+Speaker 3:  like there are a lot of people who would tell you, we are on the road to
+
+669
+00:39:34,000 --> 00:39:37,880
+Speaker 3:  this stuff becoming a part of life. Right. And I guess the first thing
+
+670
+00:39:37,880 --> 00:39:41,400
+Speaker 3:  I wonder is like the story of technology helping us make music goes back
+
+671
+00:39:41,400 --> 00:39:44,640
+Speaker 3:  forever, right? And there's like, there have been these sort of moral panics
+
+672
+00:39:44,640 --> 00:39:48,160
+Speaker 3:  about autotune and the idea that you can make drums on your computer instead
+
+673
+00:39:48,160 --> 00:39:52,120
+Speaker 3:  of having to play drums and everybody gets up in arms about that. Like, is
+
+674
+00:39:52,420 --> 00:39:55,960
+Speaker 3:  AI different from those things or is it just kind of another
+
+675
+00:39:55,960 --> 00:39:59,160
+Speaker 3:  technology on the spectrum of how we make music, which is a forever changing
+
+676
+00:39:59,160 --> 00:39:59,440
+Speaker 3:  thing?
+
+677
+00:39:59,760 --> 00:40:03,520
+Speaker 8:  I don't think this is any bigger of a step than we've had in the past just
+
+678
+00:40:03,520 --> 00:40:07,160
+Speaker 8:  because a lot of the AI technology that we have is just doing
+
+679
+00:40:07,660 --> 00:40:11,440
+Speaker 8:  little steps. If you really look into it, So, we have like splice that has
+
+680
+00:40:11,440 --> 00:40:15,320
+Speaker 8:  every loop under the sun that I can just drop into my song and it can
+
+681
+00:40:15,320 --> 00:40:19,280
+Speaker 8:  or cannot work. But I instantly have a great quality, let's say drum recording.
+
+682
+00:40:19,580 --> 00:40:23,440
+Speaker 8:  And then you have programs like Drummon, which uses ai.
+
+683
+00:40:23,540 --> 00:40:27,160
+Speaker 8:  I'm not actually sure how, because I'm pretty sure it just reads
+
+684
+00:40:27,380 --> 00:40:31,240
+Speaker 8:  the b p m of the song, which is incredibly easy to do. And then you choose
+
+685
+00:40:31,260 --> 00:40:35,120
+Speaker 8:  the genre you want and then you hit generate and it gives you a drum
+
+686
+00:40:35,120 --> 00:40:37,960
+Speaker 8:  sample pattern and you can hit generate again. It'll give you a different
+
+687
+00:40:37,960 --> 00:40:41,400
+Speaker 8:  drum sample pattern. And to me that's kind of no different than going on
+
+688
+00:40:41,520 --> 00:40:45,200
+Speaker 8:  splice and going through those sounds and picking one from there. It's automatically
+
+689
+00:40:45,320 --> 00:40:48,720
+Speaker 8:  syncing up right away so you can hear it quicker. But there isn't a giant
+
+690
+00:40:48,790 --> 00:40:51,400
+Speaker 8:  step anywhere in music that I have seen at least.
+
+691
+00:40:51,640 --> 00:40:54,520
+Speaker 7:  I think a great analogy would be like the re release of drum machines in
+
+692
+00:40:54,520 --> 00:40:57,600
+Speaker 7:  the 1980s. Like originally these things were made to be like demo devices,
+
+693
+00:40:58,290 --> 00:41:02,160
+Speaker 7:  maybe replace a drummer. And a lot of them were completely not, they were
+
+694
+00:41:02,200 --> 00:41:05,960
+Speaker 7:  failures. The most important sound in contemporary popular
+
+695
+00:41:06,010 --> 00:41:09,560
+Speaker 7:  music is probably Roland's T R 8 0 8. The drum machine. That was a failure
+
+696
+00:41:09,570 --> 00:41:13,520
+Speaker 7:  ended up in pawn shops and early hip hop producers start thinking, well
+
+697
+00:41:13,520 --> 00:41:16,680
+Speaker 7:  that's a cool sound if I, if I misappropriate it and used in these different
+
+698
+00:41:16,680 --> 00:41:19,200
+Speaker 7:  ways and I mix it in interesting ways. This thing, which sounds kind of like
+
+699
+00:41:19,200 --> 00:41:22,600
+Speaker 7:  a toy actually sounds amazing. And it took
+
+700
+00:41:22,790 --> 00:41:26,600
+Speaker 7:  decades for these You know rejected devices then to
+
+701
+00:41:26,600 --> 00:41:30,160
+Speaker 7:  become the mainstream sound. I think what will be most interesting are the
+
+702
+00:41:30,450 --> 00:41:33,920
+Speaker 7:  weird sounds that you can get out of these tools. Kids in their basements,
+
+703
+00:41:34,120 --> 00:41:37,600
+Speaker 7:  figuring out how to misuse them, at least at the state we are today
+
+704
+00:41:38,260 --> 00:41:42,120
+Speaker 7:  to create new interesting creative material. But this was mostly a really
+
+705
+00:41:42,400 --> 00:41:45,720
+Speaker 7:  challenging exercise with the exception of isotopes. Tools were very usable,
+
+706
+00:41:45,910 --> 00:41:49,040
+Speaker 7:  very useful. I mean we use those everyday professionally. Anyways, Apple's
+
+707
+00:41:49,100 --> 00:41:53,040
+Speaker 7:  iPhone was very useful and chat Chachi PT was mildly useful.
+
+708
+00:41:53,340 --> 00:41:57,000
+Speaker 14:  You know you brought up autotune and the panic over autotune.
+
+709
+00:41:57,430 --> 00:42:01,160
+Speaker 14:  It's important to just remember when autotune first hit as an effect,
+
+710
+00:42:01,630 --> 00:42:05,480
+Speaker 14:  they lied about it because the stigma was so incredible.
+
+711
+00:42:06,020 --> 00:42:09,520
+Speaker 14:  So believe by Cher, they overdid the autotune.
+
+712
+00:42:09,860 --> 00:42:13,520
+Speaker 14:  And there are articles upon articles where the producers of that song
+
+713
+00:42:14,150 --> 00:42:18,080
+Speaker 14:  just invented other lies to claim that they had
+
+714
+00:42:18,080 --> 00:42:21,880
+Speaker 14:  done something that was not used. Autotune, unshare because they were so
+
+715
+00:42:21,990 --> 00:42:25,960
+Speaker 14:  worried about the stigma of having used the software. And now it's like
+
+716
+00:42:26,840 --> 00:42:29,760
+Speaker 14:  everyone sees it all the time. And I, I think we're in that moment with
+
+717
+00:42:29,780 --> 00:42:32,880
+Speaker 14:  AI just like across the board creatively where no one wants to cop to it.
+
+718
+00:42:33,260 --> 00:42:36,520
+Speaker 14:  But it's just gonna be in the background of all these tools that we're using
+
+719
+00:42:36,520 --> 00:42:39,400
+Speaker 14:  all the time. And the question is, can you make something that sounds different
+
+720
+00:42:39,420 --> 00:42:43,240
+Speaker 14:  or great? And I think the worry is that you're gonna type in pop
+
+721
+00:42:43,240 --> 00:42:46,440
+Speaker 14:  song and get that and that will be all of music. Yep.
+
+722
+00:42:47,110 --> 00:42:51,040
+Speaker 7:  Okay. Eli, I feel slightly insulted, just to be clear, we didn't
+
+723
+00:42:51,240 --> 00:42:53,920
+Speaker 7:  'cause you, we didn't prompt that. We actually, we actually worked to make
+
+724
+00:42:53,920 --> 00:42:57,400
+Speaker 7:  something over about two hours that that was song ish.
+
+725
+00:42:57,870 --> 00:42:59,640
+Speaker 14:  Song ish. Yeah, yeah. You know
+
+726
+00:42:59,640 --> 00:43:02,640
+Speaker 7:  And using only AI tools and yeah, it was, it was very challenging to make
+
+727
+00:43:02,920 --> 00:43:06,680
+Speaker 7:  anything. It just led us in strange directions. But
+
+728
+00:43:06,830 --> 00:43:08,680
+Speaker 14:  Look, I think that's as big of a hit as believe.
+
+729
+00:43:09,260 --> 00:43:09,760
+Speaker 7:  Oh my God,
+
+730
+00:43:09,970 --> 00:43:10,800
+Speaker 14:  Let's get out there.
+
+731
+00:43:12,820 --> 00:43:14,280
+Speaker 8:  All right, y'all have a good day. How out?
+
+732
+00:43:14,830 --> 00:43:15,120
+Speaker 14:  Yeah.
+
+733
+00:43:15,660 --> 00:43:18,760
+Speaker 3:  So Ian, if somebody walks into your studio and is like, I have the beginnings
+
+734
+00:43:18,760 --> 00:43:22,720
+Speaker 3:  of something, I made it entirely with ai. Are you gonna like roll your
+
+735
+00:43:22,720 --> 00:43:23,800
+Speaker 3:  eyes and kick them outta the studio?
+
+736
+00:43:23,980 --> 00:43:27,240
+Speaker 8:  Oh, not at all. No. I take demos from artists all the time. So a lot of times
+
+737
+00:43:27,240 --> 00:43:30,360
+Speaker 8:  we'll do stuff from scratch, but generally I'm working with stuff who, like
+
+738
+00:43:30,360 --> 00:43:32,840
+Speaker 8:  they've already had the guitar part and the vocal and that kind of thing.
+
+739
+00:43:33,140 --> 00:43:36,400
+Speaker 8:  And yeah, there's no stigma behind any of it. You know. There's a bigger
+
+740
+00:43:36,400 --> 00:43:40,000
+Speaker 8:  stigma I think right now with using full samples
+
+741
+00:43:40,430 --> 00:43:44,320
+Speaker 8:  than there is using any kind of AI tool where
+
+742
+00:43:44,380 --> 00:43:48,320
+Speaker 8:  if all of my drums are from one like drum sample loop, people are
+
+743
+00:43:48,320 --> 00:43:50,680
+Speaker 8:  like, oh, you could have been more creative than just go on splice and drag
+
+744
+00:43:50,680 --> 00:43:54,640
+Speaker 8:  that in. That's more of a stigma than like using an AI tool at this pointing.
+
+745
+00:43:54,640 --> 00:43:57,760
+Speaker 3:  That's really interesting. Yeah. So, and what about the, like I was just
+
+746
+00:43:57,760 --> 00:44:00,920
+Speaker 3:  thinking, listening to that vocal, that has gotta feel weird for you having
+
+747
+00:44:01,400 --> 00:44:05,320
+Speaker 3:  uploaded your voice to a piece of software that spit back your
+
+748
+00:44:05,320 --> 00:44:08,680
+Speaker 3:  singing in somebody else's voice. And I feel like I, I wonder about that
+
+749
+00:44:09,120 --> 00:44:11,760
+Speaker 3:  creatively with all of this stuff, right? Obviously there's big copyright
+
+750
+00:44:11,920 --> 00:44:15,280
+Speaker 3:  questions about who owns a voice and can you make a song with fake Drake
+
+751
+00:44:15,280 --> 00:44:18,960
+Speaker 3:  that counts. But I wonder, like it's gotta feel weird to hear
+
+752
+00:44:19,070 --> 00:44:22,520
+Speaker 3:  that out in the world, whether you're Drake or you like
+
+753
+00:44:22,550 --> 00:44:26,400
+Speaker 3:  listening to someone else sing your song that was just your
+
+754
+00:44:26,400 --> 00:44:28,560
+Speaker 3:  voice 30 seconds ago. Yeah. What does that feel like?
+
+755
+00:44:29,080 --> 00:44:32,400
+Speaker 8:  I mean, for me, I like my voice. So I would rather just stick with my voice.
+
+756
+00:44:32,940 --> 00:44:36,760
+Speaker 8:  But coming from, I work with so many vocal producers or
+
+757
+00:44:36,920 --> 00:44:40,600
+Speaker 8:  producers in general top line writers that do not like their own voice at
+
+758
+00:44:40,600 --> 00:44:44,120
+Speaker 8:  all. And they have to manipulate it and tune it a lot to get it to the point
+
+759
+00:44:44,120 --> 00:44:47,120
+Speaker 8:  they would like to get it to. So if you're not a fan of your vocal tone,
+
+760
+00:44:47,120 --> 00:44:50,520
+Speaker 8:  but you can get your point across in a recording, then you can change out
+
+761
+00:44:50,520 --> 00:44:54,120
+Speaker 8:  your voice with something like this. And a lot of the work I do is I'll create
+
+762
+00:44:54,200 --> 00:44:57,680
+Speaker 8:  a full beat, I'll put on the top line myself, the lyrics and melody and everything
+
+763
+00:44:57,860 --> 00:45:01,480
+Speaker 8:  and then I'll send it to an artist. It's a pitch. And if they like the song,
+
+764
+00:45:01,480 --> 00:45:04,680
+Speaker 8:  they'll remove my top line and put theirs on and keep everything else. So
+
+765
+00:45:04,680 --> 00:45:08,440
+Speaker 8:  essentially You know you don't have to keep the AI generated voice, but it
+
+766
+00:45:08,440 --> 00:45:11,160
+Speaker 8:  gives a reference for a pitch situation. Interesting.
+
+767
+00:45:11,270 --> 00:45:14,240
+Speaker 7:  This is also just like an age old issue. People feel uncomfortable with their
+
+768
+00:45:14,240 --> 00:45:17,920
+Speaker 7:  voice and there have been hacks that we've used for decades,
+
+769
+00:45:17,920 --> 00:45:21,720
+Speaker 7:  whether that's reverb and compression or oftentimes, in fact, when you went
+
+770
+00:45:21,720 --> 00:45:25,280
+Speaker 7:  in the booth, the very common thing to do when you're trying to improvise
+
+771
+00:45:25,280 --> 00:45:29,240
+Speaker 7:  melodies and top line over a beat is you just put on autotune
+
+772
+00:45:29,240 --> 00:45:32,880
+Speaker 7:  almost to Max and it lets you be looser and freer.
+
+773
+00:45:33,120 --> 00:45:35,120
+Speaker 7:  And so I think there's actually something very, yeah there, there's something
+
+774
+00:45:35,120 --> 00:45:37,600
+Speaker 7:  liberating about being like, ah, I don't feel good about my voice, but I
+
+775
+00:45:37,600 --> 00:45:40,440
+Speaker 7:  know I can make a song and I can make it sound better if I just You know
+
+776
+00:45:40,670 --> 00:45:42,760
+Speaker 7:  work. Massage it with these tools. Neil, how
+
+777
+00:45:42,760 --> 00:45:42,960
+Speaker 14:  Do you feel
+
+778
+00:45:42,960 --> 00:45:43,840
+Speaker 8:  About your singing voice?
+
+779
+00:45:44,190 --> 00:45:44,480
+Speaker 14:  Yeah.
+
+780
+00:45:44,900 --> 00:45:45,880
+Speaker 8:  2, 3, 4
+
+781
+00:45:47,460 --> 00:45:49,720
+Speaker 14:  You know, when I was in the punk band in college, I sang with a British
+
+782
+00:45:49,740 --> 00:45:50,160
+Speaker 14:  accent.
+
+783
+00:45:51,940 --> 00:45:52,880
+Speaker 8:  That's AI right there.
+
+784
+00:45:53,060 --> 00:45:56,400
+Speaker 14:  That's just some straight Al Jorgenson did it in ministry and I'm gonna
+
+785
+00:45:56,400 --> 00:45:59,280
+Speaker 14:  do it too. And that's, that was the road I was in. You know you said there's
+
+786
+00:45:59,280 --> 00:46:02,160
+Speaker 14:  copyright issues. There aren't though. That's, that's actually the thing,
+
+787
+00:46:02,610 --> 00:46:06,400
+Speaker 14:  right? That your voice is not protected in that way. There's like a handful
+
+788
+00:46:06,620 --> 00:46:10,120
+Speaker 14:  of laws at the state level that might protect it, but no, none of has ever
+
+789
+00:46:10,120 --> 00:46:14,040
+Speaker 14:  been tested. And the real question is not can I sing into
+
+790
+00:46:14,120 --> 00:46:17,640
+Speaker 14:  a computer and have it sound like whoever so I can send it to someone else
+
+791
+00:46:17,660 --> 00:46:21,120
+Speaker 14:  and they can, it's can I distribute that and tell
+
+792
+00:46:21,480 --> 00:46:25,240
+Speaker 14:  everyone it was Drake? Right. Or tell everyone that it, it sounded
+
+793
+00:46:25,240 --> 00:46:25,880
+Speaker 14:  alike to Drake.
+
+794
+00:46:26,110 --> 00:46:28,640
+Speaker 7:  Yeah, I mean I'm pretty sure we can't release any part of what we've made
+
+795
+00:46:28,950 --> 00:46:32,080
+Speaker 7:  more because of licensing issues rather than copyright issues. Because some
+
+796
+00:46:32,080 --> 00:46:34,760
+Speaker 7:  of these tools we've used probably have some kind of license that needs purchased
+
+797
+00:46:34,760 --> 00:46:38,640
+Speaker 7:  to be able to then You know, use some of their sounds. And we did not do
+
+798
+00:46:38,640 --> 00:46:39,240
+Speaker 7:  all of that perfectly.
+
+799
+00:46:39,880 --> 00:46:42,960
+Speaker 14:  I promised David that I would bring up the thong song on today's episode
+
+800
+00:46:42,960 --> 00:46:45,920
+Speaker 14:  of The Verge House. Well, what's fascinating about the music industry right
+
+801
+00:46:45,920 --> 00:46:49,520
+Speaker 14:  now, and Charla and I have talked about this lots of times, is that the
+
+802
+00:46:49,770 --> 00:46:53,200
+Speaker 14:  norms inside the music industry about sample usage, about interpolation,
+
+803
+00:46:53,200 --> 00:46:56,920
+Speaker 14:  about all this stuff have almost nothing to do anymore with
+
+804
+00:46:57,030 --> 00:47:01,000
+Speaker 14:  copyright law. So I know this fact about the thong song
+
+805
+00:47:01,000 --> 00:47:04,640
+Speaker 14:  now, and I will come back to it over and over again. Cisco does not own
+
+806
+00:47:04,640 --> 00:47:08,360
+Speaker 14:  the publishing to the thong song because he said live in La Vita Loca
+
+807
+00:47:08,460 --> 00:47:10,040
+Speaker 14:  in that song one time. Oh wow.
+
+808
+00:47:10,180 --> 00:47:10,840
+Speaker 7:  No way. In
+
+809
+00:47:10,840 --> 00:47:14,320
+Speaker 14:  The chorus. And Ricky Martin's songwriter came and took it and makes all
+
+810
+00:47:14,320 --> 00:47:17,960
+Speaker 14:  the money every time that song is played. Wow. That's ridiculous to me.
+
+811
+00:47:18,600 --> 00:47:22,320
+Speaker 14:  T-Pain, I think that just this week revealed that he owns almost none of
+
+812
+00:47:22,320 --> 00:47:25,080
+Speaker 14:  the publishing to bayou a drink. 'cause there's all these little quotes
+
+813
+00:47:25,080 --> 00:47:27,840
+Speaker 14:  in it and all those people came for him and they took his publishing away.
+
+814
+00:47:27,840 --> 00:47:31,560
+Speaker 14:  Right. Wow. And that's like, they didn't go to court. The norms, they're
+
+815
+00:47:31,560 --> 00:47:34,200
+Speaker 14:  just lawyering up and Yeah, norms pressuring people, the norm in the music
+
+816
+00:47:34,480 --> 00:47:37,480
+Speaker 14:  industry are just like, we're gonna, we've built this other system.
+
+817
+00:47:38,300 --> 00:47:41,600
+Speaker 14:  And it, if you just described that to you, it's like if you just whisper
+
+818
+00:47:41,780 --> 00:47:45,480
+Speaker 14:  the phrase live in La Vita loca like Ricky Martin appears and like takes
+
+819
+00:47:45,480 --> 00:47:49,160
+Speaker 14:  your money away is, that's not right. Like it doesn't, it doesn't sit right
+
+820
+00:47:49,160 --> 00:47:53,120
+Speaker 14:  with me anyway. And I think this AI stuff is gonna lead to like
+
+821
+00:47:53,320 --> 00:47:57,200
+Speaker 14:  a supercharged version of that where like the
+
+822
+00:47:57,400 --> 00:48:01,320
+Speaker 14:  computer is automatically giving Ricky Martin money because it's
+
+823
+00:48:01,320 --> 00:48:04,280
+Speaker 14:  been trained on his, like that seems like it will fall apart.
+
+824
+00:48:04,630 --> 00:48:07,720
+Speaker 3:  Well it seems, it seems to me like it goes one of two ways where either those
+
+825
+00:48:07,810 --> 00:48:11,560
+Speaker 3:  norms become really, really, really aggressive and
+
+826
+00:48:11,560 --> 00:48:14,800
+Speaker 3:  careful and everybody becomes very litigious about everything like you're
+
+827
+00:48:14,800 --> 00:48:17,600
+Speaker 3:  talking about. Or it goes the other way and we end up in this place where
+
+828
+00:48:17,660 --> 00:48:21,080
+Speaker 3:  it sort of, nobody owns anything. It's just like pure anarchy and chaos.
+
+829
+00:48:21,080 --> 00:48:23,400
+Speaker 3:  That's, that's not right. 'cause you don't know. But we're gonna get to this
+
+830
+00:48:23,400 --> 00:48:23,920
+Speaker 3:  point now where, I don't
+
+831
+00:48:23,920 --> 00:48:26,720
+Speaker 14:  Dunno if the music industry, I mean everybody's
+
+832
+00:48:26,720 --> 00:48:28,720
+Speaker 3:  Gonna get real litigious at the beginning, but like what we're
+
+833
+00:48:28,720 --> 00:48:31,240
+Speaker 14:  Going through once described as a cruel and shallow money trench,
+
+834
+00:48:32,260 --> 00:48:34,520
+Speaker 3:  But like we're going through this with chat G P T right now, right? Yeah.
+
+835
+00:48:34,520 --> 00:48:37,480
+Speaker 3:  Where it's like, they're like, oh, well this sounds like the book that I
+
+836
+00:48:37,550 --> 00:48:41,520
+Speaker 3:  read or that I wrote and open ai. It's just like, who's to say? And
+
+837
+00:48:41,520 --> 00:48:45,280
+Speaker 3:  it's just we're we're just like, we're putting so many black boxes between
+
+838
+00:48:45,480 --> 00:48:49,160
+Speaker 3:  I made something and something else exists that is kind of similar to the
+
+839
+00:48:49,160 --> 00:48:52,640
+Speaker 3:  thing that I made that I wonder if it's just gonna get harder and harder
+
+840
+00:48:52,820 --> 00:48:56,720
+Speaker 3:  to understand provenance and where all this stuff came from
+
+841
+00:48:56,820 --> 00:49:00,480
+Speaker 3:  and what counts as a sample and who's responsible and where, and it's just
+
+842
+00:49:00,480 --> 00:49:02,200
+Speaker 3:  like, I, I suspect,
+
+843
+00:49:02,780 --> 00:49:05,480
+Speaker 14:  But this, when you say, how do you about side of this, this is the thing
+
+844
+00:49:05,480 --> 00:49:09,240
+Speaker 14:  that I, that gives me the most uncomfortable feeling because they're not
+
+845
+00:49:09,240 --> 00:49:12,720
+Speaker 14:  gonna not try. Right. And they're gonna, they're already trying really hard.
+
+846
+00:49:12,720 --> 00:49:15,400
+Speaker 14:  Like YouTube has a deal with Universal, which seems very terrifying to me.
+
+847
+00:49:15,620 --> 00:49:18,960
+Speaker 14:  And they've already built this bizarre system
+
+848
+00:49:19,730 --> 00:49:23,280
+Speaker 14:  where Charlie came out and we talked about Olivia Rodrigo's public handing
+
+849
+00:49:23,280 --> 00:49:26,960
+Speaker 14:  out publishing credits on an episode of Decoder, where Olivia Rodrigo's
+
+850
+00:49:26,960 --> 00:49:29,440
+Speaker 14:  like, fine, Paramore can have a credit, even though probably shouldn't.
+
+851
+00:49:29,490 --> 00:49:32,200
+Speaker 14:  Right. Or like, they, the Taylor Swift ones are Swift, the Taylor Swift
+
+852
+00:49:32,200 --> 00:49:35,840
+Speaker 14:  ones even more really shaky. Right. And it's like the industry has decided
+
+853
+00:49:35,840 --> 00:49:39,400
+Speaker 14:  they don't, inside the family, they're not gonna fight. Right. And the famous
+
+854
+00:49:39,400 --> 00:49:42,520
+Speaker 14:  people will just like, collect some money from new artists, and you just
+
+855
+00:49:42,520 --> 00:49:46,120
+Speaker 14:  keep spinning that up with AI and you're like, oh, eventually the rich are
+
+856
+00:49:46,120 --> 00:49:49,840
+Speaker 14:  just gonna get richer here. And like, ways that I think
+
+857
+00:49:49,980 --> 00:49:53,280
+Speaker 14:  disincentivizes anyone from trying to make anything new, like you might
+
+858
+00:49:53,280 --> 00:49:57,080
+Speaker 14:  as well in that case then just try to flip samples as creatively as possible
+
+859
+00:49:57,220 --> 00:50:00,920
+Speaker 14:  and hand the money back out. Right. And that, that's the feeling
+
+860
+00:50:00,990 --> 00:50:04,480
+Speaker 14:  here, that it's like the music industry's response to AI
+
+861
+00:50:05,220 --> 00:50:09,120
+Speaker 14:  is to become even more corporate in, in a way
+
+862
+00:50:09,120 --> 00:50:12,200
+Speaker 14:  that just makes me like, like I'm an old punk rocker. Like, that seems like
+
+863
+00:50:12,220 --> 00:50:15,880
+Speaker 14:  not what you should do, You know. Like, yeah, you should, like,
+
+864
+00:50:16,260 --> 00:50:20,160
+Speaker 14:  the kids should revolt against all of that. And like, Olivia Rod
+
+865
+00:50:20,160 --> 00:50:22,160
+Speaker 14:  should be like, I'm, I'm definitely not paying you.
+
+866
+00:50:22,500 --> 00:50:24,640
+Speaker 8:  But in the same way, the industry, as I've noticed,
+
+867
+00:50:24,740 --> 00:50:26,040
+Speaker 3:  Is getting a lot polite in
+
+868
+00:50:26,040 --> 00:50:28,840
+Speaker 8:  Some ways. And I realize when we think about that, it, it might not look
+
+869
+00:50:28,840 --> 00:50:32,120
+Speaker 8:  that way, but You know when I have writing sessions with people now that
+
+870
+00:50:32,120 --> 00:50:35,720
+Speaker 8:  there'll be four people in a room, and let's say three of us do 90%, not
+
+871
+00:50:35,720 --> 00:50:39,520
+Speaker 8:  99% of the work, and the other person lays one base note down,
+
+872
+00:50:39,700 --> 00:50:43,440
+Speaker 8:  that's four equal splits on publishing. Yeah. And I, I kind of see it the
+
+873
+00:50:43,440 --> 00:50:47,280
+Speaker 8:  same way with You know you're anticipating the lawsuit and there's gonna
+
+874
+00:50:47,280 --> 00:50:50,480
+Speaker 8:  have to be a payout regardless and like all this stuff just to make it go
+
+875
+00:50:50,480 --> 00:50:53,840
+Speaker 8:  away. Like there's definitely that side of it, that's why you add the credits
+
+876
+00:50:53,870 --> 00:50:57,800
+Speaker 8:  initially. But it's more so just like a, I don't know, a peace
+
+877
+00:50:58,080 --> 00:51:01,760
+Speaker 8:  offering of kindness to be like, here, take this. And it is cool seeing people
+
+878
+00:51:01,760 --> 00:51:05,720
+Speaker 8:  like You know a higher up artists that are handing out
+
+879
+00:51:05,720 --> 00:51:09,200
+Speaker 8:  to like lower level artists, these publishing credits and that kind of thing
+
+880
+00:51:09,200 --> 00:51:12,760
+Speaker 8:  too. So I don't know. The way I think about it's, it is getting polite, but
+
+881
+00:51:12,760 --> 00:51:16,160
+Speaker 8:  yeah, when we thinking about AI in the industry, it's, it's
+
+882
+00:51:16,160 --> 00:51:17,280
+Speaker 8:  corporations Yeah.
+
+883
+00:51:17,280 --> 00:51:20,120
+Speaker 14:  Which is scary. And, and then it's automated. That's the thing that gets
+
+884
+00:51:20,120 --> 00:51:23,920
+Speaker 14:  me. It's like, okay, some artists are handing out some credits
+
+885
+00:51:23,980 --> 00:51:27,960
+Speaker 14:  as they go through a writing session. Okay. Like I, I don't know how
+
+886
+00:51:27,960 --> 00:51:30,560
+Speaker 14:  you feel about Ricky Martin, but like, yes or no that happened Right? On
+
+887
+00:51:30,560 --> 00:51:33,840
+Speaker 14:  the flip side, it's like, okay, I made a song using ai, uploaded it to YouTube.
+
+888
+00:51:33,840 --> 00:51:36,880
+Speaker 14:  YouTube is like, Drake gets a piece of this. Yeah.
+
+889
+00:51:36,880 --> 00:51:40,720
+Speaker 7:  I mean, I don't make switch dot pop video versions for YouTube
+
+890
+00:51:40,720 --> 00:51:44,120
+Speaker 7:  because the content ID system is such a pain. Yeah. That I don't wanna deal
+
+891
+00:51:44,120 --> 00:51:46,760
+Speaker 7:  with it because it will demonetize everything. You have to fight everything.
+
+892
+00:51:46,760 --> 00:51:49,960
+Speaker 7:  Yeah. Even for journalistic purposes, if you use any copyright material,
+
+893
+00:51:50,050 --> 00:51:53,600
+Speaker 7:  which is absolutely fair use YouTube just is its own government,
+
+894
+00:51:53,730 --> 00:51:57,240
+Speaker 7:  right? Yeah. With its own set of id. It's, it's not actually a copyright
+
+895
+00:51:57,240 --> 00:52:01,200
+Speaker 7:  issue. It is a set of private contracts between copyright holders with
+
+896
+00:52:01,270 --> 00:52:05,160
+Speaker 7:  YouTube that has a system that you have to go through that is its own court.
+
+897
+00:52:05,390 --> 00:52:08,160
+Speaker 7:  Yeah. And it's just such a pain that I don't deal with it and I'd rather
+
+898
+00:52:08,160 --> 00:52:08,680
+Speaker 7:  just make a podcast.
+
+899
+00:52:09,130 --> 00:52:09,480
+Speaker 8:  Right.
+
+900
+00:52:09,590 --> 00:52:13,400
+Speaker 3:  Charlie, you were mentioning before, like you didn't do this process of
+
+901
+00:52:13,400 --> 00:52:16,520
+Speaker 3:  making all this stuff in the most sort of like upstanding pay everybody who
+
+902
+00:52:16,520 --> 00:52:20,360
+Speaker 3:  should weigh, but like you left a trail that every one of these services
+
+903
+00:52:21,130 --> 00:52:24,960
+Speaker 3:  knows about. Right. And and to your point, as they get better at doing things
+
+904
+00:52:24,960 --> 00:52:28,720
+Speaker 3:  like having deals with record labels and stuff, like, it may be true
+
+905
+00:52:28,720 --> 00:52:31,760
+Speaker 3:  that that money just like slowly starts to disappear every time you open
+
+906
+00:52:31,960 --> 00:52:35,920
+Speaker 3:  a new app. Yeah. And right now this stuff is happening like in Discords and
+
+907
+00:52:35,920 --> 00:52:39,560
+Speaker 3:  like one of the most popular things is like a, it's in a Google drive and
+
+908
+00:52:39,560 --> 00:52:42,520
+Speaker 3:  you just upload your file to a Google Drive and then download it from a different
+
+909
+00:52:42,520 --> 00:52:46,440
+Speaker 3:  Google Drive. And it's like, that is fine and gonna be hard
+
+910
+00:52:46,440 --> 00:52:49,360
+Speaker 3:  for anyone to figure out how to make money off of. Right. But eventually,
+
+911
+00:52:49,380 --> 00:52:52,040
+Speaker 3:  if this stuff gets better as quickly as people think it's going to, it's
+
+912
+00:52:52,040 --> 00:52:55,480
+Speaker 3:  going to get corporatized too. They're gonna make these same deals and then
+
+913
+00:52:55,600 --> 00:52:59,200
+Speaker 3:  all of a sudden as you make music, you're just gonna leave these like
+
+914
+00:52:59,250 --> 00:52:59,920
+Speaker 3:  bread crumbs,
+
+915
+00:53:00,640 --> 00:53:03,240
+Speaker 7:  A number of these services claim to have watermarks within them so that they
+
+916
+00:53:03,240 --> 00:53:06,480
+Speaker 7:  could identify automatically with, with systems if you haven't properly licensed.
+
+917
+00:53:06,900 --> 00:53:10,840
+Speaker 14:  Do you believe them? Mm. You know how like the B B C used to drive around
+
+918
+00:53:11,100 --> 00:53:14,680
+Speaker 14:  London with a truck that could detect TV antennas if you didn't pay the
+
+919
+00:53:14,680 --> 00:53:14,800
+Speaker 14:  fee.
+
+920
+00:53:16,540 --> 00:53:17,480
+Speaker 14:  I'm just saying, man,
+
+921
+00:53:18,680 --> 00:53:22,320
+Speaker 7:  I think the question is how good do AIS get at tracking those things down
+
+922
+00:53:22,320 --> 00:53:26,040
+Speaker 7:  for them? Because it's a pain to to to, yeah. To, to enforce. But
+
+923
+00:53:26,240 --> 00:53:29,440
+Speaker 7:  I think enforcement of copyright will get significantly easier. I mean, there
+
+924
+00:53:29,440 --> 00:53:32,520
+Speaker 7:  are people making very effective d r M tools that can basically track every
+
+925
+00:53:32,620 --> 00:53:36,280
+Speaker 7:  misuse of copyright on Instagram. People just, 'cause Instagram is basically
+
+926
+00:53:36,320 --> 00:53:39,440
+Speaker 7:  a one giant copyright cluster, right? Yeah. People are taking people's intellectual
+
+927
+00:53:39,600 --> 00:53:42,640
+Speaker 7:  property all the time and reposting it without permission and no one's really
+
+928
+00:53:42,640 --> 00:53:45,200
+Speaker 7:  enforcing it. 'cause it's difficult. But there are companies that can help
+
+929
+00:53:45,200 --> 00:53:46,520
+Speaker 7:  you do so if you want to. But
+
+930
+00:53:46,520 --> 00:53:50,320
+Speaker 8:  It's also mind numbing because, so I, I put out a song that was a hundred
+
+931
+00:53:50,320 --> 00:53:53,480
+Speaker 8:  percent, or I wrote it, I did everything on it. I had a hundred percent of
+
+932
+00:53:53,480 --> 00:53:56,400
+Speaker 8:  the master, a hundred percent of the publishing. I put a TikTok video out
+
+933
+00:53:56,400 --> 00:53:59,680
+Speaker 8:  using that audio, and the audio got removed for copyright. No.
+
+934
+00:53:59,910 --> 00:54:00,520
+Speaker 7:  Wait, what?
+
+935
+00:54:00,800 --> 00:54:01,960
+Speaker 8:  I own it. Yeah. Yeah.
+
+936
+00:54:02,060 --> 00:54:05,360
+Speaker 14:  But this is so like all these automated systems have some error rate. Yeah.
+
+937
+00:54:05,360 --> 00:54:06,240
+Speaker 8:  Right. A hundred percent
+
+938
+00:54:06,760 --> 00:54:08,360
+Speaker 14:  I can post my own song will just take
+
+939
+00:54:08,580 --> 00:54:10,920
+Speaker 7:  Did you have any, did they tell you like, what, what did you do wrong?
+
+940
+00:54:11,100 --> 00:54:14,680
+Speaker 14:  You literally violated your own copyright. Exactly. The estate of Marvin
+
+941
+00:54:14,680 --> 00:54:15,200
+Speaker 14:  Gaye I to
+
+942
+00:54:15,200 --> 00:54:15,920
+Speaker 8:  Shame myself, this
+
+943
+00:54:15,920 --> 00:54:18,160
+Speaker 7:  Is, this is why I actually, when need the, I music was mad. We can't make
+
+944
+00:54:18,160 --> 00:54:20,200
+Speaker 7:  music anymore because it's so attention
+
+945
+00:54:21,180 --> 00:54:23,880
+Speaker 14:  Is what I'm, this is what I'm saying. You build these systems with this
+
+946
+00:54:24,090 --> 00:54:27,920
+Speaker 14:  weird understanding of who gets paid and why inside of it.
+
+947
+00:54:28,180 --> 00:54:31,720
+Speaker 14:  And the answer is because you exist and you might sue us.
+
+948
+00:54:32,060 --> 00:54:35,160
+Speaker 14:  And then the error rate in the system makes it so new artists
+
+949
+00:54:35,770 --> 00:54:38,640
+Speaker 14:  can't upload their own music. And it's like, well, that's not the, that's
+
+950
+00:54:38,640 --> 00:54:42,000
+Speaker 14:  just definitely the, the wrong outcome you make, I'll give you the,
+
+951
+00:54:42,620 --> 00:54:46,600
+Speaker 14:  the blurred lines example. Like you open an AI drum program and
+
+952
+00:54:46,600 --> 00:54:49,760
+Speaker 14:  you're like, give me a Marvin Gaye beat. Yeah. And the state of Marvin Gaye
+
+953
+00:54:49,760 --> 00:54:52,960
+Speaker 14:  is like, that sounds too much like any song. We're
+
+954
+00:54:52,980 --> 00:54:55,600
+Speaker 8:  You down? Can you not Where you could prove that AI made it and that you
+
+955
+00:54:55,600 --> 00:54:57,960
+Speaker 8:  could like, like counter Sue and
+
+956
+00:54:58,270 --> 00:55:02,200
+Speaker 14:  Yeah, I just think like that's the thing. Like that's the feeling I
+
+957
+00:55:02,200 --> 00:55:06,160
+Speaker 14:  get with all this stuff is once you just add this much software to the creative
+
+958
+00:55:06,160 --> 00:55:10,000
+Speaker 14:  process and the pressure on the software is to do automated
+
+959
+00:55:10,000 --> 00:55:13,880
+Speaker 14:  enforcement or automated credits or to not do things
+
+960
+00:55:14,740 --> 00:55:18,720
+Speaker 14:  to protect you, it's like, oh, we've just pushed creativity into
+
+961
+00:55:18,780 --> 00:55:19,840
+Speaker 14:  one tiny little box.
+
+962
+00:55:20,400 --> 00:55:22,960
+Speaker 7:  I I honestly, throughout this whole conversation, I'm still wondering like,
+
+963
+00:55:23,070 --> 00:55:26,160
+Speaker 7:  what is even the point of using any of these tools? Because in music at this
+
+964
+00:55:26,160 --> 00:55:29,120
+Speaker 7:  point, there's just no scarcity. If you want a sound, it exists. You can
+
+965
+00:55:29,120 --> 00:55:32,720
+Speaker 7:  get it for free or cheap. If you want professional level tools, you can use
+
+966
+00:55:32,720 --> 00:55:36,480
+Speaker 7:  them with a decent computer. There are free tools available to make
+
+967
+00:55:36,750 --> 00:55:39,840
+Speaker 7:  very high quality music. Like if you asked us to go do this process again
+
+968
+00:55:39,840 --> 00:55:43,400
+Speaker 7:  using only a hundred dollars guitar and plugins that were free off the internet,
+
+969
+00:55:43,400 --> 00:55:44,720
+Speaker 7:  we would make a much better song.
+
+970
+00:55:45,040 --> 00:55:48,400
+Speaker 8:  No, just band Lab. So Band Lab. Oh, band Lab. Yeah. Band lab.com entirely
+
+971
+00:55:48,430 --> 00:55:52,200
+Speaker 8:  free. And anyone can use it. I guarantee you, you just, you just pick
+
+972
+00:55:52,210 --> 00:55:55,440
+Speaker 8:  loops and you drop 'em in and it manipulates them and makes 'em all fit together.
+
+973
+00:55:55,830 --> 00:55:59,120
+Speaker 8:  I've taught band lab to eight year old children and they had it like that.
+
+974
+00:55:59,300 --> 00:56:03,240
+Speaker 8:  Wow. And it's so, so easy to use. So, and it's free and everything is
+
+975
+00:56:03,250 --> 00:56:05,520
+Speaker 8:  yours. It's entirely royalty Freeda.
+
+976
+00:56:05,520 --> 00:56:08,640
+Speaker 7:  Why? But we don't need these tools to make music for us unless there's there,
+
+977
+00:56:08,640 --> 00:56:11,640
+Speaker 7:  there's definitely like the amateur who's trying to learn or wants to express
+
+978
+00:56:11,640 --> 00:56:14,880
+Speaker 7:  something, I think is certainly interesting. But as, as You know, working
+
+979
+00:56:14,880 --> 00:56:18,280
+Speaker 7:  professional, it's kinda like if you want the high quality sound,
+
+980
+00:56:18,540 --> 00:56:21,800
+Speaker 7:  you're not getting it from these things. So why even like, deal with the
+
+981
+00:56:21,800 --> 00:56:25,200
+Speaker 7:  future headache that Neli is discussing. You put yourself in that world.
+
+982
+00:56:25,350 --> 00:56:25,960
+Speaker 7:  Yeah. Yeah.
+
+983
+00:56:25,980 --> 00:56:28,560
+Speaker 14:  But our, this is just at the bottom of the curve though. I mean, that's
+
+984
+00:56:28,560 --> 00:56:32,120
+Speaker 14:  kind of Right. This is the, the 8 0 8 example. Like it didn't work for that
+
+985
+00:56:32,400 --> 00:56:35,560
+Speaker 14:  workflow, and then the stuff got discarded and then people who were not
+
+986
+00:56:35,560 --> 00:56:37,840
+Speaker 14:  part of the gate cap system were like, we're gonna use it for our own thing.
+
+987
+00:56:37,840 --> 00:56:41,760
+Speaker 14:  And that became a dominant sound like, right. That's the pro case
+
+988
+00:56:41,830 --> 00:56:42,120
+Speaker 14:  here.
+
+989
+00:56:42,390 --> 00:56:46,360
+Speaker 7:  There's also the, like this idea that culture radically shifts and that
+
+990
+00:56:46,380 --> 00:56:50,360
+Speaker 7:  all we want is completely individualized art, which doesn't seem very
+
+991
+00:56:50,650 --> 00:56:54,160
+Speaker 7:  human. Yeah. But perhaps that happens. And then like, yeah, we all make our
+
+992
+00:56:54,160 --> 00:56:57,920
+Speaker 7:  own songs that are in our own perfect little world. The thing is right now,
+
+993
+00:56:57,920 --> 00:57:01,720
+Speaker 7:  like already there is so much high quality library music,
+
+994
+00:57:01,900 --> 00:57:05,720
+Speaker 7:  You know, like, like better pharma sounding music that you could go
+
+995
+00:57:05,720 --> 00:57:08,680
+Speaker 7:  listen to, which is like your own special personalized playlist. And I actually
+
+996
+00:57:08,680 --> 00:57:11,760
+Speaker 7:  just, that's not what people usually want. They wanna like be in conversation
+
+997
+00:57:11,760 --> 00:57:15,080
+Speaker 7:  with culture, what other people are doing. And so that, that world doesn't
+
+998
+00:57:15,080 --> 00:57:16,000
+Speaker 7:  really make sense to
+
+999
+00:57:16,000 --> 00:57:18,040
+Speaker 3:  Me. Yeah. And it goes back to something you were saying at the very beginning,
+
+1000
+00:57:18,040 --> 00:57:21,720
+Speaker 3:  which is like, if you, if what you want is an easier way to make
+
+1001
+00:57:21,830 --> 00:57:25,640
+Speaker 3:  like a music bed for your YouTube video Yeah. Tools
+
+1002
+00:57:25,820 --> 00:57:28,640
+Speaker 3:  abound and they're getting better very quickly. If you want something that
+
+1003
+00:57:28,640 --> 00:57:32,560
+Speaker 3:  is like good and high quality and will make you feel things and care about
+
+1004
+00:57:32,560 --> 00:57:36,280
+Speaker 3:  things and like be on the radio, we're kind of nowhere
+
+1005
+00:57:36,370 --> 00:57:36,720
+Speaker 3:  still.
+
+1006
+00:57:36,720 --> 00:57:39,000
+Speaker 7:  And I, I still think these tools kind of, they're pretty janky most of the
+
+1007
+00:57:39,000 --> 00:57:42,440
+Speaker 7:  time. Like, like I just, we just did an episode, You know with Jimmy Buffet
+
+1008
+00:57:42,720 --> 00:57:45,160
+Speaker 7:  recently died and So, we did a little tribute episode to him on Switch on
+
+1009
+00:57:45,160 --> 00:57:48,960
+Speaker 7:  Pop. And I had to make a promo for that episode and I was like, can I
+
+1010
+00:57:48,960 --> 00:57:52,880
+Speaker 7:  just find Jimmy Buffet esque music? And I couldn't find anything good
+
+1011
+00:57:52,900 --> 00:57:56,280
+Speaker 7:  on Splice and I went to some AI tools and was like, make me a Jimmy Buffett
+
+1012
+00:57:56,280 --> 00:57:59,200
+Speaker 7:  song. And I was just like, screw it. This is so annoying. I brought out my
+
+1013
+00:57:59,320 --> 00:58:02,160
+Speaker 7:  acoustic guitar and I just strum some chords and it sounded way better than
+
+1014
+00:58:02,360 --> 00:58:03,320
+Speaker 7:  anything asking to generate.
+
+1015
+00:58:03,710 --> 00:58:07,600
+Speaker 3:  Well, when Jimmy buffett.ai launches we're having you all back and Oh wow.
+
+1016
+00:58:08,100 --> 00:58:10,600
+Speaker 3:  But until then, thank you all for being here. This was unbelievably fun.
+
+1017
+00:58:10,880 --> 00:58:13,360
+Speaker 3:  I really appreciate it. Charlie, will you play us out? Yeah. Run
+
+1018
+00:58:13,640 --> 00:58:13,840
+Speaker 14:  It back.
+
+1019
+00:58:20,580 --> 00:58:23,760
+Speaker 3:  All right. That's it for the show. Thanks to Charlie, Ian and Neli for being
+
+1020
+00:58:23,760 --> 00:58:27,520
+Speaker 3:  here. And thank you as always for listening. Ai. David, do you want to hit
+
+1021
+00:58:27,520 --> 00:58:31,440
+Speaker 3:  the credits again? If you have Thoughts, questions, feelings, or other
+
+1022
+00:58:31,450 --> 00:58:35,320
+Speaker 3:  songs you'd like to hear AI David Sing, you can always email
+
+1023
+00:58:35,320 --> 00:58:38,880
+Speaker 3:  us at Vergecast at The Verge dot com or keep calling the
+
+1024
+00:58:38,880 --> 00:58:42,760
+Speaker 3:  hotline. 8 6 6 Verge one one. We love hearing from you
+
+1025
+00:58:43,020 --> 00:58:46,480
+Speaker 3:  and the Meta Vergecast episode is coming soon. So if you have questions about
+
+1026
+00:58:46,480 --> 00:58:50,320
+Speaker 3:  The Verge or The Vergecast, send them in quickly. This show is produced by
+
+1027
+00:58:50,320 --> 00:58:54,200
+Speaker 3:  Andrew Marino and Liam James. Brooke Miners is our editorial director of
+
+1028
+00:58:54,200 --> 00:58:58,160
+Speaker 3:  Audio The Vergecast is a Verge production and part of the Vox Media
+
+1029
+00:58:58,160 --> 00:59:01,960
+Speaker 3:  Podcast network. We'll be back on Wednesday with some more Apple talk
+
+1030
+00:59:02,060 --> 00:59:05,520
+Speaker 3:  and with plenty of new news on Friday. See you then. Rock and roll
+

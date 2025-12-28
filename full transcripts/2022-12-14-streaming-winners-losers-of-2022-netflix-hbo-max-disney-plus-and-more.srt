@@ -1,0 +1,5861 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 2d76b8f0-7f2b-11ed-a058-e93b9dfb660f
+Status: Done
+Stage: Done
+Title: Streaming winners & losers of 2022: Netflix, HBO Max, Disney Plus, and more
+Audio URL: https://jfe93e.s3.amazonaws.com/-6520673958211620716/3055850122231146254/s93290-US-5023s-1671405809.mp3
+Description: The Verge's Alex Cranz, Nilay Patel, and Charles Pulliam-Moore focus on the big streaming services — Netflix, HBO Max, Hulu, Disney Plus, Amazon Prime, Peacock, Paramount Plus — and discuss which are the winners and losers are for this year.
+Email us at vergecast@theverge.com or call the hotline at 866-VERGE11, we'd love to hear from you.
+Learn more about your ad choices. Visit podcastchoices.com/adchoices
+Ad Filtering: Disabled
+
+2
+00:00:02,750 --> 00:00:06,240
+Speaker 2:  You're listening to the Vergecast, the flagship podcast
+
+3
+00:00:06,570 --> 00:00:10,520
+Speaker 2:  of the Go 90 Scale of Doom Streaming Services. I'm your friend
+
+4
+00:00:10,520 --> 00:00:14,440
+Speaker 2:  Alex Kranz, and you notice that David's not here because this
+
+5
+00:00:14,440 --> 00:00:17,840
+Speaker 2:  is the first episode of the Wednesday show that I'm taking over. While David
+
+6
+00:00:17,840 --> 00:00:20,960
+Speaker 2:  is out caring for that, absolutely adorable baby, he and his wife just had,
+
+7
+00:00:21,000 --> 00:00:24,320
+Speaker 2:  we're gonna have a really fun time over the next few weeks and we're gonna
+
+8
+00:00:24,320 --> 00:00:27,840
+Speaker 2:  have a bunch of Verge staff on the show to talk about all kinds of stuff.
+
+9
+00:00:27,980 --> 00:00:31,920
+Speaker 2:  And I will try not to have an EA segment every week, but
+
+10
+00:00:31,950 --> 00:00:35,840
+Speaker 2:  I will not promise to not have an EA segment every week. Anyway,
+
+11
+00:00:35,870 --> 00:00:39,560
+Speaker 2:  this episode is a really fun one because we're gonna be talking about all
+
+12
+00:00:39,560 --> 00:00:43,400
+Speaker 2:  the big streaming services. I mean Netflix, hbo, max,
+
+13
+00:00:43,990 --> 00:00:47,760
+Speaker 2:  Hulu, Disney Plus, peacock, paramount plus,
+
+14
+00:00:47,910 --> 00:00:51,880
+Speaker 2:  Amazon Prime, all of them. And we're gonna think about who are the winners
+
+15
+00:00:51,880 --> 00:00:55,680
+Speaker 2:  and who are the losers. And to do this, I of course have brought in
+
+16
+00:00:55,820 --> 00:00:59,760
+Speaker 2:  our Verge editor-in-Chief Eli Patel and our film and TV
+
+17
+00:01:00,080 --> 00:01:03,360
+Speaker 2:  reporter, Charles Pullam Moore, to go through each and every one of these
+
+18
+00:01:03,360 --> 00:01:06,880
+Speaker 2:  streaming companies and discuss how they were handled in 2022.
+
+19
+00:01:06,880 --> 00:01:10,640
+Speaker 2:  Buckle in for this one. I made people talk to me about this for over
+
+20
+00:01:10,640 --> 00:01:14,520
+Speaker 2:  an hour. It's a lot of fun, but I'm gonna go walk my
+
+21
+00:01:14,520 --> 00:01:16,200
+Speaker 2:  dog now. So I'll see you guys in a minute.
+
+22
+00:01:18,410 --> 00:01:22,360
+Speaker 3:  Support for this episode comes from Airbnb. If you've stayed
+
+23
+00:01:22,360 --> 00:01:26,080
+Speaker 3:  in one of Airbnb's unique homes all around the world, you may be wondering,
+
+24
+00:01:26,080 --> 00:01:30,000
+Speaker 3:  could my place be an Airbnb and what could I earn? You could be sitting
+
+25
+00:01:30,000 --> 00:01:33,840
+Speaker 3:  on an Airbnb right now. That might mean your extra guest room or
+
+26
+00:01:33,840 --> 00:01:37,480
+Speaker 3:  maybe even Airbnb your entire home while you're away on a long trip,
+
+27
+00:01:37,480 --> 00:01:41,320
+Speaker 3:  whether you could use some extra money to cover some of those surprise expenses
+
+28
+00:01:41,370 --> 00:01:45,360
+Speaker 3:  or maybe just a little something for yourself, your home might be
+
+29
+00:01:45,360 --> 00:01:48,040
+Speaker 3:  worth more than you think. Find out how much at
+
+30
+00:01:48,110 --> 00:01:50,120
+Speaker 3:  airbnb.com/host.
+
+31
+00:01:52,470 --> 00:01:56,400
+Speaker 4:  This episode is supported by NetApp. NetApp wants our listeners to know
+
+32
+00:01:56,400 --> 00:02:00,120
+Speaker 4:  that they are in love with the cloud. So in love they'd climb a mountain
+
+33
+00:02:00,120 --> 00:02:04,000
+Speaker 4:  or cross an ocean just to prove it, but that's not actually necessary.
+
+34
+00:02:04,000 --> 00:02:07,480
+Speaker 4:  So instead they just made this podcast ad. NetApp makes the cloud work
+
+35
+00:02:07,480 --> 00:02:11,080
+Speaker 4:  smarter and harder by letting you automate processes, optimize
+
+36
+00:02:11,080 --> 00:02:14,400
+Speaker 4:  infrastructure access, and securely manage your data. No matter where it
+
+37
+00:02:14,400 --> 00:02:17,720
+Speaker 4:  is. NetApp, for the love of Cloud Vergecast, listeners can visit
+
+38
+00:02:17,720 --> 00:02:21,400
+Speaker 4:  netapp.com/verge to see how amazing the cloud can be.
+
+39
+00:02:26,300 --> 00:02:30,280
+Speaker 2:  All right, and we're back. I got ne Eli here who is the
+
+40
+00:02:30,280 --> 00:02:32,040
+Speaker 2:  streaming expert at the Verge.
+
+41
+00:02:32,210 --> 00:02:32,920
+Speaker 5:  Is that true?
+
+42
+00:02:33,190 --> 00:02:36,760
+Speaker 2:  I mean we can say it is. No one's here to stop us. And I have Charles Pull
+
+43
+00:02:36,760 --> 00:02:39,200
+Speaker 2:  Moore here who is our other streaming expert at The Verge.
+
+44
+00:02:39,430 --> 00:02:42,360
+Speaker 5:  I think he should stop us from saying that I'm the expert. I think Charles
+
+45
+00:02:42,360 --> 00:02:42,920
+Speaker 5:  is the expert.
+
+46
+00:02:43,150 --> 00:02:46,200
+Speaker 6:  I think we all have a little bit expertise when it comes to the different
+
+47
+00:02:46,480 --> 00:02:46,760
+Speaker 6:  platforms.
+
+48
+00:02:47,190 --> 00:02:47,920
+Speaker 5:  Fair enough.
+
+49
+00:02:48,220 --> 00:02:51,600
+Speaker 2:  And we're gonna talk about the winners and losers of streaming this year.
+
+50
+00:02:51,600 --> 00:02:55,160
+Speaker 2:  I know. Ha. I have my opinions. I know Charles has his opinions. Some of
+
+51
+00:02:55,160 --> 00:02:58,800
+Speaker 2:  them are very wrong. Oh wow. Charles, I saw your notes here about Paramount
+
+52
+00:02:58,800 --> 00:03:01,960
+Speaker 2:  Plus and I had to like had to take a moment. It's fine.
+
+53
+00:03:02,100 --> 00:03:05,840
+Speaker 6:  I'm very glad that you are watching Paramount Plus and keeping them afloat
+
+54
+00:03:05,840 --> 00:03:09,280
+Speaker 6:  with your Star Trek love. Well done. Well done. It's
+
+55
+00:03:09,280 --> 00:03:12,120
+Speaker 5:  All me. Well, there's also the Cowboy people. We got it. Well, we'll get
+
+56
+00:03:12,120 --> 00:03:12,240
+Speaker 5:  there,
+
+57
+00:03:12,240 --> 00:03:14,400
+Speaker 2:  We'll get there. We'll get there, we'll get there. Let's not get too far
+
+58
+00:03:14,400 --> 00:03:17,320
+Speaker 2:  ahead, but, so we're gonna be going through the winners and losers and first
+
+59
+00:03:17,320 --> 00:03:21,280
+Speaker 2:  up we're gonna talk about the biggest winner, the Biggest Loser. This
+
+60
+00:03:21,280 --> 00:03:23,480
+Speaker 2:  is the biggest right? Which is Netflix.
+
+61
+00:03:23,790 --> 00:03:27,560
+Speaker 6:  Yeah. That like, you know, the OG player in this space who taught
+
+62
+00:03:27,560 --> 00:03:30,600
+Speaker 6:  everybody that streaming was a real business that everyone needed to get
+
+63
+00:03:30,600 --> 00:03:34,000
+Speaker 6:  very serious about. And you know, I dunno, Netflix has just always been the
+
+64
+00:03:34,000 --> 00:03:37,960
+Speaker 6:  bellwether that everyone has looked to. And in this year of everyone's sort
+
+65
+00:03:38,240 --> 00:03:42,000
+Speaker 6:  of realizing that burning cash, you can't just do it
+
+66
+00:03:42,000 --> 00:03:45,760
+Speaker 6:  indefinitely. Like Netflix sort of being the one who taught everyone that
+
+67
+00:03:45,760 --> 00:03:49,200
+Speaker 6:  that's how you run this business, had to pump the brakes and be like, you
+
+68
+00:03:49,200 --> 00:03:53,080
+Speaker 6:  guys since these subscriber rates have sort of flattened and slowed down,
+
+69
+00:03:53,090 --> 00:03:55,560
+Speaker 6:  perhaps we need to cap our spending. Yeah.
+
+70
+00:03:55,560 --> 00:03:58,040
+Speaker 2:  Cuz they spent a lot of money this year. They
+
+71
+00:03:58,040 --> 00:04:01,560
+Speaker 6:  Spent, you know, 17 billion, which is both like an
+
+72
+00:04:01,560 --> 00:04:05,520
+Speaker 6:  ungodly amount of money. But it's also sort of like that is how
+
+73
+00:04:05,520 --> 00:04:09,440
+Speaker 6:  Netflix is able to be Netflix, right? It's like, let's throw cash at
+
+74
+00:04:09,440 --> 00:04:13,160
+Speaker 6:  this problem as much as we possibly can. So much so that you can't possibly
+
+75
+00:04:13,160 --> 00:04:16,400
+Speaker 6:  believe it. And that leads to, you know, the content gets married, subscribers
+
+76
+00:04:16,400 --> 00:04:20,080
+Speaker 6:  come on. But eventually you do sort of have to look at the bottom
+
+77
+00:04:20,080 --> 00:04:23,960
+Speaker 6:  line. Netflix in particular has realized like, look, there's a certain
+
+78
+00:04:23,960 --> 00:04:26,880
+Speaker 6:  degree to which shooting yourself in the foot this way. Can it be beneficial
+
+79
+00:04:26,880 --> 00:04:30,760
+Speaker 6:  if you're looking sort of down the road? But at some point you do have to
+
+80
+00:04:30,760 --> 00:04:34,680
+Speaker 6:  talk to yourself and rather realistic terms. Like my
+
+81
+00:04:34,680 --> 00:04:37,960
+Speaker 6:  foot isn't gonna keep regrowing back, you guys, we gotta sort of staunch
+
+82
+00:04:37,960 --> 00:04:41,840
+Speaker 6:  the bleeding. And everyone else who has sort of followed on Netflix's footsteps
+
+83
+00:04:42,440 --> 00:04:46,360
+Speaker 6:  looking at Netflix's example, has recognized like, oh, if we do everything
+
+84
+00:04:46,360 --> 00:04:50,080
+Speaker 6:  that Netflix does, we will also sort of be in the same position but not necessarily
+
+85
+00:04:50,080 --> 00:04:54,000
+Speaker 6:  have that same market share. So, you know, since Netflix has
+
+86
+00:04:54,000 --> 00:04:56,560
+Speaker 6:  sort of put out that call, rather put out that message to its investors,
+
+87
+00:04:56,570 --> 00:05:00,520
+Speaker 6:  we are capping our spending. All of the other streamers have been like, we
+
+88
+00:05:00,520 --> 00:05:04,280
+Speaker 6:  are also going to start capping our spending. Well, I'm also gonna
+
+89
+00:05:04,280 --> 00:05:07,920
+Speaker 6:  start trying to get more value out of, out of our wares
+
+90
+00:05:07,970 --> 00:05:10,440
+Speaker 6:  by just, you know, squeezing them a little bit tighter.
+
+91
+00:05:10,640 --> 00:05:13,720
+Speaker 2:  Let's talk about that, like the capping the spending thing there because
+
+92
+00:05:14,010 --> 00:05:17,640
+Speaker 2:  Netflix capped at spending and I feel like everybody in the
+
+93
+00:05:17,840 --> 00:05:21,760
+Speaker 2:  industry was kind of like, this is the death of Netflix. Like, like
+
+94
+00:05:21,760 --> 00:05:25,520
+Speaker 2:  it just went from like zero to everything's ruined really, really
+
+95
+00:05:25,520 --> 00:05:25,800
+Speaker 2:  quickly.
+
+96
+00:05:26,210 --> 00:05:30,200
+Speaker 5:  There's like a thing here that we should just for one second
+
+97
+00:05:30,200 --> 00:05:33,960
+Speaker 5:  highlight, which is this is the first time Netflix
+
+98
+00:05:33,960 --> 00:05:37,440
+Speaker 5:  has faced real competition. Right? So that
+
+99
+00:05:37,440 --> 00:05:40,840
+Speaker 5:  crazy curve where they were burning cash or burning money, they were doing
+
+100
+00:05:41,160 --> 00:05:45,040
+Speaker 5:  anything to get on people's TVs, they were chasing what
+
+101
+00:05:45,040 --> 00:05:48,760
+Speaker 5:  you might call a monopoly position for streaming and they achieved that
+
+102
+00:05:49,040 --> 00:05:52,880
+Speaker 5:  position. Yeah. Right? If, if you walked up to a random person and had to
+
+103
+00:05:52,880 --> 00:05:56,760
+Speaker 5:  guess what they subscribe to, Netflix would be the best bet. Right? Right.
+
+104
+00:05:56,760 --> 00:06:00,480
+Speaker 5:  In every single case, everyone has a Netflix subscription, right? That is
+
+105
+00:06:00,480 --> 00:06:03,800
+Speaker 5:  a very difficult thing to achieve. And Netflix more or less achieved it.
+
+106
+00:06:03,800 --> 00:06:07,000
+Speaker 5:  They're like out of people to get to subscribe to Netflix.
+
+107
+00:06:07,000 --> 00:06:10,160
+Speaker 6:  Right? And it's like we, it's we, we can joke about it, but like Netflix
+
+108
+00:06:10,160 --> 00:06:14,040
+Speaker 6:  when it's, it's funny during to-do, to-do whenever,
+
+109
+00:06:14,470 --> 00:06:18,440
+Speaker 6:  when, when Netflix starts talking about its presence like globally
+
+110
+00:06:18,460 --> 00:06:21,680
+Speaker 6:  and sort of like all the inroads that it's made in other countries, it's
+
+111
+00:06:21,680 --> 00:06:25,520
+Speaker 6:  often easy to sort of gloss over. Like Netflix is that girl, like
+
+112
+00:06:25,520 --> 00:06:29,440
+Speaker 6:  Netflix is the one who is sort of in this space launching international hits
+
+113
+00:06:29,440 --> 00:06:33,320
+Speaker 6:  like Disney plus Amazon Prime. They don't have like a squid
+
+114
+00:06:33,320 --> 00:06:37,200
+Speaker 6:  game, right? Yeah. Which is to say they don't have programming
+
+115
+00:06:37,200 --> 00:06:41,000
+Speaker 6:  that is not explicitly western focused, that still manages to take
+
+116
+00:06:41,000 --> 00:06:44,480
+Speaker 6:  over everything and sort of be in everyone's minds and sort of own that
+
+117
+00:06:44,480 --> 00:06:47,880
+Speaker 6:  mindshare. And so while the 17 billion
+
+118
+00:06:48,120 --> 00:06:52,040
+Speaker 6:  spend is, while it is also paid off for them in a way that is
+
+119
+00:06:52,040 --> 00:06:55,880
+Speaker 6:  undeniable. That being said, this is the cost that comes with
+
+120
+00:06:55,880 --> 00:06:59,760
+Speaker 6:  sort of being the trendsetter, sort of laying the blueprint
+
+121
+00:06:59,760 --> 00:07:02,320
+Speaker 6:  for everyone else. It makes it easier for everyone else to sort of catch
+
+122
+00:07:02,320 --> 00:07:05,960
+Speaker 6:  up to you, not necessarily get to your same level, but sort of
+
+123
+00:07:06,840 --> 00:07:10,400
+Speaker 6:  recreate your success to a certain extent enough so that you can become the
+
+124
+00:07:10,400 --> 00:07:13,920
+Speaker 6:  kind of competition that scares Netflix into not necessarily scares, well
+
+125
+00:07:13,920 --> 00:07:17,160
+Speaker 6:  gooses them into thinking well we have to think a little bit more strategically
+
+126
+00:07:17,160 --> 00:07:20,880
+Speaker 6:  about how we're gonna maintain our position and sort of
+
+127
+00:07:20,880 --> 00:07:23,800
+Speaker 6:  stave the like keep the competition out from being able to really steal our
+
+128
+00:07:23,800 --> 00:07:24,000
+Speaker 6:  lunch.
+
+129
+00:07:24,190 --> 00:07:27,440
+Speaker 5:  Yeah. Two, thanks. One, I feel as though I have to disclose that I'm the
+
+130
+00:07:27,520 --> 00:07:30,600
+Speaker 5:  EP of a Netflix show called Key. We should go watch a Netflix. It's great.
+
+131
+00:07:31,860 --> 00:07:34,520
+Speaker 5:  And also our company makes shows for every one of these streaming platforms.
+
+132
+00:07:34,530 --> 00:07:37,720
+Speaker 5:  So take, go watch all the Vox media shows on every platform. It's great.
+
+133
+00:07:38,020 --> 00:07:41,720
+Speaker 5:  Two, I think the really interesting thing about that competition moment is
+
+134
+00:07:41,720 --> 00:07:45,520
+Speaker 5:  Netflix. Even just last week, Reid Hastings was at the
+
+135
+00:07:45,520 --> 00:07:49,000
+Speaker 5:  DealBook conference that I was at and he was like, our competition is everything.
+
+136
+00:07:49,390 --> 00:07:53,320
+Speaker 5:  It's video games, it's the other streamers, it's TikTok, it's YouTube.
+
+137
+00:07:53,910 --> 00:07:57,720
+Speaker 5:  They think about their opportunity is, you know,
+
+138
+00:07:57,820 --> 00:08:01,120
+Speaker 5:  the hours and the day that you are watching something. Yeah. That you're
+
+139
+00:08:01,120 --> 00:08:04,840
+Speaker 5:  looking at a screen. They've kind of solved this problem by just throwing
+
+140
+00:08:04,840 --> 00:08:08,600
+Speaker 5:  money at it. If you push the button on your remote, Netflix is gonna
+
+141
+00:08:08,600 --> 00:08:12,160
+Speaker 5:  show you oceans of content. I think when we go talk about the other
+
+142
+00:08:12,160 --> 00:08:15,640
+Speaker 5:  streamers, they have solved this problem by saying, here's the best thing
+
+143
+00:08:15,640 --> 00:08:19,240
+Speaker 5:  you should watch. Right. That I think is where the, the real end of Netflix
+
+144
+00:08:19,240 --> 00:08:22,960
+Speaker 5:  stuff came from. Right? The strategy has shifted and now Netflix is gonna
+
+145
+00:08:22,960 --> 00:08:25,840
+Speaker 5:  spend less money, which means they're gonna have to make harder decisions
+
+146
+00:08:25,840 --> 00:08:29,400
+Speaker 5:  about what they spend money on, which just changes the dynamic
+
+147
+00:08:29,460 --> 00:08:30,760
+Speaker 5:  for everybody. Yeah.
+
+148
+00:08:30,760 --> 00:08:33,520
+Speaker 6:  Like we've all had that experience where you turn on Netflix and it's like,
+
+149
+00:08:33,520 --> 00:08:36,360
+Speaker 6:  I wanna watch something, what am I going to watch? And you're like, well
+
+150
+00:08:36,610 --> 00:08:40,560
+Speaker 6:  there's so much, there's so much. And their UI does, none
+
+151
+00:08:40,560 --> 00:08:43,200
+Speaker 6:  of the UIs are particularly good about like discovery, but nothing about
+
+152
+00:08:43,200 --> 00:08:46,960
+Speaker 6:  Netflix in particular lends itself to giving you a sense of
+
+153
+00:08:46,960 --> 00:08:50,480
+Speaker 6:  what you're gonna be in for. And you know, we live in the age of decision
+
+154
+00:08:50,480 --> 00:08:54,400
+Speaker 6:  paralysis, which I'd be very curious to hear what kind of internal conversations
+
+155
+00:08:54,400 --> 00:08:57,760
+Speaker 6:  Netflix has had about like, we need to, we need to make it easier for people
+
+156
+00:08:57,760 --> 00:09:01,120
+Speaker 6:  to sort of wanna try our things out without necessarily thinking that they
+
+157
+00:09:01,120 --> 00:09:04,920
+Speaker 6:  need to have the, you know, to go watch a show from beginning to end without
+
+158
+00:09:04,920 --> 00:09:07,880
+Speaker 6:  any kind of interruption. I think it's really telling that we've gotten into
+
+159
+00:09:07,880 --> 00:09:11,680
+Speaker 6:  a space where all of the streamers like to brag about our watched for something
+
+160
+00:09:11,680 --> 00:09:14,920
+Speaker 6:  like that sort of become the default metric that they use to tout the success
+
+161
+00:09:14,920 --> 00:09:18,040
+Speaker 6:  of a particular thing. Right? A metric that means nothing to regular people,
+
+162
+00:09:18,440 --> 00:09:22,320
+Speaker 6:  right? Like, ooh, like X billion million people watched
+
+163
+00:09:22,320 --> 00:09:25,440
+Speaker 6:  X hours of show. Like what that means nothing to me
+
+164
+00:09:26,050 --> 00:09:29,960
+Speaker 6:  as a regular watcher who it tries to stay away
+
+165
+00:09:29,960 --> 00:09:33,800
+Speaker 6:  from like that super fan investment like rah rah, like let's cheer for the
+
+166
+00:09:34,260 --> 00:09:37,840
+Speaker 6:  multi-billion dollar company. But I do think that it is
+
+167
+00:09:37,840 --> 00:09:40,560
+Speaker 6:  reflective of what you were saying earlier, that these companies are starting
+
+168
+00:09:40,560 --> 00:09:43,760
+Speaker 6:  to be a little bit more transparent about what success looks like to them
+
+169
+00:09:43,760 --> 00:09:47,440
+Speaker 6:  internally. Right. It isn't necessarily, obviously they all love it when
+
+170
+00:09:47,440 --> 00:09:50,960
+Speaker 6:  they get nominated for awards, right? Like I'm sure Hulu was overjoyed that
+
+171
+00:09:50,960 --> 00:09:54,560
+Speaker 6:  the, that the dropout not swept, but really sort of cleaned up. Yeah.
+
+172
+00:09:54,720 --> 00:09:57,520
+Speaker 6:  Cleaned up. But at the end of the day, like what they're really concerned
+
+173
+00:09:57,520 --> 00:10:01,160
+Speaker 6:  about is, is this a part of your, is this a part of your daily consumption
+
+174
+00:10:01,160 --> 00:10:05,120
+Speaker 6:  habit? Like are you, do you wake up and just reflexively turn the television
+
+175
+00:10:05,120 --> 00:10:08,920
+Speaker 6:  on, put something on and then just let it go for the rest of the day? Because
+
+176
+00:10:08,920 --> 00:10:10,400
+Speaker 6:  that's kind of, sort of what they all want.
+
+177
+00:10:10,570 --> 00:10:14,320
+Speaker 2:  No, because after three episodes it'll ask if you're still watching, Hmm
+
+178
+00:10:14,640 --> 00:10:17,920
+Speaker 5:  Hmm Netflix did fine, right? Are they the winner? Are they the loser? Like
+
+179
+00:10:17,920 --> 00:10:21,840
+Speaker 5:  who knows? But the underlying dynamic that got expressed that Netflix
+
+180
+00:10:21,840 --> 00:10:25,520
+Speaker 5:  got hit by hardest is you have to make a case
+
+181
+00:10:25,780 --> 00:10:29,680
+Speaker 5:  for people to spend money on you every month. And if
+
+182
+00:10:29,680 --> 00:10:32,920
+Speaker 5:  people aren't hitting that button on their remote every day or every couple
+
+183
+00:10:32,920 --> 00:10:36,400
+Speaker 5:  of days because you're just gonna give them something,
+
+184
+00:10:36,630 --> 00:10:40,200
+Speaker 5:  then your other option is to make hits. And hits are just
+
+185
+00:10:40,260 --> 00:10:43,320
+Speaker 5:  way harder. And where Netflix has had hits
+
+186
+00:10:44,010 --> 00:10:47,840
+Speaker 5:  is in stuff that has generated a lot of controversy, right. The
+
+187
+00:10:47,840 --> 00:10:51,680
+Speaker 5:  Chappelle specials or stuff that has gone viral on other
+
+188
+00:10:51,880 --> 00:10:55,120
+Speaker 5:  platforms for reasons no one could predict. Like we are in the middle of
+
+189
+00:10:55,380 --> 00:10:59,320
+Speaker 5:  the weird goth resurgence around Wednesday, which
+
+190
+00:10:59,320 --> 00:11:03,120
+Speaker 5:  is a former Skyliner boy, I don't, it's very confusing to me all
+
+191
+00:11:03,120 --> 00:11:07,040
+Speaker 5:  around, like everyone is just like cosplaying my teens right now. I don't
+
+192
+00:11:07,040 --> 00:11:10,480
+Speaker 5:  quite understand it, but it's, it's weird, right? Netflix doesn't have that
+
+193
+00:11:10,510 --> 00:11:14,080
+Speaker 5:  mark getting prowess that the hbos of the world do.
+
+194
+00:11:14,270 --> 00:11:18,040
+Speaker 5:  They don't create cultural moments cuz they just released everything as a
+
+195
+00:11:18,040 --> 00:11:21,400
+Speaker 5:  binge. So then Wednesday gets completely deco contextualized
+
+196
+00:11:21,630 --> 00:11:25,520
+Speaker 5:  into a Lady Gaga remixed video, which is great. Like I'm not,
+
+197
+00:11:25,520 --> 00:11:29,400
+Speaker 5:  I'm not knocking it at all. It just, that wasn't the plan, right? It
+
+198
+00:11:29,400 --> 00:11:30,560
+Speaker 5:  just happened to them. That
+
+199
+00:11:30,560 --> 00:11:33,640
+Speaker 6:  All speaks to how like Netflix has sort of just become terrestrial TV for
+
+200
+00:11:33,640 --> 00:11:36,520
+Speaker 6:  a lot of people. Yeah. Even though we are paying a premium forward, I think
+
+201
+00:11:36,520 --> 00:11:39,160
+Speaker 6:  is more kind to terrestrial TV than to
+
+202
+00:11:40,360 --> 00:11:43,800
+Speaker 6:  basic cable like the basic cable that we grew up with in that it is sort
+
+203
+00:11:43,800 --> 00:11:47,160
+Speaker 6:  of the expectation that you're going to have a Netflix subscription just
+
+204
+00:11:47,160 --> 00:11:51,080
+Speaker 6:  so that you can participate in, you know, the discourse about a
+
+205
+00:11:51,080 --> 00:11:54,800
+Speaker 6:  Wednesday, the discourse, I'm thinking way back to like the early hits of
+
+206
+00:11:54,800 --> 00:11:57,720
+Speaker 6:  Netflix had like the orange is the New Black. It was just sort of the thing
+
+207
+00:11:57,720 --> 00:12:01,160
+Speaker 6:  that you talked about. But this is the downside to being the big fish in
+
+208
+00:12:01,160 --> 00:12:05,080
+Speaker 6:  the pond. Right? Eventually people stop thinking about you as that
+
+209
+00:12:05,080 --> 00:12:09,040
+Speaker 6:  young upstart that's doing bold, ambitious, I'm thinking again
+
+210
+00:12:09,040 --> 00:12:12,920
+Speaker 6:  of orange, the new black things things versus this sort
+
+211
+00:12:12,920 --> 00:12:16,880
+Speaker 6:  of stayed safe bets that draw their success
+
+212
+00:12:16,880 --> 00:12:20,840
+Speaker 6:  from controversy. Like Chappelle Teran is coming out
+
+213
+00:12:20,840 --> 00:12:24,200
+Speaker 6:  and being like, we are gonna keep green lighting Chappelle specials
+
+214
+00:12:24,680 --> 00:12:28,440
+Speaker 6:  until people stop watching them says to me like, oh, like that's not, that's
+
+215
+00:12:28,440 --> 00:12:31,840
+Speaker 6:  not the position of an executive who's confident in
+
+216
+00:12:32,580 --> 00:12:36,520
+Speaker 6:  the studio's ability to create, to create up. Its on its own. Exactly.
+
+217
+00:12:36,690 --> 00:12:40,400
+Speaker 6:  It really that to me does say like, well that's safe. It doesn't
+
+218
+00:12:40,400 --> 00:12:41,960
+Speaker 6:  telegraph strength to me.
+
+219
+00:12:42,000 --> 00:12:45,280
+Speaker 2:  We've seen that too with how Netflix has been very eager to
+
+220
+00:12:45,630 --> 00:12:49,560
+Speaker 2:  like, watch Disney go on this IP binging and just buy
+
+221
+00:12:49,560 --> 00:12:53,440
+Speaker 2:  up all the different ips and, and Paramount's done it and HBO's
+
+222
+00:12:53,440 --> 00:12:56,400
+Speaker 2:  done it and Amazon Prime has done it. Everybody's done it and Netflix kind
+
+223
+00:12:56,400 --> 00:12:58,760
+Speaker 2:  of got left out in the cold. And so they're like, okay, we need, we need
+
+224
+00:12:58,760 --> 00:13:02,520
+Speaker 2:  IP too. And so like Adams family Wednesday would not be a
+
+225
+00:13:02,520 --> 00:13:05,840
+Speaker 2:  success probably if it didn't have that Adams family IP attached to it. If
+
+226
+00:13:05,840 --> 00:13:09,720
+Speaker 2:  it was just about a weird goth girl go into her school with her wear all
+
+227
+00:13:09,720 --> 00:13:10,440
+Speaker 2:  friends, look,
+
+228
+00:13:10,440 --> 00:13:14,120
+Speaker 5:  The world needs more original IP about young
+
+229
+00:13:14,120 --> 00:13:17,400
+Speaker 5:  goth teens and their werewolf friends just in general.
+
+230
+00:13:17,820 --> 00:13:21,160
+Speaker 5:  And I don't know why we got away from it and I think we should go back,
+
+231
+00:13:21,420 --> 00:13:24,800
+Speaker 2:  But like you've seen it even happen on Netflix itself. It's done similar
+
+232
+00:13:24,800 --> 00:13:28,600
+Speaker 2:  shows that just haven't had that same reach. And because there was that,
+
+233
+00:13:28,600 --> 00:13:31,880
+Speaker 2:  that IP connection, we've seen it with the Witcher, that's like their big
+
+234
+00:13:32,050 --> 00:13:35,960
+Speaker 2:  IP bend. There are only success in, in creating their own IP
+
+235
+00:13:35,980 --> 00:13:39,520
+Speaker 2:  has really been Stranger things into an extent Squid game, right?
+
+236
+00:13:39,590 --> 00:13:41,440
+Speaker 5:  Well, no. So Bridger 10 is huge.
+
+237
+00:13:41,440 --> 00:13:42,760
+Speaker 6:  People loved Ozark,
+
+238
+00:13:42,760 --> 00:13:46,360
+Speaker 2:  But Bridger was based on a very successful series of, of romance
+
+239
+00:13:46,390 --> 00:13:50,320
+Speaker 2:  novels that have been out for years. And I guess the other one you said
+
+240
+00:13:50,320 --> 00:13:52,120
+Speaker 2:  Ozark, that's a fair, that's a fair one.
+
+241
+00:13:52,330 --> 00:13:55,520
+Speaker 6:  In in, in the grand scheme of like winners and there just, Netflix is fine,
+
+242
+00:13:55,520 --> 00:13:59,200
+Speaker 6:  right? Like Netflix, all, all of the calls like, ah, Netflix is doomed. Like
+
+243
+00:13:59,360 --> 00:14:02,120
+Speaker 6:  everyone, everyone likes that narrative because it's fun, right? In the same
+
+244
+00:14:02,120 --> 00:14:05,920
+Speaker 6:  way that it's fun that Netflix has a show, two shows, excuse me about Blockbuster.
+
+245
+00:14:05,920 --> 00:14:09,200
+Speaker 6:  Yeah. Everyone gets like a little bit of a thrill out of like, oh, is Netflix
+
+246
+00:14:09,200 --> 00:14:12,560
+Speaker 6:  finally gonna fall off the throne? Maybe, but like this isn't the year forward.
+
+247
+00:14:12,560 --> 00:14:15,960
+Speaker 6:  Exactly. Like if and when we do see them really sort of take a tumble,
+
+248
+00:14:16,190 --> 00:14:19,960
+Speaker 6:  it's not probably going to be like a very dramatic and
+
+249
+00:14:19,960 --> 00:14:23,800
+Speaker 6:  immediate thing. It is just going to be a slow winnowing of the market share
+
+250
+00:14:23,800 --> 00:14:27,400
+Speaker 6:  that comes, you know, as a function of the competition just being stronger
+
+251
+00:14:27,400 --> 00:14:27,920
+Speaker 6:  and smarter.
+
+252
+00:14:28,150 --> 00:14:30,800
+Speaker 2:  Okay. So if we had to say Netflix was a winner or loser,
+
+253
+00:14:30,810 --> 00:14:34,400
+Speaker 5:  No, we gotta do this first Castile go 90 scale of Doom Streaming services.
+
+254
+00:14:35,110 --> 00:14:39,000
+Speaker 5:  Okay? Zero is Alive, okay. And 90 is dead
+
+255
+00:14:39,170 --> 00:14:42,360
+Speaker 5:  in honor of Go 90, the streaming service from Verizon, which
+
+256
+00:14:43,240 --> 00:14:45,400
+Speaker 5:  honestly Verizon was like, here's what you want to do. You want a YouTube
+
+257
+00:14:45,400 --> 00:14:48,760
+Speaker 5:  where you join a gang. That was basically their pitch for it bundled on your
+
+258
+00:14:48,760 --> 00:14:52,720
+Speaker 5:  mid-range and Android phone. So Zero is alive, 90 is dead.
+
+259
+00:14:52,980 --> 00:14:56,520
+Speaker 5:  I'm putting Netflix, like Netflix was flatly at zero, right? Yeah, yeah.
+
+260
+00:14:56,520 --> 00:14:59,120
+Speaker 5:  For a long time. I'll, I'll put 'em at like five.
+
+261
+00:14:59,300 --> 00:15:03,040
+Speaker 2:  I'm gonna put 'em at three unless they cancel a show I'm really
+
+262
+00:15:03,040 --> 00:15:04,960
+Speaker 2:  into right now. In which case 90,
+
+263
+00:15:05,330 --> 00:15:09,040
+Speaker 5:  If Netflix cancels a show that a fan base is into, they're like 90 immediately,
+
+264
+00:15:09,040 --> 00:15:12,920
+Speaker 5:  immediately. Two saying is out of control. My argument
+
+265
+00:15:12,920 --> 00:15:16,080
+Speaker 5:  for five is like they've never faced competition like this. And they are
+
+266
+00:15:16,140 --> 00:15:20,120
+Speaker 5:  reorienting the company, they're rolling out ads, they're doing all this
+
+267
+00:15:20,120 --> 00:15:23,440
+Speaker 5:  stuff that is unproven. So there's an element of risk
+
+268
+00:15:23,770 --> 00:15:26,880
+Speaker 5:  to Netflix that has not existed before, which takes 'em to five.
+
+269
+00:15:26,880 --> 00:15:30,560
+Speaker 2:  All right, I'm at five asterisks. 90 if they cancel
+
+270
+00:15:30,560 --> 00:15:33,640
+Speaker 2:  Warrior none. Charles, where are you?
+
+271
+00:15:34,030 --> 00:15:37,360
+Speaker 6:  I think they're at like a two. Okay. I think I, I, I think I'm trying to,
+
+272
+00:15:37,360 --> 00:15:41,320
+Speaker 6:  I'm trying to weirdly, my mind immediately went to like, at what point
+
+273
+00:15:41,730 --> 00:15:45,520
+Speaker 6:  in House of the Dragon, right? At what point at like at King
+
+274
+00:15:45,620 --> 00:15:47,920
+Speaker 6:  VAs is like Decrepitness is Netflix right now
+
+275
+00:15:49,380 --> 00:15:52,360
+Speaker 6:  and I think it's still like early in the season, right? Like there's just
+
+276
+00:15:52,360 --> 00:15:55,320
+Speaker 6:  maybe like a little pock mark, just one or two, so Oh, I
+
+277
+00:15:55,320 --> 00:15:58,480
+Speaker 5:  See. Wow. So in a long enough timeline, every streaming service
+
+278
+00:15:58,530 --> 00:16:00,960
+Speaker 6:  Oh, in a long enough timeline just face falling off. Right?
+
+279
+00:16:02,870 --> 00:16:05,320
+Speaker 5:  Fair enough. Yeah. By the way, this thing about the scale is really funny
+
+280
+00:16:05,320 --> 00:16:08,240
+Speaker 5:  cuz if I had said ten first all of you would've both said five, but I said
+
+281
+00:16:08,240 --> 00:16:11,760
+Speaker 5:  five. So you're like two and three. Two and three. This is like, this is
+
+282
+00:16:11,760 --> 00:16:15,480
+Speaker 5:  how you mess with the numbers. I'm just letting you know what you do
+
+283
+00:16:15,480 --> 00:16:18,480
+Speaker 5:  anchoring. It's like a real thing. All right. But five, that's what we're
+
+284
+00:16:18,480 --> 00:16:20,240
+Speaker 5:  saying for Netflix. 5, 2, 3. Okay,
+
+285
+00:16:20,320 --> 00:16:24,200
+Speaker 2:  Let's talk about one that is like probably closer to the 90 side
+
+286
+00:16:24,200 --> 00:16:26,360
+Speaker 2:  right now. HBO Max,
+
+287
+00:16:26,590 --> 00:16:28,120
+Speaker 6:  Speaking of Game of Thrones
+
+288
+00:16:28,160 --> 00:16:31,960
+Speaker 2:  Slash discovery, you have it here. So Charles worked a lot on the
+
+289
+00:16:31,960 --> 00:16:35,400
+Speaker 2:  rundown for this episode. Charles, you, you have the two kind of bundled
+
+290
+00:16:35,880 --> 00:16:36,080
+Speaker 2:  together.
+
+291
+00:16:36,330 --> 00:16:40,240
+Speaker 6:  So like in my mind, H v o Max and Discovery Plus are still two
+
+292
+00:16:40,640 --> 00:16:44,160
+Speaker 6:  separate entities. Okay. Like we, I I get that internally, Warner Brothers
+
+293
+00:16:44,160 --> 00:16:47,680
+Speaker 6:  discovery is like, these two things are soon to emerge and be called Max.
+
+294
+00:16:47,680 --> 00:16:50,200
+Speaker 6:  And if and when, like when I can download death,
+
+295
+00:16:50,200 --> 00:16:53,400
+Speaker 5:  That, that just stop it. Look, everybody
+
+296
+00:16:53,400 --> 00:16:57,040
+Speaker 6:  Stop it. When I can download Max the app from the app store
+
+297
+00:16:57,040 --> 00:17:00,960
+Speaker 6:  onto my, onto my TV and onto my phone, then I will officially be like,
+
+298
+00:17:00,960 --> 00:17:02,560
+Speaker 6:  all right, the, the merger is done.
+
+299
+00:17:02,700 --> 00:17:06,440
+Speaker 5:  I'm just saying there are people in this world named Max, including one that
+
+300
+00:17:06,440 --> 00:17:09,440
+Speaker 5:  I am very responsible for and I think they're all mad.
+
+301
+00:17:10,240 --> 00:17:13,440
+Speaker 6:  Congratulations on Max new app, that's gonna be great.
+
+302
+00:17:13,670 --> 00:17:17,440
+Speaker 2:  They had a year, right? Like, like David Zaslav finally they finished
+
+303
+00:17:17,440 --> 00:17:21,320
+Speaker 2:  the merger of, of the companies not obviously of the apps. They
+
+304
+00:17:21,440 --> 00:17:25,200
+Speaker 2:  finished the merger, DA David Zaslav came on, he originally did that kind
+
+305
+00:17:25,200 --> 00:17:28,200
+Speaker 2:  of tour. He went and talked to a lot of execs, a lot of people in the industry
+
+306
+00:17:28,200 --> 00:17:31,800
+Speaker 2:  and was like, Hey, I'm just a cool guy here to make some cool content
+
+307
+00:17:32,560 --> 00:17:33,400
+Speaker 6:  Emphasis on content.
+
+308
+00:17:33,670 --> 00:17:37,040
+Speaker 2:  Yeah. And then, and then things got a little messy.
+
+309
+00:17:37,310 --> 00:17:41,240
+Speaker 6:  Yeah. I mean if you call like the raising of villages and the salton of
+
+310
+00:17:41,240 --> 00:17:45,000
+Speaker 6:  Earth messy Sure. You know, there were
+
+311
+00:17:45,000 --> 00:17:48,760
+Speaker 6:  just lots of big fires everywhere with H V O
+
+312
+00:17:48,760 --> 00:17:51,680
+Speaker 6:  this year. I mean I think we all sort of remember the famous like, oh like
+
+313
+00:17:51,680 --> 00:17:54,600
+Speaker 6:  things are just disappearing from H B O Max left to right. Yeah, yeah. What's,
+
+314
+00:17:54,600 --> 00:17:58,000
+Speaker 6:  what's going on? Oh, back girl's not gonna come out. It's done. But like
+
+315
+00:17:58,000 --> 00:18:01,200
+Speaker 6:  we're not gonna release it because it would be prudent for us to just take
+
+316
+00:18:01,200 --> 00:18:05,080
+Speaker 6:  the tax right off rather than Sully H B o Max's good name by
+
+317
+00:18:05,080 --> 00:18:06,600
+Speaker 6:  putting out this, you know, this
+
+318
+00:18:07,310 --> 00:18:08,000
+Speaker 5:  Mediocre,
+
+319
+00:18:08,560 --> 00:18:11,920
+Speaker 6:  Apparently we'll never know. But I mean like the, when people look back on
+
+320
+00:18:11,920 --> 00:18:15,560
+Speaker 6:  2022 for H V O Max and Discovery, it will be the year that David
+
+321
+00:18:15,630 --> 00:18:19,160
+Speaker 6:  Asla came in and started the cleanup house under the auspices of getting
+
+322
+00:18:19,160 --> 00:18:22,640
+Speaker 6:  the company on track to be more financially solvent. Right.
+
+323
+00:18:22,710 --> 00:18:26,320
+Speaker 6:  More into the business of putting out movies
+
+324
+00:18:26,840 --> 00:18:30,760
+Speaker 6:  for theatrical releases that then have pretty sizable theatrical
+
+325
+00:18:30,760 --> 00:18:34,320
+Speaker 6:  windows before they eventually make the jump to the streaming services months
+
+326
+00:18:34,320 --> 00:18:37,720
+Speaker 6:  after. And a lot of that was course correction from
+
+327
+00:18:37,720 --> 00:18:41,680
+Speaker 6:  2021, right. That those Halian days of the pandemic where
+
+328
+00:18:41,680 --> 00:18:44,880
+Speaker 6:  people could not go Right. When people were not going to movie theaters.
+
+329
+00:18:44,880 --> 00:18:48,240
+Speaker 6:  Right. And the studios were clumped and unsure what to do
+
+330
+00:18:48,460 --> 00:18:50,640
+Speaker 6:  and the old guard was like, put it all in max.
+
+331
+00:18:50,870 --> 00:18:54,640
+Speaker 5:  Well they were not necessarily old guard. Like we can't talk about
+
+332
+00:18:54,640 --> 00:18:58,160
+Speaker 5:  H B O Max and what is happening to it now. No, without talking about the
+
+333
+00:18:58,160 --> 00:19:01,840
+Speaker 5:  fact that at and t bought this whole company Okay. Had no
+
+334
+00:19:01,840 --> 00:19:05,520
+Speaker 5:  idea what to do with it. Their entire theory
+
+335
+00:19:05,570 --> 00:19:09,440
+Speaker 5:  of buying this company was we're gonna preload
+
+336
+00:19:09,670 --> 00:19:13,480
+Speaker 5:  Warner Brothers content on at and t phones. Like
+
+337
+00:19:13,480 --> 00:19:17,400
+Speaker 5:  that's what they wanted to do. Like if you bought an Android phone from
+
+338
+00:19:17,400 --> 00:19:20,960
+Speaker 5:  at and t, they were gonna preload it with apps that
+
+339
+00:19:20,960 --> 00:19:24,720
+Speaker 5:  delivered like bite-sized versions of Game of Thrones to you. And that's
+
+340
+00:19:24,720 --> 00:19:28,680
+Speaker 5:  why you would buy at and t phones over Verizon phones. I cannot even believe
+
+341
+00:19:28,680 --> 00:19:32,560
+Speaker 5:  that I am saying this like hundreds, thousands
+
+342
+00:19:32,560 --> 00:19:36,360
+Speaker 5:  of richly paid executives and consultants came up with
+
+343
+00:19:36,360 --> 00:19:40,240
+Speaker 5:  this plan that just saying out loud to the vergecast audience plainly,
+
+344
+00:19:40,590 --> 00:19:43,480
+Speaker 5:  I know what people are doing. Yeah. They're crashing their cars and jumping
+
+345
+00:19:43,480 --> 00:19:47,320
+Speaker 5:  off bridges cuz it's so stupid. But this was their
+
+346
+00:19:47,320 --> 00:19:51,080
+Speaker 5:  plan was that they would differentiate at and t's network by
+
+347
+00:19:51,080 --> 00:19:55,000
+Speaker 5:  having Warner Brothers content. Yeah. Which is
+
+348
+00:19:55,000 --> 00:19:58,680
+Speaker 5:  a plan that has failed every single fucking time. Anyone has ever tried it.
+
+349
+00:19:58,770 --> 00:20:01,320
+Speaker 5:  Do you know who else tried aol, tried to do that with Warner Brothers content?
+
+350
+00:20:02,630 --> 00:20:06,520
+Speaker 5:  Does anyone know who owns AOL now? Like no,
+
+351
+00:20:06,790 --> 00:20:10,560
+Speaker 5:  it's a disaster. And so they spent all this money, they hired Jason
+
+352
+00:20:10,560 --> 00:20:14,520
+Speaker 5:  Colar to come in and like beat ahead of the studio and he wasn't like,
+
+353
+00:20:14,520 --> 00:20:18,000
+Speaker 5:  I'm afraid of what's happening with pandemic audiences. He said, I'm pulling
+
+354
+00:20:18,000 --> 00:20:21,920
+Speaker 5:  the lever on streaming as hard as I can using the
+
+355
+00:20:21,920 --> 00:20:25,720
+Speaker 5:  opportunity, the pandemic screw you theater, screw you Hollywood,
+
+356
+00:20:25,720 --> 00:20:29,320
+Speaker 5:  a-list talent that has backend deals to get profit from theater revenue.
+
+357
+00:20:29,320 --> 00:20:33,240
+Speaker 5:  Right? All that stuff he just said, screw it, the pandemic is an excuse and
+
+358
+00:20:33,240 --> 00:20:36,960
+Speaker 5:  basically broke the studio. Whatever his as is doing
+
+359
+00:20:36,960 --> 00:20:40,680
+Speaker 5:  now, it seems like he is being very harsh. I
+
+360
+00:20:40,710 --> 00:20:44,640
+Speaker 5:  I I don't disagree. I just like what he was handed, what he bought
+
+361
+00:20:44,940 --> 00:20:48,880
+Speaker 5:  was a disaster of at t's making. And like
+
+362
+00:20:48,880 --> 00:20:52,360
+Speaker 5:  you, I don't think that there's a way out of that disaster without the perception
+
+363
+00:20:52,360 --> 00:20:52,880
+Speaker 5:  of harshness.
+
+364
+00:20:53,010 --> 00:20:56,320
+Speaker 6:  So like, I'm looking at this from the perspective of a consumer, right? Like
+
+365
+00:20:56,340 --> 00:21:00,320
+Speaker 6:  for a hot second there, H v o Max was sort of the awkward late
+
+366
+00:21:00,320 --> 00:21:03,240
+Speaker 6:  to the game sibling. Everyone's like, well what is H V O Max supposed to
+
+367
+00:21:03,240 --> 00:21:06,880
+Speaker 6:  be? Exactly. What is my interest in this outside of
+
+368
+00:21:07,160 --> 00:21:11,040
+Speaker 6:  watching things that are just gonna be h on hbo o And for a while HBO
+
+369
+00:21:11,040 --> 00:21:14,640
+Speaker 6:  Max sort of was coming into its own as having, having
+
+370
+00:21:14,920 --> 00:21:18,320
+Speaker 6:  interesting content, having rather interesting original content in interesting
+
+371
+00:21:18,560 --> 00:21:21,760
+Speaker 6:  original series as well as like the the established HBO o brands. But then
+
+372
+00:21:21,760 --> 00:21:25,360
+Speaker 6:  they were getting all of these, you know, blockbuster movies
+
+373
+00:21:25,600 --> 00:21:29,400
+Speaker 6:  immediately onto the platform. And from the consumer
+
+374
+00:21:29,400 --> 00:21:32,800
+Speaker 6:  perspective, like that was the dream, right? It was like, look, I will pay
+
+375
+00:21:32,800 --> 00:21:36,040
+Speaker 6:  a premium. I will pay like a premium premium. Even if, even if we weren't
+
+376
+00:21:36,040 --> 00:21:39,600
+Speaker 6:  necessarily dealing with the pandemic, if the studios were like, Hey, welcome
+
+377
+00:21:39,730 --> 00:21:43,600
+Speaker 6:  to our app, pay us anywhere between 30 to $60 to
+
+378
+00:21:43,600 --> 00:21:46,880
+Speaker 6:  watch the movie that is in the theater right now. Watch it here on the app.
+
+379
+00:21:46,880 --> 00:21:49,920
+Speaker 6:  People have been wanting something like that for the longest time. And H
+
+380
+00:21:49,920 --> 00:21:53,760
+Speaker 6:  v o max, you know, through all of these, you know, all,
+
+381
+00:21:53,780 --> 00:21:57,160
+Speaker 6:  all of the, the situation was able to give people something like that.
+
+382
+00:21:57,620 --> 00:22:01,600
+Speaker 6:  And because all of these platforms, not as the platforms, but the
+
+383
+00:22:01,600 --> 00:22:05,240
+Speaker 6:  companies that own them are constantly paying attention to one another for
+
+384
+00:22:05,310 --> 00:22:09,160
+Speaker 6:  a few months. There was the dream like, is this going to be the direction
+
+385
+00:22:09,160 --> 00:22:12,560
+Speaker 6:  that they all go in? Are they all gonna start prioritizing streaming in this
+
+386
+00:22:12,560 --> 00:22:15,840
+Speaker 6:  way because they understand that that's where eyeballs are. Were we going
+
+387
+00:22:15,840 --> 00:22:19,200
+Speaker 6:  to be on the precipice of a sea change where people just weren't flocking
+
+388
+00:22:19,200 --> 00:22:22,640
+Speaker 6:  the theaters the way that they used to? Which is why you saw, you know, last
+
+389
+00:22:22,640 --> 00:22:26,440
+Speaker 6:  year, the year before this really big hmm push for the
+
+390
+00:22:26,440 --> 00:22:29,680
+Speaker 6:  sentimental appeals to the theater going like, Hey you guys
+
+391
+00:22:29,990 --> 00:22:33,840
+Speaker 6:  movies are where we fall in love and where we discover ourselves and it's
+
+392
+00:22:33,840 --> 00:22:36,720
+Speaker 6:  like funny, look, I know you wanna sell this popcorn but you gotta calm down
+
+393
+00:22:36,720 --> 00:22:38,640
+Speaker 6:  with all that. Cause it's doing a lot. It's doing a lot.
+
+394
+00:22:40,180 --> 00:22:44,160
+Speaker 6:  But now you know, you know, DESSOLVE comes in and he is
+
+395
+00:22:44,160 --> 00:22:47,080
+Speaker 6:  a businessman, right? You are right. He's looking at this like, y'all we're
+
+396
+00:22:47,080 --> 00:22:50,880
+Speaker 6:  not, we're not gonna be solvent if we keep moving like
+
+397
+00:22:50,880 --> 00:22:54,600
+Speaker 6:  this. And so as plan, as best as we can tell from looking from the outside
+
+398
+00:22:54,600 --> 00:22:58,520
+Speaker 6:  in has really just been to cut spend to cut spend
+
+399
+00:22:58,810 --> 00:23:02,640
+Speaker 6:  in the long term. In the short term that looks like, all right, we
+
+400
+00:23:02,640 --> 00:23:06,520
+Speaker 6:  need to free up space on the platform for cheaper
+
+401
+00:23:06,610 --> 00:23:10,440
+Speaker 6:  content that we are going to eventually start producing four max
+
+402
+00:23:10,440 --> 00:23:14,120
+Speaker 6:  in the future. You can have your feelings about whether or not
+
+403
+00:23:14,180 --> 00:23:17,320
+Speaker 6:  the clearing of house could have been done in a more
+
+404
+00:23:17,720 --> 00:23:21,520
+Speaker 6:  judicious and quiet and less sort of like bombastic kind of
+
+405
+00:23:21,520 --> 00:23:21,720
+Speaker 6:  way.
+
+406
+00:23:21,870 --> 00:23:25,680
+Speaker 2:  Yeah. They were pulling stuff off. A lot of animated shows I know got
+
+407
+00:23:25,680 --> 00:23:29,520
+Speaker 2:  pulled with the, the creators not even knowing about it and suddenly there's
+
+408
+00:23:29,520 --> 00:23:32,680
+Speaker 2:  like just zero way to watch their their shows they they worked on.
+
+409
+00:23:32,780 --> 00:23:36,600
+Speaker 6:  And that's why, not that I'm coming out as a defender
+
+410
+00:23:36,600 --> 00:23:39,960
+Speaker 6:  of Zaslav, but like when you look at everything that he's done on paper,
+
+411
+00:23:39,960 --> 00:23:42,600
+Speaker 6:  you, you can see what he is doing. Yeah. He's trying, he's trying, he's trying
+
+412
+00:23:42,600 --> 00:23:46,480
+Speaker 6:  to save money. The issue and the reason that people have begun to
+
+413
+00:23:46,480 --> 00:23:50,240
+Speaker 6:  look at Zaslav and W B D in such a dim light is
+
+414
+00:23:50,240 --> 00:23:53,560
+Speaker 6:  just because of his methodology, right. Just because there does seem to be
+
+415
+00:23:53,560 --> 00:23:57,440
+Speaker 6:  a lack of care and attention being paid to the fact that, you know,
+
+416
+00:23:57,440 --> 00:24:01,400
+Speaker 6:  these, the content is the work of artists and creators, some
+
+417
+00:24:01,400 --> 00:24:05,320
+Speaker 6:  of whom this is their life's work, right? And it is, it is disheartening
+
+418
+00:24:05,320 --> 00:24:08,720
+Speaker 6:  to see your baby sort of just like thrown off the ship in the name of,
+
+419
+00:24:09,180 --> 00:24:10,800
+Speaker 6:  you know what I mean, in the bottom line,
+
+420
+00:24:10,870 --> 00:24:14,680
+Speaker 2:  Buried in the vault, never to be seen unless he has to pay
+
+421
+00:24:14,680 --> 00:24:15,840
+Speaker 2:  the i r s back.
+
+422
+00:24:15,900 --> 00:24:19,680
+Speaker 6:  The winnowing of Max also came again, not to bring it back to
+
+423
+00:24:19,680 --> 00:24:23,120
+Speaker 6:  award season, but it came at a, it came in a year where an H V O had a really
+
+424
+00:24:23,120 --> 00:24:27,040
+Speaker 6:  strong showing, you know, throughout award season, you know, succession
+
+425
+00:24:27,360 --> 00:24:31,240
+Speaker 6:  hacks, euphoria, the White Lotus, they were nominated, they were
+
+426
+00:24:31,240 --> 00:24:34,880
+Speaker 6:  winning these awards and it, you know, did sort of play into this idea like,
+
+427
+00:24:34,880 --> 00:24:38,280
+Speaker 6:  oh H v o Max, you know, to what you were saying earlier, H v O Max isn't
+
+428
+00:24:38,280 --> 00:24:40,840
+Speaker 6:  just a streaming platform, it's a streaming platform that's putting out really
+
+429
+00:24:40,840 --> 00:24:44,600
+Speaker 6:  good content. Things that people like, things that fans like critics. Like
+
+430
+00:24:44,800 --> 00:24:48,120
+Speaker 6:  it's something that's actually worth the investment of your time and energy.
+
+431
+00:24:48,140 --> 00:24:51,720
+Speaker 6:  And then to see the platform just having an ax taken to it,
+
+432
+00:24:51,930 --> 00:24:55,280
+Speaker 6:  it really sort of felt like, ah, why would you do this? Like why would you
+
+433
+00:24:55,280 --> 00:24:58,440
+Speaker 6:  do it? Especially since you've gotten the platform in such a, a healthy,
+
+434
+00:24:58,550 --> 00:25:00,400
+Speaker 6:  good, productive space at this point.
+
+435
+00:25:00,460 --> 00:25:04,440
+Speaker 5:  But there's two parts to that which I think are fascinating. One, if
+
+436
+00:25:04,440 --> 00:25:07,720
+Speaker 5:  you had to ask me what I would cut down to right now, I would pick HBO O
+
+437
+00:25:07,720 --> 00:25:07,920
+Speaker 5:  max.
+
+438
+00:25:08,480 --> 00:25:09,240
+Speaker 2:  Right? Same.
+
+439
+00:25:09,240 --> 00:25:12,960
+Speaker 5:  What is most consistently winning an hour of my evening? It's HBO O max,
+
+440
+00:25:12,960 --> 00:25:16,240
+Speaker 5:  right? It just has some of the, the most interesting stuff on it. If I had
+
+441
+00:25:16,240 --> 00:25:18,520
+Speaker 5:  to pick two, it'd be HBO, O Max and Netflix for sure. But if you had to just
+
+442
+00:25:18,520 --> 00:25:22,320
+Speaker 5:  ask me like, you get one and probably pick HBO Max just cause I get
+
+443
+00:25:22,320 --> 00:25:25,760
+Speaker 5:  mine the archive of movies and be happy for a long time, right? But that's
+
+444
+00:25:25,780 --> 00:25:28,800
+Speaker 5:  hbo I think what, what got the whole platform
+
+445
+00:25:29,310 --> 00:25:32,720
+Speaker 5:  kind of sideways is they added in all this other stuff, including
+
+446
+00:25:32,900 --> 00:25:36,760
+Speaker 5:  the Noise of Warner in DC and
+
+447
+00:25:36,760 --> 00:25:40,600
+Speaker 5:  HBO itself. The thing that makes really good TV shows just
+
+448
+00:25:40,600 --> 00:25:44,560
+Speaker 5:  had to like carry the weight of the, like they're not cutting a bunch
+
+449
+00:25:44,560 --> 00:25:48,440
+Speaker 5:  of HBO content. They're cutting a bunch of like Warner Brothers movies and
+
+450
+00:25:48,440 --> 00:25:52,040
+Speaker 5:  animated series stuff that like makes no sense and now they're gonna like
+
+451
+00:25:52,040 --> 00:25:55,640
+Speaker 5:  smash it together with Max and add a bunch of reality TV
+
+452
+00:25:55,640 --> 00:25:57,880
+Speaker 5:  stuff and like TLC stuff.
+
+453
+00:25:57,880 --> 00:26:01,320
+Speaker 2:  Well they've already started adding it, right? Like, like we saw all, you
+
+454
+00:26:01,320 --> 00:26:05,000
+Speaker 2:  know, they, they bragged about how Chip and Joanne Gaines's new
+
+455
+00:26:05,330 --> 00:26:08,560
+Speaker 2:  special about rebuilding a castle in Waco, Texas
+
+456
+00:26:08,940 --> 00:26:12,640
+Speaker 2:  was one of the, the most watched things on HBO Max this year. Like, like
+
+457
+00:26:12,640 --> 00:26:14,760
+Speaker 2:  they're already testing it and, and pushing that stuff.
+
+458
+00:26:14,980 --> 00:26:18,720
+Speaker 5:  One thing that is true about this entire conversation is that
+
+459
+00:26:18,720 --> 00:26:22,560
+Speaker 5:  there's no accounting for taste. And so like you can say
+
+460
+00:26:22,800 --> 00:26:25,760
+Speaker 5:  whatever you want and then you look at the most popular list and it's always
+
+461
+00:26:26,190 --> 00:26:30,000
+Speaker 5:  just the, the craziest garbage is the most pop. Yeah. Like the Big
+
+462
+00:26:30,000 --> 00:26:32,760
+Speaker 5:  Bang Theory was the most popular show in America for years running.
+
+463
+00:26:33,360 --> 00:26:36,960
+Speaker 6:  And Zaslav is very transparent. He's like, look, you can have your critical
+
+464
+00:26:36,960 --> 00:26:40,160
+Speaker 6:  darlings and you can have your little Emmys, but so long as the kids are
+
+465
+00:26:40,160 --> 00:26:43,640
+Speaker 6:  tuning into Chip and go Joanna Gaines, we're going to be be green lighting
+
+466
+00:26:43,640 --> 00:26:46,600
+Speaker 6:  more of this. Right? And while we can have our feelings about that like a
+
+467
+00:26:46,760 --> 00:26:50,680
+Speaker 6:  business perspective, that is a smart kind of move. Now I
+
+468
+00:26:50,680 --> 00:26:54,240
+Speaker 6:  would also be curious to hear from anyone within
+
+469
+00:26:54,550 --> 00:26:58,520
+Speaker 6:  H V O or rather from W V D, like how much does the prestige
+
+470
+00:26:58,520 --> 00:27:02,480
+Speaker 6:  perception matter to the company, right? Like arguably part
+
+471
+00:27:02,480 --> 00:27:06,240
+Speaker 6:  of HBO Max's success was the fact that it was able to ride the H B O brand
+
+472
+00:27:06,240 --> 00:27:09,480
+Speaker 6:  and sort of like HBO o as a brand is one of these like intergenerational
+
+473
+00:27:09,480 --> 00:27:13,400
+Speaker 6:  names that really just sort of consistently means quality to
+
+474
+00:27:13,400 --> 00:27:17,160
+Speaker 6:  people within like the entertainment space and to see
+
+475
+00:27:17,340 --> 00:27:21,160
+Speaker 6:  the direction that the company is turning towards with Max. I
+
+476
+00:27:21,160 --> 00:27:24,120
+Speaker 6:  wonder whether or not, like obviously we've heard rumblings like, oh there
+
+477
+00:27:24,120 --> 00:27:27,440
+Speaker 6:  will be like an H V O hub within Max where you can go for
+
+478
+00:27:27,950 --> 00:27:31,920
+Speaker 6:  a four year white lotus, but is the company concerned about people just
+
+479
+00:27:31,920 --> 00:27:35,800
+Speaker 6:  seeing Max as like the least imagining Lee named of the
+
+480
+00:27:35,800 --> 00:27:36,000
+Speaker 6:  service
+
+481
+00:27:36,520 --> 00:27:39,680
+Speaker 5:  Because it was a great name for a little girl. I just wanna put that out
+
+482
+00:27:39,680 --> 00:27:43,480
+Speaker 5:  there. It's a horrible name for streaming service. Four years ago
+
+483
+00:27:43,480 --> 00:27:44,960
+Speaker 5:  was a killer name for our daughter.
+
+484
+00:27:45,200 --> 00:27:46,800
+Speaker 2:  Extremely good name for a kid.
+
+485
+00:27:46,800 --> 00:27:49,640
+Speaker 5:  So I think one of the things here is like, I don't know that this is true,
+
+486
+00:27:49,640 --> 00:27:53,520
+Speaker 5:  but I know this is the theory is that allowing HBO to become a
+
+487
+00:27:53,520 --> 00:27:57,360
+Speaker 5:  tile inside of a Mac, an app called Max allows HBO to
+
+488
+00:27:57,680 --> 00:28:01,560
+Speaker 5:  maintain its brand the same way that allowing Lucas film or Marvel to be
+
+489
+00:28:01,560 --> 00:28:05,520
+Speaker 5:  tiles in Disney plus allow them to be somewhat distinct. But
+
+490
+00:28:05,520 --> 00:28:09,320
+Speaker 5:  the Halo brand there is Disney and here the Halo
+
+491
+00:28:09,320 --> 00:28:13,120
+Speaker 5:  brand is Max. And I just, and and also like the
+
+492
+00:28:13,120 --> 00:28:17,080
+Speaker 5:  feelings you get from Marvel are close enough to the
+
+493
+00:28:17,080 --> 00:28:20,920
+Speaker 5:  feelings you get from Lucas film are close enough to the feelings you
+
+494
+00:28:20,920 --> 00:28:24,800
+Speaker 5:  get from Pixar. Like Disney makes a thing that is expressed through
+
+495
+00:28:24,800 --> 00:28:28,720
+Speaker 5:  these gigantic franchises. The feelings you get from
+
+496
+00:28:28,720 --> 00:28:32,440
+Speaker 5:  the White Lotus should not be the feelings you get from Chip and
+
+497
+00:28:32,440 --> 00:28:36,200
+Speaker 5:  Joanna Gaines, but like that's the problem, right? There's a,
+
+498
+00:28:36,200 --> 00:28:39,920
+Speaker 5:  there's an emotional and creative mismatch between the tiles
+
+499
+00:28:39,920 --> 00:28:41,360
+Speaker 5:  inside of the, the forthcoming Max app.
+
+500
+00:28:41,710 --> 00:28:45,280
+Speaker 2:  I love to rip on EZ Love because I think a lot of what he's done has not
+
+501
+00:28:45,280 --> 00:28:49,000
+Speaker 2:  been done delicately enough and he could've, he could've saved people a lot
+
+502
+00:28:49,000 --> 00:28:52,920
+Speaker 2:  of heartaches with better communication than things. But he is a TV guy,
+
+503
+00:28:52,920 --> 00:28:56,760
+Speaker 2:  he's like a terrestrial TV guy. Yeah. Like he, he turned discovery from
+
+504
+00:28:56,760 --> 00:29:00,680
+Speaker 2:  this little tiny like random assortment of the learning
+
+505
+00:29:00,680 --> 00:29:04,640
+Speaker 2:  channel and these other things into Discovery, which is kind
+
+506
+00:29:04,920 --> 00:29:08,640
+Speaker 2:  of a behemoth in the cable space now. And, and his plan is to do the same
+
+507
+00:29:08,640 --> 00:29:12,320
+Speaker 2:  here. He, he, he knows that like brands matter and he
+
+508
+00:29:12,320 --> 00:29:16,160
+Speaker 2:  knows that he knows how people watch tv I think is the,
+
+509
+00:29:16,160 --> 00:29:19,920
+Speaker 2:  the most crucial thing here. And his kind of bet is that
+
+510
+00:29:19,920 --> 00:29:23,600
+Speaker 2:  people are moving from terrestrial tv, they're gonna move to just
+
+511
+00:29:23,600 --> 00:29:27,440
+Speaker 2:  paying companies directly instead of paying their cable operators
+
+512
+00:29:27,440 --> 00:29:31,400
+Speaker 2:  instead of watching stuff and sitting through ads. And so
+
+513
+00:29:31,660 --> 00:29:35,560
+Speaker 2:  his bet is like, I'm gonna build the new terrestrial TV and
+
+514
+00:29:35,560 --> 00:29:38,440
+Speaker 2:  you're gonna give all of your money to me because I'm gonna have discovery
+
+515
+00:29:38,440 --> 00:29:42,400
+Speaker 2:  and I'm gonna have HBO and I'm gonna have your little superheroes over
+
+516
+00:29:42,400 --> 00:29:46,360
+Speaker 2:  here. And I know he talks about them that way. He says they're the
+
+517
+00:29:46,360 --> 00:29:47,280
+Speaker 2:  little superheroes,
+
+518
+00:29:47,280 --> 00:29:51,200
+Speaker 5:  Little baby Batmans go 90 scale time. So
+
+519
+00:29:51,200 --> 00:29:54,760
+Speaker 5:  technically H Rio Max is at 90. This is gone.
+
+520
+00:29:55,050 --> 00:29:56,440
+Speaker 5:  We already know it's gone. Well
+
+521
+00:29:56,440 --> 00:29:59,000
+Speaker 2:  It's technically at 89, it's at like 89 until
+
+522
+00:29:59,000 --> 00:30:02,360
+Speaker 6:  It's gone. Gone, gone, gone, gone. It's not a 90 but
+
+523
+00:30:02,670 --> 00:30:03,640
+Speaker 6:  it's packing up,
+
+524
+00:30:06,390 --> 00:30:09,920
+Speaker 5:  It's looking for the door checked out. It has senioritis. Yeah. And so is
+
+525
+00:30:09,920 --> 00:30:13,720
+Speaker 5:  Discovery. I start every new streaming service out at 45, 50, 50
+
+526
+00:30:13,720 --> 00:30:17,320
+Speaker 5:  shot. So I would say Max the new service has a 50 50 shot at 45.
+
+527
+00:30:17,740 --> 00:30:19,520
+Speaker 2:  I'm like a 20. Okay,
+
+528
+00:30:19,520 --> 00:30:20,120
+Speaker 5:  Really?
+
+529
+00:30:20,440 --> 00:30:24,320
+Speaker 2:  Again, I dislike Zaslav, but he's a business guy and
+
+530
+00:30:24,320 --> 00:30:26,560
+Speaker 2:  he knows how to get people's eyeballs on stuff.
+
+531
+00:30:26,630 --> 00:30:30,080
+Speaker 5:  I've decided to, to be a zla apologist. I know Charles was like
+
+532
+00:30:30,080 --> 00:30:33,800
+Speaker 5:  dancing around. I'm like full on. Like do it slash and burn. Let's see what
+
+533
+00:30:33,800 --> 00:30:36,600
+Speaker 5:  happens. Everyone's too polite do some Eon stuff.
+
+534
+00:30:36,920 --> 00:30:40,760
+Speaker 2:  Like I think if he, I think if he can separate it enough and be like,
+
+535
+00:30:40,760 --> 00:30:44,720
+Speaker 2:  yeah, I'm gonna have, I'm still gonna have my H B O section over here, so
+
+536
+00:30:44,720 --> 00:30:48,240
+Speaker 2:  you wanna go do some artsy shit that'll win you some awards. You go hit up
+
+537
+00:30:48,240 --> 00:30:52,200
+Speaker 2:  my H B O guy, but you wanna make some money? I'm over here with Chip and
+
+538
+00:30:52,200 --> 00:30:52,560
+Speaker 2:  Joanne,
+
+539
+00:30:52,690 --> 00:30:56,600
+Speaker 6:  So, okay, we're starting at like a baseline of 45. I put it
+
+540
+00:30:56,600 --> 00:31:00,320
+Speaker 6:  at like a 60. Oh yeah. I think that we are at a point where there is
+
+541
+00:31:00,600 --> 00:31:04,320
+Speaker 6:  fatigue amongst consumers for signing up for these things. I do think I,
+
+542
+00:31:04,320 --> 00:31:07,680
+Speaker 6:  I think realistically there is a degree to which people are kind of tired
+
+543
+00:31:07,680 --> 00:31:11,560
+Speaker 6:  of being sold on the idea of new subscription platforms and that there
+
+544
+00:31:11,560 --> 00:31:15,280
+Speaker 6:  is, at least I'm speaking, I'm speaking to my own experience. I'm very comfortable
+
+545
+00:31:15,280 --> 00:31:18,800
+Speaker 6:  with the subscriptions that I have and the idea of getting logged in into
+
+546
+00:31:18,800 --> 00:31:22,480
+Speaker 6:  a new thing really does kind of fill me with a, an existential dread that
+
+547
+00:31:22,480 --> 00:31:26,360
+Speaker 6:  I don't think is unique. But yeah, Zaslav, he's not, if he were
+
+548
+00:31:26,360 --> 00:31:30,200
+Speaker 6:  canceling successful H B O shows left and right then yeah the future would
+
+549
+00:31:30,200 --> 00:31:33,960
+Speaker 6:  look pretty bleak. But as it stands now, while our faves
+
+550
+00:31:33,960 --> 00:31:37,760
+Speaker 6:  may be getting the acts, like the things that people are watching on the
+
+551
+00:31:37,960 --> 00:31:41,880
+Speaker 6:  platform, they are performing very well and he's made clear as intention
+
+552
+00:31:41,880 --> 00:31:45,640
+Speaker 6:  to make more of it. So will Max at least be around
+
+553
+00:31:45,640 --> 00:31:46,480
+Speaker 6:  for five years?
+
+554
+00:31:47,080 --> 00:31:49,680
+Speaker 5:  Probably. I can't wait for us to spend 15 minutes on Peacock,
+
+555
+00:31:51,140 --> 00:31:54,960
+Speaker 5:  but we've like in our feelings on Netflix and HBO Max and like
+
+556
+00:31:54,960 --> 00:31:57,040
+Speaker 5:  we have to get to Peacock still.
+
+557
+00:31:57,750 --> 00:32:01,120
+Speaker 2:  Okay, we're gonna get back to Peacock and Disney Plus and more, but first
+
+558
+00:32:01,120 --> 00:32:03,200
+Speaker 2:  we're gonna take a break, we'll be right back.
+
+559
+00:32:08,470 --> 00:32:12,140
+Speaker 4:  Support for our show comes from click up. One key to managing a productive
+
+560
+00:32:12,140 --> 00:32:15,540
+Speaker 4:  team is efficiency and also great office snacks, but mostly
+
+561
+00:32:15,540 --> 00:32:19,060
+Speaker 4:  efficiency. And whether you're leading a group of 10 or 110,
+
+562
+00:32:19,170 --> 00:32:22,460
+Speaker 4:  it's important to get the most out of every hour in the workday. That's where
+
+563
+00:32:22,460 --> 00:32:26,260
+Speaker 4:  Click Up can help. Click up is a productivity platform designed to save you
+
+564
+00:32:26,260 --> 00:32:30,220
+Speaker 4:  a full day every week. That means more time for clients, for meetings,
+
+565
+00:32:30,240 --> 00:32:33,380
+Speaker 4:  and for eating great office snacks, basically all of the important stuff.
+
+566
+00:32:33,380 --> 00:32:37,060
+Speaker 4:  Here's how it works. Click up houses, all of your projects, docs, goals,
+
+567
+00:32:37,060 --> 00:32:40,920
+Speaker 4:  spreadsheets and anything else you need for for work all in one place. Forget
+
+568
+00:32:40,920 --> 00:32:44,720
+Speaker 4:  wasting Precious times. Switching from app to app or using a multitude
+
+569
+00:32:44,720 --> 00:32:48,360
+Speaker 4:  of tools to finish a single task. Click up Redefines Productivity by
+
+570
+00:32:48,360 --> 00:32:52,240
+Speaker 4:  collecting all of your mission critical tools into one fully customizable
+
+571
+00:32:52,240 --> 00:32:55,760
+Speaker 4:  app. Work the way you work best with Click Up. You can help your team of
+
+572
+00:32:55,760 --> 00:32:59,560
+Speaker 4:  10 plus be more efficient and productive with Click Up. Use Code
+
+573
+00:32:59,560 --> 00:33:03,400
+Speaker 4:  Verge to get 15% off click ups, massive unlimited plan for
+
+574
+00:33:03,400 --> 00:33:06,960
+Speaker 4:  a year, meaning you can start reclaiming your time for under $5 a month.
+
+575
+00:33:06,960 --> 00:33:10,800
+Speaker 4:  You can sign up today@clickup.com and use Code Verge. Take your
+
+576
+00:33:10,800 --> 00:33:12,920
+Speaker 4:  productivity to the next level with click up today.
+
+577
+00:33:16,160 --> 00:33:19,910
+Speaker 3:  Today's episode is sponsored by Airbnb. Airbnb
+
+578
+00:33:19,910 --> 00:33:23,310
+Speaker 3:  lets you book comfortable stays all around the world so comfortable they
+
+579
+00:33:23,310 --> 00:33:26,710
+Speaker 3:  might even feel like home, which might lead you to wonder could my place
+
+580
+00:33:26,710 --> 00:33:30,470
+Speaker 3:  be an Airbnb? And if it was, what could it earn? The exciting
+
+581
+00:33:30,470 --> 00:33:34,230
+Speaker 3:  answer to that question is that right now you could be sitting on an Airbnb
+
+582
+00:33:34,230 --> 00:33:37,430
+Speaker 3:  and not even know it. Maybe you have a spare room that's already a haven
+
+583
+00:33:37,430 --> 00:33:41,190
+Speaker 3:  for visiting friends and family. So why not make it an Airbnb
+
+584
+00:33:41,190 --> 00:33:44,830
+Speaker 3:  and make some extra cash instead of letting it sit empty. Some people
+
+585
+00:33:44,900 --> 00:33:48,550
+Speaker 3:  Airbnb their entire homes when they're away for holidays or a big trip.
+
+586
+00:33:48,550 --> 00:33:51,910
+Speaker 3:  That's a great way to help cover the plane tickets. Whether you could use
+
+587
+00:33:51,910 --> 00:33:55,830
+Speaker 3:  a little extra money to stash away for a rainy day or you're saving up for
+
+588
+00:33:55,830 --> 00:33:59,790
+Speaker 3:  something fun, your home might be worth more than you think. Find out
+
+589
+00:33:59,790 --> 00:34:02,870
+Speaker 3:  how much at airbnb.com/host.
+
+590
+00:34:08,910 --> 00:34:12,800
+Speaker 2:  Okay, we're back. All right Eli Charles, let's talk about one
+
+591
+00:34:12,800 --> 00:34:16,680
+Speaker 2:  more big bi myth in the room. Disney plus, hmm Big year
+
+592
+00:34:16,680 --> 00:34:19,920
+Speaker 2:  this year. Obviously the end of this year has been huge for them. Chap is
+
+593
+00:34:20,240 --> 00:34:23,840
+Speaker 2:  out i's back and Iger has been pretty
+
+594
+00:34:24,200 --> 00:34:27,400
+Speaker 2:  vocal about what he wanted to see from the platform, I think especially at
+
+595
+00:34:27,400 --> 00:34:31,120
+Speaker 2:  Recode earlier this year or at Code conference earlier this year.
+
+596
+00:34:31,490 --> 00:34:35,120
+Speaker 2:  So what, what's, what's going on there? Like how are we feeling about I Disney
+
+597
+00:34:35,120 --> 00:34:37,840
+Speaker 2:  plus right now before we get to the ratings, the scores?
+
+598
+00:34:39,000 --> 00:34:42,440
+Speaker 6:  I mean from a content perspective I think that Disney
+
+599
+00:34:42,510 --> 00:34:46,120
+Speaker 6:  plus it's the best example of a studio
+
+600
+00:34:46,390 --> 00:34:50,360
+Speaker 6:  having that vertical system in place. It's like, hey, here's our
+
+601
+00:34:50,360 --> 00:34:53,920
+Speaker 6:  thing and we filled it with all of our stuff that you love so much, why don't
+
+602
+00:34:53,920 --> 00:34:57,880
+Speaker 6:  you come pay as a premium forward? Of course you will. You love us And it
+
+603
+00:34:57,880 --> 00:35:01,280
+Speaker 6:  has proven consistently to just sort of the
+
+604
+00:35:01,660 --> 00:35:04,800
+Speaker 6:  the dream from that perspective. But obviously it's not necessarily the comp,
+
+605
+00:35:04,800 --> 00:35:07,560
+Speaker 6:  it's not, it doesn't have the same kind of subscriber rates that it wants.
+
+606
+00:35:07,750 --> 00:35:11,600
+Speaker 6:  That being said, I in in being sort of like, hey we are the home for
+
+607
+00:35:11,600 --> 00:35:14,880
+Speaker 6:  Disney things, it in my mind has always sort of been like, yeah it's the
+
+608
+00:35:14,880 --> 00:35:18,240
+Speaker 6:  Disney one, right? The selection is less diverse
+
+609
+00:35:18,570 --> 00:35:22,520
+Speaker 6:  in terms of what it is that you can get when you open up the app.
+
+610
+00:35:22,660 --> 00:35:26,640
+Speaker 6:  And while that is definitely a feature rather than a
+
+611
+00:35:26,640 --> 00:35:30,040
+Speaker 6:  bug, I think for a lot of people it does just like compare it to the other
+
+612
+00:35:30,040 --> 00:35:33,800
+Speaker 6:  ones. It just makes it look like, like a less dynamic kind of space. In the
+
+613
+00:35:33,800 --> 00:35:35,080
+Speaker 6:  grand picture of things we would,
+
+614
+00:35:35,150 --> 00:35:38,840
+Speaker 2:  Here's my question. If you, you didn't have a small
+
+615
+00:35:38,840 --> 00:35:42,320
+Speaker 2:  child or you didn't watch a lot of
+
+616
+00:35:42,790 --> 00:35:46,720
+Speaker 2:  Star Wars and Willow, everybody should watch it, it's great, but you
+
+617
+00:35:46,720 --> 00:35:49,720
+Speaker 2:  didn't have that kinda like that nerd Gene and you didn't have a child.
+
+618
+00:35:49,890 --> 00:35:51,400
+Speaker 6:  Do you have a plus subscription?
+
+619
+00:35:51,400 --> 00:35:53,480
+Speaker 2:  Yeah. Do you have one? And I don't think you do, right?
+
+620
+00:35:53,670 --> 00:35:56,920
+Speaker 6:  I mean unless you're really, really, really into the Simpsons I guess. But
+
+621
+00:35:56,920 --> 00:35:57,600
+Speaker 6:  I think you can get that on who,
+
+622
+00:35:57,600 --> 00:36:00,800
+Speaker 2:  But then you're a nerd. Like if you're that into the Simpsons, you're a nerd,
+
+623
+00:36:01,190 --> 00:36:04,440
+Speaker 6:  A comedy nerd. But yeah, I, this speaks to
+
+624
+00:36:04,990 --> 00:36:08,720
+Speaker 6:  Disney's larger plan for things. It's like we need to become a part of like
+
+625
+00:36:08,720 --> 00:36:12,600
+Speaker 6:  their emotional dna so that yeah everyone has an into
+
+626
+00:36:12,600 --> 00:36:16,000
+Speaker 6:  Disney like that is sort of the galaxy brain brilliance of Disney,
+
+627
+00:36:16,200 --> 00:36:19,000
+Speaker 6:  right? It's like we live inside you, you can't get away from
+
+628
+00:36:19,840 --> 00:36:23,800
+Speaker 6:  right and you are going to pay us to feel good about our existence. Don't
+
+629
+00:36:23,960 --> 00:36:27,840
+Speaker 6:  question it. And so with that in mind, like Disney plus sort of that
+
+630
+00:36:27,840 --> 00:36:31,800
+Speaker 6:  is sort of like the, the underlay trick of Disney plus. I think
+
+631
+00:36:31,800 --> 00:36:35,520
+Speaker 6:  you'd be hard pressed to find people who are completely outside of that,
+
+632
+00:36:35,520 --> 00:36:39,200
+Speaker 6:  which is sort of what they're banking on. But you're right. Like there isn't
+
+633
+00:36:39,200 --> 00:36:42,840
+Speaker 6:  a lot, at least here in the US right? There isn't a lot on Disney Plus that
+
+634
+00:36:42,840 --> 00:36:46,480
+Speaker 6:  would necessarily appeal to Disney adults and you know
+
+635
+00:36:46,480 --> 00:36:49,640
+Speaker 6:  those a few step from proper Disney adult status.
+
+636
+00:36:49,990 --> 00:36:53,960
+Speaker 5:  Wait, hold on. This is the generation gap here is real. I encourage
+
+637
+00:36:53,960 --> 00:36:57,440
+Speaker 5:  you all to live with a small child. Disney Plus is on in our house
+
+638
+00:36:57,760 --> 00:36:59,400
+Speaker 5:  every single day. Well
+
+639
+00:36:59,400 --> 00:37:00,000
+Speaker 2:  Yeah cuz you got
+
+640
+00:37:00,000 --> 00:37:03,680
+Speaker 5:  A kid, right? I'm just saying like between Bluey and Encanto. Yeah.
+
+641
+00:37:03,710 --> 00:37:07,560
+Speaker 5:  Like that's what we pay the money. I do the math almost every day of
+
+642
+00:37:07,560 --> 00:37:11,520
+Speaker 5:  like, could I buy this archive and just have it versus
+
+643
+00:37:11,520 --> 00:37:15,040
+Speaker 5:  paying the money a month and Disney because it's like three things
+
+644
+00:37:15,260 --> 00:37:19,040
+Speaker 5:  and there's a promise there will be more things. The
+
+645
+00:37:19,040 --> 00:37:20,840
+Speaker 5:  math is, I should just say subscribe to
+
+646
+00:37:20,840 --> 00:37:20,960
+Speaker 6:  It
+
+647
+00:37:21,520 --> 00:37:25,280
+Speaker 5:  Because we get, we are just, it's just on constantly
+
+648
+00:37:25,280 --> 00:37:28,960
+Speaker 5:  everywhere we are. It's like how do we get half an hour of, of
+
+649
+00:37:28,960 --> 00:37:32,360
+Speaker 5:  peace in our lives? It's just like a little bit more encanto.
+
+650
+00:37:32,390 --> 00:37:36,360
+Speaker 6:  I can still listen to the Encanto soundtrack and not like reflexively
+
+651
+00:37:36,360 --> 00:37:40,320
+Speaker 6:  flinch at it because I've heard it so many times. Like Bluey,
+
+652
+00:37:40,470 --> 00:37:43,480
+Speaker 6:  I am a blue fan, I'll put it on every now and then. It's just like, you know
+
+653
+00:37:43,480 --> 00:37:46,640
+Speaker 6:  what, what are those Australian kids up to? Let's find out. And it's not,
+
+654
+00:37:46,660 --> 00:37:49,320
+Speaker 6:  I'm, I'm not bluey poisoned yet and that's kind of what,
+
+655
+00:37:50,630 --> 00:37:54,560
+Speaker 6:  that's why I wanna I Disney plus like you dip in every now and then get what
+
+656
+00:37:54,560 --> 00:37:57,440
+Speaker 6:  you need. You dip back out, go on with your life. But no, I totally get from,
+
+657
+00:37:57,440 --> 00:38:01,360
+Speaker 6:  if you have children in your life, I can totally see like the value add to
+
+658
+00:38:01,360 --> 00:38:03,240
+Speaker 6:  having Disney plus in your life. Like
+
+659
+00:38:03,240 --> 00:38:06,880
+Speaker 2:  When you come out of the, you know the baby's born and they give you your
+
+660
+00:38:06,880 --> 00:38:09,880
+Speaker 2:  baby, do they also just give you a Disney plus?
+
+661
+00:38:10,250 --> 00:38:12,960
+Speaker 5:  Oh yeah. The hospitals are gonna start, the hospitals do this already with
+
+662
+00:38:12,960 --> 00:38:16,760
+Speaker 5:  like brands of formula and like they like yeah like having a baby's a fully
+
+663
+00:38:17,000 --> 00:38:20,920
+Speaker 5:  monetized experience at some point Bob Iger is gonna realize
+
+664
+00:38:20,920 --> 00:38:24,840
+Speaker 5:  that the three month Disney plus subscription is gonna convert in every hospital
+
+665
+00:38:24,840 --> 00:38:25,760
+Speaker 5:  for the rest of time.
+
+666
+00:38:25,900 --> 00:38:29,440
+Speaker 6:  The first way you know you're pregnant is your cvs. Your CVS
+
+667
+00:38:29,590 --> 00:38:30,680
+Speaker 6:  just prints out a
+
+668
+00:38:30,680 --> 00:38:33,920
+Speaker 5:  Subscription the data brokers announced and like suddenly you're subscribed
+
+669
+00:38:33,920 --> 00:38:37,760
+Speaker 5:  to to D plus. That's great. That's the future of all ad based
+
+670
+00:38:37,760 --> 00:38:41,480
+Speaker 5:  track. What's more interesting to me is those Disney adults, right? Like
+
+671
+00:38:41,480 --> 00:38:45,040
+Speaker 5:  because people with kids, they all hear about Bluey. Bluey is like a viral
+
+672
+00:38:45,320 --> 00:38:49,280
+Speaker 5:  phenomenon. Like it's not a marketed show. No. Right? It's just, it's a phenomenon
+
+673
+00:38:49,280 --> 00:38:52,880
+Speaker 5:  because people are like, I can watch this with my kids and I don't hate myself
+
+674
+00:38:53,970 --> 00:38:57,640
+Speaker 5:  ka you putting that out there, but it's the Disney
+
+675
+00:38:57,640 --> 00:39:01,320
+Speaker 5:  adults and I feel like man, Disney just believes that
+
+676
+00:39:01,320 --> 00:39:05,280
+Speaker 5:  we'll watch like anything like, yeah I watched Moon Night and I
+
+677
+00:39:05,280 --> 00:39:09,120
+Speaker 5:  was like this is insulting. Like the whole show is like
+
+678
+00:39:09,120 --> 00:39:11,760
+Speaker 5:  just fully insulting to me that you think this is worth my time.
+
+679
+00:39:11,900 --> 00:39:15,600
+Speaker 6:  You didn't like the show about the latino slash kind of English
+
+680
+00:39:15,600 --> 00:39:19,520
+Speaker 6:  man who becomes an avatar of justice wrapped up
+
+681
+00:39:19,520 --> 00:39:20,720
+Speaker 6:  in Egyptian mythology.
+
+682
+00:39:20,950 --> 00:39:24,200
+Speaker 5:  That's a show where it's like Disney assumed I would like the concept
+
+683
+00:39:24,620 --> 00:39:28,400
+Speaker 5:  and the fact that it was a marvel and that there would be an infinite variety
+
+684
+00:39:28,400 --> 00:39:32,000
+Speaker 5:  of SEO targeted webpages about the backstory,
+
+685
+00:39:32,020 --> 00:39:35,880
+Speaker 5:  the character and not care at all about
+
+686
+00:39:35,880 --> 00:39:39,640
+Speaker 5:  the actual show that was on my television, which had a CGI
+
+687
+00:39:39,640 --> 00:39:43,440
+Speaker 5:  budget of $5, right? And I was like, I'm watching this. I'm like, everything
+
+688
+00:39:43,440 --> 00:39:47,320
+Speaker 5:  about me is primed to, I love Oscar Isaac. Yeah. Everything about me
+
+689
+00:39:47,320 --> 00:39:51,200
+Speaker 5:  is primed to love this show. And I, I wanted to go away like
+
+690
+00:39:51,200 --> 00:39:54,280
+Speaker 5:  I think you should start over was basically my reaction to this. And I think
+
+691
+00:39:54,280 --> 00:39:57,600
+Speaker 5:  that's, that's just true of a lot of Marvel stuff lately and I think that's
+
+692
+00:39:57,720 --> 00:39:59,360
+Speaker 5:  actually a bigger problem than Disney wants to admit.
+
+693
+00:39:59,590 --> 00:40:03,160
+Speaker 6:  I think that we're, what we, krantz and I talk about this a lot cuz you know,
+
+694
+00:40:03,160 --> 00:40:07,120
+Speaker 6:  we're those people, but I think that what we have sort of part of
+
+695
+00:40:07,120 --> 00:40:11,040
+Speaker 6:  the ugh is phase four a flop with Marvel. I think that part of what
+
+696
+00:40:11,040 --> 00:40:14,800
+Speaker 6:  people are picking up on are shifts within the studio, right? Shifts within
+
+697
+00:40:15,700 --> 00:40:19,680
+Speaker 6:  the budgeting, right? We are seeing, we are all very familiar with what
+
+698
+00:40:19,680 --> 00:40:23,600
+Speaker 6:  a production that involves volumes looks like these days. And we have our
+
+699
+00:40:23,600 --> 00:40:26,120
+Speaker 6:  feelings about them. A lot of people, I think the volumes are a big part
+
+700
+00:40:26,120 --> 00:40:29,720
+Speaker 6:  of Moon Night and that was a big part of what made everything feel so
+
+701
+00:40:29,840 --> 00:40:33,000
+Speaker 6:  music video, because it's not cheap, it's not that, it's not that they look
+
+702
+00:40:33,000 --> 00:40:36,920
+Speaker 6:  cheap, they do look very expensive. Expensive isn't the word. They look like
+
+703
+00:40:37,060 --> 00:40:39,840
+Speaker 6:  the presence of money is involved, right? But,
+
+704
+00:40:41,060 --> 00:40:44,720
+Speaker 6:  but it's not necessarily leading towards something that feels
+
+705
+00:40:45,230 --> 00:40:49,200
+Speaker 6:  polished despite it feeling shiny. And I think that yes, from
+
+706
+00:40:49,200 --> 00:40:53,120
+Speaker 6:  Marble's perspective, there are financial reasons as to why it
+
+707
+00:40:53,120 --> 00:40:57,040
+Speaker 6:  makes sense to work that way, right? When you are just looking at the
+
+708
+00:40:57,040 --> 00:41:00,160
+Speaker 6:  list of productions that are going on, you have to keep them under a certain
+
+709
+00:41:00,160 --> 00:41:04,080
+Speaker 6:  kind of budget. Particularly for these projects that live on Disney Plus.
+
+710
+00:41:04,250 --> 00:41:07,880
+Speaker 6:  We are at a point right now where when we are seeing a significant part of
+
+711
+00:41:07,880 --> 00:41:11,440
+Speaker 6:  the franchise existing in episodic format, right? Even though the Netflix
+
+712
+00:41:11,440 --> 00:41:15,360
+Speaker 6:  shows were sort of a big deal when they first launched Disney slash Marble
+
+713
+00:41:15,360 --> 00:41:19,280
+Speaker 6:  didn't get really serious, serious about tv, sorry, agents of Sheel
+
+714
+00:41:19,280 --> 00:41:23,000
+Speaker 6:  until Disney Plus existed, right? Yeah. I mean putting out shows
+
+715
+00:41:23,000 --> 00:41:26,960
+Speaker 6:  that were directly meant to feed into the movies in a significant kind of
+
+716
+00:41:26,960 --> 00:41:27,600
+Speaker 6:  way and, but
+
+717
+00:41:27,600 --> 00:41:30,960
+Speaker 5:  Then they didn't. But even even this, I feel like I did all this homework
+
+718
+00:41:31,640 --> 00:41:35,600
+Speaker 5:  about the multiverse and then it just didn't matter
+
+719
+00:41:35,600 --> 00:41:36,240
+Speaker 5:  in that movie.
+
+720
+00:41:36,550 --> 00:41:39,520
+Speaker 6:  I think that there was a lot of planning that went into it, but I don't think
+
+721
+00:41:39,520 --> 00:41:42,640
+Speaker 6:  that the execution has been all that great. I think that what we are seeing
+
+722
+00:41:42,650 --> 00:41:46,320
+Speaker 6:  is one of the biggest corporations in the world trying something out and
+
+723
+00:41:46,320 --> 00:41:50,040
+Speaker 6:  not entirely sticking the landing despite the fact that their inordinate
+
+724
+00:41:50,040 --> 00:41:53,360
+Speaker 6:  amount of resources should have made it impossible for them to mess it up
+
+725
+00:41:53,360 --> 00:41:54,400
+Speaker 6:  quite like this.
+
+726
+00:41:54,650 --> 00:41:58,600
+Speaker 5:  It literally feels like watching Wanda vision was now homework that I did
+
+727
+00:41:58,600 --> 00:42:01,960
+Speaker 5:  not need to do. There was like entertaining homework side reading that was
+
+728
+00:42:01,960 --> 00:42:03,320
+Speaker 5:  not important for any reason.
+
+729
+00:42:03,570 --> 00:42:07,560
+Speaker 2:  It just feels a lot like comics. Like if you're in the comics
+
+730
+00:42:07,560 --> 00:42:11,000
+Speaker 2:  space right now, then you're like, oh no, there's a big crossover. I gotta
+
+731
+00:42:11,000 --> 00:42:14,640
+Speaker 2:  go pick up like Captain Marvel from three years ago,
+
+732
+00:42:14,830 --> 00:42:18,600
+Speaker 2:  number 12 and read that. So I know what I'm gonna be expecting. And
+
+733
+00:42:18,600 --> 00:42:19,680
+Speaker 2:  that's a lot of work
+
+734
+00:42:19,740 --> 00:42:23,600
+Speaker 6:  And in a, it's weird to say, but like the M C U became
+
+735
+00:42:23,600 --> 00:42:27,560
+Speaker 6:  comic bookie in phase four, which is both a positive and a negative. Do
+
+736
+00:42:27,560 --> 00:42:31,120
+Speaker 6:  you want ridiculous stories that don't exactly make much sense and sort of
+
+737
+00:42:31,120 --> 00:42:35,040
+Speaker 6:  don't and don't gel with the character motivations that have
+
+738
+00:42:35,040 --> 00:42:38,440
+Speaker 6:  clearly been outlined in this recent story by a different creative team?
+
+739
+00:42:38,440 --> 00:42:41,960
+Speaker 6:  Then here you go. Like that's just comics in a nutshell. And it rubs movie
+
+740
+00:42:41,960 --> 00:42:45,320
+Speaker 6:  goers the wrong way because we have been, you know, we've been taught to
+
+741
+00:42:45,320 --> 00:42:46,760
+Speaker 6:  expect not that,
+
+742
+00:42:46,760 --> 00:42:50,040
+Speaker 5:  And especially by Marvel, right? Which, which successfully shed
+
+743
+00:42:50,430 --> 00:42:54,320
+Speaker 5:  some of that baggage in translating the comics to the screen. And so
+
+744
+00:42:54,320 --> 00:42:58,120
+Speaker 5:  the M C U is different and is focused and you understand what Robert
+
+745
+00:42:58,120 --> 00:43:02,000
+Speaker 5:  Downey Jr is gonna do. He's got a couple of moves, they're great, they're
+
+746
+00:43:02,000 --> 00:43:05,880
+Speaker 5:  the best moves, honestly. And like we're gonna deliver those moves
+
+747
+00:43:05,880 --> 00:43:09,800
+Speaker 5:  to you in an escalating series of conflicts until we kill him,
+
+748
+00:43:10,320 --> 00:43:14,040
+Speaker 5:  right? And like that's great. And now they're just like all over the, and
+
+749
+00:43:14,040 --> 00:43:17,960
+Speaker 5:  I, the reason I bring this up is to some extent the entire strategy for
+
+750
+00:43:17,960 --> 00:43:21,280
+Speaker 5:  Disney Plus is you are gonna want more Marvel stuff.
+
+751
+00:43:21,680 --> 00:43:25,560
+Speaker 5:  You're gonna want more Star Wars stuff. You're just want these franchises
+
+752
+00:43:25,930 --> 00:43:29,400
+Speaker 5:  to get milked until they're dry and then you gotta make 'em crazy. That's
+
+753
+00:43:29,400 --> 00:43:33,080
+Speaker 5:  their monopoly strategy beyond your kids are gonna watch Encanto
+
+754
+00:43:33,080 --> 00:43:36,920
+Speaker 5:  three times a week, but, and that's fine like grades I, but like
+
+755
+00:43:36,920 --> 00:43:40,520
+Speaker 5:  there's not a lot of rewatch potential inside the
+
+756
+00:43:40,520 --> 00:43:43,960
+Speaker 5:  Spider-Man movies or whatever, right? Like they're, they're just like missing
+
+757
+00:43:43,960 --> 00:43:47,920
+Speaker 5:  something now where they're just getting crazier and crazier and it
+
+758
+00:43:47,920 --> 00:43:51,040
+Speaker 5:  seems like the Marvel audience, the big danger here is the Marvel audience
+
+759
+00:43:51,370 --> 00:43:53,280
+Speaker 5:  is like, is this one gonna be worth it?
+
+760
+00:43:53,280 --> 00:43:57,240
+Speaker 6:  Right? And I think that that's kind of, that is the unfortunate reality
+
+761
+00:43:57,240 --> 00:44:00,600
+Speaker 6:  of where it is right now. Like it's interesting to think of what other alternatives
+
+762
+00:44:00,600 --> 00:44:04,400
+Speaker 6:  a studio could have gone for. Is it all right? Well now that Thanos has gone,
+
+763
+00:44:04,400 --> 00:44:07,960
+Speaker 6:  things have to just get bigger and more cosmic and more
+
+764
+00:44:07,960 --> 00:44:11,120
+Speaker 6:  ridiculous. Is it that, or is just, let's just start over, right? Like let's
+
+765
+00:44:11,120 --> 00:44:14,360
+Speaker 6:  just start over with a different group of people who exist in this world
+
+766
+00:44:14,360 --> 00:44:18,240
+Speaker 6:  and the fact that the studio didn't decide to go on that direction or rather
+
+767
+00:44:18,240 --> 00:44:22,160
+Speaker 6:  has only just started to kind of do it with the thunderbolts
+
+768
+00:44:22,160 --> 00:44:25,160
+Speaker 6:  and they're sort of like, like let's just sort of, and I'm not sure that
+
+769
+00:44:25,160 --> 00:44:28,360
+Speaker 6:  raising the stakes was the right move for something that is
+
+770
+00:44:28,510 --> 00:44:32,280
+Speaker 6:  presumably meant to exist in perpetuity, right? Like
+
+771
+00:44:32,280 --> 00:44:36,200
+Speaker 6:  comic books are created with the assumption that the stu like the
+
+772
+00:44:36,200 --> 00:44:39,800
+Speaker 6:  stories are just gonna keep going long enough that it won't matter when stories
+
+773
+00:44:39,800 --> 00:44:42,840
+Speaker 6:  come back around and you sort of see the cyclical nature of the business.
+
+774
+00:44:43,140 --> 00:44:47,040
+Speaker 6:  But movies have never worked that way, right? Sequels always have to
+
+775
+00:44:47,040 --> 00:44:50,880
+Speaker 6:  be bigger and more expensive and better. And unfortunately
+
+776
+00:44:51,150 --> 00:44:55,080
+Speaker 6:  Disney slash Marvel have not sort of recognized that they
+
+777
+00:44:55,080 --> 00:44:58,480
+Speaker 6:  are in a position to encourage their audiences not to think that way.
+
+778
+00:44:59,120 --> 00:45:02,920
+Speaker 6:  They have sort of fed into the expectation that you are always going to get
+
+779
+00:45:02,920 --> 00:45:06,600
+Speaker 6:  sort of like a more spectacular product. And in doing so, it's kind of work
+
+780
+00:45:06,600 --> 00:45:10,240
+Speaker 6:  themselves into this weird corner where it's like, well how do we, how
+
+781
+00:45:10,480 --> 00:45:13,280
+Speaker 6:  do we keep making these things bigger and better? I'm not really sure that
+
+782
+00:45:13,280 --> 00:45:13,560
+Speaker 6:  you can,
+
+783
+00:45:13,560 --> 00:45:16,240
+Speaker 2:  Well it's like they, they haven't, they haven't acknowledged that basically
+
+784
+00:45:16,240 --> 00:45:20,120
+Speaker 2:  they're doing soap operas but with fancier colors and no, they just
+
+785
+00:45:20,120 --> 00:45:24,040
+Speaker 2:  need to embrace like the whole story mechanism that soap
+
+786
+00:45:24,040 --> 00:45:26,960
+Speaker 2:  operas figured out in the sixties. But we gotta, we gotta, we gotta vote
+
+787
+00:45:26,960 --> 00:45:30,560
+Speaker 2:  like Disney plus go 90 scale, where is it right now?
+
+788
+00:45:30,710 --> 00:45:32,000
+Speaker 5:  Disney Plus or Disney?
+
+789
+00:45:32,000 --> 00:45:34,840
+Speaker 2:  Disney Plus. We're just talking about Disney Plus, which is where the Marvel
+
+790
+00:45:34,840 --> 00:45:36,440
+Speaker 2:  lives, which is where Bluey
+
+791
+00:45:36,440 --> 00:45:40,120
+Speaker 5:  Disney Plus is. Zero. It's a zero ER's back they got
+
+792
+00:45:40,120 --> 00:45:43,560
+Speaker 5:  Bluey. Yeah, right. Like you know, you don't know what to watch. Avengers
+
+793
+00:45:43,560 --> 00:45:46,680
+Speaker 5:  end game is right there. It'll burn three hours. Zero.
+
+794
+00:45:46,740 --> 00:45:50,640
+Speaker 2:  All right, so zero. Unless with an asterisks, if they get rid of Bluey
+
+795
+00:45:50,820 --> 00:45:52,160
+Speaker 2:  and then it's like a five,
+
+796
+00:45:52,720 --> 00:45:56,000
+Speaker 5:  If they get rid of Bluey it's a 90, I'm just like, they're dead to me. Get
+
+797
+00:45:56,000 --> 00:45:59,920
+Speaker 5:  outta here. Hulu I think is like an 85. I think the future
+
+798
+00:45:59,920 --> 00:46:03,640
+Speaker 5:  of Hulu is, is deeply up for grabs and it, but I will also say this,
+
+799
+00:46:03,640 --> 00:46:07,520
+Speaker 5:  Hulu has been at 85 since the first day Hulu existed. Yeah, this is
+
+800
+00:46:07,520 --> 00:46:08,480
+Speaker 5:  an improbable product.
+
+801
+00:46:08,580 --> 00:46:09,880
+Speaker 6:  The weird Franken service,
+
+802
+00:46:09,880 --> 00:46:13,400
+Speaker 2:  Charles, where's your Disney plus? Your Disney Plus is at a zero.
+
+803
+00:46:14,040 --> 00:46:17,480
+Speaker 6:  There's always a little bit of fatalism in me, so like no one is safe, but
+
+804
+00:46:17,480 --> 00:46:20,080
+Speaker 6:  like I think that they're at like a solid 15. Wait,
+
+805
+00:46:20,080 --> 00:46:22,480
+Speaker 5:  You gave Netflix a two when you're giving Disney plus a 15?
+
+806
+00:46:22,660 --> 00:46:26,280
+Speaker 6:  I'm going to stick with what I said because I said it and I'm not gonna
+
+807
+00:46:26,280 --> 00:46:30,080
+Speaker 6:  backtrack just cuz I was challenged on it, but I do, I do think that
+
+808
+00:46:30,080 --> 00:46:33,840
+Speaker 6:  there is a, just because Disney Plus is a newer service, I am
+
+809
+00:46:33,840 --> 00:46:37,720
+Speaker 6:  still waiting to sort of see Disney Plus prove what its thing
+
+810
+00:46:37,720 --> 00:46:40,360
+Speaker 6:  is aside from, hey, we got the Disney content,
+
+811
+00:46:40,530 --> 00:46:41,320
+Speaker 2:  We got the babies,
+
+812
+00:46:41,610 --> 00:46:44,800
+Speaker 6:  We got the babies, and we got the Star Wars nerds. And I get that that's,
+
+813
+00:46:44,800 --> 00:46:48,200
+Speaker 6:  you know, that is a successful business strategy, but it doesn't light me
+
+814
+00:46:48,200 --> 00:46:51,800
+Speaker 6:  up. So in my mind I'm like, mm, I don't know. You better watch out. All
+
+815
+00:46:51,800 --> 00:46:55,400
+Speaker 2:  Right, before we get to Hulu, quick, quick break to talk about
+
+816
+00:46:55,430 --> 00:46:59,000
+Speaker 2:  Amazon Prime. It's still there. You are still
+
+817
+00:46:59,000 --> 00:47:02,520
+Speaker 2:  required to have it if you get Amazon Prime
+
+818
+00:47:03,020 --> 00:47:06,920
+Speaker 2:  for shipping. It is technically, I think larger now than Netflix
+
+819
+00:47:06,920 --> 00:47:10,240
+Speaker 2:  simply because everybody gets Amazon Prime for shipping.
+
+820
+00:47:10,380 --> 00:47:13,840
+Speaker 5:  Can I just say that I love that the signature show of Jeff
+
+821
+00:47:13,970 --> 00:47:17,680
+Speaker 5:  Bezos's streaming network is the boys. It's just, it's like
+
+822
+00:47:17,680 --> 00:47:18,560
+Speaker 5:  it's perfect.
+
+823
+00:47:18,720 --> 00:47:19,600
+Speaker 6:  Isn't that wild?
+
+824
+00:47:19,950 --> 00:47:23,840
+Speaker 5:  It's so good that like when you're like Jeff Bezos, what is your biggest
+
+825
+00:47:23,840 --> 00:47:27,760
+Speaker 5:  hit in streaming? It's like the boys, the show
+
+826
+00:47:27,760 --> 00:47:31,520
+Speaker 5:  about billionaires and super, super superheroes who are actually ev like
+
+827
+00:47:31,720 --> 00:47:35,200
+Speaker 5:  first of all the boys is great and it's amazing that Amazon just lets them
+
+828
+00:47:35,200 --> 00:47:39,040
+Speaker 5:  run with that show. Like I think it's great. I mean if you haven't seen it,
+
+829
+00:47:39,040 --> 00:47:42,240
+Speaker 5:  you should go watch it. It is a great show and it's so funny to think about,
+
+830
+00:47:42,320 --> 00:47:46,000
+Speaker 5:  there are so many scenes of that show where I stop and just start laughing
+
+831
+00:47:46,260 --> 00:47:49,800
+Speaker 5:  and thinking about Jeff Bezos watching the scene, that scene
+
+832
+00:47:50,180 --> 00:47:53,280
+Speaker 5:  and being like, all right. And he's like, well this is what I paid for,
+
+833
+00:47:55,540 --> 00:47:59,160
+Speaker 2:  But this wasn't supposed to be his big series, right? Like this wasn't supposed
+
+834
+00:47:59,160 --> 00:48:02,800
+Speaker 2:  to be the big landmark series of Amazon Prime. It was supposed to be the
+
+835
+00:48:02,800 --> 00:48:06,200
+Speaker 2:  one that just came out this year. The Rings of Power, which
+
+836
+00:48:06,670 --> 00:48:10,240
+Speaker 2:  I finished watching everybody else in my group watch
+
+837
+00:48:10,670 --> 00:48:14,240
+Speaker 2:  tapped out after like episode five. They couldn't go any further.
+
+838
+00:48:14,460 --> 00:48:18,400
+Speaker 6:  The rings of power was, it was, it was interesting the three, three
+
+839
+00:48:18,400 --> 00:48:22,080
+Speaker 6:  episodes that I made it through, but it's kind of like, it is
+
+840
+00:48:22,340 --> 00:48:26,200
+Speaker 6:  the danger in chasing these kinds of established IP that are
+
+841
+00:48:26,200 --> 00:48:29,960
+Speaker 6:  very big and very popular, but have been so thoroughly mined already
+
+842
+00:48:30,030 --> 00:48:34,000
+Speaker 6:  that the question becomes what is not just the point,
+
+843
+00:48:34,000 --> 00:48:37,960
+Speaker 6:  but sort of like, what is the ad here? What is the ad for me, an
+
+844
+00:48:37,960 --> 00:48:41,720
+Speaker 6:  average consumer who is not a dye in the wool fan of these things. I think
+
+845
+00:48:41,720 --> 00:48:45,320
+Speaker 6:  that it's really interesting to look at how the streamers are gunning for
+
+846
+00:48:45,320 --> 00:48:49,000
+Speaker 6:  fandom and sort of like hoping that they are able to
+
+847
+00:48:49,000 --> 00:48:52,920
+Speaker 6:  tap into not just a specific fandoms interest in a thing, but a
+
+848
+00:48:52,920 --> 00:48:56,760
+Speaker 6:  fandoms desire to promote that thing and sort of spread its message
+
+849
+00:48:56,890 --> 00:49:00,200
+Speaker 6:  to other listeners. And I think that that was definitely a part of the logic
+
+850
+00:49:00,200 --> 00:49:04,160
+Speaker 6:  behind chasing the Lord of the Rings estate. Yeah. And hounding them
+
+851
+00:49:04,160 --> 00:49:07,760
+Speaker 6:  down for chunks of the ip but not the great chunks of the IP
+
+852
+00:49:07,930 --> 00:49:11,480
+Speaker 6:  to Amazon's credit. Like they put the story together, it's solid.
+
+853
+00:49:11,580 --> 00:49:15,280
+Speaker 6:  The cast is great. Yeah. Love the world building. But it's, it's also
+
+854
+00:49:15,280 --> 00:49:19,080
+Speaker 6:  just, this was obviously meant to be Amazon Prime's, game of
+
+855
+00:49:19,080 --> 00:49:22,560
+Speaker 6:  Thrones and that kind of logic just never, I don't think it ever translates
+
+856
+00:49:22,560 --> 00:49:26,280
+Speaker 6:  well. I think that once you as a consumer can like sniff out that kind of
+
+857
+00:49:26,280 --> 00:49:29,640
+Speaker 6:  logic from the studio's perspective, you're immediately kind of like, I'm
+
+858
+00:49:29,640 --> 00:49:31,160
+Speaker 6:  not, I'm not hot on it.
+
+859
+00:49:31,470 --> 00:49:35,400
+Speaker 5:  Also, everyone knows what happens. I just want to like, you can't
+
+860
+00:49:35,400 --> 00:49:39,320
+Speaker 5:  be like, this is our Game of Thrones. Also, everyone knows what happens has
+
+861
+00:49:39,320 --> 00:49:42,560
+Speaker 5:  since they were a teenager and have for 50 years,
+
+862
+00:49:43,040 --> 00:49:46,760
+Speaker 5:  right? Like there's, there's something broken with that calculus.
+
+863
+00:49:47,010 --> 00:49:50,600
+Speaker 5:  Whereas Game of Thrones had no one knows what happens,
+
+864
+00:49:50,680 --> 00:49:53,400
+Speaker 5:  including the guy who has not yet finished the books
+
+865
+00:49:54,300 --> 00:49:57,680
+Speaker 5:  and then they failed to stick the landing cuz he was like, I know some shit
+
+866
+00:49:57,680 --> 00:50:01,400
+Speaker 5:  happens. Like here's the, like the outline of it and they were like,
+
+867
+00:50:01,400 --> 00:50:03,920
+Speaker 5:  we're done with this. Like just get it done.
+
+868
+00:50:04,070 --> 00:50:07,680
+Speaker 6:  I think we can all agree that in the end, the House of the Dragon did emerge
+
+869
+00:50:07,680 --> 00:50:11,640
+Speaker 6:  as like the more this the stickier sword and
+
+870
+00:50:11,640 --> 00:50:14,840
+Speaker 6:  sorcery show that came out this year as opposed to the rings of power. And
+
+871
+00:50:14,840 --> 00:50:18,600
+Speaker 6:  I think it does sort of speak to not just that Game of Thrones
+
+872
+00:50:18,600 --> 00:50:22,400
+Speaker 6:  still sort of, despite the fact that a crash in Be the End still sort of
+
+873
+00:50:22,400 --> 00:50:25,560
+Speaker 6:  has like a, people still have a lot of fondness for it. I think it does just
+
+874
+00:50:25,560 --> 00:50:28,640
+Speaker 6:  sort of speak to what you're talking about. There is a degree to which this
+
+875
+00:50:29,090 --> 00:50:33,040
+Speaker 6:  IP has not been so thoroughly mined both with projects and in people's own
+
+876
+00:50:33,040 --> 00:50:36,880
+Speaker 6:  free time, that there was still like a curiosity there. Whereas with
+
+877
+00:50:36,880 --> 00:50:40,120
+Speaker 6:  Lord of the Rings, the fandom four Lord of the Rings, the hardcore fans,
+
+878
+00:50:40,120 --> 00:50:40,880
+Speaker 6:  they've read these books.
+
+879
+00:50:40,950 --> 00:50:44,600
+Speaker 5:  They were f I said 50 years, 70 years. They were 50 years old when
+
+880
+00:50:44,710 --> 00:50:46,240
+Speaker 5:  I read them as a teenager.
+
+881
+00:50:47,780 --> 00:50:51,200
+Speaker 6:  And so it's, it's like, well what could Amazon have done that would've made
+
+882
+00:50:51,200 --> 00:50:55,160
+Speaker 6:  it a success? I don't know. Right? Like, I'm not exactly sure that there
+
+883
+00:50:55,160 --> 00:50:58,680
+Speaker 6:  is a way that you take this and turn it into something that's going to be
+
+884
+00:50:58,680 --> 00:51:02,440
+Speaker 6:  a phenomenon just because it has already existed in the public consciousness
+
+885
+00:51:02,440 --> 00:51:03,840
+Speaker 6:  like this for so, so long.
+
+886
+00:51:04,050 --> 00:51:07,000
+Speaker 5:  We should talk about the other part of Amazon. So they've got like the Jack
+
+887
+00:51:07,000 --> 00:51:10,760
+Speaker 5:  Ryans of the world and they've got their, their little TV franchises. That's
+
+888
+00:51:10,760 --> 00:51:14,000
+Speaker 5:  not their economic model, right? Their economic model is, we
+
+889
+00:51:14,550 --> 00:51:18,520
+Speaker 5:  give you this, when you subscribe to Prime, you are much more likely to stand
+
+890
+00:51:18,520 --> 00:51:22,040
+Speaker 5:  for Prime or we need reasons for you to want this so you become a Prime
+
+891
+00:51:22,280 --> 00:51:25,080
+Speaker 5:  subscriber and then all the other benefits of Prime make it hard for you
+
+892
+00:51:25,080 --> 00:51:28,960
+Speaker 5:  to leave. Like, right. Amazon's business model for this service is
+
+893
+00:51:28,960 --> 00:51:32,480
+Speaker 5:  just wildly different than Netflix or Atrium Max or whatever. And so they're
+
+894
+00:51:32,480 --> 00:51:36,040
+Speaker 5:  doing things that the other streamers basically won't do or can't do
+
+895
+00:51:36,370 --> 00:51:40,080
+Speaker 5:  in particular live sports, right? They bought this gigantic
+
+896
+00:51:40,220 --> 00:51:44,160
+Speaker 5:  NFL package. If you wanna watch football on a Thursday, you have to go to
+
+897
+00:51:44,160 --> 00:51:47,360
+Speaker 5:  Amazon. How's that working out for you? Nii? It's, it's
+
+898
+00:51:47,360 --> 00:51:50,840
+Speaker 5:  hilariously fine. Like I, I'll just complain about this cuz this is the Vercast
+
+899
+00:51:50,840 --> 00:51:54,720
+Speaker 5:  and it's me, but they spent all of the money, they're very proud
+
+900
+00:51:55,010 --> 00:51:58,960
+Speaker 5:  of having spent all of the money to do 4K football broadcasts
+
+901
+00:51:59,240 --> 00:52:03,080
+Speaker 5:  and then they are still not doing 4K football. Like there's just something
+
+902
+00:52:03,080 --> 00:52:06,920
+Speaker 5:  about sports in America where it's like, even when we spend all the money
+
+903
+00:52:06,920 --> 00:52:10,640
+Speaker 5:  and go and get the trade press around our first in the
+
+904
+00:52:10,800 --> 00:52:14,000
+Speaker 5:  industry end-to-end 4K broadcast workflow, it's not gonna do it. They're
+
+905
+00:52:14,000 --> 00:52:17,840
+Speaker 5:  like, we're gonna go with 10 80 this year. Brutal seven
+
+906
+00:52:17,840 --> 00:52:21,120
+Speaker 5:  20. I, but it's, it's fine. They're able to do it because they're like, look,
+
+907
+00:52:21,400 --> 00:52:24,680
+Speaker 5:  football fans wanna watch their team. It's a guarantee that they're gonna
+
+908
+00:52:24,680 --> 00:52:27,880
+Speaker 5:  get irritated into paying for Prime. This is what every football fan has
+
+909
+00:52:27,880 --> 00:52:30,680
+Speaker 5:  ever said, just let it I, let me watch the game wherever I am, they're gonna
+
+910
+00:52:30,680 --> 00:52:32,920
+Speaker 5:  pay for it and then they're gonna get Prime and then they're gonna get music
+
+911
+00:52:32,920 --> 00:52:35,320
+Speaker 5:  and then like their Alexa will work better and then the shipping will be
+
+912
+00:52:35,320 --> 00:52:38,720
+Speaker 5:  free and whatever bundle of prime things you care about will happen to you
+
+913
+00:52:38,780 --> 00:52:42,640
+Speaker 5:  and then you'll stay. Right? And so they're able to front investments into
+
+914
+00:52:42,640 --> 00:52:46,600
+Speaker 5:  things that basically no one else can do. And Charles, I wonder like
+
+915
+00:52:46,600 --> 00:52:49,640
+Speaker 5:  we've talked a lot about just sort of how the business affects the content
+
+916
+00:52:49,640 --> 00:52:52,840
+Speaker 5:  and the context of hbo, Netflix. I'm wondering if you see any differences
+
+917
+00:52:53,070 --> 00:52:56,600
+Speaker 5:  with Amazon there because that's the, I would also put them at a, at like
+
+918
+00:52:56,600 --> 00:52:59,920
+Speaker 5:  a zero on the go, 90 scale. They're not going anywhere because their business
+
+919
+00:53:00,010 --> 00:53:02,280
+Speaker 5:  is a subsidy and is subsidized.
+
+920
+00:53:02,280 --> 00:53:05,400
+Speaker 6:  Right? And it's such a, it's, it's weird to think about it this way, but
+
+921
+00:53:05,400 --> 00:53:08,560
+Speaker 6:  in my mind, just because I've been covering these things for so long, Amazon
+
+922
+00:53:08,760 --> 00:53:12,680
+Speaker 6:  Prime rather Amazon's Studios is still a side project for Amazon in
+
+923
+00:53:12,680 --> 00:53:16,480
+Speaker 6:  my mind, right? Like even though that is an entire, like, that is an entire
+
+924
+00:53:16,480 --> 00:53:20,280
+Speaker 6:  beat unto itself. And obviously Amazon has proven itself to be a strong
+
+925
+00:53:20,280 --> 00:53:24,040
+Speaker 6:  contender in this space just by dent of the volume of content they put out.
+
+926
+00:53:24,070 --> 00:53:27,960
+Speaker 6:  It's not what, you know, it is not the company's sole reason
+
+927
+00:53:27,960 --> 00:53:31,280
+Speaker 6:  for existence. And in being that sort of like
+
+928
+00:53:31,710 --> 00:53:35,520
+Speaker 6:  side hustle from Amazon's perspective, it does sort of ensure that
+
+929
+00:53:35,520 --> 00:53:38,920
+Speaker 6:  it's not always going to exist, but there's no reason for them to get rid
+
+930
+00:53:38,920 --> 00:53:42,880
+Speaker 6:  of it. Right? It's not, and it's proven itself to be a successful
+
+931
+00:53:42,880 --> 00:53:46,600
+Speaker 6:  sort of business strategy for them in a way that I am.
+
+932
+00:53:46,710 --> 00:53:50,640
+Speaker 6:  I think that's part of why you do see, I, I'm thinking in my head right now,
+
+933
+00:53:50,640 --> 00:53:53,360
+Speaker 6:  like Disney Plus is trying to do like, Hey, do you wanna buy these things
+
+934
+00:53:53,360 --> 00:53:57,000
+Speaker 6:  from us? And it's such a, it's such an odd sort of pivot for them. Like,
+
+935
+00:53:57,000 --> 00:54:00,280
+Speaker 6:  Hey, we're opening up a shop to a limited number of our subscribers where
+
+936
+00:54:00,280 --> 00:54:03,800
+Speaker 6:  you can buy Star Wars paraphernalia. And it's like, that's cute. And I'm
+
+937
+00:54:04,080 --> 00:54:07,720
+Speaker 6:  sure you know, they'll get a few hundred, few thousand maybe sales out of
+
+938
+00:54:07,720 --> 00:54:11,560
+Speaker 6:  that. But it does sort of just feel like a pale comparison to the structure
+
+939
+00:54:11,560 --> 00:54:15,400
+Speaker 6:  of H B O Max, which is just like, hey, while you're watching the boys also
+
+940
+00:54:15,400 --> 00:54:18,880
+Speaker 6:  get on Amazon and buy the comics, sorry, on
+
+941
+00:54:18,880 --> 00:54:22,480
+Speaker 6:  Amazon, right? Like buy the comics, buy the Funko pops, buy all of these
+
+942
+00:54:22,480 --> 00:54:26,400
+Speaker 6:  things, send us more data points to know which characters you like
+
+943
+00:54:26,400 --> 00:54:29,400
+Speaker 6:  on this show so that we just, you know, like, you know what I mean? It just
+
+944
+00:54:29,400 --> 00:54:32,880
+Speaker 6:  sort of all seems that the thing that's happening at Disney Plus does sort
+
+945
+00:54:32,880 --> 00:54:36,560
+Speaker 6:  of feel informed by Amazon's ability to collect all of this information,
+
+946
+00:54:36,560 --> 00:54:39,520
+Speaker 6:  but it's something that the other studios aren't in a position to really
+
+947
+00:54:39,520 --> 00:54:42,840
+Speaker 6:  replicate, I don't think. It's not something that any of them can sort of
+
+948
+00:54:42,840 --> 00:54:46,600
+Speaker 6:  reverse engineer, at least not at this point in a way that would make financial
+
+949
+00:54:46,600 --> 00:54:50,360
+Speaker 6:  sense for them. And I think that that is definitely something that is
+
+950
+00:54:50,360 --> 00:54:54,120
+Speaker 6:  always going to keep Amazon on these. Like it's, it's gonna keep
+
+951
+00:54:54,120 --> 00:54:55,120
+Speaker 6:  Amazon in this space.
+
+952
+00:54:55,220 --> 00:54:58,000
+Speaker 5:  All right, so I'm at go 90 zero. Are you at zero two?
+
+953
+00:54:58,150 --> 00:55:02,000
+Speaker 6:  Yeah. Yeah, yeah. Nothing like, nothing has heard Amazon in a way that would
+
+954
+00:55:02,000 --> 00:55:04,560
+Speaker 6:  ever make me think like, oh, Amazon Studios is probably
+
+955
+00:55:04,750 --> 00:55:08,600
+Speaker 2:  Amazon Prime is going to exist forever. As long
+
+956
+00:55:08,600 --> 00:55:12,280
+Speaker 2:  as Amazon exists, you're gonna be able to get this,
+
+957
+00:55:12,280 --> 00:55:15,000
+Speaker 2:  will the content be good? Who can say,
+
+958
+00:55:15,190 --> 00:55:19,160
+Speaker 5:  Yeah, by the way, we just had Steve Boom who runs Amazon music,
+
+959
+00:55:19,480 --> 00:55:22,680
+Speaker 5:  actually he just got promoted to run even more things in Amazon, but Steve
+
+960
+00:55:22,680 --> 00:55:25,200
+Speaker 5:  Boom was just on decoder and he was like, here are the three things people
+
+961
+00:55:25,200 --> 00:55:28,880
+Speaker 5:  get out of Amazon. Prime shipping, prime video, distant
+
+962
+00:55:28,880 --> 00:55:32,680
+Speaker 5:  third music. Like it's, they're the two things. It's the, it's the shipping
+
+963
+00:55:32,680 --> 00:55:36,600
+Speaker 5:  and the video that are the point of Amazon Prime right now. Everything
+
+964
+00:55:36,600 --> 00:55:39,680
+Speaker 5:  else in the bundle is like Mathed out, but those are the top two and that
+
+965
+00:55:39,680 --> 00:55:40,600
+Speaker 5:  means I think it's safe forever.
+
+966
+00:55:40,790 --> 00:55:44,640
+Speaker 2:  That's fair. All right, now we're gonna talk about the really unsafe
+
+967
+00:55:44,640 --> 00:55:48,280
+Speaker 2:  one, which is Hulu because the big thing here
+
+968
+00:55:48,290 --> 00:55:51,960
+Speaker 2:  is is Hulu's jointly owned by Disney and
+
+969
+00:55:52,010 --> 00:55:53,400
+Speaker 2:  Comcast. Right Now
+
+970
+00:55:53,650 --> 00:55:56,800
+Speaker 5:  We need to disclose that Comcast is minority investor in Vox Media parent
+
+971
+00:55:56,800 --> 00:56:00,440
+Speaker 5:  company. I assure you if you're listening to this, they don't like us very
+
+972
+00:56:00,440 --> 00:56:01,760
+Speaker 5:  much, but there's your disclosure.
+
+973
+00:56:02,820 --> 00:56:06,320
+Speaker 2:  But the, basically this contract is kind of ending next year,
+
+974
+00:56:06,600 --> 00:56:07,000
+Speaker 2:  right?
+
+975
+00:56:07,610 --> 00:56:10,480
+Speaker 6:  So this is a holdover from
+
+976
+00:56:11,230 --> 00:56:15,200
+Speaker 6:  Disney's 2019 acquisition of Fox. Fox
+
+977
+00:56:15,200 --> 00:56:19,040
+Speaker 6:  owned a third of Hulu along with Comcast and Disney. And rather than
+
+978
+00:56:19,040 --> 00:56:23,000
+Speaker 6:  buying Fox's portion of Disney because to say, I forget exactly how
+
+979
+00:56:23,200 --> 00:56:26,600
+Speaker 6:  much Disney bought Fox four, they left those rights to
+
+980
+00:56:26,640 --> 00:56:29,920
+Speaker 6:  exist with Comcast because bringing them all on at once would've just been
+
+981
+00:56:29,920 --> 00:56:33,240
+Speaker 6:  too expensive. The deal at the time was, hey look, you can keep this third
+
+982
+00:56:33,240 --> 00:56:37,200
+Speaker 6:  of Hulu, but in 2024 you're gonna sell it back to us for
+
+983
+00:56:37,200 --> 00:56:40,680
+Speaker 6:  a price that we agree on now. Like we're gonna set this price, this is just
+
+984
+00:56:40,680 --> 00:56:44,520
+Speaker 6:  the minimum 2024 comes around, we're gonna renegotiate this.
+
+985
+00:56:45,280 --> 00:56:48,880
+Speaker 6:  The deadline to follow through on this deal is coming up and it's coming
+
+986
+00:56:48,880 --> 00:56:52,680
+Speaker 6:  at a time when the streaming landscape is just different, right?
+
+987
+00:56:52,680 --> 00:56:56,320
+Speaker 6:  Disney is all in on Disney Plus and
+
+988
+00:56:56,570 --> 00:57:00,280
+Speaker 6:  it wants to sink as much money as it can into just buffing out Disney
+
+989
+00:57:00,280 --> 00:57:04,080
+Speaker 6:  plus spending the money to buy back those rights from Comcast.
+
+990
+00:57:04,920 --> 00:57:08,240
+Speaker 6:  It could, it definitely could. It doesn't necessarily want to because it's
+
+991
+00:57:08,240 --> 00:57:11,360
+Speaker 6:  just a level of spend that all of the streamers universally are sort of like
+
+992
+00:57:11,360 --> 00:57:15,200
+Speaker 6:  trying to like cut down on if they're going to be spending millions of dollars,
+
+993
+00:57:15,200 --> 00:57:18,280
+Speaker 6:  it better be on themselves rather than just buying out something else. Also,
+
+994
+00:57:18,280 --> 00:57:22,160
+Speaker 6:  just in buying Hulu, what Disney gets out of it isn't immediately clear to
+
+995
+00:57:22,160 --> 00:57:25,880
+Speaker 6:  me. Obviously they would get access to some of the content on
+
+996
+00:57:25,880 --> 00:57:29,680
+Speaker 6:  Hulu, but then does that get folded into Disney Plus? It's not exactly clear
+
+997
+00:57:29,680 --> 00:57:30,440
+Speaker 6:  what kind of Well,
+
+998
+00:57:30,440 --> 00:57:31,640
+Speaker 5:  So, but they're kind of doing it.
+
+999
+00:57:31,640 --> 00:57:34,240
+Speaker 2:  Yeah, I was, I mean probably same thing you were gonna say, but a lot of
+
+1000
+00:57:34,240 --> 00:57:38,000
+Speaker 2:  that content is already folded into Disney Plus in other markets. It's just
+
+1001
+00:57:38,000 --> 00:57:41,640
+Speaker 2:  in the United States where it's split off and when, when Disney Plus was
+
+1002
+00:57:41,640 --> 00:57:45,440
+Speaker 2:  launched, they said, okay, Disney plus is for the kitties and the
+
+1003
+00:57:45,440 --> 00:57:48,600
+Speaker 2:  Star Wars people and the Disney adults, and then
+
+1004
+00:57:49,190 --> 00:57:53,120
+Speaker 2:  Hulu is for normal people and that's gonna be where all
+
+1005
+00:57:53,120 --> 00:57:56,960
+Speaker 2:  of our FX stuff goes and that's where all of our adult stuff is gonna
+
+1006
+00:57:56,960 --> 00:58:00,240
+Speaker 2:  go. And they, they've kind of kept that branding, but we've seen both Capic
+
+1007
+00:58:00,240 --> 00:58:03,440
+Speaker 2:  and Iger be like, eh, do we need those two separate
+
+1008
+00:58:04,160 --> 00:58:07,680
+Speaker 2:  platforms and, and be a lot more hesitant on that. And then we've also had
+
+1009
+00:58:07,680 --> 00:58:11,600
+Speaker 2:  Comcast say, yeah, actually we wanna own this whole platform and, and,
+
+1010
+00:58:11,600 --> 00:58:15,400
+Speaker 2:  and just do that because our business is going to die soon and all
+
+1011
+00:58:15,400 --> 00:58:18,080
+Speaker 2:  we're gonna, we're gonna be in the internet business and that's about it.
+
+1012
+00:58:18,180 --> 00:58:22,120
+Speaker 2:  And we need some sort of TV revenue stream and we're really good, really
+
+1013
+00:58:22,120 --> 00:58:26,040
+Speaker 2:  good at it. I'm using air quotes here so we, we want it so that we
+
+1014
+00:58:26,040 --> 00:58:29,720
+Speaker 2:  can be playing in this space that everybody else is playing in the streaming
+
+1015
+00:58:29,720 --> 00:58:33,480
+Speaker 2:  space. So you've got these like two companies who are both pretty
+
+1016
+00:58:33,480 --> 00:58:37,080
+Speaker 2:  invested and have good reasons to own it, who are gonna have to fight in
+
+1017
+00:58:37,080 --> 00:58:38,240
+Speaker 2:  2023 over it.
+
+1018
+00:58:38,550 --> 00:58:42,320
+Speaker 5:  Yeah. And I fundamentally, it's, they both want to use it. They want to kill
+
+1019
+00:58:42,320 --> 00:58:45,960
+Speaker 5:  it to bolster their other products, right? Comcast wants to bolster
+
+1020
+00:58:45,960 --> 00:58:49,840
+Speaker 5:  Peacock and Disney wants to obviously bolster Disney Plus. And
+
+1021
+00:58:49,840 --> 00:58:53,640
+Speaker 5:  it's funny because Hulu itself is a good product that
+
+1022
+00:58:53,640 --> 00:58:57,520
+Speaker 5:  it's customers like its owners have always hated it. And this has
+
+1023
+00:58:57,520 --> 00:59:01,160
+Speaker 5:  been the dynamic since it is Exi, like since the first day that it is,
+
+1024
+00:59:01,210 --> 00:59:05,160
+Speaker 5:  it is successful despite the fact that it's ownership has actively been
+
+1025
+00:59:05,400 --> 00:59:07,760
+Speaker 5:  trying to kill it since its inception. Originally
+
+1026
+00:59:07,850 --> 00:59:10,760
+Speaker 2:  It was like just this little upstart and you're like, oh, you wanna watch
+
+1027
+00:59:10,760 --> 00:59:14,560
+Speaker 2:  TV live? We figured out a way to do it, use Hulu. And then all the TV
+
+1028
+00:59:14,560 --> 00:59:18,480
+Speaker 2:  companies were like, wait, that's our content. We're just gonna buy you
+
+1029
+00:59:18,480 --> 00:59:22,280
+Speaker 2:  all together and own you so that you become our official streamer.
+
+1030
+00:59:22,280 --> 00:59:23,560
+Speaker 2:  Because remember ABC go,
+
+1031
+00:59:23,730 --> 00:59:27,520
+Speaker 5:  Do you remember when every Disney brand was on a the go.com subdomain for
+
+1032
+00:59:27,520 --> 00:59:29,320
+Speaker 5:  some a completely unclear reason.
+
+1033
+00:59:29,320 --> 00:59:32,880
+Speaker 2:  Yeah, absolutely. Brutal. So, so Hulu is, is facing
+
+1034
+00:59:33,030 --> 00:59:36,520
+Speaker 2:  a space, but it's also like it's winning awards. As you noted earlier, the
+
+1035
+00:59:36,520 --> 00:59:40,280
+Speaker 2:  dropout cleaned up pretty reasonably at the Emmy's.
+
+1036
+00:59:40,310 --> 00:59:43,640
+Speaker 2:  Amanda Siegfried run won for the dropout.
+
+1037
+00:59:43,640 --> 00:59:46,440
+Speaker 2:  Elizabeth Holmes lost and is now in jail
+
+1038
+00:59:47,340 --> 00:59:48,320
+Speaker 2:  for 11 years.
+
+1039
+00:59:48,390 --> 00:59:52,360
+Speaker 5:  Yeah, I mean look, Hulu is fine. It has some good stuff. It is another one
+
+1040
+00:59:52,360 --> 00:59:55,840
+Speaker 5:  of those sort of default players. It has a good live TV bundle. Yeah. People
+
+1041
+00:59:55,840 --> 00:59:58,520
+Speaker 5:  like it. If you know there, there's a handful of them out in the market.
+
+1042
+00:59:58,520 --> 01:00:02,320
+Speaker 5:  YouTube TV and Hulu seem to be the leaders. It exists. Like
+
+1043
+01:00:02,320 --> 01:00:05,960
+Speaker 5:  there's a conviction to Hulu that is shocking
+
+1044
+01:00:06,080 --> 01:00:10,040
+Speaker 5:  given its ownership. And I think that's just a success. I would say
+
+1045
+01:00:10,040 --> 01:00:13,960
+Speaker 5:  that a year from now when one of these, one of the
+
+1046
+01:00:13,960 --> 01:00:17,720
+Speaker 5:  two owners has eaten it, it's gone. Hmm. And that will actually, it will
+
+1047
+01:00:17,720 --> 01:00:18,920
+Speaker 5:  be in some ways a tragedy.
+
+1048
+01:00:19,310 --> 01:00:22,960
+Speaker 6:  I mean, it is gonna come down to who is willing to either
+
+1049
+01:00:22,960 --> 01:00:26,920
+Speaker 6:  spend slash forego the cash, right? Like that is gonna be the thing that
+
+1050
+01:00:26,920 --> 01:00:30,440
+Speaker 6:  determines Hulu's future. And I genuinely don't feel that anything that's
+
+1051
+01:00:30,440 --> 01:00:34,000
+Speaker 6:  going on at Hulu is going to keep it from being destroyed.
+
+1052
+01:00:34,000 --> 01:00:37,840
+Speaker 6:  Unfortunately, just because everyone who has a financial interest in it does
+
+1053
+01:00:37,840 --> 01:00:41,480
+Speaker 6:  stand to gain something either by its acquisition or destruction.
+
+1054
+01:00:41,690 --> 01:00:43,640
+Speaker 6:  So they won't just leave it to exist.
+
+1055
+01:00:43,870 --> 01:00:47,320
+Speaker 5:  Yeah. It's funny cuz we're basically predicting it's going away, but it's
+
+1056
+01:00:47,320 --> 01:00:51,200
+Speaker 5:  the, as I look at the list, well Apple TV plus is on this list in
+
+1057
+01:00:51,200 --> 01:00:55,080
+Speaker 5:  South anymore. But as you look at the list, right, the list here is
+
+1058
+01:00:55,080 --> 01:00:59,000
+Speaker 5:  like, so Netflix, hbo, Disney, Amazon, Hulu, those
+
+1059
+01:00:59,000 --> 01:01:01,680
+Speaker 5:  are the ones where you, you don't feel bad about recommending that anyone
+
+1060
+01:01:01,840 --> 01:01:04,800
+Speaker 5:  pay money for them, right? You're gonna get your money back out of those
+
+1061
+01:01:04,800 --> 01:01:07,800
+Speaker 5:  subscriptions in one way or the other. You're gonna be entertained, the apps
+
+1062
+01:01:07,800 --> 01:01:11,680
+Speaker 5:  aren't gonna crash on you. You know, it it, there's just something
+
+1063
+01:01:12,040 --> 01:01:15,560
+Speaker 5:  solid about these ones we're about to turn the corner into.
+
+1064
+01:01:15,620 --> 01:01:19,480
+Speaker 5:  Ugh, maybe there's one show you want, right? And
+
+1065
+01:01:19,480 --> 01:01:23,240
+Speaker 5:  it's funny that the, the Hulu is the last one to talk about cuz it is the
+
+1066
+01:01:23,240 --> 01:01:27,000
+Speaker 5:  one that is Yep. It's the one you can feel safe recommending.
+
+1067
+01:01:27,000 --> 01:01:30,080
+Speaker 5:  It's also the one that is definitely gonna go away. Right? And this is the,
+
+1068
+01:01:30,080 --> 01:01:34,040
+Speaker 5:  this is the corner that's turning where the business models of these and
+
+1069
+01:01:34,040 --> 01:01:37,920
+Speaker 5:  the ownership structures of these companies are more determinant of
+
+1070
+01:01:37,920 --> 01:01:41,840
+Speaker 5:  their futures than the content or the quality of the content. So, okay,
+
+1071
+01:01:41,840 --> 01:01:44,480
+Speaker 5:  go 90 scale for Hulu. I'm putting it solidly at
+
+1072
+01:01:44,480 --> 01:01:44,680
+Speaker 2:  80
+
+1073
+01:01:44,680 --> 01:01:46,320
+Speaker 5:  80. It's, it's done for
+
+1074
+01:01:46,320 --> 01:01:46,880
+Speaker 2:  Charles.
+
+1075
+01:01:47,190 --> 01:01:51,160
+Speaker 6:  Yeah. 80 feels right, especially because like, because the deadline
+
+1076
+01:01:51,160 --> 01:01:54,880
+Speaker 6:  is coming up and I don't think that it would benefit either side to just
+
+1077
+01:01:54,880 --> 01:01:58,040
+Speaker 6:  not move on it. Like they can't just ignore the deadline and be like, we're
+
+1078
+01:01:58,040 --> 01:02:01,880
+Speaker 6:  just gonna pretend that we never had those conversations. They
+
+1079
+01:02:01,880 --> 01:02:05,040
+Speaker 6:  are gonna, they are, they are gonna move on it and it's probably gonna lead
+
+1080
+01:02:05,040 --> 01:02:08,000
+Speaker 6:  to Hulu's destruction unfortunately. So, hey,
+
+1081
+01:02:08,300 --> 01:02:11,640
+Speaker 2:  I'm putting it at 85 just to be contrarian.
+
+1082
+01:02:12,070 --> 01:02:14,400
+Speaker 2:  I think it's even closer to death cuz Comcast is gonna
+
+1083
+01:02:14,400 --> 01:02:15,960
+Speaker 5:  Buy it at and t buys it.
+
+1084
+01:02:17,090 --> 01:02:17,440
+Speaker 7:  No.
+
+1085
+01:02:18,270 --> 01:02:21,640
+Speaker 2:  Okay, we're gonna take one more break and then we're gonna come back and
+
+1086
+01:02:21,640 --> 01:02:25,560
+Speaker 2:  we'll get into Peacock Paramount Plus and my personal favorite, the Taylor
+
+1087
+01:02:25,560 --> 01:02:26,520
+Speaker 2:  Sheridan Universe
+
+1088
+01:02:31,070 --> 01:02:34,900
+Speaker 3:  Support for this episode comes from another bite. If you're a Shark Tank
+
+1089
+01:02:34,900 --> 01:02:38,820
+Speaker 3:  fan or business junkie, then you'll love another bite. Each week the
+
+1090
+01:02:38,820 --> 01:02:42,780
+Speaker 3:  host breaks down the biggest success stories and most disastrous failures
+
+1091
+01:02:42,780 --> 01:02:46,100
+Speaker 3:  to come out of Shark Tank. From the Squatty Potty to the Waken Bacon,
+
+1092
+01:02:46,330 --> 01:02:50,260
+Speaker 3:  they dive into each company's pitch, analyze the deals that were or
+
+1093
+01:02:50,260 --> 01:02:53,860
+Speaker 3:  weren't made, and answer the million dollar question. Is that company
+
+1094
+01:02:53,860 --> 01:02:57,500
+Speaker 3:  still a company? Basically, they cover all the things you need to know to
+
+1095
+01:02:57,500 --> 01:03:01,340
+Speaker 3:  survive the tank or scale a company on your own. Whether
+
+1096
+01:03:01,340 --> 01:03:05,180
+Speaker 3:  you're an entrepreneur looking for tips or a fan looking to relive the show's
+
+1097
+01:03:05,180 --> 01:03:09,140
+Speaker 3:  most dramatic moments, another bite offers a deep dive into the world of
+
+1098
+01:03:09,140 --> 01:03:13,060
+Speaker 3:  Shark Tank. Just search for another bite and your favorite podcast app,
+
+1099
+01:03:13,060 --> 01:03:14,500
+Speaker 3:  like the one you're using right now.
+
+1100
+01:03:16,390 --> 01:03:20,300
+Speaker 8:  Support for this episode comes from the Hustle Daily Show on the
+
+1101
+01:03:20,300 --> 01:03:24,060
+Speaker 8:  HubSpot Podcast Network. If you're anything like us, sometimes
+
+1102
+01:03:24,060 --> 01:03:27,700
+Speaker 8:  you just want someone to round up the business tech and trends, news stories
+
+1103
+01:03:27,840 --> 01:03:31,500
+Speaker 8:  you actually need to know before you're done with your first cup of coffee.
+
+1104
+01:03:31,840 --> 01:03:35,100
+Speaker 8:  The Hustle Daily Show is that someone this show sifts through some of the
+
+1105
+01:03:35,100 --> 01:03:38,580
+Speaker 8:  most pertinent business media stories of the day to save you from scouring
+
+1106
+01:03:38,860 --> 01:03:42,820
+Speaker 8:  multiple news sources and gives you back that valuable time. Nothing like
+
+1107
+01:03:42,820 --> 01:03:46,300
+Speaker 8:  an irreverent, offbeat, informative take on what's going on in all things
+
+1108
+01:03:46,660 --> 01:03:50,140
+Speaker 8:  business. Join the Hustle Daily Crew every day wherever you listen to
+
+1109
+01:03:50,140 --> 01:03:53,580
+Speaker 8:  podcasts. Head to hubspot.com/podcast network
+
+1110
+01:03:53,790 --> 01:03:54,900
+Speaker 8:  to start listening today.
+
+1111
+01:04:00,720 --> 01:04:04,610
+Speaker 2:  Okay, we're back now. Let's talk about ne Eli's
+
+1112
+01:04:04,730 --> 01:04:08,050
+Speaker 2:  personal favorite. Peacock. Peacock exists.
+
+1113
+01:04:09,380 --> 01:04:12,850
+Speaker 2:  If you wanna watch Yellowstone, you have to subscribe to Peacock.
+
+1114
+01:04:13,030 --> 01:04:14,290
+Speaker 5:  The number of emails I get
+
+1115
+01:04:14,290 --> 01:04:15,050
+Speaker 8:  About Yellowstone,
+
+1116
+01:04:15,120 --> 01:04:18,570
+Speaker 2:  This new show with Carla Gugino, you have to subscribe. That's all I know
+
+1117
+01:04:18,570 --> 01:04:19,130
+Speaker 2:  about Peacock.
+
+1118
+01:04:19,440 --> 01:04:22,970
+Speaker 5:  I've, so we have started watching Yellowstone because everyone has recommended
+
+1119
+01:04:22,970 --> 01:04:26,730
+Speaker 5:  it to us. It's good. It's one of those shows that is, you know, it's like
+
+1120
+01:04:26,730 --> 01:04:29,890
+Speaker 5:  the water, it's everywhere, but no one talks about it except once you,
+
+1121
+01:04:30,280 --> 01:04:33,130
+Speaker 5:  once you tell the algorithms of the internet that you are mildly interested
+
+1122
+01:04:33,130 --> 01:04:35,970
+Speaker 5:  in Yellowstone. Everyone's talking about it. Hmm. First season, the great
+
+1123
+01:04:35,970 --> 01:04:39,370
+Speaker 5:  Second Season's little, it's just, it's one of the, like, they're doing the
+
+1124
+01:04:39,370 --> 01:04:42,810
+Speaker 5:  thing where they keep escalating the stakes and so it's just,
+
+1125
+01:04:42,880 --> 01:04:46,530
+Speaker 5:  it's just getting sillier. But that's fine. It's well acted. It's great.
+
+1126
+01:04:46,680 --> 01:04:50,450
+Speaker 5:  I get why people are into it. It's succession on horses.
+
+1127
+01:04:50,600 --> 01:04:52,370
+Speaker 5:  Yeah. You can't say no
+
+1128
+01:04:52,730 --> 01:04:54,210
+Speaker 2:  Sometimes there's guns.
+
+1129
+01:04:54,440 --> 01:04:58,410
+Speaker 5:  Yeah. The number of characters that are introduced on the show merely
+
+1130
+01:04:58,410 --> 01:05:01,850
+Speaker 5:  so that they can be murdered. Like ever. This,
+
+1131
+01:05:01,960 --> 01:05:05,770
+Speaker 5:  it's, we could do a whole hour on it. It's so funny. Like people talk about
+
+1132
+01:05:05,770 --> 01:05:09,610
+Speaker 5:  how beautifully written it is and there are some banger lines in every
+
+1133
+01:05:09,610 --> 01:05:13,210
+Speaker 5:  episode and then there's just some like, oh, our, our
+
+1134
+01:05:13,210 --> 01:05:17,010
+Speaker 5:  character murders, people need some more people to murder. Here's some people,
+
+1135
+01:05:17,080 --> 01:05:20,200
+Speaker 5:  people that are gonna show up to get murdered. Like it's just like nakedly
+
+1136
+01:05:20,200 --> 01:05:23,720
+Speaker 5:  happening. Like, oh, these people are gonna die. So it, it has its moments
+
+1137
+01:05:23,810 --> 01:05:27,720
+Speaker 5:  in the way that a big swirling soap opera has its moments. Okay. But it's
+
+1138
+01:05:27,720 --> 01:05:31,080
+Speaker 5:  also found an audience for Peacock for Paramount Plus, right? Like
+
+1139
+01:05:31,080 --> 01:05:34,360
+Speaker 5:  Paramount Plus is fully invested in this universe. They're doing
+
+1140
+01:05:34,870 --> 01:05:38,720
+Speaker 5:  prequels after prequels, they're bringing in star talent.
+
+1141
+01:05:39,480 --> 01:05:41,080
+Speaker 2:  1923 is coming,
+
+1142
+01:05:41,080 --> 01:05:44,880
+Speaker 5:  Right? And then they're gonna do 1883. Like they're going back in time
+
+1143
+01:05:45,330 --> 01:05:49,320
+Speaker 5:  in a like a hilarious way. The Stars all want to work with Taylor Sheridan.
+
+1144
+01:05:49,320 --> 01:05:53,280
+Speaker 5:  Like they've built a, a Marvel franchise out of
+
+1145
+01:05:53,280 --> 01:05:56,760
+Speaker 5:  a ranch in Montana and it's sort of like under remarked upon,
+
+1146
+01:05:56,950 --> 01:06:00,800
+Speaker 5:  except now everyone is, they're realizing like, oh, the money is here. Yeah.
+
+1147
+01:06:00,800 --> 01:06:03,600
+Speaker 5:  And you might be able to stand up an entire streaming network
+
+1148
+01:06:04,470 --> 01:06:08,160
+Speaker 5:  full of the Paramount Library on the back of this franchise.
+
+1149
+01:06:08,160 --> 01:06:11,280
+Speaker 5:  That's, by the way, Taylor Sheridan like, writes and directs every episode
+
+1150
+01:06:11,280 --> 01:06:15,080
+Speaker 5:  himself. Their bet is that he won't keel over and die. But
+
+1151
+01:06:15,080 --> 01:06:17,840
+Speaker 5:  that's like it, that's, that's what they got. They got that and then like
+
+1152
+01:06:18,160 --> 01:06:21,400
+Speaker 5:  everyone just bought Top Gun Maverick. So like, they didn't even like get
+
+1153
+01:06:21,400 --> 01:06:25,320
+Speaker 5:  the window of Top Gun. There's not a lot else there.
+
+1154
+01:06:25,320 --> 01:06:28,160
+Speaker 5:  And I'm, I'm, and I'm bundling Paramount and Peacock together.
+
+1155
+01:06:28,160 --> 01:06:29,280
+Speaker 2:  You're bundling them together.
+
+1156
+01:06:29,310 --> 01:06:32,880
+Speaker 5:  Well just because the thing that's driving peacock right now is
+
+1157
+01:06:32,880 --> 01:06:33,960
+Speaker 5:  Yellowstone, right.
+
+1158
+01:06:33,960 --> 01:06:37,680
+Speaker 2:  Because Paramount Plus didn't think about it at the time when they were,
+
+1159
+01:06:37,680 --> 01:06:40,240
+Speaker 2:  when they were like, we need to sell the streaming rights and instead of
+
+1160
+01:06:40,240 --> 01:06:43,280
+Speaker 2:  keeping it on Paramount Yeah, right. Peacock, you can have the streaming
+
+1161
+01:06:43,280 --> 01:06:46,640
+Speaker 2:  rights to this, it'll be fine. And they're, they're now like, we have a lot
+
+1162
+01:06:46,640 --> 01:06:50,240
+Speaker 2:  of regret. We asked Peacock if we could have the rights back and Peacock
+
+1163
+01:06:50,240 --> 01:06:50,680
+Speaker 2:  was like,
+
+1164
+01:06:51,170 --> 01:06:54,840
+Speaker 5:  No, no. It's the only reason people subscribe to Peacock. Peacock straight
+
+1165
+01:06:54,840 --> 01:06:58,600
+Speaker 5:  up. So I would say Peacock to me is, is at the most honest
+
+1166
+01:06:59,070 --> 01:07:02,760
+Speaker 5:  80 of them all. Yes. Like it's straight up. It's,
+
+1167
+01:07:02,910 --> 01:07:06,840
+Speaker 5:  it's the Comcast NBC disclosure, Comcast is always, it
+
+1168
+01:07:06,840 --> 01:07:10,760
+Speaker 5:  doesn't have hits. They wanted the hit to be the Olympics trying to figure
+
+1169
+01:07:10,760 --> 01:07:14,480
+Speaker 5:  out that company's approach to streaming the Olympics. Like that was the
+
+1170
+01:07:14,480 --> 01:07:18,440
+Speaker 5:  most honest, how to watch SEO, target bait that we've ever done. You know,
+
+1171
+01:07:18,440 --> 01:07:21,920
+Speaker 5:  like cuz it was hard, it was like legitimate. Like this is a good
+
+1172
+01:07:22,090 --> 01:07:26,040
+Speaker 5:  service to our audience to be like, how do I do this? Because
+
+1173
+01:07:26,040 --> 01:07:29,000
+Speaker 5:  they're so complicated. They haven't gotten the 4K stuff on sports right.
+
+1174
+01:07:29,000 --> 01:07:32,680
+Speaker 5:  At all. Yeah. And then the rest of it is what used to be
+
+1175
+01:07:32,960 --> 01:07:36,880
+Speaker 5:  Netflix's sort of like sleepy time binge watch stuff like The
+
+1176
+01:07:36,880 --> 01:07:39,600
+Speaker 5:  Office, right? Right. And they thought that bringing the office would bring
+
+1177
+01:07:39,600 --> 01:07:42,440
+Speaker 5:  all that audience over and it turns out Netflix would be like, Nope, you
+
+1178
+01:07:42,440 --> 01:07:46,320
+Speaker 5:  want a nap while you watch stuff. We have infinity content for comfort napping
+
+1179
+01:07:46,610 --> 01:07:50,240
+Speaker 5:  to be to happen. So I just think like they've gotta make a huge
+
+1180
+01:07:50,240 --> 01:07:54,160
+Speaker 5:  change to Peacock and maybe it means going away and buying all
+
+1181
+01:07:54,160 --> 01:07:55,440
+Speaker 5:  of Hulu and leaning into Hulu.
+
+1182
+01:07:55,440 --> 01:07:59,200
+Speaker 2:  Peacock's gonna be a channel on Max and Amazon
+
+1183
+01:07:59,200 --> 01:08:00,680
+Speaker 2:  Prime. I think that's what happens.
+
+1184
+01:08:00,680 --> 01:08:03,720
+Speaker 5:  Oh, just like one of those, like you subscribe to it within a larger bundle.
+
+1185
+01:08:03,750 --> 01:08:04,240
+Speaker 5:  Yeah,
+
+1186
+01:08:04,240 --> 01:08:06,800
+Speaker 2:  I think, I think a hundred percent that's what happens to it. But
+
+1187
+01:08:06,800 --> 01:08:08,320
+Speaker 5:  Why wouldn't you just do that with nbc?
+
+1188
+01:08:08,320 --> 01:08:09,800
+Speaker 2:  Because it's called Peacock Neil.
+
+1189
+01:08:10,510 --> 01:08:13,520
+Speaker 5:  This is what I mean. Like, I, I this brand isn't worth anything to anyone.
+
+1190
+01:08:13,520 --> 01:08:16,840
+Speaker 5:  Like Yeah, you buy Hulu and you, you like run it as Hulu and you like merge
+
+1191
+01:08:16,840 --> 01:08:20,760
+Speaker 5:  everything together or you sell NBC or your constituent
+
+1192
+01:08:20,830 --> 01:08:24,520
+Speaker 5:  like famous good brands Yeah. As channels into the bigger services.
+
+1193
+01:08:24,690 --> 01:08:28,480
+Speaker 5:  There's no reason to try to build up a thing called Peacock your
+
+1194
+01:08:28,480 --> 01:08:29,920
+Speaker 5:  desire to have a product like this.
+
+1195
+01:08:29,920 --> 01:08:33,320
+Speaker 2:  Right. Like they just, it was like, I wanna be a part of this as well moment
+
+1196
+01:08:33,320 --> 01:08:37,200
+Speaker 2:  for them. And I think you're right that like it's an 80, it's, it
+
+1197
+01:08:37,200 --> 01:08:38,920
+Speaker 2:  doesn't last much longer. What about you
+
+1198
+01:08:38,920 --> 01:08:41,960
+Speaker 6:  Charles? I'm gonna put it at a 79.
+
+1199
+01:08:42,760 --> 01:08:46,480
+Speaker 6:  Right? For one reason. One reason. And it's not, it's not just
+
+1200
+01:08:46,480 --> 01:08:50,040
+Speaker 6:  the contrarian. I'm legitimately excited to see what poker face is about
+
+1201
+01:08:50,110 --> 01:08:53,880
+Speaker 6:  Ryan Johnson and Natasha Leone's thing that's coming out where she's a non
+
+1202
+01:08:54,160 --> 01:08:57,920
+Speaker 6:  paranormal detective who can somehow always tell when people are lying. Like
+
+1203
+01:08:57,920 --> 01:09:00,680
+Speaker 6:  it's like, it's silly premise. The trail looked great and I'm like, peacock,
+
+1204
+01:09:00,680 --> 01:09:04,480
+Speaker 6:  why? Unfortunately you should have like been leading with stuff like this.
+
+1205
+01:09:04,480 --> 01:09:08,440
+Speaker 6:  You know, the the Gritty Fresh Prince reboot was not exactly going to
+
+1206
+01:09:08,440 --> 01:09:11,040
+Speaker 6:  make me sign up for a new service. And then the show wasn't particularly
+
+1207
+01:09:11,040 --> 01:09:13,600
+Speaker 6:  good. And so I thought to myself, oh, peacock's no one to pay attention to,
+
+1208
+01:09:13,940 --> 01:09:17,400
+Speaker 6:  but then just happened to casually see this and it's like, oh, like that
+
+1209
+01:09:17,400 --> 01:09:21,240
+Speaker 6:  looks interesting. Is it enough to save a
+
+1210
+01:09:21,240 --> 01:09:25,080
+Speaker 6:  streamer? No. Yeah. Could it? Yes it could. It could.
+
+1211
+01:09:25,130 --> 01:09:29,040
+Speaker 6:  It could. And so that's why I'm putting it at a 79 because
+
+1212
+01:09:29,040 --> 01:09:30,720
+Speaker 6:  maybe that will be the thing. Maybe it will be
+
+1213
+01:09:30,980 --> 01:09:31,720
+Speaker 5:  One show.
+
+1214
+01:09:31,970 --> 01:09:35,760
+Speaker 6:  It will be their Game of Thrones and their orange is a new black and
+
+1215
+01:09:35,760 --> 01:09:38,040
+Speaker 6:  they're transparent all rolled into one and everyone
+
+1216
+01:09:38,280 --> 01:09:41,640
+Speaker 2:  Ted lasso everything at once. Yeah, yeah, yeah. All right. Let's talk about
+
+1217
+01:09:41,640 --> 01:09:45,480
+Speaker 2:  Paramount Plus because that's, that's the other kind of weird
+
+1218
+01:09:45,480 --> 01:09:48,200
+Speaker 2:  wonky service started by a terrestrial TV show.
+
+1219
+01:09:48,200 --> 01:09:51,520
+Speaker 5:  I'm telling you. Paramount plus Yellowstone Universe,
+
+1220
+01:09:51,780 --> 01:09:55,400
+Speaker 5:  red America. Yeah, they're, that thing is solid. Like they've got a
+
+1221
+01:09:55,640 --> 01:09:58,400
+Speaker 5:  franchise that they can build on. They've gotta do all the rest of this stuff.
+
+1222
+01:09:58,400 --> 01:10:02,120
+Speaker 2:  They've got multiple franchises. They've got, they've got the, the Avatar
+
+1223
+01:10:02,200 --> 01:10:06,000
+Speaker 2:  franchise from Nickelodeon, they've got all of the Star
+
+1224
+01:10:06,000 --> 01:10:09,840
+Speaker 2:  Trek. A lot of it's just been like nostalgia bait, which is lazy but I'll
+
+1225
+01:10:09,840 --> 01:10:10,480
+Speaker 2:  watch it. People
+
+1226
+01:10:10,480 --> 01:10:11,320
+Speaker 6:  Like lower decks.
+
+1227
+01:10:11,320 --> 01:10:14,600
+Speaker 2:  Yeah, people like lower Decks, people like the one with Anson Mount, it seems
+
+1228
+01:10:14,600 --> 01:10:18,560
+Speaker 2:  to be popular. And then Halo came out. I know a lot
+
+1229
+01:10:18,560 --> 01:10:21,760
+Speaker 2:  of people found it pretty forgettable. I'm still tuning in for season two.
+
+1230
+01:10:21,870 --> 01:10:25,360
+Speaker 5:  Here's what, okay, so here's the argument for it not being under
+
+1231
+01:10:25,360 --> 01:10:29,000
+Speaker 5:  45. Okay? For Right Under 45 is more alive than dead, right? Yeah.
+
+1232
+01:10:29,600 --> 01:10:33,560
+Speaker 5:  The argument for More Dead than Live 45 and over on the
+
+1233
+01:10:33,560 --> 01:10:37,520
+Speaker 5:  go 90 scale of Dune streaming services. The thing that we invented makes
+
+1234
+01:10:37,520 --> 01:10:41,440
+Speaker 5:  no sense, but the argument that it's more dead than Alive is we are in
+
+1235
+01:10:41,440 --> 01:10:45,400
+Speaker 5:  the honeymoon phase of a just launch streaming service that
+
+1236
+01:10:45,400 --> 01:10:49,160
+Speaker 5:  has a couple of hits and the money and the attention and the vibes are good
+
+1237
+01:10:49,460 --> 01:10:52,800
+Speaker 5:  and there's no the the underlying corporate structure,
+
+1238
+01:10:53,140 --> 01:10:55,640
+Speaker 2:  But Paramount Plus is not just launched.
+
+1239
+01:10:55,870 --> 01:10:59,080
+Speaker 5:  Well it kind of did. Right? But it didn't like
+
+1240
+01:10:59,080 --> 01:11:02,960
+Speaker 2:  It. It was a rebranding of CBS All Access, which started
+
+1241
+01:11:02,960 --> 01:11:06,880
+Speaker 2:  almost immediately after Hulu because CBS said we don't wanna be
+
+1242
+01:11:06,880 --> 01:11:09,040
+Speaker 2:  a part of Hulu, we want our own thing.
+
+1243
+01:11:09,070 --> 01:11:12,280
+Speaker 5:  Sure. But CBS All Access was like not a huge hit. What I'm saying is Yeah,
+
+1244
+01:11:12,280 --> 01:11:15,760
+Speaker 5:  paramount Plus is the, the new home of the
+
+1245
+01:11:15,790 --> 01:11:19,560
+Speaker 5:  merged CBS Viacom corporate entity. Yeah.
+
+1246
+01:11:19,560 --> 01:11:20,960
+Speaker 5:  Which did not exist before,
+
+1247
+01:11:20,960 --> 01:11:22,440
+Speaker 2:  Which did not. Yeah, that's true.
+
+1248
+01:11:22,440 --> 01:11:26,400
+Speaker 5:  Right. So they rebrand, they took the CBS all access tech platform and they
+
+1249
+01:11:26,400 --> 01:11:30,160
+Speaker 5:  rebranded it Paramount Plus after CBS and Viacom merged, by the way, this,
+
+1250
+01:11:30,330 --> 01:11:33,960
+Speaker 5:  if you want succession, like the actual history of CBS and Viacom and the
+
+1251
+01:11:33,960 --> 01:11:37,760
+Speaker 5:  Redstone, like it's crazy. The Redstone family is nuts, but they now the
+
+1252
+01:11:37,760 --> 01:11:41,160
+Speaker 5:  company, it's one merged company. They've got all the brands and they are
+
+1253
+01:11:41,160 --> 01:11:45,120
+Speaker 5:  in that honeymoon period of new leadership, new company, new
+
+1254
+01:11:45,120 --> 01:11:48,880
+Speaker 5:  product with some big hits. There's nothing aside from that
+
+1255
+01:11:49,030 --> 01:11:52,760
+Speaker 5:  that tells you, oh, these vibes will continue. Right? There's not an
+
+1256
+01:11:52,960 --> 01:11:56,560
+Speaker 5:  enormous business model success underlying it. There's not a
+
+1257
+01:11:56,560 --> 01:12:00,440
+Speaker 5:  history of technology innovation here from
+
+1258
+01:12:00,440 --> 01:12:01,720
+Speaker 5:  this company in particular.
+
+1259
+01:12:01,830 --> 01:12:05,400
+Speaker 2:  I don't think it's history of tech innovation, but I do think like we cannot
+
+1260
+01:12:05,710 --> 01:12:09,280
+Speaker 2:  ignore the fact that CBS for decades has been
+
+1261
+01:12:09,280 --> 01:12:12,880
+Speaker 2:  very, very good at finding what people wanna watch and getting
+
+1262
+01:12:13,080 --> 01:12:16,640
+Speaker 2:  it in front of them. Like CBS dominated,
+
+1263
+01:12:16,640 --> 01:12:20,360
+Speaker 6:  We denigrate like the the ncis. Yeah. You know, of the world.
+
+1264
+01:12:20,380 --> 01:12:24,160
+Speaker 6:  But they are successful franchises that have been on since Time and
+
+1265
+01:12:24,160 --> 01:12:28,040
+Speaker 6:  Morum because people want to watch them. And us talking about the
+
+1266
+01:12:28,040 --> 01:12:31,120
+Speaker 6:  fact that people are still watching Big Bang Theory on h b Om Max. I think
+
+1267
+01:12:31,120 --> 01:12:34,880
+Speaker 6:  that CBS is definitely in a position to leverage its terrestrial
+
+1268
+01:12:35,280 --> 01:12:39,240
+Speaker 6:  audience on two Paramount plus they have not demonstrated
+
+1269
+01:12:39,660 --> 01:12:43,440
+Speaker 6:  any sort of plan or ability to do so. Yet they are
+
+1270
+01:12:43,440 --> 01:12:45,480
+Speaker 6:  still so new into their existence at Yeah,
+
+1271
+01:12:45,480 --> 01:12:48,880
+Speaker 2:  No, no. I'd argue that this Yellowstone thing is their plan, right? Because
+
+1272
+01:12:48,880 --> 01:12:51,880
+Speaker 2:  most of the people who are originally watching Yellowstone are watching it
+
+1273
+01:12:52,170 --> 01:12:56,120
+Speaker 2:  on Paramount tv, a terrestrial, like a cable
+
+1274
+01:12:56,120 --> 01:13:00,000
+Speaker 2:  channel or they're maybe watching it on Peacock to catch up and then
+
+1275
+01:13:00,000 --> 01:13:03,280
+Speaker 2:  they're saying, okay, you watched that, you liked that. Now do you wanna
+
+1276
+01:13:03,280 --> 01:13:07,160
+Speaker 2:  watch this thing where Harrison Ford plays Kevin Costner's, I
+
+1277
+01:13:07,160 --> 01:13:11,080
+Speaker 2:  think great uncle in the 1920s and Helen Miens there
+
+1278
+01:13:11,080 --> 01:13:15,040
+Speaker 2:  in Irish come right. Watch that. And so like that's, that's what they're
+
+1279
+01:13:15,040 --> 01:13:17,800
+Speaker 2:  doing is they're trying, they're trying to do kind of what Netflix originally
+
+1280
+01:13:17,800 --> 01:13:21,360
+Speaker 2:  did, which is say you like these characters, you like this stuff,
+
+1281
+01:13:21,620 --> 01:13:25,120
+Speaker 2:  you are scared of streaming because you live in rural
+
+1282
+01:13:25,520 --> 01:13:28,920
+Speaker 2:  Colorado. I'm thinking of just like one specific friend of mine come
+
+1283
+01:13:29,640 --> 01:13:33,600
+Speaker 2:  spend your $4 you and it's just like watching regular
+
+1284
+01:13:33,650 --> 01:13:37,560
+Speaker 2:  tv. You still get your commercials, spend your $4 and now you get
+
+1285
+01:13:37,560 --> 01:13:41,440
+Speaker 2:  to watch this premium show with Helen, me and and Harrison Ford
+
+1286
+01:13:41,540 --> 01:13:45,440
+Speaker 2:  and like I like, I think we all kind of discount them because it's
+
+1287
+01:13:45,440 --> 01:13:49,200
+Speaker 2:  cbs, it's Paramount. Like it's the people who gave us N C I S and the
+
+1288
+01:13:49,200 --> 01:13:52,160
+Speaker 2:  Chicago series. But at the same time those things are
+
+1289
+01:13:52,590 --> 01:13:56,160
+Speaker 2:  hugely, hugely popular. A lot of people watch it
+
+1290
+01:13:56,300 --> 01:14:00,080
+Speaker 2:  and I think that's gonna continue to be the case for Paramount Plus. I'm
+
+1291
+01:14:00,080 --> 01:14:02,200
+Speaker 2:  really curious to see what their subscription numbers are like.
+
+1292
+01:14:02,200 --> 01:14:04,840
+Speaker 5:  All right, I'm putting them at 45 after this conversation. I'm putting 'em
+
+1293
+01:14:04,840 --> 01:14:04,920
+Speaker 5:  at
+
+1294
+01:14:04,920 --> 01:14:08,280
+Speaker 2:  45. I'm putting 'em at like 32. Okay. It's a fun number.
+
+1295
+01:14:08,510 --> 01:14:12,400
+Speaker 6:  I would still put them at like a 55 because it does it again. Like
+
+1296
+01:14:12,400 --> 01:14:16,280
+Speaker 6:  if they are not able to really sort of get it together and figure out
+
+1297
+01:14:16,280 --> 01:14:19,600
+Speaker 6:  how to convert that old school audience into
+
+1298
+01:14:19,880 --> 01:14:22,760
+Speaker 6:  subscribers, then yeah, paramount Plus is gonna be in a really rough position.
+
+1299
+01:14:22,820 --> 01:14:26,480
+Speaker 6:  But if they are able to make it seem like the easiest and
+
+1300
+01:14:26,480 --> 01:14:30,280
+Speaker 6:  sort of most familiar service for their fans to sort of glom onto,
+
+1301
+01:14:30,470 --> 01:14:31,920
+Speaker 6:  yeah, it will be around.
+
+1302
+01:14:31,920 --> 01:14:35,520
+Speaker 2:  Yeah, I think 1923 is gonna be a big deal for them or at least a big
+
+1303
+01:14:35,630 --> 01:14:39,000
+Speaker 2:  change for them one way or the other. All right, now we're gonna talk about
+
+1304
+01:14:39,240 --> 01:14:43,200
+Speaker 2:  Apple TV plus no Ted Lasso this year, but
+
+1305
+01:14:43,360 --> 01:14:47,160
+Speaker 2:  Severance Severance was huge for them. The Major League Soccer
+
+1306
+01:14:47,330 --> 01:14:51,160
+Speaker 2:  finally launching there. Nobody watches it cuz it's Major League
+
+1307
+01:14:51,160 --> 01:14:51,480
+Speaker 2:  Soccer
+
+1308
+01:14:52,510 --> 01:14:53,000
+Speaker 5:  Rael,
+
+1309
+01:14:53,100 --> 01:14:54,240
+Speaker 2:  But it's a sport.
+
+1310
+01:14:54,240 --> 01:14:55,880
+Speaker 5:  David Pierce is so mad at you,
+
+1311
+01:14:55,970 --> 01:14:59,560
+Speaker 2:  He can't be here. Play with your baby David. Enjoy your adorable baby.
+
+1312
+01:15:00,100 --> 01:15:03,080
+Speaker 2:  But you know, they, they they're getting Oscars, they're, they're winning
+
+1313
+01:15:03,320 --> 01:15:06,600
+Speaker 2:  Emmy's. This is kind of the, a lot of people have said this is the new H
+
+1314
+01:15:06,600 --> 01:15:07,480
+Speaker 2:  B O who
+
+1315
+01:15:07,480 --> 01:15:08,240
+Speaker 6:  Has said that? Who?
+
+1316
+01:15:08,350 --> 01:15:11,960
+Speaker 5:  Apples says that Eddie Q is walking around me. Like it's the new
+
+1317
+01:15:11,960 --> 01:15:12,480
+Speaker 5:  Inviro.
+
+1318
+01:15:13,200 --> 01:15:15,440
+Speaker 6:  Let's be specific about who's saying this.
+
+1319
+01:15:15,450 --> 01:15:18,080
+Speaker 5:  No, so they, they have a really high bar. One thing if you open the Apple
+
+1320
+01:15:18,080 --> 01:15:21,800
+Speaker 5:  TV app, there's a lot of stuff in there now. Yeah, right. They just
+
+1321
+01:15:22,000 --> 01:15:25,040
+Speaker 5:  licensed like all the Will Ferrell movies for a while because they've got
+
+1322
+01:15:25,040 --> 01:15:28,360
+Speaker 5:  the new Ryan Reynolds Will Ferrell movie. Like I was like, is this weird?
+
+1323
+01:15:28,360 --> 01:15:32,200
+Speaker 5:  Like I'm watching old school in Apple TV plus right now,
+
+1324
+01:15:32,200 --> 01:15:36,000
+Speaker 5:  like this doesn't make any sense, but they're starting to like
+
+1325
+01:15:36,000 --> 01:15:39,920
+Speaker 5:  fill out the catalog in these like little spurts. Yeah.
+
+1326
+01:15:39,920 --> 01:15:43,520
+Speaker 5:  So you're like, oh, Apple's got all the Will Ferrell movies. That's fun.
+
+1327
+01:15:43,520 --> 01:15:45,520
+Speaker 5:  I'll like watch a bunch of those and then they're gonna go away. They're
+
+1328
+01:15:45,520 --> 01:15:49,000
+Speaker 5:  gonna do it again. So they've got new programming ideas that make the app
+
+1329
+01:15:49,000 --> 01:15:52,560
+Speaker 5:  feel full even though the catalog is nowhere near as big as everyone else.
+
+1330
+01:15:53,640 --> 01:15:57,400
+Speaker 5:  They're making a bunch of stuff. They just, improbably made
+
+1331
+01:15:57,400 --> 01:16:01,240
+Speaker 5:  Three Seasons of Sea, one of the silliest shows ever made.
+
+1332
+01:16:01,390 --> 01:16:05,280
+Speaker 2:  They all wear masks but they can't see why do they wear the
+
+1333
+01:16:05,280 --> 01:16:08,320
+Speaker 5:  Masks? The number of Reddit threads are like, wait, can they see? It's like
+
+1334
+01:16:08,320 --> 01:16:09,240
+Speaker 5:  very funny on that show.
+
+1335
+01:16:10,430 --> 01:16:12,280
+Speaker 6:  I feel like that's Apple School. They just like
+
+1336
+01:16:12,370 --> 01:16:16,280
+Speaker 5:  Confuse a Reddit conversation into existence. They're just making
+
+1337
+01:16:16,280 --> 01:16:19,640
+Speaker 5:  stuff and they're, some people really like the shows, but then they only
+
+1338
+01:16:19,640 --> 01:16:22,920
+Speaker 5:  have had I think the two or three breakout hits.
+
+1339
+01:16:23,150 --> 01:16:26,920
+Speaker 5:  Like they've made three seasons of Mythic Quests, which is a fun show to
+
+1340
+01:16:26,920 --> 01:16:29,880
+Speaker 5:  watch. And also the sort of show that Netflix would've definitely killed
+
+1341
+01:16:29,880 --> 01:16:32,720
+Speaker 5:  after the second season. Right. And Apple's like, yep, we're gonna re-up
+
+1342
+01:16:32,720 --> 01:16:34,040
+Speaker 5:  it cuz some people are watching it.
+
+1343
+01:16:34,070 --> 01:16:37,480
+Speaker 2:  Tons of critical acclaim. Everybody really, really likes Mythic Quests. I
+
+1344
+01:16:37,480 --> 01:16:39,960
+Speaker 2:  think it even got nominated, did it get nominated for Emmy's this
+
+1345
+01:16:39,960 --> 01:16:42,720
+Speaker 5:  Year? Yeah. The best part about Mythic Quests by the way, is how much it
+
+1346
+01:16:42,720 --> 01:16:46,280
+Speaker 5:  relentlessly dunks. It's a show about a game studio. Yeah. And the characters
+
+1347
+01:16:46,280 --> 01:16:49,720
+Speaker 5:  at the game studio relentlessly dunk on the concept of mobile gaming
+
+1348
+01:16:49,970 --> 01:16:53,920
+Speaker 5:  at every turn. It's great. It's the funniest shit you've ever
+
+1349
+01:16:53,920 --> 01:16:55,600
+Speaker 5:  heard. Like Apple made this show
+
+1350
+01:16:55,750 --> 01:16:59,160
+Speaker 2:  A lot of, a lot of like game developers say it's the most realistic
+
+1351
+01:16:59,290 --> 01:17:03,280
+Speaker 2:  version of their world, which horrifying you guys. Yeah. What is
+
+1352
+01:17:03,280 --> 01:17:06,880
+Speaker 2:  happening to your industry. But, but yeah, like outside of Severance
+
+1353
+01:17:06,940 --> 01:17:10,880
+Speaker 2:  and Ted Lasso, there's a lot of shows I really like on it, but I am
+
+1354
+01:17:10,880 --> 01:17:13,120
+Speaker 2:  alone. Like I don't, there's a lot of other people
+
+1355
+01:17:13,400 --> 01:17:15,920
+Speaker 5:  Watching them. We can dispense with this one quickly. Yeah. Apple's at a
+
+1356
+01:17:15,920 --> 01:17:18,640
+Speaker 5:  zero, they're, it's not going anywhere. It's part of their services strategy.
+
+1357
+01:17:18,640 --> 01:17:22,520
+Speaker 5:  It makes their bundle more valuable. It's the same situation as
+
+1358
+01:17:22,520 --> 01:17:25,960
+Speaker 5:  Amazon Prime. Eventually Apple's getting the place where you pay 'em a hundred
+
+1359
+01:17:25,960 --> 01:17:29,160
+Speaker 5:  dollars a month for your phone, your cell service
+
+1360
+01:17:29,740 --> 01:17:33,640
+Speaker 5:  and the bundle of Apple stuff. And then every year or two you get a
+
+1361
+01:17:33,640 --> 01:17:37,040
+Speaker 5:  new phone like they're headed towards just pay us a fee
+
+1362
+01:17:37,340 --> 01:17:40,280
+Speaker 5:  for a phone service and all the stuff that comes on the phone. Right. Every
+
+1363
+01:17:40,280 --> 01:17:43,200
+Speaker 5:  and that's gonna be their, their model for, and they're, that's the regular
+
+1364
+01:17:43,200 --> 01:17:46,360
+Speaker 5:  bird chest that we can talk about that at length. But the TV stuff, they
+
+1365
+01:17:46,360 --> 01:17:50,200
+Speaker 5:  know it's sticky. They love that acclaim. I think Tim Cook likes going
+
+1366
+01:17:50,200 --> 01:17:53,960
+Speaker 5:  to the award shows. Oh yes fine. But the
+
+1367
+01:17:54,200 --> 01:17:58,000
+Speaker 5:  question is they wanted to do more. Right? They wanna do
+
+1368
+01:17:58,000 --> 01:18:00,280
+Speaker 5:  sports streaming. They have done baseball, they're starting to do soccer.
+
+1369
+01:18:00,330 --> 01:18:04,160
+Speaker 5:  There's all the noise about them doing football. They actually have no aptitude
+
+1370
+01:18:04,160 --> 01:18:07,920
+Speaker 5:  at this. Their baseball productions are laughably bad and people hate them.
+
+1371
+01:18:07,920 --> 01:18:11,000
+Speaker 5:  We have not yet quite seen what they're gonna do with soccer. Right. Just
+
+1372
+01:18:11,000 --> 01:18:14,960
+Speaker 5:  getting started and they've told the NFL we want more than the traditional
+
+1373
+01:18:14,960 --> 01:18:18,760
+Speaker 5:  rights cuz we wanna do something innovative and the NFL's like, we make the
+
+1374
+01:18:18,760 --> 01:18:19,760
+Speaker 5:  most money like
+
+1375
+01:18:19,760 --> 01:18:21,120
+Speaker 2:  Buy NFL if you want it.
+
+1376
+01:18:22,260 --> 01:18:26,240
+Speaker 5:  But it's interesting, right, because Apple like Amazon is right, the
+
+1377
+01:18:26,240 --> 01:18:29,640
+Speaker 5:  product is subsidized, but it also creates a subsidy for everything else.
+
+1378
+01:18:29,770 --> 01:18:33,680
+Speaker 5:  They're able to go into other parts of the ecosystem Yeah. That
+
+1379
+01:18:33,680 --> 01:18:36,760
+Speaker 5:  the traditional streamers like Netflix and others won't do. And so I think
+
+1380
+01:18:36,760 --> 01:18:40,680
+Speaker 5:  that to me, the future of Apple TV plus is whether they bring
+
+1381
+01:18:40,680 --> 01:18:44,640
+Speaker 5:  on live sports and live news and take over that part of the cable bundle
+
+1382
+01:18:45,030 --> 01:18:48,920
+Speaker 5:  that a Netflix or a Disney plus just never will.
+
+1383
+01:18:48,920 --> 01:18:52,840
+Speaker 6:  That'd be interesting if they decided to pursue that because I do my
+
+1384
+01:18:52,960 --> 01:18:56,600
+Speaker 6:  reticence about not reticence, I just, for whatever reason, apple shows have
+
+1385
+01:18:56,780 --> 01:19:00,240
+Speaker 6:  not stuck with me. And I don't think it's just because I watch so many of
+
+1386
+01:19:00,240 --> 01:19:02,760
+Speaker 6:  these things. It's just because there's some part of my mind that's like,
+
+1387
+01:19:02,760 --> 01:19:06,520
+Speaker 6:  ah, Apple's doing TV now what do you have to say? Apple? And it all feels
+
+1388
+01:19:06,520 --> 01:19:09,640
+Speaker 6:  like an A student going through the motions of putting out what it thinks
+
+1389
+01:19:09,880 --> 01:19:13,800
+Speaker 6:  of as prestige tv, but it doesn't feel Apples productions never feel
+
+1390
+01:19:13,800 --> 01:19:17,480
+Speaker 6:  like creative endeavors from like a corporate level that they're trying to
+
+1391
+01:19:17,480 --> 01:19:21,120
+Speaker 6:  share with the world. It does very much sort of feel like a
+
+1392
+01:19:21,120 --> 01:19:24,680
+Speaker 6:  transparent business pour, which is fine. Right? I I get it.
+
+1393
+01:19:24,740 --> 01:19:28,640
+Speaker 6:  But it is something that always leaves me a little bit
+
+1394
+01:19:28,670 --> 01:19:32,440
+Speaker 6:  cold to like a amidon. It's like I I
+
+1395
+01:19:32,820 --> 01:19:35,360
+Speaker 6:  I'm not exactly sure what the company could be doing differently to make
+
+1396
+01:19:35,360 --> 01:19:39,000
+Speaker 6:  me feel differently, but the idea of Apple
+
+1397
+01:19:39,070 --> 01:19:42,800
+Speaker 6:  really pushing TV as a bonus utility
+
+1398
+01:19:42,800 --> 01:19:46,200
+Speaker 6:  that sort of comes along with just being a part of the Apple ecosystem does
+
+1399
+01:19:46,200 --> 01:19:50,080
+Speaker 6:  feel like the most prudent way to ensure its success going forward.
+
+1400
+01:19:50,110 --> 01:19:54,080
+Speaker 5:  Yeah. And I, I think the question is whether they, you know, apple TV
+
+1401
+01:19:54,080 --> 01:19:57,440
+Speaker 5:  plus as a service is the unique Apple product
+
+1402
+01:19:57,710 --> 01:20:01,640
+Speaker 5:  that is everywhere. Like you can just get it on Roku, you can just
+
+1403
+01:20:01,640 --> 01:20:05,320
+Speaker 5:  get it on Android TVs. Like it's strange in its way.
+
+1404
+01:20:05,540 --> 01:20:09,480
+Speaker 5:  And I think that's part of the underlying dynamic there is does it ever
+
+1405
+01:20:09,480 --> 01:20:13,040
+Speaker 5:  have to be a business or is it always this sort of
+
+1406
+01:20:13,230 --> 01:20:17,080
+Speaker 5:  factor in this long mathematical equation of the lifetime value
+
+1407
+01:20:17,080 --> 01:20:20,960
+Speaker 5:  of an Apple customer that, you know, kind of doesn't have to justify itself
+
+1408
+01:20:20,960 --> 01:20:24,880
+Speaker 5:  all the way because that is really, and Apple's the richest company in the
+
+1409
+01:20:24,880 --> 01:20:26,960
+Speaker 5:  world, it's gonna somebody print money and they're gonna subsidize this thing
+
+1410
+01:20:26,960 --> 01:20:30,800
+Speaker 5:  forever in a day. But the question is whether the service creates
+
+1411
+01:20:30,800 --> 01:20:34,680
+Speaker 5:  an identity by having that sort of existential need to exist in a
+
+1412
+01:20:34,680 --> 01:20:38,520
+Speaker 5:  way that, you know, like Hulu has an identity because at
+
+1413
+01:20:38,520 --> 01:20:41,000
+Speaker 5:  every turn it has had to prove itself as a brand.
+
+1414
+01:20:41,150 --> 01:20:45,080
+Speaker 2:  Well I feel like it's, it's kinda like with Amazon, I feel like when I, when
+
+1415
+01:20:45,080 --> 01:20:48,600
+Speaker 2:  I open up the Amazon Prime app, it's Jeff Bezos going
+
+1416
+01:20:48,600 --> 01:20:52,560
+Speaker 2:  enjoy your content and just flinging it at my face. And then
+
+1417
+01:20:52,560 --> 01:20:55,960
+Speaker 2:  with Apple TV it's like Tim Cook being like, Hey, would you like to sit down
+
+1418
+01:20:55,960 --> 01:20:59,680
+Speaker 2:  and enjoy your content? But they asked me to sit down first and it's really
+
+1419
+01:20:59,680 --> 01:21:03,080
+Speaker 2:  polite. So I'm I'm, I'm down for it. I'm gonna give it a 10
+
+1420
+01:21:03,190 --> 01:21:07,160
+Speaker 2:  rather than a zero. Okay. Just because at some point
+
+1421
+01:21:07,630 --> 01:21:11,200
+Speaker 2:  I wonder if the cost is too much for, for the company.
+
+1422
+01:21:11,890 --> 01:21:15,480
+Speaker 5:  No, you, you have to have an entire CEO transition.
+
+1423
+01:21:15,480 --> 01:21:17,920
+Speaker 5:  Yeah. Tim Cook cannot knife his own baby.
+
+1424
+01:21:17,940 --> 01:21:21,280
+Speaker 2:  Tim Cook's not gonna do it, but I'm putting it at a 10 because Tim Cook is
+
+1425
+01:21:21,280 --> 01:21:21,880
+Speaker 2:  gonna retire.
+
+1426
+01:21:22,070 --> 01:21:25,160
+Speaker 5:  You're putting in a 10 because like on a long enough timeline everyone dies.
+
+1427
+01:21:25,160 --> 01:21:26,720
+Speaker 5:  Yeah. Like that's your 10. That's
+
+1428
+01:21:26,720 --> 01:21:30,240
+Speaker 2:  My 10. I had a long enough timeline. Everyone dies and so too well Apple
+
+1429
+01:21:30,240 --> 01:21:32,680
+Speaker 2:  TV plus Charles, what about yourself? I
+
+1430
+01:21:32,680 --> 01:21:36,560
+Speaker 6:  Think they're a solid zero. It's Apple to come so late to the streaming game
+
+1431
+01:21:36,560 --> 01:21:40,360
+Speaker 6:  and then to be like, hello everyone, welcome to Apple TV Plus. And then for
+
+1432
+01:21:40,360 --> 01:21:43,480
+Speaker 6:  them to have a couple of flops and we all know it and then to, to sunset
+
+1433
+01:21:43,480 --> 01:21:47,240
+Speaker 6:  the service would be an embarrassment I think that the company does not
+
+1434
+01:21:47,520 --> 01:21:51,280
+Speaker 6:  want to have. So even though I'm saying that it's mostly
+
+1435
+01:21:51,280 --> 01:21:54,320
+Speaker 6:  saving face, they will keep Apple TV plus four.
+
+1436
+01:21:54,420 --> 01:21:58,200
+Speaker 2:  All right, so we're gonna wrap up this episode. I feel like we've learned
+
+1437
+01:21:58,200 --> 01:22:01,960
+Speaker 2:  a lot about TV this year and we've got a bunch of new news coming next year.
+
+1438
+01:22:02,030 --> 01:22:05,320
+Speaker 5:  Send us your submissions for the Go 90 scale of Doom Streaming Services.
+
+1439
+01:22:05,320 --> 01:22:06,160
+Speaker 5:  We want to hear 'em.
+
+1440
+01:22:06,700 --> 01:22:10,640
+Speaker 2:  Let us know if you're Comcast and you're planning to buy Hulu, you can
+
+1441
+01:22:10,640 --> 01:22:14,320
+Speaker 2:  email me at alex dot crans the verge.com.
+
+1442
+01:22:14,320 --> 01:22:17,520
+Speaker 2:  Just let me know. Give me a heads up, I wanna hear all about
+
+1443
+01:22:17,520 --> 01:22:20,960
+Speaker 5:  It. And also, if you're ever around an executive in one of these streaming
+
+1444
+01:22:20,960 --> 01:22:24,920
+Speaker 5:  services, just start casually saying they went 90. Yeah. Get this, get this
+
+1445
+01:22:24,920 --> 01:22:26,880
+Speaker 5:  in the boardrooms of America. That's all I'm asking for.
+
+1446
+01:22:29,310 --> 01:22:33,120
+Speaker 2:  Okay. That's it for the Verge cast today. Thank you guys for listening to
+
+1447
+01:22:33,120 --> 01:22:36,840
+Speaker 2:  all of that rambling and ranting and raving about streaming. I really appreciate
+
+1448
+01:22:36,840 --> 01:22:40,040
+Speaker 2:  it. As always. There's tons more coverage on everything we talk about
+
+1449
+01:22:40,040 --> 01:22:43,720
+Speaker 2:  here@theverge.com. You can also follow all of us on Twitter.
+
+1450
+01:22:43,810 --> 01:22:47,560
+Speaker 2:  Charles is at Charles Pullum. Eli is at
+
+1451
+01:22:47,920 --> 01:22:51,640
+Speaker 2:  Reckless Patel. Or I mean you can talk to him at his real Twitter account,
+
+1452
+01:22:51,640 --> 01:22:55,440
+Speaker 2:  which is at Reckless. And I'm at Alex h Cranz.
+
+1453
+01:22:55,580 --> 01:22:59,480
+Speaker 2:  The show is produced by Andrew Marino and Liam James Nori Donovan is
+
+1454
+01:22:59,480 --> 01:23:02,800
+Speaker 2:  our executive producer and Brooke Mentors is our editorial director of Audio.
+
+1455
+01:23:03,020 --> 01:23:06,480
+Speaker 2:  The Verge Cast is a Verge production and, and part of the Vox Media podcast
+
+1456
+01:23:06,480 --> 01:23:10,320
+Speaker 2:  network. If you have thoughts, feedbacks, feelings or Christmas
+
+1457
+01:23:10,320 --> 01:23:14,280
+Speaker 2:  presents, you can always email vergecast the verge.com. And
+
+1458
+01:23:14,280 --> 01:23:17,760
+Speaker 2:  if you have questions, call the hotline. It's eight sixty six
+
+1459
+01:23:17,960 --> 01:23:21,480
+Speaker 2:  Verge 11, that's 8 66 Verge 11.
+
+1460
+01:23:21,480 --> 01:23:24,760
+Speaker 2:  Send us all your big thoughts and questions about all things tech,
+
+1461
+01:23:24,830 --> 01:23:28,760
+Speaker 2:  especially Ein, but all the other cool stuff too. Neil and I will be
+
+1462
+01:23:28,760 --> 01:23:31,360
+Speaker 2:  back on Friday to chat with more of the Verge crew about whatever's happening
+
+1463
+01:23:31,360 --> 01:23:34,240
+Speaker 2:  this week. Until then, we'll see you later. Rock and roll.
+

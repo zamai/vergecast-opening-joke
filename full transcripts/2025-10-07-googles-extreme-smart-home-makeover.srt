@@ -1,0 +1,5520 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: d219e7b1-dcb3-4e4b-abf4-0de24cd2b483
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/7452273277104489538/-2313000298435047577/s93290-US-5146s-1759830948.mp3
+Description: Oh, you thought AI was just in your browser and on your phone? Well, the AI is coming from inside the house. The Verge's Jen Pattison Tuohy and Google's Anish Kattukaran both join the show to discuss last week's Google smart home news, including the company's big bet on the Gemini assistant. Anish explains why Google cares about the smart home in the first place, why things haven't exactly gone great so far, and why he's so convinced the new generation of AI can make it work. After that, The Verge's Vee Song joins the show to talk about Peloton's newest gear, including a $6,695 treadmill and a huge new push into personalized AI training features. Vee then sticks around to help David answer a question from the Vergecast Hotline (call 866-VERGE11 or email vergecast@theverge.com!) about how many smartwatches is too many smartwatches. Spoiler alert: the answer is two. But it's not quite as simple as that.
+
+
+
+
+2
+00:00:02,035 --> 00:00:05,925
+Speaker 1:  Welcome to The Vergecast, the flagship podcast of treadmills that
+
+3
+00:00:05,925 --> 00:00:09,805
+Speaker 1:  don't fit anywhere in my house. So I'm moving and we have this
+
+4
+00:00:09,865 --> 00:00:13,605
+Speaker 1:  new room in our new house that is basically, it's like a big
+
+5
+00:00:13,605 --> 00:00:16,725
+Speaker 1:  closet, but my wife looked at it and was like, oh, wouldn't it be cool if
+
+6
+00:00:16,725 --> 00:00:20,245
+Speaker 1:  we use that as like an exercise room? It's, it has no windows.
+
+7
+00:00:20,755 --> 00:00:24,605
+Speaker 1:  It's just like a seven foot by five foot cave. And
+
+8
+00:00:24,605 --> 00:00:27,005
+Speaker 1:  she's like, what if we put a treadmill in there? So we've been shopping for
+
+9
+00:00:27,125 --> 00:00:30,965
+Speaker 1:  treadmills and it turns out that treadmills are either horrible or
+
+10
+00:00:31,055 --> 00:00:34,925
+Speaker 1:  $7,000 and in many cases are both of those things. So if you
+
+11
+00:00:35,075 --> 00:00:38,845
+Speaker 1:  have an idea of a treadmill that isn't gigantic,
+
+12
+00:00:39,335 --> 00:00:43,165
+Speaker 1:  isn't horrible and isn't $7,000, please tell me
+
+13
+00:00:44,025 --> 00:00:47,885
+Speaker 1:  my family is dying. We need this. Thank you. Anyway, that is not what
+
+14
+00:00:47,885 --> 00:00:50,405
+Speaker 1:  we're here to talk about. Actually, we are here a little bit to talk about
+
+15
+00:00:50,565 --> 00:00:52,965
+Speaker 1:  treadmills, but we're gonna get to that later. We're gonna do two things
+
+16
+00:00:52,985 --> 00:00:56,445
+Speaker 1:  on The Vergecast today. First, we're gonna talk more about the smart Home.
+
+17
+00:00:56,525 --> 00:01:00,045
+Speaker 1:  We talked a lot about Amazon and Alexa and Echo devices last week.
+
+18
+00:01:00,435 --> 00:01:04,365
+Speaker 1:  This week we're gonna dig in to what Google is really up
+
+19
+00:01:04,365 --> 00:01:08,125
+Speaker 1:  to. I think Google is maybe the company best set up
+
+20
+00:01:08,145 --> 00:01:11,645
+Speaker 1:  to figure out the smart home, but it's been trying as long as anybody and
+
+21
+00:01:11,645 --> 00:01:15,205
+Speaker 1:  hasn't really made any progress. So we're gonna talk to Anish Karran, who
+
+22
+00:01:15,205 --> 00:01:19,085
+Speaker 1:  runs a lot of that stuff at Google and try to figure out whether
+
+23
+00:01:19,085 --> 00:01:22,965
+Speaker 1:  Google or anybody is actually set up to do this well and do
+
+24
+00:01:22,965 --> 00:01:26,925
+Speaker 1:  it now. After that, we're gonna talk to V Song about what is going on with
+
+25
+00:01:26,955 --> 00:01:30,285
+Speaker 1:  Peloton, because Peloton, a company I hadn't thought about in a long time,
+
+26
+00:01:30,285 --> 00:01:34,245
+Speaker 1:  announced a bunch of really interesting and really expensive stuff
+
+27
+00:01:34,275 --> 00:01:38,205
+Speaker 1:  last week. So we're gonna get into what it all means and whether the
+
+28
+00:01:38,205 --> 00:01:41,325
+Speaker 1:  Peloton people are gonna be into it. We also have a really fun question on
+
+29
+00:01:41,325 --> 00:01:44,645
+Speaker 1:  the Vergecast Hotline that may or may not lead you to buy many more gadgets
+
+30
+00:01:44,645 --> 00:01:47,525
+Speaker 1:  and put them all over your body. All of that is coming up in just a second.
+
+31
+00:01:47,545 --> 00:01:51,165
+Speaker 1:  But first, I just found this treadmill that is $200. My wife sent me a link.
+
+32
+00:01:51,505 --> 00:01:54,205
+Speaker 1:  I'm confident it's horrible, but I have to go read reviews.
+
+33
+00:01:55,305 --> 00:01:58,005
+Speaker 1:  Please send help. This is The Vergecast, we'll be right back.
+
+34
+00:01:59,765 --> 00:02:00,365
+Speaker 2:  Rinse takes your
+
+35
+00:03:05,615 --> 00:03:08,885
+Speaker 4:  State Farm help you create a competitive price when you choose to bundle
+
+36
+00:03:08,955 --> 00:03:12,885
+Speaker 4:  home and auto bundling. Just another way to save with a personal
+
+37
+00:03:12,885 --> 00:03:16,645
+Speaker 4:  price plan like a good neighbor State Farm is there. Prices are based on
+
+38
+00:03:16,645 --> 00:03:20,125
+Speaker 4:  rating plans that vary by state coverage. Options are selected by the customer.
+
+39
+00:03:20,125 --> 00:03:23,965
+Speaker 4:  Availability. Amount of discounts and savings and eligibility vary by state.
+
+40
+00:03:27,435 --> 00:03:29,885
+Speaker 1:  Alright, we're back. Jen Tui's here. Hi Jen.
+
+41
+00:03:30,225 --> 00:03:31,565
+Speaker 6:  Hi David. Long time noi,
+
+42
+00:03:31,725 --> 00:03:35,365
+Speaker 1:  I just can't stop talking to you about Smart Home. Thanks. You have a guest
+
+43
+00:03:35,465 --> 00:03:38,445
+Speaker 1:  for us today. You, you have, you've brought someone you think would be fun
+
+44
+00:03:38,445 --> 00:03:41,565
+Speaker 1:  for us to talk to. So just set this up for us a little bit before we get
+
+45
+00:03:41,565 --> 00:03:43,365
+Speaker 1:  into it. Who, who are we about to talk to?
+
+46
+00:03:43,745 --> 00:03:47,645
+Speaker 6:  Yes. So we have Anish Cran who is the head of
+
+47
+00:03:47,645 --> 00:03:51,525
+Speaker 6:  Google Home and Nest. And he is basically the guy that
+
+48
+00:03:51,525 --> 00:03:54,965
+Speaker 6:  has been leading the sort of resurgence,
+
+49
+00:03:55,725 --> 00:03:59,605
+Speaker 6:  should we put it that way, or of Google Home o Over the last few years
+
+50
+00:04:00,025 --> 00:04:03,685
+Speaker 6:  and last week there were a lot of announcements from Google Home about
+
+51
+00:04:03,685 --> 00:04:06,525
+Speaker 6:  completely rearchitecturing, the Google Home app,
+
+52
+00:04:07,625 --> 00:04:11,125
+Speaker 6:  new hardware, new software for Google Home, all of which
+
+53
+00:04:11,705 --> 00:04:15,285
+Speaker 6:  has been sort of developed under his leadership over the last few years.
+
+54
+00:04:15,585 --> 00:04:18,885
+Speaker 6:  So he's, and he's the guy that I've spoken to several times over the last
+
+55
+00:04:18,885 --> 00:04:22,845
+Speaker 6:  few years about this big shift that we're seeing from this command
+
+56
+00:04:22,845 --> 00:04:26,485
+Speaker 6:  and control infrastructure in our home to these LLMs coming,
+
+57
+00:04:26,745 --> 00:04:29,965
+Speaker 6:  you know, generative AI powered voice assistance that he
+
+58
+00:04:30,285 --> 00:04:34,165
+Speaker 6:  believes. And I, I guess I'm drinking the Kool-Aid
+
+59
+00:04:34,205 --> 00:04:37,845
+Speaker 6:  a little bit. It's gonna be a huge change for the smart home.
+
+60
+00:04:37,915 --> 00:04:41,885
+Speaker 6:  This is what Amazon's doing with Alexa plus. So yeah, he, I'm
+
+61
+00:04:41,885 --> 00:04:45,605
+Speaker 6:  hope hopeful he'll be able to give us some interesting insights into what's
+
+62
+00:04:45,605 --> 00:04:49,325
+Speaker 6:  going on, why it's been so difficult, why Google Home has been so
+
+63
+00:04:49,385 --> 00:04:52,605
+Speaker 6:  bad for so long and what's coming in the future.
+
+64
+00:04:53,155 --> 00:04:57,085
+Speaker 1:  Yeah. So on the Google Home being so bad for so long, I just like, I'm curious
+
+65
+00:04:57,085 --> 00:04:59,565
+Speaker 1:  if you And I are kind of coming into this interview in the same headspace,
+
+66
+00:04:59,565 --> 00:05:02,965
+Speaker 1:  because just to lay my own cards on the table, I would say the way I think
+
+67
+00:05:02,965 --> 00:05:06,925
+Speaker 1:  of Google's smart home efforts is that when we talk about sort of the
+
+68
+00:05:06,935 --> 00:05:10,605
+Speaker 1:  smart assistant 1.0 revolution, such as it was,
+
+69
+00:05:11,305 --> 00:05:14,965
+Speaker 1:  it was basically Alexa and Google Assistant. Yeah. Like Siri is kind of off
+
+70
+00:05:14,965 --> 00:05:18,485
+Speaker 1:  on the side doing its own thing, largely very badly. Yeah.
+
+71
+00:05:19,425 --> 00:05:22,165
+Speaker 1:  But Alexa and Google Assistant are largely trying to do the same thing the
+
+72
+00:05:22,165 --> 00:05:25,645
+Speaker 1:  same way. And I think my impression is that Google
+
+73
+00:05:25,645 --> 00:05:29,605
+Speaker 1:  Assistant became a very good thing to do on your phone and that it seemed
+
+74
+00:05:29,605 --> 00:05:33,005
+Speaker 1:  like Google sort of forgot it, had a smart home project,
+
+75
+00:05:33,985 --> 00:05:37,085
+Speaker 1:  but I pay less attention to it than you do. So how, where's your head kind
+
+76
+00:05:37,085 --> 00:05:38,045
+Speaker 1:  of coming into this conversation?
+
+77
+00:05:38,225 --> 00:05:41,565
+Speaker 6:  So yeah, Google Home and Amazon Alexa have kind of grown up together in the
+
+78
+00:05:41,565 --> 00:05:45,085
+Speaker 6:  Smart home. It's been interesting to watch their different approaches.
+
+79
+00:05:45,525 --> 00:05:49,165
+Speaker 6:  They've, you know, kind of copied each other. They've been moving, you know,
+
+80
+00:05:49,305 --> 00:05:53,045
+Speaker 6:  at the same speed. But some, sometimes we'll get better features on one
+
+81
+00:05:53,075 --> 00:05:56,805
+Speaker 6:  than the other. And then all of a sudden, a few years ago, Google Home just
+
+82
+00:05:56,805 --> 00:05:59,805
+Speaker 6:  started to sort of seem to stop to innovate and everyone was like, well,
+
+83
+00:05:59,805 --> 00:06:03,605
+Speaker 6:  Google has checked out on the smart home, just like they've checked out
+
+84
+00:06:03,605 --> 00:06:07,445
+Speaker 6:  on previous projects and hardware in the past. Yep.
+
+85
+00:06:07,625 --> 00:06:11,565
+Speaker 6:  But I'd always, during this period, I've been talking to the team there and
+
+86
+00:06:11,635 --> 00:06:15,205
+Speaker 6:  it's, there's this sort of passionate small team that seems to be doing a
+
+87
+00:06:15,205 --> 00:06:18,005
+Speaker 6:  lot of really interesting things. And one of the core
+
+88
+00:06:18,845 --> 00:06:22,495
+Speaker 6:  differences here, I think for Google Home has been
+
+89
+00:06:22,955 --> 00:06:26,815
+Speaker 6:  the way it was built. And I think they've spent the last several
+
+90
+00:06:26,825 --> 00:06:30,615
+Speaker 6:  years fixing that because they brought together Nest.
+
+91
+00:06:30,635 --> 00:06:33,695
+Speaker 6:  And we've talked about Nest before, and Nest is a great smart home
+
+92
+00:06:35,015 --> 00:06:38,735
+Speaker 6:  hardware ecosystem and they brought it together with Google and its
+
+93
+00:06:38,895 --> 00:06:42,695
+Speaker 6:  software ecosystem and Chromecast. So basically they
+
+94
+00:06:42,695 --> 00:06:46,135
+Speaker 6:  built a smart home system on three separate pillars.
+
+95
+00:06:46,675 --> 00:06:50,215
+Speaker 6:  And it, you know, I think there have been, this was an interesting space
+
+96
+00:06:50,215 --> 00:06:53,935
+Speaker 6:  that everyone was trying to understand as they built it. And
+
+97
+00:06:54,115 --> 00:06:58,055
+Speaker 6:  now what they've done is rearchitect everything from the
+
+98
+00:06:58,055 --> 00:07:01,215
+Speaker 6:  ground up. And that's what's they've been doing the last few years. And this
+
+99
+00:07:01,215 --> 00:07:04,815
+Speaker 6:  is why we've been seeing sort of not last few years, maybe last couple years,
+
+100
+00:07:04,985 --> 00:07:08,095
+Speaker 6:  we've been seeing this a bit of a degradation, which has been frustrating
+
+101
+00:07:08,105 --> 00:07:11,815
+Speaker 6:  users understandably. Because when you have a product that doesn't do what
+
+102
+00:07:11,815 --> 00:07:15,615
+Speaker 6:  you expected it to do anymore, you get very unhappy. But
+
+103
+00:07:15,815 --> 00:07:19,775
+Speaker 6:  I think I'm quite excited by what their show, what
+
+104
+00:07:19,775 --> 00:07:23,575
+Speaker 6:  they showed me last week, what they're working towards. Because I
+
+105
+00:07:23,575 --> 00:07:26,615
+Speaker 6:  do believe, And I think you agree with me here, that David, that Google
+
+106
+00:07:27,285 --> 00:07:30,975
+Speaker 6:  Home with the infrastructure that Google can provide
+
+107
+00:07:32,265 --> 00:07:36,165
+Speaker 6:  has one of is PO is positioned really well to
+
+108
+00:07:36,165 --> 00:07:39,925
+Speaker 6:  make the smart home work. So I'm excited to see
+
+109
+00:07:39,995 --> 00:07:43,765
+Speaker 6:  whether they can take this where they want to go, and most
+
+110
+00:07:43,765 --> 00:07:47,405
+Speaker 6:  importantly, whether Google slash Alphabet is gonna really continue
+
+111
+00:07:47,705 --> 00:07:50,885
+Speaker 6:  to push and invest in this space. I mean, I think they're paying attention
+
+112
+00:07:50,905 --> 00:07:54,165
+Speaker 6:  to it now because Gemini, you know, that's everything.
+
+113
+00:07:54,705 --> 00:07:58,085
+Speaker 6:  That's all Google seems to care about right now. But I'm just hoping we can
+
+114
+00:07:58,085 --> 00:08:01,605
+Speaker 6:  keep the focus and attention here for a bit longer so that this team can
+
+115
+00:08:01,805 --> 00:08:05,365
+Speaker 6:  actually do something to make the smart home more exciting, more
+
+116
+00:08:05,825 --> 00:08:08,045
+Speaker 6:  useful, and more reliable.
+
+117
+00:08:08,795 --> 00:08:12,605
+Speaker 1:  Yeah, I like it. Alright, that's, that's good context. Let's just get
+
+118
+00:08:12,605 --> 00:08:15,365
+Speaker 1:  into it with Anish. Anish, Welcome to The Vergecast.
+
+119
+00:08:15,575 --> 00:08:17,405
+Speaker 7:  Thank you. I'm excited to be here.
+
+120
+00:08:17,755 --> 00:08:20,365
+Speaker 1:  Very glad to have you here. We have a lot to talk about. Jen has lots of
+
+121
+00:08:20,485 --> 00:08:23,365
+Speaker 1:  questions for you. I have lots of questions for you, but I think I wanna
+
+122
+00:08:23,365 --> 00:08:27,205
+Speaker 1:  start with the most like annoyingly philosophical question I can
+
+123
+00:08:27,205 --> 00:08:31,085
+Speaker 1:  think of to start with. Okay. Which is, why does
+
+124
+00:08:31,085 --> 00:08:34,885
+Speaker 1:  Google care about the smart home at all? I, I guess a, does
+
+125
+00:08:34,885 --> 00:08:37,405
+Speaker 1:  Google care about the smart home? Because there have been times in the last
+
+126
+00:08:37,405 --> 00:08:41,005
+Speaker 1:  decade, I have debated the answer to that question, but like
+
+127
+00:08:41,385 --> 00:08:45,325
+Speaker 1:  for a, for a company that is as, as big and broad and
+
+128
+00:08:45,325 --> 00:08:49,045
+Speaker 1:  into as many things as Google is, what's in the smart home for Google at
+
+129
+00:08:49,045 --> 00:08:49,365
+Speaker 1:  this point?
+
+130
+00:08:49,755 --> 00:08:50,045
+Speaker 7:  Yeah,
+
+131
+00:08:51,855 --> 00:08:52,615
+Speaker 7:  probably a fair question.
+
+132
+00:08:54,855 --> 00:08:58,225
+Speaker 7:  And I, you know, I I I think we've also been on a, on a journey. So at a
+
+133
+00:08:58,225 --> 00:09:01,745
+Speaker 7:  different points, I, I can see how we've had some sort of high highs and
+
+134
+00:09:01,745 --> 00:09:05,225
+Speaker 7:  some challenging, challenging lows. But like, listen, in
+
+135
+00:09:05,225 --> 00:09:08,665
+Speaker 7:  20 15, 20 16 when we rolled out the first assistant, for us,
+
+136
+00:09:09,815 --> 00:09:13,225
+Speaker 7:  getting into the smart home was a means for people to have this sort of fundamentally
+
+137
+00:09:13,245 --> 00:09:16,825
+Speaker 7:  new interaction with, with the way they access
+
+138
+00:09:16,825 --> 00:09:20,705
+Speaker 7:  information and, and sort of how they control things in their home. I
+
+139
+00:09:20,705 --> 00:09:23,465
+Speaker 7:  think that was sort of a step function change for us at the time.
+
+140
+00:09:24,605 --> 00:09:27,785
+Speaker 7:  And then while, you know, the subsequent years have been, have been challenging,
+
+141
+00:09:28,005 --> 00:09:31,945
+Speaker 7:  the vision for us has always been can we build a home that's
+
+142
+00:09:31,945 --> 00:09:35,825
+Speaker 7:  truly helpful and, and and proactive and kids have to take care of
+
+143
+00:09:35,825 --> 00:09:39,305
+Speaker 7:  the people inside of it. That, that mission has been unchanged. I think for
+
+144
+00:09:39,305 --> 00:09:43,155
+Speaker 7:  us, as we looked at what has made it complicated over
+
+145
+00:09:43,155 --> 00:09:47,105
+Speaker 7:  the last few years, like we haven't always sort of lived up
+
+146
+00:09:47,105 --> 00:09:50,705
+Speaker 7:  to like the, the, the, the delta between expectations And I and reality I
+
+147
+00:09:50,705 --> 00:09:54,105
+Speaker 7:  think has been, there's been a gap. And I was telling Jen last week when
+
+148
+00:09:54,105 --> 00:09:57,825
+Speaker 7:  we were chatting, but in, in a lot of ways the biggest limiting
+
+149
+00:09:58,185 --> 00:10:02,065
+Speaker 7:  function was the last generation of, of AI and ml. And so for us now at
+
+150
+00:10:02,065 --> 00:10:05,705
+Speaker 7:  this inflection point with the Gemini as sort of this core asset,
+
+151
+00:10:06,165 --> 00:10:09,705
+Speaker 7:  we think we are best positioned to realize that initial vision of
+
+152
+00:10:09,985 --> 00:10:13,905
+Speaker 7:  ours and then Gemini is this like incredible, powerful sort of
+
+153
+00:10:13,905 --> 00:10:17,705
+Speaker 7:  technology that can help us do that. And so, so yeah. So I,
+
+154
+00:10:17,865 --> 00:10:21,785
+Speaker 7:  I I think for us, this is realizing our, our existing vision, but
+
+155
+00:10:21,785 --> 00:10:25,345
+Speaker 7:  with Gemini at its core. And, and that's gonna help us sort of have a, a,
+
+156
+00:10:25,825 --> 00:10:27,665
+Speaker 7:  a step function change and what we can do there.
+
+157
+00:10:28,085 --> 00:10:30,945
+Speaker 1:  But just, lemme lemme just poke at that strategy a little bit. 'cause I think
+
+158
+00:10:30,945 --> 00:10:34,585
+Speaker 1:  you, you said, you said two things that I, that are I think
+
+159
+00:10:34,585 --> 00:10:37,465
+Speaker 1:  different that actually get conflated a lot. And I, I wanna see if we can
+
+160
+00:10:37,585 --> 00:10:39,905
+Speaker 1:  separate them out a little bit. 'cause there's, on the one side, there's
+
+161
+00:10:39,905 --> 00:10:43,425
+Speaker 1:  the, we have this thing called Google Assistant. We want people to use it
+
+162
+00:10:43,425 --> 00:10:46,665
+Speaker 1:  as much as possible. In order to do that, one of the things we need is probably
+
+163
+00:10:46,665 --> 00:10:49,145
+Speaker 1:  something for them to yell at in their living room that isn't their phone,
+
+164
+00:10:49,145 --> 00:10:52,985
+Speaker 1:  right? So like, smart home is a means to an end and the end is, lots of people
+
+165
+00:10:53,005 --> 00:10:55,985
+Speaker 1:  use Google Assistant seems like a perfectly
+
+166
+00:10:57,025 --> 00:11:00,105
+Speaker 1:  rational Google strategy, right? Like sure. What we want is people to use
+
+167
+00:11:00,105 --> 00:11:03,705
+Speaker 1:  Google. This is a speaker through which they will use Google. That I completely
+
+168
+00:11:03,705 --> 00:11:07,545
+Speaker 1:  get that the, the idea of like, oh, we need to help
+
+169
+00:11:07,545 --> 00:11:11,395
+Speaker 1:  people turn their lights on and off. Yeah. Doesn't necessarily have to
+
+170
+00:11:11,395 --> 00:11:15,235
+Speaker 1:  follow from that, But it seems like to some extent it did that you're like,
+
+171
+00:11:15,235 --> 00:11:18,035
+Speaker 1:  okay, well we, well now we have this thing in people's living rooms, what
+
+172
+00:11:18,035 --> 00:11:21,995
+Speaker 1:  can we do with it? Like, is that, are those two different things? Am I,
+
+173
+00:11:21,995 --> 00:11:24,635
+Speaker 1:  am I wrong in parceling those two things out?
+
+174
+00:11:24,995 --> 00:11:28,615
+Speaker 7:  I think they're related, right? Like, I, I, in my mind it's, that's almost
+
+175
+00:11:28,615 --> 00:11:31,695
+Speaker 7:  sort of like a slightly internal way of looking at it. Okay. Like if you're,
+
+176
+00:11:31,695 --> 00:11:35,535
+Speaker 7:  if you take a, if you sort of take a consumer or a user lens, if you're talking
+
+177
+00:11:35,755 --> 00:11:39,295
+Speaker 7:  to this thing, let, let's call it, if you're talking to something in your
+
+178
+00:11:39,295 --> 00:11:42,415
+Speaker 7:  home, there's, there's a question that we ask often, which is like, what
+
+179
+00:11:42,415 --> 00:11:46,375
+Speaker 7:  are our expectations of what they can do with that? And I think in that
+
+180
+00:11:46,375 --> 00:11:49,495
+Speaker 7:  mental model, users expect to be able to have
+
+181
+00:11:50,795 --> 00:11:54,365
+Speaker 7:  at least sort of a, a partner where they can get access to information, which
+
+182
+00:11:54,365 --> 00:11:57,205
+Speaker 7:  is sort of the first thing you talked about. But they also wanna be able
+
+183
+00:11:57,205 --> 00:12:00,525
+Speaker 7:  to take a lot of sort of like fundamental actions, right? Things that can
+
+184
+00:12:00,765 --> 00:12:04,285
+Speaker 7:  actually help, like, I've got three kids, things that can help me make my
+
+185
+00:12:04,285 --> 00:12:07,085
+Speaker 7:  life a little bit easier so that I can go back to spending time with the
+
+186
+00:12:07,085 --> 00:12:10,965
+Speaker 7:  kids, to me is incredibly powerful. And I think a lot of people, people
+
+187
+00:12:10,965 --> 00:12:14,645
+Speaker 7:  say that, So if you can make it a little bit easier to, you know, do stuff
+
+188
+00:12:14,645 --> 00:12:18,605
+Speaker 7:  in the home, like listening to your media, consuming your media, things like
+
+189
+00:12:18,605 --> 00:12:22,325
+Speaker 7:  household coordination, like setting timers, getting recipes, like,
+
+190
+00:12:22,705 --> 00:12:26,445
+Speaker 7:  you know, adding to lists, coordinating your, you know, your groceries and
+
+191
+00:12:26,575 --> 00:12:29,965
+Speaker 7:  maybe in the future, sort of ordering them, having them show up at your door
+
+192
+00:12:30,665 --> 00:12:33,925
+Speaker 7:  and then like all the smartphone controls. I think those are all sort of
+
+193
+00:12:33,925 --> 00:12:37,845
+Speaker 7:  like things that are related if you put it through the lens of what do
+
+194
+00:12:37,845 --> 00:12:41,565
+Speaker 7:  users expect when they're having this sort of conversation with Google
+
+195
+00:12:41,745 --> 00:12:44,565
+Speaker 7:  and or Gemini in the home. And so maybe that that's the way that I would,
+
+196
+00:12:44,805 --> 00:12:48,525
+Speaker 7:  I would sort of reframe what you asked. Yeah. Okay.
+
+197
+00:12:48,885 --> 00:12:52,655
+Speaker 6:  I I think one of the reasons that the, perhaps,
+
+198
+00:12:52,755 --> 00:12:56,015
+Speaker 6:  you know, the, a reason behind these questions are that
+
+199
+00:12:56,355 --> 00:12:59,455
+Speaker 6:  Google as a company has sort of had a history of, of
+
+200
+00:13:00,075 --> 00:13:03,855
+Speaker 6:  paying attention to things and then not paying attention to things and where,
+
+201
+00:13:03,855 --> 00:13:07,295
+Speaker 6:  but you know, the smart home has been part of Google for, as you say, over
+
+202
+00:13:07,335 --> 00:13:10,935
+Speaker 6:  a decade, But it has gone through, as you mentioned, some peaks and troughs.
+
+203
+00:13:11,955 --> 00:13:15,855
+Speaker 6:  And so I, one of the things, and I've heard from my readers,
+
+204
+00:13:15,855 --> 00:13:19,215
+Speaker 6:  And I think you've heard from your users, is a fear that
+
+205
+00:13:19,535 --> 00:13:23,445
+Speaker 6:  Google's just going to say, ah, we're done with the smart home.
+
+206
+00:13:23,745 --> 00:13:27,045
+Speaker 6:  You know, especially with the shift away from the Nest hardware,
+
+207
+00:13:28,025 --> 00:13:31,845
+Speaker 6:  the, the Nest protect, the Nest secure security system,
+
+208
+00:13:33,065 --> 00:13:36,965
+Speaker 6:  the Nest Yale door lock, you know, you, you sort of moved
+
+209
+00:13:36,965 --> 00:13:40,525
+Speaker 6:  those to, to new partners and there was, and over the last few
+
+210
+00:13:40,785 --> 00:13:44,485
+Speaker 6:  months and years, it felt like maybe to some
+
+211
+00:13:44,565 --> 00:13:48,165
+Speaker 6:  users, the smart home wasn't a priority. So I guess one of the things that
+
+212
+00:13:48,165 --> 00:13:51,885
+Speaker 6:  would be interesting to sort of understand from Google's perspective is
+
+213
+00:13:52,235 --> 00:13:55,975
+Speaker 6:  what is that value to the company? And
+
+214
+00:13:56,245 --> 00:14:00,215
+Speaker 6:  that we can see and understand so that we think, okay, I don't
+
+215
+00:14:00,225 --> 00:14:03,255
+Speaker 6:  worry that they're just gonna pull the rug out from under me.
+
+216
+00:14:04,245 --> 00:14:07,455
+Speaker 7:  Yeah. Listen, I, I, I think it's a probably fair
+
+217
+00:14:07,805 --> 00:14:10,975
+Speaker 7:  criticism for what it's worth. I have read all of those comments
+
+218
+00:14:11,835 --> 00:14:15,415
+Speaker 7:  in your, in your comment threads. I, I spent a lot of time on Reddit in our
+
+219
+00:14:15,415 --> 00:14:17,775
+Speaker 7:  communities, reading all that stuff. And I have a, I have a deep empathy
+
+220
+00:14:17,775 --> 00:14:20,975
+Speaker 7:  for this. Like, I, I started building out my ecosystem well before I was
+
+221
+00:14:20,975 --> 00:14:24,855
+Speaker 7:  here in this role. Like, I've got, you know, Jen, we talk about this often.
+
+222
+00:14:24,855 --> 00:14:28,535
+Speaker 7:  I've got like 150, 200 devices in my home that I accrued,
+
+223
+00:14:28,915 --> 00:14:32,775
+Speaker 7:  you know, well before that. But yeah, so maybe going back to your question
+
+224
+00:14:32,775 --> 00:14:36,535
+Speaker 7:  around should people or should our users sort of trust our
+
+225
+00:14:36,535 --> 00:14:37,735
+Speaker 7:  commitment and our focus?
+
+226
+00:14:39,515 --> 00:14:43,375
+Speaker 7:  And that's, is that a fair summary of of what you're Yes. You're,
+
+227
+00:14:43,375 --> 00:14:47,255
+Speaker 7:  you're asking me. Okay. The thing that I would say to
+
+228
+00:14:47,255 --> 00:14:51,245
+Speaker 7:  that is our, and, and this is what we talk about internally as well,
+
+229
+00:14:51,795 --> 00:14:55,765
+Speaker 7:  like our mission has not changed once over
+
+230
+00:14:55,765 --> 00:14:59,685
+Speaker 7:  the last decade. I think what people feel sometimes is how we
+
+231
+00:14:59,685 --> 00:15:03,645
+Speaker 7:  have tried to realize that has evolved, right? Yeah. So
+
+232
+00:15:03,645 --> 00:15:06,925
+Speaker 7:  when we start, like when we started over a decade ago and sort of like the
+
+233
+00:15:07,075 --> 00:15:10,885
+Speaker 7:  nascent phase of smart home, not all of your devices
+
+234
+00:15:11,155 --> 00:15:14,205
+Speaker 7:  were connected, right? There weren't a ton of smart home
+
+235
+00:15:15,115 --> 00:15:18,845
+Speaker 7:  OEMs making every device under the sun. And so yeah, there was an initial
+
+236
+00:15:19,125 --> 00:15:22,765
+Speaker 7:  hypothesis that, yeah, you know, we'll go and build every device in every
+
+237
+00:15:23,125 --> 00:15:26,365
+Speaker 7:  category at every price point. And you have this sort of like, price ladder
+
+238
+00:15:26,465 --> 00:15:30,165
+Speaker 7:  and people can choose everything. And I think what we saw over
+
+239
+00:15:30,195 --> 00:15:34,005
+Speaker 7:  time was that a, a few different things, but people just,
+
+240
+00:15:34,345 --> 00:15:37,845
+Speaker 7:  you know, there was a sort of massive explosion. You had a whole bunch of,
+
+241
+00:15:38,185 --> 00:15:42,005
+Speaker 7:  of OEMs and manufacturers come into the ecosystem. Suddenly everything was
+
+242
+00:15:42,295 --> 00:15:45,965
+Speaker 7:  quote unquote connected or smart. And then we had to sort of
+
+243
+00:15:46,165 --> 00:15:49,485
+Speaker 7:  look at, are we actually going to build every device in the home? Like, am
+
+244
+00:15:49,485 --> 00:15:53,325
+Speaker 7:  I going to go and build like vacuum cleaners and robo
+
+245
+00:15:53,355 --> 00:15:57,245
+Speaker 7:  vacuums and blinds and washers and dryers and
+
+246
+00:15:57,245 --> 00:16:01,165
+Speaker 7:  stuff like that? Because the reality was, users were very clear, they wanted
+
+247
+00:16:01,205 --> 00:16:05,085
+Speaker 7:  a lot of those devices and they didn't necessarily tell
+
+248
+00:16:05,085 --> 00:16:08,965
+Speaker 7:  us that they wanted all of it from one partner or one
+
+249
+00:16:08,975 --> 00:16:12,245
+Speaker 7:  brand. Yeah. It was very clear from the early days of, of assistant, they
+
+250
+00:16:12,245 --> 00:16:15,045
+Speaker 7:  were like, Hey, I wanna be able to connect to everything, right? I wanna
+
+251
+00:16:15,045 --> 00:16:17,645
+Speaker 7:  connect to all of sort of the partners in the ecosystem. So we did have to
+
+252
+00:16:17,645 --> 00:16:21,165
+Speaker 7:  like, take a step back and say, where do we lean into our
+
+253
+00:16:21,645 --> 00:16:25,325
+Speaker 7:  strengths? And, and sort of like, how do we evolve our hardware
+
+254
+00:16:25,565 --> 00:16:29,205
+Speaker 7:  strategy as a function of that? And it has evolved. Like you'll, you know,
+
+255
+00:16:29,205 --> 00:16:33,125
+Speaker 7:  I I, when I was sharing with you last week was the way that I think
+
+256
+00:16:33,125 --> 00:16:36,725
+Speaker 7:  about our hardware strategy is that we will conti, we, we love
+
+257
+00:16:37,445 --> 00:16:41,005
+Speaker 7:  building hardware. We will continue to build awesome hardware. We think of
+
+258
+00:16:41,005 --> 00:16:44,725
+Speaker 7:  it as a two-pronged strategy. We're gonna build sort of
+
+259
+00:16:44,725 --> 00:16:48,085
+Speaker 7:  flagship devices in a few categories where we can showcase innovation,
+
+260
+00:16:48,495 --> 00:16:51,965
+Speaker 7:  where we can sort of push the boundaries of what Gemini can do, and then
+
+261
+00:16:51,965 --> 00:16:55,885
+Speaker 7:  we'll compliment that with partners that can sort of expand choice
+
+262
+00:16:55,885 --> 00:16:59,285
+Speaker 7:  for users, give you choice of form factor and price points and stuff like
+
+263
+00:16:59,285 --> 00:17:02,365
+Speaker 7:  that. And you saw a little bit of that, you know, this week, certainly in
+
+264
+00:17:02,365 --> 00:17:05,885
+Speaker 7:  cameras and doorbells, we announced Walmart and stuff like that. So there's
+
+265
+00:17:05,885 --> 00:17:09,045
+Speaker 7:  gonna be a lot more of that. But that's how I think about how our hardware
+
+266
+00:17:09,045 --> 00:17:12,685
+Speaker 7:  strategies evolved. But our broader mission remains like pretty
+
+267
+00:17:12,685 --> 00:17:13,805
+Speaker 7:  unchanged. Is
+
+268
+00:17:13,805 --> 00:17:17,325
+Speaker 1:  It obvious to you where that line is now in, in the sort of what is and isn't
+
+269
+00:17:17,325 --> 00:17:18,525
+Speaker 1:  your job in the smart home?
+
+270
+00:17:19,715 --> 00:17:23,645
+Speaker 7:  Yeah. Yeah. I, I, I think so. And maybe just
+
+271
+00:17:23,645 --> 00:17:27,325
+Speaker 7:  to, to sort of put a finer point on the last
+
+272
+00:17:27,565 --> 00:17:30,605
+Speaker 7:  question of people trusting us. We've made some hard calls for sure,
+
+273
+00:17:31,825 --> 00:17:35,725
+Speaker 7:  but we've also, we've also sort of done a lot of hard work. Like
+
+274
+00:17:35,725 --> 00:17:39,325
+Speaker 7:  you think about two things that have happened this week. We said
+
+275
+00:17:39,815 --> 00:17:43,285
+Speaker 7:  we're gonna replace the Google assistant on every speaker
+
+276
+00:17:43,825 --> 00:17:47,695
+Speaker 7:  and smart display that we've built in a decade. There was an easier path
+
+277
+00:17:47,695 --> 00:17:51,485
+Speaker 7:  for us, by the way, which is to say just the new ones, right?
+
+278
+00:17:51,485 --> 00:17:54,765
+Speaker 7:  Sure. But not for a second did we say that we were gonna take that path?
+
+279
+00:17:54,995 --> 00:17:58,805
+Speaker 7:  Like for us, obviously like that, that was a, that that is like one sign
+
+280
+00:17:58,805 --> 00:18:02,365
+Speaker 7:  of commitment to our ecosystem. I think the other way, the other one that
+
+281
+00:18:02,365 --> 00:18:06,205
+Speaker 7:  I would point to is on the devices in the Nest app, right? We finally
+
+282
+00:18:06,565 --> 00:18:10,525
+Speaker 7:  finished this, this migration and we've said like, Hey, now all those
+
+283
+00:18:10,625 --> 00:18:14,445
+Speaker 7:  old Nest devices, some as old as like, you know, over a decade old, you can
+
+284
+00:18:14,445 --> 00:18:18,405
+Speaker 7:  use all of those in the Google Home app. Like also not an easy
+
+285
+00:18:18,405 --> 00:18:21,285
+Speaker 7:  undertaking. I know most people don't care about the, the behind the scenes,
+
+286
+00:18:21,345 --> 00:18:25,325
+Speaker 7:  but between those two things, those were like millions of lines of
+
+287
+00:18:25,355 --> 00:18:29,325
+Speaker 7:  code that we rewrote to support devices a
+
+288
+00:18:29,325 --> 00:18:33,045
+Speaker 7:  decade old. And for me, that's a sign of commitment Yeah. Where we could
+
+289
+00:18:33,045 --> 00:18:35,845
+Speaker 7:  have taken that easier path. So maybe that's the, that's a perfect question,
+
+290
+00:18:35,845 --> 00:18:38,005
+Speaker 7:  but David, sorry, you, you were asking a follow on.
+
+291
+00:18:38,355 --> 00:18:42,285
+Speaker 1:  Yeah. How would you describe sort of where your job begins and ends as
+
+292
+00:18:42,285 --> 00:18:46,055
+Speaker 1:  Google? Because like, I, I think the,
+
+293
+00:18:46,085 --> 00:18:49,775
+Speaker 1:  everybody in this industry has at various times tried to do the, actually
+
+294
+00:18:49,775 --> 00:18:53,735
+Speaker 1:  yes, we're going to become a washing machine manufacturer strategy, and
+
+295
+00:18:54,725 --> 00:18:57,975
+Speaker 1:  most companies, including Manu washing machine manufacturers, have realized
+
+296
+00:18:57,975 --> 00:19:01,775
+Speaker 1:  that's the wrong strategy. So like, how, how do you paint the sort of
+
+297
+00:19:01,775 --> 00:19:04,695
+Speaker 1:  clear lines about like, this is actually not what we do in this space?
+
+298
+00:19:05,875 --> 00:19:09,565
+Speaker 7:  Yeah, I, I, I think we play a couple different roles
+
+299
+00:19:09,985 --> 00:19:13,885
+Speaker 7:  in this space. So I think one key place that
+
+300
+00:19:13,885 --> 00:19:17,645
+Speaker 7:  we play is, you know, we think it's really critical to build a
+
+301
+00:19:17,925 --> 00:19:21,805
+Speaker 7:  platform layer to enable partners to sort of innovate. We're
+
+302
+00:19:21,805 --> 00:19:25,725
+Speaker 7:  deeply committed. You know, I, Jen And I talk often about matter. We're
+
+303
+00:19:25,725 --> 00:19:29,285
+Speaker 7:  very committed to that as sort of an open standard as one of the early
+
+304
+00:19:29,765 --> 00:19:33,565
+Speaker 7:  supporters. And we have to, like matter's, got a way to go and
+
+305
+00:19:33,565 --> 00:19:36,005
+Speaker 7:  we'll sort of spend time there and we'll, we'll continue to invest. It's
+
+306
+00:19:36,005 --> 00:19:39,325
+Speaker 7:  not sort of a, something that's done in, in a week or a month or a year.
+
+307
+00:19:40,465 --> 00:19:43,485
+Speaker 7:  But yeah, so we think that platform layer is really, really important. So
+
+308
+00:19:44,515 --> 00:19:48,445
+Speaker 7:  what you saw with the sort of Walmart on camera announcement, we spent a
+
+309
+00:19:48,445 --> 00:19:52,285
+Speaker 7:  lot of time building software tools, right? Like SDKs, APIs,
+
+310
+00:19:52,285 --> 00:19:56,245
+Speaker 7:  things like that, where you could have a partner like Walmart whose core
+
+311
+00:19:56,245 --> 00:20:00,165
+Speaker 7:  competencies building hardware in this contech in
+
+312
+00:20:00,165 --> 00:20:02,725
+Speaker 7:  this context, there's a lot of partners there that, that don't wanna build
+
+313
+00:20:02,725 --> 00:20:06,605
+Speaker 7:  the software layers, the intelligence layers. And so we think that
+
+314
+00:20:06,605 --> 00:20:10,165
+Speaker 7:  that's a, that's an important role. And the, the user ultimately is the net
+
+315
+00:20:10,355 --> 00:20:14,005
+Speaker 7:  beneficiary of it, right? You get devices at a whole bunch of different price
+
+316
+00:20:14,005 --> 00:20:17,765
+Speaker 7:  points. Other partners will do stuff that I don't think
+
+317
+00:20:17,765 --> 00:20:21,565
+Speaker 7:  necessarily is in Google's best interest to do. Like, you know, if you
+
+318
+00:20:21,565 --> 00:20:25,405
+Speaker 7:  want a pee hole camera or a bird bath camera and stuff like that. Like,
+
+319
+00:20:25,445 --> 00:20:29,005
+Speaker 7:  I think there's a bit, there's a markets for all these things I like, it's
+
+320
+00:20:29,005 --> 00:20:31,245
+Speaker 7:  just, I don't think it's, we are well positioned to do that, but if I can
+
+321
+00:20:31,245 --> 00:20:34,685
+Speaker 7:  give you the tools to do that, I definitely want to. And Gemini, I think
+
+322
+00:20:34,685 --> 00:20:38,085
+Speaker 7:  can be sort of a massive unlock in that capacity. So, so one role I think
+
+323
+00:20:38,085 --> 00:20:41,445
+Speaker 7:  we play is can we help support the ecosystem in that context by giving you
+
+324
+00:20:41,445 --> 00:20:44,845
+Speaker 7:  tools. I think the second layer is this, this
+
+325
+00:20:44,845 --> 00:20:48,445
+Speaker 7:  intelligence layer. Like this is, you know, for us, Gemini for home we think
+
+326
+00:20:48,445 --> 00:20:52,125
+Speaker 7:  is gonna be a big unlock. And so that's a major investment.
+
+327
+00:20:52,345 --> 00:20:56,245
+Speaker 7:  Gemini as a whole is, is a major investment for, for Google. And so I think
+
+328
+00:20:56,245 --> 00:21:00,045
+Speaker 7:  there, there will play a, a massive role and to showcase that
+
+329
+00:21:00,045 --> 00:21:03,725
+Speaker 7:  second part, we'll build devices where it makes sense. That's why we're doing
+
+330
+00:21:03,955 --> 00:21:07,565
+Speaker 7:  cameras and doorbells because we think, you know, multimodal
+
+331
+00:21:07,645 --> 00:21:11,485
+Speaker 7:  semantic scene understanding type stuff is pretty unique. We think we can
+
+332
+00:21:11,765 --> 00:21:15,645
+Speaker 7:  showcase what the market can do. You know, speakers, smart
+
+333
+00:21:15,645 --> 00:21:19,485
+Speaker 7:  displays like hub, hub devices, those are other areas where
+
+334
+00:21:19,485 --> 00:21:23,445
+Speaker 7:  we think, you know, we should invest to showcase the market. Will we
+
+335
+00:21:23,445 --> 00:21:27,285
+Speaker 7:  build it at every price point, every screen size, et cetera? No, probably
+
+336
+00:21:27,285 --> 00:21:31,005
+Speaker 7:  not. But again, similarly you'll see that us plus partner
+
+337
+00:21:31,965 --> 00:21:32,365
+Speaker 7:  approach there.
+
+338
+00:21:32,665 --> 00:21:36,045
+Speaker 6:  Before we move on to what you announced and what you're doing going forward,
+
+339
+00:21:36,485 --> 00:21:38,685
+Speaker 6:  I just wanna address what we were talking about, a little bit about the kind
+
+340
+00:21:38,685 --> 00:21:42,085
+Speaker 6:  of frustration that maybe some Google Home and Nest users had had over the
+
+341
+00:21:42,085 --> 00:21:45,645
+Speaker 6:  past. And one of the things we talked about when we spoke last week was that
+
+342
+00:21:45,645 --> 00:21:49,445
+Speaker 6:  you basically had to rebuild Google Home with this launch, right? You
+
+343
+00:21:49,445 --> 00:21:53,365
+Speaker 6:  said there had been a number of different infrastructures
+
+344
+00:21:53,365 --> 00:21:57,205
+Speaker 6:  under there. You had Nest, you had Chromecast, you had a number of
+
+345
+00:21:57,565 --> 00:22:01,165
+Speaker 6:  pieces and parts that you kind of had to pull together. And I know that
+
+346
+00:22:01,485 --> 00:22:05,445
+Speaker 6:  some of the problems specifically in the last few months, I
+
+347
+00:22:05,445 --> 00:22:08,845
+Speaker 6:  think a lot of users have been talking about things not working anymore with
+
+348
+00:22:08,845 --> 00:22:12,165
+Speaker 6:  Google Assistant features that had been taken away from Google Assistant
+
+349
+00:22:12,165 --> 00:22:15,365
+Speaker 6:  that we've reported on over the last year or so. And there was this sort
+
+350
+00:22:15,365 --> 00:22:18,725
+Speaker 6:  of feeling of like it was dropping off a cliff, but you're sort of saying
+
+351
+00:22:18,725 --> 00:22:22,605
+Speaker 6:  we've, we've caught it and we are bringing it back up. But I guess I would
+
+352
+00:22:22,605 --> 00:22:26,285
+Speaker 6:  just love to for you to explain a little bit about what's happened and
+
+353
+00:22:26,285 --> 00:22:30,165
+Speaker 6:  what's, what happened in to the existing infrastructure of Google
+
+354
+00:22:30,165 --> 00:22:33,925
+Speaker 6:  Home and now what, what you've built that in that hopefully
+
+355
+00:22:33,925 --> 00:22:35,965
+Speaker 6:  will be a more solid foundation to go forward.
+
+356
+00:22:37,225 --> 00:22:39,515
+Speaker 7:  Yeah, you're right, right. But
+
+357
+00:22:41,365 --> 00:22:45,295
+Speaker 7:  yeah, we've taken on a lot of different infrastructures over time and,
+
+358
+00:22:45,295 --> 00:22:47,495
+Speaker 7:  and techno tech companies often, often do that,
+
+359
+00:22:49,115 --> 00:22:52,935
+Speaker 7:  though. There was sort of definitely an inflection point or sort of a moment
+
+360
+00:22:52,955 --> 00:22:56,695
+Speaker 7:  in time where we had to look at, I'm, I'm gonna sort of focus on the assistant
+
+361
+00:22:56,695 --> 00:22:59,855
+Speaker 7:  piece for a quick second, where we had to say,
+
+362
+00:23:00,565 --> 00:23:04,215
+Speaker 7:  okay, we, we see the limitations of
+
+363
+00:23:04,355 --> 00:23:08,135
+Speaker 7:  the last generation of AI and ml. And as we sort of did that
+
+364
+00:23:08,135 --> 00:23:11,775
+Speaker 7:  audit, it became very, very clear that we could put a bunch of
+
+365
+00:23:11,775 --> 00:23:14,815
+Speaker 7:  band-aids on that old technology and it would be pretty brittle
+
+366
+00:23:15,675 --> 00:23:19,295
+Speaker 7:  and probably not take us into the future. So then we had to make this hard
+
+367
+00:23:19,295 --> 00:23:21,855
+Speaker 7:  call of like, okay, well listen, like we've gotta go over to this mo more
+
+368
+00:23:21,855 --> 00:23:25,175
+Speaker 7:  modern infrastructure and more modern architecture. That's, that was the
+
+369
+00:23:25,175 --> 00:23:28,615
+Speaker 7:  call to move to, to Gemini. But even that wasn't a silver bullet,
+
+370
+00:23:28,805 --> 00:23:32,695
+Speaker 7:  because if you do that, you get all the stuff that LLMs do
+
+371
+00:23:32,695 --> 00:23:36,375
+Speaker 7:  really, really well, that creativity, sort of the conversationality,
+
+372
+00:23:37,715 --> 00:23:41,495
+Speaker 7:  but as an industry, LLMs weren't built to solve
+
+373
+00:23:41,525 --> 00:23:45,175
+Speaker 7:  like the predictable action type problem, right?
+
+374
+00:23:46,185 --> 00:23:49,245
+Speaker 7:  And so that's why we had to take some time to say, okay, we have to re-architect
+
+375
+00:23:49,245 --> 00:23:53,165
+Speaker 7:  Google Home for this world, which with both LLMs, but then also when I
+
+376
+00:23:53,165 --> 00:23:56,165
+Speaker 7:  say turn off my lights, it does it 10 time outta 10. So, so we had to do
+
+377
+00:23:56,165 --> 00:23:59,525
+Speaker 7:  that. Like that was a big, big undertaking. Now we feel like we're in a better
+
+378
+00:23:59,525 --> 00:24:02,205
+Speaker 7:  place. We'll start off, like I said, with early access,
+
+379
+00:24:03,005 --> 00:24:06,965
+Speaker 7:  there'll be learning, right? So it, it won't be perfect on, on
+
+380
+00:24:06,965 --> 00:24:10,565
+Speaker 7:  day one, but, but that's, that's, that is what we, we had to do there. And
+
+381
+00:24:10,565 --> 00:24:13,405
+Speaker 7:  it was a tough call because it meant for the users that had the assistant.
+
+382
+00:24:13,405 --> 00:24:17,085
+Speaker 7:  Things work great for a while and it will take them some time to get to a
+
+383
+00:24:17,085 --> 00:24:20,045
+Speaker 7:  better place. But that's where we wanted to compliment it with, okay, listen,
+
+384
+00:24:20,505 --> 00:24:24,215
+Speaker 7:  if you had our devices for a decade, I,
+
+385
+00:24:24,535 --> 00:24:28,495
+Speaker 7:  I, I feel deep empathy for, for sort of the, the challenges because I was
+
+386
+00:24:28,495 --> 00:24:32,215
+Speaker 7:  one of those users. I still am, but I promise like the solution is coming
+
+387
+00:24:32,235 --> 00:24:34,895
+Speaker 7:  to you as well. It's not gonna require you to buy a new thing.
+
+388
+00:24:34,985 --> 00:24:38,175
+Speaker 6:  Right? And that's all starting to roll out this month. Is that right? Yeah.
+
+389
+00:24:38,235 --> 00:24:41,935
+Speaker 6:  So when are people gonna be seen, because I know this whole thing with the
+
+390
+00:24:41,935 --> 00:24:45,455
+Speaker 6:  early access. Yes. I mean, Amazon's been doing this. It's like, yes,
+
+391
+00:24:45,845 --> 00:24:49,735
+Speaker 6:  some people can get it. So when can people who've been having problems
+
+392
+00:24:49,845 --> 00:24:53,615
+Speaker 6:  with Google Assistant feel comfort, you know, when, when are they
+
+393
+00:24:53,615 --> 00:24:57,575
+Speaker 6:  gonna see improvements with Gemini and is it gonna be improvement or is there
+
+394
+00:24:57,575 --> 00:25:01,455
+Speaker 6:  still issues there? Because I know I've seen this with Alexa plus
+
+395
+00:25:02,165 --> 00:25:06,095
+Speaker 6:  that disconnect between what the LLM can do and what the, the
+
+396
+00:25:06,655 --> 00:25:10,615
+Speaker 6:  deterministic systems that we had before are able to do is still there.
+
+397
+00:25:10,765 --> 00:25:13,375
+Speaker 6:  Have you solved that problem? That's two questions. I know.
+
+398
+00:25:14,325 --> 00:25:17,815
+Speaker 7:  Yeah. I think a lot of questions about this since we rolled out.
+
+399
+00:25:18,315 --> 00:25:21,935
+Speaker 7:  Yes. Early access is starting this month, I'll be super clear on our
+
+400
+00:25:22,435 --> 00:25:26,255
+Speaker 7:  Gemini for home is the thing that's going into early access for cameras
+
+401
+00:25:26,475 --> 00:25:30,335
+Speaker 7:  and doorbells that has already started to ramp up. So people who
+
+402
+00:25:30,335 --> 00:25:33,535
+Speaker 7:  have, have raised their hands to get into the early access should be
+
+403
+00:25:33,565 --> 00:25:35,615
+Speaker 6:  Seen. Just got one of them today. I am very excited. Hey,
+
+404
+00:25:35,615 --> 00:25:35,935
+Speaker 7:  There you go.
+
+405
+00:25:36,005 --> 00:25:39,775
+Speaker 6:  Yeah. And the beautiful red one too, I'm holding up then the new camera,
+
+406
+00:25:39,795 --> 00:25:42,535
+Speaker 6:  it just arrived today, the very pretty red angle camera.
+
+407
+00:25:43,195 --> 00:25:47,095
+Speaker 7:  It very is what we call it. Yeah. So, so for early access for cameras
+
+408
+00:25:47,115 --> 00:25:51,015
+Speaker 7:  and doorbells in the home app that's already started to roll out and, and
+
+409
+00:25:51,075 --> 00:25:54,415
+Speaker 7:  it is a rollout, so you know, it's not day and date for everyone.
+
+410
+00:25:55,635 --> 00:25:59,335
+Speaker 7:  So, and then on speakers and displays, we'll start ramping that up in the
+
+411
+00:25:59,335 --> 00:26:02,535
+Speaker 7:  last week of, of this month. Okay. So yeah,
+
+412
+00:26:02,675 --> 00:26:06,215
+Speaker 6:  So like next month for the speakers and displays
+
+413
+00:26:06,475 --> 00:26:07,095
+Speaker 6:  for most people
+
+414
+00:26:07,285 --> 00:26:11,055
+Speaker 7:  Last week of this month, so, okay, sure. Yeah. I mean, yeah.
+
+415
+00:26:11,235 --> 00:26:11,695
+Speaker 7:  So Google
+
+416
+00:26:11,695 --> 00:26:15,335
+Speaker 6:  Assistant is gone. RIP it's dead. Yeah. When you get
+
+417
+00:26:15,395 --> 00:26:18,655
+Speaker 6:  Gemini, can you, can you bring back Google Assistant if you don't like Gemini?
+
+418
+00:26:18,655 --> 00:26:20,335
+Speaker 6:  Or are you just, it's just Gemini?
+
+419
+00:26:20,875 --> 00:26:23,775
+Speaker 7:  No, it is, it's just, it's just Gemini. Yeah. So you'll get
+
+420
+00:26:24,795 --> 00:26:28,615
+Speaker 7:  in the home app when you are sort of get off the early access
+
+421
+00:26:28,645 --> 00:26:32,335
+Speaker 7:  list, you'll get a, a notification in there, you know, you'll go through
+
+422
+00:26:32,335 --> 00:26:35,415
+Speaker 7:  a couple screens, you know, to select your voices and do a bunch of things.
+
+423
+00:26:35,415 --> 00:26:39,255
+Speaker 7:  But yeah, when you do that, you switch over from the assistant tona.
+
+424
+00:26:39,255 --> 00:26:42,895
+Speaker 7:  So when you say, Hey, G, and I'm saying that so I don't trigger everybody's
+
+425
+00:26:43,245 --> 00:26:46,885
+Speaker 7:  speakers, all your listeners, but yeah, when you say, Hey G, you are at that
+
+426
+00:26:46,885 --> 00:26:50,685
+Speaker 7:  point, you are now talking to Gemini and that
+
+427
+00:26:50,685 --> 00:26:52,165
+Speaker 7:  that is not a reversible change,
+
+428
+00:26:52,475 --> 00:26:55,205
+Speaker 6:  Will it be able to do everything that Google assistant can do today?
+
+429
+00:26:56,215 --> 00:26:59,515
+Speaker 7:  And, and, and hopefully more and more so, so yes. Yeah, yeah,
+
+430
+00:27:00,265 --> 00:27:03,915
+Speaker 7:  yeah. The, the intent is very much, yeah, whatever you've got with the assistant.
+
+431
+00:27:03,915 --> 00:27:07,795
+Speaker 7:  So all of your media stuff, everything you do with household coordination,
+
+432
+00:27:07,795 --> 00:27:11,475
+Speaker 7:  you know, people care about setting their timers and, and their lists
+
+433
+00:27:11,575 --> 00:27:15,075
+Speaker 7:  and all of those things. Yes. You, you'll absolutely be able to do that.
+
+434
+00:27:15,075 --> 00:27:18,955
+Speaker 7:  All of your smart home controls. Then I think the, the, the big thing though
+
+435
+00:27:18,955 --> 00:27:22,875
+Speaker 7:  is that with Gemini, it sort of unlocks this
+
+436
+00:27:22,875 --> 00:27:26,515
+Speaker 7:  more natural conversation, right? Yeah. And so we, Jen, we, we often talk
+
+437
+00:27:26,515 --> 00:27:30,115
+Speaker 7:  about how controlling the smart home has become like this, I have to speak
+
+438
+00:27:30,115 --> 00:27:33,915
+Speaker 7:  in a very specific syntax, right? Like, if I say the words in this
+
+439
+00:27:33,915 --> 00:27:37,875
+Speaker 7:  exact order, then something will happen. So that's where I think
+
+440
+00:27:37,895 --> 00:27:40,875
+Speaker 7:  Gemini will be the upgrade here is it's gonna be far more conversational.
+
+441
+00:27:40,875 --> 00:27:44,075
+Speaker 7:  You're not, you don't have to like remember the formulas to, to get it right.
+
+442
+00:27:44,215 --> 00:27:45,555
+Speaker 7:  So pretty excited about that.
+
+443
+00:27:45,625 --> 00:27:49,595
+Speaker 6:  Well, and you talked about the cameras as being key there with the multimodality.
+
+444
+00:27:50,375 --> 00:27:54,355
+Speaker 6:  Not everyone wants cameras in their homes, but people want smart homes and
+
+445
+00:27:54,355 --> 00:27:58,275
+Speaker 6:  there's so many more parts and pieces to creating
+
+446
+00:27:58,635 --> 00:28:02,435
+Speaker 6:  a, a more a home that understands what you do than just
+
+447
+00:28:02,655 --> 00:28:06,515
+Speaker 6:  visual. So I guess can you speak a little bit to how you've, what
+
+448
+00:28:06,515 --> 00:28:10,195
+Speaker 6:  your vision is for how that, that ambient home kind of all comes together
+
+449
+00:28:10,385 --> 00:28:13,275
+Speaker 6:  outside of just the cameras? Because obviously the cameras are what you launched
+
+450
+00:28:13,505 --> 00:28:16,195
+Speaker 6:  last week, but I wanna know more about the future.
+
+451
+00:28:17,225 --> 00:28:20,755
+Speaker 7:  Yeah, and, And I, in, in some ways I, I think
+
+452
+00:28:20,885 --> 00:28:21,435
+Speaker 7:  we've taken,
+
+453
+00:28:22,965 --> 00:28:26,865
+Speaker 7:  as an industry, we've taken this view that a, a camera is sort of a predominantly
+
+454
+00:28:27,985 --> 00:28:31,465
+Speaker 7:  security device, right? Like you put cameras to like, that's, that's probably
+
+455
+00:28:31,465 --> 00:28:33,905
+Speaker 7:  the primary thing that people use it for.
+
+456
+00:28:35,685 --> 00:28:37,625
+Speaker 7:  One way that I think about it is that
+
+457
+00:28:39,365 --> 00:28:43,105
+Speaker 7:  the camera in so many ways will become kind of this
+
+458
+00:28:43,655 --> 00:28:47,425
+Speaker 7:  general purpose sensor in a way, right? Right.
+
+459
+00:28:47,455 --> 00:28:51,305
+Speaker 7:  Whereas, you know, today you've got like motion sensors and they do a very
+
+460
+00:28:51,505 --> 00:28:54,665
+Speaker 7:  specific thing. You've got water leak sensors and do do a specific thing
+
+461
+00:28:54,685 --> 00:28:57,865
+Speaker 7:  and, and you've got all these different sensors, right? And those I think
+
+462
+00:28:57,865 --> 00:29:01,625
+Speaker 7:  all have a, have a tremendous role. But I think the role of a camera evolves
+
+463
+00:29:01,625 --> 00:29:04,945
+Speaker 7:  from just like, you know, I see a thing, I tell you the thing, and it's
+
+464
+00:29:04,945 --> 00:29:08,865
+Speaker 7:  predominantly security to, it could be this incredibly powerful like
+
+465
+00:29:08,975 --> 00:29:12,865
+Speaker 7:  general purpose sensor. Yeah. That sort of makes the, the
+
+466
+00:29:12,865 --> 00:29:16,665
+Speaker 7:  home smarter. Now, of course there, there's like different layers
+
+467
+00:29:16,765 --> 00:29:20,585
+Speaker 7:  of comfort that have to come with that for, for people to adopt it in different
+
+468
+00:29:20,585 --> 00:29:24,265
+Speaker 7:  contexts, right? Like, you're probably reasonably comfortable with it outdoors
+
+469
+00:29:24,325 --> 00:29:27,665
+Speaker 7:  in your backyard and your front yard to bring something inside the house.
+
+470
+00:29:27,685 --> 00:29:31,505
+Speaker 7:  You've gotta do it in a way that you trust it and you feel like it's
+
+471
+00:29:31,505 --> 00:29:35,265
+Speaker 7:  secure and, and stuff like that. So, And I think there the biggest
+
+472
+00:29:35,445 --> 00:29:38,665
+Speaker 7:  unlock will be if users start to see that there's value that it's giving
+
+473
+00:29:38,665 --> 00:29:42,565
+Speaker 7:  them, then, then they might be willing to make that, that
+
+474
+00:29:42,565 --> 00:29:46,005
+Speaker 7:  trade. Yeah. But so, so that's my sort of view on, on cameras.
+
+475
+00:29:46,765 --> 00:29:50,725
+Speaker 7:  I think the, the notion of Gemini being this proactive, like helper in
+
+476
+00:29:50,725 --> 00:29:54,565
+Speaker 7:  the home absolutely has to encompass all of the devices in your smart
+
+477
+00:29:54,565 --> 00:29:58,085
+Speaker 7:  home. And, And I think this is like the, this has been in my mind that the
+
+478
+00:29:58,085 --> 00:30:01,005
+Speaker 7:  gap in the smart home has been, and you, we've talked about this before,
+
+479
+00:30:02,165 --> 00:30:05,665
+Speaker 7:  the journey has never, the promise has been if you invest in a smart home
+
+480
+00:30:05,665 --> 00:30:07,705
+Speaker 7:  and you add more devices in the home gets smarter,
+
+481
+00:30:08,235 --> 00:30:08,585
+Speaker 6:  Right?
+
+482
+00:30:08,775 --> 00:30:12,265
+Speaker 7:  That is not the case today, right? Yeah. Every device, every incremental
+
+483
+00:30:12,265 --> 00:30:16,025
+Speaker 7:  device I add to my home, it gets an order of magnitude worse.
+
+484
+00:30:16,025 --> 00:30:19,905
+Speaker 7:  It's more set up, they don't work together. Automations
+
+485
+00:30:19,925 --> 00:30:23,665
+Speaker 7:  is like this thing I've gotta do if this, then that. And like, it's, it's
+
+486
+00:30:23,685 --> 00:30:27,585
+Speaker 7:  so complex. And so this is where, for me, it's not about
+
+487
+00:30:27,585 --> 00:30:31,505
+Speaker 7:  automations, but it's about Gemini. Just being able to say, okay, bring all
+
+488
+00:30:31,505 --> 00:30:34,345
+Speaker 7:  of your devices in, we'll figure it out for you. That to me is the unlock.
+
+489
+00:30:34,525 --> 00:30:38,225
+Speaker 7:  And it has to, at its core be bring in any device, right?
+
+490
+00:30:38,325 --> 00:30:42,265
+Speaker 7:  Any sensor, any compatible, like smart home device and can I figure it out
+
+491
+00:30:42,325 --> 00:30:43,345
+Speaker 7:  and can I make it smarter?
+
+492
+00:30:43,525 --> 00:30:47,065
+Speaker 6:  So we haven't had a new Nest hub smart display for a while. Yeah.
+
+493
+00:30:47,195 --> 00:30:51,185
+Speaker 6:  There was the Google Pixel tablet, which wasn't really, but kind of, and
+
+494
+00:30:51,205 --> 00:30:51,665
+Speaker 6:  ev yeah.
+
+495
+00:30:53,245 --> 00:30:57,105
+Speaker 6:  So, and there was, you know, this, you've talked a lot about
+
+496
+00:30:57,105 --> 00:31:00,905
+Speaker 6:  cameras being key and vision. Yeah. And that, so a, a smart
+
+497
+00:31:00,905 --> 00:31:04,665
+Speaker 6:  display really does sort of tie a lot of what
+
+498
+00:31:04,665 --> 00:31:08,585
+Speaker 6:  you've talked about together. Yeah. In theory, unless you have an entirely
+
+499
+00:31:08,645 --> 00:31:12,345
+Speaker 6:  new form factor for this that we don't, that you can share now, but is this
+
+500
+00:31:12,345 --> 00:31:14,985
+Speaker 6:  something that is part of what you see as
+
+501
+00:31:16,505 --> 00:31:20,465
+Speaker 6:  integral to that sort of core hardware where you said, you said at
+
+502
+00:31:20,465 --> 00:31:23,265
+Speaker 6:  the beginning that you're gonna focus on producing the, the core hardware
+
+503
+00:31:23,265 --> 00:31:27,065
+Speaker 6:  and, and if it is key, why, what's, what's important about the smart display?
+
+504
+00:31:27,385 --> 00:31:31,145
+Speaker 7:  I guess the preempt, given that we're not sharing any explicit news
+
+505
+00:31:31,145 --> 00:31:35,105
+Speaker 7:  about smart displays, the way that I'll just say it is we are
+
+506
+00:31:35,105 --> 00:31:38,025
+Speaker 7:  definitely committed to smart displays while we're not announcing anything.
+
+507
+00:31:38,025 --> 00:31:41,465
+Speaker 7:  Now, you should definitely expect that we'll have news to share there
+
+508
+00:31:41,735 --> 00:31:45,705
+Speaker 7:  soon. And I think the reason that I'm excited about this category is if you
+
+509
+00:31:45,705 --> 00:31:49,545
+Speaker 7:  think about, you know, how all these LLM technologies are
+
+510
+00:31:49,545 --> 00:31:53,225
+Speaker 7:  sort of converging, it does present itself as a
+
+511
+00:31:53,885 --> 00:31:57,735
+Speaker 7:  like, incredible form factor to interact with something like Gemini for home,
+
+512
+00:31:57,745 --> 00:32:01,255
+Speaker 7:  right? Yeah. Like you think about the properties of a smart display microphone,
+
+513
+00:32:01,305 --> 00:32:05,295
+Speaker 7:  which means audio in speaker, audio out. So it's great
+
+514
+00:32:05,295 --> 00:32:08,935
+Speaker 7:  for audio and audio out. It's got a screen, which means to
+
+515
+00:32:08,935 --> 00:32:12,655
+Speaker 7:  compliment sort of a voice modality. You can sort of interact with it,
+
+516
+00:32:12,915 --> 00:32:16,735
+Speaker 7:  you can sort of visualize information, you know, we've got cameras in them.
+
+517
+00:32:16,835 --> 00:32:20,455
+Speaker 7:  So you get that, that's a vision piece to it as well. So I think, you know,
+
+518
+00:32:20,455 --> 00:32:23,575
+Speaker 7:  as I see where Gemini for home is going, and Gemini more broadly is going
+
+519
+00:32:23,675 --> 00:32:27,175
+Speaker 7:  all of the things that Google is investing in building, for me, it feels
+
+520
+00:32:27,175 --> 00:32:31,055
+Speaker 7:  like the almost at a ultimate form factor to be able to deliver like
+
+521
+00:32:31,135 --> 00:32:35,015
+Speaker 7:  a really great home experience. So that's, that's why we are gonna
+
+522
+00:32:35,255 --> 00:32:38,935
+Speaker 7:  continue to invest in that category. So I'm, I I I think it's gonna be awesome.
+
+523
+00:32:39,805 --> 00:32:43,365
+Speaker 1:  A lot of people I think have correctly identified a lot of the same problems
+
+524
+00:32:43,365 --> 00:32:46,205
+Speaker 1:  that you have with the smart home, right? And I think a lot of people also
+
+525
+00:32:46,205 --> 00:32:49,965
+Speaker 1:  think LLMs are gonna help fix it. But you work for Google, which
+
+526
+00:32:50,715 --> 00:32:54,485
+Speaker 1:  also has this unbelievably gigantic trove of
+
+527
+00:32:54,485 --> 00:32:58,445
+Speaker 1:  information in real time and not about every
+
+528
+00:32:58,445 --> 00:33:01,525
+Speaker 1:  person on earth. And as you talk about like multimodal,
+
+529
+00:33:02,465 --> 00:33:06,285
+Speaker 1:  you know, multimodal input and understanding more about people's context,
+
+530
+00:33:06,475 --> 00:33:10,325
+Speaker 1:  like it's all just sitting there for you if you want it. So like,
+
+531
+00:33:10,325 --> 00:33:13,965
+Speaker 1:  is is the, is the end of this road that like my smart home
+
+532
+00:33:14,625 --> 00:33:18,565
+Speaker 1:  not only knows where I am, but has like read my email and my
+
+533
+00:33:18,565 --> 00:33:22,125
+Speaker 1:  Google Maps history and knows what I shopped for and actually can like
+
+534
+00:33:22,125 --> 00:33:25,805
+Speaker 1:  preheat the oven for me without even me having to ask. And that I just live
+
+535
+00:33:25,805 --> 00:33:28,605
+Speaker 1:  my life. And because Google knows everything about me, it starts to solve
+
+536
+00:33:28,625 --> 00:33:31,045
+Speaker 1:  my life for me. Is that, is that the end of this road
+
+537
+00:33:31,585 --> 00:33:35,565
+Speaker 7:  On the point around having access to all
+
+538
+00:33:35,565 --> 00:33:39,445
+Speaker 7:  this information? I think what we build with it is going to start
+
+539
+00:33:39,665 --> 00:33:43,605
+Speaker 7:  and end with like with trust, right? So you've gotta
+
+540
+00:33:43,605 --> 00:33:47,525
+Speaker 7:  be able to trust the sort of assistant that you're
+
+541
+00:33:47,605 --> 00:33:51,445
+Speaker 7:  bringing into your home. And so I think, you know, we've got like as broader
+
+542
+00:33:51,465 --> 00:33:55,005
+Speaker 7:  Google and certainly in the context of the home, we definitely have to earn
+
+543
+00:33:55,005 --> 00:33:58,885
+Speaker 7:  that trust. We, we thought so deeply about what it
+
+544
+00:33:58,885 --> 00:34:02,845
+Speaker 7:  meant to bring Gemini into the home, which is why we started with, hey, this
+
+545
+00:34:02,845 --> 00:34:06,685
+Speaker 7:  is going to be a communal experience first because we don't
+
+546
+00:34:06,685 --> 00:34:09,765
+Speaker 7:  want to skirt around the ideas that you might
+
+547
+00:34:10,325 --> 00:34:13,485
+Speaker 7:  accidentally have access. Like my, like my partner might accidentally have
+
+548
+00:34:13,485 --> 00:34:17,245
+Speaker 7:  access to my personal interactions with Gemini and stuff like that. Now I
+
+549
+00:34:17,245 --> 00:34:20,965
+Speaker 7:  can see definitely like us continuing to invest there with the right,
+
+550
+00:34:21,145 --> 00:34:24,445
+Speaker 7:  you know, maybe Jen, to your point with the right sort of sensors and ability
+
+551
+00:34:24,445 --> 00:34:27,445
+Speaker 7:  to authenticate that it's actually a niche alone in the room
+
+552
+00:34:28,035 --> 00:34:31,805
+Speaker 7:  talking to Gemini, then in that case, yes, I, I should have
+
+553
+00:34:31,805 --> 00:34:35,125
+Speaker 7:  access, but if there's other people in the room, I probably don't, right?
+
+554
+00:34:35,235 --> 00:34:39,125
+Speaker 7:  Yeah. I don't want my credit card details or a personal interaction about
+
+555
+00:34:39,475 --> 00:34:43,205
+Speaker 7:  what cough medicine I might have wanted to use last week when I had a sore
+
+556
+00:34:43,205 --> 00:34:46,965
+Speaker 7:  throat to be sort of like displayed out to everyone. So, so I think we we're
+
+557
+00:34:47,205 --> 00:34:50,525
+Speaker 7:  approaching it in a way that we wanna be very thoughtful, especially in a
+
+558
+00:34:50,525 --> 00:34:54,445
+Speaker 7:  communal environment. Like how do you utilize the right set
+
+559
+00:34:54,445 --> 00:34:58,205
+Speaker 7:  of contexts and history about the person and do that in a
+
+560
+00:34:58,205 --> 00:35:01,805
+Speaker 7:  thoughtful way, in a way that sort of preserves trust long term? Because
+
+561
+00:35:01,885 --> 00:35:05,565
+Speaker 7:  I don't think, David, we get to, I, I, I think the, the thing you
+
+562
+00:35:05,565 --> 00:35:09,485
+Speaker 7:  described is definitely a place that we would love to get to, but
+
+563
+00:35:09,485 --> 00:35:13,045
+Speaker 7:  we have to do it methodically and thoughtfully that, that maintains trust
+
+564
+00:35:13,055 --> 00:35:14,365
+Speaker 7:  along that journey the entire way.
+
+565
+00:35:14,525 --> 00:35:18,045
+Speaker 1:  I just think it's interesting because you, you, that's a different problem
+
+566
+00:35:18,045 --> 00:35:21,005
+Speaker 1:  than everybody else has, right? Everybody else has that problem and also
+
+567
+00:35:21,005 --> 00:35:24,965
+Speaker 1:  doesn't know what's in my email. And so I think you're, you're just in this
+
+568
+00:35:25,085 --> 00:35:29,045
+Speaker 1:  position of like, you have to solve the creepy
+
+569
+00:35:29,075 --> 00:35:32,805
+Speaker 1:  problem, not the where is David problem,
+
+570
+00:35:32,975 --> 00:35:36,925
+Speaker 1:  right? Like, knowing where I am is not hard for Google. It's, it just isn't
+
+571
+00:35:37,135 --> 00:35:40,705
+Speaker 1:  hard for Google in a way that is hard for almost every company. You have
+
+572
+00:35:40,705 --> 00:35:43,865
+Speaker 1:  to reflect back to me where I am without freaking me out about it. And I
+
+573
+00:35:43,865 --> 00:35:46,185
+Speaker 1:  think in a lot of ways that might actually be the harder problem to solve.
+
+574
+00:35:46,945 --> 00:35:50,385
+Speaker 7:  I I I think that's true, not just for us though. I think it with any sort
+
+575
+00:35:50,385 --> 00:35:54,185
+Speaker 7:  of like new technology, right? The, not with any new
+
+576
+00:35:54,185 --> 00:35:57,945
+Speaker 7:  technology, but with a lot of new technologies, the line between, between
+
+577
+00:35:57,975 --> 00:36:01,505
+Speaker 7:  cool and creepy can be a very fine line, right? Oh, and it like
+
+578
+00:36:01,605 --> 00:36:03,225
+Speaker 1:  Dances all over the place all the time. Yes.
+
+579
+00:36:03,425 --> 00:36:06,825
+Speaker 7:  Or, or it constantly evolves, right? Yeah. And I think the onus is on us
+
+580
+00:36:06,885 --> 00:36:10,065
+Speaker 7:  as product builders, which to say
+
+581
+00:36:10,865 --> 00:36:14,405
+Speaker 7:  people are comfortable moving the line if they can
+
+582
+00:36:14,475 --> 00:36:18,325
+Speaker 7:  crisply understand what it does for them and whether or
+
+583
+00:36:18,325 --> 00:36:21,885
+Speaker 7:  not it adds, actually adds value to their life. Yeah. And then do they trust
+
+584
+00:36:22,265 --> 00:36:26,045
+Speaker 7:  the person building them and giving them that thing, right? Yeah. So, so
+
+585
+00:36:26,045 --> 00:36:29,045
+Speaker 7:  that's why I think there's, there's two big parts we have to get right, which
+
+586
+00:36:29,045 --> 00:36:32,885
+Speaker 7:  is one, you've gotta enough, like you've gotta deliver enough value
+
+587
+00:36:33,065 --> 00:36:36,965
+Speaker 7:  to the user to their lives that says, okay, this is cool
+
+588
+00:36:36,965 --> 00:36:40,525
+Speaker 7:  enough that I'm willing to, to give you permission to do these things.
+
+589
+00:36:41,585 --> 00:36:45,445
+Speaker 7:  And then do they trust you as sort of an entity or a company
+
+590
+00:36:45,465 --> 00:36:48,965
+Speaker 7:  or a product builder to do that? And so I think if we can, if we can, you
+
+591
+00:36:48,965 --> 00:36:52,805
+Speaker 7:  know, do those two things really well, then I think we
+
+592
+00:36:52,805 --> 00:36:55,085
+Speaker 7:  could actually make people's lives in their home a lot easier.
+
+593
+00:36:55,465 --> 00:36:57,445
+Speaker 1:  All right. That's a good place for us to end, I think.
+
+594
+00:38:00,885 --> 00:38:04,565
+Speaker 8:  big business idea into reality, which Shopify on your side. Sign
+
+595
+00:39:59,465 --> 00:40:03,325
+Speaker 11:  That's linkedin.com/track to post your job for free terms
+
+596
+00:40:03,325 --> 00:40:04,165
+Speaker 11:  and conditions apply.
+
+597
+00:40:07,585 --> 00:40:10,565
+Speaker 1:  All right, we're back. V song is here. Hi, ve
+
+598
+00:40:11,265 --> 00:40:11,485
+Speaker 12:  Hi.
+
+599
+00:40:12,445 --> 00:40:14,645
+Speaker 1:  I mean, fine. We can talk about the glasses. You wanna talk about the glasses?
+
+600
+00:40:14,695 --> 00:40:17,725
+Speaker 1:  Let's talk about the glasses. We're, we're, we're here to talk about Peloton,
+
+601
+00:40:17,905 --> 00:40:21,205
+Speaker 1:  but you can't just show up on camera with me and wearing these glasses and
+
+602
+00:40:21,205 --> 00:40:24,885
+Speaker 1:  we're not gonna talk about it for two minutes. So you, you are wearing
+
+603
+00:40:25,185 --> 00:40:28,965
+Speaker 1:  the, let me hold on. I'm gonna try and get the name right. I, the, the
+
+604
+00:40:29,185 --> 00:40:30,605
+Speaker 1:  Ray band meta display,
+
+605
+00:40:31,455 --> 00:40:32,555
+Speaker 12:  The meta ray band
+
+606
+00:40:32,555 --> 00:40:33,795
+Speaker 1:  Display, the, god damn it. Okay.
+
+607
+00:40:33,995 --> 00:40:34,755
+Speaker 12:  I know whatever
+
+608
+00:40:35,335 --> 00:40:38,475
+Speaker 1:  You're wearing, I know Meta's new smart glasses with a screen. We're gonna
+
+609
+00:40:38,475 --> 00:40:41,875
+Speaker 1:  talk much more about this in a, in a future episode sometime in the next
+
+610
+00:40:41,875 --> 00:40:44,195
+Speaker 1:  couple of weeks when you finish your review, but you've now been wearing
+
+611
+00:40:44,195 --> 00:40:47,675
+Speaker 1:  these things for a little while. Gimme, gimme 60 seconds. How are you feeling
+
+612
+00:40:47,675 --> 00:40:47,995
+Speaker 1:  so far?
+
+613
+00:40:48,675 --> 00:40:52,315
+Speaker 12:  It's very genuine. The hardware is impressive,
+
+614
+00:40:53,095 --> 00:40:56,715
+Speaker 12:  but the software, they really need to get this
+
+615
+00:40:57,275 --> 00:41:00,915
+Speaker 12:  API that they just opened up to third parties going, the
+
+616
+00:41:00,915 --> 00:41:04,835
+Speaker 12:  neural band is surprisingly good. I actually think
+
+617
+00:41:04,835 --> 00:41:07,475
+Speaker 12:  the neural band is kind of the most interesting thing about this.
+
+618
+00:41:07,735 --> 00:41:10,435
+Speaker 1:  That's the thing you, it's like a, you wear it on your wrist and use it to
+
+619
+00:41:10,435 --> 00:41:11,115
+Speaker 1:  control the
+
+620
+00:41:11,215 --> 00:41:14,115
+Speaker 12:  Yes, it's this little guy and you do, oh, it looks like a
+
+621
+00:41:14,115 --> 00:41:15,035
+Speaker 1:  Whoop it, it just looks
+
+622
+00:41:15,035 --> 00:41:17,795
+Speaker 12:  Like a whoop. It does look like a whoop, it just looks, it's very unobtrusive.
+
+623
+00:41:18,715 --> 00:41:21,915
+Speaker 12:  Interesting. It does work if you have to wear another smart watch, which
+
+624
+00:41:22,075 --> 00:41:25,995
+Speaker 12:  I have taken off because it is embargoed, but like it does work if you
+
+625
+00:41:25,995 --> 00:41:28,675
+Speaker 12:  have another smartwatch on there, which I was like, oh, thank God I'm running
+
+626
+00:41:28,675 --> 00:41:32,395
+Speaker 12:  out of body parts. Like I have to test all of these things and yeah, I can't
+
+627
+00:41:32,395 --> 00:41:35,925
+Speaker 12:  just give up real estate on this wrist without, you know,
+
+628
+00:41:36,465 --> 00:41:38,405
+Speaker 12:  so that was a relief to me personally.
+
+629
+00:41:39,995 --> 00:41:43,965
+Speaker 12:  Yeah, it's, it's interesting, I literally had to listen to
+
+630
+00:41:44,245 --> 00:41:48,085
+Speaker 12:  a lecture from my spouse this morning about why they think these look
+
+631
+00:41:48,285 --> 00:41:52,205
+Speaker 12:  terrible on me. So we'll get into that. Maybe
+
+632
+00:41:52,265 --> 00:41:56,085
+Speaker 12:  the style section of my review is just a video of them going off
+
+633
+00:41:56,265 --> 00:41:59,165
+Speaker 12:  for 30 minutes and you can choose to listen to it or not.
+
+634
+00:42:01,315 --> 00:42:05,045
+Speaker 12:  It's, it's, it's a very intriguing product. Do I think
+
+635
+00:42:05,185 --> 00:42:08,045
+Speaker 12:  the rollout was botched? Yes, absolutely. And
+
+636
+00:42:09,645 --> 00:42:12,885
+Speaker 12:  I think people are gonna be talking about it and for good reason. There's
+
+637
+00:42:12,885 --> 00:42:16,365
+Speaker 12:  a lot of meaty stuff to dig into, but is it
+
+638
+00:42:17,095 --> 00:42:20,215
+Speaker 12:  the future? We'll see, we'll see.
+
+639
+00:42:20,685 --> 00:42:24,295
+Speaker 1:  Yeah. Well, we're gonna come back to it. My, my read so far is that
+
+640
+00:42:24,935 --> 00:42:28,825
+Speaker 1:  they look both like vastly better than almost
+
+641
+00:42:29,345 --> 00:42:33,265
+Speaker 1:  anything we've seen and still kind of bad. They're, they're in a like
+
+642
+00:42:34,055 --> 00:42:37,785
+Speaker 1:  uncanny valley kind of situation of like, I look at those glasses And
+
+643
+00:42:38,465 --> 00:42:42,425
+Speaker 1:  I don't clock them as glasses, I clock them as something else. Do you
+
+644
+00:42:42,425 --> 00:42:45,625
+Speaker 1:  know what I mean? But it but you don't look at it like it's not, it's obviously
+
+645
+00:42:45,625 --> 00:42:48,385
+Speaker 1:  not like a vision pro, right? It's not like, oh my God, what is that gadget
+
+646
+00:42:48,385 --> 00:42:50,705
+Speaker 1:  on your face? But it's like you look at those and there's something just
+
+647
+00:42:50,705 --> 00:42:54,265
+Speaker 1:  like slightly wrong with the pair of glasses V is wearing and yeah,
+
+648
+00:42:54,575 --> 00:42:55,385
+Speaker 1:  it's throwing me,
+
+649
+00:42:55,665 --> 00:42:59,105
+Speaker 12:  I think if you, if you look at me in person, like one-on-one like this,
+
+650
+00:42:59,165 --> 00:43:02,945
+Speaker 12:  you might feel that way. But if I, you know, I was walking throughout New York
+
+651
+00:43:02,945 --> 00:43:06,385
+Speaker 12:  City yesterday, commuting to the office, nobody looked at me twice.
+
+652
+00:43:06,785 --> 00:43:09,865
+Speaker 1:  I I believe that. So, which is a huge deal. Yeah. Like that is, that is more
+
+653
+00:43:09,865 --> 00:43:12,425
+Speaker 1:  the bar than almost anything else. Yeah. With, with a lot of these things.
+
+654
+00:43:12,945 --> 00:43:15,345
+Speaker 1:  But all right. That's not what we're here to talk about. No, again, we're
+
+655
+00:43:15,345 --> 00:43:17,905
+Speaker 1:  gonna come back and talk about this because I have, I have a thousand things
+
+656
+00:43:17,945 --> 00:43:20,825
+Speaker 1:  I wanna talk about about these, but that's for another time I wanna talk
+
+657
+00:43:20,825 --> 00:43:24,265
+Speaker 1:  about Peloton because there was a lot of gadget news
+
+658
+00:43:25,055 --> 00:43:29,025
+Speaker 1:  this fall. I, I found this big swing
+
+659
+00:43:29,025 --> 00:43:32,825
+Speaker 1:  from Peloton as interesting as anything else that has come out
+
+660
+00:43:32,845 --> 00:43:36,425
+Speaker 1:  And I just, I just wanna talk through it. So I kind of left
+
+661
+00:43:36,815 --> 00:43:40,745
+Speaker 1:  Peloton behind in my brain as like an interesting company, right? This
+
+662
+00:43:40,745 --> 00:43:44,385
+Speaker 1:  is like, if you rewind five years, the, the pandemic happens.
+
+663
+00:43:44,855 --> 00:43:48,705
+Speaker 1:  Peloton spikes like crazy because lots of people suddenly want and need what
+
+664
+00:43:48,705 --> 00:43:52,585
+Speaker 1:  it provides. Pelotons doing great, it becomes like culturally relevant because
+
+665
+00:43:52,685 --> 00:43:55,905
+Speaker 1:  its instructors start to become famous. So Peloton like has a moment and
+
+666
+00:43:55,905 --> 00:43:58,545
+Speaker 1:  then fades, right? And goes through a bunch of leadership changes and has
+
+667
+00:43:58,545 --> 00:44:02,425
+Speaker 1:  huge hardware issues and pivots and pivots and changes and
+
+668
+00:44:02,425 --> 00:44:05,545
+Speaker 1:  everything. And I just kind of like relegated Peloton to like
+
+669
+00:44:06,465 --> 00:44:09,705
+Speaker 1:  a thing that will probably keep being around for a while but has maybe
+
+670
+00:44:10,805 --> 00:44:13,545
+Speaker 1:  jumped the shark and will never quite get it back.
+
+671
+00:44:14,655 --> 00:44:18,465
+Speaker 1:  Then Peloton just comes out absolutely swinging for the
+
+672
+00:44:18,605 --> 00:44:21,865
+Speaker 1:  fences with a bunch of new stuff and new ideas.
+
+673
+00:44:23,085 --> 00:44:26,505
+Speaker 1:  So just sort of walk me through this like new generation of Peloton stuff
+
+674
+00:44:26,535 --> 00:44:29,025
+Speaker 1:  that just launched before we get into what it all means. Like what, what
+
+675
+00:44:29,025 --> 00:44:29,745
+Speaker 1:  is all of this stuff?
+
+676
+00:44:30,205 --> 00:44:33,985
+Speaker 12:  So basically for the first time in Pelotons history, they have refreshed
+
+677
+00:44:33,995 --> 00:44:37,945
+Speaker 12:  their entire product lineup. So there is an, there are two new bikes,
+
+678
+00:44:38,005 --> 00:44:41,985
+Speaker 12:  two new treadmills and a new rower. And they basically were
+
+679
+00:44:41,985 --> 00:44:45,185
+Speaker 12:  like, they got a little syringe, put a bunch of AI into that syringe and
+
+680
+00:44:45,185 --> 00:44:49,105
+Speaker 12:  injected it into these products. There's something called Peloton iq
+
+681
+00:44:50,925 --> 00:44:54,305
+Speaker 12:  and so the there, oh God, okay, so there's two tiers of products.
+
+682
+00:44:54,695 --> 00:44:58,505
+Speaker 12:  There's the regular bike and the regular treadmill. Those do not
+
+683
+00:44:58,735 --> 00:45:02,705
+Speaker 12:  have a camera in them, but everything else now has a
+
+684
+00:45:02,795 --> 00:45:05,465
+Speaker 12:  handy dandy little swivel camera. You can like plus
+
+685
+00:45:05,465 --> 00:45:08,185
+Speaker 1:  Means camera, right? Is like essentially way I think about
+
+686
+00:45:08,185 --> 00:45:11,505
+Speaker 12:  It Camera. Okay. Yeah. Plus means camera. And this camera is basically like
+
+687
+00:45:11,505 --> 00:45:15,065
+Speaker 12:  if you took the Peloton guide, which is what I would call their first
+
+688
+00:45:15,225 --> 00:45:18,945
+Speaker 12:  bonafide hardware flop, it was a little, it kind of
+
+689
+00:45:19,105 --> 00:45:21,625
+Speaker 12:  reminded me of the Microsoft Connect. You stuck it on your TV and it looked
+
+690
+00:45:21,625 --> 00:45:25,265
+Speaker 12:  like a little webcam and you did strength training exercises with it and
+
+691
+00:45:25,265 --> 00:45:28,785
+Speaker 12:  it would kind of analyze your form, not give you very much feedback. And
+
+692
+00:45:28,785 --> 00:45:32,505
+Speaker 12:  so it was just like, all right, this is a thing. But now they've stuck that
+
+693
+00:45:32,565 --> 00:45:36,185
+Speaker 12:  and they squished it into their existing products and now it does give you
+
+694
+00:45:36,385 --> 00:45:40,065
+Speaker 12:  feedback. The AI will look at you doing strength training exercises and
+
+695
+00:45:40,065 --> 00:45:43,505
+Speaker 12:  be like, Hey girl, I think you need to go up in weights. Or man, your form
+
+696
+00:45:43,525 --> 00:45:46,985
+Speaker 12:  is really bad, so why don't you go down and wait so that you do that exercise
+
+697
+00:45:46,985 --> 00:45:50,865
+Speaker 12:  better. So those are in those devices now all of the devices plus and
+
+698
+00:45:50,895 --> 00:45:54,345
+Speaker 12:  Nonplus have swivel screens. So you can just
+
+699
+00:45:54,735 --> 00:45:58,705
+Speaker 12:  whip that screen around. So if you're not in a tiny space, you can
+
+700
+00:45:58,705 --> 00:46:01,985
+Speaker 12:  just like fold out the screen and do your strength exercises, your yoga
+
+701
+00:46:02,345 --> 00:46:05,945
+Speaker 12:  exercises, oozy, whaty, whatever. The plus
+
+702
+00:46:05,945 --> 00:46:09,705
+Speaker 12:  models, again, sorry to jump around, but the plus models also now have a
+
+703
+00:46:09,705 --> 00:46:13,505
+Speaker 12:  fan in them because Peloton fans are like, man, it sure does get hot
+
+704
+00:46:13,505 --> 00:46:14,785
+Speaker 12:  when you're doing cardio. Like
+
+705
+00:46:14,825 --> 00:46:18,665
+Speaker 1:  A fan for your face. Yes, I hear, I hear fan in like a gadget context. I'm
+
+706
+00:46:18,665 --> 00:46:21,305
+Speaker 1:  like, oh, it's inside to keep the thing from overheating. It's to keep you
+
+707
+00:46:21,305 --> 00:46:22,025
+Speaker 1:  from overheating.
+
+708
+00:46:22,495 --> 00:46:25,625
+Speaker 12:  It's to keep you from overheating. Yeah. It's like on top of the display
+
+709
+00:46:25,625 --> 00:46:29,225
+Speaker 12:  there's like this, this cam that where the camera's also built in,
+
+710
+00:46:29,375 --> 00:46:32,985
+Speaker 12:  like there's just this fan, it's adjustable speed.
+
+711
+00:46:33,205 --> 00:46:37,105
+Speaker 12:  So when you're working out you, you can cool down,
+
+712
+00:46:37,105 --> 00:46:40,745
+Speaker 12:  there's a phone tray. Now the bikes have a sier
+
+713
+00:46:41,015 --> 00:46:44,345
+Speaker 12:  seat, so it's more cushy for your tushy, which is what I wanted to write
+
+714
+00:46:44,345 --> 00:46:45,945
+Speaker 12:  in my hands on. But I was like, that's a little much,
+
+715
+00:46:45,945 --> 00:46:48,865
+Speaker 1:  That's a headline. I don't know, I don't, we missed opportunity with the
+
+716
+00:46:48,985 --> 00:46:49,105
+Speaker 1:  headline
+
+717
+00:46:49,125 --> 00:46:52,545
+Speaker 12:  Missed. Yeah. So you know, they, they've done a bunch of hardware updates.
+
+718
+00:46:52,565 --> 00:46:56,345
+Speaker 12:  Oh, Sonos had a hand with the new speakers. The plus models
+
+719
+00:46:56,345 --> 00:46:59,945
+Speaker 12:  have a a wolfer now. So when the base drops,
+
+720
+00:47:00,435 --> 00:47:04,305
+Speaker 12:  Sonos has done the tuning and the equalizing for those. So I guess to
+
+721
+00:47:04,305 --> 00:47:07,465
+Speaker 12:  ensure that the base drop really hits when you're in your workout.
+
+722
+00:47:08,055 --> 00:47:10,905
+Speaker 12:  Sure. The entire interface has been changed around,
+
+723
+00:47:12,085 --> 00:47:15,825
+Speaker 12:  you know, you can better integrate with your third party devices and
+
+724
+00:47:16,425 --> 00:47:20,385
+Speaker 12:  services so that you can import all of your exercise data and the AI
+
+725
+00:47:20,385 --> 00:47:24,185
+Speaker 12:  will be like, hmm, let me give you insights. So
+
+726
+00:47:24,935 --> 00:47:28,825
+Speaker 12:  it's, it's a lot. It's a, it's a pretty much a total revamp of
+
+727
+00:47:28,845 --> 00:47:31,085
+Speaker 12:  the everything. Yeah. From
+
+728
+00:47:31,165 --> 00:47:34,975
+Speaker 1:  A pure hardware perspective there. Do you look at that and
+
+729
+00:47:34,995 --> 00:47:38,855
+Speaker 1:  say, okay, Peloton is like trying hard to get
+
+730
+00:47:38,955 --> 00:47:42,595
+Speaker 1:  all the people who bought a bike eight years ago
+
+731
+00:47:42,775 --> 00:47:46,675
+Speaker 1:  or a treadmill five years ago and trying to get those people to buy
+
+732
+00:47:46,915 --> 00:47:50,235
+Speaker 1:  a new one or is this like a swing at people who have never bought a Peloton
+
+733
+00:47:50,235 --> 00:47:50,475
+Speaker 1:  before?
+
+734
+00:47:51,035 --> 00:47:54,475
+Speaker 12:  I think it's both. Okay. I definitely, it
+
+735
+00:47:54,475 --> 00:47:57,355
+Speaker 12:  confuses me a little bit though because you would expect that if they want
+
+736
+00:47:57,355 --> 00:48:01,235
+Speaker 12:  their existing customers to upgrade that there would be
+
+737
+00:48:01,235 --> 00:48:04,715
+Speaker 12:  some sort of trade-in program. But from what I've seen, sure. And from what
+
+738
+00:48:05,945 --> 00:48:09,195
+Speaker 12:  Peloton diehards have been DMing me, that does not look to be the case.
+
+739
+00:48:10,895 --> 00:48:14,715
+Speaker 12:  You can't just trade in your bike plus and get a new bike plus,
+
+740
+00:48:14,715 --> 00:48:18,435
+Speaker 12:  which I, that's a bummer. Think is, that's a bummer. Yeah. So
+
+741
+00:48:18,575 --> 00:48:22,435
+Speaker 12:  that's kind of surprising I think because, you know, is Peloton,
+
+742
+00:48:22,435 --> 00:48:24,075
+Speaker 12:  these do not come cheap.
+
+743
+00:48:25,735 --> 00:48:29,635
+Speaker 12:  So that's strange. But I really feel, and like I went to
+
+744
+00:48:29,635 --> 00:48:33,075
+Speaker 12:  this little keynote event that they had in New York City same day as the
+
+745
+00:48:33,075 --> 00:48:36,835
+Speaker 12:  Amazon event. So we're a lot of really tired tech journalists at this event.
+
+746
+00:48:38,295 --> 00:48:42,075
+Speaker 12:  But you know, they were saying this is a new era for Peloton.
+
+747
+00:48:42,265 --> 00:48:46,235
+Speaker 12:  This is gonna bust everything wide open. And you
+
+748
+00:48:46,235 --> 00:48:49,795
+Speaker 12:  know, I am a fitness AI
+
+749
+00:48:50,685 --> 00:48:54,035
+Speaker 12:  hater, I'm just gonna say it, I'm a hater. Sure. I've tested, I've tested
+
+750
+00:48:54,135 --> 00:48:58,035
+Speaker 12:  the whoops ai. Whereas ai, all of these AI Garmin
+
+751
+00:48:58,415 --> 00:49:01,635
+Speaker 12:  Strava fucking sucks. It's
+
+752
+00:49:02,755 --> 00:49:06,035
+Speaker 12:  regurgitated book reports. Yes. They're not
+
+753
+00:49:06,395 --> 00:49:09,675
+Speaker 12:  particularly useful. The only ones that I've been
+
+754
+00:49:10,135 --> 00:49:14,035
+Speaker 12:  mildly intrigued by are what Google's working on and is gonna be rolling
+
+755
+00:49:14,055 --> 00:49:17,955
+Speaker 12:  out sometime later this month for the for on Fitbit,
+
+756
+00:49:17,955 --> 00:49:21,395
+Speaker 12:  which is the AI coach that they have on there. And Pelotons is
+
+757
+00:49:21,395 --> 00:49:24,755
+Speaker 12:  surprisingly like, I got to see a demo of a fictional
+
+758
+00:49:25,025 --> 00:49:28,555
+Speaker 12:  Peloton user named Amy and like the insights that she was getting from
+
+759
+00:49:29,265 --> 00:49:32,375
+Speaker 12:  Peloton IQ And I was like, okay, maybe
+
+760
+00:49:33,445 --> 00:49:36,475
+Speaker 12:  we'll see. 'cause you know, demos are such, they're
+
+761
+00:49:36,965 --> 00:49:40,795
+Speaker 12:  guardrails so you can't really get a real, I mean I got a demo
+
+762
+00:49:40,795 --> 00:49:43,835
+Speaker 12:  of these glasses And I was like, whoa. And now that I'm using them in real
+
+763
+00:49:43,835 --> 00:49:47,355
+Speaker 12:  life, I'm like, ah, now I find some problems and some issues. So,
+
+764
+00:49:48,015 --> 00:49:51,955
+Speaker 12:  you know, I saw the the demo And I was like, okay, these are
+
+765
+00:49:52,015 --> 00:49:55,995
+Speaker 12:  the types of insights that athletes would want. Like if you're doing a strengths
+
+766
+00:49:56,115 --> 00:50:00,075
+Speaker 12:  training program and you're new to strengths training and you're
+
+767
+00:50:00,075 --> 00:50:03,115
+Speaker 12:  not really sure when you should go up in weights, this will tell you like
+
+768
+00:50:03,135 --> 00:50:06,555
+Speaker 12:  Hey, you've been doing chest presses at 25 pounds for two weeks
+
+769
+00:50:06,985 --> 00:50:10,795
+Speaker 12:  next week you should really be either upping the reps or upping
+
+770
+00:50:11,065 --> 00:50:14,795
+Speaker 12:  your weight just so that you maintain progressive overload that's
+
+771
+00:50:14,905 --> 00:50:18,635
+Speaker 12:  genuinely useful. Versus an AI going like, you ran 35
+
+772
+00:50:18,645 --> 00:50:22,395
+Speaker 12:  miles and it was slightly slower than your average. Jesus
+
+773
+00:50:22,395 --> 00:50:25,835
+Speaker 12:  Christ. Thank you. I I can also read my own metrics and come to that conclusion.
+
+774
+00:50:25,965 --> 00:50:26,315
+Speaker 12:  Right.
+
+775
+00:50:26,315 --> 00:50:30,005
+Speaker 1:  Well, but that's the thing. So this, this is, I think the trick and the
+
+776
+00:50:30,005 --> 00:50:33,725
+Speaker 1:  challenge we've run into with a lot of these things is that what they
+
+777
+00:50:33,725 --> 00:50:37,005
+Speaker 1:  give you is this incredibly basic feedback
+
+778
+00:50:37,625 --> 00:50:41,525
+Speaker 1:  on an incredibly advanced device, right? Yes. And I think like
+
+779
+00:50:41,525 --> 00:50:44,165
+Speaker 1:  the stuff with Peloton for me, and, and the thing I've been trying to figure
+
+780
+00:50:44,165 --> 00:50:48,085
+Speaker 1:  out for years is whether Peloton is eventually going
+
+781
+00:50:48,145 --> 00:50:52,005
+Speaker 1:  to go like way down market and start to be like, okay, actually
+
+782
+00:50:52,005 --> 00:50:55,525
+Speaker 1:  the bike is free and all you have to pay for is a subscription. And that,
+
+783
+00:50:55,545 --> 00:50:59,125
+Speaker 1:  that's how Peloton gets like a whole new type of person
+
+784
+00:50:59,545 --> 00:51:03,125
+Speaker 1:  to be a Peloton person. Or if it's gonna go the other way and do the, the
+
+785
+00:51:03,125 --> 00:51:07,085
+Speaker 1:  sort of like, you know, go after the, the Garmin people
+
+786
+00:51:07,225 --> 00:51:11,085
+Speaker 1:  in the world who are like, no, I'm serious about this And I want tools
+
+787
+00:51:11,085 --> 00:51:14,405
+Speaker 1:  that help me get more serious. And that gets more expensive. It does more
+
+788
+00:51:14,405 --> 00:51:18,365
+Speaker 1:  stuff. And so my, my read of a lot of this announcement is it is like ramping
+
+789
+00:51:18,365 --> 00:51:22,325
+Speaker 1:  up the seriousness for people who are already serious, right? And these
+
+790
+00:51:22,325 --> 00:51:26,205
+Speaker 1:  things got more expensive. They, the, the subscription went up,
+
+791
+00:51:26,205 --> 00:51:29,885
+Speaker 1:  there's more stuff. And so for me it's like you, you got this demo of
+
+792
+00:51:29,885 --> 00:51:33,405
+Speaker 1:  someone basically like doing bad form. I think you said they were doing overhead
+
+793
+00:51:33,405 --> 00:51:37,325
+Speaker 1:  dumbbell presses. And it will, like, if you do comically bad
+
+794
+00:51:37,325 --> 00:51:40,605
+Speaker 1:  form, it will, it will tell you you're doing a bad job and do better
+
+795
+00:51:41,755 --> 00:51:45,485
+Speaker 1:  fine. That, that to me is like the equivalent of an
+
+796
+00:51:45,825 --> 00:51:49,605
+Speaker 1:  AR device that looks at a bag of nuts that says nuts in big
+
+797
+00:51:49,605 --> 00:51:52,685
+Speaker 1:  letters and can tell me it's a bag of nuts. Like that's not nothing, but
+
+798
+00:51:52,685 --> 00:51:55,965
+Speaker 1:  it's not much. What I need is the stuff that is
+
+799
+00:51:56,385 --> 00:52:00,205
+Speaker 1:  vastly more nuanced and subtle and it's like, you're doing
+
+800
+00:52:00,325 --> 00:52:03,525
+Speaker 1:  a pretty good job. Here's how you could be doing a really good job. Like
+
+801
+00:52:03,525 --> 00:52:06,685
+Speaker 1:  that's what the people who are buying these things want and need, and that's
+
+802
+00:52:06,685 --> 00:52:10,445
+Speaker 1:  the level that they're at. And I think it's just a much harder
+
+803
+00:52:10,445 --> 00:52:14,285
+Speaker 1:  technology problem. And so I think, I think you're, you're right to be skeptical
+
+804
+00:52:14,285 --> 00:52:17,925
+Speaker 1:  even of the demos because it's like, it's one thing to see me going like
+
+805
+00:52:17,925 --> 00:52:20,645
+Speaker 1:  this and be like, that's not right. But if I'm like, almost right,
+
+806
+00:52:21,725 --> 00:52:25,185
+Speaker 1:  and it tells me how to do it exactly right. Like that's the actual stuff
+
+807
+00:52:25,685 --> 00:52:27,145
+Speaker 1:  and that's a way harder thing to do.
+
+808
+00:52:27,735 --> 00:52:30,825
+Speaker 12:  It's very hard. And it's like that's, it's, it's hard even if you have a
+
+809
+00:52:30,825 --> 00:52:34,465
+Speaker 12:  in-person personal trainer. So that's, it's a right,
+
+810
+00:52:34,465 --> 00:52:36,425
+Speaker 1:  That's what people pay a lot of money for. That's
+
+811
+00:52:36,425 --> 00:52:40,305
+Speaker 12:  What people pay a lot of money for. It's, it's an access thing because it's
+
+812
+00:52:40,305 --> 00:52:44,025
+Speaker 12:  so, it is so much easier to do fitness if it's in your home that that's
+
+813
+00:52:44,025 --> 00:52:47,745
+Speaker 12:  just true if you are a beginner, I can see this
+
+814
+00:52:47,745 --> 00:52:50,705
+Speaker 12:  being helpful in a lot of different ways. But again, the people who would
+
+815
+00:52:50,705 --> 00:52:54,185
+Speaker 12:  be most interested in those features are not the beginners. So
+
+816
+00:52:54,495 --> 00:52:58,265
+Speaker 12:  it's, it's, they call it the cross training series because
+
+817
+00:52:58,445 --> 00:53:01,785
+Speaker 12:  on the one hand you have your cardio device and your preferred method of
+
+818
+00:53:01,845 --> 00:53:05,705
+Speaker 12:  indoor cardio. And so now you can cross train and do other things and
+
+819
+00:53:06,205 --> 00:53:09,505
+Speaker 12:  get this form feedback, which, you know, form feedback.
+
+820
+00:53:10,145 --> 00:53:11,265
+Speaker 12:  I will say of all the
+
+821
+00:53:12,985 --> 00:53:16,785
+Speaker 12:  exercise modality strength training is the thing that stumps all
+
+822
+00:53:16,785 --> 00:53:20,705
+Speaker 12:  the technology companies the most. It's really like Ladder is
+
+823
+00:53:20,705 --> 00:53:24,265
+Speaker 12:  the only strength training app that I really resonated with. And did
+
+824
+00:53:24,295 --> 00:53:27,805
+Speaker 12:  Peloton steal everything for its strength training app from Ladder?
+
+825
+00:53:28,155 --> 00:53:31,045
+Speaker 12:  Yeah. Well, I don't know. Go to Reddit. People are having that conversation
+
+826
+00:53:31,045 --> 00:53:31,245
+Speaker 12:  there.
+
+827
+00:53:31,435 --> 00:53:34,845
+Speaker 1:  Yeah, the general vibe on Pelotons strength app is, oh, they just did Ladder.
+
+828
+00:53:35,525 --> 00:53:37,965
+Speaker 1:  That's which is not Yeah. Not the wrong
+
+829
+00:53:38,225 --> 00:53:39,845
+Speaker 12:  Choice. No ladder's great
+
+830
+00:53:39,905 --> 00:53:40,685
+Speaker 1:  Choice. Yeah.
+
+831
+00:53:41,065 --> 00:53:44,965
+Speaker 12:  Ladder actually has helped me get into lifting a little bit more consistently
+
+832
+00:53:45,075 --> 00:53:49,045
+Speaker 12:  than previous iterations have. That's great. But you
+
+833
+00:53:49,045 --> 00:53:52,485
+Speaker 12:  know, exercise is just such a weird thing because it's individual.
+
+834
+00:53:53,695 --> 00:53:56,625
+Speaker 12:  What works for one person is absolutely not gonna work for another person.
+
+835
+00:53:56,625 --> 00:54:00,225
+Speaker 12:  There's no blanket prescription that you can give people. So, but that's
+
+836
+00:54:00,225 --> 00:54:00,465
+Speaker 12:  so funny.
+
+837
+00:54:00,465 --> 00:54:04,385
+Speaker 1:  That is like, that exact reason is why it makes perfect sense to me
+
+838
+00:54:04,385 --> 00:54:07,705
+Speaker 1:  that this is a thing Peloton is doing, right? Because the, the first move
+
+839
+00:54:07,725 --> 00:54:11,465
+Speaker 1:  is like, okay, how do we take the experience of a class and bring it home?
+
+840
+00:54:11,465 --> 00:54:14,345
+Speaker 1:  And that worked super well, But it does have limitations, right? Whereas
+
+841
+00:54:14,345 --> 00:54:17,985
+Speaker 1:  it's like that by definition can't be responsive to me
+
+842
+00:54:18,125 --> 00:54:21,985
+Speaker 1:  and what I need. And especially with strength training, that is really important,
+
+843
+00:54:21,985 --> 00:54:25,585
+Speaker 1:  right? Like I always think about, I, I would do the, the like Peloton
+
+844
+00:54:25,735 --> 00:54:29,665
+Speaker 1:  yoga stuff on the ground next to the Peloton, like,
+
+845
+00:54:30,125 --> 00:54:33,865
+Speaker 1:  And I, I would fall behind and just fall apart, right? Because like I suck
+
+846
+00:54:33,865 --> 00:54:37,745
+Speaker 1:  at yoga, they're good at it and they're doing this class for people who
+
+847
+00:54:37,745 --> 00:54:41,385
+Speaker 1:  are good at it. And like what I need is something that actually is
+
+848
+00:54:41,705 --> 00:54:44,345
+Speaker 1:  engaging with me in some sort of meaningful way. And so it's like, of course
+
+849
+00:54:44,345 --> 00:54:48,185
+Speaker 1:  that's the pitch here, right? Like I can absolutely see why
+
+850
+00:54:48,215 --> 00:54:51,065
+Speaker 1:  Peloton is after this. And there are a bunch of reasons. It actually seems
+
+851
+00:54:51,065 --> 00:54:54,785
+Speaker 1:  like if anybody can do it, well it ought to be Peloton. It does have access
+
+852
+00:54:54,785 --> 00:54:57,505
+Speaker 1:  to the hardware, all the stuff you're talking about. Like I think the camera
+
+853
+00:54:57,725 --> 00:55:01,185
+Speaker 1:  is really fascinating. The swivel screen is really interesting. There's just,
+
+854
+00:55:01,565 --> 00:55:05,465
+Speaker 1:  it has all this historical data on people and me specifically, but
+
+855
+00:55:05,465 --> 00:55:09,025
+Speaker 1:  also just like people in the aggregate. Like there are a lot of reasons
+
+856
+00:55:10,125 --> 00:55:13,945
+Speaker 1:  if someone can pull this off that it might be Peloton. Am I crazy? Like am
+
+857
+00:55:13,985 --> 00:55:15,425
+Speaker 1:  I giving Peloton way too much credit here?
+
+858
+00:55:15,725 --> 00:55:19,305
+Speaker 12:  No, no. Like I talked to their chief product officer, Nick
+
+859
+00:55:19,305 --> 00:55:22,745
+Speaker 12:  Caldwell at the event and you know, he said a couple of really interesting
+
+860
+00:55:22,745 --> 00:55:26,345
+Speaker 12:  things. Just, you know, their AI is built on chat,
+
+861
+00:55:26,465 --> 00:55:30,225
+Speaker 12:  GPT and llama in part, but also it's trained on their
+
+862
+00:55:30,545 --> 00:55:34,305
+Speaker 12:  thousands of classes, like a lot of thousands of data points. And
+
+863
+00:55:34,605 --> 00:55:38,305
+Speaker 12:  the AI is integrated in ways beyond just what, how you're
+
+864
+00:55:38,415 --> 00:55:42,345
+Speaker 12:  like interacting with it. Because it's also in the sense of how they
+
+865
+00:55:42,345 --> 00:55:46,185
+Speaker 12:  surface classes to you. So based on what you need, they're like,
+
+866
+00:55:46,185 --> 00:55:49,505
+Speaker 12:  well how do we help you find a class that actually helps you in our library
+
+867
+00:55:49,645 --> 00:55:53,065
+Speaker 12:  of thousands of classes? That's a pain point too, because it's great that
+
+868
+00:55:53,065 --> 00:55:56,545
+Speaker 12:  they have thousands of classes. But if, you know pe, if you're on Peloton
+
+869
+00:55:56,545 --> 00:55:59,225
+Speaker 12:  and you're just trying to find something that'll work for you, a instructor
+
+870
+00:55:59,225 --> 00:56:02,025
+Speaker 12:  that you like, because instructor personalities can be,
+
+871
+00:56:03,005 --> 00:56:06,545
+Speaker 12:  you know, not every instructor's you're gonna jive with. I really can't
+
+872
+00:56:06,545 --> 00:56:09,545
+Speaker 12:  stand the ones that are just like, Hey girl, you got this and, and all that.
+
+873
+00:56:09,545 --> 00:56:12,745
+Speaker 12:  And I'm just like, no, I'm suffering. Please don't try and encourage me.
+
+874
+00:56:12,885 --> 00:56:16,825
+Speaker 12:  But so, you know, like the AI is also supposed to help you surface a
+
+875
+00:56:16,825 --> 00:56:20,585
+Speaker 12:  class that you might actually resonate with and might, you know,
+
+876
+00:56:20,585 --> 00:56:24,525
+Speaker 12:  there's a new thing that pops up that tells you if you current
+
+877
+00:56:24,785 --> 00:56:28,485
+Speaker 12:  effort levels are matched with that class. Like this class might be harder
+
+878
+00:56:28,545 --> 00:56:32,445
+Speaker 12:  for you than normal is, is what'll pop up when you're browsing.
+
+879
+00:56:32,585 --> 00:56:35,725
+Speaker 12:  So there's that. I actually think that's way more interesting than the form
+
+880
+00:56:35,725 --> 00:56:39,045
+Speaker 12:  correction, but that's just me. Fair. There's new stuff where you can generate
+
+881
+00:56:39,075 --> 00:56:43,005
+Speaker 12:  your own workouts that are sans instructors that you can take
+
+882
+00:56:43,005 --> 00:56:46,645
+Speaker 12:  at your own pace and oh, I like that and moves that you want. So like
+
+883
+00:56:46,645 --> 00:56:49,485
+Speaker 12:  they're doing a bunch of different things to appeal to a bunch of different
+
+884
+00:56:49,485 --> 00:56:53,305
+Speaker 12:  people. So they're kind of very thoughtful
+
+885
+00:56:53,445 --> 00:56:57,305
+Speaker 12:  and smart about how they're going about it in a way that it doesn't feel
+
+886
+00:56:57,435 --> 00:57:01,385
+Speaker 12:  fully just like, here's ai, let's staple it onto the product. Which is
+
+887
+00:57:01,385 --> 00:57:05,225
+Speaker 12:  what most fitness AI has felt like. So I do think if anyone's
+
+888
+00:57:05,225 --> 00:57:08,785
+Speaker 12:  gonna do it, it is probably them because they are
+
+889
+00:57:08,975 --> 00:57:12,905
+Speaker 12:  very clued in to their diehard fan base. Like a lot of the
+
+890
+00:57:12,905 --> 00:57:16,265
+Speaker 12:  new hardware upgrades are things that people have been yelling at them to
+
+891
+00:57:16,685 --> 00:57:20,585
+Speaker 12:  fix for a long time. So they are listening to their, to their
+
+892
+00:57:20,585 --> 00:57:21,865
+Speaker 12:  core constituency.
+
+893
+00:57:22,165 --> 00:57:25,225
+Speaker 1:  Do you think their core constituency was also like spending a lot of time
+
+894
+00:57:25,225 --> 00:57:28,585
+Speaker 1:  saying, God, I wish this was all way more expensive. You know, do you feel
+
+895
+00:57:28,585 --> 00:57:31,545
+Speaker 1:  like that was a bunch of Peloton people being like, you don't have enough
+
+896
+00:57:31,545 --> 00:57:33,625
+Speaker 1:  of my money. Do you want more of my money? Peloton.
+
+897
+00:57:33,725 --> 00:57:37,305
+Speaker 12:  So I find Peloton diehard like a
+
+898
+00:57:37,585 --> 00:57:41,505
+Speaker 12:  fascinating group of people. So, you know, I know RIP
+
+899
+00:57:41,505 --> 00:57:44,985
+Speaker 12:  Jane Goodall, but I consider myself the Jane Goodall of Peloton
+
+900
+00:57:45,185 --> 00:57:48,385
+Speaker 12:  diehards. I love this for like, I spent some time, I spent some time just
+
+901
+00:57:48,385 --> 00:57:51,625
+Speaker 12:  in like their official groups and on Reddit just reading what they have
+
+902
+00:57:51,625 --> 00:57:55,585
+Speaker 12:  to say about stuff. Because I did a feature last year where I talked to
+
+903
+00:57:55,585 --> 00:57:59,305
+Speaker 12:  like a dozen Peloton diehards and you know what, the vast
+
+904
+00:57:59,585 --> 00:58:02,945
+Speaker 12:  majority of them told me that the hardware was
+
+905
+00:58:03,955 --> 00:58:07,395
+Speaker 12:  integral to their experienceing. And I was just shocked by that because
+
+906
+00:58:07,465 --> 00:58:11,315
+Speaker 12:  most people I talk to are like, oh my God, it's so expensive. Why not
+
+907
+00:58:11,315 --> 00:58:14,835
+Speaker 12:  just buy a $500 version and with a tablet holder,
+
+908
+00:58:15,005 --> 00:58:16,555
+Speaker 12:  right? Bad a bang bad a boom. Well
+
+909
+00:58:16,555 --> 00:58:20,075
+Speaker 1:  There was, there was a really sort of obvious future for Peloton after this
+
+910
+00:58:20,075 --> 00:58:23,355
+Speaker 1:  like post pandemic slump that was like, stop being a hardware company.
+
+911
+00:58:24,055 --> 00:58:27,955
+Speaker 1:  You have a software and you like you're, you're a media company. Like
+
+912
+00:58:27,955 --> 00:58:31,915
+Speaker 1:  go be an exercise class company and let me run that on any
+
+913
+00:58:32,075 --> 00:58:35,115
+Speaker 1:  treadmill that exists. Like make a, make an API that plugs into every other
+
+914
+00:58:35,275 --> 00:58:38,835
+Speaker 1:  treadmill, go to the gym. Like the, it becomes like a
+
+915
+00:58:39,395 --> 00:58:42,675
+Speaker 1:  exercise as a service company. And I have actually been surprised to not
+
+916
+00:58:42,975 --> 00:58:46,515
+Speaker 1:  see Peloton go more in that direction. But it sounds like that's just because
+
+917
+00:58:46,535 --> 00:58:49,555
+Speaker 1:  I'm not talking to enough Peloton people that maybe the hardware there's
+
+918
+00:58:49,615 --> 00:58:49,835
+Speaker 1:  is
+
+919
+00:58:49,835 --> 00:58:53,075
+Speaker 12:  More the thing's a specific there. So there's like grades of Peloton people,
+
+920
+00:58:53,075 --> 00:58:57,035
+Speaker 12:  there's like the people who are like, I've heard of it. Sure. That's the
+
+921
+00:58:57,035 --> 00:59:00,395
+Speaker 12:  one where the guy died in sex in the city. And you're like, yes. That, yes.
+
+922
+00:59:00,535 --> 00:59:04,275
+Speaker 12:  So that's that level of Peloton awareness. And there's the people who, who
+
+923
+00:59:04,275 --> 00:59:07,115
+Speaker 12:  are like the spouses of Peloton diehards who are just like, yeah,
+
+924
+00:59:08,015 --> 00:59:11,875
+Speaker 12:  person I live with, they do Peloton And I
+
+925
+00:59:11,875 --> 00:59:15,395
+Speaker 12:  don't get it, but sometimes I use their equipment and yeah, I guess it's
+
+926
+00:59:15,395 --> 00:59:19,155
+Speaker 12:  nice. And then you have the Peloton diehards and like they are a
+
+927
+00:59:19,155 --> 00:59:23,085
+Speaker 12:  unique group of people. I find them fascinating and you know,
+
+928
+00:59:23,085 --> 00:59:26,565
+Speaker 12:  when I talk to them, they're like, they're talking in such tones where
+
+929
+00:59:27,285 --> 00:59:31,045
+Speaker 12:  I don't wanna call them culty, but it's not, not
+
+930
+00:59:31,135 --> 00:59:34,565
+Speaker 12:  culty where they're like, and you know, they also will
+
+931
+00:59:35,045 --> 00:59:37,685
+Speaker 12:  positively call themselves cult members. So I'm not trying to be derogative
+
+932
+00:59:37,685 --> 00:59:40,285
+Speaker 12:  here, but they are like,
+
+933
+00:59:41,955 --> 00:59:45,445
+Speaker 12:  Jess King helped me get through a really tough period of my life. Mm. And
+
+934
+00:59:45,505 --> 00:59:49,485
+Speaker 12:  I'm just like, okay, cool. Yes, you who,
+
+935
+00:59:50,025 --> 00:59:53,045
+Speaker 12:  who are the instructors you like? And it's very interesting to see who they
+
+936
+00:59:53,045 --> 00:59:56,685
+Speaker 12:  pick and why and how it relates to their personality. And those people
+
+937
+00:59:57,705 --> 01:00:01,605
+Speaker 12:  for sure are always like, yeah, I'm thinking about how I can upgrade
+
+938
+01:00:02,225 --> 01:00:06,205
+Speaker 12:  and it doesn't matter to me how much it costs because it's just so
+
+939
+01:00:06,435 --> 01:00:10,165
+Speaker 12:  high quality. And so, you know, to us Normies
+
+940
+01:00:10,195 --> 01:00:14,085
+Speaker 12:  just looking at them going, you're really gonna pay $6,700
+
+941
+01:00:14,305 --> 01:00:18,085
+Speaker 12:  for a fucking treadmill to them, they're just like, this
+
+942
+01:00:18,515 --> 01:00:22,045
+Speaker 12:  tool fits into my life, right? It is my life.
+
+943
+01:00:22,305 --> 01:00:25,965
+Speaker 12:  And I don't see this as a ridiculous cost because
+
+944
+01:00:26,285 --> 01:00:30,245
+Speaker 12:  I use this treadmill every day and you know,
+
+945
+01:00:30,395 --> 01:00:34,325
+Speaker 12:  it's, my life has changed this, this, this thing.
+
+946
+01:00:34,445 --> 01:00:38,365
+Speaker 12:  I used to be depressed and sad and now look at me, I'm running 46
+
+947
+01:00:38,765 --> 01:00:41,605
+Speaker 12:  marathons and I'm like, that's just a different kind of depressed and sad
+
+948
+01:00:41,665 --> 01:00:42,565
+Speaker 12:  to me personally.
+
+949
+01:00:44,825 --> 01:00:46,165
+Speaker 12:  No, I love that. For you it's
+
+950
+01:00:46,165 --> 01:00:47,645
+Speaker 1:  Physically healthier, so go for it. Yeah,
+
+951
+01:00:47,645 --> 01:00:51,565
+Speaker 12:  It's physically healthier. I am concerned because marathons
+
+952
+01:00:51,565 --> 01:00:55,365
+Speaker 12:  are so tired. I know, I have talked to people who have trained for whole
+
+953
+01:00:55,765 --> 01:00:59,405
+Speaker 12:  marathons on a treadmill, on a Peloton treadmill and I'm like, how
+
+954
+01:00:59,675 --> 01:01:03,045
+Speaker 12:  whoa, I can't do two more than three miles on a treadmill. 'cause I lose
+
+955
+01:01:03,065 --> 01:01:06,645
+Speaker 12:  my mind. It's so boring. Yeah, I can do, I can run hours
+
+956
+01:01:06,715 --> 01:01:10,525
+Speaker 12:  outside. I love that. But like the, the treadmill three hours of
+
+957
+01:01:10,525 --> 01:01:14,405
+Speaker 12:  running, I'm like, how? And you know, one of the people
+
+958
+01:01:14,565 --> 01:01:18,445
+Speaker 12:  I interviewed, she was just like this bubbly, enthusiastic,
+
+959
+01:01:18,445 --> 01:01:22,205
+Speaker 12:  lovely lady and she was like, yeah, when I ran my marathon,
+
+960
+01:01:22,325 --> 01:01:25,885
+Speaker 12:  I had the Peloton app and the outdoor classes
+
+961
+01:01:26,035 --> 01:01:28,805
+Speaker 12:  just going on on a loop. And that's what got me through my marathon outdoors.
+
+962
+01:01:28,805 --> 01:01:32,125
+Speaker 12:  And I was like, you brought Peloton to S Marathon. Holy crap.
+
+963
+01:01:32,355 --> 01:01:36,165
+Speaker 1:  That is such a telling thing in so many directions that that
+
+964
+01:01:36,165 --> 01:01:40,005
+Speaker 1:  is the response. That's so interesting. So, okay, so that must mean you
+
+965
+01:01:40,005 --> 01:01:43,845
+Speaker 1:  look at these prices. 'cause like I look at these prices and see them
+
+966
+01:01:43,845 --> 01:01:47,645
+Speaker 1:  as sort of shocking. Like Travis, our producer went
+
+967
+01:01:47,645 --> 01:01:51,525
+Speaker 1:  through and did the shockingly difficult work of figuring out
+
+968
+01:01:51,525 --> 01:01:55,485
+Speaker 1:  how these prices have changed over time and it's kind of nuts. So like,
+
+969
+01:01:55,485 --> 01:01:58,525
+Speaker 1:  just to give you one example, the the Tread Plus, which is the, the like
+
+970
+01:01:58,525 --> 01:02:01,765
+Speaker 1:  high end treadmill launched in 2018 and it was
+
+971
+01:02:01,765 --> 01:02:05,605
+Speaker 1:  $4,295, which was a ton. And we talked a lot
+
+972
+01:02:05,605 --> 01:02:09,405
+Speaker 1:  about how expensive it was. And then in 2023 it jumped to
+
+973
+01:02:09,405 --> 01:02:13,195
+Speaker 1:  $5,995, which is more just in case
+
+974
+01:02:13,195 --> 01:02:15,635
+Speaker 1:  you're wondering and then now is
+
+975
+01:02:15,685 --> 01:02:19,645
+Speaker 1:  $6,695. And that is, that is just what
+
+976
+01:02:19,645 --> 01:02:23,485
+Speaker 1:  the Tread plus costs. The tread has gone up. It,
+
+977
+01:02:23,505 --> 01:02:27,005
+Speaker 1:  it went down a little bit then up again, it's more expensive than ever. The
+
+978
+01:02:27,145 --> 01:02:31,045
+Speaker 1:  Row plus is more expensive than ever. The subscription continues to go
+
+979
+01:02:31,045 --> 01:02:34,805
+Speaker 1:  up. It's not like everything else is getting cheaper, but like maybe it just
+
+980
+01:02:34,805 --> 01:02:38,245
+Speaker 1:  is true that this is a group of people who are not super price conscious
+
+981
+01:02:38,305 --> 01:02:42,205
+Speaker 1:  and the idea of, you know, I'm pitting this against an
+
+982
+01:02:42,205 --> 01:02:46,005
+Speaker 1:  Equinox membership or like two sessions a week with a personal trainer. And
+
+983
+01:02:46,005 --> 01:02:49,965
+Speaker 1:  so it's actually not expensive in that context, but like when
+
+984
+01:02:49,965 --> 01:02:53,805
+Speaker 1:  you look at these prices, what does it make you think Peloton is
+
+985
+01:02:54,095 --> 01:02:54,725
+Speaker 1:  doing here?
+
+986
+01:02:55,785 --> 01:02:59,715
+Speaker 12:  I'm just like, Baha six, $7,000
+
+987
+01:02:59,855 --> 01:03:03,195
+Speaker 12:  for for a treadmill. Yeah, running outside is free.
+
+988
+01:03:03,655 --> 01:03:06,155
+Speaker 12:  That's me though, right? Like I,
+
+989
+01:03:06,615 --> 01:03:09,555
+Speaker 1:  To be fair, running outside is awful and you can't watch the office while
+
+990
+01:03:09,555 --> 01:03:12,995
+Speaker 1:  you run outside. So like I would pay a lot to be able to watch the office
+
+991
+01:03:12,995 --> 01:03:14,115
+Speaker 1:  while I run indoors.
+
+992
+01:03:14,575 --> 01:03:16,635
+Speaker 12:  But again, this is like different people
+
+993
+01:03:16,635 --> 01:03:17,515
+Speaker 1:  But not 6,700.
+
+994
+01:03:18,305 --> 01:03:21,035
+Speaker 12:  Yeah, this is different people, different preferences, right? I cannot,
+
+995
+01:03:21,465 --> 01:03:25,395
+Speaker 12:  I've tried watching KDRs and my straight kids videos
+
+996
+01:03:25,535 --> 01:03:28,475
+Speaker 12:  on treadmills. I can't do it. I can't do it for more than 20 minutes. I
+
+997
+01:03:28,475 --> 01:03:31,755
+Speaker 12:  thought I was a terrible runner for years ing because of I just could not
+
+998
+01:03:31,755 --> 01:03:35,715
+Speaker 12:  do it outside. I can run for three hours and it's just me, my thoughts and
+
+999
+01:03:35,805 --> 01:03:37,075
+Speaker 12:  K-pop for like three hours. That's so funny.
+
+1000
+01:03:37,595 --> 01:03:41,555
+Speaker 1:  I the exact opposite. I, yeah. So the best gym trick I ever
+
+1001
+01:03:41,835 --> 01:03:44,515
+Speaker 1:  discovered, and everyone should try this if you have trouble making yourself
+
+1002
+01:03:44,515 --> 01:03:48,315
+Speaker 1:  go to the gym, was I found a TV show that I loved And I was only
+
+1003
+01:03:48,315 --> 01:03:49,515
+Speaker 1:  allowed to watch it at the gym.
+
+1004
+01:03:49,755 --> 01:03:50,795
+Speaker 12:  I tried that. And so
+
+1005
+01:03:51,495 --> 01:03:55,315
+Speaker 1:  For me, I through like seasons upon seasons running on the
+
+1006
+01:03:55,435 --> 01:03:58,435
+Speaker 1:  treadmill at the Y because that was just, I was just like, I wanna watch
+
+1007
+01:03:58,435 --> 01:04:01,635
+Speaker 1:  the show so I'm gonna go and watch it on the treadmill. And then literally
+
+1008
+01:04:01,665 --> 01:04:05,475
+Speaker 1:  it's, it's a like third of a mile from here to the gym
+
+1009
+01:04:05,895 --> 01:04:09,755
+Speaker 1:  and that run is so boring that I didn't, I,
+
+1010
+01:04:09,795 --> 01:04:12,955
+Speaker 1:  I didn't wanna do it. I would drive to the gym and run on the treadmill Like
+
+1011
+01:04:12,955 --> 01:04:16,715
+Speaker 1:  what? Like a true maniac stuff. But yeah, it's just
+
+1012
+01:04:16,715 --> 01:04:17,475
+Speaker 1:  people are different.
+
+1013
+01:04:18,035 --> 01:04:21,675
+Speaker 12:  I tried doing that. It does not work for me. So that, that's, that's such
+
+1014
+01:04:21,735 --> 01:04:23,755
+Speaker 12:  the challenge that they have is
+
+1015
+01:04:23,755 --> 01:04:26,755
+Speaker 1:  That you're like my dad who ran a marathon with no headphones And I still
+
+1016
+01:04:27,045 --> 01:04:29,515
+Speaker 1:  think he's no, that's like true psychotic behavior
+
+1017
+01:04:29,935 --> 01:04:33,715
+Speaker 12:  That's the most psychotic. But I still need the headphones, I still need
+
+1018
+01:04:33,735 --> 01:04:37,035
+Speaker 12:  my beats. Okay. I I need my little k-pop boys singing,
+
+1019
+01:04:37,635 --> 01:04:41,075
+Speaker 12:  whatever I, I need that. But you know, I've listened in
+
+1020
+01:04:41,415 --> 01:04:44,595
+Speaker 12:  to Peloton earnings dutifully every quarter and when they
+
+1021
+01:04:45,165 --> 01:04:48,555
+Speaker 12:  upped the price to about $6,000, I was like, ha.
+
+1022
+01:04:51,255 --> 01:04:53,675
+Speaker 12:  And then the next quarter they're like, oh yeah, and we sold out of every,
+
+1023
+01:04:53,975 --> 01:04:57,835
+Speaker 12:  out of all of the stock that we had for $6,000. And I was like, how
+
+1024
+01:04:58,255 --> 01:05:02,235
+Speaker 12:  so every, every earnings, they're like tread plus the most expensive
+
+1025
+01:05:02,235 --> 01:05:05,955
+Speaker 12:  product in their portfolio. It sells like gangbusters. And
+
+1026
+01:05:06,015 --> 01:05:09,915
+Speaker 12:  I'm like, how that's the one where the kids died. How do you
+
+1027
+01:05:09,915 --> 01:05:13,515
+Speaker 12:  do this? And and the people who love them love them.
+
+1028
+01:05:14,075 --> 01:05:17,805
+Speaker 12:  I believe it was Business Insider back when like the height of
+
+1029
+01:05:17,805 --> 01:05:21,325
+Speaker 12:  that controversy was happening. They were like interviewing people who were
+
+1030
+01:05:21,325 --> 01:05:25,085
+Speaker 12:  like, yeah, I fell down and it threw me through a wall, never giving
+
+1031
+01:05:25,185 --> 01:05:29,165
+Speaker 12:  it up. And it's just like these people, it resonates
+
+1032
+01:05:29,165 --> 01:05:32,925
+Speaker 12:  with them in such a way and it creates such a degree of loyalty
+
+1033
+01:05:33,075 --> 01:05:37,045
+Speaker 12:  that I'm just like, oh my god. And you know, historic, their churn
+
+1034
+01:05:37,065 --> 01:05:40,525
+Speaker 12:  is a little higher than it used to be, but it's still not that much higher
+
+1035
+01:05:40,525 --> 01:05:44,445
+Speaker 12:  than like one, 1.5%. So these
+
+1036
+01:05:44,445 --> 01:05:46,085
+Speaker 12:  people really stick with
+
+1037
+01:05:46,085 --> 01:05:48,005
+Speaker 1:  It, which is like crazy low.
+
+1038
+01:05:48,035 --> 01:05:51,445
+Speaker 12:  Yeah, it's crazy low for a churn rate of, of subscribers. And
+
+1039
+01:05:52,265 --> 01:05:56,005
+Speaker 12:  we talk about Peloton churn subscribers being high, it's like 2%. Yeah.
+
+1040
+01:05:56,005 --> 01:05:59,725
+Speaker 12:  Which is so low if you really think about it in the scale of things.
+
+1041
+01:05:59,825 --> 01:06:03,765
+Speaker 12:  But you know, whether or not this opens a new chapter for them, I don't
+
+1042
+01:06:03,765 --> 01:06:07,365
+Speaker 12:  know because their previous CEO Barry McCarthy, who I
+
+1043
+01:06:07,565 --> 01:06:11,405
+Speaker 12:  absolutely loved because he always had unhinged quotes in the, in
+
+1044
+01:06:11,405 --> 01:06:14,845
+Speaker 12:  the investor shareholder letter the one time he's like, this, this is a
+
+1045
+01:06:14,855 --> 01:06:17,885
+Speaker 12:  cargo ship and we are halfway through the Mediterranean. I was like, what
+
+1046
+01:06:17,885 --> 01:06:21,725
+Speaker 12:  is happening here? But sure, he very much, he very
+
+1047
+01:06:21,725 --> 01:06:25,485
+Speaker 12:  much went, the reason why the prices are like so hard to track
+
+1048
+01:06:25,485 --> 01:06:28,005
+Speaker 12:  over time was because he was doing a lot of experimenting with the prices
+
+1049
+01:06:28,225 --> 01:06:32,045
+Speaker 12:  and with the theory that this is a media company and we are
+
+1050
+01:06:32,045 --> 01:06:35,725
+Speaker 12:  gonna be futzing around with hardware prices, we're gonna see what sticks,
+
+1051
+01:06:35,725 --> 01:06:39,685
+Speaker 12:  we're gonna introduce a rental program, what's happening. He
+
+1052
+01:06:39,685 --> 01:06:43,365
+Speaker 12:  did a lot of that and the numbers went up like
+
+1053
+01:06:44,005 --> 01:06:46,885
+Speaker 12:  actually, you know, I tune into these things and the numbers have been going
+
+1054
+01:06:46,885 --> 01:06:50,525
+Speaker 12:  up for some time, even though it's not pandemic levels of high, in which
+
+1055
+01:06:50,525 --> 01:06:54,285
+Speaker 12:  case I go, you know, investors, does everything have to be on a constant
+
+1056
+01:06:54,285 --> 01:06:58,245
+Speaker 12:  state of growth trajectory? Like what if, what if it's just fine being
+
+1057
+01:06:58,285 --> 01:07:01,925
+Speaker 12:  a mid-size company? Totally. What if, what if? And the investors are always
+
+1058
+01:07:01,925 --> 01:07:05,645
+Speaker 12:  like, no, you must go to pandemic levels again. And it's like, we don't
+
+1059
+01:07:05,645 --> 01:07:05,965
+Speaker 12:  do that. I don't
+
+1060
+01:07:05,965 --> 01:07:08,925
+Speaker 1:  In this country. So last question on this and then, and then we should take
+
+1061
+01:07:08,925 --> 01:07:12,885
+Speaker 1:  a break. I think thinking about these Peloton people, like the the stuff
+
+1062
+01:07:12,885 --> 01:07:16,165
+Speaker 1:  that you hear them talk about all the time is a, you like, you're like, we've
+
+1063
+01:07:16,165 --> 01:07:19,125
+Speaker 1:  been talking about the hardware is, is a hugely important part of it. People
+
+1064
+01:07:19,125 --> 01:07:22,085
+Speaker 1:  love the classes, people love the instructors, people love the sort of real
+
+1065
+01:07:22,085 --> 01:07:25,885
+Speaker 1:  time competition of it. There is this sense that you're like part of a
+
+1066
+01:07:25,885 --> 01:07:29,485
+Speaker 1:  community even though you're inside of your house. Can you, if you're a
+
+1067
+01:07:29,485 --> 01:07:33,445
+Speaker 1:  Peloton, can you do the AI thing in a way that doesn't
+
+1068
+01:07:33,675 --> 01:07:36,605
+Speaker 1:  ruin that? Like thinking about what you know about all of these Peloton people
+
+1069
+01:07:36,665 --> 01:07:40,605
+Speaker 1:  is this idea of everything being super individualized and
+
+1070
+01:07:40,605 --> 01:07:44,325
+Speaker 1:  personalized, but also in a certain way sort of depersonalized that it's
+
+1071
+01:07:44,325 --> 01:07:48,205
+Speaker 1:  not gonna feel as though you're in a live class full of
+
+1072
+01:07:48,205 --> 01:07:51,605
+Speaker 1:  people. It's gonna feel like an AI is coaching you on how to do things.
+
+1073
+01:07:52,465 --> 01:07:54,005
+Speaker 1:  Is that gonna be compelling to those people?
+
+1074
+01:07:54,545 --> 01:07:58,445
+Speaker 12:  So I think they've been very thoughtful about that because when I went
+
+1075
+01:07:58,445 --> 01:08:01,965
+Speaker 12:  to this event, and this is just gonna be another
+
+1076
+01:08:01,965 --> 01:08:05,845
+Speaker 12:  description of the Peloton energy, I go into this event and what do
+
+1077
+01:08:05,845 --> 01:08:08,885
+Speaker 12:  they do? First of all, they don't introduce the CEO first and no, no, no.
+
+1078
+01:08:08,885 --> 01:08:10,245
+Speaker 12:  He's, he's an afterthought. They go,
+
+1079
+01:08:10,665 --> 01:08:10,885
+Speaker 1:  We
+
+1080
+01:08:10,885 --> 01:08:14,765
+Speaker 12:  Have Tunde, we have Adrian Williams and I'm sorry I forgot the third name
+
+1081
+01:08:14,765 --> 01:08:18,605
+Speaker 12:  of the, the instructor that was there. The instructors come out and
+
+1082
+01:08:18,605 --> 01:08:22,565
+Speaker 12:  they are like clapping people's hands in the audience and like they're,
+
+1083
+01:08:22,705 --> 01:08:26,405
+Speaker 12:  you know, and I'm just like, I don't know who most of these people are,
+
+1084
+01:08:26,505 --> 01:08:30,085
+Speaker 12:  but every single time I've gone to a Peloton event, they have brought out
+
+1085
+01:08:30,145 --> 01:08:34,085
+Speaker 12:  an instructor and the instructor is there and they have actually
+
+1086
+01:08:34,745 --> 01:08:38,005
+Speaker 12:  put a big hand into how this Peloton IQ has been
+
+1087
+01:08:38,515 --> 01:08:42,365
+Speaker 12:  crafted. So, you know, I had my demo and my demo was with Tunde who
+
+1088
+01:08:42,365 --> 01:08:46,205
+Speaker 12:  is a cycling instructor I believe. And she was just like, it's
+
+1089
+01:08:46,205 --> 01:08:50,005
+Speaker 12:  like it's my assistant. The AI is my assistant. I have helped
+
+1090
+01:08:50,335 --> 01:08:54,285
+Speaker 12:  craft these recommendations. We have
+
+1091
+01:08:54,305 --> 01:08:58,045
+Speaker 12:  had a huge say in like what it tells you so
+
+1092
+01:08:58,145 --> 01:09:00,925
+Speaker 12:  you know, you're gonna listen to me, you're coming from me and this is just
+
+1093
+01:09:00,925 --> 01:09:04,085
+Speaker 12:  gonna help you out. It's gonna be my little helper. It's like a, she's like,
+
+1094
+01:09:04,145 --> 01:09:07,565
+Speaker 12:  I'm the professor and this is my teaching assistant. And I was like, that's
+
+1095
+01:09:07,565 --> 01:09:11,525
+Speaker 12:  a very interesting distinction that they're making there. And I think
+
+1096
+01:09:11,525 --> 01:09:14,685
+Speaker 12:  that could work because if they're messaging that correctly,
+
+1097
+01:09:16,545 --> 01:09:20,205
+Speaker 12:  you know, I think the diehards will be like, oh yeah, Tene is my professor
+
+1098
+01:09:20,205 --> 01:09:24,005
+Speaker 12:  and this is my teaching assistant at Right. Love you Peloton iq. But we'll,
+
+1099
+01:09:24,005 --> 01:09:26,685
+Speaker 12:  we'll have to see. I'm, I'm in, I'm in the communities, I do be lurking
+
+1100
+01:09:27,305 --> 01:09:31,125
+Speaker 12:  and some of them are like, AI slop get this shit
+
+1101
+01:09:31,125 --> 01:09:34,965
+Speaker 12:  outta here. So, you know, we'll see how it shakes out over
+
+1102
+01:09:35,035 --> 01:09:38,885
+Speaker 12:  time. I think they kind of stepped in it by not having an
+
+1103
+01:09:38,885 --> 01:09:42,565
+Speaker 12:  upgrade program for those people because you know, if you're a really
+
+1104
+01:09:42,565 --> 01:09:46,245
+Speaker 12:  loyal diehard, you wanna be rewarded for that loyalty. So I think some of
+
+1105
+01:09:46,245 --> 01:09:50,205
+Speaker 12:  them feel a little betrayed by that to be honest, but
+
+1106
+01:09:50,205 --> 01:09:54,125
+Speaker 12:  we'll see. We'll see how it goes. Sure. I I remain an AI
+
+1107
+01:09:54,125 --> 01:09:57,845
+Speaker 12:  and fitness hater and skeptic until proven otherwise.
+
+1108
+01:09:57,845 --> 01:10:01,245
+Speaker 1:  It's gonna be again, like if, if anybody gets it, I think there's a solid
+
+1109
+01:10:01,245 --> 01:10:05,085
+Speaker 1:  chance that it's Peloton. But also everything you just said about the relationship
+
+1110
+01:10:05,085 --> 01:10:08,365
+Speaker 1:  between person and AI is the thing every company says
+
+1111
+01:10:09,065 --> 01:10:12,445
+Speaker 1:  six months before being like, we've created a new AI instructor,
+
+1112
+01:10:13,025 --> 01:10:16,845
+Speaker 1:  her name is Kim and she is the only instructor on the platform
+
+1113
+01:10:16,845 --> 01:10:20,685
+Speaker 1:  forever. And everything just immediately goes to help.
+
+1114
+01:10:20,685 --> 01:10:24,605
+Speaker 1:  Right? Like you, you can just see the path towards here is a new con
+
+1115
+01:10:24,685 --> 01:10:28,085
+Speaker 1:  here as a new instructor, this is the future of Peloton.
+
+1116
+01:10:28,675 --> 01:10:32,445
+Speaker 1:  It's blobby. It's like, I actually think you missed it's Peloton. Yeah,
+
+1117
+01:10:32,715 --> 01:10:36,645
+Speaker 12:  It's bl bbo which is my name for all ai. Yeah. Friends
+
+1118
+01:10:36,705 --> 01:10:38,925
+Speaker 12:  and companions and whatever. It's, But it,
+
+1119
+01:10:38,985 --> 01:10:42,845
+Speaker 1:  But if they can not do that and actually make this thing like a tool and
+
+1120
+01:10:42,845 --> 01:10:45,525
+Speaker 1:  not a character, I think there's something really powerful there.
+
+1121
+01:10:46,315 --> 01:10:50,245
+Speaker 12:  Yeah. It's just, are the insights good? That's gonna
+
+1122
+01:10:50,245 --> 01:10:52,685
+Speaker 12:  be the number one, that is the question. That's the number one question.
+
+1123
+01:10:52,785 --> 01:10:56,405
+Speaker 12:  If they can't nail that, I'm just gonna add it to my AI fitness
+
+1124
+01:10:56,635 --> 01:10:57,885
+Speaker 12:  wall of shame. So if
+
+1125
+01:10:57,885 --> 01:11:01,725
+Speaker 1:  You need somebody to really earnestly be bad at exercise, I'm here for
+
+1126
+01:11:01,885 --> 01:11:03,925
+Speaker 1:  you. So just lemme know I got your
+
+1127
+01:11:03,925 --> 01:11:07,805
+Speaker 12:  Back. I can't test five of these equipment. My house is not big enough
+
+1128
+01:11:07,805 --> 01:11:10,645
+Speaker 12:  for that. So this might have to be a team effort. Anyway,
+
+1129
+01:11:11,185 --> 01:11:15,045
+Speaker 1:  I'm, I'm in, I'm here for you. This is, I got, I got, I got room in the basement.
+
+1130
+01:11:15,235 --> 01:11:17,525
+Speaker 1:  I'll get rid of the couch. There you go. I'll put in three treadmills and
+
+1131
+01:11:17,525 --> 01:11:18,205
+Speaker 1:  we'll we'll go to
+
+1132
+01:11:18,205 --> 01:11:20,525
+Speaker 13:  Work. They're really big treadmills, like they're
+
+1133
+01:11:20,525 --> 01:11:21,405
+Speaker 1:  Really big one treadmill.
+
+1134
+01:11:21,765 --> 01:11:22,725
+Speaker 13:  One treadmill. Yeah.
+
+1135
+01:11:23,765 --> 01:11:25,925
+Speaker 1:  All right, we need to take a break but will you stick around? I have a hotline
+
+1136
+01:11:26,085 --> 01:11:28,045
+Speaker 1:  question for you. Yeah. Alright, cool. We'll be right back.
+
+1137
+01:11:30,735 --> 01:11:34,445
+Speaker 14:  Right now at the Home Depot shop fall savings and get up to
+
+1138
+01:11:34,445 --> 01:11:37,125
+Speaker 14:  40% off select appliances like Samsung.
+
+1139
+01:11:37,955 --> 01:11:41,485
+Speaker 14:  Upgrade your kitchen this fall with the Samsung Bespoke four door
+
+1140
+01:11:41,485 --> 01:11:45,405
+Speaker 14:  refrigerator. Now featuring the dual auto ice maker with Sphere Ice
+
+1141
+01:11:45,635 --> 01:11:49,485
+Speaker 14:  only at the Home Depot you'll have perfectly chilled drinks for
+
+1142
+01:11:49,605 --> 01:11:53,405
+Speaker 14:  every gathering. Don't miss fall appliance savings at the Home Depot.
+
+1143
+01:11:53,735 --> 01:11:57,485
+Speaker 14:  Offer valid October 2nd through October 22nd. US only C-store online for
+
+1144
+01:11:57,485 --> 01:11:57,845
+Speaker 14:  details.
+
+1145
+01:12:00,175 --> 01:12:03,965
+Speaker 15:  Experience a membership that backs your business journey with American Express
+
+1146
+01:12:04,245 --> 01:12:08,045
+Speaker 15:  Business Platinum. Earn five times membership rewards points on flights
+
+1147
+01:12:08,045 --> 01:12:11,605
+Speaker 15:  and prepaid hotels booked on Amex travel.com. Plus
+
+1148
+01:12:11,735 --> 01:12:14,925
+Speaker 15:  enjoy a welcome offer of 200,000 points after you spend
+
+1149
+01:12:14,925 --> 01:12:18,565
+Speaker 15:  $20,000 on purchases on the card within your first three months of
+
+1150
+01:12:18,565 --> 01:12:22,485
+Speaker 15:  membership. American Express Business Platinum, there's nothing like
+
+1151
+01:12:22,485 --> 01:12:25,285
+Speaker 15:  it. Terms apply. Learn more at american
+
+1152
+01:12:25,285 --> 01:12:28,205
+Speaker 15:  express.com/business-platinum.
+
+1153
+01:12:31,035 --> 01:12:32,645
+Speaker 13:  Imagine fast hydration
+
+1154
+01:12:34,405 --> 01:12:37,965
+Speaker 13:  combined with balanced energy, perfectly flavored with zero
+
+1155
+01:12:38,325 --> 01:12:41,845
+Speaker 13:  artificial sweeteners. Introducing liquid Ivy's new energy
+
+1156
+01:12:42,165 --> 01:12:42,965
+Speaker 13:  multiplier sugar free.
+
+1157
+01:12:44,985 --> 01:12:48,805
+Speaker 13:  Unlike other energy drinks, you know the ones that make you feel like you're
+
+1158
+01:12:48,925 --> 01:12:52,605
+Speaker 13:  glitching. It's made with natural caffeine and electrolytes so you get the
+
+1159
+01:12:52,605 --> 01:12:55,925
+Speaker 13:  boost without the burnout. Liquid IVs, new energy
+
+1160
+01:12:56,285 --> 01:12:59,565
+Speaker 13:  multiplier, sugar-free hydrating energy. Tap the banner to learn more.
+
+1161
+01:13:03,835 --> 01:13:04,325
+Speaker 5:  Alright,
+
+1162
+01:13:04,325 --> 01:13:08,245
+Speaker 1:  We're back V song still here. Hi V. Hey. So let's do a
+
+1163
+01:13:08,325 --> 01:13:11,125
+Speaker 1:  question for the Vergecast Hotline. We get lots of them that are like specifically
+
+1164
+01:13:11,485 --> 01:13:15,325
+Speaker 1:  directed to a specific person and we have one for you today. Oh I love it.
+
+1165
+01:13:15,425 --> 01:13:18,805
+Speaker 1:  As always you can call 8 6 6 VERGE one one. You can email Vergecast to The
+
+1166
+01:13:18,845 --> 01:13:22,485
+Speaker 1:  Verge dot com. There's been like a million gadgets so send us s Gadget questions.
+
+1167
+01:13:22,565 --> 01:13:26,245
+Speaker 1:  I think we're also gonna do a smart home hotline episode here at some point
+
+1168
+01:13:26,245 --> 01:13:29,525
+Speaker 1:  in the near future. So send us all of your questions for now. The
+
+1169
+01:13:29,895 --> 01:13:31,125
+Speaker 1:  let's get at it. This one's for you.
+
+1170
+01:13:31,905 --> 01:13:35,565
+Speaker 16:  Hi Vergecast crew, this is Power Lister and
+
+1171
+01:13:36,165 --> 01:13:40,125
+Speaker 16:  a new runner. This is a question probably best answered by V
+
+1172
+01:13:40,125 --> 01:13:43,765
+Speaker 16:  Song. For the longest time I've been using my Apple Watch in
+
+1173
+01:13:43,765 --> 01:13:47,565
+Speaker 16:  combination with the strong app to track my lifts. I've been a power lifter
+
+1174
+01:13:47,565 --> 01:13:51,365
+Speaker 16:  for many years and would focus on big compound lifts with some accessories.
+
+1175
+01:13:52,165 --> 01:13:55,885
+Speaker 16:  Recently I've picked up running and mostly track it with Strava. A lot of
+
+1176
+01:13:55,885 --> 01:13:59,005
+Speaker 16:  my running friends have repeatedly told me to get a Garmin for the better
+
+1177
+01:13:59,005 --> 01:14:02,605
+Speaker 16:  battery life and overall better smart tracking for running.
+
+1178
+01:14:03,155 --> 01:14:06,965
+Speaker 16:  I've been using an Apple Watch series six since release and replaced the
+
+1179
+01:14:06,965 --> 01:14:10,845
+Speaker 16:  battery last year and it's already draining fast. My dilemma is I've
+
+1180
+01:14:10,845 --> 01:14:14,605
+Speaker 16:  adopted a hybrid plan that incorporates running with my main traditional
+
+1181
+01:14:14,845 --> 01:14:18,725
+Speaker 16:  strength training lifts that I track with the strong app. And nothing online
+
+1182
+01:14:18,775 --> 01:14:22,605
+Speaker 16:  shows that that app is compatible with Garmin watches. I was
+
+1183
+01:14:22,605 --> 01:14:26,565
+Speaker 16:  wondering if you had any advice on maybe potentially repping two smart
+
+1184
+01:14:26,565 --> 01:14:30,525
+Speaker 16:  watches, one for lifts and one for runs or if I should just
+
+1185
+01:14:30,525 --> 01:14:34,365
+Speaker 16:  commit to one if so, which appreciate any
+
+1186
+01:14:34,365 --> 01:14:37,005
+Speaker 16:  help and rock on
+
+1187
+01:14:37,565 --> 01:14:40,485
+Speaker 1:  V You can see why I picked this for you, right? Like our caller didn't give
+
+1188
+01:14:40,485 --> 01:14:43,365
+Speaker 1:  their name, but if ever there is someone who feels our caller's pan, it's
+
+1189
+01:14:43,365 --> 01:14:44,285
+Speaker 1:  it's you. Yeah.
+
+1190
+01:14:44,505 --> 01:14:46,485
+Speaker 12:  Wow. Welcome to my world caller
+
+1191
+01:14:48,355 --> 01:14:52,165
+Speaker 12:  because, 'cause I've lived both of those lives. What I will say is that
+
+1192
+01:14:52,165 --> 01:14:55,005
+Speaker 12:  the double wristing life is difficult because
+
+1193
+01:14:56,025 --> 01:14:59,805
+Speaker 12:  so, so the crux of the problem here is the fact
+
+1194
+01:14:59,805 --> 01:15:03,445
+Speaker 12:  that fitness data is messy, right? Lots of people use
+
+1195
+01:15:03,505 --> 01:15:07,205
+Speaker 12:  Strava because it is a def facto hub where you can
+
+1196
+01:15:07,205 --> 01:15:10,565
+Speaker 12:  import your data from disparate devices and it lives in one place
+
+1197
+01:15:10,995 --> 01:15:11,485
+Speaker 12:  because
+
+1198
+01:15:13,175 --> 01:15:17,075
+Speaker 12:  that's just how it goes. It integrates with everything everyone
+
+1199
+01:15:17,225 --> 01:15:21,085
+Speaker 12:  uses. Strava love it. So bad news,
+
+1200
+01:15:21,585 --> 01:15:24,365
+Speaker 12:  Strava sued garment last week, so Oh no.
+
+1201
+01:15:25,985 --> 01:15:29,645
+Speaker 12:  And is asking Garmin to stop selling all of its devices.
+
+1202
+01:15:29,825 --> 01:15:33,765
+Speaker 12:  So there's beef between these two companies As a
+
+1203
+01:15:33,765 --> 01:15:37,685
+Speaker 12:  new runner, what I'm gonna say is that Garmin, I
+
+1204
+01:15:37,685 --> 01:15:41,365
+Speaker 12:  love Garmin. Garmin, Garmin fans are really die hard, so don't comfort me.
+
+1205
+01:15:42,465 --> 01:15:46,365
+Speaker 12:  Garmin is overwhelming in terms of the running data for a beginner
+
+1206
+01:15:46,555 --> 01:15:50,285
+Speaker 12:  because when you are a beginner and you are just running for the first time,
+
+1207
+01:15:50,475 --> 01:15:52,685
+Speaker 12:  it's about good form. It's about
+
+1208
+01:15:54,425 --> 01:15:57,955
+Speaker 12:  just kind of increasing your time on the road, doing it safely,
+
+1209
+01:15:58,095 --> 01:16:01,715
+Speaker 12:  making sure you're cross training and all of that sort of stuff and just
+
+1210
+01:16:01,715 --> 01:16:04,715
+Speaker 12:  really kind of finding your rhythm for, for running
+
+1211
+01:16:05,535 --> 01:16:09,475
+Speaker 12:  and you know, is vertical oscillation data
+
+1212
+01:16:09,475 --> 01:16:12,515
+Speaker 12:  gonna help you do that or is it gonna confe like confuse you further?
+
+1213
+01:16:13,455 --> 01:16:17,435
+Speaker 12:  That's, that's what I would say. I do enjoy Garmin. I think
+
+1214
+01:16:18,745 --> 01:16:22,445
+Speaker 12:  it, it's, it's very complicated to kind of get into the
+
+1215
+01:16:22,445 --> 01:16:25,965
+Speaker 12:  Garmin in depth data. It's not knocking them at all.
+
+1216
+01:16:26,445 --> 01:16:30,365
+Speaker 12:  I find it very useful, but Apple has made some updates that are for
+
+1217
+01:16:30,685 --> 01:16:34,365
+Speaker 12:  beginners I think are pretty compelling. Like they've added training load,
+
+1218
+01:16:34,425 --> 01:16:38,165
+Speaker 12:  so it kind of helps you visualize whether you're doing too much
+
+1219
+01:16:38,505 --> 01:16:40,365
+Speaker 12:  or how, how your levels are doing.
+
+1220
+01:16:41,945 --> 01:16:45,405
+Speaker 12:  So what I would say is since you're a beginner, just find out if you like
+
+1221
+01:16:45,405 --> 01:16:49,125
+Speaker 12:  running first and if you really love running, eventually you will
+
+1222
+01:16:49,125 --> 01:16:52,845
+Speaker 12:  naturally gravitate towards the Garmin just because the
+
+1223
+01:16:53,125 --> 01:16:55,805
+Speaker 12:  features there really are catered towards runners.
+
+1224
+01:16:56,835 --> 01:17:00,685
+Speaker 12:  They're really great. I, you know, if, if it were up to me
+
+1225
+01:17:00,685 --> 01:17:04,445
+Speaker 12:  And I was just using a watch for running, I would pick a
+
+1226
+01:17:04,445 --> 01:17:08,405
+Speaker 12:  Garmin, I would probably pick one of the foreign runner garments because
+
+1227
+01:17:08,405 --> 01:17:12,235
+Speaker 12:  they're not gigantic and they fit well and
+
+1228
+01:17:12,235 --> 01:17:15,395
+Speaker 12:  they're like really suited towards that. But
+
+1229
+01:17:16,225 --> 01:17:18,955
+Speaker 12:  just like, hold hold for a second because
+
+1230
+01:17:20,025 --> 01:17:23,685
+Speaker 12:  that's a lot of gear that we're talking about you having in one Yeah, one
+
+1231
+01:17:23,685 --> 01:17:26,485
+Speaker 12:  space. And as much as possible, I do recommend
+
+1232
+01:17:27,805 --> 01:17:31,485
+Speaker 12:  streamlining your data streams just because look, I'm, I'm psycho. I have
+
+1233
+01:17:31,485 --> 01:17:35,085
+Speaker 12:  this notebook and this notebook literally is where I log
+
+1234
+01:17:35,345 --> 01:17:39,005
+Speaker 12:  all of my disparate fitness data and baselines because
+
+1235
+01:17:39,245 --> 01:17:42,925
+Speaker 12:  I have not found a good digital way of doing it for testing. I, I,
+
+1236
+01:17:43,405 --> 01:17:47,245
+Speaker 12:  I spend like 40 minutes after each workout just comparing data points.
+
+1237
+01:17:47,315 --> 01:17:51,125
+Speaker 12:  Like you don't wanna be me and doing that. So
+
+1238
+01:17:51,755 --> 01:17:55,325
+Speaker 12:  like, this is reviewer problems though because I am testing multiple products.
+
+1239
+01:17:55,325 --> 01:17:58,885
+Speaker 12:  Yes, I do have to live this multiple life. And so why would you, why would
+
+1240
+01:17:58,885 --> 01:18:02,685
+Speaker 12:  you do this to yourself friend? If you are gonna go the Garmin
+
+1241
+01:18:02,685 --> 01:18:05,565
+Speaker 12:  route, you can track reps and
+
+1242
+01:18:06,205 --> 01:18:09,965
+Speaker 12:  workouts within Garmin. Is it gonna be
+
+1243
+01:18:10,305 --> 01:18:14,205
+Speaker 12:  as good as strong? I'm not sure because you know,
+
+1244
+01:18:14,205 --> 01:18:17,965
+Speaker 12:  all of my power lifter friends are very into strong and that
+
+1245
+01:18:17,985 --> 01:18:21,725
+Speaker 12:  app, so you are running into the problem of how you know
+
+1246
+01:18:22,315 --> 01:18:26,045
+Speaker 12:  much like the smart home, there's all these different silos of of data
+
+1247
+01:18:26,435 --> 01:18:30,405
+Speaker 12:  that people have. The main thing is to find what works best for
+
+1248
+01:18:30,405 --> 01:18:34,125
+Speaker 12:  you that you will stick with. If strong is something that you really love
+
+1249
+01:18:34,385 --> 01:18:38,005
+Speaker 12:  and has really helped you in your power lifting life, don't
+
+1250
+01:18:38,135 --> 01:18:40,965
+Speaker 12:  ditch it Just because you're running friends are saying that you should
+
+1251
+01:18:41,145 --> 01:18:42,285
+Speaker 12:  go into Garmin.
+
+1252
+01:18:44,405 --> 01:18:48,365
+Speaker 12:  I personally do not like the Garmin strength training tracking
+
+1253
+01:18:48,365 --> 01:18:52,245
+Speaker 12:  because it does not give me enough time to edit my, my, my
+
+1254
+01:18:52,245 --> 01:18:55,165
+Speaker 12:  weights and my reps and it, I like it throws me out. Mm
+
+1255
+01:18:55,165 --> 01:18:56,965
+Speaker 1:  Yeah, it sounds like our color didn't like it either. Yeah,
+
+1256
+01:18:56,965 --> 01:18:59,725
+Speaker 12:  I don't, I don't love it. I'll be quite frank about that.
+
+1257
+01:19:01,145 --> 01:19:05,125
+Speaker 12:  So if, if you find that you love strong on the Apple watch, I don't
+
+1258
+01:19:05,125 --> 01:19:08,365
+Speaker 12:  know, maybe you upgrade to an ultra and see how that does for you. This
+
+1259
+01:19:08,365 --> 01:19:11,125
+Speaker 1:  Is what I was just about to say. Why is the watch ultra not the perfect,
+
+1260
+01:19:11,355 --> 01:19:14,525
+Speaker 1:  like jack of all trades version of the answer here?
+
+1261
+01:19:14,675 --> 01:19:18,365
+Speaker 12:  Okay, so you know the outdoor running crowd and garment and they have a
+
+1262
+01:19:18,365 --> 01:19:22,045
+Speaker 12:  lot of really valid points here is battery life.
+
+1263
+01:19:22,565 --> 01:19:26,325
+Speaker 12:  A Garmin is measured in weeks, it's measured in months.
+
+1264
+01:19:27,145 --> 01:19:30,485
+Speaker 12:  The, I have the ultra three here, I'm still reviewing it. That'll be out
+
+1265
+01:19:30,485 --> 01:19:33,765
+Speaker 12:  soon, but you know, I've got 72 hours out of it, which is great.
+
+1266
+01:19:34,385 --> 01:19:38,165
+Speaker 12:  Not if you are running lots of marathons,
+
+1267
+01:19:38,205 --> 01:19:41,285
+Speaker 12:  doing a lot of hikes, doing a lot of cross training. Sure. It's still a
+
+1268
+01:19:41,285 --> 01:19:44,525
+Speaker 12:  lot of charging management that you have to do and that's, that's not for
+
+1269
+01:19:44,525 --> 01:19:46,165
+Speaker 12:  the garment crowd, that that's not what they want.
+
+1270
+01:19:47,895 --> 01:19:51,525
+Speaker 12:  There are certain like metrics that I think the longer you go into
+
+1271
+01:19:51,525 --> 01:19:55,165
+Speaker 12:  endurance sports, it's the longer you are in outdoor sports. They are useful.
+
+1272
+01:19:55,365 --> 01:19:58,325
+Speaker 12:  I like the hill endurance, the hill endurance score. When I was training
+
+1273
+01:19:58,325 --> 01:20:02,245
+Speaker 12:  for a half marathon, I found, I think it's called the endurance score.
+
+1274
+01:20:02,265 --> 01:20:06,165
+Speaker 12:  It just basically tracks like how tired you are throughout a run and
+
+1275
+01:20:06,165 --> 01:20:08,685
+Speaker 12:  whether you're exerting a certain amount of energy. I did find that helpful.
+
+1276
+01:20:09,185 --> 01:20:12,885
+Speaker 12:  It, it did kind of visualize for me whether or not
+
+1277
+01:20:13,125 --> 01:20:16,925
+Speaker 12:  I was gonna make it to the end of my first half marathon. I did, it was
+
+1278
+01:20:16,925 --> 01:20:20,645
+Speaker 12:  great. It was not, I suffered immensely, but you know, I,
+
+1279
+01:20:20,805 --> 01:20:24,565
+Speaker 12:  I trained for my half marathons with garments And I found some of the
+
+1280
+01:20:24,565 --> 01:20:28,005
+Speaker 12:  more in depth metrics at that point in time once I learned how to read them.
+
+1281
+01:20:28,005 --> 01:20:31,445
+Speaker 12:  Because you do have to sit there and you do have to like digest that
+
+1282
+01:20:31,445 --> 01:20:32,045
+Speaker 12:  information.
+
+1283
+01:20:33,765 --> 01:20:37,525
+Speaker 12:  I did find it helpful for me, But that was when I had kind of gotten to
+
+1284
+01:20:37,525 --> 01:20:40,645
+Speaker 12:  a level where I was running half marathons and we're talking about thinking
+
+1285
+01:20:40,645 --> 01:20:44,605
+Speaker 12:  about fueling and what those, you can get fueling reminders on
+
+1286
+01:20:44,605 --> 01:20:48,045
+Speaker 12:  your garin, you know, like when you're at that level that can be really
+
+1287
+01:20:48,185 --> 01:20:51,885
+Speaker 12:  useful and helpful and it helps you pair down what you're using. There's
+
+1288
+01:20:51,885 --> 01:20:55,285
+Speaker 12:  a reason why so many high level runners use
+
+1289
+01:20:55,435 --> 01:20:59,165
+Speaker 12:  Garmins, but if powerlifting
+
+1290
+01:20:59,225 --> 01:21:03,085
+Speaker 12:  is your main focus and running is cross training for you,
+
+1291
+01:21:03,785 --> 01:21:04,925
+Speaker 12:  do what your main
+
+1292
+01:21:06,845 --> 01:21:10,485
+Speaker 12:  modality of exercise do prioritize that
+
+1293
+01:21:10,485 --> 01:21:14,285
+Speaker 12:  because Right, the Apple watch, it's decent at run running for a casual
+
+1294
+01:21:14,525 --> 01:21:17,925
+Speaker 12:  runner. Like if you are just doing 10 Ks or less,
+
+1295
+01:21:18,305 --> 01:21:22,285
+Speaker 12:  you don't really need, you don't need everything that a Garmin is
+
+1296
+01:21:22,285 --> 01:21:26,085
+Speaker 12:  gonna give you. Okay. If you are a through hiker, if you, if you decide
+
+1297
+01:21:26,085 --> 01:21:29,965
+Speaker 12:  that you are gonna make like Liz Lipato and Ruck and, and do
+
+1298
+01:21:29,965 --> 01:21:33,645
+Speaker 12:  all that sort of stuff. Yeah, no, Garmin makes way more sense for you. It's
+
+1299
+01:21:33,645 --> 01:21:37,285
+Speaker 12:  just, yeah, do don't live the double
+
+1300
+01:21:37,495 --> 01:21:41,045
+Speaker 12:  wrist life. It's expensive. You get double watch tans.
+
+1301
+01:21:41,485 --> 01:21:45,285
+Speaker 12:  I do it because I'm paid to do this. I don't think you should do, I don't
+
+1302
+01:21:45,285 --> 01:21:48,765
+Speaker 12:  think any normal person should live this life. I may be biased saying that,
+
+1303
+01:21:48,865 --> 01:21:49,205
+Speaker 12:  But it
+
+1304
+01:21:49,205 --> 01:21:53,165
+Speaker 1:  Does sound like largely unfortunately as a function of the way that
+
+1305
+01:21:53,165 --> 01:21:56,565
+Speaker 1:  these devices platforms work, if this person is going to
+
+1306
+01:21:56,985 --> 01:22:00,805
+Speaker 1:  get into running at the same level, it sounds like they're currently into
+
+1307
+01:22:00,805 --> 01:22:03,805
+Speaker 1:  power lifting. They, they are going to end up with two devices that like,
+
+1308
+01:22:03,805 --> 01:22:07,685
+Speaker 1:  I I think your advice to like do the casual thing on the Apple watch
+
+1309
+01:22:07,685 --> 01:22:11,645
+Speaker 1:  as long as you can is really good advice. But it does sound like if if
+
+1310
+01:22:11,645 --> 01:22:15,125
+Speaker 1:  you're gonna get to like, you know, a nine or 10 out of 10 on the commitment
+
+1311
+01:22:15,125 --> 01:22:17,045
+Speaker 1:  scale, you're gonna end up with two devices.
+
+1312
+01:22:17,185 --> 01:22:20,525
+Speaker 12:  You're gonna end up living my life, in which case welcome friend and also,
+
+1313
+01:22:20,825 --> 01:22:21,285
+Speaker 12:  I'm sorry,
+
+1314
+01:22:23,025 --> 01:22:26,845
+Speaker 12:  but yeah, stay, stay on a single device as long as you possibly can
+
+1315
+01:22:26,845 --> 01:22:30,445
+Speaker 12:  because managing the data streams becomes a second full-time
+
+1316
+01:22:30,625 --> 01:22:31,245
+Speaker 12:  unpaid job.
+
+1317
+01:22:31,715 --> 01:22:34,205
+Speaker 1:  Yeah. I think that's good advice. And then After that, then you get a smart
+
+1318
+01:22:34,205 --> 01:22:38,125
+Speaker 1:  ring and then you start wearing stuff around your neck and then you come
+
+1319
+01:22:38,125 --> 01:22:40,445
+Speaker 1:  work at The Verge. I think it's like literally that's essentially, there's
+
+1320
+01:22:40,445 --> 01:22:43,285
+Speaker 1:  just a certain number of devices that happens and then Eli shows up at your
+
+1321
+01:22:43,285 --> 01:22:45,085
+Speaker 1:  house and offers you a job, I think is like basically
+
+1322
+01:22:45,085 --> 01:22:49,005
+Speaker 12:  How it works. Yeah. That, that's honestly my career trajectory. I was, that's
+
+1323
+01:22:49,005 --> 01:22:52,805
+Speaker 12:  what happened. I was just living my, my life as a fricking cyborg
+
+1324
+01:22:52,865 --> 01:22:55,965
+Speaker 12:  and then I got a knock on the door and The Verge was like, Hey, we need
+
+1325
+01:22:56,005 --> 01:22:59,165
+Speaker 12:  a wearables person. And I was like, Yolo, let's go.
+
+1326
+01:22:59,525 --> 01:23:00,485
+Speaker 1:  I have all of them. Let's
+
+1327
+01:23:00,485 --> 01:23:04,045
+Speaker 12:  Do this. And now look at me. Now look at me. Live your dream. Do you wanna
+
+1328
+01:23:04,045 --> 01:23:07,845
+Speaker 12:  be like me? Call her? No. No, you don't. I
+
+1329
+01:23:07,845 --> 01:23:11,805
+Speaker 12:  only have one face and so many smart classes that need to, yeah,
+
+1330
+01:23:12,535 --> 01:23:16,225
+Speaker 1:  Yeah. This is what we do here. It's, it's, no one should live our pain, but
+
+1331
+01:23:16,225 --> 01:23:18,345
+Speaker 1:  too many people are forced to is I think we, what
+
+1332
+01:23:18,345 --> 01:23:21,265
+Speaker 12:  We're, I mean like is this, is this optimal? I don't think so.
+
+1333
+01:23:22,005 --> 01:23:25,745
+Speaker 1:  All right. If you're wearing more gadgets than ve send us an email.
+
+1334
+01:23:26,025 --> 01:23:29,185
+Speaker 1:  I want, I want pictures of people who are wearing more gadgets than ve.
+
+1335
+01:23:29,315 --> 01:23:33,265
+Speaker 12:  These aren't all the ones I even wear. Some are embargoed and some
+
+1336
+01:23:33,265 --> 01:23:36,945
+Speaker 12:  are on parts of the body that, you know, that's not gonna fit in this camera
+
+1337
+01:23:36,975 --> 01:23:39,185
+Speaker 12:  view. Don't live my life.
+
+1338
+01:23:40,045 --> 01:23:43,065
+Speaker 1:  That's good advice. All right, ve thank you as always. We'll see you next
+
+1339
+01:23:43,065 --> 01:23:43,585
+Speaker 1:  time. Alright,
+
+1340
+01:23:43,805 --> 01:23:44,545
+Speaker 12:  See you next time.
+
+1341
+01:23:44,695 --> 01:23:47,665
+Speaker 1:  Alright, that is it for the show this week. Thank you to everybody who came
+
+1342
+01:23:47,665 --> 01:23:50,545
+Speaker 1:  on and thank you as always for listening. Thank you. By the way, to everybody
+
+1343
+01:23:50,545 --> 01:23:53,825
+Speaker 1:  who reached out about version history, I hope you enjoyed the first episode
+
+1344
+01:23:53,825 --> 01:23:57,505
+Speaker 1:  about Hoverboards that was on The Verge YouTube channel, on the version History
+
+1345
+01:23:57,535 --> 01:24:01,225
+Speaker 1:  Feed and on The Vergecast Feed. So hopefully you encountered it somewhere.
+
+1346
+01:24:02,155 --> 01:24:04,625
+Speaker 1:  We're really proud of the show. It's been really fun to make. But please
+
+1347
+01:24:04,625 --> 01:24:08,305
+Speaker 1:  keep sending us ideas. I want episode ideas, I want ideas about the version
+
+1348
+01:24:08,305 --> 01:24:11,225
+Speaker 1:  history questions and how we can do those better. We have some ideas for
+
+1349
+01:24:11,225 --> 01:24:14,865
+Speaker 1:  the next series of these episodes. Please keep all your ideas coming. I wanna
+
+1350
+01:24:14,865 --> 01:24:18,705
+Speaker 1:  make lots of this show. I think it's gonna be great And I want to keep hearing
+
+1351
+01:24:18,805 --> 01:24:21,865
+Speaker 1:  all of your thoughts about everything that we're up to. For now,
+
+1352
+01:24:22,475 --> 01:24:25,305
+Speaker 1:  we're gonna get outta here. The Vergecast is The Verge production and part
+
+1353
+01:24:25,305 --> 01:24:28,265
+Speaker 1:  of the Vox Media podcast network. The show is produced by Eric Gomez, Brandon
+
+1354
+01:24:28,265 --> 01:24:31,985
+Speaker 1:  Keefer, and Travis Uck. We will be back on Friday to talk about
+
+1355
+01:24:32,095 --> 01:24:35,665
+Speaker 1:  more news. We may or may not have a very fun person
+
+1356
+01:24:35,795 --> 01:24:38,945
+Speaker 1:  who's coming back on the show. I'm not a hundred percent sure, but I'm like
+
+1357
+01:24:38,945 --> 01:24:42,745
+Speaker 1:  pretty sure and I'm, I'm very excited about it. We got a lot to do. We'll
+
+1358
+01:24:42,745 --> 01:24:43,745
+Speaker 1:  see you then. Rock and roll,
+
+1359
+01:24:46,035 --> 01:24:49,905
+Speaker 17:  Adobe Acrobat Studio. So brand new. Show me all the things PDFs can do.
+
+1360
+01:24:50,285 --> 01:24:54,145
+Speaker 17:  Do your work with ease and speed. PDF spaces is all you need. Do hours of
+
+1361
+01:24:54,385 --> 01:24:58,145
+Speaker 17:  research in an instant with key insights from an AI assistant. Pick a
+
+1362
+01:24:58,305 --> 01:25:02,145
+Speaker 17:  template with a click. Now your preza looks super slick. Close that deal.
+
+1363
+01:25:02,335 --> 01:25:06,145
+Speaker 17:  Yeah, you won. Do that. Doing that. Did that done? Now you can do
+
+1364
+01:25:06,145 --> 01:25:10,025
+Speaker 17:  that. Do that with Acrobat now you can do that.
+
+1365
+01:25:10,565 --> 01:25:13,945
+Speaker 17:  Do that with the all new Acrobat. It's time to do your best work with the
+
+1366
+01:25:13,965 --> 01:25:17,025
+Speaker 17:  all new Adobe Acrobat Studio limo
+
+1367
+01:25:18,605 --> 01:25:22,265
+Speaker 18:  And Doug. Here we have the LIMU IMU in its natural
+
+1368
+01:25:22,455 --> 01:25:26,185
+Speaker 18:  habitat, helping people customize their car insurance and save
+
+1369
+01:25:26,265 --> 01:25:28,105
+Speaker 18:  hundreds with Liberty Mutual.
+
+1370
+01:25:29,865 --> 01:25:33,505
+Speaker 18:  Fascinating. It's accompanied by his natural ally. Doug
+
+1371
+01:25:34,415 --> 01:25:35,465
+Speaker 1:  LIMU is that guy with the
+
+1372
+01:25:35,585 --> 01:25:36,585
+Speaker 17:  Binoculars watching us
+
+1373
+01:25:36,925 --> 01:25:38,545
+Speaker 18:  Cut the camera. They see us. Only
+
+1374
+01:25:38,565 --> 01:25:40,985
+Speaker 19:  Pay for what you need@libertymutual.com. Liberty,
+
+1375
+01:25:41,015 --> 01:25:42,145
+Speaker 17:  Liberty, Liberty.
+
+1376
+01:25:42,655 --> 01:25:43,145
+Speaker 18:  Liberty
+
+1377
+01:25:43,215 --> 01:25:45,505
+Speaker 19:  Savings very underwritten by Liberty Mutual Insurance Company and affiliates
+
+1378
+01:25:45,505 --> 01:25:45,985
+Speaker 19:  excludes Massachusetts.
+

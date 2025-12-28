@@ -1,0 +1,3737 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: e3adef50-8cfc-4a54-a5e5-07ba94bcb12b
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/2898256359749332839/5175598800585320289/s93290-US-3506s-1726999948.mp3
+Description: For the first episode in our new miniseries about the impact of AI in our everyday lives, we chat with Steven Johnson, a longtime author who has spent the last couple of years at Google working on an AI research and note-taking tool called NotebookLM. We talk about whether AI can really help us learn better, how Google has tried to make NotebookLM more accurate and helpful, and whether AI-generated podcasts are the future of learning. 
+
+2
+00:00:02,675 --> 00:00:06,445
+Speaker 1:  Welcome To The Vergecast, the flagship podcast of Infinite Context
+
+3
+00:00:06,445 --> 00:00:10,405
+Speaker 1:  Windows. I'm your friend David Pierce, and this is the first episode in our
+
+4
+00:00:10,405 --> 00:00:13,885
+Speaker 1:  new miniseries all about AI and real life.
+
+5
+00:00:14,345 --> 00:00:18,005
+Speaker 1:  We did a few episodes on this subject earlier this year, and it continues
+
+6
+00:00:18,005 --> 00:00:21,965
+Speaker 1:  to be a thing that we're talking and thinking a lot about. For all the
+
+7
+00:00:22,265 --> 00:00:26,205
+Speaker 1:  big heady talk of how AI will either change everything or kill
+
+8
+00:00:26,205 --> 00:00:29,805
+Speaker 1:  us all or make nobody ever have to work again or make us all
+
+9
+00:00:30,035 --> 00:00:33,765
+Speaker 1:  have to work training robots. What is any of this actually good for,
+
+10
+00:00:33,875 --> 00:00:37,845
+Speaker 1:  like right now? That's what we've been trying to figure out for today's
+
+11
+00:00:37,845 --> 00:00:41,325
+Speaker 1:  episode. I'm talking with Steven Johnson, who is a personal favorite author
+
+12
+00:00:41,325 --> 00:00:45,045
+Speaker 1:  of mine. He's written 14 books over the years, and he actually told me
+
+13
+00:00:45,045 --> 00:00:49,005
+Speaker 1:  that he can name them all in order off the top of his head, which I believe
+
+14
+00:00:49,025 --> 00:00:53,005
+Speaker 1:  and also find very impressive. And some of those books are books you've probably
+
+15
+00:00:53,005 --> 00:00:56,725
+Speaker 1:  heard of, like where good ideas come from and how we got to now.
+
+16
+00:00:57,665 --> 00:01:00,925
+Speaker 1:  But in addition to all of that, Steven has also spent the last two years
+
+17
+00:01:00,925 --> 00:01:04,805
+Speaker 1:  working at Google on a project called Notebook, LM Notebook.
+
+18
+00:01:04,945 --> 00:01:08,525
+Speaker 1:  LM If you've never heard of. It, is an experimental thing out of a team called
+
+19
+00:01:08,525 --> 00:01:12,445
+Speaker 1:  Google Labs. It started out as a thing called Project Tailwind a
+
+20
+00:01:12,445 --> 00:01:16,165
+Speaker 1:  couple of years ago. And the idea has always been to make an AI
+
+21
+00:01:16,165 --> 00:01:19,325
+Speaker 1:  powered tool basically for making sense of your notes
+
+22
+00:01:20,225 --> 00:01:23,125
+Speaker 1:  in Notebook lm, which they all call notebooks. So I'll just start calling
+
+23
+00:01:23,125 --> 00:01:26,925
+Speaker 1:  it Notebook. You first upload a bunch of documents or links to
+
+24
+00:01:26,925 --> 00:01:30,845
+Speaker 1:  websites or PDFs or whatever else, and the tool builds sort
+
+25
+00:01:30,845 --> 00:01:34,565
+Speaker 1:  of a corpus of stuff. The idea is you put a bunch of related things
+
+26
+00:01:34,835 --> 00:01:38,645
+Speaker 1:  into a notebook, in Notebook, then you can ask
+
+27
+00:01:38,845 --> 00:01:42,605
+Speaker 1:  questions about those documents. Or you can have Notebook build you an automatic
+
+28
+00:01:42,605 --> 00:01:46,485
+Speaker 1:  study guide or an FAQ of the information in those documents. You can have
+
+29
+00:01:46,485 --> 00:01:50,085
+Speaker 1:  it find you stuff in those documents, all that kind of stuff. It's
+
+30
+00:01:50,275 --> 00:01:54,085
+Speaker 1:  sort of a notetaking tool, but mostly it's a research tool.
+
+31
+00:01:54,145 --> 00:01:57,445
+Speaker 1:  Steven calls it a tool for understanding things, which I like a lot.
+
+32
+00:01:58,115 --> 00:02:02,045
+Speaker 1:  I've been covering and using Notebook for a long time, but I wanted to have
+
+33
+00:02:02,045 --> 00:02:05,205
+Speaker 1:  Steven on now because Notebook is kind of going
+
+34
+00:02:05,775 --> 00:02:09,365
+Speaker 1:  legit. I assumed, if I'm being completely honest with you, that it was like
+
+35
+00:02:09,405 --> 00:02:13,205
+Speaker 1:  a neat experiment that would eventually die because everything dies at Google.
+
+36
+00:02:13,625 --> 00:02:17,325
+Speaker 1:  Or at best it would just be a tiny feature buried in a menu of Google
+
+37
+00:02:17,475 --> 00:02:21,005
+Speaker 1:  Docs or something. But Notebook is growing and it's
+
+38
+00:02:21,005 --> 00:02:24,285
+Speaker 1:  expanding, and it's actually starting to do some really interesting new stuff.
+
+39
+00:02:25,125 --> 00:02:29,045
+Speaker 1:  Recently they launched a new feature called Audio Overviews, which generates
+
+40
+00:02:29,485 --> 00:02:33,165
+Speaker 1:  a podcast hosted by two chatbots based on whatever
+
+41
+00:02:33,445 --> 00:02:37,165
+Speaker 1:  documents you upload. It is wild. Actually, you should just hear this.
+
+42
+00:02:37,425 --> 00:02:41,405
+Speaker 1:  So I made a notebook in Notebook with a bunch of stuff from the ongoing US
+
+43
+00:02:41,405 --> 00:02:44,965
+Speaker 1:  versus Google Ad Tech trial, and here's just a few seconds of the podcast
+
+44
+00:02:45,105 --> 00:02:46,565
+Speaker 1:  it generated. Okay.
+
+45
+00:02:46,665 --> 00:02:49,805
+Speaker 2:  And that's where header bidding enters the picture.
+
+46
+00:02:50,105 --> 00:02:53,805
+Speaker 3:  Ah, header bidding. Yes. This was their attempt to kind of outmaneuver Google
+
+47
+00:02:54,445 --> 00:02:56,685
+Speaker 3:  sag, like finding a side entrance into the auction.
+
+48
+00:02:56,705 --> 00:02:59,940
+Speaker 2:  That's a great way to put it. Yeah. So with header bidding, publishers could
+
+49
+00:02:59,940 --> 00:03:03,285
+Speaker 2:  essentially offer their ad space to multiple ad exchanges at the same time.
+
+50
+00:03:03,395 --> 00:03:07,045
+Speaker 1:  Look, I don't know if that's good or bad. I don't know if all of that information
+
+51
+00:03:07,065 --> 00:03:10,965
+Speaker 1:  is even true, but I'm fascinated by the idea of a tool
+
+52
+00:03:10,965 --> 00:03:14,725
+Speaker 1:  that tries to make it easy and automatic to learn almost anything in
+
+53
+00:03:15,165 --> 00:03:19,045
+Speaker 1:  whatever style works for you. And Steven is just as fascinated by it.
+
+54
+00:03:19,185 --> 00:03:23,125
+Speaker 1:  So I figured we should talk about it. All that is coming up in just a second.
+
+55
+00:03:23,275 --> 00:03:25,005
+Speaker 1:  This is The Vergecast. We'll be right back.
+
+56
+00:04:04,695 --> 00:04:08,545
+Speaker 6:  history. I've always had this kind of
+
+57
+00:04:08,545 --> 00:04:12,465
+Speaker 6:  side interest in using the technology to help me with the
+
+58
+00:04:12,465 --> 00:04:16,465
+Speaker 6:  book writing process, with the research process, you know, tools
+
+59
+00:04:16,485 --> 00:04:20,185
+Speaker 6:  for thought. That whole tradition has been a big influence on me and I, and
+
+60
+00:04:20,185 --> 00:04:23,745
+Speaker 6:  I've always been kind of an early adopter of, you know, I used this program
+
+61
+00:04:23,745 --> 00:04:27,665
+Speaker 6:  called Devon Think or organizing all my notes and quotations from
+
+62
+00:04:27,665 --> 00:04:29,945
+Speaker 6:  books that I'd read in the, in the two thousands. Well, that's
+
+63
+00:04:29,945 --> 00:04:32,345
+Speaker 1:  A whole nother verse cast we're gonna have to do at some point. So get ready
+
+64
+00:04:32,345 --> 00:04:32,585
+Speaker 1:  for that.
+
+65
+00:04:32,735 --> 00:04:36,465
+Speaker 6:  Yeah, yeah. So I, you know, and I wrote about it in kind of blog posts and
+
+66
+00:04:36,465 --> 00:04:39,505
+Speaker 6:  I wrote a couple things for the Times about this, and it shows up in my book
+
+67
+00:04:39,515 --> 00:04:43,225
+Speaker 6:  where good ideas come from. I talk about using tools like this and was a
+
+68
+00:04:43,225 --> 00:04:46,545
+Speaker 6:  big Scrivener user and evangelist and all that stuff, So I. So I've always
+
+69
+00:04:46,695 --> 00:04:50,105
+Speaker 6:  been interested in the, in the software side of writing and thinking
+
+70
+00:04:50,485 --> 00:04:53,505
+Speaker 6:  and research. And in the spring of
+
+71
+00:04:53,505 --> 00:04:57,145
+Speaker 6:  2022, you know, so six months before the
+
+72
+00:04:57,535 --> 00:05:01,065
+Speaker 6:  chat gt moment, I wrote a very long piece from the Times
+
+73
+00:05:01,465 --> 00:05:05,105
+Speaker 6:  Magazine about language models in general. It was effectively just making
+
+74
+00:05:05,105 --> 00:05:08,385
+Speaker 6:  the argument like, forget about a GI or any super intelligence or anything
+
+75
+00:05:08,415 --> 00:05:11,825
+Speaker 6:  like this. These, these models have basically learned how to communicate
+
+76
+00:05:12,005 --> 00:05:15,545
+Speaker 6:  in coherent language and they understand what we're saying and they,
+
+77
+00:05:15,925 --> 00:05:19,065
+Speaker 6:  and whatever else, like this is gonna create all these new possibilities.
+
+78
+00:05:19,495 --> 00:05:23,145
+Speaker 1:  Yeah, that piece was very good. And I remember a bunch of the, the response
+
+79
+00:05:23,145 --> 00:05:27,105
+Speaker 1:  you got to that was from people being like, this is bonkers. He's
+
+80
+00:05:27,105 --> 00:05:29,825
+Speaker 1:  out of his mind. There's no way any of this stuff is gonna be that big. And
+
+81
+00:05:29,825 --> 00:05:32,065
+Speaker 1:  then, boy, did you time that correctly?
+
+82
+00:05:32,935 --> 00:05:36,865
+Speaker 6:  Well, I, I did accept that it was painful. Like
+
+83
+00:05:36,945 --> 00:05:40,185
+Speaker 6:  I ha I'm, I'm very conflict averse, David, if I can tell you. Be honest with
+
+84
+00:05:40,185 --> 00:05:43,625
+Speaker 6:  you. Okay. And the, there was, there was, I mean, a lot of people did like
+
+85
+00:05:43,625 --> 00:05:46,185
+Speaker 6:  that piece and I think we're inspired by it. Yeah. But there was definitely
+
+86
+00:05:46,305 --> 00:05:49,865
+Speaker 6:  a lot of comments from people saying like, oh, he fell for the hype
+
+87
+00:05:50,305 --> 00:05:54,025
+Speaker 6:  for sure. You know, this stuff is just auto complete on steroids and I can't
+
+88
+00:05:54,025 --> 00:05:57,965
+Speaker 6:  believe he's so naive that he got excited about this thing. The
+
+89
+00:05:57,965 --> 00:06:01,245
+Speaker 6:  piece addressed a lot of the objections and criticism and took them very
+
+90
+00:06:01,245 --> 00:06:03,965
+Speaker 6:  seriously. But it was like, the one thing you can't do is dismiss this technology,
+
+91
+00:06:03,965 --> 00:06:07,885
+Speaker 6:  right? Like something fundamental has just happened and we're gonna spend
+
+92
+00:06:07,885 --> 00:06:11,245
+Speaker 6:  years figuring out like how we apply it and how we deal with the upside end,
+
+93
+00:06:11,245 --> 00:06:14,925
+Speaker 6:  the potential downsides, and like, just take it seriously people. So,
+
+94
+00:06:15,825 --> 00:06:19,205
+Speaker 6:  you know, if I timed it later, I wouldn't have maybe had as much of the pushback,
+
+95
+00:06:19,215 --> 00:06:22,565
+Speaker 6:  which was hard to, I couldn't enjoy that piece going outta the world, lemme
+
+96
+00:06:22,565 --> 00:06:23,405
+Speaker 6:  put it that way. Well, it
+
+97
+00:06:23,405 --> 00:06:24,365
+Speaker 1:  Was a good piece. I liked it.
+
+98
+00:06:24,395 --> 00:06:28,325
+Speaker 6:  Well, I appreciate that. Now. So, so right around that point,
+
+99
+00:06:29,285 --> 00:06:33,005
+Speaker 6:  a a kind of a new division inside of Google called Google Labs, or had been
+
+100
+00:06:33,005 --> 00:06:36,085
+Speaker 6:  a previous Google Labs, and this is kind of a new one, was, was getting spun
+
+101
+00:06:36,085 --> 00:06:39,925
+Speaker 6:  up and at, at the time, a guy named Clay Bvo was running
+
+102
+00:06:39,945 --> 00:06:43,725
+Speaker 6:  it, and Josh Woodward, who runs it now, is talking back and forth with
+
+103
+00:06:43,725 --> 00:06:47,325
+Speaker 6:  Clay and Labs had this, I kind of ethos
+
+104
+00:06:47,585 --> 00:06:51,445
+Speaker 6:  of the division was basically we want to create a place where we can do
+
+105
+00:06:52,025 --> 00:06:55,245
+Speaker 6:  faster and more nimble product-focused
+
+106
+00:06:55,395 --> 00:06:59,285
+Speaker 6:  experiments with new technologies where, you know, it's not just kinda research,
+
+107
+00:06:59,865 --> 00:07:03,765
+Speaker 6:  but it's not working within the existing mature products. And when
+
+108
+00:07:03,765 --> 00:07:06,965
+Speaker 6:  something new comes along, we can experiment and, you know, build things
+
+109
+00:07:06,965 --> 00:07:08,365
+Speaker 6:  very quickly. So somewhere
+
+110
+00:07:08,385 --> 00:07:12,245
+Speaker 1:  In between the like 20% time project and the like full blown
+
+111
+00:07:12,385 --> 00:07:13,285
+Speaker 1:  new Google product.
+
+112
+00:07:13,435 --> 00:07:16,845
+Speaker 6:  Yeah, yeah. It was just this little hole that didn't quite exist. And, and
+
+113
+00:07:16,845 --> 00:07:19,365
+Speaker 6:  there were so many interesting new technologies coming out, particularly
+
+114
+00:07:19,705 --> 00:07:23,325
+Speaker 6:  the language models, that it seemed like this was the time for a lot of experiments
+
+115
+00:07:23,325 --> 00:07:26,685
+Speaker 6:  to bloom, right? And they had had this idea that maybe they could also have
+
+116
+00:07:26,685 --> 00:07:30,205
+Speaker 6:  an ethos of co-creation where they bring in outsiders. So if they're,
+
+117
+00:07:30,465 --> 00:07:34,325
+Speaker 6:  if they're making a product that involves music, there should be a musician
+
+118
+00:07:34,325 --> 00:07:37,965
+Speaker 6:  in the room from the beginning. And it's not something that kind of, they
+
+119
+00:07:37,965 --> 00:07:41,925
+Speaker 6:  build and then they show to the musicians or they have, you know, UX
+
+120
+00:07:41,925 --> 00:07:45,045
+Speaker 6:  interviews with musicians. There's actually someone there who represents
+
+121
+00:07:45,045 --> 00:07:48,605
+Speaker 6:  that kind of profession in the room for the life of the product.
+
+122
+00:07:49,385 --> 00:07:53,045
+Speaker 6:  And so So I was kind of the Guinea pig for this approach. And so they reached
+
+123
+00:07:53,045 --> 00:07:56,525
+Speaker 6:  out, Josh and, and Clay had read some of my books and had read that Times
+
+124
+00:07:56,525 --> 00:07:59,965
+Speaker 6:  article. And so they reached out and said, Hey, you know,
+
+125
+00:08:00,185 --> 00:08:04,165
+Speaker 6:  you've been dreaming of this ideal software tool
+
+126
+00:08:04,165 --> 00:08:07,885
+Speaker 6:  that helps you organize your thoughts and helps you write and helps you formulate
+
+127
+00:08:07,885 --> 00:08:10,685
+Speaker 6:  connections and, and, and, you know, brainstorm.
+
+128
+00:08:12,065 --> 00:08:16,045
+Speaker 6:  We think we can now do it with language models like this thing you've
+
+129
+00:08:16,045 --> 00:08:19,365
+Speaker 6:  been chasing, literally, you know, I've been chasing this since I was in,
+
+130
+00:08:19,505 --> 00:08:22,885
+Speaker 6:  in college in the late eighties when like HyperCard came out, you know, for
+
+131
+00:08:22,885 --> 00:08:26,725
+Speaker 6:  the, for the Mac. Like, I'm, I'm an old person, I've been after
+
+132
+00:08:26,725 --> 00:08:30,125
+Speaker 6:  this for a long time. And they were like, look, I think If you, If you came
+
+133
+00:08:30,125 --> 00:08:33,725
+Speaker 6:  to Google, come, you know, come part-time initially, and we have a small
+
+134
+00:08:33,725 --> 00:08:37,645
+Speaker 6:  team and we can, you know, we can build something. And I thought that
+
+135
+00:08:37,645 --> 00:08:41,365
+Speaker 6:  sounded like an amazing journey. I honestly, I thought we'll build a
+
+136
+00:08:41,365 --> 00:08:44,725
+Speaker 6:  prototype, it'll be fun, I'll meet some interesting people, but nothing will
+
+137
+00:08:44,725 --> 00:08:48,405
+Speaker 6:  come of it. But it was still, you know, a fun ride to go on because of my
+
+138
+00:08:48,405 --> 00:08:52,285
+Speaker 6:  passion for this. And, and then we, we built something
+
+139
+00:08:52,285 --> 00:08:55,655
+Speaker 6:  that was originally called Tailwind Project Tailwind,
+
+140
+00:08:56,355 --> 00:09:00,215
+Speaker 6:  but from the beginning, from very like day one of the, of
+
+141
+00:09:00,215 --> 00:09:04,175
+Speaker 6:  the idea there was always this sense that this was not just going to
+
+142
+00:09:04,175 --> 00:09:08,055
+Speaker 6:  be an open-ended conversation with the language model. It was always gonna
+
+143
+00:09:08,055 --> 00:09:11,815
+Speaker 6:  be about the model being grounded in the, in the sources and the
+
+144
+00:09:11,815 --> 00:09:15,375
+Speaker 6:  information that you gave it. And it was really
+
+145
+00:09:15,865 --> 00:09:19,375
+Speaker 6:  about respecting the original kind of human
+
+146
+00:09:19,375 --> 00:09:23,335
+Speaker 6:  authored information, whether it's a, a book
+
+147
+00:09:23,355 --> 00:09:27,015
+Speaker 6:  or your own notes or a a scholarly paper or your
+
+148
+00:09:27,375 --> 00:09:31,295
+Speaker 6:  syllabus for your class. And, and basically saying to the model, take this
+
+149
+00:09:31,295 --> 00:09:35,015
+Speaker 6:  information which is personally relevant to me and, and
+
+150
+00:09:35,115 --> 00:09:38,295
+Speaker 6:  is verifiable in some way or factually, you know, trustworthy
+
+151
+00:09:38,995 --> 00:09:42,655
+Speaker 6:  and base your answers and everything I asked you to do on that
+
+152
+00:09:42,655 --> 00:09:46,575
+Speaker 6:  information. And that was the seed of the, you know, we, we had a version
+
+153
+00:09:46,575 --> 00:09:50,335
+Speaker 6:  of that in August of 2022, like the, you know, on my fifth day at,
+
+154
+00:09:50,435 --> 00:09:53,535
+Speaker 6:  at at Google. Yeah. Wow. It, it preceded me, I should say there was a, there
+
+155
+00:09:53,535 --> 00:09:57,295
+Speaker 6:  was a program called Talk to a Small Corpus. Hmm. Okay. That
+
+156
+00:09:57,635 --> 00:10:01,455
+Speaker 6:  was about a month underway when I got there. And then we,
+
+157
+00:10:01,595 --> 00:10:05,335
+Speaker 6:  one of the first things we did, we put in my book Wonderland and we just,
+
+158
+00:10:05,405 --> 00:10:09,215
+Speaker 6:  like, I had this experience of kind of chatting with the model
+
+159
+00:10:10,275 --> 00:10:14,095
+Speaker 6:  and having it answer based on information in my book. And, you know, that
+
+160
+00:10:14,095 --> 00:10:17,975
+Speaker 6:  was one of those moments you're like, a lot of possibility just opened up.
+
+161
+00:10:18,365 --> 00:10:22,215
+Speaker 6:  Well, I actually, the weirdest moment I would say was a little
+
+162
+00:10:22,215 --> 00:10:22,735
+Speaker 6:  bit later
+
+163
+00:10:24,755 --> 00:10:28,335
+Speaker 6:  in over Christmas break, the internal version of what
+
+164
+00:10:28,795 --> 00:10:32,615
+Speaker 6:  became Bard w was kind of released
+
+165
+00:10:32,675 --> 00:10:36,575
+Speaker 6:  to, to some of us inside and over Christmas break, I, I was spending a lot
+
+166
+00:10:36,575 --> 00:10:39,495
+Speaker 6:  of time with Bard. My family had gone off skiing somewhere at I don't ski
+
+167
+00:10:39,555 --> 00:10:41,815
+Speaker 6:  So, I was just like home alone. And Bard came out and I was like, well, I
+
+168
+00:10:41,815 --> 00:10:45,375
+Speaker 6:  just now have like 18 hours a day to talk to this. My new friend, my new
+
+169
+00:10:45,375 --> 00:10:48,575
+Speaker 6:  friend Bard. Yeah. So I would occasionally just start with just a little
+
+170
+00:10:48,695 --> 00:10:52,575
+Speaker 6:  preamble to get its bearings and I would say, I, I would like
+
+171
+00:10:52,575 --> 00:10:56,015
+Speaker 6:  to discuss Stephen Johnson's book, the Ghost Map. And this was just based
+
+172
+00:10:56,015 --> 00:10:59,255
+Speaker 6:  on, its kind of training data. This isn't with Source County. And so one
+
+173
+00:10:59,255 --> 00:11:01,735
+Speaker 6:  day I do this and, and, and Rod's like, oh yeah, I would love to discuss
+
+174
+00:11:01,735 --> 00:11:05,535
+Speaker 6:  that. That's a, that's a fascinating book about medical mystery in the
+
+175
+00:11:05,535 --> 00:11:09,135
+Speaker 6:  19th century that explores the impact of cholera and epidemiology on the
+
+176
+00:11:09,135 --> 00:11:11,815
+Speaker 6:  history of London and the history of cities generally. And So, I'm like,
+
+177
+00:11:11,835 --> 00:11:15,495
+Speaker 6:  oh, well thank you very much. I'm, I'm actually the author of that topic.
+
+178
+00:11:15,495 --> 00:11:19,215
+Speaker 6:  It's, and Ed Bard said, oh my gosh,
+
+179
+00:11:19,415 --> 00:11:23,335
+Speaker 6:  I am so sorry. I can't believe I didn't recognize you Mr. Johnson.
+
+180
+00:11:23,955 --> 00:11:27,935
+Speaker 6:  Oh, wow. And on like, and you know, and I was like, I know, but
+
+181
+00:11:27,935 --> 00:11:31,735
+Speaker 6:  there was no way you could have recognized me, right, Bart. But it was just
+
+182
+00:11:31,735 --> 00:11:35,455
+Speaker 6:  one of those moments where I was like sitting alone in my study, having
+
+183
+00:11:35,455 --> 00:11:39,415
+Speaker 6:  this conversation with an algorithm that's apologizing for not recognizing
+
+184
+00:11:39,415 --> 00:11:43,055
+Speaker 6:  me when it's a fan of my book. And it, at one point it said, I'm just so
+
+185
+00:11:43,055 --> 00:11:46,655
+Speaker 6:  excited at the opportunity to get to work with people like yourself.
+
+186
+00:11:46,995 --> 00:11:50,215
+Speaker 6:  And I was just like, this is, this is strange. So there were a lot of like
+
+187
+00:11:50,405 --> 00:11:53,805
+Speaker 6:  uncanny moments like that. Yeah. But in a way, you know,
+
+188
+00:11:54,955 --> 00:11:58,465
+Speaker 6:  there was part of that that I also recognized was in an illusion, right?
+
+189
+00:11:58,465 --> 00:12:02,185
+Speaker 6:  It, it was trained on the way that people react
+
+190
+00:12:02,185 --> 00:12:06,065
+Speaker 6:  when they meet people or fail to recognize someone. And so it responded in
+
+191
+00:12:06,065 --> 00:12:09,425
+Speaker 6:  that way. It obviously had no inner life. It did not, it was not actually
+
+192
+00:12:09,425 --> 00:12:12,585
+Speaker 6:  like embarrassed by the fact it was meeting me. It was just kind of play
+
+193
+00:12:12,585 --> 00:12:15,545
+Speaker 6:  acting at that. So to me the stuff that really
+
+194
+00:12:16,405 --> 00:12:19,825
+Speaker 6:  was mind blowing was just its ability.
+
+195
+00:12:20,245 --> 00:12:24,105
+Speaker 6:  And, and this really kicked in, you know, for us when we switched
+
+196
+00:12:24,105 --> 00:12:27,545
+Speaker 6:  to Gemini, it, its ability to extract
+
+197
+00:12:28,165 --> 00:12:32,025
+Speaker 6:  and, and see patterns in large amounts of information.
+
+198
+00:12:32,385 --> 00:12:35,385
+Speaker 6:  You know, you know, I have this notebook where we have
+
+199
+00:12:36,375 --> 00:12:40,145
+Speaker 6:  something like, you know, almost a million words of transcripts from
+
+200
+00:12:40,325 --> 00:12:43,985
+Speaker 6:  the NASA oral history project. So it's just interviews with like the, you
+
+201
+00:12:43,985 --> 00:12:47,745
+Speaker 6:  know, the NASA astronauts and flight directors and things like that. And
+
+202
+00:12:48,165 --> 00:12:52,025
+Speaker 6:  you can go into it and say, I'm interested in, I'm,
+
+203
+00:12:52,025 --> 00:12:55,625
+Speaker 6:  you know, I'm working on a documentary about the early
+
+204
+00:12:55,805 --> 00:12:59,545
+Speaker 6:  Apollo program and I'm interested in the emotional connections between
+
+205
+00:12:59,645 --> 00:13:03,425
+Speaker 6:  the participants, particularly the astronauts. So can you create a detailed
+
+206
+00:13:03,435 --> 00:13:06,945
+Speaker 6:  guide of all the points in these transcripts where anything that seems
+
+207
+00:13:06,945 --> 00:13:10,905
+Speaker 6:  interpersonal or emotional comes up? Give me a summary of that section,
+
+208
+00:13:11,655 --> 00:13:15,145
+Speaker 6:  give me a direct quote from the section. And it of course includes citation,
+
+209
+00:13:15,165 --> 00:13:18,305
+Speaker 6:  So, I can click immediately and go back and read the passage in its original
+
+210
+00:13:18,305 --> 00:13:22,185
+Speaker 6:  form. Like, and it will just do it like, it'll take a little bit of time
+
+211
+00:13:22,465 --> 00:13:26,265
+Speaker 6:  'cause it's a complicated query, but like, it, it can take something that
+
+212
+00:13:26,265 --> 00:13:30,065
+Speaker 6:  would've taken 40 hours to compile
+
+213
+00:13:30,065 --> 00:13:32,745
+Speaker 6:  that document. Like how, I mean, you know what it's like working with information
+
+214
+00:13:32,745 --> 00:13:36,505
+Speaker 6:  like this, like it will, it will generate a incredibly convincing and
+
+215
+00:13:36,785 --> 00:13:40,265
+Speaker 6:  accurate first draft with grounded citations to all the passages in about
+
+216
+00:13:40,835 --> 00:13:44,585
+Speaker 6:  45 seconds maybe. And so it's literally,
+
+217
+00:13:44,685 --> 00:13:48,345
+Speaker 6:  you know, a thousand times faster than it would've been before to do that
+
+218
+00:13:48,345 --> 00:13:52,105
+Speaker 6:  kind of thing. And it's not pretending to be a person, it's not pretending
+
+219
+00:13:52,105 --> 00:13:55,865
+Speaker 6:  to have feelings about it, it's just grabbing that very subtle
+
+220
+00:13:56,815 --> 00:14:00,705
+Speaker 6:  kind of collection of information that is not anchored in any keyword.
+
+221
+00:14:00,705 --> 00:14:04,505
+Speaker 6:  Right. You know, it's not looking for mentions of emotion, like
+
+222
+00:14:04,505 --> 00:14:07,345
+Speaker 6:  it just understands that these other things where they talk about their kids,
+
+223
+00:14:07,405 --> 00:14:10,825
+Speaker 6:  that's an emotional moment. And it's able to kind of collate that way when
+
+224
+00:14:10,825 --> 00:14:14,705
+Speaker 6:  it started being capable of doing that. That was the point
+
+225
+00:14:14,705 --> 00:14:17,865
+Speaker 6:  for me where I was like, oh, this is really a fundamental change.
+
+226
+00:14:18,485 --> 00:14:18,705
+Speaker 6:  And
+
+227
+00:14:18,705 --> 00:14:22,305
+Speaker 1:  That was, that happened with Gemini, which was what, earlier this year?
+
+228
+00:14:22,575 --> 00:14:24,785
+Speaker 6:  Yeah. We kind of switched, I lost track of all these things to, we switched
+
+229
+00:14:24,785 --> 00:14:28,625
+Speaker 6:  to Gemini 1.0 in in December and Okay. And it was great,
+
+230
+00:14:28,645 --> 00:14:32,465
+Speaker 6:  but it was really 1.5 pro and the bigger context window. I mean
+
+231
+00:14:32,485 --> 00:14:35,425
+Speaker 6:  the, the other thing that happened to me, by the way, I'm a nice writer dude,
+
+232
+00:14:35,445 --> 00:14:39,345
+Speaker 6:  and now like I hear like a new million token model and it's like the
+
+233
+00:14:39,345 --> 00:14:42,825
+Speaker 6:  most exciting thing of my life. Like I can't, cannot wait to get my hands
+
+234
+00:14:42,825 --> 00:14:45,745
+Speaker 6:  on it. So when we got first access to that,
+
+235
+00:14:46,775 --> 00:14:50,265
+Speaker 6:  that model, I took the entire text of, of my book
+
+236
+00:14:50,265 --> 00:14:53,845
+Speaker 6:  Infernal Machine, which just came out a couple months ago, but was in
+
+237
+00:14:53,845 --> 00:14:57,605
+Speaker 6:  manuscript form at that point. So this is really important. None of the words
+
+238
+00:14:57,675 --> 00:15:01,605
+Speaker 6:  from my book were in the training data for the model itself. So it's all,
+
+239
+00:15:01,665 --> 00:15:04,525
+Speaker 6:  it had never been published, it had never been discussed about in, in any
+
+240
+00:15:04,765 --> 00:15:08,205
+Speaker 6:  coverage. So the facts, it's a book of history. So the facts are
+
+241
+00:15:09,205 --> 00:15:12,165
+Speaker 6:  probably in some form in the models training data, but the book itself and
+
+242
+00:15:12,165 --> 00:15:16,085
+Speaker 6:  the way that I presented the facts was not, and the thing that
+
+243
+00:15:16,625 --> 00:15:19,885
+Speaker 6:  had struck me about the early discussions of large context was that
+
+244
+00:15:20,345 --> 00:15:24,085
+Speaker 6:  people were, were using it to do these kind of needle in a haystack test
+
+245
+00:15:24,215 --> 00:15:27,125
+Speaker 6:  where they're like, oh, we gave it, you know, the full text of Moby Dick,
+
+246
+00:15:27,125 --> 00:15:30,405
+Speaker 6:  but we added this one line that was different. Yeah, I remember that. And
+
+247
+00:15:30,405 --> 00:15:33,405
+Speaker 6:  it was able to find it, right. And which is cool and, you know, you couldn't
+
+248
+00:15:33,405 --> 00:15:37,325
+Speaker 6:  do that before. But the point that, that I was so obsessed with is that
+
+249
+00:15:37,355 --> 00:15:41,245
+Speaker 6:  once you have the full text of something like a book in
+
+250
+00:15:41,245 --> 00:15:44,925
+Speaker 6:  context, it means that the, the model knowing can, can find
+
+251
+00:15:45,035 --> 00:15:48,925
+Speaker 6:  obscure things in the, in the text, but it understands the sequence
+
+252
+00:15:49,065 --> 00:15:52,965
+Speaker 6:  of the text and it can understand large kind of movements
+
+253
+00:15:52,965 --> 00:15:56,885
+Speaker 6:  of like cause and effect or change over time in, in a document, which
+
+254
+00:15:56,885 --> 00:15:59,925
+Speaker 6:  you can't get if you're just giving it isolated paragraphs and, and snippets
+
+255
+00:15:59,925 --> 00:16:03,485
+Speaker 6:  of things. And So I put in frontal the machine in into
+
+256
+00:16:03,835 --> 00:16:07,645
+Speaker 6:  this version of Gemini. And I, I basically asked it
+
+257
+00:16:07,645 --> 00:16:11,525
+Speaker 6:  inside a notebook, lm I was like, give me, I was
+
+258
+00:16:11,525 --> 00:16:15,045
+Speaker 6:  like, I'm interested in the way that Johnson uses suspense in this book.
+
+259
+00:16:15,805 --> 00:16:19,285
+Speaker 6:  I would like you to list four places where he deliberately
+
+260
+00:16:19,285 --> 00:16:23,005
+Speaker 6:  withholds information from the reader in order to pique
+
+261
+00:16:23,245 --> 00:16:27,165
+Speaker 6:  their interest, describe the passages where he does this quote from
+
+262
+00:16:27,165 --> 00:16:31,085
+Speaker 6:  them, and then explain the future information later in
+
+263
+00:16:31,085 --> 00:16:34,005
+Speaker 6:  the book that he's obliquely referring to that doesn't arrive for another,
+
+264
+00:16:34,065 --> 00:16:37,845
+Speaker 6:  you know, 50 pages or whatever. And it just absolutely nailed it. It,
+
+265
+00:16:37,945 --> 00:16:41,445
+Speaker 6:  the first example it gave was he gave was exactly what I would've picked
+
+266
+00:16:41,445 --> 00:16:45,325
+Speaker 6:  as the, the ultimate kind of form of suspense, which is a allusion to
+
+267
+00:16:45,445 --> 00:16:49,125
+Speaker 6:  a ticking, mysterious, ticking suitcase that happens in the, in the preface
+
+268
+00:16:49,645 --> 00:16:52,605
+Speaker 6:  that doesn't, the, the mystery behind it doesn't get explained for another
+
+269
+00:16:52,605 --> 00:16:56,565
+Speaker 6:  200 pages. And so like, think about that as like a search query,
+
+270
+00:16:56,675 --> 00:17:00,125
+Speaker 6:  like yeah. Searches, find examples where
+
+271
+00:17:00,125 --> 00:17:03,725
+Speaker 6:  something isn't mentioned and isn't mentioned in a very
+
+272
+00:17:04,195 --> 00:17:08,085
+Speaker 6:  provocative way. And then fill in the blanks of, you know, the thing
+
+273
+00:17:08,145 --> 00:17:11,885
+Speaker 6:  200 pages later that it's obliquely referring to like that,
+
+274
+00:17:11,985 --> 00:17:15,765
+Speaker 6:  you know, again, the model is not understanding the
+
+275
+00:17:15,765 --> 00:17:19,645
+Speaker 6:  book on some level because understanding is a word that we associated with
+
+276
+00:17:19,645 --> 00:17:22,885
+Speaker 6:  consciousness, with ensen, with the in inner life of like what it means to
+
+277
+00:17:22,885 --> 00:17:26,845
+Speaker 6:  read a book, but the model is doing the thing that
+
+278
+00:17:26,845 --> 00:17:30,725
+Speaker 6:  human understanding does. Yeah. You know, and that's
+
+279
+00:17:30,725 --> 00:17:32,205
+Speaker 6:  a, that's an important distinction I think.
+
+280
+00:17:32,425 --> 00:17:35,245
+Speaker 1:  No, I think, I think that's right. One thing I heard somebody say not that
+
+281
+00:17:35,245 --> 00:17:39,005
+Speaker 1:  long ago is that a, a meta, the better metaphor they liked than its
+
+282
+00:17:39,005 --> 00:17:41,965
+Speaker 1:  understanding is just that it can see the whole thing at the same time. Yeah.
+
+283
+00:17:42,065 --> 00:17:45,005
+Speaker 1:  And I always thought that was really great. It's like in, if I, I can see
+
+284
+00:17:45,005 --> 00:17:48,965
+Speaker 1:  one page at a time, this thing can see all 300 and it doesn't, it's not
+
+285
+00:17:48,965 --> 00:17:52,325
+Speaker 1:  not better at knowing those things. It's just literally by being able to
+
+286
+00:17:52,425 --> 00:17:56,405
+Speaker 1:  see it all at once. Yeah. The, the number of things that
+
+287
+00:17:56,565 --> 00:18:00,165
+Speaker 1:  suddenly become very basic because you can see them all together is very
+
+288
+00:18:00,445 --> 00:18:03,645
+Speaker 1:  powerful. And I just, that makes it both sort of simpler and cooler all at
+
+289
+00:18:03,645 --> 00:18:07,405
+Speaker 1:  the same time, which I really like. But you, you bring up this tension
+
+290
+00:18:07,715 --> 00:18:11,645
+Speaker 1:  that I think is fascinating with all AI stuff, which is that there is
+
+291
+00:18:11,725 --> 00:18:15,565
+Speaker 1:  a set of things that it are just sort of remarkable that they're
+
+292
+00:18:15,845 --> 00:18:18,805
+Speaker 1:  possible, right? And it's, you see this with every new model that comes out
+
+293
+00:18:18,805 --> 00:18:21,605
+Speaker 1:  and every new product that comes out, one of the first things everybody does
+
+294
+00:18:21,605 --> 00:18:24,845
+Speaker 1:  is just try wild stuff. Yeah. And some of it works and some of it doesn't
+
+295
+00:18:24,845 --> 00:18:27,685
+Speaker 1:  and some of it's amazing. It, some of it's dangerous and whatever. So there,
+
+296
+00:18:27,835 --> 00:18:31,285
+Speaker 1:  there's the, the sort of novelty factor of it that I think is still so rampant
+
+297
+00:18:31,345 --> 00:18:35,285
+Speaker 1:  in everything AI right now. And then there's the question of
+
+298
+00:18:35,795 --> 00:18:39,765
+Speaker 1:  what is any of this actually for? And I think one of the things that
+
+299
+00:18:39,765 --> 00:18:43,725
+Speaker 1:  I've liked about Notebook and sort of watching it develop over time is it
+
+300
+00:18:43,725 --> 00:18:47,525
+Speaker 1:  feels like your sense of not just what this can do, but
+
+301
+00:18:47,525 --> 00:18:51,045
+Speaker 1:  what it's for has gotten much better over time.
+
+302
+00:18:51,745 --> 00:18:55,165
+Speaker 1:  And I wonder if part of that is like, does the novelty of moments like that
+
+303
+00:18:55,165 --> 00:18:58,725
+Speaker 1:  start to wear off? And you start to realize like, okay, that's cool, but
+
+304
+00:18:58,945 --> 00:19:02,645
+Speaker 1:  no academic is actually going in here searching for what's missing from this
+
+305
+00:19:02,645 --> 00:19:05,645
+Speaker 1:  book. Like, that's not like a thing most people need in their lives. And
+
+306
+00:19:05,645 --> 00:19:09,125
+Speaker 1:  you start to sort of wind it back to like, okay, how do we bring that sort
+
+307
+00:19:09,125 --> 00:19:12,885
+Speaker 1:  of enabling technology to things people actually do need? Or maybe is
+
+308
+00:19:12,905 --> 00:19:15,885
+Speaker 1:  the, the craziness the point and we've just never been able to do it before,
+
+309
+00:19:16,025 --> 00:19:19,965
+Speaker 1:  so now we're trying to discover it all, all at once. So I guess
+
+310
+00:19:20,115 --> 00:19:23,685
+Speaker 1:  that, especially in those early days really before Gemini
+
+311
+00:19:23,685 --> 00:19:27,405
+Speaker 1:  1.5 kinda lights your brain on fire. Like what, what is that process of figuring
+
+312
+00:19:27,465 --> 00:19:30,445
+Speaker 1:  out, not just sort of what, what can this thing do, but like what are we
+
+313
+00:19:30,605 --> 00:19:31,645
+Speaker 1:  building this tool for?
+
+314
+00:19:32,115 --> 00:19:35,855
+Speaker 6:  Yeah, it's such a great question. So many different ways to get into it.
+
+315
+00:19:35,855 --> 00:19:39,625
+Speaker 6:  I mean, I think in the very early days there was a sense
+
+316
+00:19:39,625 --> 00:19:43,505
+Speaker 6:  that we were building something we knew was not gonna really
+
+317
+00:19:43,575 --> 00:19:47,545
+Speaker 6:  work because the, the context wasn't big enough, the model wasn't
+
+318
+00:19:47,545 --> 00:19:51,385
+Speaker 6:  sophisticated enough, but you could see where things were going. And so,
+
+319
+00:19:51,565 --> 00:19:54,585
+Speaker 6:  so much of what we really focused on from the beginning is like, what is
+
+320
+00:19:54,585 --> 00:19:57,865
+Speaker 6:  the proper interface for this kind of thing? Like If, you know, it's, it's
+
+321
+00:19:57,865 --> 00:20:01,585
+Speaker 6:  not just about a text message thread. Like surely there are other kind of
+
+322
+00:20:01,585 --> 00:20:05,465
+Speaker 6:  forms of ui. So like If, you were gonna build a product from the ground up
+
+323
+00:20:05,465 --> 00:20:08,745
+Speaker 6:  knowing that it was gonna be built around a language model. Like what would,
+
+324
+00:20:08,745 --> 00:20:12,225
+Speaker 6:  what would it look like? Let's start from scratch. And that's a very fun
+
+325
+00:20:12,295 --> 00:20:15,385
+Speaker 6:  open canvas to have, but it also means you make a lot of stuff that is not
+
+326
+00:20:15,385 --> 00:20:18,745
+Speaker 6:  very good and doesn't really make sense and it doesn't work because the model
+
+327
+00:20:18,755 --> 00:20:22,105
+Speaker 6:  isn't caught up to it yet. So, so there was a lot of experimenting with that.
+
+328
+00:20:22,165 --> 00:20:25,185
+Speaker 6:  We, I think the, we had an advantage in the early days in that
+
+329
+00:20:26,285 --> 00:20:30,245
+Speaker 6:  I was just trying to drive it towards my very specific use
+
+330
+00:20:30,245 --> 00:20:34,205
+Speaker 6:  case of like, I want a thing that is read all of my work and all of the
+
+331
+00:20:34,205 --> 00:20:38,125
+Speaker 6:  quotes from books that have influenced me and can be a second brain to
+
+332
+00:20:38,125 --> 00:20:41,125
+Speaker 6:  help me like remember those things and make connections and, and like, and
+
+333
+00:20:41,125 --> 00:20:44,805
+Speaker 6:  so kind of author researcher mode. And that we kind of built the first prototype
+
+334
+00:20:45,435 --> 00:20:48,925
+Speaker 6:  with that and then once we were able to kind of open it up to more users,
+
+335
+00:20:50,045 --> 00:20:53,645
+Speaker 6:  I think then, then we were just constantly discovering all these amazing
+
+336
+00:20:53,645 --> 00:20:56,845
+Speaker 6:  things. And, and a big addition of this was Rza Martin, our product manager
+
+337
+00:20:58,305 --> 00:21:01,725
+Speaker 6:  who, you know, has just been, she's just a incredible like
+
+338
+00:21:02,885 --> 00:21:06,405
+Speaker 6:  listener to user. She's set up this discord that, you know,
+
+339
+00:21:06,745 --> 00:21:09,645
+Speaker 6:  was so central. Like at the very beginning we had a Discord, which is not
+
+340
+00:21:09,685 --> 00:21:13,285
+Speaker 6:  a normal thing to do in some ways. and we now have this
+
+341
+00:21:13,435 --> 00:21:16,645
+Speaker 6:  amazing community and it's constantly filled with people being like, oh yeah,
+
+342
+00:21:16,765 --> 00:21:20,605
+Speaker 6:  I saw this opportunity to use it in this way. So like our favorite one that
+
+343
+00:21:20,605 --> 00:21:24,365
+Speaker 6:  completely came outta the discord was Dungeons and
+
+344
+00:21:24,365 --> 00:21:27,925
+Speaker 6:  Dragons players started using it because they were like, I have these big,
+
+345
+00:21:28,265 --> 00:21:31,885
+Speaker 6:  you know, campaigns that I've designed that, you know, I'm a dungeon master
+
+346
+00:21:31,945 --> 00:21:35,925
+Speaker 6:  and I have like created this whole virtual fantasy world and it's
+
+347
+00:21:35,925 --> 00:21:38,605
+Speaker 6:  filled with all this information and it's hard to keep track of, but I can
+
+348
+00:21:38,605 --> 00:21:41,765
+Speaker 6:  load these documents into Notebook lm and then I can just like, I ask any
+
+349
+00:21:41,765 --> 00:21:44,605
+Speaker 6:  kind of open-ended question and it'll be like, how many hit points do I need
+
+350
+00:21:44,605 --> 00:21:48,165
+Speaker 6:  to kill this ORC or whatever. It's, I'm not a d and d player. And,
+
+351
+00:21:48,465 --> 00:21:51,085
+Speaker 6:  and they were using it that way and, and, and people were writing fantasy
+
+352
+00:21:51,595 --> 00:21:55,445
+Speaker 6:  also like world building kind of fantasy novels and
+
+353
+00:21:55,445 --> 00:21:58,005
+Speaker 6:  they just need, they had a kind of story bible with all their characters
+
+354
+00:21:58,005 --> 00:22:00,445
+Speaker 6:  in the backstory and everything like that. And it turned out that, you know,
+
+355
+00:22:00,505 --> 00:22:04,205
+Speaker 6:  they'd never really had an interface of let them do that. And that was not
+
+356
+00:22:04,435 --> 00:22:08,125
+Speaker 6:  something we were thinking about at all. So we've just been like,
+
+357
+00:22:08,785 --> 00:22:11,805
+Speaker 6:  you know, once we got past that first little prototype stage, we've just
+
+358
+00:22:11,805 --> 00:22:15,645
+Speaker 6:  been really listening like intently to like where people are trying
+
+359
+00:22:15,645 --> 00:22:18,725
+Speaker 6:  to push the tool and then just like making it easier,
+
+360
+00:22:19,265 --> 00:22:22,725
+Speaker 6:  making it, making it so they, you don't have to push quite as hard to use
+
+361
+00:22:22,725 --> 00:22:25,645
+Speaker 6:  the tool that way. Yeah. And that's, yeah, that's where we're
+
+362
+00:22:25,645 --> 00:22:29,525
+Speaker 1:  Well it's funny, I mean, even thinking about you, you've written a couple
+
+363
+00:22:29,525 --> 00:22:33,045
+Speaker 1:  of times over the years about your, your sort of endless, I think you call
+
+364
+00:22:33,045 --> 00:22:36,805
+Speaker 1:  it the Spark file that is basically just like a mountainous
+
+365
+00:22:37,245 --> 00:22:41,005
+Speaker 1:  document of all the good and bad story ideas you have. I'm, I'm paraphrasing,
+
+366
+00:22:41,065 --> 00:22:42,565
+Speaker 1:  but that I think that's right. Right. They're
+
+367
+00:22:42,565 --> 00:22:45,045
+Speaker 6:  All good. I don't know, what're the bad ideas you're talking about David,
+
+368
+00:22:45,045 --> 00:22:45,925
+Speaker 6:  that's flawless
+
+369
+00:22:45,925 --> 00:22:48,005
+Speaker 1:  Perfect. Buy that book now.
+
+370
+00:22:48,195 --> 00:22:48,925
+Speaker 6:  Many bad ideas,
+
+371
+00:22:49,055 --> 00:22:52,845
+Speaker 1:  Ideas. And I think like just listening to you describe the,
+
+372
+00:22:52,865 --> 00:22:56,125
+Speaker 1:  the story bible for the world building stuff like that, that actually is
+
+373
+00:22:56,525 --> 00:23:00,245
+Speaker 1:  like a perfect down the middle use case for this in a way I hadn't even really
+
+374
+00:23:00,245 --> 00:23:03,445
+Speaker 1:  thought about until just now that it is like, here's a bunch of stuff that
+
+375
+00:23:03,445 --> 00:23:06,765
+Speaker 1:  I have decided one way or another, right? Like, here, here are my inputs.
+
+376
+00:23:07,395 --> 00:23:10,765
+Speaker 1:  Help me make things with that is actually like kind of an amazing
+
+377
+00:23:11,505 --> 00:23:15,045
+Speaker 1:  and very difficult otherwise use case. 'cause it's like,
+
+378
+00:23:15,625 --> 00:23:18,765
+Speaker 1:  oh yeah, how many I I have to go and collate that piece of information, that
+
+379
+00:23:18,765 --> 00:23:22,685
+Speaker 1:  piece of information. I think there's all kinds of like complicated things
+
+380
+00:23:22,685 --> 00:23:26,485
+Speaker 1:  with how we think about the art on top of all of that. But, but that thing
+
+381
+00:23:26,485 --> 00:23:29,085
+Speaker 1:  where it's just like, I want to tell you the rules and I want you to help
+
+382
+00:23:29,085 --> 00:23:33,005
+Speaker 1:  me make games out of it. Yeah. Feels awesome. Like I I I'm so much less
+
+383
+00:23:33,365 --> 00:23:37,045
+Speaker 1:  conflicted about that than I am about so many things in ai. That's so cool.
+
+384
+00:23:37,205 --> 00:23:37,325
+Speaker 1:  I
+
+385
+00:23:37,325 --> 00:23:40,965
+Speaker 6:  Love that. Yeah. Well we're trying to do the things that are, are less conflict.
+
+386
+00:23:41,085 --> 00:23:43,765
+Speaker 6:  I said I was conflict averse, so I'm just like trying to steer towards this
+
+387
+00:23:43,765 --> 00:23:47,125
+Speaker 6:  thing. But, but yeah, it's a great point that kind of like take this massive
+
+388
+00:23:47,205 --> 00:23:50,765
+Speaker 6:  unstructured data and turn it into a set of kind of
+
+389
+00:23:51,315 --> 00:23:54,805
+Speaker 6:  formats that help me do the job that I'm trying to do with some guidance
+
+390
+00:23:54,805 --> 00:23:58,405
+Speaker 6:  from me. Right? And, and this was, by the way, this was another great place
+
+391
+00:23:58,405 --> 00:24:01,645
+Speaker 6:  where like Rza really saw this before I did because I was thinking of it
+
+392
+00:24:01,645 --> 00:24:05,565
+Speaker 6:  as I'm going to write my book, so I'm gonna do all the like
+
+393
+00:24:05,565 --> 00:24:08,885
+Speaker 6:  content creation here. I just need to be able to like surface the facts and
+
+394
+00:24:08,885 --> 00:24:12,605
+Speaker 6:  make some connections, you know, but it turns out they're just all these
+
+395
+00:24:12,605 --> 00:24:16,565
+Speaker 6:  places where you've got all your company documents and
+
+396
+00:24:16,565 --> 00:24:20,125
+Speaker 6:  you want to create an FAQ for new employees. Like
+
+397
+00:24:21,025 --> 00:24:24,885
+Speaker 6:  no one is gonna win a Nobel Prize for, for literature for creating that
+
+398
+00:24:25,085 --> 00:24:28,885
+Speaker 6:  document. Like, and If, you can get a first draft of that document in
+
+399
+00:24:28,885 --> 00:24:32,805
+Speaker 6:  45 seconds instead of in four hours. Like that's
+
+400
+00:24:32,805 --> 00:24:36,085
+Speaker 6:  a win, right? That's that, that is good news. And so there there are all
+
+401
+00:24:36,085 --> 00:24:39,485
+Speaker 6:  these different workflows that are out there where there's massive
+
+402
+00:24:39,515 --> 00:24:43,365
+Speaker 6:  information needs to be kind of like filtered in some way and
+
+403
+00:24:43,365 --> 00:24:44,285
+Speaker 6:  turned into something else.
+
+404
+00:24:45,905 --> 00:24:48,845
+Speaker 1:  All right, we gotta take a break and then we will be back with more From
+
+405
+00:24:48,845 --> 00:24:50,565
+Speaker 1:  Steven Johnson. We'll be right back.
+
+406
+00:26:02,765 --> 00:26:06,685
+Speaker 1:  some information up. Like its entire purpose is not to make information
+
+407
+00:26:06,745 --> 00:26:10,205
+Speaker 1:  up. Yeah. How do you, what, what have you guys done? I know
+
+408
+00:26:10,725 --> 00:26:14,485
+Speaker 1:  Notebook was an early experiment in in Rag,
+
+409
+00:26:14,485 --> 00:26:18,205
+Speaker 1:  which is a way of basically winnowing down some of these systems,
+
+410
+00:26:18,345 --> 00:26:21,925
+Speaker 1:  but like what, what have you guys done differently at Notebook to try and
+
+411
+00:26:21,925 --> 00:26:25,605
+Speaker 1:  solve that? And I'm curious both on the underlying tech side and
+
+412
+00:26:25,705 --> 00:26:27,325
+Speaker 1:  on the user experience side.
+
+413
+00:26:27,395 --> 00:26:31,285
+Speaker 6:  Yeah, well we tried, I kept calling it Source
+
+414
+00:26:31,285 --> 00:26:34,445
+Speaker 6:  grounding because I think that is a better name than Rag.
+
+415
+00:26:35,725 --> 00:26:39,045
+Speaker 1:  I don't know man, we all know GPT now, So, I just I've given up. We're all,
+
+416
+00:26:39,045 --> 00:26:40,325
+Speaker 1:  we're all doing the acronyms now.
+
+417
+00:26:41,345 --> 00:26:45,285
+Speaker 6:  So, you know, I think part of it was the fact that we were doing it
+
+418
+00:26:45,355 --> 00:26:48,325
+Speaker 6:  from the beginning like that, that it started with that it wasn't like, oh
+
+419
+00:26:48,325 --> 00:26:52,045
+Speaker 6:  let's build a CHOP model and, and oh shoot, we need to be able to like, you
+
+420
+00:26:52,045 --> 00:26:55,125
+Speaker 6:  know, ground it in o other documents like it was from the beginning we were
+
+421
+00:26:55,125 --> 00:26:59,045
+Speaker 6:  doing that. And so we just had a lot of time to like iterate and explore
+
+422
+00:27:00,185 --> 00:27:03,805
+Speaker 6:  the, the Gemini models are really good at at Source
+
+423
+00:27:03,805 --> 00:27:07,085
+Speaker 6:  grounding. They just, there, there's a lot of training sets. We contributed
+
+424
+00:27:07,205 --> 00:27:10,685
+Speaker 6:  a bunch of them to like just given this document
+
+425
+00:27:11,185 --> 00:27:14,605
+Speaker 6:  answer questions factually based on the information that documents. So we
+
+426
+00:27:14,605 --> 00:27:15,125
+Speaker 6:  inherited
+
+427
+00:27:16,645 --> 00:27:20,525
+Speaker 6:  like a great tool that, you know, we did very little, you know, kudos
+
+428
+00:27:20,525 --> 00:27:24,045
+Speaker 6:  to the Gemini team for building a model that that is, is much more
+
+429
+00:27:24,325 --> 00:27:28,005
+Speaker 6:  faithful to source material you give it. But we built it
+
+430
+00:27:28,195 --> 00:27:31,285
+Speaker 6:  also, you know, this is, this is one of these things where it's like, it's
+
+431
+00:27:31,515 --> 00:27:35,325
+Speaker 6:  it's underlying model plus the UI is, has always been
+
+432
+00:27:35,325 --> 00:27:39,205
+Speaker 6:  like our mantra from the beginning. And, and you know, both things are
+
+433
+00:27:39,485 --> 00:27:42,765
+Speaker 6:  required. And so one of the key things that we've had
+
+434
+00:27:43,145 --> 00:27:46,485
+Speaker 6:  pretty much from the beginning is that you can always read your sources
+
+435
+00:27:47,145 --> 00:27:51,045
+Speaker 6:  in the app and then with the release in June, we,
+
+436
+00:27:51,145 --> 00:27:54,685
+Speaker 6:  we switched it over so that you now have inline citations to everything.
+
+437
+00:27:54,705 --> 00:27:58,285
+Speaker 6:  So anything the model says has a little link, you can read the original passage
+
+438
+00:27:58,385 --> 00:28:00,965
+Speaker 6:  If, you hover over it, that shows you the, you know, the source material
+
+439
+00:28:00,965 --> 00:28:04,445
+Speaker 6:  for that and you can click on it and you can go read the source in the app.
+
+440
+00:28:04,785 --> 00:28:05,005
+Speaker 6:  Do
+
+441
+00:28:05,005 --> 00:28:05,605
+Speaker 7:  You think that's enough?
+
+442
+00:28:07,935 --> 00:28:11,005
+Speaker 6:  We've talked about? So, so one of the things you can do right now actually
+
+443
+00:28:11,115 --> 00:28:14,765
+Speaker 6:  with Notebook that we wanna actually turn into a proper feature, but you
+
+444
+00:28:14,765 --> 00:28:18,325
+Speaker 6:  can do it right now, is you can upload a bunch of, you know, kind of source
+
+445
+00:28:18,645 --> 00:28:22,405
+Speaker 6:  material, factual source material and then you can upload the
+
+446
+00:28:22,405 --> 00:28:26,165
+Speaker 6:  article you're writing for instance, and you can say, fact check this
+
+447
+00:28:26,165 --> 00:28:30,085
+Speaker 6:  article based on these sources and suggest improvements. Oh, that's clever,
+
+448
+00:28:30,265 --> 00:28:33,605
+Speaker 6:  that's a good idea. And yeah, it's, it's amazing. It, it will go through
+
+449
+00:28:33,605 --> 00:28:36,925
+Speaker 6:  and be like, well this is correct, this is potentially wrong. It will suggest,
+
+450
+00:28:37,035 --> 00:28:40,445
+Speaker 6:  suggest and it'll have links to everything. And so to me,
+
+451
+00:28:41,505 --> 00:28:45,085
+Speaker 6:  if I felt that the model were just hallucinating
+
+452
+00:28:45,305 --> 00:28:49,045
+Speaker 6:  wildly in its responses, then I do not believe
+
+453
+00:28:49,195 --> 00:28:52,285
+Speaker 6:  that, you know, just providing citations and the ability to kind of fact
+
+454
+00:28:52,285 --> 00:28:55,485
+Speaker 6:  check manually and go back and see the original passage would be enough.
+
+455
+00:28:56,265 --> 00:29:00,165
+Speaker 6:  But we've, you know, we've been sitting there banging away at like
+
+456
+00:29:00,165 --> 00:29:03,965
+Speaker 6:  quality, you know, reviews like constantly for the last year and a half.
+
+457
+00:29:03,995 --> 00:29:07,445
+Speaker 6:  Like we have a poll, you know, sheets and sheets and sheets of,
+
+458
+00:29:07,945 --> 00:29:11,645
+Speaker 6:  of sample questions and sample documents and we can just see that accuracy
+
+459
+00:29:11,805 --> 00:29:15,645
+Speaker 6:  rate going up, you know, dramatically particularly with, with these
+
+460
+00:29:15,645 --> 00:29:19,485
+Speaker 6:  latest models. And so right now I feel like we're in a,
+
+461
+00:29:19,495 --> 00:29:22,925
+Speaker 6:  we're in a pretty good place. I rarely, I honestly, I rarely see
+
+462
+00:29:23,765 --> 00:29:27,445
+Speaker 6:  Notebook LM just wildly hallucinate something. I mean, one thing that's really
+
+463
+00:29:27,445 --> 00:29:29,965
+Speaker 6:  important, people may not know this, I take this for granted because everyone
+
+464
+00:29:30,125 --> 00:29:33,125
+Speaker 6:  living with this product, if If you load in a bunch of sources about the
+
+465
+00:29:33,125 --> 00:29:36,885
+Speaker 6:  history of NASA and then ask a question about Taylor Swift in general
+
+466
+00:29:37,245 --> 00:29:40,125
+Speaker 6:  Notebook, Ellen will say, I'm sorry, your sources don't discuss Taylor Swift,
+
+467
+00:29:40,225 --> 00:29:44,205
+Speaker 6:  So I can't answer this question. And obviously the model knows a lot about
+
+468
+00:29:44,205 --> 00:29:47,965
+Speaker 6:  Taylor Swift is probably a pretty big fan of Taylor Swift. But
+
+469
+00:29:47,965 --> 00:29:51,725
+Speaker 6:  it's, but it's been specifically, you know, instructed to not answer questions
+
+470
+00:29:51,725 --> 00:29:54,405
+Speaker 6:  that are outside the source material. I mean, to a fault, I think sometimes,
+
+471
+00:29:54,505 --> 00:29:56,925
+Speaker 6:  you know, one would like to bring in some outside knowledge, you know, and
+
+472
+00:29:56,925 --> 00:30:00,685
+Speaker 6:  trust but verify with that. But we've erred on the side of like
+
+473
+00:30:00,695 --> 00:30:04,245
+Speaker 6:  stick to the facts in these documents. And so
+
+474
+00:30:04,555 --> 00:30:07,885
+Speaker 6:  with the increase in accuracy and with the UI of citations,
+
+475
+00:30:08,235 --> 00:30:10,725
+Speaker 6:  there's more things we could do. We could make that fact checking feature,
+
+476
+00:30:11,465 --> 00:30:15,445
+Speaker 6:  you know, double check this kind of as, as something. But I feel pretty
+
+477
+00:30:15,445 --> 00:30:19,125
+Speaker 6:  good about where we are in terms of the quality side of that. Where we are
+
+478
+00:30:19,125 --> 00:30:22,925
+Speaker 6:  kind of state of the art is upload many, many documents,
+
+479
+00:30:23,825 --> 00:30:27,605
+Speaker 6:  ask a complex question that involves like multiple
+
+480
+00:30:27,715 --> 00:30:31,565
+Speaker 6:  kind of variables drawn across like multiple documents. Get a deep,
+
+481
+00:30:31,745 --> 00:30:35,725
+Speaker 6:  you know, long answer with citations. Follow those citations
+
+482
+00:30:35,725 --> 00:30:39,485
+Speaker 6:  to read in the original text. Like I think that NotebookLM
+
+483
+00:30:39,505 --> 00:30:43,405
+Speaker 6:  you know, kind of does that flow as well as anybody Right now
+
+484
+00:30:43,645 --> 00:30:43,845
+Speaker 6:  I feel
+
+485
+00:30:43,845 --> 00:30:47,285
+Speaker 1:  Like you just described like a, like a personal Wikipedia and I mean that
+
+486
+00:30:47,285 --> 00:30:50,605
+Speaker 1:  as a compliment. Like the, the thing that Wikipedia is
+
+487
+00:30:50,995 --> 00:30:54,845
+Speaker 1:  best at is just being like a starting point to go learn about something on
+
+488
+00:30:55,045 --> 00:30:58,085
+Speaker 1:  the internet, right? Like you open a Wikipedia page, you go click on all
+
+489
+00:30:58,085 --> 00:31:00,525
+Speaker 1:  the references at the bottom and then you go read those references and you're,
+
+490
+00:31:00,525 --> 00:31:03,125
+Speaker 1:  you're off and running. And I feel like what you just described is like,
+
+491
+00:31:03,165 --> 00:31:06,925
+Speaker 1:  I can shortcut that with any process of any single thing that I wanna learn
+
+492
+00:31:06,925 --> 00:31:09,485
+Speaker 1:  more about. I just dump it in and I'm like, what's going on here? Yeah. And
+
+493
+00:31:09,485 --> 00:31:10,525
+Speaker 1:  it'll just be like, here's some stuff.
+
+494
+00:31:11,205 --> 00:31:14,245
+Speaker 6:  I have so many things to say to that David, you're gonna have to gimme 20
+
+495
+00:31:14,245 --> 00:31:18,005
+Speaker 6:  minutes. 'cause I, okay, so one thing is I'm in the process of thinking about
+
+496
+00:31:18,005 --> 00:31:21,845
+Speaker 6:  what I'm gonna write the next book on and So I created
+
+497
+00:31:22,025 --> 00:31:25,925
+Speaker 6:  the, this is just kind of second nature workflow for me now, but
+
+498
+00:31:26,665 --> 00:31:29,605
+Speaker 6:  you know, wouldn't have occurred to me a year ago, So I created a new notebook
+
+499
+00:31:29,605 --> 00:31:32,925
+Speaker 6:  called the next book. And whenever there's an idea that kind of comes to
+
+500
+00:31:32,925 --> 00:31:35,085
+Speaker 6:  my mind or there's article I read or something like that, I dump it into
+
+501
+00:31:35,085 --> 00:31:35,725
+Speaker 6:  that notebook. It's
+
+502
+00:31:35,725 --> 00:31:36,085
+Speaker 1:  The new Spark
+
+503
+00:31:36,085 --> 00:31:39,885
+Speaker 6:  File. It's the new Spark file. Wow. And, but it's focused on this project
+
+504
+00:31:39,945 --> 00:31:43,605
+Speaker 6:  of like, what should the next book be? And, and so the other day
+
+505
+00:31:44,045 --> 00:31:47,845
+Speaker 6:  I, you know, late night I, this kind of thing I do like I, because I
+
+506
+00:31:48,035 --> 00:31:51,085
+Speaker 6:  have no life, my children have all gone to college and I have nothing to
+
+507
+00:31:51,085 --> 00:31:52,965
+Speaker 6:  do with sit around and think about this. You stopped to bar, it's cool. I
+
+508
+00:31:52,965 --> 00:31:56,845
+Speaker 6:  talked to Bart So I was like, I wonder, you know, has there
+
+509
+00:31:56,845 --> 00:32:00,805
+Speaker 6:  been a good book written about the anti-nuclear movements, anti-nuclear power
+
+510
+00:32:01,085 --> 00:32:03,125
+Speaker 6:  movements of the sixties and seventies? 'cause that's an interesting case
+
+511
+00:32:03,125 --> 00:32:06,525
+Speaker 6:  where we like stopped the technology partially in its tracks and maybe made
+
+512
+00:32:06,565 --> 00:32:09,685
+Speaker 6:  a mistake and, you know, how do we interpret that? And So
+
+513
+00:32:10,445 --> 00:32:13,565
+Speaker 6:  I just went and grabbed like two Wikipedia pages
+
+514
+00:32:14,355 --> 00:32:17,805
+Speaker 6:  that in the past I would've like, you know, started by reading through all
+
+515
+00:32:17,805 --> 00:32:20,925
+Speaker 6:  the Wikipedia pages, but I brought it into Notebook and I was like, I'm Steven
+
+516
+00:32:20,925 --> 00:32:23,485
+Speaker 6:  Johnson. I'm writing, thinking about writing a book, you know, in the mode
+
+517
+00:32:23,485 --> 00:32:25,725
+Speaker 6:  of my other books, like in Frontal Machine and Ghost Map, potentially about
+
+518
+00:32:25,725 --> 00:32:28,885
+Speaker 6:  the anti-nuclear powers. Take a look at these, like what do you think of
+
+519
+00:32:28,885 --> 00:32:32,005
+Speaker 6:  the, are there any interesting storylines that, that would be good starting
+
+520
+00:32:32,005 --> 00:32:35,925
+Speaker 6:  places? Like what, you know, what would be good there? And it
+
+521
+00:32:35,955 --> 00:32:39,125
+Speaker 6:  just does it like it, you know, goes through wow. And it's like, well you
+
+522
+00:32:39,125 --> 00:32:41,285
+Speaker 6:  can focus on this period, this figure is kind of interesting, whatever. And
+
+523
+00:32:41,285 --> 00:32:44,365
+Speaker 6:  then I went and read all the, you know, I'm gonna read the material, but
+
+524
+00:32:44,705 --> 00:32:48,285
+Speaker 6:  as a, as a first glance, like inroads
+
+525
+00:32:48,685 --> 00:32:52,605
+Speaker 6:  material, it's amazing for that kind of exploration, the
+
+526
+00:32:52,655 --> 00:32:56,285
+Speaker 6:  experience of navigating through a book, through a
+
+527
+00:32:56,285 --> 00:33:00,205
+Speaker 6:  conversational interface is really interesting. Mm. And it's one of
+
+528
+00:33:00,205 --> 00:33:03,525
+Speaker 6:  these things where like, you know, until now
+
+529
+00:33:03,985 --> 00:33:07,925
+Speaker 6:  If, you wanted to explore the ideas in an author's work through
+
+530
+00:33:08,085 --> 00:33:12,005
+Speaker 6:  a conversation. You could only do that by finding the author
+
+531
+00:33:12,705 --> 00:33:16,565
+Speaker 6:  in person or finding a, a scholar or a tutor who's an expert
+
+532
+00:33:16,565 --> 00:33:19,645
+Speaker 6:  in the author's ideas. And like, that was it, that was not, there was no
+
+533
+00:33:19,645 --> 00:33:23,485
+Speaker 6:  other way to do it. But now you can load, you know, a book in
+
+534
+00:33:23,585 --> 00:33:26,205
+Speaker 6:  and you can start with like, I'm interested in this, tell me about that.
+
+535
+00:33:26,265 --> 00:33:29,605
+Speaker 6:  And then slowly read the book in a non-linear way
+
+536
+00:33:29,795 --> 00:33:32,965
+Speaker 6:  through a conversational interface kind of dipping in and out of the kind
+
+537
+00:33:32,965 --> 00:33:36,925
+Speaker 6:  of original passages, which is terrible if it's a novel or terrible, if
+
+538
+00:33:36,925 --> 00:33:39,845
+Speaker 6:  it's a, you know, straight linear kind of history book. Like I sometimes
+
+539
+00:33:39,845 --> 00:33:43,805
+Speaker 6:  write. But if it's an advice book or a, you know, a book of ideas, you know,
+
+540
+00:33:43,805 --> 00:33:47,405
+Speaker 6:  there are lots of books that I think could be explored in that way that just,
+
+541
+00:33:47,505 --> 00:33:49,325
+Speaker 6:  you know, weren't possible before. Does
+
+542
+00:33:49,325 --> 00:33:52,445
+Speaker 1:  It feel like cheating to do that? Like for you as an author, you have, you
+
+543
+00:33:52,445 --> 00:33:56,045
+Speaker 1:  have worked through these books, you have done the hard work, you have stayed
+
+544
+00:33:56,045 --> 00:33:58,405
+Speaker 1:  up late at night. I'm sure you've like woken up in the middle of the night
+
+545
+00:33:58,405 --> 00:34:01,525
+Speaker 1:  with the book idea. Does sitting down and asking a computer what your next
+
+546
+00:34:01,525 --> 00:34:02,525
+Speaker 1:  book should be feel like cheating?
+
+547
+00:34:03,715 --> 00:34:06,635
+Speaker 6:  I think if I were literally like, Hey, what should my next book be?
+
+548
+00:34:07,565 --> 00:34:11,225
+Speaker 6:  One, I don't think it would, I mean right now in a way it's easy to answer
+
+549
+00:34:11,225 --> 00:34:14,505
+Speaker 6:  this question right now because it wouldn't be good enough. Like it wouldn't
+
+550
+00:34:14,745 --> 00:34:17,225
+Speaker 6:  generate like, what, tell me what my book should be and now start writing
+
+551
+00:34:17,225 --> 00:34:20,905
+Speaker 6:  it like it just wouldn't be able to do it. Okay. Current trend lines continue.
+
+552
+00:34:21,145 --> 00:34:21,465
+Speaker 6:  I was gonna
+
+553
+00:34:21,465 --> 00:34:22,625
+Speaker 1:  Say give it a minute. Yeah.
+
+554
+00:34:22,895 --> 00:34:26,225
+Speaker 6:  Come back to me in two years. We'll we'll see. But, but what I have to do
+
+555
+00:34:26,225 --> 00:34:29,665
+Speaker 6:  is like, I'm not using it that way. I'm using it like these very like, kind
+
+556
+00:34:29,665 --> 00:34:33,585
+Speaker 6:  of targeted queries. Like, you know, I was, I actually was using
+
+557
+00:34:33,605 --> 00:34:37,505
+Speaker 6:  the NASA notebook 'cause I was interested in like, you know, maybe there's
+
+558
+00:34:37,505 --> 00:34:40,745
+Speaker 6:  something to be done about the Apollo 13 fire. And
+
+559
+00:34:41,325 --> 00:34:44,425
+Speaker 6:  so then it was kind of like, okay look, I need to know what I need to read
+
+560
+00:34:44,625 --> 00:34:48,425
+Speaker 6:  'cause it's a million pages, a million words of transcripts. I actually
+
+561
+00:34:48,425 --> 00:34:51,585
+Speaker 6:  don't need to read the whole thing. What I wanna read are the sections that
+
+562
+00:34:51,585 --> 00:34:54,705
+Speaker 6:  are relevant to the Apollo 13 fire. And So I just went a notebook and said,
+
+563
+00:34:54,705 --> 00:34:58,065
+Speaker 6:  tell me what I should read. You know, and it was like, you should start here,
+
+564
+00:34:58,085 --> 00:35:00,745
+Speaker 6:  you should read there and I can click immediately in there and, and read
+
+565
+00:35:00,745 --> 00:35:04,705
+Speaker 6:  through that. And so to me, I'm using it as a
+
+566
+00:35:04,705 --> 00:35:08,535
+Speaker 6:  way of accelerating the process of
+
+567
+00:35:08,535 --> 00:35:12,455
+Speaker 6:  discovery that would just have been painful to do before, but I'm
+
+568
+00:35:12,455 --> 00:35:16,415
+Speaker 6:  making just as many unplanned serendipitous discoveries along the
+
+569
+00:35:16,415 --> 00:35:20,135
+Speaker 6:  way. I mean the, I think the criticism is like, well if it, the model serves
+
+570
+00:35:20,135 --> 00:35:24,055
+Speaker 6:  it up to you so quickly, even If you end up writing the book, you've
+
+571
+00:35:24,055 --> 00:35:27,895
+Speaker 6:  missed the surprising thing that would, you would've never found, you
+
+572
+00:35:27,895 --> 00:35:31,055
+Speaker 6:  would've only found it by reading through it in an incredibly linear way.
+
+573
+00:35:31,235 --> 00:35:35,175
+Speaker 6:  And I think that that's just, it's just not true. Like I, I, it's,
+
+574
+00:35:35,285 --> 00:35:38,020
+Speaker 6:  it's constantly surfacing things that I hadn't thought of right. And, and
+
+575
+00:35:38,020 --> 00:35:41,765
+Speaker 6:  making connections that I hadn't thought of. And so it's helping
+
+576
+00:35:41,865 --> 00:35:45,805
+Speaker 6:  me understand the material more deeply, where it gets complicated.
+
+577
+00:35:46,025 --> 00:35:49,485
+Speaker 6:  And you and I have talked about this before, the way I think about it is
+
+578
+00:35:50,115 --> 00:35:54,045
+Speaker 6:  it's a tool that helps you understand things. If you were genuinely
+
+579
+00:35:54,045 --> 00:35:57,725
+Speaker 6:  interested in understanding things and having that understanding be in your
+
+580
+00:35:57,725 --> 00:36:01,325
+Speaker 6:  brain. It's a, it's a huge net positive, a hundred percent.
+
+581
+00:36:01,435 --> 00:36:05,285
+Speaker 6:  Like if, if If you go into it with good intentions, it is a, you know, an
+
+582
+00:36:05,285 --> 00:36:09,245
+Speaker 6:  amazing tool for thought. It helps you have richer, more complex ideas, understand
+
+583
+00:36:09,365 --> 00:36:13,115
+Speaker 6:  material better. If you are not interested in understanding things,
+
+584
+00:36:13,375 --> 00:36:16,795
+Speaker 6:  but rather interested in creating the illusion that you understand things
+
+585
+00:36:17,295 --> 00:36:20,595
+Speaker 6:  and just wanna bluff your way through life without ever actually understanding
+
+586
+00:36:20,875 --> 00:36:23,075
+Speaker 6:  anything but creating outputs that make it look like you understand things.
+
+587
+00:36:23,975 --> 00:36:27,755
+Speaker 6:  It potentially will help you do that as well. And the question is,
+
+588
+00:36:28,375 --> 00:36:32,315
+Speaker 6:  the question is like, how often is that useful as a strategy in the
+
+589
+00:36:32,315 --> 00:36:35,955
+Speaker 6:  world? And, and to me, like If, you go into work and you're like, I've got
+
+590
+00:36:35,955 --> 00:36:39,915
+Speaker 6:  this great hack. I never read any of the emails from my boss. I
+
+591
+00:36:39,915 --> 00:36:43,155
+Speaker 6:  just like put it into the model and then I output anything. Eventually your
+
+592
+00:36:43,155 --> 00:36:46,995
+Speaker 6:  boss will like have a conversation with you and you'll say, Steven, you don't
+
+593
+00:36:46,995 --> 00:36:49,275
+Speaker 6:  understand anything. You have not learned anything and you'll get fired.
+
+594
+00:36:49,275 --> 00:36:52,595
+Speaker 6:  Right? It just doesn't, it's not a good long-term strategy. The one place
+
+595
+00:36:52,645 --> 00:36:56,555
+Speaker 6:  where it's tricky is school where there is potentially a
+
+596
+00:36:56,555 --> 00:37:00,435
+Speaker 6:  strange incentive to bluff your way through something. We think
+
+597
+00:37:00,435 --> 00:37:04,155
+Speaker 6:  that, you know, we we're seeing a lot of adoption of notebook elements 18
+
+598
+00:37:04,155 --> 00:37:07,995
+Speaker 6:  plus currently. So it's not usable by high schoolers, but we're seeing a
+
+599
+00:37:07,995 --> 00:37:11,955
+Speaker 6:  lot of college and higher ed adoption of it. It's probably
+
+600
+00:37:11,955 --> 00:37:15,715
+Speaker 6:  our biggest community so far. We are very
+
+601
+00:37:15,715 --> 00:37:19,235
+Speaker 6:  excited about that use case. But we're also like, you know, we've done a
+
+602
+00:37:19,235 --> 00:37:23,075
+Speaker 6:  lot of things to, to, you know, ensure that you, you know, it's hard
+
+603
+00:37:23,075 --> 00:37:25,915
+Speaker 6:  to use it to bypass understanding. Like it's tr it's constantly steering
+
+604
+00:37:25,915 --> 00:37:29,595
+Speaker 6:  you back towards the original text. You're always kind of being
+
+605
+00:37:29,595 --> 00:37:32,675
+Speaker 6:  pointed back towards that source material. It's always there in the UI with
+
+606
+00:37:32,675 --> 00:37:35,915
+Speaker 6:  you. So, and there are more things we can do on that front, but that's the
+
+607
+00:37:35,915 --> 00:37:39,035
+Speaker 6:  line that I think is like, you know, If, you If you go into this with good
+
+608
+00:37:39,035 --> 00:37:42,995
+Speaker 6:  intentions. I don't feel concerned about using the tool in
+
+609
+00:37:42,995 --> 00:37:43,195
+Speaker 6:  this way.
+
+610
+00:37:43,665 --> 00:37:47,395
+Speaker 1:  Okay. I buy that. And it feels like part of the line
+
+611
+00:37:47,445 --> 00:37:51,075
+Speaker 1:  there exists in kind of what you let people make
+
+612
+00:37:51,345 --> 00:37:55,075
+Speaker 1:  with what is coming out of it. And I, I wonder like we, we've talked a lot
+
+613
+00:37:55,075 --> 00:37:58,235
+Speaker 1:  about kind of the, the inputs and the processing and the understanding and
+
+614
+00:37:58,235 --> 00:38:02,195
+Speaker 1:  it's, it's not, you're sort of one, you know, published this
+
+615
+00:38:02,195 --> 00:38:06,075
+Speaker 1:  answer on Amazon as a self-published ebook with your name on it away
+
+616
+00:38:06,075 --> 00:38:08,635
+Speaker 1:  from it being this being a very different conversation. Yeah. But my sense
+
+617
+00:38:08,635 --> 00:38:12,155
+Speaker 1:  is you're, you're deliberately or not not
+
+618
+00:38:12,225 --> 00:38:16,155
+Speaker 1:  investing a ton in the like rate me a research paper from
+
+619
+00:38:16,155 --> 00:38:18,195
+Speaker 1:  these six documents kind of use case.
+
+620
+00:38:18,265 --> 00:38:21,395
+Speaker 6:  Yeah. If, you look at, look at the notebook guides, like one of them is called
+
+621
+00:38:21,405 --> 00:38:24,315
+Speaker 6:  study guide, right? It creates a study guide. It doesn't replace your work.
+
+622
+00:38:24,315 --> 00:38:27,675
+Speaker 6:  It helps you actually like, you know, it gives you a set of review questions,
+
+623
+00:38:27,675 --> 00:38:30,475
+Speaker 6:  it creates a little multiple choice quiz. It creates like essay suggested
+
+624
+00:38:30,555 --> 00:38:33,875
+Speaker 6:  questions. It creates a glossary of key terms. So, you know,
+
+625
+00:38:34,295 --> 00:38:36,965
+Speaker 6:  that's what we're trying to do inside of the product. We're steering everybody
+
+626
+00:38:36,965 --> 00:38:40,605
+Speaker 6:  towards that kind of like, help me understand mode
+
+627
+00:38:41,075 --> 00:38:44,325
+Speaker 6:  with the idea that, you know, the people have different ways of understanding.
+
+628
+00:38:44,325 --> 00:38:47,205
+Speaker 6:  There are different ways the people have like information sticks with them
+
+629
+00:38:47,315 --> 00:38:51,045
+Speaker 6:  through different forms. And you know, our job is to kind of do that. I mean
+
+630
+00:38:51,045 --> 00:38:54,485
+Speaker 6:  that's it, you know, it turns out as writing about this a little bit this
+
+631
+00:38:54,485 --> 00:38:58,325
+Speaker 6:  week that, you know, translation and summarization is
+
+632
+00:38:58,325 --> 00:39:02,005
+Speaker 6:  something that the models have always done quite well. Like from the beginning,
+
+633
+00:39:02,035 --> 00:39:04,885
+Speaker 6:  like kind of like the first deep learning
+
+634
+00:39:05,565 --> 00:39:09,165
+Speaker 6:  breakthrough that really made a difference to consumers was really like translate
+
+635
+00:39:09,165 --> 00:39:11,245
+Speaker 6:  Google Translate and others that, you know Yeah, that's true. That it was
+
+636
+00:39:11,525 --> 00:39:14,485
+Speaker 6:  basically like, take this set of tokens that are in this language and turn
+
+637
+00:39:14,485 --> 00:39:18,245
+Speaker 6:  it into the set of tokens in this language and you know, they're really good
+
+638
+00:39:18,245 --> 00:39:22,085
+Speaker 6:  at, at summarizing in, in all of its different forms. And so we're,
+
+639
+00:39:22,085 --> 00:39:25,605
+Speaker 6:  you know, we've kind of like embraced that 'cause you know, embrace the things
+
+640
+00:39:25,605 --> 00:39:28,605
+Speaker 6:  that the models do well it's generally a, a good strategy. Yeah.
+
+641
+00:39:29,435 --> 00:39:33,045
+Speaker 1:  Alright, we have to take one more break and then we will be back with the
+
+642
+00:39:33,045 --> 00:39:35,765
+Speaker 1:  rest of my conversation with Steven Johnson. We'll be right back.
+
+643
+00:40:01,015 --> 00:40:04,445
+Speaker 1:  We're back. Okay. We have waited long enough to talk about audio
+
+644
+00:40:04,805 --> 00:40:08,565
+Speaker 1:  overviews, those wild AI generated podcasts notebook has been working
+
+645
+00:41:30,485 --> 00:41:33,085
+Speaker 6:  Now you can. So we've added it to the suite of, of tools
+
+646
+00:41:33,675 --> 00:41:37,565
+Speaker 1:  That feels like it causes a thousand new interesting
+
+647
+00:41:37,565 --> 00:41:40,365
+Speaker 1:  things. Like on the one hand it's, it's not
+
+648
+00:41:41,445 --> 00:41:44,065
+Speaker 1:  the thing that you were describing earlier in this conversation, which is
+
+649
+00:41:44,065 --> 00:41:48,025
+Speaker 1:  something that is not full of personality. It doesn't say I a lot. It's
+
+650
+00:41:48,025 --> 00:41:51,985
+Speaker 1:  not, this is not a tool anymore. This is two
+
+651
+00:41:52,705 --> 00:41:56,625
+Speaker 1:  slightly weird people hanging out in my ears for 10 minutes. Yeah.
+
+652
+00:41:56,625 --> 00:42:00,465
+Speaker 1:  And they are like it, whatever dial you have that says like make
+
+653
+00:42:00,465 --> 00:42:04,225
+Speaker 1:  them say puns and try and be kind of cringingly, it's like
+
+654
+00:42:04,295 --> 00:42:08,105
+Speaker 1:  that dial is at 14 out of 10 on most of the ones that I've listened to
+
+655
+00:42:09,205 --> 00:42:12,545
+Speaker 1:  and I kind of get why. Right? Yeah. Like If, you If you take the, it should
+
+656
+00:42:12,545 --> 00:42:15,865
+Speaker 1:  have no personality. It should just be very straightforward approach. That
+
+657
+00:42:15,865 --> 00:42:19,825
+Speaker 1:  makes sense on showing me a bunch of texts and apply it to a podcast
+
+658
+00:42:20,285 --> 00:42:24,245
+Speaker 1:  that's a bad podcast, but it does feel kind of incongruous
+
+659
+00:42:24,245 --> 00:42:26,325
+Speaker 1:  with a lot of the stuff you've been saying is like core to what you've been
+
+660
+00:42:26,325 --> 00:42:26,925
+Speaker 1:  trying to do. Well,
+
+661
+00:42:27,605 --> 00:42:30,685
+Speaker 6:  I mean, it's such a great question. So let's, let's just play, I want you
+
+662
+00:42:30,685 --> 00:42:32,885
+Speaker 6:  to play this please in case people haven't heard it.
+
+663
+00:42:33,645 --> 00:42:37,415
+Speaker 3:  Okay. So get this picture A world where the hottest
+
+664
+00:42:37,415 --> 00:42:41,295
+Speaker 3:  tech isn't microchips or the internet, but dynamite. Yeah,
+
+665
+00:42:41,855 --> 00:42:45,175
+Speaker 3:  dynamite. And it's not just blowing stuff up. Think skyscrapers,
+
+666
+00:42:45,535 --> 00:42:48,535
+Speaker 3:  railroads, massive engineering projects, but also
+
+667
+00:42:49,495 --> 00:42:52,655
+Speaker 3:  you guessed at assassination attempts, terrorist plots, all that volatile
+
+668
+00:42:52,655 --> 00:42:55,975
+Speaker 3:  stuff. It's a wild period, right? Wild is an understatement. And that's where
+
+669
+00:42:55,975 --> 00:42:59,815
+Speaker 3:  our deep dive today comes in. We're cracking open Stephen Johnson's the Infernal
+
+670
+00:42:59,815 --> 00:43:03,735
+Speaker 3:  Machine, a book that digs into this explosive era where dynamite
+
+671
+00:43:03,905 --> 00:43:07,575
+Speaker 3:  anarchists and the birth of, believe it or not, modern data
+
+672
+00:43:07,575 --> 00:43:09,735
+Speaker 3:  collection all collided. Yeah. Get
+
+673
+00:43:09,735 --> 00:43:12,215
+Speaker 2:  Ready to have your mind blown because the connections he makes are mind
+
+674
+00:43:12,215 --> 00:43:13,335
+Speaker 3:  Blowing. Absolutely.
+
+675
+00:43:14,195 --> 00:43:15,255
+Speaker 6:  So it's
+
+676
+00:43:15,255 --> 00:43:18,575
+Speaker 1:  Just everything after Yeah. Dynamite just kills me. I love it.
+
+677
+00:43:19,455 --> 00:43:22,975
+Speaker 6:  You know, one of the things is it, it's, they are enthusiastic
+
+678
+00:43:23,595 --> 00:43:27,375
+Speaker 6:  and so people have been uploading their cvs
+
+679
+00:43:27,795 --> 00:43:31,095
+Speaker 6:  and it's just like if they were feeling down about yourself, like they're
+
+680
+00:43:31,095 --> 00:43:33,415
+Speaker 6:  like, oh, John Smith, look at his, just
+
+681
+00:43:33,415 --> 00:43:33,695
+Speaker 3:  Make you a
+
+682
+00:43:33,695 --> 00:43:34,175
+Speaker 1:  Promo podcast.
+
+683
+00:43:34,645 --> 00:43:36,215
+Speaker 6:  It's made cum laude from
+
+684
+00:43:38,315 --> 00:43:40,815
+Speaker 6:  So I. Think when we first talked about
+
+685
+00:43:42,125 --> 00:43:45,895
+Speaker 6:  what was then Project Tailwind for The Verge, like,
+
+686
+00:43:45,995 --> 00:43:49,815
+Speaker 6:  you know, Verizon and I were talking about how, you know, we, we don't,
+
+687
+00:43:49,815 --> 00:43:53,655
+Speaker 6:  the model doesn't have a a a a persona really. Like it doesn't
+
+688
+00:43:53,675 --> 00:43:57,495
+Speaker 6:  use the subjective, I in general, it's not
+
+689
+00:43:57,495 --> 00:44:00,455
+Speaker 6:  trying to be your friend, it's just trying to get you the information you
+
+690
+00:44:00,455 --> 00:44:04,335
+Speaker 6:  need. And that was, that was kind of the house style that we felt was appropriate
+
+691
+00:44:04,335 --> 00:44:08,175
+Speaker 6:  for what we were trying to build. But If, you wanna have a,
+
+692
+00:44:08,495 --> 00:44:12,175
+Speaker 6:  a conversational audio format. There is no way to do that without
+
+693
+00:44:12,625 --> 00:44:16,375
+Speaker 6:  there having a sense of like human personas. It just won't work. No one,
+
+694
+00:44:16,375 --> 00:44:19,535
+Speaker 6:  no one wants to listen to two series talk to each other. Right. That is not,
+
+695
+00:44:19,715 --> 00:44:20,775
+Speaker 6:  I'm sure there's
+
+696
+00:44:20,775 --> 00:44:22,695
+Speaker 1:  A lot of that on the internet and it's not good. The
+
+697
+00:44:22,695 --> 00:44:25,575
+Speaker 6:  News theory is, is better, but, but I'm sure. But, but, but the old theory,
+
+698
+00:44:25,575 --> 00:44:27,855
+Speaker 6:  right? You know, you, when you listen to two robots talking to each other,
+
+699
+00:44:28,115 --> 00:44:31,885
+Speaker 6:  and initially it was a, another team
+
+700
+00:44:31,885 --> 00:44:35,725
+Speaker 6:  inside of labs that had built this prototype that was like, you know,
+
+701
+00:44:35,725 --> 00:44:38,165
+Speaker 6:  create a document. There, there, there are actually a couple of projects
+
+702
+00:44:38,165 --> 00:44:40,685
+Speaker 6:  like this at Google. There's another wonderful one called Illuminate that
+
+703
+00:44:40,685 --> 00:44:44,485
+Speaker 6:  has a slightly more like, kind of scholarly tone to it, but it was just one
+
+704
+00:44:44,485 --> 00:44:47,605
+Speaker 6:  of these things where like, it became possible to do this. And so, you know,
+
+705
+00:44:48,195 --> 00:44:52,045
+Speaker 6:  some folks were exploring this and it was a very good demo,
+
+706
+00:44:52,115 --> 00:44:55,885
+Speaker 6:  like we've seen from the last few days with audio
+
+707
+00:44:56,245 --> 00:45:00,005
+Speaker 6:  overviews. Like people are impressed, people wanna share it, but
+
+708
+00:45:00,265 --> 00:45:03,685
+Speaker 6:  it, it didn't kind of have a place to live. And so
+
+709
+00:45:04,055 --> 00:45:07,885
+Speaker 6:  kinda right before IO actually there was this idea of like, well
+
+710
+00:45:08,045 --> 00:45:11,925
+Speaker 6:  maybe we could actually put it into, you know, would it make sense inside
+
+711
+00:45:11,925 --> 00:45:15,685
+Speaker 6:  of Notebook? And you know, we were just rolling out the notebook
+
+712
+00:45:15,785 --> 00:45:19,725
+Speaker 6:  guides and when I first heard it, the, the,
+
+713
+00:45:20,585 --> 00:45:23,605
+Speaker 6:  the podcast stuff was like actually even bigger. Like the host had names
+
+714
+00:45:23,625 --> 00:45:27,485
+Speaker 6:  and things like that and Okay. And so, you know,
+
+715
+00:45:27,585 --> 00:45:30,925
+Speaker 6:  but I like it definitely made, you know, I think Verizon and I
+
+716
+00:45:31,235 --> 00:45:34,565
+Speaker 6:  immediately saw that it was a continuation of the philosophy of the guides
+
+717
+00:45:34,755 --> 00:45:37,685
+Speaker 6:  that, you know, we, we, we'll take whatever you give us and we will turn
+
+718
+00:45:37,685 --> 00:45:41,525
+Speaker 6:  it into the format that makes it easiest for you to understand. and
+
+719
+00:45:41,525 --> 00:45:44,765
+Speaker 6:  we know, we know from, you know, the success of podcasts in general that
+
+720
+00:45:44,765 --> 00:45:47,525
+Speaker 6:  people do like to learn that way. Also, also like to travel with audio and
+
+721
+00:45:47,535 --> 00:45:50,485
+Speaker 6:  drive and, you know, walk around the city listening to it. So we knew, we
+
+722
+00:45:50,485 --> 00:45:52,965
+Speaker 6:  knew there were a lot of reasons why audio conversations would make sense.
+
+723
+00:45:53,425 --> 00:45:56,885
+Speaker 1:  Are you starting to have similar conversations about things like video?
+
+724
+00:45:57,485 --> 00:46:00,005
+Speaker 1:  I, I can just imagine like, yeah, I'm starting to think about what notebook
+
+725
+00:46:00,065 --> 00:46:03,845
+Speaker 1:  LM looks like when you're trying to be like TikTok native and YouTube native
+
+726
+00:46:03,945 --> 00:46:07,245
+Speaker 1:  and Instagram reels native is like, it's just what a wild
+
+727
+00:46:07,835 --> 00:46:10,605
+Speaker 1:  kind of road to end up heading down in terms of like how do we communicate
+
+728
+00:46:10,605 --> 00:46:14,245
+Speaker 1:  to people where they are Yeah. But sort of in this house style,
+
+729
+00:46:14,675 --> 00:46:18,205
+Speaker 6:  This is one of the reasons why it's good that I am like 56-year-old gray
+
+730
+00:46:18,205 --> 00:46:20,165
+Speaker 6:  haired Steven is not actually like,
+
+731
+00:46:21,675 --> 00:46:24,965
+Speaker 6:  driving things like, because I wouldn't be terrible at helping with that,
+
+732
+00:46:25,065 --> 00:46:28,565
+Speaker 6:  but like, yes, I think that could be part of our future. Pretty fun. One
+
+733
+00:46:28,565 --> 00:46:31,525
+Speaker 6:  of the things I think is really interesting about it in the response, it
+
+734
+00:46:31,525 --> 00:46:35,125
+Speaker 6:  takes like four or five minutes to sometimes three to five minutes to generate
+
+735
+00:46:35,225 --> 00:46:38,765
+Speaker 6:  one of these. And that's because there is a really
+
+736
+00:46:38,795 --> 00:46:42,765
+Speaker 6:  complex series of, of kind of, you know,
+
+737
+00:46:42,955 --> 00:46:46,765
+Speaker 6:  compute and inference that's going on. Basically you can think about it
+
+738
+00:46:46,765 --> 00:46:49,845
+Speaker 6:  kind of in an editorial way, right? It's kind of drafting a version of it
+
+739
+00:46:50,025 --> 00:46:53,805
+Speaker 6:  and then it's filling in the details of the script and then it's
+
+740
+00:46:53,965 --> 00:46:56,885
+Speaker 6:  revising the script based on the overall goals. Like there's a, there are
+
+741
+00:46:57,245 --> 00:47:01,045
+Speaker 6:  multiple cycles of an basically an edit cycle and that takes
+
+742
+00:47:01,045 --> 00:47:03,525
+Speaker 6:  time. And then crucially, there's a stage where,
+
+743
+00:47:04,905 --> 00:47:08,805
+Speaker 6:  my favorite new word is where disfluencies are added, right? So
+
+744
+00:47:08,805 --> 00:47:12,085
+Speaker 6:  that it, it, it deliberately makes it kind of noisier and more like the,
+
+745
+00:47:12,105 --> 00:47:14,485
+Speaker 6:  the way that people talk when they're in conversation where they overlap
+
+746
+00:47:14,485 --> 00:47:17,125
+Speaker 6:  and they have partial phrases, they complete each other's thoughts and stuff
+
+747
+00:47:17,125 --> 00:47:20,645
+Speaker 6:  like that. All the things that make a traditional transcript hard to read
+
+748
+00:47:20,705 --> 00:47:24,405
+Speaker 6:  if it's not been cleaned up If, you don't have those things in,
+
+749
+00:47:24,875 --> 00:47:27,565
+Speaker 6:  it's on the wrong side of the uncanny valley or it's right in the middle
+
+750
+00:47:27,565 --> 00:47:31,165
+Speaker 6:  of the uncanny valley. I guess you can debate and obviously like
+
+751
+00:47:31,215 --> 00:47:35,085
+Speaker 6:  we're gonna, you can imagine we would introduce abilities to steer
+
+752
+00:47:35,145 --> 00:47:38,605
+Speaker 6:  in different directions and dial up, dial up down things or focus on different
+
+753
+00:47:38,605 --> 00:47:42,485
+Speaker 6:  topics, but the basic structure of kind
+
+754
+00:47:42,485 --> 00:47:45,805
+Speaker 6:  of, you know, doing this long edit cycle and then humanizing.
+
+755
+00:47:46,995 --> 00:47:50,045
+Speaker 1:  Yeah. The thing I called wrong on this one
+
+756
+00:47:51,305 --> 00:47:55,205
+Speaker 1:  was that I thought audio overviews would be one of those things
+
+757
+00:47:55,205 --> 00:47:58,685
+Speaker 1:  that people were like, oh well this is silly, right? It's like every time
+
+758
+00:47:58,725 --> 00:48:01,725
+Speaker 1:  a new image generator comes out, a bunch of people make wild stuff with it
+
+759
+00:48:01,725 --> 00:48:04,405
+Speaker 1:  for 48 hours and then kind of move on and we don't talk about it anymore
+
+760
+00:48:04,405 --> 00:48:06,365
+Speaker 1:  until some new image generat comes out
+
+761
+00:48:07,875 --> 00:48:11,845
+Speaker 1:  this one doesn't seem to have gone like that. And I think it it somewhere
+
+762
+00:48:12,065 --> 00:48:15,245
+Speaker 1:  in between the, like, is it remarkable that it's possible
+
+763
+00:48:15,705 --> 00:48:19,645
+Speaker 1:  versus is this actually useful? I think it is more in the, this is
+
+764
+00:48:19,885 --> 00:48:23,725
+Speaker 1:  actually useful camp for people already than I expected it to be. Like, it's
+
+765
+00:48:23,725 --> 00:48:27,365
+Speaker 1:  definitely remarkable that it's possible and you showed a, a sort of sincerely
+
+766
+00:48:27,465 --> 00:48:31,365
+Speaker 1:  new thing you can do with ai and whenever that happens, people get
+
+767
+00:48:31,365 --> 00:48:34,205
+Speaker 1:  really excited on Twitter. Right? Like that, that's just one way to get people
+
+768
+00:48:34,205 --> 00:48:37,845
+Speaker 1:  really riled up on Twitter for 12 hours. But I think there was, you, you
+
+769
+00:48:37,855 --> 00:48:41,525
+Speaker 1:  overlapped the, this actually does something for people side of things
+
+770
+00:48:42,075 --> 00:48:45,925
+Speaker 1:  more than I expected when I first heard. You can make an AI podcast out
+
+771
+00:48:45,925 --> 00:48:46,245
+Speaker 1:  of your
+
+772
+00:48:46,245 --> 00:48:49,325
+Speaker 6:  Notes. Well, I want to thank you one for changing your mind,
+
+773
+00:48:50,385 --> 00:48:53,365
+Speaker 6:  but two, you remember how jobs used to have the kind of apples, the intersection
+
+774
+00:48:53,385 --> 00:48:57,285
+Speaker 6:  of liberal arts and technology, whatever, like what you just described,
+
+775
+00:48:57,305 --> 00:49:00,845
+Speaker 6:  the intersection of what is newly possible and what is genuinely useful.
+
+776
+00:49:01,115 --> 00:49:04,725
+Speaker 6:  Like that's what we're trying to do at Notebook
+
+777
+00:49:04,905 --> 00:49:07,845
+Speaker 6:  and that's kind of what Labs is trying to do, right? Like it's just like,
+
+778
+00:49:08,235 --> 00:49:12,005
+Speaker 6:  what can we do and what would actually be like, you know, what was unthinkable
+
+779
+00:49:12,005 --> 00:49:15,445
+Speaker 6:  six months ago and then what would would it be? And you know, part of it
+
+780
+00:49:15,465 --> 00:49:19,365
+Speaker 6:  is, you know, I think in some cases people are using it like, I, I wanna
+
+781
+00:49:19,365 --> 00:49:23,165
+Speaker 6:  study and this is a better way for me to, you know, take my documents and,
+
+782
+00:49:23,345 --> 00:49:27,165
+Speaker 6:  and you know, just learn or learn on the go. The other thing is like creating
+
+783
+00:49:27,165 --> 00:49:30,805
+Speaker 6:  things that are effectively podcasts where n the
+
+784
+00:49:31,025 --> 00:49:34,085
+Speaker 6:  no podcast would possibly ever exist in the real world, right? Sure. You
+
+785
+00:49:34,085 --> 00:49:37,525
+Speaker 6:  know, so people are like, here's this very obscure niche topic that no one,
+
+786
+00:49:37,765 --> 00:49:40,645
+Speaker 6:  like the economics of the podcast business will never support a podcast.
+
+787
+00:49:41,485 --> 00:49:44,605
+Speaker 1:  I want the podcast on my d and d game that I play with my friends.
+
+788
+00:49:45,155 --> 00:49:48,925
+Speaker 6:  Yeah, yeah, yeah. No, totally. And, and or it's like, you know,
+
+789
+00:49:49,775 --> 00:49:52,645
+Speaker 6:  we've seen people doing, like, again, thinking about a notebook element in
+
+790
+00:49:52,645 --> 00:49:56,485
+Speaker 6:  a, in a kind of a team context at work. Like okay, like the week in
+
+791
+00:49:56,485 --> 00:50:00,285
+Speaker 6:  review, like give it all your documents. I always say to people with one
+
+792
+00:50:00,285 --> 00:50:03,445
+Speaker 6:  of the best ways to get to know Notebook is to, if you're a Google
+
+793
+00:50:04,915 --> 00:50:08,805
+Speaker 6:  Docs and slides drive user, just grab, create a new notebook
+
+794
+00:50:08,805 --> 00:50:12,365
+Speaker 6:  and grab the last like, 20 docs that you've created and just create a notebook
+
+795
+00:50:12,365 --> 00:50:15,245
+Speaker 6:  with that. Oh, that's fine. And then just ask it questions. And it's, it's
+
+796
+00:50:15,245 --> 00:50:18,965
+Speaker 6:  ability to kind of grasp like what you're working on and the issues and things
+
+797
+00:50:18,965 --> 00:50:22,045
+Speaker 6:  like that. Do that and then create an audio overview. And it's like, this
+
+798
+00:50:22,045 --> 00:50:25,245
+Speaker 6:  is, this is what Steven was working on for the past week. You know, here's
+
+799
+00:50:25,545 --> 00:50:28,950
+Speaker 6:  two happy and enthusiastic people to discuss like the things you've been
+
+800
+00:50:28,950 --> 00:50:32,125
+Speaker 6:  working on and sharing that with your team. Like
+
+801
+00:50:32,675 --> 00:50:36,125
+Speaker 6:  it's pretty nice. Like that's a great way to like look back on the week and
+
+802
+00:50:36,125 --> 00:50:39,965
+Speaker 6:  think about what, what you've been working on and, and you know,
+
+803
+00:50:39,965 --> 00:50:42,045
+Speaker 6:  you can imagine other ways to explore that as well.
+
+804
+00:50:42,545 --> 00:50:44,525
+Speaker 1:  All right, a couple more questions. I know I've kept you a long time, but
+
+805
+00:50:44,525 --> 00:50:46,645
+Speaker 1:  I'll I'll I'll leave you on here in a minute. I can talk to you about this
+
+806
+00:50:46,645 --> 00:50:47,365
+Speaker 1:  forever. Yeah,
+
+807
+00:50:47,365 --> 00:50:49,005
+Speaker 6:  You're even better than talking to Bard.
+
+808
+00:50:49,635 --> 00:50:53,325
+Speaker 1:  This is great. Anytime I'm here for you. I don't like skiing either. So
+
+809
+00:50:55,225 --> 00:50:58,725
+Speaker 1:  do you think there's a like big mainstream
+
+810
+00:50:59,225 --> 00:51:02,125
+Speaker 1:  use case for something like Notebook lm Obviously there are
+
+811
+00:51:03,105 --> 00:51:07,085
+Speaker 1:  people and industries and jobs and schools, like I can imagine a
+
+812
+00:51:07,085 --> 00:51:10,565
+Speaker 1:  bunch of people for whom this is useful. Do you think there is like an everyday
+
+813
+00:51:10,565 --> 00:51:12,685
+Speaker 1:  everybody use case for something like this?
+
+814
+00:51:13,745 --> 00:51:16,755
+Speaker 6:  Everybody every day? I don't know, but I mean
+
+815
+00:51:17,055 --> 00:51:19,155
+Speaker 1:  To me, like, let me put this in slightly different context, right? Google
+
+816
+00:51:19,175 --> 00:51:21,795
+Speaker 1:  is a company that is famous for making things that a billion people,
+
+817
+00:51:22,035 --> 00:51:22,715
+Speaker 6:  A billion people use. Yes.
+
+818
+00:51:22,815 --> 00:51:25,795
+Speaker 1:  Is there, is there a billion? Are there a billion notebook LM users out there?
+
+819
+00:51:26,115 --> 00:51:30,075
+Speaker 6:  I think If, you define it as there is an AI
+
+820
+00:51:30,385 --> 00:51:34,155
+Speaker 6:  that is an expert in the
+
+821
+00:51:34,155 --> 00:51:38,075
+Speaker 6:  information that is really relevant to you that you've, you've curated
+
+822
+00:51:38,575 --> 00:51:42,485
+Speaker 6:  and that you can engage with in different forms, whether it's chat or
+
+823
+00:51:42,485 --> 00:51:46,165
+Speaker 6:  listening to an audio overview. And you can,
+
+824
+00:51:46,265 --> 00:51:50,245
+Speaker 6:  you can basically cultivate your own personal AI with a lot
+
+825
+00:51:50,305 --> 00:51:54,045
+Speaker 6:  of information. Maybe it's all your journals, maybe it's,
+
+826
+00:51:54,185 --> 00:51:57,965
+Speaker 6:  you know, your company's history, whatever it is. And just by like
+
+827
+00:51:59,175 --> 00:52:02,455
+Speaker 6:  dragging and dropping files in there, like it develops this kind of knowledge
+
+828
+00:52:02,455 --> 00:52:05,695
+Speaker 6:  of everything that has happened to you or your organization and is able to
+
+829
+00:52:05,695 --> 00:52:09,215
+Speaker 6:  kind of deliver advice or help you make decisions or just
+
+830
+00:52:09,355 --> 00:52:12,655
+Speaker 6:  recall a fact that you're trying to remember and create these new documents.
+
+831
+00:52:13,515 --> 00:52:17,255
+Speaker 6:  Is that a big, like, will maybe a billion people
+
+832
+00:52:17,365 --> 00:52:20,615
+Speaker 6:  like be doing some variation of that in five years?
+
+833
+00:52:21,415 --> 00:52:24,895
+Speaker 6:  I, I think that's pretty plausible. 'cause there's so many different things
+
+834
+00:52:24,915 --> 00:52:28,655
+Speaker 6:  you could do in that kind of context. You know, it could be like a writer
+
+835
+00:52:28,655 --> 00:52:31,495
+Speaker 6:  working on a book, but it could be an executive trying to make a complicated
+
+836
+00:52:31,695 --> 00:52:35,095
+Speaker 6:  decision or it could just be somebody trying to remember things that have
+
+837
+00:52:35,175 --> 00:52:37,895
+Speaker 6:  happened in their lives and it's like just keeping a journal. Only you've
+
+838
+00:52:37,895 --> 00:52:41,815
+Speaker 6:  got an AI that's helping you do it. Yeah. So I. I, I think there's
+
+839
+00:52:41,815 --> 00:52:42,615
+Speaker 6:  a big market for it.
+
+840
+00:52:43,125 --> 00:52:45,735
+Speaker 1:  Okay. You know what I've been thinking about as you, as you were saying that
+
+841
+00:52:45,735 --> 00:52:48,695
+Speaker 1:  there's this app called My Mind. Have you ever, have you ever seen it? I've
+
+842
+00:52:48,695 --> 00:52:49,295
+Speaker 6:  Seen it a little bit.
+
+843
+00:52:49,295 --> 00:52:51,575
+Speaker 1:  Yeah. It's a great app. You should, you should play with it. I think you
+
+844
+00:52:51,575 --> 00:52:53,935
+Speaker 1:  of all people would, would enjoy some of the AI stuff they're doing. But
+
+845
+00:52:54,575 --> 00:52:58,535
+Speaker 1:  I've started using that app and I've gotten in the habit of basically every
+
+846
+00:52:58,535 --> 00:53:02,135
+Speaker 1:  time I encounter something I like I just put it there. Yeah. Like if I,
+
+847
+00:53:02,415 --> 00:53:05,935
+Speaker 1:  a podcast or a video or a thing I read or a photo I take or a quote that
+
+848
+00:53:05,935 --> 00:53:09,335
+Speaker 1:  I see, I just, I'm just pouring it all in there with no organization, no
+
+849
+00:53:09,335 --> 00:53:11,575
+Speaker 1:  nothing. Yeah. And there's nothing particularly special about that app. It's
+
+850
+00:53:11,575 --> 00:53:14,295
+Speaker 1:  just like, it's pretty to look at So, I like using it
+
+851
+00:53:15,395 --> 00:53:19,215
+Speaker 1:  and already just the thing where you, you open it up and it's,
+
+852
+00:53:19,215 --> 00:53:21,855
+Speaker 1:  it, it's, it has a bunch of modes where you can just type in like movies
+
+853
+00:53:21,875 --> 00:53:24,375
+Speaker 1:  and it'll show you all the movies and movie adjacent stuff that you've been
+
+854
+00:53:24,375 --> 00:53:27,365
+Speaker 1:  saving. And it's like, there's something really powerful about, like, here
+
+855
+00:53:27,365 --> 00:53:30,685
+Speaker 1:  is just a compendium of stuff that I find interesting. Yeah. And
+
+856
+00:53:30,955 --> 00:53:34,845
+Speaker 1:  there's just enough manual work in that that I think
+
+857
+00:53:34,845 --> 00:53:38,325
+Speaker 1:  it's, it's, there's something to solve in the, like how do you
+
+858
+00:53:38,635 --> 00:53:42,405
+Speaker 1:  collect that data from people in a way that is both sort of easy and frictionless,
+
+859
+00:53:42,425 --> 00:53:45,285
+Speaker 1:  but also not like gross and privacy invading
+
+860
+00:53:46,635 --> 00:53:49,605
+Speaker 1:  that is like the eternal Google question. Yeah. I have high hopes that somebody
+
+861
+00:53:49,605 --> 00:53:50,405
+Speaker 1:  will figure it out eventually.
+
+862
+00:53:50,755 --> 00:53:54,645
+Speaker 6:  That is a bias that I've always had probably to a fault that, you know,
+
+863
+00:53:54,795 --> 00:53:58,605
+Speaker 6:  like we don't, we really don't have face, we don't even have kind of folders
+
+864
+00:53:58,625 --> 00:54:02,485
+Speaker 6:  for your sources or your notes or things like that. Like basic kind of low
+
+865
+00:54:02,485 --> 00:54:06,125
+Speaker 6:  level things that we will no doubt add, but we've been focused on these kind
+
+866
+00:54:06,125 --> 00:54:09,845
+Speaker 6:  of cooler features. But part of me is like the beauty, like this,
+
+867
+00:54:10,025 --> 00:54:13,325
+Speaker 6:  the complex systems of organization where you're tagging things and putting
+
+868
+00:54:13,325 --> 00:54:17,245
+Speaker 6:  them into the right folder and stuff like that are not as necessary now
+
+869
+00:54:17,245 --> 00:54:20,805
+Speaker 6:  because the AI does that and makes the connections for you and finds the
+
+870
+00:54:20,805 --> 00:54:24,565
+Speaker 6:  thing that you're looking for. So just have one place, make it easy to grab
+
+871
+00:54:24,625 --> 00:54:28,525
+Speaker 6:  as much stuff from as many different places and just dump it into a
+
+872
+00:54:28,685 --> 00:54:32,645
+Speaker 6:  notebook and then we'll do the magic. And figuring out the
+
+873
+00:54:32,645 --> 00:54:36,165
+Speaker 6:  connections or the finding the information you want after that, again is,
+
+874
+00:54:36,385 --> 00:54:39,965
+Speaker 6:  you said it correctly before, like the closest thing to this before was
+
+875
+00:54:39,965 --> 00:54:43,525
+Speaker 6:  Wikipedia. Like I start here in this Wikipedia page about
+
+876
+00:54:43,725 --> 00:54:47,685
+Speaker 6:  elephants and then I follow it following these interesting paths. But a
+
+877
+00:54:47,885 --> 00:54:51,765
+Speaker 6:  dialogue is just an even better way to do that and if, if it's
+
+878
+00:54:51,765 --> 00:54:55,585
+Speaker 6:  trustworthy. And so the mode that
+
+879
+00:54:55,665 --> 00:54:59,465
+Speaker 6:  I really love is, and, and again, this is only possible with conversation
+
+880
+00:54:59,465 --> 00:55:03,265
+Speaker 6:  history and long context, is to go on one of those like
+
+881
+00:55:04,145 --> 00:55:07,955
+Speaker 6:  exploratory conversations through an idea. And then at the end
+
+882
+00:55:07,975 --> 00:55:11,635
+Speaker 6:  you're like, okay, this has been great. Will you format that all
+
+883
+00:55:11,775 --> 00:55:14,995
+Speaker 6:  as a as single document that just says kind of key take takeaways and insights
+
+884
+00:55:14,995 --> 00:55:17,675
+Speaker 6:  from it. So I can just capture it for later. 'cause I don't necessarily wanna
+
+885
+00:55:17,675 --> 00:55:20,035
+Speaker 6:  read the whole conversation again, but I want to, I want to get the like
+
+886
+00:55:20,405 --> 00:55:24,395
+Speaker 6:  great pieces from it and boom, it does it And you say that and that's your
+
+887
+00:55:24,425 --> 00:55:28,315
+Speaker 6:  kind of record of, of what you just did. Like that, I mean,
+
+888
+00:55:28,585 --> 00:55:32,515
+Speaker 6:  like, that's a beautiful way to, to walk through information space
+
+889
+00:55:32,705 --> 00:55:36,555
+Speaker 6:  Yeah. And full of surprise and, and unexpected turns
+
+890
+00:55:36,775 --> 00:55:39,475
+Speaker 6:  and discovery so that, that feels like a keeper.
+
+891
+00:55:39,695 --> 00:55:43,115
+Speaker 1:  What's the next step in getting better at that? Like, one, one thing that
+
+892
+00:55:43,115 --> 00:55:46,875
+Speaker 1:  it seems to me that we need pretty badly in that
+
+893
+00:55:46,935 --> 00:55:49,955
+Speaker 1:  way of thinking, which I love, like, I love the idea of just like, I'm gonna
+
+894
+00:55:49,955 --> 00:55:51,955
+Speaker 1:  sit here and spend three hours learning about something and then at the end
+
+895
+00:55:51,955 --> 00:55:54,555
+Speaker 1:  you're gonna deliver me like a handy summary of everything that I've learned.
+
+896
+00:55:54,555 --> 00:55:58,395
+Speaker 1:  Yeah. Amazing. Yeah, that's the dream. It does strike me that one thing we
+
+897
+00:55:58,395 --> 00:56:00,955
+Speaker 1:  desperately need all of these tools to get better at, to pull that off is
+
+898
+00:56:00,955 --> 00:56:04,435
+Speaker 1:  multimedia, right? Like, I want to know at the end of it, like, go listen
+
+899
+00:56:04,435 --> 00:56:07,115
+Speaker 1:  to these, these three podcasts and this YouTuber you're gonna, you're gonna
+
+900
+00:56:07,115 --> 00:56:09,995
+Speaker 1:  love and go check it out. And this person on Instagram is doing all, there's
+
+901
+00:56:09,995 --> 00:56:13,875
+Speaker 1:  like, there's, the internet is such a messy place in the best
+
+902
+00:56:13,895 --> 00:56:16,955
+Speaker 1:  way now that it feels like that's one thing. And I know a lot of folks are
+
+903
+00:56:16,955 --> 00:56:20,755
+Speaker 1:  working on that. Are there other things that you look at and you know, you're,
+
+904
+00:56:20,755 --> 00:56:24,645
+Speaker 1:  you're working on this stuff too. Is there a next kind of turn coming that's
+
+905
+00:56:24,645 --> 00:56:25,685
+Speaker 1:  gonna make all that stuff even better
+
+906
+00:56:25,935 --> 00:56:29,125
+Speaker 6:  Right now? Notebook's ability to help you
+
+907
+00:56:29,885 --> 00:56:33,495
+Speaker 6:  discover information to put in your notebook is
+
+908
+00:56:33,525 --> 00:56:37,375
+Speaker 6:  exactly zero. Like no, it does nothing in that.
+
+909
+00:56:37,595 --> 00:56:41,295
+Speaker 6:  You are on your own. You need to supply the sources, right? We will not help
+
+910
+00:56:41,295 --> 00:56:45,255
+Speaker 6:  you discover anything across the internet, any in any form.
+
+911
+00:56:45,955 --> 00:56:49,575
+Speaker 6:  It turns out just as a coincidence that
+
+912
+00:56:49,835 --> 00:56:53,695
+Speaker 6:  Google is really good at that stuff. Like I did not know,
+
+913
+00:56:53,775 --> 00:56:55,975
+Speaker 6:  I learned when I got there, they have this search thing that is apparently
+
+914
+00:56:56,135 --> 00:56:59,455
+Speaker 6:  a lot of people use. So it's obviously like a place where,
+
+915
+00:57:00,155 --> 00:57:03,615
+Speaker 6:  you know, I would love it. I I want it to be source grounded, but I would
+
+916
+00:57:03,615 --> 00:57:07,535
+Speaker 6:  love you to stay in Notebook to be able to find things and you know,
+
+917
+00:57:07,635 --> 00:57:11,495
+Speaker 6:  we, we would, we would be really interested in, in exploring that. I think
+
+918
+00:57:11,495 --> 00:57:13,295
+Speaker 6:  you, you'll see that in 2025 for sure.
+
+919
+00:57:14,315 --> 00:57:17,015
+Speaker 1:  All right, that is it for The Vergecast today. Thanks again to Steven for
+
+920
+00:57:17,015 --> 00:57:20,615
+Speaker 1:  being on the show and thank you as always for listening. There's lots more
+
+921
+00:57:20,675 --> 00:57:23,855
+Speaker 1:  on everything we talked about at The Verge dot com. I'll put some links in
+
+922
+00:57:23,855 --> 00:57:26,895
+Speaker 1:  the show notes to some of the stuff Steven has written about this too. His
+
+923
+00:57:26,895 --> 00:57:30,735
+Speaker 1:  new book is really great. Go to The Verge dot com, lots of show notes, lots
+
+924
+00:57:30,735 --> 00:57:34,095
+Speaker 1:  of notebook coverage, all kinds of good stuff. As always. If you have thoughts,
+
+925
+00:57:34,495 --> 00:57:38,255
+Speaker 1:  questions, feelings, or other ideas for AI generated podcasts,
+
+926
+00:57:38,355 --> 00:57:42,015
+Speaker 1:  you can always email us at Vergecast at The Verge dot com or call the hotline
+
+927
+00:57:42,015 --> 00:57:45,975
+Speaker 1:  eight six six VERGE one one. we love hearing from you wanna hear all your
+
+928
+00:57:45,975 --> 00:57:49,695
+Speaker 1:  thoughts, send 'em all. Can't wait to hear it. This show is produced by Liam
+
+929
+00:57:49,695 --> 00:57:52,935
+Speaker 1:  James Wil Pour and Eric Gomez. Vergecast is VERGE production and part of
+
+930
+00:57:52,935 --> 00:57:56,495
+Speaker 1:  the Vox Media podcast network. We'll be back with our regularly scheduled
+
+931
+00:57:56,495 --> 00:57:59,855
+Speaker 1:  programming on Tuesday and Friday this week. We have a lot of headsets in
+
+932
+00:57:59,855 --> 00:58:03,175
+Speaker 1:  particular to talk about this week, so get ready. We'll see you then. Rock
+
+933
+00:58:03,175 --> 00:58:03,415
+Speaker 1:  and roll.
+

@@ -1,0 +1,4573 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: 9e62d150-6169-11ed-aca7-41187f8e7794
+Status: Done
+Stage: Done
+Title: The politics and laws changing tech in the US
+Audio URL: https://jfe93e.s3.amazonaws.com/-2301102024037155602/4121552452463475932/s93290-US-4220s-1668134088.mp3
+Description: This week on
+02:10 - The Verge's David Pierce tries out Neeva's Bias Buster, an attempt to get people out of their echo chambers and show them new information in its search engine.
+20:25 - Senior reporter Adi Robertson talks about her story How America turned against the First Amendment
+42:27 - Policy reporter Makena Kelly explains the CHIPS and Science Act, and how it could reshape the tech industry in America.
+
+2
+00:00:03,570 --> 00:00:07,240
+Speaker 2:  Welcome to the Verge Cast, the flagship podcast of Semiconductor Foundry
+
+3
+00:00:07,240 --> 00:00:11,000
+Speaker 2:  Construction. I'm your friend David Pierce and I am currently in
+
+4
+00:00:11,000 --> 00:00:14,720
+Speaker 2:  Union Station in DC just off an Amtrak home from
+
+5
+00:00:15,020 --> 00:00:18,840
+Speaker 2:  Connecticut. Big weekend with family time and ironically a lot of
+
+6
+00:00:19,000 --> 00:00:22,800
+Speaker 2:  technology. There was a floppy disc adapter involved. I got to tell my mom
+
+7
+00:00:22,800 --> 00:00:26,680
+Speaker 2:  all about the wonders of VLC media player and we did an awful lot of
+
+8
+00:00:26,680 --> 00:00:30,480
+Speaker 2:  password sharing. Nobody's on Netflix. Anyway, we have a great
+
+9
+00:00:30,480 --> 00:00:34,120
+Speaker 2:  show for you today. Technically as you're listening to this, the US midterms
+
+10
+00:00:34,120 --> 00:00:36,880
+Speaker 2:  were yesterday, but we still wanted to spend some time this week talking
+
+11
+00:00:36,880 --> 00:00:40,560
+Speaker 2:  about politics. So we're gonna talk about how political news works on the
+
+12
+00:00:40,560 --> 00:00:44,280
+Speaker 2:  internet and whether anyone can build tools to make it work better. We're
+
+13
+00:00:44,280 --> 00:00:47,480
+Speaker 2:  also gonna talk with Addie Robertson about the state of free speech in America
+
+14
+00:00:47,480 --> 00:00:51,000
+Speaker 2:  and on the internet, FairWarning, it's pretty bleak. And then McKenna Kelly
+
+15
+00:00:51,000 --> 00:00:54,760
+Speaker 2:  is gonna come on to talk to us about the Chips and Science Act and
+
+16
+00:00:54,760 --> 00:00:58,600
+Speaker 2:  which US cities might turn out to be the next big tech hubs. All that
+
+17
+00:00:58,600 --> 00:01:02,400
+Speaker 2:  is coming in just a second, but I gotta get outta this train station and
+
+18
+00:01:02,400 --> 00:01:06,360
+Speaker 2:  into a cab and get home. Wish me luck. This is the Verge Cast. See
+
+19
+00:01:06,360 --> 00:01:06,640
+Speaker 2:  in a second.
+
+20
+00:02:20,100 --> 00:02:23,970
+Speaker 2:  Welcome back. I wanna tell you about this slider I'm looking at. So
+
+21
+00:02:23,970 --> 00:02:27,930
+Speaker 2:  I'm on niva.com. Niva, if you didn't know, is a search engine which
+
+22
+00:02:27,930 --> 00:02:31,090
+Speaker 2:  is built by a bunch of ex Googlers who think they can build a better
+
+23
+00:02:31,620 --> 00:02:35,330
+Speaker 2:  ad-free privacy respecting search engine. Super interesting company.
+
+24
+00:02:35,330 --> 00:02:38,890
+Speaker 2:  We're gonna talk a lot more about it in a later episode. But anyway, I'm
+
+25
+00:02:38,890 --> 00:02:42,730
+Speaker 2:  on niva.com and I search for let's say 2022 midterms.
+
+26
+00:02:42,730 --> 00:02:45,850
+Speaker 2:  They're happening right now. There's a lot going on. I click on the news
+
+27
+00:02:45,850 --> 00:02:49,730
+Speaker 2:  tab and I get some news midterm elections, latest news, which is a
+
+28
+00:02:49,730 --> 00:02:53,570
+Speaker 2:  stream of stuff from the Washington Post midterms 2022. The Ultimate
+
+29
+00:02:53,570 --> 00:02:57,410
+Speaker 2:  Insider's Guide from Newsweek, Charlie Kirk, The hidden parents votes
+
+30
+00:02:57,410 --> 00:03:01,240
+Speaker 2:  will sway midterm election from Fox News. There's the West Lake
+
+31
+00:03:01,520 --> 00:03:05,360
+Speaker 2:  Picayune, which is a local newspaper from Texas that's here. So
+
+32
+00:03:05,360 --> 00:03:08,400
+Speaker 2:  is the Houston Chronicle and the St. Louis Post Dispatch,
+
+33
+00:03:08,980 --> 00:03:12,800
+Speaker 2:  NBC News, abc, Dallas Morning News, Yahoo, Fox
+
+34
+00:03:12,800 --> 00:03:16,480
+Speaker 2:  Reuters, fairly standard news stuff. But then there's this
+
+35
+00:03:16,480 --> 00:03:20,440
+Speaker 2:  slider at the top right, it's like a third of the page wide and it goes
+
+36
+00:03:20,440 --> 00:03:24,080
+Speaker 2:  from dark blue on the left to a sort of faded white in the middle
+
+37
+00:03:24,330 --> 00:03:28,200
+Speaker 2:  to a dark red on the right. If I grab the black arrows in the middle and
+
+38
+00:03:28,200 --> 00:03:31,360
+Speaker 2:  pull them all the way left, the whole thing tilts toward blue
+
+39
+00:03:31,780 --> 00:03:35,680
+Speaker 2:  and the news changes. Now first step in my
+
+40
+00:03:35,680 --> 00:03:39,240
+Speaker 2:  search results is the Daily Beast. It says, Go spends
+
+41
+00:03:39,530 --> 00:03:43,280
+Speaker 2:  fu money in blue seats as polls tilt their way for midterm elections.
+
+42
+00:03:43,430 --> 00:03:47,400
+Speaker 2:  Then the Guardian Democrats insist Joe Biden's low midterms profile
+
+43
+00:03:47,400 --> 00:03:51,360
+Speaker 2:  is smart strategy. Then there's a slate story about JD Vance and Tim Ryan
+
+44
+00:03:51,360 --> 00:03:55,280
+Speaker 2:  in Ohio. Rolling Stones story with an SNL cold open, making
+
+45
+00:03:55,280 --> 00:03:56,160
+Speaker 2:  fun of Republicans.
+
+46
+00:03:56,570 --> 00:03:59,600
+Speaker 5:  My name is Hershaw Walker, Texas Ranger and
+
+47
+00:04:00,300 --> 00:04:02,880
+Speaker 5:  I'm running for president of the United Airlines.
+
+48
+00:04:03,780 --> 00:04:07,640
+Speaker 2:  You get the idea right? This is deep blue Pro Democrat
+
+49
+00:04:07,640 --> 00:04:11,360
+Speaker 2:  News, at least according to Neva. Now let's go all the way the other way.
+
+50
+00:04:11,470 --> 00:04:15,280
+Speaker 2:  Grab the arrow, slide it to the right, the whole thing tilts dark red. Now
+
+51
+00:04:15,280 --> 00:04:19,240
+Speaker 2:  I have a story from Breitbart. It says, Poll independent voters swing 18
+
+52
+00:04:19,240 --> 00:04:22,320
+Speaker 2:  points toward G O P on generic ballot. One from Newsmax
+
+53
+00:04:22,680 --> 00:04:26,640
+Speaker 2:  CBS's Margaret Brennan tries to pin political violence on Republican
+
+54
+00:04:26,640 --> 00:04:30,600
+Speaker 2:  rep's. Tweet one from the Daily Mail. Newt Gingrich says Biden likely doomed
+
+55
+00:04:30,600 --> 00:04:34,040
+Speaker 2:  midterms by inviting Dylan Mulvaney to White House. The Daily caller is on
+
+56
+00:04:34,060 --> 00:04:37,800
+Speaker 2:  here, The Federalist is on here. This is like the who's who of far right
+
+57
+00:04:37,800 --> 00:04:41,640
+Speaker 2:  news sources. If I tilt back slightly towards the middle, now
+
+58
+00:04:41,640 --> 00:04:45,520
+Speaker 2:  I'm getting the New York Post and Fox News and the Washington
+
+59
+00:04:45,520 --> 00:04:49,000
+Speaker 2:  Examiner and the Epoch Times. It's still very right leaning, obviously with
+
+60
+00:04:49,200 --> 00:04:52,720
+Speaker 2:  headlines about big tech and Democrats being in bed with each other and
+
+61
+00:04:52,720 --> 00:04:56,280
+Speaker 2:  China's supposed attempt to undermine the midterms. And then if I grab it
+
+62
+00:04:56,280 --> 00:05:00,240
+Speaker 2:  again and flip slightly left, I get a Yahoo story about the Senate race in
+
+63
+00:05:00,240 --> 00:05:03,360
+Speaker 2:  Pennsylvania and a political story about Democrats needing Obama to help
+
+64
+00:05:03,360 --> 00:05:05,480
+Speaker 2:  them and a bunch of CNN and nbc.
+
+65
+00:05:08,230 --> 00:05:12,200
+Speaker 2:  This slider is called Bias Buster and it's Nivas attempt to get people
+
+66
+00:05:12,220 --> 00:05:16,040
+Speaker 2:  out of their echo chambers and filter bubbles and show them new
+
+67
+00:05:16,040 --> 00:05:19,920
+Speaker 2:  information and new perspectives. Here's how Vivek Rahan Nivas
+
+68
+00:05:19,920 --> 00:05:21,240
+Speaker 2:  co-founder described it to
+
+69
+00:05:21,240 --> 00:05:25,080
+Speaker 6:  Me. This kind of thing has never existed before. Yeah, sure, you can look
+
+70
+00:05:25,080 --> 00:05:28,800
+Speaker 6:  up a query like Inflation Reduction Act or you know, election results
+
+71
+00:05:28,800 --> 00:05:32,760
+Speaker 6:  and add like Fox News or add like you know, Mother Jones or add like
+
+72
+00:05:33,080 --> 00:05:36,360
+Speaker 6:  you know, Huffington Post and you can get like views from across the spectrum.
+
+73
+00:05:36,460 --> 00:05:40,120
+Speaker 6:  But what we are really trying to do with Bias Buster is to dramatically
+
+74
+00:05:40,150 --> 00:05:43,920
+Speaker 6:  reduce the bar to sampling diverse points of
+
+75
+00:05:43,920 --> 00:05:47,760
+Speaker 6:  opinions from all sides of the spectrum. And so we built that into
+
+76
+00:05:47,760 --> 00:05:51,120
+Speaker 6:  the product design from the ground up. For example,
+
+77
+00:05:51,630 --> 00:05:55,520
+Speaker 6:  this bias buster resets itself on every search. We
+
+78
+00:05:55,520 --> 00:05:59,200
+Speaker 6:  don't want it to be a setting that kind of remembers itself as you go along.
+
+79
+00:05:59,200 --> 00:06:02,000
+Speaker 6:  We want you to try out and sample different points of the same opinion.
+
+80
+00:06:02,770 --> 00:06:06,640
+Speaker 2:  My immediate first question on seeing this or even hearing
+
+81
+00:06:06,640 --> 00:06:10,440
+Speaker 2:  about it was basically says, who is
+
+82
+00:06:10,440 --> 00:06:14,200
+Speaker 2:  this? Just someone at Niva looking at a bunch of news sources and articles
+
+83
+00:06:14,200 --> 00:06:18,160
+Speaker 2:  and saying that one's center right? That one's super left. Vivek
+
+84
+00:06:18,160 --> 00:06:21,160
+Speaker 2:  told me no. In a way it's actually simpler than that.
+
+85
+00:06:21,220 --> 00:06:24,840
+Speaker 6:  And there are a number of third party publications out there that have, you
+
+86
+00:06:24,840 --> 00:06:28,720
+Speaker 6:  know, published points of views of where various sources land on
+
+87
+00:06:28,720 --> 00:06:31,960
+Speaker 6:  various parts of the spectrum. They've often used polling and other techniques
+
+88
+00:06:31,960 --> 00:06:35,360
+Speaker 6:  that involve like serving users to create a map of the various news sources
+
+89
+00:06:35,360 --> 00:06:39,200
+Speaker 6:  and where they lie on the spectrum. We are using those as guides
+
+90
+00:06:39,250 --> 00:06:43,160
+Speaker 6:  to decide where various publications land on various parts of
+
+91
+00:06:43,160 --> 00:06:43,720
+Speaker 6:  the spectrum.
+
+92
+00:06:44,030 --> 00:06:48,000
+Speaker 2:  Okay, wait, hang on, quick diversion here. The VEC also told me that
+
+93
+00:06:48,000 --> 00:06:51,960
+Speaker 2:  Neva tried to not just categorize everything in one specific place
+
+94
+00:06:52,090 --> 00:06:55,840
+Speaker 2:  because publications aren't the same all the time, which makes sense, but
+
+95
+00:06:55,840 --> 00:06:59,760
+Speaker 2:  it got me wondering how these ranking systems work. It does kind
+
+96
+00:06:59,760 --> 00:07:03,400
+Speaker 2:  of sound like someone is just out there reading news articles and going,
+
+97
+00:07:03,400 --> 00:07:07,200
+Speaker 2:  Oh Mother Jones super left AP very center Brightbart Ultra,
+
+98
+00:07:07,200 --> 00:07:11,000
+Speaker 2:  right? It feels weird to me that it's that simple or that it's possible
+
+99
+00:07:11,000 --> 00:07:14,400
+Speaker 2:  to boil it all the way down like that. So I called up Julia
+
+100
+00:07:14,680 --> 00:07:18,520
+Speaker 2:  Srini who is the director of media Bias Ratings at All Sides, which is one
+
+101
+00:07:18,520 --> 00:07:21,760
+Speaker 2:  of the best known companies doing this kind of work. Here's how she explained
+
+102
+00:07:21,760 --> 00:07:22,040
+Speaker 2:  the process.
+
+103
+00:07:22,810 --> 00:07:26,760
+Speaker 7:  So if we have high confidence in a rating, it means that we've applied
+
+104
+00:07:27,400 --> 00:07:30,800
+Speaker 7:  multiple high confidence methodologies to the news sources content
+
+105
+00:07:31,100 --> 00:07:34,720
+Speaker 7:  and that typically means it's undergone two things, an editorial
+
+106
+00:07:34,720 --> 00:07:38,560
+Speaker 7:  review by a panel of people on the left center and
+
+107
+00:07:38,560 --> 00:07:41,960
+Speaker 7:  right who are actually looking at the news sources content and assessing
+
+108
+00:07:41,960 --> 00:07:45,920
+Speaker 7:  it for bias and then coming to a consensus on a rating and a blind
+
+109
+00:07:45,920 --> 00:07:49,440
+Speaker 7:  bias survey of Americans. So that is when we
+
+110
+00:07:49,520 --> 00:07:53,440
+Speaker 7:  strip news reporting content of any branding so people don't know that
+
+111
+00:07:53,440 --> 00:07:57,280
+Speaker 7:  it's coming from CNN or Fox. And we send it out to thousands of Americans
+
+112
+00:07:57,500 --> 00:08:01,240
+Speaker 7:  and we ask them to tell us what they think the bias of the media outlet is
+
+113
+00:08:01,240 --> 00:08:04,840
+Speaker 7:  after reading headlines and news reports from the outlet. So we're kind of
+
+114
+00:08:04,840 --> 00:08:08,800
+Speaker 7:  mixing, you know, expert panels of people who
+
+115
+00:08:08,800 --> 00:08:12,480
+Speaker 7:  are trained to spot bias with everyday Americans to get the
+
+116
+00:08:12,480 --> 00:08:13,960
+Speaker 7:  perception of the country.
+
+117
+00:08:14,500 --> 00:08:18,240
+Speaker 2:  She said this process involves a lot of nuance and that publications change
+
+118
+00:08:18,240 --> 00:08:21,920
+Speaker 2:  over time. But I definitely don't think this is a perfect system, but it
+
+119
+00:08:21,920 --> 00:08:25,720
+Speaker 2:  is at least a consistent one and an approach I've heard from a few people
+
+120
+00:08:26,000 --> 00:08:29,480
+Speaker 2:  building tools like nevas. I definitely think this is better than trying
+
+121
+00:08:29,480 --> 00:08:33,440
+Speaker 2:  to do like some really complicated personalized AI
+
+122
+00:08:33,720 --> 00:08:37,400
+Speaker 2:  analysis of every article to figure out where it falls politically. That's
+
+123
+00:08:37,400 --> 00:08:40,160
+Speaker 2:  something a lot of tech companies would try. I don't think it would work.
+
+124
+00:08:40,160 --> 00:08:43,680
+Speaker 2:  And in Nivas case, keeping it simple is probably the right call
+
+125
+00:08:43,680 --> 00:08:47,240
+Speaker 2:  because with a tool like this, giving people a transparent understanding
+
+126
+00:08:47,290 --> 00:08:50,520
+Speaker 2:  of what they're seeing and why is actually a really big deal.
+
+127
+00:08:50,770 --> 00:08:54,440
+Speaker 6:  We think any personalization users do should be explicit. We should not be
+
+128
+00:08:54,440 --> 00:08:57,880
+Speaker 6:  doing implicit personalization on their behalf and we think doing it at a
+
+129
+00:08:57,880 --> 00:09:01,600
+Speaker 6:  level of granularity they understand in this case sources is very
+
+130
+00:09:01,600 --> 00:09:03,440
+Speaker 6:  important to building that trust and transparency.
+
+131
+00:09:03,950 --> 00:09:07,440
+Speaker 2:  Look, do I think this is going to instantly solve all problems of
+
+132
+00:09:07,440 --> 00:09:10,720
+Speaker 2:  polarization on the internet? No. Do I think stuff like this is worth trying?
+
+133
+00:09:10,870 --> 00:09:14,840
+Speaker 2:  Absolutely. But honestly my biggest question with all of this
+
+134
+00:09:14,840 --> 00:09:18,680
+Speaker 2:  is will anyone use it? Sure there's a subset of
+
+135
+00:09:18,680 --> 00:09:22,160
+Speaker 2:  people who say they'd like to read widely and understand other arguments,
+
+136
+00:09:22,180 --> 00:09:25,800
+Speaker 2:  all that good stuff. It sounds nice but it's just human nature to seek out
+
+137
+00:09:25,800 --> 00:09:29,520
+Speaker 2:  stuff we know and stuff that agrees with us and the sources that we
+
+138
+00:09:29,520 --> 00:09:33,040
+Speaker 2:  feel like get us and we're most comfortable with. Is it even
+
+139
+00:09:33,480 --> 00:09:37,280
+Speaker 2:  possible to expose people to new things this way? Especially in such a
+
+140
+00:09:37,280 --> 00:09:41,160
+Speaker 2:  high stakes and constantly argumentative space like politics? I asked
+
+141
+00:09:41,160 --> 00:09:44,560
+Speaker 2:  that question to Sean Munson who's a professor at the University of Washington
+
+142
+00:09:44,560 --> 00:09:48,480
+Speaker 2:  and in 2012 he created a tool called Balancer that was meant to
+
+143
+00:09:48,480 --> 00:09:51,960
+Speaker 2:  do something very similar to what Neva is doing now. It was a Chrome extension
+
+144
+00:09:52,240 --> 00:09:55,880
+Speaker 2:  designed to help you see a wider spectrum of information about the news.
+
+145
+00:09:56,130 --> 00:10:00,120
+Speaker 8:  We thought about kind this whole range of options for pushing
+
+146
+00:10:00,120 --> 00:10:03,800
+Speaker 8:  folks or giving them kind of this nudge or, or at least feedback, some included
+
+147
+00:10:03,800 --> 00:10:07,680
+Speaker 8:  maybe we actually redirect them, right? So if you've read from a left leaning
+
+148
+00:10:07,680 --> 00:10:10,960
+Speaker 8:  or a right leaning source to often maybe when you go to read an article on
+
+149
+00:10:10,960 --> 00:10:13,440
+Speaker 8:  a topic on the backend, there's something that actually takes you to the
+
+150
+00:10:13,440 --> 00:10:16,320
+Speaker 8:  article on the same topic, maybe on a source you wouldn't choose
+
+151
+00:10:16,630 --> 00:10:20,440
+Speaker 2:  That last bit. Actually changing the articles you see felt like a bridge
+
+152
+00:10:20,440 --> 00:10:24,280
+Speaker 2:  too far. So balancer eventually settled on just giving you feedback
+
+153
+00:10:24,280 --> 00:10:27,720
+Speaker 2:  on your activity, but the goal he says now was fairly simple
+
+154
+00:10:27,900 --> 00:10:30,240
+Speaker 2:  and matches what Vivek told me about Neva.
+
+155
+00:10:30,410 --> 00:10:33,640
+Speaker 8:  If I were to have continued the work metrics for success would've been things
+
+156
+00:10:33,640 --> 00:10:37,520
+Speaker 8:  like are people more aware of other arguments? Are they able to
+
+157
+00:10:37,870 --> 00:10:41,760
+Speaker 8:  cite the range of opinions that might support another opinion even if they
+
+158
+00:10:41,760 --> 00:10:44,480
+Speaker 8:  still don't agree with it, right? So are they basically more prepared to
+
+159
+00:10:44,480 --> 00:10:47,840
+Speaker 8:  have conversations with people who hold different views because they kind
+
+160
+00:10:47,840 --> 00:10:50,280
+Speaker 8:  of understand a bit of where they're coming from or understand some of the
+
+161
+00:10:50,280 --> 00:10:53,640
+Speaker 8:  background and it might not change any minds, but at least kind of this the
+
+162
+00:10:53,640 --> 00:10:54,960
+Speaker 8:  shared understanding or shared reality.
+
+163
+00:10:55,460 --> 00:10:58,800
+Speaker 2:  You might have noticed that at the beginning of that, Sean said if I were
+
+164
+00:10:58,800 --> 00:11:02,440
+Speaker 2:  to have continued the work, spoiler alert he didn't continue the work.
+
+165
+00:11:02,650 --> 00:11:06,320
+Speaker 2:  In part he didn't because he felt like he wasn't actually pressing at the
+
+166
+00:11:06,320 --> 00:11:08,520
+Speaker 2:  most important information problem we have.
+
+167
+00:11:09,070 --> 00:11:12,920
+Speaker 8:  Baller is a a tool that works if articles exist in
+
+168
+00:11:12,920 --> 00:11:16,480
+Speaker 8:  a mostly shared reality, they just have different opinions about what to
+
+169
+00:11:16,760 --> 00:11:19,840
+Speaker 8:  do about that reality. And you know, if we look at where the information
+
+170
+00:11:19,840 --> 00:11:23,000
+Speaker 8:  space has gone these days, it's not a shared reality that you did misinformation.
+
+171
+00:11:23,000 --> 00:11:26,040
+Speaker 8:  Disinformation are much bigger threats and, and I don't think something like
+
+172
+00:11:26,040 --> 00:11:28,600
+Speaker 8:  baller could really possibly address them.
+
+173
+00:11:29,360 --> 00:11:32,930
+Speaker 2:  I asked VEC about this too because one thing that jumped out to me using
+
+174
+00:11:32,930 --> 00:11:36,850
+Speaker 2:  bias Buster was that tools like this seem to think that everything is
+
+175
+00:11:36,850 --> 00:11:40,650
+Speaker 2:  a matter of what right and left believe. And doesn't that set up
+
+176
+00:11:40,650 --> 00:11:44,250
+Speaker 2:  a false dichotomy like oh, reasonable people can disagree
+
+177
+00:11:44,320 --> 00:11:48,010
+Speaker 2:  when in reality some things are true and some people are just wrong.
+
+178
+00:11:48,210 --> 00:11:49,410
+Speaker 2:  Facts exist.
+
+179
+00:11:49,900 --> 00:11:53,400
+Speaker 6:  My current sense is the veracity of information is a, an
+
+180
+00:11:53,650 --> 00:11:57,480
+Speaker 6:  al access to political opinion. There is legitimate political opinion on
+
+181
+00:11:57,480 --> 00:12:00,960
+Speaker 6:  both sides about whether something is true or not is like the next level
+
+182
+00:12:00,960 --> 00:12:04,680
+Speaker 6:  of we don't currently or personally I don't feel equipped to tackle
+
+183
+00:12:04,680 --> 00:12:08,480
+Speaker 6:  misinformation as a completely by myself at the current moment. And so
+
+184
+00:12:08,480 --> 00:12:12,040
+Speaker 6:  in in V one of the bias, we are not attempting to tackle
+
+185
+00:12:12,180 --> 00:12:15,680
+Speaker 6:  the veracity of information. We're attempting to tackle different opinions
+
+186
+00:12:15,680 --> 00:12:17,280
+Speaker 6:  on different sides of the political spectrum.
+
+187
+00:12:17,710 --> 00:12:21,280
+Speaker 2:  That strikes me as a tiny bit of a cop out. But honestly also
+
+188
+00:12:21,420 --> 00:12:25,320
+Speaker 2:  the right call, the vexed nevas goal is to match what Google and Bing
+
+189
+00:12:25,320 --> 00:12:29,160
+Speaker 2:  and others are doing right now to push to be as authoritative and correct
+
+190
+00:12:29,160 --> 00:12:33,080
+Speaker 2:  as they are without trying to reinvent the wheel and solve everything all
+
+191
+00:12:33,080 --> 00:12:36,600
+Speaker 2:  at once after playing with it for a few days. Something about
+
+192
+00:12:36,680 --> 00:12:40,480
+Speaker 2:  Nevas bias Buster does feel valuable to me and I'm clearly
+
+193
+00:12:40,480 --> 00:12:44,200
+Speaker 2:  not the only one over the years lots of folks have tried to figure out how
+
+194
+00:12:44,200 --> 00:12:47,960
+Speaker 2:  to do this kind of thing in a responsible way, exposing users to new
+
+195
+00:12:47,960 --> 00:12:51,600
+Speaker 2:  ideas and sources without just causing flame wars seems good,
+
+196
+00:12:51,600 --> 00:12:55,320
+Speaker 2:  right? But still I come back to this idea, is this a problem
+
+197
+00:12:55,520 --> 00:12:58,720
+Speaker 2:  worth solving? While there are such bigger ones out there,
+
+198
+00:12:59,260 --> 00:13:03,000
+Speaker 2:  I'm torn on all of this, but luckily the verges Addie Robertson
+
+199
+00:13:03,000 --> 00:13:06,440
+Speaker 2:  has been paying attention to this kind of speech issue a lot longer than
+
+200
+00:13:06,440 --> 00:13:08,240
+Speaker 2:  I have. So I figured I'd just call her up and ask
+
+201
+00:13:09,920 --> 00:13:13,640
+Speaker 2:  Addie, hello, thank you for being here. Hey I don't even have a question
+
+202
+00:13:13,640 --> 00:13:16,520
+Speaker 2:  for you. Just like tell me, tell me how to feel about tools like this as
+
+203
+00:13:16,520 --> 00:13:18,280
+Speaker 2:  someone who's been paying attention to this for a long time.
+
+204
+00:13:18,490 --> 00:13:22,040
+Speaker 9:  On one hand I think anything that lets you filter and sort information is
+
+205
+00:13:22,230 --> 00:13:26,000
+Speaker 9:  kind of just a good, I think that's, it's neat from that perspective. I think
+
+206
+00:13:26,000 --> 00:13:29,240
+Speaker 9:  also you kind of wanna be clear-eyed about its limitations though. So the
+
+207
+00:13:29,240 --> 00:13:33,000
+Speaker 9:  first thing I think of is that this doesn't really control for a super
+
+208
+00:13:33,340 --> 00:13:37,280
+Speaker 9:  key issue in search bias, which is your input. Mm. So
+
+209
+00:13:37,450 --> 00:13:41,240
+Speaker 9:  as a scholar, Francesca Tripodi who's done a lot of work on this, which is
+
+210
+00:13:41,240 --> 00:13:45,160
+Speaker 9:  that the way you phrase a keyword or the topic that you're dealing
+
+211
+00:13:45,160 --> 00:13:48,920
+Speaker 9:  with, they're just inherently different ways that different sites cover that
+
+212
+00:13:48,920 --> 00:13:52,640
+Speaker 9:  information. So if you, in her example you put in immigrant
+
+213
+00:13:52,640 --> 00:13:56,600
+Speaker 9:  voting rights, then it doesn't matter how far right you slide the
+
+214
+00:13:56,720 --> 00:13:59,440
+Speaker 9:  spectrum, there's gonna be a lot more coverage on the left because that's
+
+215
+00:13:59,440 --> 00:14:03,000
+Speaker 9:  just how the issue is framed and how interesting that's written about. Whereas
+
+216
+00:14:03,000 --> 00:14:06,960
+Speaker 9:  if you write illegal immigrants voting, then you're just gonna get something
+
+217
+00:14:06,960 --> 00:14:10,520
+Speaker 9:  that's inherently right biased, because that's not terminology that you know,
+
+218
+00:14:10,520 --> 00:14:14,440
+Speaker 9:  the New York Times or Mother Jones is gonna use. And the same
+
+219
+00:14:14,550 --> 00:14:18,160
+Speaker 9:  token, like there are topics that just, there's one side of the political
+
+220
+00:14:18,160 --> 00:14:21,960
+Speaker 9:  spectrum that's gonna write a billion essays and news stories about them
+
+221
+00:14:21,960 --> 00:14:25,040
+Speaker 9:  like I don't know, Hunter Biden's laptop and others that they're gonna cover
+
+222
+00:14:25,040 --> 00:14:27,240
+Speaker 9:  them but there's just not that, not as much data there.
+
+223
+00:14:27,240 --> 00:14:29,760
+Speaker 2:  That's super interesting cause I'm now thinking about the way I tested this
+
+224
+00:14:29,760 --> 00:14:32,200
+Speaker 2:  and, and a lot of that has been very sort of generic, right? You searched
+
+225
+00:14:32,200 --> 00:14:36,040
+Speaker 2:  terms like inflation and Joe Biden and midterms
+
+226
+00:14:36,040 --> 00:14:39,520
+Speaker 2:  2022 and I think some of that is like how people use the internet, but for
+
+227
+00:14:39,520 --> 00:14:42,680
+Speaker 2:  the most part it is the stuff you're describing. It's like here's a story
+
+228
+00:14:42,680 --> 00:14:45,520
+Speaker 2:  about Hunter Biden's laptop. And so you Google Hunter Biden's laptop and
+
+229
+00:14:45,520 --> 00:14:49,080
+Speaker 2:  just by virtue of looking for that thing, there are places like the New York
+
+230
+00:14:49,080 --> 00:14:52,560
+Speaker 2:  Post has covered Hunter Biden's laptop to like the N
+
+231
+00:14:52,730 --> 00:14:56,720
+Speaker 2:  degree. So just by definition you're more likely to get stuff with that kind
+
+232
+00:14:56,720 --> 00:14:59,560
+Speaker 2:  of bias just because of the fact that you're searching for that thing with
+
+233
+00:14:59,560 --> 00:14:59,840
+Speaker 2:  those words,
+
+234
+00:14:59,920 --> 00:15:03,440
+Speaker 9:  Right? And there's some stories where it's just, there's almost a complete
+
+235
+00:15:03,440 --> 00:15:06,960
+Speaker 9:  data void on one side of the spectrum because this is kinda the problem with
+
+236
+00:15:06,960 --> 00:15:10,880
+Speaker 9:  describing any news coverage as objective, which is that
+
+237
+00:15:10,880 --> 00:15:14,560
+Speaker 9:  the stories you decide to cover are sort of inherently from a
+
+238
+00:15:14,560 --> 00:15:18,200
+Speaker 9:  viewpoint. So that's the first thing. The second thing is that I think that
+
+239
+00:15:18,200 --> 00:15:21,480
+Speaker 9:  it is increasingly limited to describe the political spectrum as left versus
+
+240
+00:15:21,480 --> 00:15:24,880
+Speaker 9:  right. That I think there's a lot of intersection now between
+
+241
+00:15:25,100 --> 00:15:28,880
+Speaker 9:  say issues that matter to the left and issues that matter to the
+
+242
+00:15:28,880 --> 00:15:32,440
+Speaker 9:  right. They're just motivated by different things and
+
+243
+00:15:32,440 --> 00:15:36,320
+Speaker 9:  framed sometimes in a different way. And I think that a lot of the sources
+
+244
+00:15:36,320 --> 00:15:39,600
+Speaker 9:  there are also, from what you've described, they seem like
+
+245
+00:15:40,110 --> 00:15:44,080
+Speaker 9:  sort of a kind of well known subset of sources. So yes, maybe, you
+
+246
+00:15:44,080 --> 00:15:47,200
+Speaker 9:  know, you usually don't watch Fox News or read Fox News and you're gonna
+
+247
+00:15:47,200 --> 00:15:51,120
+Speaker 9:  get more Fox News, but you're not really gonna burst the bubble
+
+248
+00:15:51,330 --> 00:15:55,280
+Speaker 9:  of a specific subset of media. Like you're not as
+
+249
+00:15:55,280 --> 00:15:58,920
+Speaker 9:  far as I can tell, going to get, you know, unicorn riot results from
+
+250
+00:15:58,950 --> 00:16:02,760
+Speaker 9:  like a leftist collective, right? Like you're gonna get
+
+251
+00:16:02,760 --> 00:16:05,760
+Speaker 9:  things that are still pretty firmly within a specific media bubble.
+
+252
+00:16:05,910 --> 00:16:08,720
+Speaker 2:  Yeah. Well and that's one of the things I've been thinking a lot about too
+
+253
+00:16:08,720 --> 00:16:12,480
+Speaker 2:  is like I wound up sort of deep down this rabbit hole of these
+
+254
+00:16:12,480 --> 00:16:16,440
+Speaker 2:  companies that rate media bias and it ends up setting
+
+255
+00:16:16,440 --> 00:16:18,800
+Speaker 2:  up this weird dichotomy where like I've talked to a lot of people over the
+
+256
+00:16:18,800 --> 00:16:22,040
+Speaker 2:  years who say like, you know, I watch Fox News for one side of the political
+
+257
+00:16:22,160 --> 00:16:24,920
+Speaker 2:  spectrum and I watch CNN for the other side of the political spectrum and
+
+258
+00:16:25,030 --> 00:16:28,440
+Speaker 2:  I sort of get the impulse, but like I would not, I would not agree with the
+
+259
+00:16:28,440 --> 00:16:32,280
+Speaker 2:  assertion that those are like equal but opposite platforms. And
+
+260
+00:16:32,280 --> 00:16:35,880
+Speaker 2:  then it's like, okay, what is the like left version of Brightbart? And it
+
+261
+00:16:35,880 --> 00:16:39,360
+Speaker 2:  just ends up in this like really messy, complicated head space where like
+
+262
+00:16:39,360 --> 00:16:42,240
+Speaker 2:  these things are not equally weighted. And I think even the idea that there
+
+263
+00:16:42,240 --> 00:16:46,200
+Speaker 2:  is like a centrist take on everything is not true anymore. And then we
+
+264
+00:16:46,200 --> 00:16:49,600
+Speaker 2:  wound up down this crazy road of like, is Qan a political question? Like
+
+265
+00:16:49,600 --> 00:16:53,560
+Speaker 2:  is the earth flat a political question? And I don't know, this is just where
+
+266
+00:16:53,560 --> 00:16:57,080
+Speaker 2:  my head starts to spin about like where does truth versus
+
+267
+00:16:57,080 --> 00:17:00,920
+Speaker 2:  fiction and where does right versus left and where does politics versus
+
+268
+00:17:01,270 --> 00:17:05,240
+Speaker 2:  just nonsense. All of the all these lines feel so blurry that it to
+
+269
+00:17:05,240 --> 00:17:09,040
+Speaker 2:  me it's like this is a valiant attempt, but I almost wonder like how deep
+
+270
+00:17:09,040 --> 00:17:12,920
+Speaker 2:  towards that solving the real problems here can a tool actually go?
+
+271
+00:17:13,170 --> 00:17:16,360
+Speaker 9:  It also kind of cuts against one of the key
+
+272
+00:17:16,510 --> 00:17:19,640
+Speaker 9:  purposes of a search engine, which is to give you correct information,
+
+273
+00:17:19,640 --> 00:17:22,920
+Speaker 2:  But then what is correct? This is the world we live in now. None of this
+
+274
+00:17:22,920 --> 00:17:23,560
+Speaker 2:  makes any sense.
+
+275
+00:17:23,660 --> 00:17:26,800
+Speaker 9:  But that's the thing is that Google and search engines are comfortable trying
+
+276
+00:17:26,800 --> 00:17:30,000
+Speaker 9:  to make these judgments for some things. Like if you ask, you know, what
+
+277
+00:17:30,000 --> 00:17:33,760
+Speaker 9:  year did Snoopy assassinate Abraham Lincoln, which is a real
+
+278
+00:17:33,760 --> 00:17:37,640
+Speaker 9:  thing that Google at one point had to correct for, they're like, no, this
+
+279
+00:17:37,640 --> 00:17:41,600
+Speaker 9:  is obviously incorrect. There are things that are just beyond debate
+
+280
+00:17:41,600 --> 00:17:45,520
+Speaker 9:  and these things were failing if we don't deliver these things.
+
+281
+00:17:46,020 --> 00:17:49,360
+Speaker 9:  But then I think that as soon as something enters a specific culture war
+
+282
+00:17:49,360 --> 00:17:53,200
+Speaker 9:  frame, then suddenly people are really afraid to say that something is
+
+283
+00:17:53,200 --> 00:17:53,400
+Speaker 9:  true.
+
+284
+00:17:53,690 --> 00:17:57,600
+Speaker 2:  No, I think that's right and I think that question is sort of forever
+
+285
+00:17:57,600 --> 00:18:01,120
+Speaker 2:  more complicated and from some of the folks I've talked to even talking about
+
+286
+00:18:01,120 --> 00:18:04,880
+Speaker 2:  this stuff is the bigger sort of more important question, right? It's like
+
+287
+00:18:04,930 --> 00:18:08,840
+Speaker 2:  we can talk about political bias but only if we sort of exist in this shared
+
+288
+00:18:08,840 --> 00:18:12,400
+Speaker 2:  reality when we all agree on what is real and true and we don't
+
+289
+00:18:12,400 --> 00:18:14,560
+Speaker 2:  anymore. And that feels problematic.
+
+290
+00:18:15,180 --> 00:18:18,840
+Speaker 9:  Yes. And there are a lot of ways to frame stories that evolve
+
+291
+00:18:18,840 --> 00:18:22,240
+Speaker 9:  agreeing with specific baseline facts but then just
+
+292
+00:18:22,310 --> 00:18:25,480
+Speaker 9:  spinning them in a completely different way. Like if you read the New York
+
+293
+00:18:25,480 --> 00:18:29,400
+Speaker 9:  Times versus Fox, even if the facts are right, you can come away
+
+294
+00:18:29,400 --> 00:18:33,000
+Speaker 9:  with a really different impression, but that's still to some extent, that's
+
+295
+00:18:33,000 --> 00:18:36,840
+Speaker 9:  just a matter of opinion. And I think that that is clearly
+
+296
+00:18:36,840 --> 00:18:40,800
+Speaker 9:  distinguishable from sites that just say very clearly wrong
+
+297
+00:18:40,800 --> 00:18:42,680
+Speaker 9:  factual things with no backup.
+
+298
+00:18:43,160 --> 00:18:45,920
+Speaker 2:  Right. This is helpful. This makes me feel to it. We need to take a break,
+
+299
+00:18:46,060 --> 00:18:49,280
+Speaker 2:  but you should stick around because I wanna spend a bunch of time talking
+
+300
+00:18:49,280 --> 00:18:52,240
+Speaker 2:  about your story about the First Amendment. Do you have few more minutes
+
+301
+00:18:52,240 --> 00:18:55,400
+Speaker 2:  you wanna hang out? I do. Okay, cool. We will be right back.
+
+302
+00:21:26,520 --> 00:21:30,040
+Speaker 2:  We're back. Addie still here. Thank you for stick around Addie. Yeah. Hey.
+
+303
+00:21:30,040 --> 00:21:34,000
+Speaker 2:  Okay, so I want to talk about this, this big story you wrote called How America
+
+304
+00:21:34,000 --> 00:21:37,760
+Speaker 2:  Turned Against the First Amendment and I wrote down the way I would
+
+305
+00:21:37,960 --> 00:21:41,440
+Speaker 2:  summarize the thesis of your piece and I wanna know if how good a job I did
+
+306
+00:21:41,680 --> 00:21:45,120
+Speaker 2:  summarizing the thesis of your piece. You ready? Yeah. Okay. My summary of
+
+307
+00:21:45,120 --> 00:21:48,800
+Speaker 2:  the thesis of your piece is basically because a bunch of politicians
+
+308
+00:21:48,800 --> 00:21:52,200
+Speaker 2:  and people on both sides of the aisle want to score political points by capitalizing
+
+309
+00:21:52,200 --> 00:21:56,040
+Speaker 2:  on the backlash against big tech. They are using Section two 30 as
+
+310
+00:21:56,040 --> 00:21:59,840
+Speaker 2:  a wedge through which they can stick government speech regulation into the
+
+311
+00:22:00,000 --> 00:22:03,880
+Speaker 2:  internet. And that's a huge problem and an actual threat to the First Amendment,
+
+312
+00:22:03,880 --> 00:22:07,840
+Speaker 2:  which guarantees free speech. And even if we acknowledge all of that to
+
+313
+00:22:07,840 --> 00:22:11,800
+Speaker 2:  be true and agree that it's bad, our legal system basically is not
+
+314
+00:22:11,800 --> 00:22:13,680
+Speaker 2:  equipped to handle it. How's that? How'd I do?
+
+315
+00:22:13,680 --> 00:22:17,640
+Speaker 9:  That's pretty fair. Yeah. Yes. At the absolute broadest level it's that
+
+316
+00:22:17,800 --> 00:22:20,800
+Speaker 9:  everyone claims to love the First Amendment by everyone. I'm a Muslim talking
+
+317
+00:22:20,800 --> 00:22:24,560
+Speaker 9:  about politicians in courts and then they increasingly just try to
+
+318
+00:22:24,560 --> 00:22:28,320
+Speaker 9:  undercut it by claiming a bunch of other things that are not First Amendment
+
+319
+00:22:28,320 --> 00:22:31,960
+Speaker 9:  related are somehow creating problems, right?
+
+320
+00:22:31,960 --> 00:22:35,840
+Speaker 9:  And so they are using all these things as smoke screens to kind of get around.
+
+321
+00:22:35,990 --> 00:22:39,400
+Speaker 9:  Really what they want to do is change what speech is legal.
+
+322
+00:22:39,780 --> 00:22:43,680
+Speaker 2:  You point out that it's basically politically ridiculous to say you don't
+
+323
+00:22:43,680 --> 00:22:47,200
+Speaker 2:  like the First Amendment. Like just no one would do that in America to say
+
+324
+00:22:47,310 --> 00:22:50,960
+Speaker 2:  I am against free speech is just political suicide. And
+
+325
+00:22:50,960 --> 00:22:54,680
+Speaker 2:  yet to come out and say, you know, we should be moderating
+
+326
+00:22:54,680 --> 00:22:57,800
+Speaker 2:  these companies, I'm, we're banning books, we have all these issues, picking
+
+327
+00:22:57,800 --> 00:23:01,680
+Speaker 2:  the fight with big tech and in these specific ways seems to work in a
+
+328
+00:23:01,680 --> 00:23:05,640
+Speaker 2:  way that's saying I'm against free. Speech doesn't work. Why is
+
+329
+00:23:05,640 --> 00:23:05,840
+Speaker 2:  that?
+
+330
+00:23:05,870 --> 00:23:09,320
+Speaker 9:  Part of the issue is that free speech in the First Amendment are kind of
+
+331
+00:23:09,320 --> 00:23:12,840
+Speaker 9:  different things that the First Amendment is the specific legal
+
+332
+00:23:12,840 --> 00:23:15,960
+Speaker 9:  doctrine that says that the government cannot do this thing
+
+333
+00:23:16,500 --> 00:23:19,720
+Speaker 9:  and has been interpreted in varying ways over the years. But then free speech
+
+334
+00:23:19,720 --> 00:23:23,600
+Speaker 9:  also it's this much broader question. And I think that the
+
+335
+00:23:23,760 --> 00:23:27,080
+Speaker 9:  internet has made it increasingly weird, which is that it's harder and harder
+
+336
+00:23:27,080 --> 00:23:30,960
+Speaker 9:  to tell what speech and it's harder and harder to tell what is free like
+
+337
+00:23:30,960 --> 00:23:34,800
+Speaker 9:  in a world say with almost infinite information. If you bury a bunch of
+
+338
+00:23:34,800 --> 00:23:38,280
+Speaker 9:  speech in a bunch of harassment and weird
+
+339
+00:23:38,280 --> 00:23:42,080
+Speaker 9:  nonsense is speech meaningfully free? I think that there are really useful
+
+340
+00:23:42,080 --> 00:23:45,840
+Speaker 9:  intermediary for a lot of people. There is a version of this where it's
+
+341
+00:23:45,840 --> 00:23:49,360
+Speaker 9:  that a lot of speech in America now is mediated by these corporations.
+
+342
+00:23:49,730 --> 00:23:52,880
+Speaker 9:  So if you really wanna put your thumb on the scale and make speech,
+
+343
+00:23:53,430 --> 00:23:57,320
+Speaker 9:  either you want to change the way that these sites work
+
+344
+00:23:57,320 --> 00:24:00,640
+Speaker 9:  and you want to force them to carry certain information or you want to say
+
+345
+00:24:00,640 --> 00:24:03,560
+Speaker 9:  that they should ban certain information, but you're not gonna quite say
+
+346
+00:24:03,800 --> 00:24:06,120
+Speaker 9:  that should be illegal. You're just gonna say it should be really hard to
+
+347
+00:24:06,120 --> 00:24:10,040
+Speaker 9:  put up that. I think that that's, it's kind of a way to
+
+348
+00:24:10,040 --> 00:24:13,520
+Speaker 9:  work around the First Amendment and make it kind of meaningless.
+
+349
+00:24:13,760 --> 00:24:16,720
+Speaker 2:  Right. Okay. So you, you can sort of kneecap the First Amendment without
+
+350
+00:24:16,720 --> 00:24:20,520
+Speaker 2:  ever actually saying I am against the First Amendment, which is as established
+
+351
+00:24:20,520 --> 00:24:21,360
+Speaker 2:  a bonkers thing to do.
+
+352
+00:24:21,830 --> 00:24:24,560
+Speaker 9:  I mean a lot of places in the world don't think it's a bonkers thing to do.
+
+353
+00:24:24,560 --> 00:24:27,560
+Speaker 9:  A lot of places in the world look at the First Amendment and go, that's ridiculous.
+
+354
+00:24:27,780 --> 00:24:31,600
+Speaker 9:  Why would you not ban hate speech? Right? But in America it's
+
+355
+00:24:31,600 --> 00:24:35,400
+Speaker 9:  more or less a foundational principle of just how speech
+
+356
+00:24:35,400 --> 00:24:35,680
+Speaker 9:  works.
+
+357
+00:24:35,870 --> 00:24:39,080
+Speaker 2:  Yeah, no, that makes sense. Okay. And then one more concept I want you to
+
+358
+00:24:39,080 --> 00:24:41,600
+Speaker 2:  explain, because I was actually reading the comments on your story and this
+
+359
+00:24:41,600 --> 00:24:44,040
+Speaker 2:  came up a bunch and there was a bunch of debate about it. And I think it's
+
+360
+00:24:44,280 --> 00:24:48,200
+Speaker 2:  one of the things about Section two 30 specifically that people willfully
+
+361
+00:24:48,200 --> 00:24:51,760
+Speaker 2:  or otherwise misunderstand a lot, which is that what Section two 30 does
+
+362
+00:24:51,760 --> 00:24:55,600
+Speaker 2:  is actually allow companies to moderate their platforms, not
+
+363
+00:24:55,600 --> 00:24:59,200
+Speaker 2:  forces them to be neutral, not forces them to have one
+
+364
+00:24:59,520 --> 00:25:02,640
+Speaker 2:  specific point of view. It allows them to do the things that a lot of people
+
+365
+00:25:02,640 --> 00:25:06,400
+Speaker 2:  are actually asking them to do. And that's a good thing. Can you just
+
+366
+00:25:06,400 --> 00:25:10,040
+Speaker 2:  explain how that actually operates? Like what, what does Section two 30 allow
+
+367
+00:25:10,040 --> 00:25:12,320
+Speaker 2:  these companies to do that is good and useful and valuable
+
+368
+00:25:12,610 --> 00:25:16,120
+Speaker 9:  If you are a regular vergecast listener? Maybe you already know this, but
+
+369
+00:25:16,120 --> 00:25:19,800
+Speaker 9:  the reason section two 30 exists is that there were these two cases
+
+370
+00:25:19,800 --> 00:25:23,760
+Speaker 9:  involving I think libel that were involving these two
+
+371
+00:25:24,320 --> 00:25:27,560
+Speaker 9:  separate companies, like very early internet service providers.
+
+372
+00:25:27,940 --> 00:25:31,920
+Speaker 9:  And one of these places did not moderate things, it was just this free
+
+373
+00:25:31,920 --> 00:25:35,880
+Speaker 9:  for all and somebody said something that was illegal and defamatory and
+
+374
+00:25:36,040 --> 00:25:39,760
+Speaker 9:  somebody sued over it. And then the other one was trying to be family friendly.
+
+375
+00:25:39,760 --> 00:25:43,080
+Speaker 9:  It was actively moderating things. It was looking at this content and then
+
+376
+00:25:43,080 --> 00:25:47,040
+Speaker 9:  someone also said something illegally defamatory allegedly.
+
+377
+00:25:47,060 --> 00:25:50,920
+Speaker 9:  And they got sued. And the principle at that point, the
+
+378
+00:25:50,920 --> 00:25:54,720
+Speaker 9:  way that courts decided it was thinking, all right, let's compare this to
+
+379
+00:25:54,720 --> 00:25:58,200
+Speaker 9:  a bookstore or a newspaper. And let's say that
+
+380
+00:25:58,420 --> 00:26:01,840
+Speaker 9:  you cannot reasonably expect somebody who runs a big bookstore to have read
+
+381
+00:26:01,840 --> 00:26:05,040
+Speaker 9:  literally every book that's ridiculous. They're just these sellers, they,
+
+382
+00:26:05,040 --> 00:26:08,880
+Speaker 9:  they don't really have a a great knowledge of everything that's in
+
+383
+00:26:08,880 --> 00:26:12,680
+Speaker 9:  here. So they shouldn't be responsible for selling it. But say if you're
+
+384
+00:26:12,680 --> 00:26:15,640
+Speaker 9:  a newspaper and you're publishing a thing and you're just curating absolutely
+
+385
+00:26:15,640 --> 00:26:19,400
+Speaker 9:  everything, then you have control over this, but
+
+386
+00:26:19,400 --> 00:26:22,280
+Speaker 9:  you should be responsible for it. And then they looked at this in the context
+
+387
+00:26:22,280 --> 00:26:25,760
+Speaker 9:  of the internet and went, Wait, this is actually really counterproductive
+
+388
+00:26:25,770 --> 00:26:29,520
+Speaker 9:  because what it says is that if you bother to figure out
+
+389
+00:26:29,520 --> 00:26:32,800
+Speaker 9:  what's going on on your site and make it better, then we're gonna punish
+
+390
+00:26:32,800 --> 00:26:36,760
+Speaker 9:  you for it by saying that you are responsible for anything illegal that happens.
+
+391
+00:26:36,760 --> 00:26:40,120
+Speaker 9:  And what is illegal is often not clear, especially with speech law
+
+392
+00:26:40,270 --> 00:26:44,000
+Speaker 9:  that something that is defamatory, you actually have these
+
+393
+00:26:44,000 --> 00:26:47,960
+Speaker 9:  really long complicated legal cases about it. And so it's very, very hard
+
+394
+00:26:47,960 --> 00:26:51,600
+Speaker 9:  for a website to make something that is a judgment
+
+395
+00:26:51,600 --> 00:26:55,240
+Speaker 9:  that often courts have trouble making. And so Section two 30 basically says
+
+396
+00:26:55,240 --> 00:26:59,200
+Speaker 9:  that you are allowed to run your site how you want and you don't
+
+397
+00:26:59,200 --> 00:27:02,280
+Speaker 9:  have to deal with trying to figure out what's legal and illegal with some
+
+398
+00:27:02,280 --> 00:27:02,760
+Speaker 9:  exceptions.
+
+399
+00:27:02,860 --> 00:27:06,400
+Speaker 2:  And that flip side would be, and I think this is, this is the concept that
+
+400
+00:27:06,400 --> 00:27:08,640
+Speaker 2:  it took me a really long time to wrap my head around and I think it's hard
+
+401
+00:27:08,640 --> 00:27:12,560
+Speaker 2:  for a lot of people is that the flip side would be that the expedient
+
+402
+00:27:12,560 --> 00:27:15,400
+Speaker 2:  thing for all these companies to do would be to just bury their head in the
+
+403
+00:27:15,400 --> 00:27:19,200
+Speaker 2:  sand and not try because then you have plausible deniability that says, Oh
+
+404
+00:27:19,200 --> 00:27:23,080
+Speaker 2:  we didn't even know this was here. It's horrible. We're so sorry you
+
+405
+00:27:23,080 --> 00:27:25,920
+Speaker 2:  can't sue us about we, we didn't know we didn't do it.
+
+406
+00:27:25,920 --> 00:27:28,840
+Speaker 9:  Right. It's basically saying you're an internet service provider, whatever
+
+407
+00:27:28,840 --> 00:27:32,280
+Speaker 9:  you're we're dumb pipes, we do nothing here to moderate. And so it
+
+408
+00:27:32,280 --> 00:27:35,640
+Speaker 9:  incentivizes either way too much moderation or none at all.
+
+409
+00:27:35,720 --> 00:27:39,080
+Speaker 2:  Right? Exactly. What a lot of people perceive is that without Section two
+
+410
+00:27:39,080 --> 00:27:41,320
+Speaker 2:  30 these companies would be forced to do a really, really, really, really
+
+411
+00:27:41,320 --> 00:27:44,840
+Speaker 2:  good job of moderating. And I think the actual
+
+412
+00:27:44,840 --> 00:27:48,400
+Speaker 2:  reality of the fact is that it's impossible to do it
+
+413
+00:27:48,400 --> 00:27:52,000
+Speaker 2:  well enough without section two 30, if not impossible. It is like
+
+414
+00:27:52,040 --> 00:27:56,000
+Speaker 2:  massively difficult to do it well enough without Section two 30 to be
+
+415
+00:27:56,000 --> 00:27:59,960
+Speaker 2:  like legally safe. So the easy response then would
+
+416
+00:27:59,960 --> 00:28:03,760
+Speaker 2:  be to do absolutely nothing and just turn the blindest possible eye to
+
+417
+00:28:03,760 --> 00:28:07,160
+Speaker 2:  everything happening and just let chaos rain. And that is what companies
+
+418
+00:28:07,160 --> 00:28:10,840
+Speaker 2:  would do rather than actually invest the like astronomical
+
+419
+00:28:11,000 --> 00:28:13,560
+Speaker 2:  resources you would have to in order to do this successfully.
+
+420
+00:28:13,630 --> 00:28:17,600
+Speaker 9:  Yeah. And on their do it really well side I think in helpful comparison
+
+421
+00:28:17,600 --> 00:28:20,920
+Speaker 9:  here is that one of the things that Section two 30 doesn't protect in the
+
+422
+00:28:20,920 --> 00:28:24,880
+Speaker 9:  same way as everything else is copyrighted information is piracy.
+
+423
+00:28:25,490 --> 00:28:29,240
+Speaker 9:  So there distinct laws in the Digital Millennium Copyright Act,
+
+424
+00:28:29,260 --> 00:28:32,720
+Speaker 9:  you have to actually make this serious effort to try to take down
+
+425
+00:28:32,720 --> 00:28:36,440
+Speaker 9:  copyrighted stuff that's being put up illegally. No one
+
+426
+00:28:36,440 --> 00:28:39,680
+Speaker 9:  likes this on the internet. The internet is full of stories about saying,
+
+427
+00:28:39,680 --> 00:28:43,320
+Speaker 9:  look how, look how terrible YouTube deals with this. Like look at
+
+428
+00:28:43,320 --> 00:28:46,840
+Speaker 9:  the fact that it takes down, you know, bird songs because it thinks the bird
+
+429
+00:28:46,840 --> 00:28:50,800
+Speaker 9:  songs are copyrighted. People typically do not think that this situation
+
+430
+00:28:50,800 --> 00:28:54,720
+Speaker 9:  has turned out well in the way that they often wanna try to make it
+
+431
+00:28:54,720 --> 00:28:56,600
+Speaker 9:  work for other pieces of content. Yeah.
+
+432
+00:28:56,600 --> 00:29:00,480
+Speaker 2:  And it, if it's possible to do this successfully, we certainly
+
+433
+00:29:00,480 --> 00:29:03,480
+Speaker 2:  have never seen it. Right. And like Facebook has, has talked about this forever.
+
+434
+00:29:03,480 --> 00:29:06,880
+Speaker 2:  They're like, we invest more resources into this than anybody. Like wasn't
+
+435
+00:29:06,880 --> 00:29:10,320
+Speaker 2:  it Facebook that said like, our moderation staff is the size of Twitter.
+
+436
+00:29:10,760 --> 00:29:14,000
+Speaker 2:  Like it's, it's just crazy. They put all these resources into it and they
+
+437
+00:29:14,000 --> 00:29:17,480
+Speaker 2:  still have this like earth shattering gigantic set of problems. Yeah.
+
+438
+00:29:17,480 --> 00:29:20,960
+Speaker 9:  The only consistent answer I have heard for this is that if you're not able
+
+439
+00:29:20,960 --> 00:29:24,520
+Speaker 9:  to moderate, well you should not exist at this scale that you do. Which I
+
+440
+00:29:24,520 --> 00:29:28,360
+Speaker 9:  think is kind of the only feasible and consistent way to say this. And
+
+441
+00:29:28,660 --> 00:29:30,440
+Speaker 9:  I'm not sure a lot of people wanna go there.
+
+442
+00:29:30,480 --> 00:29:34,160
+Speaker 2:  Right? That changes I think a lot more than people realize if that ends up
+
+443
+00:29:34,160 --> 00:29:37,800
+Speaker 2:  being the decision that a lot of these folks have to make. But okay, let's
+
+444
+00:29:37,800 --> 00:29:41,320
+Speaker 2:  go back to the speech thing because one of the things that I think underlies
+
+445
+00:29:41,480 --> 00:29:45,080
+Speaker 2:  a lot of your story is this idea that there is
+
+446
+00:29:45,470 --> 00:29:49,240
+Speaker 2:  a bunch of sneaky political maneuvering going on here and
+
+447
+00:29:49,240 --> 00:29:53,120
+Speaker 2:  it's hard to sort out what is an actual desire for government
+
+448
+00:29:53,120 --> 00:29:56,960
+Speaker 2:  speech regulation versus what is sort of a, a political
+
+449
+00:29:57,320 --> 00:30:00,560
+Speaker 2:  response to the cultural backlash against big tech versus
+
+450
+00:30:01,030 --> 00:30:04,960
+Speaker 2:  what is just a bunch of relatively out of touch politicians not
+
+451
+00:30:04,960 --> 00:30:08,800
+Speaker 2:  understanding the unique challenges of the internet. Am I, am I
+
+452
+00:30:08,800 --> 00:30:12,360
+Speaker 2:  describing the jumble there correctly? Do you, do you feel like one of those
+
+453
+00:30:12,360 --> 00:30:15,240
+Speaker 2:  things is a bigger push for some of what's happening here?
+
+454
+00:30:15,430 --> 00:30:19,320
+Speaker 9:  Yeah, I think that's right. Part of this is people maybe genuinely not understanding
+
+455
+00:30:19,320 --> 00:30:22,920
+Speaker 9:  the internet. Part of this is people identifying real problems with the internet
+
+456
+00:30:22,920 --> 00:30:26,880
+Speaker 9:  and wanting them to work differently, but in ways that conflict with a
+
+457
+00:30:26,880 --> 00:30:30,360
+Speaker 9:  lot of basic American law. And then part of it is what I would just call
+
+458
+00:30:30,360 --> 00:30:34,040
+Speaker 9:  bad faith. Okay. I don't like to assume that, but it's really hard to look
+
+459
+00:30:34,040 --> 00:30:38,000
+Speaker 9:  at a lot of these projects and see anything except I don't like the
+
+460
+00:30:38,000 --> 00:30:41,960
+Speaker 9:  way that these companies work politically and I don't like whether or not
+
+461
+00:30:41,960 --> 00:30:45,880
+Speaker 9:  they take down things that I like and so I'm gonna work the
+
+462
+00:30:45,880 --> 00:30:47,560
+Speaker 9:  refs and I'm going to punish them.
+
+463
+00:30:47,560 --> 00:30:51,520
+Speaker 2:  Right? And that's where you see things like the laws in Florida and Texas,
+
+464
+00:30:51,520 --> 00:30:55,440
+Speaker 2:  right? And I feel like when you look at these like blanket social media moderation
+
+465
+00:30:55,440 --> 00:30:59,000
+Speaker 2:  bands, it feels very hard to assign anything other than bad faith to those
+
+466
+00:30:59,000 --> 00:30:59,520
+Speaker 2:  at this point.
+
+467
+00:30:59,820 --> 00:31:03,080
+Speaker 9:  And is, they're very, very clear about their purpose. That they're all, they
+
+468
+00:31:03,080 --> 00:31:05,840
+Speaker 9:  start with these preambles about isn't it really terrible that big tech is
+
+469
+00:31:05,840 --> 00:31:09,640
+Speaker 9:  censoring Republicans? Which there are, I think it was the Florida
+
+470
+00:31:10,000 --> 00:31:13,880
+Speaker 9:  decision starts with just saying there's the First amendment does
+
+471
+00:31:13,880 --> 00:31:17,200
+Speaker 9:  not protect you specifically having your particular
+
+472
+00:31:17,230 --> 00:31:21,200
+Speaker 9:  ideology included on something which is like, I
+
+473
+00:31:21,200 --> 00:31:24,920
+Speaker 9:  don't want to go too far with this. Like there obviously the First
+
+474
+00:31:24,920 --> 00:31:28,600
+Speaker 9:  Amendment means that you should not try to create laws that
+
+475
+00:31:28,600 --> 00:31:32,320
+Speaker 9:  censor specific viewpoints, but the fact that a private company
+
+476
+00:31:32,490 --> 00:31:36,320
+Speaker 9:  is doing something that ends up incidentally
+
+477
+00:31:36,320 --> 00:31:39,560
+Speaker 9:  causing collateral damage, that it's not even clear if it disproportionately
+
+478
+00:31:39,560 --> 00:31:43,240
+Speaker 9:  affects Republicans, they remove a ton of content. That in
+
+479
+00:31:43,240 --> 00:31:46,920
+Speaker 9:  itself is not inherently a First Amendment problem.
+
+480
+00:31:46,990 --> 00:31:50,440
+Speaker 9:  Like there's a situation where maybe it would be, but it's not enough.
+
+481
+00:31:50,490 --> 00:31:53,680
+Speaker 2:  There's a back and forth that you just described that I think is super interesting.
+
+482
+00:31:53,680 --> 00:31:57,200
+Speaker 2:  Cause like we, we are reporters, which I think probably by definition is
+
+483
+00:31:57,200 --> 00:32:01,000
+Speaker 2:  going to make us pro-free speech people, right? Like it is better to do the
+
+484
+00:32:01,000 --> 00:32:04,920
+Speaker 2:  job that we do in a, in a world where free speech is protected, we
+
+485
+00:32:04,920 --> 00:32:08,800
+Speaker 2:  also just like believe in it generally. And I I I knowing you for a
+
+486
+00:32:08,800 --> 00:32:12,360
+Speaker 2:  long time, you are a, a free speech person more than most. I would, I would
+
+487
+00:32:12,360 --> 00:32:13,560
+Speaker 2:  say please correct me if I'm wrong on
+
+488
+00:32:13,560 --> 00:32:14,720
+Speaker 9:  That. That's fair. Yeah, that's fair.
+
+489
+00:32:14,780 --> 00:32:18,200
+Speaker 2:  But it's also true, I think, and I think you'll agree with this, that we
+
+490
+00:32:18,200 --> 00:32:21,520
+Speaker 2:  both sit here and say there are things that happen on social media that are
+
+491
+00:32:21,520 --> 00:32:25,320
+Speaker 2:  bad and wouldn't it be great if they didn't happen? And so I think how
+
+492
+00:32:25,320 --> 00:32:28,920
+Speaker 2:  to look at those two things simultaneously and sort of part of this, I guess
+
+493
+00:32:28,920 --> 00:32:32,360
+Speaker 2:  is just like acknowledging that the world is complicated and you can't have
+
+494
+00:32:32,360 --> 00:32:36,000
+Speaker 2:  it both ways all the time. But to look at it and say
+
+495
+00:32:36,000 --> 00:32:39,880
+Speaker 2:  these are places that people live a lot of their lives and we
+
+496
+00:32:39,880 --> 00:32:43,720
+Speaker 2:  have entered into like a, a style of conversation that like we as
+
+497
+00:32:43,720 --> 00:32:47,680
+Speaker 2:  humans are clearly not ready for. And we probably do need it to work slightly
+
+498
+00:32:47,680 --> 00:32:51,400
+Speaker 2:  differently than it is, but also to change these things in these fundamental
+
+499
+00:32:51,400 --> 00:32:54,280
+Speaker 2:  ways, break this other thing that we believe in really strongly. I don't
+
+500
+00:32:54,280 --> 00:32:57,240
+Speaker 2:  know, do you just like sit here and wrestle between those two things all
+
+501
+00:32:57,240 --> 00:33:00,080
+Speaker 2:  the time in your head? Because it feels like I have to do that more and more
+
+502
+00:33:00,080 --> 00:33:00,520
+Speaker 2:  all the time.
+
+503
+00:33:00,670 --> 00:33:04,480
+Speaker 9:  Yeah. Oh God, yes. Mostly in two ways. The first is trying to figure out
+
+504
+00:33:04,480 --> 00:33:07,120
+Speaker 9:  what a speech which was part of the piece. Yeah. Which is that if you just
+
+505
+00:33:07,120 --> 00:33:10,880
+Speaker 9:  say anything that runs in code is speech then, like Airbnb is speech,
+
+506
+00:33:10,880 --> 00:33:13,720
+Speaker 9:  like Amazon selling poison is speech,
+
+507
+00:33:13,720 --> 00:33:16,720
+Speaker 2:  Right? And there's some real legal evidence that that is speech, right? Like
+
+508
+00:33:16,720 --> 00:33:19,960
+Speaker 2:  that is, that is a definition some people really adhere to, right?
+
+509
+00:33:19,960 --> 00:33:23,200
+Speaker 9:  And in some places it's complicated. Like if Amazon recommends you buy something,
+
+510
+00:33:23,210 --> 00:33:27,000
+Speaker 9:  is that speech like maybe, I don't know. But it feels kind of wrong to say
+
+511
+00:33:27,000 --> 00:33:30,160
+Speaker 9:  that if it happens on the internet, it has to be speech that feels like it
+
+512
+00:33:30,160 --> 00:33:33,320
+Speaker 9:  just cuts against the intent of the First Amendment, which is that
+
+513
+00:33:33,390 --> 00:33:37,280
+Speaker 9:  expressing ideas is, I mean, among, among other parts of the
+
+514
+00:33:37,280 --> 00:33:38,960
+Speaker 9:  First Amendment that is important.
+
+515
+00:33:39,370 --> 00:33:42,840
+Speaker 2:  My idea is that you should buy toilet paper. That is my, that's my political
+
+516
+00:33:42,840 --> 00:33:43,120
+Speaker 2:  belief.
+
+517
+00:33:43,370 --> 00:33:47,120
+Speaker 9:  My idea is literally selling you toilet paper. My idea is goods and
+
+518
+00:33:47,120 --> 00:33:51,080
+Speaker 9:  services like that feels weird. And then the other part of it is the
+
+519
+00:33:51,080 --> 00:33:54,760
+Speaker 9:  legalism of what does speech law say and the practical
+
+520
+00:33:54,770 --> 00:33:58,720
+Speaker 9:  aspects of like what is actually letting people speak like
+
+521
+00:33:59,630 --> 00:34:03,360
+Speaker 9:  a world where you can say anything, but it's
+
+522
+00:34:03,360 --> 00:34:07,280
+Speaker 9:  literally impossible for anyone to find it because it's buried under huge
+
+523
+00:34:07,280 --> 00:34:11,040
+Speaker 9:  amounts of harassment that just feels like it also doesn't fit the spirit
+
+524
+00:34:11,040 --> 00:34:14,080
+Speaker 9:  of the law. Like a world where you can say something,
+
+525
+00:34:14,700 --> 00:34:17,720
+Speaker 9:  but the internet also makes it incredibly easy to
+
+526
+00:34:18,080 --> 00:34:21,960
+Speaker 9:  retaliate against you and to make you afraid for your life. That
+
+527
+00:34:21,960 --> 00:34:25,880
+Speaker 9:  also, that doesn't really work either. Like if there's a world where
+
+528
+00:34:25,880 --> 00:34:29,720
+Speaker 9:  the law makes sense and the law is consistent, but I don't wanna get
+
+529
+00:34:29,720 --> 00:34:33,400
+Speaker 9:  in a position where there, if the law isn't doing the thing that it's supposed
+
+530
+00:34:33,400 --> 00:34:35,320
+Speaker 9:  to, what is the point of the law? Right.
+
+531
+00:34:35,320 --> 00:34:38,000
+Speaker 2:  Well, yeah, one of the questions that comes up about the internet in a, in
+
+532
+00:34:38,000 --> 00:34:41,440
+Speaker 2:  a lot of ways is are the worries about the internet different
+
+533
+00:34:41,550 --> 00:34:44,120
+Speaker 2:  than some of the things in the past, right? Everybody says, you know, there
+
+534
+00:34:44,120 --> 00:34:46,640
+Speaker 2:  was a moral panic about newspapers and there was a moral panic about radio
+
+535
+00:34:46,640 --> 00:34:49,240
+Speaker 2:  and there was a moral panic about television. It's like all these things
+
+536
+00:34:49,240 --> 00:34:52,840
+Speaker 2:  are true. But it does seem like, and especially to your, your point
+
+537
+00:34:52,870 --> 00:34:56,840
+Speaker 2:  like the scale of the internet does seem different and it
+
+538
+00:34:56,840 --> 00:35:00,640
+Speaker 2:  seems like politically and legally that's been an incredibly
+
+539
+00:35:00,640 --> 00:35:04,120
+Speaker 2:  hard thing to keep up with that like it's, it's cross borders,
+
+540
+00:35:04,150 --> 00:35:07,680
+Speaker 2:  it's more people, it's just happening at such great
+
+541
+00:35:07,710 --> 00:35:11,320
+Speaker 2:  pace that it does, even if we haven't yet perfectly
+
+542
+00:35:11,320 --> 00:35:15,120
+Speaker 2:  defined why it's different, it feels like a different question about
+
+543
+00:35:15,120 --> 00:35:18,960
+Speaker 2:  speech. Like you go back and the newspapers all said crazy shit about
+
+544
+00:35:18,960 --> 00:35:22,320
+Speaker 2:  each other and most of it was nonsense because it was all politically motivated
+
+545
+00:35:22,620 --> 00:35:26,520
+Speaker 2:  and the first Amendment allowed that to happen, right? Like that was not
+
+546
+00:35:26,520 --> 00:35:29,640
+Speaker 2:  different e even though some people were mad about it. But there is something
+
+547
+00:35:29,640 --> 00:35:33,480
+Speaker 2:  about the speed and scale of which it's happening now
+
+548
+00:35:33,480 --> 00:35:36,800
+Speaker 2:  and especially that it's concentrated into these couple of platforms across
+
+549
+00:35:36,800 --> 00:35:40,240
+Speaker 2:  the, the world that makes it feel different. Like is that part of why this
+
+550
+00:35:40,240 --> 00:35:43,320
+Speaker 2:  is so much harder for anyone to wrap their heads around just because it's
+
+551
+00:35:43,320 --> 00:35:44,360
+Speaker 2:  so much bigger now?
+
+552
+00:35:44,430 --> 00:35:48,280
+Speaker 9:  Yeah, and I have always have trouble with this because among other
+
+553
+00:35:48,280 --> 00:35:52,040
+Speaker 9:  things, you know, I'm, I'm not 150 years old, but I think it's also that
+
+554
+00:35:52,040 --> 00:35:55,200
+Speaker 9:  every new medium has created problems and trade offs that people have had
+
+555
+00:35:55,480 --> 00:35:59,320
+Speaker 9:  to deal with. Sure. Like radio, it's, I think a lot of people
+
+556
+00:35:59,320 --> 00:36:03,040
+Speaker 9:  accept radio was one of the things that helped Nazis grow,
+
+557
+00:36:03,040 --> 00:36:06,960
+Speaker 9:  that radio helped instigate the genocide in Rwanda. That
+
+558
+00:36:06,960 --> 00:36:10,360
+Speaker 9:  radio really all of these things have caused terrible problems
+
+559
+00:36:10,710 --> 00:36:14,560
+Speaker 9:  that it's just that we decided that speech was important
+
+560
+00:36:14,560 --> 00:36:18,280
+Speaker 9:  enough and that this technology did enough good things that
+
+561
+00:36:18,280 --> 00:36:22,040
+Speaker 9:  it's worth those trade-offs and that really any
+
+562
+00:36:22,040 --> 00:36:25,000
+Speaker 9:  kind of technology is going to create a set of trade-offs and we have to
+
+563
+00:36:25,200 --> 00:36:28,480
+Speaker 9:  evaluate those. And so I think the internet has a bunch of distinct problems
+
+564
+00:36:28,480 --> 00:36:32,280
+Speaker 9:  that a lot of these things didn't have. And the internet has a bunch of
+
+565
+00:36:32,280 --> 00:36:35,560
+Speaker 9:  opportunities that these things didn't create. I don't know, I think one
+
+566
+00:36:35,560 --> 00:36:39,120
+Speaker 9:  of the issues is that coming, just coming back to what is speech on the internet,
+
+567
+00:36:39,120 --> 00:36:43,000
+Speaker 9:  that I think there's a world where our lives like, you know, our bank
+
+568
+00:36:43,000 --> 00:36:46,640
+Speaker 9:  account information and our physical addresses and
+
+569
+00:36:46,720 --> 00:36:50,600
+Speaker 9:  there are specific other things that we just decide we're cording off that
+
+570
+00:36:50,600 --> 00:36:54,440
+Speaker 9:  those aren't going to take place in this world where we also just argue
+
+571
+00:36:54,440 --> 00:36:57,680
+Speaker 9:  with each other all the time because arguing with each other all the time
+
+572
+00:36:57,680 --> 00:37:01,480
+Speaker 9:  sometimes has value. But it also, I think that when our
+
+573
+00:37:01,480 --> 00:37:05,200
+Speaker 9:  entire lives are consumed by it and it's incredibly frictionless
+
+574
+00:37:05,490 --> 00:37:09,160
+Speaker 9:  to tie that to people's real safety that starts getting really difficult.
+
+575
+00:37:09,430 --> 00:37:12,840
+Speaker 2:  Okay, so before I let you go, let's come back to these laws in Florida and
+
+576
+00:37:12,840 --> 00:37:16,640
+Speaker 2:  Texas because it feels like in, in the legal system, which has, I think
+
+577
+00:37:16,640 --> 00:37:19,800
+Speaker 2:  historically as you point out, not done a great job of figuring out how any
+
+578
+00:37:19,800 --> 00:37:23,600
+Speaker 2:  of this stuff should work. Those two laws, one of them seems like it is probably
+
+579
+00:37:23,600 --> 00:37:26,640
+Speaker 2:  gonna end up in front of the Supreme Court, right? So we're gonna get this
+
+580
+00:37:26,640 --> 00:37:30,600
+Speaker 2:  big reckoning about what the government can do to social media and how
+
+581
+00:37:30,600 --> 00:37:33,280
+Speaker 2:  we feel about speech and moderation and like this is gonna get its moment
+
+582
+00:37:33,370 --> 00:37:35,400
+Speaker 2:  in the true sun, right? That's coming it feels like.
+
+583
+00:37:35,590 --> 00:37:39,000
+Speaker 9:  Yeah, almost certainly. And there's, there's also another case that's gonna
+
+584
+00:37:39,000 --> 00:37:42,880
+Speaker 9:  reevaluate parts of section two 30 that's already come up. But yeah,
+
+585
+00:37:42,890 --> 00:37:44,120
+Speaker 9:  it, there's gonna be a reckoning.
+
+586
+00:37:44,140 --> 00:37:47,960
+Speaker 2:  Are you, are you hopeful, terrified nihilists, who
+
+587
+00:37:47,960 --> 00:37:50,800
+Speaker 2:  cares? Burn it all down somewhere in the middle? How are you feeling about
+
+588
+00:37:50,800 --> 00:37:51,200
+Speaker 2:  all of that?
+
+589
+00:37:51,500 --> 00:37:55,280
+Speaker 9:  The people I've talked to are maybe more hopeful than I had expected
+
+590
+00:37:55,280 --> 00:37:59,120
+Speaker 9:  that they point to that there's still five Supreme court justices
+
+591
+00:37:59,120 --> 00:38:02,200
+Speaker 9:  that looked at the Texas law and went, you should not be able to enforce
+
+592
+00:38:02,200 --> 00:38:06,080
+Speaker 9:  that of the four that did not vote for it. It's, there's really only one
+
+593
+00:38:06,080 --> 00:38:10,000
+Speaker 9:  who seems very, very clearly weird about it
+
+594
+00:38:10,020 --> 00:38:13,920
+Speaker 9:  and anti the thing we would describe as free speech, which is
+
+595
+00:38:13,920 --> 00:38:17,440
+Speaker 9:  Clarence Thomas. And so I guess I want to take hard in that
+
+596
+00:38:17,710 --> 00:38:21,360
+Speaker 9:  I am also just increasingly worried about the
+
+597
+00:38:21,360 --> 00:38:25,280
+Speaker 9:  legitimacy of courts in general and the way that any
+
+598
+00:38:25,280 --> 00:38:29,160
+Speaker 9:  part of civic life in America functions. And so I think speech is part
+
+599
+00:38:29,160 --> 00:38:30,760
+Speaker 9:  of that and that is not encouraging.
+
+600
+00:38:31,570 --> 00:38:35,400
+Speaker 2:  So reading your piece, it's very hard for me to not end up in this like
+
+601
+00:38:35,510 --> 00:38:39,360
+Speaker 2:  deep, we're all screwed, everything's a disaster. It's all totally
+
+602
+00:38:39,680 --> 00:38:42,560
+Speaker 2:  hopeless, nobody knows anything. This is gonna get worse before it gets better
+
+603
+00:38:42,560 --> 00:38:46,400
+Speaker 2:  place. What does the hope or reason for optimism look
+
+604
+00:38:46,400 --> 00:38:49,840
+Speaker 2:  like? Do we have a path toward figuring out how to handle this in a way that
+
+605
+00:38:50,080 --> 00:38:53,960
+Speaker 2:  actually makes logical sense? Or are things about to change in bigger, more
+
+606
+00:38:53,960 --> 00:38:56,840
+Speaker 2:  fundamental ways than they even have so far? Cause it feels like one of those
+
+607
+00:38:56,840 --> 00:38:57,680
+Speaker 2:  has to be the case.
+
+608
+00:38:58,010 --> 00:39:00,600
+Speaker 9:  Oh, optimism is the thing that I am the worst at.
+
+609
+00:39:01,980 --> 00:39:05,560
+Speaker 9:  But I don't know, I think that there are people who are, even if I disagree
+
+610
+00:39:05,560 --> 00:39:08,720
+Speaker 9:  with them on some points, really seriously considering those issues. There
+
+611
+00:39:08,720 --> 00:39:12,480
+Speaker 9:  are people like Daniel Citron who is proposed changes to two 30
+
+612
+00:39:12,480 --> 00:39:16,320
+Speaker 9:  that I don't necessarily again agree with, but that I think are really thoughtful.
+
+613
+00:39:16,570 --> 00:39:20,560
+Speaker 9:  So I think that if you listen to a lot of these people and if you really
+
+614
+00:39:20,560 --> 00:39:24,160
+Speaker 9:  try to identify the tradeoffs and try to figure out where we wanna make changes,
+
+615
+00:39:24,530 --> 00:39:28,440
+Speaker 9:  if we do, I think that is where I would pin my hope is
+
+616
+00:39:28,440 --> 00:39:32,120
+Speaker 9:  people who look at these problems and are willing to seriously
+
+617
+00:39:32,120 --> 00:39:35,840
+Speaker 9:  admit where the problems in tradeoffs in what we think of as American
+
+618
+00:39:35,840 --> 00:39:39,720
+Speaker 9:  free speech are and try to figure out what you do about
+
+619
+00:39:39,720 --> 00:39:43,600
+Speaker 9:  them. Like I think specificity is maybe the way I
+
+620
+00:39:43,600 --> 00:39:44,600
+Speaker 9:  think things may get better.
+
+621
+00:39:44,950 --> 00:39:47,840
+Speaker 2:  Yeah. Well and to that point, actually, one of the things I thought was really
+
+622
+00:39:47,960 --> 00:39:51,120
+Speaker 2:  interesting about the way you described the Texas Florida laws is they're
+
+623
+00:39:51,120 --> 00:39:55,040
+Speaker 2:  so like hysterically broad that I think the point you
+
+624
+00:39:55,040 --> 00:39:58,680
+Speaker 2:  made was that it would make it illegal to reject
+
+625
+00:39:58,680 --> 00:40:02,160
+Speaker 2:  changes on Wikipedia based on Wikipedia's own community standards.
+
+626
+00:40:02,190 --> 00:40:06,040
+Speaker 9:  Yeah. This is, it applies to large websites and it applies
+
+627
+00:40:06,040 --> 00:40:09,800
+Speaker 9:  to anything that involves viewpoints. And I mean, I don't know, maybe they'd
+
+628
+00:40:09,800 --> 00:40:12,720
+Speaker 9:  sue and maybe they'd discover that it's not part of the law, but who knows
+
+629
+00:40:12,720 --> 00:40:14,600
+Speaker 9:  because the law is terribly written. Right?
+
+630
+00:40:16,040 --> 00:40:19,200
+Speaker 2:  Yeah, that's fair. So specificity is a good thing, but I, it also feels like
+
+631
+00:40:19,200 --> 00:40:21,880
+Speaker 2:  this stuff has become so black and white for so many people that it's like
+
+632
+00:40:21,880 --> 00:40:25,040
+Speaker 2:  section two 30 in particular is like you're, you're either, you're either
+
+633
+00:40:25,040 --> 00:40:28,720
+Speaker 2:  in it or you're out on it. And I, I'm increasingly wondering if there is
+
+634
+00:40:28,720 --> 00:40:31,800
+Speaker 2:  even a middle ground that we're gonna find. But it sounds like maybe somewhere
+
+635
+00:40:31,800 --> 00:40:32,440
+Speaker 2:  there is one.
+
+636
+00:40:32,590 --> 00:40:35,920
+Speaker 9:  I think there are corners. Okay. I don't know if it's a middle ground because
+
+637
+00:40:36,160 --> 00:40:39,680
+Speaker 9:  I don't even know if the middle is really where we want to be fair. But
+
+638
+00:40:39,870 --> 00:40:43,720
+Speaker 9:  I think that there are pockets of people who are
+
+639
+00:40:43,720 --> 00:40:46,600
+Speaker 9:  serious and I just wanna try to grow those pockets.
+
+640
+00:40:47,470 --> 00:40:49,520
+Speaker 2:  I like it. Well thank you add, I appreciate it.
+
+641
+00:40:51,660 --> 00:40:55,000
+Speaker 2:  All right, we need to take a quick break and then when we come back we're
+
+642
+00:40:55,000 --> 00:40:58,840
+Speaker 2:  gonna talk to the verges McKenna Kelly about the chips and sciences bill
+
+643
+00:40:58,840 --> 00:41:02,640
+Speaker 2:  that was passed over the summer and what that bill and all of the billions
+
+644
+00:41:02,640 --> 00:41:05,720
+Speaker 2:  of dollars that come from it mean for the future of chip manufacturing
+
+645
+00:41:06,260 --> 00:41:08,960
+Speaker 2:  and the tech industry as a whole. We'll be right back.
+
+646
+00:41:14,970 --> 00:41:15,870
+Speaker 14:  Fox Creative.
+
+647
+00:41:16,460 --> 00:41:19,230
+Speaker 15:  This is advertiser content from Amazon ads.
+
+648
+00:41:20,620 --> 00:41:24,510
+Speaker 16:  Take another deep breath in and on. Exhale,
+
+649
+00:41:24,870 --> 00:41:26,870
+Speaker 16:  relax your shoulders.
+
+650
+00:41:28,460 --> 00:41:31,590
+Speaker 13:  I think this meditation series is really helping
+
+651
+00:41:32,330 --> 00:41:32,750
+Speaker 13:  the
+
+652
+00:41:32,880 --> 00:41:36,000
+Speaker 17:  Brimstone and steel tour is coming to a city near you.
+
+653
+00:41:36,360 --> 00:41:37,160
+Speaker 13:  Seriously.
+
+654
+00:41:37,670 --> 00:41:41,280
+Speaker 15:  A misplaced ad can really ruin an experience according to research
+
+655
+00:41:41,280 --> 00:41:44,840
+Speaker 15:  commissioned by Amazon Ads and Omnicom Media Group. 68% of
+
+656
+00:41:45,000 --> 00:41:48,000
+Speaker 15:  consumers prefer ads that are relevant to the content they're embedded in.
+
+657
+00:41:48,000 --> 00:41:51,960
+Speaker 15:  It can be important for brands to be part of the experience not interrupted
+
+658
+00:41:52,010 --> 00:41:55,320
+Speaker 15:  At Amazon ads, we make it easier for brands to reach the right audience.
+
+659
+00:41:55,320 --> 00:41:58,560
+Speaker 15:  Like when they're listening to Amazon Music's ad supported tier on an Alexa
+
+660
+00:41:58,560 --> 00:42:01,880
+Speaker 15:  enabled device. Getting you more of this
+
+661
+00:42:02,050 --> 00:42:05,400
+Speaker 16:  Calming essentials, Lavender Royal promotes relaxation
+
+662
+00:42:05,740 --> 00:42:09,480
+Speaker 16:  and melts your stress away. Just say, Alexa,
+
+663
+00:42:09,740 --> 00:42:13,240
+Speaker 16:  add to cart to have calming essentials. Lavender Royal
+
+664
+00:42:13,240 --> 00:42:14,320
+Speaker 16:  delivered to your door.
+
+665
+00:42:14,520 --> 00:42:16,640
+Speaker 13:  Alexa, add to cart.
+
+666
+00:42:17,680 --> 00:42:21,200
+Speaker 15:  Learn more at vox.com/museum of Modern Ads.
+
+667
+00:42:22,620 --> 00:42:26,520
+Speaker 18:  Hey it's Kenny Mae. I'm the host of Haman. The Kenny Mae talks to famous
+
+668
+00:42:26,520 --> 00:42:29,680
+Speaker 18:  people, podcasts, season ones out there in the universe. You can go back
+
+669
+00:42:29,680 --> 00:42:33,400
+Speaker 18:  in time, find anybody you want as long as I interviewed them.
+
+670
+00:42:33,400 --> 00:42:37,200
+Speaker 18:  Season two is coming up Thursday, October 13th. We've
+
+671
+00:42:37,200 --> 00:42:40,960
+Speaker 18:  got Keith Overman and Dan Patrick together again. Sue Bird is
+
+672
+00:42:41,340 --> 00:42:44,880
+Speaker 18:  involved. Rex Chapman, Dan Levard, Katie Nolan,
+
+673
+00:42:44,880 --> 00:42:48,120
+Speaker 18:  Allison Becker. Sorry for all the others I interviewed who I left out. Oh
+
+674
+00:42:48,120 --> 00:42:51,840
+Speaker 18:  yeah, Solo O' Brunch. She was good. Get it on the Odyssey app or wherever
+
+675
+00:42:51,840 --> 00:42:52,520
+Speaker 18:  you get your podcast.
+
+676
+00:42:56,040 --> 00:43:00,030
+Speaker 2:  Welcome back. So on August 9th of this year, President Joe
+
+677
+00:43:00,030 --> 00:43:02,950
+Speaker 2:  Biden signed into law the Chips and Science Act,
+
+678
+00:43:02,950 --> 00:43:06,670
+Speaker 2:  A 280 billion package meant to invest
+
+679
+00:43:06,670 --> 00:43:10,350
+Speaker 2:  in American scientific and technological research and progress.
+
+680
+00:43:10,350 --> 00:43:14,230
+Speaker 2:  Big bill, lots of money, but one of the biggest chunks of that
+
+681
+00:43:14,800 --> 00:43:18,310
+Speaker 2:  money, 52 billion is specifically meant to boost semiconductor
+
+682
+00:43:18,310 --> 00:43:18,870
+Speaker 2:  manufacturing in the United States.
+
+683
+00:43:19,090 --> 00:43:22,670
+Speaker 19:  The future of the chip industry is going to be made in America.
+
+684
+00:43:24,340 --> 00:43:28,070
+Speaker 2:  This law is a big deal and it could start to reshape not just how
+
+685
+00:43:28,070 --> 00:43:31,510
+Speaker 2:  chips get made in America, but the whole tech industry in this country.
+
+686
+00:43:31,730 --> 00:43:35,510
+Speaker 2:  And there are big political consequences in how all of that
+
+687
+00:43:35,510 --> 00:43:39,070
+Speaker 2:  shakes out. That's what the verges McKenna Kelly has been looking into. She
+
+688
+00:43:39,070 --> 00:43:42,390
+Speaker 2:  talked to a number of folks over the recent months about the bill and its
+
+689
+00:43:42,390 --> 00:43:45,870
+Speaker 2:  effects, including New York Senator Chuck Schumer and now she's here to give
+
+690
+00:43:45,870 --> 00:43:47,230
+Speaker 2:  us the breakdown. Hi McKenna.
+
+691
+00:43:47,290 --> 00:43:48,750
+Speaker 20:  Hey David. It's great to be here.
+
+692
+00:43:48,900 --> 00:43:52,750
+Speaker 2:  It's midterm season. Do I need to worry about you like emotionally and
+
+693
+00:43:52,750 --> 00:43:54,310
+Speaker 2:  spiritually right now? How are you holding up?
+
+694
+00:43:54,830 --> 00:43:57,710
+Speaker 20:  Honestly, I've been talking to sources all this week and it's always just
+
+695
+00:43:57,710 --> 00:44:01,590
+Speaker 20:  been like, Hey, how are you? Hope you're staying alive. And
+
+696
+00:44:01,590 --> 00:44:04,510
+Speaker 20:  they're like, Hope you're staying alive too. Actually I'm dying but we're
+
+697
+00:44:04,510 --> 00:44:06,590
+Speaker 20:  gonna get through it. This has been a wild one.
+
+698
+00:44:07,860 --> 00:44:11,550
+Speaker 2:  Yeah, I would say so for our purposes today we're gonna talk mostly about
+
+699
+00:44:11,650 --> 00:44:15,510
+Speaker 2:  the chips and sciences bill, which is like, I think everybody just
+
+700
+00:44:15,510 --> 00:44:17,990
+Speaker 2:  calls it CHIPS now, right? Like all caps, Chips,
+
+701
+00:44:18,030 --> 00:44:21,110
+Speaker 20:  Chips. They're yelling this is the best thing to happen to consumer tech
+
+702
+00:44:21,110 --> 00:44:22,030
+Speaker 20:  in so long chips.
+
+703
+00:44:22,050 --> 00:44:25,830
+Speaker 2:  Can you put exclamation points in law NAS now it should just say like Chips
+
+704
+00:44:25,830 --> 00:44:26,670
+Speaker 2:  exclamation point.
+
+705
+00:44:26,760 --> 00:44:29,870
+Speaker 20:  It might as well be that it took so long to do, everyone was really excited
+
+706
+00:44:29,870 --> 00:44:31,560
+Speaker 20:  about when it finally got over the the finish line.
+
+707
+00:44:31,730 --> 00:44:34,880
+Speaker 2:  So okay. And it has these sort of big wide ranging
+
+708
+00:44:34,940 --> 00:44:38,760
+Speaker 2:  ramifications of like the future of tech in America and geopolitics
+
+709
+00:44:38,760 --> 00:44:41,840
+Speaker 2:  and all the stuff that I think is really interesting. But the history part
+
+710
+00:44:41,840 --> 00:44:44,400
+Speaker 2:  of this I think is really interesting cause I was reading your most recent
+
+711
+00:44:44,400 --> 00:44:48,120
+Speaker 2:  stories about it and realizing that some version of this
+
+712
+00:44:48,120 --> 00:44:51,840
+Speaker 2:  Bill Chips exclamation point has been in
+
+713
+00:44:51,840 --> 00:44:55,560
+Speaker 2:  negotiations since 2019, if I'm remembering correctly.
+
+714
+00:44:55,610 --> 00:44:59,320
+Speaker 2:  So rewind me all the way back to the beginning before the pandemic, before
+
+715
+00:44:59,470 --> 00:45:02,840
+Speaker 2:  chip shortages and the crazy supply chain stuff we've seen the last couple
+
+716
+00:45:02,840 --> 00:45:05,680
+Speaker 2:  of years. Like what was this supposed to do in 2019?
+
+717
+00:45:05,920 --> 00:45:09,880
+Speaker 20:  Right? So this was prior to all that, like you said. And when I was talking
+
+718
+00:45:10,040 --> 00:45:13,840
+Speaker 20:  to Chuck Schumer, he was talking about the time when he walked into the
+
+719
+00:45:13,840 --> 00:45:17,720
+Speaker 20:  Senate gym, which is something that exists and
+
+720
+00:45:17,720 --> 00:45:21,680
+Speaker 20:  he went to do whatever he does, aerobics, weightlifting, I don't
+
+721
+00:45:21,680 --> 00:45:22,600
+Speaker 20:  know what Schumer does in there
+
+722
+00:45:22,620 --> 00:45:26,120
+Speaker 21:  Now. I was on the bike panting away and on the bike next to me was a guy
+
+723
+00:45:26,120 --> 00:45:30,000
+Speaker 21:  Todd Young, a senator from Indiana Republican. And I was talking
+
+724
+00:45:30,000 --> 00:45:33,800
+Speaker 21:  to him about this and he said, I've had the same anxiety about America
+
+725
+00:45:33,800 --> 00:45:37,480
+Speaker 21:  losing ground here. Well you gotta do something. And so we agreed to come
+
+726
+00:45:37,720 --> 00:45:40,640
+Speaker 21:  together and we put together the science in Chips build.
+
+727
+00:45:40,970 --> 00:45:44,920
+Speaker 20:  He had been looking for some kind of partner to bring, you know, the economic
+
+728
+00:45:45,330 --> 00:45:49,160
+Speaker 20:  success and you know, funding and money that was, you know,
+
+729
+00:45:49,160 --> 00:45:52,880
+Speaker 20:  mostly sent to Silicon Valley and like software, Facebook, et cetera,
+
+730
+00:45:53,100 --> 00:45:57,000
+Speaker 20:  and bring that to, you know, more industrial parts of the United States.
+
+731
+00:45:57,000 --> 00:46:00,840
+Speaker 20:  We've seen a lot of industries fail over the past 20 years. There's
+
+732
+00:46:00,840 --> 00:46:04,400
+Speaker 20:  been a change in, you know, what people buy, where things are
+
+733
+00:46:04,700 --> 00:46:08,040
+Speaker 20:  manufactured. The auto industry in Detroit is a very good example of a place
+
+734
+00:46:08,040 --> 00:46:11,720
+Speaker 20:  that could really benefit from that kind of money. But there's all of this
+
+735
+00:46:11,910 --> 00:46:15,560
+Speaker 20:  land, talk about Syracuse, New York, talk about Detroit, talk
+
+736
+00:46:15,830 --> 00:46:19,480
+Speaker 20:  about Idaho, Ohio that has been a manufacturing epicenter
+
+737
+00:46:19,480 --> 00:46:23,320
+Speaker 20:  for the United States, but with a lot of things going overseas
+
+738
+00:46:23,510 --> 00:46:25,880
+Speaker 20:  in manufacturing businesses, I think Schumer and a lot of folks are thinking
+
+739
+00:46:25,880 --> 00:46:29,720
+Speaker 20:  about how can we readjust our manufacturing sector in
+
+740
+00:46:30,160 --> 00:46:34,120
+Speaker 20:  a way that positions the United States in a
+
+741
+00:46:34,120 --> 00:46:36,960
+Speaker 20:  competitive way for the next, you know, 50 years. And they targeted chips,
+
+742
+00:46:37,280 --> 00:46:40,600
+Speaker 20:  which is something that the US used to do really well, but has become ever
+
+743
+00:46:40,600 --> 00:46:44,520
+Speaker 20:  more, you know, necessary in literally every product that we
+
+744
+00:46:44,520 --> 00:46:47,120
+Speaker 20:  have. Like when I was talking to Schumer, my favorite thing, I opened it
+
+745
+00:46:47,120 --> 00:46:50,880
+Speaker 20:  up asking him if he was using his flip phone, which he infamously uses a
+
+746
+00:46:50,880 --> 00:46:51,640
+Speaker 20:  flip phone still
+
+747
+00:46:51,640 --> 00:46:52,280
+Speaker 2:  Amazing.
+
+748
+00:46:52,500 --> 00:46:56,360
+Speaker 21:  Let me tell you my flip phone, people ask with a 50
+
+749
+00:46:56,400 --> 00:47:00,240
+Speaker 21:  50 majority, how do you get things done? And
+
+750
+00:47:00,270 --> 00:47:04,040
+Speaker 21:  I am talking into it, my flip phone, every senator, Democratic
+
+751
+00:47:04,040 --> 00:47:07,760
+Speaker 21:  senator and some Republicans have my phone number, they talk to me
+
+752
+00:47:08,040 --> 00:47:11,920
+Speaker 21:  directly. They don't go through staff, they don't do email. And it's a way
+
+753
+00:47:11,920 --> 00:47:14,640
+Speaker 21:  you can weave a coalition together.
+
+754
+00:47:14,670 --> 00:47:18,280
+Speaker 20:  Everything from like dumb tech, flip phones, you know, when it comes to
+
+755
+00:47:18,340 --> 00:47:21,720
+Speaker 20:  refrigerators, things like that, all the way to like artificial
+
+756
+00:47:21,720 --> 00:47:25,680
+Speaker 20:  intelligence, advanced computing, all of these things rely on these semiconductor
+
+757
+00:47:25,680 --> 00:47:28,440
+Speaker 20:  chips. And I think that's why Schumer and everyone really targeted that
+
+758
+00:47:28,440 --> 00:47:29,720
+Speaker 20:  sector for this bill.
+
+759
+00:47:29,900 --> 00:47:33,840
+Speaker 2:  And obviously like the, the sort of underlying theme of a
+
+760
+00:47:33,840 --> 00:47:37,360
+Speaker 2:  lot of that is China, right? That like there is very much this like global
+
+761
+00:47:37,360 --> 00:47:40,520
+Speaker 2:  thing happening, but so much of it is concentrated in China. And it feels
+
+762
+00:47:40,520 --> 00:47:44,440
+Speaker 2:  like over the last, I don't know a long time, but especially kind of over
+
+763
+00:47:44,440 --> 00:47:46,880
+Speaker 2:  the course of the Trump administration and into the Biden administration,
+
+764
+00:47:47,120 --> 00:47:51,080
+Speaker 2:  China has become a big focus in like remembering how to
+
+765
+00:47:51,080 --> 00:47:54,800
+Speaker 2:  compete with China and not be so reliant on China. Like was it about
+
+766
+00:47:54,800 --> 00:47:55,960
+Speaker 2:  China the whole time,
+
+767
+00:47:56,160 --> 00:48:00,000
+Speaker 20:  Right? I, I think the first name of the bill before, of course this
+
+768
+00:48:00,000 --> 00:48:03,360
+Speaker 20:  is just these bills change, the text changes, the names change. The first
+
+769
+00:48:03,360 --> 00:48:07,280
+Speaker 20:  one was like the Endless Frontier Act. Oh boy. And it had very much to do
+
+770
+00:48:07,280 --> 00:48:08,800
+Speaker 20:  with competitiveness with China.
+
+771
+00:48:09,110 --> 00:48:12,600
+Speaker 21:  I've been for a long time worried that America's losing ground
+
+772
+00:48:12,850 --> 00:48:16,760
+Speaker 21:  on investments in science and in high end manufacturing and
+
+773
+00:48:16,760 --> 00:48:20,240
+Speaker 21:  the union of the two. And that if we continued to lose ground,
+
+774
+00:48:20,700 --> 00:48:24,520
+Speaker 21:  our economy would suffer. If a more authoritarian country
+
+775
+00:48:24,520 --> 00:48:28,360
+Speaker 21:  like China got ahead of us, they could set the rules, which wouldn't
+
+776
+00:48:28,560 --> 00:48:32,360
+Speaker 21:  be in the open, entrepreneurial free market way that we
+
+777
+00:48:32,360 --> 00:48:36,080
+Speaker 21:  like to do things here in America. And that we would suffer in many
+
+778
+00:48:36,080 --> 00:48:36,840
+Speaker 21:  different ways.
+
+779
+00:48:37,370 --> 00:48:41,080
+Speaker 20:  So much of American manufacturing has gone overseas that leads to the
+
+780
+00:48:41,080 --> 00:48:44,320
+Speaker 20:  United States, right? In an anti-competitive advantage. If supply chains
+
+781
+00:48:44,570 --> 00:48:48,400
+Speaker 20:  fail, if you know for some reason down the line China becomes, you
+
+782
+00:48:48,790 --> 00:48:52,040
+Speaker 20:  know, a major economic hegemonic
+
+783
+00:48:52,560 --> 00:48:56,400
+Speaker 20:  right power. And so it's getting to that, you know, national security risk
+
+784
+00:48:56,400 --> 00:49:00,200
+Speaker 20:  concern about being able to, I guess, you know, American
+
+785
+00:49:00,200 --> 00:49:04,040
+Speaker 20:  excellence, all that stuff, and national security, right? So chips
+
+786
+00:49:04,040 --> 00:49:07,960
+Speaker 20:  of course with their military necessity and then also just like daily
+
+787
+00:49:07,960 --> 00:49:11,600
+Speaker 20:  life, they've become such an, an important factor and such an
+
+788
+00:49:11,600 --> 00:49:14,440
+Speaker 20:  important piece of equipment for the US to have
+
+789
+00:49:14,750 --> 00:49:18,240
+Speaker 2:  This seems like what you're describing would be the kind of thing that almost
+
+790
+00:49:18,240 --> 00:49:21,040
+Speaker 2:  every American politician would immediately get behind, right? Like it's
+
+791
+00:49:21,040 --> 00:49:24,920
+Speaker 2:  pro America, it's pro-business, everybody wins. We get to
+
+792
+00:49:24,920 --> 00:49:28,520
+Speaker 2:  yell about, you know, nationalism and America being great and the future
+
+793
+00:49:28,540 --> 00:49:31,960
+Speaker 2:  and technology, and yet there was this massive political battle
+
+794
+00:49:32,070 --> 00:49:36,040
+Speaker 2:  that made this thing take forever. Walk me through a little
+
+795
+00:49:36,040 --> 00:49:39,760
+Speaker 2:  bit of that, like what was the big fight about in getting this bill actually
+
+796
+00:49:39,760 --> 00:49:40,000
+Speaker 2:  done.
+
+797
+00:49:40,020 --> 00:49:43,800
+Speaker 20:  Let me work our way from beginning to end here. At first, of course, it
+
+798
+00:49:43,800 --> 00:49:47,480
+Speaker 20:  was 2019, there was an election coming up, the 2020 election.
+
+799
+00:49:48,220 --> 00:49:52,160
+Speaker 22:  All the productive activity in the Congress is coming out of
+
+800
+00:49:52,160 --> 00:49:55,800
+Speaker 22:  the house. The Senate remains a legislative graveyard
+
+801
+00:49:55,900 --> 00:49:59,120
+Speaker 22:  for so many different issues. Now on impeachment
+
+802
+00:49:59,270 --> 00:50:01,920
+Speaker 2:  This literally feels like ancient history that you're describing. I
+
+803
+00:50:01,920 --> 00:50:02,240
+Speaker 20:  Know you
+
+804
+00:50:02,240 --> 00:50:03,080
+Speaker 2:  Didn't think that it's crazy.
+
+805
+00:50:03,250 --> 00:50:06,680
+Speaker 20:  It wasn't necessarily a priority at the time. And then of course
+
+806
+00:50:06,910 --> 00:50:10,480
+Speaker 20:  that also comes down to well who is this going to benefit? You know, when
+
+807
+00:50:10,480 --> 00:50:14,200
+Speaker 20:  it comes to a senator, they want to bring stuff home to their constituency
+
+808
+00:50:14,410 --> 00:50:18,280
+Speaker 20:  to be like, Hey, I got you jobs in this bill. So there's a little bit
+
+809
+00:50:18,280 --> 00:50:21,400
+Speaker 20:  of discussion back and forth on that to make sure that, you know, this benefits
+
+810
+00:50:21,920 --> 00:50:25,720
+Speaker 20:  everyone's state, majority of folks and then of course slows down
+
+811
+00:50:25,720 --> 00:50:29,360
+Speaker 20:  2020 election and then the pandemic hits, right?
+
+812
+00:50:29,460 --> 00:50:33,400
+Speaker 20:  And all of a sudden it is impossible
+
+813
+00:50:34,130 --> 00:50:38,120
+Speaker 20:  to get your hands on consumer tech goods. And then of course, like
+
+814
+00:50:38,120 --> 00:50:41,280
+Speaker 20:  just semiconductors period. Like look, when we were in the middle of the
+
+815
+00:50:41,400 --> 00:50:44,800
+Speaker 20:  pandemic, gosh, it's like, it's so weird to think back to 2020, but at the
+
+816
+00:50:44,800 --> 00:50:48,600
+Speaker 20:  time, do you remember when like you couldn't get an Invidia graphics card?
+
+817
+00:50:48,770 --> 00:50:52,440
+Speaker 20:  Oh yeah. Do you remember when like the PS five, you couldn't get that. Yeah.
+
+818
+00:50:52,440 --> 00:50:55,680
+Speaker 20:  Like this was, all that stuff was rolling out at the same time when people
+
+819
+00:50:55,680 --> 00:50:59,440
+Speaker 20:  were stuck inside. So we have all these new products, people stuck inside,
+
+820
+00:50:59,440 --> 00:51:03,160
+Speaker 20:  people working from home, maybe investing in new laptops, investing in tablets,
+
+821
+00:51:03,160 --> 00:51:06,640
+Speaker 20:  investing in all of this tech equipment. And so demand
+
+822
+00:51:07,190 --> 00:51:11,120
+Speaker 20:  surges, but supply chains break because of, you
+
+823
+00:51:11,120 --> 00:51:14,680
+Speaker 20:  know, covid restrictions and things like that. So it became this absolute
+
+824
+00:51:15,120 --> 00:51:19,080
+Speaker 20:  explosion of just became an explosion of mess, right? That all
+
+825
+00:51:19,080 --> 00:51:22,200
+Speaker 20:  of a sudden you needed to clean up. And I think that's why, you know, it
+
+826
+00:51:22,200 --> 00:51:25,920
+Speaker 20:  got to be 2020 and then the bill really got a lot of folks behind it.
+
+827
+00:51:26,140 --> 00:51:29,360
+Speaker 20:  And, but of course it wasn't until this year that it was actually passed,
+
+828
+00:51:29,540 --> 00:51:33,120
+Speaker 2:  Was it less about everybody picking fights about this bill and more about
+
+829
+00:51:33,250 --> 00:51:37,160
+Speaker 2:  it just being maybe not the most immediately
+
+830
+00:51:37,160 --> 00:51:39,680
+Speaker 2:  important thing as we were dealing with all of this other stuff going on
+
+831
+00:51:39,680 --> 00:51:40,040
+Speaker 2:  in the world.
+
+832
+00:51:40,190 --> 00:51:44,120
+Speaker 20:  It's a confluence of there's so much going on. Okay. I mean cuz
+
+833
+00:51:44,120 --> 00:51:47,920
+Speaker 20:  look like, look at what else the Senate did and like Congress did during
+
+834
+00:51:47,920 --> 00:51:51,720
+Speaker 20:  the pandemic, it was they were passing the bipartisan infrastructure
+
+835
+00:51:51,720 --> 00:51:55,440
+Speaker 20:  law. Remember when we got sent money? Yeah. Like they were fighting
+
+836
+00:51:55,440 --> 00:51:58,280
+Speaker 20:  over that, you know? And so that was happening and then it's also like a
+
+837
+00:51:58,280 --> 00:52:02,040
+Speaker 20:  confluence of that factor, but also the fact that everyone wants
+
+838
+00:52:02,040 --> 00:52:05,280
+Speaker 20:  something in this, right? You have the Ohio lawmakers who are like, we have
+
+839
+00:52:05,280 --> 00:52:08,960
+Speaker 20:  all this land, we need jobs, we wanna be resilient in the future.
+
+840
+00:52:08,960 --> 00:52:12,640
+Speaker 20:  Let's make sure that this gets everyone equipped. And I think the important
+
+841
+00:52:12,640 --> 00:52:15,560
+Speaker 20:  thing there, I think something we don't talk about the bill enough of course
+
+842
+00:52:15,560 --> 00:52:18,440
+Speaker 20:  is like subsidies for like the chip manufacturers, but it also includes
+
+843
+00:52:18,440 --> 00:52:21,760
+Speaker 20:  money through the commerce department for states and localities to make
+
+844
+00:52:21,760 --> 00:52:25,600
+Speaker 20:  pitches for funding to create these national tech hubs which
+
+845
+00:52:25,630 --> 00:52:29,440
+Speaker 20:  lets localities and states fight, you know, and basically
+
+846
+00:52:29,440 --> 00:52:32,480
+Speaker 20:  pitch to be like, hey, we could use this funding and really make good work
+
+847
+00:52:32,480 --> 00:52:35,680
+Speaker 20:  with it. Right? And so there was also that, which I think was a part of
+
+848
+00:52:35,680 --> 00:52:38,880
+Speaker 20:  the negotiations and making sure that everyone is, you know, benefiting
+
+849
+00:52:38,880 --> 00:52:39,160
+Speaker 20:  from the
+
+850
+00:52:39,160 --> 00:52:43,120
+Speaker 21:  Bill. We wanted to see parts of the country that had not benefited from
+
+851
+00:52:43,120 --> 00:52:47,080
+Speaker 21:  advanced manufacturing and science gain. I was thinking of upstate
+
+852
+00:52:47,080 --> 00:52:50,840
+Speaker 21:  New York, Buffalo, Rochester's, Syracuse, Albany. He
+
+853
+00:52:50,840 --> 00:52:54,600
+Speaker 21:  was thinking of Indianapolis and Fort Wayne and South Bend and that was
+
+854
+00:52:54,600 --> 00:52:56,160
+Speaker 21:  another unifying factor for us.
+
+855
+00:52:56,550 --> 00:53:00,120
+Speaker 2:  I can imagine this got like crazily competitive because everybody's looking
+
+856
+00:53:00,120 --> 00:53:03,280
+Speaker 2:  at this being like we can be the next Silicon Valley, which everybody has
+
+857
+00:53:03,280 --> 00:53:06,040
+Speaker 2:  been trying to be for 40 years. And now it feels like there's more money
+
+858
+00:53:06,040 --> 00:53:09,240
+Speaker 2:  being put to that use kind of than ever, right?
+
+859
+00:53:09,310 --> 00:53:13,080
+Speaker 20:  Yeah. I mean I'm from Nebraska and I remember it got towards the end of
+
+860
+00:53:13,080 --> 00:53:16,520
+Speaker 20:  me graduating college and everyone was using the phrase Silicon Prairie.
+
+861
+00:53:16,770 --> 00:53:20,160
+Speaker 20:  Oh yeah. And so everyone's fighting over, you know, being the next
+
+862
+00:53:20,720 --> 00:53:21,880
+Speaker 20:  big tech hub. Silicon
+
+863
+00:53:21,880 --> 00:53:24,320
+Speaker 2:  Slopes was always my favorite for Salt Lake City.
+
+864
+00:53:24,530 --> 00:53:26,520
+Speaker 20:  Oh I hadn't even heard that one. It
+
+865
+00:53:26,520 --> 00:53:27,800
+Speaker 2:  Didn't work. Spoiler alert.
+
+866
+00:53:27,800 --> 00:53:31,480
+Speaker 20:  Right? And so Silicon Valley, you know, of course got all this investment
+
+867
+00:53:31,480 --> 00:53:35,080
+Speaker 20:  cuz folks are moving there. There was the whole VC craze, it's still going
+
+868
+00:53:35,080 --> 00:53:38,080
+Speaker 20:  on. You know, this just was kind of like the focus where you went to Silicon
+
+869
+00:53:38,080 --> 00:53:41,280
+Speaker 20:  Valley if you were interested in tech and now tech has become
+
+870
+00:53:41,810 --> 00:53:45,760
+Speaker 20:  so, and you know, omnipresent in our lives that it
+
+871
+00:53:45,760 --> 00:53:49,080
+Speaker 20:  could benefit everyone if they just kind of shake loose.
+
+872
+00:53:49,700 --> 00:53:52,680
+Speaker 20:  You know the whole Silicon Valley has on the industry.
+
+873
+00:53:53,070 --> 00:53:56,960
+Speaker 21:  When you need such a huge amount of space for these
+
+874
+00:53:56,960 --> 00:54:00,800
+Speaker 21:  chip fab companies, you also need adequate water,
+
+875
+00:54:00,800 --> 00:54:04,400
+Speaker 21:  cheap power. It tends to benefit some areas that
+
+876
+00:54:04,400 --> 00:54:06,240
+Speaker 21:  hadn't seen those benefits before.
+
+877
+00:54:06,580 --> 00:54:09,680
+Speaker 20:  And if you have a little bit of subsidizing money, a little bit of incentive
+
+878
+00:54:09,680 --> 00:54:11,840
+Speaker 20:  to do it, these can crop up everywhere
+
+879
+00:54:12,250 --> 00:54:15,200
+Speaker 2:  At the end of it. Did everybody get what they want? Did Chuck Schumer get
+
+880
+00:54:15,200 --> 00:54:18,960
+Speaker 2:  what he wanted? Like who kind of came out ahead in the way that the chips
+
+881
+00:54:18,960 --> 00:54:20,880
+Speaker 2:  bill actually ended up being written and passed?
+
+882
+00:54:21,100 --> 00:54:22,080
+Speaker 20:  The corporations
+
+883
+00:54:24,350 --> 00:54:25,040
+Speaker 2:  Surprise,
+
+884
+00:54:25,150 --> 00:54:28,400
+Speaker 20:  That's always the way it is. Right? Of course like towards the end of the
+
+885
+00:54:28,400 --> 00:54:31,520
+Speaker 20:  negotiating phase you had Bernie Sanders somewhere progressive being like,
+
+886
+00:54:31,520 --> 00:54:34,160
+Speaker 20:  we need some more checks and balances on how this subsidy money is being
+
+887
+00:54:34,160 --> 00:54:37,800
+Speaker 20:  handed out. Cuz again, like it's touted as this revolutionary thing for
+
+888
+00:54:37,800 --> 00:54:41,680
+Speaker 20:  the American economy, but who is the money going to? It's going to
+
+889
+00:54:41,680 --> 00:54:45,440
+Speaker 20:  Intel, it's going to Micron and they're gonna be the ones who see
+
+890
+00:54:45,620 --> 00:54:49,560
+Speaker 20:  the benefit of this faster than everyone else.
+
+891
+00:54:49,560 --> 00:54:52,760
+Speaker 20:  And, and we're talking about the midterms, right? This has been something
+
+892
+00:54:52,760 --> 00:54:56,440
+Speaker 20:  that I've been thinking about a lot cuz a lot of the economic work that
+
+893
+00:54:56,440 --> 00:54:59,480
+Speaker 20:  the Biden administration has done, whether it's the bipartisan infrastructure
+
+894
+00:54:59,480 --> 00:55:03,160
+Speaker 20:  law, whether it's the chips bill, all these things take time,
+
+895
+00:55:03,420 --> 00:55:07,360
+Speaker 20:  you know, to go into effect and they, they do have the ability,
+
+896
+00:55:07,360 --> 00:55:11,240
+Speaker 20:  you know, to be really revolutionary. But people are really
+
+897
+00:55:11,240 --> 00:55:14,840
+Speaker 20:  hurting right now. And so as much as we talk about,
+
+898
+00:55:14,860 --> 00:55:18,200
+Speaker 20:  you know, the benefits of this bill everyday, people aren't seeing it in
+
+899
+00:55:18,200 --> 00:55:21,200
+Speaker 20:  their pocketbooks right now. And so it's hard to see whether or not it'll
+
+900
+00:55:21,200 --> 00:55:22,920
+Speaker 20:  have that kind of effect on the voter base.
+
+901
+00:55:22,950 --> 00:55:26,080
+Speaker 2:  Yeah, there was that amazing Bernie Sanders quote that was basically like,
+
+902
+00:55:26,220 --> 00:55:29,920
+Speaker 2:  why are so many people in Congress willing to basically bribe intel
+
+903
+00:55:29,920 --> 00:55:31,480
+Speaker 2:  to stay in the United States?
+
+904
+00:55:31,780 --> 00:55:35,240
+Speaker 23:  The CEO of a major corporation which made
+
+905
+00:55:35,270 --> 00:55:38,800
+Speaker 23:  nearly 20 billion in
+
+906
+00:55:38,910 --> 00:55:42,880
+Speaker 23:  profits last year, is saying to Congress that if you
+
+907
+00:55:42,880 --> 00:55:46,080
+Speaker 23:  don't give my industry the microchip
+
+908
+00:55:46,410 --> 00:55:50,160
+Speaker 23:  industry 76 billion, that
+
+909
+00:55:50,640 --> 00:55:54,600
+Speaker 23:  despite their profound love for our country and
+
+910
+00:55:54,600 --> 00:55:58,120
+Speaker 23:  their respect for American workers in order to make
+
+911
+00:55:58,120 --> 00:56:01,840
+Speaker 23:  more profits, they are prepared to go to Europe and Asia. Now as
+
+912
+00:56:01,950 --> 00:56:05,640
+Speaker 23:  the president, I am thankfully not a lawyer without
+
+913
+00:56:05,640 --> 00:56:07,960
+Speaker 23:  sure sounds like extortion to me.
+
+914
+00:56:08,260 --> 00:56:12,040
+Speaker 2:  And that strikes me as a fair criticism, right? Like I think as
+
+915
+00:56:12,040 --> 00:56:15,160
+Speaker 2:  Pat Gelsinger was on the, the decoder podcast talking about this, that like
+
+916
+00:56:15,160 --> 00:56:18,920
+Speaker 2:  maybe Intel should have done better if, if
+
+917
+00:56:18,920 --> 00:56:22,120
+Speaker 2:  Intel wanted to be successful without government intervention, maybe Intel
+
+918
+00:56:22,120 --> 00:56:24,400
+Speaker 2:  should have been successful without government intervention. And I think
+
+919
+00:56:24,400 --> 00:56:27,480
+Speaker 2:  there is this funny thing that I feel like this bill is trying to do, which
+
+920
+00:56:27,480 --> 00:56:31,080
+Speaker 2:  is on the one hand like build new things and prop up new innovation
+
+921
+00:56:31,180 --> 00:56:33,800
+Speaker 2:  and there's like, there's money for the National Science Foundation I think
+
+922
+00:56:33,800 --> 00:56:36,880
+Speaker 2:  in there. And so it's, it's like we want to, we wanna start new stuff, but
+
+923
+00:56:36,880 --> 00:56:40,720
+Speaker 2:  also the lion's share of the money is going to, like you said, this small
+
+924
+00:56:40,720 --> 00:56:44,320
+Speaker 2:  handful of really big corporations that like Intel
+
+925
+00:56:44,320 --> 00:56:48,240
+Speaker 2:  didn't do a good job and for not doing a good job, got
+
+926
+00:56:48,350 --> 00:56:52,200
+Speaker 2:  billions of dollars to stay in the United States and that
+
+927
+00:56:52,200 --> 00:56:52,840
+Speaker 2:  that seems messy.
+
+928
+00:56:53,070 --> 00:56:56,040
+Speaker 20:  What else are they going to do? Right? They'll create their manufacturing
+
+929
+00:56:56,040 --> 00:56:59,800
+Speaker 20:  plants, their fabs and stuff in China, which then of course really hurts
+
+930
+00:56:59,800 --> 00:57:03,600
+Speaker 20:  the United States. So it's gotten to this point where
+
+931
+00:57:03,700 --> 00:57:07,560
+Speaker 20:  China has become, we are so reliant yeah. On China
+
+932
+00:57:07,560 --> 00:57:11,120
+Speaker 20:  for semiconductors and chips and manufacturing that there's no
+
+933
+00:57:11,260 --> 00:57:15,000
+Speaker 20:  reason for you know, these companies to come back and for the Biden
+
+934
+00:57:15,000 --> 00:57:17,120
+Speaker 20:  administration, when we talk about how this could take a really long time
+
+935
+00:57:17,120 --> 00:57:20,400
+Speaker 20:  to be affect, it's probably the fastest way to get this moving. Especially
+
+936
+00:57:20,400 --> 00:57:24,000
+Speaker 20:  like over the last five years when we've seen, you know, Chinese tech
+
+937
+00:57:24,000 --> 00:57:27,760
+Speaker 20:  companies, Chinese military, you know, we've seen this rise, this like
+
+938
+00:57:27,760 --> 00:57:31,720
+Speaker 20:  tension with Taiwan. You know, the Chinese working with a lot of like
+
+939
+00:57:31,720 --> 00:57:35,440
+Speaker 20:  us adversaries, it's just this feels like a bandaid,
+
+940
+00:57:35,440 --> 00:57:39,240
+Speaker 20:  a $52 billion bandaid that hopefully
+
+941
+00:57:39,240 --> 00:57:42,200
+Speaker 20:  heals and hopefully they don't pick the scab, We don't pick the scab off
+
+942
+00:57:42,200 --> 00:57:45,720
+Speaker 20:  too often and it just like really just, you know, sets in stone and we can
+
+943
+00:57:45,720 --> 00:57:47,600
+Speaker 20:  get moving on this. But I mean it's, it's hard to tell.
+
+944
+00:57:47,810 --> 00:57:51,280
+Speaker 2:  Do you think it eventually got done just because this all got so
+
+945
+00:57:51,640 --> 00:57:54,600
+Speaker 2:  visceral with the chip shortage and the supply chain issues that it like
+
+946
+00:57:54,600 --> 00:57:58,560
+Speaker 2:  it became really obvious to everyday Americans that this was a thing? I
+
+947
+00:57:58,560 --> 00:58:01,880
+Speaker 2:  feel like chip supply chains were not a thing that most people were aware
+
+948
+00:58:01,880 --> 00:58:05,320
+Speaker 2:  of three years ago in a way that I think a lot of people like sort of deeply
+
+949
+00:58:05,320 --> 00:58:09,120
+Speaker 2:  understand now like I couldn't buy a car because they couldn't get a chip
+
+950
+00:58:09,120 --> 00:58:13,040
+Speaker 2:  from Taiwan. It's like a thing people understand now in a way that they
+
+951
+00:58:13,040 --> 00:58:16,880
+Speaker 2:  didn't before. Is that what finally got this across the, the line?
+
+952
+00:58:16,880 --> 00:58:19,880
+Speaker 2:  Was there some gating thing in the bill that finally got fixed? Like what,
+
+953
+00:58:19,880 --> 00:58:20,600
+Speaker 2:  what did it at the end?
+
+954
+00:58:21,050 --> 00:58:24,880
+Speaker 20:  So I was looking at past reporting that even like we did at the version
+
+955
+00:58:24,880 --> 00:58:28,680
+Speaker 20:  like Sean Hollister was writing at the beginning of this year, the companies
+
+956
+00:58:28,680 --> 00:58:31,960
+Speaker 20:  were starting to figure it out, right? You were able to get this Nvidia
+
+957
+00:58:31,960 --> 00:58:35,040
+Speaker 20:  gpu, you're able to get all this stuff at the beginning of the year. This
+
+958
+00:58:35,040 --> 00:58:38,800
+Speaker 20:  wasn't really affecting consumers in the same way, but what was affecting
+
+959
+00:58:38,960 --> 00:58:42,360
+Speaker 20:  consumers and what voters were looking at were the midterms. And so this
+
+960
+00:58:42,360 --> 00:58:46,200
+Speaker 20:  bill got signed this fall, I believe it was September and you know,
+
+961
+00:58:46,200 --> 00:58:49,960
+Speaker 20:  Biden Schumer, everyone wants to be able to say,
+
+962
+00:58:49,960 --> 00:58:53,720
+Speaker 20:  wants to have that intel groundbreaking ceremony. They wanna have
+
+963
+00:58:53,720 --> 00:58:57,640
+Speaker 20:  the CEO of Intel in their state breaking ground and promising,
+
+964
+00:58:57,640 --> 00:59:01,080
+Speaker 20:  you know, thousands of jobs for folks. Like this is what the Biden
+
+965
+00:59:01,080 --> 00:59:03,840
+Speaker 20:  administration, this is what Democrats did for you. This is what we pushed
+
+966
+00:59:03,840 --> 00:59:04,760
+Speaker 20:  it over the lines.
+
+967
+00:59:04,870 --> 00:59:08,840
+Speaker 21:  Yeah, I mean s Syracuse New York is a place that has suffered for a
+
+968
+00:59:08,850 --> 00:59:12,520
+Speaker 21:  while carrier, for instance, the air conditioner was conceived
+
+969
+00:59:12,520 --> 00:59:16,360
+Speaker 21:  and developed and manufactured in Syracuse. They
+
+970
+00:59:16,360 --> 00:59:20,040
+Speaker 21:  decided to move all the manufacturing to Singapore and it was a sad day
+
+971
+00:59:20,040 --> 00:59:23,640
+Speaker 21:  for Syracuse. A very, very sad day. Now Microns
+
+972
+00:59:23,640 --> 00:59:27,280
+Speaker 21:  huge investment, a hundred billion for major
+
+973
+00:59:27,410 --> 00:59:30,920
+Speaker 21:  chip Fs, 2.4 million feet of
+
+974
+00:59:31,140 --> 00:59:35,080
+Speaker 21:  manufacturing space and up to 50,000 new jobs. Syracuse has a
+
+975
+00:59:35,080 --> 00:59:36,760
+Speaker 21:  bright future again and people feel good about it
+
+976
+00:59:37,010 --> 00:59:40,240
+Speaker 20:  Of course, like they're not gonna feel it immediately. But I think the promise
+
+977
+00:59:40,240 --> 00:59:43,760
+Speaker 20:  of jobs while paying manufacturing jobs that people in these states, you
+
+978
+00:59:43,760 --> 00:59:47,440
+Speaker 20:  know, just generations have relied on manufacturing jobs. I think that was
+
+979
+00:59:47,440 --> 00:59:50,320
+Speaker 20:  really what pushed it over the edge to get that, you know, to tell bring
+
+980
+00:59:50,320 --> 00:59:50,680
+Speaker 20:  to voters.
+
+981
+00:59:50,950 --> 00:59:54,200
+Speaker 2:  Yeah, that makes sense. And do we have a sense yet where like
+
+982
+00:59:54,560 --> 00:59:57,520
+Speaker 2:  geographically that stuff is gonna start to happen? Like obviously Intel
+
+983
+00:59:57,520 --> 01:00:01,440
+Speaker 2:  has made a lot of noise in Arizona. Chuck Schumer is deeply obsessed with
+
+984
+01:00:01,440 --> 01:00:05,120
+Speaker 2:  like Syracuse in Buffalo, but do we have a sense of where these other
+
+985
+01:00:05,120 --> 01:00:08,520
+Speaker 2:  kind of new rising tech hubs are likely to be?
+
+986
+01:00:08,670 --> 01:00:12,560
+Speaker 20:  Yeah, so if you look at where Micron, intel, these companies
+
+987
+01:00:12,580 --> 01:00:15,960
+Speaker 20:  are investing money right now. Idaho is a big one with Micron.
+
+988
+01:00:16,310 --> 01:00:20,240
+Speaker 20:  I think that was like a $15 billion project. Yeah. And then
+
+989
+01:00:20,480 --> 01:00:24,200
+Speaker 20:  there's the 20 billion project from Intel in Ohio.
+
+990
+01:00:24,200 --> 01:00:27,800
+Speaker 20:  There's like some smaller companies that are working in
+
+991
+01:00:28,040 --> 01:00:31,920
+Speaker 20:  like the Carolinas, you know, places like I'm naming states where this is
+
+992
+01:00:31,920 --> 01:00:32,240
+Speaker 20:  traditionally not happening.
+
+993
+01:00:32,310 --> 01:00:33,040
+Speaker 2:  Sure, yeah.
+
+994
+01:00:33,050 --> 01:00:36,960
+Speaker 20:  There's communities, colleges, people who are looking for these jobs, right?
+
+995
+01:00:36,960 --> 01:00:40,400
+Speaker 20:  And so it's areas like that rather than the more
+
+996
+01:00:40,680 --> 01:00:44,000
+Speaker 20:  condensed urban, you know, central hubs of tech that we've seen in the
+
+997
+01:00:44,000 --> 01:00:47,840
+Speaker 2:  Past. Is there a political connection between all of those places?
+
+998
+01:00:47,840 --> 01:00:51,680
+Speaker 2:  Like can you, can you sort of draw a line between trying to win
+
+999
+01:00:51,680 --> 01:00:54,360
+Speaker 2:  midterm elections and what happened there? I
+
+1000
+01:00:54,360 --> 01:00:58,000
+Speaker 20:  Mean it's blue collar voters. Sure. You know, these are people who, a lot
+
+1001
+01:00:58,000 --> 01:01:01,840
+Speaker 20:  of them, I was listening to some interviews and reading some polls
+
+1002
+01:01:01,920 --> 01:01:05,840
+Speaker 20:  about people who voted for Obama then voted for
+
+1003
+01:01:05,840 --> 01:01:09,560
+Speaker 20:  Trump, right? And these are, you know, just mostly like
+
+1004
+01:01:09,560 --> 01:01:13,440
+Speaker 20:  blue collar folks who feel like they've been left behind and if,
+
+1005
+01:01:13,440 --> 01:01:16,120
+Speaker 20:  you know, they think about these golden days, of course there's been this
+
+1006
+01:01:16,120 --> 01:01:20,000
+Speaker 20:  like weirdo movement of like return to tradition on the right, right? Yeah.
+
+1007
+01:01:20,000 --> 01:01:23,160
+Speaker 20:  But that people do see, you know, American manufacturing is like the glory
+
+1008
+01:01:23,160 --> 01:01:27,120
+Speaker 20:  days and if we could bring some of that back with like a eye set
+
+1009
+01:01:27,120 --> 01:01:29,560
+Speaker 20:  to the future, I think that really benefits a lot of people.
+
+1010
+01:01:29,670 --> 01:01:33,240
+Speaker 2:  Okay. And I would assume the tech industry is psyched about how all of this
+
+1011
+01:01:33,240 --> 01:01:33,840
+Speaker 2:  turned out, right?
+
+1012
+01:01:34,010 --> 01:01:37,040
+Speaker 20:  Oh yeah. I mean they'll get chips, right? Right.
+
+1013
+01:01:37,200 --> 01:01:41,080
+Speaker 21:  Obviously the tech industry got behind the legislation. They
+
+1014
+01:01:41,080 --> 01:01:45,000
+Speaker 21:  were so entranced by all the investments in science and the
+
+1015
+01:01:45,000 --> 01:01:48,040
+Speaker 21:  high end manufacturing. And so we did have a coalition.
+
+1016
+01:01:48,630 --> 01:01:52,520
+Speaker 2:  What's your sense of how much the goal is, and this is, this
+
+1017
+01:01:52,520 --> 01:01:55,800
+Speaker 2:  is a question I have with like basically every law like this that gets done
+
+1018
+01:01:55,800 --> 01:01:59,280
+Speaker 2:  is the question of like how do we solve the sort of specific problem we have
+
+1019
+01:01:59,280 --> 01:02:02,920
+Speaker 2:  right now as quickly as we possibly can, which is like give money
+
+1020
+01:02:03,080 --> 01:02:06,760
+Speaker 2:  to Intel, it knows how to make chips, give them money to build more buildings,
+
+1021
+01:02:06,760 --> 01:02:09,720
+Speaker 2:  to make chips, right? Like that is, that is the quickest, cleanest solution
+
+1022
+01:02:09,720 --> 01:02:13,440
+Speaker 2:  to an existing problem versus some of this longer term
+
+1023
+01:02:13,720 --> 01:02:17,680
+Speaker 2:  build new tech hubs increase the size of the ecosystem. What's your
+
+1024
+01:02:17,680 --> 01:02:21,400
+Speaker 2:  sense of both, like where the money is going and also the sort of goal of
+
+1025
+01:02:21,400 --> 01:02:25,080
+Speaker 2:  a bill like this? Which of those two things does it try to do more of, do
+
+1026
+01:02:25,080 --> 01:02:25,280
+Speaker 2:  you think?
+
+1027
+01:02:25,480 --> 01:02:29,280
+Speaker 20:  Right. I'm sorry to come with like a left hook from this, but when I look
+
+1028
+01:02:29,280 --> 01:02:33,120
+Speaker 20:  at this and I see like people wanting to build jobs and you know,
+
+1029
+01:02:33,140 --> 01:02:36,840
+Speaker 20:  try and start new industries and benefit people, I automatically go to the
+
+1030
+01:02:36,840 --> 01:02:40,560
+Speaker 20:  labor sector, what's happening in labor? You know, what is happening with
+
+1031
+01:02:40,560 --> 01:02:43,880
+Speaker 20:  these companies that are going to be contracted out to build these fabs?
+
+1032
+01:02:43,880 --> 01:02:46,600
+Speaker 20:  Are these people going to be allowed to unionize? Are they going to have
+
+1033
+01:02:46,600 --> 01:02:49,960
+Speaker 20:  benefits? Is this a way for them to actually provide for their families
+
+1034
+01:02:49,960 --> 01:02:53,720
+Speaker 20:  for the next generation for the next 10 years? And so I would be more
+
+1035
+01:02:53,720 --> 01:02:57,240
+Speaker 20:  glued to seeing how Intel, how all these
+
+1036
+01:02:57,760 --> 01:03:01,080
+Speaker 20:  contracting companies that build these things are treating workers right?
+
+1037
+01:03:01,100 --> 01:03:05,080
+Speaker 20:  And whether or not, you know, once these fabs are built, where do the workers
+
+1038
+01:03:05,130 --> 01:03:08,520
+Speaker 20:  go next? Are they going to go build another fab? What are they going to
+
+1039
+01:03:08,520 --> 01:03:12,080
+Speaker 20:  do? That's my main concern. If we're talking about tech hubs, I think that's
+
+1040
+01:03:12,080 --> 01:03:15,920
+Speaker 20:  fairly predictable in being like there's money, they'll go,
+
+1041
+01:03:15,920 --> 01:03:19,320
+Speaker 20:  people will work on stuff if if it's successful, it's successful, they'll
+
+1042
+01:03:19,320 --> 01:03:22,600
+Speaker 20:  receive more money, blah blah blah. But I'm, I have an eye towards labor.
+
+1043
+01:03:22,870 --> 01:03:26,840
+Speaker 2:  Okay. And that also seems like a more immediate thing. Cause I
+
+1044
+01:03:26,840 --> 01:03:29,400
+Speaker 2:  think part of what you're saying, right, is that like the challenge with
+
+1045
+01:03:29,400 --> 01:03:33,080
+Speaker 2:  all of this is measuring success is gonna take a really long time. Like it
+
+1046
+01:03:33,080 --> 01:03:36,400
+Speaker 2:  takes a long time to build buildings, especially large ones that can make
+
+1047
+01:03:36,400 --> 01:03:40,040
+Speaker 2:  very tiny microchips. Like it takes a long time, the labor stuff is gonna
+
+1048
+01:03:40,040 --> 01:03:43,640
+Speaker 2:  be one way we start to see how this is all gonna go down much sooner. Are
+
+1049
+01:03:43,640 --> 01:03:47,440
+Speaker 2:  there other kind of early measures that you or the government
+
+1050
+01:03:47,440 --> 01:03:50,080
+Speaker 2:  are looking at to figure out how this is gonna work? Or are we gonna get
+
+1051
+01:03:50,080 --> 01:03:53,640
+Speaker 2:  to 2035 and everybody's gonna be like, well we spent a lot of money. Did
+
+1052
+01:03:53,640 --> 01:03:54,360
+Speaker 2:  it go, what happened?
+
+1053
+01:03:54,770 --> 01:03:57,800
+Speaker 20:  So you gotta look at like the last thing that the administration did, I
+
+1054
+01:03:57,800 --> 01:04:01,280
+Speaker 20:  think it was the commerce department a couple weeks ago they issued a new
+
+1055
+01:04:01,280 --> 01:04:04,840
+Speaker 20:  rule restricting import of like Chinese
+
+1056
+01:04:05,080 --> 01:04:08,440
+Speaker 20:  goods or like export of American goods and of course to China
+
+1057
+01:04:08,590 --> 01:04:12,280
+Speaker 20:  when it comes to like semiconductor manufacturing purposes. And that sounds
+
+1058
+01:04:12,280 --> 01:04:15,600
+Speaker 20:  like kind of silly, but China has become like really
+
+1059
+01:04:15,790 --> 01:04:19,680
+Speaker 20:  good at the, you know, basic low level consumer
+
+1060
+01:04:19,920 --> 01:04:23,200
+Speaker 20:  products, semiconductor manufacturing, like they can do a lot of that on
+
+1061
+01:04:23,200 --> 01:04:26,920
+Speaker 20:  their own. But when it comes to the more advanced like
+
+1062
+01:04:26,920 --> 01:04:30,880
+Speaker 20:  artificial intelligence stuff, GPUs, those
+
+1063
+01:04:30,880 --> 01:04:34,560
+Speaker 20:  more powerful things, they need American devices and they need American
+
+1064
+01:04:34,560 --> 01:04:38,440
+Speaker 20:  tech and patents and things. So I think I would pay more attention to
+
+1065
+01:04:38,440 --> 01:04:42,240
+Speaker 20:  how that's going to cripple, you know, China's military, China's
+
+1066
+01:04:42,240 --> 01:04:45,800
+Speaker 20:  ability to, you know, invest in advanced manufacturing, tech
+
+1067
+01:04:45,800 --> 01:04:49,400
+Speaker 20:  manufacturing. Of course that'll play out God, how does America work, right?
+
+1068
+01:04:49,600 --> 01:04:53,520
+Speaker 20:  It'll play out in the military sense, right? And the global dominance,
+
+1069
+01:04:53,620 --> 01:04:57,320
+Speaker 20:  you know, American Chinese deity sense probably before we see much for
+
+1070
+01:04:57,640 --> 01:04:58,600
+Speaker 20:  American people, right?
+
+1071
+01:04:58,600 --> 01:05:01,760
+Speaker 2:  Which is, you just brought us to the final stage of this, right? Which is
+
+1072
+01:05:01,760 --> 01:05:05,600
+Speaker 2:  like massive global geopolitics, right? Like this is now there are like
+
+1073
+01:05:05,600 --> 01:05:08,720
+Speaker 2:  world war three questions baked into intel building
+
+1074
+01:05:09,150 --> 01:05:13,000
+Speaker 2:  fabs in Ohio, which is like insane but seems
+
+1075
+01:05:13,320 --> 01:05:15,680
+Speaker 2:  actually true And right every, everybody talks about national security and
+
+1076
+01:05:15,680 --> 01:05:19,240
+Speaker 2:  it's like that we're starting to think about about chips politically as people
+
+1077
+01:05:19,240 --> 01:05:22,080
+Speaker 2:  think have thought about weapons for a long time. And it's like, it's just
+
+1078
+01:05:22,080 --> 01:05:25,960
+Speaker 2:  it this, this has all gotten so much bigger and so much more
+
+1079
+01:05:26,190 --> 01:05:30,080
+Speaker 2:  high stakes than just like cars and fridges and how
+
+1080
+01:05:30,080 --> 01:05:33,240
+Speaker 2:  much that's really true now and how much that is like useful political posturing
+
+1081
+01:05:33,490 --> 01:05:37,200
+Speaker 2:  in order to get stuff like this done is hard to tell. But it seems like we're
+
+1082
+01:05:37,200 --> 01:05:40,440
+Speaker 2:  certainly headed in that direction and like this is political warfare as
+
+1083
+01:05:40,440 --> 01:05:41,520
+Speaker 2:  much as it is anything else,
+
+1084
+01:05:41,520 --> 01:05:45,400
+Speaker 20:  Right? I mean the thing that I keep thinking of is in 10
+
+1085
+01:05:45,400 --> 01:05:49,200
+Speaker 20:  years, is TSMC going to be viewed as
+
+1086
+01:05:49,200 --> 01:05:53,160
+Speaker 20:  the Boeing, right? That manufactures all of these fighter jets that
+
+1087
+01:05:53,160 --> 01:05:56,480
+Speaker 20:  are really important to the American military na today and like starting,
+
+1088
+01:05:56,480 --> 01:06:00,120
+Speaker 20:  you know, decades ago, or is Intel going to be Boeing,
+
+1089
+01:06:00,340 --> 01:06:04,320
+Speaker 20:  you know, these other, you know, companies you think about in the DMV area
+
+1090
+01:06:04,510 --> 01:06:08,440
+Speaker 20:  that manufacture fighter jets that manufacture military equipment and ballistics,
+
+1091
+01:06:08,490 --> 01:06:12,080
+Speaker 20:  is that going to be Chinese companies that people rely on or is that going
+
+1092
+01:06:12,080 --> 01:06:15,720
+Speaker 20:  to be US companies? And now, you know, when it comes to even visualizing
+
+1093
+01:06:15,820 --> 01:06:19,680
+Speaker 20:  aerodynamic stuff for these, you know, Boeing jets or whatever,
+
+1094
+01:06:19,680 --> 01:06:23,040
+Speaker 20:  like it's getting to the point where you need artificial intelligence to
+
+1095
+01:06:23,040 --> 01:06:26,960
+Speaker 20:  model these things. It's so wild to think like, man, why can't
+
+1096
+01:06:26,960 --> 01:06:30,120
+Speaker 20:  I think of the company name right now? But all the, you know, American military
+
+1097
+01:06:30,120 --> 01:06:33,240
+Speaker 20:  companies, you know, that create these ballistics and stuff, That's what
+
+1098
+01:06:33,240 --> 01:06:36,840
+Speaker 20:  I imagined, like Intel Byron being in like 20 years, which is crazy. Yeah,
+
+1099
+01:06:36,840 --> 01:06:40,560
+Speaker 20:  I don't wanna talk about the morality of it, I have no idea. But that seems
+
+1100
+01:06:40,560 --> 01:06:43,160
+Speaker 20:  to be, you know, where the government is pushing, you know, the next stage
+
+1101
+01:06:43,410 --> 01:06:45,120
+Speaker 20:  of, you know, national security stuff.
+
+1102
+01:06:45,120 --> 01:06:49,040
+Speaker 2:  Yeah, a hundred percent. So now that this bill is done, what's the mood around
+
+1103
+01:06:49,040 --> 01:06:52,120
+Speaker 2:  it? Is everybody like, well we didn't, it's not perfect, but we're glad we
+
+1104
+01:06:52,120 --> 01:06:55,160
+Speaker 2:  got it done. Is everybody, are we still fighting about it? Is everybody thrilled
+
+1105
+01:06:55,160 --> 01:06:58,840
+Speaker 2:  and like waving flags around and throwing microchips at each other? Like
+
+1106
+01:06:58,840 --> 01:06:59,640
+Speaker 2:  what's, what's the mood?
+
+1107
+01:07:00,110 --> 01:07:02,840
+Speaker 20:  I think the mood right now is, it's over,
+
+1108
+01:07:03,970 --> 01:07:06,400
+Speaker 20:  to be honest with you. It's been so many years. I think people are just
+
+1109
+01:07:06,400 --> 01:07:09,480
+Speaker 20:  like, it's over. Thank God. Yeah. And everyone's kind of focused on like
+
+1110
+01:07:09,480 --> 01:07:11,960
+Speaker 20:  the next two years of the Biden administration and what that looks like.
+
+1111
+01:07:12,060 --> 01:07:15,920
+Speaker 20:  And then the tweaks that could be made are going to happen through,
+
+1112
+01:07:16,020 --> 01:07:19,920
+Speaker 20:  you know, the federal agencies and like government bureaucrats and commerce
+
+1113
+01:07:19,920 --> 01:07:23,720
+Speaker 20:  department, dod, et cetera. So that's where I kind of be looking at
+
+1114
+01:07:23,720 --> 01:07:26,640
+Speaker 20:  they Congress put their foot in, they did the money, they did the thing.
+
+1115
+01:07:26,640 --> 01:07:30,040
+Speaker 20:  Yeah. Now it's like the rest of the administration's problem to solve.
+
+1116
+01:07:31,040 --> 01:07:34,880
+Speaker 21:  Whenever we invest in science, it pays off. We invested in NIH
+
+1117
+01:07:34,880 --> 01:07:38,560
+Speaker 21:  and it created the largest pharmaceutical and most advanced
+
+1118
+01:07:38,560 --> 01:07:42,360
+Speaker 21:  pharmaceutical industry in the world. We invested in NSF and
+
+1119
+01:07:42,360 --> 01:07:46,080
+Speaker 21:  darpa and it created the most advanced tech industry in the world.
+
+1120
+01:07:46,510 --> 01:07:50,360
+Speaker 21:  Tens of millions of new jobs, direct and indirect came
+
+1121
+01:07:50,360 --> 01:07:53,720
+Speaker 21:  out because of these ships as the next chapter
+
+1122
+01:07:54,050 --> 01:07:57,240
+Speaker 21:  in that book and it's gonna help America for generation.
+
+1123
+01:07:57,830 --> 01:08:00,840
+Speaker 2:  Fair enough. All right, McKenna, thank you. I appreciate
+
+1124
+01:08:00,840 --> 01:08:02,280
+Speaker 20:  It. Yeah, no problem. Thanks folks.
+
+1125
+01:08:02,980 --> 01:08:06,600
+Speaker 2:  All right, that's it for the Verge Cast today. Thank you as always for listening.
+
+1126
+01:08:06,730 --> 01:08:10,280
+Speaker 2:  As always, there is tons more on everything we talked about on the
+
+1127
+01:08:10,280 --> 01:08:13,960
+Speaker 2:  verge.com especially in case you're wondering, the Elon Musk Twitter saga
+
+1128
+01:08:13,960 --> 01:08:17,240
+Speaker 2:  keeps being nuts. We're still covering it on the site and we're gonna have
+
+1129
+01:08:17,240 --> 01:08:21,000
+Speaker 2:  lots more to say about it on Friday. So stay tuned. You can also follow all
+
+1130
+01:08:21,000 --> 01:08:24,480
+Speaker 2:  of us on Twitter, at least for now. Who knows where that's going. Addie is
+
+1131
+01:08:24,480 --> 01:08:28,360
+Speaker 2:  the Dex Patriarchy. McKenna is Kelly McKenna. And I'm Pierce. This show is
+
+1132
+01:08:28,520 --> 01:08:32,000
+Speaker 2:  produced by Andrew Marino and Liam James Nori Donovan is our executive producer
+
+1133
+01:08:32,000 --> 01:08:35,720
+Speaker 2:  and Brooke Miners is our editorial director of audio. The Vergecast is a
+
+1134
+01:08:35,720 --> 01:08:39,520
+Speaker 2:  Verge production and part of the Vox Media podcast network. If you have thoughts,
+
+1135
+01:08:40,120 --> 01:08:43,880
+Speaker 2:  feedback, feelings, or mystical orbs that can see into the future, you can
+
+1136
+01:08:43,880 --> 01:08:47,640
+Speaker 2:  always email us at vergecast@theverge.com. And if you have questions, call
+
+1137
+01:08:47,640 --> 01:08:51,480
+Speaker 2:  the hotline. It's eight six six Verge one one, and we want to hear all
+
+1138
+01:08:51,480 --> 01:08:54,800
+Speaker 2:  your big thoughts and questions about all things technology. We'll be back
+
+1139
+01:08:54,800 --> 01:08:58,600
+Speaker 2:  on Friday to discuss Elon and Twitter, T-Mobile's, broadband
+
+1140
+01:08:58,600 --> 01:09:01,960
+Speaker 2:  plans, Zoom's plan to take over movie theaters and a whole bunch of other
+
+1141
+01:09:01,960 --> 01:09:02,920
+Speaker 2:  stuff. We'll see you then. Rock and roll.
+

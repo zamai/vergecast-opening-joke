@@ -1,0 +1,2045 @@
+1
+00:00:00,000 --> 00:00:05,000
+# Transcript
+ID: ab8cdb20-0829-4ddf-937c-78719d560e98
+Status: Done
+Stage: Done
+Audio URL: https://jfe93e.s3.amazonaws.com/-8793600971836145754/2913271150673695885/s93290-US-2262s-1716767988.mp3
+Description: On this episode of The Vergecast, the fourth and final installment of our series on the five senses of video games, we asked Polygon’s Charlie Hall to help us make sense of the current state of the art in flight simulation. Hall, who once spent more than four months in VR mapping the edge of the Milky Way galaxy in Elite: Dangerous, has more experience in a virtual cockpit than most. We wanted to know how the pros set up their simulators to get the most realistic experience and why it’s so complicated to make a virtual world look like the real one.
+
+2
+00:01:14,445 --> 00:01:17,965
+Speaker 3:  so excited we get to like, have you on instead of just
+
+3
+00:01:49,025 --> 00:01:51,965
+Speaker 3:  you were like all up about wanting to do a whole thing about televisions.
+
+4
+00:01:52,605 --> 00:01:56,165
+Speaker 1:  I did. I am a huge display nerd. I find new
+
+5
+00:01:56,845 --> 00:02:00,765
+Speaker 1:  tandem ole screens to just be, to me, that's my sports,
+
+6
+00:02:01,425 --> 00:02:04,365
+Speaker 1:  but David wouldn't let me do that. Listener lucky for you.
+
+7
+00:02:04,435 --> 00:02:07,925
+Speaker 3:  Nothing makes great audio like deep dives into display
+
+8
+00:02:07,925 --> 00:02:09,885
+Speaker 3:  technology. That's, that's kinda how I feel.
+
+9
+00:02:10,655 --> 00:02:14,325
+Speaker 1:  Agree to disagree, agree to disagree. But yeah, the, the journey
+
+10
+00:02:14,395 --> 00:02:18,245
+Speaker 1:  took me back to my childhood, which was a very big surprise. And it turns
+
+11
+00:02:18,305 --> 00:02:22,285
+Speaker 1:  out the thing that was the the most advanced, most
+
+12
+00:02:22,285 --> 00:02:25,965
+Speaker 1:  spectacular visual experience you could have back when I was a kid
+
+13
+00:02:26,445 --> 00:02:30,085
+Speaker 1:  is arguably still the same thing. And that's flight simulators. Mm.
+
+14
+00:02:30,515 --> 00:02:34,085
+Speaker 1:  Yeah. Back when I was a kid, flight simulator was the thing I wanted to try
+
+15
+00:02:34,085 --> 00:02:37,805
+Speaker 1:  but couldn't, didn't have the computing power. So I, I just kind of admired
+
+16
+00:02:37,805 --> 00:02:41,325
+Speaker 1:  it from afar and stopped paying attention to it once I got a little older.
+
+17
+00:02:41,865 --> 00:02:45,805
+Speaker 1:  But fast forward to this episode and, and looking around at what
+
+18
+00:02:45,865 --> 00:02:49,365
+Speaker 1:  the visual landscape is in gaming and I was blown away
+
+19
+00:02:49,665 --> 00:02:53,565
+Speaker 1:  by what you can recreate in a flight simulator today. It's
+
+20
+00:02:53,565 --> 00:02:57,365
+Speaker 1:  just astonishing. So I reached out to Polygon, I said, who's the
+
+21
+00:02:57,365 --> 00:03:00,445
+Speaker 1:  flight sim person that I should be speaking to about this? And of course
+
+22
+00:03:00,795 --> 00:03:04,205
+Speaker 1:  they partnered me up with Charlie Hall, who I had a great conversation with
+
+23
+00:03:04,205 --> 00:03:07,365
+Speaker 1:  about all this. But what I really wanted to find out was
+
+24
+00:03:08,025 --> 00:03:11,685
+Speaker 1:  in 2024, what is the best way to experience a flight
+
+25
+00:03:11,685 --> 00:03:15,165
+Speaker 1:  simulator? Is it creating a wall of monitors? Is it
+
+26
+00:03:15,275 --> 00:03:18,925
+Speaker 1:  strapping a VR headset on? Is it something in between?
+
+27
+00:03:19,465 --> 00:03:23,205
+Speaker 1:  And the answer was not as obvious as I thought it would be. And Charlie really
+
+28
+00:03:23,205 --> 00:03:27,085
+Speaker 1:  helped me understand what is a gimmick and what is actually useful when you're
+
+29
+00:03:27,085 --> 00:03:29,325
+Speaker 1:  trying to fly a virtual airplane. Okay.
+
+30
+00:03:29,345 --> 00:03:32,645
+Speaker 3:  So before we get into it, just give me the like super high level,
+
+31
+00:03:33,075 --> 00:03:36,845
+Speaker 3:  what is it about Flight Simulator that is so sort of uniquely
+
+32
+00:03:36,905 --> 00:03:40,565
+Speaker 3:  visual? Like when I think of really visual games, you think about the sort
+
+33
+00:03:40,565 --> 00:03:44,485
+Speaker 3:  of big huge open world like No Man Sky kind of games with like
+
+34
+00:03:44,485 --> 00:03:47,685
+Speaker 3:  beautiful graphics and it's always in space and everything is happening.
+
+35
+00:03:47,745 --> 00:03:51,085
+Speaker 3:  Flight Simulator seems otherwise like, it's just like a bunch of buttons
+
+36
+00:03:51,085 --> 00:03:53,885
+Speaker 3:  and you're in a cockpit. Like what, what is it about Flight Simulator that
+
+37
+00:03:53,885 --> 00:03:55,965
+Speaker 3:  felt so like specifically visual to you?
+
+38
+00:03:56,725 --> 00:04:00,165
+Speaker 1:  Absolutely. The more fantasy like games,
+
+39
+00:04:00,585 --> 00:04:04,445
+Speaker 1:  in fact even flight simulators that take place in space are actually a lot
+
+40
+00:04:04,445 --> 00:04:08,285
+Speaker 1:  easier for us to create because they're not based on something in real life
+
+41
+00:04:08,285 --> 00:04:12,085
+Speaker 1:  that we can compare it to. Whereas in a flight simulator, like for instance,
+
+42
+00:04:12,605 --> 00:04:16,365
+Speaker 1:  Microsoft, Flight Simulator, you've got models of real planes at real
+
+43
+00:04:16,485 --> 00:04:19,925
+Speaker 1:  airports. You're actually flying a real life
+
+44
+00:04:20,135 --> 00:04:23,725
+Speaker 1:  recreation of planet Earth. You can literally fly
+
+45
+00:04:24,225 --> 00:04:27,885
+Speaker 1:  all the way around the earth and If, you were to look at a bird's eye view
+
+46
+00:04:27,885 --> 00:04:31,845
+Speaker 1:  of what you're seeing. It is one to one exact to
+
+47
+00:04:32,405 --> 00:04:36,005
+Speaker 1:  satellite imagery that Microsoft has been building over many, many years.
+
+48
+00:04:36,185 --> 00:04:38,965
+Speaker 3:  And if I'm not mistaken, there are a lot of people on the internet who like
+
+49
+00:04:38,995 --> 00:04:42,885
+Speaker 3:  make it their job to find when that is wrong. And
+
+50
+00:04:42,885 --> 00:04:46,645
+Speaker 3:  that like the stakes for screwing up the length of a runway at the airport
+
+51
+00:04:46,665 --> 00:04:48,725
+Speaker 3:  in flight simulator are actually like pretty high.
+
+52
+00:04:49,475 --> 00:04:53,005
+Speaker 1:  Very high, yes. Okay. Everything from the hat switches to the
+
+53
+00:04:53,005 --> 00:04:56,725
+Speaker 1:  airports to the airplane reflections on the outside. They, they try for
+
+54
+00:04:57,225 --> 00:05:00,885
+Speaker 1:  the most accurate representation as you can get. And that's a lot harder
+
+55
+00:05:01,195 --> 00:05:05,125
+Speaker 1:  than just creating some wacky looking spaceship that you'd
+
+56
+00:05:05,125 --> 00:05:06,725
+Speaker 1:  see in in a Sci-fi movie.
+
+57
+00:05:07,145 --> 00:05:09,885
+Speaker 3:  Got it. Fair enough. All right, well, before we get into it, I should say
+
+58
+00:05:10,165 --> 00:05:14,085
+Speaker 3:  I haven't really been a flight simulator guy and still I'm sitting here looking
+
+59
+00:05:14,085 --> 00:05:17,445
+Speaker 3:  at my one measly 24 inch monitor and I feel like this episode is about to
+
+60
+00:05:17,445 --> 00:05:21,325
+Speaker 3:  cost me a tremendous amount of money. So with that as a warning to everybody,
+
+61
+00:05:21,545 --> 00:05:22,485
+Speaker 3:  here's Liam and Charlie.
+
+62
+00:05:24,315 --> 00:05:28,285
+Speaker 1:  Charlie Hall, Welcome To, The Vergecast. Glad to be here. So I
+
+63
+00:05:28,285 --> 00:05:32,085
+Speaker 1:  was lucky enough to be the producer chosen to do the Vision
+
+64
+00:05:32,085 --> 00:05:35,685
+Speaker 1:  episode for this gaming series that we've been running the last three
+
+65
+00:05:35,755 --> 00:05:39,445
+Speaker 1:  Sundays. I couldn't help myself. I went back to being an
+
+66
+00:05:39,445 --> 00:05:42,405
+Speaker 1:  8-year-old kid with Packard Bell 46 computer
+
+67
+00:05:42,995 --> 00:05:46,885
+Speaker 1:  wanting to play video games. And the one I wanted
+
+68
+00:05:46,885 --> 00:05:50,805
+Speaker 1:  to play the most but couldn't actually run on my machine was
+
+69
+00:05:51,125 --> 00:05:52,085
+Speaker 1:  Microsoft Flight Simulator.
+
+70
+00:05:52,545 --> 00:05:55,765
+Speaker 4:  Yes, yes, yes. Yeah. The, the original like
+
+71
+00:05:56,225 --> 00:06:00,005
+Speaker 4:  crisis for PC gaming, right. Does it run Flight
+
+72
+00:06:00,005 --> 00:06:00,605
+Speaker 4:  Simulator?
+
+73
+00:06:01,245 --> 00:06:05,165
+Speaker 1:  Absolutely. This was 1993 or 1994. And yeah,
+
+74
+00:06:05,365 --> 00:06:09,045
+Speaker 1:  I just, I couldn't run Flight Simulator and probably because of that,
+
+75
+00:06:09,095 --> 00:06:13,005
+Speaker 1:  right? I wanted to play it so badly, even though as
+
+76
+00:06:13,585 --> 00:06:17,405
+Speaker 1:  you know, a third grade kid, I probably wouldn't have had the
+
+77
+00:06:17,565 --> 00:06:21,365
+Speaker 1:  patience to sit through the pre-flight checks and actually get a plane off
+
+78
+00:06:21,365 --> 00:06:24,565
+Speaker 1:  the ground in Flight Simulator. Didn't matter. I wanted to play that game
+
+79
+00:06:24,565 --> 00:06:28,405
+Speaker 1:  because it just felt like something above and
+
+80
+00:06:28,405 --> 00:06:32,005
+Speaker 1:  beyond a normal video game that you were flying in the air, but it also
+
+81
+00:06:32,515 --> 00:06:36,245
+Speaker 1:  felt as close to real in 19 93, 19 94
+
+82
+00:06:36,445 --> 00:06:37,805
+Speaker 1:  graphics that you could get.
+
+83
+00:06:38,525 --> 00:06:38,805
+Speaker 4:  Absolutely.
+
+84
+00:06:39,225 --> 00:06:42,965
+Speaker 1:  So fast forward to today, working adult with a salary.
+
+85
+00:06:43,365 --> 00:06:47,165
+Speaker 1:  I could actually afford things like a gaming PC that could run Flight Simulator.
+
+86
+00:06:47,445 --> 00:06:51,125
+Speaker 1:  I wanted to see what does Flight Simulator feel like and look like
+
+87
+00:06:51,455 --> 00:06:55,245
+Speaker 1:  today, and quite a bit has changed in Flight Simulator in
+
+88
+00:06:55,245 --> 00:06:55,765
+Speaker 1:  30 years.
+
+89
+00:06:56,385 --> 00:06:56,805
+Speaker 4:  It has.
+
+90
+00:06:57,425 --> 00:07:00,645
+Speaker 1:  So maybe you could tell me a little bit about your experience with Flight
+
+91
+00:07:00,645 --> 00:07:04,485
+Speaker 1:  Simulator. I know that Microsoft's been doing this for quite some
+
+92
+00:07:04,485 --> 00:07:08,405
+Speaker 1:  time, but you know, there was some time in between where there was
+
+93
+00:07:08,925 --> 00:07:12,765
+Speaker 1:  a dearth of flight simulators out there. What's the deal with Microsoft?
+
+94
+00:07:12,765 --> 00:07:14,085
+Speaker 1:  Flight Simulator? Well,
+
+95
+00:07:14,235 --> 00:07:18,125
+Speaker 4:  Much like you, I started playing Microsoft Flight Simulator in
+
+96
+00:07:18,155 --> 00:07:22,005
+Speaker 4:  like the, the late eighties, early nineties. My
+
+97
+00:07:22,145 --> 00:07:26,085
+Speaker 4:  dad actually worked at Bell Laboratories here in, in northern
+
+98
+00:07:26,485 --> 00:07:30,325
+Speaker 4:  Illinois. So he was able to bring home kind of is almost like
+
+99
+00:07:30,435 --> 00:07:33,365
+Speaker 4:  company surplus, these fairly high-end
+
+100
+00:07:33,915 --> 00:07:36,645
+Speaker 4:  switching terminals, basically. So I had a PC
+
+101
+00:07:36,645 --> 00:07:40,405
+Speaker 4:  sixty three hundred and eighty eighty six board. And so I was playing an
+
+102
+00:07:40,505 --> 00:07:44,325
+Speaker 4:  old version of Microsoft Flight Simulator. I had the ad lib sound card, right?
+
+103
+00:07:44,325 --> 00:07:48,045
+Speaker 4:  So I had all the good stuff and I had my gravis joystick
+
+104
+00:07:48,125 --> 00:07:48,445
+Speaker 4:  there.
+
+105
+00:07:48,945 --> 00:07:50,445
+Speaker 1:  Oh wow. You had a gravis.
+
+106
+00:07:50,845 --> 00:07:54,325
+Speaker 4:  I did, but it, it didn't have the twist rudder, right? So I had to do rudder
+
+107
+00:07:54,325 --> 00:07:58,125
+Speaker 4:  with the keyboard anyway. And so I was able to take off and get
+
+108
+00:07:58,145 --> 00:08:01,445
+Speaker 4:  up and going from MIGS field, you know, back when there was a MIGS field
+
+109
+00:08:01,445 --> 00:08:04,805
+Speaker 4:  before Mayor Daley put a couple of exes through it. And that really
+
+110
+00:08:05,595 --> 00:08:09,045
+Speaker 4:  gave birth to this kind of life long gaming
+
+111
+00:08:09,555 --> 00:08:13,445
+Speaker 4:  obsession with flight for me. I went deep on flight
+
+112
+00:08:13,445 --> 00:08:17,405
+Speaker 4:  simulator, I got all the mods as they were going up for clearance at Toys
+
+113
+00:08:17,475 --> 00:08:21,445
+Speaker 4:  Ross. Right? I remember a science fair project that I did
+
+114
+00:08:21,505 --> 00:08:25,165
+Speaker 4:  in eighth grade where I combined Sim City and
+
+115
+00:08:25,605 --> 00:08:29,085
+Speaker 4:  Microsoft Flight Simulator and took the teacher on a tour
+
+116
+00:08:29,665 --> 00:08:32,885
+Speaker 4:  of my sim city that I had rebuilt in
+
+117
+00:08:33,405 --> 00:08:36,365
+Speaker 4:  Microsoft Flight Simulator. Like I was way into it as a kid.
+
+118
+00:08:36,725 --> 00:08:39,805
+Speaker 1:  I just need to pause, I just need to pause for a moment to just tell the
+
+119
+00:08:39,965 --> 00:08:43,525
+Speaker 1:  listener the, the face I just had on was in of, of
+
+120
+00:08:43,845 --> 00:08:47,805
+Speaker 1:  complete awe. I mean, those were the games of my childhood sim
+
+121
+00:08:47,805 --> 00:08:51,605
+Speaker 1:  city flight simulator that, that was so impressed, so impressed. Go on. I
+
+122
+00:08:51,685 --> 00:08:52,845
+Speaker 1:  I apologize for interrupting.
+
+123
+00:08:53,825 --> 00:08:57,725
+Speaker 4:  But the way that Microsoft Flight Simulator was built
+
+124
+00:08:57,915 --> 00:09:01,805
+Speaker 4:  back in the day was entirely by hand. The, the
+
+125
+00:09:01,805 --> 00:09:05,685
+Speaker 4:  John Hancock building, the Prudential building, all of those
+
+126
+00:09:05,685 --> 00:09:09,365
+Speaker 4:  famous buildings in the Chicago skyline were built
+
+127
+00:09:09,865 --> 00:09:13,685
+Speaker 4:  by hand. So If you, If you went too long on your approach and you
+
+128
+00:09:13,745 --> 00:09:17,525
+Speaker 4:  hit the Adler Planetarium there at the end of MIGS Field. Like somebody put
+
+129
+00:09:17,525 --> 00:09:21,125
+Speaker 4:  that there to impeach your progress in the game. But that is not
+
+130
+00:09:21,125 --> 00:09:24,525
+Speaker 4:  necessarily the case in the modern version of
+
+131
+00:09:24,885 --> 00:09:28,005
+Speaker 4:  Microsoft Flight Simulator. And we can, we can certainly get to the modern
+
+132
+00:09:28,005 --> 00:09:31,085
+Speaker 4:  version of Microsoft Flight Simulator. But you know, for a while there
+
+133
+00:09:31,925 --> 00:09:35,445
+Speaker 4:  Microsoft kind of kept the heartbeat going,
+
+134
+00:09:35,575 --> 00:09:38,845
+Speaker 4:  right? And then kind of some new competitors came into the space.
+
+135
+00:09:39,415 --> 00:09:43,365
+Speaker 4:  XPLAN is another really popular platform that kind of
+
+136
+00:09:43,365 --> 00:09:47,085
+Speaker 4:  grew up during the, the early two thousands and kind of came
+
+137
+00:09:47,145 --> 00:09:51,085
+Speaker 4:  of age and kind of the 20 teams. But then there was this
+
+138
+00:09:51,225 --> 00:09:55,165
+Speaker 4:  big surge of space flight simulation as well.
+
+139
+00:09:55,395 --> 00:09:59,245
+Speaker 4:  This Chris Roberts, one of the co-creators of the
+
+140
+00:09:59,245 --> 00:10:02,965
+Speaker 4:  Wing Commander franchise, kind of brought that back to life with Star Citizen,
+
+141
+00:10:03,195 --> 00:10:07,125
+Speaker 4:  this massive ongoing decade long project to,
+
+142
+00:10:07,185 --> 00:10:10,805
+Speaker 4:  to recreate kind of the nineties dream of Wing
+
+143
+00:10:10,805 --> 00:10:13,925
+Speaker 4:  commander inside that game. And then of course, elite
+
+144
+00:10:14,555 --> 00:10:18,405
+Speaker 4:  came into its own with a brand new version called Elite Dangerous.
+
+145
+00:10:18,825 --> 00:10:22,245
+Speaker 4:  And I've, I've also had the experience in both of those. But after
+
+146
+00:10:22,835 --> 00:10:26,485
+Speaker 4:  both of those products came to market, that's when Microsoft came
+
+147
+00:10:26,915 --> 00:10:30,565
+Speaker 4:  back to it basically with this new vision for
+
+148
+00:10:30,845 --> 00:10:34,525
+Speaker 4:  Microsoft Flight Simulator. Which while there are some things in the game
+
+149
+00:10:34,525 --> 00:10:38,365
+Speaker 4:  that are kind of made and rendered and and done by hand,
+
+150
+00:10:38,905 --> 00:10:42,645
+Speaker 4:  the vast majority of the game is, is not done by hand. It's actually done
+
+151
+00:10:42,675 --> 00:10:46,045
+Speaker 4:  with a very sophisticated, almost kind of
+
+152
+00:10:46,045 --> 00:10:48,085
+Speaker 4:  photogrammetry, which we can discuss too.
+
+153
+00:10:48,625 --> 00:10:52,565
+Speaker 1:  So yeah, 2020 rolls around and Microsoft releases what
+
+154
+00:10:52,945 --> 00:10:55,845
+Speaker 1:  to a layman's eyes like mine looks like
+
+155
+00:10:56,625 --> 00:11:00,525
+Speaker 1:  photorealistic flight simulation. How do they pull that off? Have GPUs
+
+156
+00:11:00,555 --> 00:11:04,285
+Speaker 1:  just gotten so good? What's, what is it that's making this look
+
+157
+00:11:04,625 --> 00:11:05,005
+Speaker 1:  so pretty?
+
+158
+00:11:05,395 --> 00:11:09,285
+Speaker 4:  Well, you gotta remember that Microsoft is, well it's a, it's a very
+
+159
+00:11:09,285 --> 00:11:12,445
+Speaker 4:  large company, Liam. And in addition to
+
+160
+00:11:12,905 --> 00:11:16,365
+Speaker 4:  having in its portfolio Microsoft Flight
+
+161
+00:11:16,365 --> 00:11:19,685
+Speaker 4:  Simulator, which I don't know if you're aware, is its oldest
+
+162
+00:11:20,135 --> 00:11:23,765
+Speaker 4:  piece of published software. It's older even than Windows.
+
+163
+00:11:24,025 --> 00:11:27,805
+Speaker 4:  In addition to owning Microsoft, Flight Simulator, well it
+
+164
+00:11:27,805 --> 00:11:31,485
+Speaker 4:  also owns this little thing called Bing. And Bing
+
+165
+00:11:31,625 --> 00:11:35,445
+Speaker 4:  is, in addition to being a very capable search engine, it is
+
+166
+00:11:35,635 --> 00:11:39,485
+Speaker 4:  also a entire suite of mapping tools. So just
+
+167
+00:11:39,485 --> 00:11:43,325
+Speaker 4:  so you can go to Google Maps, you can go to Bing Maps and you can find
+
+168
+00:11:43,325 --> 00:11:47,045
+Speaker 4:  your way around. But Bing has done something a little bit more
+
+169
+00:11:47,685 --> 00:11:50,885
+Speaker 4:  aggressively than Google has and that is capturing
+
+170
+00:11:51,685 --> 00:11:55,045
+Speaker 4:  satellite information of the entire world.
+
+171
+00:11:55,805 --> 00:11:59,645
+Speaker 4:  And so what Microsoft and its partners at a Sobo
+
+172
+00:11:59,645 --> 00:12:03,165
+Speaker 4:  studio, a French studio that actually did a lot of the heavy lifting on Microsoft
+
+173
+00:12:03,165 --> 00:12:06,725
+Speaker 4:  Flight Simulator, what they were able to do is take,
+
+174
+00:12:07,165 --> 00:12:11,085
+Speaker 4:  I dunno if it's two or four or five petabytes
+
+175
+00:12:11,545 --> 00:12:15,125
+Speaker 4:  of this satellite data that it's getting
+
+176
+00:12:15,435 --> 00:12:19,405
+Speaker 4:  that Microsoft owns effectively as part of Bing Maps. And
+
+177
+00:12:19,405 --> 00:12:22,765
+Speaker 4:  then it bolted Microsoft Flight Simulator to this data.
+
+178
+00:12:23,305 --> 00:12:27,245
+Speaker 4:  So when folks received Microsoft Flight Simulator in the
+
+179
+00:12:27,245 --> 00:12:30,925
+Speaker 4:  mail, or when they downloaded the client, they were really only downloading
+
+180
+00:12:30,965 --> 00:12:34,885
+Speaker 4:  a tiny fraction of what they needed to run the game.
+
+181
+00:12:35,385 --> 00:12:38,765
+Speaker 4:  You get the, the app outlet, you get the client, you get, you get it started
+
+182
+00:12:38,865 --> 00:12:42,125
+Speaker 4:  up and then it starts downloading, I think it was
+
+183
+00:12:42,205 --> 00:12:45,725
+Speaker 4:  120 gigabytes on launch day. It was one of the largest
+
+184
+00:12:46,845 --> 00:12:50,605
+Speaker 4:  downloads on launch day that I had ever received. And
+
+185
+00:12:50,605 --> 00:12:54,085
+Speaker 4:  that was just the basic information. After you get that
+
+186
+00:12:54,125 --> 00:12:57,845
+Speaker 4:  120 gigabytes, then it starts streaming data directly
+
+187
+00:12:58,075 --> 00:13:01,885
+Speaker 4:  from Bing. So If you go, like, I went to Egypt to
+
+188
+00:13:02,145 --> 00:13:06,125
+Speaker 4:  be parked, you know, 2000 feet over the great pyramid at Giza.
+
+189
+00:13:06,355 --> 00:13:09,325
+Speaker 4:  It's streaming in satellite data,
+
+190
+00:13:09,745 --> 00:13:13,525
+Speaker 4:  photogrammetry information, all of this sophisticated information
+
+191
+00:13:13,755 --> 00:13:17,485
+Speaker 4:  from Bing Maps and putting it directly on the screen
+
+192
+00:13:17,705 --> 00:13:21,245
+Speaker 4:  in front of you using all kinds of technological
+
+193
+00:13:21,645 --> 00:13:24,885
+Speaker 4:  wizardry. And it's literally applying that satellite data
+
+194
+00:13:25,865 --> 00:13:29,405
+Speaker 4:  to other data sets that it's pulling in. It has
+
+195
+00:13:30,195 --> 00:13:33,885
+Speaker 4:  topographical information that it literally skins the
+
+196
+00:13:33,885 --> 00:13:37,685
+Speaker 4:  ground with satellite information at launch. It was really
+
+197
+00:13:37,685 --> 00:13:40,445
+Speaker 4:  weird. It looked kinda like there were rivers that were kinda crawling up
+
+198
+00:13:40,445 --> 00:13:44,365
+Speaker 4:  the sides of mountains. They hadn't quite gotten it dialed in
+
+199
+00:13:44,575 --> 00:13:48,445
+Speaker 4:  quite perfectly as the game has progressed since 2020.
+
+200
+00:13:48,875 --> 00:13:52,685
+Speaker 4:  That resolution, the, the difference between the topographical map
+
+201
+00:13:52,825 --> 00:13:56,565
+Speaker 4:  and the satellite data has become even better. You're literally
+
+202
+00:13:56,565 --> 00:13:59,845
+Speaker 4:  able to fly over the entire surface of the entire world.
+
+203
+00:14:00,345 --> 00:14:04,005
+Speaker 4:  And it looks like it does in bing maps.
+
+204
+00:14:04,145 --> 00:14:07,485
+Speaker 4:  It, it actually looks better because it's, it's putting in trees,
+
+205
+00:14:07,955 --> 00:14:11,685
+Speaker 4:  it's putting in houses, it's put, it's putting color on the
+
+206
+00:14:11,685 --> 00:14:15,045
+Speaker 4:  roofs of these houses and it's doing all of it automatically without really
+
+207
+00:14:15,105 --> 00:14:18,205
+Speaker 4:  any human intervention on that landscape. It's, it's really remarkable.
+
+208
+00:14:18,795 --> 00:14:22,765
+Speaker 1:  Yeah, I, I have wondered a couple times why the, the map companies,
+
+209
+00:14:22,765 --> 00:14:26,725
+Speaker 1:  the Google maps, the Apple Maps being don't just copy Flight Simulator
+
+210
+00:14:26,725 --> 00:14:29,765
+Speaker 1:  because it is that much just prettier looking
+
+211
+00:14:30,505 --> 00:14:34,005
+Speaker 1:  and more realistic than the 3D maps we get now. They
+
+212
+00:14:34,005 --> 00:14:37,765
+Speaker 4:  Go further than that though. They bring in real world air traffic. So
+
+213
+00:14:37,945 --> 00:14:41,925
+Speaker 4:  you are flying in the sky next to other planes that are
+
+214
+00:14:41,925 --> 00:14:45,845
+Speaker 4:  really in the real sky. They bring in real weather
+
+215
+00:14:46,075 --> 00:14:50,005
+Speaker 4:  data from actual weather data in real time. You
+
+216
+00:14:50,005 --> 00:14:53,925
+Speaker 4:  can actually bring in other players as well to act as like air traffic
+
+217
+00:14:54,445 --> 00:14:57,805
+Speaker 4:  controllers so that they can control the airports that you're flying around.
+
+218
+00:14:57,955 --> 00:15:01,445
+Speaker 4:  It's, it's an incredible multilayered
+
+219
+00:15:01,995 --> 00:15:03,365
+Speaker 4:  multiplayer simulation.
+
+220
+00:15:03,835 --> 00:15:07,045
+Speaker 1:  Yeah, simulation is truly the only word for it.
+
+221
+00:15:08,075 --> 00:15:11,005
+Speaker 1:  Okay, I want to get into flight simulator peripherals, but first we're gonna
+
+222
+00:15:11,005 --> 00:15:12,645
+Speaker 1:  take a quick break to listen to some ads.
+
+223
+00:17:08,675 --> 00:17:12,325
+Speaker 1:  what maybe a, a typical gamer has with a 16 by nine
+
+224
+00:17:13,005 --> 00:17:15,805
+Speaker 1:  computer screen in front of them. What are some of the things that you've
+
+225
+00:17:15,805 --> 00:17:19,605
+Speaker 1:  heard about or maybe you've even personally tried to kind of
+
+226
+00:17:19,825 --> 00:17:23,045
+Speaker 1:  go beyond the 16 by nine box that
+
+227
+00:17:23,525 --> 00:17:25,925
+Speaker 1:  constraints a normal flight sim experience.
+
+228
+00:17:26,665 --> 00:17:30,485
+Speaker 4:  The most easy and frankly the most popular
+
+229
+00:17:31,115 --> 00:17:35,005
+Speaker 4:  next step is to go with multiple monitors. Some folks
+
+230
+00:17:35,005 --> 00:17:38,925
+Speaker 4:  will do two, but then you have that bezel kind of right in front of you there.
+
+231
+00:17:39,345 --> 00:17:43,245
+Speaker 4:  So the kind of the standard is three monitors. And so there
+
+232
+00:17:43,245 --> 00:17:46,445
+Speaker 4:  are companies that will make triple monitor arms
+
+233
+00:17:47,315 --> 00:17:51,245
+Speaker 4:  with the intent being that you tell the program, be
+
+234
+00:17:51,245 --> 00:17:54,645
+Speaker 4:  it Microsoft, Flight Simulator or xplan or star citizen, whatever you're
+
+235
+00:17:54,645 --> 00:17:58,605
+Speaker 4:  using, I have three monitors and then you kind of calibrate it in and
+
+236
+00:17:58,605 --> 00:18:02,565
+Speaker 4:  you've got a view out the front of the canopy on your middle monitor to
+
+237
+00:18:02,845 --> 00:18:06,245
+Speaker 4:  whatever degree works for you. A view out the left side of the canopy and
+
+238
+00:18:06,245 --> 00:18:10,165
+Speaker 4:  the right side of the canopy. And at its most fundamental, this lets
+
+239
+00:18:10,165 --> 00:18:13,525
+Speaker 4:  you do things like line up your approach when you're landing, when you're
+
+240
+00:18:13,585 --> 00:18:17,445
+Speaker 4:  making that final turn, you can see the runway, you can
+
+241
+00:18:17,515 --> 00:18:21,045
+Speaker 4:  time that turn appropriately without doing any crazy stuff with a hat, switch
+
+242
+00:18:21,075 --> 00:18:23,845
+Speaker 4:  your keyboard. So that is kind of the most typical
+
+243
+00:18:24,655 --> 00:18:28,405
+Speaker 4:  adaptation. The next step up from there is actually
+
+244
+00:18:28,465 --> 00:18:32,445
+Speaker 4:  my preferred way to fly and that's what something called the track IR
+
+245
+00:18:32,665 --> 00:18:36,565
+Speaker 4:  or track infrared. So If, you remember the we right?
+
+246
+00:18:36,785 --> 00:18:40,685
+Speaker 4:  The dearly departed Nintendo we, it had that remote control
+
+247
+00:18:40,685 --> 00:18:44,445
+Speaker 4:  and there was infrared emitter on the front of the remote control. Then
+
+248
+00:18:44,605 --> 00:18:48,485
+Speaker 4:  you'd put that bar up on the top of your TV and the bar would
+
+249
+00:18:48,485 --> 00:18:52,125
+Speaker 4:  track where you're pointing the we mode, right? Sure. Track IR works
+
+250
+00:18:52,125 --> 00:18:55,485
+Speaker 4:  basically the same way. You get three little
+
+251
+00:18:55,985 --> 00:18:59,965
+Speaker 4:  IR emitters, you clip those to your headset or you clip it to
+
+252
+00:18:59,965 --> 00:19:03,845
+Speaker 4:  your hat, you just make sure it's on your head. And then there is
+
+253
+00:19:03,925 --> 00:19:07,525
+Speaker 4:  a receiving panel that you put on the top of your middle monitor
+
+254
+00:19:07,985 --> 00:19:11,725
+Speaker 4:  and it just kind of sits there. And yeah, as you move your
+
+255
+00:19:11,835 --> 00:19:15,565
+Speaker 4:  head, the panel on your monitor can see how
+
+256
+00:19:15,565 --> 00:19:19,405
+Speaker 4:  those three points of light move in space and it interprets that
+
+257
+00:19:20,265 --> 00:19:24,085
+Speaker 4:  as head movement inside the game. So when I'm using
+
+258
+00:19:24,085 --> 00:19:27,765
+Speaker 4:  my track ir, I can just look ever so slightly to my left
+
+259
+00:19:28,225 --> 00:19:32,165
+Speaker 4:  in the calibration of the track ir it will accelerate my head
+
+260
+00:19:32,445 --> 00:19:35,965
+Speaker 4:  movement inside the game. So even though I'm still looking at my middle monitor
+
+261
+00:19:36,465 --> 00:19:40,445
+Speaker 4:  on the screen, what I'll be seeing is fully behind me. Very cool.
+
+262
+00:19:40,665 --> 00:19:44,565
+Speaker 4:  And so you can calibrate this to meet your needs for a number of
+
+263
+00:19:44,565 --> 00:19:48,285
+Speaker 4:  different games. I use it also for arm three. I used to use it for
+
+264
+00:19:48,575 --> 00:19:52,325
+Speaker 4:  Daisy and it gave me a neck, which is not something that you get in most
+
+265
+00:19:52,325 --> 00:19:56,045
+Speaker 4:  first person shooters. Tremendously helpful when you're looking down a gun
+
+266
+00:19:56,045 --> 00:19:59,405
+Speaker 4:  site to be able to look to the left, look to the right without taking that
+
+267
+00:19:59,405 --> 00:20:03,005
+Speaker 4:  gun off your shoulder. But in a flight simulator it's just
+
+268
+00:20:03,005 --> 00:20:06,845
+Speaker 4:  situational awareness and it's increasingly important when you're doing any
+
+269
+00:20:06,875 --> 00:20:10,405
+Speaker 4:  type of combat flying. So when I'm playing in elite
+
+270
+00:20:10,725 --> 00:20:14,685
+Speaker 4:  dangerous, it's very easy to lose my quarry to lose
+
+271
+00:20:14,705 --> 00:20:17,645
+Speaker 4:  my bogey, lose the thing that I'm trying to shoot at. And I can look around
+
+272
+00:20:18,025 --> 00:20:21,965
+Speaker 4:  really with my actual head and the view changes on
+
+273
+00:20:21,965 --> 00:20:25,525
+Speaker 4:  my screen and it is delightful an alternative
+
+274
+00:20:25,885 --> 00:20:29,605
+Speaker 4:  solution to that. And it's something that I've had less success with. It's
+
+275
+00:20:29,625 --> 00:20:33,405
+Speaker 4:  eye tracking technology. A company called Tobe does that, or
+
+276
+00:20:33,795 --> 00:20:36,965
+Speaker 4:  Tobi, I don't know how to pronounce that company correctly, but
+
+277
+00:20:37,515 --> 00:20:41,285
+Speaker 4:  it's more in line with the, the form factor of the old
+
+278
+00:20:41,305 --> 00:20:44,405
+Speaker 4:  we, it kind of sits on the bottom or the top of your monitor and it literally
+
+279
+00:20:44,405 --> 00:20:48,365
+Speaker 4:  looks at your eyes and as you move your eyes it changes the view
+
+280
+00:20:48,385 --> 00:20:48,725
+Speaker 4:  for you.
+
+281
+00:20:49,265 --> 00:20:53,125
+Speaker 1:  So it seems like Charlie peripheral vision in flight is
+
+282
+00:20:53,195 --> 00:20:57,005
+Speaker 1:  essential, right? Absolutely. So, you know, casual gamer like
+
+283
+00:20:57,005 --> 00:21:00,845
+Speaker 1:  myself, I can't help wondering why not just throw a VR headset on
+
+284
+00:21:00,845 --> 00:21:02,365
+Speaker 1:  your, on your face. Have you tried that at all?
+
+285
+00:21:02,765 --> 00:21:06,605
+Speaker 4:  I have. I have actually in Elite Dangerous, I traveled
+
+286
+00:21:06,915 --> 00:21:10,805
+Speaker 4:  from the bubble, which is the area right around the Saul system in
+
+287
+00:21:10,805 --> 00:21:14,645
+Speaker 4:  the unfashionable Western spiral arm of our Milky Way galaxy.
+
+288
+00:21:14,705 --> 00:21:18,485
+Speaker 4:  And I went all the way across 65,000 plus light years to
+
+289
+00:21:18,485 --> 00:21:22,365
+Speaker 4:  Beagle Point, one of the furthest reaches in that game. And I spent four
+
+290
+00:21:22,365 --> 00:21:25,925
+Speaker 4:  months nightly making that trip and I did it all
+
+291
+00:21:26,185 --> 00:21:29,965
+Speaker 4:  in virtual reality with kind of, I think it was a launch Oculus,
+
+292
+00:21:30,145 --> 00:21:31,125
+Speaker 4:  if I remember correctly.
+
+293
+00:21:31,425 --> 00:21:35,285
+Speaker 1:  So you have a lot of experience in VR and I would imagine a very strong neck.
+
+294
+00:21:37,715 --> 00:21:41,565
+Speaker 4:  Yeah, yeah, it was, it was daunting man. Probably by two to four hours
+
+295
+00:21:41,985 --> 00:21:45,765
+Speaker 4:  per week night. Yeah, it was a lot of travel. I was doing probably like 80
+
+296
+00:21:45,975 --> 00:21:49,485
+Speaker 4:  jumps a night to try and get where I was going. Anybody who's played elite
+
+297
+00:21:49,495 --> 00:21:52,925
+Speaker 4:  knows that that's a lot of, a lot of, yeah, a lot of push in the throttle
+
+298
+00:21:52,925 --> 00:21:56,045
+Speaker 4:  back and forth. But I've also done it in Microsoft, Flight Simulator. I've
+
+299
+00:21:56,045 --> 00:21:59,285
+Speaker 4:  done it in, I've tried to do it in Star Citizen and I've done it in a few
+
+300
+00:21:59,285 --> 00:22:00,325
+Speaker 4:  other flight simulators as well.
+
+301
+00:22:00,875 --> 00:22:04,765
+Speaker 1:  Okay. Yeah, I mean a, as an apartment dweller, I'm looking around at my space
+
+302
+00:22:04,765 --> 00:22:08,405
+Speaker 1:  thinking, hmm, two or three screens that's that that'd be hard to fit on
+
+303
+00:22:08,405 --> 00:22:12,125
+Speaker 1:  my desk. But a VR headset seems, at least at first
+
+304
+00:22:12,125 --> 00:22:16,005
+Speaker 1:  thought to be the perfect solution for this. If I move my head up or
+
+305
+00:22:16,005 --> 00:22:19,605
+Speaker 1:  down left or right, it's, it's gonna show me what I would be
+
+306
+00:22:19,675 --> 00:22:23,525
+Speaker 1:  looking at in a cockpit. But there have to be some downsides of
+
+307
+00:22:23,525 --> 00:22:27,045
+Speaker 1:  it than the cost. Tell me about your, that four months in
+
+308
+00:22:27,505 --> 00:22:28,965
+Speaker 1:  vr, what was it like?
+
+309
+00:22:30,285 --> 00:22:34,005
+Speaker 4:  I mean, elite dangerous is a real pleasure
+
+310
+00:22:34,185 --> 00:22:38,125
+Speaker 4:  in VR and there's a reason for that. You're often
+
+311
+00:22:38,185 --> 00:22:42,045
+Speaker 4:  not looking at very much, it's, it's space Liam, there's a
+
+312
+00:22:42,045 --> 00:22:45,845
+Speaker 4:  planet, right? It's very far away. Looks like a star. There's a couple
+
+313
+00:22:46,165 --> 00:22:50,005
+Speaker 4:  thousand of those and, and that's it for the majority of your trip.
+
+314
+00:22:50,385 --> 00:22:54,165
+Speaker 4:  Now you get closer to a single celestial body, it's, it's very easy
+
+315
+00:22:54,345 --> 00:22:58,125
+Speaker 4:  for that, you know, circa 2014 client
+
+316
+00:22:58,425 --> 00:23:01,845
+Speaker 4:  to get the, the visuals right as you're coming closer to it.
+
+317
+00:23:02,425 --> 00:23:06,205
+Speaker 4:  So rarely do I have issues with frame rate in elite dangerous
+
+318
+00:23:07,085 --> 00:23:10,205
+Speaker 4:  Microsoft Flight Simulator is real hard though. And we're talking about,
+
+319
+00:23:10,325 --> 00:23:13,725
+Speaker 4:  I think I had an I seven or an I 9 32 gigs of Ram
+
+320
+00:23:14,345 --> 00:23:18,165
+Speaker 4:  2060 card I was working with and Microsoft Flight Simulator was
+
+321
+00:23:18,165 --> 00:23:21,565
+Speaker 4:  still very challenging frame rate wise.
+
+322
+00:23:22,145 --> 00:23:25,445
+Speaker 4:  And when you are flying, you do not want to
+
+323
+00:23:26,035 --> 00:23:29,765
+Speaker 4:  have a delay in your frame rates. You need to know where that
+
+324
+00:23:30,005 --> 00:23:33,565
+Speaker 4:  airplane is relative to air traffic around you relative to the ground, relative
+
+325
+00:23:33,645 --> 00:23:37,445
+Speaker 4:  to the runway at all times. So aside from just, you know,
+
+326
+00:23:37,745 --> 00:23:41,645
+Speaker 4:  the nausea that can be induced by the frames, lock it up
+
+327
+00:23:41,645 --> 00:23:45,205
+Speaker 4:  or skipping, not having that situational awareness is, is gonna end your
+
+328
+00:23:45,205 --> 00:23:49,085
+Speaker 4:  play through very quickly. But the other big issue that I had
+
+329
+00:23:49,545 --> 00:23:53,445
+Speaker 4:  on my trip to Beagle Point Elite Dangerous was, well I couldn't see the
+
+330
+00:23:53,645 --> 00:23:57,325
+Speaker 4:  keyboard and Elite Dangerous is unique. They actually
+
+331
+00:23:57,495 --> 00:24:00,885
+Speaker 4:  model the ctech X 52
+
+332
+00:24:01,205 --> 00:24:04,925
+Speaker 4:  joystick into the game. And so it was a partnership
+
+333
+00:24:05,155 --> 00:24:08,925
+Speaker 4:  between Cytech recently purchased by Logitech and
+
+334
+00:24:09,725 --> 00:24:12,445
+Speaker 4:  Frontier Developments to put their product in the game. So I looked down
+
+335
+00:24:12,445 --> 00:24:16,165
+Speaker 4:  in real life at the CYTECH X 52, same controller I'm using in the game,
+
+336
+00:24:16,545 --> 00:24:19,565
+Speaker 4:  but it doesn't move the same way all the time because I have my
+
+337
+00:24:20,685 --> 00:24:24,605
+Speaker 4:  bindings set differently than the game is expecting me to have my
+
+338
+00:24:24,725 --> 00:24:28,285
+Speaker 4:  binding sets. So when I use the rudder it shows my hand twisting. But
+
+339
+00:24:28,585 --> 00:24:32,125
+Speaker 4:  no, my feet are moving 'cause I have rudder pedals, so that's not one-to-one,
+
+340
+00:24:32,545 --> 00:24:35,925
+Speaker 4:  but there's a lot of buttons in the cockpit and I need this keyboard in front
+
+341
+00:24:35,925 --> 00:24:39,885
+Speaker 4:  of me in order to hit those buttons. And so that
+
+342
+00:24:40,285 --> 00:24:43,925
+Speaker 4:  required a lot of remapping of the controller. I was able to
+
+343
+00:24:44,165 --> 00:24:47,845
+Speaker 4:  remap what I needed to do all those lightspeed jumps to do all the
+
+344
+00:24:47,845 --> 00:24:51,445
+Speaker 4:  landing, to do all the maneuvering to the
+
+345
+00:24:51,445 --> 00:24:55,085
+Speaker 4:  buttons on my warthog throttle and the buttons on
+
+346
+00:24:55,265 --> 00:24:58,245
+Speaker 4:  my wart hog. I think it's an F 16
+
+347
+00:24:59,295 --> 00:25:03,125
+Speaker 4:  stick that I swapped out for the traditional warthog stick. But I was
+
+348
+00:25:03,125 --> 00:25:06,845
+Speaker 4:  able to do everything I needed to do using the buttons on the
+
+349
+00:25:06,845 --> 00:25:10,485
+Speaker 4:  joystick, including reset the center of my vr. But I
+
+350
+00:25:10,485 --> 00:25:14,445
+Speaker 4:  couldn't shut down the game, I couldn't pause the game for that.
+
+351
+00:25:14,605 --> 00:25:18,565
+Speaker 4:  I had to take off the helmet, I had to look down at my keyboard and it, it
+
+352
+00:25:18,565 --> 00:25:21,845
+Speaker 4:  takes you out of the experience a little bit, but mostly it's a performance
+
+353
+00:25:21,845 --> 00:25:25,525
+Speaker 4:  issue. Like if those frames are not where you need them to be, it's a very
+
+354
+00:25:25,525 --> 00:25:29,285
+Speaker 4:  uncomfortable experience and it's, it's not productive frankly. It's
+
+355
+00:25:29,285 --> 00:25:33,245
+Speaker 4:  better I feel to have the higher frame rate to have it on a monitor
+
+356
+00:25:33,345 --> 00:25:37,245
+Speaker 4:  in front of you. And I prefer to use track IR over VR because
+
+357
+00:25:37,245 --> 00:25:37,525
+Speaker 4:  of that.
+
+358
+00:25:38,115 --> 00:25:41,685
+Speaker 1:  Well it seems like the community agrees with you. I watched
+
+359
+00:25:42,155 --> 00:25:45,965
+Speaker 1:  many, many hours of people excitedly trying out
+
+360
+00:25:46,205 --> 00:25:49,485
+Speaker 1:  headsets from the MedQuest three, the valve index
+
+361
+00:25:50,025 --> 00:25:53,925
+Speaker 1:  of course the HT C vi and one in particular stood
+
+362
+00:25:53,925 --> 00:25:57,805
+Speaker 1:  out to me that a lot of flight sim enthusiasts were excited about
+
+363
+00:25:57,915 --> 00:26:01,645
+Speaker 1:  last year, which was the ax crystal. And it seems like
+
+364
+00:26:02,205 --> 00:26:06,165
+Speaker 1:  a very similar story to what we're seeing with even the Apple
+
+365
+00:26:06,165 --> 00:26:10,005
+Speaker 1:  Vision Pro, the kind of consumer focused version of one of these
+
+366
+00:26:10,105 --> 00:26:13,685
+Speaker 1:  VR headsets and that, you know, there's, there's a huge amount of
+
+367
+00:26:13,685 --> 00:26:17,645
+Speaker 1:  anticipation and excitement and then of course you get the thing and
+
+368
+00:26:17,645 --> 00:26:20,845
+Speaker 1:  you try it on and you, you see all the edge cases and
+
+369
+00:26:21,665 --> 00:26:25,325
+Speaker 1:  issues with it and you've now have this very expensive
+
+370
+00:26:25,905 --> 00:26:29,725
+Speaker 1:  device that you can strap to your head but you don't want to anymore. It
+
+371
+00:26:29,725 --> 00:26:33,285
+Speaker 1:  seems like, from what I'm gathering from the Flight sim
+
+372
+00:26:33,435 --> 00:26:37,245
+Speaker 1:  YouTube community is that a lot of people have tried these, these VR headsets
+
+373
+00:26:37,245 --> 00:26:40,445
+Speaker 1:  and gone back to that three monitor setup that you're talking about because
+
+374
+00:26:40,945 --> 00:26:44,285
+Speaker 1:  in the end that just still provides a better
+
+375
+00:26:44,335 --> 00:26:46,365
+Speaker 1:  experience. Is that, would you agree with that?
+
+376
+00:26:46,965 --> 00:26:50,645
+Speaker 4:  I would agree with that. It's absolutely been my experience. It's been my
+
+377
+00:26:50,645 --> 00:26:54,405
+Speaker 4:  experience in, you know, high-end flight sim YouTubers that
+
+378
+00:26:54,525 --> 00:26:58,365
+Speaker 4:  I follow. The folks like the Grim Reapers, the majority of
+
+379
+00:26:58,365 --> 00:27:02,285
+Speaker 4:  of their team I think does the, the one or two or three monitors set up
+
+380
+00:27:02,705 --> 00:27:06,445
+Speaker 4:  and so do the ground training centers for the F 35
+
+381
+00:27:06,665 --> 00:27:10,565
+Speaker 4:  and the F 22. Like when you look at the
+
+382
+00:27:10,805 --> 00:27:14,765
+Speaker 4:  military training regime for those latest generation fighters,
+
+383
+00:27:15,225 --> 00:27:18,965
+Speaker 4:  you know, it's a tactile experience for them. They
+
+384
+00:27:18,965 --> 00:27:22,925
+Speaker 4:  need to know that the buttons in the cockpit
+
+385
+00:27:22,945 --> 00:27:26,685
+Speaker 4:  are where the buttons are gonna be in the actual cockpit. And that's the
+
+386
+00:27:26,885 --> 00:27:30,845
+Speaker 4:  majority I think of what they're training to. I need to hit this switch
+
+387
+00:27:31,315 --> 00:27:35,285
+Speaker 4:  without even looking at it. That's the work. And they should already know
+
+388
+00:27:35,285 --> 00:27:38,485
+Speaker 4:  how to fly the airplane by that point. But yeah,
+
+389
+00:27:38,565 --> 00:27:42,325
+Speaker 4:  technologically it, it seems to be a better experience just working with
+
+390
+00:27:42,325 --> 00:27:42,725
+Speaker 4:  screens.
+
+391
+00:27:43,795 --> 00:27:46,845
+Speaker 1:  Okay, we're gonna take another quick break then we'll get into whether VR
+
+392
+00:27:47,035 --> 00:27:49,645
+Speaker 1:  will ever be the future of flight simulators. We'll be right back.
+
+393
+00:29:36,085 --> 00:29:39,925
+Speaker 4:  simulators. And like the drawbacks to the human
+
+394
+00:29:39,975 --> 00:29:43,765
+Speaker 4:  physiology are real. I spent a lot of time,
+
+395
+00:29:44,225 --> 00:29:48,165
+Speaker 4:  for instance, reviewing Medal of Honor above and beyond, which was,
+
+396
+00:29:48,305 --> 00:29:52,085
+Speaker 4:  you know, the, the re-imagining of EAs classic first
+
+397
+00:29:52,085 --> 00:29:55,925
+Speaker 4:  person shooter. But for the Oculus Rift and review situations can be
+
+398
+00:29:56,125 --> 00:30:00,005
+Speaker 4:  stressful. And so I had to spend about six, eight hours reviewing
+
+399
+00:30:00,005 --> 00:30:03,885
+Speaker 4:  this game under a time crunch for embargo. And Liam, I
+
+400
+00:30:03,885 --> 00:30:07,605
+Speaker 4:  was laid out for the rest of the week. Oh, I bet it had a
+
+401
+00:30:07,715 --> 00:30:11,645
+Speaker 4:  deep, deeply bad thing happen to my inner
+
+402
+00:30:11,705 --> 00:30:15,525
+Speaker 4:  ear and all of the things that kept me upright. And it was no low level
+
+403
+00:30:15,745 --> 00:30:19,045
+Speaker 4:  nausea that I was stuck with for like the better part of three days.
+
+404
+00:30:19,705 --> 00:30:23,565
+Speaker 4:  So I don't enjoy first person shooter
+
+405
+00:30:23,565 --> 00:30:27,325
+Speaker 4:  games, I don't enjoy Minecraft in vr. I, I was there at that press
+
+406
+00:30:27,325 --> 00:30:31,285
+Speaker 4:  event as well for Minecraft vr and it was not a pleasurable experience, but
+
+407
+00:30:31,465 --> 00:30:35,125
+Speaker 4:  flight simulators, they work for me. And
+
+408
+00:30:35,195 --> 00:30:38,725
+Speaker 4:  I'll tell you why. Elite in particular has a
+
+409
+00:30:39,205 --> 00:30:42,885
+Speaker 4:  permanent horizon line in front of you. It is this transparent
+
+410
+00:30:43,275 --> 00:30:47,165
+Speaker 4:  dashboard piece that sits on the screen in front of you and it's a similar
+
+411
+00:30:47,175 --> 00:30:50,725
+Speaker 4:  thing with a flight simul. You've got that top of the cockpit
+
+412
+00:30:50,725 --> 00:30:54,645
+Speaker 4:  dashboard right there in front of you and it eases a lot of that motion
+
+413
+00:30:55,325 --> 00:30:58,605
+Speaker 4:  sickness for me. And that may not be true of everybody,
+
+414
+00:30:59,305 --> 00:31:03,085
+Speaker 4:  but actually having it on your head for more than an hour or
+
+415
+00:31:03,145 --> 00:31:07,125
+Speaker 4:  two does get to be taxing. I would come out
+
+416
+00:31:07,125 --> 00:31:10,965
+Speaker 4:  of my office after my trip to Beagle Point and the kids would make fun of
+
+417
+00:31:10,965 --> 00:31:14,845
+Speaker 4:  me because I'd have this trench down my bushy hair
+
+418
+00:31:14,865 --> 00:31:18,725
+Speaker 4:  on the top of my head. I'd have goggle marks on my face.
+
+419
+00:31:18,825 --> 00:31:22,565
+Speaker 4:  The tip of my nose would be red. 'cause I'm a six and a half foot tall human.
+
+420
+00:31:22,785 --> 00:31:26,765
+Speaker 4:  And all of me doesn't quite fit inside of most VR helmets because of
+
+421
+00:31:26,765 --> 00:31:30,685
+Speaker 4:  that. But also, especially with something like, I've had a
+
+422
+00:31:30,685 --> 00:31:34,445
+Speaker 4:  lot of experience with the HTC Vive very heavy
+
+423
+00:31:34,585 --> 00:31:38,325
+Speaker 4:  on the front. When you're using the wireless set, there's a
+
+424
+00:31:38,325 --> 00:31:42,245
+Speaker 4:  battery that you have to wear on your waist to get truly untethered
+
+425
+00:31:42,245 --> 00:31:46,085
+Speaker 4:  access to that platform. And it's just a lot of stuff that weighs you
+
+426
+00:31:46,085 --> 00:31:49,325
+Speaker 4:  down and yeah, there's some fatigue on your neck. So I don't know,
+
+427
+00:31:49,955 --> 00:31:53,445
+Speaker 4:  it's, some headsets are better than others in my opinion,
+
+428
+00:31:53,825 --> 00:31:57,365
+Speaker 4:  but I mean, it's, it's certainly nothing like wearing a, a
+
+429
+00:31:57,645 --> 00:32:01,485
+Speaker 4:  military style helmet for a long period of time. That is a weight
+
+430
+00:32:01,625 --> 00:32:04,965
+Speaker 4:  on your head, but it's, it's not the most comfortable thing either.
+
+431
+00:32:05,685 --> 00:32:09,525
+Speaker 4:  Microsoft Flighting leader does something really clever in this regard. You
+
+432
+00:32:09,525 --> 00:32:13,045
+Speaker 4:  can actually accelerate your flight, like you do the takeoff part, you can
+
+433
+00:32:13,045 --> 00:32:15,485
+Speaker 4:  do the landing part and you just hit a couple of buttons and it takes that
+
+434
+00:32:15,485 --> 00:32:19,005
+Speaker 4:  whole middle part and just compresses it down to a couple of seconds. So
+
+435
+00:32:19,005 --> 00:32:22,165
+Speaker 4:  you're, you're doing the most active, the most engaging parts of the flight
+
+436
+00:32:22,165 --> 00:32:25,725
+Speaker 4:  during your time in vr and you don't have to, you know, do the Overland autopilot
+
+437
+00:32:25,725 --> 00:32:27,685
+Speaker 4:  section for four hours to get to la
+
+438
+00:32:28,185 --> 00:32:30,965
+Speaker 1:  Oh, that's very cool. I didn't know they they had that feature. That's nice.
+
+439
+00:32:31,425 --> 00:32:35,325
+Speaker 1:  So Charlie, as Microsoft continues to push the boundaries of
+
+440
+00:32:35,545 --> 00:32:39,470
+Speaker 1:  what's possible with Flight Simulator making it feel
+
+441
+00:32:39,470 --> 00:32:43,005
+Speaker 1:  more and more realistic to what you'd experience in a real cockpit,
+
+442
+00:32:43,425 --> 00:32:47,365
+Speaker 1:  do you think that VR may come back into the fold? Or do you
+
+443
+00:32:47,365 --> 00:32:50,925
+Speaker 1:  think that the visual experience is best represented
+
+444
+00:32:51,345 --> 00:32:54,805
+Speaker 1:  by a wall of monitors kind of making you feel like you're inside a cockpit?
+
+445
+00:32:55,605 --> 00:32:59,405
+Speaker 4:  I am really excited about the
+
+446
+00:32:59,405 --> 00:33:02,965
+Speaker 4:  mixed reality work that I'm seeing out of the Apple VR
+
+447
+00:33:03,425 --> 00:33:07,325
+Speaker 4:  in particular. And here's why. When Microsoft
+
+448
+00:33:08,105 --> 00:33:11,925
+Speaker 4:  set out to make Flight Simulator and Flight Simulator 2024, the
+
+449
+00:33:11,925 --> 00:33:15,125
+Speaker 4:  latest edition of it, they worked very closely
+
+450
+00:33:15,715 --> 00:33:19,005
+Speaker 4:  with aircraft manufacturers, with Boeing, with
+
+451
+00:33:19,305 --> 00:33:23,285
+Speaker 4:  Airbus, with folks like Icon. And what they've done is
+
+452
+00:33:23,285 --> 00:33:27,005
+Speaker 4:  they've actually baked into the game pre-flight
+
+453
+00:33:27,135 --> 00:33:31,005
+Speaker 4:  checklists and If, you go down those pre-flight checklists.
+
+454
+00:33:31,315 --> 00:33:35,085
+Speaker 4:  Well, lo and behold, you can actually interact with all of
+
+455
+00:33:35,425 --> 00:33:39,325
+Speaker 4:  the gauges and dials and buttons and switches in the aircraft.
+
+456
+00:33:39,545 --> 00:33:43,445
+Speaker 4:  It is a hot dashboard in front of you. You
+
+457
+00:33:43,445 --> 00:33:47,365
+Speaker 4:  need merely point your face down with your track ir use
+
+458
+00:33:47,365 --> 00:33:51,125
+Speaker 4:  your mouse to reach out and click those switches. But I look
+
+459
+00:33:51,125 --> 00:33:55,005
+Speaker 4:  forward to a day where there's some kind of mixed reality
+
+460
+00:33:55,025 --> 00:33:58,845
+Speaker 4:  in front of me where I can see my hand or a vision of my hand
+
+461
+00:33:59,065 --> 00:34:02,725
+Speaker 4:  and I can reach that hand out and I can touch this virtual
+
+462
+00:34:02,915 --> 00:34:06,445
+Speaker 4:  dashboard in front of me and change the altitude setting and
+
+463
+00:34:06,625 --> 00:34:10,405
+Speaker 4:  switch to the other gas tank and I can lower the
+
+464
+00:34:10,405 --> 00:34:14,365
+Speaker 4:  landing gear really with my hands virtually rather than using
+
+465
+00:34:14,385 --> 00:34:17,645
+Speaker 4:  the keyboard. But I don't have a good
+
+466
+00:34:17,715 --> 00:34:21,125
+Speaker 4:  expectation that that is gonna happen anytime soon
+
+467
+00:34:21,595 --> 00:34:25,445
+Speaker 4:  because there are better cheaper solutions
+
+468
+00:34:25,555 --> 00:34:29,285
+Speaker 4:  like monitors and keyboards out there. I don't know that there is enough
+
+469
+00:34:30,785 --> 00:34:34,445
+Speaker 4:  desire, enough of an audience really to make that happen,
+
+470
+00:34:34,625 --> 00:34:37,605
+Speaker 4:  but I, I can see how it could work. Does that make sense?
+
+471
+00:34:38,035 --> 00:34:41,805
+Speaker 1:  That makes perfect sense And, and honestly, mixed reality is
+
+472
+00:34:42,125 --> 00:34:45,965
+Speaker 1:  probably the perfect technology. It's exciting to see some of, some of the
+
+473
+00:34:45,985 --> 00:34:49,725
+Speaker 1:  things we can do now with them. But what I'm really excited about is,
+
+474
+00:34:49,785 --> 00:34:53,605
+Speaker 1:  is where, you know, of course it's the joke that right VR is just a few years
+
+475
+00:34:53,715 --> 00:34:57,565
+Speaker 1:  away or you know, this is the year of Linux on the
+
+476
+00:34:57,565 --> 00:35:00,805
+Speaker 1:  desktop. So many of those in, in the technology world. But it really does
+
+477
+00:35:00,805 --> 00:35:04,765
+Speaker 1:  feel like we've gotten to a point now where we can comfortably
+
+478
+00:35:04,785 --> 00:35:08,525
+Speaker 1:  say mixed reality will eventually get to a point that can
+
+479
+00:35:08,525 --> 00:35:12,045
+Speaker 1:  offer us some experiences that we just, we can't pull off right now.
+
+480
+00:35:12,395 --> 00:35:12,685
+Speaker 1:  Yeah.
+
+481
+00:35:12,985 --> 00:35:16,765
+Speaker 4:  And just like they have the capacity to stream in new satellite
+
+482
+00:35:16,765 --> 00:35:20,445
+Speaker 4:  data or new weather data, I'm confident that a OBO and, and
+
+483
+00:35:20,685 --> 00:35:24,605
+Speaker 4:  Microsoft have the capability to, to add that in there too because
+
+484
+00:35:24,605 --> 00:35:28,365
+Speaker 4:  they've got those dashboards, those cockpits that, that really do have working
+
+485
+00:35:28,685 --> 00:35:30,365
+Speaker 4:  switches really do work like the real thing.
+
+486
+00:35:30,795 --> 00:35:34,045
+Speaker 1:  Yeah. Ooh, it's very exciting. My third grade
+
+487
+00:35:34,555 --> 00:35:38,445
+Speaker 1:  self, just hoping and wishing for a computer to one day run flight
+
+488
+00:35:38,545 --> 00:35:42,245
+Speaker 1:  sim has been reignited I'm very excited about, about this future.
+
+489
+00:35:42,345 --> 00:35:45,325
+Speaker 1:  So we'll have to have you back to try those, those new things when they,
+
+490
+00:35:45,325 --> 00:35:46,285
+Speaker 1:  when they finally come out.
+
+491
+00:35:46,845 --> 00:35:50,325
+Speaker 4:  I can't wait. I will be there and ready to fly. Let's do it.
+
+492
+00:35:50,355 --> 00:35:52,685
+Speaker 1:  Charlie, thank you so much for coming on the show. Thank you
+
+493
+00:35:52,835 --> 00:35:53,725
+Speaker 4:  Liam. This was a blast.
+
+494
+00:35:55,935 --> 00:35:59,685
+Speaker 3:  Thank you Liam. Thank you Charlie, thank you to everybody who listened to
+
+495
+00:35:59,685 --> 00:36:03,405
+Speaker 3:  this show. That is it for The. Vergecast for today. I honestly
+
+496
+00:36:03,405 --> 00:36:06,205
+Speaker 3:  believe I'm about to go buy a bunch of new monitors. I don't even really
+
+497
+00:36:06,205 --> 00:36:10,085
+Speaker 3:  know that I'm a flight simulator guy. I've dabbled with it in the past.
+
+498
+00:36:10,525 --> 00:36:13,765
+Speaker 3:  I also at one point got very excited about a Formula one simulator.
+
+499
+00:36:14,465 --> 00:36:18,365
+Speaker 3:  That's a whole thing. But at some point in this episode, I just looked at
+
+500
+00:36:18,365 --> 00:36:21,805
+Speaker 3:  my one monitor and I'm like, this isn't enough. It's time. Anyway,
+
+501
+00:36:22,015 --> 00:36:25,765
+Speaker 3:  thank you as always for listening. This is the last episode in our Five
+
+502
+00:36:25,825 --> 00:36:29,485
+Speaker 3:  Senses of Gaming series, but we will be back with more special content for
+
+503
+00:36:29,485 --> 00:36:33,085
+Speaker 3:  you really soon. We have some more fun series coming up between now and the
+
+504
+00:36:33,085 --> 00:36:36,525
+Speaker 3:  end of the year. It's gonna be great. As always. There is lots more to read
+
+505
+00:36:36,665 --> 00:36:40,525
+Speaker 3:  on gaming and everything going on in tech at The Verge dot com. It's a
+
+506
+00:36:40,525 --> 00:36:44,165
+Speaker 3:  website, we like it a bunch. This show is produced by Liam James Wil Pour
+
+507
+00:36:44,265 --> 00:36:46,965
+Speaker 3:  and Andrew Marino. The Vergecast is The Verge production and part of the
+
+508
+00:36:46,965 --> 00:36:50,605
+Speaker 3:  Vox Media podcast network. We'll be back on Tuesday to talk about Microsoft
+
+509
+00:36:51,305 --> 00:36:54,605
+Speaker 3:  PCs, the Smart Home, and a whole bunch of other stuff. We'll see you then.
+
+510
+00:36:54,795 --> 00:36:55,365
+Speaker 3:  Rock and roll
+
