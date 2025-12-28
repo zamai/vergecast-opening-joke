@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vergecast Opening Joke</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="guess-rate" class="guess-rate hidden">
+            <div class="guess-rate-title">Guess Rate</div>
+            <div id="guess-rate-value" class="guess-rate-value">0%</div>
+        </div>
+        <header>
+            <h1>🎙️ Vergecast Opening Joke ⛴️</h1>
+            <p class="subtitle">Can you tell if it's real or LLM generated?</p>
+        </header>
+
+        <main>
+            <div id="quote-display" class="quote-display">
+                <p id="quote-text">Loading quote...</p>
+            </div>
+
+            <div id="selection-buttons" class="button-container">
+                <button id="fake-btn" class="choice-btn fake-btn">❌ FAKE</button>
+                <button id="real-btn" class="choice-btn real-btn">✅ REAL</button>
+            </div>
+
+            <div id="result-area" class="result-area hidden">
+                <div id="result-message" class="result-message"></div>
+                <div id="episode-info" class="episode-info"></div>
+                <button id="next-btn" class="next-btn">Next Quote →</button>
+            </div>
+
+            <div id="completion-message" class="completion-message hidden">
+                <h2>🚢 You've seen all the quotes! 🚢</h2>
+                <button id="restart-btn" class="restart-btn">Play Again</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+
