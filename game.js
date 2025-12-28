@@ -1,46 +1,5 @@
-// Embedded data arrays
-const realQuotes = [
-    {
-        quote: "Welcome to The Vergecast, the flagship podcast of the action button.",
-        episode: "September 20, 2023"
-    },
-    {
-        quote: "Welcome to The Vergecast, the flagship podcast of AI generated wallpapers.",
-        episode: "October 11, 2023"
-    },
-    {
-        quote: "Welcome to The Vergecast, the flagship podcast of Low Stakes Game shows.",
-        episode: "November 3, 2024"
-    },
-    {
-        quote: "Welcome to The Vergecast, the flagship podcast of Cozy Games.",
-        episode: "November 29, 2024"
-    },
-    {
-        quote: "Welcome to The Vergecast, the flagship podcast of phones that look like Phones.",
-        episode: "September 17, 2025"
-    }
-];
-
-const fakeQuotes = [
-    {
-        quote: "Welcome to The Vergecast, the flagship podcast of quantum toaster ovens."
-    },
-    {
-        quote: "Welcome to The Vergecast, the flagship podcast of sentient USB cables."
-    },
-    {
-        quote: "Welcome to The Vergecast, the flagship podcast of time-traveling keyboards."
-    },
-    {
-        quote: "Welcome to The Vergecast, the flagship podcast of AI-powered shoelaces."
-    },
-    {
-        quote: "Welcome to The Vergecast, the flagship podcast of self-aware coffee mugs."
-    }
-];
-
 // Game state
+// Note: realQuotes and fakeQuotes are loaded from quotes.js
 let allQuotes = [];
 let usedIndices = new Set();
 let currentQuote = null;
