@@ -86,7 +86,7 @@ function updateGuessRate() {
     if (totalGuesses === 0) return;
     
     const rate = Math.round((correctGuesses / totalGuesses) * 100);
-    guessRateValue.textContent = `${rate}%`;
+    guessRateValue.textContent = `${rate}% (${correctGuesses}/${totalGuesses})`;
     
     // Show guess rate after first guess
     if (totalGuesses > 0) {
